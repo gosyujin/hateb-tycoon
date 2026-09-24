@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>hateb-tycoon</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="app-header">
+  <h1 class="app-title"><a href="#/">hateb-tycoon</a></h1>
+  <button id="settings-btn" type="button" class="btn">フィルタ設定</button>
+</header>
+
+<main>
+  <section id="view-list">
+    <div class="toolbar">
+      <nav id="category-tabs" class="tabs"></nav>
+      <button id="refresh-btn" type="button" class="btn btn--small">更新</button>
+    </div>
+    <p id="list-status" class="status"></p>
+    <div id="entry-grid" class="entry-grid"></div>
+  </section>
+
+  <section id="view-entry" hidden>
+    <button id="entry-back" type="button" class="btn btn--small">← 一覧に戻る</button>
+    <div id="entry-header" class="entry-header"></div>
+    <p id="entry-status" class="status"></p>
+    <ul id="comment-list" class="comment-list"></ul>
+  </section>
+</main>
+
+<div id="settings-modal" class="modal" hidden>
+  <div class="modal-panel">
+    <div class="modal-header">
+      <h2>フィルタ設定</h2>
+      <button id="settings-close" type="button" class="btn btn--small">閉じる</button>
+    </div>
+    <nav id="settings-tabs" class="tabs"></nav>
+    <p class="hint">
+      タイトル・ドメイン・はてなユーザー・ブックマークコメントを対象に、部分一致(大文字小文字を区別しない)でフィルタします。<br>
+      判定順序: 強制ブロック &gt; ブラックリスト(ホワイトリストで例外解除可) &gt; 表示。
+    </p>
+    <form id="settings-form" class="rule-form">
+      <select id="rule-type">
+        <option value="title">タイトル</option>
+        <option value="domain">ドメイン</option>
+        <option value="user">はてなユーザー</option>
+        <option value="comment">ブックマークコメント</option>
+      </select>
+      <input id="rule-value" type="text" placeholder="一致させる文字列" autocomplete="off">
+      <button type="submit" class="btn">追加</button>
+    </form>
+    <ul id="rule-list" class="rule-list"></ul>
+  </div>
+</div>
+
+<script src="js/filters.js"></script>
+<script src="js/hatena-api.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
