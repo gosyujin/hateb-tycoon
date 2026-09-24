@@ -41,14 +41,16 @@
         reject(new Error('リクエストがタイムアウトしました'));
       }, timeoutMs);
 
+      const src = `${url}?${query.toString()}`;
+
       script.onerror = () => {
         if (settled) return;
         settled = true;
         cleanup();
-        reject(new Error('データの取得に失敗しました(ネットワークエラー)'));
+        reject(new Error(`データの取得に失敗しました(ネットワークエラー): ${src}`));
       };
 
-      script.src = `${url}?${query.toString()}`;
+      script.src = src;
       document.head.appendChild(script);
     });
   }
@@ -109,10 +111,8 @@
   ];
 
   async function getHotEntries(category) {
-    const base =
-      category && category !== 'all'
-        ? `https://b.hatena.ne.jp/hotentry/${encodeURIComponent(category)}.json`
-        : 'https://b.hatena.ne.jp/hotentry.json';
+    const slug = category || 'all';
+    const base = `https://b.hatena.ne.jp/hotentry/${encodeURIComponent(slug)}.json`;
     const data = await jsonp(base);
     return Array.isArray(data) ? data.map(normalizeHotEntry) : [];
   }

@@ -239,6 +239,9 @@ main {
   padding: 16px;
   z-index: 100;
 }
+.modal[hidden] {
+  display: none;
+}
 .modal-panel {
   background: var(--color-surface);
   border-radius: var(--radius);
