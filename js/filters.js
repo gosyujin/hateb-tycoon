@@ -1,5 +1,5 @@
 /**
- * localStorage に保存するフィルタルール(blacklist / whitelist / forceBlock)の管理と、
+ * localStorage に保存するフィルタルール(mute / unmute / forceMute)の管理と、
  * ブックマーク項目に対するマッチング判定を行うモジュール。
  *
  * ルールは { id, type, value } の配列。
@@ -7,15 +7,15 @@
  *   value: 部分一致(大文字小文字を区別しない)させる文字列
  *
  * 判定ロジック:
- *   1. forceBlock に一致 -> 強制的に非表示 (whitelist でも解除不可)
- *   2. blacklist に一致し、whitelist に一致しない -> 非表示
+ *   1. forceMute に一致 -> 強制的に非表示 (unmute でも解除不可)
+ *   2. mute に一致し、unmute に一致しない -> 非表示
  *   3. それ以外 -> 表示
  */
 (function (global) {
   const STORAGE_KEYS = {
-    blacklist: 'hateb-tycoon:blacklist',
-    whitelist: 'hateb-tycoon:whitelist',
-    forceBlock: 'hateb-tycoon:forceBlock',
+    mute: 'hateb-tycoon:mute',
+    unmute: 'hateb-tycoon:unmute',
+    forceMute: 'hateb-tycoon:forceMute',
   };
 
   const KINDS = Object.keys(STORAGE_KEYS);
@@ -93,16 +93,16 @@
   }
 
   function isHidden(item) {
-    const forceBlock = loadRules('forceBlock');
-    if (forceBlock.some((r) => matchRule(r, item))) return true;
+    const forceMute = loadRules('forceMute');
+    if (forceMute.some((r) => matchRule(r, item))) return true;
 
-    const blacklist = loadRules('blacklist');
-    const hitBlack = blacklist.some((r) => matchRule(r, item));
-    if (!hitBlack) return false;
+    const mute = loadRules('mute');
+    const hitMute = mute.some((r) => matchRule(r, item));
+    if (!hitMute) return false;
 
-    const whitelist = loadRules('whitelist');
-    const hitWhite = whitelist.some((r) => matchRule(r, item));
-    return !hitWhite;
+    const unmute = loadRules('unmute');
+    const hitUnmute = unmute.some((r) => matchRule(r, item));
+    return !hitUnmute;
   }
 
   global.Filters = {

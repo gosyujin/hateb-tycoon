@@ -21,12 +21,12 @@
   const ruleList = document.getElementById('rule-list');
 
   let currentCategory = 'all';
-  let currentSettingsKind = 'blacklist';
+  let currentSettingsKind = 'mute';
 
   const KIND_LABEL = {
-    blacklist: 'ブラックリスト(該当したら非表示)',
-    whitelist: 'ホワイトリスト(ブラックリストの例外として表示)',
-    forceBlock: '強制ブロック(ホワイトリストでも解除不可で非表示)',
+    mute: 'ミュートワード(該当したら非表示)',
+    unmute: 'ミュート解除ワード(ミュートワードの例外として表示)',
+    forceMute: '強制ミュートワード(ミュート解除ワードでも解除不可で非表示)',
   };
   const TYPE_LABEL = {
     title: 'タイトル',
