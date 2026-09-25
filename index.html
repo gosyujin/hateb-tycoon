@@ -20,15 +20,21 @@
     </div>
     <div class="list-status-row">
       <p id="list-status" class="status"></p>
-      <label class="sort-label">
-        並び順
-        <select id="sort-select">
-          <option value="acquired">取り込み順(デフォルト)</option>
-          <option value="count">ブックマークが多い順</option>
-          <option value="hatenaDate">はてな更新日時が新しい順</option>
-          <option value="title">タイトル(あいうえお)順</option>
-        </select>
-      </label>
+      <div class="list-controls">
+        <label class="visited-toggle">
+          <input type="checkbox" id="hide-visited-checkbox">
+          既読なら非表示にする
+        </label>
+        <label class="sort-label">
+          並び順
+          <select id="sort-select">
+            <option value="acquired">取り込み順(デフォルト)</option>
+            <option value="count">ブックマークが多い順</option>
+            <option value="hatenaDate">はてな更新日時が新しい順</option>
+            <option value="title">タイトル(あいうえお)順</option>
+          </select>
+        </label>
+      </div>
     </div>
     <div id="entry-grid" class="entry-grid"></div>
   </section>
@@ -93,6 +99,7 @@
 
 <script src="js/build-info.js"></script>
 <script src="js/filters.js"></script>
+<script src="js/visited.js"></script>
 <script src="js/hatena-api.js"></script>
 <script src="js/app.js"></script>
 </body>

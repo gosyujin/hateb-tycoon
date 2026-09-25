@@ -147,6 +147,22 @@ main {
   flex: 1 1 auto;
   min-width: 0;
 }
+.list-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+.visited-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  flex-shrink: 0;
+  cursor: pointer;
+}
 .sort-label {
   display: flex;
   align-items: center;
@@ -488,5 +504,8 @@ main {
   }
   .sort-label select {
     padding: 3px 4px;
+  }
+  .visited-toggle {
+    font-size: 0.7rem;
   }
 }

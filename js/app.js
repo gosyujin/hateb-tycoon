@@ -6,6 +6,7 @@
   const listStatus = document.getElementById('list-status');
   const refreshBtn = document.getElementById('refresh-btn');
   const sortSelect = document.getElementById('sort-select');
+  const hideVisitedCheckbox = document.getElementById('hide-visited-checkbox');
 
   const entryBack = document.getElementById('entry-back');
   const entryBackBottom = document.getElementById('entry-back-bottom');
@@ -33,10 +34,13 @@
 
   const PAGE_SIZE = 20;
   let baseEntries = []; // フィルタ適用後、取り込み順(APIの返却順)のまま保持する基準データ
+  let hiddenByFilterCount = 0;
+  let hasLoadedList = false;
   let currentVisibleEntries = [];
   let renderedCount = 0;
   let scrollObserver = null;
   let currentSortMode = 'acquired';
+  let hideVisited = false; // デフォルトは非表示にしない(チェックなし)
 
   // 取り込み順(acquired)は無並び替え(APIが firstSeenAt 新しい順で返す順序をそのまま使う)。
   // hatenaDate は RSSの dc:date(はてな側が記事に付与する日時)で、取得のたびに
@@ -304,44 +308,73 @@
     disconnectScrollObserver();
     entryGrid.innerHTML = '';
     baseEntries = [];
+    hiddenByFilterCount = 0;
+    hasLoadedList = false;
     currentVisibleEntries = [];
     renderedCount = 0;
     listStatus.textContent = '読み込み中…';
     try {
       const entries = await HatenaAPI.getHotEntries(currentCategory);
       const visible = entries.filter((item) => !Filters.isHidden(item));
-      const hiddenCount = entries.length - visible.length;
-
-      if (visible.length === 0) {
-        listStatus.textContent =
-          hiddenCount > 0
-            ? `表示できる記事がありません(フィルタにより ${hiddenCount} 件を非表示にしました)`
-            : '記事を取得できませんでした。';
-        return;
-      }
-
-      listStatus.textContent =
-        hiddenCount > 0 ? `${visible.length} 件を表示中(${hiddenCount} 件を非表示)` : `${visible.length} 件を表示中`;
-
+      hiddenByFilterCount = entries.length - visible.length;
       baseEntries = visible;
-      currentVisibleEntries = applySort(baseEntries, currentSortMode);
-      renderNextPage();
-      setupScrollObserver();
+      hasLoadedList = true;
+      updateListView();
     } catch (err) {
       console.error(err);
       listStatus.textContent = `取得に失敗しました: ${err.message}`;
     }
   }
 
-  sortSelect.addEventListener('change', () => {
-    currentSortMode = sortSelect.value;
-    if (baseEntries.length === 0) return;
+  // 並び順・既読フィルタの切り替え時、再取得はせずbaseEntriesから再構築する。
+  function updateListView() {
+    if (!hasLoadedList) return;
     disconnectScrollObserver();
     entryGrid.innerHTML = '';
     renderedCount = 0;
-    currentVisibleEntries = applySort(baseEntries, currentSortMode);
+
+    let working = baseEntries;
+    let hiddenByVisitedCount = 0;
+    if (hideVisited) {
+      const visitedSet = Visited.loadSet();
+      const filtered = working.filter((item) => !visitedSet.has(item.url));
+      hiddenByVisitedCount = working.length - filtered.length;
+      working = filtered;
+    }
+
+    currentVisibleEntries = applySort(working, currentSortMode);
+
+    if (baseEntries.length === 0 && hiddenByFilterCount === 0) {
+      listStatus.textContent = '記事を取得できませんでした。';
+      return;
+    }
+
+    const hiddenParts = [];
+    if (hiddenByFilterCount > 0) hiddenParts.push(`フィルタ${hiddenByFilterCount}件`);
+    if (hiddenByVisitedCount > 0) hiddenParts.push(`既読${hiddenByVisitedCount}件`);
+
+    if (currentVisibleEntries.length === 0) {
+      listStatus.textContent = `表示できる記事がありません(${hiddenParts.join('・')}を非表示にしました)`;
+      return;
+    }
+
+    listStatus.textContent =
+      hiddenParts.length > 0
+        ? `${currentVisibleEntries.length} 件を表示中(${hiddenParts.join('・')}を非表示)`
+        : `${currentVisibleEntries.length} 件を表示中`;
+
     renderNextPage();
     setupScrollObserver();
+  }
+
+  sortSelect.addEventListener('change', () => {
+    currentSortMode = sortSelect.value;
+    updateListView();
+  });
+
+  hideVisitedCheckbox.addEventListener('change', () => {
+    hideVisited = hideVisitedCheckbox.checked;
+    updateListView();
   });
 
   // はてなブックマークのホットエントリー一覧同様、ブックマーク数が多いほど
@@ -405,6 +438,8 @@
         entryStatus.textContent = 'このエントリーはフィルタ条件により非表示になっています。';
         return;
       }
+
+      Visited.markVisited(url);
 
       entryHeader.innerHTML = `
         <a class="entry-title" href="${escapeHtml(info.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(info.title)}</a>
