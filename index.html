@@ -91,7 +91,9 @@
         URL指定時は、そのURLがCSVを返せば取得できます(はてなブックマークのGistは「Secret」で作成すればログイン無しで取得可能。「Private」相当のリポジトリ等、認証が必要なURLは取得できません)。
       </p>
       <div class="import-export-row">
-        <button id="export-btn" type="button" class="btn btn--small">CSVエクスポート</button>
+        <button id="export-btn" type="button" class="btn btn--small">CSVダウンロード</button>
+        <button id="copy-btn" type="button" class="btn btn--small">クリップボードにコピー</button>
+        <button id="export-text-btn" type="button" class="btn btn--small">テキストで表示</button>
         <label class="btn btn--small file-label">
           CSVインポート
           <input id="import-file-input" type="file" accept=".csv,text/csv" hidden>

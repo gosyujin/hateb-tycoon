@@ -23,6 +23,8 @@
   const ruleValueInput = document.getElementById('rule-value');
   const ruleList = document.getElementById('rule-list');
   const exportBtn = document.getElementById('export-btn');
+  const copyBtn = document.getElementById('copy-btn');
+  const exportTextBtn = document.getElementById('export-text-btn');
   const importFileInput = document.getElementById('import-file-input');
   const importUrlForm = document.getElementById('import-url-form');
   const importUrlInput = document.getElementById('import-url-input');
@@ -667,6 +669,55 @@
     a.click();
     a.remove();
     URL.revokeObjectURL(url);
+  });
+
+  // Clipboard APIは非セキュアコンテキスト(http経由のLAN内アクセス等)や権限ポリシーで
+  // 使えないことがあるため、失敗時はexecCommandにフォールバックする。
+  async function copyTextToClipboard(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      try {
+        await navigator.clipboard.writeText(text);
+        return;
+      } catch (e) {
+        // フォールバックへ続行
+      }
+    }
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.style.position = 'fixed';
+    textarea.style.opacity = '0';
+    document.body.appendChild(textarea);
+    textarea.focus();
+    textarea.select();
+    const ok = document.execCommand('copy');
+    textarea.remove();
+    if (!ok) throw new Error('コピーコマンドが失敗しました');
+  }
+
+  copyBtn.addEventListener('click', async () => {
+    const csv = rulesToCsv(Filters.sortRules(Filters.loadRules(currentSettingsKind)));
+    try {
+      await copyTextToClipboard(csv);
+      importStatus.textContent = 'クリップボードにコピーしました';
+    } catch (err) {
+      importStatus.textContent = `コピーに失敗しました: ${err.message}`;
+    }
+  });
+
+  exportTextBtn.addEventListener('click', () => {
+    // window.open('', '_blank')は空ページへのポップアップとしてブロックされやすいため、
+    // ダウンロード同様にBlob URLへのリンク遷移(target=_blank)でテキスト表示する。
+    const csv = rulesToCsv(Filters.sortRules(Filters.loadRules(currentSettingsKind)));
+    const blob = new Blob([csv], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 30000);
   });
 
   importFileInput.addEventListener('change', () => {
