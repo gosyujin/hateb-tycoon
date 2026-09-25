@@ -414,10 +414,10 @@
   // はてなブックマークのホットエントリー一覧同様、ブックマーク数が多いほど
   // 文字を強調する(完全再現ではなく近似の段階分け)。
   function countTierClass(count) {
-    if (count >= 500) return ' card-count-link--tier4';
-    if (count >= 300) return ' card-count-link--tier3';
-    if (count >= 100) return ' card-count-link--tier2';
-    if (count >= 50) return ' card-count-link--tier1';
+    if (count >= 200) return ' card-count-link--tier4';
+    if (count >= 100) return ' card-count-link--tier3';
+    if (count >= 50) return ' card-count-link--tier2';
+    if (count >= 20) return ' card-count-link--tier1';
     return '';
   }
 
