@@ -455,8 +455,15 @@
   }
 
   // ---- 個別エントリー(コメント一覧)ビュー ----
-  entryBack.addEventListener('click', () => history.back());
-  entryBackBottom.addEventListener('click', () => history.back());
+  // 矢印キーでの前後移動は都度履歴を積むため、history.back()だと矢印移動した回数分
+  // 戻ってしまい一覧まで戻れない。常に現在のカテゴリー一覧へ直接遷移させる。
+  function goToList() {
+    const params = new URLSearchParams();
+    params.set('cat', currentCategory);
+    navigate('/', params);
+  }
+  entryBack.addEventListener('click', goToList);
+  entryBackBottom.addEventListener('click', goToList);
 
   // コメント一覧の表示方法(plain/rich)。切替時は再取得せず保持済みのcurrentCommentsを
   // 描画し直すだけにする。
