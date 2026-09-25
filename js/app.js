@@ -952,23 +952,28 @@
   });
 
   // ---- ビルド情報 + 次回データ更新目安(1行にまとめる) ----
+  // 次回更新の取得元(hotentry-sync.yml)はビルド可能なのは自分だけであり、
+  // ワークフロー自体も公開リポジトリの情報なのでリンクしても問題ない。
+  const HOTENTRY_SYNC_WORKFLOW_URL = 'https://github.com/gosyujin/hateb-tycoon/actions/workflows/hotentry-sync.yml';
+
   async function renderFooter() {
     const el = document.getElementById('next-update-info');
     if (!el) return;
 
-    let text = window.BUILD_INFO ? `${window.BUILD_INFO.sha} (${window.BUILD_INFO.time})` : '';
+    const buildText = window.BUILD_INFO ? `${window.BUILD_INFO.sha} (${window.BUILD_INFO.time})` : '';
+    let nextUpdateHtml = '';
 
     try {
       const res = await fetch('data/meta.json', { cache: 'no-store' });
       if (res.ok) {
         const meta = await res.json();
-        text += (text ? ' / ' : '') + `次回更新: ${meta.nextEstimate}頃`;
+        nextUpdateHtml = `<a href="${escapeHtml(HOTENTRY_SYNC_WORKFLOW_URL)}" target="_blank" rel="noopener noreferrer">次回更新: ${escapeHtml(meta.nextEstimate)}頃</a>`;
       }
     } catch (e) {
       // メタ情報が無くても一覧表示自体は継続できるため、無視する
     }
 
-    el.textContent = text;
+    el.innerHTML = [escapeHtml(buildText), nextUpdateHtml].filter(Boolean).join(' / ');
   }
 
   // ---- キーボードショートカット ----
