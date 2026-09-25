@@ -529,6 +529,9 @@
   });
 
   async function renderEntryView(url) {
+    // 前後の記事へ移動した際、直前のスクロール位置(コメント欄の途中/末尾)が
+    // そのまま残ってしまうことがあるため、新しい記事を開く際は必ず先頭へ戻す。
+    window.scrollTo(0, 0);
     commentList.innerHTML = '';
     currentComments = [];
     entryHeader.innerHTML = '';
