@@ -29,6 +29,7 @@
   const importUrlForm = document.getElementById('import-url-form');
   const importUrlInput = document.getElementById('import-url-input');
   const importStatus = document.getElementById('import-status');
+  const importGistLink = document.getElementById('import-gist-link');
   const visitedThresholdValueInput = document.getElementById('visited-threshold-value');
   const visitedThresholdTypeSelect = document.getElementById('visited-threshold-type');
 
@@ -635,9 +636,37 @@
     }
   }
 
+  // GistのrawURL(https://gist.githubusercontent.com/{user}/{hash}/raw/(commit/)?{filename})から
+  // Gist本体ページのURL(#file-アンカー付き)を逆算する。ファイル名のアンカー化はGitHubの仕様に
+  // 合わせ、英数字・アンダースコア以外の文字を1つの"-"にまとめる(例: gistfile1.txt → file-gistfile1-txt)。
+  function gistRawUrlToPageUrl(url) {
+    const m = /^https:\/\/gist\.githubusercontent\.com\/([^/]+)\/([0-9a-fA-F]+)\/raw\/(.+)$/.exec(url);
+    if (!m) return null;
+    const [, user, hash, rest] = m;
+    const segments = rest.split('/').filter(Boolean);
+    const filename = segments[segments.length - 1];
+    if (!filename) return null;
+    const anchor = filename.toLowerCase().replace(/[^a-z0-9_]+/g, '-');
+    return `https://gist.github.com/${user}/${hash}#file-${anchor}`;
+  }
+
+  function refreshGistLink(url) {
+    const pageUrl = gistRawUrlToPageUrl(url);
+    importGistLink.textContent = '';
+    if (!pageUrl) return;
+    const a = document.createElement('a');
+    a.href = pageUrl;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.textContent = 'Gistページを開く';
+    importGistLink.appendChild(a);
+  }
+
   function refreshImportUrlField() {
-    importUrlInput.value = getImportUrl(currentSettingsKind);
+    const url = getImportUrl(currentSettingsKind);
+    importUrlInput.value = url;
     importStatus.textContent = '';
+    refreshGistLink(url);
   }
 
   function applyImportedCsv(text) {
@@ -740,6 +769,7 @@
     const url = importUrlInput.value.trim();
     if (!url) return;
     setImportUrl(currentSettingsKind, url);
+    refreshGistLink(url);
     importStatus.textContent = '取得中…';
     try {
       const res = await fetch(url, { cache: 'no-store' });
