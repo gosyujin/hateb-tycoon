@@ -129,6 +129,13 @@ main {
   font-weight: bold;
 }
 
+/* 設定モーダル内のタブ(mute/unmute/forceMute)はcategory-tabsと違い
+   JSでの幅調整をしていないため、収まりきらない場合はここで折り返す。 */
+#settings-tabs {
+  flex-wrap: wrap;
+  overflow: visible;
+}
+
 .status {
   color: var(--color-muted);
   font-size: 0.85rem;

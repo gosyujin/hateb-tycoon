@@ -59,10 +59,12 @@
     return cmp ? items.slice().sort(cmp) : items;
   }
 
+  // 各kindの詳しい説明は settings-tabs 直下の .hint に集約しているため、
+  // タブ自体のラベルは(表示領域に収まるよう)短くしている。
   const KIND_LABEL = {
-    mute: 'ミュートワード(該当したら非表示)',
-    unmute: 'ミュート解除ワード(ミュートワードの例外として表示)',
-    forceMute: '強制ミュートワード(ミュート解除ワードでも解除不可で非表示)',
+    mute: 'ミュート',
+    unmute: 'ミュート解除',
+    forceMute: '強制ミュート',
   };
   const TYPE_LABEL = {
     title: 'タイトル',
