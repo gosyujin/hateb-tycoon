@@ -36,7 +36,23 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Update hotentry data ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
-            git push
+            # concurrencyグループがあっても、ほぼ同時にdispatchされた別の実行と
+            # pushが競合することがあるため、rejectされたらrebaseして数回リトライする。
+            pushed=false
+            for i in 1 2 3 4 5; do
+              if git push; then
+                pushed=true
+                break
+              fi
+              echo "push rejected (attempt $i), rebasing onto latest main and retrying..."
+              git fetch origin main
+              git rebase origin/main
+              sleep $((RANDOM % 4 + 1))
+            done
+            if [ "$pushed" != "true" ]; then
+              echo "push failed after retries" >&2
+              exit 1
+            fi
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
