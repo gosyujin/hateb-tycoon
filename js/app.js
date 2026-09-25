@@ -524,6 +524,11 @@
       ruleTypeSelect.value = preset.type;
       ruleValueInput.value = preset.value;
       ruleValueInput.focus();
+    } else {
+      // ドメイン/ユーザークリック経由でpresetを設定した後、歯車アイコンから
+      // 開き直した際に選択が残ってしまわないよう、都度デフォルト(タイトル)に戻す。
+      ruleTypeSelect.value = 'title';
+      ruleValueInput.value = '';
     }
   }
 
