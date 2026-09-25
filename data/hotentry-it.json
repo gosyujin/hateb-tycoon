@@ -1,124 +1,146 @@
 [
   {
+    "title": "AWS DevOps Agent の堅牢性",
+    "url": "https://zenn.dev/cscloud_blog/articles/9968d12b332c03",
+    "domain": "zenn.dev",
+    "count": 22,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/cscloud_blog/articles/9968d12b332c03",
+    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--IZ53vi9C--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AWS%2520DevOps%2520Agent%2520%25E3%2581%25AE%25E5%25A0%2585%25E7%2589%25A2%25E6%2580%25A7%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:nishikawa%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q0ZTRhMzgzMmEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2590%25E3%2583%25BC%25E3%2582%25BB%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25A6%25E3%2583%2589%25E3%2580%2580%25E3%2583%2586...%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q2YjE0NzI3ZTAuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+    "users": [],
+    "firstSeenAt": "2026-09-25T10:21:27.804727+09:00",
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
+  },
+  {
+    "title": "J:COMネット障害、原因は「外部からの大量アクセス」　DNSサーバに高負荷　最大約408万件に影響",
+    "url": "https://www.itmedia.co.jp/news/article/2609/25/2000001729/",
+    "domain": "www.itmedia.co.jp",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/25/2000001729/",
+    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/25/2000001729/10007422/2048",
+    "users": [],
+    "firstSeenAt": "2026-09-25T10:21:27.804727+09:00",
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
+  },
+  {
     "title": "AIに文章を書かせると一番言いたいことが埋もれるので、想定読者と読後感を先に決めさせるSkillを作った - $shibayu36->blog;",
     "url": "https://blog.shibayu36.org/entry/2026/09/24/173000",
     "domain": "blog.shibayu36.org",
-    "count": 179,
+    "count": 185,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.shibayu36.org/entry/2026/09/24/173000",
     "screenshot": "https://ogimage.blog.st-hatena.com/13208692334729907814/14945776032079122094/1790238600",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "みんなJevの話してる。やってないの俺だけ",
     "url": "https://zenn.dev/unsoluble_sugar/articles/jev-system-one-model-intro",
     "domain": "zenn.dev",
-    "count": 141,
+    "count": 150,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/unsoluble_sugar/articles/jev-system-one-model-intro",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--i-YRRvCs--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2581%25BF%25E3%2582%2593%25E3%2581%25AAJev%25E3%2581%25AE%25E8%25A9%25B1%25E3%2581%2597%25E3%2581%25A6%25E3%2582%258B%25E3%2580%2582%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25AA%25E3%2581%2584%25E3%2581%25AE%25E4%25BF%25BA%25E3%2581%25A0%25E3%2581%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E6%2598%259F%25E5%25BD%25B1%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzEwZDE4YjgwZTkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "ソフトウェアエンジニアとしてのぼくは、もう死んでいた｜choo",
     "url": "https://note.com/choo/n/nf2a81eced17b",
     "domain": "note.com",
-    "count": 87,
+    "count": 90,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/choo/n/nf2a81eced17b",
     "screenshot": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/463bfc89eb27c1bc664018e6d9834a9cd33ccb18.png",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "「Python」のWindowsフルインストーラーが引退へ、「3.16」以降は提供されず／これからは「Python Install Manager」で導入・管理",
     "url": "https://forest.watch.impress.co.jp/docs/news/2142666.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 38,
+    "count": 44,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2142666.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2142/666/python.jpg",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "Go言語で書かれた高速なIDE「Rune」、オープンソースで公開。ターミナルとコマンドプロンプト中心の開発環境、複数リモートノードをローカルのように操作可能",
     "url": "https://www.publickey1.jp/blog/26/goiderune.html",
     "domain": "www.publickey1.jp",
-    "count": 34,
+    "count": 35,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/goiderune.html",
     "screenshot": "https://www.publickey1.jp/2026/rune-oss01.jpg",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "エージェント時代のソフトウェア開発：手書きコードの終了と全面的な楽観主義",
     "url": "https://fasttube.cc/ja/v/vDjW_dRyKXY",
     "domain": "fasttube.cc",
-    "count": 92,
+    "count": 95,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/fasttube.cc/ja/v/vDjW_dRyKXY",
     "screenshot": "https://fasttube.cc/media/images-vDjW_dRyKXY-ja-d2bb03251fb2e21637e5c71a/chapter-1-d2e75c2d0034b82d.webp",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "JCOM ネット障害 最大約408万世帯に影響 外部から大量アクセス | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20260924de52196",
     "domain": "news.web.nhk",
-    "count": 22,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20260924de52196",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20260924de52196/20260924de52196_E0000034989_1_l.jpg",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "「楽天銀行から数百万が勝手に移動」「残高が0に」……楽天証券のシステム不具合、連休中に発生",
     "url": "https://www.itmedia.co.jp/news/article/2609/24/2000001708/",
     "domain": "www.itmedia.co.jp",
-    "count": 443,
+    "count": 444,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/24/2000001708/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/24/2000001708/10007358/2048",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "メモ帳としても便利に使える「GitHub」アプリ、エンジニアだけのツールじゃない [てっぱんアプリ！]",
     "url": "https://k-tai.watch.impress.co.jp/docs/column/teppan/2142991.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 11,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/column/teppan/2142991.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2142/991/01.jpg",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "【西川善司のグラフィックスMANIAC】 DLSS 5の正体は1回推論の画像生成AI、NVIDIAが明かした3D誘導型の中身とは",
     "url": "https://pc.watch.impress.co.jp/docs/column/zenji/2142631.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 14,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/zenji/2142631.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2142/631/Resident_Evil_Requiem_Grace__2.png",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "AIデータセンター、危うい錬金術　GPU担保や証券化など資金調達複雑に - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC07AL40X00C26A9000000/",
     "domain": "www.nikkei.com",
-    "count": 11,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC07AL40X00C26A9000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3632866024092026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.36&fp-y=0.17&h=630&w=1200&s=8c3b93a1554a37912a68917ec67f5fca",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "AI時代のジュニアエンジニア育成で、『自走』をどう見極めるか - シンクロ・フード エンジニアブログ",
@@ -129,7 +151,7 @@
     "screenshot": "https://ogimage.blog.st-hatena.com/12921228815729539333/14945776032069298820/1788166803",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "YAPC::Tokyo 2026 で Transformer 道場をやります - As a Futurist...",
@@ -140,7 +162,7 @@
     "screenshot": "https://blog.riywo.com/og-image/2026/09/transformer-dojo-at-yapc-tokyo-2026/image.png",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "Rune is now open source. Rune Blog",
@@ -151,7 +173,7 @@
     "screenshot": "https://rune.build/images/og4.png",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "なぜ競技用ゲーミングPCは光らない？　HPSC久木留所長とマウス軣社長が語るアスリート支援の未来",
@@ -162,7 +184,7 @@
     "screenshot": "https://image.itmedia.co.jp/pcuser/articles/2609/24/cover_news084.jpg",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "ハーネス設計入門 〜 基礎知識の整理から実務へのステップアップ 〜",
@@ -173,7 +195,7 @@
     "screenshot": "https://files.speakerdeck.com/presentations/4ddcb6bdfe944dc0994a06b9044f28fd/slide_0.jpg?40657661",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "はてな匿名ダイアリーは本日で20周年を迎えました - はてラボ 開発者ブログ",
@@ -184,18 +206,18 @@
     "screenshot": "https://ogimage.blog.st-hatena.com/12921228815717857932/14945776032081783149/1790229600",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "日本全国でMicrosoft Officeが突然消えたりライセンス認証が外れる不具合が発生→再インストールなどの対応が必要になったがどうしてこうなった？",
     "url": "https://togetter.com/li/2749851",
     "domain": "togetter.com",
-    "count": 44,
+    "count": 45,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2749851",
     "screenshot": "https://s.tgstc.com/ogp3/7c6b8a8d9dec96faa502f45544673f6f-1200x630.jpeg",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "3大、俺の中で天才ゲームプログラマ",
@@ -206,7 +228,7 @@
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "AIの学習と著作権をめぐる米司法省の見解が脅威になる理由",
@@ -217,7 +239,7 @@
     "screenshot": "https://japan.zdnet.com/storage/2026/09/16/16c772b7cad3d45cd2c5dd5adbffeec8/GettyImages-1837262344_cc4bde_l.jpg",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "実装前に AI と合意せよ！Quint で形式仕様読解入門",
@@ -228,7 +250,7 @@
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--AdYHQMJl--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25AE%259F%25E8%25A3%2585%25E5%2589%258D%25E3%2581%25AB%2520AI%2520%25E3%2581%25A8%25E5%2590%2588%25E6%2584%258F%25E3%2581%259B%25E3%2582%2588%25EF%25BC%2581Quint%2520%25E3%2581%25A7%25E5%25BD%25A2%25E5%25BC%258F%25E4%25BB%2595%25E6%25A7%2598%25E8%25AA%25AD%25E8%25A7%25A3%25E5%2585%25A5%25E9%2596%2580%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nrs%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2UzODcxZGFkYjEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "長年解読できなかった82文字のエニグマ暗号を「GPT-6 Astra」が解読、独自に解読プログラムも作成",
@@ -239,7 +261,7 @@
     "screenshot": "https://i.gzn.jp/img/2026/09/24/enigma-mvueh-break/00.jpg",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "画像生成・編集AI「Qwen-Image-2.1」が無料のオープンモデルとして登場したので使ってみた、日本語プロンプト対応＆透過PNG画像も生成可能",
@@ -250,7 +272,7 @@
     "screenshot": "https://i.gzn.jp/img/2026/09/24/qwen-image-2-1/00.png",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "オープンAIのモデルが「暴走」 豪政府サイトをハッキング 首相公表",
@@ -261,18 +283,18 @@
     "screenshot": "https://afpbb.ismcdn.jp/mwimgs/d/4/1000x/img_d44932b507464423192b42e1b00bde8756247.jpg",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "「OSSレジストリのただ乗りは限界」　GoogleやMicrosoftなど12社が企業の費用負担を巡り共同声明",
     "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/24/news032.html",
     "domain": "atmarkit.itmedia.co.jp",
-    "count": 97,
+    "count": 98,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2609/24/news032.html",
     "screenshot": "https://image.itmedia.co.jp/ait/articles/2609/24/cover_news032.jpg",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "最大8人の話者を識別しつつリアルタイム文字起こしできるAIモデル「NVIDIA Nemotron 3 Diarization」がオープンモデルとして公開される",
@@ -283,18 +305,18 @@
     "screenshot": "https://i.gzn.jp/img/2026/09/24/nvidia-nemotron-3-diarization/00.png",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "やっぱりiPhone 18 Proはソニー。カメラ全眼の正体が判明、分解にて - すまほん!!",
     "url": "https://smhn.info/202609-iphone-18-pro-sony-camera-sensors-teardown",
     "domain": "smhn.info",
-    "count": 19,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/smhn.info/202609-iphone-18-pro-sony-camera-sensors-teardown",
     "screenshot": "https://smhn.info/wp-content/uploads/2026/09/capture_20260924_183446_447_33A521.webp",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "高性能AIモデル「MiMo-V2.6-Pro」と「MiMo-V2.6-Flash」が無償公開される、GPT-5.6 Solに近い性能",
@@ -316,26 +338,17 @@
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3606533016092026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=fd31b456e93a7b7e812453ebfec486fc",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   },
   {
     "title": "Google、宇宙AIデータセンター構想「Project Suncatcher」初の試作衛星をFalcon 9で打ち上げへ",
     "url": "https://www.itmedia.co.jp/news/article/2609/25/2000001728/",
     "domain": "www.itmedia.co.jp",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/25/2000001728/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/25/2000001728/10007419/2048",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T10:10:29.766966+09:00"
-  },
-  {
-    "title": "AWS DevOps Agent の堅牢性",
-    "url": "https://zenn.dev/cscloud_blog/articles/9968d12b332c03",
-    "domain": "zenn.dev",
-    "count": 22,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/cscloud_blog/articles/9968d12b332c03",
-    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--IZ53vi9C--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AWS%2520DevOps%2520Agent%2520%25E3%2581%25AE%25E5%25A0%2585%25E7%2589%25A2%25E6%2580%25A7%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:nishikawa%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q0ZTRhMzgzMmEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2590%25E3%2583%25BC%25E3%2582%25BB%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25A6%25E3%2583%2589%25E3%2580%2580%25E3%2583%2586...%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q2YjE0NzI3ZTAuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-    "users": []
+    "lastSeenAt": "2026-09-25T10:21:27.804727+09:00"
   }
 ]
