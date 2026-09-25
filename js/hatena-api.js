@@ -10,9 +10,53 @@
  *   クロスオリジン通信は発生しない(scripts/fetch_hotentry.py が実データ取得元)。
  * - 個別記事のブックマーク情報(コメント一覧含む): https://b.hatena.ne.jp/entry/jsonlite/?url=...
  *   はCORSなしでもJSONPで取得できることを確認済みのため、そのまま
- *   <script> タグ挿入方式でリアルタイムに取得する。
+ *   <script> タグ挿入方式でリアルタイムに取得する。JSONPはcallback名が
+ *   呼び出しごとに変わる作りのため(固定名にすると実際のAPI側で無応答になる
+ *   ことを確認済み)、Service Workerでのネットワークレベルのキャッシュは
+ *   効かない。そのため取得に成功するたびアプリ側(localStorage)で解析済み
+ *   データをキャッシュしておき、オフライン時など取得に失敗した場合は
+ *   最後に見た内容へフォールバックする。
  */
 (function (global) {
+  const ENTRY_CACHE_KEY = 'hateb-tycoon:entryCache';
+  // コメント本文込みで1件あたりのデータ量が既読記録より大きいため、上限は少なめにする。
+  const ENTRY_CACHE_MAX = 300;
+
+  function loadEntryCache() {
+    try {
+      const raw = localStorage.getItem(ENTRY_CACHE_KEY);
+      const parsed = raw ? JSON.parse(raw) : {};
+      return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
+    } catch (e) {
+      return {};
+    }
+  }
+
+  function saveEntryCache(map) {
+    try {
+      localStorage.setItem(ENTRY_CACHE_KEY, JSON.stringify(map));
+    } catch (e) {
+      // 容量超過等でも致命的ではない(オフライン復元をあきらめるだけ)ため無視する
+    }
+  }
+
+  function cacheEntryInfo(pageUrl, info) {
+    const map = loadEntryCache();
+    map[pageUrl] = { time: Date.now(), info };
+    const keys = Object.keys(map);
+    if (keys.length > ENTRY_CACHE_MAX) {
+      keys.sort((a, b) => map[a].time - map[b].time);
+      const excess = keys.length - ENTRY_CACHE_MAX;
+      for (let i = 0; i < excess; i++) delete map[keys[i]];
+    }
+    saveEntryCache(map);
+  }
+
+  function getCachedEntryInfo(pageUrl) {
+    const rec = loadEntryCache()[pageUrl];
+    return rec ? rec.info : null;
+  }
+
   function jsonp(url, params, timeoutMs) {
     params = params || {};
     timeoutMs = timeoutMs || 10000;
@@ -138,8 +182,16 @@
   }
 
   async function getEntryInfo(pageUrl) {
-    const data = await jsonp('https://b.hatena.ne.jp/entry/jsonlite/', { url: pageUrl });
-    return normalizeEntryInfo(data, pageUrl);
+    try {
+      const data = await jsonp('https://b.hatena.ne.jp/entry/jsonlite/', { url: pageUrl });
+      const info = normalizeEntryInfo(data, pageUrl);
+      cacheEntryInfo(pageUrl, info);
+      return info;
+    } catch (err) {
+      const cached = getCachedEntryInfo(pageUrl);
+      if (cached) return { ...cached, fromOfflineCache: true };
+      throw err;
+    }
   }
 
   global.HatenaAPI = {

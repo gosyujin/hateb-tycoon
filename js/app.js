@@ -566,10 +566,12 @@
       );
       const hiddenCount = commented.length - visible.length;
 
+      const offlineNote = info.fromOfflineCache ? '(オフラインのため前回取得時点の内容を表示中) ' : '';
       entryStatus.textContent =
-        hiddenCount > 0
+        offlineNote +
+        (hiddenCount > 0
           ? `${visible.length} 件のコメントを表示中(${hiddenCount} 件を非表示)`
-          : `${visible.length} 件のコメントを表示中`;
+          : `${visible.length} 件のコメントを表示中`);
 
       currentComments = visible;
       renderCommentList();
@@ -971,6 +973,15 @@
     }
     if (handled) e.preventDefault();
   });
+
+  // ---- Service Worker登録(オフラインでも既に取得済みの分は見られるようにする) ----
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('service-worker.js').catch((err) => {
+        console.error('[service-worker] registration failed', err);
+      });
+    });
+  }
 
   // ---- 初期化 ----
   renderFooter();
