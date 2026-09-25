@@ -2,7 +2,10 @@ name: Fetch Hatena hotentry data
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    # 毎時ちょうど(:00 / :30)はGitHub Actions全体で最も混雑し、
+    # スケジュール実行が遅延・スキップされやすいため、あえて:07/:37にずらす
+    # (GitHub公式ドキュメント推奨: https://docs.github.com/actions/using-workflows/events-that-trigger-workflows#schedule)
+    - cron: '7,37 * * * *'
   workflow_dispatch:
 
 permissions:
