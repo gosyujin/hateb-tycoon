@@ -221,17 +221,18 @@
           ${info.entryUrl ? `<a href="${escapeHtml(info.entryUrl)}" target="_blank" rel="noopener noreferrer">はてなブックマークページ →</a>` : ''}
         </div>`;
 
-      const visible = info.bookmarks.filter(
+      const commented = info.bookmarks.filter((b) => b.comment);
+      const visible = commented.filter(
         (b) => !Filters.isHidden({ title: info.title, domain: info.domain, user: b.user, comment: b.comment })
       );
-      const hiddenCount = info.bookmarks.length - visible.length;
+      const hiddenCount = commented.length - visible.length;
 
       entryStatus.textContent =
         hiddenCount > 0
-          ? `${visible.length} 件のブックマークを表示中(${hiddenCount} 件を非表示)`
-          : `${visible.length} 件のブックマークを表示中`;
+          ? `${visible.length} 件のコメントを表示中(${hiddenCount} 件を非表示)`
+          : `${visible.length} 件のコメントを表示中`;
 
-      commentList.innerHTML = visible.map(renderComment).join('') || '<p class="empty">コメント付きのブックマークはありません。</p>';
+      commentList.innerHTML = visible.map(renderComment).join('') || '<p class="empty">コメントはありません。</p>';
     } catch (err) {
       console.error(err);
       entryStatus.textContent = `取得に失敗しました: ${err.message}`;
@@ -241,8 +242,7 @@
   function renderComment(b) {
     const date = (b.timestamp || '').split(' ')[0];
     const user = `<a class="comment-user" href="https://b.hatena.ne.jp/${encodeURIComponent(b.user)}/" target="_blank" rel="noopener noreferrer">${escapeHtml(b.user)}</a>`;
-    const comment = b.comment ? ` ${escapeHtml(b.comment)}` : '';
-    return `<li>${user} ${escapeHtml(date)}${comment}</li>`;
+    return `<li>${user} <span class="comment-date">${escapeHtml(date)}</span> ${escapeHtml(b.comment)}</li>`;
   }
 
   // ---- フィルタ設定モーダル ----
@@ -312,27 +312,19 @@
     render();
   });
 
-  // ---- ビルド情報(デバッグ用) ----
+  // ---- 次回データ更新目安 ----
   async function renderFooter() {
-    const el = document.getElementById('build-info');
+    const el = document.getElementById('next-update-info');
     if (!el) return;
-
-    let text = '';
-    if (window.BUILD_INFO) {
-      text = `build: ${window.BUILD_INFO.sha} (${window.BUILD_INFO.time})`;
-    }
-
     try {
       const res = await fetch('data/meta.json', { cache: 'no-store' });
       if (res.ok) {
         const meta = await res.json();
-        text += (text ? ' / ' : '') + `次回更新: ${meta.nextEstimate}頃`;
+        el.textContent = `次回更新: ${meta.nextEstimate}頃`;
       }
     } catch (e) {
       // メタ情報が無くても一覧表示自体は継続できるため、無視する
     }
-
-    el.textContent = text;
   }
 
   // ---- 初期化 ----

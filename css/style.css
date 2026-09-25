@@ -215,6 +215,10 @@ main {
   font-weight: bold;
 }
 
+.comment-date {
+  color: var(--color-muted);
+}
+
 .empty {
   color: var(--color-muted);
   font-size: 0.9rem;
