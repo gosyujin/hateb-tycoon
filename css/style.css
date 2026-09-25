@@ -156,6 +156,7 @@ main {
   font-weight: bold;
   font-size: 0.95rem;
   line-height: 1.4;
+  overflow-wrap: anywhere;
 }
 
 .card-top-row {
@@ -216,6 +217,7 @@ main {
   font-size: 0.85rem;
   line-height: 1.6;
   color: var(--color-text);
+  overflow-wrap: anywhere;
 }
 .entry-description:empty {
   display: none;
@@ -229,6 +231,7 @@ main {
   gap: 6px;
   font-size: 0.88rem;
   line-height: 1.6;
+  overflow-wrap: anywhere;
 }
 .comment-list li {
   padding-bottom: 6px;
