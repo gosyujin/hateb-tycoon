@@ -241,7 +241,7 @@
 
   function renderComment(b) {
     const date = (b.timestamp || '').split(' ')[0];
-    const user = `<a class="comment-user" href="https://b.hatena.ne.jp/${encodeURIComponent(b.user)}/" target="_blank" rel="noopener noreferrer">${escapeHtml(b.user)}</a>`;
+    const user = `<button type="button" class="comment-user" data-user="${escapeHtml(b.user)}">${escapeHtml(b.user)}</button>`;
     return `<li>${user} <span class="comment-date">${escapeHtml(date)}</span> ${escapeHtml(b.comment)}</li>`;
   }
 
@@ -270,6 +270,12 @@
     const domainBtn = e.target.closest('.card-domain');
     if (!domainBtn) return;
     openSettings({ kind: 'mute', type: 'domain', value: domainBtn.dataset.domain });
+  });
+
+  commentList.addEventListener('click', (e) => {
+    const userBtn = e.target.closest('.comment-user');
+    if (!userBtn) return;
+    openSettings({ kind: 'mute', type: 'user', value: userBtn.dataset.user });
   });
 
   function renderSettingsTabs() {

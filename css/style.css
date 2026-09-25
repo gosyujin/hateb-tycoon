@@ -223,6 +223,17 @@ main {
 
 .comment-user {
   font-weight: bold;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: var(--color-text);
+  cursor: pointer;
+}
+.comment-user:hover {
+  color: var(--color-accent-dark);
+  text-decoration: underline;
 }
 
 .comment-date {
