@@ -32,7 +32,8 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 20px;
+  gap: 16px;
+  padding: 10px 16px;
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
   position: sticky;
@@ -50,15 +51,15 @@ a:hover {
 }
 
 main {
-  max-width: 960px;
+  max-width: 860px;
   margin: 0 auto;
-  padding: 16px 20px 48px;
+  padding: 24px 16px 48px;
 }
 
 .app-footer {
   text-align: center;
-  padding: 12px 20px 24px;
-  font-size: 0.72rem;
+  padding: 8px 16px 16px;
+  font-size: 11px;
   color: var(--color-muted);
   font-family: monospace;
 }
