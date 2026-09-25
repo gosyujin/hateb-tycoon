@@ -28,6 +28,8 @@
   const importUrlForm = document.getElementById('import-url-form');
   const importUrlInput = document.getElementById('import-url-input');
   const importStatus = document.getElementById('import-status');
+  const visitedThresholdValueInput = document.getElementById('visited-threshold-value');
+  const visitedThresholdTypeSelect = document.getElementById('visited-threshold-type');
 
   let currentCategory = 'all';
   let currentSettingsKind = 'mute';
@@ -273,8 +275,7 @@
     const nextItems = currentVisibleEntries.slice(renderedCount, renderedCount + PAGE_SIZE);
     if (nextItems.length === 0) return;
     const sentinel = document.getElementById('scroll-sentinel');
-    const visitedSet = Visited.loadSet();
-    const html = nextItems.map((item) => renderEntryCard(item, visitedSet)).join('');
+    const html = nextItems.map((item) => renderEntryCard(item)).join('');
     if (sentinel) {
       sentinel.insertAdjacentHTML('beforebegin', html);
     } else {
@@ -337,8 +338,7 @@
     let working = baseEntries;
     let hiddenByVisitedCount = 0;
     if (hideVisited) {
-      const visitedSet = Visited.loadSet();
-      const filtered = working.filter((item) => !visitedSet.has(item.url));
+      const filtered = working.filter((item) => !Visited.isStillRead(item));
       hiddenByVisitedCount = working.length - filtered.length;
       working = filtered;
     }
@@ -388,7 +388,7 @@
     return '';
   }
 
-  function renderEntryCard(item, visitedSet) {
+  function renderEntryCard(item) {
     const params = new URLSearchParams();
     params.set('url', item.url);
     const href = `#/entry?${params.toString()}`;
@@ -398,7 +398,7 @@
     const firstSeen = item.firstSeenAt
       ? `<span class="card-first-seen">初出 ${escapeHtml(item.firstSeenAt.slice(0, 10))}</span>`
       : '<span></span>';
-    const visitedClass = visitedSet && visitedSet.has(item.url) ? ' card--visited' : '';
+    const visitedClass = Visited.isStillRead(item) ? ' card--visited' : '';
     return `
       <article class="card${visitedClass}">
         ${thumb}
@@ -441,7 +441,7 @@
         return;
       }
 
-      Visited.markVisited(url);
+      Visited.markVisited(url, info.count);
 
       entryHeader.innerHTML = `
         <a class="entry-title" href="${escapeHtml(info.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(info.title)}</a>
@@ -482,12 +482,30 @@
     renderSettingsTabs();
     renderRuleList();
     refreshImportUrlField();
+    refreshVisitedThresholdFields();
     if (preset) {
       ruleTypeSelect.value = preset.type;
       ruleValueInput.value = preset.value;
       ruleValueInput.focus();
     }
   }
+
+  // ---- 既読の再表示閾値 ----
+  function refreshVisitedThresholdFields() {
+    const threshold = Visited.loadThreshold();
+    visitedThresholdValueInput.value = threshold.value;
+    visitedThresholdTypeSelect.value = threshold.type;
+  }
+
+  function saveVisitedThresholdFromFields() {
+    const value = Number(visitedThresholdValueInput.value);
+    if (!Number.isFinite(value) || value < 0) return;
+    Visited.saveThreshold(visitedThresholdTypeSelect.value, value);
+    updateListView();
+  }
+
+  visitedThresholdValueInput.addEventListener('change', saveVisitedThresholdFromFields);
+  visitedThresholdTypeSelect.addEventListener('change', saveVisitedThresholdFromFields);
   function closeSettings() {
     settingsModal.hidden = true;
   }

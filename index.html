@@ -55,6 +55,20 @@
       <h2>フィルタ設定</h2>
       <button id="settings-close" type="button" class="btn btn--small">閉じる</button>
     </div>
+    <div class="visited-threshold">
+      <h3>既読の再表示条件</h3>
+      <p class="hint">
+        既読にした記事でも、ブックマーク数が既読時から指定以上増えた場合は再び未読として扱います(グレーアウト解除・既読非表示の対象からも除外)。
+      </p>
+      <div class="visited-threshold-row">
+        <input id="visited-threshold-value" type="number" min="0" step="1" inputmode="numeric">
+        <select id="visited-threshold-type">
+          <option value="percent">%(既読時からの増加率)</option>
+          <option value="count">件(既読時からの増加数)</option>
+        </select>
+      </div>
+    </div>
+
     <nav id="settings-tabs" class="tabs"></nav>
     <p class="hint">
       タイトル・ドメイン・はてなユーザー・ブックマークコメントを対象に、部分一致(大文字小文字を区別しない)でミュート(非表示)します。<br>

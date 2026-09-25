@@ -392,6 +392,34 @@ main {
   margin: 8px 0 12px;
 }
 
+.visited-threshold {
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--color-border);
+}
+.visited-threshold h3 {
+  margin: 0;
+  font-size: 0.95rem;
+}
+.visited-threshold-row {
+  display: flex;
+  gap: 8px;
+}
+.visited-threshold-row input[type="number"] {
+  width: 80px;
+  padding: 6px 10px;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  font-size: 16px;
+}
+.visited-threshold-row select {
+  flex: 1;
+  padding: 6px;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  font-size: 16px;
+}
+
 .rule-form {
   display: flex;
   gap: 8px;
