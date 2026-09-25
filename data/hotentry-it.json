@@ -1,27 +1,135 @@
 [
   {
+    "title": "「LLMの出力コードを理解できない初心者ばかり」　PS5非公式ハックの主導者が離脱、AI時代のOSS開発に苦言",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/25/news048.html",
+    "domain": "atmarkit.itmedia.co.jp",
+    "count": 15,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2609/25/news048.html",
+    "screenshot": "https://image.itmedia.co.jp/ait/articles/2609/25/cover_news048.jpg",
+    "description": "「LLMの出力コードを理解できない初心者ばかり」　PS5非公式ハックの主導者が離脱、AI時代のOSS開発に苦言：コミュニティーでのAI利用の是非を問う 「PlayStation 5」でLinuxを動かすことを目指してきた非公式のハックプロジェクト「PS5 Linux」で、中心開発者が開発から離れることを明らかにした。背景には、LLMを使っ...",
+    "users": [],
+    "firstSeenAt": "2026-09-25T18:11:44.760526+09:00",
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
+  },
+  {
+    "title": "KDDIが「SMS共通番号」の利用を開始、10月6日から",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2143261.html",
+    "domain": "k-tai.watch.impress.co.jp",
+    "count": 16,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2143261.html",
+    "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2143/261/01.png",
+    "description": null,
+    "users": [],
+    "firstSeenAt": "2026-09-25T18:11:44.760526+09:00",
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
+  },
+  {
+    "title": "cargo-mutants でテストの穴を測って、proptest と kani で埋める",
+    "url": "https://zenn.dev/mizchi/articles/rust-mutants-proptest-kani",
+    "domain": "zenn.dev",
+    "count": 11,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mizchi/articles/rust-mutants-proptest-kani",
+    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--jAS0GMHK--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:cargo-mutants%2520%25E3%2581%25A7%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25AE%25E7%25A9%25B4%25E3%2582%2592%25E6%25B8%25AC%25E3%2581%25A3%25E3%2581%25A6%25E3%2580%2581proptest%2520%25E3%2581%25A8%2520kani%2520%25E3%2581%25A7%25E5%259F%258B%25E3%2582%2581%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mizchi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2liclRHT052Z3d3ay1fNGxlcVk4TGNGSlNuX0FoWnpEWVlKaXJNcWc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+    "description": "最近、Rust にテストを書いていて cargo-mutants、proptest、kani の 3 つを組み合わせるのがかなり強力に感じたので記事にまとめておきます。 本記事は、落ちたらヤバいタイプのミッションクリティカルな領域で AI に Rust のミュータントテスト、PBT、形式化による検証を試させて、その記録を自分が理解できるように、...",
+    "users": [],
+    "firstSeenAt": "2026-09-25T18:11:44.760526+09:00",
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
+  },
+  {
+    "title": "SSDがオンボードになった「Mac mini (M6)」でも256GBモデルをNAND Swapにより2TBへアップグレードすることは可能。",
+    "url": "https://applech2.com/archives/20260925-mac-mini-m6-nand-swap-upgrade-2tb-ssd.html",
+    "domain": "applech2.com",
+    "count": 7,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/applech2.com/archives/20260925-mac-mini-m6-nand-swap-upgrade-2tb-ssd.html",
+    "screenshot": null,
+    "description": "MacBookシリーズやiPhoneシリーズのストレージアップグレードを開設しているWorkCraftsによると、このSSDオンボード式となったMac mini (M6)でも、256GBモデルをNAND Swapにより2TBへアップグレードすることは可能だそうです。 Mac mini (M6)のNAND Swap 公開された動画によると、Mac mini (M6)にはS6E系のNANDが採用さ...",
+    "users": [],
+    "firstSeenAt": "2026-09-25T18:11:44.760526+09:00",
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
+  },
+  {
+    "title": "「Gyazo」への不正アクセスによる情報漏えいに関するお知らせとお詫び（第二報）",
+    "url": "https://corp.helpfeel.com/news/news-20260925-01",
+    "domain": "corp.helpfeel.com",
+    "count": 7,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/corp.helpfeel.com/news/news-20260925-01",
+    "screenshot": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7Z96mqR/s-1200x640_v-fms_webp_8ac9e58e-29e0-4a27-b060-12748a838aaf.png",
+    "description": "平素は、株式会社Helpfeelが提供するサービスをご利用いただき、誠にありがとうございます。 株式会社Helpfeel（本社：京都府京都市、代表取締役 CEO：洛西一周、以下：当社）は、当社が提供する画像共有サービス「Gyazo」において、2026年9月16日の発表（以下、第一報）にてお知らせしたとおり、第三者による不正アクセ...",
+    "users": [],
+    "firstSeenAt": "2026-09-25T18:11:44.760526+09:00",
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
+  },
+  {
+    "title": "https://www.e-ontap.com/internet/WhyIWrotePGP-J.html",
+    "url": "https://www.e-ontap.com/internet/WhyIWrotePGP-J.html",
+    "domain": "www.e-ontap.com",
+    "count": 8,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.e-ontap.com/internet/WhyIWrotePGP-J.html",
+    "screenshot": null,
+    "description": null,
+    "users": [],
+    "firstSeenAt": "2026-09-25T18:11:44.760526+09:00",
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
+  },
+  {
+    "title": "ドコモ、10月以降に値上げ・ahamo段階制導入など、eximoなどは既存プランで最大550円",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2143285.html",
+    "domain": "k-tai.watch.impress.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2143285.html",
+    "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2143/285/dcm0924.jpg",
+    "description": null,
+    "users": [],
+    "firstSeenAt": "2026-09-25T18:11:44.760526+09:00",
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
+  },
+  {
+    "title": "JCOMのインターネット接続サービス障害についてまとめてみた - piyolog",
+    "url": "https://piyolog.hatenadiary.jp/entry/2026/09/25/145617",
+    "domain": "piyolog.hatenadiary.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/09/25/145617",
+    "screenshot": "https://ogimage.blog.st-hatena.com/10257846132616586766/14945776032082181925/1790315819",
+    "description": "2026年9月23日、JCOMが提供するインターネット接続サービス等で、全国規模の通信障害が発生しました。JCOMは同日夜に復旧を確認し、翌24日には影響規模と原因を公表しています。ここでは関連する情報をまとめます。 J:COM NETなど複数サービスに通信障害 JCOM株式会社は2026年9月23日8時55分頃から18時頃にかけてインタ...",
+    "users": [],
+    "firstSeenAt": "2026-09-25T18:11:44.760526+09:00",
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
+  },
+  {
+    "title": "生成AIグラビアをグラビアカメラマンが作るとどうなる？第75回：Qwen-Image 2.1は商用利用に制限あり、Ming ImageはUI/UX特化だがリアル人物OKで自由度高くて期待大（西川和久） | テクノエッジ TechnoEdge",
+    "url": "https://www.techno-edge.net/article/2026/09/25/5526.html",
+    "domain": "www.techno-edge.net",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/09/25/5526.html",
+    "screenshot": "https://www.techno-edge.net/imgs/ogp_f/34451.jpg",
+    "description": "9月に登場した生成AI画像系2つ。Qwen-Image 2.1は高性能だが商用利用に制限あり。Ming ImageはUI/UX特化だがリアル人物OK。しかも無検閲なのだ。",
+    "users": [],
+    "firstSeenAt": "2026-09-25T18:11:44.760526+09:00",
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
+  },
+  {
     "title": "スマート冷蔵庫のファームウェアアップデート失敗で冷蔵機能が停止、食品が腐る事態に【やじうまWatch】",
     "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2143157.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 15,
+    "count": 66,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/yajiuma/2143157.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2143/157/yajiuma-watch_3.png",
     "description": null,
     "users": [],
     "firstSeenAt": "2026-09-25T16:26:52.809627+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "“ゆっくりボイス”をWebで作成、「AquesTalkPlayer」にWeb版が登場／インストール不要、個人の趣味の範囲なら無償",
     "url": "https://forest.watch.impress.co.jp/docs/news/2143093.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 9,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2143093.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2143/093/image_top.png",
     "description": null,
     "users": [],
     "firstSeenAt": "2026-09-25T16:26:52.809627+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "フラクタルエンジニアリング — Fractal Engineering",
@@ -39,121 +147,121 @@
     "title": "「日経ソフトウエア」休刊　「29年間の感謝をこめて『ありがとう』」",
     "url": "https://www.itmedia.co.jp/news/article/2609/25/2000001735/",
     "domain": "www.itmedia.co.jp",
-    "count": 35,
+    "count": 41,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/25/2000001735/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/25/2000001735/10007439/2048",
     "description": "日経BP社は、プログラミング関連の実用情報を扱ってきた雑誌「日経ソフトウエア」を、9月24日発売の11月号で休刊した。1998年の創刊から約29年で幕を閉じる。 11月号の表紙には「最終号」「29年間の感謝をこめて『ありがとう』」の文字を入れた。",
     "users": [],
     "firstSeenAt": "2026-09-25T15:26:03.385851+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "月30万円かかるAIは「学習しない社員」だった――LayerXが回し始めた仕事の“自己改善ループ”",
     "url": "https://www.itmedia.co.jp/business/articles/2609/25/news019.html",
     "domain": "www.itmedia.co.jp",
-    "count": 39,
+    "count": 46,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/business/articles/2609/25/news019.html",
     "screenshot": "https://image.itmedia.co.jp/business/articles/2609/25/cover_news019.jpg",
     "description": "筆者プロフィール：斎藤健二 金融・Fintechジャーナリスト。2000年よりWebメディア運営に従事し、アイティメディア社にて複数媒体の創刊編集長を務めたほか、ビジネスメディアやねとらぼなどの創刊に携わる。2023年に独立し、ネット証券やネット銀行、仮想通貨業界などのネット金融のほか、Fintech業界の取材を続けてい...",
     "users": [],
     "firstSeenAt": "2026-09-25T15:26:03.385851+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "ドコモSMTBネット銀で障害　「着金しない」「給料日にやめて」と悲鳴",
     "url": "https://www.itmedia.co.jp/news/article/2609/25/2000001745/",
     "domain": "www.itmedia.co.jp",
-    "count": 22,
+    "count": 30,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/25/2000001745/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/25/2000001745/10007485/2048",
     "description": "ドコモSMTBネット銀行（旧住信SBIネット銀行）は9月25日午前、「一部サービスがつながりにくくなる障害が発生している」と明らかにした。対象サービスの詳細や復旧見込みは明らかにしていない。 Xでは「振込手続きでシステムエラーになる」「証券口座から出金した資金が届かない」といった声が出ている。給料日や月末の...",
     "users": [],
     "firstSeenAt": "2026-09-25T15:26:03.385851+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "グーグル「Gemini」に電話代行の新機能　レストラン予約もお任せ",
     "url": "https://japan.cnet.com/article/35252958/",
     "domain": "japan.cnet.com",
-    "count": 27,
+    "count": 70,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35252958/",
     "screenshot": "https://japan.cnet.com/storage/2026/09/25/cbf48c1752bebfa02429e44d5076a5f8/GettyImages-2295205813_1280x960.jpg",
     "description": "Googleは米国時間9月24日、モバイル版「Gemini」のAI機能を拡張し、日常の電話をユーザーに代わってこなす、新たなAIエージェント機能を発表した。世界中の内向的な人に朗報だ。ただし、細かな利用条件にも目を通しておきたい。Geminiが代わりにできることには限りがあるからだ。 この機能は、スマートフォンでGeminiを...",
     "users": [],
     "firstSeenAt": "2026-09-25T15:26:03.385851+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "「Microsoft Office」が消えた、ライセンス認証しろ……シルバーウィーク明けの職場で混乱／2013、2016、2019などで報告【やじうまの杜】",
     "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2143100.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 29,
+    "count": 35,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/serial/yajiuma/2143100.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2143/100/office.jpg",
     "description": null,
     "users": [],
     "firstSeenAt": "2026-09-25T15:26:03.385851+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "freeeで一時障害、給料日の朝に「振り込めない」「勤怠打てない」と困惑の声　すでに復旧",
     "url": "https://www.itmedia.co.jp/news/article/2609/25/2000001739/",
     "domain": "www.itmedia.co.jp",
-    "count": 26,
+    "count": 27,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/25/2000001739/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/25/2000001739/10007445/2048",
     "description": "クラウド会計ソフト「freee会計」や「freee人事労務」など、中小企業向けの業務ソフトを提供するフリー（freee）のサービスで9月25日朝、ログインやサインアップができない障害が発生した。同社によればすでに回復しており、安定稼働に向けたモニタリングを続けている。",
     "users": [],
     "firstSeenAt": "2026-09-25T15:26:03.385851+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "アメリカ軍によるイランの小学校へのミサイル攻撃はデータベースの情報更新を怠りAIを過信したことが一因だったとの報道",
     "url": "https://gigazine.net/news/20260925-iran-school-maven-ai-kill-chain/",
     "domain": "gigazine.net",
-    "count": 13,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260925-iran-school-maven-ai-kill-chain/",
     "screenshot": "https://i.gzn.jp/img/2026/09/25/iran-school-maven-ai-kill-chain/00.jpg",
     "description": "2026年2月にイラン南部の小学校へアメリカ軍のミサイルが着弾し、少なくとも123人の子どもを含む150人以上が死亡しました。経済紙・Bloombergの取材に応じた匿名の当局関係者によると、学校の敷地がイラン革命防衛隊の施設としてデータベースに登録されたままであったことが、小学校にミサイル攻撃が行われた一因だそう...",
     "users": [],
     "firstSeenAt": "2026-09-25T15:26:03.385851+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "「全員クビだ」　説明の途中で衛星開発チームに言い放ったマスク氏 （日経ビジネス） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/4b79cb1a6968145123335460c8c951a5340396b5",
     "domain": "news.yahoo.co.jp",
-    "count": 15,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/4b79cb1a6968145123335460c8c951a5340396b5",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260925-59407884-business-000-1-view.jpg?exp=10800",
     "description": "（文中敬称略） 前回（「宇宙に初めて『規模の経済性』を持ち込んだイーロン・マスク」）ご紹介した策が当たって、スターリンク通信衛星事業は、スペースXの中核的収益事業へと育ちます。その速度は「爆発的な成長」と呼べるもので、現在の同社の収益はこの事業が支えています。 【関連画像】太陽電池パネルを開いたスタ...",
     "users": [],
     "firstSeenAt": "2026-09-25T15:26:03.385851+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "【笠原一輝のユビキタス情報局】 タスクバーはほぼWindows、Googlebookの実機を使ってみた",
     "url": "https://pc.watch.impress.co.jp/docs/column/ubiq/2143081.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 20,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/ubiq/2143081.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2143/081/001.jpg",
     "description": null,
     "users": [],
     "firstSeenAt": "2026-09-25T15:26:03.385851+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "Japanese used bookstores see 5x sales surge as books are being bought by the ton, one 50-ton order sent to the US for AI scanning and destruction — multitude of suspicious bulk buys thought to end up in foreign AI scan and shred facilities",
     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/japanese-used-bookstores-see-5x-sales-surge-as-books-are-being-bought-by-the-ton-one-50-ton-order-sent-to-the-us-for-ai-scanning-and-destruction-multitude-of-suspicious-bulk-buys-thought-to-end-up-in-foreign-ai-scan-and-shred-facilities",
     "domain": "www.tomshardware.com",
-    "count": 10,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.tomshardware.com/tech-industry/artificial-intelligence/japanese-used-bookstores-see-5x-sales-surge-as-books-are-being-bought-by-the-ton-one-50-ton-order-sent-to-the-us-for-ai-scanning-and-destruction-multitude-of-suspicious-bulk-buys-thought-to-end-up-in-foreign-ai-scan-and-shred-facilities",
     "screenshot": "https://cdn.mos.cms.futurecdn.net/sGEL4U7jbBtayo2bSS8YQd-1920-80.jpg",
     "description": "Bookstores in Japan are enjoying a boom in sales right now. However, this welcome spurt in business, where used books are bought in the 100s or even by the ton, is causing mixed feelings among owners of these businesses, reports NTV Japan (machine translation). It is suspected that many of the we...",
     "users": [],
     "firstSeenAt": "2026-09-25T15:26:03.385851+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "Open Semantic Interchange (OSI) を読み解く — Snowflake / dbt / Databricks が同じ規格に賛同した理由 - Codatum",
@@ -219,13 +327,13 @@
     "title": "「部活で褒めるのが苦手」と言う次女に「観察上手になればいい」と話した - レバテックLAB",
     "url": "https://levtech.jp/media/detail_931/",
     "domain": "levtech.jp",
-    "count": 91,
+    "count": 110,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/levtech.jp/media/detail_931/",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/9c39ab7b58e3a31af58ec1c3ec2e5ac38086d411/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fl%2Flevtech_lab%2F20260924%2F20260924175718.jpg",
     "description": "しんざき システムエンジニア、PM、ケーナ奏者、三児の父。南米民族音楽の演奏が趣味。仕事・育児・演奏活動の傍ら、レトロゲーム雑記ブログ「不倒城」を20年程運営している。 @shinzaki　ブログ：「不倒城」　著者記事一覧 こんにちは、しんざきです。 他人を褒めるのは苦手なんですが、自分を褒めるのは正直めちゃくち...",
     "users": [],
     "firstSeenAt": "2026-09-25T11:15:53.539748+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "「モンスト」キャラの声をAI生成、MIXIのニュース紹介企画に批判続出　実施見合わせへ",
@@ -254,61 +362,61 @@
     "title": "J:COMネット障害、原因は「外部からの大量アクセス」　DNSサーバに高負荷　最大約408万件に影響",
     "url": "https://www.itmedia.co.jp/news/article/2609/25/2000001729/",
     "domain": "www.itmedia.co.jp",
-    "count": 60,
+    "count": 65,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/25/2000001729/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/25/2000001729/10007422/2048",
     "description": "障害は、23日午前8時55分から午後6時ごろまでの9時間にわたり、北海道と九州を除く「J:COM NET」の提供エリアと、JCOMがネットサービスを提供するケーブルテレビ事業者のエリアの一部で発生。ネット接続時に必要な処理が正常に行えず、サービスを使えないまたは使いづらい状況になった。 対象は、J:COM NETのインターネ...",
     "users": [],
     "firstSeenAt": "2026-09-25T10:21:27.804727+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "AIに文章を書かせると一番言いたいことが埋もれるので、想定読者と読後感を先に決めさせるSkillを作った - $shibayu36->blog;",
     "url": "https://blog.shibayu36.org/entry/2026/09/24/173000",
     "domain": "blog.shibayu36.org",
-    "count": 329,
+    "count": 358,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.shibayu36.org/entry/2026/09/24/173000",
     "screenshot": "https://ogimage.blog.st-hatena.com/13208692334729907814/14945776032079122094/1790238600",
     "description": "最近AIにブログ記事やドキュメントを書かせることが増えた。しかしAIに書かせると、余計な前提や補足が多くて一番言いたいことが埋もれてしまう。かといって「もっと短くして」と指示すると、今度は具体例など本当に大事な部分まで削られ、スカスカで伝わらない文書になる。「この補足は消して、この具体例は残して」と...",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "みんなJevの話してる。やってないの俺だけ",
     "url": "https://zenn.dev/unsoluble_sugar/articles/jev-system-one-model-intro",
     "domain": "zenn.dev",
-    "count": 315,
+    "count": 344,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/unsoluble_sugar/articles/jev-system-one-model-intro",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--i-YRRvCs--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2581%25BF%25E3%2582%2593%25E3%2581%25AAJev%25E3%2581%25AE%25E8%25A9%25B1%25E3%2581%2597%25E3%2581%25A6%25E3%2582%258B%25E3%2580%2582%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25AA%25E3%2581%2584%25E3%2581%25AE%25E4%25BF%25BA%25E3%2581%25A0%25E3%2581%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E6%2598%259F%25E5%25BD%25B1%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzEwZDE4YjgwZTkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "はじめに 2026年9月中旬あたりから、タイムラインが急に「Jev」の話題で埋まりました。「LLMより200倍速い」「出力トークン無料」「ハルシネーションしない」と景気のいい言葉が並ぶ一方で、自分はまだAPIキーすら持っていません。 やってないのは俺だけか…という焦りを燃料に、Jevとは何か、なぜ騒がれているのか、LLM...",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "ソフトウェアエンジニアとしてのぼくは、もう死んでいた｜choo",
     "url": "https://note.com/choo/n/nf2a81eced17b",
     "domain": "note.com",
-    "count": 221,
+    "count": 235,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/choo/n/nf2a81eced17b",
     "screenshot": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/463bfc89eb27c1bc664018e6d9834a9cd33ccb18.png",
     "description": "もう一年近くコードを一切書いていない。 ぼくは以前、ソフトウェアエンジニアとしてコードをかなり書いていたという自信がある。 仕事としては15年近く主にコードを書く職種だったし、個人開発を本格的に始めた6年くらい前からは、フロントエンド、バックエンド問わず、ガリガリコードを書いていた。 「どういうWebサー...",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "「Python」のWindowsフルインストーラーが引退へ、「3.16」以降は提供されず／これからは「Python Install Manager」で導入・管理",
     "url": "https://forest.watch.impress.co.jp/docs/news/2142666.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 107,
+    "count": 118,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2142666.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2142/666/python.jpg",
     "description": null,
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "Go言語で書かれた高速なIDE「Rune」、オープンソースで公開。ターミナルとコマンドプロンプト中心の開発環境、複数リモートノードをローカルのように操作可能",
@@ -361,37 +469,37 @@
     "title": "メモ帳としても便利に使える「GitHub」アプリ、エンジニアだけのツールじゃない [てっぱんアプリ！]",
     "url": "https://k-tai.watch.impress.co.jp/docs/column/teppan/2142991.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 91,
+    "count": 101,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/column/teppan/2142991.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2142/991/01.jpg",
     "description": null,
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "【西川善司のグラフィックスMANIAC】 DLSS 5の正体は1回推論の画像生成AI、NVIDIAが明かした3D誘導型の中身とは",
     "url": "https://pc.watch.impress.co.jp/docs/column/zenji/2142631.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 65,
+    "count": 71,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/zenji/2142631.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2142/631/Resident_Evil_Requiem_Grace__2.png",
     "description": null,
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "AIデータセンター、危うい錬金術　GPU担保や証券化など資金調達複雑に - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC07AL40X00C26A9000000/",
     "domain": "www.nikkei.com",
-    "count": 52,
+    "count": 54,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC07AL40X00C26A9000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3632866024092026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.36&fp-y=0.17&h=630&w=1200&s=8c3b93a1554a37912a68917ec67f5fca",
     "description": "人工知能（AI）向けのデータセンターを構築する資金の調達手法が複雑になっている。画像処理半導体（GPU）を担保にして金融機関が融資したり、ローンを証券化したりしている。「錬金術」の側面があり、AIの需要が陰れば投資マネーの逆回転が起こる危うさをはらむ。24日にはオラクル株が一時前日比8%安、ブルー・アウル株...",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T16:26:52.809627+09:00"
+    "lastSeenAt": "2026-09-25T18:11:44.760526+09:00"
   },
   {
     "title": "AI時代のジュニアエンジニア育成で、『自走』をどう見極めるか - シンクロ・フード エンジニアブログ",
