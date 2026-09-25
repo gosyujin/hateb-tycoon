@@ -42,7 +42,13 @@
     <button id="entry-back" type="button" class="btn btn--small">← 一覧に戻る</button>
     <div id="entry-header" class="entry-header"></div>
     <p id="entry-description" class="entry-description"></p>
-    <p id="entry-status" class="status"></p>
+    <div class="list-status-row">
+      <p id="entry-status" class="status"></p>
+      <div id="comment-layout-toggle" class="layout-toggle">
+        <button type="button" class="tab" data-layout="plain">plain</button>
+        <button type="button" class="tab" data-layout="rich">rich</button>
+      </div>
+    </div>
     <ul id="comment-list" class="comment-list"></ul>
     <button id="entry-back-bottom" type="button" class="btn btn--small">← 一覧に戻る</button>
   </section>

@@ -80,6 +80,7 @@
         user: b.user || '(不明なユーザー)',
         comment: b.comment || '',
         timestamp: b.timestamp || '',
+        tags: Array.isArray(b.tags) ? b.tags : [],
       })),
     };
   }

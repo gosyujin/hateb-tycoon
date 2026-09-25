@@ -13,6 +13,7 @@
   const entryDescription = document.getElementById('entry-description');
   const commentList = document.getElementById('comment-list');
   const entryStatus = document.getElementById('entry-status');
+  const commentLayoutToggle = document.getElementById('comment-layout-toggle');
 
   const settingsBtn = document.getElementById('settings-btn');
   const settingsModal = document.getElementById('settings-modal');
@@ -454,10 +455,54 @@
   entryBack.addEventListener('click', () => history.back());
   entryBackBottom.addEventListener('click', () => history.back());
 
+  // コメント一覧の表示方法(plain/rich)。切替時は再取得せず保持済みのcurrentCommentsを
+  // 描画し直すだけにする。
+  const COMMENT_LAYOUT_KEY = 'hateb-tycoon:commentLayout';
+  let commentLayout = loadCommentLayout();
+  let currentComments = [];
+
+  function loadCommentLayout() {
+    try {
+      return localStorage.getItem(COMMENT_LAYOUT_KEY) === 'rich' ? 'rich' : 'plain';
+    } catch (e) {
+      return 'plain';
+    }
+  }
+
+  function saveCommentLayout(mode) {
+    try {
+      localStorage.setItem(COMMENT_LAYOUT_KEY, mode);
+    } catch (e) {
+      // localStorageが使えない環境では記憶をあきらめる
+    }
+  }
+
+  function updateCommentLayoutToggleUI() {
+    commentLayoutToggle.querySelectorAll('button[data-layout]').forEach((btn) => {
+      btn.classList.toggle('active', btn.dataset.layout === commentLayout);
+    });
+  }
+
+  function renderCommentList() {
+    commentList.className = commentLayout === 'rich' ? 'comment-list comment-list--rich' : 'comment-list';
+    commentList.innerHTML = currentComments.map(renderComment).join('') || '<p class="empty">コメントはありません。</p>';
+  }
+
+  commentLayoutToggle.addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-layout]');
+    if (!btn || btn.dataset.layout === commentLayout) return;
+    commentLayout = btn.dataset.layout;
+    saveCommentLayout(commentLayout);
+    updateCommentLayoutToggleUI();
+    renderCommentList();
+  });
+
   async function renderEntryView(url) {
     commentList.innerHTML = '';
+    currentComments = [];
     entryHeader.innerHTML = '';
     entryDescription.textContent = '';
+    updateCommentLayoutToggleUI();
     if (!url) {
       entryStatus.textContent = 'URLが指定されていません。';
       return;
@@ -499,7 +544,8 @@
           ? `${visible.length} 件のコメントを表示中(${hiddenCount} 件を非表示)`
           : `${visible.length} 件のコメントを表示中`;
 
-      commentList.innerHTML = visible.map(renderComment).join('') || '<p class="empty">コメントはありません。</p>';
+      currentComments = visible;
+      renderCommentList();
     } catch (err) {
       console.error(err);
       entryStatus.textContent = `取得に失敗しました: ${err.message}`;
@@ -507,9 +553,36 @@
   }
 
   function renderComment(b) {
+    return commentLayout === 'rich' ? renderCommentRich(b) : renderCommentPlain(b);
+  }
+
+  function renderCommentPlain(b) {
     const date = (b.timestamp || '').split(' ')[0];
     const user = `<button type="button" class="comment-user" data-user="${escapeHtml(b.user)}">${escapeHtml(b.user)}</button>`;
     return `<li>${user} <span class="comment-date">${escapeHtml(date)}</span> ${escapeHtml(b.comment)}</li>`;
+  }
+
+  // 実際のはてなブックマークのコメント表示に寄せたレイアウト。
+  // アイコンURLはAPIレスポンスに含まれないため、はてなの公開アイコン配信の
+  // 命名規則(cdn.profile-image.st-hatena.com)から組み立てる。
+  function renderCommentRich(b) {
+    const date = (b.timestamp || '').split(' ')[0];
+    const iconUrl = `https://cdn.profile-image.st-hatena.com/users/${encodeURIComponent(b.user)}/profile.png`;
+    const user = `<button type="button" class="comment-user" data-user="${escapeHtml(b.user)}">${escapeHtml(b.user)}</button>`;
+    const tags = (b.tags || [])
+      .map((t) => `<span class="comment-tag">${escapeHtml(t)}</span>`)
+      .join('');
+    return `
+      <li class="comment--rich">
+        <img class="comment-icon" src="${escapeHtml(iconUrl)}" alt="" loading="lazy" width="32" height="32">
+        <div class="comment-rich-body">
+          <div class="comment-rich-line1">${user} ${escapeHtml(b.comment)}</div>
+          <div class="comment-rich-line2">
+            <span class="comment-date">${escapeHtml(date)}</span>
+            ${tags ? `<span class="comment-tags">${tags}</span>` : ''}
+          </div>
+        </div>
+      </li>`;
   }
 
   // ---- フィルタ設定モーダル ----
