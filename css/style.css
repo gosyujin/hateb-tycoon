@@ -679,4 +679,18 @@ main {
   .visited-toggle {
     font-size: 0.7rem;
   }
+
+  /* .rule-form(種別セレクト・値入力・追加ボタン)はflexのままだと各要素が
+     最小幅より縮まずスマホ幅を超えてはみ出すため、セレクトを1行目、
+     入力欄+ボタンを2行目に分けて二段組みにする。 */
+  .rule-form {
+    flex-wrap: wrap;
+  }
+  .rule-form select {
+    flex: 1 1 100%;
+  }
+  .rule-form input[type="text"] {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
 }
