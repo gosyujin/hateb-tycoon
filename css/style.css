@@ -121,6 +121,10 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 14px;
 }
+#scroll-sentinel {
+  grid-column: 1 / -1;
+  height: 1px;
+}
 
 .card {
   background: var(--color-surface);
@@ -162,6 +166,11 @@ main {
   display: flex;
   justify-content: space-between;
   font-size: 0.78rem;
+  color: var(--color-muted);
+}
+
+.card-first-seen {
+  font-size: 0.7rem;
   color: var(--color-muted);
 }
 

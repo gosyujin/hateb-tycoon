@@ -23,6 +23,11 @@
   let currentCategory = 'all';
   let currentSettingsKind = 'mute';
 
+  const PAGE_SIZE = 20;
+  let currentVisibleEntries = [];
+  let renderedCount = 0;
+  let scrollObserver = null;
+
   const KIND_LABEL = {
     mute: 'ミュートワード(該当したら非表示)',
     unmute: 'ミュート解除ワード(ミュートワードの例外として表示)',
@@ -92,8 +97,53 @@
 
   refreshBtn.addEventListener('click', () => renderListView());
 
+  function disconnectScrollObserver() {
+    if (scrollObserver) {
+      scrollObserver.disconnect();
+      scrollObserver = null;
+    }
+  }
+
+  function renderNextPage() {
+    const nextItems = currentVisibleEntries.slice(renderedCount, renderedCount + PAGE_SIZE);
+    if (nextItems.length === 0) return;
+    const sentinel = document.getElementById('scroll-sentinel');
+    const html = nextItems.map(renderEntryCard).join('');
+    if (sentinel) {
+      sentinel.insertAdjacentHTML('beforebegin', html);
+    } else {
+      entryGrid.insertAdjacentHTML('beforeend', html);
+    }
+    renderedCount += nextItems.length;
+
+    if (renderedCount >= currentVisibleEntries.length) {
+      disconnectScrollObserver();
+      if (sentinel) sentinel.remove();
+    }
+  }
+
+  function setupScrollObserver() {
+    disconnectScrollObserver();
+    if (renderedCount >= currentVisibleEntries.length) return;
+    const sentinel = document.createElement('div');
+    sentinel.id = 'scroll-sentinel';
+    entryGrid.appendChild(sentinel);
+    scrollObserver = new IntersectionObserver(
+      (observerEntries) => {
+        if (observerEntries.some((e) => e.isIntersecting)) {
+          renderNextPage();
+        }
+      },
+      { rootMargin: '600px' }
+    );
+    scrollObserver.observe(sentinel);
+  }
+
   async function renderListView() {
+    disconnectScrollObserver();
     entryGrid.innerHTML = '';
+    currentVisibleEntries = [];
+    renderedCount = 0;
     listStatus.textContent = '読み込み中…';
     try {
       const entries = await HatenaAPI.getHotEntries(currentCategory);
@@ -111,7 +161,9 @@
       listStatus.textContent =
         hiddenCount > 0 ? `${visible.length} 件を表示中(${hiddenCount} 件を非表示)` : `${visible.length} 件を表示中`;
 
-      entryGrid.innerHTML = visible.map(renderEntryCard).join('');
+      currentVisibleEntries = visible;
+      renderNextPage();
+      setupScrollObserver();
     } catch (err) {
       console.error(err);
       listStatus.textContent = `取得に失敗しました: ${err.message}`;
@@ -125,6 +177,9 @@
     const thumb = item.screenshot
       ? `<img class="card-thumb" src="${escapeHtml(item.screenshot)}" alt="" loading="lazy">`
       : `<div class="card-thumb card-thumb--empty"></div>`;
+    const firstSeen = item.firstSeenAt
+      ? `<span class="card-first-seen">初出 ${escapeHtml(item.firstSeenAt.slice(0, 10))}</span>`
+      : '';
     return `
       <article class="card">
         ${thumb}
@@ -134,6 +189,7 @@
             <span class="card-domain">${escapeHtml(item.domain)}</span>
             <span class="card-count">${item.count} users</span>
           </div>
+          ${firstSeen}
           <a class="card-comments-link" href="${href}">ブックマークコメントを見る →</a>
         </div>
       </article>`;

@@ -8,6 +8,12 @@ GitHub Actions (.github/workflows/fetch-hotentry.yml) から定期実行され�
 - 無料の公開CORSプロキシは認証必須化・レート制限・不安定で信頼できない
 という問題があるため、CI環境(GitHub Actionsのランナー)側で定期的に取得して
 リポジトリに同一オリジンの静的JSONとしてコミットし、ブラウザ側はそれを読むだけにする。
+
+RSSの ?page= / ?of= クエリパラメータはページングとして機能しない(常に現在の
+上位30件前後を返すだけ)ことを実機検証済みのため、過去に取得した内容を
+「上書き」ではなく「蓄積」することで、時間の経過とともに遡れる件数を増やす。
+記事ごとに firstSeenAt(初出日時) / lastSeenAt(最終確認日時) を記録し、
+firstSeenAtの新しい順に並べ、件数・保持期間の上限でプルーニングする。
 """
 import json
 import sys
@@ -41,6 +47,9 @@ CATEGORIES = [
 
 USER_AGENT = "hateb-tycoon-bot/1.0 (+https://github.com/gosyujin/hateb-tycoon)"
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+
+MAX_ENTRIES_PER_CATEGORY = 300
+RETENTION_DAYS = 14
 
 
 def fetch_rss(category):
@@ -83,25 +92,71 @@ def parse_items(xml_bytes):
     return entries
 
 
+def load_existing(out_path):
+    if not out_path.exists():
+        return {}
+    try:
+        entries = json.loads(out_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    return {e["url"]: e for e in entries if e.get("url")}
+
+
+def merge_entries(existing_by_url, fresh_entries, now_iso):
+    for entry in fresh_entries:
+        url = entry["url"]
+        if not url:
+            continue
+        prev = existing_by_url.get(url)
+        merged = dict(entry)
+        merged["firstSeenAt"] = prev["firstSeenAt"] if prev else now_iso
+        merged["lastSeenAt"] = now_iso
+        existing_by_url[url] = merged
+    return existing_by_url
+
+
+def prune(existing_by_url, now_dt):
+    cutoff = now_dt - timedelta(days=RETENTION_DAYS)
+    kept = []
+    for entry in existing_by_url.values():
+        try:
+            last_seen = datetime.fromisoformat(entry["lastSeenAt"])
+        except (KeyError, ValueError):
+            last_seen = now_dt
+        if last_seen >= cutoff:
+            kept.append(entry)
+    kept.sort(key=lambda e: e.get("firstSeenAt", ""), reverse=True)
+    return kept[:MAX_ENTRIES_PER_CATEGORY]
+
+
 def main():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+    now_jst = datetime.now(timezone.utc).astimezone(JST)
+    now_iso = now_jst.isoformat()
+
     failures = []
     for i, category in enumerate(CATEGORIES):
         if i > 0:
             time.sleep(1)
+
+        out_path = DATA_DIR / f"hotentry-{category}.json"
         try:
             xml_bytes = fetch_rss(category)
-            entries = parse_items(xml_bytes)
+            fresh_entries = parse_items(xml_bytes)
         except (urllib.error.URLError, ET.ParseError) as e:
             print(f"[warn] {category}: 取得/解析に失敗、既存データを維持します ({e})", file=sys.stderr)
             failures.append(category)
             continue
 
-        out_path = DATA_DIR / f"hotentry-{category}.json"
-        out_path.write_text(json.dumps(entries, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(f"[ok] {category}: {len(entries)}件 -> {out_path}")
+        existing_by_url = load_existing(out_path)
+        before_count = len(existing_by_url)
+        merged = merge_entries(existing_by_url, fresh_entries, now_iso)
+        entries = prune(merged, now_jst)
+        new_count = len(entries) - before_count
 
-    now_jst = datetime.now(timezone.utc).astimezone(JST)
+        out_path.write_text(json.dumps(entries, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(f"[ok] {category}: 累計{len(entries)}件(新規+{max(new_count, 0)}) -> {out_path}")
+
     next_estimate_jst = now_jst + timedelta(minutes=30)
     meta = {
         "fetchedAt": now_jst.strftime("%Y-%m-%d %H:%M JST"),
