@@ -55,6 +55,14 @@ main {
   padding: 16px 20px 48px;
 }
 
+.app-footer {
+  text-align: center;
+  padding: 12px 20px 24px;
+  font-size: 0.72rem;
+  color: var(--color-muted);
+  font-family: monospace;
+}
+
 .btn {
   padding: 6px 14px;
   border-radius: var(--radius);

@@ -263,6 +263,14 @@
     render();
   });
 
+  // ---- ビルド情報(デバッグ用) ----
+  function renderBuildInfo() {
+    const el = document.getElementById('build-info');
+    if (!el || !window.BUILD_INFO) return;
+    el.textContent = `build: ${window.BUILD_INFO.sha} (${window.BUILD_INFO.time})`;
+  }
+
   // ---- 初期化 ----
+  renderBuildInfo();
   render();
 })();
