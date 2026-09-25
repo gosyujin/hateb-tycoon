@@ -86,6 +86,7 @@ def parse_items(xml_bytes):
                 "count": int(count_text) if count_text.isdigit() else 0,
                 "entryUrl": text_of(item, "hatena", "bookmarkCommentListPageUrl") or None,
                 "screenshot": text_of(item, "hatena", "imageurl") or None,
+                "description": text_of(item, "rss", "description") or None,
                 "users": [],
             }
         )

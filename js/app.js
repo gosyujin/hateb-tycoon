@@ -8,6 +8,7 @@
 
   const entryBack = document.getElementById('entry-back');
   const entryHeader = document.getElementById('entry-header');
+  const entryDescription = document.getElementById('entry-description');
   const commentList = document.getElementById('comment-list');
   const entryStatus = document.getElementById('entry-status');
 
@@ -294,15 +295,23 @@
   async function renderEntryView(url) {
     commentList.innerHTML = '';
     entryHeader.innerHTML = '';
+    entryDescription.textContent = '';
     if (!url) {
       entryStatus.textContent = 'URLが指定されていません。';
       return;
+    }
+    // 一覧取得済みのデータに概要(RSSのdescription)があれば流用する。
+    // 直接このURLへ遷移した場合など、一覧データが無ければ何も表示しない。
+    const listedItem = currentVisibleEntries.find((item) => item.url === url);
+    if (listedItem && listedItem.description) {
+      entryDescription.textContent = listedItem.description;
     }
     entryStatus.textContent = '読み込み中…';
     try {
       const info = await HatenaAPI.getEntryInfo(url);
 
       if (Filters.isHidden({ title: info.title, domain: info.domain })) {
+        entryDescription.textContent = '';
         entryStatus.textContent = 'このエントリーはフィルタ条件により非表示になっています。';
         return;
       }
