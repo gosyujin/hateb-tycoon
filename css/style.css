@@ -96,6 +96,22 @@ main {
   margin-top: 16px;
 }
 
+.entry-nav-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+.entry-nav-btn {
+  flex: 1 1 50%;
+  padding: 14px 8px;
+  font-size: 1rem;
+  text-align: center;
+}
+.entry-nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
 .toolbar {
   display: flex;
   align-items: center;
@@ -512,6 +528,29 @@ main {
 .visited-threshold-row select {
   flex: 1;
   padding: 6px;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  font-size: 16px;
+}
+
+.offline-cache-section {
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--color-border);
+}
+.offline-cache-section h3 {
+  margin: 0;
+  font-size: 0.95rem;
+}
+.offline-cache-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.offline-cache-row input[type="number"] {
+  width: 70px;
+  padding: 6px 10px;
   border-radius: var(--radius);
   border: 1px solid var(--color-border);
   font-size: 16px;

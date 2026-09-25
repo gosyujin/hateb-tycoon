@@ -53,6 +53,10 @@
       </div>
     </div>
     <ul id="comment-list" class="comment-list"></ul>
+    <div class="entry-nav-buttons">
+      <button id="entry-prev-btn" type="button" class="btn entry-nav-btn">← 前の記事へ</button>
+      <button id="entry-next-btn" type="button" class="btn entry-nav-btn">次の記事へ →</button>
+    </div>
     <button id="entry-back-bottom" type="button" class="btn btn--small">← 一覧に戻る</button>
   </section>
 </main>
@@ -75,6 +79,19 @@
           <option value="count">件(既読時からの増加数)</option>
         </select>
       </div>
+    </div>
+
+    <div class="offline-cache-section">
+      <h3>オフライン用キャッシュ</h3>
+      <p class="hint">
+        「全て」カテゴリーの表示順(フィルタ除外後)で上位n件のコメントを今すぐ取得し、
+        機内モードなどオフラインでも読めるよう保存しておきます(既読/未読は問いません)。
+      </p>
+      <div class="offline-cache-row">
+        <label>件数 <input id="offline-cache-count" type="number" min="1" max="200" value="20" inputmode="numeric"></label>
+        <button id="offline-cache-btn" type="button" class="btn btn--small">今すぐキャッシュする</button>
+      </div>
+      <p id="offline-cache-status" class="status"></p>
     </div>
 
     <nav id="settings-tabs" class="tabs"></nav>

@@ -10,6 +10,8 @@
   const entryBack = document.getElementById('entry-back');
   const entryBackBottom = document.getElementById('entry-back-bottom');
   const entryFilterBtn = document.getElementById('entry-filter-btn');
+  const entryPrevBtn = document.getElementById('entry-prev-btn');
+  const entryNextBtn = document.getElementById('entry-next-btn');
   const entryHeader = document.getElementById('entry-header');
   const entryDescription = document.getElementById('entry-description');
   const commentList = document.getElementById('comment-list');
@@ -34,6 +36,9 @@
   const importGistLink = document.getElementById('import-gist-link');
   const visitedThresholdValueInput = document.getElementById('visited-threshold-value');
   const visitedThresholdTypeSelect = document.getElementById('visited-threshold-type');
+  const offlineCacheCountInput = document.getElementById('offline-cache-count');
+  const offlineCacheBtn = document.getElementById('offline-cache-btn');
+  const offlineCacheStatus = document.getElementById('offline-cache-status');
 
   let currentCategory = 'all';
   let currentSettingsKind = 'mute';
@@ -530,6 +535,7 @@
     entryDescription.textContent = '';
     updateCommentLayoutToggleUI();
     resetEntryFilterBtn();
+    updateEntryNavButtons(url);
     if (!url) {
       entryStatus.textContent = 'URLが指定されていません。';
       return;
@@ -650,6 +656,51 @@
 
   visitedThresholdValueInput.addEventListener('change', saveVisitedThresholdFromFields);
   visitedThresholdTypeSelect.addEventListener('change', saveVisitedThresholdFromFields);
+
+  // ---- オフライン用キャッシュ(「全て」上位n件のコメントを手動で今すぐ取得) ----
+  let offlineCachingInProgress = false;
+
+  offlineCacheBtn.addEventListener('click', async () => {
+    if (offlineCachingInProgress) return;
+    const requested = Math.floor(Number(offlineCacheCountInput.value));
+    const count = Number.isFinite(requested) ? Math.min(Math.max(requested, 1), 200) : 20;
+    offlineCacheCountInput.value = count;
+
+    offlineCachingInProgress = true;
+    offlineCacheBtn.disabled = true;
+    offlineCacheStatus.textContent = '対象記事を取得中…';
+
+    let targets;
+    try {
+      const entries = await HatenaAPI.getHotEntries('everything');
+      targets = entries.filter((item) => !Filters.isHidden(item)).slice(0, count);
+    } catch (err) {
+      offlineCacheStatus.textContent = `一覧の取得に失敗しました: ${err.message}`;
+      offlineCacheBtn.disabled = false;
+      offlineCachingInProgress = false;
+      return;
+    }
+
+    let success = 0;
+    let failed = 0;
+    for (let i = 0; i < targets.length; i++) {
+      offlineCacheStatus.textContent = `${i + 1}/${targets.length}件処理中(成功${success}・失敗${failed})…`;
+      try {
+        await HatenaAPI.getEntryInfo(targets[i].url);
+        success++;
+      } catch (err) {
+        failed++;
+      }
+    }
+
+    offlineCacheStatus.textContent =
+      failed > 0
+        ? `${targets.length}件中${success}件をキャッシュしました(失敗${failed}件)`
+        : `${success}件をキャッシュしました`;
+    offlineCacheBtn.disabled = false;
+    offlineCachingInProgress = false;
+  });
+
   function closeSettings() {
     settingsModal.hidden = true;
   }
@@ -938,12 +989,10 @@
   // その場でフィルタに登録した記事はcurrentVisibleEntries自体からは即座に
   // 取り除かれないため、移動先を探す際は都度Filters.isHiddenで生きた判定をし、
   // 該当すればスルーして次(前)を見る。
-  function goToRelativeEntry(delta) {
-    const { params } = parseRoute();
-    const url = params.get('url');
-    if (!url || currentVisibleEntries.length === 0) return false;
-    const index = currentVisibleEntries.findIndex((item) => item.url === url);
-    if (index === -1) return false;
+  function findRelativeEntryIndex(currentUrl, delta) {
+    if (!currentUrl || currentVisibleEntries.length === 0) return -1;
+    const index = currentVisibleEntries.findIndex((item) => item.url === currentUrl);
+    if (index === -1) return -1;
     let nextIndex = index + delta;
     while (
       nextIndex >= 0 &&
@@ -952,12 +1001,28 @@
     ) {
       nextIndex += delta;
     }
-    if (nextIndex < 0 || nextIndex >= currentVisibleEntries.length) return false;
+    if (nextIndex < 0 || nextIndex >= currentVisibleEntries.length) return -1;
+    return nextIndex;
+  }
+
+  function goToRelativeEntry(delta) {
+    const { params } = parseRoute();
+    const url = params.get('url');
+    const nextIndex = findRelativeEntryIndex(url, delta);
+    if (nextIndex === -1) return false;
     const nextParams = new URLSearchParams();
     nextParams.set('url', currentVisibleEntries[nextIndex].url);
     navigate('/entry', nextParams);
     return true;
   }
+
+  function updateEntryNavButtons(url) {
+    entryPrevBtn.disabled = findRelativeEntryIndex(url, -1) === -1;
+    entryNextBtn.disabled = findRelativeEntryIndex(url, 1) === -1;
+  }
+
+  entryPrevBtn.addEventListener('click', () => goToRelativeEntry(-1));
+  entryNextBtn.addEventListener('click', () => goToRelativeEntry(1));
 
   window.addEventListener('keydown', (e) => {
     if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
