@@ -16,7 +16,10 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+JST = timezone(timedelta(hours=9))
 
 NS = {
     "rss": "http://purl.org/rss/1.0/",
@@ -97,6 +100,14 @@ def main():
         out_path = DATA_DIR / f"hotentry-{category}.json"
         out_path.write_text(json.dumps(entries, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"[ok] {category}: {len(entries)}件 -> {out_path}")
+
+    now_jst = datetime.now(timezone.utc).astimezone(JST)
+    next_estimate_jst = now_jst + timedelta(minutes=30)
+    meta = {
+        "fetchedAt": now_jst.strftime("%Y-%m-%d %H:%M JST"),
+        "nextEstimate": next_estimate_jst.strftime("%Y-%m-%d %H:%M JST"),
+    }
+    (DATA_DIR / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     if len(failures) == len(CATEGORIES):
         print("[error] 全カテゴリの取得に失敗しました", file=sys.stderr)

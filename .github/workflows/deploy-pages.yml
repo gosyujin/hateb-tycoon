@@ -25,7 +25,7 @@ jobs:
       - name: Stamp build info and cache-bust assets
         run: |
           SHA="${GITHUB_SHA::7}"
-          TIME="$(date -u +"%Y-%m-%d %H:%M UTC")"
+          TIME="$(TZ='Asia/Tokyo' date +"%Y-%m-%d %H:%M JST")"
           cat > js/build-info.js <<EOF
           window.BUILD_INFO = { sha: '${SHA}', time: '${TIME}' };
           EOF

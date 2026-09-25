@@ -329,3 +329,49 @@ main {
   cursor: pointer;
   font-size: 0.8rem;
 }
+
+@media (max-width: 640px) {
+  .toolbar {
+    flex-wrap: nowrap;
+  }
+  .tabs {
+    flex: 1 1 auto;
+    min-width: 0;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  .tab {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 5px 6px;
+    font-size: 0.72rem;
+  }
+  #refresh-btn {
+    flex-shrink: 0;
+  }
+
+  .entry-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  .card-thumb {
+    height: 80px;
+  }
+  .card-body {
+    padding: 8px 8px 10px;
+    gap: 4px;
+  }
+  .card-title {
+    font-size: 0.78rem;
+    -webkit-line-clamp: 3;
+  }
+  .card-meta {
+    font-size: 0.65rem;
+  }
+  .card-comments-link {
+    font-size: 0.7rem;
+  }
+}

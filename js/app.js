@@ -270,7 +270,21 @@
     el.textContent = `build: ${window.BUILD_INFO.sha} (${window.BUILD_INFO.time})`;
   }
 
+  async function renderDataMeta() {
+    const el = document.getElementById('data-meta');
+    if (!el) return;
+    try {
+      const res = await fetch('data/meta.json', { cache: 'no-store' });
+      if (!res.ok) return;
+      const meta = await res.json();
+      el.textContent = `データ取得: ${meta.fetchedAt}時点 / 次回更新目安: ${meta.nextEstimate}頃`;
+    } catch (e) {
+      // メタ情報が無くても一覧表示自体は継続できるため、フッター欄は空のままにする
+    }
+  }
+
   // ---- 初期化 ----
   renderBuildInfo();
+  renderDataMeta();
   render();
 })();
