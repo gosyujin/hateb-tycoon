@@ -270,6 +270,13 @@ main {
   font-size: 1.45em;
   color: #c62828;
 }
+/* 前回訪問時にコメント付きブックマークが無かった記事は、ブックマーク数の
+   強調表示(tier1〜4)より優先してグレーで目立たなくする。 */
+.card-count-link--no-comment {
+  font-weight: 400;
+  font-size: 1em;
+  color: var(--color-muted);
+}
 
 .card-domain {
   font-size: 0.78rem;

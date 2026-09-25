@@ -401,13 +401,14 @@
       ? `<span class="card-first-seen">初出 ${escapeHtml(item.firstSeenAt.slice(0, 10))}</span>`
       : '<span></span>';
     const visitedClass = Visited.isStillRead(item) ? ' card--visited' : '';
+    const noCommentClass = Visited.hasNoComments(item.url) ? ' card-count-link--no-comment' : '';
     return `
       <article class="card${visitedClass}">
         ${thumb}
         <div class="card-body">
           <div class="card-top-row">
             ${firstSeen}
-            <a class="card-count-link${countTierClass(item.count)}" href="${href}">${item.count} users →</a>
+            <a class="card-count-link${countTierClass(item.count)}${noCommentClass}" href="${href}">${item.count} users →</a>
           </div>
           <button type="button" class="card-domain" data-domain="${escapeHtml(item.domain)}">${escapeHtml(item.domain)}</button>
           <a class="card-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
@@ -443,7 +444,8 @@
         return;
       }
 
-      Visited.markVisited(url, info.count);
+      const commented = info.bookmarks.filter((b) => b.comment);
+      Visited.markVisited(url, info.count, commented.length > 0);
 
       entryHeader.innerHTML = `
         <a class="entry-title" href="${escapeHtml(info.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(info.title)}</a>
@@ -453,7 +455,6 @@
           ${info.entryUrl ? `<a href="${escapeHtml(info.entryUrl)}" target="_blank" rel="noopener noreferrer">はてなブックマークページ →</a>` : ''}
         </div>`;
 
-      const commented = info.bookmarks.filter((b) => b.comment);
       const visible = commented.filter(
         (b) => !Filters.isHidden({ title: info.title, domain: info.domain, user: b.user, comment: b.comment })
       );

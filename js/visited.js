@@ -31,10 +31,14 @@
     }
   }
 
-  function markVisited(url, count) {
+  function markVisited(url, count, hasComments) {
     if (!url) return;
     const map = load();
-    map[url] = { time: Date.now(), count: typeof count === 'number' ? count : 0 };
+    map[url] = {
+      time: Date.now(),
+      count: typeof count === 'number' ? count : 0,
+      hasComments: typeof hasComments === 'boolean' ? hasComments : true,
+    };
     const keys = Object.keys(map);
     if (keys.length > MAX_ENTRIES) {
       keys.sort((a, b) => map[a].time - map[b].time);
@@ -89,5 +93,14 @@
     return (increase / prevCount) * 100 < threshold.value;
   }
 
-  global.Visited = { markVisited, loadThreshold, saveThreshold, isStillRead };
+  // 前回訪問時、コメント付きブックマークが1件も無かった(=コメントが無いか、
+  // ドメイン側の設定等でコメントが取得できない)場合に true。
+  // まだ訪問していないURLは判断材料が無いため false(グレーアウトしない)。
+  function hasNoComments(url) {
+    if (!url) return false;
+    const rec = load()[url];
+    return !!rec && rec.hasComments === false;
+  }
+
+  global.Visited = { markVisited, loadThreshold, saveThreshold, isStillRead, hasNoComments };
 })(window);
