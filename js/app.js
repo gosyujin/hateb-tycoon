@@ -9,6 +9,7 @@
 
   const entryBack = document.getElementById('entry-back');
   const entryBackBottom = document.getElementById('entry-back-bottom');
+  const entryFilterBtn = document.getElementById('entry-filter-btn');
   const entryHeader = document.getElementById('entry-header');
   const entryDescription = document.getElementById('entry-description');
   const commentList = document.getElementById('comment-list');
@@ -499,12 +500,29 @@
     renderCommentList();
   });
 
+  const ENTRY_FILTER_BTN_DEFAULT_LABEL = 'このページをフィルタに登録する';
+
+  function resetEntryFilterBtn() {
+    entryFilterBtn.textContent = ENTRY_FILTER_BTN_DEFAULT_LABEL;
+    entryFilterBtn.disabled = false;
+  }
+
+  entryFilterBtn.addEventListener('click', () => {
+    const { params } = parseRoute();
+    const url = params.get('url');
+    if (!url) return;
+    Filters.addRule('mute', 'url', url);
+    entryFilterBtn.textContent = 'フィルタに登録しました';
+    entryFilterBtn.disabled = true;
+  });
+
   async function renderEntryView(url) {
     commentList.innerHTML = '';
     currentComments = [];
     entryHeader.innerHTML = '';
     entryDescription.textContent = '';
     updateCommentLayoutToggleUI();
+    resetEntryFilterBtn();
     if (!url) {
       entryStatus.textContent = 'URLが指定されていません。';
       return;
@@ -908,13 +926,23 @@
     return true;
   }
 
+  // その場でフィルタに登録した記事はcurrentVisibleEntries自体からは即座に
+  // 取り除かれないため、移動先を探す際は都度Filters.isHiddenで生きた判定をし、
+  // 該当すればスルーして次(前)を見る。
   function goToRelativeEntry(delta) {
     const { params } = parseRoute();
     const url = params.get('url');
     if (!url || currentVisibleEntries.length === 0) return false;
     const index = currentVisibleEntries.findIndex((item) => item.url === url);
     if (index === -1) return false;
-    const nextIndex = index + delta;
+    let nextIndex = index + delta;
+    while (
+      nextIndex >= 0 &&
+      nextIndex < currentVisibleEntries.length &&
+      Filters.isHidden(currentVisibleEntries[nextIndex])
+    ) {
+      nextIndex += delta;
+    }
     if (nextIndex < 0 || nextIndex >= currentVisibleEntries.length) return false;
     const nextParams = new URLSearchParams();
     nextParams.set('url', currentVisibleEntries[nextIndex].url);
