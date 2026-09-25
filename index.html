@@ -18,7 +18,18 @@
       <nav id="category-tabs" class="tabs"></nav>
       <button id="refresh-btn" type="button" class="btn btn--small">更新</button>
     </div>
-    <p id="list-status" class="status"></p>
+    <div class="list-status-row">
+      <p id="list-status" class="status"></p>
+      <label class="sort-label">
+        並び順
+        <select id="sort-select">
+          <option value="acquired">取り込み順(デフォルト)</option>
+          <option value="count">ブックマークが多い順</option>
+          <option value="hatenaDate">はてな更新日時が新しい順</option>
+          <option value="title">タイトル(あいうえお)順</option>
+        </select>
+      </label>
+    </div>
     <div id="entry-grid" class="entry-grid"></div>
   </section>
 

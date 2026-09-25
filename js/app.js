@@ -5,6 +5,7 @@
   const entryGrid = document.getElementById('entry-grid');
   const listStatus = document.getElementById('list-status');
   const refreshBtn = document.getElementById('refresh-btn');
+  const sortSelect = document.getElementById('sort-select');
 
   const entryBack = document.getElementById('entry-back');
   const entryBackBottom = document.getElementById('entry-back-bottom');
@@ -31,9 +32,26 @@
   let currentSettingsKind = 'mute';
 
   const PAGE_SIZE = 20;
+  let baseEntries = []; // フィルタ適用後、取り込み順(APIの返却順)のまま保持する基準データ
   let currentVisibleEntries = [];
   let renderedCount = 0;
   let scrollObserver = null;
+  let currentSortMode = 'acquired';
+
+  // 取り込み順(acquired)は無並び替え(APIが firstSeenAt 新しい順で返す順序をそのまま使う)。
+  // hatenaDate は RSSの dc:date(はてな側が記事に付与する日時)で、取得のたびに
+  // 更新されるため、自前のfirstSeenAt/lastSeenAtとは異なる「はてな視点の新しさ」になる。
+  const SORT_MODES = {
+    acquired: null,
+    count: (a, b) => (b.count || 0) - (a.count || 0),
+    hatenaDate: (a, b) => (b.hatenaDate || '').localeCompare(a.hatenaDate || ''),
+    title: (a, b) => (a.title || '').localeCompare(b.title || '', 'ja'),
+  };
+
+  function applySort(items, mode) {
+    const cmp = SORT_MODES[mode];
+    return cmp ? items.slice().sort(cmp) : items;
+  }
 
   const KIND_LABEL = {
     mute: 'ミュートワード(該当したら非表示)',
@@ -285,6 +303,7 @@
   async function renderListView() {
     disconnectScrollObserver();
     entryGrid.innerHTML = '';
+    baseEntries = [];
     currentVisibleEntries = [];
     renderedCount = 0;
     listStatus.textContent = '読み込み中…';
@@ -304,7 +323,8 @@
       listStatus.textContent =
         hiddenCount > 0 ? `${visible.length} 件を表示中(${hiddenCount} 件を非表示)` : `${visible.length} 件を表示中`;
 
-      currentVisibleEntries = visible;
+      baseEntries = visible;
+      currentVisibleEntries = applySort(baseEntries, currentSortMode);
       renderNextPage();
       setupScrollObserver();
     } catch (err) {
@@ -312,6 +332,17 @@
       listStatus.textContent = `取得に失敗しました: ${err.message}`;
     }
   }
+
+  sortSelect.addEventListener('change', () => {
+    currentSortMode = sortSelect.value;
+    if (baseEntries.length === 0) return;
+    disconnectScrollObserver();
+    entryGrid.innerHTML = '';
+    renderedCount = 0;
+    currentVisibleEntries = applySort(baseEntries, currentSortMode);
+    renderNextPage();
+    setupScrollObserver();
+  });
 
   // はてなブックマークのホットエントリー一覧同様、ブックマーク数が多いほど
   // 文字を強調する(完全再現ではなく近似の段階分け)。

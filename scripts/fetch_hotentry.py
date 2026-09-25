@@ -30,6 +30,7 @@ JST = timezone(timedelta(hours=9))
 NS = {
     "rss": "http://purl.org/rss/1.0/",
     "hatena": "http://www.hatena.ne.jp/info/xmlns#",
+    "dc": "http://purl.org/dc/elements/1.1/",
 }
 
 CATEGORIES = [
@@ -87,6 +88,7 @@ def parse_items(xml_bytes):
                 "entryUrl": text_of(item, "hatena", "bookmarkCommentListPageUrl") or None,
                 "screenshot": text_of(item, "hatena", "imageurl") or None,
                 "description": text_of(item, "rss", "description") or None,
+                "hatenaDate": text_of(item, "dc", "date") or None,
                 "users": [],
             }
         )
