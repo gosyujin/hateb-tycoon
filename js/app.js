@@ -239,16 +239,10 @@
   }
 
   function renderComment(b) {
-    const tags = b.tags.map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join('');
-    return `
-      <li class="comment-item">
-        <a class="comment-user" href="https://b.hatena.ne.jp/${encodeURIComponent(b.user)}/" target="_blank" rel="noopener noreferrer">${escapeHtml(b.user)}</a>
-        ${b.comment ? `<p class="comment-text">${escapeHtml(b.comment)}</p>` : '<p class="comment-text comment-text--empty">(コメントなし)</p>'}
-        <div class="comment-footer">
-          ${tags}
-          <span class="comment-timestamp">${escapeHtml(b.timestamp)}</span>
-        </div>
-      </li>`;
+    const date = (b.timestamp || '').split(' ')[0];
+    const user = `<a class="comment-user" href="https://b.hatena.ne.jp/${encodeURIComponent(b.user)}/" target="_blank" rel="noopener noreferrer">${escapeHtml(b.user)}</a>`;
+    const comment = b.comment ? ` ${escapeHtml(b.comment)}` : '';
+    return `<li>${user} ${escapeHtml(date)}${comment}</li>`;
   }
 
   // ---- フィルタ設定モーダル ----

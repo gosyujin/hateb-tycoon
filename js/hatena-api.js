@@ -79,7 +79,6 @@
       bookmarks: bookmarks.map((b) => ({
         user: b.user || '(不明なユーザー)',
         comment: b.comment || '',
-        tags: Array.isArray(b.tags) ? b.tags : [],
         timestamp: b.timestamp || '',
       })),
     };
