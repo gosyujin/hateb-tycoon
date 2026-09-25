@@ -694,7 +694,7 @@
 
   exportBtn.addEventListener('click', () => {
     const csv = rulesToCsv(Filters.sortRules(Filters.loadRules(currentSettingsKind)));
-    const blob = new Blob([csv], { type: 'text/csv' });
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
@@ -742,7 +742,7 @@
     // window.open('', '_blank')は空ページへのポップアップとしてブロックされやすいため、
     // ダウンロード同様にBlob URLへのリンク遷移(target=_blank)でテキスト表示する。
     const csv = rulesToCsv(Filters.sortRules(Filters.loadRules(currentSettingsKind)));
-    const blob = new Blob([csv], { type: 'text/plain' });
+    const blob = new Blob([csv], { type: 'text/plain;charset=utf-8' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
