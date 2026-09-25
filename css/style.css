@@ -209,7 +209,7 @@ main {
 }
 .card--visited {
   opacity: 0.85;
-  filter: grayscale(100%) brightness(0.75);
+  filter: grayscale(100%) brightness(0.85);
 }
 
 .card-thumb {
