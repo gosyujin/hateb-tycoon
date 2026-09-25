@@ -199,8 +199,8 @@ main {
   flex-direction: column;
 }
 .card--visited {
-  opacity: 0.55;
-  filter: grayscale(70%);
+  opacity: 0.85;
+  filter: grayscale(100%) brightness(0.75);
 }
 
 .card-thumb {
