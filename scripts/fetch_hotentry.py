@@ -109,7 +109,7 @@ def merge_entries(existing_by_url, fresh_entries, now_iso):
             continue
         prev = existing_by_url.get(url)
         merged = dict(entry)
-        merged["firstSeenAt"] = prev["firstSeenAt"] if prev else now_iso
+        merged["firstSeenAt"] = prev.get("firstSeenAt", now_iso) if prev else now_iso
         merged["lastSeenAt"] = now_iso
         existing_by_url[url] = merged
     return existing_by_url
