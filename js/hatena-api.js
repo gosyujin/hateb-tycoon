@@ -1,14 +1,20 @@
 /**
- * はてなブックマーク公開JSON APIをJSONP経由で取得するモジュール。
+ * はてなブックマークの公開データ取得モジュール。
  *
- * fetch() でも取得できる場合があるが、b.hatena.ne.jp が CORS ヘッダを
- * 返さない環境でも動作するように <script> タグ挿入によるJSONP方式を採用する。
- *
- * 使用エンドポイント:
- *   - 人気/新着エントリー一覧: https://b.hatena.ne.jp/hotentry/{category}.json
- *   - 個別記事のブックマーク情報(コメント一覧含む): https://b.hatena.ne.jp/entry/jsonlite/?url=...
+ * - 人気/新着エントリー一覧: 昔ながらの https://b.hatena.ne.jp/hotentry/{category}.json は
+ *   廃止済み(2026-09時点で404)のため、今も生きている RSS(RDF)フィード
+ *   https://b.hatena.ne.jp/hotentry/{category}.rss を使用する。RSSはCORSヘッダを
+ *   返さないため、無料のCORSプロキシ(api.allorigins.win)経由でfetch()する。
+ * - 個別記事のブックマーク情報(コメント一覧含む): https://b.hatena.ne.jp/entry/jsonlite/?url=...
+ *   はCORSなしでもJSONPで取得できるため、そのまま <script> タグ挿入方式を使う。
  */
 (function (global) {
+  const RSS_PROXY = 'https://api.allorigins.win/raw?url=';
+  const RSS_NS = {
+    rss: 'http://purl.org/rss/1.0/',
+    hatena: 'http://www.hatena.ne.jp/info/xmlns#',
+  };
+
   function jsonp(url, params, timeoutMs) {
     params = params || {};
     timeoutMs = timeoutMs || 10000;
@@ -63,19 +69,30 @@
     }
   }
 
-  function normalizeHotEntry(raw) {
-    const url = raw.url || '';
-    return {
-      title: raw.title || '(タイトル不明)',
-      url,
-      domain: safeHostname(url),
-      count: raw.count != null ? raw.count : 0,
-      entryUrl:
-        raw.entry_url ||
-        (raw.eid ? `https://b.hatena.ne.jp/entry/${raw.eid}` : null),
-      screenshot: raw.screenshot || raw.image_url || null,
-      users: Array.isArray(raw.users) ? raw.users : [],
-    };
+  function textOf(el, ns, tag) {
+    const nodes = el.getElementsByTagNameNS(ns, tag);
+    return nodes.length ? nodes[0].textContent.trim() : '';
+  }
+
+  function parseHotEntryRss(xmlText) {
+    const doc = new DOMParser().parseFromString(xmlText, 'text/xml');
+    if (doc.getElementsByTagName('parsererror').length) {
+      throw new Error('RSSの解析に失敗しました');
+    }
+    const items = Array.from(doc.getElementsByTagNameNS(RSS_NS.rss, 'item'));
+    return items.map((item) => {
+      const url = textOf(item, RSS_NS.rss, 'link');
+      const countText = textOf(item, RSS_NS.hatena, 'bookmarkcount');
+      return {
+        title: textOf(item, RSS_NS.rss, 'title') || '(タイトル不明)',
+        url,
+        domain: safeHostname(url),
+        count: countText ? Number(countText) || 0 : 0,
+        entryUrl: textOf(item, RSS_NS.hatena, 'bookmarkCommentListPageUrl') || null,
+        screenshot: textOf(item, RSS_NS.hatena, 'imageurl') || null,
+        users: [],
+      };
+    });
   }
 
   function normalizeEntryInfo(raw, pageUrl) {
@@ -112,9 +129,13 @@
 
   async function getHotEntries(category) {
     const slug = category || 'all';
-    const base = `https://b.hatena.ne.jp/hotentry/${encodeURIComponent(slug)}.json`;
-    const data = await jsonp(base);
-    return Array.isArray(data) ? data.map(normalizeHotEntry) : [];
+    const rssUrl = `https://b.hatena.ne.jp/hotentry/${encodeURIComponent(slug)}.rss`;
+    const res = await fetch(`${RSS_PROXY}${encodeURIComponent(rssUrl)}`);
+    if (!res.ok) {
+      throw new Error(`データの取得に失敗しました(HTTP ${res.status}): ${rssUrl}`);
+    }
+    const xmlText = await res.text();
+    return parseHotEntryRss(xmlText);
   }
 
   async function getEntryInfo(pageUrl) {
