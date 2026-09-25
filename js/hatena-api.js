@@ -9,7 +9,11 @@
  *   はCORSなしでもJSONPで取得できるため、そのまま <script> タグ挿入方式を使う。
  */
 (function (global) {
-  const RSS_PROXY = 'https://api.allorigins.win/raw?url=';
+  const RSS_PROXIES = [
+    (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+    (url) => `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
+    (url) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
+  ];
   const RSS_NS = {
     rss: 'http://purl.org/rss/1.0/',
     hatena: 'http://www.hatena.ne.jp/info/xmlns#',
@@ -127,14 +131,28 @@
     { key: 'book', label: '本' },
   ];
 
+  async function fetchViaProxies(targetUrl) {
+    const failures = [];
+    for (const buildProxyUrl of RSS_PROXIES) {
+      const proxyUrl = buildProxyUrl(targetUrl);
+      try {
+        const res = await fetch(proxyUrl);
+        if (!res.ok) {
+          failures.push(`${proxyUrl} -> HTTP ${res.status}`);
+          continue;
+        }
+        return await res.text();
+      } catch (e) {
+        failures.push(`${proxyUrl} -> ${e.message}`);
+      }
+    }
+    throw new Error(`データの取得に失敗しました(全プロキシ失敗): ${failures.join(' / ')}`);
+  }
+
   async function getHotEntries(category) {
     const slug = category || 'all';
     const rssUrl = `https://b.hatena.ne.jp/hotentry/${encodeURIComponent(slug)}.rss`;
-    const res = await fetch(`${RSS_PROXY}${encodeURIComponent(rssUrl)}`);
-    if (!res.ok) {
-      throw new Error(`データの取得に失敗しました(HTTP ${res.status}): ${rssUrl}`);
-    }
-    const xmlText = await res.text();
+    const xmlText = await fetchViaProxies(rssUrl);
     return parseHotEntryRss(xmlText);
   }
 
