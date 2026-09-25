@@ -4,7 +4,6 @@
   const categoryTabs = document.getElementById('category-tabs');
   const entryGrid = document.getElementById('entry-grid');
   const listStatus = document.getElementById('list-status');
-  const refreshBtn = document.getElementById('refresh-btn');
   const sortSelect = document.getElementById('sort-select');
   const hideVisitedCheckbox = document.getElementById('hide-visited-checkbox');
 
@@ -43,6 +42,15 @@
   let scrollObserver = null;
   let currentSortMode = 'acquired';
   let hideVisited = false; // デフォルトは非表示にしない(チェックなし)
+
+  // コメントページから「← 一覧に戻る」で戻った時にスクロール位置を復元するため、
+  // 一覧表示中のスクロール位置を随時記録しておく。
+  let pendingScrollY = null;
+  window.addEventListener('scroll', () => {
+    if (!listView.hidden) {
+      pendingScrollY = window.scrollY;
+    }
+  });
 
   // 取り込み順(acquired)は無並び替え(APIが firstSeenAt 新しい順で返す順序をそのまま使う)。
   // hatenaDate は RSSの dc:date(はてな側が記事に付与する日時)で、取得のたびに
@@ -193,11 +201,15 @@
       const url = params.get('url');
       renderEntryView(url);
     } else {
+      const newCategory = params.get('cat') || 'all';
+      // 同じカテゴリーのまま戻ってきた(=コメントページから「一覧に戻る」)場合のみ、
+      // 離れる直前のスクロール位置を復元する。カテゴリーを切り替えた場合は復元しない。
+      const restoreScrollY = newCategory === currentCategory && pendingScrollY !== null ? pendingScrollY : null;
       entryView.hidden = true;
       listView.hidden = false;
-      currentCategory = params.get('cat') || 'all';
+      currentCategory = newCategory;
       renderCategoryTabs();
-      renderListView();
+      renderListView(restoreScrollY);
     }
   }
 
@@ -264,8 +276,6 @@
     navigate('/', params);
   });
 
-  refreshBtn.addEventListener('click', () => renderListView());
-
   function disconnectScrollObserver() {
     if (scrollObserver) {
       scrollObserver.disconnect();
@@ -291,6 +301,16 @@
     }
   }
 
+  // スクロール位置復元用: ページ単位ではなく残り全件を一度に描画する。
+  // (無限スクロール任せだと、復元先の高さまでDOMが育っておらずscrollToが効かないため)
+  function renderAllRemaining() {
+    const remaining = currentVisibleEntries.slice(renderedCount);
+    if (remaining.length === 0) return;
+    const html = remaining.map((item) => renderEntryCard(item)).join('');
+    entryGrid.insertAdjacentHTML('beforeend', html);
+    renderedCount = currentVisibleEntries.length;
+  }
+
   function setupScrollObserver() {
     disconnectScrollObserver();
     if (renderedCount >= currentVisibleEntries.length) return;
@@ -308,7 +328,7 @@
     scrollObserver.observe(sentinel);
   }
 
-  async function renderListView() {
+  async function renderListView(restoreScrollY) {
     disconnectScrollObserver();
     entryGrid.innerHTML = '';
     baseEntries = [];
@@ -323,7 +343,7 @@
       hiddenByFilterCount = entries.length - visible.length;
       baseEntries = visible;
       hasLoadedList = true;
-      updateListView();
+      updateListView(restoreScrollY);
     } catch (err) {
       console.error(err);
       listStatus.textContent = `取得に失敗しました: ${err.message}`;
@@ -331,7 +351,8 @@
   }
 
   // 並び順・既読フィルタの切り替え時、再取得はせずbaseEntriesから再構築する。
-  function updateListView() {
+  // restoreScrollYを渡した場合は全件を一度に描画してから指定位置へスクロールする。
+  function updateListView(restoreScrollY) {
     if (!hasLoadedList) return;
     disconnectScrollObserver();
     entryGrid.innerHTML = '';
@@ -366,8 +387,13 @@
         ? `${currentVisibleEntries.length} 件を表示中(${hiddenParts.join('・')}を非表示)`
         : `${currentVisibleEntries.length} 件を表示中`;
 
-    renderNextPage();
-    setupScrollObserver();
+    if (restoreScrollY != null) {
+      renderAllRemaining();
+      window.scrollTo(0, restoreScrollY);
+    } else {
+      renderNextPage();
+      setupScrollObserver();
+    }
   }
 
   sortSelect.addEventListener('change', () => {
