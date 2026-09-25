@@ -96,14 +96,17 @@ main {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-bottom: 8px;
 }
 
 .tabs {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 6px;
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
 }
 .tab {
   padding: 5px 12px;
@@ -113,6 +116,14 @@ main {
   cursor: pointer;
   font-size: 0.85rem;
   color: var(--color-muted);
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#refresh-btn {
+  flex-shrink: 0;
 }
 .tab.active {
   background: var(--color-accent);
@@ -421,26 +432,9 @@ main {
 }
 
 @media (max-width: 640px) {
-  .toolbar {
-    flex-wrap: nowrap;
-  }
-  .tabs {
-    flex: 1 1 auto;
-    min-width: 0;
-    flex-wrap: nowrap;
-    overflow: hidden;
-  }
   .tab {
-    flex: 1 1 auto;
-    min-width: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
     padding: 5px 6px;
     font-size: 0.72rem;
-  }
-  #refresh-btn {
-    flex-shrink: 0;
   }
 
   .entry-grid {
