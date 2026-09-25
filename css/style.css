@@ -274,10 +274,12 @@ main {
 }
 /* 前回訪問時にコメント付きブックマークが無かった記事は、ブックマーク数の
    強調表示(tier1〜4)より優先してグレーで目立たなくする。 */
-.card-count-link--no-comment {
+.card-count-link--no-comment,
+.card-count-link--no-comment:hover {
   font-weight: 400;
   font-size: 1em;
   color: var(--color-muted);
+  text-decoration: line-through;
 }
 
 .card-domain {
