@@ -1,16 +1,16 @@
 # hateb-tycoon
 
-はてなブックマークの人気/新着エントリーを取得して一覧表示し、ミュートワード・ミュート解除ワード・強制ミュートワードの3種類のワードリストで不要な記事やコメントを非表示にするクライアントサイドのみの静的Webアプリです。サーバーやビルド工程は不要で、`index.html` を静的ホスティング(GitHub Pagesなど)に置くだけで動作します。
+はてなブックマークの人気/新着エントリーを取得して一覧表示し、ミュートワード・ミュート解除ワード・強制ミュートワードの3種類のワードリストで不要な記事やコメントを非表示にするクライアントサイドのみの静的Webアプリです。フロントエンド自体はサーバーやビルド工程不要で、`index.html` を静的ホスティング(GitHub Pagesなど)に置くだけで動作します(一覧データの定期更新にはGitHub Actionsを使用。詳細は下記「技術的な注意点」参照)。
 
 ## 機能
 
-- 一覧表示: `https://b.hatena.ne.jp/hotentry/{category}.rss` (RSS1.0/RDF) をCORSプロキシ経由で取得し、カテゴリタブ(総合/一般/世の中/政治と経済/暮らし/学び/テクノロジー/おもしろ/エンタメ/アニメとゲーム/本)ごとに人気エントリーを表示します。
+- 一覧表示: GitHub Actionsが30分ごとに取得・生成する `data/hotentry-{category}.json` を同一オリジンから読み込み、カテゴリタブ(総合/一般/世の中/政治と経済/暮らし/学び/テクノロジー/おもしろ/エンタメ/アニメとゲーム/本)ごとに人気エントリーを表示します。
 - コメント表示: 一覧の「ブックマークコメントを見る」から個別記事に遷移すると、`https://b.hatena.ne.jp/entry/jsonlite/?url=...` をJSONPで取得し、そのページをブックマークした各ユーザーのコメント・タグ・日時を表示します。
 - ミュート機能: 右上の「フィルタ設定」から、以下3種類のワードリストを追加・削除できます。ワードは `localStorage` に保存され、ブラウザを閉じても保持されます。
   - `mute`(ミュートワード): 該当したら非表示。ただし `unmute` に該当すれば例外的に表示。
   - `unmute`(ミュート解除ワード): `mute` の例外として表示を維持する。
   - `forceMute`(強制ミュートワード): 該当したら `unmute` の設定に関係なく必ず非表示。
-- 各ワードは「タイトル」「ドメイン」「はてなユーザー」「ブックマークコメント」のいずれかを対象に、部分一致(大文字小文字を区別しない)で判定します。ただし一覧表示(RSS由来)には個々のブックマークユーザー・コメント情報が含まれないため、「はてなユーザー」「ブックマークコメント」によるミュートは個別記事のコメント表示(jsonlite由来)でのみ有効です。
+- 各ワードは「タイトル」「ドメイン」「はてなユーザー」「ブックマークコメント」のいずれかを対象に、部分一致(大文字小文字を区別しない)で判定します。ただし一覧表示のデータには個々のブックマークユーザー・コメント情報が含まれないため、「はてなユーザー」「ブックマークコメント」によるミュートは個別記事のコメント表示(jsonlite由来)でのみ有効です。
 
 ## 判定ロジック(優先順位)
 
@@ -30,9 +30,17 @@ hateb-tycoon/
 ├── css/
 │   └── style.css      # スタイル
 ├── js/
+│   ├── build-info.js   # デプロイ時にビルドhash/日時が書き込まれる(フッター表示用)
 │   ├── filters.js      # localStorageのミュートワード管理と判定ロジック
-│   ├── hatena-api.js   # はてなブックマークAPIのJSONP取得・正規化
+│   ├── hatena-api.js   # はてなブックマークデータの取得・正規化
 │   └── app.js           # ルーティングと画面描画
+├── data/
+│   └── hotentry-*.json # GitHub Actionsが定期生成するカテゴリ別ホットエントリーデータ
+├── scripts/
+│   └── fetch_hotentry.py # はてなのRSSを取得しdata/*.jsonを生成するスクリプト
+├── .github/workflows/
+│   ├── fetch-hotentry.yml  # 30分ごとにdata/*.jsonを更新してmainにコミット
+│   └── deploy-pages.yml    # mainへのpushでGitHub Pagesへデプロイ
 └── README.md
 ```
 
@@ -45,7 +53,11 @@ hateb-tycoon/
 
 ## 技術的な注意点
 
-- **一覧表示(hotentry)**: かつて存在した `https://b.hatena.ne.jp/hotentry/{category}.json` という昔ながらのJSON APIは、2026年9月時点で廃止(404)されています。代わりに今も配信されているRSS1.0(RDF)フィード `https://b.hatena.ne.jp/hotentry/{category}.rss` を使用しますが、RSSはCORSヘッダーを返さないため、無料のCORSプロキシ `https://api.allorigins.win/raw?url=...` 経由で `fetch()` し、`DOMParser` でXMLを解析しています。**この第三者プロキシへの依存が本アプリの一番の弱点です**(レート制限や停止のリスクあり)。プロキシが使えなくなった場合は、`js/hatena-api.js` の `RSS_PROXY` を他のCORSプロキシに差し替えるか、別のプロキシをご自身で用意してください。
-- **コメント表示(entry/jsonlite)**: こちらは現在もCORSなしで `<script>` タグ挿入によるJSONP方式で正常に取得できることを確認済みです(サードパーティプロキシ不要)。
-- カテゴリのRSSパス(`general` / `social` / `economics` / `life` / `knowledge` / `it` / `fun` / `entertainment` / `game` / `book`)は、はてなブックマークの公開カテゴリ構成に基づいています。RSSの要素名・名前空間に変更があった場合は `js/hatena-api.js` の `parseHotEntryRss` / `normalizeEntryInfo` を調整してください。
+- **一覧表示(hotentry)の取得経路**: かつて存在した `https://b.hatena.ne.jp/hotentry/{category}.json` という昔ながらのJSON APIは、2026年9月時点で廃止(404)されています。代わりに今も配信されているRSS1.0(RDF)フィード `https://b.hatena.ne.jp/hotentry/{category}.rss` を使いますが、これはCORSヘッダーを返さずブラウザから直接 `fetch()` できません。無料の公開CORSプロキシ(allorigins.win / corsproxy.io / api.codetabs.com)を試しましたが、認証必須化・レート制限・不安定で実運用に耐えないことを確認したため、**GitHub Actions(`fetch-hotentry.yml`)が30分ごとにRSSを取得・パースして `data/hotentry-{category}.json` としてリポジトリにコミットし、ブラウザ側はこの同一オリジンの静的JSONを読むだけ**という構成に変更しました。クロスオリジン通信・第三者プロキシへの依存は完全に無くなっています。
+  - データは最大30分古くなる可能性があります(リアルタイム性より安定性を優先)。
+  - `scripts/fetch_hotentry.py` はPython標準ライブラリのみで動作します(追加パッケージ不要)。
+  - RSSの要素名・名前空間に変更があった場合は `scripts/fetch_hotentry.py` を調整してください。
+  - `fetch-hotentry.yml` は手動実行(workflow_dispatch)も可能です。
+- **コメント表示(entry/jsonlite)**: こちらは現在もCORSなしで `<script>` タグ挿入によるJSONP方式で正常に取得できることを確認済みのため、ブラウザから直接・リアルタイムに取得しています(プロキシ不要)。
+- カテゴリのRSSパス(`general` / `social` / `economics` / `life` / `knowledge` / `it` / `fun` / `entertainment` / `game` / `book`)は、はてなブックマークの公開カテゴリ構成に基づいています。
 - 完全なはてなブックマークUIの再現は行っておらず、記事一覧・コメント一覧の表示に必要最低限のリンク(元記事リンク・はてなブックマークページへのリンク・ユーザーページへのリンク)のみを組み込んでいます。
