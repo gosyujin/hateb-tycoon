@@ -188,7 +188,7 @@
             ${firstSeen}
             <a class="card-count-link" href="${href}">${item.count} users →</a>
           </div>
-          <span class="card-domain">${escapeHtml(item.domain)}</span>
+          <button type="button" class="card-domain" data-domain="${escapeHtml(item.domain)}">${escapeHtml(item.domain)}</button>
           <a class="card-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
         </div>
       </article>`;
@@ -246,18 +246,30 @@
   }
 
   // ---- フィルタ設定モーダル ----
-  function openSettings() {
+  function openSettings(preset) {
+    if (preset) currentSettingsKind = preset.kind;
     settingsModal.hidden = false;
     renderSettingsTabs();
     renderRuleList();
+    if (preset) {
+      ruleTypeSelect.value = preset.type;
+      ruleValueInput.value = preset.value;
+      ruleValueInput.focus();
+    }
   }
   function closeSettings() {
     settingsModal.hidden = true;
   }
-  settingsBtn.addEventListener('click', openSettings);
+  settingsBtn.addEventListener('click', () => openSettings());
   settingsClose.addEventListener('click', closeSettings);
   settingsModal.addEventListener('click', (e) => {
     if (e.target === settingsModal) closeSettings();
+  });
+
+  entryGrid.addEventListener('click', (e) => {
+    const domainBtn = e.target.closest('.card-domain');
+    if (!domainBtn) return;
+    openSettings({ kind: 'mute', type: 'domain', value: domainBtn.dataset.domain });
   });
 
   function renderSettingsTabs() {
