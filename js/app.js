@@ -179,18 +179,17 @@
       : `<div class="card-thumb card-thumb--empty"></div>`;
     const firstSeen = item.firstSeenAt
       ? `<span class="card-first-seen">初出 ${escapeHtml(item.firstSeenAt.slice(0, 10))}</span>`
-      : '';
+      : '<span></span>';
     return `
       <article class="card">
         ${thumb}
         <div class="card-body">
-          <a class="card-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
-          <div class="card-meta">
-            <span class="card-domain">${escapeHtml(item.domain)}</span>
-            <span class="card-count">${item.count} users</span>
+          <div class="card-top-row">
+            ${firstSeen}
+            <a class="card-count-link" href="${href}">${item.count} users →</a>
           </div>
-          ${firstSeen}
-          <a class="card-comments-link" href="${href}">ブックマークコメントを見る →</a>
+          <span class="card-domain">${escapeHtml(item.domain)}</span>
+          <a class="card-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
         </div>
       </article>`;
   }

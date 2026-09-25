@@ -156,27 +156,29 @@ main {
   font-weight: bold;
   font-size: 0.95rem;
   line-height: 1.4;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
-.card-meta {
+.card-top-row {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
   font-size: 0.78rem;
   color: var(--color-muted);
 }
 
 .card-first-seen {
-  font-size: 0.7rem;
-  color: var(--color-muted);
+  white-space: nowrap;
 }
 
-.card-comments-link {
-  font-size: 0.82rem;
-  margin-top: 4px;
+.card-count-link {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.card-domain {
+  font-size: 0.78rem;
+  color: var(--color-muted);
 }
 
 .entry-header {
@@ -375,12 +377,11 @@ main {
   }
   .card-title {
     font-size: 0.78rem;
-    -webkit-line-clamp: 3;
   }
-  .card-meta {
+  .card-top-row {
     font-size: 0.65rem;
   }
-  .card-comments-link {
-    font-size: 0.7rem;
+  .card-domain {
+    font-size: 0.65rem;
   }
 }
