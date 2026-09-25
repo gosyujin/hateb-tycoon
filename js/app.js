@@ -40,7 +40,7 @@
   const offlineCacheBtn = document.getElementById('offline-cache-btn');
   const offlineCacheStatus = document.getElementById('offline-cache-status');
 
-  let currentCategory = 'all';
+  let currentCategory = 'everything';
   let currentSettingsKind = 'mute';
 
   const PAGE_SIZE = 20;
@@ -212,7 +212,7 @@
       const url = params.get('url');
       renderEntryView(url);
     } else {
-      const newCategory = params.get('cat') || 'all';
+      const newCategory = params.get('cat') || 'everything';
       // 同じカテゴリーのまま戻ってきた(=コメントページから「一覧に戻る」)場合のみ、
       // 離れる直前のスクロール位置を復元する。カテゴリーを切り替えた場合は復元しない。
       const restoreScrollY = newCategory === currentCategory && pendingScrollY !== null ? pendingScrollY : null;
