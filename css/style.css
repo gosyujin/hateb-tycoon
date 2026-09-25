@@ -80,6 +80,10 @@ main {
   font-size: 0.8rem;
 }
 
+#entry-back-bottom {
+  margin-top: 16px;
+}
+
 .toolbar {
   display: flex;
   align-items: center;
@@ -175,6 +179,25 @@ main {
 .card-count-link {
   white-space: nowrap;
   flex-shrink: 0;
+}
+.card-count-link--tier1 {
+  font-weight: 700;
+  color: #d68a00;
+}
+.card-count-link--tier2 {
+  font-weight: 700;
+  font-size: 1.15em;
+  color: #e0620a;
+}
+.card-count-link--tier3 {
+  font-weight: 800;
+  font-size: 1.3em;
+  color: #d94a1e;
+}
+.card-count-link--tier4 {
+  font-weight: 800;
+  font-size: 1.45em;
+  color: #c62828;
 }
 
 .card-domain {

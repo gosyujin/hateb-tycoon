@@ -7,6 +7,7 @@
   const refreshBtn = document.getElementById('refresh-btn');
 
   const entryBack = document.getElementById('entry-back');
+  const entryBackBottom = document.getElementById('entry-back-bottom');
   const entryHeader = document.getElementById('entry-header');
   const entryDescription = document.getElementById('entry-description');
   const commentList = document.getElementById('comment-list');
@@ -265,6 +266,16 @@
     }
   }
 
+  // はてなブックマークのホットエントリー一覧同様、ブックマーク数が多いほど
+  // 文字を強調する(完全再現ではなく近似の段階分け)。
+  function countTierClass(count) {
+    if (count >= 500) return ' card-count-link--tier4';
+    if (count >= 300) return ' card-count-link--tier3';
+    if (count >= 100) return ' card-count-link--tier2';
+    if (count >= 50) return ' card-count-link--tier1';
+    return '';
+  }
+
   function renderEntryCard(item) {
     const params = new URLSearchParams();
     params.set('url', item.url);
@@ -281,7 +292,7 @@
         <div class="card-body">
           <div class="card-top-row">
             ${firstSeen}
-            <a class="card-count-link" href="${href}">${item.count} users →</a>
+            <a class="card-count-link${countTierClass(item.count)}" href="${href}">${item.count} users →</a>
           </div>
           <button type="button" class="card-domain" data-domain="${escapeHtml(item.domain)}">${escapeHtml(item.domain)}</button>
           <a class="card-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
@@ -291,6 +302,7 @@
 
   // ---- 個別エントリー(コメント一覧)ビュー ----
   entryBack.addEventListener('click', () => history.back());
+  entryBackBottom.addEventListener('click', () => history.back());
 
   async function renderEntryView(url) {
     commentList.innerHTML = '';
