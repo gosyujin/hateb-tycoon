@@ -200,12 +200,34 @@ main {
 }
 
 .card {
+  position: relative;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
   overflow: hidden;
   display: flex;
   flex-direction: column;
+}
+
+.card-close-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  z-index: 1;
+  width: 22px;
+  height: 22px;
+  line-height: 20px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 0.95rem;
+  text-align: center;
+  cursor: pointer;
+}
+.card-close-btn:hover {
+  background: rgba(200, 40, 40, 0.85);
 }
 .card--visited {
   opacity: 0.85;

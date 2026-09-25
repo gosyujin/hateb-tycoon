@@ -3,8 +3,9 @@
  * ブックマーク項目に対するマッチング判定を行うモジュール。
  *
  * ルールは { id, type, value } の配列。
- *   type: 'title' | 'domain' | 'user' | 'comment'
- *   value: 部分一致(大文字小文字を区別しない)させる文字列
+ *   type: 'title' | 'domain' | 'user' | 'comment' | 'url'
+ *   value: 部分一致(大文字小文字を区別しない)させる文字列。ただしurlのみ完全一致
+ *   (このページ単独を消す用途のため、部分一致だと他ページを巻き込む恐れがある)
  *
  * 判定ロジック:
  *   1. forceMute に一致 -> 強制的に非表示 (unmute でも解除不可)
@@ -19,7 +20,7 @@
   };
 
   const KINDS = Object.keys(STORAGE_KEYS);
-  const TYPES = ['title', 'domain', 'user', 'comment'];
+  const TYPES = ['title', 'domain', 'user', 'comment', 'url'];
 
   function assertKind(kind) {
     if (!KINDS.includes(kind)) {
@@ -114,6 +115,8 @@
       }
       case 'comment':
         return !!item.comment && item.comment.toLowerCase().includes(needle);
+      case 'url':
+        return !!item.url && item.url.toLowerCase() === needle;
       default:
         return false;
     }

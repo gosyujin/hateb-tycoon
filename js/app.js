@@ -83,6 +83,7 @@
     domain: 'ドメイン',
     user: 'はてなユーザー',
     comment: 'ブックマークコメント',
+    url: 'URL',
   };
 
   function escapeHtml(str) {
@@ -439,6 +440,7 @@
     const countTitle = noComment ? ' title="前回訪問時、コメント付きブックマークがありませんでした"' : '';
     return `
       <article class="card${visitedClass}">
+        <button type="button" class="card-close-btn" data-url="${escapeHtml(item.url)}" title="このページを非表示にする" aria-label="このページを非表示にする">×</button>
         ${thumb}
         <div class="card-body">
           <div class="card-top-row">
@@ -517,7 +519,7 @@
     try {
       const info = await HatenaAPI.getEntryInfo(url);
 
-      if (Filters.isHidden({ title: info.title, domain: info.domain })) {
+      if (Filters.isHidden({ title: info.title, domain: info.domain, url: info.url })) {
         entryDescription.textContent = '';
         entryStatus.textContent = 'このエントリーはフィルタ条件により非表示になっています。';
         return;
@@ -631,6 +633,12 @@
   });
 
   entryGrid.addEventListener('click', (e) => {
+    const closeBtn = e.target.closest('.card-close-btn');
+    if (closeBtn) {
+      Filters.addRule('mute', 'url', closeBtn.dataset.url);
+      render();
+      return;
+    }
     const domainBtn = e.target.closest('.card-domain');
     if (!domainBtn) return;
     openSettings({ kind: 'mute', type: 'domain', value: domainBtn.dataset.domain });

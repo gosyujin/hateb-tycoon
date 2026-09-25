@@ -76,7 +76,7 @@
 
     <nav id="settings-tabs" class="tabs"></nav>
     <p class="hint">
-      タイトル・ドメイン・はてなユーザー・ブックマークコメントを対象に、部分一致(大文字小文字を区別しない)でミュート(非表示)します。<br>
+      タイトル・ドメイン・はてなユーザー・ブックマークコメントを対象に、部分一致(大文字小文字を区別しない)でミュート(非表示)します。URLのみ完全一致(このページ単独を消す用途)。<br>
       判定順序: 強制ミュートワード &gt; ミュートワード(ミュート解除ワードで例外解除可) &gt; 表示。
     </p>
     <form id="settings-form" class="rule-form">
@@ -85,6 +85,7 @@
         <option value="domain">ドメイン</option>
         <option value="user">はてなユーザー</option>
         <option value="comment">ブックマークコメント</option>
+        <option value="url">URL</option>
       </select>
       <input id="rule-value" type="text" placeholder="一致させる文字列" autocomplete="off">
       <button type="submit" class="btn">追加</button>
@@ -93,7 +94,7 @@
 
     <div class="import-export">
       <p class="hint">
-        CSV形式(1行目ヘッダー任意): <code>type,value</code> / typeは title・domain・user・comment のいずれか。<br>
+        CSV形式(1行目ヘッダー任意): <code>type,value</code> / typeは title・domain・user・comment・url のいずれか。<br>
         URL指定時は、そのURLがCSVを返せば取得できます(はてなブックマークのGistは「Secret」で作成すればログイン無しで取得可能。「Private」相当のリポジトリ等、認証が必要なURLは取得できません)。
       </p>
       <div class="import-export-row">
