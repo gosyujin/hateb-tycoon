@@ -338,6 +338,35 @@ main {
   font-size: 0.8rem;
 }
 
+.import-export {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.import-export-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.file-label {
+  display: inline-block;
+}
+.import-url-form {
+  display: flex;
+  gap: 8px;
+}
+.import-url-form input[type="url"] {
+  flex: 1;
+  min-width: 0;
+  padding: 6px 10px;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  font-size: 0.85rem;
+}
+
 @media (max-width: 640px) {
   .toolbar {
     flex-wrap: nowrap;

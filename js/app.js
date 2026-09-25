@@ -19,6 +19,11 @@
   const ruleTypeSelect = document.getElementById('rule-type');
   const ruleValueInput = document.getElementById('rule-value');
   const ruleList = document.getElementById('rule-list');
+  const exportBtn = document.getElementById('export-btn');
+  const importFileInput = document.getElementById('import-file-input');
+  const importUrlForm = document.getElementById('import-url-form');
+  const importUrlInput = document.getElementById('import-url-input');
+  const importStatus = document.getElementById('import-status');
 
   let currentCategory = 'all';
   let currentSettingsKind = 'mute';
@@ -47,6 +52,95 @@
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#39;');
+  }
+
+  // ---- CSV(エクスポート/インポート用、type,value の2列) ----
+  function csvField(value) {
+    const s = String(value);
+    return /[",\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+  }
+
+  function rulesToCsv(rules) {
+    const lines = ['type,value'];
+    for (const r of rules) lines.push(`${csvField(r.type)},${csvField(r.value)}`);
+    return lines.join('\r\n');
+  }
+
+  function parseCsv(text) {
+    const rows = [];
+    let row = [];
+    let field = '';
+    let inQuotes = false;
+    for (let i = 0; i < text.length; i++) {
+      const c = text[i];
+      if (inQuotes) {
+        if (c === '"') {
+          if (text[i + 1] === '"') {
+            field += '"';
+            i++;
+          } else {
+            inQuotes = false;
+          }
+        } else {
+          field += c;
+        }
+        continue;
+      }
+      if (c === '"') inQuotes = true;
+      else if (c === ',') {
+        row.push(field);
+        field = '';
+      } else if (c === '\n') {
+        row.push(field);
+        rows.push(row);
+        row = [];
+        field = '';
+      } else if (c === '\r') {
+        // 改行の一部として無視(\r\n)
+      } else {
+        field += c;
+      }
+    }
+    if (field !== '' || row.length > 0) {
+      row.push(field);
+      rows.push(row);
+    }
+    return rows.filter((r) => !(r.length === 1 && r[0].trim() === ''));
+  }
+
+  // CSVテキストを検証しつつ { type, value } の配列に変換する。
+  // 不正な行が1つでもあればエラー一覧を返し、rulesは空にする(全体を中断)。
+  function parseImportCsv(text) {
+    const rows = parseCsv(text);
+    if (rows.length === 0) return { rules: [], errors: ['データが空です'] };
+
+    let dataRows = rows;
+    if ((dataRows[0][0] || '').trim().toLowerCase() === 'type') {
+      dataRows = dataRows.slice(1);
+    }
+    if (dataRows.length === 0) return { rules: [], errors: ['データが空です'] };
+
+    const errors = [];
+    const rules = [];
+    dataRows.forEach((cols, idx) => {
+      const lineNo = idx + 1;
+      if (cols.length < 2) {
+        errors.push(`${lineNo}行目: 列数が不正です(type,valueの2列が必要)`);
+        return;
+      }
+      const type = (cols[0] || '').trim();
+      const value = (cols[1] || '').trim();
+      if (!Filters.TYPES.includes(type)) {
+        errors.push(`${lineNo}行目: 不正な形式「${type}」(title/domain/user/commentのいずれか)`);
+        return;
+      }
+      if (!value) {
+        errors.push(`${lineNo}行目: 値が空です`);
+        return;
+      }
+      rules.push({ type, value });
+    });
+    return { rules: errors.length > 0 ? [] : rules, errors };
   }
 
   // ---- ルーティング ----
@@ -251,6 +345,7 @@
     settingsModal.hidden = false;
     renderSettingsTabs();
     renderRuleList();
+    refreshImportUrlField();
     if (preset) {
       ruleTypeSelect.value = preset.type;
       ruleValueInput.value = preset.value;
@@ -291,6 +386,7 @@
     currentSettingsKind = btn.dataset.kind;
     renderSettingsTabs();
     renderRuleList();
+    refreshImportUrlField();
   });
 
   function renderRuleList() {
@@ -328,6 +424,95 @@
     ruleValueInput.value = '';
     renderRuleList();
     render();
+  });
+
+  // ---- CSVエクスポート/インポート ----
+  const IMPORT_URL_PREFIX = 'hateb-tycoon:importUrl:';
+
+  function getImportUrl(kind) {
+    try {
+      return localStorage.getItem(IMPORT_URL_PREFIX + kind) || '';
+    } catch (e) {
+      return '';
+    }
+  }
+
+  function setImportUrl(kind, url) {
+    try {
+      localStorage.setItem(IMPORT_URL_PREFIX + kind, url);
+    } catch (e) {
+      // localStorageが使えない環境では記憶をあきらめる
+    }
+  }
+
+  function refreshImportUrlField() {
+    importUrlInput.value = getImportUrl(currentSettingsKind);
+    importStatus.textContent = '';
+  }
+
+  function applyImportedCsv(text) {
+    const { rules, errors } = parseImportCsv(text);
+    if (errors.length > 0) {
+      const shown = errors.slice(0, 5).join(' / ');
+      const rest = errors.length > 5 ? ` 他${errors.length - 5}件` : '';
+      importStatus.textContent = `インポート失敗: ${shown}${rest}`;
+      return;
+    }
+    const added = Filters.importRules(currentSettingsKind, rules);
+    const skipped = rules.length - added;
+    importStatus.textContent =
+      skipped > 0
+        ? `${rules.length}件中${added}件を追加しました(重複${skipped}件はスキップ)`
+        : `${added}件を追加しました`;
+    renderRuleList();
+    render();
+  }
+
+  exportBtn.addEventListener('click', () => {
+    const csv = rulesToCsv(Filters.loadRules(currentSettingsKind));
+    const blob = new Blob([csv], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `${currentSettingsKind}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+  });
+
+  importFileInput.addEventListener('change', () => {
+    const file = importFileInput.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      applyImportedCsv(String(reader.result));
+      importFileInput.value = '';
+    };
+    reader.onerror = () => {
+      importStatus.textContent = 'ファイルの読み込みに失敗しました';
+      importFileInput.value = '';
+    };
+    reader.readAsText(file, 'utf-8');
+  });
+
+  importUrlForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const url = importUrlInput.value.trim();
+    if (!url) return;
+    setImportUrl(currentSettingsKind, url);
+    importStatus.textContent = '取得中…';
+    try {
+      const res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) {
+        importStatus.textContent = `取得に失敗しました(HTTP ${res.status})`;
+        return;
+      }
+      const text = await res.text();
+      applyImportedCsv(text);
+    } catch (err) {
+      importStatus.textContent = `取得に失敗しました: ${err.message}`;
+    }
   });
 
   // ---- ビルド情報 + 次回データ更新目安(1行にまとめる) ----

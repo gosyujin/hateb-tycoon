@@ -70,6 +70,27 @@
     return rules;
   }
 
+  // 既存ルールとの重複(type + valueの大文字小文字を無視した一致)を避けて追加する。
+  // 戻り値は実際に追加された件数。
+  function importRules(kind, newRules) {
+    assertKind(kind);
+    const rules = loadRules(kind);
+    const existingKeys = new Set(rules.map((r) => `${r.type}:${r.value.toLowerCase()}`));
+    let added = 0;
+    for (const r of newRules) {
+      if (!TYPES.includes(r.type)) continue;
+      const trimmed = (r.value || '').trim();
+      if (!trimmed) continue;
+      const key = `${r.type}:${trimmed.toLowerCase()}`;
+      if (existingKeys.has(key)) continue;
+      rules.push({ id: makeId(), type: r.type, value: trimmed });
+      existingKeys.add(key);
+      added++;
+    }
+    saveRules(kind, rules);
+    return added;
+  }
+
   function matchRule(rule, item) {
     const needle = (rule.value || '').trim().toLowerCase();
     if (!needle) return false;
@@ -112,6 +133,7 @@
     saveRules,
     addRule,
     removeRule,
+    importRules,
     isHidden,
   };
 })(window);

@@ -52,6 +52,25 @@
       <button type="submit" class="btn">追加</button>
     </form>
     <ul id="rule-list" class="rule-list"></ul>
+
+    <div class="import-export">
+      <p class="hint">
+        CSV形式(1行目ヘッダー任意): <code>type,value</code> / typeは title・domain・user・comment のいずれか。<br>
+        URL指定時は、そのURLがCSVを返せば取得できます(はてなブックマークのGistは「Secret」で作成すればログイン無しで取得可能。「Private」相当のリポジトリ等、認証が必要なURLは取得できません)。
+      </p>
+      <div class="import-export-row">
+        <button id="export-btn" type="button" class="btn btn--small">CSVエクスポート</button>
+        <label class="btn btn--small file-label">
+          CSVインポート
+          <input id="import-file-input" type="file" accept=".csv,text/csv" hidden>
+        </label>
+      </div>
+      <form id="import-url-form" class="import-url-form">
+        <input id="import-url-input" type="url" placeholder="https://gist.githubusercontent.com/.../raw/filters.csv" autocomplete="off">
+        <button type="submit" class="btn btn--small">URLから取得</button>
+      </form>
+      <p id="import-status" class="status"></p>
+    </div>
   </div>
 </div>
 
