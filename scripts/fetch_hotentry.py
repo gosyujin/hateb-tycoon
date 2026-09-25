@@ -149,6 +149,9 @@ def main():
             continue
 
         existing_by_url = load_existing(out_path)
+        for legacy_entry in existing_by_url.values():
+            legacy_entry.setdefault("firstSeenAt", now_iso)
+            legacy_entry.setdefault("lastSeenAt", now_iso)
         before_count = len(existing_by_url)
         merged = merge_entries(existing_by_url, fresh_entries, now_iso)
         entries = prune(merged, now_jst)
