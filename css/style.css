@@ -198,6 +198,10 @@ main {
   display: flex;
   flex-direction: column;
 }
+.card--visited {
+  opacity: 0.55;
+  filter: grayscale(70%);
+}
 
 .card-thumb {
   width: 100%;

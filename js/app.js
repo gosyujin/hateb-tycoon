@@ -273,7 +273,8 @@
     const nextItems = currentVisibleEntries.slice(renderedCount, renderedCount + PAGE_SIZE);
     if (nextItems.length === 0) return;
     const sentinel = document.getElementById('scroll-sentinel');
-    const html = nextItems.map(renderEntryCard).join('');
+    const visitedSet = Visited.loadSet();
+    const html = nextItems.map((item) => renderEntryCard(item, visitedSet)).join('');
     if (sentinel) {
       sentinel.insertAdjacentHTML('beforebegin', html);
     } else {
@@ -387,7 +388,7 @@
     return '';
   }
 
-  function renderEntryCard(item) {
+  function renderEntryCard(item, visitedSet) {
     const params = new URLSearchParams();
     params.set('url', item.url);
     const href = `#/entry?${params.toString()}`;
@@ -397,8 +398,9 @@
     const firstSeen = item.firstSeenAt
       ? `<span class="card-first-seen">初出 ${escapeHtml(item.firstSeenAt.slice(0, 10))}</span>`
       : '<span></span>';
+    const visitedClass = visitedSet && visitedSet.has(item.url) ? ' card--visited' : '';
     return `
-      <article class="card">
+      <article class="card${visitedClass}">
         ${thumb}
         <div class="card-body">
           <div class="card-top-row">
