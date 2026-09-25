@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: fetch-hotentry
@@ -22,13 +23,24 @@ jobs:
         run: python3 scripts/fetch_hotentry.py
 
       - name: Commit updated data
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
           if git diff --cached --quiet; then
             echo "No changes to commit"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Update hotentry data ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # 既定のGITHUB_TOKENでのpushは他ワークフローのpushトリガーを連鎖発火しない
+      # (無限ループ防止のためのGitHub Actions仕様)ため、Pagesの再デプロイを明示的に起動する。
+      - name: Trigger Pages redeploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-pages.yml --ref main
