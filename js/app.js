@@ -890,6 +890,53 @@
     el.textContent = text;
   }
 
+  // ---- キーボードショートカット ----
+  // 一覧: 左右どちらでも「先頭から見て最初の未読」記事へ移動する(既読は読み飛ばす)。
+  // ブックマークページ: 左右で現在のカテゴリー一覧上の前後の記事へ移動する(既読未読は問わない)。
+  function isTypingTarget(el) {
+    if (!el) return false;
+    const tag = el.tagName;
+    return tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || el.isContentEditable;
+  }
+
+  function goToFirstUnread() {
+    const target = currentVisibleEntries.find((item) => !Visited.isStillRead(item));
+    if (!target) return false;
+    const params = new URLSearchParams();
+    params.set('url', target.url);
+    navigate('/entry', params);
+    return true;
+  }
+
+  function goToRelativeEntry(delta) {
+    const { params } = parseRoute();
+    const url = params.get('url');
+    if (!url || currentVisibleEntries.length === 0) return false;
+    const index = currentVisibleEntries.findIndex((item) => item.url === url);
+    if (index === -1) return false;
+    const nextIndex = index + delta;
+    if (nextIndex < 0 || nextIndex >= currentVisibleEntries.length) return false;
+    const nextParams = new URLSearchParams();
+    nextParams.set('url', currentVisibleEntries[nextIndex].url);
+    navigate('/entry', nextParams);
+    return true;
+  }
+
+  window.addEventListener('keydown', (e) => {
+    if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+    if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+    if (isTypingTarget(document.activeElement)) return;
+    if (!settingsModal.hidden) return;
+
+    let handled = false;
+    if (!listView.hidden) {
+      handled = goToFirstUnread();
+    } else if (!entryView.hidden) {
+      handled = goToRelativeEntry(e.key === 'ArrowLeft' ? -1 : 1);
+    }
+    if (handled) e.preventDefault();
+  });
+
   // ---- 初期化 ----
   renderFooter();
   render();
