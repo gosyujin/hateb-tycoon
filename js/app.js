@@ -312,19 +312,24 @@
     render();
   });
 
-  // ---- 次回データ更新目安 ----
+  // ---- ビルド情報 + 次回データ更新目安(1行にまとめる) ----
   async function renderFooter() {
     const el = document.getElementById('next-update-info');
     if (!el) return;
+
+    let text = window.BUILD_INFO ? `${window.BUILD_INFO.sha} (${window.BUILD_INFO.time})` : '';
+
     try {
       const res = await fetch('data/meta.json', { cache: 'no-store' });
       if (res.ok) {
         const meta = await res.json();
-        el.textContent = `次回更新: ${meta.nextEstimate}頃`;
+        text += (text ? ' / ' : '') + `次回更新: ${meta.nextEstimate}頃`;
       }
     } catch (e) {
       // メタ情報が無くても一覧表示自体は継続できるため、無視する
     }
+
+    el.textContent = text;
   }
 
   // ---- 初期化 ----
