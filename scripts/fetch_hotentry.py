@@ -34,7 +34,6 @@ CATEGORIES = [
     "fun",
     "entertainment",
     "game",
-    "book",
 ]
 
 USER_AGENT = "hateb-tycoon-bot/1.0 (+https://github.com/gosyujin/hateb-tycoon)"

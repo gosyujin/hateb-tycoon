@@ -96,7 +96,6 @@
     { key: 'fun', label: 'おもしろ' },
     { key: 'entertainment', label: 'エンタメ' },
     { key: 'game', label: 'アニメとゲーム' },
-    { key: 'book', label: '本' },
   ];
 
   async function getHotEntries(category) {
