@@ -52,6 +52,11 @@
     return `${Date.now()}-${Math.random().toString(36).slice(2)}`;
   }
 
+  // type asc, value asc でソートする(登録・インポート・エクスポートの各タイミングで適用)。
+  function sortRules(rules) {
+    return rules.slice().sort((a, b) => a.type.localeCompare(b.type) || a.value.localeCompare(b.value));
+  }
+
   function addRule(kind, type, value) {
     assertKind(kind);
     if (!TYPES.includes(type)) throw new Error(`unknown rule type: ${type}`);
@@ -59,8 +64,9 @@
     if (!trimmed) return loadRules(kind);
     const rules = loadRules(kind);
     rules.push({ id: makeId(), type, value: trimmed });
-    saveRules(kind, rules);
-    return rules;
+    const sorted = sortRules(rules);
+    saveRules(kind, sorted);
+    return sorted;
   }
 
   function removeRule(kind, id) {
@@ -87,7 +93,7 @@
       existingKeys.add(key);
       added++;
     }
-    saveRules(kind, rules);
+    saveRules(kind, sortRules(rules));
     return added;
   }
 
@@ -134,6 +140,7 @@
     addRule,
     removeRule,
     importRules,
+    sortRules,
     isHidden,
   };
 })(window);

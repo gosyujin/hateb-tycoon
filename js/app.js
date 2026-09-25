@@ -490,7 +490,7 @@
   }
 
   exportBtn.addEventListener('click', () => {
-    const csv = rulesToCsv(Filters.loadRules(currentSettingsKind));
+    const csv = rulesToCsv(Filters.sortRules(Filters.loadRules(currentSettingsKind)));
     const blob = new Blob([csv], { type: 'text/csv' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
