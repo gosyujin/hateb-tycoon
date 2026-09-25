@@ -179,9 +179,56 @@
   function renderCategoryTabs() {
     categoryTabs.innerHTML = HatenaAPI.CATEGORIES.map((c) => {
       const active = c.key === currentCategory ? ' active' : '';
-      return `<button class="tab${active}" data-cat="${c.key}">${escapeHtml(c.label)}</button>`;
+      return `<button class="tab${active}" data-cat="${c.key}" data-full-label="${escapeHtml(c.label)}">${escapeHtml(c.label)}</button>`;
     }).join('');
+    fitCategoryTabs();
   }
+
+  // タブは常に1行に収め、CSSのtext-overflow任せの均等縮小(短いラベルまで
+  // 潰れる一方で長いラベルの方が余分に残る)ではなく、各タブの表示文字数を
+  // 実測しながら「最低2文字は残し、はみ出す分だけ一番長いタブから1文字ずつ
+  // 削る」方式で必要最小限に省略する。
+  function fitCategoryTabs() {
+    const buttons = Array.from(categoryTabs.querySelectorAll('.tab'));
+    if (buttons.length === 0) return;
+
+    buttons.forEach((btn) => {
+      btn.textContent = btn.dataset.fullLabel;
+    });
+
+    const available = categoryTabs.clientWidth;
+    if (!available) return;
+
+    const GAP = 6;
+    const MIN_CHARS = 2;
+
+    const totalWidth = () =>
+      buttons.reduce((sum, btn) => sum + btn.getBoundingClientRect().width, 0) + GAP * (buttons.length - 1);
+
+    let guard = 300;
+    while (totalWidth() > available && guard-- > 0) {
+      let target = null;
+      let maxLen = MIN_CHARS;
+      for (const btn of buttons) {
+        const text = btn.textContent;
+        const len = text.endsWith('…') ? text.length - 1 : text.length;
+        if (len > maxLen) {
+          maxLen = len;
+          target = btn;
+        }
+      }
+      if (!target) break;
+      const text = target.textContent;
+      const base = text.endsWith('…') ? text.slice(0, -1) : text;
+      target.textContent = `${base.slice(0, -1)}…`;
+    }
+  }
+
+  let tabsResizeTimer = null;
+  window.addEventListener('resize', () => {
+    clearTimeout(tabsResizeTimer);
+    tabsResizeTimer = setTimeout(fitCategoryTabs, 150);
+  });
 
   categoryTabs.addEventListener('click', (e) => {
     const btn = e.target.closest('button[data-cat]');
