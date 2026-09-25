@@ -102,6 +102,28 @@ async function networkFirstThenCache(request, cacheName) {
   }
 }
 
+// ナビゲーション(トップページの読み込み)専用。SPAなのでルート(/)・末尾スラッシュ
+// 有無など実際のリクエストURLが揺れても常に同じHTMLを返すべきだが、それらを
+// そのままキャッシュキーにすると"index.html"としてキャッシュした内容と一致せず、
+// オフライン時のフォールバックが見つからずFetchEventが例外で落ちてしまう
+// (アプリを完全終了して機内モードで新規起動した場合にのみ再現し、サスペンドから
+// 復帰した場合は実際のfetchが走らないため気づけなかった)。そのため常に
+// 'index.html'という固定キーで読み書きする。
+async function handleNavigate(request) {
+  const cache = await caches.open(SHELL_CACHE);
+  try {
+    const response = await fetch(request);
+    if (response && response.ok) {
+      cache.put('index.html', response.clone());
+    }
+    return response;
+  } catch (err) {
+    const cached = await cache.match('index.html');
+    if (cached) return cached;
+    throw err;
+  }
+}
+
 function isShellRequest(pathname) {
   return SHELL_FILES.some((f) => pathname.endsWith(`/${f}`) || pathname.endsWith(f));
 }
@@ -116,7 +138,7 @@ self.addEventListener('fetch', (event) => {
 
   // ナビゲーション(index.htmlの読み込み)は常にアプリ本体キャッシュへフォールバックする。
   if (request.mode === 'navigate') {
-    event.respondWith(networkFirstThenCache(request, SHELL_CACHE));
+    event.respondWith(handleNavigate(request));
     return;
   }
 
