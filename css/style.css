@@ -69,6 +69,11 @@ main {
   overflow-wrap: anywhere;
   pointer-events: none;
 }
+/* フッター自体は下のコンテンツをクリックできるようpointer-events: noneだが、
+   リンクだけは押せるようにする。 */
+.app-footer a {
+  pointer-events: auto;
+}
 
 .btn {
   padding: 6px 14px;
