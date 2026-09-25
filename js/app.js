@@ -320,27 +320,29 @@
   });
 
   // ---- ビルド情報(デバッグ用) ----
-  function renderBuildInfo() {
+  async function renderFooter() {
     const el = document.getElementById('build-info');
-    if (!el || !window.BUILD_INFO) return;
-    el.textContent = `build: ${window.BUILD_INFO.sha} (${window.BUILD_INFO.time})`;
-  }
-
-  async function renderDataMeta() {
-    const el = document.getElementById('data-meta');
     if (!el) return;
+
+    let text = '';
+    if (window.BUILD_INFO) {
+      text = `build: ${window.BUILD_INFO.sha} (${window.BUILD_INFO.time})`;
+    }
+
     try {
       const res = await fetch('data/meta.json', { cache: 'no-store' });
-      if (!res.ok) return;
-      const meta = await res.json();
-      el.textContent = `データ取得: ${meta.fetchedAt}時点 / 次回更新目安: ${meta.nextEstimate}頃`;
+      if (res.ok) {
+        const meta = await res.json();
+        text += (text ? ' / ' : '') + `次回更新: ${meta.nextEstimate}頃`;
+      }
     } catch (e) {
-      // メタ情報が無くても一覧表示自体は継続できるため、フッター欄は空のままにする
+      // メタ情報が無くても一覧表示自体は継続できるため、無視する
     }
+
+    el.textContent = text;
   }
 
   // ---- 初期化 ----
-  renderBuildInfo();
-  renderDataMeta();
+  renderFooter();
   render();
 })();

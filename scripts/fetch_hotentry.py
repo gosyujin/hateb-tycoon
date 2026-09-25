@@ -161,10 +161,7 @@ def main():
         print(f"[ok] {category}: 累計{len(entries)}件(新規+{max(new_count, 0)}) -> {out_path}")
 
     next_estimate_jst = now_jst + timedelta(minutes=30)
-    meta = {
-        "fetchedAt": now_jst.strftime("%Y-%m-%d %H:%M JST"),
-        "nextEstimate": next_estimate_jst.strftime("%Y-%m-%d %H:%M JST"),
-    }
+    meta = {"nextEstimate": next_estimate_jst.strftime("%H:%M")}
     (DATA_DIR / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     if len(failures) == len(CATEGORIES):
