@@ -84,7 +84,10 @@
     };
   }
 
+  const EVERYTHING_KEY = 'everything';
+
   const CATEGORIES = [
+    { key: EVERYTHING_KEY, label: '全て' },
     { key: 'all', label: '総合' },
     { key: 'general', label: '一般' },
     { key: 'social', label: '世の中' },
@@ -97,8 +100,9 @@
     { key: 'game', label: 'アニメとゲーム' },
   ];
 
-  async function getHotEntries(category) {
-    const slug = category || 'all';
+  const REAL_CATEGORY_KEYS = CATEGORIES.filter((c) => c.key !== EVERYTHING_KEY).map((c) => c.key);
+
+  async function fetchCategoryJson(slug) {
     const dataUrl = `data/hotentry-${encodeURIComponent(slug)}.json`;
     const res = await fetch(dataUrl, { cache: 'no-store' });
     if (!res.ok) {
@@ -106,6 +110,30 @@
     }
     const entries = await res.json();
     return Array.isArray(entries) ? entries : [];
+  }
+
+  // 「全て」は実データファイルを持たない仮想カテゴリー。「総合」を土台に、
+  // 総合には無いがそれ以外のカテゴリーには存在する記事(url基準で判定)を
+  // 追加してマージする。
+  async function getEverythingEntries() {
+    const results = await Promise.all(REAL_CATEGORY_KEYS.map(fetchCategoryJson));
+    const [allEntries, ...restEntries] = results;
+    const merged = [...allEntries];
+    const seenUrls = new Set(allEntries.map((e) => e.url));
+    for (const entries of restEntries) {
+      for (const entry of entries) {
+        if (seenUrls.has(entry.url)) continue;
+        seenUrls.add(entry.url);
+        merged.push(entry);
+      }
+    }
+    return merged;
+  }
+
+  async function getHotEntries(category) {
+    const slug = category || 'all';
+    if (slug === EVERYTHING_KEY) return getEverythingEntries();
+    return fetchCategoryJson(slug);
   }
 
   async function getEntryInfo(pageUrl) {
