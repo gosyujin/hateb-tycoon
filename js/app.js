@@ -427,14 +427,20 @@
       ? `<span class="card-first-seen">初出 ${escapeHtml(item.firstSeenAt.slice(0, 10))}</span>`
       : '<span></span>';
     const visitedClass = Visited.isStillRead(item) ? ' card--visited' : '';
-    const noCommentClass = Visited.hasNoComments(item.url) ? ' card-count-link--no-comment' : '';
+    // 既読グレーアウト(grayscale+brightness)はカード全体にかかるため、色や太さだけの
+    // 違いは既読カード上でほぼ判別できなくなる。そのため矢印の形状自体を変えて、
+    // グレースケール化されても読み取れる違いにする。
+    const noComment = Visited.hasNoComments(item.url);
+    const noCommentClass = noComment ? ' card-count-link--no-comment' : '';
+    const countArrow = noComment ? '↛' : '→';
+    const countTitle = noComment ? ' title="前回訪問時、コメント付きブックマークがありませんでした"' : '';
     return `
       <article class="card${visitedClass}">
         ${thumb}
         <div class="card-body">
           <div class="card-top-row">
             ${firstSeen}
-            <a class="card-count-link${countTierClass(item.count)}${noCommentClass}" href="${href}">${item.count} users →</a>
+            <a class="card-count-link${countTierClass(item.count)}${noCommentClass}" href="${href}"${countTitle}>${item.count} users ${countArrow}</a>
           </div>
           <button type="button" class="card-domain" data-domain="${escapeHtml(item.domain)}">${escapeHtml(item.domain)}</button>
           <a class="card-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
