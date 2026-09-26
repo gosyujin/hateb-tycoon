@@ -27,6 +27,7 @@
   const ruleTypeSelect = document.getElementById('rule-type');
   const ruleValueInput = document.getElementById('rule-value');
   const ruleList = document.getElementById('rule-list');
+  const ruleCount = document.getElementById('rule-count');
   const exportBtn = document.getElementById('export-btn');
   const copyBtn = document.getElementById('copy-btn');
   const exportTextBtn = document.getElementById('export-text-btn');
@@ -822,6 +823,7 @@
 
   function renderRuleList() {
     const rules = Filters.loadRules(currentSettingsKind);
+    ruleCount.textContent = String(rules.length);
     if (rules.length === 0) {
       ruleList.innerHTML = '<li class="empty">登録されているルールはありません。</li>';
       return;

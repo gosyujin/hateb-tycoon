@@ -110,7 +110,10 @@
       <input id="rule-value" type="text" placeholder="一致させる文字列" autocomplete="off">
       <button type="submit" class="btn">追加</button>
     </form>
-    <ul id="rule-list" class="rule-list"></ul>
+    <details id="rule-list-details" class="rule-list-details">
+      <summary>登録ルール(<span id="rule-count">0</span>件)</summary>
+      <ul id="rule-list" class="rule-list"></ul>
+    </details>
 
     <div class="import-export">
       <p class="hint">

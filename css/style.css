@@ -594,13 +594,34 @@ main {
   border: 1px solid var(--color-border);
 }
 
+.rule-list-details {
+  margin-bottom: 12px;
+}
+.rule-list-details summary {
+  cursor: pointer;
+  padding: 6px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  user-select: none;
+}
+.rule-list-details[open] summary {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
 .rule-list {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 6px;
   display: flex;
   flex-direction: column;
   gap: 6px;
+  border: 1px solid var(--color-border);
+  border-top: none;
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  max-height: 50vh;
+  overflow-y: auto;
 }
 .rule-item {
   display: flex;
