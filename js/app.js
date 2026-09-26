@@ -876,6 +876,17 @@
     }
   }
 
+  // gist.github.com上の「Rawを開く」リンクをコピーすると
+  // https://gist.github.com/{user}/{hash}/raw/(commit/)?{filename} になるが、このドメインは
+  // CORSヘッダーを返さずfetch()が失敗する(Load failed)。実体はgist.githubusercontent.comと
+  // 同じなので、fetch前にそちらのURLへ正規化する。
+  function normalizeGistRawUrl(url) {
+    const m = /^https:\/\/gist\.github\.com\/([^/]+)\/([0-9a-fA-F]+)\/raw\/(.+)$/.exec(url);
+    if (!m) return url;
+    const [, user, hash, rest] = m;
+    return `https://gist.githubusercontent.com/${user}/${hash}/raw/${rest}`;
+  }
+
   // GistのrawURL(https://gist.githubusercontent.com/{user}/{hash}/raw/(commit/)?{filename})から
   // Gist本体ページのURL(#file-アンカー付き)を逆算する。ファイル名のアンカー化はGitHubの仕様に
   // 合わせ、英数字・アンダースコア以外の文字を1つの"-"にまとめる(例: gistfile1.txt → file-gistfile1-txt)。
@@ -1006,8 +1017,9 @@
 
   importUrlForm.addEventListener('submit', async (e) => {
     e.preventDefault();
-    const url = importUrlInput.value.trim();
+    const url = normalizeGistRawUrl(importUrlInput.value.trim());
     if (!url) return;
+    importUrlInput.value = url;
     setImportUrl(currentSettingsKind, url);
     refreshGistLink(url);
     importStatus.textContent = '取得中…';
