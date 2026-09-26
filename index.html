@@ -9,6 +9,7 @@
 <body>
 <header class="app-header">
   <h1 class="app-title"><a href="#/">hateb-tycoon</a></h1>
+  <input id="header-search" type="search" class="header-search" autocomplete="off">
   <button id="settings-btn" type="button" class="btn btn--icon" aria-label="フィルタ設定" title="フィルタ設定">⚙</button>
 </header>
 
@@ -27,9 +28,9 @@
         <label class="sort-label">
           並び順
           <select id="sort-select">
-            <option value="acquired">取り込み順(デフォルト)</option>
+            <option value="hatenaDate" selected>はてな更新日時が新しい順(デフォルト)</option>
+            <option value="acquired">取り込み順</option>
             <option value="count">ブックマークが多い順</option>
-            <option value="hatenaDate">はてな更新日時が新しい順</option>
             <option value="title">タイトル(あいうえお)順</option>
           </select>
         </label>

@@ -1,6 +1,7 @@
 (function () {
   const listView = document.getElementById('view-list');
   const entryView = document.getElementById('view-entry');
+  const headerSearch = document.getElementById('header-search');
   const categoryTabs = document.getElementById('category-tabs');
   const entryGrid = document.getElementById('entry-grid');
   const listStatus = document.getElementById('list-status');
@@ -50,8 +51,14 @@
   let currentVisibleEntries = [];
   let renderedCount = 0;
   let scrollObserver = null;
-  let currentSortMode = 'acquired';
+  let currentSortMode = 'hatenaDate';
   let hideVisited = false; // デフォルトは非表示にしない(チェックなし)
+
+  // ヘッダーの検索欄。検索結果画面には遷移せず、その場で絞り込むだけ。
+  // 一覧ページ: タイトル・ドメイン / ブックマークページ: ユーザーid・コメント本文が対象。
+  let searchQuery = '';
+  const LIST_SEARCH_PLACEHOLDER = 'タイトル・ドメインで絞り込み';
+  const ENTRY_SEARCH_PLACEHOLDER = 'ユーザー・コメントで絞り込み';
 
   // コメントページから「← 一覧に戻る」で戻った時にスクロール位置を復元するため、
   // 一覧表示中のスクロール位置を随時記録しておく。
@@ -91,6 +98,16 @@
     comment: 'ブックマークコメント',
     url: 'URL',
   };
+
+  // hatenaDateはUTC(...Z)で保存されているため、単純にslice(0,10)すると日本時間の
+  // 日付とズレることがある(例: 深夜のUTC時刻は翌日扱いになるべきなのに前日と表示される)。
+  // +9時間してからUTC表記で切り出すことでJST基準の日付にする。
+  function hatenaDateOnly(iso) {
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return '';
+    const jst = new Date(d.getTime() + 9 * 60 * 60 * 1000);
+    return jst.toISOString().slice(0, 10);
+  }
 
   function escapeHtml(str) {
     return String(str)
@@ -204,8 +221,25 @@
 
   window.addEventListener('hashchange', render);
 
+  // ページ遷移のたびに検索欄をリセットする(前の画面の絞り込みを引き継がない)。
+  function resetHeaderSearch(isEntry) {
+    searchQuery = '';
+    headerSearch.value = '';
+    headerSearch.placeholder = isEntry ? ENTRY_SEARCH_PLACEHOLDER : LIST_SEARCH_PLACEHOLDER;
+  }
+
+  headerSearch.addEventListener('input', () => {
+    searchQuery = headerSearch.value.trim().toLowerCase();
+    if (!listView.hidden) {
+      updateListView();
+    } else if (!entryView.hidden) {
+      applyEntrySearchAndRender();
+    }
+  });
+
   function render() {
     const { path, params } = parseRoute();
+    resetHeaderSearch(path === '/entry');
     if (path === '/entry') {
       listView.hidden = true;
       entryView.hidden = false;
@@ -377,6 +411,14 @@
       working = filtered;
     }
 
+    if (searchQuery) {
+      working = working.filter(
+        (item) =>
+          (item.title && item.title.toLowerCase().includes(searchQuery)) ||
+          (item.domain && item.domain.toLowerCase().includes(searchQuery))
+      );
+    }
+
     currentVisibleEntries = applySort(working, currentSortMode);
 
     if (baseEntries.length === 0 && hiddenByFilterCount === 0) {
@@ -434,8 +476,8 @@
     const thumb = item.screenshot
       ? `<img class="card-thumb" src="${escapeHtml(item.screenshot)}" alt="" loading="lazy">`
       : `<div class="card-thumb card-thumb--empty"></div>`;
-    const firstSeen = item.firstSeenAt
-      ? `<span class="card-first-seen">初出 ${escapeHtml(item.firstSeenAt.slice(0, 10))}</span>`
+    const firstSeen = item.hatenaDate
+      ? `<span class="card-first-seen">更新 ${escapeHtml(hatenaDateOnly(item.hatenaDate))}</span>`
       : '<span></span>';
     const visitedClass = Visited.isStillRead(item) ? ' card--visited' : '';
     // 既読グレーアウト(grayscale+brightness)はカード全体にかかるため、色や太さだけの
@@ -475,6 +517,12 @@
   const COMMENT_LAYOUT_KEY = 'hateb-tycoon:commentLayout';
   let commentLayout = loadCommentLayout();
   let currentComments = [];
+  // ミュート等のフィルタ適用後・検索絞り込み適用前のコメント一覧と、
+  // ステータス表示の再構築に必要な情報を保持する(検索欄の入力のたびに
+  // 再取得せずここから再構築するため)。
+  let entryVisibleComments = [];
+  let entryHiddenByFilterCount = 0;
+  let entryOfflineNote = '';
 
   function loadCommentLayout() {
     try {
@@ -501,6 +549,29 @@
   function renderCommentList() {
     commentList.className = commentLayout === 'rich' ? 'comment-list comment-list--rich' : 'comment-list';
     commentList.innerHTML = currentComments.map(renderComment).join('') || '<p class="empty">コメントはありません。</p>';
+  }
+
+  // 検索欄の入力のたびに再取得はせず、フィルタ適用後の一覧(entryVisibleComments)から
+  // ユーザーid・コメント本文で絞り込んで再描画する。
+  function applyEntrySearchAndRender() {
+    currentComments = searchQuery
+      ? entryVisibleComments.filter(
+          (b) =>
+            (b.user && b.user.toLowerCase().includes(searchQuery)) ||
+            (b.comment && b.comment.toLowerCase().includes(searchQuery))
+        )
+      : entryVisibleComments;
+
+    const hiddenParts = [];
+    if (entryHiddenByFilterCount > 0) hiddenParts.push(`フィルタ${entryHiddenByFilterCount}件`);
+
+    entryStatus.textContent =
+      entryOfflineNote +
+      (hiddenParts.length > 0
+        ? `${currentComments.length} 件のコメントを表示中(${hiddenParts.join('・')}を非表示)`
+        : `${currentComments.length} 件のコメントを表示中`);
+
+    renderCommentList();
   }
 
   commentLayoutToggle.addEventListener('click', (e) => {
@@ -534,6 +605,9 @@
     window.scrollTo(0, 0);
     commentList.innerHTML = '';
     currentComments = [];
+    entryVisibleComments = [];
+    entryHiddenByFilterCount = 0;
+    entryOfflineNote = '';
     entryHeader.innerHTML = '';
     entryDescription.textContent = '';
     updateCommentLayoutToggleUI();
@@ -573,17 +647,11 @@
       const visible = commented.filter(
         (b) => !Filters.isHidden({ title: info.title, domain: info.domain, user: b.user, comment: b.comment })
       );
-      const hiddenCount = commented.length - visible.length;
 
-      const offlineNote = info.fromOfflineCache ? '(オフラインのため前回取得時点の内容を表示中) ' : '';
-      entryStatus.textContent =
-        offlineNote +
-        (hiddenCount > 0
-          ? `${visible.length} 件のコメントを表示中(${hiddenCount} 件を非表示)`
-          : `${visible.length} 件のコメントを表示中`);
-
-      currentComments = visible;
-      renderCommentList();
+      entryVisibleComments = visible;
+      entryHiddenByFilterCount = commented.length - visible.length;
+      entryOfflineNote = info.fromOfflineCache ? '(オフラインのため前回取得時点の内容を表示中) ' : '';
+      applyEntrySearchAndRender();
     } catch (err) {
       console.error(err);
       entryStatus.textContent = `取得に失敗しました: ${err.message}`;
