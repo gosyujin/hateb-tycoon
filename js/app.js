@@ -101,12 +101,17 @@
 
   // hatenaDateはUTC(...Z)で保存されているため、単純にslice(0,10)すると日本時間の
   // 日付とズレることがある(例: 深夜のUTC時刻は翌日扱いになるべきなのに前日と表示される)。
-  // +9時間してからUTC表記で切り出すことでJST基準の日付にする。
-  function hatenaDateOnly(iso) {
+  // +9時間してからUTC表記の各要素を取り出すことでJST基準の日時にする。
+  function hatenaDateTime(iso) {
     const d = new Date(iso);
     if (isNaN(d.getTime())) return '';
     const jst = new Date(d.getTime() + 9 * 60 * 60 * 1000);
-    return jst.toISOString().slice(0, 10);
+    const y = jst.getUTCFullYear();
+    const mo = jst.getUTCMonth() + 1;
+    const da = jst.getUTCDate();
+    const h = jst.getUTCHours();
+    const mi = String(jst.getUTCMinutes()).padStart(2, '0');
+    return `${y}/${mo}/${da} ${h}:${mi}`;
   }
 
   function escapeHtml(str) {
@@ -477,7 +482,7 @@
       ? `<img class="card-thumb" src="${escapeHtml(item.screenshot)}" alt="" loading="lazy">`
       : `<div class="card-thumb card-thumb--empty"></div>`;
     const firstSeen = item.hatenaDate
-      ? `<span class="card-first-seen">更新 ${escapeHtml(hatenaDateOnly(item.hatenaDate))}</span>`
+      ? `<span class="card-first-seen">更新 ${escapeHtml(hatenaDateTime(item.hatenaDate))}</span>`
       : '<span></span>';
     const visitedClass = Visited.isStillRead(item) ? ' card--visited' : '';
     // 既読グレーアウト(grayscale+brightness)はカード全体にかかるため、色や太さだけの
