@@ -690,10 +690,22 @@
     entryFilterBtn.disabled = true;
   });
 
-  async function renderEntryView(url) {
-    // 前後の記事へ移動した際、直前のスクロール位置(コメント欄の途中/末尾)が
-    // そのまま残ってしまうことがあるため、新しい記事を開く際は必ず先頭へ戻す。
+  // 前後の記事へ移動した際、直前のスクロール位置(コメント欄の途中/末尾)が
+  // そのまま残ってしまうことがあるため、新しい記事を開く際は必ず先頭へ戻す。
+  // ページ下部にある「前の記事へ」「次の記事へ」ボタンをタップした直後は、
+  // (特にモバイルでフリックスクロール中にタップした場合)慣性スクロールが
+  // まだ収束しておらず、1回のscrollTo(0, 0)だけでは慣性側の描画に上書きされて
+  // 先頭に戻らないことがある。数フレームにわたって再度先頭へ戻すことで対抗する。
+  function forceScrollTop() {
     window.scrollTo(0, 0);
+    requestAnimationFrame(() => {
+      window.scrollTo(0, 0);
+      requestAnimationFrame(() => window.scrollTo(0, 0));
+    });
+  }
+
+  async function renderEntryView(url) {
+    forceScrollTop();
     commentList.innerHTML = '';
     currentComments = [];
     entryVisibleComments = [];
@@ -743,6 +755,10 @@
       entryHiddenByFilterCount = commented.length - visible.length;
       entryOfflineNote = info.fromOfflineCache ? '(オフラインのため前回取得時点の内容を表示中) ' : '';
       applyEntrySearchAndRender();
+      // オフライン時などデータ取得に時間がかかった場合、その間に上記の慣性
+      // スクロール対策が先に終わってしまっていることがあるため、コメント
+      // 描画後にもう一度先頭へ戻しておく。
+      forceScrollTop();
     } catch (err) {
       console.error(err);
       entryStatus.textContent = `取得に失敗しました: ${err.message}`;
