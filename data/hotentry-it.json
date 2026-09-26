@@ -1,16 +1,29 @@
 [
   {
+    "title": "11年生本番データ飛ばす",
+    "url": "https://zenn.dev/ficilcom/articles/prod_db_reset_incident",
+    "domain": "zenn.dev",
+    "count": 6,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/ficilcom/articles/prod_db_reset_incident",
+    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--lyaabPPy--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:11%25E5%25B9%25B4%25E7%2594%259F%25E6%259C%25AC%25E7%2595%25AA%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E9%25A3%259B%25E3%2581%25B0%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%258B%25E3%2581%2592%25E3%2582%2584%25E3%2581%25BE%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzE3MmFmNGJkODAuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2583%2595%25E3%2582%25A3%25E3%2582%25B7%25E3%2583%25AB%25E3%2582%25B3%25E3%2583%25A0%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNjNmE4NDNiMzEuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+    "description": "履歴ストレージは従量です（執筆時点の案内では Backup & Restore 関連で GB-month 単位）。「機能がある」のと「自分のプランで足りる」は別なので、そこは確認した方がいいです。 今回は 1 日前まで戻せる状態だったので、Backup & Restore でなんとか取り戻せました。止まっていた時間はだいたい 1 時間くらいです。 ...",
+    "hatenaDate": "2026-09-25T03:30:57Z",
+    "users": [],
+    "firstSeenAt": "2026-09-26T13:00:11.567705+09:00",
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
+  },
+  {
     "title": "「AIは10億人死ぬ事態起こすほど強力だ」政府が監視をとビル・ゲイツ氏が訴え",
     "url": "https://www.sankei.com/article/20260926-PMOV66XOCNM4TOIJDUOGL2HTIQ/",
     "domain": "www.sankei.com",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.sankei.com/article/20260926-PMOV66XOCNM4TOIJDUOGL2HTIQ/",
     "screenshot": "https://www.sankei.com/resizer/v2/26MLHOZS5ZM2PJAKXPOQSUQRVY.jpg?auth=024067971c1da459b7028eeb21e4f06d14cb87ad71f03a83d7a1eba82d062ecd&quality=50&focal=1666%2C1042&width=1200&height=675",
     "description": "米マイクロソフト創業者のビル・ゲイツ氏が、人工知能（AI）は「10億人の死者を出すような事態を引き起こせるほど強力だ」と警告し、政府による規制強化を訴えた。米NBCテレビのインタビューに語った内容として、同局が25日報じた。 それによると、ゲイツ氏は「悪意を持つ人間と最新のAIの組み合わせほど強力な兵器はか...",
     "hatenaDate": "2026-09-26T02:39:52Z",
     "users": [],
     "firstSeenAt": "2026-09-26T12:45:12.506710+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "モトローラのAndroid 16搭載スマホが4万円切り！　Amazonでセール中　6.7インチでSIMフリーの「motorola edge 60」が3万9418円",
@@ -23,59 +36,59 @@
     "hatenaDate": "2026-09-25T04:17:32Z",
     "users": [],
     "firstSeenAt": "2026-09-26T12:45:12.506710+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "コンセントが持ち歩ける、リン酸鉄のモバイルバッテリ",
     "url": "https://pc.watch.impress.co.jp/docs/news/2143250.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2143250.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2143/250/01.jpg",
     "description": null,
     "hatenaDate": "2026-09-25T06:35:02Z",
     "users": [],
     "firstSeenAt": "2026-09-26T12:30:11.679347+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "反AIの社会的な居場所が潰されててすげーわ",
     "url": "https://anond.hatelabo.jp/20260926101532",
     "domain": "anond.hatelabo.jp",
-    "count": 16,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20260926101532",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "VIVANTで生成AIが使われていた件が若干荒れてたけどうちの会社も反AIの人が干されそうになっている WEB制作会社のフロントエンドエンジニアチームの課長をやってるんだが、人事考課で他部署の反AIデザイナーがくっそ低評価つけられそう いまちょうど人事考課やっていて今度の11月から新しい給与体系に変わるタイミングと...",
     "hatenaDate": "2026-09-26T01:19:22Z",
     "users": [],
     "firstSeenAt": "2026-09-26T12:15:13.646159+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "Ollaya — Run decision models locally.",
     "url": "https://ollaya.dev/",
     "domain": "ollaya.dev",
-    "count": 8,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ollaya.dev/",
     "screenshot": "https://ollaya.dev/static/og.png?v=7bd2eae221",
     "description": "Run decision models locally.Ask typed questions about any text or JSON and get calibrated answers in milliseconds. Private, open source, on your own hardware.",
     "hatenaDate": "2026-09-25T22:11:27Z",
     "users": [],
     "firstSeenAt": "2026-09-26T12:00:12.978749+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "トランプ氏が投稿した習氏出迎え写真、AIで加工か ネタにされた「しかめっ面」消去",
     "url": "https://www.afpbb.com/articles/-/3654591",
     "domain": "www.afpbb.com",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3654591",
     "screenshot": "https://afpbb.ismcdn.jp/mwimgs/c/e/1000x/img_ce25b436d8213e7082b9c3b847af633690495.jpg",
     "description": "この写真にはショッキングな表現、または18歳以上の年齢制限の対象となる内容が含まれます。 ご覧になる場合にはご了承の上、クリックしてください。 【9月26日 AFP】ドナルド・トランプ米大統領は24日、中国の習近平国家主席をレッドカーペットで出迎えた際の写真を自身のSNS「トゥルース・ソーシャル」に投稿した。だ...",
     "hatenaDate": "2026-09-26T02:19:51Z",
     "users": [],
     "firstSeenAt": "2026-09-26T12:00:12.978749+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "Claudeで「セーフガードにブロックされたAI処理」に対する課金が開始される",
@@ -101,33 +114,33 @@
     "hatenaDate": "2026-09-25T13:16:54Z",
     "users": [],
     "firstSeenAt": "2026-09-26T09:58:18.023058+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "AI-SQLエンジン「Quail」公開 ——LLMによるデータの絞り込み・結合を効率化 | gihyo.jp",
     "url": "https://gihyo.jp/article/2026/09/quail",
     "domain": "gihyo.jp",
-    "count": 17,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/article/2026/09/quail",
     "screenshot": "https://gihyo.jp/assets/images/article/2026/09/quail/01.png",
     "description": "AI-SQLエンジン「Quail」公開 —⁠—LLMによるデータの絞り込み⁠⁠・結合を効率化 Full Stack Data LabのShreya Shankar氏らは9月24日、Modalとの共同開発によるオープンソースのAI-SQLエンジン「Quail」を公式ブログで発表した。SQLに自然言語で条件を書き、大規模言語モデル（LLM）の判定でデータを絞り込んだり、結び付け...",
     "hatenaDate": "2026-09-25T09:40:55Z",
     "users": [],
     "firstSeenAt": "2026-09-26T09:58:18.023058+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "Claude Code クラウドセッション、使ってみて！",
     "url": "https://zenn.dev/goat_eat_any/articles/claude-code-cloud-sessions",
     "domain": "zenn.dev",
-    "count": 87,
+    "count": 91,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/goat_eat_any/articles/claude-code-cloud-sessions",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--RB3ILX3M--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25A6%25E3%2583%2589%25E3%2582%25BB%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2580%2581%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%25A6%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%259F%25E3%2581%25AA%25E3%2581%25A1%25E3%2582%2585%25E3%2583%25BC%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2IzZjkyOTIzZDQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "はじめに Claude Code クラウドセッション、使っていますか？実は、ふだんの対話のセッションもそのままクラウドで動かせます！ クラウドセッションは、Claude CodeをAnthropicのクラウドで動かす機能です。PCやアプリ、ブラウザを閉じても処理が止まらず、Desktopアプリやブラウザ、スマホのどこからでも同じセッション...",
     "hatenaDate": "2026-09-25T06:58:56Z",
     "users": [],
     "firstSeenAt": "2026-09-26T09:40:27.362972+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "Microsoft、新しい業務向け「Copilot」を発表 ～エージェント機能などを統合／新機能「Home」「Code」「Autopilot」を追加",
@@ -140,7 +153,7 @@
     "hatenaDate": "2026-09-25T12:31:25Z",
     "users": [],
     "firstSeenAt": "2026-09-26T08:17:40.419007+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "JR西日本、AIが車両整備の計画立案　30年度までに所要時間2時間→10分 - 日本経済新聞",
@@ -153,20 +166,20 @@
     "hatenaDate": "2026-09-25T11:27:50Z",
     "users": [],
     "firstSeenAt": "2026-09-26T08:17:40.419007+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "パスキー解説：もっと簡単で安全なサインイン方法",
     "url": "https://whatarepasskeys.info/ja/",
     "domain": "whatarepasskeys.info",
-    "count": 70,
+    "count": 73,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/whatarepasskeys.info/ja/",
     "screenshot": "https://whatarepasskeys.info/og-image.png",
     "description": "パスキーとは？ パスキーは、パスワードの代わりとなる固有のデジタル鍵です。パスキーを使えば、パスワードを作成・記憶・入力することなく、素早く安全にサインインできます。パスキーでサインインする際、デバイスはまず顔認証、指紋認証、またはデバイスのPINを使って本人確認を行います。",
     "hatenaDate": "2026-09-25T06:46:53Z",
     "users": [],
     "firstSeenAt": "2026-09-26T08:17:40.419007+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "Gyazoへの不正アクセス、新たに約1.74億件の画像メタデータ流出",
@@ -179,20 +192,20 @@
     "hatenaDate": "2026-09-25T11:39:26Z",
     "users": [],
     "firstSeenAt": "2026-09-26T08:17:40.419007+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "【結果報告】初めてのAI同人誌、Fable5は「500部刷れ」と言った　#生成AIなんでも展示会レポ｜賢木イオ",
     "url": "https://note.com/studiomasakaki/n/n9bd76032db89",
     "domain": "note.com",
-    "count": 105,
+    "count": 107,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/studiomasakaki/n/n9bd76032db89",
     "screenshot": "https://assets.st-note.com/production/uploads/images/316421583/rectangle_large_type_2_1161b6f5ddd25ff53657392a568d44c8.png?fit=bounds&quality=85&width=1280",
     "description": "「これ、このまま外に置くんでいいですか？たぶん、玄関の中に置くと出入りできなくなっちゃうと思うんですけど…」 と、クロネコヤマトのお兄さんは言った。 「はい、外でいいです」 私は努めて平静に答えた。お兄さんは安心したように、「ありがとうございます。ダンボール箱、全部で7箱あるので、すみませんが受取証も...",
     "hatenaDate": "2026-09-24T13:54:21Z",
     "users": [],
     "firstSeenAt": "2026-09-26T05:00:48.949670+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "ドコモ、旧料金プランを中心に月額料金を最大550円値上げ　12月から",
@@ -205,7 +218,7 @@
     "hatenaDate": "2026-09-25T08:28:28Z",
     "users": [],
     "firstSeenAt": "2026-09-26T03:32:23.637332+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "Obsidianに眠っていた未読記事500件。Claudeに整理を頼んだら「本当のお宝」が見つかった | ライフハッカー・ジャパン",
@@ -218,7 +231,7 @@
     "hatenaDate": "2026-09-25T06:57:37Z",
     "users": [],
     "firstSeenAt": "2026-09-26T03:32:23.637332+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "OpenAIとClaudeのAgent SDKから学ぶAgentの基本構成 - ぷらすのブログ",
@@ -231,20 +244,20 @@
     "hatenaDate": "2026-09-25T13:15:56Z",
     "users": [],
     "firstSeenAt": "2026-09-26T00:55:17.404157+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "ネジザウルスはもういらない!? エンジニアがJIS規格を無視して作った“なめない”ビットの秘密を探る 【テレワークグッズ・ミニレビュー 第168回】",
     "url": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/2143353.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 61,
+    "count": 63,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/column/teleworkgoods/2143353.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2143/353/001.jpg",
     "description": null,
     "hatenaDate": "2026-09-25T10:30:18Z",
     "users": [],
     "firstSeenAt": "2026-09-26T00:55:17.404157+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "Jevにゲームをやらせるな！LLMを蒸留してみよう！",
@@ -257,20 +270,20 @@
     "hatenaDate": "2026-09-25T10:13:36Z",
     "users": [],
     "firstSeenAt": "2026-09-26T00:55:17.404157+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "パナソニックが市販カーナビ生産終了へ　30年以上の歴史に幕、スマホナビの普及など受け",
     "url": "https://www.itmedia.co.jp/news/article/2609/25/2000001763/",
     "domain": "www.itmedia.co.jp",
-    "count": 22,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/25/2000001763/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/25/2000001763/10007542/2048",
     "description": "パナソニック オートモーティブシステムズ（神奈川県横浜市）は9月25日、市販向けカーナビゲーションと専用オプション品の生産を2027年3月までに終了すると発表した。同社は1993年から市販カーナビを展開しており、30年余りの歴史に幕を下ろす。背景として、スマートフォンのナビアプリの普及や、車載情報システムの高機...",
     "hatenaDate": "2026-09-25T08:23:08Z",
     "users": [],
     "firstSeenAt": "2026-09-26T00:55:17.404157+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "Akamai Announces $11.6 Billion Multi-year Agreement with Anthropic to Support Growing Demand | Akamai",
@@ -283,7 +296,7 @@
     "hatenaDate": "2026-09-25T13:00:07Z",
     "users": [],
     "firstSeenAt": "2026-09-26T00:55:17.404157+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "ドコモの値上げの理由は「コスト上昇」で回線品質とは無関係、「改善は道半ば」と齋藤副社長",
@@ -309,7 +322,7 @@
     "hatenaDate": "2026-09-25T05:03:12Z",
     "users": [],
     "firstSeenAt": "2026-09-26T00:55:17.404157+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "Verilogで学ぶCPU自作入門.pdf",
@@ -322,20 +335,20 @@
     "hatenaDate": "2026-09-24T23:57:23Z",
     "users": [],
     "firstSeenAt": "2026-09-25T23:09:34.044463+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "業務プロセスをいじっても生産性は上がらない。あるいは業務を良くするテコについて：プロジェクトマジック：オルタナティブ・ブログ",
     "url": "https://blogs.itmedia.co.jp/magic/2026/09/post_157.html",
     "domain": "blogs.itmedia.co.jp",
-    "count": 130,
+    "count": 132,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blogs.itmedia.co.jp/magic/2026/09/post_157.html",
     "screenshot": "https://blogs.itmedia.co.jp/mt-static/support/assets_c/userpics/userpic-256-100x100.png",
     "description": "★「業務改革≒プロセスの見直し」と思っていた時期が僕にもあった 業務改革を仕事にしているし、ズバリ「業務改革の教科書」という本も書いているので、amazonで「業務改革」を検索することもある。その際に目につくのは「業務フローの書き方」みたいな本だ。少しずつ切り口を変えて、とてもたくさんある。 あたかも「業...",
     "hatenaDate": "2026-09-25T11:57:52Z",
     "users": [],
     "firstSeenAt": "2026-09-25T23:09:34.044463+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "KC3で「Verilogで学ぶCPU自作入門」という1時間の講義をした - uyuki234’s blog",
@@ -348,7 +361,7 @@
     "hatenaDate": "2026-09-25T10:34:19Z",
     "users": [],
     "firstSeenAt": "2026-09-25T23:09:34.044463+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "Meta Glassesを装着してMeta社員に絡む動画がFacebookとInstagramで削除される",
@@ -361,7 +374,7 @@
     "hatenaDate": "2026-09-25T12:40:38Z",
     "users": [],
     "firstSeenAt": "2026-09-25T23:09:34.044463+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "AlibabaがAI搭載ノートPC「Qwen Book」を発表、「AIボタン」や「AI Island」を搭載しOSにはOmarchyを採用",
@@ -380,27 +393,27 @@
     "title": "議事録をAIに要約させてチームで共有していたが、ある日部長に「先週の会議は結論出たっけ？」と聞かれて要約を見返したら結論が…3か月分の議事録が半分くらい創作だった",
     "url": "https://togetter.com/li/2750223",
     "domain": "togetter.com",
-    "count": 71,
+    "count": 73,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2750223",
     "screenshot": "https://s.tgstc.com/ogp3/7769230fcfa83015cdc205fd8393816b-1200x630.jpeg",
     "description": "限界エンジニア @moti256 議事録をAIに要約させてチームに共有してたんだけど、ある日部長に、先週の会議って結論出たっけって聞かれて。要約を見返したら、ちゃんと結論が書いてあるんだよね。ただ録音を聞き直したら、誰もそんなこと言ってませんでした。三ヶ月分の議事録、半分くらい創作でした。 2026-09-25 11:40:00",
     "hatenaDate": "2026-09-25T10:39:06Z",
     "users": [],
     "firstSeenAt": "2026-09-25T22:04:39.760689+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "EXPLAIN で詰まったときの三つ目の手札、Optimizer Trace の話 - Timee Product Team Blog",
     "url": "https://tech.timee.co.jp/entry/2026/09/25/162348",
     "domain": "tech.timee.co.jp",
-    "count": 82,
+    "count": 83,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.timee.co.jp/entry/2026/09/25/162348",
     "screenshot": "https://ogimage.blog.st-hatena.com/26006613497622710/14945776032082205833/1790321028",
     "description": "はじめに こんにちは。プラットフォームエンジニアリングチームに所属している徳富(@yannKazu1)です。 MySQL が遅いとき、まず EXPLAIN で計画を見る。見積もりが怪しければ EXPLAIN ANALYZE で実測と突き合わせる。たいていのケースはこの二つで十分で、実際自分もそれで困ったことはほとんどありませんでした。 ところ...",
     "hatenaDate": "2026-09-25T08:12:19Z",
     "users": [],
     "firstSeenAt": "2026-09-25T22:04:39.760689+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "Lambda 関数 URL で Condition 句による IP アドレス制限が可能になったか検証する - Qiita",
@@ -491,7 +504,7 @@
     "hatenaDate": "2026-09-25T06:25:43Z",
     "users": [],
     "firstSeenAt": "2026-09-25T19:13:08.697439+09:00",
-    "lastSeenAt": "2026-09-26T12:45:12.506710+09:00"
+    "lastSeenAt": "2026-09-26T13:00:11.567705+09:00"
   },
   {
     "title": "InstagramとFacebookに投稿された偽広告の責任をMetaが負うとの判決をドイツの裁判所が下す、偽広告コンテンツの削除と損害賠償の支払いが命じられる",
