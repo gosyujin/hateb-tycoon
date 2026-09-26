@@ -108,6 +108,28 @@ main {
   line-height: 1;
 }
 
+.offline-cache-quick {
+  position: relative;
+  display: inline-flex;
+  flex-shrink: 0;
+}
+.offline-cache-popover {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  width: max-content;
+  max-width: min(260px, calc(100vw - 32px));
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  padding: 10px 12px;
+  z-index: 20;
+}
+.offline-cache-popover .status {
+  margin: 0;
+}
+
 #entry-back-bottom {
   margin-top: 16px;
 }

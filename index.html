@@ -10,6 +10,12 @@
 <header class="app-header">
   <h1 class="app-title"><a href="#/">hateb-tycoon</a></h1>
   <input id="header-search" type="search" class="header-search" autocomplete="off">
+  <div id="offline-cache-quick" class="offline-cache-quick">
+    <button id="offline-cache-quick-btn" type="button" class="btn btn--icon" aria-label="オフライン用キャッシュを今すぐ取得" title="オフライン用キャッシュを今すぐ取得">⬇️</button>
+    <div id="offline-cache-popover" class="offline-cache-popover" hidden>
+      <p id="offline-cache-popover-status" class="status"></p>
+    </div>
+  </div>
   <button id="settings-btn" type="button" class="btn btn--icon" aria-label="フィルタ設定" title="フィルタ設定">⚙</button>
 </header>
 
@@ -92,7 +98,7 @@
         機内モードなどオフラインでも読めるよう保存しておきます(既読/未読は問いません)。
       </p>
       <div class="offline-cache-row">
-        <label>件数 <input id="offline-cache-count" type="number" min="1" max="200" value="20" inputmode="numeric"></label>
+        <label>件数 <input id="offline-cache-count" type="number" min="1" max="200" value="100" inputmode="numeric"></label>
         <button id="offline-cache-btn" type="button" class="btn btn--small">今すぐキャッシュする</button>
       </div>
       <p id="offline-cache-status" class="status"></p>

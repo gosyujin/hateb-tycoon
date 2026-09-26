@@ -42,6 +42,10 @@
   const offlineCacheCountInput = document.getElementById('offline-cache-count');
   const offlineCacheBtn = document.getElementById('offline-cache-btn');
   const offlineCacheStatus = document.getElementById('offline-cache-status');
+  const offlineCacheQuick = document.getElementById('offline-cache-quick');
+  const offlineCacheQuickBtn = document.getElementById('offline-cache-quick-btn');
+  const offlineCachePopover = document.getElementById('offline-cache-popover');
+  const offlineCachePopoverStatus = document.getElementById('offline-cache-popover-status');
 
   let currentCategory = 'everything';
   let currentSettingsKind = 'mute';
@@ -816,25 +820,28 @@
   visitedThresholdTypeSelect.addEventListener('change', saveVisitedThresholdFromFields);
 
   // ---- オフライン用キャッシュ(「全て」上位n件のコメントを手動で今すぐ取得) ----
+  // 設定モーダル内のボタンとヘッダーのクイックボタンの両方から呼ばれるため、
+  // 進捗表示先(setStatus)だけを差し替えて共通処理にしている。
   let offlineCachingInProgress = false;
 
-  offlineCacheBtn.addEventListener('click', async () => {
-    if (offlineCachingInProgress) return;
+  async function runOfflineCache(setStatus) {
     const requested = Math.floor(Number(offlineCacheCountInput.value));
-    const count = Number.isFinite(requested) ? Math.min(Math.max(requested, 1), 200) : 20;
+    const count = Number.isFinite(requested) ? Math.min(Math.max(requested, 1), 200) : 100;
     offlineCacheCountInput.value = count;
 
     offlineCachingInProgress = true;
     offlineCacheBtn.disabled = true;
-    offlineCacheStatus.textContent = '対象記事を取得中…';
+    offlineCacheQuickBtn.disabled = true;
+    setStatus('対象記事を取得中…');
 
     let targets;
     try {
       const entries = await HatenaAPI.getHotEntries('everything');
       targets = entries.filter((item) => !Filters.isHidden(item)).slice(0, count);
     } catch (err) {
-      offlineCacheStatus.textContent = `一覧の取得に失敗しました: ${err.message}`;
+      setStatus(`一覧の取得に失敗しました: ${err.message}`);
       offlineCacheBtn.disabled = false;
+      offlineCacheQuickBtn.disabled = false;
       offlineCachingInProgress = false;
       return;
     }
@@ -842,7 +849,7 @@
     let success = 0;
     let failed = 0;
     for (let i = 0; i < targets.length; i++) {
-      offlineCacheStatus.textContent = `${i + 1}/${targets.length}件処理中(成功${success}・失敗${failed})…`;
+      setStatus(`${i + 1}/${targets.length}件処理中(成功${success}・失敗${failed})…`);
       try {
         await HatenaAPI.getEntryInfo(targets[i].url);
         success++;
@@ -851,12 +858,41 @@
       }
     }
 
-    offlineCacheStatus.textContent =
+    setStatus(
       failed > 0
         ? `${targets.length}件中${success}件をキャッシュしました(失敗${failed}件)`
-        : `${success}件をキャッシュしました`;
+        : `${success}件をキャッシュしました`
+    );
     offlineCacheBtn.disabled = false;
+    offlineCacheQuickBtn.disabled = false;
     offlineCachingInProgress = false;
+  }
+
+  offlineCacheBtn.addEventListener('click', () => {
+    if (offlineCachingInProgress) return;
+    runOfflineCache((text) => {
+      offlineCacheStatus.textContent = text;
+    });
+  });
+
+  // ヘッダーのクイックボタンは、実行中でなく既にポップオーバーが開いている場合は
+  // (=前回の結果を表示したまま)閉じるだけのトグルにする。
+  offlineCacheQuickBtn.addEventListener('click', () => {
+    if (!offlineCachingInProgress && !offlineCachePopover.hidden) {
+      offlineCachePopover.hidden = true;
+      return;
+    }
+    offlineCachePopover.hidden = false;
+    if (offlineCachingInProgress) return;
+    runOfflineCache((text) => {
+      offlineCachePopoverStatus.textContent = text;
+    });
+  });
+
+  document.addEventListener('click', (e) => {
+    if (offlineCachePopover.hidden) return;
+    if (offlineCacheQuick.contains(e.target)) return;
+    offlineCachePopover.hidden = true;
   });
 
   function closeSettings() {
