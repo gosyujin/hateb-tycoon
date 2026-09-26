@@ -779,6 +779,13 @@ main {
   .visited-toggle {
     font-size: 0.7rem;
   }
+  /* list-controls(既読トグル・並び替え・plain/rich切替)はflex-shrink:0の
+     ままだと縮まずページ全体が横スクロールしてしまうため、この幅では
+     縮小・折り返しを許可して2行目に回す。 */
+  .list-controls {
+    flex-shrink: 1;
+    min-width: 0;
+  }
 
   /* .rule-form(種別セレクト・値入力・追加ボタン)はflexのままだと各要素が
      最小幅より縮まずスマホ幅を超えてはみ出すため、セレクトを1行目、
