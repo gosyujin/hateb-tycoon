@@ -7,6 +7,7 @@
   const listStatus = document.getElementById('list-status');
   const sortSelect = document.getElementById('sort-select');
   const hideVisitedCheckbox = document.getElementById('hide-visited-checkbox');
+  const listLayoutToggle = document.getElementById('list-layout-toggle');
 
   const entryBack = document.getElementById('entry-back');
   const entryBackBottom = document.getElementById('entry-back-bottom');
@@ -54,6 +55,43 @@
   let scrollObserver = null;
   let currentSortMode = 'hatenaDate';
   let hideVisited = false; // デフォルトは非表示にしない(チェックなし)
+
+  // 一覧ページの表示方法(plain/rich)。ブックマークページのコメント表示の
+  // plain/rich(COMMENT_LAYOUT_KEY)とは別軸の設定のため、独立したキーで保存する。
+  const LIST_LAYOUT_KEY = 'hateb-tycoon:listLayout';
+  let listLayout = loadListLayout();
+  let listRoot = entryGrid; // rich時はentryGrid自身、plain時はentryGrid内の<ul>
+
+  function loadListLayout() {
+    try {
+      return localStorage.getItem(LIST_LAYOUT_KEY) === 'plain' ? 'plain' : 'rich';
+    } catch (e) {
+      return 'rich';
+    }
+  }
+
+  function saveListLayout(mode) {
+    try {
+      localStorage.setItem(LIST_LAYOUT_KEY, mode);
+    } catch (e) {
+      // localStorageが使えない環境では記憶をあきらめる
+    }
+  }
+
+  function updateListLayoutToggleUI() {
+    listLayoutToggle.querySelectorAll('button[data-layout]').forEach((btn) => {
+      btn.classList.toggle('active', btn.dataset.layout === listLayout);
+    });
+  }
+
+  listLayoutToggle.addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-layout]');
+    if (!btn || btn.dataset.layout === listLayout) return;
+    listLayout = btn.dataset.layout;
+    saveListLayout(listLayout);
+    updateListLayoutToggleUI();
+    updateListView();
+  });
 
   // ヘッダーの検索欄。検索結果画面には遷移せず、その場で絞り込むだけ。
   // 一覧ページ: タイトル・ドメイン / ブックマークページ: ユーザーid・コメント本文が対象。
@@ -103,7 +141,7 @@
   // hatenaDateはUTC(...Z)で保存されているため、単純にslice(0,10)すると日本時間の
   // 日付とズレることがある(例: 深夜のUTC時刻は翌日扱いになるべきなのに前日と表示される)。
   // +9時間してからUTC表記の各要素を取り出すことでJST基準の日時にする。
-  function hatenaDateTime(iso) {
+  function hatenaDateTime(iso, withSeconds) {
     const d = new Date(iso);
     if (isNaN(d.getTime())) return '';
     const jst = new Date(d.getTime() + 9 * 60 * 60 * 1000);
@@ -112,7 +150,9 @@
     const da = jst.getUTCDate();
     const h = jst.getUTCHours();
     const mi = String(jst.getUTCMinutes()).padStart(2, '0');
-    return `${y}/${mo}/${da} ${h}:${mi}`;
+    if (!withSeconds) return `${y}/${mo}/${da} ${h}:${mi}`;
+    const s = String(jst.getUTCSeconds()).padStart(2, '0');
+    return `${y}/${mo}/${da} ${h}:${mi}:${s}`;
   }
 
   function escapeHtml(str) {
@@ -342,7 +382,7 @@
     if (sentinel) {
       sentinel.insertAdjacentHTML('beforebegin', html);
     } else {
-      entryGrid.insertAdjacentHTML('beforeend', html);
+      listRoot.insertAdjacentHTML('beforeend', html);
     }
     renderedCount += nextItems.length;
 
@@ -358,16 +398,31 @@
     const remaining = currentVisibleEntries.slice(renderedCount);
     if (remaining.length === 0) return;
     const html = remaining.map((item) => renderEntryCard(item)).join('');
-    entryGrid.insertAdjacentHTML('beforeend', html);
+    listRoot.insertAdjacentHTML('beforeend', html);
     renderedCount = currentVisibleEntries.length;
+  }
+
+  // plain表示は<ul>の子として<li>を並べる必要があるため、entryGrid直下に
+  // <ul>を1つ挟み、以降の描画はそちら(listRoot)を対象にする。rich表示では
+  // 従来通りentryGrid自身に<article>を並べる。
+  function setupEntryGridLayout() {
+    entryGrid.classList.toggle('entry-grid--plain', listLayout === 'plain');
+    if (listLayout === 'plain') {
+      entryGrid.innerHTML = '<ul class="entry-list-plain"></ul>';
+      listRoot = entryGrid.querySelector('.entry-list-plain');
+    } else {
+      entryGrid.innerHTML = '';
+      listRoot = entryGrid;
+    }
   }
 
   function setupScrollObserver() {
     disconnectScrollObserver();
     if (renderedCount >= currentVisibleEntries.length) return;
-    const sentinel = document.createElement('div');
+    // plain表示ではlistRootが<ul>のため、監視対象も<li>でなければならない。
+    const sentinel = document.createElement(listLayout === 'plain' ? 'li' : 'div');
     sentinel.id = 'scroll-sentinel';
-    entryGrid.appendChild(sentinel);
+    listRoot.appendChild(sentinel);
     scrollObserver = new IntersectionObserver(
       (observerEntries) => {
         if (observerEntries.some((e) => e.isIntersecting)) {
@@ -406,7 +461,7 @@
   function updateListView(restoreScrollY) {
     if (!hasLoadedList) return;
     disconnectScrollObserver();
-    entryGrid.innerHTML = '';
+    setupEntryGridLayout();
     renderedCount = 0;
 
     let working = baseEntries;
@@ -476,6 +531,10 @@
   }
 
   function renderEntryCard(item) {
+    return listLayout === 'plain' ? renderEntryCardPlain(item) : renderEntryCardRich(item);
+  }
+
+  function renderEntryCardRich(item) {
     const params = new URLSearchParams();
     params.set('url', item.url);
     const href = `#/entry?${params.toString()}`;
@@ -505,6 +564,28 @@
           <a class="card-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
         </div>
       </article>`;
+  }
+
+  // plain表示: 1記事1行(<li>)で「× 時刻 ドメイン タイトル N users →」の順に並べる。
+  // ×・ドメインボタンはrich版のcard-close-btn/card-domainと同じクラスを付けて
+  // 既存のentryGridクリック委譲(ミュート登録・フィルタ設定オープン)をそのまま使う。
+  function renderEntryCardPlain(item) {
+    const params = new URLSearchParams();
+    params.set('url', item.url);
+    const href = `#/entry?${params.toString()}`;
+    const time = item.hatenaDate ? escapeHtml(hatenaDateTime(item.hatenaDate, true)) : '';
+    const visitedClass = Visited.isStillRead(item) ? ' card--visited' : '';
+    const noComment = Visited.hasNoComments(item.url);
+    const noCommentClass = noComment ? ' card-count-link--no-comment' : '';
+    const countTitle = noComment ? ' title="前回訪問時、コメント付きブックマークがありませんでした"' : '';
+    return `
+      <li class="entry-row${visitedClass}">
+        <button type="button" class="card-close-btn entry-row-close" data-url="${escapeHtml(item.url)}" title="このページを非表示にする" aria-label="このページを非表示にする">×</button>
+        <span class="entry-row-time">${time}</span>
+        <button type="button" class="card-domain entry-row-domain" data-domain="${escapeHtml(item.domain)}">${escapeHtml(item.domain)}</button>
+        <a class="entry-row-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
+        <a class="card-count-link entry-row-count${countTierClass(item.count)}${noCommentClass}" href="${href}"${countTitle}>${item.count} users →</a>
+      </li>`;
   }
 
   // ---- 個別エントリー(コメント一覧)ビュー ----
@@ -1144,6 +1225,7 @@
   }
 
   // ---- 初期化 ----
+  updateListLayoutToggleUI();
   renderFooter();
   render();
 })();
