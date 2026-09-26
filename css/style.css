@@ -386,13 +386,22 @@ main {
   line-height: 18px;
   font-size: 0.85rem;
 }
+/* 時刻・ドメインを固定幅にして、記事によって桁数が変わってもタイトルの
+   開始位置(縦軸)が揃うようにする。ドメインは幅を超えた分を省略記号で切る。 */
 .entry-row-time {
-  flex-shrink: 0;
+  flex: 0 0 auto;
+  width: 10em;
+  overflow: hidden;
   color: var(--color-muted);
   white-space: nowrap;
 }
 .card-domain.entry-row-domain {
-  flex-shrink: 0;
+  flex: 0 0 auto;
+  width: 7em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
 }
 .entry-row-title {
   flex: 1 1 160px;
