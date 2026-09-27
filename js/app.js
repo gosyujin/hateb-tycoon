@@ -522,7 +522,7 @@
     let working = baseEntries;
     let hiddenByVisitedCount = 0;
     if (hideVisited) {
-      const filtered = working.filter((item) => !Visited.isStillRead(item));
+      const filtered = working.filter((item) => Visited.getReadState(item) !== 'read');
       hiddenByVisitedCount = working.length - filtered.length;
       working = filtered;
     }
@@ -599,13 +599,20 @@
     const firstSeen = item.hatenaDate
       ? `<span class="card-first-seen">更新 ${escapeHtml(hatenaDateTime(item.hatenaDate))}</span>`
       : '<span></span>';
-    const visitedClass = Visited.isStillRead(item) ? ' card--visited' : '';
+    const readState = Visited.getReadState(item);
+    const visitedClass = readState === 'read' ? ' card--visited' : '';
     // 既読グレーアウト(grayscale+brightness)はカード全体にかかるため、色や太さだけの
     // 違いは既読カード上でほぼ判別できなくなる。そのため「N users →」全体に取り消し線を
     // 引いて、グレースケール化されても形状で読み取れる違いにする。
     const noComment = Visited.hasNoComments(item.url);
     const noCommentClass = noComment ? ' card-count-link--no-comment' : '';
     const countTitle = noComment ? ' title="前回訪問時、コメント付きブックマークがありませんでした"' : '';
+    // 既読済みだがブックマーク数が閾値以上増えた記事は、グレーアウトは外して
+    // 未読と同様に目立たせつつ、バッジで「既読済みだった」ことを示す。
+    const updatedBadge =
+      readState === 'updated'
+        ? '<span class="card-badge-updated" title="既読ですが、ブックマーク数が増えました">既読+更新</span>'
+        : '';
     return `
       <article class="card${visitedClass}">
         <button type="button" class="card-close-btn" data-url="${escapeHtml(item.url)}" title="このページを非表示にする" aria-label="このページを非表示にする">×</button>
@@ -613,7 +620,10 @@
         <div class="card-body">
           <div class="card-top-row">
             ${firstSeen}
-            <a class="card-count-link${countTierClass(item.count)}${noCommentClass}" href="${href}"${countTitle}>${item.count} users →</a>
+            <span class="card-top-right">
+              ${updatedBadge}
+              <a class="card-count-link${countTierClass(item.count)}${noCommentClass}" href="${href}"${countTitle}>${item.count} users →</a>
+            </span>
           </div>
           <button type="button" class="card-domain" data-domain="${escapeHtml(item.domain)}">${escapeHtml(item.domain)}</button>
           <a class="card-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
@@ -629,16 +639,24 @@
     params.set('url', item.url);
     const href = `#/entry?${params.toString()}`;
     const time = item.hatenaDate ? escapeHtml(hatenaDateTime(item.hatenaDate, true)) : '';
-    const visitedClass = Visited.isStillRead(item) ? ' card--visited' : '';
+    const readState = Visited.getReadState(item);
+    const visitedClass = readState === 'read' ? ' card--visited' : '';
     const noComment = Visited.hasNoComments(item.url);
     const noCommentClass = noComment ? ' card-count-link--no-comment' : '';
     const countTitle = noComment ? ' title="前回訪問時、コメント付きブックマークがありませんでした"' : '';
+    // 時刻・ドメイン列は幅固定でタイトル開始位置を揃えているため、バッジは
+    // タイトルの後(カウント列の前)に置いてその揃えを崩さないようにする。
+    const updatedBadge =
+      readState === 'updated'
+        ? '<span class="card-badge-updated" title="既読ですが、ブックマーク数が増えました">既読+更新</span>'
+        : '';
     return `
       <li class="entry-row${visitedClass}">
         <button type="button" class="card-close-btn entry-row-close" data-url="${escapeHtml(item.url)}" title="このページを非表示にする" aria-label="このページを非表示にする">×</button>
         <span class="entry-row-time">${time}</span>
         <button type="button" class="card-domain entry-row-domain" data-domain="${escapeHtml(item.domain)}">${escapeHtml(item.domain)}</button>
         <a class="entry-row-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
+        ${updatedBadge}
         <a class="card-count-link entry-row-count${countTierClass(item.count)}${noCommentClass}" href="${href}"${countTitle}>${item.count} users →</a>
       </li>`;
   }
@@ -1257,7 +1275,7 @@
   }
 
   function goToFirstUnread() {
-    const target = currentVisibleEntries.find((item) => !Visited.isStillRead(item));
+    const target = currentVisibleEntries.find((item) => Visited.getReadState(item) !== 'read');
     if (!target) return false;
     const params = new URLSearchParams();
     params.set('url', target.url);

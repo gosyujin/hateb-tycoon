@@ -330,6 +330,25 @@ main {
   white-space: nowrap;
 }
 
+.card-top-right {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+/* 既読済みだがブックマーク数が閾値以上増えた記事に付けるバッジ。
+   グレーアウトはしない(未読同様に目立たせる)ので、色で「既読済み」を示す。 */
+.card-badge-updated {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: rgba(0, 164, 222, 0.15);
+  color: var(--color-accent-dark);
+  font-size: 0.72rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
 .card-count-link {
   white-space: nowrap;
   flex-shrink: 0;

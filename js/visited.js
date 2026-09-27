@@ -2,9 +2,10 @@
  * 「コメントページを開いたか(既読)」を localStorage に記録するモジュール。
  *
  * 既読にした時点のブックマーク数も一緒に記録し、その後ブックマーク数が
- * 閾値以上増えた記事は「実質的には未読(再度見たい)」とみなして、
- * グレーアウトや既読非表示の対象から外す。閾値は 件数(絶対数) または
- * パーセント(既読時からの増加率)のどちらかで設定できる。
+ * 閾値以上増えた記事は「既読済みだが更新があった(updated)」状態として、
+ * グレーアウトや既読非表示の対象からは外しつつ、未訪問の未読(unread)とは
+ * 区別できるようにする。閾値は 件数(絶対数) または パーセント(既読時から
+ * の増加率)のどちらかで設定できる。
  */
 (function (global) {
   const STORAGE_KEY = 'hateb-tycoon:visited';
@@ -71,26 +72,32 @@
     }
   }
 
-  // 既読時から現在までのブックマーク数の増加が閾値未満なら「まだ既読のまま」
-  // とみなす(true)。閾値以上増えていれば実質未読扱い(false)。
-  // 既読記録が無ければ最初から未読なので false。
-  function isStillRead(item) {
-    if (!item || !item.url) return false;
+  // 既読状態を3種類で判定する。
+  // - 'unread': 未訪問(既読記録が無い)
+  // - 'read': 既読で、既読時からのブックマーク数増加が閾値未満(そのまま既読表示)
+  // - 'updated': 既読時からブックマーク数が閾値以上増えた。見た目は未読同様に
+  //   グレーアウトを外して目立たせつつ、既読済みだったことは別途示す。
+  function getReadState(item) {
+    if (!item || !item.url) return 'unread';
     const rec = load()[item.url];
-    if (!rec) return false;
+    if (!rec) return 'unread';
 
     const prevCount = typeof rec.count === 'number' ? rec.count : 0;
     const currentCount = typeof item.count === 'number' ? item.count : 0;
     const increase = currentCount - prevCount;
-    if (increase <= 0) return true;
+    if (increase <= 0) return 'read';
 
     const threshold = loadThreshold();
+    let overThreshold;
     if (threshold.type === 'count') {
-      return increase < threshold.value;
+      overThreshold = increase >= threshold.value;
+    } else if (prevCount <= 0) {
+      // percent: 既読時が0件なら、少しでも増えたら閾値超えとみなす
+      overThreshold = true;
+    } else {
+      overThreshold = (increase / prevCount) * 100 >= threshold.value;
     }
-    // percent: 既読時が0件なら、少しでも増えたら再表示扱いにする
-    if (prevCount <= 0) return false;
-    return (increase / prevCount) * 100 < threshold.value;
+    return overThreshold ? 'updated' : 'read';
   }
 
   // 前回訪問時、コメント付きブックマークが1件も無かった(=コメントが無いか、
@@ -102,5 +109,5 @@
     return !!rec && rec.hasComments === false;
   }
 
-  global.Visited = { markVisited, loadThreshold, saveThreshold, isStillRead, hasNoComments };
+  global.Visited = { markVisited, loadThreshold, saveThreshold, getReadState, hasNoComments };
 })(window);
