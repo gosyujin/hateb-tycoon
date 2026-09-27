@@ -279,25 +279,42 @@
   // 反映されないことがあるため、Service Workerを一旦unregisterしCache
   // Storageも消してから再読み込みし、この1回の読み込みをSWが一切介在
   // しない素のネットワーク取得にする(SWは読み込み後にapp.js側で自動的に
-  // 再登録される)。
+  // 再登録される)。ただし機内モード等オフライン時にこれをやると、
+  // SW/キャッシュというオフライン用の逃げ場を再読み込み前に消してしまい、
+  // アプリ自体が真っ白になって復旧できなくなる。そのため実際にネットワーク
+  // から新しいデータが取れるか確認できた場合のみSW/キャッシュを破棄し、
+  // 取れない場合は何も壊さず普通に再読み込みするだけにして、既存の
+  // Service Workerのオフラインフォールバックに任せる。
   appTitleLink.addEventListener('click', (e) => {
     if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
     e.preventDefault();
     forceReloadFromTop();
   });
 
-  async function forceReloadFromTop() {
+  async function canReachNetwork() {
+    if (!navigator.onLine) return false;
     try {
-      if ('serviceWorker' in navigator) {
-        const registrations = await navigator.serviceWorker.getRegistrations();
-        await Promise.all(registrations.map((r) => r.unregister()));
-      }
-      if ('caches' in window) {
-        const keys = await caches.keys();
-        await Promise.all(keys.map((key) => caches.delete(key)));
-      }
+      const res = await fetch('data/meta.json', { cache: 'no-store' });
+      return !!(res && res.ok);
     } catch (err) {
-      // 消せなくても再読み込み自体は続行する(消えていなければ従来のnetworkFirstが効く)
+      return false;
+    }
+  }
+
+  async function forceReloadFromTop() {
+    if (await canReachNetwork()) {
+      try {
+        if ('serviceWorker' in navigator) {
+          const registrations = await navigator.serviceWorker.getRegistrations();
+          await Promise.all(registrations.map((r) => r.unregister()));
+        }
+        if ('caches' in window) {
+          const keys = await caches.keys();
+          await Promise.all(keys.map((key) => caches.delete(key)));
+        }
+      } catch (err) {
+        // 消せなくても再読み込み自体は続行する(消えていなければ従来のnetworkFirstが効く)
+      }
     }
     if (location.hash !== '#/') {
       location.hash = '/';
