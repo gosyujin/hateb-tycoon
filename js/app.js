@@ -274,15 +274,36 @@
 
   // ヘッダーの「hateb-tycoon」リンクは「一覧に戻る」(現在のカテゴリー・
   // スクロール位置を維持したまま戻る)とは役割を分け、常にトップから
-  // 開き直す(SPA内遷移ではなくページ再読み込み)ボタンとして扱う。
+  // 開き直す用途にする。単純なlocation.reload()だとService Workerの
+  // networkFirstが機能していてもホーム画面追加時のPWAでは反映が遅れる/
+  // 反映されないことがあるため、Service Workerを一旦unregisterしCache
+  // Storageも消してから再読み込みし、この1回の読み込みをSWが一切介在
+  // しない素のネットワーク取得にする(SWは読み込み後にapp.js側で自動的に
+  // 再登録される)。
   appTitleLink.addEventListener('click', (e) => {
     if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
     e.preventDefault();
+    forceReloadFromTop();
+  });
+
+  async function forceReloadFromTop() {
+    try {
+      if ('serviceWorker' in navigator) {
+        const registrations = await navigator.serviceWorker.getRegistrations();
+        await Promise.all(registrations.map((r) => r.unregister()));
+      }
+      if ('caches' in window) {
+        const keys = await caches.keys();
+        await Promise.all(keys.map((key) => caches.delete(key)));
+      }
+    } catch (err) {
+      // 消せなくても再読み込み自体は続行する(消えていなければ従来のnetworkFirstが効く)
+    }
     if (location.hash !== '#/') {
       location.hash = '/';
     }
     location.reload();
-  });
+  }
 
   // ページ遷移のたびに検索欄をリセットする(前の画面の絞り込みを引き継がない)。
   function resetHeaderSearch(isEntry) {
