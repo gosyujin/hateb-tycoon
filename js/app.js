@@ -9,6 +9,7 @@
   const hideVisitedCheckbox = document.getElementById('hide-visited-checkbox');
   const listLayoutToggle = document.getElementById('list-layout-toggle');
 
+  const appTitleLink = document.getElementById('app-title-link');
   const entryBack = document.getElementById('entry-back');
   const entryBackBottom = document.getElementById('entry-back-bottom');
   const entryFilterBtn = document.getElementById('entry-filter-btn');
@@ -270,6 +271,18 @@
   }
 
   window.addEventListener('hashchange', render);
+
+  // ヘッダーの「hateb-tycoon」リンクは「一覧に戻る」(現在のカテゴリー・
+  // スクロール位置を維持したまま戻る)とは役割を分け、常にトップから
+  // 開き直す(SPA内遷移ではなくページ再読み込み)ボタンとして扱う。
+  appTitleLink.addEventListener('click', (e) => {
+    if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    e.preventDefault();
+    if (location.hash !== '#/') {
+      location.hash = '/';
+    }
+    location.reload();
+  });
 
   // ページ遷移のたびに検索欄をリセットする(前の画面の絞り込みを引き継がない)。
   function resetHeaderSearch(isEntry) {
