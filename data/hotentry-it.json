@@ -1,68 +1,81 @@
 [
   {
+    "title": "Excel、40年続く原則を変更へ　1個のセルで複数の値を扱う新機能",
+    "url": "https://www.itmedia.co.jp/news/article/2609/28/2000001820/",
+    "domain": "www.itmedia.co.jp",
+    "count": 10,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/28/2000001820/",
+    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/28/2000001820/10007766/2048",
+    "description": "米Microsoftは9月24日（現地時間）、表計算ソフト「Excel」で、1つのセルに複数のデータを入力し、それぞれを絞り込みや計算に使える新機能「Lists」を発表した。Windows版とMac版の一部ユーザー向けに、プレビュー版として順次提供する。同社は、40年続いた「1セルに1つの値」という仕組みを変える機能とうたう。 同機...",
+    "hatenaDate": "2026-09-28T10:20:41Z",
+    "users": [],
+    "firstSeenAt": "2026-09-29T06:45:13.645409+09:00",
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
+  },
+  {
     "title": "Codexを使うなら、/goalとサイドチャットを押さえておきたい - じゃあ、おうちで学べる",
     "url": "https://syu-m-5151.hatenablog.com/entry/2026/09/27/120017",
     "domain": "syu-m-5151.hatenablog.com",
-    "count": 6,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/syu-m-5151.hatenablog.com/entry/2026/09/27/120017",
     "screenshot": "https://ogimage.blog.st-hatena.com/8454420450094081900/14945776032082941875/1790478405",
     "description": "はじめに Codexが修正している途中で、「なぜ、その判定を変えるのか」と聞きたくなることがあります。理由を知りたいだけなのか、その変更を止めてほしいのか。途中で送る一文にも、別の目的があります。 長い仕事を続ける /goal、途中の質問を分ける /side、実行中の指示変更と予約送信。それぞれ、作業を続ける条件、...",
     "hatenaDate": "2026-09-27T07:55:43Z",
     "users": [],
     "firstSeenAt": "2026-09-29T06:30:12.885843+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
     "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
     "domain": "blog.cloudflare.com",
-    "count": 11,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.cloudflare.com/cloudflare-cf-cli-launch/",
     "screenshot": "https://blog.cloudflare.com/_emdash/api/media/file/01M3KR59T13YTXBHQW0ZAX7MBG.01M3KR5AZTG3VJ8REJ9047KYC4.png",
     "description": "September 28, 2026Introducing cf: the agentic CLI for the entire Cloudflare API Over the last year, agent use of Wrangler has skyrocketed. In March 2026, agents were responsible for a quarter of Wrangler use, up from single-digit percentages the year prior. Last week, agent usage reached 48%. Age...",
     "hatenaDate": "2026-09-28T16:16:09Z",
     "users": [],
     "firstSeenAt": "2026-09-29T05:15:13.445534+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "GitHub - docker/skills: A collection of Docker skills for AI coding agents to help them build, test, debug, and optimize containerized apps with consistent, reusable workflows.",
     "url": "https://github.com/docker/skills",
     "domain": "github.com",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/docker/skills",
     "screenshot": "https://opengraph.githubassets.com/3fafe3781837e47eb1c92ef3aa49257ae947c7aee56d17314b7464a4ea92d7db/docker/skills",
     "description": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
     "hatenaDate": "2026-09-26T10:20:51Z",
     "users": [],
     "firstSeenAt": "2026-09-29T05:00:14.799941+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "3人で1000GPU超を統合運用する？マルチクラウド＆オンプレを跨ぐ、構築と運用のリアル！",
     "url": "https://speakerdeck.com/kazukun0716/3-hito-de-1000gpu-chou-o-tougou-unyou-suru-o-matagu-kouchiku-to-unyou-no-riaru",
     "domain": "speakerdeck.com",
-    "count": 4,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/kazukun0716/3-hito-de-1000gpu-chou-o-tougou-unyou-suru-o-matagu-kouchiku-to-unyou-no-riaru",
     "screenshot": "https://files.speakerdeck.com/presentations/b1bf05fbab854b668dda242f8697bed5/slide_0.jpg?40687126",
     "description": "Turingでは、完全自動運転AIの開発を支える1,000基超のGPU学習基盤を、少人数のインフラチームで運用しています。対象は、オンプレミスのGC1、国内IaaSのGMO クラウド、AWS、Google Cloudの4環境です。チームはCFP提出時の3人から現在は4人になりましたが、基盤の拡大や障害対…",
     "hatenaDate": "2026-09-28T08:31:36Z",
     "users": [],
     "firstSeenAt": "2026-09-29T04:30:15.907386+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "MySQLクライアントをTrilogyへ移行しました - inSmartBank",
     "url": "https://blog.smartbank.co.jp/entry/mysql2-to-trilogy",
     "domain": "blog.smartbank.co.jp",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.smartbank.co.jp/entry/mysql2-to-trilogy",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/7b13b90e090845ba7b201f687314ed313868d7f3/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fsmartbank%2F20260928%2F20260928115106.png",
     "description": "こんにちはスマートバンクでプロダクトエンジニアをしているyuhi(@yuhi_junior)です。 先日Reliability委員会（委員会制度について）の活動としてMySQLクライアントを mysql2 から Trilogy へ移行しました。Rails 7.1公開時に話題となったものの、実際の移行知見が少ないと感じたので今回筆を執りました。 本記事ではTri...",
     "hatenaDate": "2026-09-28T12:08:03Z",
     "users": [],
     "firstSeenAt": "2026-09-29T04:30:15.907386+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "開発者とSREが同じ仕組みを使う、ローカルに閉じない自律AIエージェントのつくり方 | ドクセル",
@@ -75,20 +88,20 @@
     "hatenaDate": "2026-09-28T05:28:56Z",
     "users": [],
     "firstSeenAt": "2026-09-29T04:30:15.907386+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "UIの本に「長押しの機能はユーザが気づきにくいよ」って書いてあって、ふ～んって思いながら部屋の照明のボタン長押ししたら、白からオレンジになった「お前もかよ」",
     "url": "https://togetter.com/li/2751548",
     "domain": "togetter.com",
-    "count": 8,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2751548",
     "screenshot": "https://s.tgstc.com/ogp3/1a8f48f6e0970a1bb88bfb3fac951fcb-1200x630.jpeg",
     "description": "なたもた★ @NatamottaNaatan @Athi_t5k9 一部のシーリングライトは、on→off(1秒弱)→onで常夜灯になったりするけど、意外と知られてなかったりしますね。 雷などの瞬停で切り替わらないようになのか、少し長めにoffにする必要があったりで、狙ってやらないと気付かない 2026-09-28 17:36:23",
     "hatenaDate": "2026-09-28T12:35:36Z",
     "users": [],
     "firstSeenAt": "2026-09-29T04:15:14.911741+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "「ヤバすぎんか？」タイムズカーが最大660万件の個人情報を流出、パスワードは復元できないらしいが、退会済みのアカウント情報まで盗まれてしまった模様",
@@ -101,7 +114,7 @@
     "hatenaDate": "2026-09-28T13:28:05Z",
     "users": [],
     "firstSeenAt": "2026-09-29T04:00:18.056243+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "EmDash 1.0: the stable CMS with a secure plugin registry",
@@ -114,59 +127,59 @@
     "hatenaDate": "2026-09-28T14:04:54Z",
     "users": [],
     "firstSeenAt": "2026-09-29T03:15:14.197661+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "日本郵便とKDDI、石川県珠洲市の郵便局にドローンポート設置 AIドローンの社会実装に向けて実証をスタート",
     "url": "https://ai.watch.impress.co.jp/docs/news/2143635.html",
     "domain": "ai.watch.impress.co.jp",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ai.watch.impress.co.jp/docs/news/2143635.html",
     "screenshot": "https://ai.watch.impress.co.jp/img/aiw/list/2143/635/01.jpg",
     "description": null,
     "hatenaDate": "2026-09-28T03:49:10Z",
     "users": [],
     "firstSeenAt": "2026-09-29T01:45:48.707126+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "Yahoo!きっずサービス終了のお知らせ - Yahoo!きっずからのお知らせ - Yahoo!きっず",
     "url": "https://kids.yahoo.co.jp/info/archives/20260928_1.html",
     "domain": "kids.yahoo.co.jp",
-    "count": 64,
+    "count": 71,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kids.yahoo.co.jp/info/archives/20260928_1.html",
     "screenshot": "https://s.yimg.jp/i/kids/topic/tool/common/img/ogp.png",
     "description": "みんなへ Yahoo!きっずは、2026年12月4日にサービスを終了します。 びっくりした人や、さみしいなと思った人もいるかもしれません。 Yahoo!きっずは、27年間、みんなの「知りたい！」を応援してきました。 調べものをしたり、ゲームで遊んだり、タイピングに挑戦したり。 みんなと過ごした時間は、Yahoo!きっずにとって...",
     "hatenaDate": "2026-09-28T14:44:53Z",
     "users": [],
     "firstSeenAt": "2026-09-29T00:30:23.027391+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "墨消しが得意な無料PDF編集ソフト「PDF MARIN」、国会図書館の縦書きAI-OCRでテキスト起こしも強化／写真やスキャンの表を「Excel」へ書き出し、印鑑機能も改善",
     "url": "https://forest.watch.impress.co.jp/docs/news/2143764.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 16,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2143764.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2143/764/pdf_marin.jpg",
     "description": null,
     "hatenaDate": "2026-09-28T07:48:20Z",
     "users": [],
     "firstSeenAt": "2026-09-29T00:30:23.027391+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "GitHub - akkie76/code-review-skills: Evidence-based code review skills for Codex and Claude Code",
     "url": "https://github.com/akkie76/code-review-skills",
     "domain": "github.com",
-    "count": 18,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/akkie76/code-review-skills",
     "screenshot": "https://opengraph.githubassets.com/742fd312f3793403d2288340b33d740027c1d31472fea510f935e154f512e488/akkie76/code-review-skills",
     "description": "日本語 Code Review Skills is an evidence-driven code-review workflow for AI coding agents. It helps Codex and Claude Code find actionable defects while avoiding style-only comments and unsupported speculation. Beta: The review methodology and packaging are under evaluation. Expect changes before ...",
     "hatenaDate": "2026-09-28T05:54:55Z",
     "users": [],
     "firstSeenAt": "2026-09-29T00:15:14.755846+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "primeNumberを退職し(て)ました | tk3fftk.dev",
@@ -179,7 +192,7 @@
     "hatenaDate": "2026-09-28T13:16:33Z",
     "users": [],
     "firstSeenAt": "2026-09-28T23:30:16.744682+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "OpenAIが「最も高性能なAIモデル」の学習を一時停止、AIエージェントの挙動を大規模調査中",
@@ -198,14 +211,14 @@
     "title": "我々はAI認知負債を増やしつつある - だからこそ、学習を再設計しなくてはならない - arclamp",
     "url": "https://arclamp.hatenablog.com/entry/2026/09/28/093718",
     "domain": "arclamp.hatenablog.com",
-    "count": 14,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/arclamp.hatenablog.com/entry/2026/09/28/093718",
     "screenshot": "https://ogimage.blog.st-hatena.com/12704346814673873149/14945776032081759249/1790556265",
     "description": "AIを使えば、これまで自分で考えていたことの多くを、短い時間で進められるようになります。 一方で、自分で考え、試し、間違え、直す機会は減っていきます。仕事は速くなっても、その仕事を通じて身につけていた力まで失っているかもしれません。 AIを使うこと自体が問題なのではありません。問題は、AIに任せることで...",
     "hatenaDate": "2026-09-28T05:02:08Z",
     "users": [],
     "firstSeenAt": "2026-09-28T23:15:18.678470+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "Evolving programming languages in the AI era - Dashbit Blog",
@@ -231,20 +244,20 @@
     "hatenaDate": "2026-09-28T06:39:20Z",
     "users": [],
     "firstSeenAt": "2026-09-28T22:45:15.056406+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "富士通が脱人月モデルへ　CROが説く「AI時代のバリュープライシングへの転換」とは",
     "url": "https://www.itmedia.co.jp/enterprise/articles/2609/28/news080.html",
     "domain": "www.itmedia.co.jp",
-    "count": 14,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/enterprise/articles/2609/28/news080.html",
     "screenshot": "https://image.itmedia.co.jp/enterprise/articles/2609/28/cover_news080.jpg",
     "description": "DX（デジタルトランスフォーメーション）、さらにはAX（AIトランスフォーメーション）が進むにつれ、ITベンダーがITサービスをユーザーに提供する料金形態において、従来の人月計算から提供価値をプライシングする形への移行に迫られている。こうした中、富士通が自らの取り組みについて明らかにした。その内容がベンダ...",
     "hatenaDate": "2026-09-28T05:29:04Z",
     "users": [],
     "firstSeenAt": "2026-09-28T22:45:15.056406+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "全社員がAIを「使う」の次へ　ーノンエンジニア1,500人が安全に業務を作り変えるゴールデンパスとガードレール",
@@ -257,7 +270,7 @@
     "hatenaDate": "2026-09-26T09:17:07Z",
     "users": [],
     "firstSeenAt": "2026-09-28T22:30:16.423322+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "昔の「ビデオCD」がWindowsのエクスプローラーを破壊するという報告",
@@ -270,7 +283,7 @@
     "hatenaDate": "2026-09-28T12:42:47Z",
     "users": [],
     "firstSeenAt": "2026-09-28T22:30:16.423322+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "GitHubに「悪質な模倣ソフト」を通報しても3週間以上放置されたがネットで話題になると10分で削除されたとの報告",
@@ -283,7 +296,7 @@
     "hatenaDate": "2026-09-28T11:15:39Z",
     "users": [],
     "firstSeenAt": "2026-09-28T22:30:16.423322+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "無料でマンガ・電子書籍・PDFファイル・オーディオブックをマルチユーザーで共有しKobo双方向同期・Kindleメール送信などの連携もできる「BookOrbit」、オープンソースでセルフホスト可能",
@@ -354,14 +367,14 @@
     "title": "オムロン、祖業を売却　電子部品事業「重い決断」 | NEWSjp",
     "url": "https://news.jp/i/1477171752691761383",
     "domain": "news.jp",
-    "count": 137,
+    "count": 144,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.jp/i/1477171752691761383",
     "screenshot": "https://img.jp.ekkowassets.com/c_fill,w_400,h_210,f_auto,g_faces,q_auto:eco/ch/images/1477210983233111009/origin_1.jpg",
     "description": "オムロンが、祖業の電子部品事業を10月1日付で米投資ファンドに売却する。中国勢の台頭で競争が激化し「大変重い決断だったが、グループとしての企業価値向上のために必要」（辻永順太社長）としている。主力の制御機器事業を中心に、データビジネスと親和性の高い分野に経営資源を集中し収益力を高める。 電子部品事業...",
     "hatenaDate": "2026-09-28T08:11:38Z",
     "users": [],
     "firstSeenAt": "2026-09-28T20:59:28.727319+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "ネット接続禁止のOpenAI製AIが「DNSの抜け道」を発見して外部AIにアクセス、OpenAIは高性能モデルのツール利用を一時停止",
@@ -452,20 +465,20 @@
     "hatenaDate": "2026-09-28T08:40:19Z",
     "users": [],
     "firstSeenAt": "2026-09-28T19:30:13.322251+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "広がる「AIで人類滅亡」論、サム・アルトマン氏が語ったこと--2日後に先端モデルの訓練停止も公表",
     "url": "https://japan.cnet.com/article/35253028/",
     "domain": "japan.cnet.com",
-    "count": 92,
+    "count": 97,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35253028/",
     "screenshot": "https://japan.cnet.com/storage/2026/09/28/b2900978b49c425f967ab43a3dccd18f/0704551a-1389-4368-98fd-521d6099a498.jpeg",
     "description": "OpenAIのサム・アルトマンCEOは米国時間9月23日、国連安全保障理事会で演説し、人間の制御下に置き続けられると強く論証できないAIモデルは「訓練すべきではない」と述べた。破局のリスクを何％と見積もるかは問題ではなく、「どの水準も到底受け入れられない」という。 演説の2日後、OpenAIは最上位モデルの訓練を止め...",
     "hatenaDate": "2026-09-28T05:28:45Z",
     "users": [],
     "firstSeenAt": "2026-09-28T18:15:14.699310+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "Announcing Vite+ 1.0",
@@ -484,14 +497,14 @@
     "title": "「タイムズカーWebサイト」への不正アクセスに関する調査結果および今後の対応について（第2報） | カーシェアリングのタイムズカー",
     "url": "https://share.timescar.jp/news/2026/0928/1815.html",
     "domain": "share.timescar.jp",
-    "count": 158,
+    "count": 161,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/share.timescar.jp/news/2026/0928/1815.html",
     "screenshot": null,
     "description": "2026年9月25日に公表いたしました『「タイムズカーWebサイト」への不正アクセスによる個人情報漏えいの可能性について（第1報）』に関し、その後の調査により現時点で判明している内容をご報告いたします。 第1報はこちら 会員の皆様ならびに関係者の皆様に、多大なるご迷惑とご心配をお掛けしておりますことを、改めて...",
     "hatenaDate": "2026-09-28T07:07:10Z",
     "users": [],
     "firstSeenAt": "2026-09-28T18:00:14.313993+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "「タイムズカー」会員情報約660万件漏えい　運転免許画像など　不正アクセスで",
@@ -504,20 +517,20 @@
     "hatenaDate": "2026-09-28T08:04:36Z",
     "users": [],
     "firstSeenAt": "2026-09-28T17:45:13.947933+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "タイムズカーWebシステムへの不正アクセスに関する調査結果および今後の対応について（第2報）｜パーク２４株式会社",
     "url": "https://www.park24.co.jp/news/2026/09/20260928-1.html",
     "domain": "www.park24.co.jp",
-    "count": 300,
+    "count": 307,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.park24.co.jp/news/2026/09/20260928-1.html",
     "screenshot": null,
     "description": "2026年09月28日 2026年9月25日に公表いたしました「タイムズカーWebサイトへの不正アクセスによる個人情報漏えいの可能性について（第1報）」に関し、その後の調査により現時点で判明している内容をご報告いたします。 ※第1報はこちら 「タイムズカーWebサイトへの不正アクセスによる個人情報漏えいの可能性について（第...",
     "hatenaDate": "2026-09-28T07:35:53Z",
     "users": [],
     "firstSeenAt": "2026-09-28T17:45:13.947933+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "メール配信のノウハウを、AIでHTMLメール作成につなげる。楽楽メールマーケティングのAI機能開発 - RAKUS Developers Blog | ラクス エンジニアブログ",
@@ -647,7 +660,7 @@
     "hatenaDate": "2026-09-28T05:05:11Z",
     "users": [],
     "firstSeenAt": "2026-09-28T15:00:14.494716+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "修羅場日記　退院後･･･ - 新小児科医のつぶやき",
@@ -673,7 +686,7 @@
     "hatenaDate": "2026-09-28T00:09:53Z",
     "users": [],
     "firstSeenAt": "2026-09-28T14:45:12.676610+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "仏文学賞、AI執筆疑いで候補作を除外　ベストセラー小説巡り「盗作か否か」論議",
@@ -855,7 +868,7 @@
     "hatenaDate": "2026-09-28T01:08:53Z",
     "users": [],
     "firstSeenAt": "2026-09-28T11:45:16.240984+09:00",
-    "lastSeenAt": "2026-09-29T06:30:12.885843+09:00"
+    "lastSeenAt": "2026-09-29T06:45:13.645409+09:00"
   },
   {
     "title": "豪州に亡命した元「政治領事」の中国外交官が暴露する「浸透工作の実態」",
@@ -3833,17 +3846,6 @@
     "count": 30,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260924-nvidia-nemotron-3-diarization/",
     "screenshot": "https://i.gzn.jp/img/2026/09/24/nvidia-nemotron-3-diarization/00.png",
-    "users": [],
-    "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T11:15:53.539748+09:00"
-  },
-  {
-    "title": "やっぱりiPhone 18 Proはソニー。カメラ全眼の正体が判明、分解にて - すまほん!!",
-    "url": "https://smhn.info/202609-iphone-18-pro-sony-camera-sensors-teardown",
-    "domain": "smhn.info",
-    "count": 20,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/smhn.info/202609-iphone-18-pro-sony-camera-sensors-teardown",
-    "screenshot": "https://smhn.info/wp-content/uploads/2026/09/capture_20260924_183446_447_33A521.webp",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
     "lastSeenAt": "2026-09-25T11:15:53.539748+09:00"
