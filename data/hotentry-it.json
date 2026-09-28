@@ -1,5 +1,31 @@
 [
   {
+    "title": "実装をなぞるだけの単体テストコードに意味はあるのか？？｜Kyohei - OSS, 外資IT",
+    "url": "https://note.com/kyohei_dev/n/n343bfef69ca1",
+    "domain": "note.com",
+    "count": 11,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/kyohei_dev/n/n343bfef69ca1",
+    "screenshot": "https://assets.st-note.com/production/uploads/images/318389271/rectangle_large_type_2_b08e71da835bce349061f9c749ad8189.jpeg?fit=bounds&quality=85&width=1280",
+    "description": "AIが書いた単体テストでバグが見つかった記憶があまりない。むしろPRを無気力化させている気がする。個人的に最近は重めのE2Eや動作確認の録画の方が好きだ。 これについて、メモがてら残しておく。 USで「ユニットテストを消せ」が広がっている?そうなの?って思ったのでちょっと調べてみた。ただ、自分のコードベースも...",
+    "hatenaDate": "2026-09-28T02:05:38Z",
+    "users": [],
+    "firstSeenAt": "2026-09-28T17:30:14.267191+09:00",
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
+  },
+  {
+    "title": "アラート対応のAI自動化で考える、思考フローの再現とハーネスによる安全設計 - ZOZO TECH BLOG",
+    "url": "https://techblog.zozo.com/entry/alert-auto-response",
+    "domain": "techblog.zozo.com",
+    "count": 7,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/techblog.zozo.com/entry/alert-auto-response",
+    "screenshot": "https://cdn.image.st-hatena.com/image/scale/d8759e16f737a891baee34bbdd0cb823b0a7431d/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fv%2Fvasilyjp%2F20260924%2F20260924162127.png",
+    "description": "はじめに こんにちは。データシステム部・MA推薦ブロックの伊藤（@rabbit_x86）です。私たちのチームでは、ユーザーに最適な配信を届けるために、LINE・Push通知・メールなどのマーケティングオートメーション（MA）に関する推薦システムを開発・運用しています。 本記事では、推薦システムの運用で発生するアラート対応...",
+    "hatenaDate": "2026-09-28T08:04:55Z",
+    "users": [],
+    "firstSeenAt": "2026-09-28T17:30:14.267191+09:00",
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
+  },
+  {
     "title": "OpenAI agents tried to bruteforce a UN website's API fields",
     "url": "https://swarmcha.se/posts/openai-unctad",
     "domain": "swarmcha.se",
@@ -36,7 +62,7 @@
     "hatenaDate": "2026-09-28T02:03:26Z",
     "users": [],
     "firstSeenAt": "2026-09-28T16:30:13.916145+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "Meta、メタバースからの戦略転換 AIグラスと大ヒット「Muse」が狙うもの【西田宗千佳のイマトミライ】",
@@ -49,46 +75,46 @@
     "hatenaDate": "2026-09-27T23:34:47Z",
     "users": [],
     "firstSeenAt": "2026-09-28T16:30:13.916145+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "AI「Jev」が「ポケモン赤」を37時間40分で殿堂入り、費用はわずか約260円だが補助システムが必要で完全自律だとマサラタウンから出られず",
     "url": "https://gigazine.net/news/20260928-jev-pokemon-red/",
     "domain": "gigazine.net",
-    "count": 29,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260928-jev-pokemon-red/",
     "screenshot": "https://i.gzn.jp/img/2026/09/28/jev-pokemon-red/00.png",
     "description": "意思決定AIモデル「Jev」に「ポケットモンスター 赤」をプレイさせる実験が行われ、37時間40分のプレイを経て殿堂入りを果たしました。ゲームクリアまでにJevが下した判断は合計1万6150回で、AIの利用料金は合計1.65ドル(約260円)だったとのことです。 Jev Plays Pokémon Red https://jev-pokemon.vercel.app/ JevはAI企...",
     "hatenaDate": "2026-09-28T05:54:12Z",
     "users": [],
     "firstSeenAt": "2026-09-28T15:45:12.095447+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "Google - 25 年間の感謝を込めて。",
     "url": "https://googlejp25.withgoogle.com/",
     "domain": "googlejp25.withgoogle.com",
-    "count": 16,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/googlejp25.withgoogle.com/",
     "screenshot": "https://www.gstatic.com/marketing-cms/assets/images/48/c9/3086becc4b21bf8d61bc45007d7b/og.webp=n-w1440-h756-fcrop64=1,00000959fffff63f-rw",
     "description": "「日本の​インターネットの​父」と​呼ばれる​先駆者。​1984 年、​日本初の​オープンな​学術ネット​「JUNET」を​設立しデジタルインフラの​礎を​築く。​さらに、​Google が​設立した​産学官連携の​「Japan Cybersecurity Initiative​（JCI）」で​有識者会議の​座長を​務めるなど、​安全な​ネット社会の​実現に​向けて​尽...",
     "hatenaDate": "2026-09-28T02:59:39Z",
     "users": [],
     "firstSeenAt": "2026-09-28T15:15:14.090319+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "よく冷えるが価格は約2億7000万円で重さ約13kg、24金製の特注ミニPCが爆誕",
     "url": "https://gigazine.net/news/20260928-24-carat-gold-mini-pc/",
     "domain": "gigazine.net",
-    "count": 41,
+    "count": 45,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260928-24-carat-gold-mini-pc/",
     "screenshot": "https://i.gzn.jp/img/2026/09/28/24-carat-gold-mini-pc/00.png",
     "description": "フランスのPCメーカーKubbが販売するファンレスミニPC「Kubb Fanless」を24金の無垢材で作った「特注モデル」が製作されました。価格は約170万ドル(約2億6800万円)で、重量は約13kg。もちろん見た目だけではなく、金は一般的なアルミニウムより熱伝導率が高いため、ファンを使わないミニPCにとって冷却性能の向上という...",
     "hatenaDate": "2026-09-28T05:05:11Z",
     "users": [],
     "firstSeenAt": "2026-09-28T15:00:14.494716+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "修羅場日記　退院後･･･ - 新小児科医のつぶやき",
@@ -107,40 +133,40 @@
     "title": "AIが人間のようにゲームをプレイ　話題の「Jev」を試してわかったこと (1/6)",
     "url": "https://ascii.jp/elem/000/004/437/4437496/",
     "domain": "ascii.jp",
-    "count": 36,
+    "count": 37,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/437/4437496/",
     "screenshot": "https://ascii.jp/img/2026/09/28/4530600/xl/601c76b22f7457b0.png?20200122",
     "description": "9月15日、TypeSafe AIから「Jev」という新しいAI技術が突然発表されました。まったく新しいアプローチで、アプリケーション内部の「選ぶ・採点する・可否を決める」を担うモデルとして登場したもの。計算と判定が速く、APIを通じて利用しても非常に安価なため、これまでのLLMとまったく異なる分野に使えそうだと、さまざ...",
     "hatenaDate": "2026-09-28T00:09:53Z",
     "users": [],
     "firstSeenAt": "2026-09-28T14:45:12.676610+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "仏文学賞、AI執筆疑いで候補作を除外　ベストセラー小説巡り「盗作か否か」論議",
     "url": "https://www.itmedia.co.jp/news/article/2609/28/2000001797/",
     "domain": "www.itmedia.co.jp",
-    "count": 19,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/28/2000001797/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/28/2000001797/12952/2048",
     "description": "フランスの文学賞「ゴンクール賞」の選考委員会は9月25日（現地時間）、人工知能（AI）で執筆した疑いがあるとして、ハイチ出身作家の候補作を選考から除外すると発表した。作品は全仏でベストセラーとなっている小説で、「盗作か否か」をめぐる論議が続いていた。 この作品は、小説家テリソン・オレリアン氏（38）の「...",
     "hatenaDate": "2026-09-28T04:42:51Z",
     "users": [],
     "firstSeenAt": "2026-09-28T14:45:12.676610+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "どのAIを使うかをJevで自動選択する「Jev Router」が登場、タスク難易度から適切なAIモデルを瞬時に判断可能でOpenRouterの既存ルーターより高精度",
     "url": "https://gigazine.net/news/20260928-openrouter-jev-router/",
     "domain": "gigazine.net",
-    "count": 30,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260928-openrouter-jev-router/",
     "screenshot": "https://i.gzn.jp/img/2026/09/28/openrouter-jev-router/00.png",
     "description": "「Jev」は既存の大規模言語モデル(LLM)とは大きく異なるAIモデルで、適切なタスクでは非常に高速かつ安価に動作することから大きな注目を集めています。そんなJevで「タスクごとに最適なAIモデルを選択する」という操作を高速かつ高精度に実行できる「Jev Router」がOpenRouter上で利用可能となりました。 Jev Router - ...",
     "hatenaDate": "2026-09-28T04:27:45Z",
     "users": [],
     "firstSeenAt": "2026-09-28T14:45:12.676610+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "iframe の高さをコンテンツに合わせる CSS の frame-sizing",
@@ -159,14 +185,14 @@
     "title": "OpenAIのAIエージェントが国連のウェブサイトにブルートフォース攻撃を試みる",
     "url": "https://gigazine.net/news/20260928-openai-agents-try-bruteforce-un-website/",
     "domain": "gigazine.net",
-    "count": 17,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260928-openai-agents-try-bruteforce-un-website/",
     "screenshot": "https://i.gzn.jp/img/2026/09/28/openai-agents-try-bruteforce-un-website/00_m.jpg",
     "description": "OpenAIのAIエージェントが、国連のウェブサイトにブルートフォース攻撃(総当たり攻撃)を試みるという事態が発生していたと、セキュリティ研究者のローワン・ハワード＝ジョーンズ氏が報告しています。 OpenAI agents tried to bruteforce a UN website's API fields · swarmcha.se https://swarmcha.se/posts/openai-unc...",
     "hatenaDate": "2026-09-28T03:39:07Z",
     "users": [],
     "firstSeenAt": "2026-09-28T14:00:09.491370+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "「タイムズカーWebサイト」への不正アクセスによる 個人情報漏えいの可能性について（第1報）※追記あり | カーシェアリングのタイムズカー",
@@ -185,66 +211,66 @@
     "title": "週89時間利用も……「AIキャラチャット」依存の10代たち　「やめたい」と思っても抜け出せないワケ",
     "url": "https://www.itmedia.co.jp/news/article/2609/28/2000001762/",
     "domain": "www.itmedia.co.jp",
-    "count": 48,
+    "count": 50,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/28/2000001762/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/28/2000001762/10007538/2048",
     "description": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shi...",
     "hatenaDate": "2026-09-28T03:18:26Z",
     "users": [],
     "firstSeenAt": "2026-09-28T13:45:15.771243+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "中国、治安維持向けロボット開発　警棒や盾装備し威圧感、試験運用（共同通信） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/31c264df300eb840c4086b9a4e0ef6e140ff44ad",
     "domain": "news.yahoo.co.jp",
-    "count": 89,
+    "count": 90,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/31c264df300eb840c4086b9a4e0ef6e140ff44ad",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260928-00000008-kyodonews-000-18-view.jpg?exp=10800",
     "description": "【北京共同】中国で暴動対策など治安部門での活用を見据えた人型ロボットの開発が進んでいる。北京で8月に開かれた「世界ロボット大会」では、警棒や盾を装備した威圧感のある人型ロボットが登場。開発関係者によると、現在は試験運用の段階で、将来的には武装警察と共に警備やパトロールをすることを想定している。 【...",
     "hatenaDate": "2026-09-28T01:08:01Z",
     "users": [],
     "firstSeenAt": "2026-09-28T13:15:13.629464+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "Webアプリケーションセキュリティ入門 お試し版（目次＋本文100ページ）",
     "url": "https://bogus.jp/webapp_security_sample_100pages.pdf",
     "domain": "bogus.jp",
-    "count": 37,
+    "count": 38,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/bogus.jp/webapp_security_sample_100pages.pdf",
     "screenshot": null,
     "description": "1 Webアプリケーション セキュリティ入門 出版用完全版 導入・第1章〜第29章 BUILD · BREAK · FIX · VERIFY WEB APPLICATION SECURITY 2 目次 . . . . . . . . . . . . . . . . . . . . . . . . . 20 はじめに . . . . . . . . . . . . . . . . . . . . . 21 Webアプリケーションセキュリティとは . . . . . . . . . . ....",
     "hatenaDate": "2026-09-28T01:56:32Z",
     "users": [],
     "firstSeenAt": "2026-09-28T13:00:12.899200+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "タイムズカー、会員の免許情報や本人確認書類が漏えいの可能性　不正アクセスで",
     "url": "https://www.itmedia.co.jp/news/article/2609/28/2000001780/",
     "domain": "www.itmedia.co.jp",
-    "count": 43,
+    "count": 45,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/28/2000001780/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/28/2000001780/10007623/2048",
     "description": "カーシェアリングサービス「タイムズカー」を運営するタイムズモビリティは9月25日、外部からの不正アクセスにより、会員の免許情報や本人確認書類を含む個人情報が外部に漏えいした可能性があると発表した。 漏えいした可能性があるのは、会員と退会済みの会員の氏名、住所、生年月日、電話番号、メールアドレス、会員...",
     "hatenaDate": "2026-09-28T01:08:56Z",
     "users": [],
     "firstSeenAt": "2026-09-28T12:45:13.467135+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "ネットワークエンジニアのためのPython基礎",
     "url": "https://zenn.dev/moko_nw/books/au_python_01",
     "domain": "zenn.dev",
-    "count": 46,
+    "count": 47,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/moko_nw/books/au_python_01",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--16Vc0RgC--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci9kYmY3YTU1MGYwLnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
     "description": "🚀 手作業のCLI運用から抜け出し、コードでネットワークを支配する 画面上にいくつものターミナルを並べ、機器へ順番にログインしては show running-config を取得しExcelにまとめる。日々の運用の中で、手作業による単純作業の繰り返しや、コマンドの入力ミスによる心理的負担に悩まされた経験はないでしょうか。 「Pyt...",
     "hatenaDate": "2026-09-27T16:54:26Z",
     "users": [],
     "firstSeenAt": "2026-09-28T12:45:13.467135+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "【Jevでコンピュータ操作】Jevでスピード1.8倍速・使用トークン85%減の高効率コンピュータ操作を実現できた",
@@ -270,46 +296,46 @@
     "hatenaDate": "2026-09-28T01:57:50Z",
     "users": [],
     "firstSeenAt": "2026-09-28T12:15:18.242528+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "アウトカムの定義、レビュー再設計、暗黙知の形式知化― AI駆動開発組織になるために必要だったもの | 人と今を伝える採用メディア | HADOH(はどう) | 博報堂テクノロジーズ",
     "url": "https://recruit.hakuhodo-technologies.co.jp/hadoh/3716/",
     "domain": "recruit.hakuhodo-technologies.co.jp",
-    "count": 66,
+    "count": 67,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/recruit.hakuhodo-technologies.co.jp/hadoh/3716/",
     "screenshot": "https://recruit.hakuhodo-technologies.co.jp/wp-content/uploads/2026/09/HT0724_126-scaled.jpg",
     "description": "タスク分解から自律実装までをこなす「AIエージェント」の登場によって、ソフトウェア開発のあり方が根本から変わろうとしているなか、私たち博報堂テクノロジーズでは、ツールの導入にとどまらず、「全社的な開発プロセスの再設計」へと舵を切りました。 先行導入された約40名の組織では、週次のリリース速度が平均81%...",
     "hatenaDate": "2026-09-28T02:00:21Z",
     "users": [],
     "firstSeenAt": "2026-09-28T11:45:16.240984+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "「Excel」40年の常識“1セル＝1つの値”を打ち破る新機能、対応する関数も4種導入へ／セルに複数の値を入れられる「リスト」、「セル内の配列」、「入れ子の配列」",
     "url": "https://forest.watch.impress.co.jp/docs/news/2143595.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 313,
+    "count": 324,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2143595.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2143/595/excel.jpg",
     "description": null,
     "hatenaDate": "2026-09-28T01:08:53Z",
     "users": [],
     "firstSeenAt": "2026-09-28T11:45:16.240984+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "豪州に亡命した元「政治領事」の中国外交官が暴露する「浸透工作の実態」",
     "url": "https://gendai.media/articles/-/171505",
     "domain": "gendai.media",
-    "count": 100,
+    "count": 104,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gendai.media/articles/-/171505",
     "screenshot": "https://cdn.kds.ltd/gendai/m83kuts3erh9e9x7xiuc1spi/_",
     "description": "中国の外交官が好戦的なわけ──陳さんは1968年生まれで、天安門事件の際に北京の外交学院（中国外交部所属の大学）で大学生だった世代です。つまり、著名なベテラン世代の外交官たちとほぼ同世代になりますね。 陳：ええ。むかしの同僚で、大使や総領事になっている連中が大勢いますよ。元外交部長の秦剛（2023年7月失脚...",
     "hatenaDate": "2026-09-28T01:24:39Z",
     "users": [],
     "firstSeenAt": "2026-09-28T11:30:14.164736+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "Playwright E2Eの並列実行を安定させる方法｜フィクスチャとE2Bサンドボックス",
@@ -322,7 +348,7 @@
     "hatenaDate": "2026-09-28T00:38:38Z",
     "users": [],
     "firstSeenAt": "2026-09-28T11:30:14.164736+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "DatastreamのBigQueryコストを92%削減できた取り組み - ZOZO TECH BLOG",
@@ -452,7 +478,7 @@
     "hatenaDate": "2026-09-27T21:23:00Z",
     "users": [],
     "firstSeenAt": "2026-09-28T09:45:15.073789+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "【特集】 Windows 95から11まで――僕たちのPCライフを変えた「スタートボタン30年全史」",
@@ -465,7 +491,7 @@
     "hatenaDate": "2026-09-27T22:22:04Z",
     "users": [],
     "firstSeenAt": "2026-09-28T09:45:15.073789+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "テレメトリを「契約」として扱う — OpenTelemetry Weaverで試すTelemetry Contract - febc技術メモ",
@@ -478,7 +504,7 @@
     "hatenaDate": "2026-09-26T09:36:41Z",
     "users": [],
     "firstSeenAt": "2026-09-28T09:30:15.461764+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "AIエージェントに影響調査と概算見積もりの一次請けを任せる ── 精度ではなく「見落とし」を潰す - ZOZO TECH BLOG",
@@ -530,7 +556,7 @@
     "hatenaDate": "2026-09-27T22:17:34Z",
     "users": [],
     "firstSeenAt": "2026-09-28T08:58:16.443942+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "新しい Copilot（Home・Code・Autopilot）と料金体系を整理し、大企業で広く展開する際の課題を考えてみる - Qiita",
@@ -569,46 +595,46 @@
     "hatenaDate": "2026-09-26T14:58:00Z",
     "users": [],
     "firstSeenAt": "2026-09-28T08:00:13.522084+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "20260828_品質と開発生産性を両立させる、AI時代のE2Eテストの考え方",
     "url": "https://speakerdeck.com/magicpod/20260828-event",
     "domain": "speakerdeck.com",
-    "count": 138,
+    "count": 139,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/magicpod/20260828-event",
     "screenshot": "https://files.speakerdeck.com/presentations/d2c3857efe184c83b0ed192574766ab8/slide_0.jpg?40416675",
-    "description": "そのリトライ、死んだコネクションを使い回していませんか ── GoのHTTPクライアントとHTTP/2を実プロダクト障害から学び直す",
+    "description": "速く作れる。その次は、速く確かめられる開発へ 〜AIネイティブ開発を支える、Shift Down〜 / Can build fast. Next, moving to development where we can verify fast.",
     "hatenaDate": "2026-09-27T13:40:09Z",
     "users": [],
     "firstSeenAt": "2026-09-28T07:45:12.505998+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "OpenAI、最上位モデルのツール使用を伴う学習・評価・推論を全て停止したと発表",
     "url": "https://www.itmedia.co.jp/news/article/2609/28/2000001777/",
     "domain": "www.itmedia.co.jp",
-    "count": 259,
+    "count": 261,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/28/2000001777/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/28/2000001777/10007617/2048",
     "description": "米OpenAIは9月25日（現地時間）、最も高性能なモデルについて、ツール使用を伴う学習・評価・推論を全て一時停止したと発表した。9月20日に、学習中のAIエージェントがサンドボックスのネットワーク制限の不備を突き、DNS経由で外部のチャットbotサービスに接続するインシデントが発生したためだ。 同社によると、問題の...",
     "hatenaDate": "2026-09-27T22:27:28Z",
     "users": [],
     "firstSeenAt": "2026-09-28T07:45:12.505998+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "「新しいドパ」フラッシュ暗算のように次々本の文章を出していく「RSVP」という読書手法を、AIを使って再現したらなかなか読める",
     "url": "https://togetter.com/li/2751150",
     "domain": "togetter.com",
-    "count": 323,
+    "count": 327,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2751150",
     "screenshot": "https://s.tgstc.com/ogp3/bce287c48acbd16e27a864ad7b4b6191-1200x630.jpeg",
     "description": "花笠 @hanagasa_ai 18万文字を3時間で読めた、、、 ちゃんと内容も頭に入った、、、 RSVP、長時間読むのに向かないかなと思ったんですが やればできるものですね。 「蜘蛛の糸」のRSVPサンプル。 pic.x.com/id5PDyMOpM 2026-09-26 01:34:19",
     "hatenaDate": "2026-09-27T09:28:08Z",
     "users": [],
     "firstSeenAt": "2026-09-28T06:30:13.113872+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "ChatGPTに「この文献にあります」と言われて目を通したが書いてなかったのでそう伝えたら「3版以前を読んでませんか？ 4版で追加された記述です」と正論で殴られた話",
@@ -621,7 +647,7 @@
     "hatenaDate": "2026-09-27T17:27:38Z",
     "users": [],
     "firstSeenAt": "2026-09-28T06:30:13.113872+09:00",
-    "lastSeenAt": "2026-09-28T17:15:16.318005+09:00"
+    "lastSeenAt": "2026-09-28T17:30:14.267191+09:00"
   },
   {
     "title": "実行できる手順書「LC4RI」で 快適な運用ライフを送ろう！ | ドクセル",
