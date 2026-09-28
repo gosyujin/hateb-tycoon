@@ -450,6 +450,14 @@ main {
   white-space: nowrap;
   text-align: left;
 }
+/* entry-row-main はタイトル+カウントのラッパー。デスクトップ幅では
+   display:contentsでレイアウトに関与させず、子要素(タイトル/カウント)を
+   従来通り.entry-rowの直接のflexアイテムとして扱う(=タイトル単独クリックで
+   元記事、カウント部分クリックでブックマークページ、という別々の挙動を維持)。
+   スマホ幅ではメディアクエリ側で上書きし、1つの大きなタップ領域にする。 */
+.entry-row-main {
+  display: contents;
+}
 .entry-row-title {
   flex: 1 1 160px;
   min-width: 0;
@@ -846,5 +854,36 @@ main {
   .rule-form input[type="text"] {
     flex: 1 1 auto;
     min-width: 0;
+  }
+
+  /* plain表示(1記事1行)のタイトル+カウントを1つのタップ領域にまとめる。
+     entry-row-countの疑似要素をentry-row-main全体(position:relativeの基準)に
+     重ねることで、タイトル文字の上をタップしてもブックマークページ(count側の
+     href)へ遷移するようにする。タイトル自身はpointer-events:noneにして
+     見た目上も「タイトルとusersは別々の独立したリンクではない」ことを示す
+     (キーボード操作ではタイトル自身のaもTabで到達でき元記事へは遷移可能)。 */
+  .entry-row-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 6px;
+    row-gap: 2px;
+    flex: 1 1 160px;
+    min-width: 0;
+    position: relative;
+    padding: 4px;
+    margin: -4px;
+    border-radius: 6px;
+  }
+  .entry-row-main:active {
+    background: rgba(0, 164, 222, 0.1);
+  }
+  .entry-row-title {
+    pointer-events: none;
+  }
+  .entry-row-count.card-count-link::before {
+    content: '';
+    position: absolute;
+    inset: 0;
   }
 }

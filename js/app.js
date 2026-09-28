@@ -422,6 +422,56 @@
     navigate('/', params);
   });
 
+  // 一覧ページの横スワイプでカテゴリータブを前後に移動する。touchイベントは
+  // タッチ対応デバイスでのみ発火するため、マウス操作のデスクトップ表示には
+  // 影響しない。縦スクロールを妨げないようpreventDefaultはせず、指を離した
+  // 時点で「横方向優先」かつ「一定距離以上」動いていた場合のみジャッジする
+  // (タップやスクロールを誤ってスワイプ扱いしないため)。
+  (function setupCategorySwipe() {
+    const SWIPE_MIN_X = 60;
+    const SWIPE_MAX_OFF_AXIS_Y = 60;
+    let startX = 0;
+    let startY = 0;
+    let tracking = false;
+
+    listView.addEventListener(
+      'touchstart',
+      (e) => {
+        tracking = e.touches.length === 1;
+        if (!tracking) return;
+        startX = e.touches[0].clientX;
+        startY = e.touches[0].clientY;
+      },
+      { passive: true }
+    );
+
+    listView.addEventListener(
+      'touchend',
+      (e) => {
+        if (!tracking) return;
+        tracking = false;
+        const touch = e.changedTouches[0];
+        if (!touch) return;
+        const deltaX = touch.clientX - startX;
+        const deltaY = touch.clientY - startY;
+        if (Math.abs(deltaX) < SWIPE_MIN_X || Math.abs(deltaY) > SWIPE_MAX_OFF_AXIS_Y) return;
+        if (Math.abs(deltaX) <= Math.abs(deltaY)) return;
+
+        const categories = HatenaAPI.CATEGORIES;
+        const index = categories.findIndex((c) => c.key === currentCategory);
+        if (index === -1) return;
+        // 左スワイプ(指を左へ)で次のカテゴリー、右スワイプで前のカテゴリー。
+        // 端のカテゴリーではそれ以上折り返さない。
+        const nextIndex = deltaX < 0 ? index + 1 : index - 1;
+        if (nextIndex < 0 || nextIndex >= categories.length) return;
+        const params = new URLSearchParams();
+        params.set('cat', categories[nextIndex].key);
+        navigate('/', params);
+      },
+      { passive: true }
+    );
+  })();
+
   function disconnectScrollObserver() {
     if (scrollObserver) {
       scrollObserver.disconnect();
@@ -650,14 +700,22 @@
       readState === 'updated'
         ? '<span class="card-badge-updated" title="既読ですが、ブックマーク数が増えました">既読</span>'
         : '';
+    // entry-row-main はタイトルとカウントをまとめて1つの視覚的な塊にするための
+    // ラッパー。スマホレイアウト(css/style.css側のメディアクエリ)でのみ、
+    // entry-row-count側の疑似要素をこの塊全体に重ねて「タイトルをタップしても
+    // ブックマークページへ飛ぶ」大きなタップ領域にする(デスクトップ幅では
+    // display:contentsでレイアウトに影響しないため、従来通りタイトル単独クリックで
+    // 元記事へ、カウント部分クリックでブックマークページへ、という別々の挙動を保つ)。
     return `
       <li class="entry-row${visitedClass}">
         <button type="button" class="card-close-btn entry-row-close" data-url="${escapeHtml(item.url)}" title="このページを非表示にする" aria-label="このページを非表示にする">×</button>
         <span class="entry-row-time">${time}</span>
         <button type="button" class="card-domain entry-row-domain" data-domain="${escapeHtml(item.domain)}">${escapeHtml(item.domain)}</button>
-        <a class="entry-row-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
-        ${updatedBadge}
-        <a class="card-count-link entry-row-count${countTierClass(item.count)}${noCommentClass}" href="${href}"${countTitle}>${item.count} users →</a>
+        <span class="entry-row-main">
+          <a class="entry-row-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
+          ${updatedBadge}
+          <a class="card-count-link entry-row-count${countTierClass(item.count)}${noCommentClass}" href="${href}"${countTitle}>${item.count} users →</a>
+        </span>
       </li>`;
   }
 
