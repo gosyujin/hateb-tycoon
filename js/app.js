@@ -611,7 +611,7 @@
     // 未読と同様に目立たせつつ、バッジで「既読済みだった」ことを示す。
     const updatedBadge =
       readState === 'updated'
-        ? '<span class="card-badge-updated" title="既読ですが、ブックマーク数が増えました">既読+更新</span>'
+        ? '<span class="card-badge-updated" title="既読ですが、ブックマーク数が増えました">既読</span>'
         : '';
     return `
       <article class="card${visitedClass}">
@@ -648,7 +648,7 @@
     // タイトルの後(カウント列の前)に置いてその揃えを崩さないようにする。
     const updatedBadge =
       readState === 'updated'
-        ? '<span class="card-badge-updated" title="既読ですが、ブックマーク数が増えました">既読+更新</span>'
+        ? '<span class="card-badge-updated" title="既読ですが、ブックマーク数が増えました">既読</span>'
         : '';
     return `
       <li class="entry-row${visitedClass}">
