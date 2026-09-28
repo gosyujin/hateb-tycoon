@@ -1,5 +1,31 @@
 [
   {
+    "title": "CTスキャンを読み取りガンを含む約150種類の腹部疾患を特定できる医療用画像言語モデル「RADAR」をAlibaba傘下のDamo Academyがオープンソース化し公開",
+    "url": "https://gigazine.net/news/20260928-damo-radar/",
+    "domain": "gigazine.net",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260928-damo-radar/",
+    "screenshot": "https://i.gzn.jp/img/2026/09/28/damo-radar/00.png",
+    "description": "放射線診断ワークフローにおいて診断時に悪性腫瘍の見落としが発生すると重大な問題に繋がります。「RADAR」はCTスキャンの画像を元に約150種類の腹部疾患を特定できる医療用画像言語モデルであり、Alibaba傘下のDamo Academyがオープンソース化しGitHubで公開されています。 alibaba-damo-academy/damo-radar https://g...",
+    "hatenaDate": "2026-09-27T22:01:54Z",
+    "users": [],
+    "firstSeenAt": "2026-09-28T11:00:12.004847+09:00",
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
+  },
+  {
+    "title": "Jevをローカルでどこまで再現できるか検証しました｜オープンDecision Model比較と実戦配備",
+    "url": "https://zenn.dev/null_teck/articles/local-jev-reproduce",
+    "domain": "zenn.dev",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/null_teck/articles/local-jev-reproduce",
+    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--oNBjOUuk--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Jev%25E3%2582%2592%25E3%2583%25AD%25E3%2583%25BC%25E3%2582%25AB%25E3%2583%25AB%25E3%2581%25A7%25E3%2581%25A9%25E3%2581%2593%25E3%2581%25BE%25E3%2581%25A7%25E5%2586%258D%25E7%258F%25BE%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2581%258B%25E6%25A4%259C%25E8%25A8%25BC%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%25EF%25BD%259C%25E3%2582%25AA%25E3%2583%25BC%25E3%2583%2597%25E3%2583%25B3Decision%2520Model%25E6%25AF%2594%25E8%25BC%2583%25E3%2581%25A8%25E5%25AE%259F%25E6%2588%25A6%25E9%2585%258D%25E5%2582%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%258C%25E3%2583%25AB%25E3%2582%25BD%25E3%2583%2595%25E3%2583%2588%2540AI_Teck_PoC%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSS0wZXVNMklfV0ZhWGI0VGdUekNFQ1VoRzdqbmF3YThkNGMtNFN0SjRUU0pkQVctRT1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+    "description": "先に結論を言います Jev のインターフェースはローカルで再現可能: 汎用LLM（Qwen3.5-4B）や専用 Decision Model（Kev-4B）により、比喩や論理境界を高精度に見抜く判定器が手元の GPU で動きます。 Kev-4B と Qwen3.5-4B の違い: Kev-4B: テキスト生成を排した Zero-Decode アーキテクチャにより、バッチ並列化で 1問あ...",
+    "hatenaDate": "2026-09-23T00:54:56Z",
+    "users": [],
+    "firstSeenAt": "2026-09-28T11:00:12.004847+09:00",
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
+  },
+  {
     "title": "[スタパ齋藤の「スタパトロニクスMobile」] Audio Intelligence AIをApple Watch Ultra 4でっ！",
     "url": "https://k-tai.watch.impress.co.jp/docs/column/stapa/2142984.html",
     "domain": "k-tai.watch.impress.co.jp",
@@ -10,7 +36,7 @@
     "hatenaDate": "2026-09-27T16:05:26Z",
     "users": [],
     "firstSeenAt": "2026-09-28T10:30:13.375951+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "Amazon CloudWatch Omni のご紹介：アプリケーション向けのコラボレーション型 AI を活用したオブザーバビリティ | Amazon Web Services",
@@ -23,7 +49,7 @@
     "hatenaDate": "2026-09-25T04:01:41Z",
     "users": [],
     "firstSeenAt": "2026-09-28T10:30:13.375951+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "Android 17で標準対応したBluetoothコーデック「LHDC」を試す。Pixel 7aでは48kHz止まり？【藤本健のDigital Audio Laboratory】",
@@ -36,7 +62,7 @@
     "hatenaDate": "2026-09-27T23:10:05Z",
     "users": [],
     "firstSeenAt": "2026-09-28T10:15:15.787625+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "楽天証券のシステム不具合による意図しない資金移動についてまとめてみた - piyolog",
@@ -49,7 +75,7 @@
     "hatenaDate": "2026-09-27T19:27:28Z",
     "users": [],
     "firstSeenAt": "2026-09-28T10:15:15.787625+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "東京メトロ、「メトポ会員向けサービス」で不正アクセス。約5.9万件のメールアドレスが漏えいの可能性",
@@ -68,40 +94,40 @@
     "title": "【山口真弘の電子書籍タッチアンドトライ】 iPad mini並みの精細さで4万円前後、PHILIPS「T7250」は読書向き ～8.8型、2,560×1,600ドット、最大90Hz駆動のAndroidタブレット",
     "url": "https://pc.watch.impress.co.jp/docs/column/ebook/2143527.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 20,
+    "count": 25,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/ebook/2143527.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2143/527/01.jpg",
     "description": null,
     "hatenaDate": "2026-09-27T21:23:00Z",
     "users": [],
     "firstSeenAt": "2026-09-28T09:45:15.073789+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "【特集】 Windows 95発売日にレドモンドにいた筆者が振り返るスタートボタン31年",
     "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2143431.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 16,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/topic/feature/2143431.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2143/431/1.jpg",
     "description": null,
     "hatenaDate": "2026-09-27T22:22:04Z",
     "users": [],
     "firstSeenAt": "2026-09-28T09:45:15.073789+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "テレメトリを「契約」として扱う — OpenTelemetry Weaverで試すTelemetry Contract - febc技術メモ",
     "url": "https://febc-yamamoto.hatenablog.jp/entry/2026/09/26/182900",
     "domain": "febc-yamamoto.hatenablog.jp",
-    "count": 13,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/febc-yamamoto.hatenablog.jp/entry/2026/09/26/182900",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/755a8b15c89c5cc4411de4cf5a375a6f265e890b/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ff%2Ffebc_yamamoto%2F20260926%2F20260926140827.png",
     "description": "テレメトリにも互換性の問題がある 何気ない変更が思わぬトラブルに 例えば、あるサービスで request.duration というメトリクスを出していたとします。 開発者が実装を整理する中で、他のメトリクスとの命名を揃えるため、この名前を request.latency に変更しました。 コードの変更自体は小さなものです。アプリケーシ...",
     "hatenaDate": "2026-09-26T09:36:41Z",
     "users": [],
     "firstSeenAt": "2026-09-28T09:30:15.461764+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "AIエージェントに影響調査と概算見積もりの一次請けを任せる ── 精度ではなく「見落とし」を潰す - ZOZO TECH BLOG",
@@ -114,20 +140,20 @@
     "hatenaDate": "2026-09-25T04:23:00Z",
     "users": [],
     "firstSeenAt": "2026-09-28T09:15:13.804458+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "画像共有サービス「Gyazo」が9日ぶりにサービス再開 ～不正アクセス・情報漏えい／過去画像は「本人のみ閲覧可能」な状態、無料ユーザーにも特別措置",
     "url": "https://forest.watch.impress.co.jp/docs/news/2143577.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 15,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2143577.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2143/577/gyazo.png",
     "description": null,
     "hatenaDate": "2026-09-27T19:39:43Z",
     "users": [],
     "firstSeenAt": "2026-09-28T08:58:16.443942+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "リニア談合で大成・鹿島の有罪確定、「無競争」との主張を最高裁も認めず",
@@ -140,150 +166,150 @@
     "hatenaDate": "2026-09-27T20:11:09Z",
     "users": [],
     "firstSeenAt": "2026-09-28T08:58:16.443942+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "「スマホ注文なのに客用Wi-Fiがない」のはなぜか？　導入しない飲食店側の事情",
     "url": "https://www.itmedia.co.jp/news/article/2609/28/2000001592/",
     "domain": "www.itmedia.co.jp",
-    "count": 60,
+    "count": 64,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/28/2000001592/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/28/2000001592/10006892/2048",
     "description": "飲食店で、客が自分のスマートフォンで料理などを注文する「モバイルオーダー」、いわゆる“スマホ注文”が広がっている。一方で、注文を客のスマホに委ねながら、来店客向けのWi-Fiは用意していない店も少なくない。SNSでは「店の都合でスマホ注文にしているのに、なぜ客が通信を負担するのか」という不満が繰り返し拡散...",
     "hatenaDate": "2026-09-27T22:17:34Z",
     "users": [],
     "firstSeenAt": "2026-09-28T08:58:16.443942+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "新しい Copilot（Home・Code・Autopilot）と料金体系を整理し、大企業で広く展開する際の課題を考えてみる - Qiita",
     "url": "https://qiita.com/Takashi_Masumori/items/6f65c23e580dd454d4c7",
     "domain": "qiita.com",
-    "count": 31,
+    "count": 32,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/Takashi_Masumori/items/6f65c23e580dd454d4c7",
     "screenshot": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnBicy50d2ltZy5jb20lMkZwcm9maWxlX2ltYWdlcyUyRjE1MjA3NDMwNzU4MTA3NTA0NjQlMkY3V1pMY3lnV19iaWdnZXIuanBnP2l4bGliPXJiLTQuMS4xJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz04ZDI1YTJmOTg2MDViMzNhMmZmOTMzZjJmNGQ5MzgyZA%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D3d6a967457b4d22c8e20cd398e3adfb9?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUU2JTk2JUIwJUUzJTgxJTk3JUUzJTgxJTg0JTIwQ29waWxvdCVFRiVCQyU4OEhvbWUlRTMlODMlQkJDb2RlJUUzJTgzJUJCQXV0b3BpbG90JUVGJUJDJTg5JUUzJTgxJUE4JUU2JTk2JTk5JUU5JTg3JTkxJUU0JUJEJTkzJUU3JUIzJUJCJUUzJTgyJTkyJUU2JTk1JUI0JUU3JTkwJTg2JUUzJTgxJTk3JUUzJTgwJTgxJUU1JUE0JUE3JUU0JUJDJTgxJUU2JUE1JUFEJUUzJTgxJUE3JUU1JUJBJTgzJUUzJTgxJThGJUU1JUIxJTk1JUU5JTk2JThCJUUzJTgxJTk5JUUzJTgyJThCJUU5JTlBJTlCJUUzJTgxJUFFJUU4JUFBJUIyJUU5JUExJThDJUUzJTgyJTkyJUU4JTgwJTgzJUUzJTgxJTg4JUUyJTgwJUE2JnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9OGM2MzlmYmMzNjk3ZmU5YzUzYzkzMzkzOWNiMzVjMjA&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBUYWthc2hpX01hc3Vtb3JpJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9N2JkMTY4YzUyOWRlOGVkYjM2ZjE1MGM1MGQzYjc1MDI&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=bcb85fb830a84835857365f882cde319",
     "description": "はじめに 2026年9月25日、Microsoft から「新しい Copilot」が発表されました。Copilot アプリそのものの形が変わる大きな発表で、あわせて料金体系も「ユーザー単位のライセンス」と「利用量に応じた課金」の2本立てに整理されています。 発表の内容自体は、個人的にも非常にワクワクするものでした。一方で、日頃から...",
     "hatenaDate": "2026-09-26T09:23:22Z",
     "users": [],
     "firstSeenAt": "2026-09-28T08:30:13.085249+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "「Docker Cloud Sandboxes」発表、AIエージェント向けサンドボックスをローカルとクラウド間で自由に移動可能に",
     "url": "https://www.publickey1.jp/blog/26/docker_cloud_snadboxesai.html",
     "domain": "www.publickey1.jp",
-    "count": 35,
+    "count": 36,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/docker_cloud_snadboxesai.html",
     "screenshot": "https://www.publickey1.jp/2026/docker-cloud-sandboxes-la.png",
     "description": "「Docker Cloud Snadboxes」発表、AIエージェント向けサンドボックスをローカルとクラウド間で自由に移動可能に 同社はすでにローカルで動作するサンドボックス環境の「Docker Sandboxes」を今年（2026年）2月に発表しており、これをクラウド上で提供されるDocker Cloud Sandboxesと組み合わせることで、サンドボックス...",
     "hatenaDate": "2026-09-27T14:15:44Z",
     "users": [],
     "firstSeenAt": "2026-09-28T08:00:13.522084+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "Jevのオープンソース版「Laya」を使ってみた：考えずに、直感で即答する元祖「System One Models」 - GMOインターネットグループ グループ研究開発本部",
     "url": "https://recruit.group.gmo/engineer/jisedai/blog/jev-system-one-model/",
     "domain": "recruit.group.gmo",
-    "count": 44,
+    "count": 45,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/recruit.group.gmo/engineer/jisedai/blog/jev-system-one-model/",
     "screenshot": "https://www.gmo-jisedai.com/wp-content/uploads/laya-vs-jev-system-one-models-150x150.jpg",
     "description": "2026.09.25 Jevのオープンソース版「Laya」を使ってみた：考えずに、直感で即答する元祖「System One Models」 TL;DR Convai Innovations の Nandakishor Mukkunnoth 氏が公開したオープンソースの意思決定モデル Laya は、状態 (State) と型付きの質問 (Choice / Score / Noul) を受け取り、テキストを生成せずに較正さ...",
     "hatenaDate": "2026-09-26T14:58:00Z",
     "users": [],
     "firstSeenAt": "2026-09-28T08:00:13.522084+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "20260828_品質と開発生産性を両立させる、AI時代のE2Eテストの考え方",
     "url": "https://speakerdeck.com/magicpod/20260828-event",
     "domain": "speakerdeck.com",
-    "count": 76,
+    "count": 81,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/magicpod/20260828-event",
     "screenshot": "https://files.speakerdeck.com/presentations/d2c3857efe184c83b0ed192574766ab8/slide_0.jpg?40416675",
     "description": "Sponsored · Your Podcast. Everywhere. Effortlessly. Share. Educate. Inspire. Entertain. You do you. We'll handle the rest. →",
     "hatenaDate": "2026-09-27T13:40:09Z",
     "users": [],
     "firstSeenAt": "2026-09-28T07:45:12.505998+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "OpenAI、最上位モデルのツール使用を伴う学習・評価・推論を全て停止したと発表",
     "url": "https://www.itmedia.co.jp/news/article/2609/28/2000001777/",
     "domain": "www.itmedia.co.jp",
-    "count": 110,
+    "count": 118,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/28/2000001777/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/28/2000001777/10007617/2048",
     "description": "米OpenAIは9月25日（現地時間）、最も高性能なモデルについて、ツール使用を伴う学習・評価・推論を全て一時停止したと発表した。9月20日に、学習中のAIエージェントがサンドボックスのネットワーク制限の不備を突き、DNS経由で外部のチャットbotサービスに接続するインシデントが発生したためだ。 同社によると、問題の...",
     "hatenaDate": "2026-09-27T22:27:28Z",
     "users": [],
     "firstSeenAt": "2026-09-28T07:45:12.505998+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
-    "title": "「新しいドパ」フラッシュ暗算のように次々本の文章を出していく「RSVR」という読書手法を、AIを使って再現したらなかなか読める",
+    "title": "「新しいドパ」フラッシュ暗算のように次々本の文章を出していく「RSVP」という読書手法を、AIを使って再現したらなかなか読める",
     "url": "https://togetter.com/li/2751150",
     "domain": "togetter.com",
-    "count": 181,
+    "count": 190,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2751150",
     "screenshot": "https://s.tgstc.com/ogp3/bce287c48acbd16e27a864ad7b4b6191-1200x630.jpeg",
     "description": "花笠 @hanagasa_ai 18万文字を3時間で読めた、、、 ちゃんと内容も頭に入った、、、 RSVP、長時間読むのに向かないかなと思ったんですが やればできるものですね。 「蜘蛛の糸」のRSVPサンプル。 pic.x.com/id5PDyMOpM 2026-09-26 01:34:19",
     "hatenaDate": "2026-09-27T09:28:08Z",
     "users": [],
     "firstSeenAt": "2026-09-28T06:30:13.113872+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "ChatGPTに「この文献にあります」と言われて目を通したが書いてなかったのでそう伝えたら「3版以前を読んでませんか？ 4版で追加された記述です」と正論で殴られた話",
     "url": "https://togetter.com/li/2751313",
     "domain": "togetter.com",
-    "count": 97,
+    "count": 99,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2751313",
     "screenshot": "https://s.tgstc.com/ogp3/2a36808c97b113601e8c5017c7873bf6-1200x630.jpeg",
     "description": "しえろ🍆 @4_____el ChatGPT「文献 xxx に書いてありますよ」 わたし「目通したけど書いてないよ」 ChatGPT「3 版以前を読んでません？　4 版で新しい研究成果として追加された記述なのでそっち読んでもらわないと。てか普通最新版チェックしませんか？」 わたし「うう……」（書いてあった） 2026-09-26 19:07:18",
     "hatenaDate": "2026-09-27T17:27:38Z",
     "users": [],
     "firstSeenAt": "2026-09-28T06:30:13.113872+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "実行できる手順書「LC4RI」で 快適な運用ライフを送ろう！ | ドクセル",
     "url": "https://www.docswell.com/s/ma_anago/ZJW12G-2026-09-26-130252",
     "domain": "www.docswell.com",
-    "count": 30,
+    "count": 32,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.docswell.com/s/ma_anago/ZJW12G-2026-09-26-130252",
     "screenshot": "https://bcdn.docswell.com/page/Y76W8WD97V.jpg?width=480",
     "description": "実行できる手順書「LC4RI」で 快適な運用ライフを送ろう！ Sreake事業部 ソリューション3部 加藤 泰隆 Copyright © 3-shake, Inc. All Rights Reserved. 会社紹介 会社名 株式会社スリーシェイク 設立日 2015/1/15 代表者 代表取締役社長 所在地 東京都中央区銀座8丁目21番1号 住友不動産汐留浜離宮ビル7F 吉田 拓真 Goo...",
     "hatenaDate": "2026-09-26T05:36:08Z",
     "users": [],
     "firstSeenAt": "2026-09-28T05:45:13.217000+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "「実力がついてから」は、いつまで経っても来ない 〜 OSSへの一歩が、国境を越えるキャリアにつながるまで | ドクセル",
     "url": "https://www.docswell.com/s/magurotuna/KN784P-2026-09-26-findy-tech-festival",
     "domain": "www.docswell.com",
-    "count": 37,
+    "count": 40,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.docswell.com/s/magurotuna/KN784P-2026-09-26-findy-tech-festival",
     "screenshot": "https://bcdn.docswell.com/page/P7XQ2X24EX.jpg?width=480",
     "description": "「実力がついてから」は、いつまで経っても来ない 〜 OSSへの一歩が、国境を越えるキャリアにつながるまで",
     "hatenaDate": "2026-09-26T05:05:13Z",
     "users": [],
     "firstSeenAt": "2026-09-28T05:45:13.217000+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "人工知能と小説新人賞審査",
     "url": "https://zenn.dev/enjoetoh/articles/ai-as-literary-judge",
     "domain": "zenn.dev",
-    "count": 43,
+    "count": 46,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/enjoetoh/articles/ai-as-literary-judge",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--dKa4yPL_--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BA%25BA%25E5%25B7%25A5%25E7%259F%25A5%25E8%2583%25BD%25E3%2581%25A8%25E5%25B0%258F%25E8%25AA%25AC%25E6%2596%25B0%25E4%25BA%25BA%25E8%25B3%259E%25E5%25AF%25A9%25E6%259F%25BB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:enjoetoh%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzUzMWU2OGQ3ZjguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "「第9回ゲンロンSF新人賞」候補作短評余禄 ■ＡＩ…… 2026年現在において大きな話題として各分野におけるＡＩ利用がありますが、それは創作業界においても同じです。 自分としてはとりあえず、「ＡＩにも小説は書ける」という人は、「自分がどんな作品を小説と考えているのか、具体的なリストを挙げよ、話はそれからだ」と...",
     "hatenaDate": "2026-09-27T00:49:05Z",
     "users": [],
     "firstSeenAt": "2026-09-28T05:30:13.409374+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "GitHub - Niko1221/Strata: Qwen3.8-Flash-Next (125B MoE) on a 12-24 GB NVIDIA GPU + 64 GB RAM: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
@@ -322,7 +348,7 @@
     "hatenaDate": "2026-09-27T10:45:11Z",
     "users": [],
     "firstSeenAt": "2026-09-28T01:45:47.505082+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "JevでXのタイムラインを浄化する拡張機能を作った",
@@ -335,7 +361,7 @@
     "hatenaDate": "2026-09-27T15:17:24Z",
     "users": [],
     "firstSeenAt": "2026-09-28T01:15:16.252084+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "目にみえる作業を電子化しても使えるシステムにならないので業務やってる人がAI使ってシステム作っても使い物にならないがち - きしだのHatena",
@@ -367,14 +393,14 @@
     "title": "グーグル、全アカウント保持者に無料の1080p AI動画生成を開放 — BigGo ファイナンス",
     "url": "https://finance.biggo.jp/news/07c65cc5-d4c3-44a6-a1cd-cf009de26a8d",
     "domain": "finance.biggo.jp",
-    "count": 90,
+    "count": 92,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/finance.biggo.jp/news/07c65cc5-d4c3-44a6-a1cd-cf009de26a8d",
     "screenshot": "https://img.biggo.com/kadsyjvVtu2hX7Yb65-ViaDD9wb4WZf2N52lK4uQU7g/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTA5LzA3YzY1Y2M1LWQ0YzMtNDRhNi1hMWNkLWNmMDA5ZGUyNmE4ZF8xNzkwNDQ3Mzc1X2RlZmF1bHQuanBn.jpg",
     "description": "グーグルは9月23日、Googleアカウントを持つすべてのユーザーが、Google Vids上でGemini Omni 1.1 Flashモデルを用いた1080pのAI動画を無料で生成できるようになったと発表した。個人アカウントは月6本まで。シーン延長、正確なシーン長設定、旧クリップのアップスケーリングなど新たな編集機能も追加された。すべての動...",
     "hatenaDate": "2026-09-27T09:50:17Z",
     "users": [],
     "firstSeenAt": "2026-09-28T00:15:13.671503+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "WDXL Lubrifont JP N - Google Fonts",
@@ -393,14 +419,14 @@
     "title": "ChatGPTの英語学習効果とは？ 最新の研究や依存の注意点も紹介・おすすめの学習ロードマップも完全解説 - ポリグロットライフ | 言語まなび∞ラボ",
     "url": "https://www.sunafuki.com/entry/chatgpt_English",
     "domain": "www.sunafuki.com",
-    "count": 150,
+    "count": 153,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.sunafuki.com/entry/chatgpt_English",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/7dfc481a248dbe1092fd8308537fe15960aafc31/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fsunafukikun%2F20260927%2F20260927142307.png",
     "description": "はじめに 今回はChatGPTが急速な進化を続けるなかで、ChatGPTを使った英語学習の効果や問題点を第二言語習得研究の理論と照らし合わせつつ、私自身の使用経験を踏まえて、今後のAIとの付き合い方を考えていきたいと思います。 巷では、ChatGPTへのプロンプトは時代遅れだと言われており、AIをエージェントとして格上げす...",
     "hatenaDate": "2026-09-27T10:01:52Z",
     "users": [],
     "firstSeenAt": "2026-09-28T00:00:07.835739+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "ポケモンをあまり知らない人に撮ってもらったヤドンのぬい活写真…その構図が独特な視点を感じて面白い話",
@@ -497,14 +523,14 @@
     "title": "はてブコメントで攻撃的なやつをJevで隠す拡張機能 - 本しゃぶり",
     "url": "https://honeshabri.hatenablog.com/entry/hatebu-veil",
     "domain": "honeshabri.hatenablog.com",
-    "count": 458,
+    "count": 464,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/honeshabri.hatenablog.com/entry/hatebu-veil",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/e4385aa15bfc1c05830b203fff3a3cd5bff65b2b/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoneshabri%2F20260927%2F20260927202522.jpg",
     "description": "はてブのコメント欄には、有用なコメントも確かにある。 ただ、不毛な罵倒で消耗したくはない。 だから、Jevで攻撃的で役に立たないコメントを隠すChrome拡張を作った。 人気でも、攻撃的で役に立たない判定なら隠す 何を作ったのか はてなブックマークのコメント欄には、記事の補足や別視点の指摘など、読む価値のある...",
     "hatenaDate": "2026-09-27T12:26:03Z",
     "users": [],
     "firstSeenAt": "2026-09-27T22:00:12.828303+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "「Apple Watch Ultra 4」使ってみたレビュー、重いしデカイけどバッテリー持ちはバツグンでiPhoneなしでも高精度",
@@ -536,14 +562,14 @@
     "title": "リモートワークを続けるためにやるべきこと - モヒカン技術ブログ",
     "url": "https://blog.pinkumohikan.com/entry/for-continuing-to-remote-work",
     "domain": "blog.pinkumohikan.com",
-    "count": 196,
+    "count": 198,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.pinkumohikan.com/entry/for-continuing-to-remote-work",
     "screenshot": "https://ogimage.blog.st-hatena.com/13355765958053239993/14945776032083009163/1790492814",
     "description": "コロナ禍が明け、リモートワークから出社への回帰が少しずつ増えている。 私個人としては労働者として「リモート最高！リモートしか勝たん」という気持ちと、管理職として「とは言え難しさがあるよね」という気持ちなので、それらを踏まえてリモートワークを続けたいなら労働者も一定の工夫をすると良い、という話をする...",
     "hatenaDate": "2026-09-27T07:03:07Z",
     "users": [],
     "firstSeenAt": "2026-09-27T21:15:13.714022+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "AIデバッグはなぜ収束しないのか - P2がいつまでも消えない理由｜npaka",
@@ -556,7 +582,7 @@
     "hatenaDate": "2026-09-27T07:32:58Z",
     "users": [],
     "firstSeenAt": "2026-09-27T20:45:13.353941+09:00",
-    "lastSeenAt": "2026-09-28T10:45:15.466961+09:00"
+    "lastSeenAt": "2026-09-28T11:00:12.004847+09:00"
   },
   {
     "title": "「SuicaがJR東海エリアで使えない」問題、ついに解消か　JR東海社長「勉強している」",
