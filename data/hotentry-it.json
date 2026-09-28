@@ -1,5 +1,31 @@
 [
   {
+    "title": "OpenAIが「最も高性能なAIモデル」の学習を一時停止、AIエージェントの挙動を大規模調査中",
+    "url": "https://gigazine.net/news/20260928-openai-pauses-training-ai/",
+    "domain": "gigazine.net",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260928-openai-pauses-training-ai/",
+    "screenshot": "https://i.gzn.jp/img/2026/09/28/openai-pauses-training-ai/00_m.png",
+    "description": "OpenAIが最も能力の高いAIモデルを対象に、ツール利用を伴う学習、評価、推論を一時停止しました。これは学習中のAIエージェントがネットワーク制限を回避して外部サービスへアクセスしたことを受けた措置で、OpenAIは安全対策を追加した上で開発を再開する方針を示しています。サム・アルトマンCEOは「学習や評価中のAI...",
+    "hatenaDate": "2026-09-28T04:36:03Z",
+    "users": [],
+    "firstSeenAt": "2026-09-28T23:15:18.678470+09:00",
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
+  },
+  {
+    "title": "我々はAI認知負債を増やしつつある - だからこそ、学習を再設計しなくてはならない - arclamp",
+    "url": "https://arclamp.hatenablog.com/entry/2026/09/28/093718",
+    "domain": "arclamp.hatenablog.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/arclamp.hatenablog.com/entry/2026/09/28/093718",
+    "screenshot": "https://ogimage.blog.st-hatena.com/12704346814673873149/14945776032081759249/1790556265",
+    "description": "AIを使えば、これまで自分で考えていたことの多くを、短い時間で進められるようになります。 一方で、自分で考え、試し、間違え、直す機会は減っていきます。仕事は速くなっても、その仕事を通じて身につけていた力まで失っているかもしれません。 AIを使うこと自体が問題なのではありません。問題は、AIに任せることで...",
+    "hatenaDate": "2026-09-28T05:02:08Z",
+    "users": [],
+    "firstSeenAt": "2026-09-28T23:15:18.678470+09:00",
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
+  },
+  {
     "title": "Evolving programming languages in the AI era - Dashbit Blog",
     "url": "https://dashbit.co/blog/evolving-ai-era",
     "domain": "dashbit.co",
@@ -16,40 +42,40 @@
     "title": "優秀なエンジニアの定義 - pospomeのプログラミング日記",
     "url": "https://www.pospome.work/entry/2026/09/28/152221",
     "domain": "www.pospome.work",
-    "count": 9,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.pospome.work/entry/2026/09/28/152221",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/ae96e603300ca6235992a8b5446ade4813a86db0/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fp%2Fpospome%2F20260927%2F20260927140127.png",
     "description": "（補足）なぜ \"優秀なエンジニア\" の定義が重要なのか pospomeが思う \"優秀なエンジニア\" とは \"最大のボトルネック\" を見つけるのは意外と難しい \"現実的に解消できる最大のボトルネック\" を探す 重要なのは \"ボトルネックを探し続けること\" まとめ 宣伝 株式会社カミナシで VPoE を務めている pospome です。 (´・ω・`...",
     "hatenaDate": "2026-09-28T06:39:20Z",
     "users": [],
     "firstSeenAt": "2026-09-28T22:45:15.056406+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "富士通が脱人月モデルへ　CROが説く「AI時代のバリュープライシングへの転換」とは",
     "url": "https://www.itmedia.co.jp/enterprise/articles/2609/28/news080.html",
     "domain": "www.itmedia.co.jp",
-    "count": 4,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/enterprise/articles/2609/28/news080.html",
     "screenshot": "https://image.itmedia.co.jp/enterprise/articles/2609/28/cover_news080.jpg",
     "description": "DX（デジタルトランスフォーメーション）、さらにはAX（AIトランスフォーメーション）が進むにつれ、ITベンダーがITサービスをユーザーに提供する料金形態において、従来の人月計算から提供価値をプライシングする形への移行に迫られている。こうした中、富士通が自らの取り組みについて明らかにした。その内容がベンダ...",
     "hatenaDate": "2026-09-28T05:29:04Z",
     "users": [],
     "firstSeenAt": "2026-09-28T22:45:15.056406+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "全社員がAIを「使う」の次へ　ーノンエンジニア1,500人が安全に業務を作り変えるゴールデンパスとガードレール",
     "url": "https://speakerdeck.com/lmi/pek2026-link-and-motivation",
     "domain": "speakerdeck.com",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/lmi/pek2026-link-and-motivation",
     "screenshot": "https://files.speakerdeck.com/presentations/b6fbca05ab3c4c7da2d670e3e57baa30/slide_0.jpg?40684666",
     "description": "リンクアンドモチベーション登壇資料（2026/9/26） 全社員がAIを「使う」の次へ　ーノンエンジニア1,500人が安全に業務を作り変えるゴールデンパスとガードレール #リンモチ #リンクアンドモチベーション #PEK2026 #PlatformEngineering =========…",
     "hatenaDate": "2026-09-26T09:17:07Z",
     "users": [],
     "firstSeenAt": "2026-09-28T22:30:16.423322+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "昔の「ビデオCD」がWindowsのエクスプローラーを破壊するという報告",
@@ -62,7 +88,7 @@
     "hatenaDate": "2026-09-28T12:42:47Z",
     "users": [],
     "firstSeenAt": "2026-09-28T22:30:16.423322+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "GitHubに「悪質な模倣ソフト」を通報しても3週間以上放置されたがネットで話題になると10分で削除されたとの報告",
@@ -75,7 +101,7 @@
     "hatenaDate": "2026-09-28T11:15:39Z",
     "users": [],
     "firstSeenAt": "2026-09-28T22:30:16.423322+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "無料でマンガ・電子書籍・PDFファイル・オーディオブックをマルチユーザーで共有しKobo双方向同期・Kindleメール送信などの連携もできる「BookOrbit」、オープンソースでセルフホスト可能",
@@ -88,7 +114,7 @@
     "hatenaDate": "2026-09-27T09:10:26Z",
     "users": [],
     "firstSeenAt": "2026-09-28T22:00:14.693201+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "Windowsのデータ移行機能「PC-to-PC Migration」が廃止に、今後は「OneDrive」経由で",
@@ -107,14 +133,14 @@
     "title": "AIに「推測するな」と指示するだけで架空データが70％から20％に減少したという実験結果",
     "url": "https://gigazine.net/news/20260928-ai-do-not-guess/",
     "domain": "gigazine.net",
-    "count": 16,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260928-ai-do-not-guess/",
     "screenshot": "https://i.gzn.jp/img/2026/09/28/ai-do-not-guess/00.jpg",
     "description": "生成AIにウェブページから情報を抜き出させる際に「ページに値がなければnullを使い、推測しないでください」と指示するだけで、存在しない値を作り出す割合が70.7％から20.2％まで低下したという実験結果をAIエージェント向けマーケットプレイスのEarn an Honest Dollarが公開しました。 Calling the AI bluff: \"Do not...",
     "hatenaDate": "2026-09-28T07:36:59Z",
     "users": [],
     "firstSeenAt": "2026-09-28T21:30:20.643794+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "タイムズカー約660万件情報漏えい - Yahoo!ニュース",
@@ -127,7 +153,7 @@
     "hatenaDate": "2026-09-28T08:29:19Z",
     "users": [],
     "firstSeenAt": "2026-09-28T21:15:16.044070+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "ビル・ゲイツがAIの危険性に警鐘、AI企業の自主規制では足りないと主張",
@@ -146,14 +172,14 @@
     "title": "オムロン、祖業を売却　電子部品事業「重い決断」 | NEWSjp",
     "url": "https://news.jp/i/1477171752691761383",
     "domain": "news.jp",
-    "count": 58,
+    "count": 59,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.jp/i/1477171752691761383",
     "screenshot": "https://img.jp.ekkowassets.com/c_fill,w_400,h_210,f_auto,g_faces,q_auto:eco/ch/images/1477210983233111009/origin_1.jpg",
     "description": "オムロンが、祖業の電子部品事業を10月1日付で米投資ファンドに売却する。中国勢の台頭で競争が激化し「大変重い決断だったが、グループとしての企業価値向上のために必要」（辻永順太社長）としている。主力の制御機器事業を中心に、データビジネスと親和性の高い分野に経営資源を集中し収益力を高める。 電子部品事業...",
     "hatenaDate": "2026-09-28T08:11:38Z",
     "users": [],
     "firstSeenAt": "2026-09-28T20:59:28.727319+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "ネット接続禁止のOpenAI製AIが「DNSの抜け道」を発見して外部AIにアクセス、OpenAIは高性能モデルのツール利用を一時停止",
@@ -172,14 +198,14 @@
     "title": "Appleが新型Apple Vision Proを開発中との報道",
     "url": "https://gigazine.net/news/20260928-apple-new-vision-pro/",
     "domain": "gigazine.net",
-    "count": 9,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260928-apple-new-vision-pro/",
     "screenshot": "https://i.gzn.jp/img/2026/09/28/apple-new-vision-pro/00.jpg",
     "description": "約60万円という高価格で売り出されたMRヘッドセット「Apple Vision Pro」の後継機をAppleが開発していると、Appleの情報に詳しいBloombergのマーク・ガーマン記者が報じました。 Meta’s VR Glasses Are Exactly What the Apple Vision Pro Should Have Been - Bloomberg https://www.bloomberg.com/news/newsletters/202...",
     "hatenaDate": "2026-09-28T04:55:50Z",
     "users": [],
     "firstSeenAt": "2026-09-28T20:45:13.619358+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "イーロン・マスク氏題材のドキュメンタリー映画、SNS各社が広告を拒否。その理由とは【やじうまWatch】",
@@ -231,7 +257,7 @@
     "hatenaDate": "2026-09-28T04:31:57Z",
     "users": [],
     "firstSeenAt": "2026-09-28T19:45:14.545345+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "「塾代を払うよりChatGPTやGeminiを使って」と保護者に勧め、塾が教室を閉鎖へ",
@@ -244,20 +270,20 @@
     "hatenaDate": "2026-09-28T08:40:19Z",
     "users": [],
     "firstSeenAt": "2026-09-28T19:30:13.322251+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "広がる「AIで人類滅亡」論、サム・アルトマン氏が語ったこと--2日後に先端モデルの訓練停止も公表",
     "url": "https://japan.cnet.com/article/35253028/",
     "domain": "japan.cnet.com",
-    "count": 61,
+    "count": 63,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35253028/",
     "screenshot": "https://japan.cnet.com/storage/2026/09/28/b2900978b49c425f967ab43a3dccd18f/0704551a-1389-4368-98fd-521d6099a498.jpeg",
     "description": "OpenAIのサム・アルトマンCEOは米国時間9月23日、国連安全保障理事会で演説し、人間の制御下に置き続けられると強く論証できないAIモデルは「訓練すべきではない」と述べた。破局のリスクを何％と見積もるかは問題ではなく、「どの水準も到底受け入れられない」という。 演説の2日後、OpenAIは最上位モデルの訓練を止め...",
     "hatenaDate": "2026-09-28T05:28:45Z",
     "users": [],
     "firstSeenAt": "2026-09-28T18:15:14.699310+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "Announcing Vite+ 1.0",
@@ -276,40 +302,40 @@
     "title": "「タイムズカーWebサイト」への不正アクセスに関する調査結果および今後の対応について（第2報） | カーシェアリングのタイムズカー",
     "url": "https://share.timescar.jp/news/2026/0928/1815.html",
     "domain": "share.timescar.jp",
-    "count": 97,
+    "count": 100,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/share.timescar.jp/news/2026/0928/1815.html",
     "screenshot": null,
     "description": "2026年9月25日に公表いたしました『「タイムズカーWebサイト」への不正アクセスによる個人情報漏えいの可能性について（第1報）』に関し、その後の調査により現時点で判明している内容をご報告いたします。 第1報はこちら 会員の皆様ならびに関係者の皆様に、多大なるご迷惑とご心配をお掛けしておりますことを、改めて...",
     "hatenaDate": "2026-09-28T07:07:10Z",
     "users": [],
     "firstSeenAt": "2026-09-28T18:00:14.313993+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "「タイムズカー」会員情報約660万件漏えい　運転免許画像など　不正アクセスで",
     "url": "https://www.itmedia.co.jp/news/article/2609/28/2000001808/",
     "domain": "www.itmedia.co.jp",
-    "count": 107,
+    "count": 110,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/28/2000001808/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/28/2000001808/10007724/2048",
     "description": "カーシェアリングサービス「タイムズカー」を運営するタイムズモビリティ（パーク24グループ）は9月28日、不正アクセスを受けたシステムから、会員情報約660万件が漏えいしたと発表した。漏えいした情報には、運転免許証画像などの本人確認書類情報も含まれている。 対象は、タイムズカー会員と退会済みの人、タイムズビ...",
     "hatenaDate": "2026-09-28T08:04:36Z",
     "users": [],
     "firstSeenAt": "2026-09-28T17:45:13.947933+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "タイムズカーWebシステムへの不正アクセスに関する調査結果および今後の対応について（第2報）｜パーク２４株式会社",
     "url": "https://www.park24.co.jp/news/2026/09/20260928-1.html",
     "domain": "www.park24.co.jp",
-    "count": 186,
+    "count": 194,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.park24.co.jp/news/2026/09/20260928-1.html",
     "screenshot": null,
     "description": "2026年09月28日 2026年9月25日に公表いたしました「タイムズカーWebサイトへの不正アクセスによる個人情報漏えいの可能性について（第1報）」に関し、その後の調査により現時点で判明している内容をご報告いたします。 ※第1報はこちら 「タイムズカーWebサイトへの不正アクセスによる個人情報漏えいの可能性について（第...",
     "hatenaDate": "2026-09-28T07:35:53Z",
     "users": [],
     "firstSeenAt": "2026-09-28T17:45:13.947933+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "メール配信のノウハウを、AIでHTMLメール作成につなげる。楽楽メールマーケティングのAI機能開発 - RAKUS Developers Blog | ラクス エンジニアブログ",
@@ -406,14 +432,14 @@
     "title": "AI「Jev」が「ポケモン赤」を37時間40分で殿堂入り、費用はわずか約260円だが補助システムが必要で完全自律だとマサラタウンから出られず",
     "url": "https://gigazine.net/news/20260928-jev-pokemon-red/",
     "domain": "gigazine.net",
-    "count": 48,
+    "count": 49,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260928-jev-pokemon-red/",
     "screenshot": "https://i.gzn.jp/img/2026/09/28/jev-pokemon-red/00.png",
     "description": "意思決定AIモデル「Jev」に「ポケットモンスター 赤」をプレイさせる実験が行われ、37時間40分のプレイを経て殿堂入りを果たしました。ゲームクリアまでにJevが下した判断は合計1万6150回で、AIの利用料金は合計1.65ドル(約260円)だったとのことです。 Jev Plays Pokémon Red https://jev-pokemon.vercel.app/ JevはAI企...",
     "hatenaDate": "2026-09-28T05:54:12Z",
     "users": [],
     "firstSeenAt": "2026-09-28T15:45:12.095447+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "Google - 25 年間の感謝を込めて。",
@@ -439,7 +465,7 @@
     "hatenaDate": "2026-09-28T05:05:11Z",
     "users": [],
     "firstSeenAt": "2026-09-28T15:00:14.494716+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "修羅場日記　退院後･･･ - 新小児科医のつぶやき",
@@ -458,14 +484,14 @@
     "title": "AIが人間のようにゲームをプレイ　話題の「Jev」を試してわかったこと (1/6)",
     "url": "https://ascii.jp/elem/000/004/437/4437496/",
     "domain": "ascii.jp",
-    "count": 68,
+    "count": 69,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/437/4437496/",
     "screenshot": "https://ascii.jp/img/2026/09/28/4530600/xl/601c76b22f7457b0.png?20200122",
     "description": "9月15日、TypeSafe AIから「Jev」という新しいAI技術が突然発表されました。まったく新しいアプローチで、アプリケーション内部の「選ぶ・採点する・可否を決める」を担うモデルとして登場したもの。計算と判定が速く、APIを通じて利用しても非常に安価なため、これまでのLLMとまったく異なる分野に使えそうだと、さまざ...",
     "hatenaDate": "2026-09-28T00:09:53Z",
     "users": [],
     "firstSeenAt": "2026-09-28T14:45:12.676610+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "仏文学賞、AI執筆疑いで候補作を除外　ベストセラー小説巡り「盗作か否か」論議",
@@ -543,20 +569,20 @@
     "hatenaDate": "2026-09-28T03:18:26Z",
     "users": [],
     "firstSeenAt": "2026-09-28T13:45:15.771243+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "中国、治安維持向けロボット開発　警棒や盾装備し威圧感、試験運用（共同通信） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/31c264df300eb840c4086b9a4e0ef6e140ff44ad",
     "domain": "news.yahoo.co.jp",
-    "count": 154,
+    "count": 155,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/31c264df300eb840c4086b9a4e0ef6e140ff44ad",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260928-00000008-kyodonews-000-18-view.jpg?exp=10800",
     "description": "【北京共同】中国で暴動対策など治安部門での活用を見据えた人型ロボットの開発が進んでいる。北京で8月に開かれた「世界ロボット大会」では、警棒や盾を装備した威圧感のある人型ロボットが登場。開発関係者によると、現在は試験運用の段階で、将来的には武装警察と共に警備やパトロールをすることを想定している。 【...",
     "hatenaDate": "2026-09-28T01:08:01Z",
     "users": [],
     "firstSeenAt": "2026-09-28T13:15:13.629464+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "Webアプリケーションセキュリティ入門 お試し版（目次＋本文100ページ）",
@@ -569,7 +595,7 @@
     "hatenaDate": "2026-09-28T01:56:32Z",
     "users": [],
     "firstSeenAt": "2026-09-28T13:00:12.899200+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "タイムズカー、会員の免許情報や本人確認書類が漏えいの可能性　不正アクセスで",
@@ -588,14 +614,14 @@
     "title": "ネットワークエンジニアのためのPython基礎",
     "url": "https://zenn.dev/moko_nw/books/au_python_01",
     "domain": "zenn.dev",
-    "count": 106,
+    "count": 107,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/moko_nw/books/au_python_01",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--16Vc0RgC--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci9kYmY3YTU1MGYwLnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
     "description": "🚀 手作業のCLI運用から抜け出し、コードでネットワークを支配する 画面上にいくつものターミナルを並べ、機器へ順番にログインしては show running-config を取得しExcelにまとめる。日々の運用の中で、手作業による単純作業の繰り返しや、コマンドの入力ミスによる心理的負担に悩まされた経験はないでしょうか。 「Pyt...",
     "hatenaDate": "2026-09-27T16:54:26Z",
     "users": [],
     "firstSeenAt": "2026-09-28T12:45:13.467135+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "【Jevでコンピュータ操作】Jevでスピード1.8倍速・使用トークン85%減の高効率コンピュータ操作を実現できた",
@@ -627,27 +653,27 @@
     "title": "アウトカムの定義、レビュー再設計、暗黙知の形式知化― AI駆動開発組織になるために必要だったもの | 人と今を伝える採用メディア | HADOH(はどう) | 博報堂テクノロジーズ",
     "url": "https://recruit.hakuhodo-technologies.co.jp/hadoh/3716/",
     "domain": "recruit.hakuhodo-technologies.co.jp",
-    "count": 106,
+    "count": 108,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/recruit.hakuhodo-technologies.co.jp/hadoh/3716/",
     "screenshot": "https://recruit.hakuhodo-technologies.co.jp/wp-content/uploads/2026/09/HT0724_126-scaled.jpg",
     "description": "タスク分解から自律実装までをこなす「AIエージェント」の登場によって、ソフトウェア開発のあり方が根本から変わろうとしているなか、私たち博報堂テクノロジーズでは、ツールの導入にとどまらず、「全社的な開発プロセスの再設計」へと舵を切りました。 先行導入された約40名の組織では、週次のリリース速度が平均81%...",
     "hatenaDate": "2026-09-28T02:00:21Z",
     "users": [],
     "firstSeenAt": "2026-09-28T11:45:16.240984+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "「Excel」40年の常識“1セル＝1つの値”を打ち破る新機能、対応する関数も4種導入へ／セルに複数の値を入れられる「リスト」、「セル内の配列」、「入れ子の配列」",
     "url": "https://forest.watch.impress.co.jp/docs/news/2143595.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 515,
+    "count": 521,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2143595.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2143/595/excel.jpg",
     "description": null,
     "hatenaDate": "2026-09-28T01:08:53Z",
     "users": [],
     "firstSeenAt": "2026-09-28T11:45:16.240984+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "豪州に亡命した元「政治領事」の中国外交官が暴露する「浸透工作の実態」",
@@ -660,7 +686,7 @@
     "hatenaDate": "2026-09-28T01:24:39Z",
     "users": [],
     "firstSeenAt": "2026-09-28T11:30:14.164736+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "Playwright E2Eの並列実行を安定させる方法｜フィクスチャとE2Bサンドボックス",
@@ -874,14 +900,14 @@
     "title": "「スマホ注文なのに客用Wi-Fiがない」のはなぜか？　導入しない飲食店側の事情",
     "url": "https://www.itmedia.co.jp/news/article/2609/28/2000001592/",
     "domain": "www.itmedia.co.jp",
-    "count": 204,
+    "count": 205,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/28/2000001592/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/28/2000001592/10006892/2048",
     "description": "飲食店で、客が自分のスマートフォンで料理などを注文する「モバイルオーダー」、いわゆる“スマホ注文”が広がっている。一方で、注文を客のスマホに委ねながら、来店客向けのWi-Fiは用意していない店も少なくない。SNSでは「店の都合でスマホ注文にしているのに、なぜ客が通信を負担するのか」という不満が繰り返し拡散...",
     "hatenaDate": "2026-09-27T22:17:34Z",
     "users": [],
     "firstSeenAt": "2026-09-28T08:58:16.443942+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "新しい Copilot（Home・Code・Autopilot）と料金体系を整理し、大企業で広く展開する際の課題を考えてみる - Qiita",
@@ -946,7 +972,7 @@
     "hatenaDate": "2026-09-27T22:27:28Z",
     "users": [],
     "firstSeenAt": "2026-09-28T07:45:12.505998+09:00",
-    "lastSeenAt": "2026-09-28T23:00:15.975748+09:00"
+    "lastSeenAt": "2026-09-28T23:15:18.678470+09:00"
   },
   {
     "title": "「新しいドパ」フラッシュ暗算のように次々本の文章を出していく「RSVP」という読書手法を、AIを使って再現したらなかなか読める",
