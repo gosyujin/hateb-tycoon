@@ -109,5 +109,13 @@
     return !!rec && rec.hasComments === false;
   }
 
-  global.Visited = { markVisited, loadThreshold, saveThreshold, getReadState, hasNoComments };
+  // 前回コメントページを開いた時刻(ms)。未訪問なら null。
+  // markVisitedで上書きされるため、新着コメント判定には上書き前に取得しておくこと。
+  function getLastVisitTime(url) {
+    if (!url) return null;
+    const rec = load()[url];
+    return rec && typeof rec.time === 'number' ? rec.time : null;
+  }
+
+  global.Visited = { markVisited, loadThreshold, saveThreshold, getReadState, hasNoComments, getLastVisitTime };
 })(window);

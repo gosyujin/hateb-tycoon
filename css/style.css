@@ -541,6 +541,22 @@ main {
   color: var(--color-muted);
 }
 
+/* 前回訪問後に付いたコメント(既読管理の「更新」と同じ系統色) */
+.comment-badge-new {
+  display: inline-block;
+  padding: 0 6px;
+  margin-right: 2px;
+  border-radius: 999px;
+  background: rgba(0, 164, 222, 0.15);
+  color: var(--color-accent-dark);
+  font-size: 0.68rem;
+  font-weight: 700;
+  vertical-align: 1px;
+}
+.comment-list li.comment--new {
+  background: rgba(0, 164, 222, 0.06);
+}
+
 .layout-toggle {
   display: flex;
   gap: 6px;

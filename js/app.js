@@ -741,6 +741,25 @@
   let entryVisibleComments = [];
   let entryHiddenByFilterCount = 0;
   let entryOfflineNote = '';
+  // 前回このコメントページを開いた時刻(ms)。null(初訪問)なら新着判定はしない。
+  let entryPrevVisitTime = null;
+
+  // jsonliteのtimestamp("yyyy/MM/dd HH:mm"、JST)をmsに変換する。解釈できなければ null。
+  function parseBookmarkTimestamp(ts) {
+    const m = /^(\d{4})[/-](\d{1,2})[/-](\d{1,2})[ T](\d{1,2}):(\d{2})(?::(\d{2}))?/.exec(ts || '');
+    if (!m) return null;
+    const pad = (n) => String(n).padStart(2, '0');
+    const t = Date.parse(`${m[1]}-${pad(m[2])}-${pad(m[3])}T${pad(m[4])}:${m[5]}:${m[6] || '00'}+09:00`);
+    return Number.isNaN(t) ? null : t;
+  }
+
+  // 前回訪問より後に付いたコメントか。timestampは分単位で秒が落ちているため、
+  // 同じ分に付いたものを取りこぼさないよう1分の猶予を持たせて新着側に倒す。
+  function isNewComment(b) {
+    if (entryPrevVisitTime == null) return false;
+    const t = parseBookmarkTimestamp(b.timestamp);
+    return t != null && t + 60000 > entryPrevVisitTime;
+  }
 
   function loadCommentLayout() {
     try {
@@ -783,11 +802,13 @@
     const hiddenParts = [];
     if (entryHiddenByFilterCount > 0) hiddenParts.push(`フィルタ${entryHiddenByFilterCount}件`);
 
+    const newCount = currentComments.filter(isNewComment).length;
+    const newNote = newCount > 0 ? `・前回訪問後の新着${newCount}件` : '';
     entryStatus.textContent =
       entryOfflineNote +
       (hiddenParts.length > 0
-        ? `${currentComments.length} 件のコメントを表示中(${hiddenParts.join('・')}を非表示)`
-        : `${currentComments.length} 件のコメントを表示中`);
+        ? `${currentComments.length} 件のコメントを表示中(${hiddenParts.join('・')}を非表示${newNote})`
+        : `${currentComments.length} 件のコメントを表示中${newNote ? `(${newNote.slice(1)})` : ''}`);
 
     renderCommentList();
   }
@@ -838,6 +859,7 @@
     entryVisibleComments = [];
     entryHiddenByFilterCount = 0;
     entryOfflineNote = '';
+    entryPrevVisitTime = null;
     entryHeader.innerHTML = '';
     entryDescription.textContent = '';
     updateCommentLayoutToggleUI();
@@ -864,6 +886,8 @@
       }
 
       const commented = info.bookmarks.filter((b) => b.comment);
+      // markVisitedが訪問時刻を上書きする前に、前回の訪問時刻を控えておく。
+      entryPrevVisitTime = Visited.getLastVisitTime(url);
       Visited.markVisited(url, info.count, commented.length > 0);
 
       entryHeader.innerHTML = `
@@ -892,6 +916,8 @@
     }
   }
 
+  const NEW_COMMENT_BADGE = '<span class="comment-badge-new" title="前回このページを開いた後に付いたコメントです">NEW</span> ';
+
   function renderComment(b) {
     return commentLayout === 'rich' ? renderCommentRich(b) : renderCommentPlain(b);
   }
@@ -899,7 +925,8 @@
   function renderCommentPlain(b) {
     const date = (b.timestamp || '').split(' ')[0];
     const user = `<button type="button" class="comment-user" data-user="${escapeHtml(b.user)}">${escapeHtml(b.user)}</button>`;
-    return `<li>${user} <span class="comment-date">${escapeHtml(date)}</span> ${escapeHtml(b.comment)}</li>`;
+    const isNew = isNewComment(b);
+    return `<li${isNew ? ' class="comment--new"' : ''}>${isNew ? NEW_COMMENT_BADGE : ''}${user} <span class="comment-date">${escapeHtml(date)}</span> ${escapeHtml(b.comment)}</li>`;
   }
 
   // 実際のはてなブックマークのコメント表示に寄せたレイアウト。
@@ -912,11 +939,12 @@
     const tags = (b.tags || [])
       .map((t) => `<span class="comment-tag">${escapeHtml(t)}</span>`)
       .join('');
+    const isNew = isNewComment(b);
     return `
-      <li class="comment--rich">
+      <li class="comment--rich${isNew ? ' comment--new' : ''}">
         <img class="comment-icon" src="${escapeHtml(iconUrl)}" alt="" loading="lazy" width="32" height="32">
         <div class="comment-rich-body">
-          <div class="comment-rich-line1">${user} ${escapeHtml(b.comment)}</div>
+          <div class="comment-rich-line1">${isNew ? NEW_COMMENT_BADGE : ''}${user} ${escapeHtml(b.comment)}</div>
           <div class="comment-rich-line2">
             <span class="comment-date">${escapeHtml(date)}</span>
             ${tags ? `<span class="comment-tags">${tags}</span>` : ''}
