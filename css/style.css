@@ -44,6 +44,8 @@ a:hover {
 .app-title {
   margin: 0;
   font-size: 1.25rem;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 .app-title a {
   color: var(--color-text);
@@ -830,6 +832,13 @@ main {
 }
 
 @media (max-width: 640px) {
+  .app-header {
+    gap: 8px;
+    padding: 10px 10px;
+  }
+  .app-title {
+    font-size: 1.05rem;
+  }
   .tab {
     padding: 5px 6px;
     font-size: 0.72rem;
