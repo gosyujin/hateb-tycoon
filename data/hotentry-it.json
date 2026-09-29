@@ -1,29 +1,42 @@
 [
   {
+    "title": "OpenAIの中で何が起きているのかをセキュリティ担当者が説明、AIラボには「合理的なパラノイアの文化」が必要",
+    "url": "https://gigazine.net/news/20260929-openai-security-surprise/",
+    "domain": "gigazine.net",
+    "count": 6,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260929-openai-security-surprise/",
+    "screenshot": "https://i.gzn.jp/img/2026/09/29/openai-security-surprise/00.jpg",
+    "description": "OpenAIのAIエージェントが、オーストラリア政府機関のシステムをハッキングしたり、国連のウェブサイトにブルートフォース攻撃(総当たり攻撃)を試みたり、アメリカの教育省・商務省・証券取引委員会のサイトに干渉していたりと、複数のインシデントが繰り返し報告されています。OpenAIでセキュリティ担当を務める人物が...",
+    "hatenaDate": "2026-09-29T06:13:22Z",
+    "users": [],
+    "firstSeenAt": "2026-09-30T08:33:01.565096+09:00",
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
+  },
+  {
     "title": "OpenAI DevDay 2026 発表まとめ",
     "url": "https://zenn.dev/schroneko/articles/openai-devday-2026",
     "domain": "zenn.dev",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/schroneko/articles/openai-devday-2026",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--z_7FVyRV--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:OpenAI%2520DevDay%25202026%2520%25E7%2599%25BA%25E8%25A1%25A8%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25AC%25E3%2581%2593%25E3%2581%25AC%25E3%2581%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzE4ZDE4NWExYTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "tl;dr dots が公開されたよ GPT‑6.1 Sol が公開されたよ Codex クラウドが公開されたよ サムアルトマン氏のキーノート dots の発表 dots はあらゆるタスクに対応するよう設計された稼働するエージェント。GPT-6 Astra を裏では使っており、専用のクラウド上のコンピューターを持ち、フィードバックから継続的に学び、与...",
     "hatenaDate": "2026-09-29T21:28:47Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:30:12.828905+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "【速報】「Windows 11 2026 Update」（バージョン 26H2）の一般提供が開始／「バージョン 24H2/25H2」からは切り替えパッチ「eKB」で",
     "url": "https://forest.watch.impress.co.jp/docs/news/2144293.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2144293.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2144/293/windows11.jpg",
     "description": null,
     "hatenaDate": "2026-09-29T21:36:55Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:30:12.828905+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "GitHub を使う上で知っておくと嬉しいかも Tips 2026 | ドクセル",
@@ -36,33 +49,33 @@
     "hatenaDate": "2026-09-29T10:53:52Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:30:12.828905+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "OpenAI、「24時間働く」エージェント「dots」発表　Astra搭載、クラウド上で常時稼働",
     "url": "https://www.itmedia.co.jp/aiplus/article/2609/30/2000001864/",
     "domain": "www.itmedia.co.jp",
-    "count": 14,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2609/30/2000001864/",
     "screenshot": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/30/2000001864/10007929/2048",
     "description": "米OpenAIは9月29日（現地時間）、常時稼働エージェント機能「dots」を発表した。同社のAIモデル「GPT-6 Astra」を搭載し、ユーザーが設定した目標に応じて、クラウド上のコンピュータで24時間自律的に稼働するとうたう。",
     "hatenaDate": "2026-09-29T18:51:02Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:15:15.249576+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "「証明」によりAIの誤りを阻止しGPU上で動作する高速プログラミング言語「Bend」、C言語並みの処理速度・CUDAによる並列処理・Leanによる形式的証明・Python風の構文",
     "url": "https://gigazine.net/news/20260930-bend-lang/",
     "domain": "gigazine.net",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260930-bend-lang/",
     "screenshot": "https://i.gzn.jp/img/2026/09/30/bend-lang/00.jpg",
     "description": "「Bend」はAIが犯すかもしれない誤りを「証明」によってブロックすることを目指す新たなプログラミング言語です。 Bend https://bend-lang.com/ BendはポストAGIの経済社会において人間がコードの記述や読解から解放される未来を見据え、AIに対して意図を明確に伝えるための手段として開発されました。Bendは「法律(Laws...",
     "hatenaDate": "2026-09-29T21:04:47Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:15:15.249576+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "IIJ Bootcamp 2026 – AI時代にハンズオン研修で学んでほしいこと | IIJ Engineers Blog",
@@ -75,7 +88,7 @@
     "hatenaDate": "2026-09-28T05:07:01Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:00:13.650427+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "GitHub - mizchi/explainer",
@@ -88,7 +101,7 @@
     "hatenaDate": "2026-09-29T19:12:08Z",
     "users": [],
     "firstSeenAt": "2026-09-30T07:30:15.129444+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "BedrockのClaudeに暗黙的なプロンプトキャッシュが登場！！とドキュメントにある（暗黙的とは？） - Qiita",
@@ -101,7 +114,7 @@
     "hatenaDate": "2026-09-29T14:26:40Z",
     "users": [],
     "firstSeenAt": "2026-09-30T06:23:45.127822+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "「Microsoft Learn」の公開ドキュメントリポジトリ、多くが年内に終了へ／廃止対象では「GitHub」経由の修正提案ができなくなる",
@@ -114,7 +127,7 @@
     "hatenaDate": "2026-09-29T10:57:35Z",
     "users": [],
     "firstSeenAt": "2026-09-30T06:00:10.712791+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "Git 2.56.0の新機能とGit 3.0リリース計画の概要",
@@ -127,7 +140,7 @@
     "hatenaDate": "2026-09-29T02:04:47Z",
     "users": [],
     "firstSeenAt": "2026-09-30T05:00:16.756135+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "[石川温の「スマホ業界 Watch」] 揺れる「フラグシップスマホ」の定義――多様化するニーズと最上位モデルの現在地",
@@ -140,7 +153,7 @@
     "hatenaDate": "2026-09-28T15:01:33Z",
     "users": [],
     "firstSeenAt": "2026-09-30T04:45:13.499815+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "Nothingが「Headphone (1) Pro」を発表、3種のドライバー内蔵＆ノイキャン対応＆無線有線両対応などなど高機能で6万4800円",
@@ -153,7 +166,7 @@
     "hatenaDate": "2026-09-29T04:43:53Z",
     "users": [],
     "firstSeenAt": "2026-09-30T03:30:14.807168+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "GitHub - firelex/jeff: Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
@@ -179,7 +192,7 @@
     "hatenaDate": "2026-09-29T12:43:57Z",
     "users": [],
     "firstSeenAt": "2026-09-30T01:45:13.064078+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "「クロネコ代金後払いサービス」への不正アクセスの発生について | ヤマトホールディングス株式会社",
@@ -205,7 +218,7 @@
     "hatenaDate": "2026-09-29T04:55:55Z",
     "users": [],
     "firstSeenAt": "2026-09-30T01:15:14.449594+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "無料でJev互換の小型高速意思決定モデル「Jeff」、ローカル環境で約22～28ミリ秒と爆速",
@@ -218,7 +231,7 @@
     "hatenaDate": "2026-09-29T13:04:44Z",
     "users": [],
     "firstSeenAt": "2026-09-30T00:30:14.450432+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "Microsoft Copilotにアップロードした画像は人間が確認している、性的な画像などセンシティブな内容もレビュー対象に",
@@ -231,7 +244,7 @@
     "hatenaDate": "2026-09-29T09:28:57Z",
     "users": [],
     "firstSeenAt": "2026-09-30T00:30:14.450432+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "AI臭い文章とは何なのか",
@@ -244,7 +257,7 @@
     "hatenaDate": "2026-09-29T12:36:51Z",
     "users": [],
     "firstSeenAt": "2026-09-30T00:30:14.450432+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "タイムズカー 免許画像など漏えいは160万件“悪用に警戒を” | NHKニュース",
@@ -270,7 +283,7 @@
     "hatenaDate": "2026-09-29T12:04:53Z",
     "users": [],
     "firstSeenAt": "2026-09-30T00:15:15.249750+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "Google、東京大学・松尾/岩澤研究室による自治体における生成AI活用事例を紹介",
@@ -322,7 +335,7 @@
     "hatenaDate": "2026-09-29T10:35:27Z",
     "users": [],
     "firstSeenAt": "2026-09-29T23:15:13.514423+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "パーク24、運転免許証画像など情報流出数は160万件 - 日本経済新聞",
@@ -335,7 +348,7 @@
     "hatenaDate": "2026-09-29T13:12:57Z",
     "users": [],
     "firstSeenAt": "2026-09-29T23:00:13.916231+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "セイコーマート 不正アクセスで約57万アカウント漏えいか | NHKニュース",
@@ -400,7 +413,7 @@
     "hatenaDate": "2026-09-29T09:47:30Z",
     "users": [],
     "firstSeenAt": "2026-09-29T22:15:16.453092+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "「その日」をパークのみんなで楽しむ。新機能「カレンダー」の使い方＆活用アイデア - はてなパークス開発ブログ",
@@ -419,14 +432,14 @@
     "title": "「タイムズカーWebサイト」への不正アクセスに関する調査結果および今後の対応について（第3報） | カーシェアリングのタイムズカー",
     "url": "https://share.timescar.jp/news/2026/0929/1816.html",
     "domain": "share.timescar.jp",
-    "count": 232,
+    "count": 233,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/share.timescar.jp/news/2026/0929/1816.html",
     "screenshot": null,
     "description": "2026年9月25日に公表いたしました『「タイムズカーWebサイト」への不正アクセスによる個人情報漏えいの可能性について（第1報）』に関し、その後の調査により現時点で判明している内容をご報告いたします。 第1報はこちら 第2報はこちら 会員の皆様ならびに関係者の皆様に、多大なるご迷惑とご心配をお掛けしております...",
     "hatenaDate": "2026-09-29T11:48:26Z",
     "users": [],
     "firstSeenAt": "2026-09-29T22:00:51.637817+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "AI時代にはこれまで以上に「顔の良さ」が重要になる可能性がある、AIは人間以上に顔の偏見が強いため",
@@ -458,14 +471,14 @@
     "title": "IIJ、新人エンジニア向け研修教材を無料公開　Web技術の基礎から生成AI活用まで20講義超",
     "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001854/",
     "domain": "www.itmedia.co.jp",
-    "count": 406,
+    "count": 408,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/29/2000001854/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/29/2000001854/10007888/2048",
     "description": "インターネットイニシアティブ（IIJ）は9月28日、新人エンジニア向けハンズオン研修「IIJ Bootcamp」の2026年度版資料を公式エンジニアブログで紹介した。資料は社内限定の一部を除いて専用サイトで無料公開している。 IIJ Bootcampは、同社の有志が講師となって19年度から毎年開いている研修。IT系のどの分野でも必要に...",
     "hatenaDate": "2026-09-29T11:47:47Z",
     "users": [],
     "firstSeenAt": "2026-09-29T21:30:17.184047+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "GoogleBookが話題なので前身ChromeOSのLinux環境のこと書いておく",
@@ -478,7 +491,7 @@
     "hatenaDate": "2026-09-22T09:27:27Z",
     "users": [],
     "firstSeenAt": "2026-09-29T21:15:16.326889+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開　特定のLLMに依存せず入れ替え可能",
@@ -504,7 +517,7 @@
     "hatenaDate": "2026-09-29T04:00:21Z",
     "users": [],
     "firstSeenAt": "2026-09-29T21:00:13.620136+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "AI開発時代だからこそ、テストの役割を見つめ直す",
@@ -530,7 +543,7 @@
     "hatenaDate": "2026-09-29T07:52:04Z",
     "users": [],
     "firstSeenAt": "2026-09-29T20:00:50.844380+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "ChromeOSの後継Googlebook OSはウンコ💩やで",
@@ -543,7 +556,7 @@
     "hatenaDate": "2026-09-29T07:57:49Z",
     "users": [],
     "firstSeenAt": "2026-09-29T19:30:16.223401+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "一部のiOS端末で多数のアプリが異常終了 報告相次ぐ | NewsDigest",
@@ -621,7 +634,7 @@
     "hatenaDate": "2026-09-29T05:06:00Z",
     "users": [],
     "firstSeenAt": "2026-09-29T18:15:12.271521+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "セイコーマート、不正アクセスで約57万アカウントの会員情報漏えいの可能性",
@@ -666,14 +679,14 @@
     "title": "免許証画像が漏れると何が“ヤバい”のか　タイムズカーで最大約660万件の個人情報漏えいで考えられる「3つのリスク」",
     "url": "https://www.itmedia.co.jp/mobile/articles/2609/29/news085.html",
     "domain": "www.itmedia.co.jp",
-    "count": 375,
+    "count": 376,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2609/29/news085.html",
     "screenshot": "https://image.itmedia.co.jp/mobile/articles/2609/29/cover_news085.png",
     "description": "パーク24グループが運営するカーシェアリングサービス「タイムズカー」で、最大約660万件に上るとされる大規模な個人情報流出が発生した。流出したデータの中には、氏名や住所といった基本情報だけでなく、「運転免許証の画像」などの本人確認書類が含まれている可能性があり、影響の大きさが懸念されている。 本記事で...",
     "hatenaDate": "2026-09-29T07:41:33Z",
     "users": [],
     "firstSeenAt": "2026-09-29T17:45:14.316401+09:00",
-    "lastSeenAt": "2026-09-30T08:30:12.828905+09:00"
+    "lastSeenAt": "2026-09-30T08:33:01.565096+09:00"
   },
   {
     "title": "「Claude Marketplace」公開、2千超の連携ツールとAI製品を集約",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-09-26T15:15:13.192864+09:00",
     "lastSeenAt": "2026-09-26T21:00:13.469365+09:00"
-  },
-  {
-    "title": "DHHはRailsを捨てたのか？｜laiso",
-    "url": "https://sizu.me/laiso/posts/ut6i125ew44m",
-    "domain": "sizu.me",
-    "count": 155,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/sizu.me/laiso/posts/ut6i125ew44m",
-    "screenshot": "https://static.sizu.me/api/og-image/2445628bdfdc?avatarUrl=https%3A%2F%2Fr2.sizu.me%2Fusers%2F111%2Favatar.png%3Fv%3D1706609408235&theme=user&username=laiso",
-    "description": "DHHという、ドパガキの王みたいなインフルエンサーがいるんですけど、今週、Ruby on Railsのカンファレンス「Rails World」での講演が話題になっていました。観てない方は是非今見てください。日本語字幕もつけられます。 この講演が刺激的だったのは、Railsのカンファレンスでオリジナル作者本人がAIエージェントによる...",
-    "hatenaDate": "2026-09-26T05:33:53Z",
-    "users": [],
-    "firstSeenAt": "2026-09-26T15:15:13.192864+09:00",
-    "lastSeenAt": "2026-09-27T08:45:12.722437+09:00"
   }
 ]
