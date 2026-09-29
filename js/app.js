@@ -761,6 +761,17 @@
     return t != null && t + 60000 > entryPrevVisitTime;
   }
 
+  // 前回訪問時点で既に付いていたコメント(=既読)。一覧のグレーアウトと同じ扱いにする。
+  // 初訪問(比較対象なし)や時刻が解釈できないものはグレーアウトしない。
+  function isReadComment(b) {
+    return entryPrevVisitTime != null && parseBookmarkTimestamp(b.timestamp) != null && !isNewComment(b);
+  }
+
+  // 行に付けるクラス(新着はバッジのみで装飾なし、既読はグレーアウト)。
+  function commentStateClass(b) {
+    return isReadComment(b) ? ' comment--read' : '';
+  }
+
   function loadCommentLayout() {
     try {
       return localStorage.getItem(COMMENT_LAYOUT_KEY) === 'rich' ? 'rich' : 'plain';
@@ -926,7 +937,8 @@
     const date = (b.timestamp || '').split(' ')[0];
     const user = `<button type="button" class="comment-user" data-user="${escapeHtml(b.user)}">${escapeHtml(b.user)}</button>`;
     const isNew = isNewComment(b);
-    return `<li${isNew ? ' class="comment--new"' : ''}>${isNew ? NEW_COMMENT_BADGE : ''}${user} <span class="comment-date">${escapeHtml(date)}</span> ${escapeHtml(b.comment)}</li>`;
+    const stateClass = commentStateClass(b);
+    return `<li${stateClass ? ` class="${stateClass.trim()}"` : ''}>${isNew ? NEW_COMMENT_BADGE : ''}${user} <span class="comment-date">${escapeHtml(date)}</span> ${escapeHtml(b.comment)}</li>`;
   }
 
   // 実際のはてなブックマークのコメント表示に寄せたレイアウト。
@@ -941,7 +953,7 @@
       .join('');
     const isNew = isNewComment(b);
     return `
-      <li class="comment--rich${isNew ? ' comment--new' : ''}">
+      <li class="comment--rich${commentStateClass(b)}">
         <img class="comment-icon" src="${escapeHtml(iconUrl)}" alt="" loading="lazy" width="32" height="32">
         <div class="comment-rich-body">
           <div class="comment-rich-line1">${isNew ? NEW_COMMENT_BADGE : ''}${user} ${escapeHtml(b.comment)}</div>

@@ -541,7 +541,8 @@ main {
   color: var(--color-muted);
 }
 
-/* 前回訪問後に付いたコメント(既読管理の「更新」と同じ系統色) */
+/* 前回訪問後に付いたコメントは「NEW」バッジのみ(一覧の「更新」と同様、
+   グレーアウトを外して目立たせる)。前回訪問時点で既にあったコメントはグレーアウト。 */
 .comment-badge-new {
   display: inline-block;
   padding: 0 6px;
@@ -553,8 +554,9 @@ main {
   font-weight: 700;
   vertical-align: 1px;
 }
-.comment-list li.comment--new {
-  background: rgba(0, 164, 222, 0.06);
+.comment-list li.comment--read {
+  opacity: 0.6;
+  filter: grayscale(100%);
 }
 
 .layout-toggle {
