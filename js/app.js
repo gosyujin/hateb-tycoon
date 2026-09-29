@@ -1451,8 +1451,36 @@
     });
   }
 
+  // ---- 起動時のGist自動インポート ----
+  // フィルタインポートでGistのURLを登録済みなら、最初の描画前に取り込んで最新のミュート設定で
+  // 一覧を出す。オフライン等で応答が遅くても起動を待たせないよう、待つのは最大でタイムアウトまで。
+  const STARTUP_IMPORT_TIMEOUT_MS = 3000;
+
+  async function importGistOnStartup(kind) {
+    const url = normalizeGistRawUrl(getImportUrl(kind));
+    if (!gistRawUrlToPageUrl(url)) return;
+    const res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) return;
+    const { rules, errors } = parseImportCsv(await res.text());
+    // 手動インポートと同様、1行でも不正なら何も取り込まない
+    if (errors.length > 0) return;
+    Filters.importRules(kind, rules);
+  }
+
+  async function importGistsOnStartup() {
+    const all = Promise.all(
+      Filters.KINDS.map((kind) =>
+        importGistOnStartup(kind).catch((err) => {
+          console.warn('[startup-import] failed', kind, err);
+        })
+      )
+    );
+    const timeout = new Promise((resolve) => setTimeout(resolve, STARTUP_IMPORT_TIMEOUT_MS));
+    await Promise.race([all, timeout]);
+  }
+
   // ---- 初期化 ----
   updateListLayoutToggleUI();
   renderFooter();
-  render();
+  importGistsOnStartup().then(render);
 })();
