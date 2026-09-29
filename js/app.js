@@ -532,6 +532,14 @@
       (observerEntries) => {
         if (observerEntries.some((e) => e.isIntersecting)) {
           renderNextPage();
+          // IntersectionObserverは「交差状態が変わった時」しか発火しない。追加した
+          // 分だけではsentinelがrootMargin内に残る(画面が縦に長い・行が低い等)と
+          // 二度と発火せず継ぎ足しが止まるため、監視し直して現在の状態で再判定させる。
+          const sentinel = document.getElementById('scroll-sentinel');
+          if (sentinel && scrollObserver) {
+            scrollObserver.unobserve(sentinel);
+            scrollObserver.observe(sentinel);
+          }
         }
       },
       { rootMargin: '600px' }
