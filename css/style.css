@@ -489,6 +489,18 @@ main {
   color: var(--color-muted);
 }
 
+.entry-hatena-link {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: var(--color-accent-dark);
+  cursor: pointer;
+}
+.entry-hatena-link:hover {
+  text-decoration: underline;
+}
+
 .entry-description {
   margin: 0 0 8px;
   padding: 6px 12px;

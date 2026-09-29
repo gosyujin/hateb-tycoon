@@ -914,8 +914,13 @@
         <div class="entry-meta">
           <span>${escapeHtml(info.domain)}</span>
           <span>${info.count} users</span>
-          ${info.entryUrl ? `<a href="${escapeHtml(info.entryUrl)}" target="_blank" rel="noopener noreferrer">はてなブックマークページ →</a>` : ''}
+          ${info.entryUrl ? `<button type="button" class="entry-hatena-link">はてなブックマークページ →</button>` : ''}
         </div>`;
+      // href付きの<a>だとiOS Safariのコンテンツブロッカーに隠されるため、ボタン+window.openにしている
+      const hatenaBtn = entryHeader.querySelector('.entry-hatena-link');
+      if (hatenaBtn) {
+        hatenaBtn.addEventListener('click', () => window.open(info.entryUrl, '_blank', 'noopener,noreferrer'));
+      }
 
       const visible = commented.filter(
         (b) => !Filters.isHidden({ title: info.title, domain: info.domain, user: b.user, comment: b.comment })
