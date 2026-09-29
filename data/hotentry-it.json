@@ -1,5 +1,18 @@
 [
   {
+    "title": "【スポンサー募集開始】Uber・Vercelなど「AIで価値を生み出す」をテーマに最新事例を共有。「AI Engineering Summit Tokyo 2026」今冬も開催！",
+    "url": "https://prtimes.jp/main/html/rd/p/000000272.000045379.html",
+    "domain": "prtimes.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/prtimes.jp/main/html/rd/p/000000272.000045379.html",
+    "screenshot": "https://prcdn.freetls.fastly.net/release_image/45379/272/45379-272-067927b210765a8a274fe567c54b0b82-1360x716.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "description": "【スポンサー募集開始】Uber・Vercelなど「AIで価値を生み出す」をテーマに最新事例を共有。「AI Engineering Summit Tokyo 2026」今冬も開催！〜今年6月は4,700名超が申し込み。2026年12月14日・15日＠東京・浜松町で開催〜 エンジニアプラットフォームを提供するファインディ株式会社（東京都品川区、代表取締役：山田...",
+    "hatenaDate": "2026-09-29T01:55:11Z",
+    "users": [],
+    "firstSeenAt": "2026-09-29T11:15:14.208254+09:00",
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
+  },
+  {
     "title": "What's new in Git 2.56.0?",
     "url": "https://about.gitlab.com/blog/whats-new-in-git-2-56-0/",
     "domain": "about.gitlab.com",
@@ -10,72 +23,72 @@
     "hatenaDate": "2026-09-29T00:14:11Z",
     "users": [],
     "firstSeenAt": "2026-09-29T11:00:13.538294+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "AIで要件定義を実践して分かった、大量のアウトプットを捌くための\"問い\"の作り方 - Tabelog Tech Blog",
     "url": "https://tech-blog.tabelog.com/entry/ai-requirements-definition-with-questions",
     "domain": "tech-blog.tabelog.com",
-    "count": 6,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech-blog.tabelog.com/entry/ai-requirements-definition-with-questions",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/1e03e684ca003fcb23bfd6a230407821c8fb3a71/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftabelog_tech_blog%2F20260924%2F20260924103924.png",
     "description": "目次 はじめに 規模が大きいほど、要件定義は大変になる まずはAIに要件定義書を一括で書かせてみた 「書かせる」のをやめて「問わせる」ことにした AIからの問いが多すぎる いま答えるべき問いにフォーカスする 問いの出し方とタグ付け基準をルール化する AIへの指示の出し方 要件定義以降もスムーズになった 判断の根...",
     "hatenaDate": "2026-09-28T02:57:17Z",
     "users": [],
     "firstSeenAt": "2026-09-29T11:00:13.538294+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "Jujutsu と出会い、15 年使った Git にもう戻れなくなった理由",
     "url": "https://zenn.dev/oukayuka/articles/15years-git-then-jujutsu",
     "domain": "zenn.dev",
-    "count": 15,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/oukayuka/articles/15years-git-then-jujutsu",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--LShNO1fJ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Jujutsu%2520%25E3%2581%25A8%25E5%2587%25BA%25E4%25BC%259A%25E3%2581%2584%25E3%2580%258115%2520%25E5%25B9%25B4%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%2520Git%2520%25E3%2581%25AB%25E3%2582%2582%25E3%2581%2586%25E6%2588%25BB%25E3%2582%258C%25E3%2581%25AA%25E3%2581%258F%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E7%2590%2586%25E7%2594%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:oukayuka%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2E1MDUwMjcxNTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "2026 年、初めて自分の意思で VCS を選択した ふりかえると私にとって VCS（バージョン管理システム）は、会社に指定されたものを使ってきただけでした。それまでの会社では社内にサーバを立てて Subversion を使うことが多かった中、2011 年から働き出した会社では GitHub が導入されており、そのため個々のエンジニア...",
     "hatenaDate": "2026-09-28T23:36:42Z",
     "users": [],
     "firstSeenAt": "2026-09-29T10:45:12.974300+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "Apple、「iOS 27.0.1」「iPadOS 27.0.1」を公開 ～iPhone 18 Proの再起動やタッチ不能を修正／「iOS 27」「iPadOS 27」初のマイナーアップデート",
     "url": "https://forest.watch.impress.co.jp/docs/news/2143917.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 5,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2143917.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2143/917/ios27.jpg",
     "description": null,
     "hatenaDate": "2026-09-28T23:22:59Z",
     "users": [],
     "firstSeenAt": "2026-09-29T10:45:12.974300+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "【西川和久の不定期コラム】 LLMに喋らせてパースする必要なし？判断だけ返すAI「Jev」を試した",
     "url": "https://pc.watch.impress.co.jp/docs/column/nishikawa/2143909.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 5,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/nishikawa/2143909.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2143/909/C00.jpg",
     "description": null,
     "hatenaDate": "2026-09-28T22:33:28Z",
     "users": [],
     "firstSeenAt": "2026-09-29T10:45:12.974300+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "Anthropic、「Claude Sonnet 5.5」を発表 ～30％以上高速に、コストは最大30％減／「Claude 5.5」ファミリーの第2弾。ベンチマークによっては「Opus 5.5」に迫る",
     "url": "https://forest.watch.impress.co.jp/docs/news/2143923.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2143923.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2143/923/claude.jpg",
     "description": null,
     "hatenaDate": "2026-09-28T22:26:21Z",
     "users": [],
     "firstSeenAt": "2026-09-29T10:30:14.234425+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "カカクコム、KDDIとの資本提携を解消　TOBで資本構造が変化　業務提携は継続",
@@ -94,66 +107,66 @@
     "title": "【やじうまミニレビュー】 ケーブルを抜けばモバイルバッテリに、無印良品の65W・4ポート充電器を試す",
     "url": "https://pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2143546.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 11,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2143546.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2143/546/01.jpg",
     "description": null,
     "hatenaDate": "2026-09-29T00:02:48Z",
     "users": [],
     "firstSeenAt": "2026-09-29T10:15:13.381697+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "エンジニアに抽象的に考える力が必要な理由ー課題を見つけるための私の習慣 - MonotaRO Tech Blog",
     "url": "https://tech-blog.monotaro.com/entry/2026/09/29/090000",
     "domain": "tech-blog.monotaro.com",
-    "count": 20,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech-blog.monotaro.com/entry/2026/09/29/090000",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/11954c107ffeaebe62336368e28a2c39cb111848/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fm%2Fmonotaro-tech-blog%2F20260925%2F20260925130003.png",
     "description": "こんにちは。MonotaROでWeb広告運用を効率化・自動化するためのシステム開発を担当している、広告システムチームの早川です。 会社で目標設定を行っている方、あるいは問題提起や仮説の検討に取り組んでいる方の中には、考えていることをうまく言語化できずに苦戦している方も少なからずいらっしゃるのではないでしょう...",
     "hatenaDate": "2026-09-29T00:17:38Z",
     "users": [],
     "firstSeenAt": "2026-09-29T10:15:13.381697+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "【特集】 暇すぎるNPUに「DOOM動く？」と聞いたら、Claudeが掛け算の暴力で動かした話",
     "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2142551.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 24,
+    "count": 28,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/topic/feature/2142551.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2142/551/1.png",
     "description": null,
     "hatenaDate": "2026-09-28T21:52:25Z",
     "users": [],
     "firstSeenAt": "2026-09-29T10:00:13.485496+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "「東京駅でつながりにくい」、それでも楽天モバイルを辞めない理由――ユーザー座談会で見えた“納得の割り切り”",
     "url": "https://k-tai.watch.impress.co.jp/docs/news/2143801.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2143801.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2143/801/rktn.jpg",
     "description": null,
     "hatenaDate": "2026-09-28T17:45:18Z",
     "users": [],
     "firstSeenAt": "2026-09-29T09:45:13.229198+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "[みんなのケータイ]PayPayカードが不正使用された！",
     "url": "https://k-tai.watch.impress.co.jp/docs/column/minna/2143868.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 14,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/column/minna/2143868.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2143/868/ip17pm-3a.jpg",
     "description": null,
     "hatenaDate": "2026-09-28T15:02:22Z",
     "users": [],
     "firstSeenAt": "2026-09-29T09:45:13.229198+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "aws-actions/configure-aws-credentials で AWS アカウント ID をマスキングできる mask-aws-account-id - kakakakakku blog",
@@ -172,53 +185,53 @@
     "title": "別会社の開発チームに AWS 環境を共有するのって大変だ",
     "url": "https://zenn.dev/dress_code/articles/f89590d105ba5f",
     "domain": "zenn.dev",
-    "count": 23,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/dress_code/articles/f89590d105ba5f",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--Qiq06Atj--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2588%25A5%25E4%25BC%259A%25E7%25A4%25BE%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%25E3%2581%25AB%2520AWS%2520%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E5%2585%25B1%25E6%259C%2589%25E3%2581%2599%25E3%2582%258B%25E3%2581%25AE%25E3%2581%25A3%25E3%2581%25A6%25E5%25A4%25A7%25E5%25A4%2589%25E3%2581%25A0%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:shinoda%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRiOGMxZmU1MDUuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:DRESS%2520CODE%2520TECH%2520BLOG%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzliYjdlODc0YzIuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "別会社の開発チームに AWS を触ってもらいたいとき、どうしてますか？ DRESS CODE（弊社のプロダクト）の開発にはパートナー企業のエンジニアにも参加してもらっているのですが、デプロイは GitHub Actions が全部やってくれるので、AWS の権限を渡さなくても開発は回ります。しかし、動作検証のフェーズにおいては「DB ...",
     "hatenaDate": "2026-09-28T13:30:58Z",
     "users": [],
     "firstSeenAt": "2026-09-29T09:30:14.942099+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "オランダとフランスの政府機関が脱アメリカ依存を目指してLinuxベースのNixOSを採用する動きを進めている",
     "url": "https://gigazine.net/news/20260929-dawo-securix-linux-nixos/",
     "domain": "gigazine.net",
-    "count": 15,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260929-dawo-securix-linux-nixos/",
     "screenshot": "https://i.gzn.jp/img/2026/09/29/dawo-securix-linux-nixos/00.jpg",
     "description": "ヨーロッパの政府機関ではアメリカ製のOSやクラウドサービスへの依存からの脱却を目指す動きが進んでいます。こうした動きの一環として、オランダとフランスでLinuxベースのNixOSを採用する取り組みが進んでいます。 DAWO.community https://www.dawo.community/en/ What is Sécurix? - Sécurix https://cloud-gouv.gith...",
     "hatenaDate": "2026-09-28T22:06:54Z",
     "users": [],
     "firstSeenAt": "2026-09-29T09:15:14.971007+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "ソフトバンク、業界最小45cm幅を走れる配膳ロボ「Servi Q」　バック走行も可能に",
     "url": "https://www.watch.impress.co.jp/docs/news/2143854.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 26,
+    "count": 28,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2143854.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2143/854/01.jpg",
     "description": null,
     "hatenaDate": "2026-09-28T22:30:15Z",
     "users": [],
     "firstSeenAt": "2026-09-29T08:45:13.288910+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "普通のサイトを見ていただけなのに「ウイルス感染」の表示が閉じられない！ 「サポート詐欺」の画面を閉じる方法　突然親から「ネットを使っていたら変な画面が出て消えないんだけど」と電話がかかってきたら…？",
     "url": "https://internet.watch.impress.co.jp/docs/special/2143427.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 50,
+    "count": 54,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/special/2143427.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2143/427/rss.jpg",
     "description": null,
     "hatenaDate": "2026-09-28T22:05:37Z",
     "users": [],
     "firstSeenAt": "2026-09-29T08:45:13.288910+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "Anthropic、「Claude Sonnet 5.5」公開　料金据え置きで30％以上高速化、タスク当たりコスト最大3割減",
@@ -231,20 +244,20 @@
     "hatenaDate": "2026-09-28T22:06:17Z",
     "users": [],
     "firstSeenAt": "2026-09-29T08:30:13.123396+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "AIでクオリティが落ちた外注さんが、自分では気づけてないという怖い話｜片山良平＠Eldipa代表、paiza創業者",
     "url": "https://note.com/rk611/n/n56e6db823eb1",
     "domain": "note.com",
-    "count": 132,
+    "count": 146,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/rk611/n/n56e6db823eb1",
     "screenshot": "https://assets.st-note.com/production/uploads/images/315969728/rectangle_large_type_2_bdc2e230ad54ec19fe2965dea586c63b.png?fit=bounds&quality=85&width=1280",
     "description": "先日会食で聞いた怖い話。 ある企業から依頼している外注さんが、AIを使い始めてから明らかにクオリティが下がっており、AIを使うなとも言いづらいし、修正依頼するもいまいち噛み合わず、やりづらいので終了しようと思う、という話でした。 気になったのはその先で、話を聞く限り、どうもその外注の方はAI使ってクオリ...",
     "hatenaDate": "2026-09-28T03:45:29Z",
     "users": [],
     "firstSeenAt": "2026-09-29T08:30:13.123396+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "Yahoo!きっずサービス終了のお知らせ（先生、保護者のみなさまへ） - Yahoo!きっずからのお知らせ - Yahoo!きっず",
@@ -257,46 +270,46 @@
     "hatenaDate": "2026-09-28T21:28:12Z",
     "users": [],
     "firstSeenAt": "2026-09-29T08:00:12.557546+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "タイムズカーWebサイトへの不正アクセスについてまとめてみた - piyolog",
     "url": "https://piyolog.hatenadiary.jp/entry/2026/09/28/214857",
     "domain": "piyolog.hatenadiary.jp",
-    "count": 88,
+    "count": 94,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/09/28/214857",
     "screenshot": "https://ogimage.blog.st-hatena.com/10257846132616586766/14945776032083575597/1790599737",
     "description": "2026年9月25日、タイムズモビリティとパーク24は、カーシェアリングサービス「タイムズカー」のWebサイトが不正アクセスを受け、会員の個人情報が外部に漏えいした可能性があると公表しました。その後の調査で、対象システムに保存されていた会員情報の一部が第三者に取得されたことが判明しています。ここでは関連する...",
     "hatenaDate": "2026-09-28T14:43:54Z",
     "users": [],
     "firstSeenAt": "2026-09-29T07:45:14.506396+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "NRアプリへの不正アクセスによる会員情報漏えいに関するお詫びとお知らせ|ニッポンレンタカー",
     "url": "https://www.nipponrentacar.co.jp/info/202609.html",
     "domain": "www.nipponrentacar.co.jp",
-    "count": 51,
+    "count": 53,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nipponrentacar.co.jp/info/202609.html",
     "screenshot": null,
     "description": "2026年9月26日（土） このたび、ニッポンレンタカーサービス株式会社が運営する「ニッポンレンタカーアプリ」のシステムに対し、第三者による不正アクセスが発生し、会員様の情報が不正に閲覧されたおそれのあることを確認いたしました。 本件の対象となる会員様は41名であり、閲覧されたおそれのある情報は、氏名・電話...",
     "hatenaDate": "2026-09-28T17:03:58Z",
     "users": [],
     "firstSeenAt": "2026-09-29T07:45:14.506396+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "職種の境界が溶けた先、プロダクトマネージャーはどこへ行くのか──ログラス・Ubie・RightTouchが出した3つの答え",
     "url": "https://codezine.jp/article/detail/29771",
     "domain": "codezine.jp",
-    "count": 21,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/codezine.jp/article/detail/29771",
     "screenshot": "https://codezine.jp/static/images/article/29771/29771_2283_ogp.jpg",
     "description": "AIによって「作る」コストが下がり、プロダクトづくりの職種の境界は溶けていく。8月31日にログラスが開いた公開イベントで、登壇した3社はこの前提を共有していた。一方で、溶けた先にプロダクトマネージャーが向かう先として示した答えは、3社ばらばらだった。ログラスは「事業責任者になる」、Ubieは「作る側に戻る」...",
     "hatenaDate": "2026-09-28T01:23:48Z",
     "users": [],
     "firstSeenAt": "2026-09-29T07:30:12.818968+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "GitHub - awslabs/aws-service-eol-data: Machine-readable JSON dataset of AWS service version end-of-support and extended-support dates across EKS, RDS, Aurora, Lambda, ElastiCache, OpenSearch, MSK, Amazon MQ, and DocumentDB. Each entry includes lifecycle s",
@@ -309,7 +322,7 @@
     "hatenaDate": "2026-09-25T11:21:21Z",
     "users": [],
     "firstSeenAt": "2026-09-29T07:15:12.391939+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "Excel、40年続く原則を変更へ　1個のセルで複数の値を扱う新機能",
@@ -328,27 +341,27 @@
     "title": "Codexを使うなら、/goalとサイドチャットを押さえておきたい - じゃあ、おうちで学べる",
     "url": "https://syu-m-5151.hatenablog.com/entry/2026/09/27/120017",
     "domain": "syu-m-5151.hatenablog.com",
-    "count": 86,
+    "count": 88,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/syu-m-5151.hatenablog.com/entry/2026/09/27/120017",
     "screenshot": "https://ogimage.blog.st-hatena.com/8454420450094081900/14945776032082941875/1790478405",
     "description": "はじめに Codexが修正している途中で、「なぜ、その判定を変えるのか」と聞きたくなることがあります。理由を知りたいだけなのか、その変更を止めてほしいのか。途中で送る一文にも、別の目的があります。 長い仕事を続ける /goal、途中の質問を分ける /side、実行中の指示変更と予約送信。それぞれ、作業を続ける条件、...",
     "hatenaDate": "2026-09-27T07:55:43Z",
     "users": [],
     "firstSeenAt": "2026-09-29T06:30:12.885843+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
     "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
     "domain": "blog.cloudflare.com",
-    "count": 36,
+    "count": 37,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.cloudflare.com/cloudflare-cf-cli-launch/",
     "screenshot": "https://blog.cloudflare.com/_emdash/api/media/file/01M3KR59T13YTXBHQW0ZAX7MBG.01M3KR5AZTG3VJ8REJ9047KYC4.png",
     "description": "September 28, 2026Introducing cf: the agentic CLI for the entire Cloudflare API Over the last year, agent use of Wrangler has skyrocketed. In March 2026, agents were responsible for a quarter of Wrangler use, up from single-digit percentages the year prior. Last week, agent usage reached 48%. Age...",
     "hatenaDate": "2026-09-28T16:16:09Z",
     "users": [],
     "firstSeenAt": "2026-09-29T05:15:13.445534+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "GitHub - docker/skills: A collection of Docker skills for AI coding agents to help them build, test, debug, and optimize containerized apps with consistent, reusable workflows.",
@@ -387,7 +400,7 @@
     "hatenaDate": "2026-09-28T12:08:03Z",
     "users": [],
     "firstSeenAt": "2026-09-29T04:30:15.907386+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "開発者とSREが同じ仕組みを使う、ローカルに閉じない自律AIエージェントのつくり方 | ドクセル",
@@ -406,14 +419,14 @@
     "title": "UIの本に「長押しの機能はユーザが気づきにくいよ」って書いてあって、ふ～んって思いながら部屋の照明のボタン長押ししたら、白からオレンジになった「お前もかよ」",
     "url": "https://togetter.com/li/2751548",
     "domain": "togetter.com",
-    "count": 87,
+    "count": 88,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2751548",
     "screenshot": "https://s.tgstc.com/ogp3/1a8f48f6e0970a1bb88bfb3fac951fcb-1200x630.jpeg",
     "description": "なたもた★ @NatamottaNaatan @Athi_t5k9 一部のシーリングライトは、on→off(1秒弱)→onで常夜灯になったりするけど、意外と知られてなかったりしますね。 雷などの瞬停で切り替わらないようになのか、少し長めにoffにする必要があったりで、狙ってやらないと気付かない 2026-09-28 17:36:23",
     "hatenaDate": "2026-09-28T12:35:36Z",
     "users": [],
     "firstSeenAt": "2026-09-29T04:15:14.911741+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "「ヤバすぎんか？」タイムズカーが最大660万件の個人情報を流出、パスワードは復元できないらしいが、退会済みのアカウント情報まで盗まれてしまった模様",
@@ -458,14 +471,14 @@
     "title": "Yahoo!きっずサービス終了のお知らせ - Yahoo!きっずからのお知らせ - Yahoo!きっず",
     "url": "https://kids.yahoo.co.jp/info/archives/20260928_1.html",
     "domain": "kids.yahoo.co.jp",
-    "count": 166,
+    "count": 169,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kids.yahoo.co.jp/info/archives/20260928_1.html",
     "screenshot": "https://s.yimg.jp/i/kids/topic/tool/common/img/ogp.png",
     "description": "みんなへ Yahoo!きっずは、2026年12月4日にサービスを終了します。 びっくりした人や、さみしいなと思った人もいるかもしれません。 Yahoo!きっずは、27年間、みんなの「知りたい！」を応援してきました。 調べものをしたり、ゲームで遊んだり、タイピングに挑戦したり。 みんなと過ごした時間は、Yahoo!きっずにとって...",
     "hatenaDate": "2026-09-28T14:44:53Z",
     "users": [],
     "firstSeenAt": "2026-09-29T00:30:23.027391+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "墨消しが得意な無料PDF編集ソフト「PDF MARIN」、国会図書館の縦書きAI-OCRでテキスト起こしも強化／写真やスキャンの表を「Excel」へ書き出し、印鑑機能も改善",
@@ -686,7 +699,7 @@
     "hatenaDate": "2026-09-28T08:11:38Z",
     "users": [],
     "firstSeenAt": "2026-09-28T20:59:28.727319+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "ネット接続禁止のOpenAI製AIが「DNSの抜け道」を発見して外部AIにアクセス、OpenAIは高性能モデルのツール利用を一時停止",
@@ -842,7 +855,7 @@
     "hatenaDate": "2026-09-28T07:35:53Z",
     "users": [],
     "firstSeenAt": "2026-09-28T17:45:13.947933+09:00",
-    "lastSeenAt": "2026-09-29T11:00:13.538294+09:00"
+    "lastSeenAt": "2026-09-29T11:15:14.208254+09:00"
   },
   {
     "title": "メール配信のノウハウを、AIでHTMLメール作成につなげる。楽楽メールマーケティングのAI機能開発 - RAKUS Developers Blog | ラクス エンジニアブログ",
@@ -3867,19 +3880,6 @@
     "screenshot": "https://ogimage.blog.st-hatena.com/13208692334729907814/14945776032079122094/1790238600",
     "description": "最近AIにブログ記事やドキュメントを書かせることが増えた。しかしAIに書かせると、余計な前提や補足が多くて一番言いたいことが埋もれてしまう。かといって「もっと短くして」と指示すると、今度は具体例など本当に大事な部分まで削られ、スカスカで伝わらない文書になる。「この補足は消して、この具体例は残して」と...",
     "hatenaDate": "2026-09-24T13:05:41Z",
-    "users": [],
-    "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
-    "lastSeenAt": "2026-09-25T23:09:34.044463+09:00"
-  },
-  {
-    "title": "みんなJevの話してる。やってないの俺だけ",
-    "url": "https://zenn.dev/unsoluble_sugar/articles/jev-system-one-model-intro",
-    "domain": "zenn.dev",
-    "count": 373,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/unsoluble_sugar/articles/jev-system-one-model-intro",
-    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--i-YRRvCs--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2581%25BF%25E3%2582%2593%25E3%2581%25AAJev%25E3%2581%25AE%25E8%25A9%25B1%25E3%2581%2597%25E3%2581%25A6%25E3%2582%258B%25E3%2580%2582%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25AA%25E3%2581%2584%25E3%2581%25AE%25E4%25BF%25BA%25E3%2581%25A0%25E3%2581%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E6%2598%259F%25E5%25BD%25B1%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzEwZDE4YjgwZTkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-    "description": "はじめに 2026年9月中旬あたりから、タイムラインが急に「Jev」の話題で埋まりました。「LLMより200倍速い」「出力トークン無料」「ハルシネーションしない」と景気のいい言葉が並ぶ一方で、自分はまだAPIキーすら持っていません。 やってないのは俺だけか…という焦りを燃料に、Jevとは何か、なぜ騒がれているのか、LLM...",
-    "hatenaDate": "2026-09-24T08:41:14Z",
     "users": [],
     "firstSeenAt": "2026-09-25T10:10:29.766966+09:00",
     "lastSeenAt": "2026-09-25T23:09:34.044463+09:00"
