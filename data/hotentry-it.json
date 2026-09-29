@@ -1,5 +1,18 @@
 [
   {
+    "title": "Git 2.56.0の新機能とGit 3.0リリース計画の概要",
+    "url": "https://about.gitlab.com/ja-jp/blog/whats-new-in-git-2-56-0/",
+    "domain": "about.gitlab.com",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/about.gitlab.com/ja-jp/blog/whats-new-in-git-2-56-0/",
+    "screenshot": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1782732487/ztwgrvlolpifo01vj8qc.png",
+    "description": "Gitプロジェクトから先日、Git 2.56.0がリリースされました。GitLabのGitチームによる貢献も含め、今回のリリースの注目点を紹介します。 本記事で取り上げる内容: Git Merge 2026とGit 3.0のリリース計画git-history(1)に加わったdropgit-branch(1)でマージ済みブランチを削除するgit-refs(1)で参照を変更するGoogle Su...",
+    "hatenaDate": "2026-09-29T02:04:47Z",
+    "users": [],
+    "firstSeenAt": "2026-09-30T05:00:16.756135+09:00",
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
+  },
+  {
     "title": "[石川温の「スマホ業界 Watch」] 揺れる「フラグシップスマホ」の定義――多様化するニーズと最上位モデルの現在地",
     "url": "https://k-tai.watch.impress.co.jp/docs/column/ishikawa/2143720.html",
     "domain": "k-tai.watch.impress.co.jp",
@@ -10,7 +23,7 @@
     "hatenaDate": "2026-09-28T15:01:33Z",
     "users": [],
     "firstSeenAt": "2026-09-30T04:45:13.499815+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "Nothingが「Headphone (1) Pro」を発表、3種のドライバー内蔵＆ノイキャン対応＆無線有線両対応などなど高機能で6万4800円",
@@ -23,7 +36,7 @@
     "hatenaDate": "2026-09-29T04:43:53Z",
     "users": [],
     "firstSeenAt": "2026-09-30T03:30:14.807168+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "GitHub - firelex/jeff: Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
@@ -36,7 +49,7 @@
     "hatenaDate": "2026-09-29T02:43:27Z",
     "users": [],
     "firstSeenAt": "2026-09-30T02:45:14.003816+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "レノボ、4K液晶&ジェスチャーAI搭載の「Lenovo Yoga Tab」2モデルを発表",
@@ -49,7 +62,7 @@
     "hatenaDate": "2026-09-29T12:43:57Z",
     "users": [],
     "firstSeenAt": "2026-09-30T01:45:13.064078+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "「クロネコ代金後払いサービス」への不正アクセスの発生について | ヤマトホールディングス株式会社",
@@ -62,7 +75,7 @@
     "hatenaDate": "2026-09-29T08:37:53Z",
     "users": [],
     "firstSeenAt": "2026-09-30T01:30:16.568169+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "オープンAI、最新AI「アストラ6.1」の公開取りやめ 安全面で問題",
@@ -75,20 +88,20 @@
     "hatenaDate": "2026-09-29T04:55:55Z",
     "users": [],
     "firstSeenAt": "2026-09-30T01:15:14.449594+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "無料でJev互換の小型高速意思決定モデル「Jeff」、ローカル環境で約22～28ミリ秒と爆速",
     "url": "https://gigazine.net/news/20260929-jeff/",
     "domain": "gigazine.net",
-    "count": 23,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260929-jeff/",
     "screenshot": "https://i.gzn.jp/img/2026/09/29/jeff/00.png",
     "description": "ChatGPTの共同開発者であるがディオゴ・アルメイダ氏がCEOを務めるTypeSafe AIが開発した、意思決定モデルの「Jev」と同じように、リクエスト形式でコードに組み込むことができる小型の意思決定モデルが「Jeff」です。RTX PRO 6000の場合は1回の意思決定当たり約22ミリ秒、 AppleのM4 Maxの場合は1回の意思決定当たり約2...",
     "hatenaDate": "2026-09-29T13:04:44Z",
     "users": [],
     "firstSeenAt": "2026-09-30T00:30:14.450432+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "Microsoft Copilotにアップロードした画像は人間が確認している、性的な画像などセンシティブな内容もレビュー対象に",
@@ -101,20 +114,20 @@
     "hatenaDate": "2026-09-29T09:28:57Z",
     "users": [],
     "firstSeenAt": "2026-09-30T00:30:14.450432+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "AI臭い文章とは何なのか",
     "url": "https://speakerdeck.com/nasuvitz/ai-kusai-bunshou-toha-nanina-no-ka",
     "domain": "speakerdeck.com",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/nasuvitz/ai-kusai-bunshou-toha-nanina-no-ka",
     "screenshot": "https://files.speakerdeck.com/presentations/593e8de857b5444ba04aae3bda52b893/slide_0.jpg?40714177",
     "description": "2026/9/28 豊洲会 教育用途にご利用ください",
     "hatenaDate": "2026-09-29T12:36:51Z",
     "users": [],
     "firstSeenAt": "2026-09-30T00:30:14.450432+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "タイムズカー 免許画像など漏えいは160万件“悪用に警戒を” | NHKニュース",
@@ -127,7 +140,7 @@
     "hatenaDate": "2026-09-29T10:21:51Z",
     "users": [],
     "firstSeenAt": "2026-09-30T00:15:15.249750+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "免許証画像が漏れると何が“ヤバい”のか　タイムズカーで最大約660万件の個人情報漏えいで考えられる「3つのリスク」",
@@ -140,7 +153,7 @@
     "hatenaDate": "2026-09-29T12:04:53Z",
     "users": [],
     "firstSeenAt": "2026-09-30T00:15:15.249750+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "Google、東京大学・松尾/岩澤研究室による自治体における生成AI活用事例を紹介",
@@ -153,7 +166,7 @@
     "hatenaDate": "2026-09-29T08:19:01Z",
     "users": [],
     "firstSeenAt": "2026-09-29T23:45:13.264264+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "蛍光灯は2027年末で終了! LEDへの切り替えには何を注意すればいい? - 家電 Watch",
@@ -179,7 +192,7 @@
     "hatenaDate": "2026-09-29T04:47:07Z",
     "users": [],
     "firstSeenAt": "2026-09-29T23:15:13.514423+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "タイムズカーで660万件の会員情報が流出した件、運転免許証画像の流出が悪用される危険性について指摘…CICの本人申告制度を活用すれば、信用情報の審査で注意してくれる",
@@ -192,7 +205,7 @@
     "hatenaDate": "2026-09-29T10:35:27Z",
     "users": [],
     "firstSeenAt": "2026-09-29T23:15:13.514423+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "パーク24、運転免許証画像など情報流出数は160万件 - 日本経済新聞",
@@ -205,7 +218,7 @@
     "hatenaDate": "2026-09-29T13:12:57Z",
     "users": [],
     "firstSeenAt": "2026-09-29T23:00:13.916231+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "セイコーマート 不正アクセスで約57万アカウント漏えいか | NHKニュース",
@@ -237,14 +250,14 @@
     "title": "既に不審メッセージの報告も 宿泊予約管理の「手間いらず」に不正アクセス、宿泊者情報流出の可能性 | おたくま経済新聞",
     "url": "https://otakuma.net/archives/2026092904.html",
     "domain": "otakuma.net",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/otakuma.net/archives/2026092904.html",
     "screenshot": "https://otakuma.net/wp/wp-content/uploads/2026/09/temairazu_fuseiaccess_shukuhakushajoho.jpg",
     "description": "■　宿泊予約を一元管理する「TEMAIRAZU」に不正アクセス なぜ、相手は宿泊情報を知っているのか。 その背景として可能性が指摘されているのが、複数のホテルや旅館の予約情報を一元管理するシステム「TEMAIRAZU」への不正アクセスです。 システムを提供する手間いらず株式会社は9月28日、不正アクセスが確認され、宿泊者...",
     "hatenaDate": "2026-09-29T08:13:20Z",
     "users": [],
     "firstSeenAt": "2026-09-29T22:30:15.692387+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "AIエージェント「Manus 2.0」リリース、さらにパーソナルAIエージェント向けアプリ「Cue」やプロフェッショナルなAIワークスペースを実現するデスクトップアプリ「Manus Studio」も",
@@ -270,7 +283,7 @@
     "hatenaDate": "2026-09-29T09:47:30Z",
     "users": [],
     "firstSeenAt": "2026-09-29T22:15:16.453092+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "「その日」をパークのみんなで楽しむ。新機能「カレンダー」の使い方＆活用アイデア - はてなパークス開発ブログ",
@@ -289,14 +302,14 @@
     "title": "「タイムズカーWebサイト」への不正アクセスに関する調査結果および今後の対応について（第3報） | カーシェアリングのタイムズカー",
     "url": "https://share.timescar.jp/news/2026/0929/1816.html",
     "domain": "share.timescar.jp",
-    "count": 150,
+    "count": 151,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/share.timescar.jp/news/2026/0929/1816.html",
     "screenshot": null,
     "description": "2026年9月25日に公表いたしました『「タイムズカーWebサイト」への不正アクセスによる個人情報漏えいの可能性について（第1報）』に関し、その後の調査により現時点で判明している内容をご報告いたします。 第1報はこちら 第2報はこちら 会員の皆様ならびに関係者の皆様に、多大なるご迷惑とご心配をお掛けしております...",
     "hatenaDate": "2026-09-29T11:48:26Z",
     "users": [],
     "firstSeenAt": "2026-09-29T22:00:51.637817+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "AI時代にはこれまで以上に「顔の良さ」が重要になる可能性がある、AIは人間以上に顔の偏見が強いため",
@@ -309,33 +322,33 @@
     "hatenaDate": "2026-09-29T07:02:56Z",
     "users": [],
     "firstSeenAt": "2026-09-29T22:00:51.637817+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "アンソロピック、ＡＩの「人類存亡リスク」警告　ＩＰＯ目論見書（ロイター） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/c1b036a7740fe476a5bceb997de3641de9ee9e9a",
     "domain": "news.yahoo.co.jp",
-    "count": 22,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/c1b036a7740fe476a5bceb997de3641de9ee9e9a",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260929-00000040-reut-000-1-view.jpg?exp=10800",
     "description": "アンソロピックのロゴ。サンフランシスコで開催されたサミットで9月17日撮影。 REUTERS/Carlos Barria（ロイター）Echo Wang　Aditya Soni [２８日 ロイター] - 人工知能（ＡＩ）開発企業アンソロピックは新規株式公‌開（ＩＰＯ）に際し、ＡＩが「人類に壊滅的な被⁠害や存亡に関わるリスク」をもたらす可能性があると投資...",
     "hatenaDate": "2026-09-29T03:33:32Z",
     "users": [],
     "firstSeenAt": "2026-09-29T21:45:13.851477+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "IIJ、新人エンジニア向け研修教材を無料公開　Web技術の基礎から生成AI活用まで20講義超",
     "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001854/",
     "domain": "www.itmedia.co.jp",
-    "count": 208,
+    "count": 214,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/29/2000001854/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/29/2000001854/10007888/2048",
     "description": "インターネットイニシアティブ（IIJ）は9月28日、新人エンジニア向けハンズオン研修「IIJ Bootcamp」の2026年度版資料を公式エンジニアブログで紹介した。資料は社内限定の一部を除いて専用サイトで無料公開している。 IIJ Bootcampは、同社の有志が講師となって19年度から毎年開いている研修。IT系のどの分野でも必要に...",
     "hatenaDate": "2026-09-29T11:47:47Z",
     "users": [],
     "firstSeenAt": "2026-09-29T21:30:17.184047+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "GoogleBookが話題なので前身ChromeOSのLinux環境のこと書いておく",
@@ -348,7 +361,7 @@
     "hatenaDate": "2026-09-22T09:27:27Z",
     "users": [],
     "firstSeenAt": "2026-09-29T21:15:16.326889+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開　特定のLLMに依存せず入れ替え可能",
@@ -367,14 +380,14 @@
     "title": "箱はよくできているのに羊がいないはてなパークスの現状について - 関内関外日記",
     "url": "https://goldhead.hatenablog.com/entry/2026/09/29/125355",
     "domain": "goldhead.hatenablog.com",
-    "count": 72,
+    "count": 76,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/goldhead.hatenablog.com/entry/2026/09/29/125355",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/8c3153821f52e9fd3f3febd20e638992ad872443/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fg%2Fgoldhead%2F20260929%2F20260929123156.png",
     "description": "p.hatena.ne.jp みんなはてなパークス使っているか？　759ブクマもされているじゃないか。はてなの、満を持しての新サービスだぞ。たくさんのはてなーたちがこぞって書き込み、大盛況、新しいウェブの居場所だ、ってなってなきゃいけないんじゃいのか。 それなのに、今のはてなパークスときたらジャングリアより羊がいな...",
     "hatenaDate": "2026-09-29T04:00:21Z",
     "users": [],
     "firstSeenAt": "2026-09-29T21:00:13.620136+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "AI開発時代だからこそ、テストの役割を見つめ直す",
@@ -400,7 +413,7 @@
     "hatenaDate": "2026-09-29T07:52:04Z",
     "users": [],
     "firstSeenAt": "2026-09-29T20:00:50.844380+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "ChromeOSの後継Googlebook OSはウンコ💩やで",
@@ -413,7 +426,7 @@
     "hatenaDate": "2026-09-29T07:57:49Z",
     "users": [],
     "firstSeenAt": "2026-09-29T19:30:16.223401+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "一部のiOS端末で多数のアプリが異常終了 報告相次ぐ | NewsDigest",
@@ -484,14 +497,14 @@
     "title": "３分で読めるトランザクション設計のコツ",
     "url": "https://zenn.dev/mconfjp/articles/transaction-action-order",
     "domain": "zenn.dev",
-    "count": 79,
+    "count": 80,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mconfjp/articles/transaction-action-order",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--CTvabk1W--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25EF%25BC%2593%25E5%2588%2586%25E3%2581%25A7%25E8%25AA%25AD%25E3%2582%2581%25E3%2582%258B%25E3%2583%2588%25E3%2583%25A9%25E3%2583%25B3%25E3%2582%25B6%25E3%2582%25AF%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E8%25A8%25AD%25E8%25A8%2588%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2582%25E3%2582%258A%25E3%2581%259F%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSmduNmRjWi1heEt6c1JkLXQ4UmxGcmRJMi1VV0tnTUpiamZISmQ5T0hqdmI4PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "これはなに こんにちは、もりたです。 最近Software Designで連載をしています[1]。連載をしているとアホほど資料を読んでめちゃくちゃ学びがあるんですが原稿の進捗がやばすぎてZennに投稿できません[2]。この記事はせめてもの償いとして最近知った便利情報を簡単に皆さんにお伝えします。 テーマは「トランザクション...",
     "hatenaDate": "2026-09-29T05:06:00Z",
     "users": [],
     "firstSeenAt": "2026-09-29T18:15:12.271521+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "セイコーマート、不正アクセスで約57万アカウントの会員情報漏えいの可能性",
@@ -536,14 +549,14 @@
     "title": "免許証画像が漏れると何が“ヤバい”のか　タイムズカーで最大約660万件の個人情報漏えいで考えられる「3つのリスク」",
     "url": "https://www.itmedia.co.jp/mobile/articles/2609/29/news085.html",
     "domain": "www.itmedia.co.jp",
-    "count": 289,
+    "count": 292,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2609/29/news085.html",
     "screenshot": "https://image.itmedia.co.jp/mobile/articles/2609/29/cover_news085.png",
     "description": "パーク24グループが運営するカーシェアリングサービス「タイムズカー」で、最大約660万件に上るとされる大規模な個人情報流出が発生した。流出したデータの中には、氏名や住所といった基本情報だけでなく、「運転免許証の画像」などの本人確認書類が含まれている可能性があり、影響の大きさが懸念されている。 本記事で...",
     "hatenaDate": "2026-09-29T07:41:33Z",
     "users": [],
     "firstSeenAt": "2026-09-29T17:45:14.316401+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "「Claude Marketplace」公開、2千超の連携ツールとAI製品を集約",
@@ -595,7 +608,7 @@
     "hatenaDate": "2026-09-29T05:43:41Z",
     "users": [],
     "firstSeenAt": "2026-09-29T17:00:15.678308+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "AIの間違った要約を読むと「自分で見た出来事」まで間違って記憶することが実験で判明",
@@ -868,7 +881,7 @@
     "hatenaDate": "2026-09-29T02:40:12Z",
     "users": [],
     "firstSeenAt": "2026-09-29T13:00:15.722019+09:00",
-    "lastSeenAt": "2026-09-30T04:45:13.499815+09:00"
+    "lastSeenAt": "2026-09-30T05:00:16.756135+09:00"
   },
   {
     "title": "embeddingベースの推薦システムでA/Bテストを高速に回すための配信基盤REP - ZOZO TECH BLOG",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-09-26T13:00:11.567705+09:00",
     "lastSeenAt": "2026-09-26T20:30:12.369385+09:00"
-  },
-  {
-    "title": "「AIは10億人死ぬ事態起こすほど強力だ」政府が監視をとビル・ゲイツ氏が訴え",
-    "url": "https://www.sankei.com/article/20260926-PMOV66XOCNM4TOIJDUOGL2HTIQ/",
-    "domain": "www.sankei.com",
-    "count": 103,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.sankei.com/article/20260926-PMOV66XOCNM4TOIJDUOGL2HTIQ/",
-    "screenshot": "https://www.sankei.com/resizer/v2/26MLHOZS5ZM2PJAKXPOQSUQRVY.jpg?auth=024067971c1da459b7028eeb21e4f06d14cb87ad71f03a83d7a1eba82d062ecd&quality=50&focal=1666%2C1042&width=1200&height=675",
-    "description": "米マイクロソフト創業者のビル・ゲイツ氏が、人工知能（AI）は「10億人の死者を出すような事態を引き起こせるほど強力だ」と警告し、政府による規制強化を訴えた。米NBCテレビのインタビューに語った内容として、同局が25日報じた。 それによると、ゲイツ氏は「悪意を持つ人間と最新のAIの組み合わせほど強力な兵器はか...",
-    "hatenaDate": "2026-09-26T02:39:52Z",
-    "users": [],
-    "firstSeenAt": "2026-09-26T12:45:12.506710+09:00",
-    "lastSeenAt": "2026-09-27T04:50:28.480456+09:00"
   }
 ]
