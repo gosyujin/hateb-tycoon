@@ -225,18 +225,20 @@
 
   // CSVテキストを検証しつつ { type, value } の配列に変換する。
   // 不正な行が1つでもあればエラー一覧を返し、rulesは空にする(全体を中断)。
+  // 未対応の種別(feed-tycoonのsource/tag/description等)はエラーにせず、ignoredに件数を数える。
   function parseImportCsv(text) {
     const rows = parseCsv(text);
-    if (rows.length === 0) return { rules: [], errors: ['データが空です'] };
+    if (rows.length === 0) return { rules: [], errors: ['データが空です'], ignored: 0 };
 
     let dataRows = rows;
     if ((dataRows[0][0] || '').trim().toLowerCase() === 'type') {
       dataRows = dataRows.slice(1);
     }
-    if (dataRows.length === 0) return { rules: [], errors: ['データが空です'] };
+    if (dataRows.length === 0) return { rules: [], errors: ['データが空です'], ignored: 0 };
 
     const errors = [];
     const rules = [];
+    let ignored = 0;
     dataRows.forEach((cols, idx) => {
       const lineNo = idx + 1;
       if (cols.length < 2) {
@@ -245,8 +247,13 @@
       }
       const type = (cols[0] || '').trim();
       const value = (cols[1] || '').trim();
+      if (!type) {
+        errors.push(`${lineNo}行目: 種別が空です`);
+        return;
+      }
+      // feed-tycoon と CSV を共有するため、未対応の種別は無視する
       if (!Filters.TYPES.includes(type)) {
-        errors.push(`${lineNo}行目: 不正な形式「${type}」(title/domain/user/commentのいずれか)`);
+        ignored++;
         return;
       }
       if (!value) {
@@ -255,7 +262,7 @@
       }
       rules.push({ type, value });
     });
-    return { rules: errors.length > 0 ? [] : rules, errors };
+    return { rules: errors.length > 0 ? [] : rules, errors, ignored };
   }
 
   // ---- ルーティング ----
@@ -1236,7 +1243,7 @@
   }
 
   function applyImportedCsv(text) {
-    const { rules, errors } = parseImportCsv(text);
+    const { rules, errors, ignored } = parseImportCsv(text);
     if (errors.length > 0) {
       const shown = errors.slice(0, 5).join(' / ');
       const rest = errors.length > 5 ? ` 他${errors.length - 5}件` : '';
@@ -1244,11 +1251,12 @@
       return;
     }
     const added = Filters.importRules(currentSettingsKind, rules);
-    const skipped = rules.length - added;
+    const registered = rules.length - added;
+    const notes = [];
+    if (registered > 0) notes.push(`登録済み${registered}件`);
+    if (ignored > 0) notes.push(`未対応の種別${ignored}件は無視`);
     importStatus.textContent =
-      skipped > 0
-        ? `${rules.length}件中${added}件を追加しました(重複${skipped}件はスキップ)`
-        : `${added}件を追加しました`;
+      `${added}件を追加しました` + (notes.length > 0 ? `(${notes.join('、')})` : '');
     renderRuleList();
     render();
   }
