@@ -1,5 +1,18 @@
 [
   {
+    "title": "OpenAIの「DevDay 2026」で発表された主なことまとめ",
+    "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001868/",
+    "domain": "www.itmedia.co.jp",
+    "count": 9,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/30/2000001868/",
+    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/30/2000001868/10007943/2048",
+    "description": "米OpenAIは9月29日（現地時間）、米サンフランシスコで年次開発者会議「DevDay 2026」を開催し、ChatGPT、Codex、モデル、APIなどにわたる20件以上の新製品・新機能を発表した。本稿では発表内容の要点をまとめる。 常時稼働型AIエージェント「dots」 「dots」は、ユーザーの目標に向けて常時稼働し、継続的に作業を代行...",
+    "hatenaDate": "2026-09-29T21:40:36Z",
+    "users": [],
+    "firstSeenAt": "2026-09-30T14:00:13.253988+09:00",
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
+  },
+  {
     "title": "コーディングエージェントにGoogle Cloudの専門知識とツールを組み込む「Google Cloud Developer Plugin for AI Coding Agents」発表",
     "url": "https://www.publickey1.jp/blog/26/google_cloudgoogle_cloud_developer_plugin_for_ai_coding_agents.html",
     "domain": "www.publickey1.jp",
@@ -10,7 +23,7 @@
     "hatenaDate": "2026-09-29T20:29:50Z",
     "users": [],
     "firstSeenAt": "2026-09-30T13:30:13.497367+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "Googlebookを触ってきた　AIをOSに統合した「PixelみたいなPC」【石野純也のモバイル通信SE】",
@@ -49,20 +62,20 @@
     "hatenaDate": "2026-09-29T22:33:35Z",
     "users": [],
     "firstSeenAt": "2026-09-30T13:15:13.332357+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "ランサムウェア攻撃による京王電鉄グループのシステム障害についてまとめてみた - piyolog",
     "url": "https://piyolog.hatenadiary.jp/entry/2026/09/30/021814",
     "domain": "piyolog.hatenadiary.jp",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/09/30/021814",
     "screenshot": "https://ogimage.blog.st-hatena.com/10257846132616586766/14945776032084089084/1790702294",
     "description": "2026年9月26日、京王電鉄は同社グループのサーバーがランサムウェアによる攻撃を受け、一部グループ会社の営業システムに支障が生じていると公表しました。同日以降、ホテルや流通、旅行などのグループ各社がシステム障害を告知しています。ここでは関連する情報をまとめます。 9月26日未明にグループサーバーへの攻撃を...",
     "hatenaDate": "2026-09-29T21:35:37Z",
     "users": [],
     "firstSeenAt": "2026-09-30T13:00:15.186358+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "https://bogus.jp/webapp_security_review.pdf",
@@ -81,27 +94,27 @@
     "title": "一人暮らしだった時、自分が鍵を落とすリスクと空き巣に入られるリスクを天秤にかけた結果、前者のリスクが著しく高いと判断して家の鍵開けっぱなし運用だった",
     "url": "https://togetter.com/li/2752150",
     "domain": "togetter.com",
-    "count": 24,
+    "count": 27,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2752150",
     "screenshot": "https://s.tgstc.com/ogp3/759cd9a795b312540dbc085eaeb5c51c-1200x630.jpeg",
     "description": "一人暮らしだった時、自分が鍵を落とすリスクと空き巣に入られるリスクを天秤にかけた結果、前者のリスクが著しく高いと判断して家の鍵開けっぱなし運用だった",
     "hatenaDate": "2026-09-30T02:13:32Z",
     "users": [],
     "firstSeenAt": "2026-09-30T12:30:10.108013+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "WindowsにLinuxコンテナ機能「WSLC」が正式登場　Docker Desktopなしで実行可能に | XenoSpectrum",
     "url": "https://xenospectrum.com/wsl-containers-ga-architecture-docker-boundaries/",
     "domain": "xenospectrum.com",
-    "count": 24,
+    "count": 25,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/xenospectrum.com/wsl-containers-ga-architecture-docker-boundaries/",
     "screenshot": "https://media.xenospectrum.com/large_wsl_containers_windows_architecture_502f465e60.webp",
     "description": "この記事のポイント何が起きた: Microsoftが2026年9月29日、WSLコンテナを一般提供し、CLIとWindows向けAPIを正式投入した。なぜ重要か: Linuxコンテナの実行を通常のWSL環境から分け、Windowsの権限・管理・通信へ組み込む基盤となる。次に見るべき点: Composeの実装、配布チャネル表示の収束、Docker系ツールが必要と...",
     "hatenaDate": "2026-09-30T00:29:56Z",
     "users": [],
     "firstSeenAt": "2026-09-30T12:30:10.108013+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "さくらインターネット、「.site」「.work」「.xyz」ドメインを値上げへ　27年2月から",
@@ -127,7 +140,7 @@
     "hatenaDate": "2026-09-30T02:00:14Z",
     "users": [],
     "firstSeenAt": "2026-09-30T12:30:10.108013+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "OpenAIが「Jev」に追従、「Decisions API」　Lunaで“リアルタイムに意思決定”",
@@ -140,20 +153,20 @@
     "hatenaDate": "2026-09-29T20:05:17Z",
     "users": [],
     "firstSeenAt": "2026-09-30T12:30:10.108013+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "【特集】 Windows 11「26H2」提供開始。タスクバーの上配置など新機能をチェック",
     "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2144347.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 25,
+    "count": 28,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/topic/feature/2144347.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2144/347/001.png",
     "description": null,
     "hatenaDate": "2026-09-30T02:07:30Z",
     "users": [],
     "firstSeenAt": "2026-09-30T12:15:09.244932+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "GitHub を使う上で知っておくと嬉しいかも Tips 2026 | ドクセル",
@@ -185,14 +198,14 @@
     "title": "「GPT-6.1 Sol」が登場 ～「GPT-6 Astra」に迫る知能を5分の1の料金で／「Astra Ultrafast」も提供開始、月額500米ドルの新「Pro」ティアも",
     "url": "https://forest.watch.impress.co.jp/docs/news/2144292.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2144292.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2144/292/image1.png",
     "description": null,
     "hatenaDate": "2026-09-29T22:10:25Z",
     "users": [],
     "firstSeenAt": "2026-09-30T11:45:14.126225+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "【GA4×生成AI・中級編】MCPでサイト分析を効率化する｜データの取得と整理 - オウンドメディア戦略ラボ by はてな",
@@ -218,7 +231,7 @@
     "hatenaDate": "2026-09-29T21:06:37Z",
     "users": [],
     "firstSeenAt": "2026-09-30T11:45:14.126225+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
@@ -257,20 +270,20 @@
     "hatenaDate": "2026-09-30T00:04:28Z",
     "users": [],
     "firstSeenAt": "2026-09-30T11:00:12.063200+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "免許証の悪用防ぐ届出集中、CIC・JICCで手続き遅延　タイムズカー情報流出直後に",
     "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001873/",
     "domain": "www.itmedia.co.jp",
-    "count": 121,
+    "count": 129,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/30/2000001873/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/30/2000001873/10007966/2048",
     "description": "信用情報機関のCICと日本信用情報機構（JICC）は9月29日、インターネットやスマホアプリからの本人申告や開示の申し込みが集中し、手続きが遅れていると発表した。 前日には、「タイムズカー」が免許証画像を含む大規模な情報漏えいを公表。自分の免許証情報の漏えいを心配した人が、本人申告で今後の悪用に備えたり、自...",
     "hatenaDate": "2026-09-30T01:03:38Z",
     "users": [],
     "firstSeenAt": "2026-09-30T10:45:11.699264+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "AIと作ったWebアプリをすぐに公開　エンジニアリングリード・深野悠吾さんに聞く、「ロリポップ！デプロイナウ byGMOペパボ」開発秘話・前編 / 開発者向けブログ・イベント | GMO Developers",
@@ -283,7 +296,7 @@
     "hatenaDate": "2026-09-30T01:05:32Z",
     "users": [],
     "firstSeenAt": "2026-09-30T10:45:11.699264+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "【後編】GMOペパボの「集合知」でよりよいプロダクトへ ― エンジニアリングリード・深野悠吾さんに聞く、「ロリポップ！デプロイナウ byGMOペパボ」開発秘話 - Pepabo Tech Portal",
@@ -380,40 +393,40 @@
     "title": "セキュリティエンジニア視点のKubernetes環境の攻撃面と対策 - GMO Flatt Security Blog",
     "url": "https://blog.flatt.tech/entry/kubernetes-attack-surface",
     "domain": "blog.flatt.tech",
-    "count": 30,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.flatt.tech/entry/kubernetes-attack-surface",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/695476a6cf6bb0dfc9a1a433fdc2484d8fb01980/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ff%2Fflattsecurity%2F20260929%2F20260929124911.png",
     "description": "はじめに こんにちは。GMO Flatt Security株式会社 セキュリティエンジニアのてぃー(@k1rnt)と、@ei01241です。 Kubernetes(k8s)は、いまやコンテナオーケストレーションのデファクトスタンダードです。多くの企業がEKS、GKE、AKSといったマネージドサービスを利用してプロダクション環境を運用しています。 一方で、Kub...",
     "hatenaDate": "2026-09-30T00:23:42Z",
     "users": [],
     "firstSeenAt": "2026-09-30T10:15:13.659042+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "ドラッグ＆ドロップ操作ミスで……TOPPAN、損保ジャパン契約者17万人分のデータを他社に誤送付",
     "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001870/",
     "domain": "www.itmedia.co.jp",
-    "count": 79,
+    "count": 82,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/30/2000001870/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/30/2000001870/10007952/2048",
     "description": "誤送付されたデータは、カナ氏名と、保険料控除用証券番号、業務IDの3項目。証券番号は損保ジャパン固有の識別番号で、第三者がこの番号だけで個人や契約内容を特定・照会できない。業務IDは、控除証明書の発行年、損害保険会社の識別番号、対象契約の証券番号を組み合わせた、証明書単位のユニークキー。 漢字氏名や住...",
     "hatenaDate": "2026-09-29T23:54:48Z",
     "users": [],
     "firstSeenAt": "2026-09-30T10:15:13.659042+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "【特集】 画面割れMacや余剰PCで動く！Hermes Agentで始める“格安”箱庭AIエージェント",
     "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2144262.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 54,
+    "count": 55,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/topic/feature/2144262.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2144/262/1.jpg",
     "description": null,
     "hatenaDate": "2026-09-29T21:15:38Z",
     "users": [],
     "firstSeenAt": "2026-09-30T10:15:13.659042+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "AIキャラの自然な発話のために～「生の人間のノイズ」を徹底分析してみよう｜ろてじん",
@@ -432,14 +445,14 @@
     "title": "タイムズカーの会員情報漏えいのニュース→TOPPAN「タイムズがデカいのやらかしたぞ！！今のうちにリリースしろ！！」企業が続々「俺も！！！」",
     "url": "https://togetter.com/li/2752131",
     "domain": "togetter.com",
-    "count": 170,
+    "count": 178,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2752131",
     "screenshot": "https://s.tgstc.com/ogp3/484608c005a552362f477b725062eec4-1200x630.jpeg",
     "description": "AIと人事に苦しむマーモット @Duetousandyou トッパン「タイムズがデカいのやらかしたぞ！！ 今のうちにリリースしろ！！」 レゴランド「俺も！」 日本郵便「俺も！」 京王グループ「俺も！」 東京メトロ「俺も！」 イープラス「俺も！」 ニッポンレンタカー「俺も！」 スターツ出版「俺も！」 セコマ「俺も！」 集英社...",
     "hatenaDate": "2026-09-29T23:47:03Z",
     "users": [],
     "firstSeenAt": "2026-09-30T09:30:14.716092+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "「GPT-6 Astraは旧世代モデルよりサイバー攻撃を実行しやすい傾向にある」というイギリス政府機関の分析結果が公開される",
@@ -465,7 +478,7 @@
     "hatenaDate": "2026-09-29T19:31:44Z",
     "users": [],
     "firstSeenAt": "2026-09-30T09:15:14.032742+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "｢折り畳みiPhoneを持つ価値は？｣｢iPad miniと競合する？｣…アップル幹部に聞いた\"最新iPhoneの気になるコト\"",
@@ -530,20 +543,20 @@
     "hatenaDate": "2026-09-29T15:14:20Z",
     "users": [],
     "firstSeenAt": "2026-09-30T09:00:14.343261+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "オレのClaude Code作業環境、控えめにいって最高すぎる〜Stream Deckでherdrを操作、完了はずんだもんが読み上げ〜 | SIOS Tech Lab",
     "url": "https://tech-lab.sios.jp/archives/54936",
     "domain": "tech-lab.sios.jp",
-    "count": 260,
+    "count": 272,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech-lab.sios.jp/archives/54936",
     "screenshot": "https://tech-lab.sios.jp/wp-content/uploads/2026/09/IMG_5599-scaled.jpeg",
     "description": "武井でございます。 手元のボタンを見るだけで、どの Claude Code が作業中で、どれが確認待ちで、どれが終わったのかが一目で分かる。 ボタンを押せば、そのターミナルに一発で飛べる。 作業が終わったら、ずんだもんが「何をやって、次に何をすればいいか」を声で教えてくれる。 そんな作業環境をStream Deckとherdr、...",
     "hatenaDate": "2026-09-29T23:26:36Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:45:15.482198+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "OpenAIの中で何が起きているのかをセキュリティ担当者が説明、AIラボには「合理的なパラノイアの文化」が必要",
@@ -562,14 +575,14 @@
     "title": "OpenAI DevDay 2026 発表まとめ",
     "url": "https://zenn.dev/schroneko/articles/openai-devday-2026",
     "domain": "zenn.dev",
-    "count": 78,
+    "count": 79,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/schroneko/articles/openai-devday-2026",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--z_7FVyRV--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:OpenAI%2520DevDay%25202026%2520%25E7%2599%25BA%25E8%25A1%25A8%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25AC%25E3%2581%2593%25E3%2581%25AC%25E3%2581%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzE4ZDE4NWExYTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "tl;dr OpenAI DevDay 2026 がサンフランシスコで開催されたよ サンフランシスコ現地から情報をお送りするよ ひと通りのリソースをまとめたけど、まずは Recap ページを見るといいよ 24 時間常時稼働のエージェント dots が発表されたよ GPT-6 Astra に近い性能を低コストで使える GPT-6.1 Sol が公開されたよ 高速にトー...",
     "hatenaDate": "2026-09-29T21:28:47Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:30:12.828905+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "【速報】「Windows 11 2026 Update」（バージョン 26H2）の一般提供が開始／「バージョン 24H2/25H2」からは切り替えパッチ「eKB」で",
@@ -582,7 +595,7 @@
     "hatenaDate": "2026-09-29T21:36:55Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:30:12.828905+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "GitHub を使う上で知っておくと嬉しいかも Tips 2026 | ドクセル",
@@ -595,33 +608,33 @@
     "hatenaDate": "2026-09-29T10:53:52Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:30:12.828905+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "OpenAI、「24時間働く」エージェント「dots」発表　Astra搭載、クラウド上で常時稼働",
     "url": "https://www.itmedia.co.jp/aiplus/article/2609/30/2000001864/",
     "domain": "www.itmedia.co.jp",
-    "count": 141,
+    "count": 142,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2609/30/2000001864/",
     "screenshot": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/30/2000001864/10007929/2048",
     "description": "米OpenAIは9月29日（現地時間）、常時稼働エージェント機能「dots」を発表した。同社のAIモデル「GPT-6 Astra」を搭載し、ユーザーが設定した目標に応じて、クラウド上のコンピュータで24時間自律的に稼働するとうたう。",
     "hatenaDate": "2026-09-29T18:51:02Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:15:15.249576+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "「証明」によりAIの誤りを阻止しGPU上で動作する高速プログラミング言語「Bend」、C言語並みの処理速度・CUDAによる並列処理・Leanによる形式的証明・Python風の構文",
     "url": "https://gigazine.net/news/20260930-bend-lang/",
     "domain": "gigazine.net",
-    "count": 45,
+    "count": 46,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260930-bend-lang/",
     "screenshot": "https://i.gzn.jp/img/2026/09/30/bend-lang/00.jpg",
     "description": "「Bend」はAIが犯すかもしれない誤りを「証明」によってブロックすることを目指す新たなプログラミング言語です。 Bend https://bend-lang.com/ BendはポストAGIの経済社会において人間がコードの記述や読解から解放される未来を見据え、AIに対して意図を明確に伝えるための手段として開発されました。Bendは「法律(Laws...",
     "hatenaDate": "2026-09-29T21:04:47Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:15:15.249576+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "IIJ Bootcamp 2026 – AI時代にハンズオン研修で学んでほしいこと | IIJ Engineers Blog",
@@ -634,20 +647,20 @@
     "hatenaDate": "2026-09-28T05:07:01Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:00:13.650427+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "GitHub - mizchi/explainer",
     "url": "https://github.com/mizchi/explainer",
     "domain": "github.com",
-    "count": 139,
+    "count": 144,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/mizchi/explainer",
     "screenshot": "https://opengraph.githubassets.com/4c92593fad1010ed046bc8afa896114ed5da1bfc370eb1968001bd6f732962ab/mizchi/explainer",
     "description": "English | 日本語 Skills and tools for explaining concepts from an AI to a human. Coding agents now write faster than people can understand what they wrote (Geoffrey Litt, Understanding is the new bottleneck). This repository is for writing, for one reader, only what that reader does not already k...",
     "hatenaDate": "2026-09-29T19:12:08Z",
     "users": [],
     "firstSeenAt": "2026-09-30T07:30:15.129444+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "BedrockのClaudeに暗黙的なプロンプトキャッシュが登場！！とドキュメントにある（暗黙的とは？） - Qiita",
@@ -985,7 +998,7 @@
     "hatenaDate": "2026-09-29T11:48:26Z",
     "users": [],
     "firstSeenAt": "2026-09-29T22:00:51.637817+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "AI時代にはこれまで以上に「顔の良さ」が重要になる可能性がある、AIは人間以上に顔の偏見が強いため",
@@ -1017,14 +1030,14 @@
     "title": "IIJ、新人エンジニア向け研修教材を無料公開　Web技術の基礎から生成AI活用まで20講義超",
     "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001854/",
     "domain": "www.itmedia.co.jp",
-    "count": 566,
+    "count": 570,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/29/2000001854/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/29/2000001854/10007888/2048",
     "description": "インターネットイニシアティブ（IIJ）は9月28日、新人エンジニア向けハンズオン研修「IIJ Bootcamp」の2026年度版資料を公式エンジニアブログで紹介した。資料は社内限定の一部を除いて専用サイトで無料公開している。 IIJ Bootcampは、同社の有志が講師となって19年度から毎年開いている研修。IT系のどの分野でも必要に...",
     "hatenaDate": "2026-09-29T11:47:47Z",
     "users": [],
     "firstSeenAt": "2026-09-29T21:30:17.184047+09:00",
-    "lastSeenAt": "2026-09-30T13:45:16.268717+09:00"
+    "lastSeenAt": "2026-09-30T14:00:13.253988+09:00"
   },
   {
     "title": "GoogleBookが話題なので前身ChromeOSのLinux環境のこと書いておく",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-09-27T08:30:48.497033+09:00",
     "lastSeenAt": "2026-09-28T02:30:14.865656+09:00"
-  },
-  {
-    "title": "AI が書く Go コードの品質を劇的に向上させる Linter: “declscope”",
-    "url": "https://zenn.dev/yumemi_inc/articles/go-declscope-file-scoped-private",
-    "domain": "zenn.dev",
-    "count": 79,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/yumemi_inc/articles/go-declscope-file-scoped-private",
-    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--fNbSnrW7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%258C%25E6%259B%25B8%25E3%2581%258F%2520Go%2520%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AE%25E5%2593%2581%25E8%25B3%25AA%25E3%2582%2592%25E5%258A%2587%25E7%259A%2584%25E3%2581%25AB%25E5%2590%2591%25E4%25B8%258A%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%2520Linter%253A%2520%25E2%2580%259Cdeclscope%25E2%2580%259D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:mpyw%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzBjYzdlMWE1YzYuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%2586%25E3%2582%2581%25E3%2581%25BF%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzk0ZWM3OGU4NDYuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-    "description": "旧題: 「Go のフラットなパッケージにファイル単位の private を持ち込む Linter “declscope”」 はじめに Go は「誰が書いても同じようになる」言語 Go には表現の選択肢が多くありません。三項演算子もなければ例外もなく，メタプログラミングで遊ぶ文化も薄い。 if err != nil を延々と書き，for を回し，構造体を素直...",
-    "hatenaDate": "2026-09-26T10:09:00Z",
-    "users": [],
-    "firstSeenAt": "2026-09-27T08:30:48.497033+09:00",
-    "lastSeenAt": "2026-09-27T23:15:12.588523+09:00"
   }
 ]
