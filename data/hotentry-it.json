@@ -1,5 +1,44 @@
 [
   {
+    "title": "デスクトップ付箋の老舗「付箋紙21」に6年ぶりの新作、64bit版が登場／「Delphi 13 CE」と「Claude」の力を借りて復活",
+    "url": "https://forest.watch.impress.co.jp/docs/news/2144123.html",
+    "domain": "forest.watch.impress.co.jp",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2144123.html",
+    "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2144/123/husenshi2k.jpg",
+    "description": null,
+    "hatenaDate": "2026-09-30T04:25:55Z",
+    "users": [],
+    "firstSeenAt": "2026-09-30T17:01:23.344863+09:00",
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
+  },
+  {
+    "title": "イベント駆動マイクロサービス 第2版",
+    "url": "https://www.oreilly.co.jp//books/9784814401826/",
+    "domain": "www.oreilly.co.jp",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.oreilly.co.jp//books/9784814401826/",
+    "screenshot": "https://www.oreilly.co.jp/books/images/picture_large978-4-8144-0182-6.jpeg",
+    "description": "TOPICS System/Network 発行年月日 2026年10月21日 発売予定 PRINT LENGTH 488 （予定） ISBN 978-4-8144-0182-6 原書 Building Event-Driven Microservices, 2E FORMAT Print イベント駆動マイクロサービスは、イベントストリームを活用し、組織全体で発生するデータや状態の変化にリアルタイムで対応するための最適な...",
+    "hatenaDate": "2026-09-29T15:13:40Z",
+    "users": [],
+    "firstSeenAt": "2026-09-30T17:01:23.344863+09:00",
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
+  },
+  {
+    "title": "もうMCPサーバは不要なのか？　代わりになる技術を開発者が提唱",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/30/news047.html",
+    "domain": "atmarkit.itmedia.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2609/30/news047.html",
+    "screenshot": "https://image.itmedia.co.jp/ait/articles/2609/30/cover_news047.jpg",
+    "description": "MCPはLLMが未成熟な時期に外部サービス接続用として普及したが、AIモデルの高度化で役割が縮小している。あるソフトウェアエンジニアは、多くのMCPサーバを廃し、これを介さない手法を取り入れるべきだと主張した。一体それは何だろうか。 「Model Context Protocol」（MCP）は、Anthropicが2024年11月に公開した、AIエ...",
+    "hatenaDate": "2026-09-30T04:26:35Z",
+    "users": [],
+    "firstSeenAt": "2026-09-30T17:01:23.344863+09:00",
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
+  },
+  {
     "title": "「声」もパブリシティー権の保護対象に　津田健次郎さんのAI声模倣訴訟で東京地裁が判断──削除請求自体は棄却",
     "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001892/",
     "domain": "www.itmedia.co.jp",
@@ -16,53 +55,53 @@
     "title": "はてな匿名ダイアリーがChatGPTから使えるようになりました - はてラボ 開発者ブログ",
     "url": "https://labo.hatenastaff.com/entry/2026/09/30/151500",
     "domain": "labo.hatenastaff.com",
-    "count": 19,
+    "count": 26,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/labo.hatenastaff.com/entry/2026/09/30/151500",
     "screenshot": "https://ogimage.blog.st-hatena.com/12921228815717857932/14945776032084246283/1790748900",
     "description": "先日、はてな匿名ダイアリーの20周年をお知らせした際に、今後も新しい取り組みを進めていくことをご案内しました。 そのひとつとして、このたび実験的に、はてな匿名ダイアリーがChatGPTから使えるようになりましたことをお知らせします。 ChatGPTとの会話の中から、はてな匿名ダイアリーの投稿を探したり、読んだり、...",
     "hatenaDate": "2026-09-30T06:22:41Z",
     "users": [],
     "firstSeenAt": "2026-09-30T16:30:12.017172+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "「WSL 3.0」がリリース、3カ月のテストを経て「WSL containers」が正式版に／「Docker」なしでLinuxコンテナーを構築・実行、「wslc compose」の開発にも着手",
     "url": "https://forest.watch.impress.co.jp/docs/news/2144295.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 13,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2144295.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2144/295/wsl.jpg",
     "description": null,
     "hatenaDate": "2026-09-30T06:40:13Z",
     "users": [],
     "firstSeenAt": "2026-09-30T16:30:12.017172+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "評価をAIに委ねたとき、人の役割はどこに残るのか｜hashiyaman",
     "url": "https://note.com/hashiyaman/n/na03108694c97",
     "domain": "note.com",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/hashiyaman/n/na03108694c97",
     "screenshot": "https://assets.st-note.com/production/uploads/images/319000755/rectangle_large_type_2_b8f82974091bc68b40eac4e0cb99d10e.png?fit=bounds&quality=85&width=1280",
     "description": "Ubieの橋山です。 普段はエンジニアリングマネージャーとHRBPをやりながら、社内の生成AIサービスやAI評価システムの開発を担当しています。 Ubieでは2025年から準備を始め、2026年4月から人事評価に生成AIを使っています。評価のプロセスの中に人間が極力入らず、AI中心で進める評価システムを作りました。 先日、Offer...",
     "hatenaDate": "2026-09-30T03:46:27Z",
     "users": [],
     "firstSeenAt": "2026-09-30T16:15:13.635602+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "GitHub Actionsにロックファイルが来るぞ - Qiita",
     "url": "https://qiita.com/access3151fq/items/70a93f08bffd9c5f09a5",
     "domain": "qiita.com",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/access3151fq/items/70a93f08bffd9c5f09a5",
     "screenshot": null,
     "description": "3行まとめ GitHub Actionsの依存関係はコミットSHAでバージョンをピン留めした方がよい しかし従来サポートされていた方法は扱いづらかった 公式の「gh actions-lock」コマンドを利用すると楽 従来のGitHub Actionsバージョン管理 GitHub Actionsの依存関係はバージョン指定とコミットSHA指定の2種類があり、後者の方が...",
     "hatenaDate": "2026-09-30T05:56:28Z",
     "users": [],
     "firstSeenAt": "2026-09-30T15:45:09.858842+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "楽天モバイルへのauローミング、10月からのエリアマップ公開",
@@ -94,14 +133,14 @@
     "title": "Rustで作った自作OS「octox」がサンフランシスコ大学の教材になっていました",
     "url": "https://zenn.dev/o8vm/articles/3934806424cd85",
     "domain": "zenn.dev",
-    "count": 9,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/o8vm/articles/3934806424cd85",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--e0SPjRvZ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Rust%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E8%2587%25AA%25E4%25BD%259COS%25E3%2580%258Coctox%25E3%2580%258D%25E3%2581%258C%25E3%2582%25B5%25E3%2583%25B3%25E3%2583%2595%25E3%2583%25A9%25E3%2583%25B3%25E3%2582%25B7%25E3%2582%25B9%25E3%2582%25B3%25E5%25A4%25A7%25E5%25AD%25A6%25E3%2581%25AE%25E6%2595%2599%25E6%259D%2590%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:o8vm%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2NiZmU4Y2JiYzMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "私が Rust で実装して公開している Unix-like OS「octox」が、サンフランシスコ大学（University of San Francisco）の授業で教材として使用されていることが分かりました。 octox 専用のガイドが用意されているだけでなく、講義で実装が解説され、ユーザープログラムやカーネルを拡張する課題も公開されています。[1] ...",
     "hatenaDate": "2026-09-29T23:03:22Z",
     "users": [],
     "firstSeenAt": "2026-09-30T15:15:10.624547+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "【速報】声が「パブリシティ権」の保護対象と認める判決 津田健次郎さんの訴え退けるも東京地裁が初判断 TikTok運営会社に生成AI動画の削除求めた訴訟 - ライブドアニュース",
@@ -114,33 +153,33 @@
     "hatenaDate": "2026-09-30T05:07:38Z",
     "users": [],
     "firstSeenAt": "2026-09-30T15:00:14.178382+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "タイムズカー、退会者の免許証画像も「7年」保存していた理由　パーク24に聞いた",
     "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001877/",
     "domain": "www.itmedia.co.jp",
-    "count": 53,
+    "count": 57,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/30/2000001877/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/30/2000001877/10007974/2048",
     "description": "カーシェア「タイムズカー」で、退会者を含む約660万アカウントの情報が漏えいした問題をめぐり、パーク24は取材に対して、漏えいの対象となった退会者の個人情報を、退会後7年間保存していた理由について、「法人税法に基づく取引記録の保管義務のため」と説明した。ただ免許証画像の保存は法人税法に根拠はなく、「な...",
     "hatenaDate": "2026-09-30T04:55:05Z",
     "users": [],
     "firstSeenAt": "2026-09-30T14:45:14.145682+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "タイムズカーの不正アクセスで免許証画像が流出した人へ：考えられる被害と今日からできる対策",
     "url": "https://zenn.dev/gzer0/articles/timescar-leak-countermeasures",
     "domain": "zenn.dev",
-    "count": 62,
+    "count": 70,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/gzer0/articles/timescar-leak-countermeasures",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--rjMTXk2g--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25BF%25E3%2582%25A4%25E3%2583%25A0%25E3%2582%25BA%25E3%2582%25AB%25E3%2583%25BC%25E3%2581%25AE%25E4%25B8%258D%25E6%25AD%25A3%25E3%2582%25A2%25E3%2582%25AF%25E3%2582%25BB%25E3%2582%25B9%25E3%2581%25A7%25E5%2585%258D%25E8%25A8%25B1%25E8%25A8%25BC%25E7%2594%25BB%25E5%2583%258F%25E3%2581%258C%25E6%25B5%2581%25E5%2587%25BA%25E3%2581%2597%25E3%2581%259F%25E4%25BA%25BA%25E3%2581%25B8%25EF%25BC%259A%25E8%2580%2583%25E3%2581%2588%25E3%2582%2589%25E3%2582%258C%25E3%2582%258B%25E8%25A2%25AB%25E5%25AE%25B3%25E3%2581%25A8%25E4%25BB%258A%25E6%2597%25A5%25E3%2581%258B%25E3%2582%2589%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E5%25AF%25BE%25E7%25AD%2596%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:gzer0%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzhmYjY3ZGI4ZGUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "クレジットカード情報は、流出していないと発表されています。 分かっていないこと 不正アクセスの原因と経路（調査中） 一人ひとりについて、どの書類の画像が流出したか（2週間程度で個別に報告予定） 流出した情報が、すでに悪用されているかどうか 考えられる被害 起こりやすい順に並べます。 1. タイムズカーを装っ...",
     "hatenaDate": "2026-09-30T01:43:13Z",
     "users": [],
     "firstSeenAt": "2026-09-30T14:45:14.145682+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "AIの安全対策でトランプ大統領と業界が合意 企業内管理導入へ | NHKニュース",
@@ -257,7 +296,7 @@
     "hatenaDate": "2026-09-30T02:13:32Z",
     "users": [],
     "firstSeenAt": "2026-09-30T12:30:10.108013+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "WindowsにLinuxコンテナ機能「WSLC」が正式登場　Docker Desktopなしで実行可能に | XenoSpectrum",
@@ -270,7 +309,7 @@
     "hatenaDate": "2026-09-30T00:29:56Z",
     "users": [],
     "firstSeenAt": "2026-09-30T12:30:10.108013+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "さくらインターネット、「.site」「.work」「.xyz」ドメインを値上げへ　27年2月から",
@@ -315,14 +354,14 @@
     "title": "【特集】 Windows 11「26H2」提供開始。タスクバーの上配置など新機能をチェック",
     "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2144347.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 40,
+    "count": 43,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/topic/feature/2144347.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2144/347/001.png",
     "description": null,
     "hatenaDate": "2026-09-30T02:07:30Z",
     "users": [],
     "firstSeenAt": "2026-09-30T12:15:09.244932+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "GitHub を使う上で知っておくと嬉しいかも Tips 2026 | ドクセル",
@@ -432,14 +471,14 @@
     "title": "免許証の悪用防ぐ届出集中、CIC・JICCで手続き遅延　タイムズカー情報流出直後に",
     "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001873/",
     "domain": "www.itmedia.co.jp",
-    "count": 190,
+    "count": 195,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/30/2000001873/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/30/2000001873/10007966/2048",
     "description": "信用情報機関のCICと日本信用情報機構（JICC）は9月29日、インターネットやスマホアプリからの本人申告や開示の申し込みが集中し、手続きが遅れていると発表した。 前日には、「タイムズカー」が免許証画像を含む大規模な情報漏えいを公表。自分の免許証情報の漏えいを心配した人が、本人申告で今後の悪用に備えたり、自...",
     "hatenaDate": "2026-09-30T01:03:38Z",
     "users": [],
     "firstSeenAt": "2026-09-30T10:45:11.699264+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "AIと作ったWebアプリをすぐに公開　エンジニアリングリード・深野悠吾さんに聞く、「ロリポップ！デプロイナウ byGMOペパボ」開発秘話・前編 / 開発者向けブログ・イベント | GMO Developers",
@@ -452,7 +491,7 @@
     "hatenaDate": "2026-09-30T01:05:32Z",
     "users": [],
     "firstSeenAt": "2026-09-30T10:45:11.699264+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "【後編】GMOペパボの「集合知」でよりよいプロダクトへ ― エンジニアリングリード・深野悠吾さんに聞く、「ロリポップ！デプロイナウ byGMOペパボ」開発秘話 - Pepabo Tech Portal",
@@ -556,33 +595,33 @@
     "hatenaDate": "2026-09-30T00:23:42Z",
     "users": [],
     "firstSeenAt": "2026-09-30T10:15:13.659042+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "ドラッグ＆ドロップ操作ミスで……TOPPAN、損保ジャパン契約者17万人分のデータを他社に誤送付",
     "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001870/",
     "domain": "www.itmedia.co.jp",
-    "count": 116,
+    "count": 117,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/30/2000001870/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2609/30/2000001870/10007952/2048",
     "description": "誤送付されたデータは、カナ氏名と、保険料控除用証券番号、業務IDの3項目。証券番号は損保ジャパン固有の識別番号で、第三者がこの番号だけで個人や契約内容を特定・照会できない。業務IDは、控除証明書の発行年、損害保険会社の識別番号、対象契約の証券番号を組み合わせた、証明書単位のユニークキー。 漢字氏名や住...",
     "hatenaDate": "2026-09-29T23:54:48Z",
     "users": [],
     "firstSeenAt": "2026-09-30T10:15:13.659042+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "【特集】 画面割れMacや余剰PCで動く！Hermes Agentで始める“格安”箱庭AIエージェント",
     "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2144262.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 82,
+    "count": 83,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/topic/feature/2144262.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2144/262/1.jpg",
     "description": null,
     "hatenaDate": "2026-09-29T21:15:38Z",
     "users": [],
     "firstSeenAt": "2026-09-30T10:15:13.659042+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "AIキャラの自然な発話のために～「生の人間のノイズ」を徹底分析してみよう｜ろてじん",
@@ -601,14 +640,14 @@
     "title": "タイムズカーの会員情報漏えいのニュース→TOPPAN「タイムズがデカいのやらかしたぞ！！今のうちにリリースしろ！！」企業が続々「俺も！！！」",
     "url": "https://togetter.com/li/2752131",
     "domain": "togetter.com",
-    "count": 229,
+    "count": 234,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2752131",
     "screenshot": "https://s.tgstc.com/ogp3/484608c005a552362f477b725062eec4-1200x630.jpeg",
     "description": "AIと人事に苦しむマーモット @Duetousandyou トッパン「タイムズがデカいのやらかしたぞ！！ 今のうちにリリースしろ！！」 レゴランド「俺も！」 日本郵便「俺も！」 京王グループ「俺も！」 東京メトロ「俺も！」 イープラス「俺も！」 ニッポンレンタカー「俺も！」 スターツ出版「俺も！」 セコマ「俺も！」 集英社...",
     "hatenaDate": "2026-09-29T23:47:03Z",
     "users": [],
     "firstSeenAt": "2026-09-30T09:30:14.716092+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "「GPT-6 Astraは旧世代モデルよりサイバー攻撃を実行しやすい傾向にある」というイギリス政府機関の分析結果が公開される",
@@ -634,7 +673,7 @@
     "hatenaDate": "2026-09-29T19:31:44Z",
     "users": [],
     "firstSeenAt": "2026-09-30T09:15:14.032742+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "｢折り畳みiPhoneを持つ価値は？｣｢iPad miniと競合する？｣…アップル幹部に聞いた\"最新iPhoneの気になるコト\"",
@@ -705,14 +744,14 @@
     "title": "オレのClaude Code作業環境、控えめにいって最高すぎる〜Stream Deckでherdrを操作、完了はずんだもんが読み上げ〜 | SIOS Tech Lab",
     "url": "https://tech-lab.sios.jp/archives/54936",
     "domain": "tech-lab.sios.jp",
-    "count": 362,
+    "count": 374,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech-lab.sios.jp/archives/54936",
     "screenshot": "https://tech-lab.sios.jp/wp-content/uploads/2026/09/IMG_5599-scaled.jpeg",
     "description": "武井でございます。 手元のボタンを見るだけで、どの Claude Code が作業中で、どれが確認待ちで、どれが終わったのかが一目で分かる。 ボタンを押せば、そのターミナルに一発で飛べる。 作業が終わったら、ずんだもんが「何をやって、次に何をすればいいか」を声で教えてくれる。 そんな作業環境をStream Deckとherdr、...",
     "hatenaDate": "2026-09-29T23:26:36Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:45:15.482198+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "OpenAIの中で何が起きているのかをセキュリティ担当者が説明、AIラボには「合理的なパラノイアの文化」が必要",
@@ -731,14 +770,14 @@
     "title": "OpenAI DevDay 2026 発表まとめ",
     "url": "https://zenn.dev/schroneko/articles/openai-devday-2026",
     "domain": "zenn.dev",
-    "count": 89,
+    "count": 90,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/schroneko/articles/openai-devday-2026",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--z_7FVyRV--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:OpenAI%2520DevDay%25202026%2520%25E7%2599%25BA%25E8%25A1%25A8%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25AC%25E3%2581%2593%25E3%2581%25AC%25E3%2581%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzE4ZDE4NWExYTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "tl;dr OpenAI DevDay 2026 がサンフランシスコで開催されたよ サンフランシスコ現地から情報をお送りするよ ひと通りのリソースをまとめたけど、まずは Recap ページを見るといいよ 24 時間常時稼働のエージェント dots が発表されたよ GPT-6 Astra に近い性能を低コストで使える GPT-6.1 Sol が公開されたよ 高速にトー...",
     "hatenaDate": "2026-09-29T21:28:47Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:30:12.828905+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "【速報】「Windows 11 2026 Update」（バージョン 26H2）の一般提供が開始／「バージョン 24H2/25H2」からは切り替えパッチ「eKB」で",
@@ -751,7 +790,7 @@
     "hatenaDate": "2026-09-29T21:36:55Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:30:12.828905+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "GitHub を使う上で知っておくと嬉しいかも Tips 2026 | ドクセル",
@@ -764,7 +803,7 @@
     "hatenaDate": "2026-09-29T10:53:52Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:30:12.828905+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "OpenAI、「24時間働く」エージェント「dots」発表　Astra搭載、クラウド上で常時稼働",
@@ -777,20 +816,20 @@
     "hatenaDate": "2026-09-29T18:51:02Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:15:15.249576+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "「証明」によりAIの誤りを阻止しGPU上で動作する高速プログラミング言語「Bend」、C言語並みの処理速度・CUDAによる並列処理・Leanによる形式的証明・Python風の構文",
     "url": "https://gigazine.net/news/20260930-bend-lang/",
     "domain": "gigazine.net",
-    "count": 48,
+    "count": 49,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260930-bend-lang/",
     "screenshot": "https://i.gzn.jp/img/2026/09/30/bend-lang/00.jpg",
     "description": "「Bend」はAIが犯すかもしれない誤りを「証明」によってブロックすることを目指す新たなプログラミング言語です。 Bend https://bend-lang.com/ BendはポストAGIの経済社会において人間がコードの記述や読解から解放される未来を見据え、AIに対して意図を明確に伝えるための手段として開発されました。Bendは「法律(Laws...",
     "hatenaDate": "2026-09-29T21:04:47Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:15:15.249576+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "IIJ Bootcamp 2026 – AI時代にハンズオン研修で学んでほしいこと | IIJ Engineers Blog",
@@ -803,20 +842,20 @@
     "hatenaDate": "2026-09-28T05:07:01Z",
     "users": [],
     "firstSeenAt": "2026-09-30T08:00:13.650427+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "GitHub - mizchi/explainer",
     "url": "https://github.com/mizchi/explainer",
     "domain": "github.com",
-    "count": 177,
+    "count": 178,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/mizchi/explainer",
     "screenshot": "https://opengraph.githubassets.com/4c92593fad1010ed046bc8afa896114ed5da1bfc370eb1968001bd6f732962ab/mizchi/explainer",
     "description": "English | 日本語 Skills and tools for explaining concepts from an AI to a human. Coding agents now write faster than people can understand what they wrote (Geoffrey Litt, Understanding is the new bottleneck). This repository is for writing, for one reader, only what that reader does not already k...",
     "hatenaDate": "2026-09-29T19:12:08Z",
     "users": [],
     "firstSeenAt": "2026-09-30T07:30:15.129444+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "BedrockのClaudeに暗黙的なプロンプトキャッシュが登場！！とドキュメントにある（暗黙的とは？） - Qiita",
@@ -1193,7 +1232,7 @@
     "hatenaDate": "2026-09-29T11:47:47Z",
     "users": [],
     "firstSeenAt": "2026-09-29T21:30:17.184047+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
+    "lastSeenAt": "2026-09-30T17:01:23.344863+09:00"
   },
   {
     "title": "GoogleBookが話題なので前身ChromeOSのLinux環境のこと書いておく",
@@ -3859,44 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-09-27T15:00:12.410265+09:00",
     "lastSeenAt": "2026-09-27T20:45:13.353941+09:00"
-  },
-  {
-    "title": "防犯カメラを自動鳥類識別システムに変えた方法",
-    "url": "https://gigazine.net/news/20260926-automatic-bird-identification-system/",
-    "domain": "gigazine.net",
-    "count": 13,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260926-automatic-bird-identification-system/",
-    "screenshot": "https://i.gzn.jp/img/2026/09/26/automatic-bird-identification-system/00.jpg",
-    "description": "「BirdNET-Go」は家庭用セキュリティカメラのマイクを活用し、鳥類やコウモリの鳴き声をリアルタイムで検出・識別するツールです。AIモデルをローカル環境で実行するため、プライバシーが漏洩する心配はなく月額料金も不要です。ロサンゼルス在住のIT技術者であるジェイソン・タッカー氏はBirdNET-Goと自宅の防犯カメラ...",
-    "hatenaDate": "2026-09-26T03:09:17Z",
-    "users": [],
-    "firstSeenAt": "2026-09-27T14:45:12.609528+09:00",
-    "lastSeenAt": "2026-09-27T21:45:12.775167+09:00"
-  },
-  {
-    "title": "1.5万円のハイコスパタブレット「BMAX I8 Plus」を買ってみた!【いつモノコト】",
-    "url": "https://www.watch.impress.co.jp/docs/series/itsmo/2138323.html",
-    "domain": "www.watch.impress.co.jp",
-    "count": 16,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/series/itsmo/2138323.html",
-    "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2138/323/001.jpg",
-    "description": null,
-    "hatenaDate": "2026-09-26T06:55:45Z",
-    "users": [],
-    "firstSeenAt": "2026-09-27T14:30:13.696593+09:00",
-    "lastSeenAt": "2026-09-27T22:15:12.975288+09:00"
-  },
-  {
-    "title": "初代iPhoneからiPhone 18 Proまで歴代のiOSホーム画面とボタンの変化がよくわかる「iOS Eras」",
-    "url": "https://gigazine.net/news/20260925-ios-eras-iphone-home-screen-button/",
-    "domain": "gigazine.net",
-    "count": 10,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260925-ios-eras-iphone-home-screen-button/",
-    "screenshot": "https://i.gzn.jp/img/2026/09/25/ios-eras-iphone-home-screen-button/00.png",
-    "description": "iOSはiPhoneに搭載されているモバイルOSであり、記事作成時点では2026年9月15日にリリースされたiOS 27が最新バージョンとなっています。2007年に登場した初代iPhone以降、iOSのホーム画面やボタンがどのように変化してきたのかがよくわかるウェブサイトが「iOS Eras」です。 iOS Eras · Twenty years of iPhone, redraw...",
-    "hatenaDate": "2026-09-25T10:11:51Z",
-    "users": [],
-    "firstSeenAt": "2026-09-27T14:15:13.800572+09:00",
-    "lastSeenAt": "2026-09-27T19:00:13.741100+09:00"
   }
 ]
