@@ -15,11 +15,10 @@
 (function (global) {
   const STORAGE_KEY = 'hateb-tycoon:sync';
   const FILE_NAME = 'hateb-tycoon-visited.json';
-  const API = 'https://api.github.com/gists';
   const PUSH_DEBOUNCE_MS = 45 * 1000;
   const PULL_INTERVAL_MS = 5 * 60 * 1000;
 
-  // { gistId, token, etag, dirty, lastSyncAt, lastError }
+  // { gistId, etag, dirty, lastSyncAt, lastError }。トークンは js/gist.js が共通管理する。
   let state = loadState();
   let pushTimer = null;
   let busy = null; // 実行中の同期Promise(重複実行を避ける)
@@ -50,41 +49,19 @@
     if (onStatus) onStatus();
   }
 
-  // Gist URL(https://gist.github.com/user/<id> 等)を貼られても ID を取り出せるようにする
-  function parseGistId(input) {
-    const m = /([0-9a-f]{20,40})(?![0-9a-f])/i.exec(String(input || ''));
-    return m ? m[1].toLowerCase() : '';
-  }
-
   function isConfigured() {
     return !!state.gistId;
   }
 
   function canPush() {
-    return !!(state.gistId && state.token);
-  }
-
-  function describeHttpError(status) {
-    if (status === 401) return 'トークンが無効です(失効の可能性)';
-    if (status === 403) return 'アクセス拒否またはレート制限です';
-    if (status === 404) return 'Gistが見つかりません(IDまたはトークンの権限を確認)';
-    return `HTTP ${status}`;
+    return !!(state.gistId && Gist.getToken());
   }
 
   // Gistから既読を取得する。変更なし(304)なら null。
   async function fetchRemote() {
-    const headers = { Accept: 'application/vnd.github+json' };
-    if (state.etag) headers['If-None-Match'] = state.etag;
-    const res = await fetch(`${API}/${state.gistId}`, { headers, cache: 'no-store' });
-    if (res.status === 304) return null;
-    if (!res.ok) throw new Error(describeHttpError(res.status));
-    const etag = res.headers.get('ETag');
-    const json = await res.json();
-    const file = json.files && json.files[FILE_NAME];
-    let text = '';
-    if (file) {
-      text = file.truncated && file.raw_url ? await (await fetch(file.raw_url)).text() : file.content || '';
-    }
+    const res = await Gist.get(state.gistId, state.etag);
+    if (!res) return null;
+    const text = await Gist.fileText(res.json, FILE_NAME);
     let visited = {};
     try {
       const parsed = JSON.parse(text);
@@ -92,7 +69,7 @@
     } catch (e) {
       // 空や壊れたファイルは「リモートに既読なし」として扱う(次回pushで作り直される)
     }
-    return { visited, etag };
+    return { visited, etag: res.etag };
   }
 
   // ローカルにあってリモートに無い(または新しい)既読があるか
@@ -104,18 +81,12 @@
     });
   }
 
-  async function writeRemote() {
-    const body = { files: { [FILE_NAME]: { content: JSON.stringify({ version: 1, visited: Visited.getAll() }) } } };
-    const res = await fetch(`${API}/${state.gistId}`, {
-      method: 'PATCH',
-      headers: {
-        Accept: 'application/vnd.github+json',
-        Authorization: `Bearer ${state.token}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(body),
-    });
-    if (!res.ok) throw new Error(describeHttpError(res.status));
+  function visitedContent() {
+    return JSON.stringify({ version: 1, visited: Visited.getAll() });
+  }
+
+  function writeRemote() {
+    return Gist.update(state.gistId, { [FILE_NAME]: visitedContent() });
   }
 
   // pull(+マージ) → 必要ならpush。トークン無しなら pull のみ。
@@ -171,37 +142,17 @@
 
   // 新しいシークレットGistを作成してIDを保存する(トークン必須)
   async function createGist() {
-    if (!state.token) throw new Error('先にトークンを入力してください');
-    const res = await fetch(API, {
-      method: 'POST',
-      headers: {
-        Accept: 'application/vnd.github+json',
-        Authorization: `Bearer ${state.token}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        description: 'hateb-tycoon visited sync',
-        public: false,
-        files: { [FILE_NAME]: { content: JSON.stringify({ version: 1, visited: Visited.getAll() }) } },
-      }),
-    });
-    if (!res.ok) throw new Error(describeHttpError(res.status));
-    const json = await res.json();
-    setState({ gistId: json.id, etag: '', dirty: false, lastError: '' });
-    return json.id;
+    const id = await Gist.create('hateb-tycoon visited sync', { [FILE_NAME]: visitedContent() });
+    setState({ gistId: id, etag: '', dirty: false, lastError: '' });
+    return id;
   }
 
-  function configure({ gistId, token }) {
-    setState({
-      gistId: parseGistId(gistId),
-      token: (token || '').trim(),
-      etag: '',
-      lastError: '',
-    });
+  function configure({ gistId }) {
+    setState({ gistId: Gist.parseGistId(gistId), etag: '', lastError: '' });
   }
 
   function getConfig() {
-    return { gistId: state.gistId || '', token: state.token || '', lastSyncAt: state.lastSyncAt || 0, lastError: state.lastError || '' };
+    return { gistId: state.gistId || '', lastSyncAt: state.lastSyncAt || 0, lastError: state.lastError || '' };
   }
 
   // 起動時:最大 timeoutMs だけ待ってpullする(描画前に既読を反映するため)。

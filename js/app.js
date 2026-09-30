@@ -34,10 +34,7 @@
   const copyBtn = document.getElementById('copy-btn');
   const exportTextBtn = document.getElementById('export-text-btn');
   const importFileInput = document.getElementById('import-file-input');
-  const importUrlForm = document.getElementById('import-url-form');
-  const importUrlInput = document.getElementById('import-url-input');
   const importStatus = document.getElementById('import-status');
-  const importGistLink = document.getElementById('import-gist-link');
   const importKindCurrent = document.getElementById('import-kind-current');
   const visitedThresholdValueInput = document.getElementById('visited-threshold-value');
   const visitedThresholdTypeSelect = document.getElementById('visited-threshold-type');
@@ -992,9 +989,11 @@
     settingsModal.hidden = false;
     renderSettingsTabs();
     renderRuleList();
-    refreshImportUrlField();
+    refreshImportTarget();
     refreshVisitedThresholdFields();
+    refreshTokenField();
     refreshSyncFields();
+    refreshFilterSyncFields();
     if (preset) {
       ruleTypeSelect.value = preset.type;
       ruleValueInput.value = preset.value;
@@ -1024,9 +1023,31 @@
   visitedThresholdValueInput.addEventListener('change', saveVisitedThresholdFromFields);
   visitedThresholdTypeSelect.addEventListener('change', saveVisitedThresholdFromFields);
 
+  // ---- GitHubトークン(既読の同期・フィルタの同期で共通) ----
+  const gistTokenInput = document.getElementById('gist-token-input');
+
+  function refreshTokenField() {
+    gistTokenInput.value = Gist.getToken();
+  }
+
+  // 入力欄から離れた/Enterで確定した時に保存する(各同期の「保存して同期」は最新のトークンを都度読む)
+  gistTokenInput.addEventListener('change', () => {
+    Gist.setToken(gistTokenInput.value);
+    renderSyncStatus();
+    renderFilterSyncStatus();
+  });
+
+  // Gist IDの隣の「↗」: https://gist.github.com/<id> はユーザー名が無くても所有者のページへ飛べる
+  function refreshGistLink(linkEl, gistId) {
+    const url = Gist.pageUrl(gistId);
+    linkEl.hidden = !url;
+    if (url) linkEl.href = url;
+    else linkEl.removeAttribute('href');
+  }
+
   // ---- 既読の同期(Gist) ----
   const syncGistInput = document.getElementById('sync-gist-input');
-  const syncTokenInput = document.getElementById('sync-token-input');
+  const syncGistLink = document.getElementById('sync-gist-link');
   const syncSaveBtn = document.getElementById('sync-save-btn');
   const syncCreateBtn = document.getElementById('sync-create-btn');
   const syncStatus = document.getElementById('sync-status');
@@ -1037,7 +1058,7 @@
       syncStatus.textContent = '未設定';
       return;
     }
-    const mode = cfg.token ? '読み書き' : '読み取り専用';
+    const mode = Gist.getToken() ? '読み書き' : '読み取り専用';
     const at = cfg.lastSyncAt ? `最終同期 ${new Date(cfg.lastSyncAt).toLocaleString()}` : '未同期';
     syncStatus.textContent = cfg.lastError ? `${mode} / ${at} / エラー: ${cfg.lastError}` : `${mode} / ${at}`;
   }
@@ -1045,19 +1066,25 @@
   function refreshSyncFields() {
     const cfg = Sync.getConfig();
     syncGistInput.value = cfg.gistId;
-    syncTokenInput.value = cfg.token;
+    refreshGistLink(syncGistLink, cfg.gistId);
     renderSyncStatus();
   }
 
+  syncGistInput.addEventListener('input', () => {
+    refreshGistLink(syncGistLink, Gist.parseGistId(syncGistInput.value));
+  });
+
   syncSaveBtn.addEventListener('click', async () => {
-    Sync.configure({ gistId: syncGistInput.value, token: syncTokenInput.value });
+    Gist.setToken(gistTokenInput.value);
+    Sync.configure({ gistId: syncGistInput.value });
     syncStatus.textContent = '同期中…';
     await Sync.sync();
     refreshSyncFields();
   });
 
   syncCreateBtn.addEventListener('click', async () => {
-    Sync.configure({ gistId: '', token: syncTokenInput.value });
+    Gist.setToken(gistTokenInput.value);
+    Sync.configure({ gistId: '' });
     syncStatus.textContent = '作成中…';
     try {
       await Sync.createGist();
@@ -1205,7 +1232,7 @@
     currentSettingsKind = btn.dataset.kind;
     renderSettingsTabs();
     renderRuleList();
-    refreshImportUrlField();
+    refreshImportTarget();
   });
 
   function renderRuleList() {
@@ -1247,62 +1274,9 @@
   });
 
   // ---- CSVエクスポート/インポート ----
-  const IMPORT_URL_PREFIX = 'hateb-tycoon:importUrl:';
-
-  function getImportUrl(kind) {
-    try {
-      return localStorage.getItem(IMPORT_URL_PREFIX + kind) || '';
-    } catch (e) {
-      return '';
-    }
-  }
-
-  function setImportUrl(kind, url) {
-    try {
-      localStorage.setItem(IMPORT_URL_PREFIX + kind, url);
-    } catch (e) {
-      // localStorageが使えない環境では記憶をあきらめる
-    }
-  }
-
-  // gist.github.com上の「Rawを開く」リンクをコピーすると
-  // https://gist.github.com/{user}/{hash}/raw/(commit/)?{filename} になるが、このドメインは
-  // CORSヘッダーを返さずfetch()が失敗する(Load failed)。実体はgist.githubusercontent.comと
-  // 同じなので、fetch前にそちらのURLへ正規化する。
-  function normalizeGistRawUrl(url) {
-    const m = /^https:\/\/gist\.github\.com\/([^/]+)\/([0-9a-fA-F]+)\/raw\/(.+)$/.exec(url);
-    if (!m) return url;
-    const [, user, hash, rest] = m;
-    return `https://gist.githubusercontent.com/${user}/${hash}/raw/${rest}`;
-  }
-
-  // GistのrawURL(https://gist.githubusercontent.com/{user}/{hash}/raw/(commit/)?{filename})から
-  // Gist本体ページのURL(#file-アンカー付き)を逆算する。ファイル名のアンカー化はGitHubの仕様に
-  // 合わせ、英数字・アンダースコア以外の文字を1つの"-"にまとめる(例: gistfile1.txt → file-gistfile1-txt)。
-  function gistRawUrlToPageUrl(url) {
-    const m = /^https:\/\/gist\.githubusercontent\.com\/([^/]+)\/([0-9a-fA-F]+)\/raw\/(.+)$/.exec(url);
-    if (!m) return null;
-    const [, user, hash, rest] = m;
-    const segments = rest.split('/').filter(Boolean);
-    const filename = segments[segments.length - 1];
-    if (!filename) return null;
-    const anchor = filename.toLowerCase().replace(/[^a-z0-9_]+/g, '-');
-    return `https://gist.github.com/${user}/${hash}#file-${anchor}`;
-  }
-
-  function refreshGistLink(url) {
-    const pageUrl = gistRawUrlToPageUrl(url);
-    importGistLink.hidden = !pageUrl;
-    if (pageUrl) importGistLink.href = pageUrl;
-    else importGistLink.removeAttribute('href');
-  }
-
-  function refreshImportUrlField() {
-    const url = getImportUrl(currentSettingsKind);
-    importUrlInput.value = url;
+  function refreshImportTarget() {
     importKindCurrent.textContent = KIND_LABEL[currentSettingsKind];
     importStatus.textContent = '';
-    refreshGistLink(url);
   }
 
   function applyImportedCsv(text) {
@@ -1401,25 +1375,75 @@
     reader.readAsText(file, 'utf-8');
   });
 
-  importUrlForm.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const url = normalizeGistRawUrl(importUrlInput.value.trim());
-    if (!url) return;
-    importUrlInput.value = url;
-    setImportUrl(currentSettingsKind, url);
-    refreshGistLink(url);
-    importStatus.textContent = '取得中…';
-    try {
-      const res = await fetch(url, { cache: 'no-store' });
-      if (!res.ok) {
-        importStatus.textContent = `取得に失敗しました(HTTP ${res.status})`;
-        return;
-      }
-      const text = await res.text();
-      applyImportedCsv(text);
-    } catch (err) {
-      importStatus.textContent = `取得に失敗しました: ${err.message}`;
+  // ---- フィルタの同期(Gist) ----
+  // ミュート・ミュート解除・強制ミュートの3種をまとめて1つのGistで同期する。
+  const filterGistInput = document.getElementById('filter-gist-input');
+  const filterGistLink = document.getElementById('filter-gist-link');
+  const filterSyncSaveBtn = document.getElementById('filter-sync-save-btn');
+  const filterSyncCreateBtn = document.getElementById('filter-sync-create-btn');
+  const filterSyncStatus = document.getElementById('filter-sync-status');
+
+  FilterSync.init({ parseCsv: parseImportCsv, toCsv: rulesToCsv });
+
+  function renderFilterSyncStatus() {
+    const cfg = FilterSync.getConfig();
+    if (!cfg.gistId) {
+      filterSyncStatus.textContent = '未設定';
+      return;
     }
+    const mode = Gist.getToken() ? '読み書き' : '読み取り専用';
+    const at = cfg.lastSyncAt ? `最終同期 ${new Date(cfg.lastSyncAt).toLocaleString()}` : '未同期';
+    filterSyncStatus.textContent = cfg.lastError ? `${mode} / ${at} / エラー: ${cfg.lastError}` : `${mode} / ${at}`;
+  }
+
+  function refreshFilterSyncFields() {
+    const cfg = FilterSync.getConfig();
+    filterGistInput.value = cfg.gistId;
+    refreshGistLink(filterGistLink, cfg.gistId);
+    renderFilterSyncStatus();
+  }
+
+  filterGistInput.addEventListener('input', () => {
+    refreshGistLink(filterGistLink, Gist.parseGistId(filterGistInput.value));
+  });
+
+  function describeFilterSyncResult(r) {
+    const parts = [`${r.added}件を取り込み`];
+    if (r.pushed > 0) parts.push(`Gistへ${r.pushed}ファイルを書き込み`);
+    else if (!r.canPush) parts.push('トークン未設定のため書き込みなし');
+    if (r.ignored > 0) parts.push(`未対応の種別${r.ignored}件は無視`);
+    let text = parts.join('、');
+    if (r.errors.length > 0) text += ` / 不正なCSVは取り込まず上書きもしていません(${r.errors.join(' / ')})`;
+    return text;
+  }
+
+  async function runFilterSync(action) {
+    Gist.setToken(gistTokenInput.value);
+    try {
+      const result = await action();
+      renderRuleList();
+      render();
+      refreshFilterSyncFields();
+      importStatus.textContent = describeFilterSyncResult(result);
+    } catch (err) {
+      renderFilterSyncStatus();
+      filterSyncStatus.textContent = `失敗: ${err.message}`;
+    }
+  }
+
+  filterSyncSaveBtn.addEventListener('click', () => {
+    FilterSync.configure({ gistId: filterGistInput.value });
+    filterSyncStatus.textContent = '同期中…';
+    return runFilterSync(() => FilterSync.sync());
+  });
+
+  filterSyncCreateBtn.addEventListener('click', () => {
+    FilterSync.configure({ gistId: '' });
+    filterSyncStatus.textContent = '作成中…';
+    return runFilterSync(async () => {
+      await FilterSync.createGist();
+      return FilterSync.sync();
+    });
   });
 
   // ---- ビルド情報 + 次回データ更新目安(1行にまとめる) ----
@@ -1527,36 +1551,16 @@
     });
   }
 
-  // ---- 起動時のGist自動インポート ----
-  // フィルタインポートでGistのURLを登録済みなら、最初の描画前に取り込んで最新のミュート設定で
-  // 一覧を出す。オフライン等で応答が遅くても起動を待たせないよう、待つのは最大でタイムアウトまで。
+  // ---- 起動時のGist自動取り込み ----
+  // フィルタ・既読のGistを最初の描画前に取り込み、最新の設定で一覧を出す。
+  // オフライン等で応答が遅くても起動を待たせないよう、待つのは最大でタイムアウトまで。
   const STARTUP_IMPORT_TIMEOUT_MS = 3000;
-
-  async function importGistOnStartup(kind) {
-    const url = normalizeGistRawUrl(getImportUrl(kind));
-    if (!gistRawUrlToPageUrl(url)) return;
-    const res = await fetch(url, { cache: 'no-store' });
-    if (!res.ok) return;
-    const { rules, errors } = parseImportCsv(await res.text());
-    // 手動インポートと同様、1行でも不正なら何も取り込まない
-    if (errors.length > 0) return;
-    Filters.importRules(kind, rules);
-  }
-
-  async function importGistsOnStartup() {
-    const all = Promise.all(
-      Filters.KINDS.map((kind) =>
-        importGistOnStartup(kind).catch((err) => {
-          console.warn('[startup-import] failed', kind, err);
-        })
-      )
-    );
-    const timeout = new Promise((resolve) => setTimeout(resolve, STARTUP_IMPORT_TIMEOUT_MS));
-    await Promise.race([all, timeout]);
-  }
 
   // ---- 初期化 ----
   updateListLayoutToggleUI();
   renderFooter();
-  Promise.all([importGistsOnStartup(), Sync.syncOnStartup(STARTUP_IMPORT_TIMEOUT_MS)]).then(render);
+  Promise.all([
+    FilterSync.syncOnStartup(STARTUP_IMPORT_TIMEOUT_MS),
+    Sync.syncOnStartup(STARTUP_IMPORT_TIMEOUT_MS),
+  ]).then(render);
 })();

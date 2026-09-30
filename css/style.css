@@ -863,22 +863,27 @@ a.btn {
   text-decoration: none;
   color: inherit;
 }
-.import-url-form {
+.gist-row {
   display: flex;
   gap: 8px;
   align-items: center;
+  margin-bottom: 8px;
 }
-.import-url-form .btn {
+.gist-row .btn {
   flex: 0 0 auto;
   white-space: nowrap;
 }
-.import-url-form input[type="url"] {
+.gist-row input {
   flex: 1;
   min-width: 0;
   padding: 6px 10px;
   border-radius: var(--radius);
   border: 1px solid var(--color-border);
   font-size: 16px;
+}
+.sub-heading {
+  margin: 16px 0 8px;
+  font-size: 0.95rem;
 }
 
 @media (max-width: 640px) {
