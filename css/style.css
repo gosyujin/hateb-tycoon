@@ -859,6 +859,12 @@ main {
   font-size: 0.85rem;
   color: var(--color-muted);
 }
+.import-target select {
+  padding: 4px 6px;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  font-size: 16px;
+}
 a.btn {
   text-decoration: none;
   color: inherit;

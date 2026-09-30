@@ -51,7 +51,7 @@
 
   // foreign: リモートにあった未対応type行(上書きで消さないよう一緒に書き出す)
   function localCsv(kind, foreign) {
-    return toCsv(Filters.sortRules([...Filters.loadRules(kind), ...(foreign || [])]));
+    return toCsv(Filters.sortRules(Filters.uniqueRules([...Filters.loadRules(kind), ...(foreign || [])])));
   }
 
   // リモートの各CSVをローカルへマージする。
@@ -88,6 +88,7 @@
       if (Gist.getToken()) {
         const files = {};
         for (const kind of Filters.KINDS) {
+          Filters.dedupeRules(kind); // 重複登録されたルールをGistへ複写しないよう、先にローカルを掃除する
           if (merged.invalid.has(kind)) continue;
           if (Filters.loadRules(kind).length === 0 && !normalize(merged.texts[kind])) continue;
           const csv = localCsv(kind, merged.foreign[kind]);

@@ -58,12 +58,38 @@
     return rules.slice().sort((a, b) => a.type.localeCompare(b.type) || a.value.localeCompare(b.value));
   }
 
+  // 重複判定キー(type + valueの大文字小文字を無視した一致)
+  function ruleKey(r) {
+    return `${r.type}:${(r.value || '').trim().toLowerCase()}`;
+  }
+
+  // 重複を除いた配列を返す(先に出たものを残す)
+  function uniqueRules(rules) {
+    const seen = new Set();
+    return rules.filter((r) => {
+      const key = ruleKey(r);
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
+  // 保存済みルールから重複を取り除く。過去に重複登録されたデータの掃除用。
+  function dedupeRules(kind) {
+    assertKind(kind);
+    const rules = loadRules(kind);
+    const unique = uniqueRules(rules);
+    if (unique.length !== rules.length) saveRules(kind, unique);
+    return unique;
+  }
+
   function addRule(kind, type, value) {
     assertKind(kind);
     if (!TYPES.includes(type)) throw new Error(`unknown rule type: ${type}`);
     const trimmed = value.trim();
     if (!trimmed) return loadRules(kind);
     const rules = loadRules(kind);
+    if (rules.some((r) => ruleKey(r) === ruleKey({ type, value: trimmed }))) return rules;
     rules.push({ id: makeId(), type, value: trimmed });
     const sorted = sortRules(rules);
     saveRules(kind, sorted);
@@ -143,6 +169,8 @@
     addRule,
     removeRule,
     importRules,
+    uniqueRules,
+    dedupeRules,
     sortRules,
     isHidden,
   };

@@ -35,7 +35,7 @@
   const exportTextBtn = document.getElementById('export-text-btn');
   const importFileInput = document.getElementById('import-file-input');
   const importStatus = document.getElementById('import-status');
-  const importKindCurrent = document.getElementById('import-kind-current');
+  const importKindSelect = document.getElementById('import-kind-select');
   const visitedThresholdValueInput = document.getElementById('visited-threshold-value');
   const visitedThresholdTypeSelect = document.getElementById('visited-threshold-type');
   const offlineCacheCountInput = document.getElementById('offline-cache-count');
@@ -1278,9 +1278,17 @@
 
   // ---- CSVエクスポート/インポート ----
   function refreshImportTarget() {
-    importKindCurrent.textContent = KIND_LABEL[currentSettingsKind];
+    importKindSelect.value = currentSettingsKind;
     importStatus.textContent = '';
   }
+
+  // 「対象」の変更を、ミュート設定のタブ・ルール一覧にも反映する(タブ側の切り替えと同じ状態を共有)
+  importKindSelect.addEventListener('change', () => {
+    currentSettingsKind = importKindSelect.value;
+    renderSettingsTabs();
+    renderRuleList();
+    refreshImportTarget();
+  });
 
   function applyImportedCsv(text) {
     const { rules, errors, ignored } = parseImportCsv(text);
@@ -1388,7 +1396,8 @@
 
   FilterSync.init({ parseCsv: parseImportCsv, toCsv: rulesToCsv });
 
-  function renderFilterSyncStatus() {
+  // extra: 直前の同期結果など、状態行に続けて出す補足
+  function renderFilterSyncStatus(extra) {
     const cfg = FilterSync.getConfig();
     if (!cfg.gistId) {
       filterSyncStatus.textContent = '未設定';
@@ -1396,7 +1405,8 @@
     }
     const mode = Gist.getToken() ? '読み書き' : '読み取り専用';
     const at = cfg.lastSyncAt ? `最終同期 ${new Date(cfg.lastSyncAt).toLocaleString()}` : '未同期';
-    filterSyncStatus.textContent = cfg.lastError ? `${mode} / ${at} / エラー: ${cfg.lastError}` : `${mode} / ${at}`;
+    const base = cfg.lastError ? `${mode} / ${at} / エラー: ${cfg.lastError}` : `${mode} / ${at}`;
+    filterSyncStatus.textContent = extra ? `${base} / ${extra}` : base;
   }
 
   function refreshFilterSyncFields() {
@@ -1427,7 +1437,7 @@
       renderRuleList();
       render();
       refreshFilterSyncFields();
-      importStatus.textContent = describeFilterSyncResult(result);
+      renderFilterSyncStatus(describeFilterSyncResult(result));
     } catch (err) {
       renderFilterSyncStatus();
       filterSyncStatus.textContent = `失敗: ${err.message}`;

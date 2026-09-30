@@ -91,6 +91,19 @@
       </div>
     </section>
 
+    <section class="modal-section offline-cache-section">
+      <h3>オフライン用キャッシュ<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-offline" aria-label="説明を表示">?</button></h3>
+      <p id="hint-offline" class="hint" hidden>
+        「全て」カテゴリーの表示順(フィルタ除外後)で上位n件のコメントを今すぐ取得し、
+        機内モードなどオフラインでも読めるよう保存しておきます(既読/未読は問いません)。
+      </p>
+      <div class="offline-cache-row">
+        <label>件数 <input id="offline-cache-count" type="number" min="1" max="200" value="100" inputmode="numeric"></label>
+        <button id="offline-cache-btn" type="button" class="btn btn--small">今すぐキャッシュする</button>
+      </div>
+      <p id="offline-cache-status" class="status"></p>
+    </section>
+
     <section class="modal-section token-section">
       <h3>GitHubトークン(Gist用)<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-token" aria-label="説明を表示">?</button></h3>
       <p id="hint-token" class="hint" hidden>
@@ -121,27 +134,32 @@
       <p id="sync-status" class="status"></p>
     </section>
 
-    <section class="modal-section offline-cache-section">
-      <h3>オフライン用キャッシュ<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-offline" aria-label="説明を表示">?</button></h3>
-      <p id="hint-offline" class="hint" hidden>
-        「全て」カテゴリーの表示順(フィルタ除外後)で上位n件のコメントを今すぐ取得し、
-        機内モードなどオフラインでも読めるよう保存しておきます(既読/未読は問いません)。
-      </p>
-      <div class="offline-cache-row">
-        <label>件数 <input id="offline-cache-count" type="number" min="1" max="200" value="100" inputmode="numeric"></label>
-        <button id="offline-cache-btn" type="button" class="btn btn--small">今すぐキャッシュする</button>
-      </div>
-      <p id="offline-cache-status" class="status"></p>
-    </section>
-
     <section class="modal-section import-export">
       <h3>インポート・エクスポート設定<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-import" aria-label="説明を表示">?</button></h3>
       <p id="hint-import" class="hint" hidden>
-        コピー・エクスポート・CSVインポートの対象は、下の「ミュート設定」で選択中のリストです。<br>
+        「手動操作」のコピー・エクスポート・CSVインポートの対象は、「対象」で選んだリストです(下の「ミュート設定」のタブと連動します)。<br>
         CSV形式(1行目ヘッダー任意): <code>type,value</code> / typeは title・domain・user・comment・url のいずれか。<br>
         <strong>フィルタの同期</strong>: ミュート・ミュート解除・強制ミュートの3種すべてを、1つのシークレットGist(種類ごとのCSVファイル)で端末間共有します。「保存して同期」はGistの内容を取り込んだうえで、ローカルとの和集合でGistを上書きします。ルールは積み上がる一方で、削除は同期されません。消したい時はGist側のCSVを直接編集してください(他端末のローカルに残っていれば次の同期で復活します)。アプリ起動時にもGistから自動で取り込みます(書き込みはしません)。書き込みには上の「GitHubトークン」が必要です。
       </p>
-      <p class="import-target">対象: <strong id="import-kind-current">ミュート</strong></p>
+      <h4 class="sub-heading">フィルタの同期(Gist・3種まとめて)</h4>
+      <div class="gist-row">
+        <input id="filter-gist-input" type="text" placeholder="Gist ID または URL" autocomplete="off">
+        <a id="filter-gist-link" class="btn btn--small" target="_blank" rel="noopener noreferrer" title="Gistページを開く" aria-label="Gistページを開く" hidden>↗</a>
+      </div>
+      <div class="import-export-row">
+        <button id="filter-sync-save-btn" type="button" class="btn btn--small">保存して同期</button>
+        <button id="filter-sync-create-btn" type="button" class="btn btn--small">Gistを作成</button>
+      </div>
+      <p id="filter-sync-status" class="status"></p>
+
+      <h4 class="sub-heading">手動操作</h4>
+      <p class="import-target">対象:
+        <select id="import-kind-select" aria-label="手動操作の対象リスト">
+          <option value="mute">ミュート</option>
+          <option value="unmute">ミュート解除</option>
+          <option value="forceMute">強制ミュート</option>
+        </select>
+      </p>
       <div class="import-export-row">
         <button id="copy-btn" type="button" class="btn btn--small" title="クリップボードにコピー" aria-label="クリップボードにコピー">📋</button>
         <button id="export-text-btn" type="button" class="btn btn--small">テキスト表示</button>
@@ -154,17 +172,6 @@
         </label>
       </div>
       <p id="import-status" class="status"></p>
-
-      <h4 class="sub-heading">フィルタの同期(Gist・3種まとめて)</h4>
-      <div class="gist-row">
-        <input id="filter-gist-input" type="text" placeholder="Gist ID または URL" autocomplete="off">
-        <a id="filter-gist-link" class="btn btn--small" target="_blank" rel="noopener noreferrer" title="Gistページを開く" aria-label="Gistページを開く" hidden>↗</a>
-      </div>
-      <div class="import-export-row">
-        <button id="filter-sync-save-btn" type="button" class="btn btn--small">保存して同期</button>
-        <button id="filter-sync-create-btn" type="button" class="btn btn--small">Gistを作成</button>
-      </div>
-      <p id="filter-sync-status" class="status"></p>
     </section>
 
     <section class="modal-section mute-settings">
