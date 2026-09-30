@@ -655,7 +655,48 @@ main {
   max-width: 560px;
   max-height: 85vh;
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 16px 20px 20px;
+  box-sizing: border-box;
+}
+.modal-panel * {
+  box-sizing: border-box;
+  min-width: 0;
+}
+.modal-panel input[type="file"] {
+  min-width: 0;
+}
+
+.modal-section {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--color-border);
+}
+.modal-section h3 {
+  margin: 0 0 8px;
+  font-size: 0.95rem;
+}
+.modal-section .hint {
+  margin: 0 0 12px;
+}
+.modal-section .status:empty {
+  display: none;
+}
+.help-btn {
+  margin-left: 6px;
+  padding: 0 2px;
+  border: none;
+  border-bottom: 1px dashed var(--color-muted);
+  border-radius: 0;
+  background: none;
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  line-height: 1.2;
+  cursor: pointer;
+}
+.help-btn[aria-expanded="true"] {
+  color: var(--color-accent-dark);
+  border-bottom-color: var(--color-accent-dark);
 }
 .modal-header {
   display: flex;
@@ -667,6 +708,9 @@ main {
   font-size: 1.1rem;
 }
 
+.hint[hidden] {
+  display: none;
+}
 .hint {
   font-size: 0.8rem;
   color: var(--color-muted);
@@ -674,15 +718,6 @@ main {
   margin: 8px 0 12px;
 }
 
-.visited-threshold {
-  margin-bottom: 16px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid var(--color-border);
-}
-.visited-threshold h3 {
-  margin: 0;
-  font-size: 0.95rem;
-}
 .visited-threshold-row {
   display: flex;
   gap: 8px;
@@ -702,15 +737,6 @@ main {
   font-size: 16px;
 }
 
-.offline-cache-section {
-  margin-bottom: 16px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid var(--color-border);
-}
-.offline-cache-section h3 {
-  margin: 0;
-  font-size: 0.95rem;
-}
 .offline-cache-row {
   display: flex;
   align-items: center;
@@ -803,9 +829,6 @@ main {
 }
 
 .import-export {
-  margin-top: 16px;
-  padding-top: 12px;
-  border-top: 1px solid var(--color-border);
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -818,9 +841,23 @@ main {
 .file-label {
   display: inline-block;
 }
+.import-target {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+a.btn {
+  text-decoration: none;
+  color: inherit;
+}
 .import-url-form {
   display: flex;
   gap: 8px;
+  align-items: center;
+}
+.import-url-form .btn {
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 .import-url-form input[type="url"] {
   flex: 1;
@@ -925,4 +962,8 @@ main {
     position: absolute;
     inset: 0;
   }
+}
+
+.mute-settings #settings-tabs {
+  margin-bottom: 10px;
 }

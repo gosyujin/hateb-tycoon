@@ -38,6 +38,7 @@
   const importUrlInput = document.getElementById('import-url-input');
   const importStatus = document.getElementById('import-status');
   const importGistLink = document.getElementById('import-gist-link');
+  const importKindCurrent = document.getElementById('import-kind-current');
   const visitedThresholdValueInput = document.getElementById('visited-threshold-value');
   const visitedThresholdTypeSelect = document.getElementById('visited-threshold-type');
   const offlineCacheCountInput = document.getElementById('offline-cache-count');
@@ -1125,6 +1126,16 @@
     openSettings({ kind: 'mute', type: 'user', value: userBtn.dataset.user });
   });
 
+  // ?ボタンで各セクションの説明(.hint)を開閉する(PC・タッチ共通)
+  document.querySelectorAll('.help-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const hint = document.getElementById(btn.getAttribute('aria-controls'));
+      const open = hint.hidden;
+      hint.hidden = !open;
+      btn.setAttribute('aria-expanded', String(open));
+    });
+  });
+
   function renderSettingsTabs() {
     settingsTabs.innerHTML = Filters.KINDS.map((kind) => {
       const active = kind === currentSettingsKind ? ' active' : '';
@@ -1225,19 +1236,15 @@
 
   function refreshGistLink(url) {
     const pageUrl = gistRawUrlToPageUrl(url);
-    importGistLink.textContent = '';
-    if (!pageUrl) return;
-    const a = document.createElement('a');
-    a.href = pageUrl;
-    a.target = '_blank';
-    a.rel = 'noopener noreferrer';
-    a.textContent = 'Gistページを開く';
-    importGistLink.appendChild(a);
+    importGistLink.hidden = !pageUrl;
+    if (pageUrl) importGistLink.href = pageUrl;
+    else importGistLink.removeAttribute('href');
   }
 
   function refreshImportUrlField() {
     const url = getImportUrl(currentSettingsKind);
     importUrlInput.value = url;
+    importKindCurrent.textContent = KIND_LABEL[currentSettingsKind];
     importStatus.textContent = '';
     refreshGistLink(url);
   }
