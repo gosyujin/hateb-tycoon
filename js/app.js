@@ -994,6 +994,7 @@
     renderRuleList();
     refreshImportUrlField();
     refreshVisitedThresholdFields();
+    refreshSyncFields();
     if (preset) {
       ruleTypeSelect.value = preset.type;
       ruleValueInput.value = preset.value;
@@ -1022,6 +1023,61 @@
 
   visitedThresholdValueInput.addEventListener('change', saveVisitedThresholdFromFields);
   visitedThresholdTypeSelect.addEventListener('change', saveVisitedThresholdFromFields);
+
+  // ---- 既読の同期(Gist) ----
+  const syncGistInput = document.getElementById('sync-gist-input');
+  const syncTokenInput = document.getElementById('sync-token-input');
+  const syncSaveBtn = document.getElementById('sync-save-btn');
+  const syncCreateBtn = document.getElementById('sync-create-btn');
+  const syncStatus = document.getElementById('sync-status');
+
+  function renderSyncStatus() {
+    const cfg = Sync.getConfig();
+    if (!cfg.gistId) {
+      syncStatus.textContent = '未設定';
+      return;
+    }
+    const mode = cfg.token ? '読み書き' : '読み取り専用';
+    const at = cfg.lastSyncAt ? `最終同期 ${new Date(cfg.lastSyncAt).toLocaleString()}` : '未同期';
+    syncStatus.textContent = cfg.lastError ? `${mode} / ${at} / エラー: ${cfg.lastError}` : `${mode} / ${at}`;
+  }
+
+  function refreshSyncFields() {
+    const cfg = Sync.getConfig();
+    syncGistInput.value = cfg.gistId;
+    syncTokenInput.value = cfg.token;
+    renderSyncStatus();
+  }
+
+  syncSaveBtn.addEventListener('click', async () => {
+    Sync.configure({ gistId: syncGistInput.value, token: syncTokenInput.value });
+    syncStatus.textContent = '同期中…';
+    await Sync.sync();
+    refreshSyncFields();
+  });
+
+  syncCreateBtn.addEventListener('click', async () => {
+    Sync.configure({ gistId: '', token: syncTokenInput.value });
+    syncStatus.textContent = '作成中…';
+    try {
+      await Sync.createGist();
+      await Sync.sync();
+    } catch (err) {
+      syncStatus.textContent = `作成失敗: ${err.message}`;
+      return;
+    }
+    refreshSyncFields();
+  });
+
+  Sync.init({
+    onMerged: () => {
+      // 一覧表示中のみ再描画する(記事表示中は一覧へ戻った時点で反映される)
+      if (!document.getElementById('view-list').hidden) updateListView(window.scrollY);
+    },
+    onStatus: () => {
+      if (!settingsModal.hidden) renderSyncStatus();
+    },
+  });
 
   // ---- オフライン用キャッシュ(「全て」上位n件のコメントを手動で今すぐ取得) ----
   // 設定モーダル内のボタンとヘッダーのクイックボタンの両方から呼ばれるため、
@@ -1502,5 +1558,5 @@
   // ---- 初期化 ----
   updateListLayoutToggleUI();
   renderFooter();
-  importGistsOnStartup().then(render);
+  Promise.all([importGistsOnStartup(), Sync.syncOnStartup(STARTUP_IMPORT_TIMEOUT_MS)]).then(render);
 })();

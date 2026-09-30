@@ -47,6 +47,47 @@
       for (let i = 0; i < excess; i++) delete map[keys[i]];
     }
     save(map);
+    if (typeof markListener === 'function') markListener();
+  }
+
+  // 既読が増えたことを js/sync.js に知らせるためのフック(sync.js側から登録する)
+  let markListener = null;
+  function setMarkListener(fn) {
+    markListener = fn;
+  }
+
+  function getAll() {
+    return load();
+  }
+
+  // 他端末の既読をマージする。同じURLは time が新しい方を採用する(既読は増える一方なので
+  // 和集合+後勝ちで衝突しない)。ローカルが変わったら true を返す。
+  function mergeRemote(remote) {
+    if (!remote || typeof remote !== 'object' || Array.isArray(remote)) return false;
+    const map = load();
+    let changed = false;
+    for (const url of Object.keys(remote)) {
+      const r = remote[url];
+      if (!r || typeof r.time !== 'number') continue;
+      const l = map[url];
+      if (!l || r.time > l.time) {
+        map[url] = {
+          time: r.time,
+          count: typeof r.count === 'number' ? r.count : 0,
+          hasComments: typeof r.hasComments === 'boolean' ? r.hasComments : true,
+        };
+        changed = true;
+      }
+    }
+    if (!changed) return false;
+    const keys = Object.keys(map);
+    if (keys.length > MAX_ENTRIES) {
+      keys.sort((a, b) => map[a].time - map[b].time);
+      const excess = keys.length - MAX_ENTRIES;
+      for (let i = 0; i < excess; i++) delete map[keys[i]];
+    }
+    save(map);
+    return true;
   }
 
   function loadThreshold() {
@@ -117,5 +158,5 @@
     return rec && typeof rec.time === 'number' ? rec.time : null;
   }
 
-  global.Visited = { markVisited, loadThreshold, saveThreshold, getReadState, hasNoComments, getLastVisitTime };
+  global.Visited = { markVisited, setMarkListener, getAll, mergeRemote, loadThreshold, saveThreshold, getReadState, hasNoComments, getLastVisitTime };
 })(window);

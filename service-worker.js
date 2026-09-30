@@ -31,6 +31,7 @@ const SHELL_FILES = [
   'js/build-info.js',
   'js/filters.js',
   'js/visited.js',
+  'js/sync.js',
   'js/hatena-api.js',
   'js/app.js',
 ];
