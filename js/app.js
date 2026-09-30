@@ -223,20 +223,22 @@
 
   // CSVテキストを検証しつつ { type, value } の配列に変換する。
   // 不正な行が1つでもあればエラー一覧を返し、rulesは空にする(全体を中断)。
-  // 未対応の種別(feed-tycoonのsource/tag/description等)はエラーにせず、ignoredに件数を数える。
+  // 未対応の種別(feed-tycoonのsource/tag/description等)はエラーにせず、ignoredに件数を数え、
+  // 行自体はignoredRulesに残す。
   function parseImportCsv(text) {
     const rows = parseCsv(text);
-    if (rows.length === 0) return { rules: [], errors: ['データが空です'], ignored: 0 };
+    if (rows.length === 0) return { rules: [], errors: ['データが空です'], ignored: 0, ignoredRules: [] };
 
     let dataRows = rows;
     if ((dataRows[0][0] || '').trim().toLowerCase() === 'type') {
       dataRows = dataRows.slice(1);
     }
-    if (dataRows.length === 0) return { rules: [], errors: ['データが空です'], ignored: 0 };
+    if (dataRows.length === 0) return { rules: [], errors: ['データが空です'], ignored: 0, ignoredRules: [] };
 
     const errors = [];
     const rules = [];
     let ignored = 0;
+    const ignoredRules = []; // 未対応種別の行(Gist同期の上書き時に消さず残すため保持する)
     dataRows.forEach((cols, idx) => {
       const lineNo = idx + 1;
       if (cols.length < 2) {
@@ -252,6 +254,7 @@
       // feed-tycoon と CSV を共有するため、未対応の種別は無視する
       if (!Filters.TYPES.includes(type)) {
         ignored++;
+        ignoredRules.push({ type, value });
         return;
       }
       if (!value) {
@@ -260,7 +263,7 @@
       }
       rules.push({ type, value });
     });
-    return { rules: errors.length > 0 ? [] : rules, errors, ignored };
+    return { rules: errors.length > 0 ? [] : rules, errors, ignored, ignoredRules };
   }
 
   // ---- ルーティング ----

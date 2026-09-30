@@ -2,20 +2,21 @@
  * フィルタ設定(mute / unmute / forceMute)をシークレットGist経由で端末間共有するモジュール。
  * 既読の同期(js/sync.js)と同じ仕様で、Gist IDだけを設定する。
  *
- * - 1つのGistに種類ごとのCSVファイル(hateb-tycoon-filter-<kind>.csv、type,value形式)を置く。
+ * - 1つのGistに種類ごとのCSVファイル(tycoon-filter-<kind>.csv、type,value形式)を置く。
  * - 同期 = Gistから取り込み(マージ)→ ローカルとの和集合でGistを上書き。つまりルールは
  *   「積み上げ」方式で、削除は同期されない。ルールを消したい時はGist側のCSVを直接編集する
  *   (ただし他端末のローカルに残っていれば次の同期で復活する)。
  * - 起動時は取り込みのみ(ETagで変更なしなら304)。書き込みは手動の「保存して同期」だけ。
  * - 読み取りは認証不要(Gist ID だけの読み取り専用端末でも取り込める)。書き込みには js/gist.js の
  *   トークンが必要。
- * - 上書き時、リモートのCSVにあるこのアプリ非対応のtype(feed-tycoon用の行など)は残らない。
- *   専用ファイル名を使うので、通常は混在しない想定。
+ * - ファイルはfeed-tycoonと共有する。このアプリ非対応のtype(source/tag/description等)の行は
+ *   取り込まずに無視するが、上書き時にはリモートの行をそのまま残す(相手アプリのルールを消さない)。
  * - CSVの解析・生成は app.js のものを init で受け取る。
  */
 (function (global) {
   const STORAGE_KEY = 'hateb-tycoon:filterSync';
-  const fileName = (kind) => `hateb-tycoon-filter-${kind}.csv`;
+  // feed-tycoonなど他アプリと同じファイルを共有するため、アプリ名は含めない
+  const fileName = (kind) => `tycoon-filter-${kind}.csv`;
 
   // { gistId, etag, lastSyncAt, lastError }
   let state = loadState();
@@ -48,14 +49,15 @@
     return String(text || '').replace(/\r\n/g, '\n').trim();
   }
 
-  function localCsv(kind) {
-    return toCsv(Filters.sortRules(Filters.loadRules(kind)));
+  // foreign: リモートにあった未対応type行(上書きで消さないよう一緒に書き出す)
+  function localCsv(kind, foreign) {
+    return toCsv(Filters.sortRules([...Filters.loadRules(kind), ...(foreign || [])]));
   }
 
   // リモートの各CSVをローカルへマージする。
   // 戻り値: { added, ignored, errors, texts, invalid }(invalidは不正CSVだった種類。上書きしない)
   async function mergeFromRemote(json) {
-    const result = { added: 0, ignored: 0, errors: [], texts: {}, invalid: new Set() };
+    const result = { added: 0, ignored: 0, errors: [], texts: {}, invalid: new Set(), foreign: {} };
     for (const kind of Filters.KINDS) {
       const text = await Gist.fileText(json, fileName(kind));
       result.texts[kind] = text;
@@ -70,6 +72,7 @@
       }
       result.added += Filters.importRules(kind, parsed.rules);
       result.ignored += parsed.ignored;
+      result.foreign[kind] = parsed.ignoredRules;
     }
     return result;
   }
@@ -87,7 +90,7 @@
         for (const kind of Filters.KINDS) {
           if (merged.invalid.has(kind)) continue;
           if (Filters.loadRules(kind).length === 0 && !normalize(merged.texts[kind])) continue;
-          const csv = localCsv(kind);
+          const csv = localCsv(kind, merged.foreign[kind]);
           if (normalize(csv) !== normalize(merged.texts[kind])) files[fileName(kind)] = csv;
         }
         pushed = Object.keys(files).length;
