@@ -673,7 +673,7 @@ main {
   border-top: 1px solid var(--color-border);
 }
 .modal-section h3 {
-  margin: 0 0 8px;
+  margin: 0;
   font-size: 0.95rem;
 }
 .modal-section .hint {
@@ -888,7 +888,7 @@ a.btn {
   font-size: 16px;
 }
 .sub-heading {
-  margin: 8px 0;
+  margin: 0;
   font-size: 0.95rem;
 }
 
