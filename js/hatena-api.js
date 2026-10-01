@@ -181,12 +181,47 @@
     return fetchCategoryJson(slug);
   }
 
+  // JSONP取得+整形+localStorage保存までをひとまとめにした「生の取得」。
+  async function fetchEntryInfoRaw(pageUrl) {
+    const data = await jsonp('https://b.hatena.ne.jp/entry/jsonlite/', { url: pageUrl });
+    const info = normalizeEntryInfo(data, pageUrl);
+    cacheEntryInfo(pageUrl, info);
+    return info;
+  }
+
+  // 先読み結果(メモリのみ)。前後の記事への移動を速くするため、隣の記事を
+  // 裏で取得しておく。古い内容を出し続けないよう短いTTLで捨てる。
+  const PREFETCH_TTL_MS = 3 * 60 * 1000;
+  const prefetched = new Map(); // pageUrl -> { promise, at }
+
+  function prefetchEntryInfo(pageUrl) {
+    if (!pageUrl) return;
+    const existing = prefetched.get(pageUrl);
+    if (existing && Date.now() - existing.at < PREFETCH_TTL_MS) return;
+    const promise = fetchEntryInfoRaw(pageUrl);
+    const rec = { promise, at: Date.now() };
+    prefetched.set(pageUrl, rec);
+    // 失敗は黙って捨てる(本番の取得時に通常のエラー処理・オフラインキャッシュが働く)。
+    promise.catch(() => {
+      if (prefetched.get(pageUrl) === rec) prefetched.delete(pageUrl);
+    });
+    return promise.then(() => undefined, () => undefined);
+  }
+
   async function getEntryInfo(pageUrl) {
+    const rec = prefetched.get(pageUrl);
+    if (rec) {
+      prefetched.delete(pageUrl); // 1回使い切り。再訪時は常に最新を取り直す。
+      if (Date.now() - rec.at < PREFETCH_TTL_MS) {
+        try {
+          return { ...(await rec.promise), fromPrefetch: true };
+        } catch (e) {
+          // 先読みが失敗していたら通常の取得にフォールバックする
+        }
+      }
+    }
     try {
-      const data = await jsonp('https://b.hatena.ne.jp/entry/jsonlite/', { url: pageUrl });
-      const info = normalizeEntryInfo(data, pageUrl);
-      cacheEntryInfo(pageUrl, info);
-      return info;
+      return await fetchEntryInfoRaw(pageUrl);
     } catch (err) {
       const cached = getCachedEntryInfo(pageUrl);
       if (cached) return { ...cached, fromOfflineCache: true };
@@ -198,5 +233,6 @@
     CATEGORIES,
     getHotEntries,
     getEntryInfo,
+    prefetchEntryInfo,
   };
 })(window);

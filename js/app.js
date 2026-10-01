@@ -961,6 +961,25 @@
     }
   }
 
+  // 描画完了後のアイドル時に、前後1件の記事を先読みする(次を優先し、完了後に前)。
+  // 先読みは取得とlocalStorage保存だけを行い、既読化はしない(表示した時に初めて既読になる)。
+  // 待っている間に別の記事へ移っていた場合や、オフラインの場合は何もしない。
+  function schedulePrefetchNeighbors(url) {
+    const run = async () => {
+      if (!navigator.onLine) return;
+      const current = parseRoute();
+      if (current.path !== '/entry' || current.params.get('url') !== url) return;
+      for (const delta of [1, -1]) {
+        const idx = findRelativeEntryIndex(url, delta);
+        if (idx === -1) continue;
+        await HatenaAPI.prefetchEntryInfo(currentVisibleEntries[idx].url);
+        if (parseRoute().params.get('url') !== url) return;
+      }
+    };
+    if ('requestIdleCallback' in window) requestIdleCallback(run, { timeout: 2000 });
+    else setTimeout(run, 300);
+  }
+
   async function renderEntryView(url) {
     const perfMark = createEntryPerf(url);
     forceScrollTop();
@@ -1025,6 +1044,8 @@
       entryOfflineNote = info.fromOfflineCache ? '(オフラインのため前回取得時点の内容を表示中) ' : '';
       applyEntrySearchAndRender();
       afterPaint(() => perfMark('comments-painted'));
+      if (info.fromPrefetch) perfMark('prefetch-hit');
+      schedulePrefetchNeighbors(url);
       // オフライン時などデータ取得に時間がかかった場合、その間に上記の慣性
       // スクロール対策が先に終わってしまっていることがあるため、コメント
       // 描画後にもう一度先頭へ戻しておく。
