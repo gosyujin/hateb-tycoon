@@ -922,8 +922,10 @@
   }
 
   // 体感速度の計測。区間はDevToolsのPerformance「Timings」に出る。
-  // URLに ?perf=1 を付けるとコンソールにも一覧表示する(本番の通常利用では出力なし)。
-  const PERF_LOG = new URLSearchParams(location.search).has('perf');
+  // URLに perf=1 を付けるとコンソールにも一覧表示する(本番の通常利用では出力なし)。
+  // ルーティングがハッシュ方式のため、?perf=1(検索部)でも #/...&perf=1(ハッシュ内)でも有効にする。
+  const PERF_LOG =
+    new URLSearchParams(location.search).has('perf') || parseRoute().params.has('perf');
   function afterPaint(cb) {
     requestAnimationFrame(() => requestAnimationFrame(cb));
   }
