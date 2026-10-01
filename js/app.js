@@ -566,16 +566,58 @@
     listStatus.textContent = '読み込み中…';
     try {
       const entries = await HatenaAPI.getHotEntries(currentCategory);
-      const visible = entries.filter((item) => !Filters.isHidden(item));
-      hiddenByFilterCount = entries.length - visible.length;
-      baseEntries = visible;
-      hasLoadedList = true;
+      applyLoadedEntries(entries);
       updateListView(restoreScrollY);
     } catch (err) {
       console.error(err);
       listStatus.textContent = `取得に失敗しました: ${err.message}`;
     }
   }
+
+  function applyLoadedEntries(entries) {
+    const visible = entries.filter((item) => !Filters.isHidden(item));
+    hiddenByFilterCount = entries.length - visible.length;
+    baseEntries = visible;
+    hasLoadedList = true;
+    listLoadedAt = Date.now();
+    listSignature = JSON.stringify(entries);
+  }
+
+  // ---- 一覧の自動リフレッシュ ----
+  // 一覧データは静的JSONでpushできないため、ページが前面に戻った時に一定時間経過していれば
+  // 読み直す(feed-tycoonと同じ方式)。一覧を一度空にする通常の読み込みと違い、取得に成功して
+  // 内容が変わっていた場合のみ差し替える(オフライン復帰で一覧が消えないように)。
+  const REFRESH_AFTER_MS = 5 * 60 * 1000;
+  let listLoadedAt = 0;
+  let listSignature = '';
+  let refreshing = false;
+
+  async function refreshListIfStale() {
+    if (refreshing || listView.hidden || !hasLoadedList) return;
+    if (Date.now() - listLoadedAt <= REFRESH_AFTER_MS) return;
+    refreshing = true;
+    const category = currentCategory;
+    try {
+      const entries = await HatenaAPI.getHotEntries(category);
+      // 取得中にカテゴリー切替や詳細ページへの遷移があった場合は捨てる(遷移側が読み込む)
+      if (category !== currentCategory || listView.hidden) return;
+      if (JSON.stringify(entries) === listSignature) {
+        listLoadedAt = Date.now();
+        return;
+      }
+      const scrollY = window.scrollY;
+      applyLoadedEntries(entries);
+      updateListView(scrollY > 0 ? scrollY : null);
+    } catch (err) {
+      console.warn('[auto-refresh] failed', err);
+    } finally {
+      refreshing = false;
+    }
+  }
+
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') refreshListIfStale();
+  });
 
   // 並び順・既読フィルタの切り替え時、再取得はせずbaseEntriesから再構築する。
   // restoreScrollYを渡した場合は全件を一度に描画してから指定位置へスクロールする。
