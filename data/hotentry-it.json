@@ -1,5 +1,18 @@
 [
   {
+    "title": "VRAM 32GBの「Intel Arc Pro B70」で「Hermes Agent」のローカルAIを実行、4ビット量子化したQwen3.8-27Bを動かしてみた",
+    "url": "https://gigazine.net/news/20261001-hermes-agent-arc-pro-b70/",
+    "domain": "gigazine.net",
+    "count": 6,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261001-hermes-agent-arc-pro-b70/",
+    "screenshot": "https://i.gzn.jp/img/2026/10/01/hermes-agent-arc-pro-b70/00.png",
+    "description": "AIエージェント「Hermes Agent」は、ウェブ検索やブラウザ操作、コマンド実行などのツールをAIが自律的に使いながらタスクを進められるのが特徴です。これまでGIGAZINEでは、実際にHermes Agentをインストールして「GIGAZINEの記事を取得して要約する」といった作業を任せたり、ローカルAIモデルをHermes Agentの頭脳と...",
+    "hatenaDate": "2026-10-01T05:59:16Z",
+    "users": [],
+    "firstSeenAt": "2026-10-01T23:30:25.458526+09:00",
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
+  },
+  {
     "title": "Intel・NVIDIAのコンパイラを支えた6人の会社EDG、38年分のC++コードをオープンソースに",
     "url": "https://joho-todai.com/edg-compiler-cpp-open-source/",
     "domain": "joho-todai.com",
@@ -10,7 +23,7 @@
     "hatenaDate": "2026-10-01T05:17:31Z",
     "users": [],
     "firstSeenAt": "2026-10-01T23:15:16.299963+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "Anthropicの営業チームはClaudeの自動返信で成約件数を2.5倍にした",
@@ -23,7 +36,7 @@
     "hatenaDate": "2026-10-01T02:52:05Z",
     "users": [],
     "firstSeenAt": "2026-10-01T22:30:18.751594+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "素材と完成動画を見せるだけ　“型”を覚えたAIに動画編集をどこまで託せるか　GPT-6 Astraで試す",
@@ -36,7 +49,7 @@
     "hatenaDate": "2026-10-01T00:08:58Z",
     "users": [],
     "firstSeenAt": "2026-10-01T22:15:56.397341+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "サイバー攻撃より怖い？　ドラッグ＆ドロップの操作ミス、原始的な「ファイルを選択」でヒューマンエラーを防げるか",
@@ -49,7 +62,7 @@
     "hatenaDate": "2026-10-01T08:22:14Z",
     "users": [],
     "firstSeenAt": "2026-10-01T21:45:17.840003+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "RedditがAIボット対策としてRSSフィードを廃止し公開APIへのアクセスを終了すると発表",
@@ -62,20 +75,20 @@
     "hatenaDate": "2026-10-01T02:37:14Z",
     "users": [],
     "firstSeenAt": "2026-10-01T21:45:17.840003+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "「FDE」は常駐SEのすげ替えなのか　“人月商売の死”を打破したい国内SIer、打開策は意外なところに？",
     "url": "https://www.itmedia.co.jp/business/articles/2610/01/news040.html",
     "domain": "www.itmedia.co.jp",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/business/articles/2610/01/news040.html",
     "screenshot": "https://image.itmedia.co.jp/business/articles/2610/01/cover_news040.jpg",
     "description": "FP技能士センター正会員。中央大学卒業後、フィンテックスタートアップにて金融商品取引業者の設立や事業会社向けサービス構築を手がけたのち、広告DX会社を創業。サム・アルトマン氏創立のWorld財団における日本コミュニティスペシャリストを経てX Capital株式会社へ参画。 「FDE」という言葉を聞く機会が増えた。Forwa...",
     "hatenaDate": "2026-09-30T23:35:01Z",
     "users": [],
     "firstSeenAt": "2026-10-01T21:45:17.840003+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "OpenAI、推論過程を狙った組織的な“蒸留”行為を阻止　「Kimi」開発元の関係者が関与と主張",
@@ -88,7 +101,7 @@
     "hatenaDate": "2026-10-01T06:16:55Z",
     "users": [],
     "firstSeenAt": "2026-10-01T21:45:17.840003+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "RTX Spark搭載「Surface Laptop Ultra」がお披露目か　Microsoftが10月7日にイベント開催",
@@ -120,14 +133,14 @@
     "title": "Google Storeで「Pixel 10a」が1万2900円値上げ　9万2800円から",
     "url": "https://www.itmedia.co.jp/mobile/articles/2610/01/news081.html",
     "domain": "www.itmedia.co.jp",
-    "count": 15,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2610/01/news081.html",
     "screenshot": "https://image.itmedia.co.jp/mobile/articles/2610/01/cover_news081.jpg",
     "description": "Googleの直販ストア「Google Store」において、10月1日付でAndroidスマートフォン「Pixel 10a」が値上げされていることが判明した。値上げ幅はストレージ容量を問わず1万2900円で、改訂前後の価格は以下の通りとなる。 128GBモデル：7万9900円→9万2800円 256GBモデル：9万4900円→10万7800円 なお、10月1日時点で日本限定...",
     "hatenaDate": "2026-10-01T08:22:29Z",
     "users": [],
     "firstSeenAt": "2026-10-01T21:15:16.384078+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "Meta・キーパーソンにきく「VRグラス」と「AIグラス」の未来【西田宗千佳のRandomTracking】",
@@ -140,7 +153,7 @@
     "hatenaDate": "2026-10-01T02:25:05Z",
     "users": [],
     "firstSeenAt": "2026-10-01T21:00:17.733204+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "業界初のバスパワー駆動Thunderbolt 5接続の10Gigabit Ethernetアダプタが登場",
@@ -153,7 +166,7 @@
     "hatenaDate": "2026-10-01T08:47:40Z",
     "users": [],
     "firstSeenAt": "2026-10-01T21:00:17.733204+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "Amazon Aurora PostgreSQL がデータレイク上の Apache Iceberg と Parquet データへの直接クエリをサポート | Amazon Web Services",
@@ -166,33 +179,33 @@
     "hatenaDate": "2026-10-01T02:43:40Z",
     "users": [],
     "firstSeenAt": "2026-10-01T20:45:18.540185+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "コーディングも法務もGPT-6 Astra超え。Google「Gemini 4 Argon」",
     "url": "https://pc.watch.impress.co.jp/docs/news/2144721.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 20,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2144721.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2144/721/1.jpg",
     "description": null,
     "hatenaDate": "2026-10-01T03:01:55Z",
     "users": [],
     "firstSeenAt": "2026-10-01T20:45:18.540185+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "日本原子力機構に不正アクセス　研究者の個人情報が漏えい | NEWSjp",
     "url": "https://news.jp/i/1478318653420880862",
     "domain": "news.jp",
-    "count": 36,
+    "count": 37,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.jp/i/1478318653420880862",
     "screenshot": "https://img.jp.ekkowassets.com/c_limit,w_200,h_200,f_auto,q_auto:eco/ch/units/39166665832988672/profile_7.png",
     "description": "日本原子力研究開発機構は1日、茨城県東海村にある研究用原子炉「JRR3」の利用手続きサイトに不正アクセスがあり、外部の研究者の運転免許証画像など計2419件の登録情報が漏えいしたと公表した。施設の安全や警備に影響する情報は含まれないという。 機構によると、漏えいした情報のうち免許証やパスポートの画像、健康...",
     "hatenaDate": "2026-10-01T10:02:04Z",
     "users": [],
     "firstSeenAt": "2026-10-01T20:30:17.502474+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "長年の悩みがこれで解決！ CSSで機能を組み合わせたときにブラウザがサポートしているか検出できる新機能「@supports named-feature()」",
@@ -224,14 +237,14 @@
     "title": "テスト要求仕様（TRS）を書いてみたら、テスト設計が楽になった話",
     "url": "https://zenn.dev/edash_tech_blog/articles/0d49bd338b64f0",
     "domain": "zenn.dev",
-    "count": 25,
+    "count": 30,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/edash_tech_blog/articles/0d49bd338b64f0",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--_K_Q-f0F--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E8%25A6%2581%25E6%25B1%2582%25E4%25BB%2595%25E6%25A7%2598%25EF%25BC%2588TRS%25EF%25BC%2589%25E3%2582%2592%25E6%259B%25B8%25E3%2581%2584%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E8%25A8%25AD%25E8%25A8%2588%25E3%2581%258C%25E6%25A5%25BD%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:ueda%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNkZWM5ZjExNTcuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:e-dash%2520Tech%2520Blog%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTGticmJpbFlheGNFWUROZVJwNURYM05PcnBwcjRpekJHTzJVTWV1YjRTYTNwbS13PXM5Ni1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "こんにちは。e-dashでQAエンジニアをしているuedaです。 みなさんはテストをするにあたって、どんなドキュメントを用意していますか。 e-dash の QA チームでは、テストケースの前に テスト設計書（Test Design） を用意します。 直近では、そのさらに前に テスト要求仕様（Test Requirement Spec、以下 TRS） を挟んで...",
     "hatenaDate": "2026-09-30T11:30:09Z",
     "users": [],
     "firstSeenAt": "2026-10-01T20:15:14.653317+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "“3.5秒よそ見”で運転者に警告　新規生産車に警報機の搭載を義務化へ　居眠り警告も　国交省",
@@ -244,7 +257,7 @@
     "hatenaDate": "2026-10-01T05:52:01Z",
     "users": [],
     "firstSeenAt": "2026-10-01T19:45:17.145901+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "“ちょうどいい”13.3型レッツノート、NC7がついに個人向けへ",
@@ -263,14 +276,14 @@
     "title": "免許悪用防止届け一部休止　タイムズカー画像流出で | NEWSjp",
     "url": "https://news.jp/i/1478299651827581816",
     "domain": "news.jp",
-    "count": 83,
+    "count": 85,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.jp/i/1478299651827581816",
     "screenshot": "https://img.jp.ekkowassets.com/c_limit,w_200,h_200,f_auto,q_auto:eco/ch/units/39166665832988672/profile_7.png",
     "description": "個人の債務情報を管理する日本信用情報機構（JICC）は1日、運転免許証などを紛失した際に不正利用を防ぐための届け出で、スマートフォンアプリからの申し込みを一時休止すると発表した。カーシェアリングサービス「タイムズカー」のシステムへの不正アクセスで免許証画像が約160万件流出し、申し込みが殺到した。当面は...",
     "hatenaDate": "2026-10-01T08:09:10Z",
     "users": [],
     "firstSeenAt": "2026-10-01T19:15:15.400838+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "Google フォト、待望されながらなぜか未実装だった「あの機能」をついに導入【やじうまWatch】",
@@ -283,7 +296,7 @@
     "hatenaDate": "2026-10-01T02:35:32Z",
     "users": [],
     "firstSeenAt": "2026-10-01T19:15:15.400838+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "佐川急便「お荷物問い合わせサービス」に不正アクセス、一部利用を制限中　ヤマト運輸でも「クロネコ代金後払いサービス」に不正アクセスで停止中",
@@ -302,14 +315,14 @@
     "title": "怪異をすべて“物理”でぶっ飛ばすホラー映像作品『現地確認記録』が話題に。異常な主人公・佐藤が異変を調査",
     "url": "https://news.denfaminicogamer.jp/news/261001u",
     "domain": "news.denfaminicogamer.jp",
-    "count": 53,
+    "count": 57,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.denfaminicogamer.jp/news/261001u",
     "screenshot": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/maxresdefault-15.jpg",
     "description": "『現地確認記録』は、AI生成のタグが付いた、一人称視点で描かれるアナログホラー映像作品。本作では、通常の調査員では対応困難と判断された事案にのみ投入される現地対処員・佐藤周一の記録を映している。佐藤は、「恐怖反応」「危険認識」「身体能力」の項目すべてが一般的な基準から大きく逸脱しており、「異常には...",
     "hatenaDate": "2026-10-01T06:47:26Z",
     "users": [],
     "firstSeenAt": "2026-10-01T19:00:17.422440+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "なぜ日本の衛星は欧州の小型ロケットを選ぶのか　広がる打上げの選択肢",
@@ -348,20 +361,20 @@
     "hatenaDate": "2026-10-01T06:02:57Z",
     "users": [],
     "firstSeenAt": "2026-10-01T17:30:14.897104+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "佐川急便、不正アクセスで個人情報流出か　送り主・届け先の氏名や住所など、約100日分の荷物データ対象",
     "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001933/",
     "domain": "www.itmedia.co.jp",
-    "count": 92,
+    "count": 93,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/01/2000001933/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/01/2000001933/10008170/2048",
     "description": "佐川急便は10月1日、前日に公表した「お荷物問い合わせサービス」への不正アクセスについて、調査の結果、顧客の個人情報が外部に流出した可能性があると発表した。同サービスは、同社Webサイトで荷物の輸送状況を確認できるもの。被害の拡大を防ぐため、荷物の問い合わせや集荷受付など、Webサービスの一部を停止してい...",
     "hatenaDate": "2026-10-01T07:26:23Z",
     "users": [],
     "firstSeenAt": "2026-10-01T17:30:14.897104+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "装着不要のフルトラッキングデバイス「Soulart Station」発表、SteamVRやVMCに対応",
@@ -387,7 +400,7 @@
     "hatenaDate": "2026-10-01T07:08:00Z",
     "users": [],
     "firstSeenAt": "2026-10-01T17:30:14.897104+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "AI に伴走してもらうチームマネジメントの試み - LayerX エンジニアブログ",
@@ -452,7 +465,7 @@
     "hatenaDate": "2026-10-01T04:36:46Z",
     "users": [],
     "firstSeenAt": "2026-10-01T15:15:25.685826+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "Reddit、RSSフィードを11月13日に終了　公開APIも2027年3月に閉鎖へ",
@@ -497,14 +510,14 @@
     "title": "睡眠中に「ピンクノイズ」を聞くと“脳内ゴミ”の洗い流しが強まる？　米MITが人間で実験　Science系列誌で発表",
     "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001901/",
     "domain": "www.itmedia.co.jp",
-    "count": 153,
+    "count": 158,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/01/2000001901/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/01/2000001901/10008039/2048",
     "description": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shi...",
     "hatenaDate": "2026-10-01T03:02:41Z",
     "users": [],
     "firstSeenAt": "2026-10-01T15:00:14.312346+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "AIで紙図面を一瞬でCAD化　日本HPが「建設図面の最新版が分かる」プリンタ新機能を発表",
@@ -523,14 +536,14 @@
     "title": "『構文解析のしくみ』が出版されました（出版にあたって宣伝と裏話）",
     "url": "https://zenn.dev/kmizu/articles/2026-09-parser-book",
     "domain": "zenn.dev",
-    "count": 86,
+    "count": 88,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/kmizu/articles/2026-09-parser-book",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--_LVZbfVi--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258E%25E6%25A7%258B%25E6%2596%2587%25E8%25A7%25A3%25E6%259E%2590%25E3%2581%25AE%25E3%2581%2597%25E3%2581%258F%25E3%2581%25BF%25E3%2580%258F%25E3%2581%258C%25E5%2587%25BA%25E7%2589%2588%25E3%2581%2595%25E3%2582%258C%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%25EF%25BC%2588%25E5%2587%25BA%25E7%2589%2588%25E3%2581%25AB%25E3%2581%2582%25E3%2581%259F%25E3%2581%25A3%25E3%2581%25A6%25E5%25AE%25A3%25E4%25BC%259D%25E3%2581%25A8%25E8%25A3%258F%25E8%25A9%25B1%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kmizu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUdObXl4YlNka1h3ZXdRZENWdDRvbHk0OUkyNkgyNi1IS2k0R2phNGdJdno9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "はじめに こんにちは！水島です。 2026年9月28日に、ZEN大学出版会から『構文解析のしくみ 電卓から言語処理系まで自分で書く』という本を出しました。 出版社のページ：https://zen.ac.jp/press/books/b_0019 通販ページ： Amazon：https://amzn.asia/d/030QeHhu 最短で10月7日配達（2026/09/30現在） 楽天ブックス：ht...",
     "hatenaDate": "2026-09-30T17:48:11Z",
     "users": [],
     "firstSeenAt": "2026-10-01T13:30:14.426994+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "「能動的サイバー防御」きょう開始　警察・自衛隊などが攻撃元サーバを無害化　高市首相も狙いを説明",
@@ -614,14 +627,14 @@
     "title": "Gboard チームからの新しいキーボードのご提案 2026",
     "url": "https://blog.google/intl/ja-jp/products/android-chrome-play/gboard-2026/",
     "domain": "blog.google",
-    "count": 182,
+    "count": 183,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.google/intl/ja-jp/products/android-chrome-play/gboard-2026/",
     "screenshot": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/08_S4Z5DgF.width-1300.jpg",
     "description": "第 15 回目となる Google からの新しいキーボードのご提案シリーズは、あなたを中心とした流れるような入力体験を通じて、みなさまの日常に潤いをお届けします。 Gboard は、優れた変換性能にくわえて、お好きな写真を背景にできるテーマ機能、翻訳機能や校正支援機能などの便利な機能をそなえたスマートフォンやタブレ...",
     "hatenaDate": "2026-10-01T01:25:00Z",
     "users": [],
     "firstSeenAt": "2026-10-01T12:15:13.264545+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "高速化した「Fire TV Stick 4K」登場。テレビの給電で駆動",
@@ -738,7 +751,7 @@
     "hatenaDate": "2026-09-30T15:17:23Z",
     "users": [],
     "firstSeenAt": "2026-10-01T10:30:14.754739+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "Windows11 27H2はイネーブルメントパッケージでなくなる可能性。Snapdragon 850のサポートはWindows11 26H2が最後。27H2以降は提供されない | ニッチなPCゲーマーの環境構築Z",
@@ -842,7 +855,7 @@
     "hatenaDate": "2026-09-30T22:05:08Z",
     "users": [],
     "firstSeenAt": "2026-10-01T08:45:14.043580+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "【Hothotレビュー】 ルーターが固まっても勝手に復活！神デバイス「ezJack」を試してみた",
@@ -855,7 +868,7 @@
     "hatenaDate": "2026-09-30T21:22:42Z",
     "users": [],
     "firstSeenAt": "2026-10-01T08:30:13.231225+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "Google、「Gemini 4 Pro」ではなく「Gemini 4 Agron」発表　まずはサイバー防御組織に限定提供、出力上限は100万トークンに",
@@ -887,14 +900,14 @@
     "title": "AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました",
     "url": "https://zenn.dev/algoartis/articles/0b1c731881b25c",
     "domain": "zenn.dev",
-    "count": 501,
+    "count": 502,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/algoartis/articles/0b1c731881b25c",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s---JFTvqeA--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI-Slop%25E3%2581%25AA%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2582%2592%25E6%25A7%258B%25E9%2580%25A0%25E3%2583%25AC%25E3%2583%2599%25E3%2583%25AB%25E3%2581%25A7%25E8%25AA%25AD%25E3%2581%25BF%25E3%2582%2584%25E3%2581%2599%25E3%2581%258F%25E3%2581%2599%25E3%2582%258BSkill%25E3%2580%258Eyomiyasu%25EF%25BC%2588%25E3%2582%2588%25E3%2581%25BF%25E3%2582%2584%25E3%2581%2599%25EF%25BC%2589%25E3%2580%258F%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258A%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E5%25A4%25A7%25E8%25B3%2580%25E6%2584%259B%25E4%25B8%2580%25E9%2583%258E%25EF%25BC%2588oga_aiichiro%25EF%25BC%2589%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzEwYzNmNzM0ODQuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:ALGO%2520ARTIS%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNhMDEwODY1NzkuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "興味深いことに、かつてAIの典型とされていた「〜しましょう」「することが可能です」「また、」といった表現は、2026年時点ではむしろ減少していました。 初期の定型句が書き手やモデル側で警戒されるようになった結果、より巧妙で無自覚な表現、すなわち「作業を比喩で言う動詞」や「直訳調の言い回し」へと病理が潜行...",
     "hatenaDate": "2026-09-30T19:49:24Z",
     "users": [],
     "firstSeenAt": "2026-10-01T08:00:13.455044+09:00",
-    "lastSeenAt": "2026-10-01T23:15:16.299963+09:00"
+    "lastSeenAt": "2026-10-01T23:30:25.458526+09:00"
   },
   {
     "title": "フードデリバリー「menu」きょう午後8時にサービス終了　公式X「心より感謝」",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-09-29T05:15:13.445534+09:00",
     "lastSeenAt": "2026-09-29T13:15:12.657615+09:00"
-  },
-  {
-    "title": "GitHub - docker/skills: A collection of Docker skills for AI coding agents to help them build, test, debug, and optimize containerized apps with consistent, reusable workflows.",
-    "url": "https://github.com/docker/skills",
-    "domain": "github.com",
-    "count": 14,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/docker/skills",
-    "screenshot": "https://opengraph.githubassets.com/3fafe3781837e47eb1c92ef3aa49257ae947c7aee56d17314b7464a4ea92d7db/docker/skills",
-    "description": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
-    "hatenaDate": "2026-09-26T10:20:51Z",
-    "users": [],
-    "firstSeenAt": "2026-09-29T05:00:14.799941+09:00",
-    "lastSeenAt": "2026-09-29T10:30:14.234425+09:00"
   }
 ]
