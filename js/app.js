@@ -921,7 +921,46 @@
     });
   }
 
+  // 体感速度の計測。区間はDevToolsのPerformance「Timings」に出る。
+  // URLに ?perf=1 を付けるとコンソールにも一覧表示する(本番の通常利用では出力なし)。
+  const PERF_LOG = new URLSearchParams(location.search).has('perf');
+  function afterPaint(cb) {
+    requestAnimationFrame(() => requestAnimationFrame(cb));
+  }
+  function createEntryPerf(url) {
+    const t0 = performance.now();
+    const marks = {};
+    return function mark(name) {
+      const t = performance.now() - t0;
+      marks[name] = Math.round(t);
+      try {
+        performance.measure(`entry:${name}`, { start: t0, end: t0 + t });
+      } catch (e) { /* 計測失敗は無視 */ }
+      if (PERF_LOG && (name === 'comments-painted' || name === 'error')) {
+        console.table({ url, ...marks });
+      }
+    };
+  }
+
+  // 取得前は一覧データ(listedItem)から、取得後はAPIの結果(info)からヘッダーを描く。
+  // 両者でtitle/url/domain/count/entryUrlを同じ形で扱えるため同じ関数で描画する。
+  function renderEntryHeader(info) {
+    entryHeader.innerHTML = `
+        <a class="entry-title" href="${escapeHtml(info.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(info.title)}</a>
+        <div class="entry-meta">
+          <span>${escapeHtml(info.domain)}</span>
+          <span>${info.count} users</span>
+          ${info.entryUrl ? `<button type="button" class="entry-hatena-link">はてなブックマークページ →</button>` : ''}
+        </div>`;
+    // href付きの<a>だとiOS Safariのコンテンツブロッカーに隠されるため、ボタン+window.openにしている
+    const hatenaBtn = entryHeader.querySelector('.entry-hatena-link');
+    if (hatenaBtn) {
+      hatenaBtn.addEventListener('click', () => window.open(info.entryUrl, '_blank', 'noopener,noreferrer'));
+    }
+  }
+
   async function renderEntryView(url) {
+    const perfMark = createEntryPerf(url);
     forceScrollTop();
     commentList.innerHTML = '';
     currentComments = [];
@@ -944,9 +983,22 @@
     if (listedItem && listedItem.description) {
       entryDescription.textContent = listedItem.description;
     }
+    // 取得完了を待たず、一覧データでヘッダーを先に描画する(取得後に同じ形で上書き)。
+    if (listedItem) {
+      renderEntryHeader({
+        title: listedItem.title,
+        url: listedItem.url,
+        domain: listedItem.domain || '',
+        count: listedItem.count != null ? listedItem.count : 0,
+        entryUrl: listedItem.entryUrl || null,
+      });
+      afterPaint(() => perfMark('header-painted-provisional'));
+    }
     entryStatus.textContent = '読み込み中…';
     try {
+      perfMark('fetch-start');
       const info = await HatenaAPI.getEntryInfo(url);
+      perfMark('fetch-end');
 
       if (Filters.isHidden({ title: info.title, domain: info.domain, url: info.url })) {
         entryDescription.textContent = '';
@@ -959,18 +1011,8 @@
       entryPrevVisitTime = Visited.getLastVisitTime(url);
       Visited.markVisited(url, info.count, commented.length > 0);
 
-      entryHeader.innerHTML = `
-        <a class="entry-title" href="${escapeHtml(info.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(info.title)}</a>
-        <div class="entry-meta">
-          <span>${escapeHtml(info.domain)}</span>
-          <span>${info.count} users</span>
-          ${info.entryUrl ? `<button type="button" class="entry-hatena-link">はてなブックマークページ →</button>` : ''}
-        </div>`;
-      // href付きの<a>だとiOS Safariのコンテンツブロッカーに隠されるため、ボタン+window.openにしている
-      const hatenaBtn = entryHeader.querySelector('.entry-hatena-link');
-      if (hatenaBtn) {
-        hatenaBtn.addEventListener('click', () => window.open(info.entryUrl, '_blank', 'noopener,noreferrer'));
-      }
+      renderEntryHeader(info);
+      afterPaint(() => perfMark('header-painted'));
 
       const visible = commented.filter(
         (b) => !Filters.isHidden({ title: info.title, domain: info.domain, user: b.user, comment: b.comment })
@@ -980,12 +1022,14 @@
       entryHiddenByFilterCount = commented.length - visible.length;
       entryOfflineNote = info.fromOfflineCache ? '(オフラインのため前回取得時点の内容を表示中) ' : '';
       applyEntrySearchAndRender();
+      afterPaint(() => perfMark('comments-painted'));
       // オフライン時などデータ取得に時間がかかった場合、その間に上記の慣性
       // スクロール対策が先に終わってしまっていることがあるため、コメント
       // 描画後にもう一度先頭へ戻しておく。
       forceScrollTop();
     } catch (err) {
       console.error(err);
+      perfMark('error');
       entryStatus.textContent = `取得に失敗しました: ${err.message}`;
     }
   }
