@@ -99,7 +99,7 @@
   // ヘッダーの検索欄。検索結果画面には遷移せず、その場で絞り込むだけ。
   // 一覧ページ: タイトル・ドメイン / ブックマークページ: ユーザーid・コメント本文が対象。
   let searchQuery = '';
-  const LIST_SEARCH_PLACEHOLDER = 'タイトル・ドメインで絞り込み';
+  const LIST_SEARCH_PLACEHOLDER = 'タイトル・ドメインで絞り込み / URLを入力してEnterでブックマーク一覧';
   const ENTRY_SEARCH_PLACEHOLDER = 'ユーザー・コメントで絞り込み';
 
   // コメントページから「← 一覧に戻る」で戻った時にスクロール位置を復元するため、
@@ -344,6 +344,19 @@
     } else if (!entryView.hidden) {
       applyEntrySearchAndRender();
     }
+  });
+
+  // 一覧画面の検索欄にURLを入力してEnterすると、そのURLのブックマークページへ遷移する。
+  // 一覧に載っていないURLでも個別記事ビューはjsonlite経由で取得できるため、そのまま渡す。
+  // IME変換確定のEnterでは遷移しない。
+  headerSearch.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' || e.isComposing || listView.hidden) return;
+    const value = headerSearch.value.trim();
+    if (!/^https?:\/\/\S+$/i.test(value)) return;
+    e.preventDefault();
+    const params = new URLSearchParams();
+    params.set('url', value);
+    navigate('/entry', params);
   });
 
   function render() {
