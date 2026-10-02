@@ -374,6 +374,7 @@
       const restoreScrollY = newCategory === currentCategory && pendingScrollY !== null ? pendingScrollY : null;
       entryView.hidden = true;
       listView.hidden = false;
+      resetEntryNavSnapshot();
       currentCategory = newCategory;
       renderCategoryTabs();
       renderListView(restoreScrollY);
@@ -995,6 +996,8 @@
 
   async function renderEntryView(url) {
     const perfMark = createEntryPerf(url);
+    ensureEntryNavSnapshot();
+    if (url) entryNavOpened.add(url);
     forceScrollTop();
     commentList.innerHTML = '';
     currentComments = [];
@@ -1624,18 +1627,45 @@
     return true;
   }
 
+  // 前後移動で読み飛ばす「既読かつ更新なし」の判定は、一覧から記事ページに入った直後の
+  // 状態(スナップショット)で行い、一覧に戻るまで使い回す。記事を開くたびに
+  // markVisitedで状態が変わるため、毎回判定し直すと「前の記事へ」で今見てきたばかりの
+  // 記事まで飛ばしてしまう。滞在中に隣の記事が更新された場合などは考慮しない。
+  // 一方、このセッションで既に開いた記事は、スナップショット上で既読でも飛ばさない
+  // (既読の記事Aを開き、次へ→前へで、Aに戻れるようにするため)。
+  let entryNavReadSnapshot = null;
+  let entryNavOpened = new Set();
+
+  function resetEntryNavSnapshot() {
+    entryNavReadSnapshot = null;
+    entryNavOpened = new Set();
+  }
+
+  function ensureEntryNavSnapshot() {
+    if (entryNavReadSnapshot) return;
+    entryNavReadSnapshot = new Set(
+      currentVisibleEntries.filter((item) => Visited.getReadState(item) === 'read').map((item) => item.url)
+    );
+  }
+
+  function isSkippedByReadState(item) {
+    ensureEntryNavSnapshot();
+    return entryNavReadSnapshot.has(item.url) && !entryNavOpened.has(item.url);
+  }
+
   // その場でフィルタに登録した記事はcurrentVisibleEntries自体からは即座に
   // 取り除かれないため、移動先を探す際は都度Filters.isHiddenで生きた判定をし、
-  // 該当すればスルーして次(前)を見る。
+  // 該当すればスルーして次(前)を見る。既読かつ更新なしの記事も同様に飛ばす。
   function findRelativeEntryIndex(currentUrl, delta) {
     if (!currentUrl || currentVisibleEntries.length === 0) return -1;
+    ensureEntryNavSnapshot();
     const index = currentVisibleEntries.findIndex((item) => item.url === currentUrl);
     if (index === -1) return -1;
     let nextIndex = index + delta;
     while (
       nextIndex >= 0 &&
       nextIndex < currentVisibleEntries.length &&
-      Filters.isHidden(currentVisibleEntries[nextIndex])
+      (Filters.isHidden(currentVisibleEntries[nextIndex]) || isSkippedByReadState(currentVisibleEntries[nextIndex]))
     ) {
       nextIndex += delta;
     }
