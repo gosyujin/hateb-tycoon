@@ -735,7 +735,7 @@
       : `<div class="card-thumb card-thumb--empty"></div>`;
     const firstSeen = item.hatenaDate
       ? `<span class="card-first-seen">更新 ${escapeHtml(hatenaDateTime(item.hatenaDate))}</span>`
-      : '<span></span>';
+      : '';
     const readState = Visited.getReadState(item);
     const visitedClass = readState === 'read' ? ' card--visited' : '';
     // 既読グレーアウト(grayscale+brightness)はカード全体にかかるため、色や太さだけの
@@ -745,10 +745,10 @@
     const noCommentClass = noComment ? ' card-count-link--no-comment' : '';
     const countTitle = noComment ? ' title="前回訪問時、コメント付きブックマークがありませんでした"' : '';
     // 既読済みだがブックマーク数が閾値以上増えた記事は、グレーアウトは外して
-    // 未読と同様に目立たせつつ、バッジで「既読済みだった」ことを示す。
+    // 未読と同様に目立たせつつ、「更新」バッジで既読済みだったことを示す(日時の左)。
     const updatedBadge =
       readState === 'updated'
-        ? '<span class="card-badge-updated" title="既読ですが、ブックマーク数が増えました">既読</span>'
+        ? '<span class="card-badge-updated" title="既読ですが、ブックマーク数が増えました">更新</span>'
         : '';
     return `
       <article class="card${visitedClass}">
@@ -756,9 +756,8 @@
         ${thumb}
         <div class="card-body">
           <div class="card-top-row">
-            ${firstSeen}
+            <span class="card-top-left">${updatedBadge}${firstSeen}</span>
             <span class="card-top-right">
-              ${updatedBadge}
               <a class="card-count-link${countTierClass(item.count)}${noCommentClass}" href="${href}"${countTitle}>${item.count} users →</a>
             </span>
           </div>
@@ -781,26 +780,23 @@
     const noComment = Visited.hasNoComments(item.url);
     const noCommentClass = noComment ? ' card-count-link--no-comment' : '';
     const countTitle = noComment ? ' title="前回訪問時、コメント付きブックマークがありませんでした"' : '';
-    // 時刻・ドメイン列は幅固定でタイトル開始位置を揃えているため、バッジは
-    // タイトルの後(カウント列の前)に置いてその揃えを崩さないようにする。
+    // バッジはタイトルの左(entry-row-main内)に置く。
     const updatedBadge =
       readState === 'updated'
-        ? '<span class="card-badge-updated" title="既読ですが、ブックマーク数が増えました">既読</span>'
+        ? '<span class="card-badge-updated" title="既読ですが、ブックマーク数が増えました">更新</span>'
         : '';
-    // entry-row-main はタイトルとカウントをまとめて1つの視覚的な塊にするための
-    // ラッパー。スマホレイアウト(css/style.css側のメディアクエリ)でのみ、
-    // entry-row-count側の疑似要素をこの塊全体に重ねて「タイトルをタップしても
-    // ブックマークページへ飛ぶ」大きなタップ領域にする(デスクトップ幅では
-    // display:contentsでレイアウトに影響しないため、従来通りタイトル単独クリックで
-    // 元記事へ、カウント部分クリックでブックマークページへ、という別々の挙動を保つ)。
+    // entry-row-main はバッジ・タイトル・カウントをまとめて1つの視覚的な塊にするための
+    // ラッパー。entry-row-count側の疑似要素をこの塊全体に重ねて、タイトルをクリック/
+    // タップしてもブックマークページへ飛ぶ大きな領域にする(css/style.css参照。
+    // デスクトップ・スマホ共通)。
     return `
       <li class="entry-row${visitedClass}">
         <button type="button" class="card-close-btn entry-row-close" data-url="${escapeHtml(item.url)}" title="このページを非表示にする" aria-label="このページを非表示にする">×</button>
         <span class="entry-row-time">${time}</span>
         <button type="button" class="card-domain entry-row-domain" data-domain="${escapeHtml(item.domain)}">${escapeHtml(item.domain)}</button>
         <span class="entry-row-main">
-          <a class="entry-row-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
           ${updatedBadge}
+          <a class="entry-row-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
           <a class="card-count-link entry-row-count${countTierClass(item.count)}${noCommentClass}" href="${href}"${countTitle}>${item.count} users →</a>
         </span>
       </li>`;
