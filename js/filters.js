@@ -3,9 +3,10 @@
  * ブックマーク項目に対するマッチング判定を行うモジュール。
  *
  * ルールは { id, type, value } の配列。
- *   type: 'title' | 'domain' | 'user' | 'comment' | 'url'
+ *   type: 'title' | 'domain' | 'user' | 'comment' | 'url' | 'urlprefix'
  *   value: 部分一致(大文字小文字を区別しない)させる文字列。ただしurlのみ完全一致
  *   (このページ単独を消す用途のため、部分一致だと他ページを巻き込む恐れがある)
+ *   urlprefixは前方一致(ブログ単位・ユーザー単位でまとめて消す用途。末尾は'/'で終える)
  *
  * 判定ロジック:
  *   1. forceMute に一致 -> 強制的に非表示 (unmute でも解除不可)
@@ -20,7 +21,7 @@
   };
 
   const KINDS = Object.keys(STORAGE_KEYS);
-  const TYPES = ['title', 'domain', 'user', 'comment', 'url'];
+  const TYPES = ['title', 'domain', 'user', 'comment', 'url', 'urlprefix'];
 
   function assertKind(kind) {
     if (!KINDS.includes(kind)) {
@@ -143,9 +144,47 @@
         return !!item.comment && item.comment.toLowerCase().includes(needle);
       case 'url':
         return !!item.url && item.url.toLowerCase() === needle;
+      case 'urlprefix':
+        return !!item.url && item.url.toLowerCase().startsWith(needle);
       default:
         return false;
     }
+  }
+
+  // 「コメント一覧は非表示」設定はブログ/ユーザー単位でかかるため、同じ範囲をまとめて
+  // 登録できるよう、URLから登録すべきルールを決める。ホスト全体を巻き込むと別ユーザーまで
+  // 消えてしまうため、ユーザー単位だと分かっているホストだけ範囲を広げ、それ以外は
+  // 従来どおりその記事単独(url)にとどめる(許可リスト方式)。
+  const SUBDOMAIN_PER_USER_SUFFIXES = [
+    'hatenablog.com',
+    'hatenablog.jp',
+    'hatenablog.org',
+    'hateblo.jp',
+    'hatenadiary.com',
+    'hatenadiary.jp',
+  ];
+  const PATH_USER_HOSTS = ['zenn.dev'];
+
+  function scopeRuleForUrl(url) {
+    let u;
+    try {
+      u = new URL(url);
+    } catch (e) {
+      return { type: 'url', value: url };
+    }
+    const host = u.hostname.toLowerCase();
+    if (SUBDOMAIN_PER_USER_SUFFIXES.some((s) => host.endsWith(`.${s}`))) {
+      return { type: 'urlprefix', value: `${u.protocol}//${u.host}/` };
+    }
+    if (PATH_USER_HOSTS.includes(host)) {
+      const segs = u.pathname.split('/').filter(Boolean);
+      // zenn.dev/p/{publication}/... はパブリケーション単位なので2セグメントまで
+      const n = segs[0] === 'p' ? 2 : 1;
+      if (segs.length > n) {
+        return { type: 'urlprefix', value: `${u.protocol}//${u.host}/${segs.slice(0, n).join('/')}/` };
+      }
+    }
+    return { type: 'url', value: url };
   }
 
   function isHidden(item) {
@@ -173,5 +212,6 @@
     dedupeRules,
     sortRules,
     isHidden,
+    scopeRuleForUrl,
   };
 })(window);

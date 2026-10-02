@@ -140,6 +140,7 @@
     user: 'はてなユーザー',
     comment: 'ブックマークコメント',
     url: 'URL',
+    urlprefix: 'URL前方一致',
   };
 
   // hatenaDateはUTC(...Z)で保存されているため、単純にslice(0,10)すると日本時間の
@@ -1080,7 +1081,8 @@
       // 見られないため、その時点でURLをミュートに登録して一覧から外す。
       entryCommentsHiddenByOwner = info.count > 0 && info.bookmarks.length === 0;
       if (entryCommentsHiddenByOwner) {
-        Filters.addRule('mute', 'url', url);
+        const scope = Filters.scopeRuleForUrl(url);
+        Filters.addRule('mute', scope.type, scope.value);
         entryFilterBtn.textContent = 'フィルタに登録しました';
         entryFilterBtn.disabled = true;
       }

@@ -97,7 +97,7 @@
       <h3>ミュート設定<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-mute" aria-label="説明を表示">?</button></h3>
       <nav id="settings-tabs" class="tabs"></nav>
       <p id="hint-mute" class="hint" hidden>
-        タイトル・ドメイン・はてなユーザー・ブックマークコメントを対象に、部分一致(大文字小文字を区別しない)でミュート(非表示)します。URLのみ完全一致(このページ単独を消す用途)。<br>
+        タイトル・ドメイン・はてなユーザー・ブックマークコメントを対象に、部分一致(大文字小文字を区別しない)でミュート(非表示)します。URLは完全一致(このページ単独を消す用途)、URL前方一致は指定した文字列で始まるURLをまとめて消します(ブログ・ユーザー単位の用途)。<br>
         判定順序: 強制ミュートワード &gt; ミュートワード(ミュート解除ワードで例外解除可) &gt; 表示。
       </p>
       <form id="settings-form" class="rule-form">
@@ -107,6 +107,7 @@
           <option value="user">はてなユーザー</option>
           <option value="comment">ブックマークコメント</option>
           <option value="url">URL</option>
+          <option value="urlprefix">URL前方一致</option>
         </select>
         <input id="rule-value" type="text" placeholder="一致させる文字列" autocomplete="off">
         <button type="submit" class="btn">追加</button>
