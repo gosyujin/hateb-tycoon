@@ -746,6 +746,7 @@
     const countTitle = noComment ? ' title="前回訪問時、コメント付きブックマークがありませんでした"' : '';
     // 既読済みだがブックマーク数が閾値以上増えた記事は、グレーアウトは外して
     // 未読と同様に目立たせつつ、「更新」バッジで既読済みだったことを示す(日時の左)。
+    // (plain表示は行の左端の線で示す。renderEntryCardPlain参照)
     const updatedBadge =
       readState === 'updated'
         ? '<span class="card-badge-updated" title="既読ですが、ブックマーク数が増えました">更新</span>'
@@ -780,22 +781,20 @@
     const noComment = Visited.hasNoComments(item.url);
     const noCommentClass = noComment ? ' card-count-link--no-comment' : '';
     const countTitle = noComment ? ' title="前回訪問時、コメント付きブックマークがありませんでした"' : '';
-    // バッジはタイトルの左(entry-row-main内)に置く。
-    const updatedBadge =
-      readState === 'updated'
-        ? '<span class="card-badge-updated" title="既読ですが、ブックマーク数が増えました">更新</span>'
-        : '';
-    // entry-row-main はバッジ・タイトル・カウントをまとめて1つの視覚的な塊にするための
+    // 「更新」は行の流れから外し(横幅も改行も増やさずタイトルの開始位置を揃えたまま)、
+    // 行の左端のアクセント線(.entry-row--updated)だけで示す。
+    const isUpdated = readState === 'updated';
+    const updatedClass = isUpdated ? ' entry-row--updated' : '';
+    // entry-row-main はタイトル・カウントをまとめて1つの視覚的な塊にするための
     // ラッパー。entry-row-count側の疑似要素をこの塊全体に重ねて、タイトルをクリック/
     // タップしてもブックマークページへ飛ぶ大きな領域にする(css/style.css参照。
     // デスクトップ・スマホ共通)。
     return `
-      <li class="entry-row${visitedClass}">
+      <li class="entry-row${visitedClass}${updatedClass}"${isUpdated ? ' title="既読ですが、ブックマーク数が増えました"' : ''}>
         <button type="button" class="card-close-btn entry-row-close" data-url="${escapeHtml(item.url)}" title="このページを非表示にする" aria-label="このページを非表示にする">×</button>
         <span class="entry-row-time">${time}</span>
         <button type="button" class="card-domain entry-row-domain" data-domain="${escapeHtml(item.domain)}">${escapeHtml(item.domain)}</button>
         <span class="entry-row-main">
-          ${updatedBadge}
           <a class="entry-row-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
           <a class="card-count-link entry-row-count${countTierClass(item.count)}${noCommentClass}" href="${href}"${countTitle}>${item.count} users →</a>
         </span>

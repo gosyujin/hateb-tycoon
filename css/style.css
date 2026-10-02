@@ -422,12 +422,20 @@ main {
   flex-wrap: wrap;
   align-items: center;
   gap: 4px 8px;
-  padding: 6px 4px;
+  /* 左端の3pxは「更新」アクセント線の領域。未読・既読の行も同じ幅を透明で確保し、
+     行ごとに見た目の位置がずれないようにする(padding-left 1px + border 3px = 従来の4px)。 */
+  padding: 6px 4px 6px 1px;
+  border-left: 3px solid transparent;
   border-bottom: 1px solid var(--color-border);
   font-size: 0.85rem;
 }
 .entry-row:last-child {
   border-bottom: none;
+}
+/* 既読済みでブックマーク数が増えた行(「更新」)は、左端の線(Scrapboxのテロメア風)に
+   色を付ける。幅は他の行と同じなので、横幅も改行も増えずタイトルの開始位置が揃う。 */
+.entry-row--updated {
+  border-left-color: var(--color-accent);
 }
 .entry-row.card--visited {
   background-color: #e2e4e7;
@@ -459,7 +467,7 @@ main {
   white-space: nowrap;
   text-align: left;
 }
-/* entry-row-main は「更新」バッジ+タイトル+カウントを1つの塊にするラッパー。
+/* entry-row-main はタイトル+カウントを1つの塊にするラッパー。
    entry-row-countの疑似要素をこの塊全体(position:relativeの基準)に重ねることで、
    タイトル文字の上をクリック/タップしてもブックマークページ(count側のhref)へ
    遷移する。タイトル自身はpointer-events:noneにして見た目上も別々のリンクでは
