@@ -1065,6 +1065,16 @@
         return;
       }
 
+      // まだ誰もブックマークしていないURL(jsonliteがnullを返した)。コメント内のリンクや
+      // URL直接入力では普通に起こり得る。元記事へのリンクだけ出し、既読記録もしない。
+      if (info.notBookmarked) {
+        entryDescription.textContent = '';
+        renderEntryHeader(info);
+        entryStatus.textContent =
+          'このURLはまだ誰もブックマークしていません(はてな側で別のURLに正規化されている場合は、そちらでブックマークされている可能性があります)。';
+        return;
+      }
+
       // jsonliteはコメント一覧非表示設定の記事だと、ブックマーク数があるのにbookmarksを
       // 空で返す(コメントが無いだけの記事ではbookmarksは空にならない)。この場合はコメントを
       // 見られないため、その時点でURLをミュートに登録して一覧から外す。

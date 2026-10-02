@@ -220,6 +220,12 @@
   // JSONP取得+整形+localStorage保存までをひとまとめにした「生の取得」。
   async function fetchEntryInfoRaw(pageUrl) {
     const data = await jsonp('https://b.hatena.ne.jp/entry/jsonlite/', { url: pageUrl });
+    // まだ誰もブックマークしていないURLは、jsonliteがnullを返す(エラーではない)。
+    // コメント内のリンクやURL直接入力では普通に起こり得るため、「未ブックマーク」として
+    // 扱う。存在しない/未取得のURLなので、オフライン用キャッシュには保存しない。
+    if (data == null) {
+      return { ...normalizeEntryInfo({}, pageUrl), title: pageUrl, notBookmarked: true };
+    }
     const info = normalizeEntryInfo(data, pageUrl);
     cacheEntryInfo(pageUrl, info);
     return info;
