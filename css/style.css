@@ -6,7 +6,38 @@
   --color-muted: #6b7280;
   --color-accent: #00a4de;
   --color-accent-dark: #0087b8;
+  --color-thumb-bg: #eeeeee;
+  --color-thumb-empty-from: #eef1f4;
+  --color-thumb-empty-to: #e2e6ea;
+  --color-visited-bg: #e2e4e7;
+  --color-danger: #d33;
+  --color-tier1: #d68a00;
+  --color-tier2: #e0620a;
+  --color-tier3: #d94a1e;
+  --color-tier4: #c62828;
   --radius: 8px;
+  color-scheme: light;
+}
+
+/* ダークテーマ(js/theme.jsが<html data-theme>を設定する。時間帯で自動切替可) */
+:root[data-theme="dark"] {
+  --color-bg: #141518;
+  --color-surface: #1f2125;
+  --color-border: #34373d;
+  --color-text: #e4e6ea;
+  --color-muted: #9aa1ad;
+  --color-accent: #1aa9e0;
+  --color-accent-dark: #5bc4ee;
+  --color-thumb-bg: #2a2d33;
+  --color-thumb-empty-from: #2a2d33;
+  --color-thumb-empty-to: #23262b;
+  --color-visited-bg: #2a2d33;
+  --color-danger: #ff6b6b;
+  --color-tier1: #f0b030;
+  --color-tier2: #f58a40;
+  --color-tier3: #f26a45;
+  --color-tier4: #ff6b6b;
+  color-scheme: dark;
 }
 
 * {
@@ -300,10 +331,10 @@ main {
   width: 100%;
   height: 140px;
   object-fit: cover;
-  background: #eee;
+  background: var(--color-thumb-bg);
 }
 .card-thumb--empty {
-  background: linear-gradient(135deg, #eef1f4, #e2e6ea);
+  background: linear-gradient(135deg, var(--color-thumb-empty-from), var(--color-thumb-empty-to));
 }
 
 .card-body {
@@ -365,22 +396,22 @@ main {
 }
 .card-count-link--tier1 {
   font-weight: 700;
-  color: #d68a00;
+  color: var(--color-tier1);
 }
 .card-count-link--tier2 {
   font-weight: 700;
   font-size: 1.15em;
-  color: #e0620a;
+  color: var(--color-tier2);
 }
 .card-count-link--tier3 {
   font-weight: 800;
   font-size: 1.3em;
-  color: #d94a1e;
+  color: var(--color-tier3);
 }
 .card-count-link--tier4 {
   font-weight: 800;
   font-size: 1.45em;
-  color: #c62828;
+  color: var(--color-tier4);
 }
 /* 前回訪問時にコメント付きブックマークが無かった記事は、ブックマーク数の
    強調表示(tier1〜4)より優先してグレーで目立たなくする。 */
@@ -440,7 +471,7 @@ main {
   border-left-color: var(--color-accent);
 }
 .entry-row.card--visited {
-  background-color: #e2e4e7;
+  background-color: var(--color-visited-bg);
   opacity: 0.8;
   filter: grayscale(100%) brightness(0.8);
 }
@@ -918,7 +949,7 @@ main {
 .rule-remove {
   border: none;
   background: none;
-  color: #d33;
+  color: var(--color-danger);
   cursor: pointer;
   font-size: 0.8rem;
 }

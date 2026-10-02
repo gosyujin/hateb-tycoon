@@ -28,6 +28,7 @@ const CURRENT_CACHES = [SHELL_CACHE, DATA_CACHE];
 const SHELL_FILES = [
   'index.html',
   'css/style.css',
+  'js/theme.js',
   'js/build-info.js',
   'js/filters.js',
   'js/visited.js',

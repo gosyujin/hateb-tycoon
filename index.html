@@ -4,7 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>hateb-tycoon</title>
+<meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="css/style.css">
+<script src="js/theme.js"></script>
 </head>
 <body>
 <header class="app-header">
@@ -119,6 +121,23 @@
     </section>
     </div>
     <div class="settings-pane" data-pane="display" hidden>
+    <section class="modal-section theme-section">
+      <h3>テーマ</h3>
+      <div class="visited-threshold-row">
+        <select id="theme-mode">
+          <option value="auto">時間帯で自動切替</option>
+          <option value="light">ライト</option>
+          <option value="dark">ダーク</option>
+        </select>
+      </div>
+      <div id="theme-hours-row" class="visited-threshold-row">
+        <span class="unit">ダーク:</span>
+        <input id="theme-dark-start" type="number" min="0" max="23" step="1" inputmode="numeric">
+        <span class="unit">時 〜</span>
+        <input id="theme-dark-end" type="number" min="0" max="23" step="1" inputmode="numeric">
+        <span class="unit">時</span>
+      </div>
+    </section>
     <section class="modal-section autoscroll-speed">
       <h3>自動スクロール速度</h3>
       <div class="visited-threshold-row">
