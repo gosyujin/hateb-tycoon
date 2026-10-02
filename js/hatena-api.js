@@ -147,13 +147,45 @@
 
   const REAL_CATEGORY_KEYS = CATEGORIES.filter((c) => c.key !== EVERYTHING_KEY).map((c) => c.key);
 
+  // 電波が不安定だとfetchが失敗も成功もせずハングすることがあるため、タイムアウトを設ける。
+  const LIST_FETCH_TIMEOUT_MS = 15000;
+
+  async function fetchCategoryJsonFromNetwork(dataUrl) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), LIST_FETCH_TIMEOUT_MS);
+    try {
+      const res = await fetch(dataUrl, { cache: 'no-store', signal: controller.signal });
+      if (!res.ok) {
+        throw new Error(`データの取得に失敗しました(HTTP ${res.status}): ${dataUrl}`);
+      }
+      return await res.json();
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
+  // ネットワークで取れなかった時の最後の砦。Service Worker側のフォールバックが効かなかった
+  // 場合(SW未起動・キャッシュ引き継ぎ漏れ等)に備え、ページからもCache Storageを直接探す
+  // (どのバージョンのキャッシュでも、クエリ違いも無視して一致させる)。
+  async function readListFromCacheStorage(dataUrl) {
+    try {
+      if (!('caches' in window)) return null;
+      const res = await caches.match(dataUrl, { ignoreSearch: true });
+      return res ? await res.json() : null;
+    } catch (e) {
+      return null;
+    }
+  }
+
   async function fetchCategoryJson(slug) {
     const dataUrl = `data/hotentry-${encodeURIComponent(slug)}.json`;
-    const res = await fetch(dataUrl, { cache: 'no-store' });
-    if (!res.ok) {
-      throw new Error(`データの取得に失敗しました(HTTP ${res.status}): ${dataUrl}`);
+    let entries;
+    try {
+      entries = await fetchCategoryJsonFromNetwork(dataUrl);
+    } catch (err) {
+      entries = await readListFromCacheStorage(dataUrl);
+      if (!entries) throw err;
     }
-    const entries = await res.json();
     return Array.isArray(entries) ? entries : [];
   }
 
@@ -161,8 +193,12 @@
   // 総合には無いがそれ以外のカテゴリーには存在する記事(url基準で判定)を
   // 追加してマージする。
   async function getEverythingEntries() {
-    const results = await Promise.all(REAL_CATEGORY_KEYS.map(fetchCategoryJson));
-    const [allEntries, ...restEntries] = results;
+    // 1カテゴリーの失敗で「全て」全体が失敗しないよう、取れたものだけでマージする
+    // (全滅した場合のみエラー)。欠けた分は次の自動リフレッシュで補われる。
+    const settled = await Promise.allSettled(REAL_CATEGORY_KEYS.map(fetchCategoryJson));
+    const ok = settled.filter((r) => r.status === 'fulfilled');
+    if (ok.length === 0) throw settled[0].reason;
+    const [allEntries, ...restEntries] = settled.map((r) => (r.status === 'fulfilled' ? r.value : []));
     const merged = [...allEntries];
     const seenUrls = new Set(allEntries.map((e) => e.url));
     for (const entries of restEntries) {

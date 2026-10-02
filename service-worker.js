@@ -53,6 +53,22 @@ const REAL_CATEGORY_KEYS = [
 ];
 const DATA_FILES = ['data/meta.json', ...REAL_CATEGORY_KEYS.map((k) => `data/hotentry-${k}.json`)];
 
+async function copyFromOldDataCaches(dataCache, path) {
+  try {
+    const keys = await caches.keys();
+    for (const key of keys) {
+      if (key === DATA_CACHE || !key.startsWith('hateb-tycoon-data-')) continue;
+      const old = await (await caches.open(key)).match(path);
+      if (old) {
+        await dataCache.put(path, old);
+        return;
+      }
+    }
+  } catch (e) {
+    // 引き継げなくても致命的ではない
+  }
+}
+
 self.addEventListener('install', (event) => {
   event.waitUntil(
     (async () => {
@@ -64,10 +80,17 @@ self.addEventListener('install', (event) => {
         DATA_FILES.map(async (path) => {
           try {
             const res = await fetch(path, { cache: 'no-store' });
-            if (res && res.ok) await dataCache.put(path, res.clone());
+            if (res && res.ok) {
+              await dataCache.put(path, res.clone());
+              return;
+            }
           } catch (e) {
-            // オフライン等で先読みできなくても致命的ではないため無視する
+            // 通信不安定・オフライン等。下の旧キャッシュからの引き継ぎに進む
           }
+          // 先読みに失敗したら、旧バージョンのデータキャッシュから引き継ぐ。
+          // 何もしないとactivateで旧キャッシュが消え、データが一つも無い状態で新版が
+          // 有効になり、その後の取得失敗時に戻る先が無くなる(Load failed)。
+          await copyFromOldDataCaches(dataCache, path);
         })
       );
 
@@ -90,16 +113,32 @@ self.addEventListener('activate', (event) => {
 // クエリ文字列違い(?v=<sha>等)を無視してキャッシュから探す。
 // 対象は常に同一オリジンの通常のfetchのみ(no-corsのopaqueレスポンスは
 // 中身を検証できず、意味のあるキャッシュもできないためここでは扱わない)。
-async function networkFirstThenCache(request, cacheName) {
+//
+// 電波が不安定でfetchが失敗も成功もせずハングすると、キャッシュに落ちるまで長く待たされる。
+// そのためNETWORK_TIMEOUT_MSを過ぎてもキャッシュがあればそれを先に返す(キャッシュが
+// 無い場合はネットワークを待ち続ける)。キャッシュ書き込みはevent.waitUntilで包み、
+// 応答後にService Workerが終了されても書き込みが途切れないようにする。
+const NETWORK_TIMEOUT_MS = 8000;
+
+async function networkFirstThenCache(event, request, cacheName) {
   const cache = await caches.open(cacheName);
-  try {
-    const response = await fetch(request);
+  const fromCache = () => cache.match(request, { ignoreSearch: true });
+  const network = fetch(request).then((response) => {
     if (response && response.ok) {
-      cache.put(request, response.clone());
+      event.waitUntil(cache.put(request, response.clone()).catch(() => {}));
     }
     return response;
+  });
+  network.catch(() => {}); // タイムアウト後に失敗しても未処理rejectionにしない
+  const timeout = new Promise((resolve) => setTimeout(() => resolve(null), NETWORK_TIMEOUT_MS));
+  try {
+    const first = await Promise.race([network, timeout]);
+    if (first && first.ok) return first;
+    const cached = await fromCache();
+    if (cached) return cached;
+    return first || (await network);
   } catch (err) {
-    const cached = await cache.match(request, { ignoreSearch: true });
+    const cached = await fromCache();
     if (cached) return cached;
     throw err;
   }
@@ -149,11 +188,11 @@ self.addEventListener('fetch', (event) => {
 
   if (url.origin === self.location.origin) {
     if (isShellRequest(url.pathname)) {
-      event.respondWith(networkFirstThenCache(request, SHELL_CACHE));
+      event.respondWith(networkFirstThenCache(event, request, SHELL_CACHE));
       return;
     }
     if (isDataJsonRequest(url.pathname)) {
-      event.respondWith(networkFirstThenCache(request, DATA_CACHE));
+      event.respondWith(networkFirstThenCache(event, request, DATA_CACHE));
       return;
     }
     // 画像・スクリーンショット等はキャッシュ対象外。ブラウザの通常処理に任せる。

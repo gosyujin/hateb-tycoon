@@ -53,6 +53,7 @@
   let baseEntries = []; // フィルタ適用後、取り込み順(APIの返却順)のまま保持する基準データ
   let hiddenByFilterCount = 0;
   let hasLoadedList = false;
+  let listLoading = false;
   let currentVisibleEntries = [];
   let renderedCount = 0;
   let scrollObserver = null;
@@ -578,15 +579,26 @@
     currentVisibleEntries = [];
     renderedCount = 0;
     listStatus.textContent = '読み込み中…';
+    listLoading = true;
     try {
       const entries = await HatenaAPI.getHotEntries(currentCategory);
       applyLoadedEntries(entries);
       updateListView(restoreScrollY);
     } catch (err) {
       console.error(err);
-      listStatus.textContent = `取得に失敗しました: ${err.message}`;
+      listStatus.textContent = `取得に失敗しました: ${err.message}(アプリに戻る/オンラインになると再取得します)`;
+    } finally {
+      listLoading = false;
     }
   }
+
+  // 初回読み込みに失敗したままだと、自動リフレッシュ(hasLoadedList前提)も働かず、
+  // タスクキルするまで一覧が見られなくなる。前面復帰・オンライン復帰の時に再取得する。
+  function retryListIfNotLoaded() {
+    if (listView.hidden || hasLoadedList || listLoading) return;
+    renderListView();
+  }
+  window.addEventListener('online', retryListIfNotLoaded);
 
   function applyLoadedEntries(entries) {
     const visible = entries.filter((item) => !Filters.isHidden(item));
@@ -630,7 +642,10 @@
   }
 
   document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'visible') refreshListIfStale();
+    if (document.visibilityState === 'visible') {
+      retryListIfNotLoaded();
+      refreshListIfStale();
+    }
   });
 
   // 並び順・既読フィルタの切り替え時、再取得はせずbaseEntriesから再構築する。

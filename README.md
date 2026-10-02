@@ -98,6 +98,11 @@ Service Worker(`service-worker.js`)により以下を実現しています。
 - 同一オリジンへの通常リクエストは「まずネットワーク、失敗したらキャッシュ」方式(`networkFirstThenCache`)です。オンライン中は常に最新を優先し、オフライン時のみキャッシュにフォールバックします。
 - 個別記事のコメント(JSONP)は上記の理由でService Workerからキャッシュできないため、代わりに `js/hatena-api.js` が取得成功時に解析済みデータを`localStorage`へ保存し、オフライン時(JSONP失敗時)はそちらから復元します(`fromOfflineCache`フラグ付きで表示)。設定画面の「オフライン用キャッシュ」から、「全て」カテゴリーの上位n件を明示的に事前取得しておくこともできます。
 - **ナビゲーションリクエストの扱いには注意が必要です**。SPAのため実際のリクエストURL(`https://note.gosyujin.com/hateb-tycoon/` 等、末尾スラッシュの有無やクエリで揺れる)をそのままキャッシュキーにすると、`install`時に`'index.html'`という固定キーで保存した内容と一致せず、オフライン時にキャッシュが見つからず`FetchEvent`が例外で落ちてアプリ全体が起動不能になる不具合がありました(アプリを完全終了してから機内モードで新規起動した場合のみ再現し、サスペンドからの復帰では再現しないため発見が遅れました)。そのため`handleNavigate()`は常に固定キー`'index.html'`で読み書きします。この部分の実装を変更する際は、実URLでのマッチングに戻さないよう注意してください。
+- **通信が不安定な時の一覧取得(起動と終了を繰り返すスマホPWAで「Load failed」のまま一覧が見られなくなった不具合への対処)**: mainへのpushごと(データ更新コミットも含む)にデプロイされ`CACHE_VERSION`が変わるため、Service Workerは頻繁に更新される。通信が不安定な状態で`install`が走ると、データの先読みは失敗しても黙って無視されるので、データキャッシュが空のまま新版が有効になり、`activate`で旧キャッシュも消える。その状態で一覧の取得が失敗すると戻る先が無く、しかも初回読み込みに失敗すると自動リフレッシュ(`hasLoadedList`前提)も働かないため、タスクキルまで復帰しなかった。実機でしか再現しないため原因は推定。以下で多重に防いでいる(いずれも外さないこと)。
+  - `install`でデータの先読みに失敗したファイルは、旧バージョンのデータキャッシュから引き継ぐ(`copyFromOldDataCaches`)。
+  - `networkFirstThenCache`は、キャッシュ書き込みを`event.waitUntil`で包み(応答後にSWが終了しても途切れない)、8秒でネットワークが応答しなければキャッシュがある場合は先にそれを返す(ハング対策。キャッシュが無ければネットワークを待ち続ける)。
+  - ページ側の`fetchCategoryJson`は15秒でタイムアウトし、失敗したら`caches.match`でCache Storageを直接探す(SWのフォールバックが効かない場合の最後の砦)。「全て」は`Promise.allSettled`で、1カテゴリーが失敗しても取れた分でマージする(全滅の時のみエラー)。
+  - 一覧の初回読み込みに失敗した状態でも、前面復帰(`visibilitychange`)・オンライン復帰(`online`)で再取得する(`retryListIfNotLoaded`)。
 - `CACHE_VERSION`はデプロイ時(`deploy-pages.yml`)に`__BUILD_SHA__`が実SHAへ置換される仕組みで、デプロイのたびにService Workerが更新されたと認識されます。
 - **Service Workerの動作確認について**: サンドボックス化されたブラウザ環境(Claude Codeの検証用ブラウザ等)では`navigator.serviceWorker.register()`自体が原因不明のエラーで失敗し、動作確認ができません。Service Worker関連の変更を検証する際は、本番オリジン(https://note.gosyujin.com/hateb-tycoon/)に対して`caches.keys()` / `caches.open()` / `cache.match()`等をブラウザのコンソールから直接実行して確認してください。
 
