@@ -690,11 +690,17 @@ main {
   display: none;
 }
 @media (max-width: 600px) {
+  /* iOSはキーボード表示時に画面全体(レイアウトビューポート)をスクロールして
+     入力欄を見せるため、position:fixedのモーダルごと上にずれて上端がはみ出す。
+     JSがvisualViewportの位置・高さを--vv-top/--vv-heightに反映し、追従させる。 */
   .modal {
     align-items: flex-start;
+    inset: auto 0 auto 0;
+    top: var(--vv-top, 0px);
+    height: var(--vv-height, 100dvh);
   }
   .modal-panel {
-    max-height: calc(100dvh - 32px);
+    max-height: calc(var(--vv-height, 100dvh) - 32px);
   }
 }
 .modal-panel {

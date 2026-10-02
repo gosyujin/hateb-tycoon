@@ -1203,10 +1203,23 @@
     if (btn) showSettingsPane(btn.dataset.pane);
   });
 
+  // モーダルをvisualViewport(キーボードを除いた見えている領域)に追従させる
+  function syncModalToViewport() {
+    const vv = window.visualViewport;
+    if (!vv || settingsModal.hidden) return;
+    settingsModal.style.setProperty('--vv-top', `${vv.offsetTop}px`);
+    settingsModal.style.setProperty('--vv-height', `${vv.height}px`);
+  }
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', syncModalToViewport);
+    window.visualViewport.addEventListener('scroll', syncModalToViewport);
+  }
+
   function openSettings(preset) {
     if (preset) currentSettingsKind = preset.kind;
     showSettingsPane('main');
     settingsModal.hidden = false;
+    syncModalToViewport();
     renderSettingsTabs();
     renderRuleList();
     refreshImportTarget();
@@ -1217,7 +1230,7 @@
     if (preset) {
       ruleTypeSelect.value = preset.type;
       ruleValueInput.value = preset.value;
-      ruleValueInput.focus();
+      ruleValueInput.focus({ preventScroll: true });
     } else {
       // ドメイン/ユーザークリック経由でpresetを設定した後、歯車アイコンから
       // 開き直した際に選択が残ってしまわないよう、都度デフォルト(タイトル)に戻す。
