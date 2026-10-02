@@ -74,10 +74,50 @@
 
 <div id="settings-modal" class="modal" hidden>
   <div class="modal-panel">
+    <div class="modal-top">
     <div class="modal-header">
       <h2>フィルタ設定</h2>
       <button id="settings-close" type="button" class="btn btn--small">閉じる</button>
     </div>
+    <nav id="settings-sections" class="tabs settings-sections" role="tablist">
+      <button type="button" class="tab active" role="tab" data-pane="main">メイン</button>
+      <button type="button" class="tab" role="tab" data-pane="display">表示</button>
+      <button type="button" class="tab" role="tab" data-pane="sync">同期</button>
+    </nav>
+    </div>
+    <div class="settings-pane" data-pane="main">
+    <section class="modal-section quick-sync">
+      <div class="import-export-row">
+        <button id="quick-sync-visited-btn" type="button" class="btn btn--small">既読同期</button>
+        <button id="quick-sync-filter-btn" type="button" class="btn btn--small">フィルタ同期</button>
+      </div>
+      <p id="quick-sync-status" class="status"></p>
+    </section>
+    <section class="modal-section mute-settings">
+      <h3>ミュート設定<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-mute" aria-label="説明を表示">?</button></h3>
+      <nav id="settings-tabs" class="tabs"></nav>
+      <p id="hint-mute" class="hint" hidden>
+        タイトル・ドメイン・はてなユーザー・ブックマークコメントを対象に、部分一致(大文字小文字を区別しない)でミュート(非表示)します。URLのみ完全一致(このページ単独を消す用途)。<br>
+        判定順序: 強制ミュートワード &gt; ミュートワード(ミュート解除ワードで例外解除可) &gt; 表示。
+      </p>
+      <form id="settings-form" class="rule-form">
+        <select id="rule-type">
+          <option value="title">タイトル</option>
+          <option value="domain">ドメイン</option>
+          <option value="user">はてなユーザー</option>
+          <option value="comment">ブックマークコメント</option>
+          <option value="url">URL</option>
+        </select>
+        <input id="rule-value" type="text" placeholder="一致させる文字列" autocomplete="off">
+        <button type="submit" class="btn">追加</button>
+      </form>
+      <details id="rule-list-details" class="rule-list-details">
+        <summary>登録ルール(<span id="rule-count">0</span>件)</summary>
+        <ul id="rule-list" class="rule-list"></ul>
+      </details>
+    </section>
+    </div>
+    <div class="settings-pane" data-pane="display" hidden>
     <section class="modal-section autoscroll-speed">
       <h3>自動スクロール速度</h3>
       <div class="visited-threshold-row">
@@ -85,7 +125,6 @@
         <span class="unit">px/秒</span>
       </div>
     </section>
-
     <section class="modal-section visited-threshold">
       <h3>既読の再表示条件<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-visited" aria-label="説明を表示">?</button></h3>
       <p id="hint-visited" class="hint" hidden>
@@ -99,7 +138,6 @@
         </select>
       </div>
     </section>
-
     <section class="modal-section offline-cache-section">
       <h3>オフライン用キャッシュ<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-offline" aria-label="説明を表示">?</button></h3>
       <p id="hint-offline" class="hint" hidden>
@@ -112,24 +150,13 @@
       </div>
       <p id="offline-cache-status" class="status"></p>
     </section>
-
-    <section class="modal-section token-section">
-      <h3>GitHubトークン(Gist用)<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-token" aria-label="説明を表示">?</button></h3>
-      <p id="hint-token" class="hint" hidden>
-        既読の同期とフィルタの同期で共通に使う、Gistへの書き込み用トークンです(classic PATの<code>gist</code>スコープ。fine-grained PATはGist非対応)。
-        空のままの端末は読み取り専用になります(Gistの取り込みだけ。読み取りにトークンは不要)。
-        トークンはこの端末のlocalStorageに保存されます。
-      </p>
-      <div class="sync-fields">
-        <input id="gist-token-input" type="password" placeholder="トークン(読み取り専用なら空)" autocomplete="off">
-      </div>
-    </section>
-
+    </div>
+    <div class="settings-pane" data-pane="sync" hidden>
     <section class="modal-section sync-section">
       <h3>既読の同期(Gist)<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-sync" aria-label="説明を表示">?</button></h3>
       <p id="hint-sync" class="hint" hidden>
         既読をシークレットGistに保存して端末間で共有します(既読のみ。フィルタ設定は下の「フィルタの同期」)。通信は起動時・タブ復帰時の読み込みと、既読が増えた後のまとめ書き込みだけで、記事を開くたびには発生しません。<br>
-        <strong>読み書きする端末</strong>: 上のトークンを入力。Gist IDが空なら「Gistを作成」で新規作成できます。<br>
+        <strong>読み書きする端末</strong>: 下のトークンを入力。Gist IDが空なら「Gistを作成」で新規作成できます。<br>
         <strong>読み取り専用の端末</strong>: Gist ID(またはGistのURL)だけ入力。
       </p>
       <div class="gist-row">
@@ -142,13 +169,12 @@
       </div>
       <p id="sync-status" class="status"></p>
     </section>
-
     <section class="modal-section import-export">
       <h3>インポート・エクスポート設定<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-import" aria-label="説明を表示">?</button></h3>
       <p id="hint-import" class="hint" hidden>
-        「手動操作」のコピー・エクスポート・CSVインポートの対象は、「対象」で選んだリストです(下の「ミュート設定」のタブと連動します)。<br>
+        「手動操作」のコピー・エクスポート・CSVインポートの対象は、「対象」で選んだリストです(「メイン」タブのミュート種別と連動します)。<br>
         CSV形式(1行目ヘッダー任意): <code>type,value</code> / typeは title・domain・user・comment・url のいずれか。<br>
-        <strong>フィルタの同期</strong>: ミュート・ミュート解除・強制ミュートの3種すべてを、1つのシークレットGist(種類ごとのCSVファイル)で端末間共有します。「保存して同期」はGistの内容を取り込んだうえで、ローカルとの和集合でGistを上書きします。ルールは積み上がる一方で、削除は同期されません。消したい時はGist側のCSVを直接編集してください(他端末のローカルに残っていれば次の同期で復活します)。アプリ起動時にもGistから自動で取り込みます(書き込みはしません)。書き込みには上の「GitHubトークン」が必要です。
+        <strong>フィルタの同期</strong>: ミュート・ミュート解除・強制ミュートの3種すべてを、1つのシークレットGist(種類ごとのCSVファイル)で端末間共有します。「保存して同期」はGistの内容を取り込んだうえで、ローカルとの和集合でGistを上書きします。ルールは積み上がる一方で、削除は同期されません。消したい時はGist側のCSVを直接編集してください(他端末のローカルに残っていれば次の同期で復活します)。アプリ起動時にもGistから自動で取り込みます(書き込みはしません)。書き込みには下の「GitHubトークン」が必要です。
       </p>
       <h4 class="sub-heading">フィルタの同期(Gist・3種まとめて)</h4>
       <div class="gist-row">
@@ -182,30 +208,18 @@
       </div>
       <p id="import-status" class="status"></p>
     </section>
-
-    <section class="modal-section mute-settings">
-      <h3>ミュート設定<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-mute" aria-label="説明を表示">?</button></h3>
-      <nav id="settings-tabs" class="tabs"></nav>
-      <p id="hint-mute" class="hint" hidden>
-        タイトル・ドメイン・はてなユーザー・ブックマークコメントを対象に、部分一致(大文字小文字を区別しない)でミュート(非表示)します。URLのみ完全一致(このページ単独を消す用途)。<br>
-        判定順序: 強制ミュートワード &gt; ミュートワード(ミュート解除ワードで例外解除可) &gt; 表示。
+    <section class="modal-section token-section">
+      <h3>GitHubトークン(Gist用)<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-token" aria-label="説明を表示">?</button></h3>
+      <p id="hint-token" class="hint" hidden>
+        既読の同期とフィルタの同期で共通に使う、Gistへの書き込み用トークンです(classic PATの<code>gist</code>スコープ。fine-grained PATはGist非対応)。
+        空のままの端末は読み取り専用になります(Gistの取り込みだけ。読み取りにトークンは不要)。
+        トークンはこの端末のlocalStorageに保存されます。
       </p>
-      <form id="settings-form" class="rule-form">
-        <select id="rule-type">
-          <option value="title">タイトル</option>
-          <option value="domain">ドメイン</option>
-          <option value="user">はてなユーザー</option>
-          <option value="comment">ブックマークコメント</option>
-          <option value="url">URL</option>
-        </select>
-        <input id="rule-value" type="text" placeholder="一致させる文字列" autocomplete="off">
-        <button type="submit" class="btn">追加</button>
-      </form>
-      <details id="rule-list-details" class="rule-list-details">
-        <summary>登録ルール(<span id="rule-count">0</span>件)</summary>
-        <ul id="rule-list" class="rule-list"></ul>
-      </details>
+      <div class="sync-fields">
+        <input id="gist-token-input" type="password" placeholder="トークン(読み取り専用なら空)" autocomplete="off">
+      </div>
     </section>
+    </div>
   </div>
 </div>
 

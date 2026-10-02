@@ -1189,8 +1189,23 @@
   }
 
   // ---- フィルタ設定モーダル ----
+  const settingsSections = document.getElementById('settings-sections');
+  function showSettingsPane(key) {
+    settingsSections.querySelectorAll('.tab').forEach((b) => {
+      b.classList.toggle('active', b.dataset.pane === key);
+    });
+    settingsModal.querySelectorAll('.settings-pane').forEach((pane) => {
+      pane.hidden = pane.dataset.pane !== key;
+    });
+  }
+  settingsSections.addEventListener('click', (e) => {
+    const btn = e.target.closest('.tab');
+    if (btn) showSettingsPane(btn.dataset.pane);
+  });
+
   function openSettings(preset) {
     if (preset) currentSettingsKind = preset.kind;
+    showSettingsPane('main');
     settingsModal.hidden = false;
     renderSettingsTabs();
     renderRuleList();
@@ -1280,13 +1295,14 @@
     refreshGistLink(syncGistLink, Gist.parseGistId(syncGistInput.value));
   });
 
-  syncSaveBtn.addEventListener('click', async () => {
+  async function runSyncSave() {
     Gist.setToken(gistTokenInput.value);
     Sync.configure({ gistId: syncGistInput.value });
     syncStatus.textContent = '同期中…';
     await Sync.sync();
     refreshSyncFields();
-  });
+  }
+  syncSaveBtn.addEventListener('click', runSyncSave);
 
   syncCreateBtn.addEventListener('click', async () => {
     Gist.setToken(gistTokenInput.value);
@@ -1647,11 +1663,32 @@
     }
   }
 
-  filterSyncSaveBtn.addEventListener('click', () => {
+  function runFilterSyncSave() {
     FilterSync.configure({ gistId: filterGistInput.value });
     filterSyncStatus.textContent = '同期中…';
     return runFilterSync(() => FilterSync.sync());
-  });
+  }
+  filterSyncSaveBtn.addEventListener('click', runFilterSyncSave);
+
+  // メインタブのクイック同期ボタン。同期タブの「保存して同期」と同じ処理を呼び、
+  // 結果の状態行を同期タブを開かなくても見えるようにここへ写す。
+  const quickSyncStatus = document.getElementById('quick-sync-status');
+  const quickSyncButtons = [
+    document.getElementById('quick-sync-visited-btn'),
+    document.getElementById('quick-sync-filter-btn'),
+  ];
+  async function runQuickSync(label, run, statusEl) {
+    quickSyncButtons.forEach((b) => { b.disabled = true; });
+    quickSyncStatus.textContent = `${label}: 同期中…`;
+    try {
+      await run();
+      quickSyncStatus.textContent = `${label}: ${statusEl.textContent}`;
+    } finally {
+      quickSyncButtons.forEach((b) => { b.disabled = false; });
+    }
+  }
+  quickSyncButtons[0].addEventListener('click', () => runQuickSync('既読同期', runSyncSave, syncStatus));
+  quickSyncButtons[1].addEventListener('click', () => runQuickSync('フィルタ同期', runFilterSyncSave, filterSyncStatus));
 
   filterSyncCreateBtn.addEventListener('click', () => {
     FilterSync.configure({ gistId: '' });

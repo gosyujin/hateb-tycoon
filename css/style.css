@@ -689,16 +689,47 @@ main {
 .modal[hidden] {
   display: none;
 }
+@media (max-width: 600px) {
+  .modal {
+    align-items: flex-start;
+  }
+  .modal-panel {
+    max-height: calc(100dvh - 32px);
+  }
+}
 .modal-panel {
   background: var(--color-surface);
   border-radius: var(--radius);
   width: 100%;
   max-width: 560px;
   max-height: 85vh;
+  max-height: 85dvh;
   overflow-y: auto;
   overflow-x: hidden;
   padding: 16px 20px 20px;
   box-sizing: border-box;
+}
+/* 設定はタブで分割しており、ミュートのタブはフォームが上部に来る。
+   スマホでキーボードが出ても入力欄と「閉じる」が見えるよう、ヘッダーを固定し
+   パネルは画面上寄せ・dvh基準にする。 */
+.modal-top {
+  position: sticky;
+  top: -16px;
+  margin: -16px -20px 0;
+  padding: 16px 20px 0;
+  background: var(--color-surface);
+  z-index: 1;
+}
+.settings-sections {
+  margin-top: 10px;
+  flex-wrap: wrap;
+  overflow: visible;
+}
+.settings-pane[hidden] {
+  display: none;
+}
+.settings-pane > .modal-section:first-child {
+  margin-top: 12px;
 }
 .modal-panel * {
   box-sizing: border-box;
