@@ -1107,6 +1107,41 @@
 
   const NEW_COMMENT_BADGE = '<span class="comment-badge-new" title="前回このページを開いた後に付いたコメントです">NEW</span> ';
 
+  // コメント本文中のURLをhateb-tycoonの個別記事ページ(#/entry?url=...)へのリンクにする。
+  // URL以外の部分はエスケープして出力する。URLの末尾に続きがちな句読点・閉じ括弧は
+  // リンクに含めない(「(https://example.com)」のような書き方で括弧を巻き込まないため)。
+  const COMMENT_URL_RE = /https?:\/\/[A-Za-z0-9\-._~:/?#[\]@!$&'()*+,;=%]+/g;
+
+  function splitTrailingPunct(url) {
+    let end = url.length;
+    while (end > 0) {
+      const ch = url[end - 1];
+      if ('.,;:!?\'*'.includes(ch)) end--;
+      else if (ch === ')' && (url.slice(0, end).match(/\(/g) || []).length < (url.slice(0, end).match(/\)/g) || []).length) end--;
+      else break;
+    }
+    return [url.slice(0, end), url.slice(end)];
+  }
+
+  function linkifyComment(text) {
+    const src = String(text);
+    let out = '';
+    let last = 0;
+    for (const m of src.matchAll(COMMENT_URL_RE)) {
+      const [url, tail] = splitTrailingPunct(m[0]);
+      out += escapeHtml(src.slice(last, m.index));
+      if (url.length > 'https://'.length) {
+        const params = new URLSearchParams();
+        params.set('url', url);
+        out += `<a class="comment-link" href="#/entry?${params.toString()}">${escapeHtml(url)}</a>${escapeHtml(tail)}`;
+      } else {
+        out += escapeHtml(m[0]);
+      }
+      last = m.index + m[0].length;
+    }
+    return out + escapeHtml(src.slice(last));
+  }
+
   function renderComment(b) {
     return commentLayout === 'rich' ? renderCommentRich(b) : renderCommentPlain(b);
   }
@@ -1116,7 +1151,7 @@
     const user = `<button type="button" class="comment-user" data-user="${escapeHtml(b.user)}">${escapeHtml(b.user)}</button>`;
     const isNew = isNewComment(b);
     const stateClass = commentStateClass(b);
-    return `<li${stateClass ? ` class="${stateClass.trim()}"` : ''}>${isNew ? NEW_COMMENT_BADGE : ''}${user} <span class="comment-date">${escapeHtml(date)}</span> ${escapeHtml(b.comment)}</li>`;
+    return `<li${stateClass ? ` class="${stateClass.trim()}"` : ''}>${isNew ? NEW_COMMENT_BADGE : ''}${user} <span class="comment-date">${escapeHtml(date)}</span> ${linkifyComment(b.comment)}</li>`;
   }
 
   // 実際のはてなブックマークのコメント表示に寄せたレイアウト。
@@ -1134,7 +1169,7 @@
       <li class="comment--rich${commentStateClass(b)}">
         <img class="comment-icon" src="${escapeHtml(iconUrl)}" alt="" loading="lazy" width="32" height="32">
         <div class="comment-rich-body">
-          <div class="comment-rich-line1">${isNew ? NEW_COMMENT_BADGE : ''}${user} ${escapeHtml(b.comment)}</div>
+          <div class="comment-rich-line1">${isNew ? NEW_COMMENT_BADGE : ''}${user} ${linkifyComment(b.comment)}</div>
           <div class="comment-rich-line2">
             <span class="comment-date">${escapeHtml(date)}</span>
             ${tags ? `<span class="comment-tags">${tags}</span>` : ''}

@@ -996,3 +996,8 @@ a.btn {
 .mute-settings #settings-tabs {
   margin-bottom: 10px;
 }
+
+/* コメント中のURLリンク。長いURLがスマホ幅ではみ出さないよう、どこでも折り返す。 */
+.comment-link {
+  overflow-wrap: anywhere;
+}
