@@ -813,6 +813,8 @@
   let entryVisibleComments = [];
   let entryHiddenByFilterCount = 0;
   let entryOfflineNote = '';
+  // はてな側で「コメント一覧は非表示に設定」されている記事(count>0なのにbookmarksが空)
+  let entryCommentsHiddenByOwner = false;
   // 前回このコメントページを開いた時刻(ms)。null(初訪問)なら新着判定はしない。
   let entryPrevVisitTime = null;
 
@@ -868,7 +870,10 @@
 
   function renderCommentList() {
     commentList.className = commentLayout === 'rich' ? 'comment-list comment-list--rich' : 'comment-list';
-    commentList.innerHTML = currentComments.map(renderComment).join('') || '<p class="empty">コメントはありません。</p>';
+    const emptyMessage = entryCommentsHiddenByOwner
+      ? 'コメント一覧は非表示に設定されています。'
+      : 'コメントはありません。';
+    commentList.innerHTML = currentComments.map(renderComment).join('') || `<p class="empty">${emptyMessage}</p>`;
   }
 
   // 検索欄の入力のたびに再取得はせず、フィルタ適用後の一覧(entryVisibleComments)から
@@ -881,6 +886,12 @@
             (b.comment && b.comment.toLowerCase().includes(searchQuery))
         )
       : entryVisibleComments;
+
+    if (entryCommentsHiddenByOwner) {
+      entryStatus.textContent = entryOfflineNote + 'コメント一覧は非表示に設定されています(はてなブックマーク側の設定)。';
+      renderCommentList();
+      return;
+    }
 
     const hiddenParts = [];
     if (entryHiddenByFilterCount > 0) hiddenParts.push(`フィルタ${entryHiddenByFilterCount}件`);
@@ -1004,6 +1015,7 @@
     entryVisibleComments = [];
     entryHiddenByFilterCount = 0;
     entryOfflineNote = '';
+    entryCommentsHiddenByOwner = false;
     entryPrevVisitTime = null;
     entryHeader.innerHTML = '';
     entryDescription.textContent = '';
@@ -1041,6 +1053,16 @@
         entryDescription.textContent = '';
         entryStatus.textContent = 'このエントリーはフィルタ条件により非表示になっています。';
         return;
+      }
+
+      // jsonliteはコメント一覧非表示設定の記事だと、ブックマーク数があるのにbookmarksを
+      // 空で返す(コメントが無いだけの記事ではbookmarksは空にならない)。この場合はコメントを
+      // 見られないため、その時点でURLをミュートに登録して一覧から外す。
+      entryCommentsHiddenByOwner = info.count > 0 && info.bookmarks.length === 0;
+      if (entryCommentsHiddenByOwner) {
+        Filters.addRule('mute', 'url', url);
+        entryFilterBtn.textContent = 'フィルタに登録しました';
+        entryFilterBtn.disabled = true;
       }
 
       const commented = info.bookmarks.filter((b) => b.comment);
