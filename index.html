@@ -78,6 +78,14 @@
       <h2>フィルタ設定</h2>
       <button id="settings-close" type="button" class="btn btn--small">閉じる</button>
     </div>
+    <section class="modal-section autoscroll-speed">
+      <h3>自動スクロール速度</h3>
+      <div class="visited-threshold-row">
+        <input id="autoscroll-speed-value" type="number" min="1" max="500" step="1" inputmode="numeric">
+        <span class="unit">px/秒</span>
+      </div>
+    </section>
+
     <section class="modal-section visited-threshold">
       <h3>既読の再表示条件<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-visited" aria-label="説明を表示">?</button></h3>
       <p id="hint-visited" class="hint" hidden>

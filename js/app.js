@@ -1214,6 +1214,7 @@
   // ---- 既読の再表示閾値 ----
   function refreshVisitedThresholdFields() {
     const threshold = Visited.loadThreshold();
+    autoScrollSpeedInput.value = autoScrollSpeed;
     visitedThresholdValueInput.value = threshold.value;
     visitedThresholdTypeSelect.value = threshold.type;
   }
@@ -1803,7 +1804,10 @@
   // 前後の記事へ)をまたいで維持する。スクロール自体はwindowを一定速度で下へ送るだけなので、
   // ルート切替で先頭へ戻された後もそのまま続く。
   const AUTOSCROLL_KEY = 'hateb-tycoon:autoScroll';
-  const AUTOSCROLL_PX_PER_SEC = 45; // ゆっくり文章を目で追える程度の速さ
+  const AUTOSCROLL_SPEED_KEY = 'hateb-tycoon:autoScrollSpeed';
+  const AUTOSCROLL_DEFAULT_SPEED = 20; // ゆっくり文章を目で追える程度の速さ(px/秒)
+  const autoScrollSpeedInput = document.getElementById('autoscroll-speed-value');
+  let autoScrollSpeed = loadAutoScrollSpeed();
   const AUTOSCROLL_PAUSE_AFTER_INPUT_MS = 1500; // 手動操作の直後は邪魔しない
   const autoScrollBtn = document.getElementById('autoscroll-btn');
   let autoScrollOn = loadAutoScroll();
@@ -1820,6 +1824,15 @@
     }
   }
 
+  function loadAutoScrollSpeed() {
+    try {
+      const v = Number(localStorage.getItem(AUTOSCROLL_SPEED_KEY));
+      return Number.isFinite(v) && v >= 1 ? v : AUTOSCROLL_DEFAULT_SPEED;
+    } catch (e) {
+      return AUTOSCROLL_DEFAULT_SPEED;
+    }
+  }
+
   function saveAutoScroll(on) {
     try {
       localStorage.setItem(AUTOSCROLL_KEY, on ? '1' : '0');
@@ -1832,8 +1845,10 @@
     autoScrollRaf = requestAnimationFrame(autoScrollStep);
     const dt = Math.min(ts - autoScrollLastTs, 100); // タブ非表示後の巨大なdtで飛ばない
     autoScrollLastTs = ts;
-    if (ts < autoScrollPausedUntil) return;
-    autoScrollRemainder += (AUTOSCROLL_PX_PER_SEC * dt) / 1000;
+    // 設定画面を開いている間は止める(背景が動くと気が散り、スマホでは入力欄の位置調整と競合する)。
+    // ON/OFFの状態は変えないので、閉じればそのまま再開する。
+    if (ts < autoScrollPausedUntil || !settingsModal.hidden) return;
+    autoScrollRemainder += (autoScrollSpeed * dt) / 1000;
     const px = Math.floor(autoScrollRemainder);
     if (px >= 1) {
       autoScrollRemainder -= px;
@@ -1855,6 +1870,19 @@
       autoScrollRaf = requestAnimationFrame(autoScrollStep);
     }
   }
+
+  autoScrollSpeedInput.addEventListener('change', () => {
+    const v = Number(autoScrollSpeedInput.value);
+    if (Number.isFinite(v) && v >= 1) {
+      autoScrollSpeed = Math.min(v, 500);
+      try {
+        localStorage.setItem(AUTOSCROLL_SPEED_KEY, String(autoScrollSpeed));
+      } catch (e) {
+        // localStorageが使えない環境では記憶をあきらめる
+      }
+    }
+    autoScrollSpeedInput.value = autoScrollSpeed;
+  });
 
   autoScrollBtn.addEventListener('click', () => {
     autoScrollOn = !autoScrollOn;

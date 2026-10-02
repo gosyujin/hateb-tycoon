@@ -770,6 +770,10 @@ main {
   border: 1px solid var(--color-border);
   font-size: 16px;
 }
+.visited-threshold-row .unit {
+  align-self: center;
+  font-size: 0.9rem;
+}
 .visited-threshold-row select {
   flex: 1;
   padding: 6px;
