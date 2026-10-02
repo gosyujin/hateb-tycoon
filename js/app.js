@@ -1798,7 +1798,77 @@
   // オフライン等で応答が遅くても起動を待たせないよう、待つのは最大でタイムアウトまで。
   const STARTUP_IMPORT_TIMEOUT_MS = 3000;
 
+  // ---- 自動スクロール ----
+  // ヘッダーの▶️/⏸️で切り替える。ON/OFFはlocalStorageに保存し、ページ遷移(一覧⇔記事、
+  // 前後の記事へ)をまたいで維持する。スクロール自体はwindowを一定速度で下へ送るだけなので、
+  // ルート切替で先頭へ戻された後もそのまま続く。
+  const AUTOSCROLL_KEY = 'hateb-tycoon:autoScroll';
+  const AUTOSCROLL_PX_PER_SEC = 45; // ゆっくり文章を目で追える程度の速さ
+  const AUTOSCROLL_PAUSE_AFTER_INPUT_MS = 1500; // 手動操作の直後は邪魔しない
+  const autoScrollBtn = document.getElementById('autoscroll-btn');
+  let autoScrollOn = loadAutoScroll();
+  let autoScrollRaf = 0;
+  let autoScrollLastTs = 0;
+  let autoScrollRemainder = 0; // scrollByは整数に丸められることがあるため端数を持ち越す
+  let autoScrollPausedUntil = 0;
+
+  function loadAutoScroll() {
+    try {
+      return localStorage.getItem(AUTOSCROLL_KEY) === '1';
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function saveAutoScroll(on) {
+    try {
+      localStorage.setItem(AUTOSCROLL_KEY, on ? '1' : '0');
+    } catch (e) {
+      // localStorageが使えない環境では記憶をあきらめる
+    }
+  }
+
+  function autoScrollStep(ts) {
+    autoScrollRaf = requestAnimationFrame(autoScrollStep);
+    const dt = Math.min(ts - autoScrollLastTs, 100); // タブ非表示後の巨大なdtで飛ばない
+    autoScrollLastTs = ts;
+    if (ts < autoScrollPausedUntil) return;
+    autoScrollRemainder += (AUTOSCROLL_PX_PER_SEC * dt) / 1000;
+    const px = Math.floor(autoScrollRemainder);
+    if (px >= 1) {
+      autoScrollRemainder -= px;
+      window.scrollBy(0, px);
+    }
+  }
+
+  function applyAutoScroll() {
+    autoScrollBtn.textContent = autoScrollOn ? '⏸️' : '▶️';
+    autoScrollBtn.setAttribute('aria-pressed', String(autoScrollOn));
+    const label = autoScrollOn ? '自動スクロールを停止' : '自動スクロールを開始';
+    autoScrollBtn.setAttribute('aria-label', label);
+    autoScrollBtn.title = label;
+    cancelAnimationFrame(autoScrollRaf);
+    autoScrollRaf = 0;
+    if (autoScrollOn) {
+      autoScrollLastTs = performance.now();
+      autoScrollRemainder = 0;
+      autoScrollRaf = requestAnimationFrame(autoScrollStep);
+    }
+  }
+
+  autoScrollBtn.addEventListener('click', () => {
+    autoScrollOn = !autoScrollOn;
+    saveAutoScroll(autoScrollOn);
+    applyAutoScroll();
+  });
+  ['wheel', 'touchstart', 'touchmove', 'keydown'].forEach((type) => {
+    window.addEventListener(type, () => {
+      autoScrollPausedUntil = performance.now() + AUTOSCROLL_PAUSE_AFTER_INPUT_MS;
+    }, { passive: true });
+  });
+
   // ---- 初期化 ----
+  applyAutoScroll();
   updateListLayoutToggleUI();
   renderFooter();
   Promise.all([

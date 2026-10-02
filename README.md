@@ -90,6 +90,7 @@ hateb-tycoon/
 - **無限スクロールの再判定**: 一覧の継ぎ足しは`IntersectionObserver`(rootMargin 600px)で末尾のsentinelを監視していますが、これは「交差状態が変わった時」しか発火しません。縦長ディスプレイ(1080x1920等)×plain表示のように、20件追加してもsentinelがrootMargin内に残る場合、二度と発火せず継ぎ足しが止まっていました(件数表示は全件なのに実表示が40件で止まる)。そのため`renderNextPage()`の後にsentinelを`unobserve`→`observe`し直して現在の状態で再判定させています。この再監視を外さないでください。
 - **一覧の自動リフレッシュ**: 一覧データは静的JSONでサーバーからpushできないため、feed-tycoonと同じく「ページが前面に戻った時(`visibilitychange`)に、最後の読み込みから5分以上経っていれば読み直す」方式にしています(`refreshListIfStale()`)。通常の読み込み(`renderListView`)は一覧を一度空にしますが、自動リフレッシュは**取得に成功し、かつ内容が変わっていた場合のみ**差し替え、スクロール位置も維持します。オフライン復帰などで取得に失敗しても表示中の一覧は消えません。
 - カテゴリのRSSパス(`general` / `social` / `economics` / `life` / `knowledge` / `it` / `fun` / `entertainment` / `game`)は、はてなブックマークの公開カテゴリ構成に基づいています。当初含めていた `book`(本)は `hotentry/book.rss` が404だったため削除しました。
+- **自動スクロール**: ヘッダーの▶️/⏸️でON/OFF。状態は`localStorage`(`hateb-tycoon:autoScroll`)に保存し、一覧⇔記事・前後の記事へ移動してもONのまま続く。`requestAnimationFrame`で`window`を毎秒45px(`AUTOSCROLL_PX_PER_SEC`)ずつ下へ送るだけで、wheel/touch/keydownの直後1.5秒は一時停止して手動操作を邪魔しない。
 - **長い文字列の折り返し**: タイトルがURLそのままの記事(未ブックマークのURL等)・長いドメイン・エラー文言中のURLなど、途中で区切れない長い文字列は、スマホ幅で横スクロールを起こさないよう`overflow-wrap: anywhere`で折り返す(`.entry-header` / `.status` / `.card-domain` / コメント一覧など)。新しく文字列を表示する要素を足す時は、同様に折り返し指定を付けること。
 - 完全なはてなブックマークUIの再現は行っておらず、記事一覧・コメント一覧の表示に必要最低限のリンク(元記事リンク・はてなブックマークページへのリンク・ユーザーページへのリンク)のみを組み込んでいます。
 
