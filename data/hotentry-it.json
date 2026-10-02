@@ -1,107 +1,120 @@
 [
   {
+    "title": "12GB VRAMで125Bモデルを動かす「Strata」の概要｜npaka",
+    "url": "https://note.com/npaka/n/n4a1185074686",
+    "domain": "note.com",
+    "count": 12,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/npaka/n/n4a1185074686",
+    "screenshot": "https://assets.st-note.com/production/uploads/images/319794028/rectangle_large_type_2_5c847f90a6c536acd61c3832723bf8a8.png?fit=bounds&quality=85&width=1280",
+    "description": "12GB VRAMで125Bモデルを動かす「Strata」の概要をまとめました。 1. はじめにローカルLLMでは、GPUのVRAM容量が大きな制約になります。特に100Bを超えるモデルは、量子化しても一般的なGPUのVRAMだけで動かすのは困難です。 そこで登場したのが、AI推論エンジン「Strata」です。 Strataは、GPUとCPUで計算を分担し、VRA...",
+    "hatenaDate": "2026-10-01T22:53:10Z",
+    "users": [],
+    "firstSeenAt": "2026-10-02T09:30:13.359928+09:00",
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
+  },
+  {
     "title": "『六韜』「隣国の使者が有能なら何も与えず無能なら大いに歓待せよ」というのはデマだぞ",
     "url": "https://anond.hatelabo.jp/20260514203244",
     "domain": "anond.hatelabo.jp",
-    "count": 13,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20260514203244",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "トランプが訪中したところ、盛大なパレードで歓待を受けた。これに対して六韜の一節と言われる文言を貼る人が多いが、実はこれはデマなので指摘するぞ。 https://togetter.com/li/2696932 この一節はネットで広く知られているし、外交や国際関係、安全保障畑の人らも良く引用している。だから増田もずっと信じていた。 ...",
     "hatenaDate": "2026-10-01T15:45:56Z",
     "users": [],
     "firstSeenAt": "2026-10-02T09:13:55.700240+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "新Kindle 計6モデル発売 頁めくりリモコンKindle Click、物理ボタンつきカバーも | テクノエッジ TechnoEdge",
     "url": "https://www.techno-edge.net/article/2026/10/02/5544.html",
     "domain": "www.techno-edge.net",
-    "count": 8,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/10/02/5544.html",
     "screenshot": "https://www.techno-edge.net/imgs/ogp_f/34600.jpg",
     "description": "Amazonは10月1日、電子書籍リーダー「Kindle」「Kindle Paperwhite」「Kindle Colorsoft」の新モデルとアクセサリを発表しました。 無印 Kindleは3シリーズそれぞれに標準モデルと、アルミニウム背面と32GBストレージを備える上位モデルで計6機種。すでに購入できます。 ■ 全モデル薄型化、無印Kindleもフラットデザイン...",
     "hatenaDate": "2026-10-01T22:41:14Z",
     "users": [],
     "firstSeenAt": "2026-10-02T09:13:55.700240+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "Cloudflare/clef · Hugging Face",
     "url": "https://huggingface.co/Cloudflare/clef",
     "domain": "huggingface.co",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/huggingface.co/Cloudflare/clef",
     "screenshot": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Cloudflare/clef.png",
     "description": "\",\"pad_token\":\"<|endoftext|>\",\"unk_token\":null},\"chat_template_jinja\":\"{%- set image_count = namespace(value=0) %}\\n{%- set video_count = namespace(value=0) %}\\n{%- macro render_content(content, do_vision_count, is_system_content=false) %}\\n {%- if content is string %}\\n {{- content }}\\n {%- elif...",
     "hatenaDate": "2026-10-01T21:28:25Z",
     "users": [],
     "firstSeenAt": "2026-10-02T09:13:55.700240+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "Jevライクな意思決定モデルをローカル実行できるOllama風アプリ「Ollaya」が登場",
     "url": "https://gigazine.net/news/20261001-ollaya-run-decision-model/",
     "domain": "gigazine.net",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261001-ollaya-run-decision-model/",
     "screenshot": "https://i.gzn.jp/img/2026/10/01/ollaya-run-decision-model/00.png",
     "description": "2026年9月15日に登場した意思決定モデル「Jev」は高速かつ高精度で有用なことから大きな注目を集めており、同様の機能を備えた意思決定モデルが続々と発表されています。そんな意思決定モデルをローカルで動作させる実行アプリ「Ollaya」が登場しました。 Ollaya · Run decision models locally https://ollaya.dev/ Jev...",
     "hatenaDate": "2026-10-01T12:19:32Z",
     "users": [],
     "firstSeenAt": "2026-10-02T09:13:55.700240+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "Pi 1.0 | Earendil",
     "url": "https://earendil.com/posts/pi-1-0/",
     "domain": "earendil.com",
-    "count": 5,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/earendil.com/posts/pi-1-0/",
     "screenshot": "https://earendil.com/static/og/posts/pi-1-0.png",
     "description": "Today we are proudly shipping Pi 1.0: a hardened, minimal, extensible agent harness that you can make your own. Hundreds of thousands of people around the world use Pi every week. Many of you submit issues and pull requests. Over the course of many months, we have used that feedback to improve, h...",
     "hatenaDate": "2026-10-01T21:47:00Z",
     "users": [],
     "firstSeenAt": "2026-10-02T09:13:55.700240+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "AI時代の勉強法(2026)",
     "url": "https://iwashi.co/2026/10/01/how-to-study-in-ai-era",
     "domain": "iwashi.co",
-    "count": 11,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/iwashi.co/2026/10/01/how-to-study-in-ai-era",
     "screenshot": "https://iwashi.co/assets/images/ogp/2026-10-01-how-to-study-in-ai-era_ogp.png",
     "description": "はじめに つい最近、今の勉強法を簡単に記したXのポストをした。本記事では、もう少し掘り下げてまとめて書いてみようと思う。2026年のスナップショットであり、来年以降に読み返したら面白いかもしれないので。 なおこの記事は、文章の誤字脱字チェック以外には生成AIを活用しておらず、すべて手でタイプしている。 基...",
     "hatenaDate": "2026-10-01T23:26:31Z",
     "users": [],
     "firstSeenAt": "2026-10-02T09:00:15.644771+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "思考を整理できる便利ツール「Obsidian」を愛用する6つの理由 | ライフハッカー・ジャパン",
     "url": "https://www.lifehacker.jp/article/2610-obsidian-deep-research-hpq/",
     "domain": "www.lifehacker.jp",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.lifehacker.jp/article/2610-obsidian-deep-research-hpq/",
     "screenshot": "https://media.loom-app.com/loom/2026/09/30/9b115887-524b-4f35-801e-8bf77d637a1b/original.png?w=1200&h=630&f=jpg",
     "description": "リサーチプロジェクトはすぐに混沌としてしまうものです。 だからこそ、思考やアイデアをスムーズにつなぎ、使いやすいツールが必要です。それが私にとっての「Obsidian」なのです。 1. 双方向リンクでノート同士をつなげられるWordのような直線的なツールでは、ノート同士を論理的に結びつけられず、スクロールで迷子に...",
     "hatenaDate": "2026-10-01T14:05:52Z",
     "users": [],
     "firstSeenAt": "2026-10-02T08:45:12.681586+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "免許証の悪用防止で申し込み集中　JICCがアプリ受付を一時休止　タイムズカー漏えいの影響か",
     "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001943/",
     "domain": "www.itmedia.co.jp",
-    "count": 18,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/01/2000001943/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/01/2000001943/10008196/2048",
     "description": "信用情報機関の日本信用情報機構（JICC）は10月1日、免許証などの悪用を防ぐ「本人申告コメント」と、自分の信用情報を確認する「本人開示」について、申し込み集中を受けてスマートフォンアプリからの受付を一時休止していると発表した。9月28日にパーク24グループが公表したカーシェアサービス「タイムズカー」の情報...",
     "hatenaDate": "2026-10-01T11:38:41Z",
     "users": [],
     "firstSeenAt": "2026-10-02T08:15:13.562042+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "OpenAIはテストの監視が不十分であるという社内警告を繰り返し無視して追加のセキュリティ対策をせず迅速なリリースを優先していた",
@@ -114,20 +127,20 @@
     "hatenaDate": "2026-10-01T14:01:59Z",
     "users": [],
     "firstSeenAt": "2026-10-02T08:15:13.562042+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "Claude Codeは、コードを書かない人こそ使える。散らかったフォルダもWindowsのエラーも「頼むだけ」で片づいた | ライフハッカー・ジャパン",
     "url": "https://www.lifehacker.jp/article/2610-use-claude-code-every-day-tasks-nothing-coding/",
     "domain": "www.lifehacker.jp",
-    "count": 18,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.lifehacker.jp/article/2610-use-claude-code-every-day-tasks-nothing-coding/",
     "screenshot": "https://media.loom-app.com/loom/2026/10/01/7501d210-ef73-4207-bd46-99b951abfa61/original.png?w=1200&h=630&f=jpg",
     "description": "Claude Codeは、自律的に動くコーディング支援ツールとして打ち出されていますが、その表現ではこのツールの持つポテンシャルをまったく伝えきれていません。 ファイルへのアクセスや編集、シェルコマンドの実行ができ、パソコンにインストール済みのあらゆるツールと連携できるため、単なるプログラミング以上の場面で...",
     "hatenaDate": "2026-10-01T06:11:21Z",
     "users": [],
     "firstSeenAt": "2026-10-02T08:15:13.562042+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "米政府の新AIチャットボット、トランプ氏の主張と矛盾する回答 直後に一部質問を制限",
@@ -140,7 +153,7 @@
     "hatenaDate": "2026-10-01T12:17:15Z",
     "users": [],
     "firstSeenAt": "2026-10-02T05:15:16.049241+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "「Oracle JDK 21」は無償の「NFTC」ライセンスの対象外に、10月「CPU」以降で／「Oracle JDK」を無償で商用運用したいなら「Oracle JDK 25」への移行を",
@@ -153,7 +166,7 @@
     "hatenaDate": "2026-10-01T08:38:40Z",
     "users": [],
     "firstSeenAt": "2026-10-02T05:00:14.812582+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "Appleのジョン・ターナスCEOは新製品のリリース頻度をもっと上げようと考えている",
@@ -172,14 +185,14 @@
     "title": "AIを業務改善につなげるための5ステップ ― サービスデザインを活用した要件定義 - Qiita",
     "url": "https://qiita.com/TamakiSeki/items/ac268db56f92b991970b",
     "domain": "qiita.com",
-    "count": 58,
+    "count": 61,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/TamakiSeki/items/ac268db56f92b991970b",
     "screenshot": null,
     "description": "はじめに 生成AIやAIエージェントを業務に活用しようとすると、「どの業務に適用するか」「人とAIの役割をどう分けるか」で迷うことがあります。 文章作成や要約など個人単位の作業にはAIを導入しやすい一方、AIエージェントを作ること自体が目的になると、個別タスクの効率化にとどまり、業務全体の改善につながらない...",
     "hatenaDate": "2026-10-01T14:10:57Z",
     "users": [],
     "firstSeenAt": "2026-10-02T04:30:14.884907+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "DiPlay — CarPlay for compatible Android head units",
@@ -205,46 +218,46 @@
     "hatenaDate": "2026-10-01T02:22:39Z",
     "users": [],
     "firstSeenAt": "2026-10-02T04:30:14.884907+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "LayerXのFDEインターンに参加した話 - LayerX エンジニアブログ",
     "url": "https://tech.layerx.co.jp/entry/2026/09/30/200852",
     "domain": "tech.layerx.co.jp",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.layerx.co.jp/entry/2026/09/30/200852",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/49fcf1a31891c7211fae7e6deadaa667cc664682/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fm%2Fmaruchiho_layerx%2F20260930%2F20260930200722.png",
     "description": "※本記事は、2026年7月までLayerXのAi Workforce事業部でFDEインターンとして活躍してくれたakatuki（あかつき）さんによる執筆です。本人のインターン期間終了に伴い、LayerX の maruchiho（まるちほ）が代理で投稿いたします。 はじめに こんにちは、名古屋工業大学 3年の山本賢人（あかつき）というものです。 2026年5...",
     "hatenaDate": "2026-10-01T04:49:19Z",
     "users": [],
     "firstSeenAt": "2026-10-02T03:15:15.715650+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "Amazonの配達員向けスマートグラスは生成AIマッピング用に配送先の私有地でも静止画を撮影、2027年までに2万人以上の配達員が着用へ",
     "url": "https://gigazine.net/news/20261001-amazon-smart-glasses-privacy/",
     "domain": "gigazine.net",
-    "count": 12,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261001-amazon-smart-glasses-privacy/",
     "screenshot": "https://i.gzn.jp/img/2026/10/01/amazon-smart-glasses-privacy/00_m.jpg",
     "description": "Amazonが配達員向けに導入を進めるスマートグラスについて、配達中に周囲の画像を繰り返し撮影し、配送の改善に活用する仕組みが報じられました。同社は配送の迅速化や誤配の削減が目的だと説明しています。一方、住宅の敷地内や人の姿が写り込む可能性があり、撮影を断る選択肢や画像の管理方法が課題となっています。 ...",
     "hatenaDate": "2026-10-01T05:59:08Z",
     "users": [],
     "firstSeenAt": "2026-10-02T02:45:14.475562+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "dotfiles を AI agent のために作り変えた",
     "url": "https://tellme.tokyo/post/2026/10/01/ai-agent-first-dotfiles/",
     "domain": "tellme.tokyo",
-    "count": 49,
+    "count": 52,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tellme.tokyo/post/2026/10/01/ai-agent-first-dotfiles/",
     "screenshot": "https://tellme.tokyo/og.png",
     "description": "最近、自分のターミナルでコマンドを打っているのは、ほとんど自分ではなく Claude Code や Codex だった（以下 AI）。試しに数えてみると、直近 gh を叩いた回数は自分が80回で、AI が1,339回だった。 一方で、10年以上いじってきた dotfiles は、人間が快適に使うための設定の塊だ。これが AI にとってはけっこう邪魔...",
     "hatenaDate": "2026-10-01T14:35:59Z",
     "users": [],
     "firstSeenAt": "2026-10-02T02:45:14.475562+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "世界はこの本の通りに動いている――今一番話題のAI本『超知能AIをつくれば人類は絶滅する』電子書籍版が「99円」に。10月2日（金）～10月4日（日）の3日間限定",
@@ -257,7 +270,7 @@
     "hatenaDate": "2026-10-01T03:20:38Z",
     "users": [],
     "firstSeenAt": "2026-10-02T02:45:14.475562+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "Google、新フロンティアモデルGemini 4 Argon発表　出力100万トークンで長期の自律推論に強み、法務や業務自動化でOpus 5.5やAstraに大差 | テクノエッジ TechnoEdge",
@@ -283,7 +296,7 @@
     "hatenaDate": "2026-10-01T11:45:11Z",
     "users": [],
     "firstSeenAt": "2026-10-02T02:30:15.190721+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
@@ -296,7 +309,7 @@
     "hatenaDate": "2026-10-01T15:41:25Z",
     "users": [],
     "firstSeenAt": "2026-10-02T02:00:14.991208+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "動画・資料 | 教育における生成AI活用推進リーダープログラム",
@@ -348,7 +361,7 @@
     "hatenaDate": "2026-10-01T02:17:12Z",
     "users": [],
     "firstSeenAt": "2026-10-02T01:15:17.421428+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "HotCell README: 信頼できない入力の処理を別コンテナに隔離するgem（翻訳）｜TechRacho by BPS株式会社",
@@ -374,7 +387,7 @@
     "hatenaDate": "2026-10-01T13:09:44Z",
     "users": [],
     "firstSeenAt": "2026-10-02T00:45:18.479559+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "Explore It! を 地図にする",
@@ -387,20 +400,20 @@
     "hatenaDate": "2026-10-01T09:15:50Z",
     "users": [],
     "firstSeenAt": "2026-10-02T00:45:18.479559+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "全体像が知りたいんだよォー！そんな時は図解スキルeli5が便利",
     "url": "https://eiji.page/blog/ai-skill-eli5-is-great",
     "domain": "eiji.page",
-    "count": 126,
+    "count": 131,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/eiji.page/blog/ai-skill-eli5-is-great",
     "screenshot": "https://eiji.page/og/ai-skill-eli5-is-great.png",
     "description": "AIを使った開発によってスピードが上がっているのは実感するものの、それと引き換えに 自分がちゃんと理解できなくてふわっとした部分 が増えてきました。 そんなとき、自分の理解が合っているか音声入力でバーっと喋ってAIとやりとりします。 他の人が書いたコードの機能の概要・ロジックなんかも同じです。 ただ、複雑...",
     "hatenaDate": "2026-10-01T10:09:45Z",
     "users": [],
     "firstSeenAt": "2026-10-02T00:26:10.968211+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "メモリメーカーのMicronが2026年第4四半期の決算発表、AIインフラの需要急増で爆発的に成長し売上高前年同期比379％増・純利益1078％増・データセンター部門売上高1000％増",
@@ -419,14 +432,14 @@
     "title": "オブザーバビリティのAIエージェントをどう評価するか",
     "url": "https://zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop",
     "domain": "zenn.dev",
-    "count": 28,
+    "count": 29,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--s2BPhy_r--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25AA%25E3%2583%2596%25E3%2582%25B6%25E3%2583%25BC%25E3%2583%2590%25E3%2583%2593%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2581%25AEAI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E3%2581%25A9%25E3%2581%2586%25E8%25A9%2595%25E4%25BE%25A1%25E3%2581%2599%25E3%2582%258B%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yoshi%2520Yamaguchi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dMOUN2MU9tRlBwUUcwY0pWOHZUeW1SZ3ViT3VaWnplQ01HUTJjMHRnPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "はじめに AIエージェントにオブザーバビリティの仕事をさせたとき、その最終応答の品質が上がったのか下がったのかを、どうやって知るのでしょうか。 エージェントの最終応答を読んで判断する方法は、早い段階で行き詰まります。正しい応答と、正しく見えるだけの応答が同じ見た目をしているからです。しかも同じ質問に...",
     "hatenaDate": "2026-10-01T09:39:19Z",
     "users": [],
     "firstSeenAt": "2026-10-01T23:45:25.076620+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "VRAM 32GBの「Intel Arc Pro B70」で「Hermes Agent」のローカルAIを実行、4ビット量子化したQwen3.8-27Bを動かしてみた",
@@ -634,7 +647,7 @@
     "hatenaDate": "2026-10-01T10:02:04Z",
     "users": [],
     "firstSeenAt": "2026-10-01T20:30:17.502474+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "長年の悩みがこれで解決！ CSSで機能を組み合わせたときにブラウザがサポートしているか検出できる新機能「@supports named-feature()」",
@@ -666,14 +679,14 @@
     "title": "テスト要求仕様（TRS）を書いてみたら、テスト設計が楽になった話",
     "url": "https://zenn.dev/edash_tech_blog/articles/0d49bd338b64f0",
     "domain": "zenn.dev",
-    "count": 115,
+    "count": 118,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/edash_tech_blog/articles/0d49bd338b64f0",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--_K_Q-f0F--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E8%25A6%2581%25E6%25B1%2582%25E4%25BB%2595%25E6%25A7%2598%25EF%25BC%2588TRS%25EF%25BC%2589%25E3%2582%2592%25E6%259B%25B8%25E3%2581%2584%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E8%25A8%25AD%25E8%25A8%2588%25E3%2581%258C%25E6%25A5%25BD%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:ueda%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNkZWM5ZjExNTcuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:e-dash%2520Tech%2520Blog%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTGticmJpbFlheGNFWUROZVJwNURYM05PcnBwcjRpekJHTzJVTWV1YjRTYTNwbS13PXM5Ni1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "こんにちは。e-dashでQAエンジニアをしているuedaです。 みなさんはテストをするにあたって、どんなドキュメントを用意していますか。 e-dash の QA チームでは、テストケースの前に テスト設計書（Test Design） を用意します。 直近では、そのさらに前に テスト要求仕様（Test Requirement Spec、以下 TRS） を挟んで...",
     "hatenaDate": "2026-09-30T11:30:09Z",
     "users": [],
     "firstSeenAt": "2026-10-01T20:15:14.653317+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "“3.5秒よそ見”で運転者に警告　新規生産車に警報機の搭載を義務化へ　居眠り警告も　国交省",
@@ -712,7 +725,7 @@
     "hatenaDate": "2026-10-01T08:09:10Z",
     "users": [],
     "firstSeenAt": "2026-10-01T19:15:15.400838+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "Google フォト、待望されながらなぜか未実装だった「あの機能」をついに導入【やじうまWatch】",
@@ -744,14 +757,14 @@
     "title": "怪異をすべて“物理”でぶっ飛ばすホラー映像作品『現地確認記録』が話題に。異常な主人公・佐藤が異変を調査",
     "url": "https://news.denfaminicogamer.jp/news/261001u",
     "domain": "news.denfaminicogamer.jp",
-    "count": 180,
+    "count": 182,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.denfaminicogamer.jp/news/261001u",
     "screenshot": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/maxresdefault-15.jpg",
     "description": "『現地確認記録』は、AI生成のタグが付いた、一人称視点で描かれるアナログホラー映像作品。本作では、通常の調査員では対応困難と判断された事案にのみ投入される現地対処員・佐藤周一の記録を映している。佐藤は、「恐怖反応」「危険認識」「身体能力」の項目すべてが一般的な基準から大きく逸脱しており、「異常には...",
     "hatenaDate": "2026-10-01T06:47:26Z",
     "users": [],
     "firstSeenAt": "2026-10-01T19:00:17.422440+09:00",
-    "lastSeenAt": "2026-10-02T09:15:14.797838+09:00"
+    "lastSeenAt": "2026-10-02T09:30:13.359928+09:00"
   },
   {
     "title": "なぜ日本の衛星は欧州の小型ロケットを選ぶのか　広がる打上げの選択肢",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-09-29T12:30:12.997879+09:00",
     "lastSeenAt": "2026-09-29T13:00:15.722019+09:00"
-  },
-  {
-    "title": "Claudeの「パワポ作成」が凄すぎる…“崩れない”スライドを量産する神設定5選",
-    "url": "https://www.sbbit.jp/article/cont1/187078",
-    "domain": "www.sbbit.jp",
-    "count": 20,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.sbbit.jp/article/cont1/187078",
-    "screenshot": "https://img.sbbit.jp/article/image/187078/OGP_bit202609241723169669.jpg",
-    "description": "プレゼンテーション資料の作成で、画像生成AIなどで作成したスライドは後からテキストやグラフを修正できず、実務での活用に限界を感じている人は多いのではないでしょうか。こうした課題を解決するのが、AIツール「Claude」に標準搭載されているPPTX作成機能です。Claudeを活用すれば、Web上でプレビュー確認できるだけ...",
-    "hatenaDate": "2026-09-29T01:50:56Z",
-    "users": [],
-    "firstSeenAt": "2026-09-29T12:30:12.997879+09:00",
-    "lastSeenAt": "2026-09-29T16:45:12.663231+09:00"
   }
 ]
