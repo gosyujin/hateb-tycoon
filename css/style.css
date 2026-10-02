@@ -200,6 +200,7 @@ main {
 }
 
 .status {
+  overflow-wrap: anywhere; /* エラー文言にURLが入ることがある */
   color: var(--color-muted);
   font-size: 0.85rem;
   margin: 8px 0;
@@ -392,6 +393,7 @@ main {
 }
 
 .card-domain {
+  overflow-wrap: anywhere;
   font-size: 0.78rem;
   color: var(--color-muted);
   background: none;
@@ -507,7 +509,10 @@ main {
   inset: 0;
 }
 
+/* 長いURL(タイトルがURLそのままの記事・未ブックマークのURL等)やドメインが、
+   スマホ幅で横スクロールを起こさないよう、どこでも折り返す。 */
 .entry-header {
+  overflow-wrap: anywhere;
   margin: 12px 0;
   padding: 12px;
   background: var(--color-surface);
