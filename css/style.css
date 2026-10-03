@@ -698,6 +698,11 @@ main {
   color: var(--color-muted);
   font-size: 0.8rem;
 }
+.comment-stars {
+  white-space: nowrap;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+}
 .comment-tags {
   display: flex;
   gap: 6px;

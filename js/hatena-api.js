@@ -119,6 +119,7 @@
       url,
       domain: safeHostname(url),
       count: raw.count != null ? raw.count : 0,
+      eid: raw.eid != null ? String(raw.eid) : null,
       entryUrl: raw.eid ? `https://b.hatena.ne.jp/entry/${raw.eid}` : null,
       bookmarks: bookmarks.map((b) => ({
         user: b.user || '(不明なユーザー)',
@@ -277,8 +278,81 @@
     }
   }
 
+  // ---- はてなスター(コメントごとのスター数) ----
+  // スターAPI(entries.json)は、ブックマークのパーマリンク
+  // https://b.hatena.ne.jp/{user}/{yyyymmdd}#bookmark-{eid} をURIとして、複数件まとめて
+  // 問い合わせられる(uriを繰り返す)。entry.json(単数)はCORSヘッダが無く使えないが、
+  // entries.json は Access-Control-Allow-Origin を返すため fetch() で直接取得できる。
+  // 0件のURIは応答に含まれない。誰が付けたかは使わず、数だけ数える。
+  const STAR_API_URL = 'https://s.hatena.ne.jp/entries.json';
+  // URLが長くなりすぎないよう、1リクエストあたりのURI数を制限する(1件あたり約90文字)。
+  const STAR_BATCH_SIZE = 50;
+  const STAR_FETCH_TIMEOUT_MS = 10000;
+
+  function bookmarkPermalink(eid, b) {
+    const date = /^(\d{4})[/-](\d{1,2})[/-](\d{1,2})/.exec(b.timestamp || '');
+    if (!eid || !date) return null;
+    const pad = (n) => String(n).padStart(2, '0');
+    return `https://b.hatena.ne.jp/${encodeURIComponent(b.user)}/${date[1]}${pad(date[2])}${pad(date[3])}#bookmark-${eid}`;
+  }
+
+  // 通常のスター+色付きスターの合計。多い時は途中が {count: N} にまとめられて返る。
+  function countStars(entry) {
+    const sum = (stars) =>
+      (Array.isArray(stars) ? stars : []).reduce((n, s) => n + (s && s.count != null ? Number(s.count) || 0 : 1), 0);
+    let total = sum(entry.stars);
+    for (const c of Array.isArray(entry.colored_stars) ? entry.colored_stars : []) total += sum(c && c.stars);
+    return total;
+  }
+
+  async function fetchStarBatch(uris) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), STAR_FETCH_TIMEOUT_MS);
+    try {
+      const query = new URLSearchParams();
+      for (const u of uris) query.append('uri', u);
+      const res = await fetch(`${STAR_API_URL}?${query.toString()}`, { signal: controller.signal });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      return Array.isArray(data.entries) ? data.entries : [];
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
+  // bookmarks(コメント付きなど表示対象)のスター数を取得し、Map(コメントのキー -> 数)で返す。
+  // キーは starKey(b)。リクエスト数は ceil(件数 / STAR_BATCH_SIZE) 本(並列)。
+  // 一部のバッチが失敗しても取れた分だけ返す(スターは付加情報のため、失敗は黙って無視)。
+  async function getStarCounts(eid, bookmarks) {
+    const uriToKey = new Map();
+    for (const b of bookmarks) {
+      const uri = bookmarkPermalink(eid, b);
+      if (uri) uriToKey.set(uri, starKey(b));
+    }
+    const uris = [...uriToKey.keys()];
+    const batches = [];
+    for (let i = 0; i < uris.length; i += STAR_BATCH_SIZE) batches.push(uris.slice(i, i + STAR_BATCH_SIZE));
+    const settled = await Promise.allSettled(batches.map(fetchStarBatch));
+    const counts = new Map();
+    for (const r of settled) {
+      if (r.status !== 'fulfilled') continue;
+      for (const e of r.value) {
+        const key = uriToKey.get(e.uri);
+        const n = countStars(e);
+        if (key != null && n > 0) counts.set(key, n);
+      }
+    }
+    return counts;
+  }
+
+  function starKey(b) {
+    return `${b.user}\n${b.timestamp}`;
+  }
+
   global.HatenaAPI = {
     CATEGORIES,
+    getStarCounts,
+    starKey,
     getHotEntries,
     getEntryInfo,
     prefetchEntryInfo,

@@ -831,6 +831,12 @@
   let entryCommentsHiddenByOwner = false;
   // 前回このコメントページを開いた時刻(ms)。null(初訪問)なら新着判定はしない。
   let entryPrevVisitTime = null;
+  // richレイアウト時のみ取得するコメントごとのスター数(HatenaAPI.starKey -> 数、0件は含まない)。
+  // 記事を開き直すたびにリセットし、取得は記事ごとに1回だけ(レイアウトを切り替えても再取得しない)。
+  let entryStarCounts = new Map();
+  let entryStarsInfo = null; // { eid } 取得に必要な情報。notBookmarked等ではnull
+  let entryStarsRequested = false;
+  let entryStarsSeq = 0; // 記事遷移後に古い応答で描画しないための世代番号
 
   // jsonliteのtimestamp("yyyy/MM/dd HH:mm"、JST)をmsに変換する。解釈できなければ null。
   function parseBookmarkTimestamp(ts) {
@@ -882,6 +888,18 @@
     });
   }
 
+  // richレイアウトの時だけ、表示中のコメントのスター数を(未取得なら)取得して描画し直す。
+  async function ensureStarCounts() {
+    if (commentLayout !== 'rich' || entryStarsRequested || !entryStarsInfo || !entryStarsInfo.eid) return;
+    if (entryVisibleComments.length === 0) return;
+    entryStarsRequested = true;
+    const seq = entryStarsSeq;
+    const counts = await HatenaAPI.getStarCounts(entryStarsInfo.eid, entryVisibleComments);
+    if (seq !== entryStarsSeq || counts.size === 0) return;
+    entryStarCounts = counts;
+    if (commentLayout === 'rich') renderCommentList();
+  }
+
   function renderCommentList() {
     commentList.className = commentLayout === 'rich' ? 'comment-list comment-list--rich' : 'comment-list';
     const emptyMessage = entryCommentsHiddenByOwner
@@ -928,6 +946,7 @@
     saveCommentLayout(commentLayout);
     updateCommentLayoutToggleUI();
     renderCommentList();
+    ensureStarCounts();
   });
 
   const ENTRY_FILTER_BTN_DEFAULT_LABEL = 'このページをフィルタに登録する';
@@ -1031,6 +1050,10 @@
     entryOfflineNote = '';
     entryCommentsHiddenByOwner = false;
     entryPrevVisitTime = null;
+    entryStarCounts = new Map();
+    entryStarsInfo = null;
+    entryStarsRequested = false;
+    entryStarsSeq++;
     entryHeader.innerHTML = '';
     entryDescription.textContent = '';
     updateCommentLayoutToggleUI();
@@ -1107,6 +1130,8 @@
       entryOfflineNote = info.fromOfflineCache ? '(オフラインのため前回取得時点の内容を表示中) ' : '';
       applyEntrySearchAndRender();
       afterPaint(() => perfMark('comments-painted'));
+      entryStarsInfo = { eid: info.eid || (/\/entry\/(\d+)$/.exec(info.entryUrl || '') || [])[1] || null };
+      ensureStarCounts();
       if (info.fromPrefetch) perfMark('prefetch-hit');
       schedulePrefetchNeighbors(url);
       // オフライン時などデータ取得に時間がかかった場合、その間に上記の慣性
@@ -1180,11 +1205,13 @@
       .map((t) => `<span class="comment-tag">${escapeHtml(t)}</span>`)
       .join('');
     const isNew = isNewComment(b);
+    const stars = entryStarCounts.get(HatenaAPI.starKey(b));
+    const starBadge = stars ? ` <span class="comment-stars" title="はてなスター">⭐️${stars}</span>` : '';
     return `
       <li class="comment--rich${commentStateClass(b)}">
         <img class="comment-icon" src="${escapeHtml(iconUrl)}" alt="" loading="lazy" width="32" height="32">
         <div class="comment-rich-body">
-          <div class="comment-rich-line1">${isNew ? NEW_COMMENT_BADGE : ''}${user} ${linkifyComment(b.comment)}</div>
+          <div class="comment-rich-line1">${isNew ? NEW_COMMENT_BADGE : ''}${user} ${linkifyComment(b.comment)}${starBadge}</div>
           <div class="comment-rich-line2">
             <span class="comment-date">${escapeHtml(date)}</span>
             ${tags ? `<span class="comment-tags">${tags}</span>` : ''}
