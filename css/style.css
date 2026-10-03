@@ -163,25 +163,34 @@ main {
   margin: 0;
 }
 
-#entry-back-bottom {
-  display: block;
-  width: 100%;
-  margin-top: 16px;
-  padding: 14px 8px;
-  font-size: 1rem;
-  text-align: center;
+/* 記事ページの前後移動・一覧へ戻るボタンは、ヘッダーと同様に画面下部へ固定する。
+   固定バーに隠れないよう、記事ページ本体の下に同じ高さ分の余白を確保する。 */
+#view-entry {
+  padding-bottom: calc(64px + env(safe-area-inset-bottom));
 }
-
-.entry-nav-buttons {
+.entry-nav-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.entry-nav-bar-inner {
   display: flex;
   gap: 8px;
-  margin-top: 16px;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 8px 10px;
 }
 .entry-nav-btn {
-  flex: 1 1 50%;
-  padding: 14px 8px;
-  font-size: 1rem;
+  flex: 1 1 0;
+  padding: 12px 4px;
+  font-size: 0.9rem;
   text-align: center;
+  white-space: nowrap;
 }
 .entry-nav-btn:disabled {
   opacity: 0.4;
