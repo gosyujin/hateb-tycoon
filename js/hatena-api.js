@@ -224,7 +224,13 @@
     // コメント内のリンクやURL直接入力では普通に起こり得るため、「未ブックマーク」として
     // 扱う。存在しない/未取得のURLなので、オフライン用キャッシュには保存しない。
     if (data == null) {
-      return { ...normalizeEntryInfo({}, pageUrl), title: pageUrl, notBookmarked: true };
+      // eidが無いため、URLから直接ブックマークページのURLを組み立てる
+      // (httpsは /entry/s/host/path、httpは /entry/host/path)。
+      const m = /^(https?):\/\/(.+)$/.exec(pageUrl);
+      const entryUrl = m
+        ? `https://b.hatena.ne.jp/entry/${m[1] === 'https' ? 's/' : ''}${m[2]}`
+        : null;
+      return { ...normalizeEntryInfo({}, pageUrl), title: pageUrl, entryUrl, notBookmarked: true };
     }
     const info = normalizeEntryInfo(data, pageUrl);
     cacheEntryInfo(pageUrl, info);
