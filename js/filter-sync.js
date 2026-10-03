@@ -19,6 +19,8 @@
   const fileName = (kind) => `tycoon-filter-${kind}.csv`;
   // ユーザー単位で絞るホストの追加分(mode,host)。Gist側を直接編集する取り込み専用ファイルで、書き戻さない
   const SCOPE_HOSTS_FILE = 'tycoon-scope-hosts.csv';
+  // 「Gistを作成」時の初期内容(コード内の初期値の一部とnote.com)。以降はGist側を直接編集する
+  const SCOPE_HOSTS_INITIAL = 'mode,host\npath,zenn.dev\npath,note.com\nsubdomain,hatenablog.com\n';
 
   // { gistId, etag, lastSyncAt, lastError }
   let state = loadState();
@@ -134,6 +136,7 @@
   async function createGist() {
     const files = {};
     for (const kind of Filters.KINDS) files[fileName(kind)] = localCsv(kind);
+    files[SCOPE_HOSTS_FILE] = SCOPE_HOSTS_INITIAL;
     const id = await Gist.create('hateb-tycoon filters', files);
     setState({ gistId: id, etag: '', lastError: '' });
     return id;
