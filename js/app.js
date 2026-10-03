@@ -446,19 +446,18 @@
     navigate('/', params);
   });
 
-  // 一覧ページの横スワイプでカテゴリータブを前後に移動する。touchイベントは
-  // タッチ対応デバイスでのみ発火するため、マウス操作のデスクトップ表示には
-  // 影響しない。縦スクロールを妨げないようpreventDefaultはせず、指を離した
-  // 時点で「横方向優先」かつ「一定距離以上」動いていた場合のみジャッジする
-  // (タップやスクロールを誤ってスワイプ扱いしないため)。
-  (function setupCategorySwipe() {
+  // 横スワイプを検出してonSwipe(deltaX)を呼ぶ。touchイベントはタッチ対応デバイスでのみ
+  // 発火するため、マウス操作のデスクトップ表示には影響しない。縦スクロールを妨げないよう
+  // preventDefaultはせず、指を離した時点で「横方向優先」かつ「一定距離以上」動いていた
+  // 場合のみジャッジする(タップやスクロールを誤ってスワイプ扱いしないため)。
+  function addSwipeListener(el, onSwipe) {
     const SWIPE_MIN_X = 60;
     const SWIPE_MAX_OFF_AXIS_Y = 60;
     let startX = 0;
     let startY = 0;
     let tracking = false;
 
-    listView.addEventListener(
+    el.addEventListener(
       'touchstart',
       (e) => {
         tracking = e.touches.length === 1;
@@ -469,7 +468,7 @@
       { passive: true }
     );
 
-    listView.addEventListener(
+    el.addEventListener(
       'touchend',
       (e) => {
         if (!tracking) return;
@@ -480,21 +479,25 @@
         const deltaY = touch.clientY - startY;
         if (Math.abs(deltaX) < SWIPE_MIN_X || Math.abs(deltaY) > SWIPE_MAX_OFF_AXIS_Y) return;
         if (Math.abs(deltaX) <= Math.abs(deltaY)) return;
-
-        const categories = HatenaAPI.CATEGORIES;
-        const index = categories.findIndex((c) => c.key === currentCategory);
-        if (index === -1) return;
-        // 左スワイプ(指を左へ)で次のカテゴリー、右スワイプで前のカテゴリー。
-        // 端のカテゴリーではそれ以上折り返さない。
-        const nextIndex = deltaX < 0 ? index + 1 : index - 1;
-        if (nextIndex < 0 || nextIndex >= categories.length) return;
-        const params = new URLSearchParams();
-        params.set('cat', categories[nextIndex].key);
-        navigate('/', params);
+        onSwipe(deltaX);
       },
       { passive: true }
     );
-  })();
+  }
+
+  // 一覧ページの横スワイプでカテゴリータブを前後に移動する。
+  // 左スワイプ(指を左へ)で次のカテゴリー、右スワイプで前のカテゴリー。
+  // 端のカテゴリーではそれ以上折り返さない。
+  addSwipeListener(listView, (deltaX) => {
+    const categories = HatenaAPI.CATEGORIES;
+    const index = categories.findIndex((c) => c.key === currentCategory);
+    if (index === -1) return;
+    const nextIndex = deltaX < 0 ? index + 1 : index - 1;
+    if (nextIndex < 0 || nextIndex >= categories.length) return;
+    const params = new URLSearchParams();
+    params.set('cat', categories[nextIndex].key);
+    navigate('/', params);
+  });
 
   function disconnectScrollObserver() {
     if (scrollObserver) {
@@ -1821,6 +1824,12 @@
 
   entryPrevBtn.addEventListener('click', () => goToRelativeEntry(-1));
   entryNextBtn.addEventListener('click', () => goToRelativeEntry(1));
+
+  // 記事ページも一覧と同じ向き: 左スワイプで次の記事、右スワイプで前の記事。
+  // 端の記事では何もしない(goToRelativeEntryがfalseを返す)。
+  addSwipeListener(entryView, (deltaX) => {
+    goToRelativeEntry(deltaX < 0 ? 1 : -1);
+  });
 
   window.addEventListener('keydown', (e) => {
     if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
