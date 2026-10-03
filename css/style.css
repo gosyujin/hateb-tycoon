@@ -447,6 +447,9 @@ main {
   color: var(--color-accent-dark);
   text-decoration: underline;
 }
+.card-domain.entry-meta-domain {
+  font-size: inherit;
+}
 
 /* ---- 一覧ページ plain表示(1記事1行) ---- */
 .entry-grid--plain {

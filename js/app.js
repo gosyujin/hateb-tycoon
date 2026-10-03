@@ -766,7 +766,7 @@
               <a class="card-count-link${countTierClass(item.count)}${noCommentClass}" href="${href}"${countTitle}>${item.count} users →</a>
             </span>
           </div>
-          <button type="button" class="card-domain" data-domain="${escapeHtml(item.domain)}">${escapeHtml(item.domain)}</button>
+          <button type="button" class="card-domain" data-domain="${escapeHtml(item.domain)}" data-url="${escapeHtml(item.url)}">${escapeHtml(item.domain)}</button>
           <a class="card-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
         </div>
       </article>`;
@@ -797,7 +797,7 @@
       <li class="entry-row${visitedClass}${updatedClass}"${isUpdated ? ' title="既読ですが、ブックマーク数が増えました"' : ''}>
         <button type="button" class="card-close-btn entry-row-close" data-url="${escapeHtml(item.url)}" title="このページを非表示にする" aria-label="このページを非表示にする">×</button>
         <span class="entry-row-time">${time}</span>
-        <button type="button" class="card-domain entry-row-domain" data-domain="${escapeHtml(item.domain)}">${escapeHtml(item.domain)}</button>
+        <button type="button" class="card-domain entry-row-domain" data-domain="${escapeHtml(item.domain)}" data-url="${escapeHtml(item.url)}">${escapeHtml(item.domain)}</button>
         <span class="entry-row-main">
           <a class="entry-row-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
           <a class="card-count-link entry-row-count${countTierClass(item.count)}${noCommentClass}" href="${href}"${countTitle}>${item.count} users →</a>
@@ -1008,7 +1008,7 @@
     entryHeader.innerHTML = `
         <a class="entry-title" href="${escapeHtml(info.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(info.title)}</a>
         <div class="entry-meta">
-          <span>${escapeHtml(info.domain)}</span>
+          <button type="button" class="card-domain entry-meta-domain" data-domain="${escapeHtml(info.domain)}" data-url="${escapeHtml(info.url)}">${escapeHtml(info.domain)}</button>
           <span>${info.count} users</span>
           ${info.entryUrl ? `<button type="button" class="entry-hatena-link">はてなブックマークページ →</button>` : ''}
         </div>`;
@@ -1458,6 +1458,16 @@
     if (e.target === settingsModal) closeSettings();
   });
 
+  // ドメイン全体を巻き込むと困るホスト(zenn.dev等)は、記事URLからユーザー単位の
+  // 前方一致ルールに絞る。該当しないホストは従来どおりドメインでミュートする。
+  function domainMutePreset(btn) {
+    const scope = btn.dataset.url ? Filters.scopeRuleForUrl(btn.dataset.url) : null;
+    if (scope && scope.type === 'urlprefix') {
+      return { kind: 'mute', type: 'urlprefix', value: scope.value };
+    }
+    return { kind: 'mute', type: 'domain', value: btn.dataset.domain };
+  }
+
   entryGrid.addEventListener('click', (e) => {
     const closeBtn = e.target.closest('.card-close-btn');
     if (closeBtn) {
@@ -1467,7 +1477,13 @@
     }
     const domainBtn = e.target.closest('.card-domain');
     if (!domainBtn) return;
-    openSettings({ kind: 'mute', type: 'domain', value: domainBtn.dataset.domain });
+    openSettings(domainMutePreset(domainBtn));
+  });
+
+  entryHeader.addEventListener('click', (e) => {
+    const domainBtn = e.target.closest('.card-domain');
+    if (!domainBtn) return;
+    openSettings(domainMutePreset(domainBtn));
   });
 
   commentList.addEventListener('click', (e) => {
