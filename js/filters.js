@@ -155,7 +155,7 @@
   // 登録できるよう、URLから登録すべきルールを決める。ホスト全体を巻き込むと別ユーザーまで
   // 消えてしまうため、ユーザー単位だと分かっているホストだけ範囲を広げ、それ以外は
   // 従来どおりその記事単独(url)にとどめる(許可リスト方式)。
-  const SUBDOMAIN_PER_USER_SUFFIXES = [
+  const DEFAULT_SUBDOMAIN_PER_USER_SUFFIXES = [
     'hatenablog.com',
     'hatenablog.jp',
     'hatenablog.org',
@@ -163,7 +163,39 @@
     'hatenadiary.com',
     'hatenadiary.jp',
   ];
-  const PATH_USER_HOSTS = ['zenn.dev'];
+  const DEFAULT_PATH_USER_HOSTS = ['zenn.dev'];
+
+  // 上の初期値に加えて、Gistの tycoon-scope-hosts.csv(mode,host)から取り込んだホストを使う。
+  // 取り込み結果はlocalStorageにキャッシュし、scopeRuleForUrlは同期関数のままキャッシュを読む。
+  const SCOPE_HOSTS_KEY = 'hateb-tycoon:scopeHosts';
+  const SCOPE_MODES = ['path', 'subdomain'];
+
+  function loadExtraScopeHosts() {
+    try {
+      const parsed = JSON.parse(localStorage.getItem(SCOPE_HOSTS_KEY) || '{}');
+      const pick = (v) => (Array.isArray(v) ? v.filter((h) => typeof h === 'string' && h) : []);
+      return { path: pick(parsed.path), subdomain: pick(parsed.subdomain) };
+    } catch (e) {
+      return { path: [], subdomain: [] };
+    }
+  }
+
+  // CSV本文(mode,host)を解析してキャッシュする。不正な行は無視して取り込めた行だけ使う。
+  // 空/ヘッダーのみの場合は追加ホスト無し(キャッシュを空にする)。
+  function importScopeHosts(text) {
+    const next = { path: [], subdomain: [] };
+    for (const line of String(text || '').replace(/\r\n/g, '\n').split('\n')) {
+      const [mode, host] = line.split(',').map((v) => (v || '').trim().toLowerCase());
+      if (!SCOPE_MODES.includes(mode) || !host || host.includes('/')) continue;
+      if (!next[mode].includes(host)) next[mode].push(host);
+    }
+    try {
+      localStorage.setItem(SCOPE_HOSTS_KEY, JSON.stringify(next));
+    } catch (e) {
+      // localStorageが使えない環境では初期値のみで動く
+    }
+    return next.path.length + next.subdomain.length;
+  }
 
   function scopeRuleForUrl(url) {
     let u;
@@ -173,10 +205,13 @@
       return { type: 'url', value: url };
     }
     const host = u.hostname.toLowerCase();
-    if (SUBDOMAIN_PER_USER_SUFFIXES.some((s) => host.endsWith(`.${s}`))) {
+    const extra = loadExtraScopeHosts();
+    const suffixes = [...DEFAULT_SUBDOMAIN_PER_USER_SUFFIXES, ...extra.subdomain];
+    const pathHosts = [...DEFAULT_PATH_USER_HOSTS, ...extra.path];
+    if (suffixes.some((s) => host.endsWith(`.${s}`))) {
       return { type: 'urlprefix', value: `${u.protocol}//${u.host}/` };
     }
-    if (PATH_USER_HOSTS.includes(host)) {
+    if (pathHosts.includes(host)) {
       const segs = u.pathname.split('/').filter(Boolean);
       // zenn.dev/p/{publication}/... はパブリケーション単位なので2セグメントまで
       const n = segs[0] === 'p' ? 2 : 1;
@@ -213,5 +248,6 @@
     sortRules,
     isHidden,
     scopeRuleForUrl,
+    importScopeHosts,
   };
 })(window);

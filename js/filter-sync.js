@@ -17,6 +17,8 @@
   const STORAGE_KEY = 'hateb-tycoon:filterSync';
   // feed-tycoonなど他アプリと同じファイルを共有するため、アプリ名は含めない
   const fileName = (kind) => `tycoon-filter-${kind}.csv`;
+  // ユーザー単位で絞るホストの追加分(mode,host)。Gist側を直接編集する取り込み専用ファイルで、書き戻さない
+  const SCOPE_HOSTS_FILE = 'tycoon-scope-hosts.csv';
 
   // { gistId, etag, lastSyncAt, lastError }
   let state = loadState();
@@ -58,6 +60,7 @@
   // 戻り値: { added, ignored, errors, texts, invalid }(invalidは不正CSVだった種類。上書きしない)
   async function mergeFromRemote(json) {
     const result = { added: 0, ignored: 0, errors: [], texts: {}, invalid: new Set(), foreign: {} };
+    Filters.importScopeHosts(await Gist.fileText(json, SCOPE_HOSTS_FILE));
     for (const kind of Filters.KINDS) {
       const text = await Gist.fileText(json, fileName(kind));
       result.texts[kind] = text;
