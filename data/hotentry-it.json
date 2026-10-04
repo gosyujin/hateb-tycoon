@@ -1,42 +1,68 @@
 [
   {
+    "title": "「OpenAIの文化は壊れている」──安全性報告書を統括した従業員が退社し、寄稿",
+    "url": "https://www.itmedia.co.jp/news/article/2610/04/2000001986/",
+    "domain": "www.itmedia.co.jp",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/04/2000001986/",
+    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/04/2000001986/10008354/2048",
+    "description": "米OpenAIで主要モデルのリリースごとに公開する安全性報告書の執筆を統括していたデビッド・ロビンソン氏は10月3日（現地時間）、米The Atlanticに「I Quit OpenAI Because Its Culture Is Broken」（OpenAIの文化が壊れているから辞めた）と題した記事を寄稿し、今週同社を退社したことを明らかにした。 同氏は、AI企業...",
+    "hatenaDate": "2026-10-03T23:32:18Z",
+    "users": [],
+    "firstSeenAt": "2026-10-04T10:15:13.148356+09:00",
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
+  },
+  {
+    "title": "自然言語で操作し、結果を検証するテストフレームワーク e2e",
+    "url": "https://azukiazusa.dev/blog/e2e-ai-testing/",
+    "domain": "azukiazusa.dev",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/azukiazusa.dev/blog/e2e-ai-testing/",
+    "screenshot": "https://ogp.azukiazusa.dev/blog/ogp/e2e-ai-testing.png",
+    "description": "e2e は自然言語による操作と、要素を指定した操作・アサーションを組み合わせられるテストフレームワークです。この記事では Todo アプリを対象に、AI に操作を任せて結果をコードで検証するテストを作成します。 E2E（End-to-End）テストでは、ユーザーがアプリケーションを操作する一連の流れを検証します。Playwright...",
+    "hatenaDate": "2026-10-03T14:23:54Z",
+    "users": [],
+    "firstSeenAt": "2026-10-04T10:15:13.148356+09:00",
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
+  },
+  {
     "title": "地面に落としたネジをGrokに探してもらったらすぐ見つけてくれた話…画像処理におけるAIは強すぎる",
     "url": "https://togetter.com/li/2753759",
     "domain": "togetter.com",
-    "count": 44,
+    "count": 49,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2753759",
     "screenshot": "https://s.tgstc.com/ogp3/6f269488fdb5de5a60aa6e5fb87f1a48-1200x630.jpeg",
     "description": "Togetter編集部 X（旧Twitter）に日々流れる情報の中から、編集部がさまざまなポストを選び出し、わかりやすい形でお届けすることを大切にしています。新たな視点や世間の反応を添えることで、読者の皆様にとって安心・安全で価値あるコンテンツとすることを目指しています。詳しくは編集方針をご覧ください。 あわせて...",
     "hatenaDate": "2026-10-03T21:01:32Z",
     "users": [],
     "firstSeenAt": "2026-10-04T08:30:15.318728+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "Microsoft Digital Defense Report 2026 | Microsoft",
     "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/cybersecurity/reports/microsoft-digital-defense-report/",
     "domain": "www.microsoft.com",
-    "count": 23,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.microsoft.com/en-us/corporate-responsibility/topics/cybersecurity/reports/microsoft-digital-defense-report/",
     "screenshot": "https://www.microsoft.com/en-us/corporate-responsibility/wp-content/uploads/2026/09/bcbfcc53c7f9bdb8fd342f56d3b42de0c071f43b-1.jpg",
     "description": "In an era of interconnected risk, attackers are increasingly exploiting the trusted identities, systems, relationships, and services organizations rely on most. The 2026 Microsoft Digital Defense Report reveals a fundamental shift in cybersecurity with the interconnected digital ecosystem and the...",
     "hatenaDate": "2026-10-03T08:35:42Z",
     "users": [],
     "firstSeenAt": "2026-10-04T07:15:13.462794+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "高市首相がAppleに要請――「自殺防止機能の搭載を」　生成AIへの相談増加を受け",
     "url": "https://www.itmedia.co.jp/mobile/articles/2610/03/news015.html",
     "domain": "www.itmedia.co.jp",
-    "count": 50,
+    "count": 56,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2610/03/news015.html",
     "screenshot": "https://image.itmedia.co.jp/mobile/articles/2610/03/cover_news015.jpg",
     "description": "「Appleティム・クック前CEOからお手紙をいただきました」――10月2日、高市早苗首相はXを通じて、Appleとの間で交わされた子どもの安全対策や自殺防止に向けた取り組みに関するやりとりについて公開した。 高市氏は若者の間で生成AIへの相談が増加している現状や海外での深刻な事例を挙げ、デバイスに自殺防止機能などの...",
     "hatenaDate": "2026-10-03T09:12:10Z",
     "users": [],
     "firstSeenAt": "2026-10-04T07:15:13.462794+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "AI増田判定、便利すぎて本文を読まなくて済むようになってる",
@@ -49,33 +75,33 @@
     "hatenaDate": "2026-10-03T06:30:05Z",
     "users": [],
     "firstSeenAt": "2026-10-04T02:30:13.455177+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "CSS の margin-trim でコンテナーの端の余白を取り除く",
     "url": "https://azukiazusa.dev/blog/css-margin-trim/",
     "domain": "azukiazusa.dev",
-    "count": 23,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/azukiazusa.dev/blog/css-margin-trim/",
     "screenshot": "https://ogp.azukiazusa.dev/blog/ogp/css-margin-trim.png",
     "description": "2026 年 9 月 27 日時点で、margin-trim はすべての主要ブラウザーで利用できる機能ではありません。Safari 16.4 で導入されていますが、Chromium や Firefox では未対応です。 カードの上下に余分な余白ができる まずは、margin-trim を使わない場合の余白を確認しましょう。次のカードには、見出しと 2 つの段落があり...",
     "hatenaDate": "2026-10-02T15:01:33Z",
     "users": [],
     "firstSeenAt": "2026-10-04T02:00:13.135153+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "情報処理安全確保支援士の資格登録を削除する - misc.log",
     "url": "https://www.backyrd.net/entry/20210812/1628735525",
     "domain": "www.backyrd.net",
-    "count": 32,
+    "count": 35,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.backyrd.net/entry/20210812/1628735525",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/f0050e8b6779fa32461d348b31b788bba316c0ef/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ff%2Ffrontline%2F20210812%2F20210812110950.png",
     "description": "背景 資格削除手続き なにがあったのか セキスペの資格、結果的にどうだったか 関連エントリー 背景 2009年の12月に、情報セキュリティスペシャリストの試験に合格し、2018年に現在の会社で「会社の指示により」情報処理安全確保支援士の資格取得費用を出してもらって資格を維持していましたが、以下の理由で資格の維持...",
     "hatenaDate": "2021-09-28T08:23:37Z",
     "users": [],
     "firstSeenAt": "2026-10-04T01:43:21.453240+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "Changes to Gemini model access and limits - Gemini Apps Help",
@@ -88,7 +114,7 @@
     "hatenaDate": "2026-05-19T08:36:45Z",
     "users": [],
     "firstSeenAt": "2026-10-04T01:15:17.550538+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "「Claude」3倍高速化の裏で、Anthropic開発者が「あえてしなかったこと」：899th Lap",
@@ -101,20 +127,20 @@
     "hatenaDate": "2026-10-02T09:38:21Z",
     "users": [],
     "firstSeenAt": "2026-10-04T00:30:12.908602+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "Book of Shapes",
     "url": "https://bookofshapes.com/",
     "domain": "bookofshapes.com",
-    "count": 21,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/bookofshapes.com/",
     "screenshot": "https://bookofshapes.com/og-default.png",
     "description": "Book of Shapes A collection of minimal, generative and customizable SVG-patterns. Created by Nikolaj Sokolowski. grid (25)flow (18)radial (18)noise (18)isometric (13)distortion (10)organic (9)physics (5)",
     "hatenaDate": "2026-10-01T11:23:45Z",
     "users": [],
     "firstSeenAt": "2026-10-04T00:15:12.440508+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "東京が3億円で電気をかき集めた夏、カリフォルニアは家の蓄電池を束ねて乗り切った | ギズモード・ジャパン",
@@ -127,7 +153,7 @@
     "hatenaDate": "2026-10-03T09:35:46Z",
     "users": [],
     "firstSeenAt": "2026-10-03T23:30:14.537363+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "MacBook Pro（OLED）や新型iPad miniなど複数の新製品を今月発表？ - iPhone Mania",
@@ -140,7 +166,7 @@
     "hatenaDate": "2026-10-02T23:43:13Z",
     "users": [],
     "firstSeenAt": "2026-10-03T23:00:13.858256+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "実務において敵対的レビューはどの程度有効なのか",
@@ -153,33 +179,33 @@
     "hatenaDate": "2026-10-02T18:40:46Z",
     "users": [],
     "firstSeenAt": "2026-10-03T23:00:13.858256+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "バグの発見と修正を支援するオープンソースの AI ハーネス、Mantis のスタートガイド | Google Cloud 公式ブログ",
     "url": "https://cloud.google.com/blog/ja/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs",
     "domain": "cloud.google.com",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/cloud.google.com/blog/ja/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs",
     "screenshot": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Mantis.max-2500x2500.jpg",
     "description": "Yulong ZhangSenior Staff Security Engineer, Google ※この投稿は米国時間 2026 年 9 月 3 日に、Google Cloud blog に投稿されたものの抄訳です。 AI モデルは、人間の手をほとんど、あるいはまったく介さずに脆弱性を発見して悪用する能力を持っていることが判明しています。防御側が AI を活用して優位性を確保でき...",
     "hatenaDate": "2026-10-02T09:33:46Z",
     "users": [],
     "firstSeenAt": "2026-10-03T23:00:13.858256+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "AppleがAIエージェントのリスクを鑑みMacのフルディスクアクセスに制限を設ける",
     "url": "https://gigazine.net/news/20261003-apple-limit-mac-full-disk-access-ai-agents-risk/",
     "domain": "gigazine.net",
-    "count": 17,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261003-apple-limit-mac-full-disk-access-ai-agents-risk/",
     "screenshot": "https://i.gzn.jp/img/2026/10/03/apple-limit-mac-full-disk-access-ai-agents-risk/00_m.jpg",
     "description": "現地時間の2026年10月2日、AppleはAIエージェントがもたらすリスクに対応するため、macOSにおけるフルディスクアクセスに新たな制限を導入すると発表しました。 Updates to Full Disk Access in macOS - Latest News - Apple Developer https://developer.apple.com/news/?id=p6zjojqw Apple says it's tightening macOS...",
     "hatenaDate": "2026-10-03T02:17:15Z",
     "users": [],
     "firstSeenAt": "2026-10-03T22:30:12.586159+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "ドコモがほぼ全ての料金プランを値上げ　それよりも端末の値上げが気になるこの頃",
@@ -192,33 +218,33 @@
     "hatenaDate": "2026-10-03T04:46:04Z",
     "users": [],
     "firstSeenAt": "2026-10-03T22:30:12.586159+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "ゲームを高解像度化するNVIDIAの「DLSS 5」をVulkanで再実装した「OpenDLSS-NR」、なんとオリジナルとビット単位で完全に一致",
     "url": "https://gigazine.net/news/20261002-opendlss-nr/",
     "domain": "gigazine.net",
-    "count": 12,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261002-opendlss-nr/",
     "screenshot": "https://i.gzn.jp/img/2026/10/02/opendlss-nr/00.jpg",
     "description": "NVIDIAが発表したAIによるアップスケーリング技術「DLSS 5」を「Vulkan」で再実装するプロジェクト「OpenDLSS-NR」が登場しました。 GitHub - maanHimself/OpenDLSS-NR: A Vulkan reimplementation of NVIDIA's DLSS 5 Neural Rendering network, bit-exact against the original. · GitHub https://github.com/maanHims...",
     "hatenaDate": "2026-10-02T11:12:18Z",
     "users": [],
     "firstSeenAt": "2026-10-03T22:00:12.913635+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "貧乏な子どもが“稼げる大人”になる条件とは？　米ハーバード大などがFacebook7000万アカウント超から分析　2022年にNature掲載",
     "url": "https://www.itmedia.co.jp/news/article/2610/03/2000001935/",
     "domain": "www.itmedia.co.jp",
-    "count": 40,
+    "count": 42,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/03/2000001935/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/03/2000001935/10008177/2048",
     "description": "2019年の開始以来、多様な最新論文を取り上げている連載「Innovative Tech」。ここではその番外編として“ちょっと昔”に発表された世界中の個性的な研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同...",
     "hatenaDate": "2026-10-03T05:54:31Z",
     "users": [],
     "firstSeenAt": "2026-10-03T22:00:12.913635+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "アマゾンが新型の「Fire TV Stick 4K」、電源アダプター不要に",
@@ -231,20 +257,20 @@
     "hatenaDate": "2026-10-02T09:00:22Z",
     "users": [],
     "firstSeenAt": "2026-10-03T21:45:14.136793+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "「決め方」の渡し方 / How to hand over the \"decision-making process\"",
     "url": "https://speakerdeck.com/pauli/how-to-hand-over-the-decision-making-process",
     "domain": "speakerdeck.com",
-    "count": 82,
+    "count": 84,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/pauli/how-to-hand-over-the-decision-making-process",
     "screenshot": "https://files.speakerdeck.com/presentations/fcd8323c5fc24005a3f3257386682bd2/slide_0.jpg?39026644",
     "description": "【Startup in Agile #7 】ボトルネックは人の意思決定？「決め方」の変遷教えて https://startup-in-agile.connpass.com/event/386112/",
     "hatenaDate": "2026-04-09T04:25:23Z",
     "users": [],
     "firstSeenAt": "2026-10-03T21:30:16.290507+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "CEDEC 2025 『ゲームにおけるリアルタイム通信への QUIC導入事例の紹介』",
@@ -257,7 +283,7 @@
     "hatenaDate": "2025-08-04T03:36:08Z",
     "users": [],
     "firstSeenAt": "2026-10-03T20:30:14.020493+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "Jev-IDS: System One Models for Network Intrusion Detection",
@@ -270,7 +296,7 @@
     "hatenaDate": "2026-10-02T23:19:07Z",
     "users": [],
     "firstSeenAt": "2026-10-03T20:15:13.378788+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "無料メールアプリ「Thunderbird for iOS」の詳細がついに判明、iPhone・iPad向けにアカウント自動設定やバックグラウンド同期を開発中で数カ月以内のコミュニティテストを目指す",
@@ -283,20 +309,20 @@
     "hatenaDate": "2026-10-02T11:39:35Z",
     "users": [],
     "firstSeenAt": "2026-10-03T20:15:13.378788+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "ＡＩの社会実装に関する情報提供のお願い : 規制改革 - 内閣府",
     "url": "https://www8.cao.go.jp/kisei-kaikaku/kisei/forms/261002_forms.html",
     "domain": "www8.cao.go.jp",
-    "count": 67,
+    "count": 69,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www8.cao.go.jp/kisei-kaikaku/kisei/forms/261002_forms.html",
     "screenshot": "https://www.cao.go.jp/common4/img/ogp_image001.jpg",
     "description": "内閣府規制改革推進室 内閣府科学技術・イノベーション推進事務局人工知能政策推進室 デジタル庁戦略・組織グループ 経済産業省経済産業政策局産業創造課 令和８年７月14日に閣議決定された「人工知能基本計画」では、単にＡＩを導入することにとどまらず、意思決定や業務の進め方を根底から見直すＡＸに率先して取り組...",
     "hatenaDate": "2026-10-02T23:40:34Z",
     "users": [],
     "firstSeenAt": "2026-10-03T19:00:13.812575+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "2026 年 10 月前半の LLM 利用状況",
@@ -309,7 +335,7 @@
     "hatenaDate": "2026-10-03T08:13:44Z",
     "users": [],
     "firstSeenAt": "2026-10-03T19:00:13.812575+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "鉄管スロープの鑑賞 - ぬかよろこび通信Q",
@@ -348,7 +374,7 @@
     "hatenaDate": "2026-10-03T03:06:02Z",
     "users": [],
     "firstSeenAt": "2026-10-03T18:15:13.297456+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "ついに時代が来る？--「Linux」がデスクトップの主役になる5つの理由",
@@ -387,7 +413,7 @@
     "hatenaDate": "2026-10-01T04:08:11Z",
     "users": [],
     "firstSeenAt": "2026-10-03T17:00:13.262562+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "無料でカスタマイズ可能SVGパターンをいろいろ作成できる「Book of Shapes」",
@@ -413,20 +439,20 @@
     "hatenaDate": "2026-10-03T03:45:48Z",
     "users": [],
     "firstSeenAt": "2026-10-03T15:15:13.884292+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "「アバハウス」全顧客の情報漏えいか　会員・受注DBに不正アクセス　「不審な返金メール届いた」報告で判明",
     "url": "https://www.itmedia.co.jp/news/article/2610/03/2000001981/",
     "domain": "www.itmedia.co.jp",
-    "count": 90,
+    "count": 91,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/03/2000001981/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/03/2000001981/10008335/2048",
     "description": "ファッションブランド「アバハウス」などを展開するアバハウスインターナショナルは10月2日、第三者による社内システムへの不正アクセスで、顧客の個人情報の一部が漏えいした可能性があると発表した。 データベース全体に不正にアクセスされた可能性があり、会員情報を預かっているすべての顧客が対象になるおそれがあ...",
     "hatenaDate": "2026-10-03T00:45:23Z",
     "users": [],
     "firstSeenAt": "2026-10-03T15:00:14.260504+09:00",
-    "lastSeenAt": "2026-10-04T10:00:14.920062+09:00"
+    "lastSeenAt": "2026-10-04T10:15:13.148356+09:00"
   },
   {
     "title": "知り合いがUIデザインの会社に勤めているが、AIを活用する事に決まり、22人のうち18人を解雇することに「社長、経理、営業、AI使う人の4人ぐらいしか残らないってこと？」",
@@ -3872,31 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-09-30T15:45:09.858842+09:00",
     "lastSeenAt": "2026-10-01T06:15:14.544503+09:00"
-  },
-  {
-    "title": "楽天モバイルへのauローミング、10月からのエリアマップ公開",
-    "url": "https://k-tai.watch.impress.co.jp/docs/news/2144337.html",
-    "domain": "k-tai.watch.impress.co.jp",
-    "count": 6,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2144337.html",
-    "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2144/337/08.jpg",
-    "description": null,
-    "hatenaDate": "2026-09-30T02:27:22Z",
-    "users": [],
-    "firstSeenAt": "2026-09-30T15:45:09.858842+09:00",
-    "lastSeenAt": "2026-09-30T16:45:13.135001+09:00"
-  },
-  {
-    "title": "【速報】声が「パブリシティ権」の保護対象と認める判決 津田健次郎さんの訴え退けるも東京地裁が初判断 TikTok運営会社に生成AI動画の削除求めた訴訟 | TBS NEWS DIG",
-    "url": "https://newsdig.tbs.co.jp/articles/-/2977135",
-    "domain": "newsdig.tbs.co.jp",
-    "count": 15,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/newsdig.tbs.co.jp/articles/-/2977135",
-    "screenshot": "https://newsdig.ismcdn.jp/mwimgs/e/1/1200w/img_e124759c3ed5aecee64e889fdc1b4275571786.jpg",
-    "description": "生成AIで自身の声を無断で模倣した動画が公開されているとして、人気声優の津田健次郎さんが、動画共有アプリ「TikTok」の運営会社に動画の削除を求めた裁判で、東京地裁は声が「パブリシティ権」の保護の対象にな…",
-    "hatenaDate": "2026-09-30T04:57:15Z",
-    "users": [],
-    "firstSeenAt": "2026-09-30T15:30:14.197340+09:00",
-    "lastSeenAt": "2026-09-30T20:00:13.666719+09:00"
   }
 ]
