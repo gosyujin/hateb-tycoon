@@ -1,120 +1,133 @@
 [
   {
+    "title": "完全版 Claude Mods 入門 | Claude Codeを自由にカスタマイズする",
+    "url": "https://zenn.dev/nogu66/articles/claude-mods-complete-guide",
+    "domain": "zenn.dev",
+    "count": 8,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/nogu66/articles/claude-mods-complete-guide",
+    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--o7J82F_Y--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25AE%258C%25E5%2585%25A8%25E7%2589%2588%2520Claude%2520Mods%2520%25E5%2585%25A5%25E9%2596%2580%2520%257C%2520Claude%2520Code%25E3%2582%2592%25E8%2587%25AA%25E7%2594%25B1%25E3%2581%25AB%25E3%2582%25AB%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%259E%25E3%2582%25A4%25E3%2582%25BA%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nogu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzkxNDc4ZjlhZTUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+    "description": "noguです。 2026年10月1日、Claude CodeのClaude Modsが正式に発表されました。 これは、TypeScriptの関数を用いて、Claude Codeの機能や見た目を自由かつ安全にカスタマイズできる拡張機能の仕組みです。個人的に、この機能はかなり将来性の高い機能だと感じています。 本記事では、Claude Modsの機能について深掘りす...",
+    "hatenaDate": "2026-10-02T01:01:58Z",
+    "users": [],
+    "firstSeenAt": "2026-10-05T09:45:14.106260+09:00",
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
+  },
+  {
     "title": "Crafting Apps: open-source creative tools",
     "url": "https://getartcraft.com/apps",
     "domain": "getartcraft.com",
-    "count": 5,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/getartcraft.com/apps",
     "screenshot": "https://getartcraft.com/images/apps/og.jpg",
     "description": "Seven apps. One craft.Image editing, vector illustration, video, photography, PDFs, motion graphics and page layout. Native, open-source apps from the ArtCraft team, built in Rust and free to use.",
     "hatenaDate": "2026-10-03T13:51:35Z",
     "users": [],
     "firstSeenAt": "2026-10-05T09:30:48.197525+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "Models - Blue Archive Wiki",
     "url": "https://bluearchive.wiki/wiki/Models",
     "domain": "bluearchive.wiki",
-    "count": 4,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/bluearchive.wiki/wiki/Models",
     "screenshot": null,
     "description": "Below are the 3d character models from the game. Please note that the model viewer renders models differently from in-game, so colors can be off. You may also see other oddities. Please report issues to https://discord.gg/jSxjUDMddQ or to User talk:PetraMagna, though some of these issues may not ...",
     "hatenaDate": "2026-10-04T21:52:23Z",
     "users": [],
     "firstSeenAt": "2026-10-05T09:30:48.197525+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "AIエージェントによる通信が1700％増、Cloudflareが課金基盤を整備──ステーブルコイン決済対応 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
     "url": "https://forbesjapan.com/articles/detail/105823",
     "domain": "forbesjapan.com",
-    "count": 10,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forbesjapan.com/articles/detail/105823",
     "screenshot": "https://images.forbesjapan.com/media/article/105823/images/main_image_cbfbac142d041286389dc280feb379a103ffead9.jpeg",
     "description": "AIエージェントの急増で、ウェブの利用構造と収益モデルが変わり始めている。Cloudflare（クラウドフレア）では、AIエージェントからの1日当たりアクセス要求が過去1年間で1700％超増え、同社が処理するトラフィックの半分超を人間以外による通信が占めた。同社は、AIエージェントがウェブページやデータ、APIなどを利用...",
     "hatenaDate": "2026-10-04T18:34:21Z",
     "users": [],
     "firstSeenAt": "2026-10-05T09:15:14.298626+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "最近の不正アクセスのパターンから読む — 攻撃開始が見えない「静かな侵入」",
     "url": "https://aikido-community.jp/articles/quiet-business-app-database-access",
     "domain": "aikido-community.jp",
-    "count": 17,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/aikido-community.jp/articles/quiet-business-app-database-access",
     "screenshot": "https://aikido-community.jp/ogp/quiet-business-app-database-access.png",
     "description": "9月下旬に相次いだ日本郵便・ヤマト・佐川・セイコーマート・タイムズカー・ニッポンレンタカーの不正アクセスを並べ、被害範囲の境界と発覚のきっかけから共通する攻撃パターンを推測します。攻撃者は先に正常な利用パターンを読み、アプリの正規の経路でデータを読んでいたのではないか。...",
     "hatenaDate": "2026-10-04T23:57:28Z",
     "users": [],
     "firstSeenAt": "2026-10-05T09:15:14.298626+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "株式会社LayerXに入社しました - $shibayu36->blog;",
     "url": "https://blog.shibayu36.org/entry/2026/10/05/074417",
     "domain": "blog.shibayu36.org",
-    "count": 12,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.shibayu36.org/entry/2026/10/05/074417",
     "screenshot": "https://ogimage.blog.st-hatena.com/13208692334729907814/14945776032086251158/1791153857",
     "description": "2026/10/01から株式会社LayerXに入社しました。バクラクでAIエージェント関連の機能開発に携わっていく予定です。 layerx.co.jp bakuraku.jp 3年ほど前から@serimaさんに継続的に声をかけてもらっていて、LayerXへの温度感は少しずつ上がっていました。そこにタイミングが来たため入社を決めました。特に大きな理由は次...",
     "hatenaDate": "2026-10-04T23:13:04Z",
     "users": [],
     "firstSeenAt": "2026-10-05T09:00:16.794496+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "何これ、すごすぎる！！ PhotoshopやIllustratorをオープンソースで再構築、しかもWin、Mac、Linux、Web対応で無料",
     "url": "https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html",
     "domain": "coliss.com",
-    "count": 115,
+    "count": 168,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html",
     "screenshot": "https://coliss.com/wp-content/uploads-202604/2026100511-01@2x.png",
     "description": "これには思わず二度見、いや三度見しました！ Photoshop, Illustrator, Premiere Pro, Lightroom, Acrobat Pro, After Effects, InDesignのAdobeのアプリ7種類をAdobeのコードを一切使用せずに、完全に新しいコードを使用して各アプリの機能を忠実に再現したオープンソースのアプリを紹介します。 しかも、すべてのアプ...",
     "hatenaDate": "2026-10-04T23:05:07Z",
     "users": [],
     "firstSeenAt": "2026-10-05T08:45:14.575101+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "生成AIと進める探索的データ分析（2026.10.03 第122回Tokyo.R勉強会）",
     "url": "https://speakerdeck.com/tatamiya/seisei-ai-to-susumeru-tansakuteki-deta-bunseki-2026-10-03-dai-122-kai-tokyo-r-benkyoukai",
     "domain": "speakerdeck.com",
-    "count": 17,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/tatamiya/seisei-ai-to-susumeru-tansakuteki-deta-bunseki-2026-10-03-dai-122-kai-tokyo-r-benkyoukai",
     "screenshot": "https://files.speakerdeck.com/presentations/4655358bce3546aaa88174e793235640/slide_0.jpg?40771729",
     "description": "https://tokyor.connpass.com/event/407749/",
     "hatenaDate": "2026-10-03T14:40:05Z",
     "users": [],
     "firstSeenAt": "2026-10-05T08:15:13.098848+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "最近プロジェクトマネジメントで感じたこと - Qiita",
     "url": "https://qiita.com/shirakurak/items/ee7565d212fd3ae1adcb",
     "domain": "qiita.com",
-    "count": 42,
+    "count": 44,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/shirakurak/items/ee7565d212fd3ae1adcb",
     "screenshot": null,
     "description": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article? 最近のプロジェクトマネジメント業務を振り返って、学びの言語化をします。3つ大事だと思ったことを書きます。 この記事は、AI を使っていません（AI 使ってたら、もっとそれっぽい...",
     "hatenaDate": "2026-10-04T13:49:30Z",
     "users": [],
     "firstSeenAt": "2026-10-05T07:45:12.706593+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "JSONはシンプルで明快な仕様が魅力ですが、そんなJSONでも微妙な実装差異が生じる罠がいくつかあります。本稿はこうした機微を実装の比較を通",
     "url": "https://zenn.dev/qnighy/articles/json-ambiguity",
     "domain": "zenn.dev",
-    "count": 96,
+    "count": 97,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/qnighy/articles/json-ambiguity",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--5WbyTLwI--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:JSON%25E3%2581%25AF%25E3%2582%25B7%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AB%25E3%2581%25A7%25E6%2598%258E%25E5%25BF%25AB%25E3%2581%25AA%25E4%25BB%2595%25E6%25A7%2598%25E3%2581%258C%25E9%25AD%2585%25E5%258A%259B%25E3%2581%25A7%25E3%2581%2599%25E3%2581%258C%25E3%2580%2581%25E3%2581%259D%25E3%2582%2593%25E3%2581%25AAJSON%25E3%2581%25A7%25E3%2582%2582%25E5%25BE%25AE%25E5%25A6%2599%25E3%2581%25AA%25E5%25AE%259F%25E8%25A3%2585%25E5%25B7%25AE%25E7%2595%25B0%25E3%2581%258C%25E7%2594%259F%25E3%2581%2598%25E3%2582%258B%25E7%25BD%25A0%25E3%2581%258C%25E3%2581%2584%25E3%2581%258F%25E3%2581%25A4%25E3%2581%258B%25E3%2581%2582%25E3%2582%258A%25E3%2581%25BE%25E3%2581%2599%25E3%2580%2582%25E6%259C%25AC%25E7%25A8%25BF%25E3%2581%25AF%25E3%2581%2593...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Masaki%2520Hara%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2l3aEI4dTM5cFZyM09sWVFLcUU5Z1ozV2d3MHlsMS03cUZad0huYWc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "JSONはシンプルで明快な仕様が魅力ですが、そんなJSONでも微妙な実装差異が生じる罠がいくつかあります。本稿はこうした機微を実装の比較を通 タイトルは「JSONはシンプルで明快な仕様が魅力ですが、そんなJSONでも微妙な実装差異が生じる罠がいくつかあります。本稿はこうした機微を実装の比較を通じて明らかにします。...",
     "hatenaDate": "2026-10-04T09:27:45Z",
     "users": [],
     "firstSeenAt": "2026-10-05T02:15:13.208810+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "米Anker、小型で高性能のNanoシリーズからAVS＆PPSに対応しiPhone 18 Proの高速充電や最大65WでMacBookも充電できるUSB急速充電器「Anker Nano Charger Neo」を発売。",
@@ -127,46 +140,46 @@
     "hatenaDate": "2026-10-04T05:07:25Z",
     "users": [],
     "firstSeenAt": "2026-10-05T02:15:13.208810+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "世界中のソフトウェア開発者の実態を調べた「State of Devs 2026」公開。何歳？ 年収は？ モニタは何枚？ AIにどのくらいコードを書かせている？ 趣味は？ など集計結果",
     "url": "https://www.publickey1.jp/blog/26/state_of_devs_2026_ai.html",
     "domain": "www.publickey1.jp",
-    "count": 61,
+    "count": 63,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/state_of_devs_2026_ai.html",
     "screenshot": "https://www.publickey1.jp/2026/stateofdevops2026-01.png",
     "description": "IT関連の各種調査を行っているプロジェクトDevographicsは、世界中のソフトウェア開発者の実態などをアンケートで調査した「State of Devs 2026」の結果を公開しました。 ここでは全体の結果から興味深いところをいくつか抜粋して紹介しましょう。 約5500人が回答、最多は米国、年齢の中央値は36歳 アンケート調査は今年...",
     "hatenaDate": "2026-10-04T14:12:34Z",
     "users": [],
     "firstSeenAt": "2026-10-05T01:00:15.527338+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "Supabase、1サーバあたり数百万ものSQLiteをホストする「Turso」買収を発表。AIエージェントで加速するDB需要に対応",
     "url": "https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html",
     "domain": "www.publickey1.jp",
-    "count": 41,
+    "count": 43,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html",
     "screenshot": "https://www.publickey1.jp/2026/HTo1Om6aAAAYQKJ.jpg",
     "description": "Supabase、1サーバあたり数百万ものSQLiteをホストする「Turso」買収を発表。AIエージェントで加速するDB需要に対応 PostgreSQLをベースにしたデータベースサービス「Supabase」などを提供しているSupabaseは、SQLiteをベースとしたデータベースサービスを提供する「Turso」を買収したことを発表しました。 Turso is joi...",
     "hatenaDate": "2026-10-04T14:14:37Z",
     "users": [],
     "firstSeenAt": "2026-10-05T00:45:12.310107+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "AI時代に、次のベテランエンジニアは育つのか｜柴田 芳樹",
     "url": "https://note.com/yoshiki_shibata/n/n185f3d9e13bc",
     "domain": "note.com",
-    "count": 160,
+    "count": 167,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/yoshiki_shibata/n/n185f3d9e13bc",
     "screenshot": "https://assets.st-note.com/production/uploads/images/320303218/rectangle_large_type_2_6a45c760fed50e6f55240691ad96d555.png?fit=bounds&quality=85&width=1280",
     "description": "私は1978年4月にプログラミングを学び始めました。それから48年以上、さまざまなソフトウェア開発のプロジェクトに携わり、現在もソフトウェア開発を続けています。 この48年間で、ソフトウェア開発を取り巻く環境は大きく変わりました。 そして今、生成AIによって、また大きな変化が起きています。 しかし、今回の変化...",
     "hatenaDate": "2026-10-04T12:43:02Z",
     "users": [],
     "firstSeenAt": "2026-10-05T00:45:12.310107+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "30年かけて育てた自動耳コピ「WaoN」がiOS/Macアプリに！AI時代にあえて挑む、0倍速でも音が鳴り続ける「わおん」",
@@ -179,20 +192,20 @@
     "hatenaDate": "2026-10-04T10:17:28Z",
     "users": [],
     "firstSeenAt": "2026-10-05T00:45:12.310107+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "SlothMon",
     "url": "https://kuuhugu.github.io/SlothMon/",
     "domain": "kuuhugu.github.io",
-    "count": 49,
+    "count": 51,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kuuhugu.github.io/SlothMon/",
     "screenshot": null,
     "description": "スマホやタブレットを、 PC のサブディスプレイに。 SlothMon は Windows に仮想ディスプレイを作成し、Wi-Fi 経由でスマホやタブレットのブラウザに画面を映すアプリです。スマホ側のアプリインストールは一切不要。QR コードを読み取るだけで即座にサブ画面として使え、タッチやペン操作にも対応します。",
     "hatenaDate": "2026-10-03T07:02:26Z",
     "users": [],
     "firstSeenAt": "2026-10-05T00:15:14.929329+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "MyGo — Desktop apps in Go, with a web frontend or native UI",
@@ -205,20 +218,20 @@
     "hatenaDate": "2026-10-03T12:33:23Z",
     "users": [],
     "firstSeenAt": "2026-10-04T23:00:14.715111+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "Apple、macOSに新たに「フルディスクアクセス」の制御機能を導入へ　AIエージェントのリスク対処のため - こぼねみ",
     "url": "https://www.kobonemi.com/entry/2026/10/03/macOS-27-Full-Disk-Access-Additional-Controls",
     "domain": "www.kobonemi.com",
-    "count": 42,
+    "count": 43,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.kobonemi.com/entry/2026/10/03/macOS-27-Full-Disk-Access-Additional-Controls",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/3d975ee301b3387c9654b514153db452419a9bd6/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fk%2Fkobonemi%2F20261003%2F20261003085237.png",
     "description": "Appleは日本時間10月3日、開発者向け最新ニュースで、AIエージェントがもたらす新たなリスクを踏まえ、macOSの「フルディスクアクセス」設定に「追加の制御機能」を導入すると発表しました。 今回の発表は、Meta MuseやOpenAI Dotsといった常時稼働型のAIエージェントの台頭に伴い、プライバシーに関する懸念が高まって...",
     "hatenaDate": "2026-10-03T00:00:36Z",
     "users": [],
     "firstSeenAt": "2026-10-04T22:15:12.817110+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "OpenAIの安全担当従業員が辞職、「会社の文化が崩壊している」と主張",
@@ -257,33 +270,33 @@
     "hatenaDate": "2026-10-04T09:18:41Z",
     "users": [],
     "firstSeenAt": "2026-10-04T21:30:13.561909+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "6年通った博士課程を、退学しました。 --社会人博士を志すあなたに、先に渡しておきたいこと--｜清水 啓太郎 / Keitaro Shimizu",
     "url": "https://note.com/keitaro_shimizu/n/n1cd34c93e432",
     "domain": "note.com",
-    "count": 251,
+    "count": 255,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/keitaro_shimizu/n/n1cd34c93e432",
     "screenshot": "https://assets.st-note.com/production/uploads/images/320516217/rectangle_large_type_2_84765b9870274d255b3f86cd0916d18d.png?fit=bounds&quality=85&width=1280",
     "description": "6年通った博士課程を、退学しました東京大学の博士課程に、社会人として約6年在籍していました。 その課程を、修了ではなく退学というかたちで終えることにしました。 正直に書きます。悔しいです。悲しいです。 自分で決めたことなのに、いまだに飲み込みきれていない感覚があります。 ただ、6年という時間は、失敗の記...",
     "hatenaDate": "2026-10-04T07:03:47Z",
     "users": [],
     "firstSeenAt": "2026-10-04T21:15:14.004633+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "名刺ケースがボタン1つで自動展開！わずか0.2秒で圧倒的なインパクトと共に名刺を出せる「機動文具 自動変形名刺ケース」レビュー",
     "url": "https://gigazine.net/news/20261004-mobile-stationery-business-card-case/",
     "domain": "gigazine.net",
-    "count": 58,
+    "count": 59,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261004-mobile-stationery-business-card-case/",
     "screenshot": "https://i.gzn.jp/img/2026/10/04/mobile-stationery-business-card-case/00.jpg",
     "description": "大手玩具メーカー「バンダイ」のBANDAI SPIRITSが新シリーズ「機動文具(MOBILE STATIONERY)」を発表。その第1弾として「機動文具 自動変形名刺ケース」が2026年10月17日(土)に登場します。バンダイが「超合金」などで培ってきた究極の合金玩具製造技術を惜しみなくつぎ込んで、遊び心と機能性を融合した名刺入れになって...",
     "hatenaDate": "2026-10-04T10:27:04Z",
     "users": [],
     "firstSeenAt": "2026-10-04T21:00:14.414450+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "AIリスクに警鐘、航空業界や原子力発電所級の管理訴え オープンAI元社員",
@@ -302,14 +315,14 @@
     "title": "ＡＩバブル、いつはじけると思う？はじけるとしたらどんな風にはじけると思う？ - AI - はてなパークス",
     "url": "https://p.hatena.ne.jp/p/1508441022076555264/t/1556134464688492544",
     "domain": "p.hatena.ne.jp",
-    "count": 31,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/p.hatena.ne.jp/p/1508441022076555264/t/1556134464688492544",
     "screenshot": "https://assets.parks.hatelabo.jp/vite/assets/og-default-t4OpS_sV.png",
     "description": "AIバブル、やっぱりバブルだと思うのですけれども、（AI関連企業のPER（株価収益率）が200年とかなっていて、それが回収できると思えない。利益率がここ数10年で莫大に上がるっていう前提だけど）（実際はたぶん無理、順当に進めば、他の新興AIもそれなりの性能のものができるはずだからだ）（フォードだけが200年車の生...",
     "hatenaDate": "2026-10-04T04:52:53Z",
     "users": [],
     "firstSeenAt": "2026-10-04T20:45:14.188124+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "サイバー攻撃による情報漏洩、不審メールの送信について",
@@ -322,7 +335,7 @@
     "hatenaDate": "2026-10-04T10:03:08Z",
     "users": [],
     "firstSeenAt": "2026-10-04T20:30:13.780581+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "GitHubにうっかり公開された認証情報54万件以上が有効なまま放置されていることが判明",
@@ -348,7 +361,7 @@
     "hatenaDate": "2026-10-04T09:54:24Z",
     "users": [],
     "firstSeenAt": "2026-10-04T20:00:13.363475+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "MCP Events – Plugins | OpenAI Developers",
@@ -367,27 +380,27 @@
     "title": "日経にサイバー攻撃　情報漏洩、不審メール9000件送信 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUD02B5F0S6A001C2000000/",
     "domain": "www.nikkei.com",
-    "count": 127,
+    "count": 128,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUD02B5F0S6A001C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3676761002102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=57b1860928fb31d8887ccf7e5fca1732",
     "description": "日本経済新聞社は4日、社員が使っていた業務ソフト「マイクロソフト365」のアカウントがサイバー攻撃を受け、なりすましメール約9000件が送信されたと発表した。第三者が不正にログインしたとみられる。送信先のメールアドレスや氏名のほか、一部メールの内容が漏洩したとみられる。日経は個人情報保護委員会に報告し、...",
     "hatenaDate": "2026-10-04T08:03:25Z",
     "users": [],
     "firstSeenAt": "2026-10-04T19:45:12.867104+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "AIでの人員削減は現実的ではないと希望で語る人がいる中、外注はゼロにして社内の人間を20人から4人にした経営者の経験談を語る「築き上げてきたものがAIで完全に崩壊」",
     "url": "https://togetter.com/li/2753949",
     "domain": "togetter.com",
-    "count": 119,
+    "count": 120,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2753949",
     "screenshot": "https://s.tgstc.com/ogp3/357559ffd5cd82a66695db51f44fe2c8-1200x630.jpeg",
     "description": "Yuichiro Minato @MinatoYuichiro 今まで会社経営して築き上げてきたものがAIで完全に崩壊したので、急いで次を探してます。10年かけて量子コンピュータアプリ関連でようやく手がかりをつかんだと思ったら足元から色々崩れ落ちてほんとこの年齢でやり直しきくのか不明すぎて。 2026-10-03 22:49:07 Yuichiro Minato @Min...",
     "hatenaDate": "2026-10-04T08:48:45Z",
     "users": [],
     "firstSeenAt": "2026-10-04T19:15:16.891105+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "日経で社員が使っていた業務ソフト「Microsoft 365」に不正ログインがあり、なりすましメール約9000件が送信されたと日経自らが報道「最近サイバー攻撃が増えている」",
@@ -419,14 +432,14 @@
     "title": "「雑に扱うと面倒、と思わせるのは大事」大手金融機関に無限のAI対応やられ実質ノー回答だったので「消費者庁に電話するしかねーな」とつぶやいたら、人間に繋がった",
     "url": "https://togetter.com/li/2753906",
     "domain": "togetter.com",
-    "count": 158,
+    "count": 160,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2753906",
     "screenshot": "https://s.tgstc.com/ogp3/8728661a6ce78a0a32b518d6a157634d-1200x630.jpeg",
     "description": "日本経済新聞 電子版（日経電子版） @nikkei 三井住友銀行、Oliveの電話問い合わせの72%をAIだけで解決 nikkei.com/article/DGXZQO… AIオペレーターは24時間365日稼働。夜間や年末年始も対応可能です。有人対応と同様の応答品質を確保しているといいます。人とAIの役割分担をどう進めてきたのでしょうか。 2026-10-01 16...",
     "hatenaDate": "2026-10-04T06:58:01Z",
     "users": [],
     "firstSeenAt": "2026-10-04T18:00:13.876023+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "AIエージェントハーネス「Pi 1.0」のクイックスタート｜npaka",
@@ -471,14 +484,14 @@
     "title": "理解をどこまで手放すかは、リスク許容度と仕組みで決まる - カレーの恩返し",
     "url": "https://euglena1215.hatenablog.jp/entry/2026/09/27/113320",
     "domain": "euglena1215.hatenablog.jp",
-    "count": 111,
+    "count": 113,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/euglena1215.hatenablog.jp/entry/2026/09/27/113320",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/331326e6cc32a19f0dcfaa7bb36406f30ad44787/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fe%2Feuglena1215%2F20260927%2F20260927111817.png",
     "description": "最近「理解負債」とか「認知的負債」みたいな言葉をよく見かける。AI にコードを書かせても理解は手放すな、という記事もよく流れてくる。かと思えば、DHH が AI に Rust でコードを書かせているが1行も読んでないと楽しげに話していたりする。 色々目にして自分も何か書きたくなったので、今どう考えているかを書いてお...",
     "hatenaDate": "2026-10-04T03:59:51Z",
     "users": [],
     "firstSeenAt": "2026-10-04T15:16:22.845642+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "タイムズカー漏えい補償は?　ユーザーに届いた「おわび」メール | 毎日新聞",
@@ -497,14 +510,14 @@
     "title": "個人向けGeminiのモデル選択が厳格化　無料ユーザーが使えるのは「Flash-Lite」のみに",
     "url": "https://www.itmedia.co.jp/news/article/2610/04/2000001987/",
     "domain": "www.itmedia.co.jp",
-    "count": 249,
+    "count": 250,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/04/2000001987/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/04/2000001987/10008359/2048",
     "description": "米Googleは10月初旬に更新したGeminiのサポートページで、個人向け「Gemini」アプリで利用できるAIモデルを、加入しているGoogle AIの契約プランに応じて変更すると告知した。Google AIの有料プランを契約していない無料ユーザーについては10月9日から変更を適用し、利用できるモデルは「Flash-Lite」のみになる。 変更...",
     "hatenaDate": "2026-10-04T02:37:40Z",
     "users": [],
     "firstSeenAt": "2026-10-04T14:45:13.463189+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "AI に仕事を奪われるのはエンジニアではなくプロダクトマネージャーの方だった",
@@ -517,7 +530,7 @@
     "hatenaDate": "2026-10-03T13:00:04Z",
     "users": [],
     "firstSeenAt": "2026-10-04T14:45:13.463189+09:00",
-    "lastSeenAt": "2026-10-05T09:30:48.197525+09:00"
+    "lastSeenAt": "2026-10-05T09:45:14.106260+09:00"
   },
   {
     "title": "AIで法律をリファクタリングする: Fableで改正候補条文を抽出 / 立法における\"Mythos Moment\"を考える｜安野貴博",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-01T02:45:14.177983+09:00",
     "lastSeenAt": "2026-10-01T14:45:12.699934+09:00"
-  },
-  {
-    "title": "The 10 Minute Test Plan Generate. Claudeと社内ナレッジでテスト計画の叩き台を10分で生成する仕組み - LayerX エンジニアブログ",
-    "url": "https://tech.layerx.co.jp/entry/10minute_test_plan_gen",
-    "domain": "tech.layerx.co.jp",
-    "count": 14,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.layerx.co.jp/entry/10minute_test_plan_gen",
-    "screenshot": "https://cdn.image.st-hatena.com/image/scale/3a578097cff4b5cb18bcb51b1333ce70ab3933fa/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fk%2Fkoyatest%2F20260930%2F20260930131341.png",
-    "description": "こんにちは、LayerXバクラク事業部QA部のコヤマンです。 以前投稿したこちらの記事でご紹介した品質基準活用の取り組みの続きです。 品質の言語化のススメー早期テストの原則をClaude Code Agent Skillsで実現する試み - LayerX エンジニアブログ 「常に最新の仕様と品質基準＋QAのノウハウを踏まえてリスクベースドなテ...",
-    "hatenaDate": "2026-09-30T09:30:19Z",
-    "users": [],
-    "firstSeenAt": "2026-10-01T02:15:13.624607+09:00",
-    "lastSeenAt": "2026-10-01T08:45:14.043580+09:00"
   }
 ]
