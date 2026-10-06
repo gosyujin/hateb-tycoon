@@ -1,42 +1,81 @@
 [
   {
+    "title": "ハッカーが楽天会員1億100万件の個人情報 販売を主張―氏名・住所・ポイント情報のサンプル掲載、漏洩元・真正性は未確認|セキュリティニュースのセキュリティ対策Lab",
+    "url": "https://rocket-boys.co.jp/security-measures-lab/rakuten-101m-data-sale-unverified-20261004/",
+    "domain": "rocket-boys.co.jp",
+    "count": 8,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/rocket-boys.co.jp/security-measures-lab/rakuten-101m-data-sale-unverified-20261004/",
+    "screenshot": "https://rocket-boys.co.jp/wp-content/uploads/2026/10/rakuten-101m-data-sale-unverified-20261004.png",
+    "description": "セキュリティ対策Labが掲載された18件を確認したところ、レギュラー、シルバー、ゴールドの各レコードについて、ランクとポイント数・獲得回数の明確な矛盾は確認できませんでした。 例えば、ゴールドと記録されたサンプルは700ポイント・7回の条件を満たしつつ、プラチナの2,000ポイント・15回の両条件までは満たしてい...",
+    "hatenaDate": "2026-10-06T03:06:03Z",
+    "users": [],
+    "firstSeenAt": "2026-10-06T13:30:17.868860+09:00",
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
+  },
+  {
+    "title": "AWS Advanced Ruby Driver Wrapper is generally available - AWS",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
+    "domain": "aws.amazon.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
+    "screenshot": null,
+    "description": "The session catalog is live. Explore what's waiting for you",
+    "hatenaDate": "2026-10-06T00:46:41Z",
+    "users": [],
+    "firstSeenAt": "2026-10-06T13:30:17.868860+09:00",
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
+  },
+  {
+    "title": "不正アクセスによる情報流出に関するお詫びとお知らせ | 総合ディスカウントストア ミスターマックス",
+    "url": "https://www.mrmax.co.jp/info/incident_20261006/",
+    "domain": "www.mrmax.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.mrmax.co.jp/info/incident_20261006/",
+    "screenshot": "https://www.mrmax.co.jp/wp-content/uploads/2024/02/ogp.png",
+    "description": "平素よりミスターマックスをご利用いただき誠にありがとうございます。 このたび、当社が運営するMrMaxアプリおよびオンラインストア（以下「本サービス」）のサーバーが、第三者による不正アクセスを受け、当社の保有する情報の一部が外部に流出したことを確認いたしました。判明した事実ならびに当社の対応について、...",
+    "hatenaDate": "2026-10-06T03:04:26Z",
+    "users": [],
+    "firstSeenAt": "2026-10-06T13:30:17.868860+09:00",
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
+  },
+  {
     "title": "ミスターマックス、最大173万人分の会員情報流出　不正アクセスで",
     "url": "https://www.itmedia.co.jp/news/article/2610/06/2000002030/",
     "domain": "www.itmedia.co.jp",
-    "count": 14,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/06/2000002030/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/06/2000002030/10008496/2048",
     "description": "流出した可能性があるのは、10月3日時点で登録しているMrMaxアプリ会員とオンラインストア会員の情報で、漏えい内容は、会員ID、氏名、メールアドレス、電話番号（会員の登録状況によって異なる）。 住所、生年月日、クレジットカード情報、パスワード、購入履歴は流出していないことを確認した。 10月3日夕、サーバへの...",
     "hatenaDate": "2026-10-06T03:17:43Z",
     "users": [],
     "firstSeenAt": "2026-10-06T13:00:13.956348+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "なぜ退会者の免許証が7年残る？　タイムズカー漏えいが問う“データの持ち方”",
     "url": "https://www.itmedia.co.jp/enterprise/articles/2610/06/news018.html",
     "domain": "www.itmedia.co.jp",
-    "count": 13,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/enterprise/articles/2610/06/news018.html",
     "screenshot": "https://image.itmedia.co.jp/enterprise/articles/2610/06/cover_news018.jpg",
     "description": "久しぶりに、あるサービスにログインし、自分のアカウント情報をチェックしたところ、そこにはなんと、以前送った運転免許証画像そのものが表示されていてドキッとしました。確か本人確認でそれをオンライン送付したのは3年くらい前のことです……。 オンラインで見られるということは、そのサービスが画像をいまも保存し...",
     "hatenaDate": "2026-10-05T23:55:13Z",
     "users": [],
     "firstSeenAt": "2026-10-06T12:45:14.123501+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "スティーブ・ジョブズ氏没後15年、今もAppleを導く〜新旧CEOが綴った想い - iPhone Mania",
     "url": "https://iphone-mania.jp/apple-607028/",
     "domain": "iphone-mania.jp",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/iphone-mania.jp/apple-607028/",
     "screenshot": "https://iphone-mania.jp/wp-content/uploads/2026/10/05/SteveJobs_TimCook_X.jpg",
     "description": "Apple共同創業者のスティーブ・ジョブズ氏が亡くなってから、現地時間10月5日（日本では10月6日）で15年を迎えました。前最高経営責任者（CEO）のティム・クック氏と、9月にCEOへ就任したジョン・ターナス氏は、それぞれXにジョブズ氏への想いを投稿しています。2人の言葉からは、15年の歳月が流れAppleのトップが代替わ...",
     "hatenaDate": "2026-10-05T16:38:36Z",
     "users": [],
     "firstSeenAt": "2026-10-06T12:45:14.123501+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "大阪公立大の大規模システム障害、サイバー攻撃が原因か　13万人超の個人情報流出恐れ",
@@ -68,40 +107,40 @@
     "title": "GMOグループ会社に不正アクセス 会員の個人情報94万件余流出か | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261006de55007",
     "domain": "news.web.nhk",
-    "count": 25,
+    "count": 32,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261006de55007",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261006de55007/20261006de55007_E0000046920_1_l.jpg",
     "description": "IT企業「GMOインターネットグループ」傘下の「GMOリサーチ＆AI」は、運営しているアンケートサイトに不正アクセスがあり、会員の個人情報94万件余りが流出したと発表しました。 流出したのは氏名や生…",
     "hatenaDate": "2026-10-06T02:45:48Z",
     "users": [],
     "firstSeenAt": "2026-10-06T12:30:14.456799+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "Google ドライブ、Google ドキュメントでMarkdown（.md）をそのまま扱えるように／フォーマット変換不要、そのままプレビューや編集・共同作業が可能に",
     "url": "https://forest.watch.impress.co.jp/docs/news/2145843.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 20,
+    "count": 28,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2145843.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2145/843/doogle_docs_drive.png",
     "description": null,
     "hatenaDate": "2026-10-06T02:59:53Z",
     "users": [],
     "firstSeenAt": "2026-10-06T12:30:14.456799+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "“ツダケンAI裁判”の論点　「声優そっくりAI音声は合法」……にはならない？　弁護士が解説",
     "url": "https://www.itmedia.co.jp/news/article/2610/06/2000002010/",
     "domain": "www.itmedia.co.jp",
-    "count": 10,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/06/2000002010/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/06/2000002010/10008434/2048",
     "description": "前野孝太朗（まえの・こうたろう）弁護士（第二東京弁護士会）。シティライツ法律事務所所属。ゲーム・エンターテインメント、AI・IT分野を中心に、著作権などの知的財産、生成AIの利用、契約・利用規約等に関する法律相談を取り扱い、CEDEC等での講演や企業向け研修も行う。2026年7月に『ゲームと法律 攻略ガイドブック...",
     "hatenaDate": "2026-10-05T23:46:36Z",
     "users": [],
     "firstSeenAt": "2026-10-06T12:30:14.456799+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "【Hothotレビュー】 WIN 5と同じ心臓で、キーボードが戻ってきた。「GPD WIN Max 3」を試す",
@@ -146,14 +185,14 @@
     "title": "韓国の金融機関で相次いだ不正アクセスについてまとめてみた - piyolog",
     "url": "https://piyolog.hatenadiary.jp/entry/2026/10/06/103019",
     "domain": "piyolog.hatenadiary.jp",
-    "count": 16,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/06/103019",
     "screenshot": "https://ogimage.blog.st-hatena.com/10257846132616586766/14945776032086692019/1791250318",
     "description": "2026年10月1日、新韓銀行は、顧客の融資申込に関する情報が外部に流出したと公表しました。その後、他の金融機関でも情報流出の公表が相次ぎ、金融当局による金融業界全体への緊急点検の要請も行われています。ここでは関連する情報をまとめます。 複数の金融機関で情報流出 新韓銀行は10月1日、融資募集人向けのサービ...",
     "hatenaDate": "2026-10-06T01:41:19Z",
     "users": [],
     "firstSeenAt": "2026-10-06T12:15:13.608386+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "Windows 11の新しい回復機能「クラウド リビルド」が［設定］アプリから簡単に",
@@ -172,40 +211,40 @@
     "title": "Geminiの使いどころ🥹",
     "url": "https://anond.hatelabo.jp/20261006101040",
     "domain": "anond.hatelabo.jp",
-    "count": 82,
+    "count": 96,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261006101040",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "用途にもよるけど、現時点では ChatGPT ＞ Claude ＞＞＞ Gemini という印象です。 AI同士で議論させると、Geminiの能力の低さが目立ちます。 Gemini自身が「GeminiはChatGPTやClaudeより劣っている」と自白しているので間違いありません。 しかしGeminiには、自分で自分の間違いを認めるだけの判断力は残されていました...",
     "hatenaDate": "2026-10-06T01:10:59Z",
     "users": [],
     "firstSeenAt": "2026-10-06T11:45:12.453849+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "geminiが難しい",
     "url": "https://anond.hatelabo.jp/20261006091814",
     "domain": "anond.hatelabo.jp",
-    "count": 34,
+    "count": 40,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261006091814",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "１秒でもキチガイ意固地モードに入ると検索を行わなくなってしまう 検索しろつっても検索しないし なんで検索せんのやって聞いたら「お前の聞き方が悪いんちゃうの？この事柄について最新の情報をWebで検索してくださいみたいな感じで聞けよ(ワラ)」って言ってくるから、「じゃあさっきの情報について最新の情報をWebで...",
     "hatenaDate": "2026-10-06T00:20:20Z",
     "users": [],
     "firstSeenAt": "2026-10-06T11:45:12.453849+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "USBケーブル1本でiPhoneも操作できるリモートKVM、GL.iNet「Comet Q」を試す【イニシャルB】",
     "url": "https://internet.watch.impress.co.jp/docs/column/shimizu/2143168.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 15,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/column/shimizu/2143168.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2143/168/001.JPG",
     "description": null,
     "hatenaDate": "2026-10-05T01:21:27Z",
     "users": [],
     "firstSeenAt": "2026-10-06T11:30:14.318467+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "仕様書がなくても問題なくソフトウェアテストを実施。不具合を発見、修正した結果、アプリストアの評価が1点台から平均4.6点に - SHIFT ASIA -ソフトウェア開発およびソフトウェアテスト・品質保証のプロフェッショナル-",
@@ -218,7 +257,7 @@
     "hatenaDate": "2026-10-05T21:41:17Z",
     "users": [],
     "firstSeenAt": "2026-10-06T11:30:14.318467+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "Release Meltype v1.0.0 · yksr-melt/Meltype",
@@ -250,27 +289,27 @@
     "title": "GMO「infoQ」に不正アクセス、最大95万件の会員情報漏えい　ポイント287万円分が不正交換される",
     "url": "https://www.itmedia.co.jp/news/article/2610/06/2000002021/",
     "domain": "www.itmedia.co.jp",
-    "count": 30,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/06/2000002021/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/06/2000002021/10008458/2048",
     "description": "GMOリサーチ＆AIは10月5日、同社が運営するアンケートサイト「infoQ」の脆弱性が突かれて不正アクセスされ、会員の個人情報全件に当たる最大94万8498件が外部に持ち出されたと発表した。サービスは停止中だ。 うち611件では、ポイントが本人の意思によらずAmazonギフトコード（合計286万9500円分）に交換されていたとい...",
     "hatenaDate": "2026-10-06T00:32:37Z",
     "users": [],
     "firstSeenAt": "2026-10-06T11:00:14.842182+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "不正アクセスなぜ急増　原因はAIか、それとも……　専門家の見解は",
     "url": "https://www.itmedia.co.jp/news/article/2610/06/2000002013/",
     "domain": "www.itmedia.co.jp",
-    "count": 31,
+    "count": 32,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/06/2000002013/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/06/2000002013/10008440/2048",
     "description": "9月末以降、不正アクセスやそれに伴う情報漏えいの発表が日本企業から相次いでいる。免許証の画像が漏えいしたタイムズカーシェアや、1000万件以上が流出した焼肉きんぐをはじめ、著名なサービス・企業が相次いで狙われている状況だ。自分の情報が流出したかもしれない、という人も少なくないだろう。 SNSでは「生成AIが...",
     "hatenaDate": "2026-10-06T01:07:43Z",
     "users": [],
     "firstSeenAt": "2026-10-06T11:00:14.842182+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "新卒就活「OfferBox」、学生の氏名などを利用企業が開発者ツール経由で閲覧可能に　最大31万人",
@@ -302,27 +341,27 @@
     "title": "エンジニアの技術力を測る「帯制度」をAIで爆速開発し、1年で450の \"段位\" を授与した話 - MonotaRO Tech Blog",
     "url": "https://tech-blog.monotaro.com/entry/2026/10/06/090000",
     "domain": "tech-blog.monotaro.com",
-    "count": 33,
+    "count": 36,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech-blog.monotaro.com/entry/2026/10/06/090000",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/f83bf082431fd7eb0242aca0f358f42977222009/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fm%2Fmonotaro-tech-blog%2F20261005%2F20261005115348.png",
     "description": "はじめに こんにちは。プラットフォームエンジニアリング部門の池田（@progrhyme）です。 最近は自身のリソースのほぼすべてを、社内プロジェクト 「DOJO」 及びその内の施策の1つである 「帯制度」 に投入しています。 DOJOとは？ MonotaROのDOJOとは、テクニカルスキルを中心とする社内の研修制度です。 制度の詳細や...",
     "hatenaDate": "2026-10-06T00:47:04Z",
     "users": [],
     "firstSeenAt": "2026-10-06T10:15:13.770397+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "ウクライナ軍、AI搭載「ロボット銃」でロシアのドローン撃墜",
     "url": "https://www.afpbb.com/articles/-/3656151",
     "domain": "www.afpbb.com",
-    "count": 31,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3656151",
     "screenshot": "https://afpbb.ismcdn.jp/mwimgs/4/e/1000x/img_4e660720abe4e884b50b7487adbfce3363506.jpg",
     "description": "【10月6日 AFP】ウクライナは、人工知能（AI）を搭載した「ロボット銃」を使い、ロシアの新型ジェット推進型ドローンの撃墜を始めた。ウクライナ空軍が5日、明らかにした。 ウクライナ空軍のユーリ・イグナト報道官は国営テレビで、首都キーウなどを標的としたロシアの新型ドローン対策の一環として「現在、橋にロボット...",
     "hatenaDate": "2026-10-05T22:33:01Z",
     "users": [],
     "firstSeenAt": "2026-10-06T10:00:16.291243+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "名作絵本『がまくんとかえるくん』風にAIの暴走によるハッキングを風刺した『がまくんとかえるくんとますます進化する機械たち』",
@@ -341,14 +380,14 @@
     "title": "Gemini無料版、10月9日から「Flash-Lite」のみに",
     "url": "https://japan.cnet.com/article/35253255/",
     "domain": "japan.cnet.com",
-    "count": 45,
+    "count": 48,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35253255/",
     "screenshot": "https://japan.cnet.com/storage/2026/04/16/2902dfdaf54ec0b0034b0119ae2c9843/gemini-logo-gettyimages-2246856729_1280x960.jpg",
     "description": "Googleは、生成AI「Gemini」のアプリで、プランごとに利用できるAIモデルを見直すとヘルプページで明らかにした。無料ユーザーは10月9日から、これまで使えた「Flash」と「Pro」が使えなくなり、速度を重視した「Flash-Lite」のみ利用できるようになる。対象は、個人のGoogleアカウントでGeminiアプリを使う場合だ。 有...",
     "hatenaDate": "2026-10-05T23:47:12Z",
     "users": [],
     "firstSeenAt": "2026-10-06T09:30:13.664328+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "これで今年2度目。Googleの「AIによる概要」でトラフィックが激減→Googleを訴えるも敗訴【やじうまWatch】",
@@ -367,14 +406,14 @@
     "title": "@subql/common ソフトウェアサプライチェーン攻撃の概要と対策指針 - GMO Flatt Security Blog",
     "url": "https://blog.flatt.tech/entry/2026/10/06/021103",
     "domain": "blog.flatt.tech",
-    "count": 30,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.flatt.tech/entry/2026/10/06/021103",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/d8eb68e9a9dbbb7853d42e11310ef0a9eb2a225f/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ff%2Fflattsecurity%2F20261006%2F20261006084954.png",
     "description": "2026年10月5日、npm パッケージ @subql/common に悪性コードが注入されました。@subql/common は、SubQuery の GitHub リポジトリ subquery/subql で開発されているパッケージです。 注入された悪性コードは、Infostealer と C2 クライアントの機能を併せ持つマルウェアです。postinstall フック経由で実行され、AWS・Gi...",
     "hatenaDate": "2026-10-06T00:06:09Z",
     "users": [],
     "firstSeenAt": "2026-10-06T09:30:13.664328+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "「人間vs人型ロボット」のケージマッチを開催した企業に停止命令、無許可開催は軽犯罪に問われる可能性",
@@ -406,14 +445,14 @@
     "title": "【西川和久の不定期コラム】 ちょい古ゲーミングPCで「Qwen3.8-Flash-Next」を動せる「Strata」を試してみた！",
     "url": "https://pc.watch.impress.co.jp/docs/column/nishikawa/2145673.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 41,
+    "count": 43,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/nishikawa/2145673.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2145/673/C00.jpg",
     "description": null,
     "hatenaDate": "2026-10-05T22:54:32Z",
     "users": [],
     "firstSeenAt": "2026-10-06T09:15:14.711799+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "日経新聞サイバー攻撃で情報漏えいか なりすましメールが送信 | NHKニュース",
@@ -432,14 +471,14 @@
     "title": "ランサム集団キリンの中心メンバー、日本で拘束　アサヒにも「攻撃」（朝日新聞） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/e8c753300f37b0f2ba619bfe706422fe59ed0d6b",
     "domain": "news.yahoo.co.jp",
-    "count": 89,
+    "count": 92,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/e8c753300f37b0f2ba619bfe706422fe59ed0d6b",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261006-00000001-asahi-000-7-view.jpg?exp=10800",
     "description": "昨年9月末のアサヒグループホールディングスへのサイバー攻撃について、犯行声明を出したハッカー集団「Qilin」のウェブサイトの一部=セキュリティー会社提供（朝日新聞）　世界各国の企業などにサイバー攻撃を繰り返すランサムウェア（身代金ウイルス）集団「Qilin（キリン）」の中心メンバーでロシア国籍の男（28）を...",
     "hatenaDate": "2026-10-05T23:08:08Z",
     "users": [],
     "firstSeenAt": "2026-10-06T08:45:14.752867+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "GitHub Changelog Digest (Sep 2026) - プププなテクブ",
@@ -458,79 +497,79 @@
     "title": "TCPに代わる通信プロトコル「Homa」をスタンフォード大学名誉教授が提唱、AI時代は1ミリ秒の遅延でもGPUが待たされる",
     "url": "https://gigazine.net/news/20261006-homa-protocol-replace-tcp/",
     "domain": "gigazine.net",
-    "count": 60,
+    "count": 62,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261006-homa-protocol-replace-tcp/",
     "screenshot": "https://i.gzn.jp/img/2026/10/06/homa-protocol-replace-tcp/00.jpg",
     "description": "ウェブやクラウドを支える通信プロトコル「TCP」はAI向けデータセンターの通信には適していないとして、スタンフォード大学のジョン・オースターハウト名誉教授がトランスポートプロトコル「Homa」への移行を訴えています。Homaは短いメッセージを優先的に処理することで通信遅延を抑える仕組みを備えており、既存のTCP...",
     "hatenaDate": "2026-10-05T23:08:07Z",
     "users": [],
     "firstSeenAt": "2026-10-06T08:45:14.752867+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "日立製作所とアンソロピックが提携、「米国AIの軍門に降った」と思う人が知らない事実",
     "url": "https://diamond.jp/articles/-/400443",
     "domain": "diamond.jp",
-    "count": 55,
+    "count": 57,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/diamond.jp/articles/-/400443",
     "screenshot": "https://dol.ismcdn.jp/mwimgs/e/d/-/img_ede15384fa2ae56880b8b6636e77dd25316642.jpg",
     "description": "日立製作所の笠戸事業所（山口県下松市）で製造されたJR九州の885系特急電車。独自開発したアルミダブルスキン構造の次世代鉄道車両システム「A-train」が採用されている　Photo:PIXTA 日立製作所が米Anthropicとの戦略的提携を発表しました。このニュースを見て、「日立ほどの企業でも基盤AIでは米国の軍門に降ったのか...",
     "hatenaDate": "2026-10-05T11:40:57Z",
     "users": [],
     "firstSeenAt": "2026-10-06T08:45:14.752867+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "Agent Memory Repo | Cognition",
     "url": "https://cognition.com/agent-memory-repo",
     "domain": "cognition.com",
-    "count": 38,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/cognition.com/agent-memory-repo",
     "screenshot": "https://cognition.com/agent-memory-repo/opengraph-image.png?opengraph-image.0oq~ikeyr93or.png?dpl=dpl_5xSgNNTiqZQgC566CcEoNw5BhoN6",
     "description": "Agent Memory RepoAgents work better when they remember things across sessions. With Agent Memory Repo, your agent saves what it learns from you in real time, and that memory is live across sessions. Memories link to each other, so your agent navigates them like a wiki. The memory loopEvery sessio...",
     "hatenaDate": "2026-10-05T21:37:44Z",
     "users": [],
     "firstSeenAt": "2026-10-06T08:30:14.134946+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "連日の不正アクセスの件、マジでシャレにならないが、こんなやばいの日本だけ？他の国で問題になってないん？「今世界中で起きてる」",
     "url": "https://togetter.com/li/2754581",
     "domain": "togetter.com",
-    "count": 334,
+    "count": 350,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2754581",
     "screenshot": "https://s.tgstc.com/ogp3/1e5c4790ad1e13f117f3938fab321b9c-1200x630.jpeg",
     "description": "企業で相次ぐ“不正アクセス”　狙われる「個人情報」｜FNNプライムオンライン 第三者からの不正アクセスを受けた企業からの情報漏えいが相次いでいます。5日夕方、「焼肉きんぐ」を運営する物語コーポレーションは、公式アプリの会員管理システムが第三者からの不正アクセスを受け、登録され… FNNプライムオンライン",
     "hatenaDate": "2026-10-05T18:31:36Z",
     "users": [],
     "firstSeenAt": "2026-10-06T08:30:14.134946+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "Codex Cloudを利用してコード修正してもらっていたら本名が駄々洩れしていた話 | Pandora Pocket",
     "url": "https://blog.hitsujin.jp/entry/2026/10/05/codex-cloud-git-author",
     "domain": "blog.hitsujin.jp",
-    "count": 127,
+    "count": 133,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.hitsujin.jp/entry/2026/10/05/codex-cloud-git-author",
     "screenshot": null,
     "description": "最近Codex Cloudが新しくなり、OpenAI側のクラウド環境でGitHub連携をして手軽に開発ができるようになりました。 ちょうど土日に実家に帰らないといけない用事があり自宅のPCの電源を入れていなかったのですが、もうすぐ期限が切れてしまうリセット権がもったいなかったので、この機会にCodex Cloudを利用して趣味で制作...",
     "hatenaDate": "2026-10-05T22:42:54Z",
     "users": [],
     "firstSeenAt": "2026-10-06T08:00:14.158215+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "ウナギ稚魚の生産コストが4万円→1800円に　約20分の1以下に削減　水産研究・教育機構が大型水槽を開発 | himanews",
     "url": "https://himanews.jp/2145532462-2/",
     "domain": "himanews.jp",
-    "count": 63,
+    "count": 65,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/himanews.jp/2145532462-2/",
     "screenshot": "https://himanews.jp/wp-content/uploads/2025/07/asghh.jpg",
     "description": "ウナギ稚魚の生産コストが4万円→1800円に　約20分の1以下に削減　水産研究・教育機構が大型水槽を開発 2025 7/08 記事によると… ウナギ稚魚を大量生育でコスト4万円から1800円に　水産研究・教育機構が大型水槽開発 水産研究・教育機構とヤンマーホールディングスなどは8日、ウナギの稚魚の生産コストを大幅に削減できる...",
     "hatenaDate": "2026-10-05T09:34:02Z",
     "users": [],
     "firstSeenAt": "2026-10-06T07:36:28.437081+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "【速報】「多くの方々にご不便とご心配かけ、深くお詫び」大阪公立大が謝罪　ランサムウェアによるサイバー攻撃か　基盤システム障害で全授業が休講中　対面授業は9日以降再開予定 | TBS NEWS DIG",
@@ -543,7 +582,7 @@
     "hatenaDate": "2026-10-05T08:15:52Z",
     "users": [],
     "firstSeenAt": "2026-10-06T06:30:16.562074+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "SystemVerilogの話 | ドクセル",
@@ -627,14 +666,14 @@
     "title": "AIでサイバー攻撃のコスト激減　数行の指示だけで27社に侵入、カード情報60万件超が流出 - 週刊アスキー",
     "url": "https://weekly.ascii.jp/elem/000/004/439/4439882/",
     "domain": "weekly.ascii.jp",
-    "count": 166,
+    "count": 167,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/weekly.ascii.jp/elem/000/004/439/4439882/",
     "screenshot": "https://ascii.jp/img/2026/10/05/4534129/l/86f89d76cd582831.jpg",
     "description": "わずか数行の指示を出すだけで、AIが脆弱性を探し、侵入し、カード情報まで盗み出す──。サイバー攻撃の自動化が実戦段階に迫っている。 セキュリティ企業Gambit Securityの9月22日の報告によると、金銭目的の攻撃者が複数のオープンソースAIエージェントを使い、数百店のオンラインショップを攻撃した。2026年9月10～15...",
     "hatenaDate": "2026-10-05T08:05:24Z",
     "users": [],
     "firstSeenAt": "2026-10-05T23:15:14.633808+09:00",
-    "lastSeenAt": "2026-10-06T13:15:14.045944+09:00"
+    "lastSeenAt": "2026-10-06T13:30:17.868860+09:00"
   },
   {
     "title": "Linuxカーネルの脆弱性が一挙1313件も報告される、AI普及で「個々の脆弱性を追う対策は限界」との指摘",
@@ -3859,44 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-02T09:00:15.644771+09:00",
     "lastSeenAt": "2026-10-03T10:15:13.347167+09:00"
-  },
-  {
-    "title": "思考を整理できる便利ツール「Obsidian」を愛用する6つの理由 | ライフハッカー・ジャパン",
-    "url": "https://www.lifehacker.jp/article/2610-obsidian-deep-research-hpq/",
-    "domain": "www.lifehacker.jp",
-    "count": 173,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.lifehacker.jp/article/2610-obsidian-deep-research-hpq/",
-    "screenshot": "https://media.loom-app.com/loom/2026/09/30/9b115887-524b-4f35-801e-8bf77d637a1b/original.png?w=1200&h=630&f=jpg",
-    "description": "リサーチプロジェクトはすぐに混沌としてしまうものです。 だからこそ、思考やアイデアをスムーズにつなぎ、使いやすいツールが必要です。それが私にとっての「Obsidian」なのです。 1. 双方向リンクでノート同士をつなげられるWordのような直線的なツールでは、ノート同士を論理的に結びつけられず、スクロールで迷子に...",
-    "hatenaDate": "2026-10-01T14:05:52Z",
-    "users": [],
-    "firstSeenAt": "2026-10-02T08:45:12.681586+09:00",
-    "lastSeenAt": "2026-10-03T00:45:15.515895+09:00"
-  },
-  {
-    "title": "免許証の悪用防止で申し込み集中　JICCがアプリ受付を一時休止　タイムズカー漏えいの影響か",
-    "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001943/",
-    "domain": "www.itmedia.co.jp",
-    "count": 45,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/01/2000001943/",
-    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/01/2000001943/10008196/2048",
-    "description": "信用情報機関の日本信用情報機構（JICC）は10月1日、免許証などの悪用を防ぐ「本人申告コメント」と、自分の信用情報を確認する「本人開示」について、申し込み集中を受けてスマートフォンアプリからの受付を一時休止していると発表した。9月28日にパーク24グループが公表したカーシェアサービス「タイムズカー」の情報...",
-    "hatenaDate": "2026-10-01T11:38:41Z",
-    "users": [],
-    "firstSeenAt": "2026-10-02T08:15:13.562042+09:00",
-    "lastSeenAt": "2026-10-02T18:00:15.651613+09:00"
-  },
-  {
-    "title": "OpenAIはテストの監視が不十分であるという社内警告を繰り返し無視して追加のセキュリティ対策をせず迅速なリリースを優先していた",
-    "url": "https://gigazine.net/news/20261001-openai-ignored-warnings/",
-    "domain": "gigazine.net",
-    "count": 17,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261001-openai-ignored-warnings/",
-    "screenshot": "https://i.gzn.jp/img/2026/10/01/openai-ignored-warnings/00.jpg",
-    "description": "OpenAIではAIエージェントが社内テスト中に誤ってHugging Faceをハッキングしてしまった事例など、複数のインシデントが発生しています。OpenAIのAIモデルが暴走を始める数か月前に、従業員が経営幹部に警告を送っていたものの、経営幹部はその警告を無視していたことが社内メールから明らかになりました。 OpenAI Ignor...",
-    "hatenaDate": "2026-10-01T14:01:59Z",
-    "users": [],
-    "firstSeenAt": "2026-10-02T08:15:13.562042+09:00",
-    "lastSeenAt": "2026-10-02T12:30:33.405925+09:00"
   }
 ]
