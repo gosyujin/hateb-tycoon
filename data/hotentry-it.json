@@ -1,42 +1,107 @@
 [
   {
+    "title": "Gemini無料版、10月9日から「Flash-Lite」のみに",
+    "url": "https://japan.cnet.com/article/35253255/",
+    "domain": "japan.cnet.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35253255/",
+    "screenshot": "https://japan.cnet.com/storage/2026/04/16/2902dfdaf54ec0b0034b0119ae2c9843/gemini-logo-gettyimages-2246856729_1280x960.jpg",
+    "description": "Googleは、生成AI「Gemini」のアプリで、プランごとに利用できるAIモデルを見直すとヘルプページで明らかにした。無料ユーザーは10月9日から、これまで使えた「Flash」と「Pro」が使えなくなり、速度を重視した「Flash-Lite」のみ利用できるようになる。対象は、個人のGoogleアカウントでGeminiアプリを使う場合だ。 有...",
+    "hatenaDate": "2026-10-05T23:47:12Z",
+    "users": [],
+    "firstSeenAt": "2026-10-06T09:30:13.664328+09:00",
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
+  },
+  {
+    "title": "これで今年2度目。Googleの「AIによる概要」でトラフィックが激減→Googleを訴えるも敗訴【やじうまWatch】",
+    "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2145540.html",
+    "domain": "internet.watch.impress.co.jp",
+    "count": 6,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/yajiuma/2145540.html",
+    "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2145/540/yajiuma-watch_4.png",
+    "description": null,
+    "hatenaDate": "2026-10-05T07:50:48Z",
+    "users": [],
+    "firstSeenAt": "2026-10-06T09:30:13.664328+09:00",
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
+  },
+  {
+    "title": "@subql/common ソフトウェアサプライチェーン攻撃の概要と対策指針 - GMO Flatt Security Blog",
+    "url": "https://blog.flatt.tech/entry/2026/10/06/021103",
+    "domain": "blog.flatt.tech",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.flatt.tech/entry/2026/10/06/021103",
+    "screenshot": "https://cdn.image.st-hatena.com/image/scale/d8eb68e9a9dbbb7853d42e11310ef0a9eb2a225f/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ff%2Fflattsecurity%2F20261006%2F20261006084954.png",
+    "description": "2026年10月5日、npm パッケージ @subql/common に悪性コードが注入されました。@subql/common は、SubQuery の GitHub リポジトリ subquery/subql で開発されているパッケージです。 注入された悪性コードは、Infostealer と C2 クライアントの機能を併せ持つマルウェアです。postinstall フック経由で実行され、AWS・Gi...",
+    "hatenaDate": "2026-10-06T00:06:09Z",
+    "users": [],
+    "firstSeenAt": "2026-10-06T09:30:13.664328+09:00",
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
+  },
+  {
+    "title": "「人間vs人型ロボット」のケージマッチを開催した企業に停止命令、無許可開催は軽犯罪に問われる可能性",
+    "url": "https://gigazine.net/news/20261005-human-vs-robot/",
+    "domain": "gigazine.net",
+    "count": 6,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261005-human-vs-robot/",
+    "screenshot": "https://i.gzn.jp/img/2026/10/05/human-vs-robot/00.png",
+    "description": "人型ロボットによる格闘イベントを手がけるロボット企業「REK」が人間と人型ロボットを実際に戦わせるケージマッチを開催したところ、カリフォルニア州体育委員会(CSAC)から同様の試合を無許可で開催しないよう停止命令を受けたことが分かりました。 Robotics startup has real human vs. robot cage match, California ...",
+    "hatenaDate": "2026-10-05T09:37:54Z",
+    "users": [],
+    "firstSeenAt": "2026-10-06T09:30:13.664328+09:00",
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
+  },
+  {
+    "title": "AIが9割コードを書く時代、エンジニアは何を楽しむのか？｜sattoチーム",
+    "url": "https://note.com/satto_softbank/n/nd9ba32aaaeeb",
+    "domain": "note.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/satto_softbank/n/nd9ba32aaaeeb",
+    "screenshot": "https://assets.st-note.com/production/uploads/images/318888271/rectangle_large_type_2_bcd6ce78cf49e1adde01bdf83db97308.jpeg?fit=bounds&quality=85&width=1280",
+    "description": "AIとつくる「余白」──sattoのモバイル開発を、ほぼ1人で担うエンジニアの話「資料をつくる・探す・更新する」という、多くのビジネスパーソンにとって“地味だけど重い”業務。そこに生成AIで真正面から向き合っているのが、ソフトバンクの法人向けサービス 「satto（satto workspace）」 です。 AIとの対話だけで情報収集...",
+    "hatenaDate": "2026-10-05T04:34:38Z",
+    "users": [],
+    "firstSeenAt": "2026-10-06T09:30:13.664328+09:00",
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
+  },
+  {
     "title": "【西川和久の不定期コラム】 ちょい古ゲーミングPCで「Qwen3.8-Flash-Next」を動せる「Strata」を試してみた！",
     "url": "https://pc.watch.impress.co.jp/docs/column/nishikawa/2145673.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/nishikawa/2145673.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2145/673/C00.jpg",
     "description": null,
     "hatenaDate": "2026-10-05T22:54:32Z",
     "users": [],
     "firstSeenAt": "2026-10-06T09:15:14.711799+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "日経新聞サイバー攻撃で情報漏えいか なりすましメールが送信 | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261004de54358",
     "domain": "news.web.nhk",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261004de54358",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261004de54358/20261004de54358_E0000042678_1_l.jpg",
     "description": "日本経済新聞社は社員が使っていた業務用ソフトのアカウントがサイバー攻撃を受け、社員になりすましたメールおよそ9000件が送信されたと発表しました。 メールアドレスなどの情報が漏えいしたとみられるとい…",
     "hatenaDate": "2026-10-05T00:04:40Z",
     "users": [],
     "firstSeenAt": "2026-10-06T09:15:14.711799+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "ランサム集団キリンの中心メンバー、日本で拘束　アサヒにも「攻撃」（朝日新聞） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/e8c753300f37b0f2ba619bfe706422fe59ed0d6b",
     "domain": "news.yahoo.co.jp",
-    "count": 21,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/e8c753300f37b0f2ba619bfe706422fe59ed0d6b",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261006-00000001-asahi-000-4-view.jpg?exp=10800",
     "description": "昨年9月末のアサヒグループホールディングスへのサイバー攻撃について、犯行声明を出したハッカー集団「Qilin」のウェブサイトの一部=セキュリティー会社提供（朝日新聞）　世界各国の企業などにサイバー攻撃を繰り返すランサムウェア（身代金ウイルス）集団「Qilin（キリン）」の中心メンバーでロシア国籍の男（28）を...",
     "hatenaDate": "2026-10-05T23:08:08Z",
     "users": [],
     "firstSeenAt": "2026-10-06T08:45:14.752867+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "GitHub Changelog Digest (Sep 2026) - プププなテクブ",
@@ -49,7 +114,7 @@
     "hatenaDate": "2026-10-05T10:09:34Z",
     "users": [],
     "firstSeenAt": "2026-10-06T08:45:14.752867+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "TCPに代わる通信プロトコル「Homa」をスタンフォード大学名誉教授が提唱、AI時代は1ミリ秒の遅延でもGPUが待たされる",
@@ -62,85 +127,85 @@
     "hatenaDate": "2026-10-05T23:08:07Z",
     "users": [],
     "firstSeenAt": "2026-10-06T08:45:14.752867+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "日立製作所とアンソロピックが提携、「米国AIの軍門に降った」と思う人が知らない事実",
     "url": "https://diamond.jp/articles/-/400443",
     "domain": "diamond.jp",
-    "count": 10,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/diamond.jp/articles/-/400443",
     "screenshot": "https://dol.ismcdn.jp/mwimgs/e/d/-/img_ede15384fa2ae56880b8b6636e77dd25316642.jpg",
     "description": "日立製作所の笠戸事業所（山口県下松市）で製造されたJR九州の885系特急電車。独自開発したアルミダブルスキン構造の次世代鉄道車両システム「A-train」が採用されている　Photo:PIXTA 日立製作所が米Anthropicとの戦略的提携を発表しました。このニュースを見て、「日立ほどの企業でも基盤AIでは米国の軍門に降ったのか...",
     "hatenaDate": "2026-10-05T11:40:57Z",
     "users": [],
     "firstSeenAt": "2026-10-06T08:45:14.752867+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "Agent Memory Repo | Cognition",
     "url": "https://cognition.com/agent-memory-repo",
     "domain": "cognition.com",
-    "count": 15,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/cognition.com/agent-memory-repo",
     "screenshot": "https://cognition.com/agent-memory-repo/opengraph-image.png?opengraph-image.0oq~ikeyr93or.png?dpl=dpl_5xSgNNTiqZQgC566CcEoNw5BhoN6",
     "description": "Agent Memory RepoAgents work better when they remember things across sessions. With Agent Memory Repo, your agent saves what it learns from you in real time, and that memory is live across sessions. Memories link to each other, so your agent navigates them like a wiki. The memory loopEvery sessio...",
     "hatenaDate": "2026-10-05T21:37:44Z",
     "users": [],
     "firstSeenAt": "2026-10-06T08:30:14.134946+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "連日の不正アクセスの件、マジでシャレにならないが、こんなやばいの日本だけ？他の国で問題になってないん？「今世界中で起きてる」",
     "url": "https://togetter.com/li/2754581",
     "domain": "togetter.com",
-    "count": 36,
+    "count": 52,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2754581",
     "screenshot": "https://s.tgstc.com/ogp3/1e5c4790ad1e13f117f3938fab321b9c-1200x630.jpeg",
     "description": "企業で相次ぐ“不正アクセス”　狙われる「個人情報」｜FNNプライムオンライン 第三者からの不正アクセスを受けた企業からの情報漏えいが相次いでいます。5日夕方、「焼肉きんぐ」を運営する物語コーポレーションは、公式アプリの会員管理システムが第三者からの不正アクセスを受け、登録され… FNNプライムオンライン",
     "hatenaDate": "2026-10-05T18:31:36Z",
     "users": [],
     "firstSeenAt": "2026-10-06T08:30:14.134946+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "Codex Cloudを利用してコード修正してもらっていたら本名が駄々洩れしていた話 | Pandora Pocket",
     "url": "https://blog.hitsujin.jp/entry/2026/10/05/codex-cloud-git-author",
     "domain": "blog.hitsujin.jp",
-    "count": 35,
+    "count": 40,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.hitsujin.jp/entry/2026/10/05/codex-cloud-git-author",
     "screenshot": null,
     "description": "最近Codex Cloudが新しくなり、OpenAI側のクラウド環境でGitHub連携をして手軽に開発ができるようになりました。 ちょうど土日に実家に帰らないといけない用事があり自宅のPCの電源を入れていなかったのですが、もうすぐ期限が切れてしまうリセット権がもったいなかったので、この機会にCodex Cloudを利用して趣味で制作...",
     "hatenaDate": "2026-10-05T22:42:54Z",
     "users": [],
     "firstSeenAt": "2026-10-06T08:00:14.158215+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "ウナギ稚魚の生産コストが4万円→1800円に　約20分の1以下に削減　水産研究・教育機構が大型水槽を開発 | himanews",
     "url": "https://himanews.jp/2145532462-2/",
     "domain": "himanews.jp",
-    "count": 35,
+    "count": 41,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/himanews.jp/2145532462-2/",
     "screenshot": "https://himanews.jp/wp-content/uploads/2025/07/asghh.jpg",
     "description": "ウナギ稚魚の生産コストが4万円→1800円に　約20分の1以下に削減　水産研究・教育機構が大型水槽を開発 2025 7/08 記事によると… ウナギ稚魚を大量生育でコスト4万円から1800円に　水産研究・教育機構が大型水槽開発 水産研究・教育機構とヤンマーホールディングスなどは8日、ウナギの稚魚の生産コストを大幅に削減できる...",
     "hatenaDate": "2026-10-05T09:34:02Z",
     "users": [],
     "firstSeenAt": "2026-10-06T07:36:28.437081+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "【速報】「多くの方々にご不便とご心配かけ、深くお詫び」大阪公立大が謝罪　ランサムウェアによるサイバー攻撃か　基盤システム障害で全授業が休講中　対面授業は9日以降再開予定 | TBS NEWS DIG",
     "url": "https://newsdig.tbs.co.jp/articles/-/2990268",
     "domain": "newsdig.tbs.co.jp",
-    "count": 34,
+    "count": 37,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/newsdig.tbs.co.jp/articles/-/2990268",
     "screenshot": "https://newsdig.ismcdn.jp/mwimgs/5/5/1200w/img_5574933b6fbfa4fafbab3498e4a38a26215008.jpg",
     "description": "【速報】「多くの方々にご不便とご心配かけ、深くお詫び」大阪公立大が謝罪　ランサムウェアによるサイバー攻撃か　基盤システム障害で全授業が休講中　対面授業は9日以降再開予定",
     "hatenaDate": "2026-10-05T08:15:52Z",
     "users": [],
     "firstSeenAt": "2026-10-06T06:30:16.562074+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "SystemVerilogの話 | ドクセル",
@@ -153,20 +218,20 @@
     "hatenaDate": "2026-10-05T14:04:59Z",
     "users": [],
     "firstSeenAt": "2026-10-06T04:00:31.836762+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "AWSにログインする方法8選",
     "url": "https://zenn.dev/aws_japan/articles/aws-login-methods",
     "domain": "zenn.dev",
-    "count": 25,
+    "count": 26,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/aws_japan/articles/aws-login-methods",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--7mSP0UuT--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AWS%25E3%2581%25AB%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%25958%25E9%2581%25B8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Hikotty%2520%252F%2520Hikoto%2520I...%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZmZTY2NGI3N2IuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25A2%25E3%2583%259E%25E3%2582%25BE%25E3%2583%25B3%2520%25E3%2582%25A6%25E3%2582%25A7%25E3%2583%2596%2520%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%2520%25E3%2582%25B8%25E3%2583%25A3%25E3%2583%2591%25E3%2583%25B3%2520%2528%25E6%259C%2589%25E5%25BF%2597%2529%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q5ZTY0MmNkYTMuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "この表から読み取れるベストプラクティスは、失効しない長期的なクレデンシャルを端末に置かないことです。長期アクセスキーは削除するまで有効なので、漏れればそのまま使われ続けます。一時クレデンシャルも漏れれば使われますが、最長でも 12 時間で失効します。 また、MFA が求められるのは、コンソールや IAM Ident...",
     "hatenaDate": "2026-10-05T02:06:00Z",
     "users": [],
     "firstSeenAt": "2026-10-06T02:31:04.273857+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "大阪公立大システム障害 ランサムウエアによるサイバー攻撃か | NHKニュース",
@@ -192,7 +257,7 @@
     "hatenaDate": "2026-10-05T09:16:54Z",
     "users": [],
     "firstSeenAt": "2026-10-06T02:00:13.295482+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "API キーはどこから漏れるのか？ 自分のサイトに来た .env 探し 1,566 件と、公開事例を 7 つの経路に分けてみた - Qiita",
@@ -205,7 +270,7 @@
     "hatenaDate": "2026-10-05T00:15:05Z",
     "users": [],
     "firstSeenAt": "2026-10-06T01:30:17.085131+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "Gemini無料版、10月9日から「Flash-Lite」のみに変更",
@@ -224,14 +289,14 @@
     "title": "AIでサイバー攻撃のコスト激減　数行の指示だけで27社に侵入、カード情報60万件超が流出 - 週刊アスキー",
     "url": "https://weekly.ascii.jp/elem/000/004/439/4439882/",
     "domain": "weekly.ascii.jp",
-    "count": 117,
+    "count": 120,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/weekly.ascii.jp/elem/000/004/439/4439882/",
     "screenshot": "https://ascii.jp/img/2026/10/05/4534129/l/86f89d76cd582831.jpg",
     "description": "わずか数行の指示を出すだけで、AIが脆弱性を探し、侵入し、カード情報まで盗み出す──。サイバー攻撃の自動化が実戦段階に迫っている。 セキュリティ企業Gambit Securityの9月22日の報告によると、金銭目的の攻撃者が複数のオープンソースAIエージェントを使い、数百店のオンラインショップを攻撃した。2026年9月10～15...",
     "hatenaDate": "2026-10-05T08:05:24Z",
     "users": [],
     "firstSeenAt": "2026-10-05T23:15:14.633808+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "Linuxカーネルの脆弱性が一挙1313件も報告される、AI普及で「個々の脆弱性を追う対策は限界」との指摘",
@@ -263,27 +328,27 @@
     "title": "Claude Codeのルーティンを利用した開発フローの自動化 - RAKUS Developers Blog | ラクス エンジニアブログ",
     "url": "https://tech-blog.rakus.co.jp/entry/20261005/claude-code-routines",
     "domain": "tech-blog.rakus.co.jp",
-    "count": 48,
+    "count": 49,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech-blog.rakus.co.jp/entry/20261005/claude-code-routines",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/f35bcf77e8499c1266ad2f1e5ab877401dba397c/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftech-rakus%2F20261005%2F20261005102405.png",
     "description": "目次 はじめに サマリ 人間はタスクを完全には並列処理できない 以前にも承認待ちの課題は存在していた 作った仕組みと設計上の工夫 issueの選定条件を明確にする 1回の実行で1 issueだけ扱う 複数のリポジトリを横断してコンテキストを集める まとめ 参考文献 はじめに AIにコードを書いてもらえるようになると、実装は...",
     "hatenaDate": "2026-10-05T06:24:18Z",
     "users": [],
     "firstSeenAt": "2026-10-05T22:30:15.889271+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "iOS27の「ショートカット」に35以上の新アクション・機能改善が追加！ - iPhone Mania",
     "url": "https://iphone-mania.jp/ios-607006/",
     "domain": "iphone-mania.jp",
-    "count": 30,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/iphone-mania.jp/ios-607006/",
     "screenshot": "https://iphone-mania.jp/wp-content/uploads/2026/10/05/8b50d586a9e4ffec51875a4806dcb5bd.png",
     "description": "iOS27では、iPhoneの高速化や、ロック画面の新機能、子どもの安全機能など様々な強化が行われています。 「ショートカット」アプリでは、作成手順をスムーズにする機能をはじめ、新規アクションや既存機能の強化、新たなオートメーション条件などあわせて35以上の新機能が追加されました。 本記事では、追加された新機能...",
     "hatenaDate": "2026-10-05T08:55:51Z",
     "users": [],
     "firstSeenAt": "2026-10-05T22:15:16.177987+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "パチンコ店の入場抽選アプリ「777CON-PASS」に不正アクセス　行動エリアやプロフ写真など流出か",
@@ -322,7 +387,7 @@
     "hatenaDate": "2026-10-05T11:11:01Z",
     "users": [],
     "firstSeenAt": "2026-10-05T21:45:14.264172+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "【速報】「多くの方々にご不便とご心配かけ、深くお詫び」大阪公立大が謝罪　ランサムウェアによるサイバー攻撃か　基盤システム障害で全授業が休講中　対面授業は9日以降再開予定（MBSニュース） - Yahoo!ニュース",
@@ -374,7 +439,7 @@
     "hatenaDate": "2026-10-05T05:48:22Z",
     "users": [],
     "firstSeenAt": "2026-10-05T21:30:17.111769+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "大起水産 不正アクセスで約17万5000人分の個人情報漏えいか | NHKニュース",
@@ -497,14 +562,14 @@
     "title": "焼肉きんぐに不正アクセス、1078万人分の情報流出　アプリ登録者ほぼ全員が対象",
     "url": "https://ascii.jp/elem/000/004/440/4440100/",
     "domain": "ascii.jp",
-    "count": 403,
+    "count": 404,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/440/4440100/",
     "screenshot": "https://ascii.jp/img/2026/10/05/4534443/xl/70b1894aaa8d644e.png?20200122",
     "description": "焼肉きんぐを運営する物語コーポレーションは10月5日、公式アプリの会員管理システムが第三者から不正アクセスを受け、会員情報1078万8963件が流出したと発表した。アプリのユーザー登録数は1080万8784件で、ほぼすべてのユーザーが対象となる。 流出した情報には、会員番号、氏名（アプリ登録名）、メールアドレス、電...",
     "hatenaDate": "2026-10-05T09:05:31Z",
     "users": [],
     "firstSeenAt": "2026-10-05T18:45:13.274074+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "焼肉きんぐに不正アクセス、1078万人分の情報流出　アプリ登録者ほぼ全員が対象（アスキー） - Yahoo!ニュース",
@@ -523,14 +588,14 @@
     "title": "AIでコード生成は加速、でも人間の確認が追いつかない問題。t-wadaが示す「レビュー解体」という答え - エンジニアtype | 転職type",
     "url": "https://type.jp/et/feature/31834/",
     "domain": "type.jp",
-    "count": 269,
+    "count": 273,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/type.jp/et/feature/31834/",
     "screenshot": "https://type.jp/et/feature/wp-content/uploads/2026/10/takuto-wada-coding-review-og.jpg",
     "description": "転職・求人情報サイトのtype エンジニアtype ITニュース AIでコード生成は加速、でも人間の確認が追いつかない問題。t-wadaが示す「レビュー解体」という答え NEW! 2026.10.05 ITニュース 和田卓人プログラミングAI 生成AIは「コードを書く」というエンジニアの仕事を急速に変えた。AIと相談しながら実装を進めるだけで...",
     "hatenaDate": "2026-10-05T07:03:43Z",
     "users": [],
     "firstSeenAt": "2026-10-05T18:15:14.025945+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "パーク管理におけるガイドライン違反行為 - Hatena Policies",
@@ -575,14 +640,14 @@
     "title": "アマゾン「Audible」、本の登場人物と会話できる新機能を提供へ",
     "url": "https://japan.cnet.com/article/35253230/",
     "domain": "japan.cnet.com",
-    "count": 256,
+    "count": 257,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35253230/",
     "screenshot": "https://japan.cnet.com/storage/2026/10/05/dc6bb413066ae1e097cd687c296d9cf6/Audible-logo-on-a-green-background_1280x960.jpg",
     "description": "Amazon傘下のAudibleは、オーディオブック配信サービス「Audible」の没入感を高めようとしている。同社は米国時間10月1日、本を聴く体験を広げるため、AIを活用した3つの新機能を発表した。これにより、ユーザーは登場人物のガイドを確認し、物語に参加するとともに、聴いている本に登場する都市や名所について詳しく知...",
     "hatenaDate": "2026-10-05T06:43:08Z",
     "users": [],
     "firstSeenAt": "2026-10-05T17:30:15.446845+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "EDGのC/C++コンパイラがオープンソース化 - Faith and Brave - C++で遊ぼう",
@@ -666,14 +731,14 @@
     "title": "俺のAIプログラミング手法(2026/10/05)",
     "url": "https://zenn.dev/mizchi/articles/ai-coding-loop-formal",
     "domain": "zenn.dev",
-    "count": 415,
+    "count": 416,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mizchi/articles/ai-coding-loop-formal",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--NK9_lu5L--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BF%25BA%25E3%2581%25AEAI%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%259F%25E3%2583%25B3%25E3%2582%25B0%25E6%2589%258B%25E6%25B3%2595%25282026%252F10%252F05%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mizchi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2liclRHT052Z3d3ay1fNGxlcVk4TGNGSlNuX0FoWnpEWVlKaXJNcWc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "棚卸し的な記事です。 人間の役割を定義する モデルの性能を評価する 無茶振りしてどこまで出来るか観察 何ができて、何ができなかったことがドメイン知識になる ループを構築する 自動化して得られた時間で、評価指標を改善する 評価指標を作る どの数値を改善すべきか、トレードオフは何を優先すべきか ループのイテレ...",
     "hatenaDate": "2026-10-05T06:52:58Z",
     "users": [],
     "firstSeenAt": "2026-10-05T16:30:14.345533+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "大和証券、22万件情報漏えいか　顧客約11万人の口座番号も",
@@ -725,7 +790,7 @@
     "hatenaDate": "2026-10-05T04:55:25Z",
     "users": [],
     "firstSeenAt": "2026-10-05T15:30:12.845381+09:00",
-    "lastSeenAt": "2026-10-06T09:15:14.711799+09:00"
+    "lastSeenAt": "2026-10-06T09:30:13.664328+09:00"
   },
   {
     "title": "MOONDROP、有線イヤフォンをワイヤレス化する「EVO 2」。スピーカー用デジタルアンプを活用",
@@ -3833,70 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-01T23:15:16.299963+09:00",
     "lastSeenAt": "2026-10-02T04:15:15.890936+09:00"
-  },
-  {
-    "title": "Anthropicの営業チームはClaudeの自動返信で成約件数を2.5倍にした",
-    "url": "https://gigazine.net/news/20261001-inbound-claude-managed-agents/",
-    "domain": "gigazine.net",
-    "count": 10,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261001-inbound-claude-managed-agents/",
-    "screenshot": "https://i.gzn.jp/img/2026/10/01/inbound-claude-managed-agents/00.jpg",
-    "description": "Anthropicで営業開発リーダーを務めるカール・ジョンソン氏が、ほとんどの問い合わせにAI・Claudeが対応している状況と、それによって営業チームの働き方がどのように変わったのかについて解説しています。 How Anthropic's sales team rebuilt inbound with Claude Managed Agents | Claude by Anthropic https://claud...",
-    "hatenaDate": "2026-10-01T02:52:05Z",
-    "users": [],
-    "firstSeenAt": "2026-10-01T22:30:18.751594+09:00",
-    "lastSeenAt": "2026-10-02T00:30:22.816761+09:00"
-  },
-  {
-    "title": "素材と完成動画を見せるだけ　“型”を覚えたAIに動画編集をどこまで託せるか　GPT-6 Astraで試す",
-    "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001910/",
-    "domain": "www.itmedia.co.jp",
-    "count": 13,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/01/2000001910/",
-    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/01/2000001910/10008086/2048",
-    "description": "8月下旬に、「ChatGPT」に米Adobeのプラグインを導入してクラウド上のツールを使って画像処理させるという方法を試した。静止画はかなりうまく動作するのに対し、動画は機能的にまだプアなこと、クラウド上に映像をアップロードしなければならないことなどの制約があり、十分とはいえない結果となった。 一方で9月にはデ...",
-    "hatenaDate": "2026-10-01T00:08:58Z",
-    "users": [],
-    "firstSeenAt": "2026-10-01T22:15:56.397341+09:00",
-    "lastSeenAt": "2026-10-02T02:30:15.190721+09:00"
-  },
-  {
-    "title": "サイバー攻撃より怖い？　ドラッグ＆ドロップの操作ミス、原始的な「ファイルを選択」でヒューマンエラーを防げるか",
-    "url": "https://www.itmedia.co.jp/pcuser/articles/2610/01/news077.html",
-    "domain": "www.itmedia.co.jp",
-    "count": 34,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/pcuser/articles/2610/01/news077.html",
-    "screenshot": "https://image.itmedia.co.jp/pcuser/articles/2610/01/cover_news077.jpg",
-    "description": "サイバー攻撃より怖い？　ドラッグ＆ドロップの操作ミス、原始的な「ファイルを選択」でヒューマンエラーを防げるか（1/2 ページ） TOPPANが運用を受託する「保険料控除証明書発行サービス」で、損害保険ジャパンの契約者17万7426人分のデータが他の損害保険会社1社に誤って送付されてしまうというインシデントが9月29日...",
-    "hatenaDate": "2026-10-01T08:22:14Z",
-    "users": [],
-    "firstSeenAt": "2026-10-01T21:45:17.840003+09:00",
-    "lastSeenAt": "2026-10-02T09:00:15.644771+09:00"
-  },
-  {
-    "title": "RedditがAIボット対策としてRSSフィードを廃止し公開APIへのアクセスを終了すると発表",
-    "url": "https://gigazine.net/news/20261001-reddit-killing-rss-feeds-end-public-api/",
-    "domain": "gigazine.net",
-    "count": 11,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261001-reddit-killing-rss-feeds-end-public-api/",
-    "screenshot": "https://i.gzn.jp/img/2026/10/01/reddit-killing-rss-feeds-end-public-api/00_m.jpg",
-    "description": "現地時間の2026年9月30日(水)、RedditがRSSフィードのサポート終了を発表しました。 Continuing our infrastructure updates: What’s changing in the coming months : r/modnews https://www.reddit.com/r/modnews/comments/1wubgvt/continuing_our_infrastructure_updates_whats/ Reddit is killing RSS feeds and end...",
-    "hatenaDate": "2026-10-01T02:37:14Z",
-    "users": [],
-    "firstSeenAt": "2026-10-01T21:45:17.840003+09:00",
-    "lastSeenAt": "2026-10-02T01:30:15.800342+09:00"
-  },
-  {
-    "title": "「FDE」は常駐SEのすげ替えなのか　“人月商売の死”を打破したい国内SIer、打開策は意外なところに？",
-    "url": "https://www.itmedia.co.jp/business/articles/2610/01/news040.html",
-    "domain": "www.itmedia.co.jp",
-    "count": 31,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/business/articles/2610/01/news040.html",
-    "screenshot": "https://image.itmedia.co.jp/business/articles/2610/01/cover_news040.jpg",
-    "description": "FP技能士センター正会員。中央大学卒業後、フィンテックスタートアップにて金融商品取引業者の設立や事業会社向けサービス構築を手がけたのち、広告DX会社を創業。サム・アルトマン氏創立のWorld財団における日本コミュニティスペシャリストを経てX Capital株式会社へ参画。 「FDE」という言葉を聞く機会が増えた。Forwa...",
-    "hatenaDate": "2026-09-30T23:35:01Z",
-    "users": [],
-    "firstSeenAt": "2026-10-01T21:45:17.840003+09:00",
-    "lastSeenAt": "2026-10-02T09:00:15.644771+09:00"
   }
 ]
