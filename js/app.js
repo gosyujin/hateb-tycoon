@@ -488,7 +488,7 @@
   // 一覧ページの横スワイプでカテゴリータブを前後に移動する。
   // 左スワイプ(指を左へ)で次のカテゴリー、右スワイプで前のカテゴリー。
   // 端のカテゴリーではそれ以上折り返さない。
-  addSwipeListener(listView, (deltaX) => {
+  function swipeCategory(deltaX) {
     const categories = HatenaAPI.CATEGORIES;
     const index = categories.findIndex((c) => c.key === currentCategory);
     if (index === -1) return;
@@ -497,7 +497,7 @@
     const params = new URLSearchParams();
     params.set('cat', categories[nextIndex].key);
     navigate('/', params);
-  });
+  }
 
   function disconnectScrollObserver() {
     if (scrollObserver) {
@@ -1884,8 +1884,16 @@
 
   // 記事ページも一覧と同じ向き: 左スワイプで次の記事、右スワイプで前の記事。
   // 端の記事では何もしない(goToRelativeEntryがfalseを返す)。
-  addSwipeListener(entryView, (deltaX) => {
+  function swipeEntry(deltaX) {
     goToRelativeEntry(deltaX < 0 ? 1 : -1);
+  }
+
+  // リスナーはセクション要素ではなくdocumentに付ける。セクションは中身の高さしか
+  // 持たないため、記事が少ない/読み込み中などで画面下部やmainの余白がスワイプ不能になっていた。
+  addSwipeListener(document, (deltaX) => {
+    if (!settingsModal.hidden) return;
+    if (!listView.hidden) swipeCategory(deltaX);
+    else if (!entryView.hidden) swipeEntry(deltaX);
   });
 
   window.addEventListener('keydown', (e) => {
