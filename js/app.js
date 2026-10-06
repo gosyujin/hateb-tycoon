@@ -1265,8 +1265,8 @@
       ruleValueInput.focus({ preventScroll: true });
     } else {
       // ドメイン/ユーザークリック経由でpresetを設定した後、歯車アイコンから
-      // 開き直した際に選択が残ってしまわないよう、都度デフォルト(タイトル)に戻す。
-      ruleTypeSelect.value = 'title';
+      // 開き直した際に選択が残ってしまわないよう、都度デフォルト(タイトルとブックマークコメント)に戻す。
+      ruleTypeSelect.value = 'titlecomment';
       ruleValueInput.value = '';
     }
   }
@@ -1564,7 +1564,9 @@
     const type = ruleTypeSelect.value;
     const value = ruleValueInput.value;
     if (!value.trim()) return;
-    Filters.addRule(currentSettingsKind, type, value);
+    // 「タイトルとブックマークコメント」はUI上の擬似種別で、実体はtitleとcommentの2ルール
+    const types = type === 'titlecomment' ? ['title', 'comment'] : [type];
+    for (const t of types) Filters.addRule(currentSettingsKind, t, value);
     ruleValueInput.value = '';
     renderRuleList();
     render();
