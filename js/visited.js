@@ -50,6 +50,34 @@
     if (typeof markListener === 'function') markListener();
   }
 
+  // 一覧の記事をまとめて既読にする(一括既読)。コメントページは開いていないため
+  // コメント有無は不明で、グレーアウト対象にならない hasComments:true として記録する。
+  // 戻り値は既読にした件数。
+  function markManyVisited(items) {
+    const map = load();
+    const now = Date.now();
+    let n = 0;
+    for (const item of items) {
+      if (!item || !item.url) continue;
+      map[item.url] = {
+        time: now,
+        count: typeof item.count === 'number' ? item.count : 0,
+        hasComments: true,
+      };
+      n++;
+    }
+    if (n === 0) return 0;
+    const keys = Object.keys(map);
+    if (keys.length > MAX_ENTRIES) {
+      keys.sort((a, b) => map[a].time - map[b].time);
+      const excess = keys.length - MAX_ENTRIES;
+      for (let i = 0; i < excess; i++) delete map[keys[i]];
+    }
+    save(map);
+    if (typeof markListener === 'function') markListener();
+    return n;
+  }
+
   // 既読が増えたことを js/sync.js に知らせるためのフック(sync.js側から登録する)
   let markListener = null;
   function setMarkListener(fn) {
@@ -158,5 +186,5 @@
     return rec && typeof rec.time === 'number' ? rec.time : null;
   }
 
-  global.Visited = { markVisited, setMarkListener, getAll, mergeRemote, loadThreshold, saveThreshold, getReadState, hasNoComments, getLastVisitTime };
+  global.Visited = { markVisited, markManyVisited, setMarkListener, getAll, mergeRemote, loadThreshold, saveThreshold, getReadState, hasNoComments, getLastVisitTime };
 })(window);

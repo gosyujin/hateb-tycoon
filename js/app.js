@@ -1453,6 +1453,20 @@
     settingsModal.hidden = true;
   }
   settingsBtn.addEventListener('click', () => openSettings());
+
+  // 一括既読: 一覧に表示中(検索・フィルタ適用後)の未読/更新ありの記事をすべて既読にする。
+  const markAllReadBtn = document.getElementById('mark-all-read-btn');
+  markAllReadBtn.addEventListener('click', () => {
+    if (listView.hidden || !hasLoadedList) return;
+    const targets = currentVisibleEntries.filter((item) => Visited.getReadState(item) !== 'read');
+    if (targets.length === 0) {
+      window.alert('未読の記事はありません');
+      return;
+    }
+    if (!window.confirm(`表示中の未読${targets.length}件をすべて既読にしますか?`)) return;
+    Visited.markManyVisited(targets);
+    updateListView(window.scrollY > 0 ? window.scrollY : null);
+  });
   settingsClose.addEventListener('click', closeSettings);
   settingsModal.addEventListener('click', (e) => {
     if (e.target === settingsModal) closeSettings();

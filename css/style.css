@@ -1070,6 +1070,27 @@ a.btn {
   .list-controls {
     flex-shrink: 1;
     min-width: 0;
+    flex-wrap: nowrap;
+    gap: 6px;
+    width: 100%;
+  }
+  .list-controls .sort-label {
+    min-width: 0;
+  }
+  .list-controls .sort-label select {
+    max-width: 100%;
+    font-size: 14px;
+  }
+  .list-controls .visited-toggle {
+    white-space: nowrap;
+  }
+  .list-controls .layout-toggle {
+    gap: 4px;
+    margin-left: auto;
+  }
+  .list-controls .layout-toggle .tab {
+    padding: 3px 7px;
+    font-size: 0.7rem;
   }
 
   /* .rule-form(種別セレクト・値入力・追加ボタン)はflexのままだと各要素が
