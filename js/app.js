@@ -1506,6 +1506,93 @@
     openSettings({ kind: 'mute', type: 'user', value: userBtn.dataset.user });
   });
 
+  // ---- 選択文字からのクイックフィルタ ----
+  // 一覧・個別記事ページで文字を選択すると、選択範囲の近くにポップアップを出し、
+  // 選んだ対象(タイトルとコメント/タイトル/コメント/URL)でミュートに直接登録する。
+  const selectionPopup = document.createElement('div');
+  selectionPopup.id = 'selection-popup';
+  selectionPopup.hidden = true;
+  selectionPopup.innerHTML = [
+    ['titlecomment', 'タイトルとコメント'],
+    ['title', 'タイトル'],
+    ['comment', 'コメント'],
+    ['url', 'URL'],
+  ]
+    .map(([t, label]) => `<button type="button" class="btn btn--small" data-type="${t}">${label}</button>`)
+    .join('');
+  document.body.appendChild(selectionPopup);
+  let selectionText = '';
+  let selectionTimer = null;
+
+  function hideSelectionPopup() {
+    selectionPopup.hidden = true;
+    selectionText = '';
+  }
+
+  function updateSelectionPopup() {
+    const sel = window.getSelection();
+    const text = sel ? sel.toString().trim() : '';
+    if (!sel || sel.rangeCount === 0 || !text || !settingsModal.hidden) {
+      hideSelectionPopup();
+      return;
+    }
+    const range = sel.getRangeAt(0);
+    const node = range.commonAncestorContainer;
+    const el = node.nodeType === 1 ? node : node.parentElement;
+    if (!el || selectionPopup.contains(el) || el.closest('input, textarea, select')) {
+      if (!el || !selectionPopup.contains(el)) hideSelectionPopup();
+      return;
+    }
+    const inView = (v) => !v.hidden && v.contains(el);
+    if (!inView(listView) && !inView(entryView)) {
+      hideSelectionPopup();
+      return;
+    }
+    selectionText = text;
+    const rects = range.getClientRects();
+    const last = rects.length ? rects[rects.length - 1] : range.getBoundingClientRect();
+    selectionPopup.hidden = false;
+    const w = selectionPopup.offsetWidth;
+    const h = selectionPopup.offsetHeight;
+    const margin = 8;
+    let x = last.right - w / 2;
+    let y = last.bottom + margin;
+    if (y + h > window.innerHeight - margin) y = Math.max(margin, last.top - h - margin);
+    x = Math.min(Math.max(margin, x), window.innerWidth - w - margin);
+    selectionPopup.style.left = `${x}px`;
+    selectionPopup.style.top = `${y}px`;
+  }
+
+  document.addEventListener('selectionchange', () => {
+    clearTimeout(selectionTimer);
+    // ドラッグ中・ハンドル操作中は選択が確定するまで待つ
+    selectionTimer = setTimeout(updateSelectionPopup, 300);
+  });
+  // ボタン押下でテキスト選択が外れないようにする
+  selectionPopup.addEventListener('mousedown', (e) => e.preventDefault());
+  window.addEventListener('scroll', hideSelectionPopup, { passive: true });
+
+  selectionPopup.addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-type]');
+    if (!btn || !selectionText) return;
+    const value = selectionText;
+    const types = btn.dataset.type === 'titlecomment' ? ['title', 'comment'] : [btn.dataset.type];
+    for (const t of types) Filters.addRule('mute', t, value);
+    window.getSelection().removeAllRanges();
+    hideSelectionPopup();
+    if (!listView.hidden) {
+      render();
+    } else {
+      // 個別記事ページ: 保持済みのコメントにも即時反映する(再取得はしない)
+      const before = entryVisibleComments.length;
+      entryVisibleComments = entryVisibleComments.filter(
+        (b) => !Filters.isHidden({ title: '', domain: '', user: b.user, comment: b.comment })
+      );
+      entryHiddenByFilterCount += before - entryVisibleComments.length;
+      applyEntrySearchAndRender();
+    }
+  });
+
   // ?ボタンで各セクションの説明(.hint)を開閉する(PC・タッチ共通)
   document.querySelectorAll('.help-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
