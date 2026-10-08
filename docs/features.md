@@ -42,6 +42,7 @@ README「機能」「判定ロジック」および「技術的な注意点」�
 
 ## 機能の挙動(旧README「技術的な注意点」より)
 
+- **「全て」タブのデータ**: `scripts/fetch_hotentry.py`が全カテゴリーをurl基準で重複排除した`data/hotentry-everything.json`を同時に生成し、アプリはこの1本だけを取得します(以前は10本取得してブラウザでマージしており、遅い1本に全体が引きずられていた)。ファイルが無い/取れない時は従来のカテゴリー別取得+マージ(`getEverythingEntriesFromCategories`)にフォールバックします。Service Workerの`DATA_FILES`にも含めています。
 - **一覧の先出し表示**: `renderListView`は、Cache Storageに前回取得分があればそれを先に描画し(`HatenaAPI.getCachedHotEntries`)、裏でネットワーク取得して内容が変わった時だけ差し替えます(スクロール位置維持)。キャッシュが無い時だけ「読み込み中…」で待ちます。取得失敗時も先出しした一覧は消しません。カテゴリー切替で古い取得結果が上書きしないよう`listRenderSeq`で世代管理しています。
 - **一覧の自動リフレッシュ**: 一覧データは静的JSONでサーバーからpushできないため、feed-tycoonと同じく「ページが前面に戻った時(`visibilitychange`)に、最後の読み込みから5分以上経っていれば読み直す」方式にしています(`refreshListIfStale()`)。通常の読み込み(`renderListView`)は一覧を一度空にしますが、自動リフレッシュは**取得に成功し、かつ内容が変わっていた場合のみ**差し替え、スクロール位置も維持します。オフライン復帰などで取得に失敗しても表示中の一覧は消えません。
 - **自動スクロール**: ヘッダーの▶️/⏸️でON/OFF。状態は`localStorage`(`hateb-tycoon:autoScroll`)に保存し、一覧⇔記事・前後の記事へ移動してもONのまま続く。`requestAnimationFrame`で`window`を設定画面で変えられる速度(既定毎秒20px、`hateb-tycoon:autoScrollSpeed`)で下へ送るだけで、wheel/touch/keydownの直後1.5秒は一時停止して手動操作を邪魔しない。設定画面を開いている間も一時停止し(状態は変えず、閉じれば再開)。

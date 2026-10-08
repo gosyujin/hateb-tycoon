@@ -52,7 +52,12 @@ const REAL_CATEGORY_KEYS = [
   'entertainment',
   'game',
 ];
-const DATA_FILES = ['data/meta.json', ...REAL_CATEGORY_KEYS.map((k) => `data/hotentry-${k}.json`)];
+// 'everything'は「全て」タブ用に全カテゴリーをマージ済みのデータ(scripts/fetch_hotentry.py)。
+const DATA_FILES = [
+  'data/meta.json',
+  'data/hotentry-everything.json',
+  ...REAL_CATEGORY_KEYS.map((k) => `data/hotentry-${k}.json`),
+];
 
 async function copyFromOldDataCaches(dataCache, path) {
   try {

@@ -207,7 +207,17 @@
     return merged;
   }
 
+  // 1本にマージ済みのデータ(hotentry-everything.json)を優先する。まだ無い/取れない時は
+  // 従来どおり各カテゴリーを取得してマージする。
   async function getEverythingEntries() {
+    try {
+      return await fetchCategoryJson(EVERYTHING_KEY);
+    } catch (e) {
+      return getEverythingEntriesFromCategories();
+    }
+  }
+
+  async function getEverythingEntriesFromCategories() {
     // 1カテゴリーの失敗で「全て」全体が失敗しないよう、取れたものだけでマージする
     // (全滅した場合のみエラー)。欠けた分は次の自動リフレッシュで補われる。
     const settled = await Promise.allSettled(REAL_CATEGORY_KEYS.map(fetchCategoryJson));
@@ -231,6 +241,8 @@
       const entries = await read(slug);
       return Array.isArray(entries) ? entries : null;
     }
+    const premerged = await read(EVERYTHING_KEY);
+    if (Array.isArray(premerged)) return premerged;
     const lists = await Promise.all(REAL_CATEGORY_KEYS.map(read));
     if (lists.every((l) => !Array.isArray(l))) return null;
     return mergeEverything(lists.map((l) => (Array.isArray(l) ? l : [])));

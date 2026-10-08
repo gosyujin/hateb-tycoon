@@ -132,6 +132,29 @@ def prune(existing_by_url, now_dt):
     return kept[:MAX_ENTRIES_PER_CATEGORY]
 
 
+def build_everything():
+    """「全て」タブ用に、全カテゴリーをurl基準で重複排除してマージしたデータを作る。
+
+    アプリは以前、10ファイルを取得してブラウザ側でマージしていた(js/hatena-api.jsの
+    mergeEverythingと同じ規則: 「総合」を土台に、無い記事だけを他カテゴリーから追加)。
+    リクエストを1本にして、遅い1本に全体が引きずられるのを避けるため事前に作る。
+    """
+    merged = []
+    seen = set()
+    for category in CATEGORIES:
+        path = DATA_DIR / f"hotentry-{category}.json"
+        try:
+            entries = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        for entry in entries:
+            if entry.get("url") in seen:
+                continue
+            seen.add(entry.get("url"))
+            merged.append(entry)
+    return merged
+
+
 def main():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     now_jst = datetime.now(timezone.utc).astimezone(JST)
@@ -162,6 +185,13 @@ def main():
 
         out_path.write_text(json.dumps(entries, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"[ok] {category}: 累計{len(entries)}件(新規+{max(new_count, 0)}) -> {out_path}")
+
+    if len(failures) < len(CATEGORIES):
+        everything = build_everything()
+        (DATA_DIR / "hotentry-everything.json").write_text(
+            json.dumps(everything, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        )
+        print(f"[ok] everything: {len(everything)}件")
 
     next_estimate_jst = now_jst + timedelta(minutes=30)
     meta = {"nextEstimate": next_estimate_jst.strftime("%H:%M")}
