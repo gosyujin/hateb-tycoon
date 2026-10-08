@@ -2,6 +2,10 @@
 
 1エントリ1〜3行。バージョン番号は採番しておらず、日付とコミットhashで管理する(新しい順)。調査・判断に経緯があるものは [docs/decisions/](docs/decisions/) にあり、該当エントリからリンクする。自動コミット「Update hotentry data」は除く。
 
+## 2026-10-09
+
+- `HASH` Added: ファビコン(`icons/favicon-48.png`)とiOSホーム画面用アイコン(`icons/apple-touch-icon.png`)を追加
+
 ## 2026-10-08
 
 - `26f4c95` Changed: 起動時、一覧ページはGist取り込み(最大3秒)を待たずに描画し、フィルタが変わった時だけ絞り直す
