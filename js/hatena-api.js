@@ -193,13 +193,8 @@
   // 「全て」は実データファイルを持たない仮想カテゴリー。「総合」を土台に、
   // 総合には無いがそれ以外のカテゴリーには存在する記事(url基準で判定)を
   // 追加してマージする。
-  async function getEverythingEntries() {
-    // 1カテゴリーの失敗で「全て」全体が失敗しないよう、取れたものだけでマージする
-    // (全滅した場合のみエラー)。欠けた分は次の自動リフレッシュで補われる。
-    const settled = await Promise.allSettled(REAL_CATEGORY_KEYS.map(fetchCategoryJson));
-    const ok = settled.filter((r) => r.status === 'fulfilled');
-    if (ok.length === 0) throw settled[0].reason;
-    const [allEntries, ...restEntries] = settled.map((r) => (r.status === 'fulfilled' ? r.value : []));
+  function mergeEverything(lists) {
+    const [allEntries, ...restEntries] = lists;
     const merged = [...allEntries];
     const seenUrls = new Set(allEntries.map((e) => e.url));
     for (const entries of restEntries) {
@@ -212,10 +207,33 @@
     return merged;
   }
 
+  async function getEverythingEntries() {
+    // 1カテゴリーの失敗で「全て」全体が失敗しないよう、取れたものだけでマージする
+    // (全滅した場合のみエラー)。欠けた分は次の自動リフレッシュで補われる。
+    const settled = await Promise.allSettled(REAL_CATEGORY_KEYS.map(fetchCategoryJson));
+    const ok = settled.filter((r) => r.status === 'fulfilled');
+    if (ok.length === 0) throw settled[0].reason;
+    return mergeEverything(settled.map((r) => (r.status === 'fulfilled' ? r.value : [])));
+  }
+
   async function getHotEntries(category) {
     const slug = category || 'all';
     if (slug === EVERYTHING_KEY) return getEverythingEntries();
     return fetchCategoryJson(slug);
+  }
+
+  // 前回取得分(Cache Storage)だけで一覧を作る。ネットワークを待たずに先に表示するための
+  // もの。何も無ければnull。「全て」は取れたカテゴリーだけでマージする。
+  async function getCachedHotEntries(category) {
+    const slug = category || 'all';
+    const read = (key) => readListFromCacheStorage(`data/hotentry-${encodeURIComponent(key)}.json`);
+    if (slug !== EVERYTHING_KEY) {
+      const entries = await read(slug);
+      return Array.isArray(entries) ? entries : null;
+    }
+    const lists = await Promise.all(REAL_CATEGORY_KEYS.map(read));
+    if (lists.every((l) => !Array.isArray(l))) return null;
+    return mergeEverything(lists.map((l) => (Array.isArray(l) ? l : [])));
   }
 
   // JSONP取得+整形+localStorage保存までをひとまとめにした「生の取得」。
@@ -354,6 +372,7 @@
     getStarCounts,
     starKey,
     getHotEntries,
+    getCachedHotEntries,
     getEntryInfo,
     prefetchEntryInfo,
   };

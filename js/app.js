@@ -574,7 +574,13 @@
     scrollObserver.observe(sentinel);
   }
 
+  // カテゴリー切替・再描画で古い取得結果が新しい一覧を上書きしないための世代番号。
+  let listRenderSeq = 0;
+
+  // 前回取得分(Cache Storage)があれば先に描画し、裏でネットワーク取得して内容が変わった
+  // 時だけ差し替える。キャッシュが無い時だけ従来どおり「読み込み中…」で待つ。
   async function renderListView(restoreScrollY) {
+    const seq = ++listRenderSeq;
     disconnectScrollObserver();
     entryGrid.innerHTML = '';
     baseEntries = [];
@@ -584,15 +590,34 @@
     renderedCount = 0;
     listStatus.textContent = '読み込み中…';
     listLoading = true;
+    const category = currentCategory;
     try {
-      const entries = await HatenaAPI.getHotEntries(currentCategory);
+      const cached = await HatenaAPI.getCachedHotEntries(category).catch(() => null);
+      if (seq !== listRenderSeq) return;
+      let shownFromCache = false;
+      if (cached && cached.length > 0) {
+        applyLoadedEntries(cached);
+        updateListView(restoreScrollY);
+        shownFromCache = true;
+      }
+      const entries = await HatenaAPI.getHotEntries(category);
+      if (seq !== listRenderSeq) return;
+      if (shownFromCache && JSON.stringify(entries) === listSignature) {
+        listLoadedAt = Date.now();
+        return;
+      }
+      const scrollY = window.scrollY;
       applyLoadedEntries(entries);
-      updateListView(restoreScrollY);
+      updateListView(shownFromCache ? (scrollY > 0 ? scrollY : null) : restoreScrollY);
     } catch (err) {
+      if (seq !== listRenderSeq) return;
       console.error(err);
-      listStatus.textContent = `取得に失敗しました: ${err.message}(アプリに戻る/オンラインになると再取得します)`;
+      // 先出しした一覧が見えている間は消さない(オフライン等)
+      if (!hasLoadedList) {
+        listStatus.textContent = `取得に失敗しました: ${err.message}(アプリに戻る/オンラインになると再取得します)`;
+      }
     } finally {
-      listLoading = false;
+      if (seq === listRenderSeq) listLoading = false;
     }
   }
 
