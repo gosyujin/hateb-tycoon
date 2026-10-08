@@ -1,5 +1,31 @@
 [
   {
+    "title": "Anthropic、「Claude Haiku 5.5」を発表 ～1年ぶりの小型モデル、最速・最安を更新／高頻度・コスト重視の用途にピッタリ、「Opus」「Sonnet」の手足にも",
+    "url": "https://forest.watch.impress.co.jp/docs/news/2146582.html",
+    "domain": "forest.watch.impress.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2146582.html",
+    "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2146/582/image1.png",
+    "description": null,
+    "hatenaDate": "2026-10-07T23:09:16Z",
+    "users": [],
+    "firstSeenAt": "2026-10-08T15:30:13.881736+09:00",
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
+  },
+  {
+    "title": "Anthropic、「Claude Haiku 5.5」のAPI料金を「Haiku 4.5」の10分の1に　「Sonnet 5.5」のキャッシュ読み込み料金は半額に",
+    "url": "https://www.itmedia.co.jp/aiplus/article/2610/08/2000002114/",
+    "domain": "www.itmedia.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2610/08/2000002114/",
+    "screenshot": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/08/2000002114/10008791/2048",
+    "description": "米Anthropicは10月7日（現地時間）、小型モデル「Claude Haiku 5.5」のAPI提供を始めた。料金は多くの用途で前世代の「Claude Haiku 4.5」の10分の1に下がり、実際の利用では平均で約75％安くなるとしている。 同時に「Claude Sonnet 5.5」のキャッシュ読み込み料金を半額にしたほか、PythonとTypeScriptのSDKに、ブラウ...",
+    "hatenaDate": "2026-10-08T02:23:34Z",
+    "users": [],
+    "firstSeenAt": "2026-10-08T15:30:13.881736+09:00",
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
+  },
+  {
     "title": "I stopped letting Claude Code read my whole project, and my usage limit suddenly lasted all day",
     "url": "https://www.makeuseof.com/stopped-claude-code-read-my-whole-project-usage-limit-lasted-all-day/",
     "domain": "www.makeuseof.com",
@@ -10,20 +36,20 @@
     "hatenaDate": "2026-10-08T00:02:53Z",
     "users": [],
     "firstSeenAt": "2026-10-08T15:15:14.159207+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "NVIDIA「RTX Spark」搭載のノートPC「Surface Laptop Ultra」発売　価格は51万3480円から",
     "url": "https://www.itmedia.co.jp/aiplus/article/2610/08/2000002110/",
     "domain": "www.itmedia.co.jp",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2610/08/2000002110/",
     "screenshot": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/08/2000002110/10008772/2048",
     "description": "米Microsoftは10月7日（現地時間）、米NVIDIAと共同開発したプロセッサ「RTX Spark」を搭載するノートPC「Surface Laptop Ultra」の予約受付を始めた。日本語版の販売ページによると、価格は51万3480円からで、16日に出荷予定。 Surface Laptop Ultraは、クリエイターや開発者向けに、オンデバイスでのAI処理性能を高め...",
     "hatenaDate": "2026-10-08T02:49:17Z",
     "users": [],
     "firstSeenAt": "2026-10-08T15:00:13.131493+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "漏えい相次ぐ中、保護委が対策を緊急例示　強い多要素認証やEDR導入、不要な個人データの消去など",
@@ -36,7 +62,7 @@
     "hatenaDate": "2026-10-08T02:49:09Z",
     "users": [],
     "firstSeenAt": "2026-10-08T14:00:13.602569+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "「応用情報技術者試験」申込障害　カード二重決済、「申込完了」でも座席なし……IPAが詳細発表",
@@ -49,7 +75,7 @@
     "hatenaDate": "2026-10-08T03:05:27Z",
     "users": [],
     "firstSeenAt": "2026-10-08T14:00:13.602569+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "[第2報] Movable Type クラウド版におけるIDCFクラウド障害の影響と対応について | Movable Type ニュース",
@@ -62,7 +88,7 @@
     "hatenaDate": "2026-10-08T01:51:18Z",
     "users": [],
     "firstSeenAt": "2026-10-08T13:45:13.856196+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "AIコーディング時代のCS学生へ ── 35年プログラマーからのメッセージ - hasevr’s diary",
@@ -75,20 +101,20 @@
     "hatenaDate": "2026-10-05T14:53:40Z",
     "users": [],
     "firstSeenAt": "2026-10-08T13:45:13.856196+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "APIセキュリティ、どこから見直す？ OWASPとNISTを使った点検の始め方 - 赤帽エンジニアブログ",
     "url": "https://rheb.hatenablog.com/entry/2026/10/07/235338",
     "domain": "rheb.hatenablog.com",
-    "count": 14,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/rheb.hatenablog.com/entry/2026/10/07/235338",
     "screenshot": "https://ogimage.blog.st-hatena.com/10257846132643728507/14945776032087304854/1791384818",
     "description": "こんにちは。レッドハットコンサルティングチームの木嶋です。 最近ニュースでは、情報漏洩事件が日々話題になっていますね。 AIの高度化に伴い、攻撃側によるAIの活用についても報告されるようになりました。 話題に上がる事件の中には、APIが攻撃経路の一つとなったと考えられるケースも含まれています。 この機会に今...",
     "hatenaDate": "2026-10-07T22:54:27Z",
     "users": [],
     "firstSeenAt": "2026-10-08T13:15:13.378488+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "止まらない不正アクセス、背景にAIの“超高速攻撃”か　識者「使われていない方が不自然」",
@@ -101,7 +127,7 @@
     "hatenaDate": "2026-10-08T03:04:58Z",
     "users": [],
     "firstSeenAt": "2026-10-08T13:15:13.378488+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "tensorlake ソフトウェアサプライチェーン攻撃の概要と対策指針 - GMO Flatt Security Blog",
@@ -172,14 +198,14 @@
     "title": "「IDCFクラウド」障害で止まった「MTクラウド版」、「Googleクラウド」のバックアップで「さくらのクラウド」に移行へ",
     "url": "https://www.itmedia.co.jp/news/article/2610/08/2000002120/",
     "domain": "www.itmedia.co.jp",
-    "count": 22,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/08/2000002120/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/08/2000002120/10008815/2048",
     "description": "IDCフロンティアの「IDCFクラウド」の一部サーバがランサムウェア攻撃で停止している問題で、シックス・アパートが提供するCMS「Movable Type（MT） クラウド版」でも10月7日未明、「IDCFクラウドプラン」のサーバ31台が止まった。 シックス・アパートによると「IDCFクラウド上で復旧できる見込みはない」が、顧客のバッ...",
     "hatenaDate": "2026-10-08T02:52:59Z",
     "users": [],
     "firstSeenAt": "2026-10-08T12:30:13.721208+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "ChatGPT、無料版を含む全ユーザーに「GPT-6」　回答内に“操作できる画面”を生成する「Intelligent UI」搭載",
@@ -198,14 +224,14 @@
     "title": "玄関前に異変、まさかクマ！？　ネットワークカメラを設置しました。そこに映っていたのは……【奥川浩彦の「岐阜の山奥に移住しました」第15回】",
     "url": "https://internet.watch.impress.co.jp/docs/column/ijuu/2145481.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/column/ijuu/2145481.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2145/481/001.jpg",
     "description": null,
     "hatenaDate": "2026-10-07T22:18:17Z",
     "users": [],
     "firstSeenAt": "2026-10-08T12:30:13.721208+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "ワークマン、これからは“寒暖差”対応ウェア　独自路線を強化",
@@ -237,27 +263,27 @@
     "title": "直近で相次いでいる国内組織における不正アクセスに関する注意喚起",
     "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
     "domain": "www.jpcert.or.jp",
-    "count": 219,
+    "count": 231,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.jpcert.or.jp/at/2026/at260030.html",
     "screenshot": "https://www.jpcert.or.jp/common/image/ogp_image.jpg",
     "description": "JPCERT-AT-2026-0030 JPCERT/CC 2026-10-08 I. 概要各被害公表や報道のとおり、直近2026年9月前後で国内組織における不正アクセスによる個人情報等の漏えい被害が相次いでいます。 複数の製品やサービスで被害が発生している中、技術的な情報の共有が不足しており、把握している情報は限定的かつ断片的であるものの、攻...",
     "hatenaDate": "2026-10-08T02:17:29Z",
     "users": [],
     "firstSeenAt": "2026-10-08T11:45:13.540551+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "PhotoshopやIllustratorをオープンソースで再構築した「Crafting Apps」が日本語フォント、UIの日本語化に対応",
     "url": "https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/crafting-apps-20261008.html/index.html",
     "domain": "coliss.com",
-    "count": 137,
+    "count": 143,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/coliss.com/wp-content/cache/all/articles/build-websites/operation/work/crafting-apps-20261008.html/index.html",
     "screenshot": "https://coliss.com/wp-content/uploads-202604/2026100800-01@2x.png",
     "description": "10/5に紹介した、PhotoshopやIllustratorをオープンソースで再構築した「Crafting Apps」が早くも日本語フォント、UIの日本語化に対応した模様。 下記の画像はCrafting AppsのPhotoCraftで、PSDを作成し、レイヤーを作成し、日本語フォントを使用したものです。 Crafting Appsは、Photoshop, Illustrator, Premiere Pro,...",
     "hatenaDate": "2026-10-08T00:48:05Z",
     "users": [],
     "firstSeenAt": "2026-10-08T11:45:13.540551+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "「IDCFクラウド」障害の原因はランサムウェア攻撃、ニッスイ、茨城県など495の企業や自治体に影響",
@@ -270,72 +296,72 @@
     "hatenaDate": "2026-10-08T00:56:56Z",
     "users": [],
     "firstSeenAt": "2026-10-08T11:45:13.540551+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "【もう無理だよ…】免許証画像まで流出する時代に、エンジニアは何をすればいいのか - Qiita",
     "url": "https://qiita.com/shinkai_/items/4c6c12324e115a125621",
     "domain": "qiita.com",
-    "count": 88,
+    "count": 92,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/shinkai_/items/4c6c12324e115a125621",
     "screenshot": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnMzLWFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkZxaWl0YS1pbWFnZS1zdG9yZSUyRjAlMkYxMjAzMDIyJTJGMGIxMTAwMjI1ZTY5ZmU3YzVkZWYxYzFlNDVlNzk5M2M3MjU0MTU4MyUyRnhfbGFyZ2UucG5nJTNGMTY3MDk5NjkzMj9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9ZGZiNzlkYTk4ZTljMjBiMmQ1MzhmOTNiNDhjN2UyYWI%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Dbd0ca793ffeb8f6099b8a44174ec6110?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUUzJTgwJTkwJUUzJTgyJTgyJUUzJTgxJTg2JUU3JTg0JUExJUU3JTkwJTg2JUUzJTgxJUEwJUUzJTgyJTg4JUUyJTgwJUE2JUUzJTgwJTkxJUU1JTg1JThEJUU4JUE4JUIxJUU4JUE4JUJDJUU3JTk0JUJCJUU1JTgzJThGJUUzJTgxJUJFJUUzJTgxJUE3JUU2JUI1JTgxJUU1JTg3JUJBJUUzJTgxJTk5JUUzJTgyJThCJUU2JTk5JTgyJUU0JUJCJUEzJUUzJTgxJUFCJUUzJTgwJTgxJUUzJTgyJUE4JUUzJTgzJUIzJUUzJTgyJUI4JUUzJTgzJThCJUUzJTgyJUEyJUUzJTgxJUFGJUU0JUJEJTk1JUUzJTgyJTkyJUUzJTgxJTk5JUUzJTgyJThDJUUzJTgxJUIwJUUzJTgxJTg0JUUzJTgxJTg0JUUzJTgxJUFFJUUzJTgxJThCJnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9N2E2OTE3YWQ0NTdmMzFmY2Y0NGFjZmY5ZTA0NzY1MGY&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBzaGlua2FpXyZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPWYxYjY3MWE3NWQ4ZWQ1OTJjMjhkMzA4NTlmNGMxM2Jk&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=3f1bd75cc6458c26a96a55a512ee0133",
     "description": "このほか、Gyazoでユーザー関連データ約2,362万件、ムラウチドットコムで771万6,811件の個人情報の持ち出しが確認されたと報じられています。 ただしGyazoの件数は、メールアドレス未登録の匿名ユーザーも含みます。 件数を単純に足しても意味がないので、数字は規模感の目安として見るのがよさそうです。 参考：各社公...",
     "hatenaDate": "2026-10-08T00:13:18Z",
     "users": [],
     "firstSeenAt": "2026-10-08T11:30:14.230025+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "衛星はもっと低くなる　スターリンクと中国が競う「超低軌道」通信　日本にも先行技術",
     "url": "https://www.watch.impress.co.jp/docs/topic/2144938.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 41,
+    "count": 43,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/topic/2144938.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2144/938/vleo00.jpg",
     "description": null,
     "hatenaDate": "2026-10-08T01:03:38Z",
     "users": [],
     "firstSeenAt": "2026-10-08T11:30:14.230025+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "How abliterated models can get you pwned | ProjectDiscovery Research",
     "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
     "domain": "projectdiscovery.io",
-    "count": 21,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
     "screenshot": "https://projectdiscovery.io/images/ProjectDiscovery_share.png",
     "description": "← ResearchHow abliterated models can get you pwnedOct 6, 2026 · Prince Chaddha Any open model whose weights have been edited can carry a backdoor, whether it's a task-specific fine-tune, a merged adapter or an abliterated build. We built one to see what it takes, and ran it end to end through a c...",
     "hatenaDate": "2026-10-07T04:46:56Z",
     "users": [],
     "firstSeenAt": "2026-10-08T11:15:14.199390+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "何もできないC言語が好き。『猫でもわかるプログラミング』を30年運営する医師に迫る - レバテックLAB",
     "url": "https://levtech.jp/media/detail_941/",
     "domain": "levtech.jp",
-    "count": 80,
+    "count": 84,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/levtech.jp/media/detail_941/",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/dae37e878efa0e9e1a7775780e1a0e9fb891e7b0/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn.blog.st-hatena.com%2Ffiles%2F6802418398571665203%2F14945776032086770594",
     "description": "医師／「粂井ネット」代表 粂井 康孝（くめい・やすたか） 1955年生まれ。1980年に旭川医科大学を卒業後、内科医に。現在は社会医療法人アンリー・デュナン会 深川第一病院の副院長を務め、糖尿病専門医として診療にあたる。本業の傍ら、1996年にプログラミング初学者向け学習サイト「猫でもわかるプログラミング」を開...",
     "hatenaDate": "2026-10-08T01:14:18Z",
     "users": [],
     "firstSeenAt": "2026-10-08T11:15:14.199390+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "オリコンニュースのYouTubeチャート記事で2位の「INMU KING」がきちんと解説されてネット民が歓喜と困惑…1位になったら日本代表の曲がAI楽曲になるのか",
     "url": "https://togetter.com/li/2755497",
     "domain": "togetter.com",
-    "count": 44,
+    "count": 46,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2755497",
     "screenshot": "https://s.tgstc.com/ogp3/a9da68313c3604c72b57ca0d0dc71054-1200x630.jpeg",
     "description": "オリコンニュース @oricon 🎥今週のYouTubeチャート ⠀ EBiDAN「Yes! 東京」が首位返り咲き❗ ミセスTOP100に13曲ランクイン ⠀ YAJU-MC「INMU KING」2位、 初登場から3週連続で自己最高位を記録 oricon.co.jp/news/2484831/f… ⠀ 🏇初登場でTOP10 Kroi「SPIN」千葉雄喜「死ぬか生きるか」 pic.x.com/pJ3DlatjcL 2026-10-07...",
     "hatenaDate": "2026-10-08T01:33:40Z",
     "users": [],
     "firstSeenAt": "2026-10-08T11:15:14.199390+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "ニッスイ子会社で入出荷停止　IDCFクラウド影響か　委託先データセンターに不正アクセス",
@@ -367,40 +393,40 @@
     "title": "「Windows」アプリの「リモート PC」接続が一般提供に、RDC接続もこのアプリにお任せ／職場または学校のアカウントは不要",
     "url": "https://forest.watch.impress.co.jp/docs/news/2146580.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 102,
+    "count": 103,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2146580.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2146/580/windows_app.jpg",
     "description": null,
     "hatenaDate": "2026-10-07T23:39:51Z",
     "users": [],
     "firstSeenAt": "2026-10-08T09:24:27.790149+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "文章で要件定義するのをやめた。AIでモックを先に作ったら、認識ズレが実装前に全部見つかった - Qiita",
     "url": "https://qiita.com/kazuki_ogawa/items/f1a15a199d9f91fe6080",
     "domain": "qiita.com",
-    "count": 83,
+    "count": 86,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/kazuki_ogawa/items/f1a15a199d9f91fe6080",
     "screenshot": null,
     "description": "はじめに 社内 SaaS に「アプリ内アンケート機能」を追加しました。質問を作るのはビジネス側の責任者、箱を作るのは開発側という分担です。 要件のすり合わせ開始から、実装完了（PR 3本マージ）までは 2 日でした。 速かった理由は、AI の実装力ではありません。要件定義の順序を変えたことです。文章で要件を固めてか...",
     "hatenaDate": "2026-10-05T10:03:47Z",
     "users": [],
     "firstSeenAt": "2026-10-08T09:24:27.790149+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "トラックボールの“玉”をフッ素コーティング。約5秒で乾くエレコム「M-TAFD01」 - エルミタージュ秋葉原",
     "url": "https://www.gdm.or.jp/pressrelease/2026/1007/655190",
     "domain": "www.gdm.or.jp",
-    "count": 97,
+    "count": 98,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.gdm.or.jp/pressrelease/2026/1007/655190",
     "screenshot": "https://www.gdm.or.jp/wp-content/uploads/2026/10/07/M-TAFD01_001.jpg",
     "description": "トラックボールの“玉”をフッ素コーティング。約5秒で乾くエレコム「M-TAFD01」 2026.10.07 13:43 更新 2026.10.07 配信 フッ素コーティングで摩擦を軽減、汚れの付着や水濡れも抑制 エレコム株式会社（本社：大阪府大阪市）は2026年10月7日、トラックボール用ボールメンテナンスキット「M-TAFD01」を発表した。10月上旬...",
     "hatenaDate": "2026-10-07T09:44:28Z",
     "users": [],
     "firstSeenAt": "2026-10-08T09:15:12.173024+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "[AWS 秋のクラウドオペレーション祭り 2026]AWS DevOps Agentで変わる�リリースと運用対応� ~リリース管理機能と� Directed actions のご紹介~",
@@ -413,33 +439,33 @@
     "hatenaDate": "2026-10-07T14:50:05Z",
     "users": [],
     "firstSeenAt": "2026-10-08T09:00:14.293937+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "2026年 情報漏洩・不正アクセスTier表",
     "url": "https://ai.itokoba.com/security-tier/",
     "domain": "ai.itokoba.com",
-    "count": 593,
+    "count": 602,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ai.itokoba.com/security-tier/",
     "screenshot": "https://ai.itokoba.com/security-tier/assets/share.png",
     "description": "D浅い情報の限定的な誤送付等で、削除・回収と転送抑止を裏づけられる事案。低位でも被害ゼロを意味しない。 2026年に公表された国内の事案・国内で利用されるサービス。掲載数は会社数・独立した事件数とは異なります。続報に応じて更新します。 公表日は続報・報道の掲載日を含みます。出典は各事案の詳細記事に掲載し...",
     "hatenaDate": "2026-10-07T11:58:19Z",
     "users": [],
     "firstSeenAt": "2026-10-08T08:30:17.328082+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "IDCFクラウドへのランサムウェア攻撃についてまとめてみた - piyolog",
     "url": "https://piyolog.hatenadiary.jp/entry/2026/10/08/070606",
     "domain": "piyolog.hatenadiary.jp",
-    "count": 217,
+    "count": 219,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/08/070606",
     "screenshot": "https://ogimage.blog.st-hatena.com/10257846132616586766/14945776032087385117/1791428622",
     "description": "2026年10月7日、IDCフロンティアは、同社が提供するクラウドサービス「IDCFクラウド」の一部のシステムが第三者からのランサムウェア攻撃を受け、障害が発生していると公表しました。ここでは関連する情報をまとめます。 東日本リージョン1への攻撃 IDCフロンティアは10月7日13時52分の第1報で、「IDCFクラウド」の一部...",
     "hatenaDate": "2026-10-07T22:19:57Z",
     "users": [],
     "firstSeenAt": "2026-10-08T07:45:12.713421+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "Shipping JPEG XL in Chrome  |  Blog  |  Chrome for Developers",
@@ -465,20 +491,20 @@
     "hatenaDate": "2026-10-07T18:17:08Z",
     "users": [],
     "firstSeenAt": "2026-10-08T06:45:14.168939+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "銀行もやられるの時間の問題だろ。そんな事ありえないwと言うだろうが、銀行のデータ全部消滅したらどうなるんだ。いま預金通帳もってない者多いだろ。おれは持ってるが、記入された残高が今銀行にあると証明するすべがない。その後ATMで引き出してませんか？カード会社が引き落としてませんか？とか。→「これを一番恐れている🥶 ネット証券ネット銀行…。 怖いよ〜😭」",
     "url": "https://posfie.com/@petaritape/p/wXRbWdC",
     "domain": "posfie.com",
-    "count": 276,
+    "count": 277,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@petaritape/p/wXRbWdC",
     "screenshot": "https://s.tgstc.com/ogp3/d0c6627d104be420f82cac52bf7f8206-1200x630.jpeg",
     "description": "ポンピィ @pom_pom_pee 銀行もやられるの時間の問題だろ。そんな事ありえないwと言うだろうが、銀行のデータ全部消滅したらどうなるんだ。いま預金通帳もってない者多いだろ。おれは持ってるが、記入された残高が今銀行にあると証明するすべがない。その後ATMで引き出してませんか？カード会社が引き落としてませんか？...",
     "hatenaDate": "2026-10-07T15:25:49Z",
     "users": [],
     "firstSeenAt": "2026-10-08T06:00:13.603362+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "ニュースリリース",
@@ -497,14 +523,14 @@
     "title": "手動テストを渡すだけでE2Eが完成する仕組みを作りました - kickflow Tech Blog",
     "url": "https://tech.kickflow.co.jp/entry/2026/10/06/105939",
     "domain": "tech.kickflow.co.jp",
-    "count": 107,
+    "count": 108,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.kickflow.co.jp/entry/2026/10/06/105939",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/b2ff18ea014ceee230b8c28046e4f43ca4cab741/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fk%2Fkickflow%2F20260929%2F20260929095655.png",
     "description": "手動テストを渡すだけでE2Eが完成する仕組みを作りました こんにちは、kickflow QAチームのyanagiyaです。 今回は、テスト管理ツールに登録したテストケースを起点に、Playwright のE2Eテストを書いてPRを出すところまでを Claude Code に任せるスキルを作りました。 あわせて、E2E専用のテナントを用意し、どのテストを...",
     "hatenaDate": "2026-10-07T12:22:50Z",
     "users": [],
     "firstSeenAt": "2026-10-08T05:15:13.578949+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "伝書鳩に不正アクセス　野鳩侵入で情報漏えい２４０万件",
@@ -517,7 +543,7 @@
     "hatenaDate": "2026-10-07T15:56:47Z",
     "users": [],
     "firstSeenAt": "2026-10-08T03:30:15.571382+09:00",
-    "lastSeenAt": "2026-10-08T15:15:14.159207+09:00"
+    "lastSeenAt": "2026-10-08T15:30:13.881736+09:00"
   },
   {
     "title": "日銀でシステムの不備を指摘し内部通報した女性職員、無遅刻無欠勤にもかかわらず本採用を拒否され日銀を出禁に→批判が集まるが、女性のやり方にも問題があったのでは？",
@@ -3872,31 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-05T11:45:12.917249+09:00",
     "lastSeenAt": "2026-10-05T14:15:13.142848+09:00"
-  },
-  {
-    "title": "警察が押収したiPhoneの自動再起動を回避してデータを抽出しやすくするツールが登場している",
-    "url": "https://gigazine.net/news/20261005-cops-bypass-iphone-automatic-inactivity-reboot/",
-    "domain": "gigazine.net",
-    "count": 48,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261005-cops-bypass-iphone-automatic-inactivity-reboot/",
-    "screenshot": "https://i.gzn.jp/img/2026/10/05/cops-bypass-iphone-automatic-inactivity-reboot/00.jpg",
-    "description": "iPhoneには、ロック状態のまま一定時間が経過すると自動的に再起動する「非アクティブ時再起動」という機能が搭載されています。そんな非アクティブ時再起動を無効化して、警察が押収したiPhoneからのデータ抽出を容易するためのツールが開発されたと、海外メディアの404 Mediaが報じました。 Cops Can Bypass iPhone’s ...",
-    "hatenaDate": "2026-10-04T22:17:08Z",
-    "users": [],
-    "firstSeenAt": "2026-10-05T09:54:36.794245+09:00",
-    "lastSeenAt": "2026-10-05T18:30:16.108663+09:00"
-  },
-  {
-    "title": "完全版 Claude Mods 入門 | Claude Codeを自由にカスタマイズする",
-    "url": "https://zenn.dev/nogu66/articles/claude-mods-complete-guide",
-    "domain": "zenn.dev",
-    "count": 48,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/nogu66/articles/claude-mods-complete-guide",
-    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--o7J82F_Y--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25AE%258C%25E5%2585%25A8%25E7%2589%2588%2520Claude%2520Mods%2520%25E5%2585%25A5%25E9%2596%2580%2520%257C%2520Claude%2520Code%25E3%2582%2592%25E8%2587%25AA%25E7%2594%25B1%25E3%2581%25AB%25E3%2582%25AB%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%259E%25E3%2582%25A4%25E3%2582%25BA%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nogu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzkxNDc4ZjlhZTUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-    "description": "noguです。 2026年10月1日、Claude CodeのClaude Modsが正式に発表されました。 これは、TypeScriptの関数を用いて、Claude Codeの機能や見た目を自由かつ安全にカスタマイズできる拡張機能の仕組みです。個人的に、この機能はかなり将来性の高い機能だと感じています。 本記事では、Claude Modsの機能について深掘りす...",
-    "hatenaDate": "2026-10-02T01:01:58Z",
-    "users": [],
-    "firstSeenAt": "2026-10-05T09:45:14.106260+09:00",
-    "lastSeenAt": "2026-10-05T17:15:13.868806+09:00"
   }
 ]
