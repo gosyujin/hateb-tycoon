@@ -35,7 +35,7 @@ hateb-tycoon/
 
 ## データの流れ(旧README「技術的な注意点」より)
 
-- **一覧表示(hotentry)の取得経路**: かつて存在した `https://b.hatena.ne.jp/hotentry/{category}.json` という昔ながらのJSON APIは、2026年9月時点で廃止(404)されています。代わりに今も配信されているRSS1.0(RDF)フィード `https://b.hatena.ne.jp/hotentry/{category}.rss` を使いますが、これはCORSヘッダーを返さずブラウザから直接 `fetch()` できません。無料の公開CORSプロキシ(allorigins.win / corsproxy.io / api.codetabs.com)を試しましたが、認証必須化・レート制限・不安定で実運用に耐えないことを確認したため、**GitHub Actions(`hotentry-sync.yml`)が定期的にRSSを取得・パースして `data/hotentry-{category}.json` としてリポジトリにコミットし、ブラウザ側はこの同一オリジンの静的JSONを読むだけ**という構成に変更しました。クロスオリジン通信・第三者プロキシへの依存は完全に無くなっています。
+- **一覧表示(hotentry)の取得経路**: RSSをGitHub Actionsで取得・静的JSON化する構成。経緯は [decisions/hotentry-rss-via-actions.md](decisions/hotentry-rss-via-actions.md)。
   - `scripts/fetch_hotentry.py` はPython標準ライブラリのみで動作します(追加パッケージ不要)。
   - RSSの要素名・名前空間に変更があった場合は `scripts/fetch_hotentry.py` を調整してください。
   - `hotentry-sync.yml` は手動実行(workflow_dispatch)も可能です。
@@ -48,5 +48,5 @@ Service Worker(`service-worker.js`)により以下を実現しています。
 - `install`時にアプリ本体一式(HTML/CSS/JS)と、全カテゴリーの一覧データ(`data/hotentry-*.json`)をまとめて先読みキャッシュします。一覧データは小さいため、開いたことのないカテゴリーでもオフラインで一覧だけは閲覧できます。
 - 同一オリジンへの通常リクエストは「まずネットワーク、失敗したらキャッシュ」方式(`networkFirstThenCache`)です。オンライン中は常に最新を優先し、オフライン時のみキャッシュにフォールバックします。
 - 個別記事のコメント(JSONP)は上記の理由でService Workerからキャッシュできないため、代わりに `js/hatena-api.js` が取得成功時に解析済みデータを`localStorage`へ保存し、オフライン時(JSONP失敗時)はそちらから復元します(`fromOfflineCache`フラグ付きで表示)。設定画面の「オフライン用キャッシュ」から、「全て」カテゴリーの上位n件を明示的に事前取得しておくこともできます。
-- **ナビゲーションリクエストの扱いには注意が必要です**。SPAのため実際のリクエストURL(`https://note.gosyujin.com/hateb-tycoon/` 等、末尾スラッシュの有無やクエリで揺れる)をそのままキャッシュキーにすると、`install`時に`'index.html'`という固定キーで保存した内容と一致せず、オフライン時にキャッシュが見つからず`FetchEvent`が例外で落ちてアプリ全体が起動不能になる不具合がありました(アプリを完全終了してから機内モードで新規起動した場合のみ再現し、サスペンドからの復帰では再現しないため発見が遅れました)。そのため`handleNavigate()`は常に固定キー`'index.html'`で読み書きします。この部分の実装を変更する際は、実URLでのマッチングに戻さないよう注意してください。
+- **ナビゲーションリクエストの扱いには注意が必要です**: 経緯と理由は [decisions/sw-navigate-fixed-key.md](decisions/sw-navigate-fixed-key.md)。`handleNavigate()`は常に固定キー`'index.html'`で読み書きする。
 - `CACHE_VERSION`はデプロイ時(`deploy-pages.yml`)に`__BUILD_SHA__`が実SHAへ置換される仕組みで、デプロイのたびにService Workerが更新されたと認識されます。

@@ -1,6 +1,6 @@
 # 技術的な注意点・不変条件・既知の制限
 
-旧READMEの「技術的な注意点」(architecture.md / features.md に移した項目を除く)、「オフライン対応の仕組み」の不具合対処・検証上の注意、「cronの定期取得が不安定な問題への対処」を、文言を変えずに移したもの。
+触ると壊れる箇所と、その理由。経緯の長いものは [decisions/](decisions/) に1件1ファイルで置いている。
 
 ## 技術的な注意点
 
@@ -10,25 +10,17 @@
 - **長い文字列の折り返し**: タイトルがURLそのままの記事(未ブックマークのURL等)・長いドメイン・エラー文言中のURLなど、途中で区切れない長い文字列は、スマホ幅で横スクロールを起こさないよう`overflow-wrap: anywhere`で折り返す(`.entry-header` / `.status` / `.card-domain` / コメント一覧など)。新しく文字列を表示する要素を足す時は、同様に折り返し指定を付けること。
 - 完全なはてなブックマークUIの再現は行っておらず、記事一覧・コメント一覧の表示に必要最低限のリンク(元記事リンク・はてなブックマークページへのリンク・ユーザーページへのリンク)のみを組み込んでいます。
 
-## オフライン対応: 通信が不安定な時の一覧取得・動作確認
+## 経緯が長い不変条件(decisions/へのリンク)
 
-- **通信が不安定な時の一覧取得(起動と終了を繰り返すスマホPWAで「Load failed」のまま一覧が見られなくなった不具合への対処)**: mainへのpushごと(データ更新コミットも含む)にデプロイされ`CACHE_VERSION`が変わるため、Service Workerは頻繁に更新される。通信が不安定な状態で`install`が走ると、データの先読みは失敗しても黙って無視されるので、データキャッシュが空のまま新版が有効になり、`activate`で旧キャッシュも消える。その状態で一覧の取得が失敗すると戻る先が無く、しかも初回読み込みに失敗すると自動リフレッシュ(`hasLoadedList`前提)も働かないため、タスクキルまで復帰しなかった。実機でしか再現しないため原因は推定。以下で多重に防いでいる(いずれも外さないこと)。
-  - `install`でデータの先読みに失敗したファイルは、旧バージョンのデータキャッシュから引き継ぐ(`copyFromOldDataCaches`)。
-  - `networkFirstThenCache`は、キャッシュ書き込みを`event.waitUntil`で包み(応答後にSWが終了しても途切れない)、8秒でネットワークが応答しなければキャッシュがある場合は先にそれを返す(ハング対策。キャッシュが無ければネットワークを待ち続ける)。
-  - ページ側の`fetchCategoryJson`は15秒でタイムアウトし、失敗したら`caches.match`でCache Storageを直接探す(SWのフォールバックが効かない場合の最後の砦)。「全て」は`Promise.allSettled`で、1カテゴリーが失敗しても取れた分でマージする(全滅の時のみエラー)。
-  - 一覧の初回読み込みに失敗した状態でも、前面復帰(`visibilitychange`)・オンライン復帰(`online`)で再取得する(`retryListIfNotLoaded`)。
+- **ナビゲーションの固定キー**: `handleNavigate()`は実URLではなく固定キー`'index.html'`で読み書きする。詳細: [sw-navigate-fixed-key.md](decisions/sw-navigate-fixed-key.md)
+- **通信不安定時の一覧取得**: `copyFromOldDataCaches` / `networkFirstThenCache`の8秒フォールバック / `fetchCategoryJson`の15秒タイムアウト+`caches.match` / `retryListIfNotLoaded`はいずれも外さない。詳細: [sw-unstable-network-list-fetch.md](decisions/sw-unstable-network-list-fetch.md)
+- **RSS+Actionsによる一覧取得**: [hotentry-rss-via-actions.md](decisions/hotentry-rss-via-actions.md)
+- **cronの不安定対策(ローカルdispatch)**: [cron-local-dispatch.md](decisions/cron-local-dispatch.md)
+
+## 検証上の注意
+
 - **Service Workerの動作確認について**: サンドボックス化されたブラウザ環境(Claude Codeの検証用ブラウザ等)では`navigator.serviceWorker.register()`自体が原因不明のエラーで失敗し、動作確認ができません。Service Worker関連の変更を検証する際は、本番オリジン(https://note.gosyujin.com/hateb-tycoon/)に対して`caches.keys()` / `caches.open()` / `cache.match()`等をブラウザのコンソールから直接実行して確認してください。
 
-### cronの定期取得が不安定な問題への対処
+## 未検証
 
-`hotentry-sync.yml`の`schedule`トリガー(cron)は導入当初から発火が不定期(長時間発火しない、間隔が安定しない)という問題を抱えています。ワークフローファイル名の変更で一時的に改善したように見えたこともありますが、根本解決には至っていません。
-
-この問題を緩和するため、**リポジトリ所有者(gosyujin)のローカルMacから15分おき(毎時00・15・30・45分)にGitHub APIの`workflow_dispatch`エンドポイントを叩いて`hotentry-sync.yml`を強制的に手動起動する仕組み**を導入しています(あくまで補助策で、cronの根本修正ではありません)。
-
-- スクリプト本体(バージョン管理対象): `scripts/hateb-tycoon-dispatch.sh`
-- 認証: GitHubのFine-grained Personal Access Token。**リポジトリには一切含めず**、ローカルMacのKeychainに保存し、スクリプトが実行時に`security find-generic-password`で読み出します。トークンに必要な権限は対象リポジトリの **Actions: Read and write** のみです(Contents権限は不要。誤ってContents権限を付与すると`403 Resource not accessible by personal access token`になります)。
-- 定期実行: macOSのlaunchd(`~/Library/LaunchAgents/`配下にplistを配置)。cronではなくlaunchdを採用しているのは、macOSではlaunchdが標準的な仕組みのためです。
-- **重要な制約**: `scripts/hateb-tycoon-dispatch.sh`をリポジトリ内のパス(Dropbox経由の`~/Library/CloudStorage/Dropbox/...`配下)からlaunchdに直接実行させようとすると、macOSのプライバシー保護(TCC)により`Operation not permitted`で失敗します。DropboxのようなクラウドストレージプロバイダのフォルダはTCCの保護対象で、GUIを持たないバックグラウンドプロセス(launchd経由の実行)には権限プロンプトを出せず、黙って拒否されるためです。そのため、**実際にlaunchdが実行する実体は`~/scripts/hateb-tycoon-dispatch.sh`(TCC非保護のホーム直下)に置き、リポジトリ内のファイルはあくまで正本(バージョン管理・レビュー用)としています**。`scripts/hateb-tycoon-dispatch.sh`を変更した場合は、`~/scripts/hateb-tycoon-dispatch.sh`にも同じ内容を手動でコピーする必要があります。
-- 実行ログ: `~/Library/Logs/hateb-tycoon-dispatch.log`
-
-このローカル自動実行の仕組みはgosyujin個人のMac環境に依存するため、リポジトリをフォークしたり他の環境で動かす場合は関係ありません(cronのschedule自体は`hotentry-sync.yml`単体でも動作します。発火が不安定であるという制約が残るだけです)。
+- 通信が不安定な時の一覧取得不具合(Load failed)は実機でしか再現せず原因は推定のまま([詳細](decisions/sw-unstable-network-list-fetch.md))。対処が効いたかは実機での確認が必要。
