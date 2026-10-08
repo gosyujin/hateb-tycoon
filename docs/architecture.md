@@ -25,8 +25,8 @@ hateb-tycoon/
 ├── scripts/
 │   ├── fetch_hotentry.py         # はてなのRSSを取得しdata/*.jsonを生成するスクリプト
 │   └── hateb-tycoon-dispatch.sh  # hotentry-sync.ymlをローカルから手動起動するスクリプト(正本。
-│                                 #   実運用コピーの配置場所については[decisions/cron-local-dispatch.md](decisions/cron-local-dispatch.md)
-│                                 #   不安定な問題への対処」は decisions/cron-local-dispatch.md を参照)
+│                                 #   実運用コピーの配置場所については
+│                                 #   [decisions/cron-local-dispatch.md](decisions/cron-local-dispatch.md)を参照)
 ├── .github/workflows/
 │   ├── hotentry-sync.yml  # 定期的にdata/*.jsonを更新してmainにコミット(旧fetch-hotentry.yml)
 │   └── deploy-pages.yml   # mainへのpushでGitHub Pagesへデプロイ
