@@ -4,7 +4,7 @@
 
 ## 2026-10-08
 
-- `bc5bb7d` Changed: 一覧をCache Storageの前回分で先出しし、裏で更新して差し替える(「読み込み中…」で何も見れない時間を削減)
+- `4015b66` Changed: 一覧をCache Storageの前回分で先出しし、裏で更新して差し替える(「読み込み中…」で何も見れない時間を削減)
 - `95e9c81` Changed: READMEの詳細をdocs/配下へ複写し、gist-sync-specをfeatures.mdへ統合
 
 ## 2026-10-07
