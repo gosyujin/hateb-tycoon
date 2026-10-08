@@ -629,7 +629,10 @@
   }
   window.addEventListener('online', retryListIfNotLoaded);
 
+  let loadedRawEntries = [];
+
   function applyLoadedEntries(entries) {
+    loadedRawEntries = entries;
     const visible = entries.filter((item) => !Filters.isHidden(item));
     hiddenByFilterCount = entries.length - visible.length;
     baseEntries = visible;
@@ -2035,8 +2038,9 @@
   }
 
   // ---- 起動時のGist自動取り込み ----
-  // フィルタ・既読のGistを最初の描画前に取り込み、最新の設定で一覧を出す。
-  // オフライン等で応答が遅くても起動を待たせないよう、待つのは最大でタイムアウトまで。
+  // 記事ページは既読の判定が取り込み結果に依存するため、従来どおり最初の描画前に
+  // 取り込む(待つのは最大でタイムアウトまで)。一覧ページは待たずに先に描画し、
+  // 取り込みでフィルタが変わった時だけ表示中の一覧を絞り直す。
   const STARTUP_IMPORT_TIMEOUT_MS = 3000;
 
   // ---- 自動スクロール ----
@@ -2139,8 +2143,22 @@
   applyAutoScroll();
   updateListLayoutToggleUI();
   renderFooter();
-  Promise.all([
+  const startupSync = Promise.all([
     FilterSync.syncOnStartup(STARTUP_IMPORT_TIMEOUT_MS),
     Sync.syncOnStartup(STARTUP_IMPORT_TIMEOUT_MS),
-  ]).then(render);
+  ]);
+  if (parseRoute().path === '/entry') {
+    startupSync.then(render);
+  } else {
+    render();
+    startupSync.then(() => {
+      if (!hasLoadedList || listView.hidden) return;
+      const visibleCount = loadedRawEntries.filter((item) => !Filters.isHidden(item)).length;
+      if (visibleCount !== baseEntries.length) {
+        const scrollY = window.scrollY;
+        applyLoadedEntries(loadedRawEntries);
+        updateListView(scrollY > 0 ? scrollY : null);
+      }
+    });
+  }
 })();
