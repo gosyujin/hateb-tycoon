@@ -4,7 +4,7 @@
 
 ## 2026-10-09
 
-- `243a353` Added: ファビコン(`icons/favicon-48.png`)とiOSホーム画面用アイコン(`icons/apple-touch-icon.png`)を追加
+- `6697967` Added: ファビコン(`icons/favicon-48.png`)とiOSホーム画面用アイコン(`icons/apple-touch-icon.png`)を追加
 
 ## 2026-10-08
 
