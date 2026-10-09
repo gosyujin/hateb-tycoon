@@ -1,16 +1,42 @@
 [
   {
+    "title": "【第4報】不正アクセスによる障害への対応体制について | IDCフロンティア",
+    "url": "https://www.idcf.jp/news/topics/20261009001",
+    "domain": "www.idcf.jp",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.idcf.jp/news/topics/20261009001",
+    "screenshot": "https://www.idcf.jp/dcms_media/image/ogp.png",
+    "description": "2026年10月9日 このたびは、多大なるご心配とご迷惑をおかけしておりますことを深くお詫び申し上げます。 2026年10月7日午前3時40分頃から発生している、当社クラウドサービス「IDCFクラウド」※に対する不正アクセスによる障害への対応体制についてお知らせします。 ■緊急対策本部の設置 2026年10月7日午前9時に緊急対策...",
+    "hatenaDate": "2026-10-09T09:45:26Z",
+    "users": [],
+    "firstSeenAt": "2026-10-10T03:15:15.451473+09:00",
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
+  },
+  {
+    "title": "JR東日本、メールアドレス漏洩か　ソフトバンク系への不正アクセス影響 - 日本経済新聞",
+    "url": "https://www.nikkei.com/article/DGXZQOUC0952Q0Z01C26A0000000/",
+    "domain": "www.nikkei.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC0952Q0Z01C26A0000000/",
+    "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3708182009102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=71c6604b53fbbcf00e66526b941911aa",
+    "description": "JR東日本は9日、切符予約サイト「えきねっと」会員のメールアドレスが漏洩した可能性があると発表した。ソフトバンク子会社でクラウドを手がけるIDCフロンティアのデータセンターサービスが不正アクセスを受けた影響によるもの。IDCフロンティアのサーバーを利用しているメール送信に障害が発生しており、一部でメールを...",
+    "hatenaDate": "2026-10-09T06:41:14Z",
+    "users": [],
+    "firstSeenAt": "2026-10-10T03:15:15.451473+09:00",
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
+  },
+  {
     "title": "Let’s Encryptが2027年2月から証明書の有効期間を64日間に短縮",
     "url": "https://gigazine.net/news/20261009-lets-encrypt-cuts-certificate-lifetimes-64-days/",
     "domain": "gigazine.net",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261009-lets-encrypt-cuts-certificate-lifetimes-64-days/",
     "screenshot": "https://i.gzn.jp/img/2026/10/09/lets-encrypt-cuts-certificate-lifetimes-64-days/00_m.jpg",
     "description": "ウェブサーバー向けのSSL/TLS証明書を無料で発行する証明書認証局(CA)が「Let's Encrypt」です。そんなLet's Encryptは、2027年2月10日から証明書の有効期限を従来の90日間から64日間に短縮します。 Let's Encrypt cuts certificate lifetimes to 64 days starting February 2027 - Ars Technica https://arstechnica.co...",
     "hatenaDate": "2026-10-09T02:57:29Z",
     "users": [],
     "firstSeenAt": "2026-10-10T02:15:15.359177+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "無料版ChatGPTにもGPT-6導入！回答に操作できるUIを生成",
@@ -36,20 +62,20 @@
     "hatenaDate": "2026-10-09T06:56:27Z",
     "users": [],
     "firstSeenAt": "2026-10-10T01:45:14.247015+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "Cloudflareに入社します | maguro​.dev",
     "url": "https://maguro.dev/blog/joining-cloudflare/",
     "domain": "maguro.dev",
-    "count": 5,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/maguro.dev/blog/joining-cloudflare/",
     "screenshot": "https://maguro.dev/og/joining-cloudflare.png",
     "description": "Senior Systems Engineer Cloudflareでのタイトルは Senior Systems Engineer になる。 よくあるSoftware Engineerとは違ってSystems Engineer。そのままカタカナにするとシステムズエンジニアだが、日本でいうシステムエンジニア（SE）とはだいぶ違う。 dodaによると、日本のSEは「システム全体の要件定義や設計、構築...",
     "hatenaDate": "2026-10-09T15:24:14Z",
     "users": [],
     "firstSeenAt": "2026-10-10T01:45:14.247015+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "Microsoft 365の「Family」と「Premium」プランでOneDriveの容量が「1人1TB×最大6人」から「全員で2TB」に減少",
@@ -68,14 +94,14 @@
     "title": "Deno is joining Cloudflare",
     "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
     "domain": "blog.cloudflare.com",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.cloudflare.com/deno-joins-cloudflare/",
     "screenshot": "https://blog.cloudflare.com/_emdash/api/media/file/01M4EQTD297Y9G522JDZREGQVB.01M4EQTDKXS2ZN30A8X66WT213.png",
     "description": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects so developers can use the same primitives in more places. For what this means and how it came about, here’s the story from Ryan Dahl, Senior Principal Engineer, and Kenton Varda, Distinguished Engin...",
     "hatenaDate": "2026-10-09T13:25:43Z",
     "users": [],
     "firstSeenAt": "2026-10-10T01:15:13.768034+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "ヤマハ・スズキも漏えいか　交流サイト基盤「コミューン」不正アクセス、計30万会員に影響の恐れ",
@@ -83,12 +109,12 @@
     "domain": "www.itmedia.co.jp",
     "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/09/2000002178/",
-    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/09/2000002178/10008994/2048",
+    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/09/2000002178/10009009/2048",
     "description": "オンラインコミュニティー作成サービスを手掛けるコミューン（東京都品川区）は10月9日、「Commune」「Commune for Work」といったサービスが不正アクセスを受け、約30万7000会員分の情報が漏えいした可能性があると発表した。同社のサービスを使って交流サイトを運営していたスズキやヤマハもそれぞれ影響を公表してい...",
     "hatenaDate": "2026-10-09T10:40:29Z",
     "users": [],
     "firstSeenAt": "2026-10-10T01:15:13.768034+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "アマゾン、米国でAndroid搭載の新タブレット「Amazon Alexa Tablet」を発表、Google Playも利用可",
@@ -107,14 +133,14 @@
     "title": "ドコモの顧客情報1億件超がダークウェブに？　同社「流出は確認していない」",
     "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002177/",
     "domain": "www.itmedia.co.jp",
-    "count": 8,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/09/2000002177/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/09/2000002177/10008990/2048",
     "description": "NTTドコモは10月9日、同社の「dポイント」に関連する約1億1000万件の顧客情報がダークウェブ上で販売されているとするSNS上の投稿について、調査の結果、同様の事実は確認していないと発表した。 Xでは8日ごろから、dポイントの顧客情報がサイバー攻撃によって流出し、ダークウェブ上で販売されているとする投稿が拡散し...",
     "hatenaDate": "2026-10-09T13:59:34Z",
     "users": [],
     "firstSeenAt": "2026-10-10T01:00:15.744314+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "RailsプロダクトにおけるDDD試験導入のリアル — なぜ本格採用を見送り、ActiveRecord中心の設計を選択したのか - stmn tech blog",
@@ -127,7 +153,7 @@
     "hatenaDate": "2026-10-09T04:34:07Z",
     "users": [],
     "firstSeenAt": "2026-10-10T01:00:15.744314+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "News",
@@ -140,7 +166,7 @@
     "hatenaDate": "2017-08-01T03:38:04Z",
     "users": [],
     "firstSeenAt": "2026-10-10T00:45:13.677342+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "国家サイバー統括室、情報漏えい対策を呼びかけ　委託先管理や不要データ削除も",
@@ -153,7 +179,7 @@
     "hatenaDate": "2026-10-09T06:54:53Z",
     "users": [],
     "firstSeenAt": "2026-10-10T00:15:14.024026+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "第一興商、委託先への不正アクセスで「ビッグエコー」などの利用者情報約872万件が漏えいのおそれ",
@@ -231,20 +257,20 @@
     "hatenaDate": "2026-10-09T09:51:48Z",
     "users": [],
     "firstSeenAt": "2026-10-09T23:00:14.931607+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "Sansan、1万人の情報漏洩か　外部クラウドに不正アクセス - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOMG00015_Z01C26A0000000/",
     "domain": "www.nikkei.com",
-    "count": 20,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOMG00015_Z01C26A0000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3709837009102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=03e90cff480fc40549bc6fcd9b368030",
     "description": "Sansanは9日、運営するユーザー向けオンラインコミュニティー「Sansan User Forum（サンサンユーザーフォーラム）」会員の個人情報が流出したと発表した。対象者は漏洩した恐れのある人も含め約1万人。利用する外部クラウドサービスへの不正アクセスが発生した。SansanはSansan User Forumについてコミューン（東京・品...",
     "hatenaDate": "2026-10-09T12:57:25Z",
     "users": [],
     "firstSeenAt": "2026-10-09T23:00:14.931607+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "山中で遭難の16歳少年、登山計画にAI「クロード」利用　救助隊は「ルートの盲信」警鐘",
@@ -257,20 +283,20 @@
     "hatenaDate": "2026-10-09T07:33:18Z",
     "users": [],
     "firstSeenAt": "2026-10-09T23:00:14.931607+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "Deno is joining Cloudflare | Deno",
     "url": "https://deno.com/blog/cloudflare",
     "domain": "deno.com",
-    "count": 50,
+    "count": 52,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/deno.com/blog/cloudflare",
     "screenshot": "https://deno.com/blog/cloudflare/deno-cf-balanced-og.webp",
     "description": "For years, we’ve been working to make building server software simpler. We questioned how modules could be distributed, what security guarantees a JavaScript runtime could provide, what belonged in a complete toolchain, and how easily an application could be distributed as a standalone executable...",
     "hatenaDate": "2026-10-09T13:21:58Z",
     "users": [],
     "firstSeenAt": "2026-10-09T22:45:13.604084+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "【速報】AIで調べた判例実在せず書籍絶版",
@@ -283,20 +309,20 @@
     "hatenaDate": "2026-10-09T11:55:05Z",
     "users": [],
     "firstSeenAt": "2026-10-09T22:45:13.604084+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "Qwen3.8-27Bを8GBに凝縮！メモリ16GBのノートで動く「Saluki 27B」",
     "url": "https://pc.watch.impress.co.jp/docs/news/2147095.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 23,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2147095.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2147/095/1.jpg",
     "description": null,
     "hatenaDate": "2026-10-09T08:40:01Z",
     "users": [],
     "firstSeenAt": "2026-10-09T22:45:13.604084+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "Anthropicがオープンソースプロジェクト向けに無料AIセキュリティスキャンサービスの「OSS Scanner」を開始",
@@ -309,7 +335,7 @@
     "hatenaDate": "2026-10-09T03:34:15Z",
     "users": [],
     "firstSeenAt": "2026-10-09T22:30:14.192055+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "Amazon、「Fire」に代わる新タブレット「Amazon Alexa Tablet」発表　「Amazonキッズタブレット」は日本でも発売へ",
@@ -452,20 +478,20 @@
     "hatenaDate": "2026-10-09T09:05:21Z",
     "users": [],
     "firstSeenAt": "2026-10-09T20:45:13.102322+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "Claude、SQL不要でデータ分析可能に - ダッシュボードを自動生成する新機能",
     "url": "https://news.mynavi.jp/techplus/article/20261009-5099252/",
     "domain": "news.mynavi.jp",
-    "count": 54,
+    "count": 56,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.mynavi.jp/techplus/article/20261009-5099252/",
     "screenshot": "https://news.mynavi.jp/techplus/article/20261009-5099252/ogp_images/ogp.jpg",
     "description": "Anthropicは10月8日、Build live dashboards and animate explainers with Claude において、生成AI「Claude」の新機能「Claude Dashboards」と「Claude Motion」をベータ版として公開した。 Claude Dashboardsは、企業のデータ分析を支援する新機能。データウェアハウスや業務アプリケーションをClaudeに接続し、分析し...",
     "hatenaDate": "2026-10-09T08:31:27Z",
     "users": [],
     "firstSeenAt": "2026-10-09T20:30:13.938515+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "印刷物基準の文字組みをウェブの世界で。日本デザインセンター様から生まれたiOS用文字組みエンジンをJavaScriptに移植しました。 | non-standard world株式会社",
@@ -478,7 +504,7 @@
     "hatenaDate": "2026-10-09T08:06:29Z",
     "users": [],
     "firstSeenAt": "2026-10-09T20:00:14.446224+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "JR東日本「えきねっと」「大人の休日倶楽部」で個人情報約206万件が漏えいの可能性、IDCFクラウドへの攻撃の影響で",
@@ -504,7 +530,7 @@
     "hatenaDate": "2026-10-09T04:53:17Z",
     "users": [],
     "firstSeenAt": "2026-10-09T19:00:10.425241+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "JR東でも600万件漏洩か　ビューカード所有者や「えきねっと」会員など",
@@ -523,14 +549,14 @@
     "title": "アメリカ 運転免許証などの情報 1億5000万件以上が漏えいか | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261009de57294",
     "domain": "news.web.nhk",
-    "count": 326,
+    "count": 329,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261009de57294",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261009de57294/20261009de57294_E0000060897_1_l.jpg",
     "description": "企業への不正アクセスによる被害が相次ぐ中、アメリカでも、不正アクセスによって、個人の運転免許証などの情報が漏えいする被害が明らかになっています。 南部ルイジアナ州に本社があるID確認のサービスを手…",
     "hatenaDate": "2026-10-09T08:13:07Z",
     "users": [],
     "firstSeenAt": "2026-10-09T18:15:13.483707+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "「スカイチケット」に不正アクセス、計1467万件の個人情報流出　ハッシュ化されたパスワードも",
@@ -549,14 +575,14 @@
     "title": "不正アクセスによる漏えい等の事案を踏まえ、速やかに実施すべき対策等について | 情報セキュリティ | IPA 独立行政法人 情報処理推進機構",
     "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html",
     "domain": "www.ipa.go.jp",
-    "count": 346,
+    "count": 348,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.ipa.go.jp/security/security-alert/2026/alert20261009.html",
     "screenshot": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.jpg",
     "description": "注釈：追記すべき情報がある場合には、その都度このページを更新する予定です。 概要 直近において、国内の金融機関や通信事業者等の幅広い事業者から、不正アクセスの被害による情報漏えい事案の公表が相次いで行われています。特に、大量の個人情報を取り扱うオンラインサービス・アカウントサービス等に関するシステ...",
     "hatenaDate": "2026-10-09T06:26:14Z",
     "users": [],
     "firstSeenAt": "2026-10-09T17:00:13.083228+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "TOHOシネマズが「カーペット下のLANケーブルが“踏まれて断線”→敷き直し」から脱却　70館以上でどう実現した？",
@@ -588,14 +614,14 @@
     "title": "JR東、「えきねっと」などで漏えいか　メルアドなど最大206万件　IDCFクラウドへの不正アクセスで",
     "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002171/",
     "domain": "www.itmedia.co.jp",
-    "count": 139,
+    "count": 141,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/09/2000002171/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/09/2000002171/10008972/2048",
     "description": "JR東日本は10月9日、列車予約サービス「えきねっと」と会員制サービス「大人の休日倶楽部」のにおいて、最大約206万件の利用者情報が漏えいした可能性があると発表した。7日にIDCフロンティアが公表した不正アクセスが原因で、メール配信用の外部サービスに保存していた利用者の情報が第三者に閲覧・取得された恐れがあ...",
     "hatenaDate": "2026-10-09T06:26:00Z",
     "users": [],
     "firstSeenAt": "2026-10-09T16:30:13.932603+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "音声対話のための音声合成・音声認識エンジン、speech.cppを作ってみた話",
@@ -627,40 +653,40 @@
     "title": "国内で相次ぐ不正アクセス、AIエージェントによる攻撃の可能性 約40分間で326のIPアドレスを使い分け、1,200件超のアクセスを繰り返す | 株式会社サイバーセキュリティクラウド",
     "url": "https://www.cscloud.co.jp/news/report/202610099351/?lang=en",
     "domain": "www.cscloud.co.jp",
-    "count": 135,
+    "count": 136,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.cscloud.co.jp/news/report/202610099351/?lang=en",
     "screenshot": "https://www.cscloud.co.jp/wp/wp-content/uploads/2026/10/596440af58eb84faa39f0be6f5b5058e.png",
     "description": "2026.10.09 国内で相次ぐ不正アクセス、AIエージェントによる攻撃の可能性 約40分間で326のIPアドレスを使い分け、1,200件超のアクセスを繰り返す 公開日：2026年10月9日 セキュリティインテリジェンス本部 西川 彰 2026年9月前後から国内組織で相次いでいる不正アクセス事案に関連し、株式会社マクニカが公開した「重点...",
     "hatenaDate": "2026-10-09T04:50:18Z",
     "users": [],
     "firstSeenAt": "2026-10-09T16:15:14.828959+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "これには驚いた！ 今度はExcelやWordやPower Pointをオープンソースで再構築、Win、Mac、Linux、Web対応で無料",
     "url": "https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/3-microsoft-apps-open-sourced.html/index.html",
     "domain": "coliss.com",
-    "count": 195,
+    "count": 196,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/coliss.com/wp-content/cache/all/articles/build-websites/operation/work/3-microsoft-apps-open-sourced.html/index.html",
     "screenshot": "https://coliss.com/wp-content/uploads-202604/2026100901@2x.png",
     "description": "今週はCrafting Appsの記事ばかりになっています。 Photoshopを再構築したオープンソース版「PhotoCraft」の日本語対応など、Adobeのアプリ7種類を毎日のようにアップデートしている中、なんとExcelやWordやPower Pointも同様にMicrosoftのコードを一切使用せずに、完全に新しいコードを使用して各アプリの機能を忠実に...",
     "hatenaDate": "2026-10-09T05:32:26Z",
     "users": [],
     "firstSeenAt": "2026-10-09T16:00:18.772960+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "米国防総省にも不正アクセス　個人情報300万人分が平文で漏えいか……発覚までに9カ月",
     "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002158/",
     "domain": "www.itmedia.co.jp",
-    "count": 78,
+    "count": 79,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/09/2000002158/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/09/2000002158/10008934/2048",
     "description": "この頃、セキュリティ界隈で 米国防総省にも不正アクセス　個人情報300万人分が平文で漏えいか……発覚までに9カ月 米国防総省の国防人事データセンター（DMDC）のサーバが不正アクセスされ、軍人や元軍人など300万人余りの個人情報が何者かに閲覧されていたことが分かった。米国では連邦捜査局（FBI）もサイバー攻撃を受...",
     "hatenaDate": "2026-10-09T05:41:13Z",
     "users": [],
     "firstSeenAt": "2026-10-09T15:42:57.358420+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "JR東日本 えきねっとなどで最大200万件の情報漏えいの可能性 | NHKニュース",
@@ -764,7 +790,7 @@
     "hatenaDate": "2026-10-09T03:07:01Z",
     "users": [],
     "firstSeenAt": "2026-10-09T14:00:14.361358+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "Codex+エージェント群で構築した自律型開発ループ：ロリポップ！AIゲートウェイ開発の舞台裏 - Pepabo Tech Portal",
@@ -803,7 +829,7 @@
     "hatenaDate": "2026-10-09T03:48:34Z",
     "users": [],
     "firstSeenAt": "2026-10-09T13:30:12.983439+09:00",
-    "lastSeenAt": "2026-10-10T03:00:13.501583+09:00"
+    "lastSeenAt": "2026-10-10T03:15:15.451473+09:00"
   },
   {
     "title": "新gTLD申請、日本からも多数　講談社「.manga」、東映アニメ「.anime」、ドコモ「.docomo」など",
@@ -3872,31 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-07T06:30:13.621272+09:00",
     "lastSeenAt": "2026-10-07T19:30:17.395594+09:00"
-  },
-  {
-    "title": "出版取次の日販、米AI企業への書籍販売を認める　業界団体に回答：朝日新聞",
-    "url": "https://www.asahi.com/articles/ASVB63TSFVB6UCVL02YM.html",
-    "domain": "www.asahi.com",
-    "count": 21,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVB63TSFVB6UCVL02YM.html",
-    "screenshot": "https://imgopt.asahi.com/ogp/AS20261006003814_comm.jpg",
-    "description": "出版取次大手の日販グループホールディングスが米AI（人工知能）開発企業に書籍を販売していた疑いをめぐり、事実確認を求めていた日本書籍出版協会（書協）に対して、日販側が販売した事実を認めたことが6日、…",
-    "hatenaDate": "2026-10-06T17:37:25Z",
-    "users": [],
-    "firstSeenAt": "2026-10-07T06:14:01.160887+09:00",
-    "lastSeenAt": "2026-10-07T12:00:12.860531+09:00"
-  },
-  {
-    "title": "出版取次の日販、米AI企業への書籍販売を認める　業界団体に回答：朝日新聞",
-    "url": "https://www.asahi.com/sp/articles/ASVB63TSFVB6UCVL02YM.html",
-    "domain": "www.asahi.com",
-    "count": 16,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/sp/articles/ASVB63TSFVB6UCVL02YM.html",
-    "screenshot": "https://imgopt.asahi.com/ogp/AS20261006003814_comm.jpg",
-    "description": "出版取次大手の日販グループホールディングスが米AI（人工知能）開発企業に書籍を販売していた疑いをめぐり、事実確認を求めていた日本書籍出版協会（書協）に対して、日販側が販売した事実を認めたことが6日、…",
-    "hatenaDate": "2026-10-06T14:01:10Z",
-    "users": [],
-    "firstSeenAt": "2026-10-07T05:45:13.481315+09:00",
-    "lastSeenAt": "2026-10-07T10:30:13.908499+09:00"
   }
 ]
