@@ -1,29 +1,68 @@
 [
   {
+    "title": "ファインディの開発文化 - 小さな積み重ねと、それを支える仕組み - Findy Tech Blog",
+    "url": "https://tech.findy.co.jp/entry/2026/10/09/070000",
+    "domain": "tech.findy.co.jp",
+    "count": 7,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.findy.co.jp/entry/2026/10/09/070000",
+    "screenshot": "https://cdn.image.st-hatena.com/image/scale/b898ad5052c3b91340b2c364f39bad2732c8ad66/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fstarfish719%2F20261008%2F20261008114435.png",
+    "description": "こんにちは。ファインディ株式会社でプリンシパルエンジニアをしている戸田です。 このテックブログではこれまでファインディの開発組織の取り組みを紹介してきました。一方で、開発組織の文化を紹介した記事はあまりありませんでした。 そこで今回は、弊社のことをさらに知ってもらうためにファインディの開発文化を紹...",
+    "hatenaDate": "2026-10-09T00:41:58Z",
+    "users": [],
+    "firstSeenAt": "2026-10-09T12:15:14.509698+09:00",
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
+  },
+  {
+    "title": "大規模な個人情報漏えい事案を踏まえ、個人情報保護委員会が事業者向けの注意喚起 - INTERNET Watch",
+    "url": "https://internet.watch.impress.co.jp/docs/news/2146804.html",
+    "domain": "internet.watch.impress.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2146804.html",
+    "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2146/804/01.png",
+    "description": null,
+    "hatenaDate": "2026-10-08T21:01:30Z",
+    "users": [],
+    "firstSeenAt": "2026-10-09T12:15:14.509698+09:00",
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
+  },
+  {
+    "title": "RubyGems/Bundler 4.1 で追加される override と prune の紹介 - ANDPAD Tech Blog",
+    "url": "https://tech.andpad.co.jp/entry/2026/10/09/100000",
+    "domain": "tech.andpad.co.jp",
+    "count": 7,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.andpad.co.jp/entry/2026/10/09/100000",
+    "screenshot": "https://cdn.image.st-hatena.com/image/scale/7b37b49e6b16060189c178091abc92865e579eef/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fsezemi%2F20261008%2F20261008185347.png",
+    "description": "こんにちは、Ruby コミッタの柴田 (hsbt) です。夏のあいだに master へ入れた変更がそれなりの量になっていて、4.1.0 向けのリリースノートを書き始める前から分量に圧倒されています。 RubyGems と Bundler の 4.1.0.beta2 を 2026 年 10 月 8 日にリリースしました。4.1 では新しい機能がいくつか入っているので、何...",
+    "hatenaDate": "2026-10-09T01:07:49Z",
+    "users": [],
+    "firstSeenAt": "2026-10-09T12:15:14.509698+09:00",
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
+  },
+  {
     "title": "2台並んだATMで隣のおばあさんから「わたし操作分からないのでやってもらえない？」と頼まれたが「わたしはやりません、分からないならそのインターホンで聞いて」と答えた",
     "url": "https://togetter.com/li/2755848",
     "domain": "togetter.com",
-    "count": 16,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2755848",
     "screenshot": "https://s.tgstc.com/ogp3/1ee12075e319afc5b7326af1c1b0f180-1200x630.jpeg",
     "description": "宮森 朋🦈🦄🐑🧸 @okameinkononoe 今日2台並んだAＴMで隣のおばあさんから声かけられた ちょっと、わたし操作分からないのでやってもらえない？ お金の事は人に頼んだらダメ、わたしはやりません、分からないならそのインターホンで聞いて 色々言ってだけどすぐその場を離れた 以前、これでお金取ったって叫ばれた事ある...",
     "hatenaDate": "2026-10-08T23:58:06Z",
     "users": [],
     "firstSeenAt": "2026-10-09T11:30:13.100415+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "Google「Gemini」新サービスで「Claude」利用可能に　他モデルも今後追加予定",
     "url": "https://www.itmedia.co.jp/aiplus/article/2610/09/2000002152/",
     "domain": "www.itmedia.co.jp",
-    "count": 22,
+    "count": 25,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2610/09/2000002152/",
     "screenshot": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/09/2000002152/10008907/2048",
     "description": "米Google Cloudは10月9日（現地時間）、新サービス「Gemini Agent」を発表した。クラウドで動作するマルチエージェントツールとされる。 米Googleのシュバム・サブー氏のXでの投稿によれば、Gemini Agentは単一のモデルにロックインされないことが特徴で、各タスクを最適なモデルで実行するとうたう。現時点でGoogleの新...",
     "hatenaDate": "2026-10-09T01:01:01Z",
     "users": [],
     "firstSeenAt": "2026-10-09T11:15:14.349116+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "トランプ氏、AIを「超知能」と呼ばない者は「敵とみなす！」",
@@ -36,33 +75,33 @@
     "hatenaDate": "2026-10-09T00:44:39Z",
     "users": [],
     "firstSeenAt": "2026-10-09T11:00:10.092385+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "システム障害、エンジニアの6割「対応しきれない」　複雑化が要因に - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC085M30Y6A001C2000000/",
     "domain": "www.nikkei.com",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC085M30Y6A001C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3705911009102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=a6639c18864e9591a571030295ce0d52",
     "description": "インシデント対応を支援するツールを手掛けるPagerDuty（ページャーデューティー、東京・港）は、企業におけるシステム障害対応の現状を調べた。回答したエンジニアの66.2%が「現在の人員や体制でシステム障害に対応しきれていない」あるいは「対応しきれないことがある」と回答した。従業員数が1000人以上の企業に勤め...",
     "hatenaDate": "2026-10-08T22:50:11Z",
     "users": [],
     "firstSeenAt": "2026-10-09T11:00:10.092385+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "Amazonがタブレット戦略転換、Google Play対応「Alexa Tablet」3機種発売　iPad対抗のペン・キーボード対応Proモデルも | テクノエッジ TechnoEdge",
     "url": "https://www.techno-edge.net/article/2026/10/09/5569.html",
     "domain": "www.techno-edge.net",
-    "count": 27,
+    "count": 30,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/10/09/5569.html",
     "screenshot": "https://www.techno-edge.net/imgs/ogp_f/34710.jpg",
     "description": "Amazonが新しいタブレットシリーズ「Amazon Alexa Tablet」3モデルを発表しました。 AlexaタブレットはAndroid OSを採用し、Google Playに対応。アルミの薄型ボディに高精細ディスプレイなどプレミアム寄りの製品です。独自のFire OSとAmazonアプリストア搭載で安価だったFireタブレットから大きく方針を転換しました。 ...",
     "hatenaDate": "2026-10-08T23:45:11Z",
     "users": [],
     "firstSeenAt": "2026-10-09T10:30:17.059083+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "声優などの団体 声の生成AIガイドライン初作成“事前許諾を” | NHKニュース",
@@ -75,46 +114,46 @@
     "hatenaDate": "2026-10-08T21:43:19Z",
     "users": [],
     "firstSeenAt": "2026-10-09T10:15:13.478871+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "AIが変えたのは編集者の意識かもしれない｜三浦由子",
     "url": "https://note.com/yoshikoooo/n/nf2e679a15bfd",
     "domain": "note.com",
-    "count": 30,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/yoshikoooo/n/nf2e679a15bfd",
     "screenshot": "https://assets.st-note.com/production/uploads/images/322142307/rectangle_large_type_2_daae98dce261d420794dd7f52dee4457.png?fit=bounds&quality=85&width=1280",
     "description": "私はフリーランスのライターであり編集者だ。ライターのほうは「ブックライティング」がメイン。昔は「ゴーストライター」なんて呼ばれていたやつだ。幽霊執筆者。かっこいいな。今日からこっちを名乗ろうかしら。 そんな幽霊でも、血も涙もリンパ液もあるので、仕事上でいろいろ考えたり思い悩んだりすることはある。大...",
     "hatenaDate": "2026-10-08T23:56:35Z",
     "users": [],
     "firstSeenAt": "2026-10-09T10:15:13.478871+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "ブックオフに不正アクセス、最大約643万件の個人情報流出　氏名、住所、ハッシュ化パスワードなど",
     "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002150/",
     "domain": "www.itmedia.co.jp",
-    "count": 58,
+    "count": 60,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/09/2000002150/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/09/2000002150/10008902/2048",
     "description": "クレジットカード情報などの決済情報は同システムで保有していないため含まれない。 不正アクセスは10月6日に確認。調査した結果、同システムで管理している会員情報が外部から取得されたことが分かった。攻撃元からの通信を遮断し、脆弱性を是正した上で、対象システムへの外部からのアクセスを遮断して監視を続けてい...",
     "hatenaDate": "2026-10-09T00:40:10Z",
     "users": [],
     "firstSeenAt": "2026-10-09T10:00:15.105183+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "【速報】ブックオフで情報漏えい、最大643万件",
     "url": "https://www.47news.jp/15057426.html",
     "domain": "www.47news.jp",
-    "count": 12,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15057426.html",
     "screenshot": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
     "description": "ブックオフグループホールディングスは9日、子会社が運営する会員管理システムが第三者による不正アクセスを受け、会員情報が外部に流出したと発表した。流出した可能性があるデータは約643万件に上る。",
     "hatenaDate": "2026-10-09T00:25:45Z",
     "users": [],
     "firstSeenAt": "2026-10-09T10:00:15.105183+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "ascii.rest: animated ascii art for web pages, by @bas3line",
@@ -133,14 +172,14 @@
     "title": "Anthropic、「Claude」の新機能「Dashboards」「Motion」を発表。「Docs」「Slides」「Design」は無償でも提供／データからダッシュボード、アイデアからアニメーションを生成",
     "url": "https://forest.watch.impress.co.jp/docs/news/2146954.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 30,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2146954.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2146/954/claude.jpg",
     "description": null,
     "hatenaDate": "2026-10-08T23:07:59Z",
     "users": [],
     "firstSeenAt": "2026-10-09T10:00:15.105183+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "Anthropic、「Claude Haiku 5.5」公開　「Haiku 4.5」から大幅性能向上で利用コスト約75％減",
@@ -166,33 +205,33 @@
     "hatenaDate": "2026-10-08T22:04:58Z",
     "users": [],
     "firstSeenAt": "2026-10-09T09:30:13.469492+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "SBI証券、Google・Appleパスキー乗っ取り被害「確認されていない」　注意喚起は他社事案",
     "url": "https://www.itmedia.co.jp/news/article/2610/08/2000002137/",
     "domain": "www.itmedia.co.jp",
-    "count": 13,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/08/2000002137/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/08/2000002137/10008872/2048",
     "description": "同社が2日に出した注意喚起では、「今般、フィッシング等によりGoogleやApple等のアカウント情報が第三者に不正取得され、クラウド上に保存されたパスキーやパスワードのメモが悪用されることで、証券口座への不正ログイン・不正取引が行われた疑いのある事案が確認されています」と記載していた。 これは「日本証券業協...",
     "hatenaDate": "2026-10-08T08:54:28Z",
     "users": [],
     "firstSeenAt": "2026-10-09T09:21:41.437860+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "ブックオフグループ 最大で643万件の会員情報漏えいの可能性 | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261009de56955",
     "domain": "news.web.nhk",
-    "count": 107,
+    "count": 115,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261009de56955",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261009de56955/20261009de56955_E0000004045_1_l.jpg",
     "description": "中古書籍の販売などを手がける「ブックオフグループホールディングス」は、子会社が提供する会員情報を管理するシステムに不正アクセスがあり、最大で643万件の会員の情報が漏えいした可能性があると発表しました…",
     "hatenaDate": "2026-10-08T23:56:47Z",
     "users": [],
     "firstSeenAt": "2026-10-09T09:15:13.962591+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "【重要】当社よりお送りした「個人情報の流出に関するお知らせ」メールについて | 株式会社アドベンチャー",
@@ -218,20 +257,20 @@
     "hatenaDate": "2026-10-08T23:07:11Z",
     "users": [],
     "firstSeenAt": "2026-10-09T09:00:13.817651+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "ローソン、215万件の個人情報漏えい　「ユーザー本人に情報を表示する機構」に不正アクセス",
     "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002148/",
     "domain": "www.itmedia.co.jp",
-    "count": 20,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/09/2000002148/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/09/2000002148/10008895/2048",
     "description": "ローソンは10月8日、ローソンのアプリやWEBサービスを利用するための共通アカウント「ローソンID」が第三者による不正アクセスを受け、215万5345件分の個人情報が漏えいしたと発表した。メールアドレスと氏名のほか、プレゼントの応募などで入力していた場合は性別、電話番号、住所、メルマガ取得情報も漏れた。 加えて...",
     "hatenaDate": "2026-10-08T23:21:59Z",
     "users": [],
     "firstSeenAt": "2026-10-09T09:00:13.817651+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "OpenAI 数学研究カタログ — 日本語訳",
@@ -250,27 +289,27 @@
     "title": "不正アクセスが世界で急増、9月以降に情報漏洩3億人　攻撃にAIの影 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC0728W0X01C26A0000000/",
     "domain": "www.nikkei.com",
-    "count": 47,
+    "count": 48,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC0728W0X01C26A0000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3701805008102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=bba4ea6b73f3b8750cc5290967405149",
     "description": "世界で不正アクセスが急増している。9月からの約1カ月間で、少なくとも延べ3億人超の個人情報の漏洩が公表されたことが8日、わかった。人工知能（AI）の関与が疑われる事例があった。防御側もAIを生かして脅威に備えることが必要となる。9月以降、10万人以上の個人情報漏洩が明らかとなった事案を日本経済新聞が集計した...",
     "hatenaDate": "2026-10-08T21:22:28Z",
     "users": [],
     "firstSeenAt": "2026-10-09T08:45:08.773284+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "ペタバイト規模（約8兆レコード）の DMM データ基盤、Embulk やめました",
     "url": "https://zenn.dev/dmmdata/articles/embulk-to-dlt-migration",
     "domain": "zenn.dev",
-    "count": 56,
+    "count": 58,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/dmmdata/articles/embulk-to-dlt-migration",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--PpuKkUgY--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%259A%25E3%2582%25BF%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2588%25E8%25A6%258F%25E6%25A8%25A1%25EF%25BC%2588%25E7%25B4%25848%25E5%2585%2586%25E3%2583%25AC%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25EF%25BC%2589%25E3%2581%25AE%2520DMM%2520%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E5%259F%25BA%25E7%259B%25A4%25E3%2580%2581Embulk%2520%25E3%2582%2584%25E3%2582%2581%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:takaha4k%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU4MjQ4ZWRhNzUuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:DMM%2520Data%2520Blog%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2M3Y2RiYWUwNDUuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "はじめに Embulk を使い続けて数年。そろそろ移行したいと思いつつ、そのままになっていませんか。 DMM では、Embulk のメンテナンスモード移行の発表に伴い、長年運用してきたデータ取り込みを dlt へ移行しました。 しかも、5 名のチームで技術選定から検証、取り込み処理の実装を約 3 週間で進め、一部テーブルの新旧...",
     "hatenaDate": "2026-10-08T14:25:56Z",
     "users": [],
     "firstSeenAt": "2026-10-09T08:30:14.575889+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "判断特化型GraphRAGをJevを使って構築してみた（ベクトル未使用） - Qiita",
@@ -283,33 +322,33 @@
     "hatenaDate": "2026-10-08T19:24:18Z",
     "users": [],
     "firstSeenAt": "2026-10-09T08:30:14.575889+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "Google、AI生成コンテンツを見分ける「SynthID Detector」を一般に開放／OpenAI、NVIDIA、Kakaoなどの生成AIに対応。Appleも対応予定",
     "url": "https://forest.watch.impress.co.jp/docs/news/2146802.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 54,
+    "count": 57,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2146802.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2146/802/synthid_detector.jpg",
     "description": null,
     "hatenaDate": "2026-10-08T09:20:23Z",
     "users": [],
     "firstSeenAt": "2026-10-09T08:30:14.575889+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "外国人技術者の米永住権申請制度、Microsoftの利用停止　バンス氏表明 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOGN08BSH0Y6A001C2000000/",
     "domain": "www.nikkei.com",
-    "count": 84,
+    "count": 86,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN08BSH0Y6A001C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3705047008102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.47&fp-y=0.18&h=630&w=1200&s=17c39b72347eb07943a0f78e384c6c5f",
     "description": "【ワシントン=芦塚智子、シリコンバレー=山田遼太郎】バンス米副大統領は8日、高技能の外国人技術者が米国永住権（グリーンカード）を取得できる制度について、米マイクロソフトなどによる利用を停止すると発表した。同社が制度を悪用して米国民の職を奪っていると主張した。バンス氏はホワイトハウスでの記者会見で、マ...",
     "hatenaDate": "2026-10-08T17:52:22Z",
     "users": [],
     "firstSeenAt": "2026-10-09T08:00:13.821771+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "ローカルAI環境の「ComfyUI」に3Dモデル生成AI「Trellis2」「Pixal3D」がネイティブ統合！【Blender ウォッチング】",
@@ -354,27 +393,27 @@
     "title": "【速報】リーマン予想に進展があったかもしれない【零点の評価から何が言えるの？】 - tsujimotterのノートブック",
     "url": "https://tsujimotter.hatenablog.com/entry/riemann-hypothesis-progression-oct-2026",
     "domain": "tsujimotter.hatenablog.com",
-    "count": 53,
+    "count": 55,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tsujimotter.hatenablog.com/entry/riemann-hypothesis-progression-oct-2026",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/fc784b718cb3d989eddf284f7b1e8e0a57660d93/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftsujimotter%2F20261009%2F20261009085413.png",
     "description": "速報です！ OpenAIから、数学の未解決問題を 372個 解いたとするニュースが2026年10月7日に入ってきました。 解けた問題のリストと、すべてのプレプリントがGithub上に公開されています。 github.com 以下は、𝕏（旧Twitter）上のOpenAIの投稿の引用です。 私たちは、内部の最先端モデルによって生成された幅広い新しい数...",
     "hatenaDate": "2026-10-08T12:12:38Z",
     "users": [],
     "firstSeenAt": "2026-10-09T07:00:19.912510+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "さくらインターネット、GPU専有によりトークン消費量を気にせず定額で利用できる「さくらのAI Engineプライベートエディション」提供開始を発表",
     "url": "https://www.publickey1.jp/blog/26/gpuai_engine.html",
     "domain": "www.publickey1.jp",
-    "count": 124,
+    "count": 128,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/gpuai_engine.html",
     "screenshot": "https://www.publickey1.jp/2026/sakura-aiengine-private-la.png",
     "description": "さくらインターネット、GPU専有によりトークン消費量を気にせず定額で利用できる「さくらのAI Engineプライベートエディション」提供開始を発表 さくらインターネットは、GPUサーバ上で基盤モデルを展開しマネージドサービスとして提供する「さくらのAI Engine」を、企業がGPUを専有して使える「さくらのAI Engine プラ...",
     "hatenaDate": "2026-10-08T14:42:37Z",
     "users": [],
     "firstSeenAt": "2026-10-09T06:45:14.327208+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "ChatGPTで「音声ファイルの文字起こし」ができるように | ギズモード・ジャパン",
@@ -387,7 +426,7 @@
     "hatenaDate": "2026-10-08T02:01:58Z",
     "users": [],
     "firstSeenAt": "2026-10-09T06:30:19.985402+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "MicrosoftとNVIDIA、パソコンのAI利用「プロ仕様」　Appleと競う - 日本経済新聞",
@@ -406,27 +445,27 @@
     "title": "IDCフロンティアへのランサム攻撃、495の企業・自治体に影響",
     "url": "https://xtech.nikkei.com/atcl/nxt/news/24/03418/",
     "domain": "xtech.nikkei.com",
-    "count": 51,
+    "count": 52,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/xtech.nikkei.com/atcl/nxt/news/24/03418/",
     "screenshot": "https://xtech.nikkei.com/atcl/nxt/news/24/03418/topm.jpg?20220512",
     "description": "ソフトバンク子会社のIDCフロンティアは2026年10月7日、クラウドサービス「IDCFクラウド」が第三者によるランサムウエア攻撃を受け、495の契約先企業・自治体に影響が出ていると明らかにした。 障害は同日午前3時40分ごろに東日本リージョン1で発生。同社はその後、第三者からのランサムウエア攻撃によるものと公表した...",
     "hatenaDate": "2026-10-08T13:03:04Z",
     "users": [],
     "firstSeenAt": "2026-10-09T06:15:14.199905+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "情報漏えいの公表急増――いま増えているのは「攻撃」ではなく「発覚」 | SECURITY DRIVE",
     "url": "https://securitydrive.jp/column/0023/",
     "domain": "securitydrive.jp",
-    "count": 154,
+    "count": 157,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/securitydrive.jp/column/0023/",
     "screenshot": "https://securitydrive.jp/wp-content/uploads/2026/07/ogp.png",
     "description": "情報漏えいの公表急増――いま増えているのは「攻撃」ではなく「発覚」 2026年9月、国内で不正アクセスや情報漏えいの公表が相次いだ。タイムズカーの約660万アカウント、セイコーマートのアプリ会員約57万アカウントをはじめ、わずか数日の間に大手・官公庁が次々と被害を明らかにした。なぜいまこの短期間で公表が爆増し...",
     "hatenaDate": "2026-10-08T06:38:37Z",
     "users": [],
     "firstSeenAt": "2026-10-09T04:00:12.674074+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "Building your AI vulnerability harness, Part 1 | Amazon Web Services",
@@ -510,14 +549,14 @@
     "title": "AIに月3万円使えない人はその時点で負けている ｜手羽先",
     "url": "https://note.com/teba_eleven/n/n61e5e7700881",
     "domain": "note.com",
-    "count": 270,
+    "count": 275,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/teba_eleven/n/n61e5e7700881",
     "screenshot": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/a1204638c9337937b7cbb7cde54a77c67dbf3c97.png",
     "description": "釣りタイトルです。 結論：AIに月3万円使えない学生はその時点で負けている 月3000円のプランと月3万円のプランでは数十倍から数百倍できることが違う そもそも月3万円を投資できない時点で厳しい AIに全て賭けろ 月3万円も稼げない！という学生やエンジニア いくらでも相談にのります 連絡先：https://magicdelta.ai/co...",
     "hatenaDate": "2026-10-08T11:49:24Z",
     "users": [],
     "firstSeenAt": "2026-10-09T01:30:16.380254+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "モス、ライスバーガーの“具だけ”発売　焼肉・豚生姜焼き",
@@ -855,7 +894,7 @@
     "hatenaDate": "2026-10-08T07:01:58Z",
     "users": [],
     "firstSeenAt": "2026-10-08T20:45:13.738312+09:00",
-    "lastSeenAt": "2026-10-09T12:00:18.631991+09:00"
+    "lastSeenAt": "2026-10-09T12:15:14.509698+09:00"
   },
   {
     "title": "Microsoft Execution Containersの一般提供が開始 ―Windows/Linux/macOS対応、AIエージェントをサンドボックスで安全実行 | gihyo.jp",
@@ -3859,44 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-06T11:00:14.842182+09:00",
     "lastSeenAt": "2026-10-06T21:15:13.506977+09:00"
-  },
-  {
-    "title": "新卒就活「OfferBox」、学生の氏名などを利用企業が開発者ツール経由で閲覧可能に　最大31万人",
-    "url": "https://www.itmedia.co.jp/news/article/2610/06/2000002026/",
-    "domain": "www.itmedia.co.jp",
-    "count": 4,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/06/2000002026/",
-    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/06/2000002026/10008484/2048",
-    "description": "企業が興味を持った学生にオファーを送る、新卒向け“逆求人”サービス「OfferBox」を運営するi-plug（東証グロース上場）は10月5日、利用企業向けの特定のページで、利用学生の氏名とメールアドレスが通信データに含まれていたと発表した。 ブラウザの開発者ツールで開発者向け画面を表示すると、これらの個人情報が見え...",
-    "hatenaDate": "2026-10-06T01:35:15Z",
-    "users": [],
-    "firstSeenAt": "2026-10-06T11:00:14.842182+09:00",
-    "lastSeenAt": "2026-10-06T12:15:13.608386+09:00"
-  },
-  {
-    "title": "Windows told me my drive was full, but this free tool showed me what was actually eating it",
-    "url": "https://www.makeuseof.com/windows-told-me-my-drive-was-full-but-this-free-tool-showed-me-what-was-actually-eating-it/",
-    "domain": "www.makeuseof.com",
-    "count": 9,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.makeuseof.com/windows-told-me-my-drive-was-full-but-this-free-tool-showed-me-what-was-actually-eating-it/",
-    "screenshot": "https://static0.makeuseofimages.com/wordpress/wp-content/uploads/wm/2025/12/wiztree-tree-view-showing-disk-stats-on-windows-11.jpg?w=1600&h=900&fit=crop",
-    "description": "My laptop comes with a 512GB SSD, and it gets filled up pretty fast. I download a bunch of apps and files that I use once and never touch again, movies I keep just for the sake of it, and even games I barely play. And apart from my storage filling up because of my actions, Windows itself contribu...",
-    "hatenaDate": "2026-10-05T14:24:53Z",
-    "users": [],
-    "firstSeenAt": "2026-10-06T10:30:14.042796+09:00",
-    "lastSeenAt": "2026-10-06T12:30:14.456799+09:00"
-  },
-  {
-    "title": "エンジニアの技術力を測る「帯制度」をAIで爆速開発し、1年で450の \"段位\" を授与した話 - MonotaRO Tech Blog",
-    "url": "https://tech-blog.monotaro.com/entry/2026/10/06/090000",
-    "domain": "tech-blog.monotaro.com",
-    "count": 47,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/tech-blog.monotaro.com/entry/2026/10/06/090000",
-    "screenshot": "https://cdn.image.st-hatena.com/image/scale/f83bf082431fd7eb0242aca0f358f42977222009/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fm%2Fmonotaro-tech-blog%2F20261005%2F20261005115348.png",
-    "description": "はじめに こんにちは。プラットフォームエンジニアリング部門の池田（@progrhyme）です。 最近は自身のリソースのほぼすべてを、社内プロジェクト 「DOJO」 及びその内の施策の1つである 「帯制度」 に投入しています。 DOJOとは？ MonotaROのDOJOとは、テクニカルスキルを中心とする社内の研修制度です。 制度の詳細や...",
-    "hatenaDate": "2026-10-06T00:47:04Z",
-    "users": [],
-    "firstSeenAt": "2026-10-06T10:15:13.770397+09:00",
-    "lastSeenAt": "2026-10-06T17:30:15.963715+09:00"
   }
 ]
