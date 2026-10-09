@@ -1,16 +1,29 @@
 [
   {
+    "title": "「スカイチケット」に不正アクセス、計1467万件の個人情報流出　ハッシュ化されたパスワードも",
+    "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002168/",
+    "domain": "www.itmedia.co.jp",
+    "count": 11,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/09/2000002168/",
+    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/09/2000002168/10008967/2048",
+    "description": "旅行予約サイト「skyticket」（スカイチケット）を運営するアドベンチャー（東京都渋谷区）は10月9日、サーバ、業務管理システム、バス予約サービスの計3件で不正アクセスがあったと発表した。流出・閲覧の恐れがあるものを含め、合計の対象件数は約1467万件に上る。対象には返金先の口座情報やバス予約情報も含まれる。...",
+    "hatenaDate": "2026-10-09T05:57:56Z",
+    "users": [],
+    "firstSeenAt": "2026-10-09T17:15:12.444955+09:00",
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
+  },
+  {
     "title": "不正アクセスによる漏えい等の事案を踏まえ、速やかに実施すべき対策等について | 情報セキュリティ | IPA 独立行政法人 情報処理推進機構",
     "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html",
     "domain": "www.ipa.go.jp",
-    "count": 14,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.ipa.go.jp/security/security-alert/2026/alert20261009.html",
     "screenshot": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.jpg",
     "description": "注釈：追記すべき情報がある場合には、その都度このページを更新する予定です。 概要 直近において、国内の金融機関や通信事業者等の幅広い事業者から、不正アクセスの被害による情報漏えい事案の公表が相次いで行われています。特に、大量の個人情報を取り扱うオンラインサービス・アカウントサービス等に関するシステ...",
     "hatenaDate": "2026-10-09T06:26:14Z",
     "users": [],
     "firstSeenAt": "2026-10-09T17:00:13.083228+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "TOHOシネマズが「カーペット下のLANケーブルが“踏まれて断線”→敷き直し」から脱却　70館以上でどう実現した？",
@@ -29,92 +42,92 @@
     "title": "“AIキャラチャット”に没頭した人の予後、スタンフォード大などが1年の追跡調査　依存強まる傾向に",
     "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002121/",
     "domain": "www.itmedia.co.jp",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/09/2000002121/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/09/2000002121/10008821/2048",
     "description": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shi...",
     "hatenaDate": "2026-10-09T03:46:45Z",
     "users": [],
     "firstSeenAt": "2026-10-09T16:45:13.926832+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "JR東、「えきねっと」などで漏えいか　メルアドなど最大206万件　IDCFクラウドへの不正アクセスで",
     "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002171/",
     "domain": "www.itmedia.co.jp",
-    "count": 22,
+    "count": 25,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/09/2000002171/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/09/2000002171/10008972/2048",
     "description": "JR東日本は10月9日、列車予約サービス「えきねっと」と会員制サービス「大人の休日倶楽部」のにおいて、最大約206万件の利用者情報が漏えいした可能性があると発表した。7日にIDCフロンティアが公表した不正アクセスが原因で、メール配信用の外部サービスに保存していた利用者の情報が第三者に閲覧・取得された恐れがあ...",
     "hatenaDate": "2026-10-09T06:26:00Z",
     "users": [],
     "firstSeenAt": "2026-10-09T16:30:13.932603+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "音声対話のための音声合成・音声認識エンジン、speech.cppを作ってみた話",
     "url": "https://nyosegawa.com/posts/speech-cpp/",
     "domain": "nyosegawa.com",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/nyosegawa.com/posts/speech-cpp/",
     "screenshot": "https://nyosegawa.com/og/speech-cpp.jpg",
     "description": "こんにちは！逆瀬川ちゃん (@gyakuse) です！ 今日は音声対話のために作った音声合成と音声認識のエンジン、speech.cppについてまとめていきたいと思います。 作ったもの speech.cppは、音声合成と音声認識のモデルをggmlの上で動かすC++のエンジンです。MacではMetal、WindowsとLinuxではVulkanでGPUを使い、GPUがなけ...",
     "hatenaDate": "2026-10-09T03:37:17Z",
     "users": [],
     "firstSeenAt": "2026-10-09T16:30:13.932603+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "免許写真で口座開設、金融庁が廃止前倒しを要請　サイバー攻撃多発で - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUB0916F0Z01C26A0000000/",
     "domain": "www.nikkei.com",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUB0916F0Z01C26A0000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3706789009102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=c1f3b5fbe5cbfa58f48ec030f2181bc7",
     "description": "金融庁は9日、サイバー攻撃による大規模な個人情報漏洩が多発しているのを受けて金融機関に対策の強化を要請した。銀行などの口座開設にあたって運転免許証といった身分証明書の撮影を通じた本人確認を止め、マイナンバーカードなどのICチップの読み取りに移行するよう求める。9日付で銀行や証券、保険会社に注意喚起し...",
     "hatenaDate": "2026-10-09T05:32:57Z",
     "users": [],
     "firstSeenAt": "2026-10-09T16:15:14.828959+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "国内で相次ぐ不正アクセス、AIエージェントによる攻撃の可能性 約40分間で326のIPアドレスを使い分け、1,200件超のアクセスを繰り返す | 株式会社サイバーセキュリティクラウド",
     "url": "https://www.cscloud.co.jp/news/report/202610099351/?lang=en",
     "domain": "www.cscloud.co.jp",
-    "count": 16,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.cscloud.co.jp/news/report/202610099351/?lang=en",
     "screenshot": "https://www.cscloud.co.jp/wp/wp-content/uploads/2026/10/596440af58eb84faa39f0be6f5b5058e.png",
     "description": "2026.10.09 国内で相次ぐ不正アクセス、AIエージェントによる攻撃の可能性 約40分間で326のIPアドレスを使い分け、1,200件超のアクセスを繰り返す 公開日：2026年10月9日 セキュリティインテリジェンス本部 西川 彰 2026年9月前後から国内組織で相次いでいる不正アクセス事案に関連し、株式会社マクニカが公開した「重点...",
     "hatenaDate": "2026-10-09T04:50:18Z",
     "users": [],
     "firstSeenAt": "2026-10-09T16:15:14.828959+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "これには驚いた！ 今度はExcelやWordやPower Pointをオープンソースで再構築、Win、Mac、Linux、Web対応で無料",
     "url": "https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/3-microsoft-apps-open-sourced.html/index.html",
     "domain": "coliss.com",
-    "count": 14,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/coliss.com/wp-content/cache/all/articles/build-websites/operation/work/3-microsoft-apps-open-sourced.html/index.html",
     "screenshot": "https://coliss.com/wp-content/uploads-202604/2026100901@2x.png",
     "description": "今週はCrafting Appsの記事ばかりになっています。 Photoshopを再構築したオープンソース版「PhotoCraft」の日本語対応など、Adobeのアプリ7種類を毎日のようにアップデートしている中、なんとExcelやWordやPower Pointも同様にMicrosoftのコードを一切使用せずに、完全に新しいコードを使用して各アプリの機能を忠実に...",
     "hatenaDate": "2026-10-09T05:32:26Z",
     "users": [],
     "firstSeenAt": "2026-10-09T16:00:18.772960+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "米国防総省にも不正アクセス　個人情報300万人分が平文で漏えいか……発覚までに9カ月",
     "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002158/",
     "domain": "www.itmedia.co.jp",
-    "count": 32,
+    "count": 35,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/09/2000002158/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/09/2000002158/10008934/2048",
     "description": "この頃、セキュリティ界隈で 米国防総省にも不正アクセス　個人情報300万人分が平文で漏えいか……発覚までに9カ月 米国防総省の国防人事データセンター（DMDC）のサーバが不正アクセスされ、軍人や元軍人など300万人余りの個人情報が何者かに閲覧されていたことが分かった。米国では連邦捜査局（FBI）もサイバー攻撃を受...",
     "hatenaDate": "2026-10-09T05:41:13Z",
     "users": [],
     "firstSeenAt": "2026-10-09T15:42:57.358420+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "JR東日本 えきねっとなどで最大200万件の情報漏えいの可能性 | NHKニュース",
@@ -127,7 +140,7 @@
     "hatenaDate": "2026-10-09T06:07:17Z",
     "users": [],
     "firstSeenAt": "2026-10-09T15:42:57.358420+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "IDCフロンティア社で発生した不正アクセスに伴うメール配信用外部サービスからのメールアドレス等の漏えい可能性について",
@@ -140,33 +153,33 @@
     "hatenaDate": "2026-10-09T06:08:51Z",
     "users": [],
     "firstSeenAt": "2026-10-09T15:42:57.358420+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "ソニー、スマホ直挿しで“アンビソニックス”空間オーディオ録音できるマイク",
     "url": "https://av.watch.impress.co.jp/docs/news/2144785.html",
     "domain": "av.watch.impress.co.jp",
-    "count": 14,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/av.watch.impress.co.jp/docs/news/2144785.html",
     "screenshot": "https://av.watch.impress.co.jp/img/avw/list/2144/785/_DSC3950.jpg",
     "description": null,
     "hatenaDate": "2026-10-09T01:19:15Z",
     "users": [],
     "firstSeenAt": "2026-10-09T15:15:12.530099+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "金融庁、本人確認の「ICチップ一本化」へ早期移行を要請　免許証画像の漏えい相次ぎ",
     "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002166/",
     "domain": "www.itmedia.co.jp",
-    "count": 26,
+    "count": 28,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/09/2000002166/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/09/2000002166/10008957/2048",
     "description": "金融庁は10月9日、不正アクセスで運転免許証など本人確認書類の画像を含む顧客情報の漏えいが相次いでいるとして、オンラインで完結する本人確認（eKYC）について、ICチップ読み取りへの早期移行を求めた。 政府は犯罪収益移転防止法施行規則の改正により、27年4月1日から本人確認書類の画像送信を受ける方法は廃止し、...",
     "hatenaDate": "2026-10-09T04:46:27Z",
     "users": [],
     "firstSeenAt": "2026-10-09T15:00:14.955772+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "急増する不正アクセスにJPCERTが注意喚起　寄せられた情報から判明した「攻撃傾向」とは",
@@ -211,14 +224,14 @@
     "title": "現下の情勢を踏まえたサイバーセキュリティ対策の強化と各種取引申込等における対応について",
     "url": "https://www.fsa.go.jp/news/r8/sonota/20261009/20261009.html",
     "domain": "www.fsa.go.jp",
-    "count": 49,
+    "count": 50,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.fsa.go.jp/news/r8/sonota/20261009/20261009.html",
     "screenshot": "https://www.fsa.go.jp/images/title_j_t.png",
     "description": "現下の情勢を踏まえたサイバーセキュリティ対策の強化と 各種取引申込等における対応について 令和８年10月９日、金融庁は、現下の情勢を踏まえ、下記のサイバーセキュリティ対策と各種取引申込等における対応について、金融機関等に注意喚起を行いました。 現下の情勢を踏まえたサイバーセキュリティ対策の強化と各種取...",
     "hatenaDate": "2026-10-09T03:07:01Z",
     "users": [],
     "firstSeenAt": "2026-10-09T14:00:14.361358+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "Codex+エージェント群で構築した自律型開発ループ：ロリポップ！AIゲートウェイ開発の舞台裏 - Pepabo Tech Portal",
@@ -250,14 +263,14 @@
     "title": "「AIをいじめないで」Anthropic、Claudeへの虐待を禁止",
     "url": "https://ascii.jp/elem/000/004/441/4441372/",
     "domain": "ascii.jp",
-    "count": 166,
+    "count": 179,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/441/4441372/",
     "screenshot": "https://ascii.jp/img/2026/10/09/4536544/xl/3c627b5e33536b33.png?20200122",
     "description": "sponsored ミリ秒の世界を制するRazerの技術力に迫る！　王者Nikoが認めた「勝てるヘッドセット」の条件とは? sponsored SENSE-15FR172-U7P-TK4Xをレビュー アプリによってはデスクトップPCに匹敵する性能！Core Ultra 7 270HX Plus＆GeForce RTX 5070 Laptop GPU搭載ノートPCがスゴイ sponsored JN-iBC375G144UQP-HSC9...",
     "hatenaDate": "2026-10-09T03:48:34Z",
     "users": [],
     "firstSeenAt": "2026-10-09T13:30:12.983439+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "新gTLD申請、日本からも多数　講談社「.manga」、東映アニメ「.anime」、ドコモ「.docomo」など",
@@ -270,7 +283,7 @@
     "hatenaDate": "2026-10-09T03:46:36Z",
     "users": [],
     "firstSeenAt": "2026-10-09T13:30:12.983439+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "履歴書100通に1通「AIだけが読める文字」　20万件調査でわかった“就活ハック”の手口　米研究",
@@ -432,27 +445,27 @@
     "title": "Google「Gemini」新サービスで「Claude」利用可能に　他モデルも今後追加予定",
     "url": "https://www.itmedia.co.jp/aiplus/article/2610/09/2000002152/",
     "domain": "www.itmedia.co.jp",
-    "count": 94,
+    "count": 96,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2610/09/2000002152/",
     "screenshot": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/09/2000002152/10008907/2048",
     "description": "米Google Cloudは10月9日（現地時間）、新サービス「Gemini Agent」を発表した。クラウドで動作するマルチエージェントツールとされる。 米Googleのシュバム・サブー氏のXでの投稿によれば、Gemini Agentは単一のモデルにロックインされないことが特徴で、各タスクを最適なモデルで実行するとうたう。現時点でGoogleの新...",
     "hatenaDate": "2026-10-09T01:01:01Z",
     "users": [],
     "firstSeenAt": "2026-10-09T11:15:14.349116+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "トランプ氏、AIを「超知能」と呼ばない者は「敵とみなす！」",
     "url": "https://www.afpbb.com/articles/-/3656804",
     "domain": "www.afpbb.com",
-    "count": 111,
+    "count": 115,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3656804",
     "screenshot": "https://afpbb.ismcdn.jp/mwimgs/8/1/1000x/img_813e9066b67431a212506f8e0de842a655525.jpg",
     "description": "【10月9日 AFP】ドナルド・トランプ米大統領は8日、人工知能（AI）に代わる呼称として自身が普及を図っている「スーパーインテリジェンス」（超知能、SI）という用語を使わない者を「敵」とみなすと表明した。ただし、具体的にどのような措置を取るかは明らかにしなかった。 トランプ氏は自身のSNS「トゥルース・ソーシ...",
     "hatenaDate": "2026-10-09T00:44:39Z",
     "users": [],
     "firstSeenAt": "2026-10-09T11:00:10.092385+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "システム障害、エンジニアの6割「対応しきれない」　複雑化が要因に - 日本経済新聞",
@@ -471,14 +484,14 @@
     "title": "Amazonがタブレット戦略転換、Google Play対応「Alexa Tablet」3機種発売　iPad対抗のペン・キーボード対応Proモデルも | テクノエッジ TechnoEdge",
     "url": "https://www.techno-edge.net/article/2026/10/09/5569.html",
     "domain": "www.techno-edge.net",
-    "count": 67,
+    "count": 68,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/10/09/5569.html",
     "screenshot": "https://www.techno-edge.net/imgs/ogp_f/34710.jpg",
     "description": "Amazonが新しいタブレットシリーズ「Amazon Alexa Tablet」3モデルを発表しました。 AlexaタブレットはAndroid OSを採用し、Google Playに対応。アルミの薄型ボディに高精細ディスプレイなどプレミアム寄りの製品です。独自のFire OSとAmazonアプリストア搭載で安価だったFireタブレットから大きく方針を転換しました。 ...",
     "hatenaDate": "2026-10-08T23:45:11Z",
     "users": [],
     "firstSeenAt": "2026-10-09T10:30:17.059083+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "声優などの団体 声の生成AIガイドライン初作成“事前許諾を” | NHKニュース",
@@ -497,14 +510,14 @@
     "title": "AIが変えたのは編集者の意識かもしれない｜三浦由子",
     "url": "https://note.com/yoshikoooo/n/nf2e679a15bfd",
     "domain": "note.com",
-    "count": 73,
+    "count": 74,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/yoshikoooo/n/nf2e679a15bfd",
     "screenshot": "https://assets.st-note.com/production/uploads/images/322142307/rectangle_large_type_2_daae98dce261d420794dd7f52dee4457.png?fit=bounds&quality=85&width=1280",
     "description": "私はフリーランスのライターであり編集者だ。ライターのほうは「ブックライティング」がメイン。昔は「ゴーストライター」なんて呼ばれていたやつだ。幽霊執筆者。かっこいいな。今日からこっちを名乗ろうかしら。 そんな幽霊でも、血も涙もリンパ液もあるので、仕事上でいろいろ考えたり思い悩んだりすることはある。大...",
     "hatenaDate": "2026-10-08T23:56:35Z",
     "users": [],
     "firstSeenAt": "2026-10-09T10:15:13.478871+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "ブックオフに不正アクセス、最大約643万件の個人情報流出　氏名、住所、ハッシュ化パスワードなど",
@@ -517,7 +530,7 @@
     "hatenaDate": "2026-10-09T00:40:10Z",
     "users": [],
     "firstSeenAt": "2026-10-09T10:00:15.105183+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "【速報】ブックオフで情報漏えい、最大643万件",
@@ -549,14 +562,14 @@
     "title": "Anthropic、「Claude」の新機能「Dashboards」「Motion」を発表。「Docs」「Slides」「Design」は無償でも提供／データからダッシュボード、アイデアからアニメーションを生成",
     "url": "https://forest.watch.impress.co.jp/docs/news/2146954.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 102,
+    "count": 105,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2146954.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2146/954/claude.jpg",
     "description": null,
     "hatenaDate": "2026-10-08T23:07:59Z",
     "users": [],
     "firstSeenAt": "2026-10-09T10:00:15.105183+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "Anthropic、「Claude Haiku 5.5」公開　「Haiku 4.5」から大幅性能向上で利用コスト約75％減",
@@ -601,14 +614,14 @@
     "title": "ブックオフグループ 最大で643万件の会員情報漏えいの可能性 | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261009de56955",
     "domain": "news.web.nhk",
-    "count": 210,
+    "count": 211,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261009de56955",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261009de56955/20261009de56955_E0000004045_1_l.jpg",
     "description": "中古書籍の販売などを手がける「ブックオフグループホールディングス」は、子会社が提供する会員情報を管理するシステムに不正アクセスがあり、最大で643万件の会員の情報が漏えいした可能性があると発表しました…",
     "hatenaDate": "2026-10-08T23:56:47Z",
     "users": [],
     "firstSeenAt": "2026-10-09T09:15:13.962591+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "【重要】当社よりお送りした「個人情報の流出に関するお知らせ」メールについて | 株式会社アドベンチャー",
@@ -686,7 +699,7 @@
     "hatenaDate": "2026-10-08T14:25:56Z",
     "users": [],
     "firstSeenAt": "2026-10-09T08:30:14.575889+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "判断特化型GraphRAGをJevを使って構築してみた（ベクトル未使用） - Qiita",
@@ -712,7 +725,7 @@
     "hatenaDate": "2026-10-08T09:20:23Z",
     "users": [],
     "firstSeenAt": "2026-10-09T08:30:14.575889+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "外国人技術者の米永住権申請制度、Microsoftの利用停止　バンス氏表明 - 日本経済新聞",
@@ -725,7 +738,7 @@
     "hatenaDate": "2026-10-08T17:52:22Z",
     "users": [],
     "firstSeenAt": "2026-10-09T08:00:13.821771+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "ローカルAI環境の「ComfyUI」に3Dモデル生成AI「Trellis2」「Pixal3D」がネイティブ統合！【Blender ウォッチング】",
@@ -770,27 +783,27 @@
     "title": "【速報】リーマン予想に進展があったかもしれない【零点の評価から何が言えるの？】 - tsujimotterのノートブック",
     "url": "https://tsujimotter.hatenablog.com/entry/riemann-hypothesis-progression-oct-2026",
     "domain": "tsujimotter.hatenablog.com",
-    "count": 86,
+    "count": 87,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tsujimotter.hatenablog.com/entry/riemann-hypothesis-progression-oct-2026",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/fc784b718cb3d989eddf284f7b1e8e0a57660d93/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftsujimotter%2F20261009%2F20261009085413.png",
     "description": "速報です！ OpenAIから、数学の未解決問題を 372個 解いたとするニュースが2026年10月7日に入ってきました。 解けた問題のリストと、すべてのプレプリントがGithub上に公開されています。 github.com 以下は、𝕏（旧Twitter）上のOpenAIの投稿の引用です。 私たちは、内部の最先端モデルによって生成された幅広い新しい数...",
     "hatenaDate": "2026-10-08T12:12:38Z",
     "users": [],
     "firstSeenAt": "2026-10-09T07:00:19.912510+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "さくらインターネット、GPU専有によりトークン消費量を気にせず定額で利用できる「さくらのAI Engineプライベートエディション」提供開始を発表",
     "url": "https://www.publickey1.jp/blog/26/gpuai_engine.html",
     "domain": "www.publickey1.jp",
-    "count": 167,
+    "count": 168,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/gpuai_engine.html",
     "screenshot": "https://www.publickey1.jp/2026/sakura-aiengine-private-la.png",
     "description": "さくらインターネット、GPU専有によりトークン消費量を気にせず定額で利用できる「さくらのAI Engineプライベートエディション」提供開始を発表 さくらインターネットは、GPUサーバ上で基盤モデルを展開しマネージドサービスとして提供する「さくらのAI Engine」を、企業がGPUを専有して使える「さくらのAI Engine プラ...",
     "hatenaDate": "2026-10-08T14:42:37Z",
     "users": [],
     "firstSeenAt": "2026-10-09T06:45:14.327208+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "ChatGPTで「音声ファイルの文字起こし」ができるように | ギズモード・ジャパン",
@@ -835,14 +848,14 @@
     "title": "情報漏えいの公表急増――いま増えているのは「攻撃」ではなく「発覚」 | SECURITY DRIVE",
     "url": "https://securitydrive.jp/column/0023/",
     "domain": "securitydrive.jp",
-    "count": 201,
+    "count": 202,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/securitydrive.jp/column/0023/",
     "screenshot": "https://securitydrive.jp/wp-content/uploads/2026/07/ogp.png",
     "description": "情報漏えいの公表急増――いま増えているのは「攻撃」ではなく「発覚」 2026年9月、国内で不正アクセスや情報漏えいの公表が相次いだ。タイムズカーの約660万アカウント、セイコーマートのアプリ会員約57万アカウントをはじめ、わずか数日の間に大手・官公庁が次々と被害を明らかにした。なぜいまこの短期間で公表が爆増し...",
     "hatenaDate": "2026-10-08T06:38:37Z",
     "users": [],
     "firstSeenAt": "2026-10-09T04:00:12.674074+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "Building your AI vulnerability harness, Part 1 | Amazon Web Services",
@@ -926,14 +939,14 @@
     "title": "AIに月3万円使えない人はその時点で負けている ｜手羽先",
     "url": "https://note.com/teba_eleven/n/n61e5e7700881",
     "domain": "note.com",
-    "count": 355,
+    "count": 356,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/teba_eleven/n/n61e5e7700881",
     "screenshot": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/a1204638c9337937b7cbb7cde54a77c67dbf3c97.png",
     "description": "釣りタイトルです。 結論：AIに月3万円使えない学生はその時点で負けている 月3000円のプランと月3万円のプランでは数十倍から数百倍できることが違う そもそも月3万円を投資できない時点で厳しい AIに全て賭けろ 月3万円も稼げない！という学生やエンジニア いくらでも相談にのります 連絡先：https://magicdelta.ai/co...",
     "hatenaDate": "2026-10-08T11:49:24Z",
     "users": [],
     "firstSeenAt": "2026-10-09T01:30:16.380254+09:00",
-    "lastSeenAt": "2026-10-09T17:00:13.083228+09:00"
+    "lastSeenAt": "2026-10-09T17:15:12.444955+09:00"
   },
   {
     "title": "モス、ライスバーガーの“具だけ”発売　焼肉・豚生姜焼き",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-06T14:45:13.900358+09:00",
     "lastSeenAt": "2026-10-06T20:45:12.927504+09:00"
-  },
-  {
-    "title": "最近サイバー攻撃多いから、基本対策を見直そう - Qiita",
-    "url": "https://qiita.com/HIsui0921/items/65fba77555a13af6b8a5",
-    "domain": "qiita.com",
-    "count": 109,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/HIsui0921/items/65fba77555a13af6b8a5",
-    "screenshot": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGMTg2OTAyJTJGcHJvZmlsZS1pbWFnZXMlMkYxNzExODk1OTY3P2l4bGliPXJiLTQuMS4xJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz05ODU5MDE0MGRlZjdiNzU4ZGM5ZjlkZThmOGY5NTBhNg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D71eb8fbab15a3cb8b0635173bbb8580a?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUU2JTlDJTgwJUU4JUJGJTkxJUUzJTgyJUI1JUUzJTgyJUE0JUUzJTgzJTkwJUUzJTgzJUJDJUU2JTk0JUJCJUU2JTkyJTgzJUU1JUE0JTlBJUUzJTgxJTg0JUUzJTgxJThCJUUzJTgyJTg5JUUzJTgwJTgxJUU1JTlGJUJBJUU2JTlDJUFDJUU1JUFGJUJFJUU3JUFEJTk2JUUzJTgyJTkyJUU4JUE2JThCJUU3JTlCJUI0JUUzJTgxJTlEJUUzJTgxJTg2JnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9ZjMzNDlkMTVjMTA3NjhjMGMyM2FjNzgzOTdkMTEzNmM&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBISXN1aTA5MjEmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT0zNiZ0eHQtcGFkPTAmcz1jMGJmZDI4NGZkYjMyZTJkMTM2NzM5NDY1MjVmOWI0Mg&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=1c6c6244fc1f68f0ce4bcba5767060e8",
-    "description": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article? こんにちは、翡翠です。 去年セキュリティ業界へ入ったばかりの新人です。まだまだ勉強中の身なので至らない点もあるかと思いますが、今わかること・できることを自分なりにまとめ...",
-    "hatenaDate": "2026-10-05T23:46:18Z",
-    "users": [],
-    "firstSeenAt": "2026-10-06T14:45:13.900358+09:00",
-    "lastSeenAt": "2026-10-07T06:30:13.621272+09:00"
   }
 ]
