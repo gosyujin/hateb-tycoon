@@ -1,16 +1,29 @@
 [
   {
+    "title": "バックアップはなぜ難しいのか、ファイルをコピーするだけでは済まない理由とは？",
+    "url": "https://gigazine.net/news/20261010-data-backups-arent-simple/",
+    "domain": "gigazine.net",
+    "count": 7,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261010-data-backups-arent-simple/",
+    "screenshot": "https://i.gzn.jp/img/2026/10/10/data-backups-arent-simple/00_m.png",
+    "description": "故障や操作ミスなどによって大切なデータが失われることがあるため、日頃からバックアップを取っておくことは重要です。しかし、データのバックアップは単にファイルを別の場所にコピーするだけでは十分とは限りません。ソフトウェアエンジニアのアレクサンダル・フィリポフスキー氏が、バックアップの仕組みを整えるに...",
+    "hatenaDate": "2026-10-10T00:02:59Z",
+    "users": [],
+    "firstSeenAt": "2026-10-10T10:30:15.342666+09:00",
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
+  },
+  {
     "title": "知り合いがAIに作らせたクローラーに大量のサイトを読み込ませたら、プロンプトインジェクションを受けてPCがマルウェアに感染「こういう事故はこれから増えていく気が…」",
     "url": "https://togetter.com/li/2756400",
     "domain": "togetter.com",
-    "count": 8,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2756400",
     "screenshot": "https://s.tgstc.com/ogp3/a606aa8290e8dd227d4d35a7c181ae05-1200x630.jpeg",
     "description": "Mr.Genki | marketing & webdesign @genki_iii 知り合いがAIに作らせたクローラーに大量のサイトを読ませたら、プロンプトインジェクションを食らってPCがマルウェアに感染してた。AIで誰でも簡単に作れるようになった分、開発やセキュリティの知識がないまま動かす人も増えていて、こういう事故はこれから増えていく気...",
     "hatenaDate": "2026-10-09T23:42:54Z",
     "users": [],
     "firstSeenAt": "2026-10-10T10:00:07.484870+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "AIで検索した「判例」、実は存在せず　出版社が絶版・回収を発表：朝日新聞",
@@ -23,20 +36,20 @@
     "hatenaDate": "2026-10-09T13:45:43Z",
     "users": [],
     "firstSeenAt": "2026-10-10T10:00:07.484870+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "Building effective agent automations / claude.dev Blog",
     "url": "https://claude.dev/blog/building-effective-agent-automations/",
     "domain": "claude.dev",
-    "count": 14,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/claude.dev/blog/building-effective-agent-automations/",
     "screenshot": "https://claude.dev/blog/building-effective-agent-automations/og.png",
     "description": "As AI accelerates our work, it's getting harder to keep up. At Anthropic, simple agent automations are frequently used to help. They often run on a schedule, gather context in the background, and proactively tell us what we need to know. But it’s difficult to build effective agent automations: th...",
     "hatenaDate": "2026-10-08T23:06:11Z",
     "users": [],
     "firstSeenAt": "2026-10-10T09:15:14.190992+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "新スパコン「理究」が本格稼働へ。「ROQUO」で量子HPC連携も加速――理研が手掛ける計算基盤の最前線　CEATECのブース展示・講演で紹介～「AI for Science」の先にある「AI for Industry」も見えてくる",
@@ -49,46 +62,46 @@
     "hatenaDate": "2026-10-09T09:06:50Z",
     "users": [],
     "firstSeenAt": "2026-10-10T08:45:13.360629+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "「お前たちのクラウドはわれわれのもの」　IDCFクラウドの管理画面に出た攻撃者のメッセージ　内容に運営元は",
     "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002184/",
     "domain": "www.itmedia.co.jp",
-    "count": 32,
+    "count": 38,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/09/2000002184/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/09/2000002184/10009012/2048",
     "description": "ランサムウェア攻撃を受けた「IDCFクラウド」を巡り、攻撃者を名乗る人物のメッセージが管理コンソールに表示されたとする画像が、10月7日からX上で拡散している。画像には、攻撃者によるものとみられる英語のメッセージや、被害規模を示す具体的な数字が記されている。ITmedia NEWSは運営元のIDCフロンティアに、画像の...",
     "hatenaDate": "2026-10-09T13:16:53Z",
     "users": [],
     "firstSeenAt": "2026-10-10T08:15:13.195921+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "OpenAIとAnthropicに新ライバル出現。中国ではなく地元アメリカから | ギズモード・ジャパン",
     "url": "https://www.gizmodo.jp/article/openai-and-anthropic-have-a-new-threat-to-worry-about-and-it-isnt-china/",
     "domain": "www.gizmodo.jp",
-    "count": 28,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/openai-and-anthropic-have-a-new-threat-to-worry-about-and-it-isnt-china/",
     "screenshot": "https://media.loom-app.com/loom/2026/10/08/7dbac393-cdce-49df-9f11-ec4504f23269/original.jpg?w=1200&h=630",
     "description": "アメリカのAI勢力図が変わるかもしれません。 無名のAIスタートアップが、「企業が自前のAIを作れる」サービスを強みに、大手AI企業のドル箱である法人ビジネスに挑もうとしています。 いまやAI企業の収入源は法人向けプランに OpenAIとAnthropicの主な収入源は、APIや法人向けサブスクリプションの販売です。 CNBCによ...",
     "hatenaDate": "2026-10-09T11:35:53Z",
     "users": [],
     "firstSeenAt": "2026-10-10T08:00:13.331174+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "システム障害の対応についてエンジニアの約6割が対応しきれないと回答…その要因には即戦力となる人材不足や体制の問題、過酷な労働時間、下請け構造などが考えられる",
     "url": "https://togetter.com/li/2756123",
     "domain": "togetter.com",
-    "count": 12,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2756123",
     "screenshot": "https://s.tgstc.com/ogp3/a80fcf97e0c5b7c943080520a4f3853a-1200x630.jpeg",
     "description": "システム障害、エンジニアの6割「対応しきれない」　複雑化が要因に - 日本経済新聞 インシデント対応を支援するツールを手掛けるPagerDuty（ページャーデューティー、東京・港）は、企業におけるシステム障害対応の現状を調べた。回答したエンジニアの66.2%が「現在の人員や体制でシ… 18 users 日本経済新聞",
     "hatenaDate": "2026-10-09T09:36:51Z",
     "users": [],
     "firstSeenAt": "2026-10-10T07:45:13.652361+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "「ブックオフ」会員管理システムへの不正アクセスで最大643万件の会員情報漏えい",
@@ -107,27 +120,27 @@
     "title": "An opt-in vulnerability-finding service for open-source software",
     "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
     "domain": "www.anthropic.com",
-    "count": 10,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
     "screenshot": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
     "description": "Launching an opt-in vulnerability-finding service for open-source software We’re launching OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem informed by our experience using Claude to find vulnerabilities during Project Glasswing. Projects that join will receive thorough,...",
     "hatenaDate": "2026-10-09T09:25:04Z",
     "users": [],
     "firstSeenAt": "2026-10-10T06:30:14.174310+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "「秀丸エディタ」v9.59が公開 ～Windows XP/Vistaのサポートを終了／Windows 11の「テキスト カーソル インジケーター」に対応、カーソルが見やすく",
     "url": "https://forest.watch.impress.co.jp/docs/news/2146950.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 38,
+    "count": 43,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2146950.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2146/950/hidemaru.jpg",
     "description": null,
     "hatenaDate": "2026-10-09T05:51:20Z",
     "users": [],
     "firstSeenAt": "2026-10-10T06:15:16.047153+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "相次ぐサイバー攻撃被害。国家サイバー統括室が事業者に対策徹底を要請",
@@ -140,20 +153,20 @@
     "hatenaDate": "2026-10-09T12:15:48Z",
     "users": [],
     "firstSeenAt": "2026-10-10T05:30:14.378787+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "【笠原一輝のユビキタス情報局】 打倒MacBook Pro？Surface Laptop Ultraが目指すモノ作りしやすいマシン",
     "url": "https://pc.watch.impress.co.jp/docs/column/ubiq/2147205.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/ubiq/2147205.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2147/205/001.jpg",
     "description": null,
     "hatenaDate": "2026-10-09T09:54:48Z",
     "users": [],
     "firstSeenAt": "2026-10-10T05:30:14.378787+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "JR九州、メアド最大130万件漏洩か　ソフトバンク子会社不正アクセス - 日本経済新聞",
@@ -166,7 +179,7 @@
     "hatenaDate": "2026-10-09T12:47:05Z",
     "users": [],
     "firstSeenAt": "2026-10-10T04:00:13.270252+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "【第4報】不正アクセスによる障害への対応体制について | IDCフロンティア",
@@ -179,7 +192,7 @@
     "hatenaDate": "2026-10-09T09:45:26Z",
     "users": [],
     "firstSeenAt": "2026-10-10T03:15:15.451473+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "JR東日本、メールアドレス漏洩か　「えきねっと」や「大人の休日倶楽部」会員 - 日本経済新聞",
@@ -205,7 +218,7 @@
     "hatenaDate": "2026-10-09T02:57:29Z",
     "users": [],
     "firstSeenAt": "2026-10-10T02:15:15.359177+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "無料版ChatGPTにもGPT-6導入！回答に操作できるUIを生成",
@@ -237,14 +250,14 @@
     "title": "Cloudflareに入社します | maguro​.dev",
     "url": "https://maguro.dev/blog/joining-cloudflare/",
     "domain": "maguro.dev",
-    "count": 25,
+    "count": 27,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/maguro.dev/blog/joining-cloudflare/",
     "screenshot": "https://maguro.dev/og/joining-cloudflare.png",
     "description": "Senior Systems Engineer Cloudflareでのタイトルは Senior Systems Engineer になる。 よくあるSoftware Engineerとは違ってSystems Engineer。そのままカタカナにするとシステムズエンジニアだが、日本でいうシステムエンジニア（SE）とはだいぶ違う。 dodaによると、日本のSEは「システム全体の要件定義や設計、構築...",
     "hatenaDate": "2026-10-09T15:24:14Z",
     "users": [],
     "firstSeenAt": "2026-10-10T01:45:14.247015+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "Microsoft 365の「Family」と「Premium」プランでOneDriveの容量が「1人1TB×最大6人」から「全員で2TB」に減少",
@@ -263,14 +276,14 @@
     "title": "Deno is joining Cloudflare",
     "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
     "domain": "blog.cloudflare.com",
-    "count": 8,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.cloudflare.com/deno-joins-cloudflare/",
     "screenshot": "https://blog.cloudflare.com/_emdash/api/media/file/01M4EQTD297Y9G522JDZREGQVB.01M4EQTDKXS2ZN30A8X66WT213.png",
     "description": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects so developers can use the same primitives in more places. For what this means and how it came about, here’s the story from Ryan Dahl, Senior Principal Engineer, and Kenton Varda, Distinguished Engin...",
     "hatenaDate": "2026-10-09T13:25:43Z",
     "users": [],
     "firstSeenAt": "2026-10-10T01:15:13.768034+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "ヤマハ・スズキも漏えいか　交流サイト基盤「コミューン」不正アクセス、計30万会員に影響の恐れ",
@@ -283,7 +296,7 @@
     "hatenaDate": "2026-10-09T10:40:29Z",
     "users": [],
     "firstSeenAt": "2026-10-10T01:15:13.768034+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "アマゾン、米国でAndroid搭載の新タブレット「Amazon Alexa Tablet」を発表、Google Playも利用可",
@@ -309,20 +322,20 @@
     "hatenaDate": "2026-10-09T13:59:34Z",
     "users": [],
     "firstSeenAt": "2026-10-10T01:00:15.744314+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "RailsプロダクトにおけるDDD試験導入のリアル - stmn tech blog",
     "url": "https://tech.stmn.co.jp/entry/2026/10/09/121328",
     "domain": "tech.stmn.co.jp",
-    "count": 26,
+    "count": 28,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.stmn.co.jp/entry/2026/10/09/121328",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/161556440f55c258365e43a98c9e0a83611c5cb7/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn.user.blog.st-hatena.com%2Fdefault_entry_og_image%2F156014893%2F1721095942368448",
     "description": "スタメンでCTOしております、@tnir (X: @takuya_stmn, note: @takuya_stmn) です。 2023年9月、スタメン技術ブログで次の記事を公開しました。 ドメイン駆動設計は何を解決する手法なのか 記事では、TUNAG の技術的負債解消に向けてドメイン駆動設計（DDD）の導入を検討している、と書きました。その後の対外的な印象と...",
     "hatenaDate": "2026-10-09T04:34:07Z",
     "users": [],
     "firstSeenAt": "2026-10-10T01:00:15.744314+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "News",
@@ -419,27 +432,27 @@
     "title": "これでネジザウルスが不用に!?　本気で“なめないドライバー”Wera、PB SWISS、アネックスは何が違うのか？ 【テレワークグッズ・ミニレビュー 第169回】",
     "url": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/2147176.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 38,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/column/teleworkgoods/2147176.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2147/176/016.jpg",
     "description": null,
     "hatenaDate": "2026-10-09T09:51:48Z",
     "users": [],
     "firstSeenAt": "2026-10-09T23:00:14.931607+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "Sansan、1万人の情報漏洩か　外部クラウドに不正アクセス - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOMG00015_Z01C26A0000000/",
     "domain": "www.nikkei.com",
-    "count": 30,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOMG00015_Z01C26A0000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3709837009102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=03e90cff480fc40549bc6fcd9b368030",
     "description": "Sansanは9日、運営するユーザー向けオンラインコミュニティー「Sansan User Forum（サンサンユーザーフォーラム）」会員の個人情報が流出したと発表した。対象者は漏洩した恐れのある人も含め約1万人。利用する外部クラウドサービスへの不正アクセスが発生した。SansanはSansan User Forumについてコミューン（東京・品...",
     "hatenaDate": "2026-10-09T12:57:25Z",
     "users": [],
     "firstSeenAt": "2026-10-09T23:00:14.931607+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "山中で遭難の16歳少年、登山計画にAI「クロード」利用　救助隊は「ルートの盲信」警鐘",
@@ -465,33 +478,33 @@
     "hatenaDate": "2026-10-09T13:21:58Z",
     "users": [],
     "firstSeenAt": "2026-10-09T22:45:13.604084+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "【速報】AIで調べた判例実在せず書籍絶版",
     "url": "https://www.47news.jp/15060645.html",
     "domain": "www.47news.jp",
-    "count": 108,
+    "count": 110,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15060645.html",
     "screenshot": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
     "description": "島袋純・琉球大教授の書籍「無責任の体系と沖縄戦」を出版した高文研は9日までに、内容に誤りがあったとして同書を絶版・回収すると発表した。人工知能（AI）を使って検索し、書籍に記載した裁判事例が実在しなかったという。",
     "hatenaDate": "2026-10-09T11:55:05Z",
     "users": [],
     "firstSeenAt": "2026-10-09T22:45:13.604084+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "Qwen3.8-27Bを8GBに凝縮！メモリ16GBのノートで動く「Saluki 27B」",
     "url": "https://pc.watch.impress.co.jp/docs/news/2147095.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 38,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2147095.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2147/095/1.jpg",
     "description": null,
     "hatenaDate": "2026-10-09T08:40:01Z",
     "users": [],
     "firstSeenAt": "2026-10-09T22:45:13.604084+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "Anthropicがオープンソースプロジェクト向けに無料AIセキュリティスキャンサービスの「OSS Scanner」を開始",
@@ -653,27 +666,27 @@
     "title": "Claude、SQL不要でデータ分析可能に - ダッシュボードを自動生成する新機能",
     "url": "https://news.mynavi.jp/techplus/article/20261009-5099252/",
     "domain": "news.mynavi.jp",
-    "count": 79,
+    "count": 80,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.mynavi.jp/techplus/article/20261009-5099252/",
     "screenshot": "https://news.mynavi.jp/techplus/article/20261009-5099252/ogp_images/ogp.jpg",
     "description": "Anthropicは10月8日、Build live dashboards and animate explainers with Claude において、生成AI「Claude」の新機能「Claude Dashboards」と「Claude Motion」をベータ版として公開した。 Claude Dashboardsは、企業のデータ分析を支援する新機能。データウェアハウスや業務アプリケーションをClaudeに接続し、分析し...",
     "hatenaDate": "2026-10-09T08:31:27Z",
     "users": [],
     "firstSeenAt": "2026-10-09T20:30:13.938515+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "印刷物基準の文字組みをウェブの世界で。日本デザインセンター様から生まれたiOS用文字組みエンジンをJavaScriptに移植しました。 | non-standard world株式会社",
     "url": "https://www.non-standardworld.co.jp/stone-engine-js/",
     "domain": "www.non-standardworld.co.jp",
-    "count": 123,
+    "count": 124,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.non-standardworld.co.jp/stone-engine-js/",
     "screenshot": "https://www.non-standardworld.co.jp/media/2026/10/49805c91-6338-4255-96cb-53d9c2fa36dd-stone-engine-js-featured.png",
     "description": "できることすべてこのページ上で実際に組まれています。文字にマウスを乗せると赤くなるのは、1文字ずつがSVGの要素になっているからです。 縦書きと縦中横2 桁以下の数字は正体で並べ、3 桁以上の数字と英字は 90 度回転します。句読点や括弧は縦組み用のグリフに置き換わります。 コードを見る<StoneText direction=\"t...",
     "hatenaDate": "2026-10-09T08:06:29Z",
     "users": [],
     "firstSeenAt": "2026-10-09T20:00:14.446224+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "JR東日本「えきねっと」「大人の休日倶楽部」で個人情報約206万件が漏えいの可能性、IDCFクラウドへの攻撃の影響で",
@@ -725,7 +738,7 @@
     "hatenaDate": "2026-10-09T08:13:07Z",
     "users": [],
     "firstSeenAt": "2026-10-09T18:15:13.483707+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "「スカイチケット」に不正アクセス、計1467万件の個人情報流出　ハッシュ化されたパスワードも",
@@ -751,7 +764,7 @@
     "hatenaDate": "2026-10-09T06:26:14Z",
     "users": [],
     "firstSeenAt": "2026-10-09T17:00:13.083228+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "TOHOシネマズが「カーペット下のLANケーブルが“踏まれて断線”→敷き直し」から脱却　70館以上でどう実現した？",
@@ -842,7 +855,7 @@
     "hatenaDate": "2026-10-09T05:32:26Z",
     "users": [],
     "firstSeenAt": "2026-10-09T16:00:18.772960+09:00",
-    "lastSeenAt": "2026-10-10T10:15:12.287728+09:00"
+    "lastSeenAt": "2026-10-10T10:30:15.342666+09:00"
   },
   {
     "title": "米国防総省にも不正アクセス　個人情報300万人分が平文で漏えいか……発覚までに9カ月",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-07T08:45:13.438695+09:00",
     "lastSeenAt": "2026-10-07T15:15:14.491660+09:00"
-  },
-  {
-    "title": "Adobeツールの代替に？　オープンソースの無料クリエイティブソフト「Crafting Apps」公開",
-    "url": "https://www.itmedia.co.jp/news/article/2610/06/2000002037/",
-    "domain": "www.itmedia.co.jp",
-    "count": 24,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/06/2000002037/",
-    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/06/2000002037/10008520/2048",
-    "description": "画像・動画制作ソフト「ArtCraft」の開発チームが10月上旬、無料ソフト集「Crafting Apps」をGitHubで公開した。画像・動画編集やPDF操作などに対応する7つのアプリの初期版で、Xなどでは「Adobe製品の代替になるのでは」と期待する声が上がっている。 各アプリは米Adobe製品の画面構成やツール、ショートカットに慣れた...",
-    "hatenaDate": "2026-10-06T13:00:50Z",
-    "users": [],
-    "firstSeenAt": "2026-10-07T08:30:14.261918+09:00",
-    "lastSeenAt": "2026-10-07T14:00:14.378966+09:00"
   }
 ]
