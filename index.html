@@ -13,7 +13,6 @@
 <body>
 <header class="app-header">
   <h1 class="app-title"><a id="app-title-link" href="#/">hateb-tycoon</a></h1>
-  <input id="header-search" type="search" class="header-search" autocomplete="off">
   <div id="offline-cache-quick" class="offline-cache-quick">
     <button id="offline-cache-quick-btn" type="button" class="btn btn--icon" aria-label="オフライン用キャッシュを今すぐ取得" title="オフライン用キャッシュを今すぐ取得">⬇️</button>
     <div id="offline-cache-popover" class="offline-cache-popover" hidden>
@@ -69,13 +68,6 @@
       </div>
     </div>
     <ul id="comment-list" class="comment-list"></ul>
-    <nav class="entry-nav-bar">
-      <div class="entry-nav-bar-inner">
-        <button id="entry-prev-btn" type="button" class="btn entry-nav-btn">← 前の記事へ</button>
-        <button id="entry-back-bottom" type="button" class="btn entry-nav-btn">一覧へ戻る</button>
-        <button id="entry-next-btn" type="button" class="btn entry-nav-btn">次の記事へ →</button>
-      </div>
-    </nav>
   </section>
 </main>
 
@@ -249,8 +241,20 @@
   </div>
 </div>
 
-<footer class="app-footer">
-  <span id="next-update-info"></span>
+<!-- 画面下部に固定するフッター。下から「検索欄」「前後の記事ナビ(記事ページのみ)」の順に積み、
+     ビルド情報・次回更新の小さな表示は最上段に重ねる。 -->
+<footer id="app-bottom-bar" class="app-bottom-bar">
+  <div class="app-footer"><span id="next-update-info"></span></div>
+  <nav id="entry-nav-bar" class="entry-nav-bar" hidden>
+    <div class="entry-nav-bar-inner">
+      <button id="entry-prev-btn" type="button" class="btn entry-nav-btn">← 前の記事へ</button>
+      <button id="entry-back-bottom" type="button" class="btn entry-nav-btn">一覧へ戻る</button>
+      <button id="entry-next-btn" type="button" class="btn entry-nav-btn">次の記事へ →</button>
+    </div>
+  </nav>
+  <div class="footer-search-bar">
+    <input id="footer-search" type="search" class="footer-search" autocomplete="off">
+  </div>
 </footer>
 
 <script src="js/build-info.js"></script>

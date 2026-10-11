@@ -1,7 +1,9 @@
 (function () {
   const listView = document.getElementById('view-list');
   const entryView = document.getElementById('view-entry');
-  const headerSearch = document.getElementById('header-search');
+  const entryNavBar = document.getElementById('entry-nav-bar');
+  const bottomBar = document.getElementById('app-bottom-bar');
+  const footerSearch = document.getElementById('footer-search');
   const categoryTabs = document.getElementById('category-tabs');
   const entryGrid = document.getElementById('entry-grid');
   const listStatus = document.getElementById('list-status');
@@ -333,14 +335,14 @@
   }
 
   // ページ遷移のたびに検索欄をリセットする(前の画面の絞り込みを引き継がない)。
-  function resetHeaderSearch(isEntry) {
+  function resetFooterSearch(isEntry) {
     searchQuery = '';
-    headerSearch.value = '';
-    headerSearch.placeholder = isEntry ? ENTRY_SEARCH_PLACEHOLDER : LIST_SEARCH_PLACEHOLDER;
+    footerSearch.value = '';
+    footerSearch.placeholder = isEntry ? ENTRY_SEARCH_PLACEHOLDER : LIST_SEARCH_PLACEHOLDER;
   }
 
-  headerSearch.addEventListener('input', () => {
-    searchQuery = headerSearch.value.trim().toLowerCase();
+  footerSearch.addEventListener('input', () => {
+    searchQuery = footerSearch.value.trim().toLowerCase();
     if (!listView.hidden) {
       updateListView();
     } else if (!entryView.hidden) {
@@ -351,9 +353,9 @@
   // 一覧・個別記事どちらの画面でも、検索欄にURLを入力してEnterすると、そのURLのブックマークページへ遷移する。
   // 一覧に載っていないURLでも個別記事ビューはjsonlite経由で取得できるため、そのまま渡す。
   // IME変換確定のEnterでは遷移しない。
-  headerSearch.addEventListener('keydown', (e) => {
+  footerSearch.addEventListener('keydown', (e) => {
     if (e.key !== 'Enter' || e.isComposing) return;
-    const value = headerSearch.value.trim();
+    const value = footerSearch.value.trim();
     if (!/^https?:\/\/\S+$/i.test(value)) return;
     e.preventDefault();
     const params = new URLSearchParams();
@@ -361,12 +363,25 @@
     navigate('/entry', params);
   });
 
+  // 下部固定フッターの高さをCSS変数に反映し、コンテンツが隠れないよう本文の下余白に使う。
+  // (記事ページのナビ表示有無・safe-area・フォントサイズで高さが変わるため実測する)
+  function syncBottomBarHeight() {
+    document.documentElement.style.setProperty('--bottom-bar-h', `${bottomBar.offsetHeight}px`);
+  }
+  syncBottomBarHeight();
+  if (typeof ResizeObserver === 'function') {
+    new ResizeObserver(syncBottomBarHeight).observe(bottomBar);
+  } else {
+    window.addEventListener('resize', syncBottomBarHeight);
+  }
+
   function render() {
     const { path, params } = parseRoute();
-    resetHeaderSearch(path === '/entry');
+    resetFooterSearch(path === '/entry');
     if (path === '/entry') {
       listView.hidden = true;
       entryView.hidden = false;
+      entryNavBar.hidden = false;
       const url = params.get('url');
       renderEntryView(url);
     } else {
@@ -375,6 +390,7 @@
       // 離れる直前のスクロール位置を復元する。カテゴリーを切り替えた場合は復元しない。
       const restoreScrollY = newCategory === currentCategory && pendingScrollY !== null ? pendingScrollY : null;
       entryView.hidden = true;
+      entryNavBar.hidden = true;
       listView.hidden = false;
       resetEntryNavSnapshot();
       currentCategory = newCategory;
