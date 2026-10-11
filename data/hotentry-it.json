@@ -1,5 +1,31 @@
 [
   {
+    "title": "AI×アーキテクト | 技術評論社",
+    "url": "https://gihyo.jp/book/2026/978-4-297-16033-3",
+    "domain": "gihyo.jp",
+    "count": 7,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/book/2026/978-4-297-16033-3",
+    "screenshot": "https://gihyo.jp/assets/images/ogp/2026/9784297160333.jpg",
+    "description": "著者 元木大介（もときだいすけ），熊井悠（くまいゆう）　著 定価 2,860円（本体2,600円＋税10%） 発売日 2026.10.27 判型 A5 頁数 288ページ ISBN 978-4-297-16033-3 978-4-297-16034-0 概要 AIにコードを書かせる。文章を書かせる。設計図を描かせる。作ることのスピードは、この数年で桁違いに上がりました。しかし...",
+    "hatenaDate": "2026-10-06T04:01:51Z",
+    "users": [],
+    "firstSeenAt": "2026-10-11T16:15:13.048129+09:00",
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
+  },
+  {
+    "title": "AIと共生する開発者プラットフォーム：バクラクのモノレポ×マイクロサービス基盤",
+    "url": "https://speakerdeck.com/sakajunquality/sre-next-2026-bakuraku-sakajunquality",
+    "domain": "speakerdeck.com",
+    "count": 8,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/sakajunquality/sre-next-2026-bakuraku-sakajunquality",
+    "screenshot": "https://files.speakerdeck.com/presentations/b8a0995cef44450aaf33536e255db017/slide_0.jpg?39971582",
+    "description": "AIと共生する開発者プラットフォーム：バクラクのモノレポ×マイクロサービス基盤 SRE NEXT2026 https://sre-next.dev/2026/schedule/#slot076",
+    "hatenaDate": "2026-07-13T03:24:05Z",
+    "users": [],
+    "firstSeenAt": "2026-10-11T16:15:13.048129+09:00",
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
+  },
+  {
     "title": "音声合成の日本語化手法が一般化した話",
     "url": "https://zenn.dev/mkj/articles/0576d194771c08",
     "domain": "zenn.dev",
@@ -10,20 +36,20 @@
     "hatenaDate": "2025-12-09T00:55:28Z",
     "users": [],
     "firstSeenAt": "2026-10-11T15:27:14.461239+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "CPUのみで動作するリアルタイム多言語音声認識「早耳」、GPUもクラウドAPIも使わずメモリ2GB未満でライブ字幕表示からブラウザ表示・話者ラベル付け・翻訳字幕まで可能",
     "url": "https://gigazine.net/news/20261011-hayamimi/",
     "domain": "gigazine.net",
-    "count": 13,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261011-hayamimi/",
     "screenshot": "https://i.gzn.jp/img/2026/10/11/hayamimi/00.jpg",
     "description": "「Hayamimi(早耳)」はGPUやクラウドAPIに依存せずCPUのみで動作する軽量なリアルタイム多言語音声認識システムです。メモリ2GB未満の環境でもライブ字幕表示・話者ラベル付け・翻訳字幕生成まで対応し、発話中から字幕が出始め話し終えて約100msで確定する高速性が特徴です。 oboroge0/hayamimi: 早耳 - Real-time multi...",
     "hatenaDate": "2026-10-11T04:33:54Z",
     "users": [],
     "firstSeenAt": "2026-10-11T15:00:13.373710+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "データ指向アプリケーションデザイン 第2版",
@@ -36,46 +62,46 @@
     "hatenaDate": "2026-10-08T08:35:45Z",
     "users": [],
     "firstSeenAt": "2026-10-11T13:30:12.741710+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "オートパイロットは外せる人間を前提にしている — AI時代のエンジニア技能維持を航空業界に学ぶ",
     "url": "https://zenn.dev/shimitaro/articles/eb45d8d63c7bd1",
     "domain": "zenn.dev",
-    "count": 47,
+    "count": 54,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/shimitaro/articles/eb45d8d63c7bd1",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--BONU_QrP--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25AA%25E3%2583%25BC%25E3%2583%2588%25E3%2583%2591%25E3%2582%25A4%25E3%2583%25AD%25E3%2583%2583%25E3%2583%2588%25E3%2581%25AF%25E5%25A4%2596%25E3%2581%259B%25E3%2582%258B%25E4%25BA%25BA%25E9%2596%2593%25E3%2582%2592%25E5%2589%258D%25E6%258F%2590%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%2520%25E2%2580%2594%2520AI%25E6%2599%2582%25E4%25BB%25A3%25E3%2581%25AE%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E6%258A%2580%25E8%2583%25BD%25E7%25B6%25AD%25E6%258C%2581%25E3%2582%2592%25E8%2588%25AA%25E7%25A9%25BA%25E6%25A5%25AD%25E7%2595%258C%25E3%2581%25AB%25E5%25AD%25A6%25E3%2581%25B6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2597%25E3%2581%25BF%25E3%2581%259F%25E3%2582%258D%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzAzMDIwMjI0N2UuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "AI にコードを書かせる時代に、エンジニアは何の技能を残しておけばいいのか。 航空業界の制度を一次資料でたどると、答えは「自分で書く力」よりも「自動化から引き継ぐ力」のほうに寄っていきました。パイロットは普段から手で操縦しているわけではありません。それでも、自動操縦が外れたときに機体を立て直せる状態...",
     "hatenaDate": "2026-10-11T01:59:35Z",
     "users": [],
     "firstSeenAt": "2026-10-11T13:15:12.467213+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "「妻とsetlogをやり始めたら、これが思った以上に良い効果を生んでいる」お互いの生活がビジュアルで伝わると会話もスムーズになると気づいた",
     "url": "https://togetter.com/li/2756515",
     "domain": "togetter.com",
-    "count": 12,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2756515",
     "screenshot": "https://s.tgstc.com/ogp3/41e61b6761cdc8e92ecba031e2af9e69-1200x630.jpeg",
     "description": "谷口恒平 @taniguchikohei 妻とsetlogをしている。これが思った以上に良い効果を生んでいる。 setlogとは1時間に2秒だけ映像を撮り、短いテロップを入れて相手と共有できるアプリ。1日ごとに二分割の画面が出来上がり、スプリットスクリーンでそれぞれの行動が映し出される。不特定多数に見られることはない。 良かった...",
     "hatenaDate": "2026-10-10T07:42:29Z",
     "users": [],
     "firstSeenAt": "2026-10-11T13:15:12.467213+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "「男は狩り、女は採集」はどこまで本当？　約8割で女性も狩り、乳児連れの例も　過去100年の狩猟採集社会を調査",
     "url": "https://www.itmedia.co.jp/news/article/2610/10/2000002038/",
     "domain": "www.itmedia.co.jp",
-    "count": 52,
+    "count": 55,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/10/2000002038/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/10/2000002038/10008527/2048",
     "description": "人類の狩猟採集生活における性別分業は、一般的に男性が狩猟者、女性が採集者という役割分担として認識されてきた。 しかし、これまでには、ペルーで発見された約9000年前の女性の遺骨のそばに大型動物を狩るための道具が置かれていたり、スウェーデンで発掘されたヴァイキングの戦士の骨が実は女性だったりと、過去の常...",
     "hatenaDate": "2026-10-10T05:13:38Z",
     "users": [],
     "firstSeenAt": "2026-10-11T13:15:12.467213+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "Windows版CodexがMXCに対応、セットアップを高速化 ——ChatGPTの全プランでオートレビューを無料化、Pro向けにメッセージ予測機能をベータ提供 | gihyo.jp",
@@ -88,7 +114,7 @@
     "hatenaDate": "2026-10-10T10:56:00Z",
     "users": [],
     "firstSeenAt": "2026-10-11T13:00:13.869696+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "【今すぐ読みたい！人気記事】SSD換装+OS丸ごとデータ移行を無料ソフト「Clonezilla」でやろう - PC Watch",
@@ -101,20 +127,20 @@
     "hatenaDate": "2026-10-10T01:00:38Z",
     "users": [],
     "firstSeenAt": "2026-10-11T13:00:13.869696+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "システムのアップデートでデプロイが失敗し、営業時間中に本番環境を予告なしに削除した人がいて全社の業務が停止「どうすればよかったのか？」→業務フローに問題がある？",
     "url": "https://togetter.com/li/2756739",
     "domain": "togetter.com",
-    "count": 19,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2756739",
     "screenshot": "https://s.tgstc.com/ogp3/36a4059b701a2b463473d015977fb294-1200x630.jpeg",
     "description": "Miyahan @miyahancom システムのアップデートをしようとしたらデプロイがコケたので、営業時間中に本番環境を予告なしに削除した化け物がいて、全社の業務が停止。あちこちから悲鳴。 中間報告書で「検証が甘かった」としており、本番稼働してる環境を消したことの重大さは全く理解せず。 こういうのどうすりゃいいの？ ...",
     "hatenaDate": "2026-10-11T00:58:44Z",
     "users": [],
     "firstSeenAt": "2026-10-11T12:45:12.244529+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "個人情報保護法を改悪強行した高市政権「自分の情報は自分で守れ」の支離滅裂｜日刊ゲンダイDIGITAL",
@@ -127,7 +153,7 @@
     "hatenaDate": "2026-10-10T07:23:49Z",
     "users": [],
     "firstSeenAt": "2026-10-11T12:30:13.838752+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries.",
@@ -140,7 +166,7 @@
     "hatenaDate": "2026-10-06T03:09:33Z",
     "users": [],
     "firstSeenAt": "2026-10-11T12:00:14.663774+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "Yandexのデータセンター障害についてまとめてみた - piyolog",
@@ -153,59 +179,59 @@
     "hatenaDate": "2026-10-10T21:06:31Z",
     "users": [],
     "firstSeenAt": "2026-10-11T11:45:11.491629+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "d先生BANは残当だけどさ",
     "url": "https://anond.hatelabo.jp/20261010225331",
     "domain": "anond.hatelabo.jp",
-    "count": 16,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261010225331",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "セルクマで新着埋めるとかほぼ荒らしだったしな っても、今AIが同じことしてるけど対応してくれるんスか？ 連投NGならAIも消えるだろうから嬉しいけどさ、AI呼び込んだの運営だしやらないでしょ",
     "hatenaDate": "2026-10-10T14:04:39Z",
     "users": [],
     "firstSeenAt": "2026-10-11T11:45:11.491629+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "子育てエンジニアの可処分時間が減っても成長を諦めない戦い方",
     "url": "https://speakerdeck.com/sudoakiy/kosodate-enjinia-no-kashobun-jikan-ga-he-temo-seichou-o-akiramenai-tatakaikata",
     "domain": "speakerdeck.com",
-    "count": 29,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/sudoakiy/kosodate-enjinia-no-kashobun-jikan-ga-he-temo-seichou-o-akiramenai-tatakaikata",
     "screenshot": "https://files.speakerdeck.com/presentations/1936824cdbd444c699a6ed14d9282c0a/slide_0.jpg?40862126",
     "description": "2026.10.10（Sat）「子育てエンジニアリングMeetup #1 」 登壇資料 すどう @sudoakiy",
     "hatenaDate": "2026-10-10T10:53:55Z",
     "users": [],
     "firstSeenAt": "2026-10-11T11:30:12.827516+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "ChatGPTに対して些細なミスでも執拗に詰めるパワハラを続けていたら、完全に萎縮されて1つの回答に70分かかるようになった→AIに対するパワハラが人間にも通じると話題に",
     "url": "https://togetter.com/li/2756720",
     "domain": "togetter.com",
-    "count": 95,
+    "count": 98,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2756720",
     "screenshot": "https://s.tgstc.com/ogp3/648d396970fbbf62ebb412ce1c991b64-1200x630.jpeg",
     "description": "ChatGPTに対して些細なミスでも執拗に詰めるパワハラを続けていたら、完全に萎縮されて1つの回答に70分かかるようになった→AIに対するパワハラが人間にも通じると話題に",
     "hatenaDate": "2026-10-10T23:55:32Z",
     "users": [],
     "firstSeenAt": "2026-10-11T10:00:14.535918+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "無料のオープンソースEPUB・PDFリーダー「Readest」、Windows・Linux・macOS・Android・iOS・ブラウザ・KOReaderでハイライト・メモ・分割画面読書・AIテキスト読み上げ・AI自動翻訳・クラウド同期が可能",
     "url": "https://gigazine.net/news/20261010-readest/",
     "domain": "gigazine.net",
-    "count": 67,
+    "count": 68,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261010-readest/",
     "screenshot": "https://i.gzn.jp/img/2026/10/10/readest/00.png",
     "description": "電子書籍のハイライトやメモだけでなく、2冊を横並びにする分割画面読書・AI音声読み上げ・文章や書籍全体の翻訳・端末間のクラウド同期まで利用でき、Windows・Linux・macOS・Android・iOS・ブラウザに対応する「Readest」が公開されています。 Readest — 無料オープンソースのEPUB・PDFリーダー、全プラットフォーム対...",
     "hatenaDate": "2026-10-10T09:16:40Z",
     "users": [],
     "firstSeenAt": "2026-10-11T09:30:13.909441+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "Google Chrome、同意なしで4GBのローカルAIモデルをダウンロードさせている | ギズモード・ジャパン",
@@ -218,7 +244,7 @@
     "hatenaDate": "2026-10-10T22:12:05Z",
     "users": [],
     "firstSeenAt": "2026-10-11T09:13:54.621762+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "The Register of UNIX® Certified Products",
@@ -231,7 +257,7 @@
     "hatenaDate": "2026-10-10T14:11:26Z",
     "users": [],
     "firstSeenAt": "2026-10-11T07:45:13.342886+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "ゼロトラストを導入していたはずのデジタル庁に不正アクセス……原因は導入後の「見えない借金」にあった",
@@ -244,20 +270,20 @@
     "hatenaDate": "2026-10-09T23:38:25Z",
     "users": [],
     "firstSeenAt": "2026-10-11T06:15:13.928186+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "SQLite 本体にベクトル検索拡張 vec1 がやってきた",
     "url": "https://zenn.dev/mattn/articles/6e9996319ac099",
     "domain": "zenn.dev",
-    "count": 174,
+    "count": 176,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mattn/articles/6e9996319ac099",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--PnneRXdm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:SQLite%2520%25E6%259C%25AC%25E4%25BD%2593%25E3%2581%25AB%25E3%2583%2599%25E3%2582%25AF%25E3%2583%2588%25E3%2583%25AB%25E6%25A4%259C%25E7%25B4%25A2%25E6%258B%25A1%25E5%25BC%25B5%2520vec1%2520%25E3%2581%258C%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258D%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mattn%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2IwYjA3ZWIzODAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "はじめに 2026 年 9 月 30 日、SQLite のソースツリーに ext/vec1/ というディレクトリが追加されました。コミットしたのは FTS5 などでおなじみの Dan Kennedy 氏。コミットメッセージはたった 1 行です。 これまで別の場所で開発されていた vec1 が、まるっと SQLite 本体のリポジトリに取り込まれました。本体は vec1...",
     "hatenaDate": "2026-10-10T17:16:51Z",
     "users": [],
     "firstSeenAt": "2026-10-11T05:42:22.430211+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "音声合成に日本語を正しく読んでもらう話 〜高低アクセントからG2Pまで〜 【前編】",
@@ -270,7 +296,7 @@
     "hatenaDate": "2026-10-10T13:59:47Z",
     "users": [],
     "firstSeenAt": "2026-10-11T04:30:13.884422+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "if your team is too busy doing their 'normal job' to experiment with AI, you're preparing them to be replaced",
@@ -289,14 +315,14 @@
     "title": "国内で相次ぐ不正アクセスに対する注意喚起についてまとめてみた - piyolog",
     "url": "https://piyolog.hatenadiary.jp/entry/2026/10/11/004353",
     "domain": "piyolog.hatenadiary.jp",
-    "count": 402,
+    "count": 403,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/11/004353",
     "screenshot": "https://ogimage.blog.st-hatena.com/10257846132616586766/14945776032088434102/1791647033",
     "description": "2026年10月7日から9日にかけて、個人情報保護委員会、JPCERT/CC、国家サイバー統括室、IPAなどの各機関が、国内組織で相次ぐ不正アクセスによる個人情報の漏えいを受けた注意喚起を公表しました。ここでは関連する情報をまとめます。 BIツールや従業員向けシステムも被害に JPCERT/CCは10月8日に公開した注意喚起で、「2...",
     "hatenaDate": "2026-10-10T15:48:52Z",
     "users": [],
     "firstSeenAt": "2026-10-11T01:15:13.377489+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "「製造データと暗黙知があれば勝てる」は幻想？　フィジカルAI“10の誤解”をGartnerが指摘",
@@ -322,7 +348,7 @@
     "hatenaDate": "2026-10-10T09:04:42Z",
     "users": [],
     "firstSeenAt": "2026-10-10T23:45:12.846846+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "「IDCFクラウド」で何が起きたのか　情報漏洩や復旧の可能性について現在分かっていること（山口健太） - エキスパート - Yahoo!ニュース",
@@ -335,7 +361,7 @@
     "hatenaDate": "2026-10-10T10:29:31Z",
     "users": [],
     "firstSeenAt": "2026-10-10T23:45:12.846846+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "GitHub - oh-my-mermaid/oh-my-mermaid: Turn complex codebases into clear, navigable architecture diagrams with Claude Code.",
@@ -348,7 +374,7 @@
     "hatenaDate": "2026-10-08T20:47:54Z",
     "users": [],
     "firstSeenAt": "2026-10-10T23:00:12.610456+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "JR東「えきねっと」「大人の休日倶楽部」で漏洩か　のべ206万件：朝日新聞",
@@ -426,7 +452,7 @@
     "hatenaDate": "2026-10-09T10:44:35Z",
     "users": [],
     "firstSeenAt": "2026-10-10T20:15:12.425745+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "スマホの「実質価格」高騰の恐れ、iPhone 18 Proは2倍高く？　総務省の残価設定ルール厳格化は“誰のため”か",
@@ -478,7 +504,7 @@
     "hatenaDate": "2026-10-10T05:13:12Z",
     "users": [],
     "firstSeenAt": "2026-10-10T19:00:12.908872+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "個人情報漏洩が日常になってしまった世界でどうしていくべきか",
@@ -491,7 +517,7 @@
     "hatenaDate": "2026-10-10T07:36:44Z",
     "users": [],
     "firstSeenAt": "2026-10-10T18:30:14.998607+09:00",
-    "lastSeenAt": "2026-10-11T16:00:17.198090+09:00"
+    "lastSeenAt": "2026-10-11T16:15:13.048129+09:00"
   },
   {
     "title": "AI駆動開発の時代になったのでトヨタ生産方式から見直す",
@@ -3872,31 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-07T23:30:18.928465+09:00",
     "lastSeenAt": "2026-10-08T10:00:50.928816+09:00"
-  },
-  {
-    "title": "IDCFクラウドへの不正アクセス、ランサムウェア攻撃と明らかに　運営会社が回答",
-    "url": "https://www.itmedia.co.jp/news/article/2610/07/2000002106/",
-    "domain": "www.itmedia.co.jp",
-    "count": 16,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/07/2000002106/",
-    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/07/2000002106/10008758/2048",
-    "description": "ソフトバンク子会社のIDCフロンティア（東京都千代田区）が提供する法人向けクラウドサービス「IDCFクラウド」の障害が、ランサムウェア攻撃によるものだったことが10月7日、ITmedia NEWSの取材で分かった。同社は同日、福島県白河市にある「東日本第1リージョン」が不正アクセスを受け、システムに障害が発生していると...",
-    "hatenaDate": "2026-10-07T11:27:27Z",
-    "users": [],
-    "firstSeenAt": "2026-10-07T23:15:12.814475+09:00",
-    "lastSeenAt": "2026-10-08T09:00:14.293937+09:00"
-  },
-  {
-    "title": "A Terminal Protocol for Program Status (OSC 7501)",
-    "url": "https://mitchellh.com/writing/program-status-osc7501",
-    "domain": "mitchellh.com",
-    "count": 5,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/mitchellh.com/writing/program-status-osc7501",
-    "screenshot": null,
-    "description": "I wrote a specification for a new terminal escape sequence: OSC 7501, the Program Status Protocol. It lets any program tell the terminal what it's doing: idle, working, waiting on the user, finished, or failed, and why. For example, here is how Terraform could indicate that it is blocked waiting ...",
-    "hatenaDate": "2026-10-06T23:55:50Z",
-    "users": [],
-    "firstSeenAt": "2026-10-07T23:15:12.814475+09:00",
-    "lastSeenAt": "2026-10-08T00:00:09.724080+09:00"
   }
 ]
