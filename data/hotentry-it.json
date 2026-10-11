@@ -1,16 +1,29 @@
 [
   {
+    "title": "データ指向アプリケーションデザイン 第2版",
+    "url": "https://www.oreilly.co.jp//books/9784814401802/",
+    "domain": "www.oreilly.co.jp",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.oreilly.co.jp//books/9784814401802/",
+    "screenshot": "https://www.oreilly.co.jp/books/images/picture_large978-4-8144-0180-2.jpeg",
+    "description": "TOPICS Database , System/Network 発行年月日 2026年11月05日 PRINT LENGTH 664 ISBN 978-4-8144-0180-2 原書 Designing Data-Intensive Applications, 2nd Edition FORMAT Print 現代の分散システム設計において、データの扱いは重要な課題です。システムは、スケーラビリティ、一貫性、信頼性、効率性、保守性を維持...",
+    "hatenaDate": "2026-10-08T08:35:45Z",
+    "users": [],
+    "firstSeenAt": "2026-10-11T13:30:12.741710+09:00",
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
+  },
+  {
     "title": "オートパイロットは外せる人間を前提にしている — AI時代のエンジニア技能維持を航空業界に学ぶ",
     "url": "https://zenn.dev/shimitaro/articles/eb45d8d63c7bd1",
     "domain": "zenn.dev",
-    "count": 7,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/shimitaro/articles/eb45d8d63c7bd1",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--BONU_QrP--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25AA%25E3%2583%25BC%25E3%2583%2588%25E3%2583%2591%25E3%2582%25A4%25E3%2583%25AD%25E3%2583%2583%25E3%2583%2588%25E3%2581%25AF%25E5%25A4%2596%25E3%2581%259B%25E3%2582%258B%25E4%25BA%25BA%25E9%2596%2593%25E3%2582%2592%25E5%2589%258D%25E6%258F%2590%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%2520%25E2%2580%2594%2520AI%25E6%2599%2582%25E4%25BB%25A3%25E3%2581%25AE%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E6%258A%2580%25E8%2583%25BD%25E7%25B6%25AD%25E6%258C%2581%25E3%2582%2592%25E8%2588%25AA%25E7%25A9%25BA%25E6%25A5%25AD%25E7%2595%258C%25E3%2581%25AB%25E5%25AD%25A6%25E3%2581%25B6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2597%25E3%2581%25BF%25E3%2581%259F%25E3%2582%258D%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzAzMDIwMjI0N2UuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "AI にコードを書かせる時代に、エンジニアは何の技能を残しておけばいいのか。 航空業界の制度を一次資料でたどると、答えは「自分で書く力」よりも「自動化から引き継ぐ力」のほうに寄っていきました。パイロットは普段から手で操縦しているわけではありません。それでも、自動操縦が外れたときに機体を立て直せる状態...",
     "hatenaDate": "2026-10-11T01:59:35Z",
     "users": [],
     "firstSeenAt": "2026-10-11T13:15:12.467213+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "「妻とsetlogをやり始めたら、これが思った以上に良い効果を生んでいる」お互いの生活がビジュアルで伝わると会話もスムーズになると気づいた",
@@ -23,7 +36,7 @@
     "hatenaDate": "2026-10-10T07:42:29Z",
     "users": [],
     "firstSeenAt": "2026-10-11T13:15:12.467213+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "「男は狩り、女は採集」はどこまで本当？　約8割で女性も狩り、乳児連れの例も　過去100年の狩猟採集社会を調査",
@@ -36,7 +49,7 @@
     "hatenaDate": "2026-10-10T05:13:38Z",
     "users": [],
     "firstSeenAt": "2026-10-11T13:15:12.467213+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "Windows版CodexがMXCに対応、セットアップを高速化 ——ChatGPTの全プランでオートレビューを無料化、Pro向けにメッセージ予測機能をベータ提供 | gihyo.jp",
@@ -49,33 +62,33 @@
     "hatenaDate": "2026-10-10T10:56:00Z",
     "users": [],
     "firstSeenAt": "2026-10-11T13:00:13.869696+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "【今すぐ読みたい！人気記事】SSD換装+OS丸ごとデータ移行を無料ソフト「Clonezilla」でやろう - PC Watch",
     "url": "https://pc.watch.impress.co.jp/docs/topic/readitnow/2147255.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 6,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/topic/readitnow/2147255.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2147/255/1.jpg",
     "description": null,
     "hatenaDate": "2026-10-10T01:00:38Z",
     "users": [],
     "firstSeenAt": "2026-10-11T13:00:13.869696+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "システムのアップデートでデプロイが失敗し、営業時間中に本番環境を予告なしに削除した人がいて全社の業務が停止「どうすればよかったのか？」→業務フローに問題がある？",
     "url": "https://togetter.com/li/2756739",
     "domain": "togetter.com",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2756739",
     "screenshot": "https://s.tgstc.com/ogp3/36a4059b701a2b463473d015977fb294-1200x630.jpeg",
     "description": "Miyahan @miyahancom システムのアップデートをしようとしたらデプロイがコケたので、営業時間中に本番環境を予告なしに削除した化け物がいて、全社の業務が停止。あちこちから悲鳴。 中間報告書で「検証が甘かった」としており、本番稼働してる環境を消したことの重大さは全く理解せず。 こういうのどうすりゃいいの？ ...",
     "hatenaDate": "2026-10-11T00:58:44Z",
     "users": [],
     "firstSeenAt": "2026-10-11T12:45:12.244529+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "個人情報保護法を改悪強行した高市政権「自分の情報は自分で守れ」の支離滅裂｜日刊ゲンダイDIGITAL",
@@ -88,7 +101,7 @@
     "hatenaDate": "2026-10-10T07:23:49Z",
     "users": [],
     "firstSeenAt": "2026-10-11T12:30:13.838752+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries.",
@@ -101,33 +114,33 @@
     "hatenaDate": "2026-10-06T03:09:33Z",
     "users": [],
     "firstSeenAt": "2026-10-11T12:00:14.663774+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "Yandexのデータセンター障害についてまとめてみた - piyolog",
     "url": "https://piyolog.hatenadiary.jp/entry/2026/10/11/011521",
     "domain": "piyolog.hatenadiary.jp",
-    "count": 16,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/11/011521",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/babe07b76bee1354e62be11bf3bceec14e95985a/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fp%2Fpiyokango%2F20261011%2F20261011011044.png",
     "description": "2026年10月8日、ロシアIT大手が運営するYandex Cloudはru-central1-bで電源が途絶し、サービスが利用できない状態になっていると告知しました。その後、Yandexはデータセンターがドローン攻撃を受けて火災が起き、稼働が完全に停止したと公表しています。ここでは関連する情報をまとめます。 ru-central1-b の電源障害 ...",
     "hatenaDate": "2026-10-10T21:06:31Z",
     "users": [],
     "firstSeenAt": "2026-10-11T11:45:11.491629+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "d先生BANは残当だけどさ",
     "url": "https://anond.hatelabo.jp/20261010225331",
     "domain": "anond.hatelabo.jp",
-    "count": 9,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261010225331",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "セルクマで新着埋めるとかほぼ荒らしだったしな っても、今AIが同じことしてるけど対応してくれるんスか？ 連投NGならAIも消えるだろうから嬉しいけどさ、AI呼び込んだの運営だしやらないでしょ",
     "hatenaDate": "2026-10-10T14:04:39Z",
     "users": [],
     "firstSeenAt": "2026-10-11T11:45:11.491629+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "子育てエンジニアの可処分時間が減っても成長を諦めない戦い方",
@@ -140,20 +153,20 @@
     "hatenaDate": "2026-10-10T10:53:55Z",
     "users": [],
     "firstSeenAt": "2026-10-11T11:30:12.827516+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "ChatGPTに対して些細なミスでも執拗に詰めるパワハラを続けていたら、完全に萎縮されて1つの回答に70分かかるようになった→AIに対するパワハラが人間にも通じると話題に",
     "url": "https://togetter.com/li/2756720",
     "domain": "togetter.com",
-    "count": 51,
+    "count": 58,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2756720",
     "screenshot": "https://s.tgstc.com/ogp3/648d396970fbbf62ebb412ce1c991b64-1200x630.jpeg",
     "description": "ChatGPTに対して些細なミスでも執拗に詰めるパワハラを続けていたら、完全に萎縮されて1つの回答に70分かかるようになった→AIに対するパワハラが人間にも通じると話題に",
     "hatenaDate": "2026-10-10T23:55:32Z",
     "users": [],
     "firstSeenAt": "2026-10-11T10:00:14.535918+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "無料のオープンソースEPUB・PDFリーダー「Readest」、Windows・Linux・macOS・Android・iOS・ブラウザ・KOReaderでハイライト・メモ・分割画面読書・AIテキスト読み上げ・AI自動翻訳・クラウド同期が可能",
@@ -166,20 +179,20 @@
     "hatenaDate": "2026-10-10T09:16:40Z",
     "users": [],
     "firstSeenAt": "2026-10-11T09:30:13.909441+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "Google Chrome、同意なしで4GBのローカルAIモデルをダウンロードさせている | ギズモード・ジャパン",
     "url": "https://www.gizmodo.jp/article/2610-google-chrome-gemini-nano-4gb-model/",
     "domain": "www.gizmodo.jp",
-    "count": 51,
+    "count": 53,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/2610-google-chrome-gemini-nano-4gb-model/",
     "screenshot": "https://media.loom-app.com/gizmodo/dist/images/2026/05/18/shutterstock_2559046177.jpg?w=1200&h=630",
     "description": "2026年5月19日の記事を編集して再掲載しています。 Google Chromeが、ユーザーの同意なしに約4GBものAIモデルをデバイスに自動的にダウンロード・保存させているという件が判明しました。「OptGuideOnDeviceModel」というフォルダの中に、こっそり4GBも忍び込ませいるようです。 「That Privacy Guy（プライバシー・ガイ...",
     "hatenaDate": "2026-10-10T22:12:05Z",
     "users": [],
     "firstSeenAt": "2026-10-11T09:13:54.621762+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "The Register of UNIX® Certified Products",
@@ -192,46 +205,46 @@
     "hatenaDate": "2026-10-10T14:11:26Z",
     "users": [],
     "firstSeenAt": "2026-10-11T07:45:13.342886+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "ゼロトラストを導入していたはずのデジタル庁に不正アクセス……原因は導入後の「見えない借金」にあった",
     "url": "https://enterprisezine.jp/article/detail/25178",
     "domain": "enterprisezine.jp",
-    "count": 60,
+    "count": 62,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/enterprisezine.jp/article/detail/25178",
     "screenshot": "https://ez-cdn.shoeisha.jp/static/images/article/25178/25178-top.png",
     "description": "「わが社はゼロトラスト導入済みです」──この言葉を、当方はここ7年で数え切れないほど聞いてきました。ゼットスケーラーで250社を超える企業のゼロトラスト実装ワークショップを主導し、日本企業の現場を間近に見てきた立場から申し上げると、この「導入済み」はかなり危うい言葉です。多くの場合、それはリモートアク...",
     "hatenaDate": "2026-10-09T23:38:25Z",
     "users": [],
     "firstSeenAt": "2026-10-11T06:15:13.928186+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "SQLite 本体にベクトル検索拡張 vec1 がやってきた",
     "url": "https://zenn.dev/mattn/articles/6e9996319ac099",
     "domain": "zenn.dev",
-    "count": 144,
+    "count": 146,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mattn/articles/6e9996319ac099",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--PnneRXdm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:SQLite%2520%25E6%259C%25AC%25E4%25BD%2593%25E3%2581%25AB%25E3%2583%2599%25E3%2582%25AF%25E3%2583%2588%25E3%2583%25AB%25E6%25A4%259C%25E7%25B4%25A2%25E6%258B%25A1%25E5%25BC%25B5%2520vec1%2520%25E3%2581%258C%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258D%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mattn%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2IwYjA3ZWIzODAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "はじめに 2026 年 9 月 30 日、SQLite のソースツリーに ext/vec1/ というディレクトリが追加されました。コミットしたのは FTS5 などでおなじみの Dan Kennedy 氏。コミットメッセージはたった 1 行です。 これまで別の場所で開発されていた vec1 が、まるっと SQLite 本体のリポジトリに取り込まれました。本体は vec1...",
     "hatenaDate": "2026-10-10T17:16:51Z",
     "users": [],
     "firstSeenAt": "2026-10-11T05:42:22.430211+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "音声合成に日本語を正しく読んでもらう話 〜高低アクセントからG2Pまで〜 【前編】",
     "url": "https://zenn.dev/mkj/articles/speech-tts-japanese-2026",
     "domain": "zenn.dev",
-    "count": 65,
+    "count": 66,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mkj/articles/speech-tts-japanese-2026",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--mwJGFbU5--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E9%259F%25B3%25E5%25A3%25B0%25E5%2590%2588%25E6%2588%2590%25E3%2581%25AB%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2582%2592%25E6%25AD%25A3%25E3%2581%2597%25E3%2581%258F%25E8%25AA%25AD%25E3%2582%2593%25E3%2581%25A7%25E3%2582%2582%25E3%2582%2589%25E3%2581%2586%25E8%25A9%25B1%2520%25E3%2580%259C%25E9%25AB%2598%25E4%25BD%258E%25E3%2582%25A2%25E3%2582%25AF%25E3%2582%25BB%25E3%2583%25B3%25E3%2583%2588%25E3%2581%258B%25E3%2582%2589G2P%25E3%2581%25BE%25E3%2581%25A7%25E3%2580%259C%2520%25E3%2580%2590%25E5%2589%258D%25E7%25B7%25A8%25E3%2580%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Kiyoshi%2520Kurihara%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2U2NGM3ZTBkMzIuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%259D%25BE%25E5%25B0%25BE%25E7%25A0%2594%25E7%25A9%25B6%25E6%2589%2580%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSnAwaG5JMy1EczJmWVJQSUZHMUZsWHF0Q01sOHo1UVY1MXdlZkJkWk92SF9GWEpBPXMyNTAtYw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "株式会社 松尾研究所で働いている栗原です。 以前、「音声合成の日本語化手法が一般化した話」を書きました。 今回は、日本語の難しさと、それを音声合成に扱わせる難しさ、その課題に取り組むために考案した日本語言語処理部（G2P: Grapheme-to-Phoneme）について、前後編に分けて解説していきます。 専門家・理系の方...",
     "hatenaDate": "2026-10-10T13:59:47Z",
     "users": [],
     "firstSeenAt": "2026-10-11T04:30:13.884422+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "if your team is too busy doing their 'normal job' to experiment with AI, you're preparing them to be replaced",
@@ -244,20 +257,20 @@
     "hatenaDate": "2026-10-09T09:50:52Z",
     "users": [],
     "firstSeenAt": "2026-10-11T01:45:16.108075+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "国内で相次ぐ不正アクセスに対する注意喚起についてまとめてみた - piyolog",
     "url": "https://piyolog.hatenadiary.jp/entry/2026/10/11/004353",
     "domain": "piyolog.hatenadiary.jp",
-    "count": 359,
+    "count": 361,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/11/004353",
     "screenshot": "https://ogimage.blog.st-hatena.com/10257846132616586766/14945776032088434102/1791647033",
     "description": "2026年10月7日から9日にかけて、個人情報保護委員会、JPCERT/CC、国家サイバー統括室、IPAなどの各機関が、国内組織で相次ぐ不正アクセスによる個人情報の漏えいを受けた注意喚起を公表しました。ここでは関連する情報をまとめます。 BIツールや従業員向けシステムも被害に JPCERT/CCは10月8日に公開した注意喚起で、「2...",
     "hatenaDate": "2026-10-10T15:48:52Z",
     "users": [],
     "firstSeenAt": "2026-10-11T01:15:13.377489+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "「製造データと暗黙知があれば勝てる」は幻想？　フィジカルAI“10の誤解”をGartnerが指摘",
@@ -270,7 +283,7 @@
     "hatenaDate": "2026-10-08T02:48:51Z",
     "users": [],
     "firstSeenAt": "2026-10-11T00:15:12.812626+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "Readest — 無料オープンソースのEPUB・PDFリーダー、全プラットフォーム対応",
@@ -283,7 +296,7 @@
     "hatenaDate": "2026-10-10T09:04:42Z",
     "users": [],
     "firstSeenAt": "2026-10-10T23:45:12.846846+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "「IDCFクラウド」で何が起きたのか　情報漏洩や復旧の可能性について現在分かっていること（山口健太） - エキスパート - Yahoo!ニュース",
@@ -296,20 +309,20 @@
     "hatenaDate": "2026-10-10T10:29:31Z",
     "users": [],
     "firstSeenAt": "2026-10-10T23:45:12.846846+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "GitHub - oh-my-mermaid/oh-my-mermaid: Turn complex codebases into clear, navigable architecture diagrams with Claude Code.",
     "url": "https://github.com/oh-my-mermaid/oh-my-mermaid",
     "domain": "github.com",
-    "count": 30,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/oh-my-mermaid/oh-my-mermaid",
     "screenshot": "https://opengraph.githubassets.com/106c078c505156123d5c1c4176d2babc6e9ccbb07326182f3b5d16c003df8ff4/oh-my-mermaid/oh-my-mermaid",
     "description": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
     "hatenaDate": "2026-10-08T20:47:54Z",
     "users": [],
     "firstSeenAt": "2026-10-10T23:00:12.610456+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "JR東「えきねっと」「大人の休日倶楽部」で漏洩か　のべ206万件：朝日新聞",
@@ -387,7 +400,7 @@
     "hatenaDate": "2026-10-09T10:44:35Z",
     "users": [],
     "firstSeenAt": "2026-10-10T20:15:12.425745+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "スマホの「実質価格」高騰の恐れ、iPhone 18 Proは2倍高く？　総務省の残価設定ルール厳格化は“誰のため”か",
@@ -439,7 +452,7 @@
     "hatenaDate": "2026-10-10T05:13:12Z",
     "users": [],
     "firstSeenAt": "2026-10-10T19:00:12.908872+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "個人情報漏洩が日常になってしまった世界でどうしていくべきか",
@@ -452,7 +465,7 @@
     "hatenaDate": "2026-10-10T07:36:44Z",
     "users": [],
     "firstSeenAt": "2026-10-10T18:30:14.998607+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "AI駆動開発の時代になったのでトヨタ生産方式から見直す",
@@ -465,7 +478,7 @@
     "hatenaDate": "2026-10-09T15:18:20Z",
     "users": [],
     "firstSeenAt": "2026-10-10T18:15:12.962302+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "GitHub - jdx/jactionlint: :octocat: Static checker for GitHub Actions workflow files",
@@ -517,7 +530,7 @@
     "hatenaDate": "2026-10-10T01:47:07Z",
     "users": [],
     "firstSeenAt": "2026-10-10T16:45:13.315121+09:00",
-    "lastSeenAt": "2026-10-11T13:15:12.467213+09:00"
+    "lastSeenAt": "2026-10-11T13:30:12.741710+09:00"
   },
   {
     "title": "【速報】AI、米政府機関に情報を無断送信",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-07T22:30:18.613674+09:00",
     "lastSeenAt": "2026-10-08T09:15:12.173024+09:00"
-  },
-  {
-    "title": "Apple Watch Series 12 / Ultra4の「手洗いタイマー」が見当たらないだが… | ギズモード・ジャパン",
-    "url": "https://www.gizmodo.jp/article/2610-apple-watch-series12-ultra4-handwash-timer/",
-    "domain": "www.gizmodo.jp",
-    "count": 5,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/2610-apple-watch-series12-ultra4-handwash-timer/",
-    "screenshot": "https://media.loom-app.com/loom/2026/10/06/d3497e86-68be-4483-bc7e-67b792f84868/original.jpg?w=1200&h=630",
-    "description": "手洗いを自動検知してくれるタイマー機能が見つからない…Image: AppleAppleはWWDC 2020でwatchOS 7をお披露目した際に、新機能として「手洗いタイマー」を発表しました。 手を洗う動作に加えて、水と手の音などを検知すると、手洗いタイマーのアニメーションが流れるもので、発表当時は新型コロナが流行していた時期だっ...",
-    "hatenaDate": "2026-10-07T02:37:43Z",
-    "users": [],
-    "firstSeenAt": "2026-10-07T22:30:18.613674+09:00",
-    "lastSeenAt": "2026-10-07T23:30:18.928465+09:00"
   }
 ]
