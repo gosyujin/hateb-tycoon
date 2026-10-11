@@ -1,5 +1,31 @@
 [
   {
+    "title": "月間100万人のサービス刷新で、 技術選定をHonoに振り切った話",
+    "url": "https://speakerdeck.com/yutobara/gekkan-100-mannin-no-sabisu-sasshin-de-gijutsu-sentei-o-hono-ni-furikita-hanashi-e49c651f-8130-48bb-b6ef-eac3cc9f358a",
+    "domain": "speakerdeck.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/yutobara/gekkan-100-mannin-no-sabisu-sasshin-de-gijutsu-sentei-o-hono-ni-furikita-hanashi-e49c651f-8130-48bb-b6ef-eac3cc9f358a",
+    "screenshot": "https://files.speakerdeck.com/presentations/081ed3fb6c014b668bb8f4b6b6ee7309/slide_0.jpg?40870095",
+    "description": "Hono Conference 2026 の登壇資料です。月間100万人のサービスを6人とAIで作り直しました。AIを迷わせない開発の土台作りと、Honoが効いた理由について、紹介しています。",
+    "hatenaDate": "2026-10-11T08:34:08Z",
+    "users": [],
+    "firstSeenAt": "2026-10-11T21:00:18.041555+09:00",
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
+  },
+  {
+    "title": "AIで仕組みを作るための「27 Rules Starter Skill（for Claude Code）」を配布します｜太田 賢一／Design Mgr",
+    "url": "https://note.com/kenichiota0711/n/n7c8035175167",
+    "domain": "note.com",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/kenichiota0711/n/n7c8035175167",
+    "screenshot": "https://assets.st-note.com/production/uploads/images/322737848/rectangle_large_type_2_e843b9ed738b8c9abc146efccccc4274.png?fit=bounds&quality=85&width=1280",
+    "description": "AIで仕組みを作るための「27 Rules Starter Skill（for Claude Code）」を配布します。 これは『AIを活用した仕組み』が作れるようになる27のルールと11ステップをskill化したものです。普段私が使っているルールを、そのままお渡しできる形にしました。記事の最後にダウンロードできます。 できるようになること『AIを...",
+    "hatenaDate": "2026-10-10T15:27:34Z",
+    "users": [],
+    "firstSeenAt": "2026-10-11T21:00:18.041555+09:00",
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
+  },
+  {
     "title": "pixiv閲覧中にMcAfeeを装ったAndroidの盗聴警告画面が突然表示…カメラ・マイク動作中や「誰かがあなたの銀行情報と連絡先にアクセスしようとしています」という警告文も",
     "url": "https://togetter.com/li/2756877",
     "domain": "togetter.com",
@@ -10,7 +36,7 @@
     "hatenaDate": "2026-10-11T08:26:53Z",
     "users": [],
     "firstSeenAt": "2026-10-11T20:30:12.279537+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "AI時代のゼロトラストは限界か｜デセプションと復旧全振りを考える | CloudNative BLOGs",
@@ -23,33 +49,33 @@
     "hatenaDate": "2026-08-06T08:41:37Z",
     "users": [],
     "firstSeenAt": "2026-10-11T20:30:12.279537+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "GitHub Actions上で証明書を付与するサプライチェーン構築 | おそらくはそれさえも平凡な日々",
     "url": "https://songmu.jp/riji/entry/2026-10-11-github-actions-artifact-attestations.html",
     "domain": "songmu.jp",
-    "count": 10,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/songmu.jp/riji/entry/2026-10-11-github-actions-artifact-attestations.html",
     "screenshot": "https://i.gyazo.com/04ab616f11ea921e2b4fba960c0db126.png",
     "description": "とにかく数多のサプライチェーンインシデントが発生しており、OSSを公開・頒布している身からすると、より気を使わなければいけない状況です。 例えば、配布しているバイナリやアーカイブ、パッケージなどの成果物(artifact)の信頼性を保証するために、それが、どのソースを元に、どの環境及びワークフローでビルドされ...",
     "hatenaDate": "2026-10-11T09:26:40Z",
     "users": [],
     "firstSeenAt": "2026-10-11T19:30:14.504659+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "Hono in this era",
     "url": "https://slides.yusu.ke/honoconf-2026",
     "domain": "slides.yusu.ke",
-    "count": 19,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/slides.yusu.ke/honoconf-2026",
     "screenshot": "https://slides.yusu.ke/ogp/honoconf-2026.png",
     "description": "::title:: Hono in this era Yusuke Wada Hono Conference 2026 ・ October 11, 2026 ::center size=1.5 bg=white:: 時代 ::center:: Hono Conference 2025 2025/10/18 npmダウンロード数 2025年10月 → 1,110万 / 月 2026年9月 → 2.67億 / 月 -# api.npmjs.org ::right:: express → 2.7倍 react → 3.8倍 next → 4.1倍 zo...",
     "hatenaDate": "2026-10-11T09:03:48Z",
     "users": [],
     "firstSeenAt": "2026-10-11T19:15:14.699126+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "神戸の開発者が小型シンセ「FM-1」の非公式ファームウェアを公開、音源は13種類 - FabScene（ファブシーン）",
@@ -62,7 +88,7 @@
     "hatenaDate": "2026-10-10T13:38:13Z",
     "users": [],
     "firstSeenAt": "2026-10-11T19:15:14.699126+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "【完全版】電子書籍をPDF化・OCRする方法｜Kindle・Kobo・DMMなど5サービス対応の無料アプリ | Odds and Ends",
@@ -75,20 +101,20 @@
     "hatenaDate": "2026-09-05T14:57:28Z",
     "users": [],
     "firstSeenAt": "2026-10-11T19:15:14.699126+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "Boris Tane",
     "url": "https://boristane.com/blog/self-improving-software-is-inevitable/",
     "domain": "boristane.com",
-    "count": 10,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/boristane.com/blog/self-improving-software-is-inevitable/",
     "screenshot": "https://boristane.com/assets/blog/self-improving-software-is-inevitable/og.png",
     "description": "The release you shipped this morning already surfaced what's wrong with it. It's been telling you all day, across multiple surfaces. The only reason prod is still failing is you. Agents write the vast majority of software now, they can one-shot an application, deploy it, and wire up its observabi...",
     "hatenaDate": "2026-10-11T01:39:22Z",
     "users": [],
     "firstSeenAt": "2026-10-11T18:45:12.735778+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "エージェントにコミット整理を教えるgit-surgeonが良さげかも | kawarimidoll.com",
@@ -101,7 +127,7 @@
     "hatenaDate": "2026-10-11T04:33:35Z",
     "users": [],
     "firstSeenAt": "2026-10-11T18:45:12.735778+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "サイバーセキュリティーの常識が崩れた…「個人情報」の流出を防ぐ“身も蓋もない方法”",
@@ -114,59 +140,59 @@
     "hatenaDate": "2026-10-09T06:29:01Z",
     "users": [],
     "firstSeenAt": "2026-10-11T18:45:12.735778+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "【コピペ卒業】Kindle・電子書籍をPDF化＆OCRするアプリを作りました｜リットン｜電子書籍・Python・生成AIで遊ぶ金融マン",
     "url": "https://note.com/lytton_life/n/n838e58f5aff8",
     "domain": "note.com",
-    "count": 82,
+    "count": 89,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/lytton_life/n/n838e58f5aff8",
     "screenshot": "https://assets.st-note.com/production/uploads/images/276892072/rectangle_large_type_2_2b01192da77cef69b69e984e488a0c2a.png?fit=bounds&quality=85&width=1280",
     "description": "【2026年8月30日 追記】 kindle_shot は大型アップデートで圧倒的に使いやすくしました。 画面は選んで進むだけのウィザード型になり、Python の導入からセットアップまで全自動になっています。 対応も Kindle・楽天Kobo・Google Play ブックス・DMMブックス・コミックシーモアの5サービスに広がりました。 最新版のダ...",
     "hatenaDate": "2026-05-29T04:52:09Z",
     "users": [],
     "firstSeenAt": "2026-10-11T18:15:13.856497+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "「いいね」が正直わからん",
     "url": "https://anond.hatelabo.jp/20261011075112",
     "domain": "anond.hatelabo.jp",
-    "count": 29,
+    "count": 30,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261011075112",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "お気に入り的なハート、はてなのスターもそうだ みんなどういう時に押してるの？ よいと思ったら押せばいいと思うのだが、なんかそこもしっくりこない 笑ったとか興味を惹かれて読んだとかもちろんあるのだがインターネット上では基本的にすべて素通りしている感覚が強い",
     "hatenaDate": "2026-10-10T22:52:13Z",
     "users": [],
     "firstSeenAt": "2026-10-11T17:45:13.856986+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "PHPカンファレンス関西2025　基調講演",
     "url": "https://speakerdeck.com/sugimotokei/phpkanhuarensuguan-xi-2025-ji-diao-jiang-yan",
     "domain": "speakerdeck.com",
-    "count": 10,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/sugimotokei/phpkanhuarensuguan-xi-2025-ji-diao-jiang-yan",
     "screenshot": "https://files.speakerdeck.com/presentations/867cf85bd07d4f5daad40e2601b0b28a/slide_0.jpg?35960149",
     "description": "ソフトウェア・デザインに向かおう ～　世界を（ちょっとだけ）変えるソフトウェアを目指して　～ by 杉本啓",
     "hatenaDate": "2025-07-19T05:48:27Z",
     "users": [],
     "firstSeenAt": "2026-10-11T17:45:13.856986+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "実体験から学ぶ分析エージェントの開発と運⽤",
     "url": "https://speakerdeck.com/recruitengineers/data-engineering-summit2026-zenyasai-yamamoto",
     "domain": "speakerdeck.com",
-    "count": 12,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/recruitengineers/data-engineering-summit2026-zenyasai-yamamoto",
     "screenshot": "https://files.speakerdeck.com/presentations/f52f3d140d17451fb6ee7a205273248d/slide_0.jpg?40847488",
     "description": "2026/10/8に、Data Engineering Summit 2026 前夜祭で発表した山本の資料になります。",
     "hatenaDate": "2026-10-10T01:30:57Z",
     "users": [],
     "firstSeenAt": "2026-10-11T17:45:13.856986+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "スマホ全盛期のいま、ガラケーの時代がまたやってくるかも？ | ギズモード・ジャパン",
@@ -192,7 +218,7 @@
     "hatenaDate": "2026-10-10T02:58:07Z",
     "users": [],
     "firstSeenAt": "2026-10-11T16:45:12.932129+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "AnthropicのAIモデルが米国政府サイトへ意図しない送信を行っていた事案についてまとめてみた - piyolog",
@@ -205,20 +231,20 @@
     "hatenaDate": "2026-10-10T21:06:39Z",
     "users": [],
     "firstSeenAt": "2026-10-11T16:30:17.103684+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "AI×アーキテクト | 技術評論社",
     "url": "https://gihyo.jp/book/2026/978-4-297-16033-3",
     "domain": "gihyo.jp",
-    "count": 94,
+    "count": 101,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/book/2026/978-4-297-16033-3",
     "screenshot": "https://gihyo.jp/assets/images/ogp/2026/9784297160333.jpg",
     "description": "著者 元木大介（もときだいすけ），熊井悠（くまいゆう）　著 定価 2,860円（本体2,600円＋税10%） 発売日 2026.10.27 判型 A5 頁数 288ページ ISBN 978-4-297-16033-3 978-4-297-16034-0 概要 AIにコードを書かせる。文章を書かせる。設計図を描かせる。作ることのスピードは、この数年で桁違いに上がりました。しかし...",
     "hatenaDate": "2026-10-06T04:01:51Z",
     "users": [],
     "firstSeenAt": "2026-10-11T16:15:13.048129+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "AIと共生する開発者プラットフォーム：バクラクのモノレポ×マイクロサービス基盤",
@@ -231,7 +257,7 @@
     "hatenaDate": "2026-07-13T03:24:05Z",
     "users": [],
     "firstSeenAt": "2026-10-11T16:15:13.048129+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "音声合成の日本語化手法が一般化した話",
@@ -250,14 +276,14 @@
     "title": "CPUのみで動作するリアルタイム多言語音声認識「早耳」、GPUもクラウドAPIも使わずメモリ2GB未満でライブ字幕表示からブラウザ表示・話者ラベル付け・翻訳字幕まで可能",
     "url": "https://gigazine.net/news/20261011-hayamimi/",
     "domain": "gigazine.net",
-    "count": 92,
+    "count": 93,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261011-hayamimi/",
     "screenshot": "https://i.gzn.jp/img/2026/10/11/hayamimi/00.jpg",
     "description": "「Hayamimi(早耳)」はGPUやクラウドAPIに依存せずCPUのみで動作する軽量なリアルタイム多言語音声認識システムです。メモリ2GB未満の環境でもライブ字幕表示・話者ラベル付け・翻訳字幕生成まで対応し、発話中から字幕が出始め話し終えて約100msで確定する高速性が特徴です。 oboroge0/hayamimi: 早耳 - Real-time multi...",
     "hatenaDate": "2026-10-11T04:33:54Z",
     "users": [],
     "firstSeenAt": "2026-10-11T15:00:13.373710+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "データ指向アプリケーションデザイン 第2版",
@@ -276,14 +302,14 @@
     "title": "オートパイロットは外せる人間を前提にしている — AI時代のエンジニア技能維持を航空業界に学ぶ",
     "url": "https://zenn.dev/shimitaro/articles/eb45d8d63c7bd1",
     "domain": "zenn.dev",
-    "count": 110,
+    "count": 111,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/shimitaro/articles/eb45d8d63c7bd1",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--BONU_QrP--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25AA%25E3%2583%25BC%25E3%2583%2588%25E3%2583%2591%25E3%2582%25A4%25E3%2583%25AD%25E3%2583%2583%25E3%2583%2588%25E3%2581%25AF%25E5%25A4%2596%25E3%2581%259B%25E3%2582%258B%25E4%25BA%25BA%25E9%2596%2593%25E3%2582%2592%25E5%2589%258D%25E6%258F%2590%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%2520%25E2%2580%2594%2520AI%25E6%2599%2582%25E4%25BB%25A3%25E3%2581%25AE%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E6%258A%2580%25E8%2583%25BD%25E7%25B6%25AD%25E6%258C%2581%25E3%2582%2592%25E8%2588%25AA%25E7%25A9%25BA%25E6%25A5%25AD%25E7%2595%258C%25E3%2581%25AB%25E5%25AD%25A6%25E3%2581%25B6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2597%25E3%2581%25BF%25E3%2581%259F%25E3%2582%258D%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzAzMDIwMjI0N2UuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "AI にコードを書かせる時代に、エンジニアは何の技能を残しておけばいいのか。 航空業界の制度を一次資料でたどると、答えは「自分で書く力」よりも「自動化から引き継ぐ力」のほうに寄っていきました。パイロットは普段から手で操縦しているわけではありません。それでも、自動操縦が外れたときに機体を立て直せる状態...",
     "hatenaDate": "2026-10-11T01:59:35Z",
     "users": [],
     "firstSeenAt": "2026-10-11T13:15:12.467213+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "「妻とsetlogをやり始めたら、これが思った以上に良い効果を生んでいる」お互いの生活がビジュアルで伝わると会話もスムーズになると気づいた",
@@ -309,7 +335,7 @@
     "hatenaDate": "2026-10-10T05:13:38Z",
     "users": [],
     "firstSeenAt": "2026-10-11T13:15:12.467213+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "Windows版CodexがMXCに対応、セットアップを高速化 ——ChatGPTの全プランでオートレビューを無料化、Pro向けにメッセージ予測機能をベータ提供 | gihyo.jp",
@@ -348,7 +374,7 @@
     "hatenaDate": "2026-10-11T00:58:44Z",
     "users": [],
     "firstSeenAt": "2026-10-11T12:45:12.244529+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "個人情報保護法を改悪強行した高市政権「自分の情報は自分で守れ」の支離滅裂｜日刊ゲンダイDIGITAL",
@@ -387,7 +413,7 @@
     "hatenaDate": "2026-10-10T21:06:31Z",
     "users": [],
     "firstSeenAt": "2026-10-11T11:45:11.491629+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "d先生BANは残当だけどさ",
@@ -406,27 +432,27 @@
     "title": "子育てエンジニアの可処分時間が減っても成長を諦めない戦い方",
     "url": "https://speakerdeck.com/sudoakiy/kosodate-enjinia-no-kashobun-jikan-ga-he-temo-seichou-o-akiramenai-tatakaikata",
     "domain": "speakerdeck.com",
-    "count": 61,
+    "count": 63,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/sudoakiy/kosodate-enjinia-no-kashobun-jikan-ga-he-temo-seichou-o-akiramenai-tatakaikata",
     "screenshot": "https://files.speakerdeck.com/presentations/1936824cdbd444c699a6ed14d9282c0a/slide_0.jpg?40862126",
     "description": "2026.10.10（Sat）「子育てエンジニアリングMeetup #1 」 登壇資料 すどう @sudoakiy",
     "hatenaDate": "2026-10-10T10:53:55Z",
     "users": [],
     "firstSeenAt": "2026-10-11T11:30:12.827516+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "ChatGPTに対して些細なミスでも執拗に詰めるパワハラを続けていたら、完全に萎縮されて1つの回答に70分かかるようになった→AIに対するパワハラが人間にも通じると話題に",
     "url": "https://togetter.com/li/2756720",
     "domain": "togetter.com",
-    "count": 128,
+    "count": 130,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2756720",
     "screenshot": "https://s.tgstc.com/ogp3/648d396970fbbf62ebb412ce1c991b64-1200x630.jpeg",
     "description": "ChatGPTに対して些細なミスでも執拗に詰めるパワハラを続けていたら、完全に萎縮されて1つの回答に70分かかるようになった→AIに対するパワハラが人間にも通じると話題に",
     "hatenaDate": "2026-10-10T23:55:32Z",
     "users": [],
     "firstSeenAt": "2026-10-11T10:00:14.535918+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "無料のオープンソースEPUB・PDFリーダー「Readest」、Windows・Linux・macOS・Android・iOS・ブラウザ・KOReaderでハイライト・メモ・分割画面読書・AIテキスト読み上げ・AI自動翻訳・クラウド同期が可能",
@@ -439,20 +465,20 @@
     "hatenaDate": "2026-10-10T09:16:40Z",
     "users": [],
     "firstSeenAt": "2026-10-11T09:30:13.909441+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "Google Chrome、同意なしで4GBのローカルAIモデルをダウンロードさせている | ギズモード・ジャパン",
     "url": "https://www.gizmodo.jp/article/2610-google-chrome-gemini-nano-4gb-model/",
     "domain": "www.gizmodo.jp",
-    "count": 83,
+    "count": 84,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/2610-google-chrome-gemini-nano-4gb-model/",
     "screenshot": "https://media.loom-app.com/gizmodo/dist/images/2026/05/18/shutterstock_2559046177.jpg?w=1200&h=630",
     "description": "2026年5月19日の記事を編集して再掲載しています。 Google Chromeが、ユーザーの同意なしに約4GBものAIモデルをデバイスに自動的にダウンロード・保存させているという件が判明しました。「OptGuideOnDeviceModel」というフォルダの中に、こっそり4GBも忍び込ませいるようです。 「That Privacy Guy（プライバシー・ガイ...",
     "hatenaDate": "2026-10-10T22:12:05Z",
     "users": [],
     "firstSeenAt": "2026-10-11T09:13:54.621762+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "The Register of UNIX® Certified Products",
@@ -484,14 +510,14 @@
     "title": "SQLite 本体にベクトル検索拡張 vec1 がやってきた",
     "url": "https://zenn.dev/mattn/articles/6e9996319ac099",
     "domain": "zenn.dev",
-    "count": 211,
+    "count": 212,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mattn/articles/6e9996319ac099",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--PnneRXdm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:SQLite%2520%25E6%259C%25AC%25E4%25BD%2593%25E3%2581%25AB%25E3%2583%2599%25E3%2582%25AF%25E3%2583%2588%25E3%2583%25AB%25E6%25A4%259C%25E7%25B4%25A2%25E6%258B%25A1%25E5%25BC%25B5%2520vec1%2520%25E3%2581%258C%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258D%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mattn%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2IwYjA3ZWIzODAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "はじめに 2026 年 9 月 30 日、SQLite のソースツリーに ext/vec1/ というディレクトリが追加されました。コミットしたのは FTS5 などでおなじみの Dan Kennedy 氏。コミットメッセージはたった 1 行です。 これまで別の場所で開発されていた vec1 が、まるっと SQLite 本体のリポジトリに取り込まれました。本体は vec1...",
     "hatenaDate": "2026-10-10T17:16:51Z",
     "users": [],
     "firstSeenAt": "2026-10-11T05:42:22.430211+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "音声合成に日本語を正しく読んでもらう話 〜高低アクセントからG2Pまで〜 【前編】",
@@ -523,14 +549,14 @@
     "title": "国内で相次ぐ不正アクセスに対する注意喚起についてまとめてみた - piyolog",
     "url": "https://piyolog.hatenadiary.jp/entry/2026/10/11/004353",
     "domain": "piyolog.hatenadiary.jp",
-    "count": 426,
+    "count": 429,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/11/004353",
     "screenshot": "https://ogimage.blog.st-hatena.com/10257846132616586766/14945776032088434102/1791647033",
     "description": "2026年10月7日から9日にかけて、個人情報保護委員会、JPCERT/CC、国家サイバー統括室、IPAなどの各機関が、国内組織で相次ぐ不正アクセスによる個人情報の漏えいを受けた注意喚起を公表しました。ここでは関連する情報をまとめます。 BIツールや従業員向けシステムも被害に JPCERT/CCは10月8日に公開した注意喚起で、「2...",
     "hatenaDate": "2026-10-10T15:48:52Z",
     "users": [],
     "firstSeenAt": "2026-10-11T01:15:13.377489+09:00",
-    "lastSeenAt": "2026-10-11T20:45:13.462812+09:00"
+    "lastSeenAt": "2026-10-11T21:00:18.041555+09:00"
   },
   {
     "title": "「製造データと暗黙知があれば勝てる」は幻想？　フィジカルAI“10の誤解”をGartnerが指摘",
@@ -3872,31 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-08T05:15:13.578949+09:00",
     "lastSeenAt": "2026-10-08T18:30:16.387441+09:00"
-  },
-  {
-    "title": "伝書鳩に不正アクセス　野鳩侵入で情報漏えい２４０万件",
-    "url": "https://kyoko-np.net/2026100801.html",
-    "domain": "kyoko-np.net",
-    "count": 243,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/kyoko-np.net/2026100801.html",
-    "screenshot": "https://kyoko-np.net/images/dbato.jpg",
-    "description": "伝書鳩による通信サービスを提供するピジョネットインターナショナル（東京都西多摩郡）は７日、外部からの不正アクセスによって約２４０万件の情報が漏えいした可能性があると発表した。認証していない野鳩が侵入した形跡があったという。 同社によると、３日に外部からの不正アクセスを確認した。伝書鳩を飼育する鳩舎...",
-    "hatenaDate": "2026-10-07T15:56:47Z",
-    "users": [],
-    "firstSeenAt": "2026-10-08T03:30:15.571382+09:00",
-    "lastSeenAt": "2026-10-08T19:45:12.383472+09:00"
-  },
-  {
-    "title": "日銀でシステムの不備を指摘し内部通報した女性職員、無遅刻無欠勤にもかかわらず本採用を拒否され日銀を出禁に→批判が集まるが、女性のやり方にも問題があったのでは？",
-    "url": "https://togetter.com/li/2755161",
-    "domain": "togetter.com",
-    "count": 32,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2755161",
-    "screenshot": "https://s.tgstc.com/ogp3/e025c7c4878fae9ca75f548859cd5346-1200x630.jpeg",
-    "description": "ライブドアニュース @livedoornews 【提訴】日銀で内部通報した女性職員が庁舎立ち入り禁止・本採用拒否に news.livedoor.com/article/detail… 送金システムの不備を内部通報したところ、本採用拒否を通知され、庁舎への立ち入り禁止を命じられた。「勤務実績が不十分」などとされたが、無遅刻無欠勤で、注意や警告を受...",
-    "hatenaDate": "2026-10-07T06:02:40Z",
-    "users": [],
-    "firstSeenAt": "2026-10-08T03:00:14.188781+09:00",
-    "lastSeenAt": "2026-10-08T12:15:13.713253+09:00"
   }
 ]
