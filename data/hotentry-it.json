@@ -1,16 +1,29 @@
 [
   {
+    "title": "トーバルズ、「説いた通りにやった」。LLMでLinuxの13年来のバグ4件を発見",
+    "url": "https://joho-todai.com/torvalds-llm-linux-13-year-old-bugs-fixed/",
+    "domain": "joho-todai.com",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/joho-todai.com/torvalds-llm-linux-13-year-old-bugs-fixed/",
+    "screenshot": "https://joho-todai.com/content/images/size/w1200/format/jpeg/2026/10/ab633f6142094ead465695363.avif",
+    "description": "リーナス・トーバルズ氏がLLMを使ってLinuxカーネルの連想配列ライブラリのコードを読みやすく書き直し、報告済みのバグを含む計4件の不具合を発見した。いずれも2013年の初回コミットから埋もれていた。 この記事のポイント 何が起きた: トーバルズ氏がLLMでassoc_arrayライブラリのコードを可読化し、2013年の初回コミ...",
+    "hatenaDate": "2026-10-13T04:53:09Z",
+    "users": [],
+    "firstSeenAt": "2026-10-13T20:15:14.698084+09:00",
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
+  },
+  {
     "title": "相次ぐ情報漏えいの一因は「Androidアプリ」 NICTが「A2B攻撃」対策を公表",
     "url": "https://www.watch.impress.co.jp/docs/news/2147764.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 8,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2147764.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2147/764/nict1.jpg",
     "description": null,
     "hatenaDate": "2026-10-13T09:43:45Z",
     "users": [],
     "firstSeenAt": "2026-10-13T20:00:17.574428+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "ニコン顕微鏡写真コンテスト、最優秀賞の授賞撤回　AI使用めぐり批判噴出",
@@ -23,7 +36,7 @@
     "hatenaDate": "2026-10-13T04:34:56Z",
     "users": [],
     "firstSeenAt": "2026-10-13T20:00:17.574428+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "GitHub Agentic Workflows で issue の triage を自動化しながらいろいろ試してみる - プププなテクブ",
@@ -36,20 +49,20 @@
     "hatenaDate": "2026-10-13T07:48:03Z",
     "users": [],
     "firstSeenAt": "2026-10-13T20:00:17.574428+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "オリキャラの3Dモデルのループモーションを楽に作る (Tripo3d + Opus 5.5 + MiniMax H3 + blender)｜異世界♪吟遊詩人ギルド",
     "url": "https://note.com/ultracrab/n/n1bff0051e321",
     "domain": "note.com",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/ultracrab/n/n1bff0051e321",
     "screenshot": "https://assets.st-note.com/production/uploads/images/323583969/rectangle_large_type_2_4180bf7eff15e378617b9a42847c161f.jpeg?fit=bounds&quality=85&width=1280",
     "description": "この方法なら、人間だけでなく動物や魔獣みたいな、どうやってリギングやモーションつけたらいいか素人にはよくわからない生物とかでも、ぐりぐり動かせます。 下記のXのポストが元になってます。とても参考になりました！ GPT画像→Tripo3D→Opus5.5での各足へのボーン入れ、セグメンテーションとカラーリング→H3による動...",
     "hatenaDate": "2026-10-13T04:13:04Z",
     "users": [],
     "firstSeenAt": "2026-10-13T19:45:14.450665+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "AI models may be capable of self-replicating without access to a datacenter",
@@ -68,14 +81,14 @@
     "title": "【速報】PayPay証券　障害で日本株の取引停止　14日の予約注文も停止　復旧めど立たず",
     "url": "https://news.tv-asahi.co.jp/news_economy/articles/000539845.html",
     "domain": "news.tv-asahi.co.jp",
-    "count": 16,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.tv-asahi.co.jp/news_economy/articles/000539845.html",
     "screenshot": "https://news.tv-asahi.co.jp/articles_img/000539845_1200.jpg",
     "description": "1 スマートフォン向けの証券会社「PayPay証券」でシステム障害が起きていて、日本株の取引ができなくなっています。 PayPay証券によりますと、13日午前10時15分以降、外部の接続先で障害が起き、日本株とETF（上場投資信託）のすべての銘柄の取引を停止しました。 その後、午前11時30分ごろから1時間程度、注文の受付を...",
     "hatenaDate": "2026-10-13T09:20:42Z",
     "users": [],
     "firstSeenAt": "2026-10-13T19:30:13.148150+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "Fitbit初、バッテリ交換できるスマートバンド「Fitbit Edge」、2万6,800円",
@@ -101,33 +114,33 @@
     "hatenaDate": "2026-10-13T03:45:25Z",
     "users": [],
     "firstSeenAt": "2026-10-13T18:30:14.857099+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "【重要】支払い証明書の第三者閲覧の可能性について | その他のお知らせ | 楽天モバイル",
     "url": "https://network.mobile.rakuten.co.jp/information/news/other/3888/",
     "domain": "network.mobile.rakuten.co.jp",
-    "count": 18,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/network.mobile.rakuten.co.jp/information/news/other/3888/",
     "screenshot": null,
     "description": "2026年10月13日 お客様各位 平素より楽天モバイルをご利用いただき、誠にありがとうございます。 この度、当社が実施した脆弱性診断テストにおいて、「my 楽天モバイル」からダウンロードできる支払い証明書が、第三者に閲覧される可能性があったこと（以下「本件」といいます）が判明いたしました。 本件について、以下...",
     "hatenaDate": "2026-10-13T08:41:47Z",
     "users": [],
     "firstSeenAt": "2026-10-13T18:30:14.857099+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "総務省｜不正アクセスによる情報漏えい等の事案を踏まえた対応について （公開アプリの解析情報を悪用した攻撃への注意喚起）",
     "url": "https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000680.html",
     "domain": "www.soumu.go.jp",
-    "count": 46,
+    "count": 51,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000680.html",
     "screenshot": "https://www.soumu.go.jp/main_content/000372150.jpg",
     "description": "お知らせ 令和8年10月13日 不正アクセスによる情報漏えい等の事案を踏まえた対応について （公開アプリの解析情報を悪用した攻撃への注意喚起） 大量の個人情報を取り扱う事業者等の情報システムが不正アクセスにより侵入され、個人情報を含むデータが窃取される事案が相次いで確認されていることを踏まえ、総務省では、...",
     "hatenaDate": "2026-10-13T07:55:36Z",
     "users": [],
     "firstSeenAt": "2026-10-13T18:00:13.057595+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "フランス国内の小売チェーンで発生した冷凍冷蔵設備の遠隔操作についてまとめてみた - piyolog",
@@ -159,40 +172,40 @@
     "title": "楽天モバイルで情報漏えいのおそれ　過去に契約していた人も対象に",
     "url": "https://ascii.jp/elem/000/004/442/4442187/",
     "domain": "ascii.jp",
-    "count": 57,
+    "count": 61,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/442/4442187/",
     "screenshot": "https://ascii.jp/img/2026/10/13/4538103/xl/f906b71739a25a8e.png?20200122",
     "description": "楽天モバイルは10月13日、「my 楽天モバイル」からダウンロードできる支払い証明書について、第三者が閲覧できる可能性があったとして、利用者にメールで通知した。利用料金や個人情報が第三者に見られる状態になっていた可能性がある。過去に契約していた利用者も通知の対象だ。 同社が実施した脆弱性診断テストで判明...",
     "hatenaDate": "2026-10-13T07:53:42Z",
     "users": [],
     "firstSeenAt": "2026-10-13T17:45:14.801671+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "「Claude」でコードを1行も書かずに11日間で有料アプリを作った方法",
     "url": "https://japan.zdnet.com/article/35253279/",
     "domain": "japan.zdnet.com",
-    "count": 6,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.zdnet.com/article/35253279/",
     "screenshot": "https://japan.zdnet.com/storage/2026/10/06/d17a4d0a341ee2dba75567bb6d10039c/IMG_0057_l.jpg",
     "description": "2026年9月20日の昼頃、筆者はある「Mac」アプリのアイデアを思いついた。それから1週間後の同27日の昼頃、完成したアプリをAppleに提出した。4日後、Appleはそのツールを承認し、「App Store」で公開された。 本稿は、米ZDNETの編集者から思わぬ依頼、幸運な偶然、そしてバイブコーディングの真骨頂が生み出した物語だ。...",
     "hatenaDate": "2026-10-12T19:08:51Z",
     "users": [],
     "firstSeenAt": "2026-10-13T17:26:36.046862+09:00",
-    "lastSeenAt": "2026-10-13T18:45:17.718949+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "AIが数学の未解決問題を解決しまくる現代に数学者テレンス・タオ氏が提言する「Math 2.0」とは？",
     "url": "https://gigazine.net/news/20261013-terence-tao-math-2-0/",
     "domain": "gigazine.net",
-    "count": 13,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261013-terence-tao-math-2-0/",
     "screenshot": "https://i.gzn.jp/img/2026/10/13/terence-tao-math-2-0/00_m.jpg",
     "description": "AIが数学の未解決問題を次々と解決できるようになる中、著名な数学者のテレンス・タオ氏がAI時代における数学研究の新たな方向性として、「Math 2.0」と題した公開講演をカリフォルニア工科大学で2026年10月9日に行い、その資料を翌10日に自身のブログで公開しました。タオ氏は従来の数学研究を「Math 1.0」と位置付け、...",
     "hatenaDate": "2026-10-13T06:07:56Z",
     "users": [],
     "firstSeenAt": "2026-10-13T17:15:13.984550+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "REA — Reverse Engineering for Your Coding Agent",
@@ -244,7 +257,7 @@
     "hatenaDate": "2026-10-13T04:53:46Z",
     "users": [],
     "firstSeenAt": "2026-10-13T17:00:13.720126+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "国産生成AI「Sarashina」を利用できる「Sarashinaサービス」の無償ベータ版を提供開始 | プレスリリース | SB Intuitions株式会社",
@@ -257,7 +270,7 @@
     "hatenaDate": "2026-10-13T03:44:58Z",
     "users": [],
     "firstSeenAt": "2026-10-13T17:00:13.720126+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "AI時代のAppSec――AIセキュリティスキャナーは信頼に足るものなのか?【海の向こうの“セキュリティ”】",
@@ -289,27 +302,27 @@
     "title": "Anthropicが蒸留攻撃に対する効果的な対策を発見、敵対組織によるデータ抽出を90～99％削減",
     "url": "https://gigazine.net/news/20261013-anthropic-defense-distillation-attacks/",
     "domain": "gigazine.net",
-    "count": 13,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261013-anthropic-defense-distillation-attacks/",
     "screenshot": "https://i.gzn.jp/img/2026/10/13/anthropic-defense-distillation-attacks/00.jpg",
     "description": "高性能なAIモデルを使って自分のAIモデルを学習する手法「蒸留」は、する側はコストを抑えて最先端モデルに近い性能を実現することができますが、される側は不要な負担を強いられるなどのデメリットがあります。こうした蒸留はしばしば「攻撃」と見なされ、対策が行われています。新たに、Anthropicが望まない蒸留を大幅...",
     "hatenaDate": "2026-10-13T06:22:45Z",
     "users": [],
     "firstSeenAt": "2026-10-13T16:45:12.466360+09:00",
-    "lastSeenAt": "2026-10-13T19:45:14.450665+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "公開アプリを解析してサーバーを攻撃する「A2B攻撃」、相次ぐ不正アクセスの原因の1つとしてにNICTが注意喚起",
     "url": "https://internet.watch.impress.co.jp/docs/news/2147673.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 63,
+    "count": 68,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2147673.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2147/673/01.png",
     "description": null,
     "hatenaDate": "2026-10-13T06:32:40Z",
     "users": [],
     "firstSeenAt": "2026-10-13T16:15:14.253346+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "AIキャラ会話サービス「zeta」でにじさんじVTuberを無断生成　ANYCOLORが削除要請",
@@ -322,33 +335,33 @@
     "hatenaDate": "2026-10-13T02:51:48Z",
     "users": [],
     "firstSeenAt": "2026-10-13T16:15:14.253346+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "マイクロソフトが目指す「AIとWindows 11」の新しい関係【西田宗千佳のイマトミライ】",
     "url": "https://www.watch.impress.co.jp/docs/series/nishida/2147435.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 14,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/series/nishida/2147435.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2147/435/m12.jpg",
     "description": null,
     "hatenaDate": "2026-10-13T01:42:42Z",
     "users": [],
     "firstSeenAt": "2026-10-13T16:15:14.253346+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "【注意喚起】 相次ぐ情報漏えい、その原因の一つは「アプリ解析からのサーバ攻撃」｜2026年｜NICT-情報通信研究機構",
     "url": "https://www.nict.go.jp/press/2026/10/13-1.html",
     "domain": "www.nict.go.jp",
-    "count": 196,
+    "count": 211,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nict.go.jp/press/2026/10/13-1.html",
     "screenshot": "https://www.nict.go.jp/press/2026/10/k2kor200000009qw-img/20261013-ogp.png",
     "description": "トップ>広報>プレスリリース>2026年>【注意喚起】 相次ぐ情報漏えい、その原因の一つは「アプリ解析からのサーバ攻撃」",
     "hatenaDate": "2026-10-13T05:15:17Z",
     "users": [],
     "firstSeenAt": "2026-10-13T16:00:19.156400+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents",
@@ -367,14 +380,14 @@
     "title": "【注意喚起】相次ぐ情報漏洩、その原因の一つは「アプリ解析からのサーバ攻撃」― AIで高度化する脆弱性探索、Androidアプリを手がかりにしたA2B攻撃に注意 ― | ライブラリー | サイバーセキュリティネクサス | NICT",
     "url": "https://cynex.nict.go.jp/library/261013-01.html",
     "domain": "cynex.nict.go.jp",
-    "count": 35,
+    "count": 38,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/cynex.nict.go.jp/library/261013-01.html",
     "screenshot": "https://cynex.nict.go.jp/img/ogp.png",
     "description": "【注意喚起】相次ぐ情報漏洩、その原因の一つは「アプリ解析からのサーバ攻撃」 ― AIで高度化する脆弱性探索、Androidアプリを手がかりにしたA2B攻撃に注意 ― 脅威情報分析チームLETTICEは、一般に公開されているAndroidアプリを解析し、その結果を利用して、アプリの裏側で動作するバックエンドサーバを攻撃する手法「A...",
     "hatenaDate": "2026-10-13T05:02:30Z",
     "users": [],
     "firstSeenAt": "2026-10-13T15:45:12.566001+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "ブックマーカーたちの何かを言っているようで、何にも言っていない技術っ..",
@@ -419,14 +432,14 @@
     "title": "動的アーキテクチャ図のすすめ | RECERQA Tech Blog",
     "url": "https://techblog.recerqa.com/blog/20261013-dynamic-architecture-diagram/",
     "domain": "techblog.recerqa.com",
-    "count": 26,
+    "count": 29,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/techblog.recerqa.com/blog/20261013-dynamic-architecture-diagram/",
     "screenshot": "https://techblog.recerqa.com/og/20261013-dynamic-architecture-diagram.png",
     "description": "こんにちは、リチェルカのソフトウェアエンジニアのもっち(X: mottyzzz)です。 この記事では、新しい環境でシステムの全体像をつかむためにやってみた「動的アーキテクチャ図」を紹介します。 入社して託されたテーマの1つが、デプロイやE2Eテストなど、システムのリリース周りの改善の検討でした。リチェルカには複数の...",
     "hatenaDate": "2026-10-13T04:45:36Z",
     "users": [],
     "firstSeenAt": "2026-10-13T14:45:14.177630+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "AWS Lambda announces Lambda Web Functions - AWS",
@@ -471,14 +484,14 @@
     "title": "Anthropic、自己複製AIの「兆し」を指摘　55ドルのTVボックス15台で26Bモデルが稼働",
     "url": "https://www.itmedia.co.jp/news/article/2610/13/2000002204/",
     "domain": "www.itmedia.co.jp",
-    "count": 177,
+    "count": 181,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/13/2000002204/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/13/2000002204/10009152/2048",
     "description": "米Anthropicは10月12日（現地時間）、小型のAIモデルがデータセンターを使わずに安価なIoT機器上で自己複製できるようになる可能性があるとする研究結果を発表した。同社のフロンティアレッドチームによるもので、30Bパラメータ以下の小型モデルが、スマートオーブンやノーブランドのAndroid TVボックスのような市販IoT...",
     "hatenaDate": "2026-10-13T02:55:22Z",
     "users": [],
     "firstSeenAt": "2026-10-13T13:00:13.121246+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "サイバー攻撃で複数の大手スーパーの冷蔵・冷凍施設が最大50℃に　フランス - ライブドアニュース",
@@ -491,7 +504,7 @@
     "hatenaDate": "2026-10-13T03:11:32Z",
     "users": [],
     "firstSeenAt": "2026-10-13T12:45:13.538424+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "【ITエンジニアの転職支援実績の開示調査】86.4%が「最も高い数値でなくても、算出方法と対象期間を示し定期更新するエージェント」を信頼と回答 前提条件まで確認できたのは10.3%〜選ばれる基準は「数値の高さ」から「検証できる形での公開」へ〜",
@@ -640,14 +653,14 @@
     "title": "「AIには、もう勝てない」。それでも日本語プログラミング言語「なでしこ」を作り続ける理由 - レバテックLAB",
     "url": "https://levtech.jp/media/detail_940/",
     "domain": "levtech.jp",
-    "count": 76,
+    "count": 79,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/levtech.jp/media/detail_940/",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/ba66466194a21be52de5d7fdc90f720da2cff78d/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn.blog.st-hatena.com%2Ffiles%2F6802418398571665203%2F14945776032087085054",
     "description": "プログラマー／テクニカルライター クジラ飛行机（くじらひこうづくえ） 1976年生まれ。愛知県豊橋市出身。ソフト企画「くじらはんど」代表。2001年に日本語プログラミング言語「ひまわり」を手がけ、2004年には「未踏ユース」プロジェクトに採択され、後継となる「なでしこ」を開発。本業の傍ら、50冊以上の技術書を執...",
     "hatenaDate": "2026-10-13T02:24:37Z",
     "users": [],
     "firstSeenAt": "2026-10-13T12:00:18.117358+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "相次ぐ情報流出、政府苦慮　「注意喚起」頼み、打つ手乏しく：時事ドットコム",
@@ -666,14 +679,14 @@
     "title": "フランスのスーパー数百店舗で冷蔵設備にサイバー攻撃　温度が最高50度に上昇し食品大量廃棄に",
     "url": "https://www.itmedia.co.jp/news/article/2610/13/2000002201/",
     "domain": "www.itmedia.co.jp",
-    "count": 374,
+    "count": 381,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/13/2000002201/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/13/2000002201/10009142/2048",
     "description": "フランスのスーパーマーケットで10月11日夜から12日（現地時間）にかけて、冷蔵・冷凍設備を標的とする大規模なサイバー攻撃が発生した。報道によると、冷蔵設備の温度が最高50度に上昇し、生鮮食品や冷凍食品が大量に廃棄される被害が出ている。被害は数百店舗に及び、フランス当局が捜査を開始した。 Super UやHyper U...",
     "hatenaDate": "2026-10-13T01:57:29Z",
     "users": [],
     "firstSeenAt": "2026-10-13T11:45:12.251182+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "Meta、同社最大のAIモデル「Muse Wonder」発表　記憶力と粘り強さを強化、AIエージェント「Muse」にも搭載へ",
@@ -738,7 +751,7 @@
     "hatenaDate": "2026-10-12T23:24:18Z",
     "users": [],
     "firstSeenAt": "2026-10-13T11:00:13.217728+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "「CrystalDiskInfo」が累計1億ダウンロードを突破 ～無償のHDD/SSD健康チェックツール／公開から18年での偉業",
@@ -783,14 +796,14 @@
     "title": "ローカルデザインシステム（スタイルガイド）｜デジタル庁デザインシステムβ版",
     "url": "https://design.digital.go.jp/dads/guidance/local-design-system/",
     "domain": "design.digital.go.jp",
-    "count": 118,
+    "count": 121,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/design.digital.go.jp/dads/guidance/local-design-system/",
     "screenshot": "https://design.digital.go.jp/dads/images/ogp_default.png",
     "description": "ローカルデザインシステムとは、デジタル庁デザインシステムを個々のサイトやサービスの要件に合わせて定義した、デザイン仕様のことです。デジタル庁デザインシステムはプラットフォーム型デザインシステムであり、固有の組織に依拠したブランド概念を備えていないため、使用にあたってはローカルデザインシステムの作...",
     "hatenaDate": "2026-10-12T11:03:36Z",
     "users": [],
     "firstSeenAt": "2026-10-13T10:15:09.188866+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "愛車がAIエージェントとなる「CarWatch」、必要なのはRaspberry Pi 5とローカルAI",
@@ -829,7 +842,7 @@
     "hatenaDate": "2026-10-12T23:29:58Z",
     "users": [],
     "firstSeenAt": "2026-10-13T10:00:14.393371+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "産業革命の時代にどうやって精度の高い「ねじ」を作り出したのか？",
@@ -842,7 +855,7 @@
     "hatenaDate": "2026-10-12T22:03:51Z",
     "users": [],
     "firstSeenAt": "2026-10-13T09:30:13.284258+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "マイクロソフト 新型AI半導体発表 - Yahoo!ニュース",
@@ -874,14 +887,14 @@
     "title": "AI時代のサイバー攻撃、度重なる情報漏洩からの守りを固めるための政府への7つの提言私案｜安野貴博",
     "url": "https://note.com/takahiroanno/n/n27e77cc9bb80",
     "domain": "note.com",
-    "count": 421,
+    "count": 427,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/takahiroanno/n/n27e77cc9bb80",
     "screenshot": "https://assets.st-note.com/production/uploads/images/323711997/rectangle_large_type_2_5c2bc58c5c36eeaad20a9918e0b6f238.png?fit=bounds&quality=85&width=1280",
     "description": "個人情報の漏洩事案が過去に例をみないペースで公表されている。現在見えている事案はあくまで氷山の一角で、公表や検知すらされていない事案も数多く存在すると思われる。また、サイバー攻撃能力の高いAIの拡散によって今後さらに状況が悪くなる可能性が高い。ライフラインに関わる領域が攻撃されれば産業や人命にも関...",
     "hatenaDate": "2026-10-12T15:55:27Z",
     "users": [],
     "firstSeenAt": "2026-10-13T08:00:14.087829+09:00",
-    "lastSeenAt": "2026-10-13T20:00:17.574428+09:00"
+    "lastSeenAt": "2026-10-13T20:15:14.698084+09:00"
   },
   {
     "title": "ついに実機を入手！Surface Laptop UltraとProArt P16開封の儀",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-09T12:15:14.509698+09:00",
     "lastSeenAt": "2026-10-09T13:15:15.143360+09:00"
-  },
-  {
-    "title": "RubyGems/Bundler 4.1 で追加される override と prune の紹介 - ANDPAD Tech Blog",
-    "url": "https://tech.andpad.co.jp/entry/2026/10/09/100000",
-    "domain": "tech.andpad.co.jp",
-    "count": 10,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.andpad.co.jp/entry/2026/10/09/100000",
-    "screenshot": "https://cdn.image.st-hatena.com/image/scale/7b37b49e6b16060189c178091abc92865e579eef/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fsezemi%2F20261008%2F20261008185347.png",
-    "description": "こんにちは、Ruby コミッタの柴田 (hsbt) です。夏のあいだに master へ入れた変更がそれなりの量になっていて、4.1.0 向けのリリースノートを書き始める前から分量に圧倒されています。 RubyGems と Bundler の 4.1.0.beta2 を 2026 年 10 月 8 日にリリースしました。4.1 では新しい機能がいくつか入っているので、何...",
-    "hatenaDate": "2026-10-09T01:07:49Z",
-    "users": [],
-    "firstSeenAt": "2026-10-09T12:15:14.509698+09:00",
-    "lastSeenAt": "2026-10-09T12:45:10.611359+09:00"
   }
 ]
