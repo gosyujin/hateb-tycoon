@@ -5,5 +5,6 @@
  */
 window.BUILD_INFO = {
   sha: 'dev',
+  codeVersion: 'dev',
   time: 'ローカル環境',
 };

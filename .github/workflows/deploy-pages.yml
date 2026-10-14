@@ -22,12 +22,17 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Stamp build info and cache-bust assets
         run: |
           SHA="${GITHUB_SHA::7}"
+          # アプリ本体(data/を除く)を最後に変更したコミット。クライアントはこの値だけを
+          # 比較して新バージョンの有無を判断する(データ更新だけのデプロイでは変わらない)。
+          CODE_VERSION="$(git log -1 --abbrev=7 --format=%h -- index.html css js service-worker.js)"
           TIME="$(TZ='Asia/Tokyo' date +"%Y-%m-%d %H:%M:%S")"
           cat > js/build-info.js <<EOF
-          window.BUILD_INFO = { sha: '${SHA}', time: '${TIME}' };
+          window.BUILD_INFO = { sha: '${SHA}', codeVersion: '${CODE_VERSION}', time: '${TIME}' };
           EOF
           sed -i "s/\.js\"><\/script>/.js?v=${SHA}\"><\/script>/g" index.html
           sed -i "s/style\.css\">/style.css?v=${SHA}\">/" index.html

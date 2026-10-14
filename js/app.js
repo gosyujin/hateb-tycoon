@@ -693,22 +693,25 @@
   // メモリに居続け、画面遷移もハッシュ変更だけでリロードが走らないため、
   // デプロイ後も古いバージョンのまま動き続ける(Service Workerが新版に更新
   // されても、実行中のページには反映されない)。前面復帰時にネットワークから
-  // 最新のビルドSHAを取得し、起動時のものと違えば再読み込みして新版に入れ替える。
-  // 同じSHAに対する再読み込みは1セッション1回までにして、HTTPキャッシュ等で
+  // 最新のcodeVersionを取得し、起動時のものと違えば再読み込みして新版に入れ替える。
+  // 比較に使うのはshaではなくcodeVersion(アプリ本体を最後に変更したコミット)。
+  // shaは15分おきのデータ更新コミットでも変わるため、使うと復帰のたびに
+  // 再読み込みしてスクロール位置などが飛ぶ。
+  // 同じcodeVersionに対する再読み込みは1セッション1回までにして、HTTPキャッシュ等で
   // 古い内容が返り続けた場合でも無限に再読み込みしないようにする。
   const VERSION_CHECK_INTERVAL_MS = 60 * 1000;
-  const VERSION_RELOAD_KEY = 'hateb-tycoon:reloadedForSha';
+  const VERSION_RELOAD_KEY = 'hateb-tycoon:reloadedForCodeVersion';
   let lastVersionCheckAt = 0;
 
   async function reloadIfNewVersionDeployed() {
-    const current = window.BUILD_INFO && window.BUILD_INFO.sha;
+    const current = window.BUILD_INFO && window.BUILD_INFO.codeVersion;
     if (!current || current === 'dev') return;
     if (Date.now() - lastVersionCheckAt < VERSION_CHECK_INTERVAL_MS) return;
     lastVersionCheckAt = Date.now();
     try {
       const res = await fetch('js/build-info.js', { cache: 'no-store' });
       if (!res || !res.ok) return;
-      const m = /sha:\s*'([^']+)'/.exec(await res.text());
+      const m = /codeVersion:\s*'([^']+)'/.exec(await res.text());
       const latest = m && m[1];
       if (!latest || latest === current) return;
       try {
