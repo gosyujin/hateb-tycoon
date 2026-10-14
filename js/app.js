@@ -689,8 +689,43 @@
     }
   }
 
+  // ホーム画面追加のPWAはタスクに残ったままだと起動時に読み込んだJS/HTMLが
+  // メモリに居続け、画面遷移もハッシュ変更だけでリロードが走らないため、
+  // デプロイ後も古いバージョンのまま動き続ける(Service Workerが新版に更新
+  // されても、実行中のページには反映されない)。前面復帰時にネットワークから
+  // 最新のビルドSHAを取得し、起動時のものと違えば再読み込みして新版に入れ替える。
+  // 同じSHAに対する再読み込みは1セッション1回までにして、HTTPキャッシュ等で
+  // 古い内容が返り続けた場合でも無限に再読み込みしないようにする。
+  const VERSION_CHECK_INTERVAL_MS = 60 * 1000;
+  const VERSION_RELOAD_KEY = 'hateb-tycoon:reloadedForSha';
+  let lastVersionCheckAt = 0;
+
+  async function reloadIfNewVersionDeployed() {
+    const current = window.BUILD_INFO && window.BUILD_INFO.sha;
+    if (!current || current === 'dev') return;
+    if (Date.now() - lastVersionCheckAt < VERSION_CHECK_INTERVAL_MS) return;
+    lastVersionCheckAt = Date.now();
+    try {
+      const res = await fetch('js/build-info.js', { cache: 'no-store' });
+      if (!res || !res.ok) return;
+      const m = /sha:\s*'([^']+)'/.exec(await res.text());
+      const latest = m && m[1];
+      if (!latest || latest === current) return;
+      try {
+        if (sessionStorage.getItem(VERSION_RELOAD_KEY) === latest) return;
+        sessionStorage.setItem(VERSION_RELOAD_KEY, latest);
+      } catch (err) {
+        // sessionStorageが使えない環境では上限なしで再読み込みするが、前面復帰時のみなので許容する
+      }
+      location.reload();
+    } catch (err) {
+      // オフライン・通信不安定時は何もしない(次回の前面復帰で再確認する)
+    }
+  }
+
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'visible') {
+      reloadIfNewVersionDeployed();
       retryListIfNotLoaded();
       refreshListIfStale();
     }
