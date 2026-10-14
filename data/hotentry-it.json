@@ -1,16 +1,42 @@
 [
   {
+    "title": "「VS Code」とローカルAIで記事執筆アプリを2時間で無料作成した方法",
+    "url": "https://japan.zdnet.com/article/35253351/",
+    "domain": "japan.zdnet.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.zdnet.com/article/35253351/",
+    "screenshot": "https://japan.zdnet.com/storage/2026/10/08/8e37f336e68005d403be036b0f1814c9/quillmarkerhero_l.jpg",
+    "description": "ある週末、筆者は特定の執筆ツールが必要だと考えが、そのようなものは見つからなかった。試したものは使いづらかったり、機能が足りなかったり、あるいは高価であった。 そんな折、知人で作家のHugh Howey氏が約10年前に独自の執筆アプリ「NEO」の開発に着手していたことを知った。元ソフトウェアエンジニアである同氏...",
+    "hatenaDate": "2026-10-14T02:26:16Z",
+    "users": [],
+    "firstSeenAt": "2026-10-14T20:00:11.199866+09:00",
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
+  },
+  {
+    "title": "NICT、企業で相次ぐ不正アクセスの原因の一部は「A2B攻撃」と発表",
+    "url": "https://japan.zdnet.com/article/35253510/",
+    "domain": "japan.zdnet.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.zdnet.com/article/35253510/",
+    "screenshot": "https://japan.zdnet.com/storage/2026/04/14/74c76bfe8327acd49b495f415f050263/260423_aiagnetrisks_as_1280.jpg",
+    "description": "LETTICの解析（PDF）からA2B攻撃では、主にサーバーサイドリクエストフォージェリ（SSRF）、リモートコード実行（RCE）、SQLインジェクション、インセキュアダイレクトオブジェクトリファレンス（IDOR）の4種類の脆弱性を標的としていることが分かった。 NICTは、Androidアプリの提供者に点検や対策、回避策などの実施を...",
+    "hatenaDate": "2026-10-13T17:02:59Z",
+    "users": [],
+    "firstSeenAt": "2026-10-14T20:00:11.199866+09:00",
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
+  },
+  {
     "title": "AIエージェントによるウェブサイトへの攻撃の注意喚起",
     "url": "https://www.scutum.jp/information/waf_tech_blog/2026/10/waf-blog-085.html",
     "domain": "www.scutum.jp",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.scutum.jp/information/waf_tech_blog/2026/10/waf-blog-085.html",
     "screenshot": "https://www.scutum.jp/information/waf_tech_blog/images/amp_thumbnail.jpg",
     "description": "技術者ブログ クラウド型WAF「Scutum（スキュータム）」の開発者/エンジニアによるブログです。 金床“Kanatoko”をはじめとする株式会社ビットフォレストの技術チームが、“WAFを支える技術”をテーマに幅広く、不定期に更新中！ AIエージェントによる攻撃を観測しました 皆様おそらくご存知のとおり、2026年9月頃からウェ...",
     "hatenaDate": "2026-10-14T08:44:43Z",
     "users": [],
     "firstSeenAt": "2026-10-14T19:30:16.184170+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "AI時代にアジャイルは時代遅れなのか｜mtx2s",
@@ -23,7 +49,7 @@
     "hatenaDate": "2026-10-13T23:29:46Z",
     "users": [],
     "firstSeenAt": "2026-10-14T19:30:16.184170+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "モバイルバッテリーの処分についてちゃんと調べたのに、地域の公民館にある小型家電回収BOX、市役所の本庁舎、別館へ行く羽目になってたらい回しに「自治体によって違う」",
@@ -36,20 +62,20 @@
     "hatenaDate": "2026-10-13T23:04:21Z",
     "users": [],
     "firstSeenAt": "2026-10-14T19:15:15.167176+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "Claude Codeがほとんどの場合、動画編集してくれる。8時間の素材を30分で1時間に編集。字幕もつけられる｜shi3z",
     "url": "https://note.com/shi3zblog/n/ncb38d2978074",
     "domain": "note.com",
-    "count": 14,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/shi3zblog/n/ncb38d2978074",
     "screenshot": "https://assets.st-note.com/production/uploads/images/323596780/rectangle_large_type_2_6a047f7d0d8b9cf9a2f4f50194ae607c.png?fit=bounds&quality=85&width=1280",
     "description": "Claude Codeがほとんどの場合、動画編集してくれる。8時間の素材を30分で1時間に編集。字幕もつけられる 実はClaude Codeは長時間動画を見ることができる。見るだけでなくてそこで何が起きているか、どんな会話がなされているかもみれる。 しかもただ見るだけでない。編集もできるしテロップも入れてくれる。 さらにInst...",
     "hatenaDate": "2026-10-14T06:49:13Z",
     "users": [],
     "firstSeenAt": "2026-10-14T18:45:13.335404+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "【第5報】不正アクセスによる障害に関する調査の進捗について | IDCフロンティア",
@@ -62,7 +88,7 @@
     "hatenaDate": "2026-10-14T08:41:42Z",
     "users": [],
     "firstSeenAt": "2026-10-14T18:30:14.682988+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "「apple.com」に見えて実はキリル文字。Chromeの偽装対策をすり抜けるURLが見つかる | ギズモード・ジャパン",
@@ -88,20 +114,20 @@
     "hatenaDate": "2026-10-14T02:53:45Z",
     "users": [],
     "firstSeenAt": "2026-10-14T18:00:14.064503+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "ゲーム開発に生成AIはどこまで許容される？ ドラクエの堀井雄二氏が30分で作った推理ゲームの衝撃 #エキスパートトピ（多根清史） - エキスパート - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/expert/articles/3c9a8fadb0d9dee44199522b188a8f37f9526d19",
     "domain": "news.yahoo.co.jp",
-    "count": 13,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/expert/articles/3c9a8fadb0d9dee44199522b188a8f37f9526d19",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/tanekiyoshi/02742377/title-1791904522129.jpeg?exp=10800",
     "description": "『ドラゴンクエスト』や『ポートピア連続殺人事件』で知られる堀井雄二氏が、生成AIを使って制作した推理ゲームを公開しました。たったひとり、わずか30分ほどで作られたにもかかわらず、実際に「そこそこ」遊べるゲームに仕上がっています。 ゲーム開発へのAI活用に一部の人々が反発するなか、今回の一件は様々な波紋を...",
     "hatenaDate": "2026-10-14T03:08:25Z",
     "users": [],
     "firstSeenAt": "2026-10-14T17:45:12.342211+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "AIスクレイパーのせいでホスティング費用が数倍に跳ね上がる事態が発生、サイト運営者は「AI企業は最悪の寄生虫」と痛烈に批判",
@@ -114,7 +140,7 @@
     "hatenaDate": "2026-10-14T00:08:21Z",
     "users": [],
     "firstSeenAt": "2026-10-14T17:45:12.342211+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "【西川和久の不定期コラム】 9年前の「Tesla V100」がアツい。Qwen3.8-Flash-Nextが約80tok/s出る！",
@@ -146,27 +172,27 @@
     "title": "アップル、新スマートホームデバイス「HomeView」 7型画面+Siri AIで299ドル",
     "url": "https://www.watch.impress.co.jp/docs/news/2147827.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2147827.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2147/827/hv09.jpg",
     "description": null,
     "hatenaDate": "2026-10-13T14:57:42Z",
     "users": [],
     "firstSeenAt": "2026-10-14T17:30:15.155681+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "AnthropicがGit代替のバージョン管理システム「Scion」を開発し社内移行済み、AIでコードが爆増してGitの限界に達したので耐えられるシステムを開発",
     "url": "https://gigazine.net/news/20261014-anthropic-scion-version-control-system/",
     "domain": "gigazine.net",
-    "count": 56,
+    "count": 59,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261014-anthropic-scion-version-control-system/",
     "screenshot": "https://i.gzn.jp/img/2026/10/14/anthropic-scion-version-control-system/00.jpg",
     "description": "Claudeの開発元として知られるAI企業のAnthropicが、Gitの代わりとなるバージョン管理システム「Scion」を開発したことを発表しました。ScionはAnthropicの社内システムとして運用されており、すでにGitからの移行を達成しているそうです。 Redesigning source control at Anthropic \\ Anthropic https://www.anthropic....",
     "hatenaDate": "2026-10-14T04:36:13Z",
     "users": [],
     "firstSeenAt": "2026-10-14T16:30:11.868131+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "不正アクセス、クラウドサービスが急所　顧客のスズキなど情報一斉流出 - 日本経済新聞",
@@ -179,7 +205,7 @@
     "hatenaDate": "2026-10-14T06:30:17Z",
     "users": [],
     "firstSeenAt": "2026-10-14T16:00:15.455805+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "WindowsメディアプレイヤーがCD情報を読み込まなくて、タイトルとか1つずつ入力しなきゃいけない→いつの間にかサ終してたから、有識者が代替ソフトいっぱい教えてくれた",
@@ -192,7 +218,7 @@
     "hatenaDate": "2026-10-14T04:19:48Z",
     "users": [],
     "firstSeenAt": "2026-10-14T16:00:15.455805+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "FM-1のCFW「Felucca」を作った話｜kurogedelic",
@@ -224,14 +250,14 @@
     "title": "フランス全土のスーパーマーケットの冷蔵庫を無理矢理50度まで上げたサイバー攻撃の詳細、パスワードは毎日自動更新で「本日の日付」になるという脆弱性",
     "url": "https://gigazine.net/news/20261014-freeze-controller-defrost-food-vulnerabilities-danfoss/",
     "domain": "gigazine.net",
-    "count": 64,
+    "count": 66,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261014-freeze-controller-defrost-food-vulnerabilities-danfoss/",
     "screenshot": "https://i.gzn.jp/img/2026/10/14/freeze-controller-defrost-food-vulnerabilities-danfoss/00_m.jpg",
     "description": "フランス全土で「スーパーマーケットに設置された冷蔵庫の設定温度を50度にまで上げる」というサイバー攻撃が実施されました。このサイバー攻撃の詳細について、サイバーセキュリティ企業・Clarotyの脆弱(ぜいじゃく)性研究チームであるTeam82が報告しています。 Freeze the Controller, Defrost the Food: Uncovering V...",
     "hatenaDate": "2026-10-14T06:06:27Z",
     "users": [],
     "firstSeenAt": "2026-10-14T15:30:12.993953+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "「挑戦しない国に、未来はない」高市首相、日本のデジタル産業の挑戦に期待を寄せる【CEATEC 2026】",
@@ -257,7 +283,7 @@
     "hatenaDate": "2026-10-14T05:21:35Z",
     "users": [],
     "firstSeenAt": "2026-10-14T15:00:12.214354+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "Webアプリフレームワークの「SvelteKit 3」正式リリース。設定をViteに集約、型安全やエラー処理の改善など",
@@ -296,20 +322,20 @@
     "hatenaDate": "2026-10-14T00:10:33Z",
     "users": [],
     "firstSeenAt": "2026-10-14T14:15:13.872361+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "15.6型×3画面を折りたたんで持ち運べるモニター、サンコーから",
     "url": "https://pc.watch.impress.co.jp/docs/news/2147995.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 27,
+    "count": 28,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2147995.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2147/995/01.jpg",
     "description": null,
     "hatenaDate": "2026-10-14T04:47:22Z",
     "users": [],
     "firstSeenAt": "2026-10-14T14:15:13.872361+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "PayPay証券、障害から復旧　日本株・ETFの取引を再開　原因はみずほ証券の受発注システム",
@@ -380,27 +406,27 @@
     "title": "「Google Play」、AI Studioで作った自作アプリを自分の端末で実行可能に　AIでゲームを探す機能も",
     "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002240/",
     "domain": "www.itmedia.co.jp",
-    "count": 26,
+    "count": 27,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/14/2000002240/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/14/2000002240/10009264/2048",
     "description": "こうした個人用アプリは公開ストアのカタログとは切り離し、非公開のまま扱う。同日から米国を含む一部の市場で、18歳以上のユーザーを対象に順次提供を始めた。今後数カ月以内に、友人や家族など限られた相手と共有する機能も追加する予定だ。一般公開したい場合は開発者アカウントに移行でき、その際は通常の開発者と...",
     "hatenaDate": "2026-10-14T00:47:56Z",
     "users": [],
     "firstSeenAt": "2026-10-14T13:30:13.797745+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "SBI証券のFXで“誤ロスカット”　再委託先IIJが作業ミス、システムでも検知できず　779口座が対象",
     "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002249/",
     "domain": "www.itmedia.co.jp",
-    "count": 128,
+    "count": 130,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/14/2000002249/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/14/2000002249/10009290/2048",
     "description": "担保の株反映されず「保証金不足」と誤判定→ロスカット FXは、預けた保証金の数倍の金額で外貨を売買できる取引。損失によって保証金が一定の水準まで減ると、証券会社はそれ以上損失が広がらないよう、まだ決済していない取引（ポジション）を自動で決済（ロスカット）する。 「株券担保サービス」は、証券口座で保有す...",
     "hatenaDate": "2026-10-14T03:40:55Z",
     "users": [],
     "firstSeenAt": "2026-10-14T13:00:12.035853+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "JR東海、ECサイトの顧客情報約1.5万件漏えいか　IDCFへの不正アクセスで「閲覧された可能性を否定できない」",
@@ -419,14 +445,14 @@
     "title": "パスワードが「123456」の企業アカウント経由でデンマークの国家登録簿から880万人分の個人情報が流出",
     "url": "https://gigazine.net/news/20261014-denmark-123456-password/",
     "domain": "gigazine.net",
-    "count": 28,
+    "count": 29,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261014-denmark-123456-password/",
     "screenshot": "https://i.gzn.jp/img/2026/10/14/denmark-123456-password/00_m.jpg",
     "description": "デンマークの中央個人登録簿(CPR)から約880万人分の氏名や住所、個人識別番号などが不正に取得されたことが明らかになりました。攻撃者を名乗る人物が、データベースへのアクセス権を持つ民間企業のアカウントに設定されていた「123456」という単純なパスワードを利用したと証言しています。 Omfattende uautoriseret ad...",
     "hatenaDate": "2026-10-14T02:59:25Z",
     "users": [],
     "firstSeenAt": "2026-10-14T12:45:13.320527+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "無料で7種類の超小型AIモデルをブラウザで動かせる「MicroLLM lab」、WebGPUで端末のGPUを活用",
@@ -510,14 +536,14 @@
     "title": "無償のオフィススイート「ibisOffice」が登場、お絵描きアプリ「ibisPaint」の姉妹ソフト／高速動作と再現性の高さがウリ、「Rust」＋「GPUI」で高速動作、7万ものテストで「MS Office」再現性を検証",
     "url": "https://forest.watch.impress.co.jp/docs/news/2147849.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 148,
+    "count": 151,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2147849.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2147/849/ibis_office.jpg",
     "description": null,
     "hatenaDate": "2026-10-14T00:44:08Z",
     "users": [],
     "firstSeenAt": "2026-10-14T11:00:14.643559+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "Googleの新モデル「Gemini 4 Argon」一般提供開始　使えるプラン、価格",
@@ -601,27 +627,27 @@
     "title": "オレオレ詐欺がAIで極悪進化。無言電話に返した自分の声が、家族をだますヤバすぎる手口 | ギズモード・ジャパン",
     "url": "https://www.gizmodo.jp/article/2610-ai-voice-clone-scam/",
     "domain": "www.gizmodo.jp",
-    "count": 80,
+    "count": 81,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/2610-ai-voice-clone-scam/",
     "screenshot": "https://media.loom-app.com/loom/2026/10/13/368a7422-1a72-4fe3-bd16-d03601b38c7b/original.jpg?w=1200&h=630",
     "description": "Image: FTC米国の消費者保護を担う連邦取引委員会（FTC）は2023年3月、AIで家族の声を複製し、お金をだまし取ろうとする手口について注意をよびかけました。 短い音声と声を複製するプログラムがあれば、本人に似た声を作れるのだそう。 ネットに投稿された動画などが、声を拾われるきっかけにもなるようです。 さらに注...",
     "hatenaDate": "2026-10-13T18:56:17Z",
     "users": [],
     "firstSeenAt": "2026-10-14T10:00:15.004536+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "【やじうまミニレビュー】 宇宙ヤバイ！ベランダでアンドロメダ星雲が撮れるスマート望遠鏡DWARF mini",
     "url": "https://pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2147381.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 105,
+    "count": 107,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2147381.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2147/381/PH01.jpg",
     "description": null,
     "hatenaDate": "2026-10-13T23:36:02Z",
     "users": [],
     "firstSeenAt": "2026-10-14T09:36:53.727127+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "Character.ai、米連邦破産法11条を申請　Disney系が一部IPのライセンス取得で先行入札",
@@ -653,14 +679,14 @@
     "title": "AI、家電乗っ取り増殖の恐れ　アンソロピック「デジタル粘菌」と警告 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOGN140170U6A011C2000000/",
     "domain": "www.nikkei.com",
-    "count": 193,
+    "count": 195,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN140170U6A011C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3721444014102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=5b4928a6a037ee11c330e775011134c8",
     "description": "【シリコンバレー=山田遼太郎】米アンソロピックは12日、人工知能（AI）がインターネット接続するテレビなどのスマート家電を乗っ取り、自ら増殖する能力を持つ可能性があると警告した。無数の機器に「粘菌」のようにAIが広がれば、セキュリティーリスクを生むと指摘した。同社でAIの安全対策などに取り組む研究者らがブ...",
     "hatenaDate": "2026-10-13T23:42:29Z",
     "users": [],
     "firstSeenAt": "2026-10-14T09:15:12.877533+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "質問するだけでAIコーディングエージェントが実行ファイル・ライブラリ・アプリなどをリバースエンジニアリングできる「REA」、ソースコードなしで同等機能を実装可能",
@@ -790,7 +816,7 @@
     "hatenaDate": "2026-10-13T22:35:12Z",
     "users": [],
     "firstSeenAt": "2026-10-14T08:30:13.095389+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "Yandexデータセンター攻撃の前後でXの日本語親ロ投稿を数えてみた｜一田和樹のメモ帳",
@@ -803,7 +829,7 @@
     "hatenaDate": "2026-10-13T14:07:30Z",
     "users": [],
     "firstSeenAt": "2026-10-14T08:30:13.095389+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "いかにも本物っぽいオンライン会議の画面と音声で「今ちょっと忙しくて……」の言い訳に使える「Fleeting」、GoogleカレンダーやOutlookに予定を登録もできる",
@@ -842,7 +868,7 @@
     "hatenaDate": "2026-10-13T17:22:11Z",
     "users": [],
     "firstSeenAt": "2026-10-14T08:15:12.821299+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "Windows Updateが使えなくなる場合も。2027年に証明書が期限切れ",
@@ -887,14 +913,14 @@
     "title": "私物Macと仕事Macのdotfilesとアプリ管理をmise bootstrapで管理しやすくした - $shibayu36->blog;",
     "url": "https://blog.shibayu36.org/entry/2026/10/13/173000",
     "domain": "blog.shibayu36.org",
-    "count": 217,
+    "count": 218,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.shibayu36.org/entry/2026/10/13/173000",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/2c9c556b2a428df8224731a2c49b73b25d32c0e5/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fshiba_yu36%2F20261011%2F20261011162746.png",
     "description": "自分の設定ファイルやインストールするアプリは、https://github.com/shibayu36/config-file のリポジトリで管理している。これまでは私物Macと仕事Macが全く同じになるように、雑にsymlinkを張るスクリプトで運用していた。新しい仕事用のMacをもらったのをきっかけに、私物だけ・仕事だけに入れるものをちゃんと分けつ...",
     "hatenaDate": "2026-10-13T12:43:28Z",
     "users": [],
     "firstSeenAt": "2026-10-14T06:30:16.087985+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "Redesigning source control at Anthropic",
@@ -907,7 +933,7 @@
     "hatenaDate": "2026-10-13T17:17:00Z",
     "users": [],
     "firstSeenAt": "2026-10-14T06:30:16.087985+09:00",
-    "lastSeenAt": "2026-10-14T19:45:09.902705+09:00"
+    "lastSeenAt": "2026-10-14T20:00:11.199866+09:00"
   },
   {
     "title": "ブックオフ、約642万件の会員データ漏洩　退会会員も対象 - 日本経済新聞",
@@ -3872,31 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-10T13:00:15.018349+09:00",
     "lastSeenAt": "2026-10-10T18:30:14.998607+09:00"
-  },
-  {
-    "title": "高速版「Qwen-Image-2.1-Turbo」重み公開、画像生成8ステップで完了",
-    "url": "https://pc.watch.impress.co.jp/docs/news/2147316.html",
-    "domain": "pc.watch.impress.co.jp",
-    "count": 25,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2147316.html",
-    "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2147/316/01.png",
-    "description": null,
-    "hatenaDate": "2026-10-09T16:33:02Z",
-    "users": [],
-    "firstSeenAt": "2026-10-10T12:30:13.406473+09:00",
-    "lastSeenAt": "2026-10-10T22:00:14.450363+09:00"
-  },
-  {
-    "title": "Windowsにもエアドロしたい。Raspberry PiでAirDrop受信機「LilBitDrop」を作った（CloseBox） | テクノエッジ TechnoEdge",
-    "url": "https://www.techno-edge.net/article/2026/10/10/5571.html",
-    "domain": "www.techno-edge.net",
-    "count": 64,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/10/10/5571.html",
-    "screenshot": "https://www.techno-edge.net/imgs/ogp_f/34727.jpg",
-    "description": "AirDropは今では少なくなってしまった、Appleエコシステムの「ないとなると困る」機能の1つです。何かイベントがあったときに写真をその場にいる人に送るのに著しく便利。ここではiPhoneとそれ以外で大きな格差が生まれ、そのような機会の多い女子学生の中ではiPhone所有率が格段に高いというのも頷けます。 ただ、最近...",
-    "hatenaDate": "2026-10-09T21:44:57Z",
-    "users": [],
-    "firstSeenAt": "2026-10-10T12:15:15.650561+09:00",
-    "lastSeenAt": "2026-10-11T10:00:14.535918+09:00"
   }
 ]
