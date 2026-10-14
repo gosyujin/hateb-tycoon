@@ -27,10 +27,12 @@ jobs:
       - name: Stamp build info and cache-bust assets
         run: |
           SHA="${GITHUB_SHA::7}"
-          # アプリ本体(data/を除く)を最後に変更したコミット。クライアントはこの値だけを
-          # 比較して新バージョンの有無を判断する(データ更新だけのデプロイでは変わらない)。
-          CODE_VERSION="$(git log -1 --abbrev=7 --format=%h -- index.html css js service-worker.js)"
-          TIME="$(TZ='Asia/Tokyo' date +"%Y-%m-%d %H:%M:%S")"
+          # アプリ本体(data/を除く)を最後に変更したコミットとその日時(JST)。
+          # クライアントはcodeVersionだけを比較して新バージョンの有無を判断し(データ更新
+          # だけのデプロイでは変わらない)、フッターにもこの組を「アプリの版」として表示する。
+          APP_PATHS="index.html css js service-worker.js"
+          CODE_VERSION="$(git log -1 --abbrev=7 --format=%h -- $APP_PATHS)"
+          TIME="$(TZ='Asia/Tokyo' git log -1 --date=format-local:'%Y-%m-%d %H:%M:%S' --format=%cd -- $APP_PATHS)"
           cat > js/build-info.js <<EOF
           window.BUILD_INFO = { sha: '${SHA}', codeVersion: '${CODE_VERSION}', time: '${TIME}' };
           EOF

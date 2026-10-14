@@ -1954,7 +1954,10 @@
     const el = document.getElementById('next-update-info');
     if (!el) return;
 
-    const buildText = window.BUILD_INFO ? `${window.BUILD_INFO.sha} (${window.BUILD_INFO.time})` : '';
+    // 表示は「アプリの版」(codeVersion=アプリ本体を最後に変更したコミットとその日時)。
+    // 不具合報告でこの値だけでコードの版が特定できるようにするため、データ更新だけの
+    // デプロイで変わるsha(デプロイ元コミット)は表示しない。
+    const buildText = window.BUILD_INFO ? `${window.BUILD_INFO.codeVersion} (${window.BUILD_INFO.time})` : '';
     let nextUpdateHtml = '';
 
     try {

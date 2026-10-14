@@ -10,7 +10,7 @@ hateb-tycoon/
 ├── css/
 │   └── style.css        # スタイル
 ├── js/
-│   ├── build-info.js    # デプロイ時にビルドhash/日時が書き込まれる(フッター表示用)
+│   ├── build-info.js    # デプロイ時にアプリの版(codeVersion=アプリ本体を最後に変更したコミットhashとその日時)が書き込まれる(フッター表示・新バージョン検知用)
 │   ├── filters.js       # localStorageのミュートワード管理と判定ロジック
 │   ├── visited.js        # 既読管理(既読フラグ・再表示しきい値)
 │   ├── gist.js           # Gist APIの共通部分(トークン管理・取得/作成/更新)
