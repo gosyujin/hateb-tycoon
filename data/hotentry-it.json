@@ -1,5 +1,18 @@
 [
   {
+    "title": "エンジニアのためのメモ管理CLIツールnbの使い方",
+    "url": "https://eiji.page/blog/nb-memo-cli-intro",
+    "domain": "eiji.page",
+    "count": 11,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/eiji.page/blog/nb-memo-cli-intro",
+    "screenshot": "https://eiji.page/og/nb-memo-cli-intro.png",
+    "description": "メモ管理に特化したCLIツール「nb」を紹介します。 ## nbとはnbはローカルでメモやタスク管理ができるCLIです。あくまでも管理に特化したCLIです。編集は各々の愛しているテキストエディタでできます。 ### メモ管理難しすぎ問題たとえば自力でメモを管理しようとすると次のような方法が考えられます。 ファイル名を日本...",
+    "hatenaDate": "2025-12-11T00:16:21Z",
+    "users": [],
+    "firstSeenAt": "2026-10-16T06:45:12.270742+09:00",
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
+  },
+  {
     "title": "台湾TSMC過去最高益「需要減速の兆候なし」 | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261015de60118",
     "domain": "news.web.nhk",
@@ -10,7 +23,7 @@
     "hatenaDate": "2026-10-15T16:09:09Z",
     "users": [],
     "firstSeenAt": "2026-10-16T06:00:13.380358+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "バーガーキング、1118万件の会員情報流出　メールや電話番号など",
@@ -36,20 +49,20 @@
     "hatenaDate": "2026-10-15T12:58:22Z",
     "users": [],
     "firstSeenAt": "2026-10-16T02:30:12.661527+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "データ転送ライブラリ「curl」に特定の条件でリモートからコードを実行される脆弱性／深刻度Highを含む24件の脆弱性を修正したv8.23.0が公開",
     "url": "https://forest.watch.impress.co.jp/docs/news/2148495.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 23,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2148495.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2148/495/curl.png",
     "description": null,
     "hatenaDate": "2026-10-15T13:22:05Z",
     "users": [],
     "firstSeenAt": "2026-10-16T01:45:13.345535+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "無料でDiscordの代替を目指すエンドツーエンド暗号化対応＆セルフホスティング可能なオープンソースのチャットサービス「Strafe」",
@@ -62,20 +75,20 @@
     "hatenaDate": "2026-10-15T11:21:22Z",
     "users": [],
     "firstSeenAt": "2026-10-16T01:45:13.345535+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "国内で相次ぐWebシステムからの情報漏えい～ラックの観測から見える変化と、企業が今とるべき対策 | LAC WATCH",
     "url": "https://www.lac.co.jp/lacwatch/alert/20261015_004996.html",
     "domain": "www.lac.co.jp",
-    "count": 27,
+    "count": 28,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.lac.co.jp/lacwatch/alert/20261015_004996.html",
     "screenshot": "https://www.lac.co.jp/lacwatch/img/thumb_lacwatch_004996.jpg",
     "description": "2026年7月以降、国内法人が運営するWebシステムやスマートフォンアプリに関連した個人情報漏えいの公表が相次いでいます。公開情報の独自集計では、2026年10月6日時点で119件に上り、そのうち約68%にあたる81件が7月以降に公表※されたものです。ラックのサイバー救急センターへの相談件数においても、サーバへの不正侵入...",
     "hatenaDate": "2026-10-15T11:26:49Z",
     "users": [],
     "firstSeenAt": "2026-10-16T01:15:13.767222+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "ASMLの半導体露光装置はすでに2028年分までほぼ売り切れ状態で一部顧客は2030年分の発注を検討",
@@ -88,7 +101,7 @@
     "hatenaDate": "2026-10-15T07:15:02Z",
     "users": [],
     "firstSeenAt": "2026-10-16T01:15:13.767222+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "【笠原一輝のユビキタス情報局】 買ったらすぐローカルエージェント型AIが始められるRTX Spark N1Xのすべて",
@@ -101,7 +114,7 @@
     "hatenaDate": "2026-10-15T12:53:17Z",
     "users": [],
     "firstSeenAt": "2026-10-16T01:15:13.767222+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "小学生の子供向けにずんだもんAIを作る",
@@ -127,7 +140,7 @@
     "hatenaDate": "2026-10-15T07:39:39Z",
     "users": [],
     "firstSeenAt": "2026-10-16T01:15:13.767222+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "スマホを持つだけで通過　JR東「ウォークスルー改札」がCEATECで体験できる",
@@ -146,27 +159,27 @@
     "title": "ESP32-C3でデジタルテレビの電波を送信、Wi-Fi回路の非公開の機能を利用 - FabScene（ファブシーン）",
     "url": "https://fabscene.com/new/make/esp32-datv-esp32-c3-wifi-dac-dvb-s2-digital-tv-transmitter/",
     "domain": "fabscene.com",
-    "count": 16,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/fabscene.com/new/make/esp32-datv-esp32-c3-wifi-dac-dvb-s2-digital-tv-transmitter/",
     "screenshot": "https://fabscene.com/wp-content/uploads/2026/10/image-101.webp",
     "description": "ESP32-C3でデジタルテレビの電波を送信、Wi-Fi回路の非公開の機能を利用 2026 10/15 Wi-Fiのための送信回路を直接動かし、マイコン1個からデジタルテレビの映像を電波で送る。「ESP32-DATV」として公開された。作ったのはSP8ESA氏で、同氏は以前にも、ESP8266の送信回路を直接動かして音声を送受信する2.4GHz帯の無線機...",
     "hatenaDate": "2026-10-15T03:56:52Z",
     "users": [],
     "firstSeenAt": "2026-10-16T00:30:16.949561+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "リコー、MoE型マルチモーダル大規模言語モデル「リコーLMM_35B-A3B」を開発 | リコーグループ 企業・IR | リコー",
     "url": "https://jp.ricoh.com/release/2026/1015_1",
     "domain": "jp.ricoh.com",
-    "count": 16,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/jp.ricoh.com/release/2026/1015_1",
     "screenshot": null,
     "description": "ニュースリリース リコー、MoE型マルチモーダル大規模言語モデル「リコーLMM_35B-A3B」を開発 高い日本語リーズニング性能と高速・省リソースな運用を両立、オンプレミス向けLLMラインアップを拡充 株式会社リコー（社長執行役員：大山 晃）は、日本語の文書や図表を高精度に理解し、高速・省リソースで動作するマルチモ...",
     "hatenaDate": "2026-10-15T09:06:24Z",
     "users": [],
     "firstSeenAt": "2026-10-15T23:45:15.139822+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "Amazonはインターネット全体で商品価格をつり上げている",
@@ -179,7 +192,7 @@
     "hatenaDate": "2026-10-15T13:15:54Z",
     "users": [],
     "firstSeenAt": "2026-10-15T23:30:14.589983+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "【Mac Info】 Safariの機能拡張が文章で作れる！macOS 27の新機能",
@@ -192,7 +205,7 @@
     "hatenaDate": "2026-10-14T21:28:33Z",
     "users": [],
     "firstSeenAt": "2026-10-15T23:00:19.202364+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "OpenAIやGoogleの画像生成AIは簡単に騙されてヌード画像を生成してしまうと研究者が指摘",
@@ -218,7 +231,7 @@
     "hatenaDate": "2026-10-15T10:10:09Z",
     "users": [],
     "firstSeenAt": "2026-10-15T22:30:13.911503+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "Microsoft、3つの国際的な犯罪ネットサービスを解体へ　日本狙った詐欺がきっかけ",
@@ -231,7 +244,7 @@
     "hatenaDate": "2026-10-15T08:58:29Z",
     "users": [],
     "firstSeenAt": "2026-10-15T21:45:12.867814+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "自治体システム運営 大阪のIT関連会社 サーバー復旧を発表 | NHKニュース",
@@ -270,7 +283,7 @@
     "hatenaDate": "2026-10-15T09:06:56Z",
     "users": [],
     "firstSeenAt": "2026-10-15T21:00:13.014593+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "AIによる相次ぐハッキング事件は「AIの暴走」ではなく「AI企業がセキュリティの基本を無視しているため」という指摘",
@@ -283,7 +296,7 @@
     "hatenaDate": "2026-10-15T08:19:46Z",
     "users": [],
     "firstSeenAt": "2026-10-15T21:00:13.014593+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "The agentic development loop | Hayden Bleasel",
@@ -322,20 +335,20 @@
     "hatenaDate": "2026-10-15T10:14:26Z",
     "users": [],
     "firstSeenAt": "2026-10-15T20:25:37.220159+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "ソースネクスト、最大2251万件の情報流出　パスワード再設定を",
     "url": "https://www.watch.impress.co.jp/docs/news/2148547.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 111,
+    "count": 115,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2148547.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2148/547/source1.jpg",
     "description": null,
     "hatenaDate": "2026-10-15T10:52:15Z",
     "users": [],
     "firstSeenAt": "2026-10-15T20:15:13.614482+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "ソースネクスト 顧客情報 約2251万件が情報漏えいか | NHKニュース",
@@ -348,7 +361,7 @@
     "hatenaDate": "2026-10-15T10:26:12Z",
     "users": [],
     "firstSeenAt": "2026-10-15T20:15:13.614482+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "カラーミーショップのWebhook開発で見えた、届けることと守ることの設計判断 - Pepabo Tech Portal",
@@ -374,7 +387,7 @@
     "hatenaDate": "2026-10-15T08:05:24Z",
     "users": [],
     "firstSeenAt": "2026-10-15T20:15:13.614482+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "相次ぐ不正アクセス “AIエージェント”使用の証拠見つかる | NHKニュース",
@@ -426,20 +439,20 @@
     "hatenaDate": "2026-10-15T06:37:18Z",
     "users": [],
     "firstSeenAt": "2026-10-15T20:00:15.353992+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "連続不正アクセス事案の攻撃手法に関する調査 - JPCERT/CC Eyes",
     "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
     "domain": "blogs.jpcert.or.jp",
-    "count": 114,
+    "count": 115,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
     "screenshot": "https://blogs.jpcert.or.jp/ja/.assets/thumbnail/02-800wi.jpg",
     "description": "JPCERT/CCは、2026年10月8日に、国内の複数の組織で相次いで公表された不正アクセスによる個人情報などの漏えい被害に関する注意喚起を公開しました。 JPCERT/CCでは、複数の組織と連携し、攻撃に使用された可能性のあるインフラの調査を進めています。その過程で、攻撃者がAIを利用して、既知の脆弱性のスキャンやAPI経...",
     "hatenaDate": "2026-10-15T08:02:36Z",
     "users": [],
     "firstSeenAt": "2026-10-15T19:45:13.000014+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "「Claude Code」デスクトップ版、並列タスクごとにセッションを自動生成",
@@ -458,14 +471,14 @@
     "title": "当社サイトへの不正アクセスによるお客様情報流出のお詫びとお知らせ｜ソースネクスト",
     "url": "https://www.sourcenext.com/support/i/2026/1015_info/",
     "domain": "www.sourcenext.com",
-    "count": 321,
+    "count": 323,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.sourcenext.com/support/i/2026/1015_info/",
     "screenshot": null,
     "description": "このたび、当社が管理する会員情報に対し、第三者による不正アクセスが行われ、当社に会員登録いただいているお客様の個人情報が外部に流出したことが判明いたしました。 お客様ならびに関係者の皆様に多大なるご迷惑とご心配をおかけしておりますことを、深くお詫び申し上げます。 現在、外部の専門機関と連携し、原因...",
     "hatenaDate": "2026-10-15T08:49:13Z",
     "users": [],
     "firstSeenAt": "2026-10-15T19:30:13.078208+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "JPEGのExifサムネイルの中にサムネイルのサムネイルを置きたい - hitode909の日記",
@@ -510,27 +523,27 @@
     "title": "AIのスピードに負けないための開発フロー",
     "url": "https://speakerdeck.com/kyuridenamida/ai-no-supido-ni-makenai-tame-no-kaihatsu-furo",
     "domain": "speakerdeck.com",
-    "count": 64,
+    "count": 65,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/kyuridenamida/ai-no-supido-ni-makenai-tame-no-kaihatsu-furo",
     "screenshot": "https://files.speakerdeck.com/presentations/072742e4b62b4b12a350e373ae392cbc/slide_0.jpg?40915792",
     "description": "https://sotas.connpass.com/event/398322/ Sotas×カミナシ×estie｜AIのスピードに開発組織はどう追いつくのか？ (2026/10/15) 登壇資料",
     "hatenaDate": "2026-10-15T07:19:45Z",
     "users": [],
     "firstSeenAt": "2026-10-15T19:15:10.946564+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "How to be more ambitious: A tutorial for humans with models",
     "url": "https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/",
     "domain": "felixrieseberg.com",
-    "count": 49,
+    "count": 50,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/",
     "screenshot": "https://storage.ghost.io/c/89/e0/89e08557-681a-40be-8264-278bf46d6b25/content/images/size/w1200/2026/10/modo_de_volar_a_way_of_flying_1951.10.55-1.jpg",
     "description": "I work on Claude. It's an interesting experience: Every day I learn about yet another feat accomplished with or by Claude that I hadn't considered, didn't think possible, or simply lacked the curiosity and time to try. This month, it may have helped discover a new planet, I've seen the first AI m...",
     "hatenaDate": "2026-10-15T06:51:18Z",
     "users": [],
     "firstSeenAt": "2026-10-15T19:00:15.263448+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "「C# Dev Kit」が大刷新、読み込みは最大180倍に、サーバーのメモリ消費は最大約85％減／11月の正式提供が予定されている「.NET 11」にあわせたアーキテクチャー変更",
@@ -569,7 +582,7 @@
     "hatenaDate": "2026-10-15T07:55:30Z",
     "users": [],
     "firstSeenAt": "2026-10-15T18:45:11.051404+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "バーガーキング、約1118万件漏えい　公式アプリ会員システムに不正アクセス",
@@ -731,14 +744,14 @@
     "title": "ワールドガチャ｜架空の町をガチャで作ってマンガの背景に",
     "url": "https://tools.oyasumi-gamedev.com/worldgacha/",
     "domain": "tools.oyasumi-gamedev.com",
-    "count": 238,
+    "count": 243,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tools.oyasumi-gamedev.com/worldgacha/",
     "screenshot": "https://oyasumi-gamedev.com/wp-content/uploads/2026/10/worldgacha-hero.png",
     "description": "光方位330°高さ45°落ち影月と時刻月10時刻15:00空気物陰100%かすみ100%空トーン影100%固有色100%模様大きさ40%🎲不透明度100%塗りで表現するベタ範囲40%白抜き",
     "hatenaDate": "2026-10-15T04:01:12Z",
     "users": [],
     "firstSeenAt": "2026-10-15T16:30:14.425211+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "バーガーキング アプリの会員情報 約1118万件漏えい | NHKニュース",
@@ -751,7 +764,7 @@
     "hatenaDate": "2026-10-15T07:06:47Z",
     "users": [],
     "firstSeenAt": "2026-10-15T16:30:14.425211+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "Microsoftのデータセンターが森に化けようとしてる。それも20カ所以上で | ギズモード・ジャパン",
@@ -848,14 +861,14 @@
     "title": "有名企業や一流開発者のノウハウをそのまま持ち込める、Claude Codeスキル11選｜苦しんでプログラミングを学んだ柴犬（くるしば）",
     "url": "https://note.com/shiba_program/n/nd2d72747f8c5",
     "domain": "note.com",
-    "count": 238,
+    "count": 239,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/shiba_program/n/nd2d72747f8c5",
     "screenshot": "https://assets.st-note.com/production/uploads/images/324539998/rectangle_large_type_2_121d8afffb34ca672ce89dbc6c617f58.jpeg?fit=bounds&quality=85&width=1280",
     "description": "こんにちは。くるしばです。 エラー監視サービスのSentry社が自社の開発チームで使っているコードレビューの基準を、明日から自分のプロジェクトにそのまま適用できるとしたら、ちょっと試してみたくならないでしょうか。 Claude Codeの「スキル」という仕組みを使うと、これが簡単に実現できます。決まった手順やルール...",
     "hatenaDate": "2026-10-15T04:24:08Z",
     "users": [],
     "firstSeenAt": "2026-10-15T13:45:11.124705+09:00",
-    "lastSeenAt": "2026-10-16T06:30:14.211451+09:00"
+    "lastSeenAt": "2026-10-16T06:45:12.270742+09:00"
   },
   {
     "title": "E2Eテストを爆速にする: オンメモリPostgreSQLのpgmem | フューチャー技術ブログ",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-13T11:00:13.217728+09:00",
     "lastSeenAt": "2026-10-13T16:00:19.156400+09:00"
-  },
-  {
-    "title": "百合展10周年再始動キャンペーン、イベントのティザーイラストに生成AIを使用した事が物議になり、結果告知翌日に開催中止になる",
-    "url": "https://posfie.com/@cu6gane/p/fTySpD9",
-    "domain": "posfie.com",
-    "count": 9,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@cu6gane/p/fTySpD9",
-    "screenshot": "https://s.tgstc.com/ogp3/2c09e55deee2b477fcb9f5fc6c0bc285-1200x630.jpeg",
-    "description": "本当に外部委託が勝手にやりましたパターンだとしても、ソレをマトモにチェック出来ない体制でいるのがそもそもマズ味じゃないのと。 まあこんな一日で言い様がコロコロ変わる時点でもう信用なんて吹き飛んだも同然ですが…。",
-    "hatenaDate": "2026-10-11T17:52:48Z",
-    "users": [],
-    "firstSeenAt": "2026-10-13T11:00:13.217728+09:00",
-    "lastSeenAt": "2026-10-13T12:45:13.538424+09:00"
   }
 ]
