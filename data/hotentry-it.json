@@ -1,29 +1,81 @@
 [
   {
+    "title": "有名企業や一流開発者のノウハウをそのまま持ち込める、Claude Codeスキル11選｜苦しんでプログラミングを学んだ柴犬（くるしば）",
+    "url": "https://note.com/shiba_program/n/nd2d72747f8c5",
+    "domain": "note.com",
+    "count": 8,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/shiba_program/n/nd2d72747f8c5",
+    "screenshot": "https://assets.st-note.com/production/uploads/images/324539998/rectangle_large_type_2_121d8afffb34ca672ce89dbc6c617f58.jpeg?fit=bounds&quality=85&width=1280",
+    "description": "こんにちは。くるしばです。 エラー監視サービスのSentry社が自社の開発チームで使っているコードレビューの基準を、明日から自分のプロジェクトにそのまま適用できるとしたら、ちょっと試してみたくならないでしょうか。 Claude Codeの「スキル」という仕組みを使うと、これが簡単に実現できます。決まった手順やルール...",
+    "hatenaDate": "2026-10-15T04:24:08Z",
+    "users": [],
+    "firstSeenAt": "2026-10-15T13:45:11.124705+09:00",
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
+  },
+  {
+    "title": "E2Eテストを爆速にする: オンメモリPostgreSQLのpgmem | フューチャー技術ブログ",
+    "url": "https://future-architect.github.io/articles/20261015a/",
+    "domain": "future-architect.github.io",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/future-architect.github.io/articles/20261015a/",
+    "screenshot": "https://future-architect.github.io/images/2026/20261015a/benchmark.png",
+    "description": "古来よりDBにモックを使うとか使わないとか話題になるのは、DBというものをプログラムからコントロールするのに制約が多かったからではないかと思います。で、オンメモリのDBのH2を使うなり、SQLiteを使うなどしようとしても、今度は使うDBMSとの差が出てしまってテストとしての品質が上がらないと。 トランザクションを...",
+    "hatenaDate": "2026-10-15T03:03:29Z",
+    "users": [],
+    "firstSeenAt": "2026-10-15T13:45:11.124705+09:00",
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
+  },
+  {
+    "title": "『RPGツクール』『ウディタ』『Bakin』『SRPG Studio』開発者が集結した濃厚対談。「ゲームを作るのは難しい」、その思い込みを壊したい - AUTOMATON",
+    "url": "https://automaton-media.com/articles/interviewsjp/twbs-20261015-473432/",
+    "domain": "automaton-media.com",
+    "count": 6,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/automaton-media.com/articles/interviewsjp/twbs-20261015-473432/",
+    "screenshot": "https://automaton-media.com/wp-content/uploads/2026/10/twbs-20261015-473432-header.jpg",
+    "description": "誰しも一度は「自分だけのゲームを作ってみたい」と思い立ったことがあるのではないだろうか。そんな野望の実現を助け、日本のインディゲーム・フリーゲーム文化を支え続けてきたのが、国産のノーコードゲーム制作ツールの存在だ。 弊誌AUTOMATONでは、国内のノーコードゲーム制作ツールの開発者の方々にお声がけをし、...",
+    "hatenaDate": "2026-10-15T03:02:45Z",
+    "users": [],
+    "firstSeenAt": "2026-10-15T13:45:11.124705+09:00",
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
+  },
+  {
+    "title": "スマホ疲れに「セロ活」　「ドパガキ」の時代に考えるネットとの距離",
+    "url": "https://www.watch.impress.co.jp/docs/topic/2148127.html",
+    "domain": "www.watch.impress.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/topic/2148127.html",
+    "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2148/127/00.jpg",
+    "description": null,
+    "hatenaDate": "2026-10-14T23:46:29Z",
+    "users": [],
+    "firstSeenAt": "2026-10-15T13:45:11.124705+09:00",
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
+  },
+  {
     "title": "国家サイバー統括室、経済産業省、GitHubの登壇決定！10月28日開催「AI×Security Conference〜AI前提で変わる統制・防御・運用〜」申込受付中",
     "url": "https://prtimes.jp/main/html/rd/p/000000279.000045379.html",
     "domain": "prtimes.jp",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/prtimes.jp/main/html/rd/p/000000279.000045379.html",
     "screenshot": "https://prcdn.freetls.fastly.net/release_image/45379/279/45379-279-fb6d7ebd373348af9d4eece02495fa52-984x516.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
     "description": "ファインディ株式会社（東京都品川区、代表取締役：山田 裕一朗、以下「当社」）は、2026年10月28日（水）開催のカンファレンス「AI×Security Conference ～AI前提で変わる統制・防御・運用～」にて、基調講演に内閣官房 国家サイバー統括室とGitHub、特別登壇に経済産業省が登壇することをお知らせいたします。 本カン...",
     "hatenaDate": "2026-10-15T04:05:31Z",
     "users": [],
     "firstSeenAt": "2026-10-15T13:30:14.842643+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "Stripeサブスクの課金→解約→再課金、デプロイ前に全部ローカルで通す——Stripe CLIでハマった罠3つ",
     "url": "https://zenn.dev/tyuya/articles/stripe-local-subscription-test",
     "domain": "zenn.dev",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tyuya/articles/stripe-local-subscription-test",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--w244SdcB--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Stripe%25E3%2582%25B5%25E3%2583%2596%25E3%2582%25B9%25E3%2582%25AF%25E3%2581%25AE%25E8%25AA%25B2%25E9%2587%2591%25E2%2586%2592%25E8%25A7%25A3%25E7%25B4%2584%25E2%2586%2592%25E5%2586%258D%25E8%25AA%25B2%25E9%2587%2591%25E3%2580%2581%25E3%2583%2587%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25A4%25E5%2589%258D%25E3%2581%25AB%25E5%2585%25A8%25E9%2583%25A8%25E3%2583%25AD%25E3%2583%25BC%25E3%2582%25AB%25E3%2583%25AB%25E3%2581%25A7%25E9%2580%259A%25E3%2581%2599%25E2%2580%2594%25E2%2580%2594Stripe%2520CLI%25E3%2581%25A7%25E3%2583%258F%25E3%2583%259E%25E3%2581%25A3%25E3%2581%259F%25E7%25BD%25A03%25E3%2581%25A4%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:yuya0620%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzg4MGEzZTQwNTQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "個人でAI献立アプリを準備しています。月500円のサブスクで、構成はCloudflare Worker + D1、決済はStripeです。実装はすべてClaude Code（AI）にやってもらい、私は動作とレシートを確認する係です。 課金まわりで一番怖いのは、「コードは書けた、たぶん動く」の状態で本番に出すことでした。お金を扱う機能は、失敗し...",
     "hatenaDate": "2026-10-14T12:03:00Z",
     "users": [],
     "firstSeenAt": "2026-10-15T13:00:11.375261+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "桑原旅人という叙述トリック――「20億の負債」「査読論文22本」「豊富な資金力」を追う｜kj aka ルサンチMAN",
@@ -36,7 +88,7 @@
     "hatenaDate": "2026-10-15T00:53:20Z",
     "users": [],
     "firstSeenAt": "2026-10-15T12:30:10.384722+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "「YouTube Music」、生成AIで作られた楽曲にラベル表示",
@@ -55,14 +107,14 @@
     "title": "雑談はセンサーになる──ふりかえりで言えない本音を拾い、チームを動かす - Agile Journey",
     "url": "https://agilejourney.uzabase.com/entry/2026/10/15/103000",
     "domain": "agilejourney.uzabase.com",
-    "count": 21,
+    "count": 25,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/agilejourney.uzabase.com/entry/2026/10/15/103000",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/e0f238e96e5a590e9a10ed10ebfcea0daf68e14c/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fb%2Fblog-media%2F20261007%2F20261007180548.jpg",
     "description": "株式会社ビットキーの高橋秀一郎（しゅういちろ）です。 20年ほどSIerでの実装から要件定義、役割としてはプロジェクトマネージャや組織の長を経験したのち、2024年にビットキーへ入社しました。現在は社内のエンジニアリングマネージャー（EM）を支援する立場から、組織開発や技術広報に携わっています。 チームの中に...",
     "hatenaDate": "2026-10-15T01:33:17Z",
     "users": [],
     "firstSeenAt": "2026-10-15T12:15:14.107137+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "参加者全員にMax 5x Planと500ドル。Anthropic初の国内ハッカソン",
@@ -81,14 +133,14 @@
     "title": "異例の「iPhone Air」投げ売りはなぜ起きている？　定価29.5万円の1TBモデルが、いま18.4万円で買える3つの理由",
     "url": "https://www.itmedia.co.jp/mobile/articles/2610/15/news037.html",
     "domain": "www.itmedia.co.jp",
-    "count": 33,
+    "count": 35,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2610/15/news037.html",
     "screenshot": "https://image.itmedia.co.jp/mobile/articles/2610/15/cover_news037.jpg",
     "description": "Appleの「iPhone Air」が、Amazon.co.jpのセールで異例の大幅割引となっている。定価29万4800円の1TBモデルが18万3500円で販売される背景には、日本独自仕様による過剰在庫など複雑な要因が絡み合っている。その市場のゆがみを読み解く。",
     "hatenaDate": "2026-10-14T23:13:47Z",
     "users": [],
     "firstSeenAt": "2026-10-15T12:00:14.001274+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "「Copilot Notebooks」が大幅アップデート ～単なる情報整理ツールを超えた存在に／資料の収集やOfficeファイルの編集をCopilotに依頼可能、成果物もよりリッチに",
@@ -127,20 +179,20 @@
     "hatenaDate": "2026-10-14T23:11:47Z",
     "users": [],
     "firstSeenAt": "2026-10-15T11:30:14.255773+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "デジハリ大、「Claude」を全学導入へ──国内初、“回数気にせず”使い放題に",
     "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002278/",
     "domain": "www.itmedia.co.jp",
-    "count": 15,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/14/2000002278/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/14/2000002278/10009373/2048",
     "description": "デジタルハリウッド大学（DHU、東京都千代田区）は10月14日、米Anthropicの生成AI「Claude」を全学に導入すると発表した。11月から、全学生・全教職員が大学発行のアカウントで、利用量や費用を気にせずClaudeを使えるようになる。国内の大学におけるClaudeの全学導入は同学が初だという。 DHUは9月から、複数の生成AIを...",
     "hatenaDate": "2026-10-14T11:00:10Z",
     "users": [],
     "firstSeenAt": "2026-10-15T11:30:14.255773+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "AIチャットサービスのCharacter.aiが破産申請、ディズニーへの資産売却などを検討",
@@ -166,7 +218,7 @@
     "hatenaDate": "2026-10-15T00:37:42Z",
     "users": [],
     "firstSeenAt": "2026-10-15T11:00:15.901551+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "AIの暴走、訴えるべき相手はだれなのか",
@@ -198,27 +250,27 @@
     "title": "タイムズカーの件で免許証の再発行に…警察署で「再発行して良いんですか？末尾の数字が変わるだけですよ？紛失歴増えますよ？」と不安を煽られる→メリットがあるか議論に",
     "url": "https://togetter.com/li/2758344",
     "domain": "togetter.com",
-    "count": 62,
+    "count": 68,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2758344",
     "screenshot": "https://s.tgstc.com/ogp3/918dee428ac32852056a6cfac252e9a8-1200x630.jpeg",
     "description": "savo @moruharu430 タイムズカーの煽りを受け 免許証再発行の為に警察署へ 警察署では 「再発行して良いんですか？末尾の数字が変わるだけですよ？紛失歴増えますよ？」 と不安を煽られる 好きで再発行するんじゃないのになぁ もー 2026-10-14 14:33:08 【衝撃】運転免許証の画像が流出…専門家が警告「借金の申し込みが...",
     "hatenaDate": "2026-10-15T00:38:43Z",
     "users": [],
     "firstSeenAt": "2026-10-15T10:45:16.287885+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "阪急電鉄、全車両の中吊広告を27年4月に終了　スマホ時代に「落ち着いた移動空間」へ",
     "url": "https://japan.cnet.com/article/35253544/",
     "domain": "japan.cnet.com",
-    "count": 18,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35253544/",
     "screenshot": "https://japan.cnet.com/storage/2026/10/14/20529e6b0adf90d4cd5e2274c50b4c43/09113.jpeg",
     "description": "阪急電鉄は10月14日、全線の営業車両で中吊広告の掲出を終了すると発表した。既存車両も対象とし、2027年4月4日の営業終了をもって取りやめる。他社から乗り入れる車両は対象外となる。 中吊広告は長年、商品やイベント、沿線の情報を乗客に届けてきた。しかし、スマートフォンやデジタルメディアの普及により、乗客が情...",
     "hatenaDate": "2026-10-14T10:54:33Z",
     "users": [],
     "firstSeenAt": "2026-10-15T10:45:16.287885+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "ガートナー、多発する日本企業の不正アクセス事案で緊急提言",
@@ -276,14 +328,14 @@
     "title": "GitHub Actions workflow lockfiles in public preview - GitHub Changelog",
     "url": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview/",
     "domain": "github.blog",
-    "count": 16,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview/",
     "screenshot": "https://github.blog/wp-content/uploads/2026/10/668106759-0617e0cd-8cb1-497d-b5f7-848ad8487469.jpeg",
     "description": "Menu. Currently selected: Keep locked dependencies up to date with Dependabot GitHub Actions workflow dependency lockfiles are now in public preview for GitHub Enterprise Cloud, GitHub Enterprise Cloud with data residency, Team, and Free plans. Tags and branches can move after you review a workfl...",
     "hatenaDate": "2026-10-14T16:10:16Z",
     "users": [],
     "firstSeenAt": "2026-10-15T09:56:02.517502+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "マクドナルドとウォルマートが「AI値上げ」か　両社否定も反発消えず - 日本経済新聞",
@@ -296,7 +348,7 @@
     "hatenaDate": "2026-10-14T21:47:37Z",
     "users": [],
     "firstSeenAt": "2026-10-15T09:45:12.123806+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "石器時代のロープや糸を作る「見えない技術」を考古学者が復元",
@@ -315,14 +367,14 @@
     "title": "『Slay the Spire』最高難易度を最新AIモデルにプレイさせると“後半でやたら苦戦する”との研究。安全第一すぎて死ぬ - AUTOMATON",
     "url": "https://automaton-media.com/articles/newsjp/20261014-473406/",
     "domain": "automaton-media.com",
-    "count": 48,
+    "count": 50,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/automaton-media.com/articles/newsjp/20261014-473406/",
     "screenshot": "https://automaton-media.com/wp-content/uploads/2026/10/20261014-473406-header.jpg",
     "description": "『Slay the Spire』最高難易度を最新AIモデルにプレイさせると“後半でやたら苦戦する”との研究。安全第一すぎて死ぬ 『Slay the Spire』の最高難易度を、GPT-6やCalude Fable 5.1といった最新モデルを含むさまざまなAIモデルにプレイさせる研究論文が公開された。 『Slay the Spire』の最高難易度を、最新モデルを含むさ...",
     "hatenaDate": "2026-10-14T12:49:29Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:45:12.559573+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "Microsoft、警察庁などと協力し中国語利用の国際的サイバー犯罪市場の解体に着手",
@@ -361,7 +413,7 @@
     "hatenaDate": "2026-10-13T22:59:48Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:30:12.775214+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "小型・電動の「除雪ドローン」が雪国の課題に対応。実機をエバーブルーテクノロジーズが展示【CEATEC 2026】",
@@ -374,20 +426,20 @@
     "hatenaDate": "2026-10-14T22:00:11Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:15:12.269038+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "claude-plugins-official/plugins/code-modernization/README.md at main · anthropics/claude-plugins-official",
     "url": "https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-modernization/README.md",
     "domain": "github.com",
-    "count": 48,
+    "count": 49,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/anthropics/claude-plugins-official/blob/main/plugins/code-modernization/README.md",
     "screenshot": "https://opengraph.githubassets.com/34f729fde263dc4a799837ad1e535e871b71a40c01cb6b710ac084d4928ceba0/anthropics/claude-plugins-official",
     "description": "Point Claude at a legacy codebase and get four things: an understanding of what it is and what it does, a plan you approve, the modernized code, and proof that the new code behaves like the old. It works with any language and any kind of move: a newer version of the same technology, a rewrite in ...",
     "hatenaDate": "2026-10-14T02:55:15Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:15:12.269038+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "Windows上でAIエージェントの実行を安全に隔離する「Microsoft Execution Containers」（MXC）正式リリース。ファイルやネットワークなどの境界を柔軟にカスタマイズ",
@@ -400,7 +452,7 @@
     "hatenaDate": "2026-10-14T16:29:36Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:15:12.269038+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "GitHub - nyosegawa/speech.cpp: Speech synthesis, speech recognition and voice activity detection for voice conversation, in C++ on ggml: Qwen3-TTS, Irodori-TTS, Qwen3-ASR, ReazonSpeech, parakeet and Silero VAD on Metal, Vulkan and the CPU, with an OpenAI-",
@@ -439,20 +491,20 @@
     "hatenaDate": "2026-10-14T21:06:25Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:15:12.269038+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "Optimizing Our E2E Pipeline",
     "url": "https://slack.engineering/speedup-e2e-testing/",
     "domain": "slack.engineering",
-    "count": 26,
+    "count": 27,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/slack.engineering/speedup-e2e-testing/",
     "screenshot": "https://slack.engineering/wp-content/uploads/sites/7/2025/04/image2.png",
     "description": "In the world of DevOps and Developer Experience (DevXP), speed and efficiency can make a big difference on an engineer’s day-to-day tasks. Today, we’ll dive into how Slack’s DevXP team took some existing tools and used them to optimize an end-to-end (E2E) testing pipeline. This lowered build time...",
     "hatenaDate": "2026-10-14T06:21:03Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:15:12.269038+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "Google、待望の新AIモデル「Gemini 4 Argon」一般提供を開始　推論の継続力を強化　一部ベンチでトップに",
@@ -484,27 +536,27 @@
     "title": "八潮の道路陥没事故を国際圧入学会で総括　道路陥没メカニズムと最新技術による復旧の全貌",
     "url": "https://built.itmedia.co.jp/bt/articles/2610/14/news078.html",
     "domain": "built.itmedia.co.jp",
-    "count": 81,
+    "count": 84,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/built.itmedia.co.jp/bt/articles/2610/14/news078.html",
     "screenshot": "https://image.itmedia.co.jp/bt/articles/2610/14/l_is20261014opa021.jpg",
     "description": "埼玉県八潮市で2025年に発生した大規模な道路陥没事故について、国際圧入学会のセミナーで全プロセスが報告された。発生メカニズムや復旧工事のプロセス、毎秒4トンの汚水が流れる過酷な現場に対応した「圧入工法」の役割など、原因解明から復旧までの道のりをレポートで詳報する。",
     "hatenaDate": "2026-10-14T11:00:30Z",
     "users": [],
     "firstSeenAt": "2026-10-15T07:00:14.703009+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "みずほが数千人をAI開発者に転換　事務や営業、日本企業の働き方転機 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUB0722M0X01C26A0000000/",
     "domain": "www.nikkei.com",
-    "count": 163,
+    "count": 169,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUB0722M0X01C26A0000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3706173009102026000000-2.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=8a4107768139e160878ced49c080f934",
     "description": "みずほフィナンシャルグループは営業や事務の社員を人工知能（AI）の開発人材に転換する。5万人の全社員から順次選び、10年後に数千人規模への拡大を目指す。金融サービスや社内業務のAIシステムを作る。既存部門を減らし、競争力の要であるAI分野に集中する体制を整える。銀行など金融機関の社員はホワイトカラーの象徴...",
     "hatenaDate": "2026-10-14T19:37:56Z",
     "users": [],
     "firstSeenAt": "2026-10-15T07:00:14.703009+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "100時間かけて動画編集AIを作ったら、気が狂いそうになった。",
@@ -530,20 +582,20 @@
     "hatenaDate": "2026-10-14T13:47:11Z",
     "users": [],
     "firstSeenAt": "2026-10-15T06:00:14.470999+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "WAF でブロックする前に確かめていること",
     "url": "https://zenn.dev/azunyan/articles/7a105969d7d16c",
     "domain": "zenn.dev",
-    "count": 275,
+    "count": 281,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/azunyan/articles/7a105969d7d16c",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--Wqu5YoJN--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:WAF%2520%25E3%2581%25A7%25E3%2583%2596%25E3%2583%25AD%25E3%2583%2583%25E3%2582%25AF%25E3%2581%2599%25E3%2582%258B%25E5%2589%258D%25E3%2581%25AB%25E7%25A2%25BA%25E3%2581%258B%25E3%2582%2581%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2588%25E3%2581%25BF%25E3%2582%258A%25E3%2580%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNlODc0NGRhYmUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "🧱 はじめに WAF の運用で、既知の攻撃を止めるルールをすり抜けてくる迷惑なアクセスや、攻撃ばかりを送ってくるアクセスを調べ、その送信元をブロックしています。 この記事では、そのときに気をつけていることと、前提になる基礎知識をまとめます。ポイントは次の 3 つです。 止める前に、巻き添えになる正規の利用者...",
     "hatenaDate": "2026-10-14T06:30:40Z",
     "users": [],
     "firstSeenAt": "2026-10-15T05:45:15.139892+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "ポスドクの転職は「敗北」とは限らない―数学博士がアカデミアの外で見つけた新たな生き方｜ポスドクの転職体験記",
@@ -556,20 +608,20 @@
     "hatenaDate": "2026-10-14T07:59:11Z",
     "users": [],
     "firstSeenAt": "2026-10-15T05:30:14.174502+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "HTML-in-Canvasで作る未来のWeb UI表現",
     "url": "https://speakerdeck.com/clockmaker/html-in-canvas",
     "domain": "speakerdeck.com",
-    "count": 188,
+    "count": 190,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/clockmaker/html-in-canvas",
     "screenshot": "https://files.speakerdeck.com/presentations/7444e100f0414f1a9bc80c19b5746dc2/slide_0.jpg?40901906",
     "description": "フロントエンドカンファレンス関西2026の発表資料。 https://2026.frontend-conf.osaka.jp/ ■概要 HTML-in-Canvasという新しいAPIをオリジナルのデモで解説。 HTML・CSSから見た利点、Canvasタグから見た利点を掘り下げます。 …",
     "hatenaDate": "2026-10-14T12:02:04Z",
     "users": [],
     "firstSeenAt": "2026-10-15T03:45:11.404744+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "RIZAPの個人情報流出、発覚は社員の自己申告：「シャドーAI」の正体は古い問題だった（尾藤克之） - エキスパート - Yahoo!ニュース",
@@ -588,14 +640,14 @@
     "title": "仕組みを動く図で説明するエージェントスキルAnatomy公開 | gihyo.jp",
     "url": "https://gihyo.jp/article/2026/10/anatomy",
     "domain": "gihyo.jp",
-    "count": 134,
+    "count": 135,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/article/2026/10/anatomy",
     "screenshot": "https://gihyo.jp/assets/images/article/2026/10/anatomy/01.png",
     "description": "開発者のRyan氏（@wheresryan22）は2026年10月10日、さまざまな仕組みを動く図で説明するエージェントスキル「Anatomy」をXで紹介した。作りたい機械や説明したい概念を伝えると、AIエージェントが部品の形状や動作を設計して図を生成する。ポインターやキーボードの操作に応じて部品が動く図も作れる。 図はSVGファイル...",
     "hatenaDate": "2026-10-14T13:35:02Z",
     "users": [],
     "firstSeenAt": "2026-10-15T01:15:13.893205+09:00",
-    "lastSeenAt": "2026-10-15T13:30:14.842643+09:00"
+    "lastSeenAt": "2026-10-15T13:45:11.124705+09:00"
   },
   {
     "title": "ガチャで自作PCを組み立てよう。メーカー監修の手のひらPCパーツが10月21日発売 - エルミタージュ秋葉原",
@@ -3846,57 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-11T22:15:13.751036+09:00",
     "lastSeenAt": "2026-10-12T13:30:13.428301+09:00"
-  },
-  {
-    "title": "AIで浮いた時間を「もっと作る」に使っていませんか",
-    "url": "https://zenn.dev/idealog/articles/a3e9cf4299b1cf",
-    "domain": "zenn.dev",
-    "count": 33,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/idealog/articles/a3e9cf4299b1cf",
-    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--EoTNqKoi--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25A7%25E6%25B5%25AE%25E3%2581%2584%25E3%2581%259F%25E6%2599%2582%25E9%2596%2593%25E3%2582%2592%25E3%2580%258C%25E3%2582%2582%25E3%2581%25A3%25E3%2581%25A8%25E4%25BD%259C%25E3%2582%258B%25E3%2580%258D%25E3%2581%25AB%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%25BE%25E3%2581%259B%25E3%2582%2593%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25A2%25E3%2582%25A4%25E3%2583%2587%25E3%2582%25A2%25E3%2583%25AD%25E3%2582%25B0%25E9%2596%258B%25E7%2599%25BA%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzkyY2ZlMWNlZjkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-    "description": "はじめに 株式会社アイデアログで取締役CTOをしている松川です。 当社は法人・団体向けの会場検索サイト「会場ベストサーチ」や、レンタルスペース検索の「スペなび」などを運営しています。 今回は「AIで効率化されて生まれた時間を、何に使うべきか」について、最近考えていることを書いてみます。 作るスピードと量は...",
-    "hatenaDate": "2026-10-11T08:27:53Z",
-    "users": [],
-    "firstSeenAt": "2026-10-11T21:45:12.765068+09:00",
-    "lastSeenAt": "2026-10-12T17:00:17.180634+09:00"
-  },
-  {
-    "title": "GPU不要で驚きの精度。リアルタイム多言語文字起こしツール「hayamimi」使ってみましたー。｜ゆいまる‐IT界隈以外でAIを使いまくる2005年生まれ",
-    "url": "https://note.com/humble_bobcat51/n/n64602c64db6c",
-    "domain": "note.com",
-    "count": 199,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/humble_bobcat51/n/n64602c64db6c",
-    "screenshot": "https://assets.st-note.com/production/uploads/images/307126145/rectangle_large_type_2_63013f96c0fd55a3256fc9e134731b93.jpeg?fit=bounds&quality=85&width=1280",
-    "description": "日本の開発者さんっぽいリポジトリだーと思ってみたら、物凄い高性能な文字起こしツールでした。凄いなコレ。 貰い物の半壊PCでも全然CPUだけで文字起こし出来るし、翻訳でもかなり性能高い感じ。唯一の弱点は複数言語をいっぺんに読み取れないくらいしか、今のところは見当たらない。 こんなの出来るんだ、凄いってなり...",
-    "hatenaDate": "2026-10-11T08:37:11Z",
-    "users": [],
-    "firstSeenAt": "2026-10-11T21:30:12.094040+09:00",
-    "lastSeenAt": "2026-10-12T18:09:26.215370+09:00"
-  },
-  {
-    "title": "月間100万人のサービス刷新で、 技術選定をHonoに振り切った話",
-    "url": "https://speakerdeck.com/yutobara/gekkan-100-mannin-no-sabisu-sasshin-de-gijutsu-sentei-o-hono-ni-furikita-hanashi-e49c651f-8130-48bb-b6ef-eac3cc9f358a",
-    "domain": "speakerdeck.com",
-    "count": 121,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/yutobara/gekkan-100-mannin-no-sabisu-sasshin-de-gijutsu-sentei-o-hono-ni-furikita-hanashi-e49c651f-8130-48bb-b6ef-eac3cc9f358a",
-    "screenshot": "https://files.speakerdeck.com/presentations/081ed3fb6c014b668bb8f4b6b6ee7309/slide_0.jpg?40870095",
-    "description": "Hono Conference 2026 の登壇資料です。月間100万人のサービスを6人とAIで作り直しました。AIを迷わせない開発の土台作りと、Honoが効いた理由について、紹介しています。",
-    "hatenaDate": "2026-10-11T08:34:08Z",
-    "users": [],
-    "firstSeenAt": "2026-10-11T21:00:18.041555+09:00",
-    "lastSeenAt": "2026-10-12T18:09:26.215370+09:00"
-  },
-  {
-    "title": "AIで仕組みを作るための「27 Rules Starter Skill（for Claude Code）」を配布します｜太田 賢一／Design Mgr",
-    "url": "https://note.com/kenichiota0711/n/n7c8035175167",
-    "domain": "note.com",
-    "count": 25,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/kenichiota0711/n/n7c8035175167",
-    "screenshot": "https://assets.st-note.com/production/uploads/images/322737848/rectangle_large_type_2_e843b9ed738b8c9abc146efccccc4274.png?fit=bounds&quality=85&width=1280",
-    "description": "AIで仕組みを作るための「27 Rules Starter Skill（for Claude Code）」を配布します。 これは『AIを活用した仕組み』が作れるようになる27のルールと11ステップをskill化したものです。普段私が使っているルールを、そのままお渡しできる形にしました。記事の最後にダウンロードできます。 できるようになること『AIを...",
-    "hatenaDate": "2026-10-10T15:27:34Z",
-    "users": [],
-    "firstSeenAt": "2026-10-11T21:00:18.041555+09:00",
-    "lastSeenAt": "2026-10-12T13:45:14.225696+09:00"
   }
 ]
