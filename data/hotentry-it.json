@@ -1,5 +1,44 @@
 [
   {
+    "title": "ガートナー、多発する日本企業の不正アクセス事案で緊急提言",
+    "url": "https://japan.zdnet.com/article/35253543/",
+    "domain": "japan.zdnet.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.zdnet.com/article/35253543/",
+    "screenshot": "https://japan.zdnet.com/storage/2026/10/14/4db0d2293658f5e7819fd59684801eeb/20261014_adobestock_457718844_1280x960.jpg",
+    "description": "印刷する メールで送る テキスト HTML 電子書籍 PDF ダウンロード テキスト 電子書籍 PDF クリップした記事をMyページから読むことができます 9月以降、日本企業で重大な不正アクセス、個人情報漏洩のインシデントが相次いで発生しているほか、世界各地でも不正アクセス、情報流出の事案が相次いでいる。これを受けて、...",
+    "hatenaDate": "2026-10-14T10:53:36Z",
+    "users": [],
+    "firstSeenAt": "2026-10-15T10:30:11.950764+09:00",
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
+  },
+  {
+    "title": "A2B攻撃とは？ MobSFによるAndroidアプリのセキュリティ診断｜npaka",
+    "url": "https://note.com/npaka/n/nc724924d3827",
+    "domain": "note.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/npaka/n/nc724924d3827",
+    "screenshot": "https://assets.st-note.com/production/uploads/images/324409938/rectangle_large_type_2_6cfd8cabf20a030c6d6d95f9b11f10a1.png?fit=bounds&quality=85&width=1280",
+    "description": "1. はじめに2026年10月13日、情報通信研究機構（NICT）が、Androidアプリの解析を悪用した「A2B攻撃」（App-to-Backend Attack）について注意喚起を公表しました。 A2B攻撃は、公開されているAndroidアプリを解析し、接続先のサーバやAPIの仕様を調べ、その情報を利用してバックエンドサーバを攻撃する手法です。 Androi...",
+    "hatenaDate": "2026-10-14T13:40:26Z",
+    "users": [],
+    "firstSeenAt": "2026-10-15T10:30:11.950764+09:00",
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
+  },
+  {
+    "title": "Decision Modelの課題と強化学習｜はち",
+    "url": "https://note.com/hatti8/n/ne67f960dc486",
+    "domain": "note.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/hatti8/n/ne67f960dc486",
+    "screenshot": "https://assets.st-note.com/production/uploads/images/324108318/rectangle_large_type_2_978f310e18da1803cd0c275b6fd719f5.png?fit=bounds&quality=85&width=1280",
+    "description": "1. はじめに最近、TypeSafeのJevをはじめとするDecision Modelをよく見かけるようになりました。文章を生成せず、選択肢ごとの確率を1回の計算で返すモデルです。LLMよりかなり速く安く呼べるということで、例えば以下のようなマリオのデモなどが公開されています。 Jevがマリオの1-1をクリアするデモ（jev-marioのREADM...",
+    "hatenaDate": "2026-10-14T10:10:59Z",
+    "users": [],
+    "firstSeenAt": "2026-10-15T10:30:11.950764+09:00",
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
+  },
+  {
     "title": "AI、安全対策不十分なら2年以内に「重大事故」も グーグル幹部警告",
     "url": "https://www.afpbb.com/articles/-/3657588",
     "domain": "www.afpbb.com",
@@ -10,7 +49,7 @@
     "hatenaDate": "2026-10-14T11:31:06Z",
     "users": [],
     "firstSeenAt": "2026-10-15T10:15:12.922313+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "GitHub Actions workflow lockfiles in public preview - GitHub Changelog",
@@ -23,20 +62,20 @@
     "hatenaDate": "2026-10-14T16:10:16Z",
     "users": [],
     "firstSeenAt": "2026-10-15T09:56:02.517502+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "マクドナルドとウォルマートが「AI値上げ」か　両社否定も反発消えず - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOGN13BCG0T11C26A0000000/",
     "domain": "www.nikkei.com",
-    "count": 9,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN13BCG0T11C26A0000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3727957014102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=181094e52a757ec6318ed00274415300",
     "description": "需要変動に応じて細かく価格を変えるダイナミックプライシングの是非をめぐる議論が、米国で活発だ。人工知能（AI）を活用して収益最大化に突き進む企業に対し、消費者は「AI値上げ」だと猛反発する。14日発表の9月の米消費者物価指数（CPI）が市場予想を上回り、早期利上げ観測からダウ工業株30種平均が一時0.6%下げた...",
     "hatenaDate": "2026-10-14T21:47:37Z",
     "users": [],
     "firstSeenAt": "2026-10-15T09:45:12.123806+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "石器時代のロープや糸を作る「見えない技術」を考古学者が復元",
@@ -49,20 +88,20 @@
     "hatenaDate": "2026-10-14T22:03:55Z",
     "users": [],
     "firstSeenAt": "2026-10-15T09:15:11.592593+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "『Slay the Spire』最高難易度を最新AIモデルにプレイさせると“後半でやたら苦戦する”との研究。安全第一すぎて死ぬ - AUTOMATON",
     "url": "https://automaton-media.com/articles/newsjp/20261014-473406/",
     "domain": "automaton-media.com",
-    "count": 15,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/automaton-media.com/articles/newsjp/20261014-473406/",
     "screenshot": "https://automaton-media.com/wp-content/uploads/2026/10/20261014-473406-header.jpg",
     "description": "『Slay the Spire』最高難易度を最新AIモデルにプレイさせると“後半でやたら苦戦する”との研究。安全第一すぎて死ぬ 『Slay the Spire』の最高難易度を、GPT-6やCalude Fable 5.1といった最新モデルを含むさまざまなAIモデルにプレイさせる研究論文が公開された。 『Slay the Spire』の最高難易度を、最新モデルを含むさ...",
     "hatenaDate": "2026-10-14T12:49:29Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:45:12.559573+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "Microsoft、警察庁などと協力し中国語利用の国際的サイバー犯罪市場の解体に着手",
@@ -75,7 +114,7 @@
     "hatenaDate": "2026-10-14T14:26:04Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:30:12.775214+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "個人情報の流出「不安感じる」77％ NHK世論調査 | NHKニュース",
@@ -88,33 +127,33 @@
     "hatenaDate": "2026-10-13T21:22:05Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:30:12.775214+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "「バイブコーディング」の生みの親カルパシー氏、「AIの理解格差は“鋭い漏斗”になった」 | Business Insider Japan",
     "url": "https://www.businessinsider.jp/article/2610-andrej-karpathy-ai-gap-widening-usage/",
     "domain": "www.businessinsider.jp",
-    "count": 27,
+    "count": 28,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.businessinsider.jp/article/2610-andrej-karpathy-ai-gap-widening-usage/",
     "screenshot": "https://media.loom-app.com/loom/2026/10/13/6fddbbbb-d1f8-4c28-9bd0-377936b70ac9/original.jpg?w=1200&h=630",
     "description": "AI研究者のアンドレイ・カルパシーは、4月に観察したAIの普及における格差が広がっていると述べた。Michael Macor/The San Francisco Chronicle via Getty Images OpenAIの共同創業者アンドレイ・カルパシー（Andrej Karpathy）氏は、世界はいまもAIをほとんど知らないと述べている。 「一般の人々は、こうしたシステム...",
     "hatenaDate": "2026-10-13T22:59:48Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:30:12.775214+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "小型・電動の「除雪ドローン」が雪国の課題に対応。実機をエバーブルーテクノロジーズが展示【CEATEC 2026】",
     "url": "https://internet.watch.impress.co.jp/docs/event/2148145.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 42,
+    "count": 44,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/event/2148145.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2148/145/33-15.JPG",
     "description": null,
     "hatenaDate": "2026-10-14T22:00:11Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:15:12.269038+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "claude-plugins-official/plugins/code-modernization/README.md at main · anthropics/claude-plugins-official",
@@ -127,20 +166,20 @@
     "hatenaDate": "2026-10-14T02:55:15Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:15:12.269038+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "Windows上でAIエージェントの実行を安全に隔離する「Microsoft Execution Containers」（MXC）正式リリース。ファイルやネットワークなどの境界を柔軟にカスタマイズ",
     "url": "https://www.publickey1.jp/blog/26/windowsaimicrosoft_execution_containersmxc.html",
     "domain": "www.publickey1.jp",
-    "count": 29,
+    "count": 32,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/windowsaimicrosoft_execution_containersmxc.html",
     "screenshot": "https://www.publickey1.jp/2026/mxc-ga01.png",
     "description": "Windows上でAIエージェントの実行を安全に隔離する「Microsoft Execution Containers」（MXC）正式リリース。ファイルやネットワークなどの境界を柔軟にカスタマイズ マイクロソフトはWindows 11上でAIエージェントを安全に動かすための隔離環境「Microsoft Execution Containers」（以下、MXC）の正式リリースを発表し...",
     "hatenaDate": "2026-10-14T16:29:36Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:15:12.269038+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "GitHub - nyosegawa/speech.cpp: Speech synthesis, speech recognition and voice activity detection for voice conversation, in C++ on ggml: Qwen3-TTS, Irodori-TTS, Qwen3-ASR, ReazonSpeech, parakeet and Silero VAD on Metal, Vulkan and the CPU, with an OpenAI-",
@@ -153,33 +192,33 @@
     "hatenaDate": "2026-10-14T07:36:47Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:15:12.269038+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "デジタルハリウッド大学、生成AI「Claude」を全学導入　学生が費用を気にせず“使い倒せる”",
     "url": "https://kai-you.net/article/96827",
     "domain": "kai-you.net",
-    "count": 10,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kai-you.net/article/96827",
     "screenshot": "https://img.kai-you.net/storage/2026/10/292d2fbd-d28c-4e33-95d3-8d2c5399f194/jpg/dhu-claude-main.jpg",
     "description": "デジタルハリウッド大学（DHU）が10月14日（水）、米Anthropicが開発する生成AI「Claude」を全学に導入すると発表した。 2026年11月から、全学生と専任教員、全職員が大学のアカウントを通じて利用可能になる。同大学によれば、国内の大学でClaudeを全学導入するのは初だという。 デジタルハリウッド大学の学生は個別の...",
     "hatenaDate": "2026-10-14T07:45:41Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:15:12.269038+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "実はCodex CLIはデフォルトで永続的かつ自己更新型のバックグラウンドデーモンをインストールしていることが判明、無効にする公式の方法は無し",
     "url": "https://gigazine.net/news/20261015-codex-cli-background-daemon/",
     "domain": "gigazine.net",
-    "count": 17,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261015-codex-cli-background-daemon/",
     "screenshot": "https://i.gzn.jp/img/2026/10/15/codex-cli-background-daemon/00.png",
     "description": "Codex CLIのバージョン0.157.0からdaemon_auto_start機能がデフォルトで有効化されましたが、daemon_auto_start機能に関連してユーザーから予期せぬバックグラウンドプロセスの起動・リソース消費・セッションへの影響・環境の不整合といった問題が報告される事態となっています。 CLI: make `daemon_auto_start` opt-in...",
     "hatenaDate": "2026-10-14T21:06:25Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:15:12.269038+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "Optimizing Our E2E Pipeline",
@@ -192,20 +231,20 @@
     "hatenaDate": "2026-10-14T06:21:03Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:15:12.269038+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "Google、待望の新AIモデル「Gemini 4 Argon」一般提供を開始　推論の継続力を強化　一部ベンチでトップに",
     "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002265/",
     "domain": "www.itmedia.co.jp",
-    "count": 10,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/14/2000002265/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/14/2000002265/10009330/2048",
     "description": "米Googleは10月13日（現地時間）、AIモデル「Gemini 4 Argon」の一般提供を開始した。ソフトウェア開発や金融、法律、科学などの分野で、複数の手順を伴う複雑な作業に対応するモデル。有料プラン「Google AI Pro」「Google AI Ultra」の加入者は、GeminiアプリやGoogle検索の「AIモード」で利用できる。 Gemini 4 Argon...",
     "hatenaDate": "2026-10-14T11:58:24Z",
     "users": [],
     "firstSeenAt": "2026-10-15T08:00:11.336258+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "GoogleのEmbeddingGemma 2を音声認識モデルに変換した「Embedding Gemma Transcribe」、オフライン環境のMacなら15分の音声をわずか約3秒で爆速文字起こし可能",
@@ -218,98 +257,98 @@
     "hatenaDate": "2026-10-14T13:13:34Z",
     "users": [],
     "firstSeenAt": "2026-10-15T07:15:11.815182+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "八潮の道路陥没事故を国際圧入学会で総括　道路陥没メカニズムと最新技術による復旧の全貌",
     "url": "https://built.itmedia.co.jp/bt/articles/2610/14/news078.html",
     "domain": "built.itmedia.co.jp",
-    "count": 50,
+    "count": 51,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/built.itmedia.co.jp/bt/articles/2610/14/news078.html",
     "screenshot": "https://image.itmedia.co.jp/bt/articles/2610/14/l_is20261014opa021.jpg",
     "description": "埼玉県八潮市で2025年に発生した大規模な道路陥没事故について、国際圧入学会のセミナーで全プロセスが報告された。発生メカニズムや復旧工事のプロセス、毎秒4トンの汚水が流れる過酷な現場に対応した「圧入工法」の役割など、原因解明から復旧までの道のりをレポートで詳報する。",
     "hatenaDate": "2026-10-14T11:00:30Z",
     "users": [],
     "firstSeenAt": "2026-10-15T07:00:14.703009+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "みずほが数千人をAI開発者に転換　事務や営業、日本企業の働き方転機 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUB0722M0X01C26A0000000/",
     "domain": "www.nikkei.com",
-    "count": 90,
+    "count": 96,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUB0722M0X01C26A0000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3706173009102026000000-2.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=8a4107768139e160878ced49c080f934",
     "description": "みずほフィナンシャルグループは営業や事務の社員を人工知能（AI）の開発人材に転換する。5万人の全社員から順次選び、10年後に数千人規模への拡大を目指す。金融サービスや社内業務のAIシステムを作る。既存部門を減らし、競争力の要であるAI分野に集中する体制を整える。銀行など金融機関の社員はホワイトカラーの象徴...",
     "hatenaDate": "2026-10-14T19:37:56Z",
     "users": [],
     "firstSeenAt": "2026-10-15T07:00:14.703009+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "100時間かけて動画編集AIを作ったら、気が狂いそうになった。",
     "url": "https://www.youtube.com/watch?v=QFhHNBcPelo",
     "domain": "www.youtube.com",
-    "count": 17,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.youtube.com/watch?v=QFhHNBcPelo",
     "screenshot": "https://i.ytimg.com/vi/QFhHNBcPelo/hqdefault.jpg",
     "description": "【PR：Surfshark】 プロモリンク https://surfshark.com/yurucom にアクセスするか、チェックアウト時にプロモコード yurucom を使用すると、Surfshark VPN が4か月分追加されます！ 30日間の返金保証付き！ぜひご利用ください！ 動画編集AIを作ったら、狂いそうになった話です。AIのキモい認知特性に振り回されまくった...",
     "hatenaDate": "2026-10-14T13:28:51Z",
     "users": [],
     "firstSeenAt": "2026-10-15T06:45:12.973872+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "フロントエンドのモデルに境界を引く",
     "url": "https://speakerdeck.com/babywkb/furonto-endo-no-moderu-ni-kyoukai-o-hiku",
     "domain": "speakerdeck.com",
-    "count": 36,
+    "count": 37,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/babywkb/furonto-endo-no-moderu-ni-kyoukai-o-hiku",
     "screenshot": "https://files.speakerdeck.com/presentations/ff1d4d0489f0476484fdfb397f34cbd8/slide_0.jpg?40892388",
     "description": "フロントエンドカンファレンス関西2026スライド",
     "hatenaDate": "2026-10-14T13:47:11Z",
     "users": [],
     "firstSeenAt": "2026-10-15T06:00:14.470999+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "WAF でブロックする前に確かめていること",
     "url": "https://zenn.dev/azunyan/articles/7a105969d7d16c",
     "domain": "zenn.dev",
-    "count": 160,
+    "count": 172,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/azunyan/articles/7a105969d7d16c",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--Wqu5YoJN--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:WAF%2520%25E3%2581%25A7%25E3%2583%2596%25E3%2583%25AD%25E3%2583%2583%25E3%2582%25AF%25E3%2581%2599%25E3%2582%258B%25E5%2589%258D%25E3%2581%25AB%25E7%25A2%25BA%25E3%2581%258B%25E3%2582%2581%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2588%25E3%2581%25BF%25E3%2582%258A%25E3%2580%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNlODc0NGRhYmUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "🧱 はじめに WAF の運用で、既知の攻撃を止めるルールをすり抜けてくる迷惑なアクセスや、攻撃ばかりを送ってくるアクセスを調べ、その送信元をブロックしています。 この記事では、そのときに気をつけていることと、前提になる基礎知識をまとめます。ポイントは次の 3 つです。 止める前に、巻き添えになる正規の利用者...",
     "hatenaDate": "2026-10-14T06:30:40Z",
     "users": [],
     "firstSeenAt": "2026-10-15T05:45:15.139892+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "ポスドクの転職は「敗北」とは限らない―数学博士がアカデミアの外で見つけた新たな生き方｜ポスドクの転職体験記",
     "url": "https://note.com/postdoc_career/n/nc9dcfe5ea3d3",
     "domain": "note.com",
-    "count": 47,
+    "count": 49,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/postdoc_career/n/nc9dcfe5ea3d3",
     "screenshot": "https://assets.st-note.com/production/uploads/images/322395152/rectangle_large_type_2_4b65ec2896741fe5d822b36a1071fa70.jpeg?fit=bounds&quality=85&width=1280",
     "description": "はじめに　早速ですが、獣医師である私の“数学者”としての約10年半の人生が間もなく終わりを迎えようとしています。訳がわからないでしょうから、まずは簡単に経歴を紹介させて下さい。 ・獣医学科を卒業後の数年間、大動物臨床獣医師として勤務 ・数学者を目指して退職し、翌年に大学院数理科学科修士課程に入学 ・修了...",
     "hatenaDate": "2026-10-14T07:59:11Z",
     "users": [],
     "firstSeenAt": "2026-10-15T05:30:14.174502+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "HTML-in-Canvasで作る未来のWeb UI表現",
     "url": "https://speakerdeck.com/clockmaker/html-in-canvas",
     "domain": "speakerdeck.com",
-    "count": 137,
+    "count": 144,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/clockmaker/html-in-canvas",
     "screenshot": "https://files.speakerdeck.com/presentations/7444e100f0414f1a9bc80c19b5746dc2/slide_0.jpg?40901906",
     "description": "フロントエンドカンファレンス関西2026の発表資料。 https://2026.frontend-conf.osaka.jp/ ■概要 HTML-in-Canvasという新しいAPIをオリジナルのデモで解説。 HTML・CSSから見た利点、Canvasタグから見た利点を掘り下げます。 …",
     "hatenaDate": "2026-10-14T12:02:04Z",
     "users": [],
     "firstSeenAt": "2026-10-15T03:45:11.404744+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "RIZAPの個人情報流出、発覚は社員の自己申告：「シャドーAI」の正体は古い問題だった（尾藤克之） - エキスパート - Yahoo!ニュース",
@@ -328,14 +367,14 @@
     "title": "仕組みを動く図で説明するエージェントスキルAnatomy公開 | gihyo.jp",
     "url": "https://gihyo.jp/article/2026/10/anatomy",
     "domain": "gihyo.jp",
-    "count": 98,
+    "count": 100,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/article/2026/10/anatomy",
     "screenshot": "https://gihyo.jp/assets/images/article/2026/10/anatomy/01.png",
     "description": "開発者のRyan氏（@wheresryan22）は2026年10月10日、さまざまな仕組みを動く図で説明するエージェントスキル「Anatomy」をXで紹介した。作りたい機械や説明したい概念を伝えると、AIエージェントが部品の形状や動作を設計して図を生成する。ポインターやキーボードの操作に応じて部品が動く図も作れる。 図はSVGファイル...",
     "hatenaDate": "2026-10-14T13:35:02Z",
     "users": [],
     "firstSeenAt": "2026-10-15T01:15:13.893205+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "ガチャで自作PCを組み立てよう。メーカー監修の手のひらPCパーツが10月21日発売 - エルミタージュ秋葉原",
@@ -601,14 +640,14 @@
     "title": "日本における「純粋な悪の代名詞」とは誰なのか（たとえばヒトラーのような） - 文化史（技術と人文科学） - はてなパークス",
     "url": "https://p.hatena.ne.jp/p/1542167047763398656/t/1559549110216822784?s=1&m=raw",
     "domain": "p.hatena.ne.jp",
-    "count": 191,
+    "count": 193,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/p.hatena.ne.jp/p/1542167047763398656/t/1559549110216822784?s=1&m=raw",
     "screenshot": "https://p.hatena.ne.jp/og/posts/1559549110216822784?m=raw",
     "description": "「ヒトラーに例える論証」というものがあります。 例えば、 「彼のやり口は民主主義を破壊したヒトラーのやり方と全く同じだ。」 みたいなやつです。 ところで、ヒトラー以前もこのような論法はあったようです。 現代においては一般にヒトラーが引き合いに出されるが、この手の論理的誤謬は、第二次世界大戦以前から存在...",
     "hatenaDate": "2026-10-14T09:29:50Z",
     "users": [],
     "firstSeenAt": "2026-10-14T20:30:16.403317+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "Getty Imagesの再建に思うこと。フリー素材サイト「ぱくたそ」の15年と、AI時代の写真素材とは - ぱくたそ公式ブログ",
@@ -718,14 +757,14 @@
     "title": "Claude Codeがほとんどの場合、動画編集してくれる。8時間の素材を30分で1時間に編集。字幕もつけられる｜shi3z",
     "url": "https://note.com/shi3zblog/n/ncb38d2978074",
     "domain": "note.com",
-    "count": 275,
+    "count": 278,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/shi3zblog/n/ncb38d2978074",
     "screenshot": "https://assets.st-note.com/production/uploads/images/323596780/rectangle_large_type_2_6a047f7d0d8b9cf9a2f4f50194ae607c.png?fit=bounds&quality=85&width=1280",
     "description": "Claude Codeがほとんどの場合、動画編集してくれる。8時間の素材を30分で1時間に編集。字幕もつけられる 実はClaude Codeは長時間動画を見ることができる。見るだけでなくてそこで何が起きているか、どんな会話がなされているかもみれる。 しかもただ見るだけでない。編集もできるしテロップも入れてくれる。 さらにInst...",
     "hatenaDate": "2026-10-14T06:49:13Z",
     "users": [],
     "firstSeenAt": "2026-10-14T18:45:13.335404+09:00",
-    "lastSeenAt": "2026-10-15T10:15:12.922313+09:00"
+    "lastSeenAt": "2026-10-15T10:30:11.950764+09:00"
   },
   {
     "title": "【第5報】不正アクセスによる障害に関する調査の進捗について | IDCフロンティア",
@@ -3859,44 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-11T16:15:13.048129+09:00",
     "lastSeenAt": "2026-10-12T13:30:13.428301+09:00"
-  },
-  {
-    "title": "AIと共生する開発者プラットフォーム：バクラクのモノレポ×マイクロサービス基盤",
-    "url": "https://speakerdeck.com/sakajunquality/sre-next-2026-bakuraku-sakajunquality",
-    "domain": "speakerdeck.com",
-    "count": 23,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/sakajunquality/sre-next-2026-bakuraku-sakajunquality",
-    "screenshot": "https://files.speakerdeck.com/presentations/b8a0995cef44450aaf33536e255db017/slide_0.jpg?39971582",
-    "description": "AIと共生する開発者プラットフォーム：バクラクのモノレポ×マイクロサービス基盤 SRE NEXT2026 https://sre-next.dev/2026/schedule/#slot076",
-    "hatenaDate": "2026-07-13T03:24:05Z",
-    "users": [],
-    "firstSeenAt": "2026-10-11T16:15:13.048129+09:00",
-    "lastSeenAt": "2026-10-12T07:30:14.023295+09:00"
-  },
-  {
-    "title": "音声合成の日本語化手法が一般化した話",
-    "url": "https://zenn.dev/mkj/articles/0576d194771c08",
-    "domain": "zenn.dev",
-    "count": 13,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mkj/articles/0576d194771c08",
-    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--_N8qix7O--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E9%259F%25B3%25E5%25A3%25B0%25E5%2590%2588%25E6%2588%2590%25E3%2581%25AE%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E5%258C%2596%25E6%2589%258B%25E6%25B3%2595%25E3%2581%258C%25E4%25B8%2580%25E8%2588%25AC%25E5%258C%2596%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Kiyoshi%2520Kurihara%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2U2NGM3ZTBkMzIuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%259D%25BE%25E5%25B0%25BE%25E7%25A0%2594%25E7%25A9%25B6%25E6%2589%2580%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSnAwaG5JMy1EczJmWVJQSUZHMUZsWHF0Q01sOHo1UVY1MXdlZkJkWk92SF9GWEpBPXMyNTAtYw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACAGSGT",
-    "description": "入社エントリーに記載しましたが、この記事ではAI日本語音声合成について解説していきます。音声合成について、知識が無くても読めるようにしています。テックブログという事もあり、フランクに書いています。 はじめに 日本語音声合成は、ディープラーニングを用いた音声合成手法が登場して以降、大きく品質を上げまし...",
-    "hatenaDate": "2025-12-09T00:55:28Z",
-    "users": [],
-    "firstSeenAt": "2026-10-11T15:27:14.461239+09:00",
-    "lastSeenAt": "2026-10-11T19:15:14.699126+09:00"
-  },
-  {
-    "title": "CPUのみで動作するリアルタイム多言語音声認識「早耳」、GPUもクラウドAPIも使わずメモリ2GB未満でライブ字幕表示からブラウザ表示・話者ラベル付け・翻訳字幕まで可能",
-    "url": "https://gigazine.net/news/20261011-hayamimi/",
-    "domain": "gigazine.net",
-    "count": 169,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261011-hayamimi/",
-    "screenshot": "https://i.gzn.jp/img/2026/10/11/hayamimi/00.jpg",
-    "description": "「Hayamimi(早耳)」はGPUやクラウドAPIに依存せずCPUのみで動作する軽量なリアルタイム多言語音声認識システムです。メモリ2GB未満の環境でもライブ字幕表示・話者ラベル付け・翻訳字幕生成まで対応し、発話中から字幕が出始め話し終えて約100msで確定する高速性が特徴です。 oboroge0/hayamimi: 早耳 - Real-time multi...",
-    "hatenaDate": "2026-10-11T04:33:54Z",
-    "users": [],
-    "firstSeenAt": "2026-10-11T15:00:13.373710+09:00",
-    "lastSeenAt": "2026-10-12T13:00:15.028711+09:00"
   }
 ]
