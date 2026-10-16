@@ -15,6 +15,13 @@
   const entryBack = document.getElementById('entry-back');
   const entryBackBottom = document.getElementById('entry-back-bottom');
   const entryFilterBtn = document.getElementById('entry-filter-btn');
+  const entryBookmarkBtn = document.getElementById('entry-bookmark-btn');
+  const bookmarkForm = document.getElementById('bookmark-form');
+  const bookmarkComment = document.getElementById('bookmark-comment');
+  const bookmarkTags = document.getElementById('bookmark-tags');
+  const bookmarkCount = document.getElementById('bookmark-count');
+  const bookmarkSubmit = document.getElementById('bookmark-submit');
+  const bookmarkStatus = document.getElementById('bookmark-status');
   const entryPrevBtn = document.getElementById('entry-prev-btn');
   const entryNextBtn = document.getElementById('entry-next-btn');
   const entryHeader = document.getElementById('entry-header');
@@ -22,6 +29,12 @@
   const commentList = document.getElementById('comment-list');
   const entryStatus = document.getElementById('entry-status');
   const commentLayoutToggle = document.getElementById('comment-layout-toggle');
+  const meView = document.getElementById('view-me');
+  const meBack = document.getElementById('me-back');
+  const meStatus = document.getElementById('me-status');
+  const meList = document.getElementById('me-list');
+  const meLayoutToggle = document.getElementById('me-layout-toggle');
+  const meOpenSettings = document.getElementById('me-open-settings');
 
   const settingsBtn = document.getElementById('settings-btn');
   const settingsModal = document.getElementById('settings-modal');
@@ -347,6 +360,8 @@
       updateListView();
     } else if (!entryView.hidden) {
       applyEntrySearchAndRender();
+    } else if (!meView.hidden) {
+      renderMeList();
     }
   });
 
@@ -378,8 +393,16 @@
   function render() {
     const { path, params } = parseRoute();
     resetFooterSearch(path === '/entry');
-    if (path === '/entry') {
+    if (path === '/me') {
       listView.hidden = true;
+      entryView.hidden = true;
+      entryNavBar.hidden = true;
+      meView.hidden = false;
+      footerSearch.placeholder = ME_SEARCH_PLACEHOLDER;
+      renderMeView();
+    } else if (path === '/entry') {
+      listView.hidden = true;
+      meView.hidden = true;
       entryView.hidden = false;
       entryNavBar.hidden = false;
       const url = params.get('url');
@@ -390,6 +413,7 @@
       // 離れる直前のスクロール位置を復元する。カテゴリーを切り替えた場合は復元しない。
       const restoreScrollY = newCategory === currentCategory && pendingScrollY !== null ? pendingScrollY : null;
       entryView.hidden = true;
+      meView.hidden = true;
       entryNavBar.hidden = true;
       listView.hidden = false;
       resetEntryNavSnapshot();
@@ -891,6 +915,11 @@
   // 矢印キーでの前後移動は都度履歴を積むため、history.back()だと矢印移動した回数分
   // 戻ってしまい一覧まで戻れない。常に現在のカテゴリー一覧へ直接遷移させる。
   function goToList() {
+    // 「自分のブックマーク」から開いた記事は、そちらへ戻る。
+    if (parseRoute().params.get('from') === 'me') {
+      navigate('/me');
+      return;
+    }
     const params = new URLSearchParams();
     params.set('cat', currentCategory);
     navigate('/', params);
@@ -965,8 +994,10 @@
   }
 
   function updateCommentLayoutToggleUI() {
-    commentLayoutToggle.querySelectorAll('button[data-layout]').forEach((btn) => {
-      btn.classList.toggle('active', btn.dataset.layout === commentLayout);
+    [commentLayoutToggle, meLayoutToggle].forEach((toggle) => {
+      toggle.querySelectorAll('button[data-layout]').forEach((btn) => {
+        btn.classList.toggle('active', btn.dataset.layout === commentLayout);
+      });
     });
   }
 
@@ -1045,6 +1076,111 @@
     Filters.addRule('mute', 'url', url);
     entryFilterBtn.textContent = 'フィルタに登録しました';
     entryFilterBtn.disabled = true;
+  });
+
+  // ---- ブックマーク投稿(記事ページ) ----
+  // 中継Worker(OAuth署名はWorker側)経由で、自分のブックマークを追加・更新する。
+  // フォームを開いた時にそのURLの既存ブックマークを取得して入れておく(はてなのPOSTは
+  // 既存を上書きするため、知らずにコメントを消さないように)。Worker未設定なら出さない。
+  const BOOKMARK_COMMENT_SOFT_LIMIT = 100; // はてなの画面上のコメント上限の目安(超過は警告だけ)
+  const BOOKMARK_MAX_TAGS = 10;
+  let bookmarkTarget = null; // フォームの対象URL
+  let bookmarkLoadedFor = null; // 既存ブックマークの取得済みURL
+  let bookmarkSeq = 0; // 記事遷移後に古い応答を反映しないための世代番号
+  let bookmarkSending = false;
+
+  function parseBookmarkTags(text) {
+    return text.split(/[\s,、]+/).filter(Boolean);
+  }
+
+  function updateBookmarkCount() {
+    const len = [...bookmarkComment.value].length;
+    bookmarkCount.textContent = `${len}/${BOOKMARK_COMMENT_SOFT_LIMIT}`;
+    bookmarkCount.classList.toggle('bookmark-count--over', len > BOOKMARK_COMMENT_SOFT_LIMIT);
+  }
+
+  function resetBookmarkForm(url) {
+    bookmarkSeq++;
+    bookmarkTarget = url || null;
+    bookmarkLoadedFor = null;
+    bookmarkSending = false;
+    bookmarkForm.hidden = true;
+    bookmarkComment.value = '';
+    bookmarkTags.value = '';
+    bookmarkStatus.textContent = '';
+    bookmarkSubmit.disabled = false;
+    bookmarkSubmit.textContent = 'ブックマークする';
+    updateBookmarkCount();
+    entryBookmarkBtn.hidden = !url || !MyBookmarks.isConfigured();
+  }
+
+  async function loadExistingBookmark() {
+    if (!bookmarkTarget || bookmarkLoadedFor === bookmarkTarget) return;
+    const seq = bookmarkSeq;
+    const target = bookmarkTarget;
+    bookmarkSubmit.disabled = true;
+    bookmarkStatus.textContent = '自分のブックマークを確認中…';
+    try {
+      const mine = await MyBookmarks.getBookmark(target);
+      if (seq !== bookmarkSeq) return;
+      bookmarkLoadedFor = target;
+      if (mine.exists) {
+        bookmarkComment.value = mine.comment;
+        bookmarkTags.value = mine.tags.join(' ');
+        bookmarkSubmit.textContent = '更新する';
+        bookmarkStatus.textContent = 'ブックマーク済みです。送信すると内容を上書きします。';
+      } else {
+        bookmarkSubmit.textContent = 'ブックマークする';
+        bookmarkStatus.textContent = '';
+      }
+      updateBookmarkCount();
+    } catch (err) {
+      if (seq !== bookmarkSeq) return;
+      // 既存の状態が分からないまま送ると上書きの恐れがあるため、取得できなければ送信させない。
+      bookmarkStatus.textContent = `自分のブックマークを確認できませんでした: ${err.message}`;
+      return;
+    }
+    bookmarkSubmit.disabled = false;
+  }
+
+  entryBookmarkBtn.addEventListener('click', () => {
+    bookmarkForm.hidden = !bookmarkForm.hidden;
+    if (!bookmarkForm.hidden) {
+      loadExistingBookmark();
+      bookmarkComment.focus({ preventScroll: true });
+    }
+  });
+
+  bookmarkComment.addEventListener('input', updateBookmarkCount);
+
+  bookmarkForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (bookmarkSending || !bookmarkTarget || bookmarkLoadedFor !== bookmarkTarget) return;
+    const tags = parseBookmarkTags(bookmarkTags.value);
+    if (tags.length > BOOKMARK_MAX_TAGS) {
+      bookmarkStatus.textContent = `タグは最大${BOOKMARK_MAX_TAGS}個までです(現在${tags.length}個)。`;
+      return;
+    }
+    const seq = bookmarkSeq;
+    bookmarkSending = true;
+    bookmarkSubmit.disabled = true;
+    bookmarkStatus.textContent = '送信中…';
+    try {
+      const saved = await MyBookmarks.postBookmark({ url: bookmarkTarget, comment: bookmarkComment.value, tags });
+      if (seq !== bookmarkSeq) return;
+      bookmarkComment.value = saved.comment;
+      bookmarkTags.value = saved.tags.join(' ');
+      updateBookmarkCount();
+      bookmarkSubmit.textContent = '更新する';
+      bookmarkStatus.textContent = 'ブックマークしました。';
+      meFetchedAt = 0; // 「自分のブックマーク」ページは次に開いた時に取り直す
+    } catch (err) {
+      if (seq !== bookmarkSeq) return;
+      console.error(err);
+      bookmarkStatus.textContent = `送信に失敗しました: ${err.message}`;
+    }
+    bookmarkSending = false;
+    bookmarkSubmit.disabled = false;
   });
 
   // 前後の記事へ移動した際、直前のスクロール位置(コメント欄の途中/末尾)が
@@ -1140,6 +1276,7 @@
     entryDescription.textContent = '';
     updateCommentLayoutToggleUI();
     resetEntryFilterBtn();
+    resetBookmarkForm(url);
     updateEntryNavButtons(url);
     if (!url) {
       entryStatus.textContent = 'URLが指定されていません。';
@@ -1302,6 +1439,294 @@
       </li>`;
   }
 
+  // ---- 自分のブックマークビュー(#/me) ----
+  // 取得はMyBookmarks(中継Worker経由)。表示はコメントビューと同じplain/rich(commentLayoutを共有)。
+  // フィルタ(ミュート)は一覧・コメントと同じ判定(title/domain/url/comment)を取得済みの全件に適用する。
+  const ME_FRESH_MS = 5 * 60 * 1000;
+  const ME_SEARCH_PLACEHOLDER = 'タイトル・ドメイン・コメント・タグで絞り込み / URLを入力してEnterでブックマーク一覧';
+  let meItems = [];
+  let meNextPage = 1; // 次に取得するページ。nullなら末尾まで取得済み
+  let meLoading = false;
+  let meLoaded = false;
+  let meFetchedAt = 0;
+  let meError = '';
+  let meOfflineNote = '';
+  let meSeq = 0; // 再取得後に古い応答で描画しないための世代番号
+  let meScrollY = null;
+  let meObserver = null;
+
+  window.addEventListener('scroll', () => {
+    if (!meView.hidden) meScrollY = window.scrollY;
+  });
+
+  meBack.addEventListener('click', () => navigate('/'));
+
+  meLayoutToggle.addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-layout]');
+    if (!btn || btn.dataset.layout === commentLayout) return;
+    commentLayout = btn.dataset.layout;
+    saveCommentLayout(commentLayout);
+    updateCommentLayoutToggleUI();
+    renderMeList();
+  });
+
+  meOpenSettings.addEventListener('click', () => {
+    openSettings();
+    showSettingsPane('sync');
+  });
+
+  function resetMeState() {
+    meSeq++;
+    meItems = [];
+    meNextPage = 1;
+    meLoading = false;
+    meLoaded = false;
+    meError = '';
+    meOfflineNote = '';
+    meScrollY = null;
+  }
+
+  function disconnectMeObserver() {
+    if (meObserver) {
+      meObserver.disconnect();
+      meObserver = null;
+    }
+  }
+
+  function renderMeView() {
+    disconnectMeObserver();
+    updateCommentLayoutToggleUI();
+    if (!MyBookmarks.isConfigured()) {
+      resetMeState();
+      meList.innerHTML = '';
+      meStatus.textContent = 'Worker URL とアクセストークンが未設定です。設定の「同期」タブで入力してください。';
+      meOpenSettings.hidden = false;
+      return;
+    }
+    meOpenSettings.hidden = true;
+    // フィルタ変更後の再描画や記事ページからの戻りは、取得済みの内容をそのまま描き直す。
+    if (meLoaded && Date.now() - meFetchedAt < ME_FRESH_MS) {
+      renderMeList();
+      if (meScrollY != null) window.scrollTo(0, meScrollY);
+      return;
+    }
+    resetMeState();
+    forceScrollTop();
+    meList.innerHTML = '';
+    loadMeNextPage();
+  }
+
+  async function loadMeNextPage() {
+    if (meLoading || meNextPage == null) return;
+    const seq = meSeq;
+    const page = meNextPage;
+    meLoading = true;
+    meError = '';
+    updateMeStatus(meVisibleItems());
+    try {
+      const { items, nextPage } = await MyBookmarks.fetchPage(page);
+      if (seq !== meSeq) return;
+      if (page === 1) MyBookmarks.saveCache(items);
+      const seen = new Set(meItems.map((it) => it.url));
+      meItems = meItems.concat(items.filter((it) => !seen.has(it.url)));
+      meNextPage = nextPage;
+      meLoaded = true;
+      meFetchedAt = Date.now();
+    } catch (err) {
+      if (seq !== meSeq) return;
+      console.error(err);
+      meError = err.message;
+      // 1ページ目すら取れなければ、前回取得した1ページ目を代わりに出す
+      const cached = page === 1 && meItems.length === 0 ? MyBookmarks.loadCache() : null;
+      if (cached) {
+        meItems = cached;
+        meNextPage = null;
+        meLoaded = true;
+        meFetchedAt = 0; // 次に開いた時は取り直す
+        meOfflineNote = '(取得できないため前回取得分を表示中) ';
+      }
+    }
+    meLoading = false;
+    renderMeList();
+  }
+
+  // フィルタ(ミュート)と検索欄の絞り込みを適用した表示対象を返す。
+  function meVisibleItems() {
+    const q = searchQuery;
+    let hidden = 0;
+    const items = meItems.filter((it) => {
+      if (Filters.isHidden({ title: it.title, domain: it.domain, url: it.url, comment: it.comment })) {
+        hidden++;
+        return false;
+      }
+      if (!q) return true;
+      return (
+        it.title.toLowerCase().includes(q) ||
+        it.domain.toLowerCase().includes(q) ||
+        it.comment.toLowerCase().includes(q) ||
+        it.tags.some((t) => t.toLowerCase().includes(q))
+      );
+    });
+    return { items, hidden };
+  }
+
+  function updateMeStatus(visible) {
+    const parts = [];
+    // 初回の読み込み中(まだ1件も無い)は件数を出さず「読み込み中…」だけにする。
+    if (!visible || (meItems.length === 0 && meLoading)) visible = null;
+    if (visible) {
+      parts.push(`${visible.items.length} 件を表示中`);
+      if (visible.hidden > 0) parts.push(`(フィルタ${visible.hidden}件を非表示)`);
+    }
+    if (meLoading) parts.push(visible ? '・読み込み中…' : '読み込み中…');
+    else if (visible && meLoaded && meNextPage == null) parts.push('・すべて取得済み');
+    meStatus.textContent =
+      meOfflineNote + parts.join('') + (meError ? `${parts.length ? ' / ' : ''}エラー: ${meError}` : '');
+  }
+
+  function renderMeList() {
+    disconnectMeObserver();
+    const visible = meVisibleItems();
+    meList.className = `comment-list me-list${commentLayout === 'rich' ? ' comment-list--rich' : ''}`;
+    let html = visible.items.map(renderMeItem).join('');
+    if (!html && meLoaded && !meLoading) {
+      html = '<li class="empty">ブックマークはありません。</li>';
+    }
+    if (meNextPage != null) {
+      // エラー後は自動で再試行し続けないよう、ボタンで明示的にやり直してもらう。検索中も、
+      // ヒットが少ないと全ページを読み込み続けてしまうため自動継ぎ足しはせずボタンにする。
+      html +=
+        meError || searchQuery
+          ? `<li class="me-more"><button type="button" class="btn btn--small me-more-btn">${meError ? '続きを再読み込み' : '続きを読み込む'}</button></li>`
+          : '<li id="me-sentinel" class="me-sentinel"></li>';
+    }
+    meList.innerHTML = html;
+    updateMeStatus(visible);
+
+    const sentinel = document.getElementById('me-sentinel');
+    if (sentinel) {
+      // 描画のたびに新しいsentinelを監視し直すため、追加後も画面内に残っていれば続けて発火する。
+      meObserver = new IntersectionObserver(
+        (entries) => {
+          if (entries.some((e) => e.isIntersecting)) loadMeNextPage();
+        },
+        { rootMargin: '600px' }
+      );
+      meObserver.observe(sentinel);
+    }
+  }
+
+  function meEntryHref(item) {
+    const params = new URLSearchParams();
+    params.set('url', item.url);
+    params.set('from', 'me');
+    return `#/entry?${params.toString()}`;
+  }
+
+  function renderMeItem(item) {
+    return commentLayout === 'rich' ? renderMeItemRich(item) : renderMeItemPlain(item);
+  }
+
+  const MY_CLOSE_BTN = (item) =>
+    `<button type="button" class="card-close-btn entry-row-close" data-url="${escapeHtml(item.url)}" title="このページを非表示にする" aria-label="このページを非表示にする">×</button>`;
+
+  function meTagsHtml(item) {
+    const tags = item.tags.map((t) => `<span class="comment-tag">${escapeHtml(t)}</span>`).join('');
+    return tags ? `<span class="comment-tags">${tags}</span>` : '';
+  }
+
+  function meCountLink(item) {
+    return `<a class="card-count-link${countTierClass(item.count)}" href="${meEntryHref(item)}">${item.count} users →</a>`;
+  }
+
+  function meDomainBtn(item) {
+    return `<button type="button" class="card-domain" data-domain="${escapeHtml(item.domain)}" data-url="${escapeHtml(item.url)}">${escapeHtml(item.domain)}</button>`;
+  }
+
+  function meDate(item) {
+    return escapeHtml(hatenaDateTime(item.created));
+  }
+
+  function renderMeItemPlain(item) {
+    const comment = item.comment ? ` ${linkifyComment(item.comment)}` : '';
+    return `
+      <li>
+        ${MY_CLOSE_BTN(item)}
+        <div class="me-item-body">
+          <div><span class="comment-date">${meDate(item)}</span> ${meDomainBtn(item)} <a class="me-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a> ${meCountLink(item)}${comment}${meTagsHtml(item) ? ` ${meTagsHtml(item)}` : ''}</div>
+        </div>
+      </li>`;
+  }
+
+  function renderMeItemRich(item) {
+    const thumb = item.image
+      ? `<img class="me-thumb" src="${escapeHtml(item.image)}" alt="" loading="lazy" width="64" height="64">`
+      : '<span class="me-thumb me-thumb--empty"></span>';
+    return `
+      <li>
+        ${MY_CLOSE_BTN(item)}
+        ${thumb}
+        <div class="me-item-body">
+          <a class="me-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
+          <div class="me-meta">
+            <span class="comment-date">${meDate(item)}</span>
+            ${meDomainBtn(item)}
+            ${meCountLink(item)}
+            ${meTagsHtml(item)}
+          </div>
+          ${item.comment ? `<div class="me-comment">${linkifyComment(item.comment)}</div>` : ''}
+        </div>
+      </li>`;
+  }
+
+  meList.addEventListener('click', (e) => {
+    const closeBtn = e.target.closest('.card-close-btn');
+    if (closeBtn) {
+      Filters.addRule('mute', 'url', closeBtn.dataset.url);
+      renderMeList();
+      return;
+    }
+    const domainBtn = e.target.closest('.card-domain');
+    if (domainBtn) {
+      openSettings(domainMutePreset(domainBtn));
+      return;
+    }
+    if (e.target.closest('.me-more-btn')) {
+      meError = '';
+      loadMeNextPage();
+    }
+  });
+
+  // 接続設定(Worker URL・アクセストークン)。値はこの端末のlocalStorageにだけ保存する。
+  const myEndpointInput = document.getElementById('my-endpoint-input');
+  const myTokenInput = document.getElementById('my-token-input');
+  const mySaveBtn = document.getElementById('my-save-btn');
+  const myStatus = document.getElementById('my-status');
+
+  function refreshMyBookmarksFields() {
+    const cfg = MyBookmarks.getConfig();
+    myEndpointInput.value = cfg.endpoint;
+    myTokenInput.value = cfg.token;
+    myStatus.textContent = MyBookmarks.isConfigured() ? '設定済み' : '未設定';
+  }
+
+  mySaveBtn.addEventListener('click', async () => {
+    MyBookmarks.setConfig({ endpoint: myEndpointInput.value, token: myTokenInput.value });
+    resetMeState();
+    entryBookmarkBtn.hidden = !bookmarkTarget || !MyBookmarks.isConfigured();
+    if (!MyBookmarks.isConfigured()) {
+      myStatus.textContent = '未設定';
+      return;
+    }
+    myStatus.textContent = '接続確認中…';
+    try {
+      const { items } = await MyBookmarks.fetchPage(1);
+      myStatus.textContent = `接続できました(1ページ目 ${items.length} 件)`;
+    } catch (err) {
+      myStatus.textContent = `接続失敗: ${err.message}`;
+    }
+  });
+
   // ---- フィルタ設定モーダル ----
   const settingsSections = document.getElementById('settings-sections');
   function showSettingsPane(key) {
@@ -1341,6 +1766,7 @@
     refreshTokenField();
     refreshSyncFields();
     refreshFilterSyncFields();
+    refreshMyBookmarksFields();
     if (preset) {
       ruleTypeSelect.value = preset.type;
       ruleValueInput.value = preset.value;
@@ -1626,7 +2052,7 @@
       return;
     }
     const inView = (v) => !v.hidden && v.contains(el);
-    if (!inView(listView) && !inView(entryView)) {
+    if (!inView(listView) && !inView(entryView) && !inView(meView)) {
       hideSelectionPopup();
       return;
     }
@@ -1664,6 +2090,8 @@
     hideSelectionPopup();
     if (!listView.hidden) {
       render();
+    } else if (!meView.hidden) {
+      renderMeList();
     } else {
       // 個別記事ページ: 保持済みのコメントにも即時反映する(再取得はしない)
       const before = entryVisibleComments.length;
@@ -2206,6 +2634,12 @@
   ]);
   if (parseRoute().path === '/entry') {
     startupSync.then(render);
+  } else if (parseRoute().path === '/me') {
+    // 取得済みを描き直すだけ(再取得はしない)。起動時同期でフィルタが変わった分を反映する。
+    render();
+    startupSync.then(() => {
+      if (!meView.hidden && meLoaded) renderMeList();
+    });
   } else {
     render();
     startupSync.then(() => {

@@ -1154,3 +1154,96 @@ a.btn {
 #selection-popup[hidden] {
   display: none;
 }
+
+/* ---- 自分のブックマークページ(#/me) ----
+   コメント一覧(.comment-list)のスタイルを土台に、1件=1ブックマークとして並べる。 */
+.me-list {
+  list-style: none;
+  padding-left: 0;
+}
+.me-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.me-list li.me-sentinel {
+  height: 1px;
+  padding: 0;
+  border: 0;
+}
+.me-list .card-close-btn {
+  margin-top: 2px;
+}
+.me-item-body {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.me-title {
+  font-weight: bold;
+}
+.me-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  color: var(--color-muted);
+  font-size: 0.8rem;
+}
+.me-meta .card-domain {
+  margin: 0;
+}
+.me-thumb {
+  flex: 0 0 auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 4px;
+  background: var(--color-thumb-bg);
+  object-fit: cover;
+}
+.me-thumb--empty {
+  display: block;
+}
+#me-open-settings {
+  margin-bottom: 12px;
+}
+
+/* ---- ブックマーク投稿フォーム(記事ページ) ---- */
+.bookmark-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 0 12px;
+  padding: 12px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+.bookmark-form[hidden] {
+  display: none;
+}
+.bookmark-form textarea,
+.bookmark-form input {
+  padding: 6px 10px;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  font: inherit;
+  font-size: 16px; /* iOSのフォーカス時ズームを避ける */
+  color: var(--color-text);
+  background: var(--color-bg);
+  resize: vertical;
+}
+.bookmark-form-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.bookmark-form .status {
+  margin: 0;
+}
+.bookmark-count--over {
+  color: var(--color-danger);
+}

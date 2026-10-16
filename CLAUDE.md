@@ -59,4 +59,6 @@
 - SW関連の動作確認: [docs/technical-notes.md](docs/technical-notes.md)。サンドボックス環境では`register()`が失敗するため、本番オリジンで`caches`APIを直接叩く。
 - 一覧データの取得(`scripts/fetch_hotentry.py` `hotentry-sync.yml`): [docs/decisions/hotentry-rss-via-actions.md](docs/decisions/hotentry-rss-via-actions.md)。RSSはページング不可のため蓄積方式(300件・14日)、JSON API復活前提にしない。
 - ローカルdispatch(`scripts/hateb-tycoon-dispatch.sh`): [docs/decisions/cron-local-dispatch.md](docs/decisions/cron-local-dispatch.md)。正本変更時は`~/scripts/`へ手動コピー、PATはActions権限のみ。
+- 自分のブックマークページ(`js/my-bookmarks.js` `worker/` `#/me`): [docs/decisions/my-bookmarks-worker-proxy.md](docs/decisions/my-bookmarks-worker-proxy.md)。はてなidはWorker secretにだけ置き、コード・localStorage・URL・Workerのレスポンスに出さない。
+- ブックマーク投稿(記事ページのフォーム・`worker/hateb-proxy.js` `worker/oauth1.js`): [docs/decisions/bookmark-post-via-worker.md](docs/decisions/bookmark-post-via-worker.md)。OAuthの鍵はWorker secretにだけ置く。POSTは既存を上書きするため、既存の取得に成功するまで送信させない作りを外さない。
 - 新規JSを足す時: [docs/features.md](docs/features.md)。`service-worker.js`の`SHELL_FILES`に追加しないとオフライン起動で読み込めない。

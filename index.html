@@ -19,6 +19,7 @@
       <p id="offline-cache-popover-status" class="status"></p>
     </div>
   </div>
+  <a id="me-link" href="#/me" class="btn btn--icon" aria-label="自分のブックマーク" title="自分のブックマーク">🔖</a>
   <button id="autoscroll-btn" type="button" class="btn btn--icon" aria-label="自動スクロールを開始" aria-pressed="false" title="自動スクロールを開始">▶️</button>
   <button id="mark-all-read-btn" type="button" class="btn btn--icon" aria-label="表示中の記事をすべて既読にする" title="表示中の記事をすべて既読にする">☑️</button>
   <button id="settings-btn" type="button" class="btn btn--icon" aria-label="フィルタ設定" title="フィルタ設定">⚙</button>
@@ -56,9 +57,19 @@
   <section id="view-entry" hidden>
     <div class="list-status-row">
       <button id="entry-back" type="button" class="btn btn--small">← 一覧に戻る</button>
+      <button id="entry-bookmark-btn" type="button" class="btn btn--small" hidden>ブックマークする</button>
       <button id="entry-filter-btn" type="button" class="btn btn--small">このページをフィルタに登録する</button>
     </div>
     <div id="entry-header" class="entry-header"></div>
+    <form id="bookmark-form" class="bookmark-form" hidden>
+      <textarea id="bookmark-comment" rows="2" placeholder="コメント(任意)" aria-label="ブックマークコメント"></textarea>
+      <input id="bookmark-tags" type="text" placeholder="タグ(スペース区切り・最大10個)" aria-label="タグ" autocomplete="off">
+      <div class="bookmark-form-row">
+        <span id="bookmark-count" class="status"></span>
+        <button id="bookmark-submit" type="submit" class="btn btn--small">ブックマークする</button>
+      </div>
+      <p id="bookmark-status" class="status"></p>
+    </form>
     <blockquote id="entry-description" class="entry-description"></blockquote>
     <div class="list-status-row">
       <p id="entry-status" class="status"></p>
@@ -68,6 +79,18 @@
       </div>
     </div>
     <ul id="comment-list" class="comment-list"></ul>
+  </section>
+  <section id="view-me" hidden>
+    <div class="list-status-row">
+      <button id="me-back" type="button" class="btn btn--small">← 一覧に戻る</button>
+      <div id="me-layout-toggle" class="layout-toggle">
+        <button type="button" class="tab" data-layout="rich">rich</button>
+        <button type="button" class="tab" data-layout="plain">plain</button>
+      </div>
+    </div>
+    <p id="me-status" class="status"></p>
+    <button id="me-open-settings" type="button" class="btn btn--small" hidden>接続設定を開く</button>
+    <ul id="me-list" class="comment-list me-list"></ul>
   </section>
 </main>
 
@@ -226,6 +249,20 @@
       </div>
       <p id="import-status" class="status"></p>
     </section>
+    <section class="modal-section my-bookmarks-section">
+      <h3>中継Worker(自分のブックマーク・ブックマーク投稿)<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-my" aria-label="説明を表示">?</button></h3>
+      <p id="hint-my" class="hint" hidden>
+        ヘッダーの🔖で開く「自分のブックマーク」ページと、記事ページの「ブックマークする」の接続設定です。はてなのAPIはブラウザから直接使えない(CORS・OAuth)ため、自前の中継Worker(<code>worker/</code>)経由で呼びます。はてなidとOAuthの鍵はWorker側のsecretにだけ置き、このアプリには保存しません。ここに入れるのはWorkerのURLとアクセストークンだけで、どちらもこの端末のlocalStorageにのみ保存します(Gist同期の対象外)。アクセストークンが漏れると、あなたのアカウントでブックマークを投稿されるため、長いランダム文字列にしてください。
+      </p>
+      <div class="sync-fields">
+        <input id="my-endpoint-input" type="url" placeholder="Worker URL (https://….workers.dev)" autocomplete="off">
+        <input id="my-token-input" type="password" placeholder="アクセストークン" autocomplete="off">
+      </div>
+      <div class="import-export-row">
+        <button id="my-save-btn" type="button" class="btn btn--small">保存して接続確認</button>
+      </div>
+      <p id="my-status" class="status"></p>
+    </section>
     <section class="modal-section token-section">
       <h3>GitHubトークン(Gist用)<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-token" aria-label="説明を表示">?</button></h3>
       <p id="hint-token" class="hint" hidden>
@@ -264,6 +301,7 @@
 <script src="js/sync.js"></script>
 <script src="js/filter-sync.js"></script>
 <script src="js/hatena-api.js"></script>
+<script src="js/my-bookmarks.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

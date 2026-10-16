@@ -36,6 +36,7 @@ const SHELL_FILES = [
   'js/sync.js',
   'js/filter-sync.js',
   'js/hatena-api.js',
+  'js/my-bookmarks.js',
   'js/app.js',
 ];
 

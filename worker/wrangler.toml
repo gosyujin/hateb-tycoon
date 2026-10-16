@@ -1,0 +1,12 @@
+# hateb-tycoon用の中継Worker(自分のブックマーク一覧・ブックマーク投稿)。
+# 詳細は docs/decisions/my-bookmarks-worker-proxy.md と docs/decisions/bookmark-post-via-worker.md。
+# 鍵やidはsecretのため、このファイルには書かない(登録手順は上記docs参照):
+#   ACCESS_TOKEN / HATENA_USER_ID / HATENA_CONSUMER_KEY / HATENA_CONSUMER_SECRET /
+#   HATENA_ACCESS_TOKEN / HATENA_ACCESS_TOKEN_SECRET
+name = "hateb-tycoon-proxy"
+main = "hateb-proxy.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+# CORSを許可するオリジン(カンマ区切り)。ローカル確認用のlocalhostを足す場合は追記する。
+ALLOWED_ORIGINS = "https://note.gosyujin.com"

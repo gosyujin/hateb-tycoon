@@ -18,12 +18,18 @@ hateb-tycoon/
 │   ├── filter-sync.js    # フィルタ(3種)のGist同期(取り込み+和集合で上書き)
 │   ├── hatena-api.js     # はてなブックマークデータの取得・正規化・JSONPと、
 │   │                     #   オフライン用の個別記事情報のlocalStorageキャッシュ
+│   ├── my-bookmarks.js   # 中継Worker経由の一覧取得・ブックマーク取得/投稿・接続設定のlocalStorage保存
 │   └── app.js             # ルーティング・画面描画・検索・キーボード操作・Service Worker登録
+├── worker/
+│   ├── hateb-proxy.js   # 中継Worker(自分のブックマーク一覧・ブックマーク投稿。idとOAuth鍵はsecretに保持)
+│   ├── oauth1.js        # OAuth 1.0a(HMAC-SHA1)署名ヘルパー(Workerとscripts/hatena-oauth-setup.mjsで共有)
+│   └── wrangler.toml    # Workerの設定(secretは含めない)
 ├── service-worker.js    # アプリ本体+一覧データのオフラインキャッシュ(下記参照)
 ├── data/
 │   └── hotentry-*.json  # GitHub Actionsが定期生成するカテゴリ別ホットエントリーデータ
 ├── scripts/
 │   ├── fetch_hotentry.py         # はてなのRSSを取得しdata/*.jsonを生成するスクリプト
+│   ├── hatena-oauth-setup.mjs    # はてなOAuthのアクセストークンを1回だけ取得するローカル用スクリプト
 │   └── hateb-tycoon-dispatch.sh  # hotentry-sync.ymlをローカルから手動起動するスクリプト(正本。
 │                                 #   実運用コピーの配置場所については
 │                                 #   [decisions/cron-local-dispatch.md](decisions/cron-local-dispatch.md)を参照)

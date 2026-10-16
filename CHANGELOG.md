@@ -2,8 +2,13 @@
 
 1エントリ1〜3行。バージョン番号は採番しておらず、日付とコミットhashで管理する(新しい順)。調査・判断に経緯があるものは [docs/decisions/](docs/decisions/) にあり、該当エントリからリンクする。自動コミット「Update hotentry data」は除く。
 
+## 2026-10-16
+
+- Added: 記事ページのブックマーク投稿(コメント・タグ)。同じ中継WorkerにOAuth 1.0a署名つきの `GET/POST /bookmark` を追加し、既存の上書き事故を避けるため既存取得に成功するまで送信不可にした([経緯](docs/decisions/bookmark-post-via-worker.md)。本物のはてなでの投稿は未確認)。Workerを `hateb-proxy.js` に改名、一覧のパスは `/bookmarks`
+
 ## 2026-10-14
 
+- Added: 「自分のブックマーク」ページ(`#/me`、ヘッダー🔖)。はてなidはWorkerのsecretにだけ置く中継Worker経由で取得し、コメントビューと同じplain/rich・フィルタ・検索で表示([経緯](docs/decisions/my-bookmarks-worker-proxy.md)。本番Workerのデプロイは未確認)
 - Fixed: タスクに残したPWAが古いバージョン(旧ビルドSHA)のまま動き続ける不具合。前面復帰時に`codeVersion`(アプリ本体を最後に変更したコミット)を確認し、新版がデプロイされていれば再読み込みする。データ更新だけのデプロイでは再読み込みしない(未確認: 実機での入れ替わり)
 - Changed: フッターのビルド表示を`sha`(デプロイ元コミット)から`codeVersion`とそのコミット日時に変更。表示値だけでコードの版が特定でき、データ更新では変わらない
 

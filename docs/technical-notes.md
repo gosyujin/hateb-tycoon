@@ -18,11 +18,20 @@
 - **RSS+Actionsによる一覧取得**: [hotentry-rss-via-actions.md](decisions/hotentry-rss-via-actions.md)
 - **cronの不安定対策(ローカルdispatch)**: [cron-local-dispatch.md](decisions/cron-local-dispatch.md)
 
+## 「自分のブックマーク」のid秘匿(変更前に読む)
+
+- 取得対象のはてなidは`worker/`のWorker secret(`HATENA_USER_ID`)にだけ置く。コード・設定ファイル・ドキュメント・localStorage・URL・Workerのレスポンスにidを入れない(`user`オブジェクトや`profile.png`のアイコンURLにidが含まれるため、Workerは落として返し、richの画像は記事サムネイルにしている)。テストには公開アカウント(`hatenabookmark`)を使う。経緯は[decisions/my-bookmarks-worker-proxy.md](decisions/my-bookmarks-worker-proxy.md)。
+- ブックマーク投稿は上書き(POST=追加または更新)のため、フォームは既存の取得に成功するまで送信不可にしている。この取得を外す/失敗時も送れるようにすると、知らずに既存コメントを消す。Worker応答には、はてなの生レスポンス(ユーザー情報=idを含む)を返さず`{comment,tags}`だけにしている。OAuthのシークレット・アクセストークンはWorker secretにだけ置く(経緯は[decisions/bookmark-post-via-worker.md](decisions/bookmark-post-via-worker.md))。
+- ローカル確認で`localhost:8000`に他プロジェクトの古いService Worker(scrapbox-tycoon等)が残っていると、JSが読み込めず`Cannot use import statement outside a module`のようなエラーになる。devtoolsでunregisterとCache Storage削除をしてから確認する。
+
 ## 検証上の注意
 
 - **Service Workerの動作確認について**: サンドボックス化されたブラウザ環境(Claude Codeの検証用ブラウザ等)では`navigator.serviceWorker.register()`自体が原因不明のエラーで失敗し、動作確認ができません。Service Worker関連の変更を検証する際は、本番オリジン(https://note.gosyujin.com/hateb-tycoon/)に対して`caches.keys()` / `caches.open()` / `cache.match()`等をブラウザのコンソールから直接実行して確認してください。
 
 ## 未検証
+
+- ブックマーク投稿: 本物のはてなOAuthでの取得・投稿は未確認(特に複数タグの送り方=`tags`の繰り返し、コメント文字数上限)。署名はX公式サンプルのテストベクトルと独立実装で検証済み、Workerと画面は上流をモックして確認済み([詳細](decisions/bookmark-post-via-worker.md))。
+- 「自分のブックマーク」の本番Cloudflare Workerへのデプロイと、本番オリジン(https://note.gosyujin.com/hateb-tycoon/)からの接続は未確認。ローカルでは同じWorkerコードをNodeで動かし、公開アカウントで認証・CORS・表示・検索・フィルタ・失敗時フォールバックまで確認済み。
 
 - 通信が不安定な時の一覧取得不具合(Load failed)は実機でしか再現せず原因は推定のまま([詳細](decisions/sw-unstable-network-list-fetch.md))。対処が効いたかは実機での確認が必要。
 - PWAの新バージョン自動検知(`reloadIfNewVersionDeployed()`)は、実機で「旧版のPWAをタスクに残したままコード変更を含むデプロイ→前面復帰」して新版に入れ替わること、およびデータ更新だけのデプロイでは再読み込みされないことの確認が必要(この修正を含む版が入った後のデプロイから有効。修正前の版が動いているPWAは一度タスクキルが必要)。
