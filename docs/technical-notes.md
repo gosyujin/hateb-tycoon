@@ -33,7 +33,7 @@
 
 - 設定モーダルのキーボード対応(`.modal--short`で固定ヘッダーを外す・`scroll-padding-top`・末尾の余白`.modal-kbd-spacer`・フォーカスした欄を中央へ寄せる`centerFocusedField`。余白が無いと末尾の欄=GitHubトークンを持ち上げられず、キーボード直上の入力補助バー・貼り付けメニューにかぶる。センタリングはsmoothにしない=キーボードのアニメーションと競合/検証ブラウザでは動かない)は、実機のiOS/Androidキーボードでの確認が未了。ブラウザの高さ340px/700pxのエミュレーションでのみ確認済み(`visualViewport`の高さ500px未満で`.modal--short`が付く)。
 
-- ブックマーク投稿: 本物のはてなOAuthでの取得・投稿は未確認(特に既存タグの送り直し=`tags`の繰り返し、コメント文字数上限、投稿直後の再読み込みに自分のコメントが反映されているか=jsonliteの反映遅れ)。署名はX公式サンプルのテストベクトルと独立実装で検証済み、Workerと画面は上流をモックして確認済み([詳細](decisions/bookmark-post-via-worker.md))。
+- ブックマーク投稿: 本物のはてなOAuthでの取得・投稿は未確認(特に既存タグの送り直し=`tags`の繰り返し、コメント文字数上限。投稿直後はjsonliteに自分のコメントがまだ載らないことがあるため、投稿後に記事ページを再読み込みしない作りにしている=再読み込みを足し直さない)。署名はX公式サンプルのテストベクトルと独立実装で検証済み、Workerと画面は上流をモックして確認済み([詳細](decisions/bookmark-post-via-worker.md))。
 - 「自分のブックマーク」の本番Cloudflare Workerへのデプロイと、本番オリジン(https://note.gosyujin.com/hateb-tycoon/)からの接続は未確認。ローカルでは同じWorkerコードをNodeで動かし、公開アカウントで認証・CORS・表示・検索・フィルタ・失敗時フォールバックまで確認済み。
 
 - 通信が不安定な時の一覧取得不具合(Load failed)は実機でしか再現せず原因は推定のまま([詳細](decisions/sw-unstable-network-list-fetch.md))。対処が効いたかは実機での確認が必要。

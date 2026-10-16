@@ -1081,7 +1081,6 @@
   // 取得して入力欄に入れ、取得できるまで「ブクマ」は押せない。タグは編集しないが、既存のタグは
   // 取得して保持し、そのまま送り直す(送らないとコメントの更新でタグが消える)。
   const BOOKMARK_LOAD_DELAY_MS = 400; // 前後の記事へ素早く移る時にWorkerを連打しない
-  const BOOKMARK_RELOAD_DELAY_MS = 800; // 投稿直後に取り直すと反映前の可能性があるため少し待つ
   let bookmarkTarget = null; // 対象URL
   let bookmarkLoadedFor = null; // 既存ブックマークの取得済みURL
   let bookmarkTags = []; // 既存のタグ(編集不可・保持して再送)
@@ -1132,8 +1131,9 @@
     bookmarkSending = true;
     bookmarkSubmit.disabled = true;
     bookmarkStatus.textContent = '送信中…';
+    let saved;
     try {
-      await MyBookmarks.postBookmark({ url: target, comment: bookmarkComment.value, tags: bookmarkTags });
+      saved = await MyBookmarks.postBookmark({ url: target, comment: bookmarkComment.value, tags: bookmarkTags });
     } catch (err) {
       if (seq !== bookmarkSeq) return;
       console.error(err);
@@ -1144,11 +1144,13 @@
     }
     meFetchedAt = 0; // 「自分のブックマーク」ページは次に開いた時に取り直す
     if (seq !== bookmarkSeq) return;
-    bookmarkStatus.textContent = 'ブクマしました。再読み込み中…';
-    // 自分の書き込みを表示するため、記事ページを取り直す(入力欄も取り直した内容に入れ替わる)。
-    await new Promise((resolve) => setTimeout(resolve, BOOKMARK_RELOAD_DELAY_MS));
-    if (seq !== bookmarkSeq) return;
-    renderEntryView(target);
+    // 記事ページは再読み込みしない: 投稿直後ははてなのコメント一覧(jsonlite)にまだ反映されず、
+    // 自分のコメントが出ないことがあったため。入力欄に保存された内容が残るので、それで確認できる。
+    bookmarkComment.value = saved.comment;
+    bookmarkTags = saved.tags;
+    bookmarkStatus.textContent = 'ブクマしました。';
+    bookmarkSending = false;
+    bookmarkSubmit.disabled = false;
   });
 
   // 前後の記事へ移動した際、直前のスクロール位置(コメント欄の途中/末尾)が
