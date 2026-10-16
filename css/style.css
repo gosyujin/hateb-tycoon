@@ -784,6 +784,10 @@ main {
   overflow-x: hidden;
   padding: 16px 20px 20px;
   box-sizing: border-box;
+  /* フォーカスした入力欄が固定ヘッダー(.modal-top)の裏に入らないようにする。
+     高さはJSが--modal-top-hに反映する。 */
+  scroll-padding-top: var(--modal-top-h, 0px);
+  scroll-padding-bottom: 16px;
 }
 /* 設定はタブで分割しており、ミュートのタブはフォームが上部に来る。
    スマホでキーボードが出ても入力欄と「閉じる」が見えるよう、ヘッダーを固定し
@@ -795,6 +799,14 @@ main {
   padding: 16px 20px 0;
   background: var(--color-surface);
   z-index: 1;
+}
+/* キーボードで見える領域が短い時(JSが.modal--shortを付ける)は固定を外して、
+   スクロール領域を広げる。stickyは元の位置に場所を確保しているため、外しても配置はずれない。 */
+.modal--short .modal-top {
+  position: static;
+}
+.modal--short .modal-panel {
+  scroll-padding-top: 0;
 }
 .settings-sections {
   margin-top: 10px;

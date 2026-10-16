@@ -1742,12 +1742,19 @@
     if (btn) showSettingsPane(btn.dataset.pane);
   });
 
+  const settingsModalTop = settingsModal.querySelector('.modal-top');
+  const SHORT_VIEWPORT_PX = 500;
+
   // モーダルをvisualViewport(キーボードを除いた見えている領域)に追従させる
   function syncModalToViewport() {
     const vv = window.visualViewport;
     if (!vv || settingsModal.hidden) return;
     settingsModal.style.setProperty('--vv-top', `${vv.offsetTop}px`);
     settingsModal.style.setProperty('--vv-height', `${vv.height}px`);
+    // キーボードで見える領域が短い時は、固定ヘッダーがスクロール領域を食うため固定を外す(CSS側)。
+    settingsModal.classList.toggle('modal--short', vv.height < SHORT_VIEWPORT_PX);
+    // フォーカスした入力欄が固定ヘッダーの裏に潜らないよう、その高さをscroll-paddingに使う。
+    settingsModal.style.setProperty('--modal-top-h', `${settingsModalTop.offsetHeight}px`);
   }
   if (window.visualViewport) {
     window.visualViewport.addEventListener('resize', syncModalToViewport);

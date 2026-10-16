@@ -193,6 +193,20 @@
     </section>
     </div>
     <div class="settings-pane" data-pane="sync" hidden>
+    <section class="modal-section my-bookmarks-section">
+      <h3>中継Worker(自分のブックマーク・ブックマーク投稿)<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-my" aria-label="説明を表示">?</button></h3>
+      <p id="hint-my" class="hint" hidden>
+        ヘッダーの🔖で開く「自分のブックマーク」ページと、記事ページの「ブックマークする」の接続設定です。はてなのAPIはブラウザから直接使えない(CORS・OAuth)ため、自前の中継Worker(<code>worker/</code>)経由で呼びます。はてなidとOAuthの鍵はWorker側のsecretにだけ置き、このアプリには保存しません。ここに入れるのはWorkerのURLとアクセストークンだけで、どちらもこの端末のlocalStorageにのみ保存します(Gist同期の対象外)。アクセストークンが漏れると、あなたのアカウントでブックマークを投稿されるため、長いランダム文字列にしてください。
+      </p>
+      <div class="sync-fields">
+        <input id="my-endpoint-input" type="url" placeholder="Worker URL (https://….workers.dev)" autocomplete="off">
+        <input id="my-token-input" type="password" placeholder="アクセストークン" autocomplete="off">
+      </div>
+      <div class="import-export-row">
+        <button id="my-save-btn" type="button" class="btn btn--small">保存して接続確認</button>
+      </div>
+      <p id="my-status" class="status"></p>
+    </section>
     <section class="modal-section sync-section">
       <h3>既読の同期(Gist)<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-sync" aria-label="説明を表示">?</button></h3>
       <p id="hint-sync" class="hint" hidden>
@@ -248,20 +262,6 @@
         </label>
       </div>
       <p id="import-status" class="status"></p>
-    </section>
-    <section class="modal-section my-bookmarks-section">
-      <h3>中継Worker(自分のブックマーク・ブックマーク投稿)<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-my" aria-label="説明を表示">?</button></h3>
-      <p id="hint-my" class="hint" hidden>
-        ヘッダーの🔖で開く「自分のブックマーク」ページと、記事ページの「ブックマークする」の接続設定です。はてなのAPIはブラウザから直接使えない(CORS・OAuth)ため、自前の中継Worker(<code>worker/</code>)経由で呼びます。はてなidとOAuthの鍵はWorker側のsecretにだけ置き、このアプリには保存しません。ここに入れるのはWorkerのURLとアクセストークンだけで、どちらもこの端末のlocalStorageにのみ保存します(Gist同期の対象外)。アクセストークンが漏れると、あなたのアカウントでブックマークを投稿されるため、長いランダム文字列にしてください。
-      </p>
-      <div class="sync-fields">
-        <input id="my-endpoint-input" type="url" placeholder="Worker URL (https://….workers.dev)" autocomplete="off">
-        <input id="my-token-input" type="password" placeholder="アクセストークン" autocomplete="off">
-      </div>
-      <div class="import-export-row">
-        <button id="my-save-btn" type="button" class="btn btn--small">保存して接続確認</button>
-      </div>
-      <p id="my-status" class="status"></p>
     </section>
     <section class="modal-section token-section">
       <h3>GitHubトークン(Gist用)<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-token" aria-label="説明を表示">?</button></h3>

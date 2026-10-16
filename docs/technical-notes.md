@@ -30,6 +30,8 @@
 
 ## 未検証
 
+- 設定モーダルのキーボード対応(`.modal--short`で固定ヘッダーを外す・`scroll-padding-top`)は、実機のiOS/Androidキーボードでの確認が未了。ブラウザの高さ340px/700pxのエミュレーションでのみ確認済み(`visualViewport`の高さ500px未満で`.modal--short`が付く)。
+
 - ブックマーク投稿: 本物のはてなOAuthでの取得・投稿は未確認(特に複数タグの送り方=`tags`の繰り返し、コメント文字数上限)。署名はX公式サンプルのテストベクトルと独立実装で検証済み、Workerと画面は上流をモックして確認済み([詳細](decisions/bookmark-post-via-worker.md))。
 - 「自分のブックマーク」の本番Cloudflare Workerへのデプロイと、本番オリジン(https://note.gosyujin.com/hateb-tycoon/)からの接続は未確認。ローカルでは同じWorkerコードをNodeで動かし、公開アカウントで認証・CORS・表示・検索・フィルタ・失敗時フォールバックまで確認済み。
 
