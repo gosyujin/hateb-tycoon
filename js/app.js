@@ -1756,8 +1756,31 @@
     // フォーカスした入力欄が固定ヘッダーの裏に潜らないよう、その高さをscroll-paddingに使う。
     settingsModal.style.setProperty('--modal-top-h', `${settingsModalTop.offsetHeight}px`);
   }
+  // フォーカスした入力欄を、モーダルの見える領域の中央へスクロールする。キーボードの表示アニメーションと
+  // visualViewportの更新が終わってからでないと位置が定まらないため、少し待って実行する。
+  // scrollIntoViewは背面のページまで動かし得るので使わず、パネル自身のscrollTopだけを動かす。
+  const settingsModalPanel = settingsModal.querySelector('.modal-panel');
+  let centerTimer = null;
+  function centerFocusedField() {
+    clearTimeout(centerTimer);
+    centerTimer = setTimeout(() => {
+      const el = document.activeElement;
+      if (settingsModal.hidden || !el || !settingsModalPanel.contains(el) || !el.matches('input, textarea, select')) return;
+      if (!settingsModal.classList.contains('modal--short')) return; // キーボードが出ていない時は動かさない
+      const p = settingsModalPanel.getBoundingClientRect();
+      const r = el.getBoundingClientRect();
+      const delta = r.top + r.height / 2 - (p.top + p.height / 2);
+      // アニメーション(smooth)にしない: キーボードの表示アニメーションと競合して途中で止まり得るため。
+      settingsModalPanel.scrollTop = Math.max(0, settingsModalPanel.scrollTop + delta);
+    }, 350);
+  }
+  settingsModal.addEventListener('focusin', centerFocusedField);
+
   if (window.visualViewport) {
-    window.visualViewport.addEventListener('resize', syncModalToViewport);
+    window.visualViewport.addEventListener('resize', () => {
+      syncModalToViewport();
+      centerFocusedField(); // キーボードが出た/形が変わった時に、入力中の欄を見える位置へ
+    });
     window.visualViewport.addEventListener('scroll', syncModalToViewport);
   }
 

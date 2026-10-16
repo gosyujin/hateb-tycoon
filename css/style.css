@@ -808,6 +808,16 @@ main {
 .modal--short .modal-panel {
   scroll-padding-top: 0;
 }
+/* キーボード表示中は、末尾の欄(GitHubトークン等)もスクロールで画面の中ほどまで
+   持ち上げられるよう、パネルの末尾に余白を足す(無いと最後の欄が下端=キーボード直上に
+   張り付き、入力補助バーや貼り付けメニューにかぶって貼り付けできない)。 */
+.modal-kbd-spacer {
+  display: none;
+}
+.modal--short .modal-kbd-spacer {
+  display: block;
+  height: calc(var(--vv-height, 100dvh) * 0.7);
+}
 .settings-sections {
   margin-top: 10px;
   flex-wrap: wrap;
