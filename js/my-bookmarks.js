@@ -100,6 +100,9 @@
     }
     if (res.status === 401) throw new Error('アクセストークンが正しくありません');
     if (res.status === 400) throw new Error('はてなに受け付けられませんでした(コメントやタグを確認してください)');
+    if (res.status === 409) {
+      throw new Error('一覧のアカウントと、投稿に使うOAuthのアカウントが違うため中止しました(Workerの設定を確認してください)');
+    }
     if (!res.ok) throw new Error(`取得に失敗しました(HTTP ${res.status})`);
     return res.json();
   }
@@ -118,6 +121,16 @@
     return data.exists
       ? { exists: true, comment: data.comment || '', tags: Array.isArray(data.tags) ? data.tags : [] }
       : { exists: false, comment: '', tags: [] };
+  }
+
+  // Workerの設定確認。一覧とOAuthのアカウントが同じか('same' | 'different' | 'unknown')。idは返ってこない。
+  async function checkConfig() {
+    const data = await callWorker('check');
+    return {
+      listConfigured: !!data.listConfigured,
+      oauthConfigured: !!data.oauthConfigured,
+      accounts: ['same', 'different'].includes(data.accounts) ? data.accounts : 'unknown',
+    };
   }
 
   // ブックマークの追加・更新(既存なら上書き)。
@@ -144,5 +157,5 @@
     }
   }
 
-  global.MyBookmarks = { getConfig, setConfig, isConfigured, fetchPage, getBookmark, postBookmark, saveCache, loadCache };
+  global.MyBookmarks = { getConfig, setConfig, isConfigured, fetchPage, getBookmark, postBookmark, checkConfig, saveCache, loadCache };
 })(window);

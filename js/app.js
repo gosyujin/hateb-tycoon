@@ -1722,6 +1722,16 @@
     try {
       const { items } = await MyBookmarks.fetchPage(1);
       myStatus.textContent = `接続できました(1ページ目 ${items.length} 件)`;
+      // 一覧のアカウントと、投稿に使うOAuthのアカウントが同じかも確認する(食い違うと別人に投稿される)
+      const c = await MyBookmarks.checkConfig();
+      const note = !c.oauthConfigured
+        ? '投稿用のOAuthはWorkerに未設定です(一覧だけ使えます)'
+        : c.accounts === 'same'
+          ? '一覧と投稿は同じアカウントです'
+          : c.accounts === 'different'
+            ? '⚠ 一覧と投稿のアカウントが違います。投稿は中止されます(Workerの設定を確認してください)'
+            : '一覧と投稿のアカウントが同じかは確認できませんでした';
+      myStatus.textContent += `。${note}`;
     } catch (err) {
       myStatus.textContent = `接続失敗: ${err.message}`;
     }

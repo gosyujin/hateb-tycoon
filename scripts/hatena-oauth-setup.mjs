@@ -42,7 +42,9 @@ const req = await post(
   { scope: 'read_public,write_public' },
   { extraOauth: { oauth_callback: 'oob' } }
 );
-console.log('\n1. 次のURLをブラウザで開いて許可してください:\n');
+console.log('\n1. 次のURLをブラウザで開いて許可してください。');
+console.log('   ※許可は「そのブラウザでログイン中のアカウント」で行われ、投稿はそのアカウントに書き込まれます。');
+console.log('   使いたいアカウントでログインしているか確認(別アカウントなら、プライベートウィンドウで開く)。\n');
 console.log(`   https://www.hatena.ne.jp/oauth/authorize?oauth_token=${encodeURIComponent(req.oauth_token)}\n`);
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
@@ -54,8 +56,28 @@ const acc = await post(
   {},
   { token: req.oauth_token, tokenSecret: req.oauth_token_secret, extraOauth: { oauth_verifier: verifier } }
 );
-console.log('\n取得できました。次のコマンドでWorkerのsecretに登録してください(値は他に保存しない):\n');
+// このトークンの持ち主(許可した時にログインしていたアカウント)。投稿はこのアカウントに書き込まれる。
+const me = await fetch('https://n.hatena.com/applications/my.json', {
+  headers: {
+    Authorization: await authorizationHeader({
+      method: 'GET',
+      url: 'https://n.hatena.com/applications/my.json',
+      consumerKey,
+      consumerSecret,
+      token: acc.oauth_token,
+      tokenSecret: acc.oauth_token_secret,
+    }),
+    'User-Agent': 'hateb-tycoon-oauth-setup',
+  },
+}).then((r) => (r.ok ? r.json() : null), () => null);
+const owner = (me && me.url_name) || acc.url_name || '';
+console.log(`\n★ このトークンの持ち主(投稿が書き込まれるアカウント): ${owner || '(取得できませんでした)'}${me && me.display_name ? ` (${me.display_name})` : ''}`);
+console.log('  意図したアカウントと違う場合は、登録せずにやり直してください(許可画面を開いたブラウザで、');
+console.log('  別のはてなアカウントにログインしていたのが原因です。プライベートウィンドウで、');
+console.log('  使いたいアカウントでログインしてから許可画面を開いてください)。\n');
+console.log('取得できました。次のコマンドでWorkerのsecretに登録してください(値は他に保存しない):\n');
 console.log('   cd worker');
+console.log('   npx wrangler secret put HATENA_USER_ID            # 一覧もこのアカウントにそろえる場合は上の持ち主のid');
 console.log('   npx wrangler secret put HATENA_CONSUMER_KEY');
 console.log('   npx wrangler secret put HATENA_CONSUMER_SECRET');
 console.log('   npx wrangler secret put HATENA_ACCESS_TOKEN');

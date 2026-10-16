@@ -4,6 +4,11 @@
  *   GET  /bookmarks?page=N   自分のブックマーク一覧(認証なしの公開API /api/users/{id}/bookmarks)
  *   GET  /bookmark?url=...   自分のそのURLのブックマーク(コメント・タグ)。無ければ { exists: false }
  *   POST /bookmark           ブックマークの追加・更新。JSON { url, comment, tags[] }(OAuth 1.0aで署名して転送)
+ *   GET  /check              設定の確認。一覧(HATENA_USER_ID)とOAuthのアカウントが同じか(idは返さない)
+ *
+ * 一覧のアカウント(HATENA_USER_ID)と、投稿に使うOAuthのアカウント(許可した時にログインしていた人)は
+ * 別々に設定する値で、食い違うと「一覧はAだが投稿はB」になる。そこでOAuthの持ち主を
+ * https://n.hatena.com/applications/my.json で調べ、**食い違っていれば投稿・既存取得を拒否(409)**する。
  *
  * 理由: はてなのAPIはCORSがb.hatena.ne.jp限定(一覧)/非対応(投稿のbookmark.hatenaapis.com)で
  * ブラウザから直接呼べず、投稿はOAuth 1.0a(コンシューマ/アクセストークンのシークレットで署名)が要る。
@@ -24,6 +29,8 @@ import { authorizationHeader, rfc3986 } from './oauth1.js';
 
 const USERS_API = 'https://b.hatena.ne.jp/api/users';
 const BOOKMARK_API = 'https://bookmark.hatenaapis.com/rest/1/my/bookmark';
+const ACCOUNT_API = 'https://n.hatena.com/applications/my.json'; // OAuthの持ち主(url_name)。read_publicで足りる
+const ACCOUNT_CACHE_MS = 10 * 60 * 1000;
 const USER_AGENT = 'hateb-tycoon-proxy';
 const MAX_PAGE = 200;
 const MAX_TAGS = 10; // はてなの上限
@@ -127,22 +134,54 @@ const formEncode = (params) =>
     .map(([k, v]) => `${rfc3986(k)}=${rfc3986(String(v))}`)
     .join('&');
 
-function callBookmarkApi(env, method, params) {
-  return authorizationHeader({
+// OAuth署名つきで呼ぶ。GETはparamsをクエリに、POSTはapplication/x-www-form-urlencodedのボディに入れる。
+async function signedFetch(env, method, url, params = {}) {
+  const auth = await authorizationHeader({
     method,
-    url: BOOKMARK_API,
+    url,
     params,
     consumerKey: env.HATENA_CONSUMER_KEY,
     consumerSecret: env.HATENA_CONSUMER_SECRET,
     token: env.HATENA_ACCESS_TOKEN,
     tokenSecret: env.HATENA_ACCESS_TOKEN_SECRET,
-  }).then((auth) => {
-    const headers = { Authorization: auth, 'User-Agent': USER_AGENT, Accept: 'application/json' };
-    if (method === 'GET') return fetch(`${BOOKMARK_API}?${formEncode(params)}`, { method, headers });
-    headers['Content-Type'] = 'application/x-www-form-urlencoded';
-    return fetch(BOOKMARK_API, { method, headers, body: formEncode(params) });
   });
+  const headers = { Authorization: auth, 'User-Agent': USER_AGENT, Accept: 'application/json' };
+  const query = formEncode(params);
+  if (method === 'GET') return fetch(query ? `${url}?${query}` : url, { method, headers });
+  headers['Content-Type'] = 'application/x-www-form-urlencoded';
+  return fetch(url, { method, headers, body: query });
 }
+
+const callBookmarkApi = (env, method, params) => signedFetch(env, method, BOOKMARK_API, params);
+
+// OAuthトークンの持ち主のid(url_name)。取れなければnull。同じトークンの間は結果を使い回す。
+let accountCache = null;
+async function oauthAccountId(env) {
+  const key = env.HATENA_ACCESS_TOKEN;
+  if (accountCache && accountCache.key === key && Date.now() - accountCache.at < ACCOUNT_CACHE_MS) return accountCache.id;
+  let id = null;
+  try {
+    const res = await signedFetch(env, 'GET', ACCOUNT_API);
+    if (res.ok) {
+      const data = await res.json();
+      if (data && typeof data.url_name === 'string' && data.url_name) id = data.url_name;
+    }
+  } catch (e) {
+    // 確認できなかった扱い(下のunknown)にする
+  }
+  if (id) accountCache = { key, id, at: Date.now() };
+  return id;
+}
+
+// 一覧のアカウントとOAuthのアカウントが同じか: 'same' | 'different' | 'unknown'(確認できない)
+async function accountMatch(env) {
+  if (!env.HATENA_USER_ID) return 'unknown';
+  const id = await oauthAccountId(env);
+  if (!id) return 'unknown';
+  return id.toLowerCase() === env.HATENA_USER_ID.trim().toLowerCase() ? 'same' : 'different';
+}
+
+const MISMATCH = { error: 'account mismatch' };
 
 function validUrl(value) {
   return typeof value === 'string' && value.length <= MAX_URL_LENGTH && /^https?:\/\/\S+$/i.test(value);
@@ -161,6 +200,7 @@ async function getMyBookmark(request, env, cors) {
   if (!oauthConfigured(env)) return json({ error: 'oauth is not configured' }, 500, cors);
   const target = new URL(request.url).searchParams.get('url');
   if (!validUrl(target)) return json({ error: 'invalid url' }, 400, cors);
+  if ((await accountMatch(env)) === 'different') return json(MISMATCH, 409, cors);
   let upstream;
   try {
     upstream = await callBookmarkApi(env, 'GET', { url: target });
@@ -195,6 +235,8 @@ async function postMyBookmark(request, env, cors) {
     return json({ error: `invalid tags (max ${MAX_TAGS}, no spaces)` }, 400, cors);
   }
 
+  // 一覧のアカウントと違う人のブックマークに書き込まないよう、食い違いは投稿前に止める。
+  if ((await accountMatch(env)) === 'different') return json(MISMATCH, 409, cors);
   const params = { url: body.url, comment };
   if (tags.length > 0) params.tags = tags;
   let upstream;
@@ -213,6 +255,20 @@ async function postMyBookmark(request, env, cors) {
     // 保存自体は成功しているため、応答が読めなくても送った内容を返す
   }
   return json({ ok: true, ...saved }, 200, cors);
+}
+
+// ---- GET /check ---- 設定の確認用。idは返さず、一致するかだけ返す。
+async function checkConfig(env, cors) {
+  const oauth = oauthConfigured(env);
+  return json(
+    {
+      listConfigured: !!env.HATENA_USER_ID,
+      oauthConfigured: oauth,
+      accounts: oauth ? await accountMatch(env) : 'unknown',
+    },
+    200,
+    cors
+  );
 }
 
 export default {
@@ -240,6 +296,8 @@ export default {
         return getMyBookmark(request, env, cors);
       case 'POST /bookmark':
         return postMyBookmark(request, env, cors);
+      case 'GET /check':
+        return checkConfig(env, cors);
       default:
         return json({ error: 'not found' }, 404, cors);
     }

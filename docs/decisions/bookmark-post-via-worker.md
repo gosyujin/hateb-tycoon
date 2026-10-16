@@ -18,6 +18,15 @@
 - Workerの応答は`{ok, comment, tags}`だけに絞る(はてなの応答に含まれるユーザー情報=idを返さない)。
 - 認証は一覧と同じ`ACCESS_TOKEN`。**漏れるとあなたのアカウントで投稿される**点が一覧(公開情報の読み取り)より重い。長いランダム文字列にし、CORSも`ALLOWED_ORIGINS`で限定する。
 
+## 一覧と投稿のアカウント不一致(2026-10-17に実害)
+
+一覧は`HATENA_USER_ID`(secret)のアカウント、投稿は**OAuthの許可画面を開いたブラウザでログインしていたアカウント**に書き込まれる。この2つは別々に設定する値のため、許可を別アカウントのログイン状態で行うと「一覧はB(0件)、投稿はA」と食い違った(実際に起きた)。
+
+- 対策: Workerが`https://n.hatena.com/applications/my.json`(`read_public`で足りる。`url_name`がトークンの持ち主)でOAuthの持ち主を調べ、`HATENA_USER_ID`と(大文字小文字を無視して)比べる。**食い違っていれば`GET/POST /bookmark`を409で拒否**し、はてなには投稿しない。持ち主を取れない時(通信失敗等)は止めずに通す(my.jsonの形が想定と違っても投稿できなくならないよう。実アカウントでの`url_name`は未確認)。結果は10分キャッシュ。
+- `GET /check`でアカウントの一致を返す(idは返さず`same`/`different`/`unknown`だけ)。設定の「保存して接続確認」がこれを表示する。
+- `scripts/hatena-oauth-setup.mjs`が、取得したトークンの持ち主を表示する(許可前に「使いたいアカウントでログインしているか」の注意も出す)。
+- 直し方: ①意図したアカウントでログインしたプライベートウィンドウで許可し直し、`HATENA_ACCESS_TOKEN`/`HATENA_ACCESS_TOKEN_SECRET`を再登録、または②`HATENA_USER_ID`をOAuthの持ち主に合わせる。どちらも`wrangler secret put`後に再デプロイ不要(secretは即時反映。Workerコードの更新だけデプロイが要る)。
+
 ## 検証
 
 - 署名: X(旧Twitter)の公式サンプルのテストベクトルと同じ入力で、実装とPythonの独立実装が同じ署名になることを確認。
