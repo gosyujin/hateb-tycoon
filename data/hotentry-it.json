@@ -1,16 +1,29 @@
 [
   {
+    "title": "人気Web制作ツール「Studio」全ユーザーの情報漏えいか　フォームに送信された内容、外部APIキーなども",
+    "url": "https://www.itmedia.co.jp/news/article/2610/16/2000002332/",
+    "domain": "www.itmedia.co.jp",
+    "count": 6,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/16/2000002332/",
+    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/16/2000002332/10009590/2048",
+    "description": "第三者がデータを取得した事実は確認できていないが、取得されたものとみなして対応を進めている。 脆弱性を突かれ不正アクセス、発覚・対処まで約2週間 Studioは、ノーコードでWebサイトを構築できるプラットフォームで、スタートアップや中小企業のコーポレートサイトを中心に広く使われており、ユーザー数は90万人以...",
+    "hatenaDate": "2026-10-16T06:12:06Z",
+    "users": [],
+    "firstSeenAt": "2026-10-16T17:00:14.354438+09:00",
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
+  },
+  {
     "title": "X民の言う「増田のコメ欄」がトラバなのかブコメなのかそろそろはっきりしてほしい",
     "url": "https://anond.hatelabo.jp/20261015223046",
     "domain": "anond.hatelabo.jp",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261015223046",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "増田のコメント欄にいる層ってTwitterでもそう見ない質の悪さでいつも見たこと後悔する— 脊髄 (@spinal_____) October 14, 2026 増田ってサイト、たびたび話題になってるの見るけど軒並みコメントの民度が終わってる— に・ま2 (@gorugonzopa) October 9, 2026",
     "hatenaDate": "2026-10-15T13:38:35Z",
     "users": [],
     "firstSeenAt": "2026-10-16T16:45:14.590070+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "baidu/Unlimited-OCR · Hugging Face",
@@ -23,7 +36,7 @@
     "hatenaDate": "2026-06-24T12:58:03Z",
     "users": [],
     "firstSeenAt": "2026-10-16T16:45:14.590070+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "Microsoft、社内エンジニア数万人を対象に「Claude Code」「Copilot CLI」導入の影響を分析　生産性どう変わる",
@@ -55,27 +68,27 @@
     "title": "Claude Code の平文 API キーを 1Password CLI で安全に運用する",
     "url": "https://zenn.dev/notahotel/articles/e85b2cdf9a5833",
     "domain": "zenn.dev",
-    "count": 4,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/notahotel/articles/e85b2cdf9a5833",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--InA3c_Zq--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E5%25B9%25B3%25E6%2596%2587%2520API%2520%25E3%2582%25AD%25E3%2583%25BC%25E3%2582%2592%25201Password%2520CLI%2520%25E3%2581%25A7%25E5%25AE%2589%25E5%2585%25A8%25E3%2581%25AB%25E9%2581%258B%25E7%2594%25A8%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:kajinari%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzAxOGNjZTA4NTYuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:NOT%2520A%2520HOTEL%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2g2QVlrY1NJeEQxQ2w1NzA5bXNZdVBTYVdsZzY4VXJwY1F1LVJnZDMwPXM5Ni1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "初めに 1Password CLI（op コマンド）を使って、設定ファイルやシェルに書かれていた平文の API キーをすべて op:// 参照に置き換えます。 参考: 1Password Blog — AI Agent Identity and Accountability なぜ op:// 参照にするのか .mcp.json や ~/.zshrc に直接書いたキーは平文のままディスクに残り、バックアップ・...",
     "hatenaDate": "2026-10-16T04:20:11Z",
     "users": [],
     "firstSeenAt": "2026-10-16T16:00:16.012439+09:00",
-    "lastSeenAt": "2026-10-16T16:15:12.753922+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "Windows 11、8GBメモリのPCも軽快に 基本メモリ使用量を削減",
     "url": "https://www.watch.impress.co.jp/docs/news/2148683.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 17,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2148683.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2148/683/02.jpg",
     "description": null,
     "hatenaDate": "2026-10-16T04:58:22Z",
     "users": [],
     "firstSeenAt": "2026-10-16T15:45:14.617515+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "人によって態度を変えないポリシーを持ち続けていたが、見事に厄介な人ホイホイだったしいいことが何もなかったね、本当に何も",
@@ -88,85 +101,85 @@
     "hatenaDate": "2026-10-16T01:12:16Z",
     "users": [],
     "firstSeenAt": "2026-10-16T15:22:51.500405+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "『note組大きくリードしてます。はてな組も頑張ってください』 - orangestar2",
     "url": "https://orangestar2.hatenadiary.com/entry/2026/10/16/140905",
     "domain": "orangestar2.hatenadiary.com",
-    "count": 34,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/orangestar2.hatenadiary.com/entry/2026/10/16/140905",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/f0b075dd2b437c5b092324b8c575f0663205a774/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fo%2Forangestar%2F20261016%2F20261016140341.jpg",
     "description": "p.hatena.ne.jp 2026年10月6日に公開されたnoteの3Q決算説明資料を今更ながら確認した。はっきり言って衝撃だった。 全部の数字がすごかった。特に印象に残った数字を抜き出すと以下だ。 売上高14.53億円、前年同期比35.1%増 営業利益3.10億円、前年同期比約3倍。営業利益率21.3% 従業員数161人→151人。AIを積極的に活用...",
     "hatenaDate": "2026-10-16T05:54:14Z",
     "users": [],
     "firstSeenAt": "2026-10-16T15:22:51.500405+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "AIで引ければいい、から始めた運用ナレッジ - RAKUS Developers Blog | ラクス エンジニアブログ",
     "url": "https://tech-blog.rakus.co.jp/entry/20261016/claude-code",
     "domain": "tech-blog.rakus.co.jp",
-    "count": 16,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech-blog.rakus.co.jp/entry/20261016/claude-code",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/f0fa8e26a22a56052d8e9f953f45a13f7e788daf/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftech-rakus%2F20261015%2F20261015101554.png",
     "description": "はじめに 楽楽販売を担当している梶です。 運用の知識をAIから引ける（AIが検索して参照できる）ようにして、開発フローの概要設計に運用影響の確認を組み込むところまで来たので、その経緯を書きます。最初から全体を設計していたわけではなく、気づきのたびに一段ずつ足してきた記録です。 運用への影響は、できるだけ...",
     "hatenaDate": "2026-10-16T06:13:12Z",
     "users": [],
     "firstSeenAt": "2026-10-16T15:22:51.500405+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "はてなブックマークのコメント",
     "url": "https://anond.hatelabo.jp/20261015205458",
     "domain": "anond.hatelabo.jp",
-    "count": 17,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261015205458",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "なんていうか大抵「偉そう」なんだけど、それは、100文字（だっけ？）しか書けないからなんだろうか。 100文字しか書けないから、「それはそうだけど、どうかな、僕はあまりそう感じないけど…でもそういうのもありかもしれない、それでも……（以下省略）」とかそうやってgdgd書けないんだよな。こんな感じの意見だと、ブ...",
     "hatenaDate": "2026-10-15T13:00:10Z",
     "users": [],
     "firstSeenAt": "2026-10-16T15:15:12.673859+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "ヤマト運輸 個人情報530万件余の外部流出を確認 | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261016de60395",
     "domain": "news.web.nhk",
-    "count": 30,
+    "count": 36,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261016de60395",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261016de60395/20261016de60395_E0000079484_1_l.jpg",
     "description": "宅配大手のヤマト運輸は、代金を後払いするサービスに不正アクセスがあり、530万件余りの個人情報が外部に流出したことを確認したと明らかにしました。 流出が確認されたのは、2018年10月1日から202…",
     "hatenaDate": "2026-10-16T05:56:04Z",
     "users": [],
     "firstSeenAt": "2026-10-16T15:15:12.673859+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "まるでSFの世界、テスラが「空飛ぶ車」をお披露目",
     "url": "https://www.cnn.co.jp/business/35253632.html",
     "domain": "www.cnn.co.jp",
-    "count": 28,
+    "count": 30,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.cnn.co.jp/business/35253632.html",
     "screenshot": "https://www.cnn.co.jp/storage/2026/10/16/60397839294a45d359d1ddccda473fe3/screenshot-2026-10-15-at-10-06-24-pm-3__1_.jpg",
     "description": "オーバーハングした路面を離れ、ジェット噴射で空中での姿勢を制御するテスラの「ロードスター」/Youtube/@Tesla （CNN） 米電気自動車（EV）大手テスラのイーロン・マスク最高経営責任者（CEO）は15日、SFやアニメの世界だけのものだった「空飛ぶ車」をお披露目した。 マスク氏が経営するもう一つの上場企業、スペースX...",
     "hatenaDate": "2026-10-16T05:18:18Z",
     "users": [],
     "firstSeenAt": "2026-10-16T15:15:12.673859+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "テスラがコールドガススラスター搭載で飛行可能な新型ロードスターを発表、宙に浮いて障害物を飛び越えるデモ映像も",
     "url": "https://gigazine.net/news/20261016-tesla-unveils-new-roadster-rocket/",
     "domain": "gigazine.net",
-    "count": 16,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261016-tesla-unveils-new-roadster-rocket/",
     "screenshot": "https://i.gzn.jp/img/2026/10/16/tesla-unveils-new-roadster-rocket/00.jpg",
     "description": "イーロン・マスク氏が率いる電気自動車メーカーのテスラが、現地時間の2026年10月15日に新型ロードスター(Roadster)を発表しました。公開されたデモンストレーション映像では、ロードスターが宙を浮いて障害物を飛び越える様子も確認できます。 Roadster – EVスポーツカー | Teslaジャパン https://www.tesla.com/ja_jp/...",
     "hatenaDate": "2026-10-16T04:57:00Z",
     "users": [],
     "firstSeenAt": "2026-10-16T15:00:13.047754+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "ソースネクスト、不正アクセスでパスワード含む会員の個人情報最大約2252万件が流出　他サービスで同じパスワードを使っている人はただちに変更を",
@@ -185,14 +198,14 @@
     "title": "アクセンチュアが従業員に「Claudeは毎月29ドル(約4600円)までしか使えない」と伝える",
     "url": "https://gigazine.net/news/20261016-accenture-ai-limit/",
     "domain": "gigazine.net",
-    "count": 5,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261016-accenture-ai-limit/",
     "screenshot": "https://i.gzn.jp/img/2026/10/16/accenture-ai-limit/00_m.jpg",
     "description": "by Alpha Photo コンサルティング大手のアクセンチュアが、従業員に対して1人当たりのAI使用量を制限すると通知し始めていることが分かりました。AIの使用量を極限まで増やす「トークンマキシング」の流れが終わろうとしています。 Accenture Tells Employees They Can Now Spend Only $29 on Claude Per Month https://...",
     "hatenaDate": "2026-10-16T03:05:48Z",
     "users": [],
     "firstSeenAt": "2026-10-16T14:45:12.663803+09:00",
-    "lastSeenAt": "2026-10-16T15:00:13.047754+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "claude-plugins-official/plugins/claude-security at main · anthropics/claude-plugins-official",
@@ -211,14 +224,14 @@
     "title": "わずか0.43GBでスマホ動作可能なAI「Ternary Bonsai 2」シリーズがオープンモデルとして登場、iPhone 18 Pro Maxで毎秒120トークンの高速処理が可能",
     "url": "https://gigazine.net/news/20261016-ternary-bonsai-2-2b-4b-9b/",
     "domain": "gigazine.net",
-    "count": 15,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261016-ternary-bonsai-2-2b-4b-9b/",
     "screenshot": "https://i.gzn.jp/img/2026/10/16/ternary-bonsai-2-2b-4b-9b/00.png",
     "description": "AI開発企業のPrismMLがスマートフォンでローカル動作する小型AIモデル「Ternary Bonsai 2 2B」「Ternary Bonsai 2 4B」「Ternary Bonsai 2 9B」を現地時間の2026年10月15日に公開しました。すでにiPhoneで動作する環境が整備されています。 PrismML — Introducing Ternary Bonsai 2 2B, 4B, and 9B: Bringing Local Agen...",
     "hatenaDate": "2026-10-16T01:40:33Z",
     "users": [],
     "firstSeenAt": "2026-10-16T14:00:14.220054+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "AIを味方につける！開発チームから始める運用改善〜1人・少人数チームのMackerel活用術〜",
@@ -257,7 +270,7 @@
     "hatenaDate": "2026-10-15T17:02:31Z",
     "users": [],
     "firstSeenAt": "2026-10-16T13:15:13.396712+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "A Real DuckDB Database in S3, With Nothing Else to Run",
@@ -276,14 +289,14 @@
     "title": "【対策】“相次ぐ個人情報の流出” 私たちができることは | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261016de60212",
     "domain": "news.web.nhk",
-    "count": 19,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261016de60212",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261016de60212/20261016de60212_E0000078634_1_l.jpg",
     "description": "企業へのサイバー攻撃によって個人情報が流出した場合、2次被害を防ぐために個人でできる対応にはどんなことがあるのでしょうか。私たちがとるべき対策について、まとめました。 個人情報が流出したら? 情…",
     "hatenaDate": "2026-10-16T03:18:11Z",
     "users": [],
     "firstSeenAt": "2026-10-16T13:00:13.486443+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "メモリ8GBでもWindowsがキビキビ動作！この秋の「Windows 11」は改善が盛りだくさん／マイクロソフトが改善点を解説、検索、スマホ連携、フォト、ゲーミング、ペン・触覚対応、アクセシビリティまで",
@@ -328,14 +341,14 @@
     "title": "Tesla、新型「Roadster」発表　SpaceX技術で“飛べる”モデルも　日本でも予約受付中",
     "url": "https://www.itmedia.co.jp/news/article/2610/16/2000002323/",
     "domain": "www.itmedia.co.jp",
-    "count": 86,
+    "count": 90,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/16/2000002323/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/16/2000002323/10009561/2048",
     "description": "米Teslaは10月15日（現地時間）、次世代EVスポーツカー「Roadster」を発表した。米テキサス州マクレガーにある米SpaceXの試験施設からイベントをライブ配信した。イーロン・マスクCEOは2028年の生産開始を目指すと説明した。価格は明らかにしていないが、日本でも公式サイトで予約を受け付けており、予約金合計は682万円...",
     "hatenaDate": "2026-10-16T02:55:17Z",
     "users": [],
     "firstSeenAt": "2026-10-16T12:30:13.895030+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "Anthropic、METRの評価チームを社内に常駐させ“従業員並み”のアクセス付与　公表に拒否権なし",
@@ -387,7 +400,7 @@
     "hatenaDate": "2026-10-16T00:06:41Z",
     "users": [],
     "firstSeenAt": "2026-10-16T12:15:16.097782+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "ESP32×LoRaで屋外の温湿度を計測・記録する - 詩と創作・思索のひろば",
@@ -400,7 +413,7 @@
     "hatenaDate": "2026-10-16T01:00:03Z",
     "users": [],
     "firstSeenAt": "2026-10-16T12:00:15.419894+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "開発・検証環境のPR承認と負荷試験をAIに任せる ── SRE待ちを減らす線引きとハーネス - ZOZO TECH BLOG",
@@ -432,14 +445,14 @@
     "title": "「スパムのメールヘッダ偽装にニュータイプ出てきた」公式アドレスからの送信だとドコモの送信ドメイン認証が誤認…Xで報告が相次ぐ「ドメインだけでは判断できない」",
     "url": "https://togetter.com/li/2758764",
     "domain": "togetter.com",
-    "count": 75,
+    "count": 77,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2758764",
     "screenshot": "https://s.tgstc.com/ogp3/99eb47b2057c622de3ad3ed07c5bd46c-1200x630.jpeg",
     "description": "T_K_Soft💉💉💉💉💉 @TechnoTreasure スパムのメールヘッダ偽装にニュータイプ出てきた😓 公式アドレスからの送信だと受信側が誤認している。 偽装と気付いた理由は私が楽天カードを持ってないからで、他にも個人名が書かれていないとか識別方法はあるものの、相当紛らわしくなっている。 pic.x.com/bywWtADPju 2026-10-...",
     "hatenaDate": "2026-10-16T02:02:15Z",
     "users": [],
     "firstSeenAt": "2026-10-16T11:45:13.955761+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "電通が「吸うラーメン」　ドラゴンの触り心地も再現【CEATEC 2026】",
@@ -458,27 +471,27 @@
     "title": "「『楽天カード公式』から詐欺メール」報告相次ぐ　ドコモメールに公式マーク付きフィッシング、一部企業の認証設定に脆弱性",
     "url": "https://www.itmedia.co.jp/news/article/2610/16/2000002314/",
     "domain": "www.itmedia.co.jp",
-    "count": 103,
+    "count": 108,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/16/2000002314/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/16/2000002314/10009522/2048",
     "description": "「楽天カードの認証マーク付き詐欺メールが、ドコモメールに届いた」といった報告が、10月15日ごろからXで相次いでいる。送信ドメイン認証をすり抜けたとみられるフィッシングメールが出回っているようだ。 NTTドコモは15日、「ドコモメール」あてに届いたフィッシングメールに、「ドコモメール公式アカウント」の認証マ...",
     "hatenaDate": "2026-10-16T01:57:36Z",
     "users": [],
     "firstSeenAt": "2026-10-16T11:30:13.174952+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "【重要】不正アクセスによる情報流出に関するお詫びとお願い（第一報） | 最新情報 | Studio",
     "url": "https://studio.design/ja/whats-new/unauthorized-access-2026-10",
     "domain": "studio.design",
-    "count": 53,
+    "count": 54,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/studio.design/ja/whats-new/unauthorized-access-2026-10",
     "screenshot": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1920x1080_v-frms_webp_6f3ad747-c784-4125-9d0b-15f6df896b55.png",
     "description": "【重要】不正アクセスによる情報流出に関するお詫びとお願い（第一報）弊社が利用するクラウド環境への第三者による不正アクセスにより、お客様の情報が外部に流出した可能性があることが判明しました。不正アクセスに利用された経路はすでに塞いでおります。経緯と、お客様にお願いしたいご対応をお知らせします。 平素...",
     "hatenaDate": "2026-10-16T01:45:58Z",
     "users": [],
     "firstSeenAt": "2026-10-16T11:30:13.174952+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "NTTソルマーレの「コミックシーモア」閲覧停止に　不正アクセスか - 日本経済新聞",
@@ -530,7 +543,7 @@
     "hatenaDate": "2026-10-15T21:42:04Z",
     "users": [],
     "firstSeenAt": "2026-10-16T09:45:12.736111+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "セキュリティソフトのカスペルスキー、ロシアのYandex爆撃で一時機能停止していた",
@@ -556,7 +569,7 @@
     "hatenaDate": "2026-10-15T22:45:27Z",
     "users": [],
     "firstSeenAt": "2026-10-16T09:15:13.886866+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "宿泊予約管理サービス「TEMAIRAZU」に不正アクセス、予約者に不審なメッセージがあり判明　宿泊予約や緊急の支払い、カード情報の再入力を求めるメッセージに注意を",
@@ -588,14 +601,14 @@
     "title": "2026年10月「Windows Update」でWi-Fi/VPNに接続できない問題、脱「NTLMv1」が影響／あらかじめ計画されていた変更、パッチの不具合ではない",
     "url": "https://forest.watch.impress.co.jp/docs/news/2148594.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 58,
+    "count": 59,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2148594.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2148/594/microsoft.jpg",
     "description": null,
     "hatenaDate": "2026-10-15T23:16:45Z",
     "users": [],
     "firstSeenAt": "2026-10-16T09:00:12.757937+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "AnthropicのBun、TypeScript 7よりも3倍以上高速なTypeScript型チェッカーを搭載。Bunの新バージョン1.4.3で",
@@ -614,14 +627,14 @@
     "title": "速くて安いAI「Jev」でQAを自動化してみた - every Tech Blog",
     "url": "https://tech.every.tv/entry/2026/10/15/125805",
     "domain": "tech.every.tv",
-    "count": 130,
+    "count": 132,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.every.tv/entry/2026/10/15/125805",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/69a2fb974a96d556d3f1bc7339f2505cd4c94dcb/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fm%2Fmathatomo57_every%2F20261014%2F20261014134345.jpg",
     "description": "はじめに こんにちは！株式会社エブリーで1ヶ月間、iOS エンジニアとしてインターンをしていた木村風葉です。ヘルシカの iOS チームで、食事記録まわりの改善や無料会員向けの機能追加など、いくつかの機能開発に取り組みました。 この記事では、インターンの後半に取り組んだ「Jev」という新しいAIを使った検証ツールづ...",
     "hatenaDate": "2026-10-15T09:51:51Z",
     "users": [],
     "firstSeenAt": "2026-10-16T08:45:13.636197+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "Deploy with Void",
@@ -653,40 +666,40 @@
     "title": "【LocalLLM】Claude Codeの代わりになる？精度・同時人数・費用を検証",
     "url": "https://zenn.dev/solvio/articles/6d374a9224327a",
     "domain": "zenn.dev",
-    "count": 82,
+    "count": 83,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/solvio/articles/6d374a9224327a",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--LJ_MkAG5--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590LocalLLM%25E3%2580%2591Claude%2520Code%25E3%2581%25AE%25E4%25BB%25A3%25E3%2582%258F%25E3%2582%258A%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%25EF%25BC%259F%25E7%25B2%25BE%25E5%25BA%25A6%25E3%2583%25BB%25E5%2590%258C%25E6%2599%2582%25E4%25BA%25BA%25E6%2595%25B0%25E3%2583%25BB%25E8%25B2%25BB%25E7%2594%25A8%25E3%2582%2592%25E6%25A4%259C%25E8%25A8%25BC%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:okawa2929%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzhlNjEyZGFhZWIuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Solvio%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFjMjkzMTMwMGUuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "Claude CodeはAmazon BedrockやGoogle Cloudなどを通して、自社で契約したクラウドから使うこともできます。この場合、モデルとの通信先はAnthropicではなく、契約したクラウド事業者（AWSやGoogle Cloudなど）になります。この記事では、Anthropicのクラウドを直接使う場合で比較しています。 AIによるコーディング支援...",
     "hatenaDate": "2026-10-15T12:35:58Z",
     "users": [],
     "firstSeenAt": "2026-10-16T08:30:15.714135+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "リーナス・トーバルズがClaude CodeなどのAIをバリバリ活用してLinuxカーネルの改善に取り組み中",
     "url": "https://gigazine.net/news/20261016-linus-torvalds-claude-code/",
     "domain": "gigazine.net",
-    "count": 182,
+    "count": 185,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261016-linus-torvalds-claude-code/",
     "screenshot": "https://i.gzn.jp/img/2026/10/16/linus-torvalds-claude-code/00.png",
     "description": "Linuxカーネルの生みの親であるリーナス・トーバルズ氏がAIコーディングアシスタントのClaude Codeを活用し、Linuxカーネルの大幅な改善に取り組んでいることが明らかになりました。 Linus Torvalds Working On A Hefty Linux Kernel Improvement With Claude Code - Phoronix https://www.phoronix.com/news/Linus-Torv...",
     "hatenaDate": "2026-10-15T21:32:18Z",
     "users": [],
     "firstSeenAt": "2026-10-16T08:15:12.714230+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "Claude Code 入門",
     "url": "https://speakerdeck.com/nogu66/claude-code-nyuumon",
     "domain": "speakerdeck.com",
-    "count": 340,
+    "count": 345,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/nogu66/claude-code-nyuumon",
     "screenshot": "https://files.speakerdeck.com/presentations/e15389c31a80447f93f9a86abdba2eaf/slide_0.jpg?40921433",
     "description": "Sponsored · Your Podcast. Everywhere. Effortlessly. Share. Educate. Inspire. Entertain. You do you. We'll handle the rest. →",
     "hatenaDate": "2026-10-15T13:28:26Z",
     "users": [],
     "firstSeenAt": "2026-10-16T08:00:13.962422+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "n261015",
@@ -725,7 +738,7 @@
     "hatenaDate": "2026-10-15T10:38:08Z",
     "users": [],
     "firstSeenAt": "2026-10-16T07:30:14.344377+09:00",
-    "lastSeenAt": "2026-10-16T16:45:14.590070+09:00"
+    "lastSeenAt": "2026-10-16T17:00:14.354438+09:00"
   },
   {
     "title": "「コミックシーモア」がサービス停止 不正アクセスか | NHKニュース",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-13T20:15:14.698084+09:00",
     "lastSeenAt": "2026-10-14T06:15:13.159294+09:00"
-  },
-  {
-    "title": "相次ぐ情報漏えいの一因は「Androidアプリ」 NICTが「A2B攻撃」対策を公表",
-    "url": "https://www.watch.impress.co.jp/docs/news/2147764.html",
-    "domain": "www.watch.impress.co.jp",
-    "count": 71,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2147764.html",
-    "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2147/764/nict1.jpg",
-    "description": null,
-    "hatenaDate": "2026-10-13T09:43:45Z",
-    "users": [],
-    "firstSeenAt": "2026-10-13T20:00:17.574428+09:00",
-    "lastSeenAt": "2026-10-14T08:45:13.746566+09:00"
   }
 ]
