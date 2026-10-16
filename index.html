@@ -57,19 +57,9 @@
   <section id="view-entry" hidden>
     <div class="list-status-row">
       <button id="entry-back" type="button" class="btn btn--small">← 一覧に戻る</button>
-      <button id="entry-bookmark-btn" type="button" class="btn btn--small" hidden>ブックマークする</button>
       <button id="entry-filter-btn" type="button" class="btn btn--small">このページをフィルタに登録する</button>
     </div>
     <div id="entry-header" class="entry-header"></div>
-    <form id="bookmark-form" class="bookmark-form" hidden>
-      <textarea id="bookmark-comment" rows="2" placeholder="コメント(任意)" aria-label="ブックマークコメント"></textarea>
-      <input id="bookmark-tags" type="text" placeholder="タグ(スペース区切り・最大10個)" aria-label="タグ" autocomplete="off">
-      <div class="bookmark-form-row">
-        <span id="bookmark-count" class="status"></span>
-        <button id="bookmark-submit" type="submit" class="btn btn--small">ブックマークする</button>
-      </div>
-      <p id="bookmark-status" class="status"></p>
-    </form>
     <blockquote id="entry-description" class="entry-description"></blockquote>
     <div class="list-status-row">
       <p id="entry-status" class="status"></p>
@@ -196,7 +186,7 @@
     <section class="modal-section my-bookmarks-section">
       <h3>中継Worker(自分のブックマーク・ブックマーク投稿)<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-my" aria-label="説明を表示">?</button></h3>
       <p id="hint-my" class="hint" hidden>
-        ヘッダーの🔖で開く「自分のブックマーク」ページと、記事ページの「ブックマークする」の接続設定です。はてなのAPIはブラウザから直接使えない(CORS・OAuth)ため、自前の中継Worker(<code>worker/</code>)経由で呼びます。はてなidとOAuthの鍵はWorker側のsecretにだけ置き、このアプリには保存しません。ここに入れるのはWorkerのURLとアクセストークンだけで、どちらもこの端末のlocalStorageにのみ保存します(Gist同期の対象外)。アクセストークンが漏れると、あなたのアカウントでブックマークを投稿されるため、長いランダム文字列にしてください。
+        ヘッダーの🔖で開く「自分のブックマーク」ページと、記事ページ下部の「ブクマ」の接続設定です。はてなのAPIはブラウザから直接使えない(CORS・OAuth)ため、自前の中継Worker(<code>worker/</code>)経由で呼びます。はてなidとOAuthの鍵はWorker側のsecretにだけ置き、このアプリには保存しません。ここに入れるのはWorkerのURLとアクセストークンだけで、どちらもこの端末のlocalStorageにのみ保存します(Gist同期の対象外)。アクセストークンが漏れると、あなたのアカウントでブックマークを投稿されるため、長いランダム文字列にしてください。
       </p>
       <div class="sync-fields">
         <input id="my-endpoint-input" type="url" placeholder="Worker URL (https://….workers.dev)" autocomplete="off">
@@ -284,6 +274,13 @@
 <footer id="app-bottom-bar" class="app-bottom-bar">
   <div class="app-footer"><span id="next-update-info"></span></div>
   <nav id="entry-nav-bar" class="entry-nav-bar" hidden>
+    <form id="bookmark-form" class="bookmark-bar" hidden>
+      <p id="bookmark-status" class="status bookmark-bar-status"></p>
+      <div class="bookmark-bar-row">
+        <input id="bookmark-comment" type="text" class="bookmark-input" placeholder="コメント" aria-label="ブックマークコメント" autocomplete="off" enterkeyhint="send">
+        <button id="bookmark-submit" type="submit" class="btn bookmark-btn">ブクマ</button>
+      </div>
+    </form>
     <div class="entry-nav-bar-inner">
       <button id="entry-prev-btn" type="button" class="btn entry-nav-btn">← 前の記事へ</button>
       <button id="entry-back-bottom" type="button" class="btn entry-nav-btn">一覧へ戻る</button>

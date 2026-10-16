@@ -15,11 +15,8 @@
   const entryBack = document.getElementById('entry-back');
   const entryBackBottom = document.getElementById('entry-back-bottom');
   const entryFilterBtn = document.getElementById('entry-filter-btn');
-  const entryBookmarkBtn = document.getElementById('entry-bookmark-btn');
   const bookmarkForm = document.getElementById('bookmark-form');
   const bookmarkComment = document.getElementById('bookmark-comment');
-  const bookmarkTags = document.getElementById('bookmark-tags');
-  const bookmarkCount = document.getElementById('bookmark-count');
   const bookmarkSubmit = document.getElementById('bookmark-submit');
   const bookmarkStatus = document.getElementById('bookmark-status');
   const entryPrevBtn = document.getElementById('entry-prev-btn');
@@ -1078,109 +1075,80 @@
     entryFilterBtn.disabled = true;
   });
 
-  // ---- ブックマーク投稿(記事ページ) ----
-  // 中継Worker(OAuth署名はWorker側)経由で、自分のブックマークを追加・更新する。
-  // フォームを開いた時にそのURLの既存ブックマークを取得して入れておく(はてなのPOSTは
-  // 既存を上書きするため、知らずにコメントを消さないように)。Worker未設定なら出さない。
-  const BOOKMARK_COMMENT_SOFT_LIMIT = 100; // はてなの画面上のコメント上限の目安(超過は警告だけ)
-  const BOOKMARK_MAX_TAGS = 10;
-  let bookmarkTarget = null; // フォームの対象URL
+  // ---- ブックマーク投稿(記事ページ下部のコメント入力+「ブクマ」) ----
+  // 中継Worker(OAuth署名はWorker側)経由で、自分のブックマークを追加・更新する。Worker未設定なら出さない。
+  // はてなのPOSTは既存を上書きする(コメントもタグも)ため、記事を開いたら自分の既存ブックマークを
+  // 取得して入力欄に入れ、取得できるまで「ブクマ」は押せない。タグは編集しないが、既存のタグは
+  // 取得して保持し、そのまま送り直す(送らないとコメントの更新でタグが消える)。
+  const BOOKMARK_LOAD_DELAY_MS = 400; // 前後の記事へ素早く移る時にWorkerを連打しない
+  const BOOKMARK_RELOAD_DELAY_MS = 800; // 投稿直後に取り直すと反映前の可能性があるため少し待つ
+  let bookmarkTarget = null; // 対象URL
   let bookmarkLoadedFor = null; // 既存ブックマークの取得済みURL
+  let bookmarkTags = []; // 既存のタグ(編集不可・保持して再送)
   let bookmarkSeq = 0; // 記事遷移後に古い応答を反映しないための世代番号
   let bookmarkSending = false;
-
-  function parseBookmarkTags(text) {
-    return text.split(/[\s,、]+/).filter(Boolean);
-  }
-
-  function updateBookmarkCount() {
-    const len = [...bookmarkComment.value].length;
-    bookmarkCount.textContent = `${len}/${BOOKMARK_COMMENT_SOFT_LIMIT}`;
-    bookmarkCount.classList.toggle('bookmark-count--over', len > BOOKMARK_COMMENT_SOFT_LIMIT);
-  }
+  let bookmarkLoadTimer = null;
 
   function resetBookmarkForm(url) {
     bookmarkSeq++;
+    clearTimeout(bookmarkLoadTimer);
     bookmarkTarget = url || null;
     bookmarkLoadedFor = null;
+    bookmarkTags = [];
     bookmarkSending = false;
-    bookmarkForm.hidden = true;
     bookmarkComment.value = '';
-    bookmarkTags.value = '';
     bookmarkStatus.textContent = '';
-    bookmarkSubmit.disabled = false;
-    bookmarkSubmit.textContent = 'ブックマークする';
-    updateBookmarkCount();
-    entryBookmarkBtn.hidden = !url || !MyBookmarks.isConfigured();
+    bookmarkSubmit.disabled = true;
+    const visible = !!url && MyBookmarks.isConfigured();
+    bookmarkForm.hidden = !visible;
+    if (visible) bookmarkLoadTimer = setTimeout(loadExistingBookmark, BOOKMARK_LOAD_DELAY_MS);
   }
 
   async function loadExistingBookmark() {
-    if (!bookmarkTarget || bookmarkLoadedFor === bookmarkTarget) return;
     const seq = bookmarkSeq;
     const target = bookmarkTarget;
-    bookmarkSubmit.disabled = true;
-    bookmarkStatus.textContent = '自分のブックマークを確認中…';
+    if (!target) return;
     try {
       const mine = await MyBookmarks.getBookmark(target);
       if (seq !== bookmarkSeq) return;
       bookmarkLoadedFor = target;
-      if (mine.exists) {
-        bookmarkComment.value = mine.comment;
-        bookmarkTags.value = mine.tags.join(' ');
-        bookmarkSubmit.textContent = '更新する';
-        bookmarkStatus.textContent = 'ブックマーク済みです。送信すると内容を上書きします。';
-      } else {
-        bookmarkSubmit.textContent = 'ブックマークする';
-        bookmarkStatus.textContent = '';
-      }
-      updateBookmarkCount();
+      bookmarkTags = mine.tags;
+      // 取得を待つ間に入力が始まっていたら、その入力を上書きしない
+      if (mine.exists && !bookmarkComment.value) bookmarkComment.value = mine.comment;
+      bookmarkSubmit.disabled = false;
     } catch (err) {
       if (seq !== bookmarkSeq) return;
       // 既存の状態が分からないまま送ると上書きの恐れがあるため、取得できなければ送信させない。
+      console.error(err);
       bookmarkStatus.textContent = `自分のブックマークを確認できませんでした: ${err.message}`;
-      return;
     }
-    bookmarkSubmit.disabled = false;
   }
-
-  entryBookmarkBtn.addEventListener('click', () => {
-    bookmarkForm.hidden = !bookmarkForm.hidden;
-    if (!bookmarkForm.hidden) {
-      loadExistingBookmark();
-      bookmarkComment.focus({ preventScroll: true });
-    }
-  });
-
-  bookmarkComment.addEventListener('input', updateBookmarkCount);
 
   bookmarkForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     if (bookmarkSending || !bookmarkTarget || bookmarkLoadedFor !== bookmarkTarget) return;
-    const tags = parseBookmarkTags(bookmarkTags.value);
-    if (tags.length > BOOKMARK_MAX_TAGS) {
-      bookmarkStatus.textContent = `タグは最大${BOOKMARK_MAX_TAGS}個までです(現在${tags.length}個)。`;
-      return;
-    }
     const seq = bookmarkSeq;
+    const target = bookmarkTarget;
     bookmarkSending = true;
     bookmarkSubmit.disabled = true;
     bookmarkStatus.textContent = '送信中…';
     try {
-      const saved = await MyBookmarks.postBookmark({ url: bookmarkTarget, comment: bookmarkComment.value, tags });
-      if (seq !== bookmarkSeq) return;
-      bookmarkComment.value = saved.comment;
-      bookmarkTags.value = saved.tags.join(' ');
-      updateBookmarkCount();
-      bookmarkSubmit.textContent = '更新する';
-      bookmarkStatus.textContent = 'ブックマークしました。';
-      meFetchedAt = 0; // 「自分のブックマーク」ページは次に開いた時に取り直す
+      await MyBookmarks.postBookmark({ url: target, comment: bookmarkComment.value, tags: bookmarkTags });
     } catch (err) {
       if (seq !== bookmarkSeq) return;
       console.error(err);
       bookmarkStatus.textContent = `送信に失敗しました: ${err.message}`;
+      bookmarkSending = false;
+      bookmarkSubmit.disabled = false;
+      return;
     }
-    bookmarkSending = false;
-    bookmarkSubmit.disabled = false;
+    meFetchedAt = 0; // 「自分のブックマーク」ページは次に開いた時に取り直す
+    if (seq !== bookmarkSeq) return;
+    bookmarkStatus.textContent = 'ブクマしました。再読み込み中…';
+    // 自分の書き込みを表示するため、記事ページを取り直す(入力欄も取り直した内容に入れ替わる)。
+    await new Promise((resolve) => setTimeout(resolve, BOOKMARK_RELOAD_DELAY_MS));
+    if (seq !== bookmarkSeq) return;
+    renderEntryView(target);
   });
 
   // 前後の記事へ移動した際、直前のスクロール位置(コメント欄の途中/末尾)が
@@ -1713,7 +1681,7 @@
   mySaveBtn.addEventListener('click', async () => {
     MyBookmarks.setConfig({ endpoint: myEndpointInput.value, token: myTokenInput.value });
     resetMeState();
-    entryBookmarkBtn.hidden = !bookmarkTarget || !MyBookmarks.isConfigured();
+    if (!entryView.hidden) resetBookmarkForm(bookmarkTarget); // 設定を変えた直後も、フォームの出し分けと既存の取得をやり直す
     if (!MyBookmarks.isConfigured()) {
       myStatus.textContent = '未設定';
       return;

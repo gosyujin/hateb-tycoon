@@ -200,6 +200,48 @@ main {
 .entry-nav-bar[hidden] {
   display: none;
 }
+/* ブックマーク投稿(コメント入力+ブクマ)。前後ナビの行の上に積む。Worker未設定の端末では出さない。 */
+.bookmark-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 8px 10px 0;
+}
+.bookmark-bar[hidden] {
+  display: none;
+}
+.bookmark-bar-row {
+  display: flex;
+  gap: 8px;
+}
+.bookmark-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-size: 16px; /* iOSのフォーカス時ズームを避ける */
+}
+.bookmark-btn {
+  flex: 0 0 auto;
+  padding: 10px 18px;
+  white-space: nowrap;
+}
+.bookmark-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.bookmark-bar-status {
+  margin: 0;
+  font-size: 0.8rem;
+}
+.bookmark-bar-status:empty {
+  display: none;
+}
 .entry-nav-bar-inner {
   display: flex;
   gap: 8px;
@@ -1230,42 +1272,4 @@ a.btn {
 }
 #me-open-settings {
   margin-bottom: 12px;
-}
-
-/* ---- ブックマーク投稿フォーム(記事ページ) ---- */
-.bookmark-form {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin: 0 0 12px;
-  padding: 12px;
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-}
-.bookmark-form[hidden] {
-  display: none;
-}
-.bookmark-form textarea,
-.bookmark-form input {
-  padding: 6px 10px;
-  border-radius: var(--radius);
-  border: 1px solid var(--color-border);
-  font: inherit;
-  font-size: 16px; /* iOSのフォーカス時ズームを避ける */
-  color: var(--color-text);
-  background: var(--color-bg);
-  resize: vertical;
-}
-.bookmark-form-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-}
-.bookmark-form .status {
-  margin: 0;
-}
-.bookmark-count--over {
-  color: var(--color-danger);
 }
