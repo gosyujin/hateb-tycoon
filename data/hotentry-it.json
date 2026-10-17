@@ -1,5 +1,18 @@
 [
   {
+    "title": "JPCERT/CC、アプリ解析によるAPI攻撃の手口を報告、Flutter解析ツールの痕跡も ——API認証情報の扱いに注意喚起 | gihyo.jp",
+    "url": "https://gihyo.jp/article/2026/10/web-api-attacks",
+    "domain": "gihyo.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/article/2026/10/web-api-attacks",
+    "screenshot": "https://gihyo.jp/assets/images/ICON/2026/3114_web_api_attacks.png",
+    "description": "JPCERT/CC⁠⁠、アプリ解析によるAPI攻撃の手口を報告⁠⁠、Flutter解析ツールの痕跡も —⁠—API認証情報の扱いに注意喚起 JPCERT/CCは2026年10月15日、国内で相次ぐ不正アクセスを受けて進めている攻撃元サーバーの調査結果を公開した。Androidアプリを解析して接続先のAPIを特定し、悪用する手口を確認した。調査対象のサー...",
+    "hatenaDate": "2026-10-16T11:10:24Z",
+    "users": [],
+    "firstSeenAt": "2026-10-17T10:30:14.883770+09:00",
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
+  },
+  {
     "title": "【レビュー】「Surface Laptop Ultra」を試す 81万円のRTX Spark搭載機はMacBook Proを凌駕するか",
     "url": "https://www.watch.impress.co.jp/docs/review/review/2148940.html",
     "domain": "www.watch.impress.co.jp",
@@ -10,33 +23,33 @@
     "hatenaDate": "2026-10-16T12:15:27Z",
     "users": [],
     "firstSeenAt": "2026-10-17T10:15:14.388378+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "How the Claude Code team does code review / claude.dev Blog",
     "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
     "domain": "claude.dev",
-    "count": 20,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/claude.dev/blog/solving-code-review-at-anthropic/",
     "screenshot": "https://claude.dev/blog/solving-code-review-at-anthropic/og.png",
     "description": "We've said before that Claude writes about 90 percent of Claude Code's own code. So how do we review code at the volume we produce it? Does anyone read code anymore? And if something breaks, who catches it? This post covers the code review flow on the Claude Code team and how it has evolved. From...",
     "hatenaDate": "2026-10-16T12:24:30Z",
     "users": [],
     "firstSeenAt": "2026-10-17T10:00:16.971500+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "「AI以外ありえない」サイバー攻撃、無差別に会員情報サイト狙う - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOCD158220V11C26A0000000/",
     "domain": "www.nikkei.com",
-    "count": 5,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOCD158220V11C26A0000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3736077016102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=bcf6edb5b0538d424d57cf9557298a9e",
     "description": "サイバー攻撃による個人情報の流出が連日報じられ、異常とも言える状況に専門家は調査を続けている。見えてきたのが、これまで攻撃者が見向きもしなかった組織まで片っ端から狙われ、安全と思われたスマートフォンのアプリにまで被害が広がっている現実だ。人でも、ツールでもない何かに「気持ち悪さ」「人でもない、ツ...",
     "hatenaDate": "2026-10-16T23:20:09Z",
     "users": [],
     "firstSeenAt": "2026-10-17T10:00:16.971500+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "InstagramグラフAPIのプラットフォーム利用規約違反対応をしました - production.log",
@@ -49,20 +62,20 @@
     "hatenaDate": "2026-10-16T21:13:31Z",
     "users": [],
     "firstSeenAt": "2026-10-17T09:45:16.415713+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "ポートフォリオをVoidで作り直したので、Voidの来歴と中身を整理する",
     "url": "https://zenn.dev/nkzn/articles/my-first-void",
     "domain": "zenn.dev",
-    "count": 9,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/nkzn/articles/my-first-void",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--Aq4Q5eIw--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%259D%25E3%2583%25BC%25E3%2583%2588%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25AA%25E3%2582%25AA%25E3%2582%2592Void%25E3%2581%25A7%25E4%25BD%259C%25E3%2582%258A%25E7%259B%25B4%25E3%2581%2597%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E3%2580%2581Void%25E3%2581%25AE%25E6%259D%25A5%25E6%25AD%25B4%25E3%2581%25A8%25E4%25B8%25AD%25E8%25BA%25AB%25E3%2582%2592%25E6%2595%25B4%25E7%2590%2586%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Nkzn%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hpRkgxVktGMXZZOFk2eEtfZl9PVklHS2pEeWxkWG42MzVLU0VEZEE9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "筆者のポートフォリオサイトnkzn.netは、これまで何度か作り直してきました。最初はNext.jsとExpo(react-native-web)を組み合わせた構成、2代目はExpo Router、3代目はAstroと、その上で動くCMSのEmDashで作り始めたものの、完成しないまま止まっていました。 そこへ2026年10月15日、Cloudflareのブログに「Deploy with ...",
     "hatenaDate": "2026-10-16T16:35:53Z",
     "users": [],
     "firstSeenAt": "2026-10-17T09:45:16.415713+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "「Firefox」ならすぐに要約できて、拡張機能が使えて、プライバシーも守れる [てっぱんアプリ！]",
@@ -75,7 +88,7 @@
     "hatenaDate": "2026-10-16T05:47:37Z",
     "users": [],
     "firstSeenAt": "2026-10-17T09:45:16.415713+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "さくらのVPSにおけるLinuxカーネルの脆弱性（CVE-2026-99999）への対応状況について",
@@ -88,7 +101,7 @@
     "hatenaDate": "2026-10-16T13:16:01Z",
     "users": [],
     "firstSeenAt": "2026-10-17T09:30:14.010358+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "さくらのクラウドにおけるLinuxカーネルの脆弱性（CVE-2026-99999）への対応状況について",
@@ -101,7 +114,7 @@
     "hatenaDate": "2026-10-16T15:48:30Z",
     "users": [],
     "firstSeenAt": "2026-10-17T09:30:14.010358+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "NVD - Home",
@@ -114,7 +127,7 @@
     "hatenaDate": "2026-10-16T09:52:22Z",
     "users": [],
     "firstSeenAt": "2026-10-17T08:30:13.236585+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "個人情報漏えい のべ1億6500万人分余に 利用者の対策は? | NHKニュース",
@@ -127,20 +140,20 @@
     "hatenaDate": "2026-10-16T10:02:49Z",
     "users": [],
     "firstSeenAt": "2026-10-17T07:15:17.918044+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "Windows PC向けNVIDIA製SoC「RTX Spark」の正体が明らかに。Microsoftと共同でゲームへの対応も進める",
     "url": "https://www.4gamer.net/games/050/G105051/20261015021/",
     "domain": "www.4gamer.net",
-    "count": 28,
+    "count": 29,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.4gamer.net/games/050/G105051/20261015021/",
     "screenshot": "https://www.4gamer.net/games/050/G105051/20261015021/SS/003.jpg",
     "description": "Windows PC向けNVIDIA製SoC「RTX Spark」の正体が明らかに。Microsoftと共同でゲームへの対応も進める ライター：西川善司 去る北米時間2026年10月7日，NVIDIA製のSoC（System on a Chip）「NVIDIA RTX Spark」搭載PCが，MicrosoftやASUSTeK Computer，MSIなどから発表となった。 その翌日である10月8日，NVIDIAは，米国...",
     "hatenaDate": "2026-10-16T19:27:09Z",
     "users": [],
     "firstSeenAt": "2026-10-17T06:30:14.407070+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "Analyzing technical documents with Deep Review",
@@ -153,20 +166,20 @@
     "hatenaDate": "2026-10-16T08:27:26Z",
     "users": [],
     "firstSeenAt": "2026-10-17T05:15:13.434898+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "Eストアー「ショップサーブ」不正アクセスによるサイバー攻撃の影響企業まとめ―最終報で約2,335万人の情報漏えい、7,858店舗が対象|セキュリティ対策Lab",
     "url": "https://rocket-boys.co.jp/security-measures-lab/shopserve-data-breach-company-list-2026/",
     "domain": "rocket-boys.co.jp",
-    "count": 32,
+    "count": 34,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/rocket-boys.co.jp/security-measures-lab/shopserve-data-breach-company-list-2026/",
     "screenshot": "https://rocket-boys.co.jp/wp-content/uploads/2026/09/shopserve-data-breach-company-list-2026.png",
     "description": "株式会社Eストアーが運営するEC構築サービス「ショップサーブ」への不正アクセスを巡り、2026年10月16日に調査結果の最終報が公表されました。漏えい対象者数は約2,335万6,000人で、うち約209万6,900人にはクレジットカード情報の一部が含まれます。対象店舗は現在の利用店舗と過去の利用店舗を合わせて7,858店です。 E...",
     "hatenaDate": "2026-09-27T08:52:34Z",
     "users": [],
     "firstSeenAt": "2026-10-17T04:30:14.095523+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "楽天モバイル、「iPhone Duo」の価格を発表　約43万円～",
@@ -179,7 +192,7 @@
     "hatenaDate": "2026-10-16T09:00:14Z",
     "users": [],
     "firstSeenAt": "2026-10-17T03:30:15.221064+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "TimeTreeはいかに国内外でアプリをグロースしていったのか―ad:tech tokyo 2024参加レポート（2）｜Moloco Japan",
@@ -192,7 +205,7 @@
     "hatenaDate": "2026-10-16T14:30:05Z",
     "users": [],
     "firstSeenAt": "2026-10-17T02:00:12.387590+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "AIエージェントの危険な操作を別のAIが検出してブロックする「Armor」をOpenRouterがリリース",
@@ -205,7 +218,7 @@
     "hatenaDate": "2026-10-16T10:25:01Z",
     "users": [],
     "firstSeenAt": "2026-10-17T01:45:13.505618+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "メモリ8GBのPCを救えるか。Windows 11、応答性が最大20%向上",
@@ -218,20 +231,20 @@
     "hatenaDate": "2026-10-16T06:15:17Z",
     "users": [],
     "firstSeenAt": "2026-10-17T01:15:13.008012+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "Linux カーネルのネットワーク機能におけるページキャッシュの上書きが可能となるデータ検証不備の脆弱性（Scan Tech Report） | ScanNetSecurity",
     "url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56483.html",
     "domain": "scan.netsecurity.ne.jp",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/scan.netsecurity.ne.jp/article/2026/10/16/56483.html",
     "screenshot": "https://scan.netsecurity.ne.jp/imgs/ogp_f/55464.png",
     "description": "2026 年 5 月に修正された Linux カーネルの脆弱性を悪用するエクスプロイトコードが公開されています。",
     "hatenaDate": "2026-10-16T09:51:02Z",
     "users": [],
     "firstSeenAt": "2026-10-17T01:00:13.149044+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "コミックシーモアが不正アクセス確認 会員情報が漏えい | NHKニュース",
@@ -244,20 +257,20 @@
     "hatenaDate": "2026-10-16T12:29:06Z",
     "users": [],
     "firstSeenAt": "2026-10-17T00:30:13.592753+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "漏えいが起きたときに最初に読んでほしい章を、発売前に公開します - 思い出したいことがある",
     "url": "https://www.seko-law.com/entry/reort",
     "domain": "www.seko-law.com",
-    "count": 82,
+    "count": 85,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.seko-law.com/entry/reort",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/53b7b897823c8d0c1153f01c22885ec33f9eeafc/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fseko-law%2F20261016%2F20261016204124.png",
     "description": "1.今日のテーマ 今回は、2026年11月30日に有斐閣から発売される『個人情報保護法に基づくインシデント対応の実務』の一部を、発売に先駆けてこのブログで公開します。 公開するのは、本書第1部第1章「総論」の手元原稿です。インシデント対応の全体の流れと本書の読み方に加えて、個人情報保護委員会への報告フォームを1...",
     "hatenaDate": "2026-10-16T12:50:09Z",
     "users": [],
     "firstSeenAt": "2026-10-17T00:15:13.736901+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "【速報】ヤマト運輸、531万件の顧客情報流出",
@@ -296,7 +309,7 @@
     "hatenaDate": "2026-10-16T12:07:02Z",
     "users": [],
     "firstSeenAt": "2026-10-16T23:30:12.621281+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "【重要】本人確認書類画像の第三者閲覧の可能性について（Snapmart） | Snapmart（スナップマート）公式ブログ",
@@ -315,14 +328,14 @@
     "title": "徳丸浩氏に聞く、タイムズカー事案から考えるユーザーデータ管理 保管場所と漏えいリスクの移転・回避、消去の判断体制",
     "url": "https://unitis.jp/articles/24665/",
     "domain": "unitis.jp",
-    "count": 129,
+    "count": 132,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/unitis.jp/articles/24665/",
     "screenshot": "https://unitis.jp/wp-content/uploads/2026/10/ct2dCJhn.jpg",
     "description": "UNITIS セキュリティマネジメント 徳丸浩氏に聞く、タイムズカー事案から考えるユーザーデータ管理 保管場所と漏えいリスクの移転・回避、消去の判断体制 タイムズモビリティ株式会社は9月25日、同社が運営するカーシェアリングサービス「タイムズカー」のWebシステムが第三者による不正アクセスを受けたことを公表しま...",
     "hatenaDate": "2026-10-16T01:31:13Z",
     "users": [],
     "firstSeenAt": "2026-10-16T23:15:14.453498+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "10月30日以降にFacebook・Instagram・WhatsAppを利用する企業アカウントはMetaが自社のウェブサイトをスクレイピングすることに同意したものとみなされる",
@@ -335,7 +348,7 @@
     "hatenaDate": "2026-10-16T10:24:40Z",
     "users": [],
     "firstSeenAt": "2026-10-16T23:00:15.392589+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "“答えだけください”を極めたAI「Jev」、チャットしないAIで300件の問い合わせを一気に仕分けてみた【柳谷智宣のAI ウォッチ！】",
@@ -361,7 +374,7 @@
     "hatenaDate": "2026-10-16T12:14:08Z",
     "users": [],
     "firstSeenAt": "2026-10-16T22:00:18.345090+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "ECサイトシステム運営会社の情報漏えい 2335万件を確認 | NHKニュース",
@@ -413,7 +426,7 @@
     "hatenaDate": "2026-10-13T12:36:28Z",
     "users": [],
     "firstSeenAt": "2026-10-16T21:30:16.966598+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "タイムズカー、退会後も7年間保管していた免許証画像を全削除へ　約660万アカウント分の漏えい受け",
@@ -426,7 +439,7 @@
     "hatenaDate": "2026-10-16T10:18:39Z",
     "users": [],
     "firstSeenAt": "2026-10-16T21:00:14.807145+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "OpenCode 2.0",
@@ -543,7 +556,7 @@
     "hatenaDate": "2026-10-16T09:57:11Z",
     "users": [],
     "firstSeenAt": "2026-10-16T19:45:12.932473+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "日経新聞社、クラウドサービスへの不正アクセスで約183万件の個人情報漏えい",
@@ -588,14 +601,14 @@
     "title": "ソースネクスト パスワード暗号化がない状態で流出 再設定を | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261016de60556",
     "domain": "news.web.nhk",
-    "count": 234,
+    "count": 236,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261016de60556",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261016de60556/20261016de60556_E0000079642_1_l.jpg",
     "description": "年賀状ソフトなどを手がける「ソースネクスト」で、メールアドレスやパスワードなど大量の個人情報が不正アクセスによって流出した問題で、このうちパスワードは暗号がかかっていない状態で流出していたことが会社へ…",
     "hatenaDate": "2026-10-16T09:05:24Z",
     "users": [],
     "firstSeenAt": "2026-10-16T19:00:15.559671+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "『コミックシーモア』会員情報の流出に関するお詫びとお願い｜ニュースリリース｜NTTソルマーレ株式会社",
@@ -634,7 +647,7 @@
     "hatenaDate": "2026-10-16T01:12:19Z",
     "users": [],
     "firstSeenAt": "2026-10-16T17:45:13.315786+09:00",
-    "lastSeenAt": "2026-10-17T10:17:54.430239+09:00"
+    "lastSeenAt": "2026-10-17T10:30:14.883770+09:00"
   },
   {
     "title": "米国の8つの州がオープンAIを提訴 “子どもに危険な設計” | NHKニュース",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-14T09:36:53.727127+09:00",
     "lastSeenAt": "2026-10-14T23:30:12.919393+09:00"
-  },
-  {
-    "title": "Character.ai、米連邦破産法11条を申請　Disney系が一部IPのライセンス取得で先行入札",
-    "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002238/",
-    "domain": "www.itmedia.co.jp",
-    "count": 16,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/14/2000002238/",
-    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/14/2000002238/10009250/2048",
-    "description": "AIキャラクターとのチャットサービス「Character.ai」を運営する米Character Technologiesは10月12日（現地時間）、米連邦破産法第11条（チャプター11）の適用をデラウェア州の連邦破産裁判所に自主的に申請したと発表した。 チャプター11は、裁判所の監督下で資産の全部または実質的に全部を売却するための手続きだ。売...",
-    "hatenaDate": "2026-10-13T23:24:57Z",
-    "users": [],
-    "firstSeenAt": "2026-10-14T09:30:12.628384+09:00",
-    "lastSeenAt": "2026-10-14T14:00:12.742694+09:00"
   }
 ]
