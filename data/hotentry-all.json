@@ -1,250 +1,276 @@
 [
   {
+    "title": "一定の年代の人たちが頑なにシャツインを拒むのはどうしてなの？インした方が絶対かわいいのに「シャツインは無理なのだ（力強い意志と眼差し）」",
+    "url": "https://togetter.com/li/2759191",
+    "domain": "togetter.com",
+    "count": 10,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2759191",
+    "screenshot": "https://s.tgstc.com/ogp3/f3664b1e85085666f922bf36c80c5c00-1200x630.jpeg",
+    "description": "こえびちゃん。 @ceb_chan 猛烈にシャツインしたいんだけどこの位の年代位から何故か頑なにシャツインを拒むくない…？確定でもっと良くなるのに…。 オカンも絶っっっ対インしない…ケーキの先っちょの美味しいところは頼んだらくれるのに、インした方が絶対かわいいからインしてって言ってもインだけはしてくれん。なぜ。...",
+    "hatenaDate": "2026-10-17T02:03:42Z",
+    "users": [],
+    "firstSeenAt": "2026-10-17T11:45:12.856525+09:00",
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
+  },
+  {
+    "title": "CVE-2026-99999（PwnEscape）を読み解く──「KVMの脆弱性」ではなく、Linuxネットワークスタックの脆弱性 - Qiita",
+    "url": "https://qiita.com/k2_naka/items/fa87685231377f15e7e3",
+    "domain": "qiita.com",
+    "count": 10,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/k2_naka/items/fa87685231377f15e7e3",
+    "screenshot": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnBicy50d2ltZy5jb20lMkZwcm9maWxlX2ltYWdlcyUyRjE3NzU1MDAzOTI1MzQ4MTA2MjQlMkZaU0VuUkJXaV9iaWdnZXIuanBnP2l4bGliPXJiLTQuMS4xJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz02ODZiMDU0MWFhODA2NGQwYzA4YjgwNGZiYjk5MTA4ZQ%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D8821a726f89b583b9d9eb37b6f43a5b2?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9Q1ZFLTIwMjYtOTk5OTklRUYlQkMlODhQd25Fc2NhcGUlRUYlQkMlODklRTMlODIlOTIlRTglQUElQUQlRTMlODElQkYlRTglQTclQTMlRTMlODElOEYlRTIlOTQlODAlRTIlOTQlODAlRTMlODAlOENLVk0lRTMlODElQUUlRTglODQlODYlRTUlQkMlQjElRTYlODAlQTclRTMlODAlOEQlRTMlODElQTclRTMlODElQUYlRTMlODElQUElRTMlODElOEYlRTMlODAlODFMaW51eCVFMyU4MyU4RCVFMyU4MyU4MyVFMyU4MyU4OCVFMyU4MyVBRiVFMyU4MyVCQyVFMyU4MiVBRiVFMyU4MiVCOSVFMyU4MiVCRiVFMiU4MCVBNiZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPTU1ZGE2Y2FlZjg3NDgwOTVjOGQzMWMyZjUzZTdhMmZj&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBrMl9uYWthJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9OGQ4YmUxZDIyNWZkNWM3NGY0ZTRhN2M1Yjk0ZTQyNTI&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=11c9e17e92010cab6c91bcd954d23cc1",
+    "description": "本稿は筆者個人の分析であり、所属組織や各事業者の公式見解ではありません。基準日は2026年10月16日（資料確認 21:24 JST）です。CVE・修正版・各事業者の対応状況は変動するため、適用判断時には原典と自環境を再確認してください。本文の参照番号 [n] は末尾「参照」の根拠URLに対応します。 本稿での「確認」の範囲 ...",
+    "hatenaDate": "2026-10-16T17:16:58Z",
+    "users": [],
+    "firstSeenAt": "2026-10-17T11:45:12.856525+09:00",
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
+  },
+  {
     "title": "テスラの空飛ぶロードスター、空気の力で車体浮上　株価は2%下落 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOGN16BOL0W6A011C2000000/",
     "domain": "www.nikkei.com",
-    "count": 15,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN16BOL0W6A011C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3740829017102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=1e23ce97525e0c11ee4e8f04aa4fbe49",
     "description": "【ニューヨーク=川上梓、ヒューストン=大平祐嗣】米テスラが15日に公開したスポーツ車「ロードスター」は飛行の実演で空気を用いた2つの特殊技術で新しいモビリティーの形を示した。株価は16日、一時浮上したものの終値で約2%下落した。注目技術は「ガススラスター」と「吸引システム」ロードスターは米スペースXの試験...",
     "hatenaDate": "2026-10-16T21:54:13Z",
     "users": [],
     "firstSeenAt": "2026-10-17T11:30:14.668338+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "BASE子会社の漏えい、約2335万人分に　209万人分はクレカ番号「先頭6桁と下4桁」「有効期限」も",
     "url": "https://www.itmedia.co.jp/news/article/2610/17/2000002349/",
     "domain": "www.itmedia.co.jp",
-    "count": 28,
+    "count": 34,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/17/2000002349/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/17/2000002349/10009678/2048",
     "description": "ショップサーブは、企業が独自ドメインのネットショップを作るためのECサイト構築・運営支援サービス。25年7月にBASEがEストアーの全株式を取得して子会社化した。 今回の漏えいは8月に公表。詳細を調べた結果、10月16日に最終報が出た。 店舗はID・パスワードなど、購入者はカード情報の一部など漏えい 対象店舗は、シ...",
     "hatenaDate": "2026-10-17T00:57:57Z",
     "users": [],
     "firstSeenAt": "2026-10-17T11:15:15.827572+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "《これが更迭の決定打》簗和生前農相 衆院選で運動員買収“指示メール”入手　「抵抗する秘書に〈支払いをするように〉と送り…」 | 文春オンライン",
     "url": "https://bunshun.jp/articles/-/92957",
     "domain": "bunshun.jp",
-    "count": 14,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/bunshun.jp/articles/-/92957",
     "screenshot": "https://bunshun.jp/mwimgs/b/b/1200wm/img_bb9078d17c96d1f6d8f3b00de02de47c2620367.jpg",
     "description": "就任からわずか1カ月で事実上の更迭 簗氏を巡っては、これまで複数の疑惑が指摘されてきた。「週刊文春 電子版」（9月30日昼配信）では、衆院選で自身を支持しなかった自治体について「大幅にカットした」と発言した“恫喝音声”問題を報道。さらに「週刊文春」10月8日発売号では、衆院選公示日に支援者を無料のシャトルバ...",
     "hatenaDate": "2026-10-16T19:22:42Z",
     "users": [],
     "firstSeenAt": "2026-10-17T11:00:15.130312+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "パーフェクト・テオ - 坂野旭 | 少年ジャンプ＋",
     "url": "https://shonenjumpplus.com/episode/9253191257227140714",
     "domain": "shonenjumpplus.com",
-    "count": 9,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/shonenjumpplus.com/episode/9253191257227140714",
     "screenshot": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/9253191257226992338-8fab7f7ead121b20baf378fb361515a7?1791883938",
     "description": "パーフェクト・テオ 坂野旭 近未来。全てにおいて完璧な成績を収めるAIエージェントのテオ。しかし、彼が配属されたのはSランクの任務ではなく、Cランクの家事従事で…？",
     "hatenaDate": "2026-10-16T17:09:17Z",
     "users": [],
     "firstSeenAt": "2026-10-17T11:00:15.130312+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "薬屋のひとりごと：テレビアニメ第3期　猫猫と壬氏の関係は？　子守唄の「無言」の意味　筆坂明規監督インタビュー - MANTANWEB（まんたんウェブ）",
     "url": "https://mantan-web.jp/article/20261014dog00m200065000a.html",
     "domain": "mantan-web.jp",
-    "count": 9,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/mantan-web.jp/article/20261014dog00m200065000a.html",
     "screenshot": null,
     "description": "「薬屋のひとりごと」は、ライトノベルがヒーロー文庫（イマジカインフォス）から刊行されており、コミカライズも人気を集めている。原作の全世界シリーズ累計発行部数は5700万部以上。舞台は、とある大陸の華やかな後宮で、毒見役の少女・猫猫が、美形の後宮管理者・壬氏と共に陰謀やウワサのひしめく後宮で起きる事件...",
     "hatenaDate": "2026-10-16T23:27:26Z",
     "users": [],
     "firstSeenAt": "2026-10-17T10:45:15.600437+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "EUのEV優遇制度案、日本製を除外　独仏が合意 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOGR16APT0W6A011C2000000/",
     "domain": "www.nikkei.com",
-    "count": 28,
+    "count": 32,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGR16APT0W6A011C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3740269016102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.75&fp-y=0.29&h=630&w=1200&s=b98fa582a32f0c78062810737777141c",
     "description": "【ベルリン=杜師康佑、ブリュッセル=児玉章吾】ドイツとフランスの両政府は16日、欧州連合（EU）が検討する欧州製の電気自動車（EV）に対する優遇措置案で合意した。日本などで生産された車両は対象外とした。立法機関の欧州議会や加盟国との協議を経て導入する。欧州委員会は3月に発表した産業促進法（IAA）案で、補助...",
     "hatenaDate": "2026-10-16T15:10:07Z",
     "users": [],
     "firstSeenAt": "2026-10-17T10:45:15.600437+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "簗前農相、衆院選で「支払いをするように」とメール送信　報酬払い投票依頼させたか　関係者が証言《無料公開》｜下野新聞デジタル",
     "url": "https://www.shimotsuke.co.jp/articles/-/1441872",
     "domain": "www.shimotsuke.co.jp",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.shimotsuke.co.jp/articles/-/1441872",
     "screenshot": "https://soon.ismcdn.jp/mwimgs/b/1/1200wm/img_b103c018d6cf6121ede5fcac2b4a42c93382003.jpg",
     "description": "簗和生（やなかずお）前農相の陣営が過去の衆院選の選挙期間中、事務員として報酬を支払ったスタッフに投票依頼の電話をさせていた疑いがあることが16日までに、下野新聞社の取材で分かった。実際に電話をかけていた元スタッフが証言した。投票依頼の電話をかけるボランティアの一部に対し、報酬を支払っていたことも元...",
     "hatenaDate": "2026-10-16T23:11:34Z",
     "users": [],
     "firstSeenAt": "2026-10-17T10:45:15.600437+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "「戦争は真っ先に文化芸術を奪い、歪める」「岡田准一さんに助けていただいて…」映画監督・西川美和が語る“いま敗戦直後を描いた理由”",
     "url": "https://crea.bunshun.jp/articles/-/60459",
     "domain": "crea.bunshun.jp",
-    "count": 12,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/crea.bunshun.jp/articles/-/60459",
     "screenshot": "https://crea.ismcdn.jp/mwimgs/6/9/1200wm/img_69dae6979eb672d36e171bc30802fe4e45373.jpg",
     "description": "――本作が描くのは、いわゆる戦時下の戦闘そのものではなく、敗戦のあと。「国家」という大きな看板が消え去り、ヤクザや米軍、闇市の利権などが剥き出しになった、敗戦直後の価値観の空白期が舞台になっています。なぜこの時代、この舞台に挑まれたのか、その背景をお聞かせいただけますか。 発端は前作『すばらしき世界...",
     "hatenaDate": "2026-10-16T20:28:22Z",
     "users": [],
     "firstSeenAt": "2026-10-17T10:15:14.388378+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "米大統領報道官、就任から1週間足らずで退任 相次ぐ失態で批判",
     "url": "https://www.afpbb.com/articles/-/3658048",
     "domain": "www.afpbb.com",
-    "count": 21,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3658048",
     "screenshot": "https://afpbb.ismcdn.jp/mwimgs/c/f/1000x/img_cf94bf3934fa81091c68ec1329810bb7106598.jpg",
     "description": "【10月17日 AFP】米ホワイトハウスのケイティ・ザカリア報道官（41）が16日、就任から1週間足らずで退任した。相次ぐ失態や弁護士を装っていた問題などで批判を受けていた。 ホワイトハウス当局者はAFPに対し、報道されていたザカリア氏の退任を認めた。 ザカリア氏は、キャロライン・レビット前報道官の後任として12日...",
     "hatenaDate": "2026-10-16T22:56:51Z",
     "users": [],
     "firstSeenAt": "2026-10-17T10:15:14.388378+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "How the Claude Code team does code review / claude.dev Blog",
     "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
     "domain": "claude.dev",
-    "count": 46,
+    "count": 51,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/claude.dev/blog/solving-code-review-at-anthropic/",
     "screenshot": "https://claude.dev/blog/solving-code-review-at-anthropic/og.png",
     "description": "We've said before that Claude writes about 90 percent of Claude Code's own code. So how do we review code at the volume we produce it? Does anyone read code anymore? And if something breaks, who catches it? This post covers the code review flow on the Claude Code team and how it has evolved. From...",
     "hatenaDate": "2026-10-16T12:24:30Z",
     "users": [],
     "firstSeenAt": "2026-10-17T10:00:16.971500+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "表現の自由に固執するあまり、規制＝絶対悪と捉えてる人って、子育てはど..",
     "url": "https://anond.hatelabo.jp/20261016165648",
     "domain": "anond.hatelabo.jp",
-    "count": 28,
+    "count": 32,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261016165648",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "表現の自由に固執するあまり、規制＝絶対悪と捉えてる人って、子育てはどうしてるんだろう 自分（親）が四六時中べったりついてフォローしてるんだろうか 純粋な疑問 スマートな人ばかりなら規制なんて少なければ少ないほどいいと思うんだけど、現実は違うからなぁ…",
     "hatenaDate": "2026-10-16T07:57:49Z",
     "users": [],
     "firstSeenAt": "2026-10-17T10:00:16.971500+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "首相動静リアルタイム — 今日の高市早苗首相の日程・面会 | 官邸ログ",
     "url": "https://www.kanteilog.com/",
     "domain": "www.kanteilog.com",
-    "count": 21,
+    "count": 25,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.kanteilog.com/",
     "screenshot": "https://www.kanteilog.com/api/og/day?date=2026-08-05",
     "description": "今日の首相動静（総理日程）を毎日更新。面会数・官邸滞在時間・公務開始時刻をリアルタイムに可視化しています。",
     "hatenaDate": "2026-07-30T00:48:06Z",
     "users": [],
     "firstSeenAt": "2026-10-17T09:45:16.415713+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "InstagramグラフAPIのプラットフォーム利用規約違反対応をしました - production.log",
     "url": "https://blog.naoshihoshi.com/entry/2023/02/17/120000",
     "domain": "blog.naoshihoshi.com",
-    "count": 12,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.naoshihoshi.com/entry/2023/02/17/120000",
     "screenshot": "https://ogimage.blog.st-hatena.com/12704591929888686482/4207112889963888552/1676602810",
     "description": "概要 SnapmartアプリではInstagramグラフAPIを使用しているのですが、8月下旬にMeta社より「プラットフォーム違反しているからAPI利用停止するね」とお達しがありました。*1 Instagram連携不具合解消のお知らせ | Snapmart（スナップマート）公式ブログ この記事では、InstagramグラフAPIのプラットフォーム利用規約違反...",
     "hatenaDate": "2026-10-16T21:13:31Z",
     "users": [],
     "firstSeenAt": "2026-10-17T09:45:16.415713+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "ポートフォリオをVoidで作り直したので、Voidの来歴と中身を整理する",
     "url": "https://zenn.dev/nkzn/articles/my-first-void",
     "domain": "zenn.dev",
-    "count": 20,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/nkzn/articles/my-first-void",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--Aq4Q5eIw--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%259D%25E3%2583%25BC%25E3%2583%2588%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25AA%25E3%2582%25AA%25E3%2582%2592Void%25E3%2581%25A7%25E4%25BD%259C%25E3%2582%258A%25E7%259B%25B4%25E3%2581%2597%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E3%2580%2581Void%25E3%2581%25AE%25E6%259D%25A5%25E6%25AD%25B4%25E3%2581%25A8%25E4%25B8%25AD%25E8%25BA%25AB%25E3%2582%2592%25E6%2595%25B4%25E7%2590%2586%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Nkzn%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hpRkgxVktGMXZZOFk2eEtfZl9PVklHS2pEeWxkWG42MzVLU0VEZEE9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "筆者のポートフォリオサイトnkzn.netは、これまで何度か作り直してきました。最初はNext.jsとExpo(react-native-web)を組み合わせた構成、2代目はExpo Router、3代目はAstroと、その上で動くCMSのEmDashで作り始めたものの、完成しないまま止まっていました。 そこへ2026年10月15日、Cloudflareのブログに「Deploy with ...",
     "hatenaDate": "2026-10-16T16:35:53Z",
     "users": [],
     "firstSeenAt": "2026-10-17T09:45:16.415713+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "トランプ氏、ウクライナ向け衛星通信の制限を否定「私ではない」",
     "url": "https://www.afpbb.com/articles/-/3658060",
     "domain": "www.afpbb.com",
-    "count": 27,
+    "count": 34,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3658060",
     "screenshot": "https://afpbb.ismcdn.jp/mwimgs/d/c/1000x/img_dc11f55403149c30594813ddbabe8e4978953.jpg",
     "description": "米ホワイトハウスの南庭で、マリーンワンに搭乗する前に報道陣に話すドナルド・トランプ大統領（2026年10月16日撮影）。(c)Jim WATSON/AFP 【10月17日 AFP】ドナルド・トランプ米大統領は16日、ウクライナ軍が利用する米宇宙開発企業スペースXの軍用衛星通信サービス「スターシールド」の制限を要請したことはないと述べ...",
     "hatenaDate": "2026-10-17T00:23:26Z",
     "users": [],
     "firstSeenAt": "2026-10-17T09:45:16.415713+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "はてな匿名ダイアリーを「増田」と呼ぶセンスが非常に気持ち悪いのは俺だ..",
     "url": "https://anond.hatelabo.jp/20070826074925",
     "domain": "anond.hatelabo.jp",
-    "count": 76,
+    "count": 86,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20070826074925",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "はてな匿名ダイアリーを「増田」と呼ぶセンスが非常に気持ち悪いのは俺だけでしょうか？",
     "hatenaDate": "2026-10-16T06:33:54Z",
     "users": [],
     "firstSeenAt": "2026-10-17T09:30:14.010358+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "さくらのVPSにおけるLinuxカーネルの脆弱性（CVE-2026-99999）への対応状況について",
     "url": "https://vps.sakura.ad.jp/contents/info/202610-pendingapply/",
     "domain": "vps.sakura.ad.jp",
-    "count": 19,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/vps.sakura.ad.jp/contents/info/202610-pendingapply/",
     "screenshot": "https://vps.sakura.ad.jp/contents/wp-content/themes/www/assets/images/ogp.png",
     "description": "平素よりさくらのVPSをご利用いただき、誠にありがとうございます。 Linuxカーネルのネットワーク処理に関する脆弱性（CVE-2026-99999、通称「PwnEscape」）について、さくらのVPSにおける現在の対応状況をご案内いたします。 現在、さくらのVPSでは石狩、東京、大阪の全リージョンで新規申し込みの受付を一時的に停止し...",
     "hatenaDate": "2026-10-16T13:16:01Z",
     "users": [],
     "firstSeenAt": "2026-10-17T09:30:14.010358+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "さくらのクラウドにおけるLinuxカーネルの脆弱性（CVE-2026-99999）への対応状況について",
     "url": "https://cloud.sakura.ad.jp/news/2026/10/16/cve-2026-99999/",
     "domain": "cloud.sakura.ad.jp",
-    "count": 10,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/cloud.sakura.ad.jp/news/2026/10/16/cve-2026-99999/",
     "screenshot": "https://cloud.sakura.ad.jp/news/wp-content/themes/news/images/ogp.png",
     "description": "平素よりさくらのクラウドをご利用いただき、誠にありがとうございます。 Linuxカーネルのネットワーク処理に関する脆弱性（CVE-2026-99999、通称「PwnEscape」）について、さくらのクラウドにおける現在の対応状況をご案内いたします。 現在の対応状況 2026年10月16日（金）より、さくらのクラウドにおけるリソースの作...",
     "hatenaDate": "2026-10-16T15:48:30Z",
     "users": [],
     "firstSeenAt": "2026-10-17T09:30:14.010358+09:00",
-    "lastSeenAt": "2026-10-17T11:15:15.827572+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "行きつけのガソリンスタンドの猫、寝てる所を撫でたら『コレ』で申し訳なくなった「なんやねん…」「ショボショボすぎる 可愛い」",
     "url": "https://togetter.com/li/2759069",
     "domain": "togetter.com",
-    "count": 27,
+    "count": 32,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2759069",
     "screenshot": "https://s.tgstc.com/static/web/img/tg/ogp_default.png",
     "description": "Togetter編集部 X（旧Twitter）に日々流れる情報の中から、編集部がさまざまなポストを選び出し、わかりやすい形でお届けすることを大切にしています。新たな視点や世間の反応を添えることで、読者の皆様にとって安心・安全で価値あるコンテンツとすることを目指しています。詳しくは編集方針をご覧ください。 あわせて...",
     "hatenaDate": "2026-10-16T15:19:12Z",
     "users": [],
     "firstSeenAt": "2026-10-17T09:30:14.010358+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "福岡・天神変わる商業地図　JR九州が駅ソト挑戦、三越は推し活フロア - 日本経済新聞",
@@ -276,27 +302,27 @@
     "title": "朝何時に公務を始めるか | 官邸ログ",
     "url": "https://www.kanteilog.com/blog/pm-first-duty-time",
     "domain": "www.kanteilog.com",
-    "count": 61,
+    "count": 68,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.kanteilog.com/blog/pm-first-duty-time",
     "screenshot": "https://www.kanteilog.com/opengraph-image",
     "description": "菅義偉の朝はきわめて一定だ。263平日のうち233日が8時前。前回の記事で見たように、菅は在任中のほぼ全日を議員宿舎から官邸に通っており、通勤経路も朝の時刻もほとんど変わらない。 高市早苗にはそうした集中がなく、8時台と10時以降がそれぞれ3割台、9時台が2割を占める。10時30分以降に最初の公務が始まる日も4日に...",
     "hatenaDate": "2026-10-16T05:45:00Z",
     "users": [],
     "firstSeenAt": "2026-10-17T09:00:14.163882+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "Japan’s PM: I work more hours than men because of make-up and chores",
     "url": "https://www.telegraph.co.uk/world-news/2026/10/16/make-up-female-politicians-sanae-takaichi-japan-pm-asia/",
     "domain": "www.telegraph.co.uk",
-    "count": 40,
+    "count": 46,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.telegraph.co.uk/world-news/2026/10/16/make-up-female-politicians-sanae-takaichi-japan-pm-asia/",
     "screenshot": "https://www.telegraph.co.uk/content/dam/world-news/2026/10/16/TELEMMGLPICT000507609310_17921468139490_trans_NvBQzQNjv4Bq-IWLY18X4-CzgyIcjLEAj0k9u7HhRJvuo-ZLenGRumA.jpeg?impolicy=OG-Standard",
     "description": null,
     "hatenaDate": "2026-10-16T15:19:25Z",
     "users": [],
     "firstSeenAt": "2026-10-17T09:00:14.163882+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "福岡・太宰府の駅名「都府楼」の由来は？　源流は千年以上前の嘆きの詩",
@@ -315,79 +341,79 @@
     "title": "首相、夜はスマホ最大音量で横に　「危機管理に注力」とアピール | NEWSjp",
     "url": "https://news.jp/i/1483798788354687667",
     "domain": "news.jp",
-    "count": 192,
+    "count": 204,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.jp/i/1483798788354687667",
     "screenshot": "https://img.jp.ekkowassets.com/c_fill,w_400,h_210,f_auto,g_faces,q_auto:eco/ch/images/1483802923502502154/origin_1.jpg",
     "description": "高市早苗首相は16日の参院予算委員会で、自身の危機管理を巡り「24時間、常に公用のスマートフォンをそばに置き、夜は最大音量にして横になっている」とアピールした。「危機管理には私は力を入れている」とも主張した。 質問に立った立憲民主党の辻元清美氏から、簗和生前農相の更迭が遅れ「危機管理能力がなかったので...",
     "hatenaDate": "2026-10-16T21:27:14Z",
     "users": [],
     "firstSeenAt": "2026-10-17T08:45:13.250077+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "ジミ・ヘンドリックス、死の7カ月前に語った「未来」──伝説のバークレイ公演へと至る再出発の記録【発掘インタビュー】 | Rolling Stone Japan(ローリングストーン ジャパン）",
     "url": "https://rollingstonejapan.com/articles/detail/45594",
     "domain": "rollingstonejapan.com",
-    "count": 21,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/rollingstonejapan.com/articles/detail/45594",
     "screenshot": "https://images.rollingstonejapan.com/articles/45000/45594/OG/8483686760b4c91f919d35b07cbc5efb.jpg",
     "description": "HOME ジミ・ヘンドリックス、死の7カ月前に語った「未来」──伝説のバークレイ公演へと至る再出発の記録【発掘インタビュー】 ジミ・ヘンドリックス（Jimi Hendrix）が残したアーカイブから、またひとつ重要なライブが初めて公式にアルバム化された。10月16日にリリースされる『Magic Boy: Live At Berkeley - 1st Show』...",
     "hatenaDate": "2026-10-16T08:55:12Z",
     "users": [],
     "firstSeenAt": "2026-10-17T08:45:13.250077+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "山崎武司さん中日打撃コーチ決定的、愛工大名電先輩の工藤新監督支える　故・野村克也さんのもと才能開花、竜長距離砲への『カツ』期待：中日スポーツ・東京中日スポーツ",
     "url": "https://www.chunichi.co.jp/article/1326322",
     "domain": "www.chunichi.co.jp",
-    "count": 26,
+    "count": 28,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.chunichi.co.jp/article/1326322",
     "screenshot": "https://static.chunichi.co.jp/image/article/size1/b/9/6/5/b9658b5b992c5491e63fff6cf142e8bb_1.jpg",
     "description": "来季、中日の1軍打撃コーチに山崎武司さん（57）が就任することが16日、決定的になった。愛知・名古屋電気高（現・愛工大名電高）出身の工藤公康新監督（63）にとっては母校で5学年下の後輩。中日でプロとしてのキャリアをスタートさせ、故野村克也さんが指揮を執った楽天時代に才能を開花させた通算403発のスラッガーが...",
     "hatenaDate": "2026-10-16T20:55:32Z",
     "users": [],
     "firstSeenAt": "2026-10-17T08:45:13.250077+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "トランプ氏の新報道官、わずか5日で解任　米メディア　経歴で疑惑も：朝日新聞",
     "url": "https://www.asahi.com/articles/ASVBJ62W9VBJSFVU356M.html",
     "domain": "www.asahi.com",
-    "count": 100,
+    "count": 102,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVBJ62W9VBJSFVU356M.html",
     "screenshot": "https://imgopt.asahi.com/ogp/AS20261017000404_comm.jpg",
     "description": "トランプ米政権は16日、ホワイトハウスのザカリア報道官を解任した。複数の米メディアが報じた。ザカリア氏は弁護士資格をもたないのに「法律家」と称していたことが批判されていた。12日の就任から5日目での…",
     "hatenaDate": "2026-10-16T18:34:29Z",
     "users": [],
     "firstSeenAt": "2026-10-17T08:45:13.250077+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "「無責任さに“この国らしさ”を感じてしまう」戦争孤児を描いた監督・西川美和が向ける、搾取される女性、在日コリアン、ガザの子どもたちへのまなざし",
     "url": "https://crea.bunshun.jp/articles/-/60460",
     "domain": "crea.bunshun.jp",
-    "count": 18,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/crea.bunshun.jp/articles/-/60460",
     "screenshot": "https://crea.ismcdn.jp/mwimgs/7/3/1200wm/img_73f730f624ae10bcec0fcb2828c7c0a942993.jpg",
     "description": "――戦争孤児となった少女・琴子（小八重葵美）の元担任教師・曽根役を演じられた二階堂ふみさんとは、どのような対話を重ねられたのでしょうか。 二階堂ふみさんとは、事前に長々とした演技論やキャラクターの背景をディスカッションすることはほとんどありませんでした。 脚本をお渡しした際、「いまのこの時代に、こう...",
     "hatenaDate": "2026-10-16T15:22:03Z",
     "users": [],
     "firstSeenAt": "2026-10-17T08:45:13.250077+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "今ってアイドルでも普通に下積み10年あるのエグいよな MILKも新しい学校のリ..",
     "url": "https://anond.hatelabo.jp/20261016190836",
     "domain": "anond.hatelabo.jp",
-    "count": 82,
+    "count": 86,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261016190836",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "今ってアイドルでも普通に下積み10年あるのエグいよな MILKも新しい学校のリーダーも10年やってやっとブレイクできた 昔は2、3年やって泣かず飛ばずなら即引退 厳しいかもしれないけど第二の人生送れる 10年アイドルの下積みやって売れなかったらどうなる？",
     "hatenaDate": "2026-10-16T10:09:52Z",
     "users": [],
     "firstSeenAt": "2026-10-17T08:30:13.236585+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "NVD - Home",
@@ -419,66 +445,66 @@
     "title": "高市総理のG7欠席に辻元氏「なぜあなただけ出なかった？」「世界の真ん中で咲き誇ると言っているが隅っこに追いやられる」…茂木大臣に「もういいって！」と“気迫で制止”する場面も（ABEMA TIMES） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/0b6b770c2c6a8bc1cf1c3fa25e3ba816ef0a2810",
     "domain": "news.yahoo.co.jp",
-    "count": 131,
+    "count": 137,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/0b6b770c2c6a8bc1cf1c3fa25e3ba816ef0a2810",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261016-10281354-abemav-000-3-view.jpg?exp=10800",
     "description": "立憲民主党の辻元清美議員（ABEMA TIMES）　16日の参議院予算委員会で、立憲民主党の辻元清美議員が、高市早苗総理大臣が10月2日に行われたG7首脳オンライン会議を欠席した問題を取り上げ、「なぜ欠席したのですか？」と激しく追及した。高市総理は外務省の判断や機材手配の都合を理由に挙げたが、辻元氏は歴代総理が欠...",
     "hatenaDate": "2026-10-16T07:01:55Z",
     "users": [],
     "firstSeenAt": "2026-10-17T08:15:13.970021+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "ゴルゴ13が問い続ける“正義” | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261015de59562",
     "domain": "news.web.nhk",
-    "count": 58,
+    "count": 61,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261015de59562",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261015de59562/20261015de59562_E0000078690_1_l.jpg",
     "description": "「その“正義”とやらは、お前たちだけの正義じゃないのか」 漫画「ゴルゴ13」にこんなせりふがある。 世界各地で紛争が相次ぎ、SNSではさまざまな価値観や主張が激しくぶつかり合う。そんな時代の到来を見…",
     "hatenaDate": "2026-10-16T12:15:33Z",
     "users": [],
     "firstSeenAt": "2026-10-17T07:15:17.918044+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "1.カレーしか好きじゃなかった ｜ カレー物語 ｜ 稲田俊輔 ｜ 連載 ｜ 考える人 ｜ 新潮社",
     "url": "https://kangaeruhito.jp/article/763731",
     "domain": "kangaeruhito.jp",
-    "count": 37,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kangaeruhito.jp/article/763731",
     "screenshot": "https://kangaeruhito.jp/wp-content/uploads/2026/04/curry_story_icon.jpg",
     "description": "著者： 稲田俊輔 人気の南インド料理専門店「エリックサウス」総料理長にして、レシピ本から食文化にまつわるエッセイまで文筆家としても活躍中の稲田俊輔さんが、その原点である料理＝「カレー」について考える連載です。おうちカレーから南インド料理の衝撃まで、私的な経験をベースにその進化や変遷を語っていきます...",
     "hatenaDate": "2026-05-01T07:01:45Z",
     "users": [],
     "firstSeenAt": "2026-10-17T07:00:16.510163+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "関西人「関東ってお好み焼きこんな切り方するん？」→関東人「関西、何人で食うんだ…？」→関西人「こいつ何言うてるんや？」→関東人「え？」関西人「え？」",
     "url": "https://togetter.com/li/2759078",
     "domain": "togetter.com",
-    "count": 172,
+    "count": 174,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2759078",
     "screenshot": "https://s.tgstc.com/ogp3/e6ceb909539b64130740f4a50b60737d-1200x630.jpeg",
     "description": "酔いどれふりす @HurisDrunk そもそも関西、何人で食うんだ・・・？ 16人で食うならまあ仕方ないとは思うが、8人なら無駄に多いし部位でどうしても不平等が出る。 切る時も６回エイムしてカッター（お好み焼きならヘラだろうけど）を振るわなければいけない。（関東なら三回） 別にどっちでもイイッちゃイイが、なんで？...",
     "hatenaDate": "2026-10-16T17:27:01Z",
     "users": [],
     "firstSeenAt": "2026-10-17T06:45:12.993094+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "Windows PC向けNVIDIA製SoC「RTX Spark」の正体が明らかに。Microsoftと共同でゲームへの対応も進める",
     "url": "https://www.4gamer.net/games/050/G105051/20261015021/",
     "domain": "www.4gamer.net",
-    "count": 33,
+    "count": 35,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.4gamer.net/games/050/G105051/20261015021/",
     "screenshot": "https://www.4gamer.net/games/050/G105051/20261015021/SS/003.jpg",
     "description": "Windows PC向けNVIDIA製SoC「RTX Spark」の正体が明らかに。Microsoftと共同でゲームへの対応も進める ライター：西川善司 去る北米時間2026年10月7日，NVIDIA製のSoC（System on a Chip）「NVIDIA RTX Spark」搭載PCが，MicrosoftやASUSTeK Computer，MSIなどから発表となった。 その翌日である10月8日，NVIDIAは，米国...",
     "hatenaDate": "2026-10-16T19:27:09Z",
     "users": [],
     "firstSeenAt": "2026-10-17T06:30:14.407070+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "[24巡目]ハーレム勇者伝説 - 津夏なつな | 少年ジャンプ＋",
@@ -497,14 +523,14 @@
     "title": "王将社長射殺、暴力団幹部に無罪　求刑は無期懲役、京都地裁",
     "url": "https://www.47news.jp/15090500.html",
     "domain": "www.47news.jp",
-    "count": 60,
+    "count": 62,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15090500.html",
     "screenshot": "https://img.cf.47news.jp/public/photo/bdbea20a33b8499f9fcc4021880e14e0/photo.jpg",
     "description": "2013年に「餃子の王将」を展開する王将フードサービス社長だった大東隆行さん＝当時（72）＝を射殺したとして、殺人と銃刀法違反の罪に問われた特定危険指定暴力団工藤会系組幹部田中幸雄被告（59）の判決公判で、京都地裁（西川篤志裁判長）は16日、無罪を言い渡した。求刑は無期懲役。 西川裁判長は判決理由で、被告が...",
     "hatenaDate": "2026-10-16T04:47:53Z",
     "users": [],
     "firstSeenAt": "2026-10-17T05:30:14.205555+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "楽天モバイル、「iPhone Duo」の価格を発表　約43万円～",
@@ -523,14 +549,14 @@
     "title": "変な日本地図にツッコミが殺到してしまう「伊能忠敬の方がよっぽど正確」「沖縄の形が特に酷い」",
     "url": "https://togetter.com/li/2759076",
     "domain": "togetter.com",
-    "count": 74,
+    "count": 76,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2759076",
     "screenshot": "https://s.tgstc.com/ogp3/e253b9b2dca99285c7a6821fff0d73fd-1200x630.jpeg",
     "description": "Togetter編集部 X（旧Twitter）に日々流れる情報の中から、編集部がさまざまなポストを選び出し、わかりやすい形でお届けすることを大切にしています。新たな視点や世間の反応を添えることで、読者の皆様にとって安心・安全で価値あるコンテンツとすることを目指しています。詳しくは編集方針をご覧ください。 あわせて...",
     "hatenaDate": "2026-10-16T15:18:55Z",
     "users": [],
     "firstSeenAt": "2026-10-17T05:30:14.205555+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "Analyzing technical documents with Deep Review",
@@ -562,14 +588,14 @@
     "title": "【速報】りそな、ネット口座で免許写真の確認廃止へ",
     "url": "https://www.47news.jp/15092320.html",
     "domain": "www.47news.jp",
-    "count": 81,
+    "count": 84,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15092320.html",
     "screenshot": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
     "description": "りそなホールディングスは16日、サイバー攻撃による個人情報漏えいが多発しているのを受け、傘下銀行のオンラインでの口座開設について、運転免許証の顔写真を用いた本人確認を行わない方針を明らかにした。",
     "hatenaDate": "2026-10-16T10:24:51Z",
     "users": [],
     "firstSeenAt": "2026-10-17T05:00:11.765408+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "カレー物語 ｜ 稲田俊輔 ｜ 連載一覧 ｜ 考える人｜ シンプルな暮らし、自分の頭で考える力。知の楽しみにあふれたWebマガジン。 ｜ 新潮社",
@@ -601,14 +627,14 @@
     "title": "#20 初音ミクの声が、恥ずかしかった。｜ryo",
     "url": "https://note.com/ryodayospcl/n/n8c1f82092fc0",
     "domain": "note.com",
-    "count": 288,
+    "count": 298,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/ryodayospcl/n/n8c1f82092fc0",
     "screenshot": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/201e00d051993cdca06b186006090592d5927868.png",
     "description": "「メルト」を投稿した２００７年、自分は派遣でプリンターを販売していた。 時給は1,750円。 当時にしては、高いほうだった気がする。 それでも、初音ミクは高かった。 1万5千円くらい。 一日働いても、まだ足りない。 今振り返れば、人生を変えた買い物だった。 自分の働いていた店には、フロア長が三人いた。 その一人...",
     "hatenaDate": "2026-10-16T12:04:38Z",
     "users": [],
     "firstSeenAt": "2026-10-17T03:15:15.922571+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "MADE IN YAMATO - 第２１話　激突！関東女子フィジーク後編 | ヤンマガWeb",
@@ -679,14 +705,14 @@
     "title": "徳丸浩氏に聞く、タイムズカー事案から考えるユーザーデータ管理 保管場所と漏えいリスクの移転・回避、消去の判断体制",
     "url": "https://unitis.jp/articles/24665/",
     "domain": "unitis.jp",
-    "count": 145,
+    "count": 149,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/unitis.jp/articles/24665/",
     "screenshot": "https://unitis.jp/wp-content/uploads/2026/10/ct2dCJhn.jpg",
     "description": "UNITIS セキュリティマネジメント 徳丸浩氏に聞く、タイムズカー事案から考えるユーザーデータ管理 保管場所と漏えいリスクの移転・回避、消去の判断体制 タイムズモビリティ株式会社は9月25日、同社が運営するカーシェアリングサービス「タイムズカー」のWebシステムが第三者による不正アクセスを受けたことを公表しま...",
     "hatenaDate": "2026-10-16T01:31:13Z",
     "users": [],
     "firstSeenAt": "2026-10-17T00:45:13.704534+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "三大作者の寵愛を受けている絶対転生したくないキャラ - 三大◯◯大喜利 - はてなパークス",
@@ -822,14 +848,14 @@
     "title": "「マジでやばい、この見てみろ…」若き海外ニキが『釣りキチ三平』に気づく→日本のファンたちが素晴らしさを語りまくり、矢口高雄先生の娘さんも反応",
     "url": "https://togetter.com/li/2758935",
     "domain": "togetter.com",
-    "count": 297,
+    "count": 299,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2758935",
     "screenshot": "https://s.tgstc.com/ogp3/7a698932630f5d7c6b9787ee5135baf3-1200x630.jpeg",
     "description": "Drink your coffee, kids! 🆖 @scribblface_twt Just found out about Tsurikichi Sanpei. Bro holy fuck, look at this..... pic.x.com/pqXZWEDWTy 2026-10-14 15:38:26",
     "hatenaDate": "2026-10-16T11:06:11Z",
     "users": [],
     "firstSeenAt": "2026-10-16T21:30:16.966598+09:00",
-    "lastSeenAt": "2026-10-17T11:30:14.668338+09:00"
+    "lastSeenAt": "2026-10-17T11:45:12.856525+09:00"
   },
   {
     "title": "以前フランス人に「なぜ落語は、観客全員話のオチが分かっているのに成立するのか？」と聞かれたが、上手く答えられなかった話「落語はプロセスを話芸として堪能する」",
@@ -3872,31 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-14T21:45:13.393968+09:00",
     "lastSeenAt": "2026-10-15T03:45:11.404744+09:00"
-  },
-  {
-    "title": "化粧や料理など「男性首相より3、4時間余分に」高市首相が日常明かす　国会改革で議論",
-    "url": "https://www.sankei.com/article/20261014-UMP2L6HPHRCUZDKTWECQHUNCJI/",
-    "domain": "www.sankei.com",
-    "count": 87,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.sankei.com/article/20261014-UMP2L6HPHRCUZDKTWECQHUNCJI/",
-    "screenshot": "https://www.sankei.com/resizer/v2/UPNMVIAW65LINED2GE3QOLAUMU.jpg?auth=804cd473854ddaa057441fe3fe280e4c94ab48dc9e592c09d253cb307b12baca&quality=50&focal=2613%2C1411&width=1200&height=675",
-    "description": "衆院予算委員会で日本維新の会の藤田文武共同代表（左）の質問に答弁する高市早苗首相＝10月14日午前、国会内（春名中撮影） 高市早苗首相は14日の衆院予算委員会で、首相の国会出席のあり方に関する国会改革を巡り、日本維新の会の藤田文武共同代表と議論を交わした。首相は「要請があれば出席する」との従来の方針を示...",
-    "hatenaDate": "2026-10-14T06:26:43Z",
-    "users": [],
-    "firstSeenAt": "2026-10-14T21:30:12.353410+09:00",
-    "lastSeenAt": "2026-10-15T00:29:52.093610+09:00"
-  },
-  {
-    "title": "国際日本文化研究センター | 怪異・妖怪伝承データベース",
-    "url": "https://www.nichibun.ac.jp/YoukaiDB3/",
-    "domain": "www.nichibun.ac.jp",
-    "count": 158,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nichibun.ac.jp/YoukaiDB3/",
-    "screenshot": null,
-    "description": "Copyright (c) 2002- International Research Center for Japanese Studies, Kyoto, Japan. All rights reserved.",
-    "hatenaDate": "2020-10-11T03:42:36Z",
-    "users": [],
-    "firstSeenAt": "2026-10-14T21:00:17.479223+09:00",
-    "lastSeenAt": "2026-10-15T11:00:15.901551+09:00"
   }
 ]
