@@ -24,4 +24,5 @@
 - 取得は無限スクロール(sentinel)で、検索中と失敗後は自動継ぎ足しせずボタンにする(ヒットが少ない検索で全ページを読み続けたり、失敗を連打したりしないため)。
 - 記事ページへのリンクに`from=me`を付け、「一覧に戻る」で`#/me`へ戻す。
 - 取得失敗時は、成功した1ページ目をlocalStorageに保存した分を代わりに表示する。
+- richのスター数(2026-10-17): コメントビューのスター取得はブラウザから`s.hatena.ne.jp/entries.json`を直接引くが、そのURI(`https://b.hatena.ne.jp/{id}/{yyyymmdd}#bookmark-{eid}`)にidが入るため、一覧では**Workerの`POST /stars`が組む**。一覧APIの`location_id`がコメントビューの`eid`と同じ値で、日付は`created`(UTC)を日本時間にして使う(星付きの公開ブックマークで、一覧APIから組んだURIがコメントビュー側と同じ件数になることを確認)。ブラウザに渡すのはeidと日時だけで、応答もeid→件数だけ(URIを返さない)。
 - このWorkerには後からブックマーク投稿(OAuth署名)も載せた([bookmark-post-via-worker.md](bookmark-post-via-worker.md))。ルートは `GET /bookmarks`(一覧)のほか `GET/POST /bookmark`。デプロイ手順(secretの一覧を含む)は同docの「導入手順」。一覧だけ使うなら `ACCESS_TOKEN` と `HATENA_USER_ID` のsecretだけで動く。

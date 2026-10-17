@@ -1433,6 +1433,10 @@
   let meSeq = 0; // 再取得後に古い応答で描画しないための世代番号
   let meScrollY = null;
   let meObserver = null;
+  // richの時だけ取得するコメントごとのスター数(eid -> 数。0件は含まない)と、取得を依頼済みのeid。
+  // 依頼済みのものは失敗しても取り直さない(検索の入力のたびにWorkerを叩かないため)。
+  let meStarCounts = new Map();
+  let meStarsRequested = new Set();
 
   window.addEventListener('scroll', () => {
     if (!meView.hidden) meScrollY = window.scrollY;
@@ -1463,6 +1467,8 @@
     meError = '';
     meOfflineNote = '';
     meScrollY = null;
+    meStarCounts = new Map();
+    meStarsRequested = new Set();
   }
 
   function disconnectMeObserver() {
@@ -1593,6 +1599,22 @@
       );
       meObserver.observe(sentinel);
     }
+    ensureMeStars();
+  }
+
+  // richの時だけ、コメント付きで未取得のブックマークのスター数を取得して描き直す(plainのままなら通信しない)。
+  // スターAPIのURIにははてなidが入るため、Workerに組ませる(ブラウザはeidと日時だけ渡す)。
+  // スターは付加情報のため、失敗しても黙って無視して一覧の表示には影響させない。
+  async function ensureMeStars() {
+    if (commentLayout !== 'rich') return;
+    const targets = meItems.filter((it) => it.comment && it.eid && !meStarsRequested.has(it.eid));
+    if (targets.length === 0) return;
+    const seq = meSeq;
+    targets.forEach((it) => meStarsRequested.add(it.eid));
+    const counts = await MyBookmarks.fetchStars(targets);
+    if (seq !== meSeq || counts.size === 0) return;
+    for (const [eid, n] of counts) meStarCounts.set(eid, n);
+    if (commentLayout === 'rich' && !meView.hidden) renderMeList();
   }
 
   function meEntryHref(item) {
@@ -1637,6 +1659,11 @@
       </li>`;
   }
 
+  function meStarBadge(item) {
+    const n = meStarCounts.get(item.eid);
+    return n ? ` <span class="comment-stars" title="はてなスター">⭐️${n}</span>` : '';
+  }
+
   function renderMeItemRich(item) {
     const thumb = item.image
       ? `<img class="me-thumb" src="${escapeHtml(item.image)}" alt="" loading="lazy" width="64" height="64">`
@@ -1653,7 +1680,7 @@
             ${meCountLink(item)}
             ${meTagsHtml(item)}
           </div>
-          ${item.comment ? `<div class="me-comment">${linkifyComment(item.comment)}</div>` : ''}
+          ${item.comment ? `<div class="me-comment">${linkifyComment(item.comment)}${meStarBadge(item)}</div>` : ''}
         </div>
       </li>`;
   }

@@ -57,6 +57,7 @@
     const url = raw.url || '';
     return {
       url,
+      eid: raw.eid ? String(raw.eid) : '',
       title: raw.title || url || '(タイトル不明)',
       domain: safeHostname(url),
       comment: raw.comment || '',
@@ -115,6 +116,27 @@
     return { items, nextPage };
   }
 
+  // コメントのスター数。Workerがidを足してスターAPIを引く(idがブラウザの通信に出ないように)ため、
+  // 渡すのは記事のeidと日時だけ。1リクエスト最大50件。戻り値: Map(eid -> 数。0件は含まない)
+  const STAR_BATCH_SIZE = 50;
+  async function fetchStars(items) {
+    const targets = items.filter((it) => it.eid && it.created);
+    const batches = [];
+    for (let i = 0; i < targets.length; i += STAR_BATCH_SIZE) batches.push(targets.slice(i, i + STAR_BATCH_SIZE));
+    // スターは付加情報のため、一部のバッチが失敗しても取れた分だけ返す(失敗は黙って無視)
+    const settled = await Promise.allSettled(
+      batches.map((batch) =>
+        callWorker('stars', { method: 'POST', body: { items: batch.map((it) => ({ eid: it.eid, created: it.created })) } })
+      )
+    );
+    const counts = new Map();
+    for (const r of settled) {
+      if (r.status !== 'fulfilled' || !r.value || typeof r.value.stars !== 'object') continue;
+      for (const [eid, n] of Object.entries(r.value.stars)) if (Number(n) > 0) counts.set(eid, Number(n));
+    }
+    return counts;
+  }
+
   // 自分のそのURLのブックマーク。未ブックマークなら { exists: false }。
   async function getBookmark(url) {
     const data = await callWorker('bookmark', { query: { url } });
@@ -157,5 +179,5 @@
     }
   }
 
-  global.MyBookmarks = { getConfig, setConfig, isConfigured, fetchPage, getBookmark, postBookmark, checkConfig, saveCache, loadCache };
+  global.MyBookmarks = { getConfig, setConfig, isConfigured, fetchPage, fetchStars, getBookmark, postBookmark, checkConfig, saveCache, loadCache };
 })(window);
