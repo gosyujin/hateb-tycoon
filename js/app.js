@@ -1123,6 +1123,15 @@
     }
   }
 
+  // Enter(スマホのリターンキー)は、キーボードを畳んで投稿する(「ブクマ」ボタンと同じ)。
+  // 取得待ちなどでボタンが押せない間は、畳むだけで投稿しない。IMEの変換確定のEnterは何もしない。
+  bookmarkComment.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' || e.isComposing || e.keyCode === 229) return;
+    e.preventDefault();
+    bookmarkComment.blur();
+    if (!bookmarkSubmit.disabled) bookmarkForm.requestSubmit();
+  });
+
   bookmarkForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     if (bookmarkSending || !bookmarkTarget || bookmarkLoadedFor !== bookmarkTarget) return;
