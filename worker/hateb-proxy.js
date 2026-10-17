@@ -86,7 +86,9 @@ function pickItem(b) {
     url: b.url || '',
     eid: b.location_id != null ? String(b.location_id) : '', // 記事のid(コメントビューのeidと同じ。公開情報)
     title: entry.title || '',
-    comment: b.comment_expanded || b.comment || '',
+    // comment_expanded は本文中のURLを <a href=… target="_blank" rel="noopener nofollow"> に展開したHTMLなので使わない
+    // (表示側はHTMLとして解釈せず文字として出すため、タグがそのまま見えてしまう)。URLのリンク化は表示側(linkifyComment)が行う。
+    comment: b.comment || '',
     tags: Array.isArray(b.tags) ? b.tags : [],
     created: b.created || '',
     count: entry.total_bookmarks != null ? entry.total_bookmarks : 0,

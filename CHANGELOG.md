@@ -4,6 +4,7 @@
 
 ## 2026-10-17
 
+- Fixed: 「自分のブックマーク」で、コメントに入れたURLが `<a href="…" target="_blank" rel="noopener nofollow">…</a>` という文字として見えていた。Workerが、URLをHTMLのリンクに展開済みの `comment_expanded` をコメントとして返していたため(はてなの公開APIで確認)。Workerは素の `comment` を返すようにし、表示側(`stripAnchors`)でも `<a>` を外す(Workerを再デプロイするまでと、端末に保存済みの一覧の分)。URLのリンク化は従来どおり `linkifyComment`。他のコメント表示(記事ページ)は素の `comment` を使っており影響なし。Workerの再デプロイが必要
 - Verified: 本番Workerの再デプロイ後に、「自分のブックマーク」のrich表示でスター数(⭐️n)が出ること、コメント欄でEnterを押すとキーボードが畳まれることを確認済み。あわせて、Workerのデプロイと本番からの接続・OAuth署名でのPOSTも動作確認済み(未確認は既存タグの送り直し=作者がタグを使わないため確認予定なし)
 - Added: 「自分のブックマーク」のrich表示で、コメント付きのブックマークのスター数を「⭐️n」で表示。スターAPIのURIにはてなidが入るため、Workerに`POST /stars`を追加してWorkerが組む(idをブラウザの通信に出さない)。Workerの再デプロイが必要([経緯](docs/decisions/my-bookmarks-worker-proxy.md))
 - Changed: ブックマークのコメント欄でEnter(スマホのリターンキー)を押すと、キーボードを畳んで投稿するようにした(「ブクマ」ボタンと同じ。取得待ちでボタンが押せない間は畳むだけ。IMEの変換確定のEnterは無視)

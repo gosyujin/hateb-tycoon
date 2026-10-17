@@ -53,6 +53,13 @@
     }
   }
 
+  // 旧いWorkerはコメントを comment_expanded(本文中のURLを <a …>URL</a> に展開したHTML)で返していた。
+  // そのまま出すとタグが見えるので、<a> を外して中の文字(URL)だけ残す。Workerを再デプロイするまでの応答と、
+  // 端末に保存済みの一覧(loadCache)の両方に効かせる。
+  function stripAnchors(text) {
+    return String(text || '').replace(/<a\s[^>]*>([\s\S]*?)<\/a>/gi, '$1');
+  }
+
   function normalizeItem(raw) {
     const url = raw.url || '';
     return {
@@ -60,7 +67,7 @@
       eid: raw.eid ? String(raw.eid) : '',
       title: raw.title || url || '(タイトル不明)',
       domain: safeHostname(url),
-      comment: raw.comment || '',
+      comment: stripAnchors(raw.comment),
       tags: Array.isArray(raw.tags) ? raw.tags : [],
       created: raw.created || '',
       count: raw.count != null ? Number(raw.count) || 0 : 0,
@@ -173,7 +180,9 @@
   function loadCache() {
     try {
       const parsed = JSON.parse(localStorage.getItem(CACHE_KEY) || 'null');
-      return parsed && Array.isArray(parsed.items) ? parsed.items : null;
+      return parsed && Array.isArray(parsed.items)
+        ? parsed.items.map((it) => ({ ...it, comment: stripAnchors(it.comment) }))
+        : null;
     } catch (e) {
       return null;
     }
