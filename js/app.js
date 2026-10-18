@@ -1895,19 +1895,23 @@
     el.append(' / ', a);
   }
 
-  function renderSyncStatus() {
-    const cfg = Sync.getConfig();
+  // 同期の状態行(既読・フィルタ共通): 「モード / 最終同期 / エラー: …(再発行リンク)」。
+  // error は保存済みのlastErrorに無い今回の失敗(Gist ID未入力など)を出したい時に渡す。
+  function renderGistStatus(el, cfg, error, extra) {
     if (!cfg.gistId) {
-      syncStatus.textContent = '未設定';
+      setGistStatus(el, error ? `エラー: ${error}` : '未設定', error);
       return;
     }
     const mode = Gist.getToken() ? '読み書き' : '読み取り専用';
     const at = cfg.lastSyncAt ? `最終同期 ${new Date(cfg.lastSyncAt).toLocaleString()}` : '未同期';
-    setGistStatus(
-      syncStatus,
-      cfg.lastError ? `${mode} / ${at} / エラー: ${cfg.lastError}` : `${mode} / ${at}`,
-      cfg.lastError
-    );
+    const err = error || cfg.lastError;
+    let text = err ? `${mode} / ${at} / エラー: ${err}` : `${mode} / ${at}`;
+    if (extra) text += ` / ${extra}`;
+    setGistStatus(el, text, err);
+  }
+
+  function renderSyncStatus() {
+    renderGistStatus(syncStatus, Sync.getConfig());
   }
 
   function refreshSyncFields() {
@@ -1938,7 +1942,7 @@
       await Sync.createGist();
       await Sync.sync();
     } catch (err) {
-      setGistStatus(syncStatus, `作成失敗: ${err.message}`, err.message);
+      renderGistStatus(syncStatus, Sync.getConfig(), err.message);
       return;
     }
     refreshSyncFields();
@@ -2377,17 +2381,9 @@
 
   FilterSync.init({ parseCsv: parseImportCsv, toCsv: rulesToCsv });
 
-  // extra: 直前の同期結果など、状態行に続けて出す補足
-  function renderFilterSyncStatus(extra) {
-    const cfg = FilterSync.getConfig();
-    if (!cfg.gistId) {
-      filterSyncStatus.textContent = '未設定';
-      return;
-    }
-    const mode = Gist.getToken() ? '読み書き' : '読み取り専用';
-    const at = cfg.lastSyncAt ? `最終同期 ${new Date(cfg.lastSyncAt).toLocaleString()}` : '未同期';
-    const base = cfg.lastError ? `${mode} / ${at} / エラー: ${cfg.lastError}` : `${mode} / ${at}`;
-    setGistStatus(filterSyncStatus, extra ? `${base} / ${extra}` : base, cfg.lastError);
+  // extra: 直前の同期結果など、状態行に続けて出す補足 / error: 保存されていない今回の失敗
+  function renderFilterSyncStatus(extra, error) {
+    renderGistStatus(filterSyncStatus, FilterSync.getConfig(), error, extra);
   }
 
   function refreshFilterSyncFields() {
@@ -2420,8 +2416,7 @@
       refreshFilterSyncFields();
       renderFilterSyncStatus(describeFilterSyncResult(result));
     } catch (err) {
-      renderFilterSyncStatus();
-      setGistStatus(filterSyncStatus, `失敗: ${err.message}`, err.message);
+      renderFilterSyncStatus(undefined, err.message);
     }
   }
 
