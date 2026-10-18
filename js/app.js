@@ -1714,26 +1714,37 @@
   const mySaveBtn = document.getElementById('my-save-btn');
   const myStatus = document.getElementById('my-status');
 
-  // 入力欄の横のリンク。Worker URL未入力ならCloudflareのWorkers & Pages(作成・確認画面)、入力済みならそのWorkerへ。
-  // はてなのOAuthアプリ画面はWorkerを設定済みの時だけ出す。はてなidはどこにも持たない方針なので、
-  // idを含む /<id>/config/auth/develop ではなく、ログイン済みなら自分の画面へ飛ぶ /oauth/develop を使う。
-  const CLOUDFLARE_WORKERS_URL = 'https://dash.cloudflare.com/?to=/:account/workers-and-pages';
+  // 入力欄の横のリンク。Worker URLが https://<名前>.<サブドメイン>.workers.dev なら、CloudflareダッシュボードのそのWorkerの
+  // 画面へ(URLそのものは「unauthorized」が返るだけなので開かない)。`?to=/:account/…` はログイン中のアカウントに
+  // 置き換えられるため、アカウントIDをコードに持たずに済む。名前が取れない(未入力・独自ドメイン等)時は
+  // Workers & Pagesの一覧へ。はてなのOAuthアプリ画面はWorkerを設定済みの時だけ出す。
+  // はてなidはどこにも持たない方針なので、idを含む /<id>/config/auth/develop ではなく、
+  // ログイン済みなら自分の画面へ飛ぶ /oauth/develop を使う。
+  const CLOUDFLARE_DASH = 'https://dash.cloudflare.com/?to=/:account/workers-and-pages';
   const myWorkerLink = document.getElementById('my-worker-link');
   const myHatenaLink = document.getElementById('my-hatena-link');
 
-  function refreshMyLinks() {
-    let workerUrl = '';
+  // 入力中のWorker URLを { configured, name } にする。nameは *.workers.dev の先頭ラベル(Worker名)。
+  function parseWorkerUrl(value) {
     try {
-      const u = new URL(myEndpointInput.value.trim());
-      if (u.protocol === 'https:' || u.protocol === 'http:') workerUrl = u.href; // javascript: などは弾く
+      const u = new URL(value.trim());
+      if (u.protocol !== 'https:' && u.protocol !== 'http:') return { configured: false, name: '' }; // javascript: などは弾く
+      const m = /^([a-z0-9-]+)\.[a-z0-9-]+\.workers\.dev$/i.exec(u.hostname);
+      return { configured: true, name: m ? m[1] : '' };
     } catch (e) {
-      // 未入力・不正な値はCloudflareへの誘導にする
+      return { configured: false, name: '' };
     }
-    myWorkerLink.href = workerUrl || CLOUDFLARE_WORKERS_URL;
-    const label = workerUrl ? 'Workerのページを開く' : 'CloudflareのWorkers & Pagesを開く';
+  }
+
+  function refreshMyLinks() {
+    const { configured, name } = parseWorkerUrl(myEndpointInput.value);
+    myWorkerLink.href = name
+      ? `https://dash.cloudflare.com/?to=/:account/workers/services/view/${encodeURIComponent(name)}/production`
+      : CLOUDFLARE_DASH;
+    const label = name ? `CloudflareのWorker「${name}」の画面を開く` : 'CloudflareのWorkers & Pagesを開く';
     myWorkerLink.title = label;
     myWorkerLink.setAttribute('aria-label', label);
-    myHatenaLink.hidden = !(workerUrl && myTokenInput.value.trim());
+    myHatenaLink.hidden = !(configured && myTokenInput.value.trim());
   }
   myEndpointInput.addEventListener('input', refreshMyLinks);
   myTokenInput.addEventListener('input', refreshMyLinks);
