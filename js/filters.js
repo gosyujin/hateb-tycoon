@@ -163,7 +163,7 @@
     'hatenadiary.com',
     'hatenadiary.jp',
   ];
-  const DEFAULT_PATH_USER_HOSTS = ['zenn.dev'];
+  const DEFAULT_PATH_USER_HOSTS = ['zenn.dev', 'speakerdeck.com'];
 
   // 上の初期値に加えて、Gistの tycoon-scope-hosts.csv(mode,host)から取り込んだホストを使う。
   // 取り込み結果はlocalStorageにキャッシュし、scopeRuleForUrlは同期関数のままキャッシュを読む。

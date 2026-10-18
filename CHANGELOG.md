@@ -2,6 +2,10 @@
 
 1エントリ1〜3行。バージョン番号は採番しておらず、日付とコミットhashで管理する(新しい順)。調査・判断に経緯があるものは [docs/decisions/](docs/decisions/) にあり、該当エントリからリンクする。自動コミット「Update hotentry data」は除く。
 
+## 2026-10-18
+
+- Added: ミュート設定を開く時のドメインボタンで、`speakerdeck.com`もドメイン全体ではなく`speakerdeck.com/{ユーザー}/`単位(`urlprefix`)で入力済みになるようにした(`DEFAULT_PATH_USER_HOSTS`に追加。コメント非表示の自動登録にも同じ判定が効く)
+
 ## 2026-10-17
 
 - Fixed: 「自分のブックマーク」で、コメントに入れたURLが `<a href="…" target="_blank" rel="noopener nofollow">…</a>` という文字として見えていた。Workerが、URLをHTMLのリンクに展開済みの `comment_expanded` をコメントとして返していたため(はてなの公開APIで確認)。Workerは素の `comment` を返すようにし、表示側(`stripAnchors`)でも `<a>` を外す(Workerを再デプロイするまでと、端末に保存済みの一覧の分)。URLのリンク化は従来どおり `linkifyComment`。他のコメント表示(記事ページ)は素の `comment` を使っており影響なし。Workerの再デプロイが必要
