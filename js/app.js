@@ -1714,10 +1714,36 @@
   const mySaveBtn = document.getElementById('my-save-btn');
   const myStatus = document.getElementById('my-status');
 
+  // 入力欄の横のリンク。Worker URL未入力ならCloudflareのWorkers & Pages(作成・確認画面)、入力済みならそのWorkerへ。
+  // はてなのOAuthアプリ画面はWorkerを設定済みの時だけ出す。はてなidはどこにも持たない方針なので、
+  // idを含む /<id>/config/auth/develop ではなく、ログイン済みなら自分の画面へ飛ぶ /oauth/develop を使う。
+  const CLOUDFLARE_WORKERS_URL = 'https://dash.cloudflare.com/?to=/:account/workers-and-pages';
+  const myWorkerLink = document.getElementById('my-worker-link');
+  const myHatenaLink = document.getElementById('my-hatena-link');
+
+  function refreshMyLinks() {
+    let workerUrl = '';
+    try {
+      const u = new URL(myEndpointInput.value.trim());
+      if (u.protocol === 'https:' || u.protocol === 'http:') workerUrl = u.href; // javascript: などは弾く
+    } catch (e) {
+      // 未入力・不正な値はCloudflareへの誘導にする
+    }
+    myWorkerLink.href = workerUrl || CLOUDFLARE_WORKERS_URL;
+    const label = workerUrl ? 'Workerのページを開く' : 'CloudflareのWorkers & Pagesを開く';
+    myWorkerLink.title = label;
+    myWorkerLink.setAttribute('aria-label', label);
+    myHatenaLink.hidden = !(workerUrl && myTokenInput.value.trim());
+  }
+  myEndpointInput.addEventListener('input', refreshMyLinks);
+  myTokenInput.addEventListener('input', refreshMyLinks);
+  refreshMyLinks();
+
   function refreshMyBookmarksFields() {
     const cfg = MyBookmarks.getConfig();
     myEndpointInput.value = cfg.endpoint;
     myTokenInput.value = cfg.token;
+    refreshMyLinks();
     myStatus.textContent = MyBookmarks.isConfigured() ? '設定済み' : '未設定';
   }
 

@@ -95,8 +95,14 @@
         記事ページ下部の🔖で開く「自分のブックマーク」ページと、「B!」でのブックマーク投稿の接続設定です。はてなのAPIはブラウザから直接使えない(CORS・OAuth)ため、自前の中継Worker(<code>worker/</code>)経由で呼びます。はてなidとOAuthの鍵はWorker側のsecretにだけ置き、このアプリには保存しません。ここに入れるのはWorkerのURLとアクセストークンだけで、どちらもこの端末のlocalStorageにのみ保存します(Gist同期の対象外)。アクセストークンが漏れると、あなたのアカウントでブックマークを投稿されるため、長いランダム文字列にしてください。
       </p>
       <div class="sync-fields">
-        <input id="my-endpoint-input" type="url" placeholder="Worker URL (https://….workers.dev)" autocomplete="off">
-        <input id="my-token-input" type="password" placeholder="アクセストークン" autocomplete="off">
+        <div class="gist-row">
+          <input id="my-endpoint-input" type="url" placeholder="Worker URL (https://….workers.dev)" autocomplete="off">
+          <a id="my-worker-link" class="btn btn--small" href="https://dash.cloudflare.com/?to=/:account/workers-and-pages" target="_blank" rel="noopener noreferrer" title="CloudflareのWorkers &amp; Pagesを開く" aria-label="CloudflareのWorkers &amp; Pagesを開く">↗</a>
+        </div>
+        <div class="gist-row">
+          <input id="my-token-input" type="password" placeholder="アクセストークン" autocomplete="off">
+          <a id="my-hatena-link" class="btn btn--small" href="https://www.hatena.ne.jp/oauth/develop" target="_blank" rel="noopener noreferrer" title="はてなのOAuthアプリ設定を開く(要ログイン)" aria-label="はてなのOAuthアプリ設定を開く" hidden>はてな ↗</a>
+        </div>
       </div>
       <div class="import-export-row">
         <button id="my-save-btn" type="button" class="btn btn--small">保存して接続確認</button>

@@ -975,6 +975,9 @@ main {
   gap: 8px;
   margin-bottom: 8px;
 }
+.sync-fields .gist-row {
+  margin-bottom: 0;
+}
 .sync-fields input {
   padding: 6px 10px;
   border-radius: var(--radius);
