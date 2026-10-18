@@ -21,7 +21,7 @@
 ## 「自分のブックマーク」のid秘匿(変更前に読む)
 
 - 取得対象のはてなidは`worker/`のWorker secret(`HATENA_USER_ID`)にだけ置く。コード・設定ファイル・ドキュメント・localStorage・URL・Workerのレスポンスにidを入れない(`user`オブジェクトや`profile.png`のアイコンURLにidが含まれるため、Workerは落として返し、richの画像は記事サムネイルにしている)。テストには公開アカウント(`hatenabookmark`)を使う。経緯は[decisions/my-bookmarks-worker-proxy.md](decisions/my-bookmarks-worker-proxy.md)。
-- ブックマーク投稿は上書き(POST=追加または更新。コメントもタグも置き換わる)のため、入力欄は既存の取得に成功するまで「ブクマ」を押せない。この取得を外す/失敗時も送れるようにすると、知らずに既存コメントを消す。また、タグ入力欄が無くても**既存のタグを取得して送り直している**(`bookmarkTags`)。送らないとコメントの更新で既存のタグが消える。Worker応答には、はてなの生レスポンス(ユーザー情報=idを含む)を返さず`{comment,tags}`だけにしている。OAuthのシークレット・アクセストークンはWorker secretにだけ置く(経緯は[decisions/bookmark-post-via-worker.md](decisions/bookmark-post-via-worker.md))。
+- ブックマーク投稿は上書き(POST=追加または更新。コメントもタグも置き換わる)のため、入力欄は既存の取得に成功するまで「B!」を押せない。この取得を外す/失敗時も送れるようにすると、知らずに既存コメントを消す。また、タグ入力欄が無くても**既存のタグを取得して送り直している**(`bookmarkTags`)。送らないとコメントの更新で既存のタグが消える。Worker応答には、はてなの生レスポンス(ユーザー情報=idを含む)を返さず`{comment,tags}`だけにしている。OAuthのシークレット・アクセストークンはWorker secretにだけ置く(経緯は[decisions/bookmark-post-via-worker.md](decisions/bookmark-post-via-worker.md))。
 - 「自分のブックマーク」のスター数(`POST /stars`)は、スターAPIのURIにはてなidが入るため、**ブラウザからスターAPIを直接引かずWorkerに組ませる**(idをブラウザの通信に出さない)。コメントビューのスター取得(`HatenaAPI.getStarCounts`)をそのまま流用しない。
 - 一覧(`HATENA_USER_ID`)と投稿(OAuthの持ち主=許可時にログインしていたアカウント)は別々の設定。食い違うと別人に書き込まれるため、Workerは不一致を409で拒否する(`accountMatch`。`applications/my.json`の`url_name`と比較。外すと、一覧と別のアカウントに投稿され得る)。経緯は[decisions/bookmark-post-via-worker.md](decisions/bookmark-post-via-worker.md)。
 - ローカル確認で`localhost:8000`に他プロジェクトの古いService Worker(scrapbox-tycoon等)が残っていると、JSが読み込めず`Cannot use import statement outside a module`のようなエラーになる。devtoolsでunregisterとCache Storage削除をしてから確認する。

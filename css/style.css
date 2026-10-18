@@ -200,7 +200,8 @@ main {
 .entry-nav-bar[hidden] {
   display: none;
 }
-/* ブックマーク投稿(コメント入力+ブクマ)。前後ナビの行の上に積む。Worker未設定の端末では出さない。 */
+/* ブックマーク投稿まわり(コメント入力・🔖自分のブックマーク・⚙接続設定・B!)。前後ナビの行の上に積む。
+   Worker未設定の端末でも、⚙から設定できるようバーは出す(入力欄とB!は止める)。 */
 .bookmark-bar {
   display: flex;
   flex-direction: column;
@@ -214,7 +215,15 @@ main {
 }
 .bookmark-bar-row {
   display: flex;
+  align-items: stretch; /* 入力欄とアイコンボタンの高さを揃える */
   gap: 8px;
+}
+.bookmark-bar-row .btn--icon {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 .bookmark-input {
   flex: 1 1 auto;
@@ -226,9 +235,13 @@ main {
   color: var(--color-text);
   font-size: 16px; /* iOSのフォーカス時ズームを避ける */
 }
+.bookmark-input:disabled {
+  opacity: 0.5;
+}
 .bookmark-btn {
   flex: 0 0 auto;
-  padding: 10px 18px;
+  padding: 10px 14px;
+  font-weight: 700;
   white-space: nowrap;
 }
 .bookmark-btn:disabled {
@@ -879,6 +892,9 @@ main {
   min-width: 0;
 }
 
+.my-bookmarks-section {
+  margin-top: 12px;
+}
 .modal-section {
   margin-top: 16px;
   padding-top: 12px;

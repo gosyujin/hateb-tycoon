@@ -35,6 +35,11 @@
 
   const settingsBtn = document.getElementById('settings-btn');
   const settingsModal = document.getElementById('settings-modal');
+  const mySettingsBtn = document.getElementById('my-settings-btn');
+  const mySettingsModal = document.getElementById('my-settings-modal');
+  const mySettingsClose = document.getElementById('my-settings-close');
+  // どちらかのモーダルが開いている間は、背面のスワイプ・キー操作・自動スクロールを止める
+  const isModalOpen = () => !settingsModal.hidden || !mySettingsModal.hidden;
   const settingsClose = document.getElementById('settings-close');
   const settingsTabs = document.getElementById('settings-tabs');
   const settingsForm = document.getElementById('settings-form');
@@ -1075,10 +1080,10 @@
     entryFilterBtn.disabled = true;
   });
 
-  // ---- ブックマーク投稿(記事ページ下部のコメント入力+「ブクマ」) ----
-  // 中継Worker(OAuth署名はWorker側)経由で、自分のブックマークを追加・更新する。Worker未設定なら出さない。
+  // ---- ブックマーク投稿(記事ページ下部のコメント入力+「B!」) ----
+  // 中継Worker(OAuth署名はWorker側)経由で、自分のブックマークを追加・更新する。Worker未設定なら入力欄と「B!」は止める。
   // はてなのPOSTは既存を上書きする(コメントもタグも)ため、記事を開いたら自分の既存ブックマークを
-  // 取得して入力欄に入れ、取得できるまで「ブクマ」は押せない。タグは編集しないが、既存のタグは
+  // 取得して入力欄に入れ、取得できるまで「B!」は押せない。タグは編集しないが、既存のタグは
   // 取得して保持し、そのまま送り直す(送らないとコメントの更新でタグが消える)。
   const BOOKMARK_LOAD_DELAY_MS = 400; // 前後の記事へ素早く移る時にWorkerを連打しない
   let bookmarkTarget = null; // 対象URL
@@ -1098,9 +1103,12 @@
     bookmarkComment.value = '';
     bookmarkStatus.textContent = '';
     bookmarkSubmit.disabled = true;
-    const visible = !!url && MyBookmarks.isConfigured();
-    bookmarkForm.hidden = !visible;
-    if (visible) bookmarkLoadTimer = setTimeout(loadExistingBookmark, BOOKMARK_LOAD_DELAY_MS);
+    // 未設定でもバーは出す(⚙から接続設定を開くため)。入力欄だけ止め、既存の取得もしない。
+    const configured = MyBookmarks.isConfigured();
+    bookmarkForm.hidden = !url;
+    bookmarkComment.disabled = !configured;
+    bookmarkComment.placeholder = configured ? 'コメント' : '⚙で中継Workerを設定';
+    if (url && configured) bookmarkLoadTimer = setTimeout(loadExistingBookmark, BOOKMARK_LOAD_DELAY_MS);
   }
 
   async function loadExistingBookmark() {
@@ -1123,7 +1131,7 @@
     }
   }
 
-  // Enter(スマホのリターンキー)は、キーボードを畳んで投稿する(「ブクマ」ボタンと同じ)。
+  // Enter(スマホのリターンキー)は、キーボードを畳んで投稿する(「B!」ボタンと同じ)。
   // 取得待ちなどでボタンが押せない間は、畳むだけで投稿しない。IMEの変換確定のEnterは何もしない。
   bookmarkComment.addEventListener('keydown', (e) => {
     if (e.key !== 'Enter' || e.isComposing || e.keyCode === 229) return;
@@ -1453,10 +1461,7 @@
     renderMeList();
   });
 
-  meOpenSettings.addEventListener('click', () => {
-    openSettings();
-    showSettingsPane('sync');
-  });
+  meOpenSettings.addEventListener('click', () => openMySettings());
 
   function resetMeState() {
     meSeq++;
@@ -1484,7 +1489,7 @@
     if (!MyBookmarks.isConfigured()) {
       resetMeState();
       meList.innerHTML = '';
-      meStatus.textContent = 'Worker URL とアクセストークンが未設定です。設定の「同期」タブで入力してください。';
+      meStatus.textContent = 'Worker URL とアクセストークンが未設定です。下のボタンから入力してください。';
       meOpenSettings.hidden = false;
       return;
     }
@@ -1764,7 +1769,13 @@
   // モーダルをvisualViewport(キーボードを除いた見えている領域)に追従させる
   function syncModalToViewport() {
     const vv = window.visualViewport;
-    if (!vv || settingsModal.hidden) return;
+    if (!vv) return;
+    // 小さい接続設定モーダルも、キーボード表示時に上端がはみ出さないよう同じ位置・高さに追従させる
+    if (!mySettingsModal.hidden) {
+      mySettingsModal.style.setProperty('--vv-top', `${vv.offsetTop}px`);
+      mySettingsModal.style.setProperty('--vv-height', `${vv.height}px`);
+    }
+    if (settingsModal.hidden) return;
     settingsModal.style.setProperty('--vv-top', `${vv.offsetTop}px`);
     settingsModal.style.setProperty('--vv-height', `${vv.height}px`);
     // キーボードで見える領域が短い時は、固定ヘッダーがスクロール領域を食うため固定を外す(CSS側)。
@@ -1812,7 +1823,6 @@
     refreshTokenField();
     refreshSyncFields();
     refreshFilterSyncFields();
-    refreshMyBookmarksFields();
     if (preset) {
       ruleTypeSelect.value = preset.type;
       ruleValueInput.value = preset.value;
@@ -2008,6 +2018,21 @@
   }
   settingsBtn.addEventListener('click', () => openSettings());
 
+  // ブクマ連携の設定(中継Workerの接続)。記事ページ下部のバーの⚙と、「自分のブックマーク」の未設定案内から開く。
+  function openMySettings() {
+    refreshMyBookmarksFields();
+    mySettingsModal.hidden = false;
+    syncModalToViewport();
+  }
+  function closeMySettings() {
+    mySettingsModal.hidden = true;
+  }
+  mySettingsBtn.addEventListener('click', openMySettings);
+  mySettingsClose.addEventListener('click', closeMySettings);
+  mySettingsModal.addEventListener('click', (e) => {
+    if (e.target === mySettingsModal) closeMySettings();
+  });
+
   // 一括既読: 一覧に表示中(検索・フィルタ適用後)の未読/更新ありの記事をすべて既読にする。
   const markAllReadBtn = document.getElementById('mark-all-read-btn');
   markAllReadBtn.addEventListener('click', () => {
@@ -2086,7 +2111,7 @@
   function updateSelectionPopup() {
     const sel = window.getSelection();
     const text = sel ? sel.toString().trim() : '';
-    if (!sel || sel.rangeCount === 0 || !text || !settingsModal.hidden) {
+    if (!sel || sel.rangeCount === 0 || !text || isModalOpen()) {
       hideSelectionPopup();
       return;
     }
@@ -2539,7 +2564,7 @@
   // リスナーはセクション要素ではなくdocumentに付ける。セクションは中身の高さしか
   // 持たないため、記事が少ない/読み込み中などで画面下部やmainの余白がスワイプ不能になっていた。
   addSwipeListener(document, (deltaX) => {
-    if (!settingsModal.hidden) return;
+    if (isModalOpen()) return;
     if (!listView.hidden) swipeCategory(deltaX);
     else if (!entryView.hidden) swipeEntry(deltaX);
   });
@@ -2548,7 +2573,7 @@
     if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
     if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
     if (isTypingTarget(document.activeElement)) return;
-    if (!settingsModal.hidden) return;
+    if (isModalOpen()) return;
 
     let handled = false;
     if (!listView.hidden) {
@@ -2622,7 +2647,7 @@
     autoScrollLastTs = ts;
     // 設定画面を開いている間は止める(背景が動くと気が散り、スマホでは入力欄の位置調整と競合する)。
     // ON/OFFの状態は変えないので、閉じればそのまま再開する。
-    if (ts < autoScrollPausedUntil || !settingsModal.hidden) return;
+    if (ts < autoScrollPausedUntil || isModalOpen()) return;
     autoScrollRemainder += (autoScrollSpeed * dt) / 1000;
     const px = Math.floor(autoScrollRemainder);
     if (px >= 1) {

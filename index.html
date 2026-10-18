@@ -19,7 +19,6 @@
       <p id="offline-cache-popover-status" class="status"></p>
     </div>
   </div>
-  <a id="me-link" href="#/me" class="btn btn--icon" aria-label="自分のブックマーク" title="自分のブックマーク">🔖</a>
   <button id="autoscroll-btn" type="button" class="btn btn--icon" aria-label="自動スクロールを開始" aria-pressed="false" title="自動スクロールを開始">▶️</button>
   <button id="mark-all-read-btn" type="button" class="btn btn--icon" aria-label="表示中の記事をすべて既読にする" title="表示中の記事をすべて既読にする">☑️</button>
   <button id="settings-btn" type="button" class="btn btn--icon" aria-label="フィルタ設定" title="フィルタ設定">⚙</button>
@@ -83,6 +82,29 @@
     <ul id="me-list" class="comment-list me-list"></ul>
   </section>
 </main>
+
+<div id="my-settings-modal" class="modal" hidden>
+  <div class="modal-panel">
+    <div class="modal-header">
+      <h2>ブクマ連携の設定</h2>
+      <button id="my-settings-close" type="button" class="btn btn--small">閉じる</button>
+    </div>
+    <section class="my-bookmarks-section">
+      <h3>中継Worker<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-my" aria-label="説明を表示">?</button></h3>
+      <p id="hint-my" class="hint" hidden>
+        記事ページ下部の🔖で開く「自分のブックマーク」ページと、「B!」でのブックマーク投稿の接続設定です。はてなのAPIはブラウザから直接使えない(CORS・OAuth)ため、自前の中継Worker(<code>worker/</code>)経由で呼びます。はてなidとOAuthの鍵はWorker側のsecretにだけ置き、このアプリには保存しません。ここに入れるのはWorkerのURLとアクセストークンだけで、どちらもこの端末のlocalStorageにのみ保存します(Gist同期の対象外)。アクセストークンが漏れると、あなたのアカウントでブックマークを投稿されるため、長いランダム文字列にしてください。
+      </p>
+      <div class="sync-fields">
+        <input id="my-endpoint-input" type="url" placeholder="Worker URL (https://….workers.dev)" autocomplete="off">
+        <input id="my-token-input" type="password" placeholder="アクセストークン" autocomplete="off">
+      </div>
+      <div class="import-export-row">
+        <button id="my-save-btn" type="button" class="btn btn--small">保存して接続確認</button>
+      </div>
+      <p id="my-status" class="status"></p>
+    </section>
+  </div>
+</div>
 
 <div id="settings-modal" class="modal" hidden>
   <div class="modal-panel">
@@ -183,20 +205,6 @@
     </section>
     </div>
     <div class="settings-pane" data-pane="sync" hidden>
-    <section class="modal-section my-bookmarks-section">
-      <h3>中継Worker(自分のブックマーク・ブックマーク投稿)<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-my" aria-label="説明を表示">?</button></h3>
-      <p id="hint-my" class="hint" hidden>
-        ヘッダーの🔖で開く「自分のブックマーク」ページと、記事ページ下部の「ブクマ」の接続設定です。はてなのAPIはブラウザから直接使えない(CORS・OAuth)ため、自前の中継Worker(<code>worker/</code>)経由で呼びます。はてなidとOAuthの鍵はWorker側のsecretにだけ置き、このアプリには保存しません。ここに入れるのはWorkerのURLとアクセストークンだけで、どちらもこの端末のlocalStorageにのみ保存します(Gist同期の対象外)。アクセストークンが漏れると、あなたのアカウントでブックマークを投稿されるため、長いランダム文字列にしてください。
-      </p>
-      <div class="sync-fields">
-        <input id="my-endpoint-input" type="url" placeholder="Worker URL (https://….workers.dev)" autocomplete="off">
-        <input id="my-token-input" type="password" placeholder="アクセストークン" autocomplete="off">
-      </div>
-      <div class="import-export-row">
-        <button id="my-save-btn" type="button" class="btn btn--small">保存して接続確認</button>
-      </div>
-      <p id="my-status" class="status"></p>
-    </section>
     <section class="modal-section sync-section">
       <h3>既読の同期(Gist)<button type="button" class="help-btn" aria-expanded="false" aria-controls="hint-sync" aria-label="説明を表示">?</button></h3>
       <p id="hint-sync" class="hint" hidden>
@@ -278,7 +286,9 @@
       <p id="bookmark-status" class="status bookmark-bar-status"></p>
       <div class="bookmark-bar-row">
         <input id="bookmark-comment" type="text" class="bookmark-input" placeholder="コメント" aria-label="ブックマークコメント" autocomplete="off" enterkeyhint="send">
-        <button id="bookmark-submit" type="submit" class="btn bookmark-btn">ブクマ</button>
+        <a id="me-link" href="#/me" class="btn btn--icon" aria-label="自分のブックマーク" title="自分のブックマーク">🔖</a>
+        <button id="my-settings-btn" type="button" class="btn btn--icon" aria-label="ブクマ連携の設定" title="ブクマ連携の設定">⚙</button>
+        <button id="bookmark-submit" type="submit" class="btn bookmark-btn" aria-label="ブックマークする" title="ブックマークする">B!</button>
       </div>
     </form>
     <div class="entry-nav-bar-inner">
