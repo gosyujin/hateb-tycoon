@@ -1289,6 +1289,19 @@ a.btn {
 .me-thumb--empty {
   display: block;
 }
+/* richレイアウトでは×をサムネイルの左上に重ねる。 */
+.me-thumb-wrap {
+  position: relative;
+  flex: 0 0 auto;
+  width: 64px;
+  height: 64px;
+}
+.me-list .me-thumb-wrap .card-close-btn {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  margin: 0;
+}
 #me-open-settings {
   margin-bottom: 12px;
 }

@@ -1675,8 +1675,10 @@
       : '<span class="me-thumb me-thumb--empty"></span>';
     return `
       <li>
-        ${MY_CLOSE_BTN(item)}
-        ${thumb}
+        <div class="me-thumb-wrap">
+          ${thumb}
+          ${MY_CLOSE_BTN(item)}
+        </div>
         <div class="me-item-body">
           <a class="me-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
           <div class="me-meta">
