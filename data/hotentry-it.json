@@ -1,5 +1,18 @@
 [
   {
+    "title": "オンボーディングをAIエージェントに任せたら、もはや別ゲーだった | BLOG - DeNA Engineering",
+    "url": "https://engineering.dena.com/blog/2026/10/ai-agent-onboarding/",
+    "domain": "engineering.dena.com",
+    "count": 6,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/engineering.dena.com/blog/2026/10/ai-agent-onboarding/",
+    "screenshot": "https://engineering.dena.com/blog/2026/10/ai-agent-onboarding/cover.png",
+    "description": "メンバーの立ち上げもAI Nativeに チームに人が入るたびに同じ説明を繰り返していませんか？散らばった資料から使えそうなものを探してませんか？重い腰を上げて作成したオンボーディング資料集、もう古くなってませんか？ 本記事では部のオンボーディングをGitHubリポジトリに集約し、Claude Codeを伴走させる仕組みを...",
+    "hatenaDate": "2026-10-17T11:42:36Z",
+    "users": [],
+    "firstSeenAt": "2026-10-18T20:45:13.241928+09:00",
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
+  },
+  {
     "title": "コネクタも API も無いサービスを、Claude Code に操作させる",
     "url": "https://zenn.dev/edash_tech_blog/articles/6250fc61ccf009",
     "domain": "zenn.dev",
@@ -10,33 +23,33 @@
     "hatenaDate": "2026-10-18T04:21:04Z",
     "users": [],
     "firstSeenAt": "2026-10-18T20:30:13.882379+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "本番DBに不要なレコードを数千万件登録してしまった話",
     "url": "https://zenn.dev/geekplus/articles/a615dfe41557d8",
     "domain": "zenn.dev",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/geekplus/articles/a615dfe41557d8",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--PkERTqD6--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%259C%25AC%25E7%2595%25AADB%25E3%2581%25AB%25E4%25B8%258D%25E8%25A6%2581%25E3%2581%25AA%25E3%2583%25AC%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E6%2595%25B0%25E5%258D%2583%25E4%25B8%2587%25E4%25BB%25B6%25E7%2599%25BB%25E9%258C%25B2%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2597%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E9%2595%25B7%25E8%25B0%25B7%25E9%2583%25A8%25E4%25B8%2580%25E5%25B8%258C%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzk5YzFhOGMxY2UuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Geekplus%2520Tech%2520Blog%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS3JoWVR3WWd6OC1UVnF4MFgybDN2MDU4NjRzS2VpbjdZYkp3NmJxZkJ5dEdJY05nPXMyNTAtYw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "ある日、普段数分以内で完了するはずのバッチジョブからレイテンシーアラートが上がってきました。 調査すると、出荷明細の補足情報を登録する処理で、大量のINSERTが発生しています。 このままでは、他の入出荷等にも影響を及ぼすため、早急な解消が必要な状況です。 この記事では、無駄に増殖してしまったデータとの戦...",
     "hatenaDate": "2026-10-17T14:08:09Z",
     "users": [],
     "firstSeenAt": "2026-10-18T20:15:12.862083+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "不正アクセス急増背景に“中国製LLM”台頭、AIが自動で偵察→侵入→情報奪取「情報漏れていない人の方が珍しい」専門家が警鐘、対策は?（テレビ高知） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/2c807564e567a7a66e8718bce6ebd38538c605e8",
     "domain": "news.yahoo.co.jp",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/2c807564e567a7a66e8718bce6ebd38538c605e8",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261018-23020110-kutvv-000-1-view.jpg?exp=10800",
     "description": null,
     "hatenaDate": "2026-10-18T10:16:23Z",
     "users": [],
     "firstSeenAt": "2026-10-18T20:15:12.862083+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "開発中のゲームがクラック・無断改造され、中国市場からの撤退を決めたゲーム作者の悲痛な報告にさまざまな反応が寄せられる「AIを使われているのかな…」",
@@ -49,85 +62,85 @@
     "hatenaDate": "2026-10-18T10:04:56Z",
     "users": [],
     "firstSeenAt": "2026-10-18T20:00:13.376736+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "Void でフルスタックアプリを構築して Cloudflare にデプロイする",
     "url": "https://azukiazusa.dev/blog/void-vite-cloudflare-deploy/",
     "domain": "azukiazusa.dev",
-    "count": 12,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/azukiazusa.dev/blog/void-vite-cloudflare-deploy/",
     "screenshot": "https://ogp.azukiazusa.dev/blog/ogp/void-vite-cloudflare-deploy.png",
     "description": "Void は VoidZero が開発した、Vite でフルスタックアプリを構築して Cloudflare にデプロイするためのツールキットです。void/db などの import から必要なリソースを推論し、void deploy コマンド 1 つでD1 データベースの作成、ビルド、マイグレーション、公開までを行います。この記事では、D1 を使ったメモアプリを...",
     "hatenaDate": "2026-10-18T08:20:03Z",
     "users": [],
     "firstSeenAt": "2026-10-18T20:00:13.376736+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "iOS 27にしてからiPhoneの充電がもたない…。原因は「あの設定」だった | ライフハッカー・ジャパン",
     "url": "https://www.lifehacker.jp/article/2610-ios27-battery-drain-connection-assist/",
     "domain": "www.lifehacker.jp",
-    "count": 21,
+    "count": 26,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.lifehacker.jp/article/2610-ios27-battery-drain-connection-assist/",
     "screenshot": "https://media.loom-app.com/loom/2026/10/16/7726ea54-2f45-4616-97f8-3514d6ad4d53/original.jpg?w=1200&h=630&f=jpg",
     "description": "iPhoneをiOS 27にアップデートした人のなかには、もうSiri AIやAppleのAIによる写真編集機能のいくつかを試してみた人もいるのではないでしょうか。 その一方で、別のことに気づいた人もいるかもしれません。 iPhoneのバッテリーのもちが悪くなっている、ということです。このアップデートによってバッテリーの駆動時間...",
     "hatenaDate": "2026-10-18T09:18:39Z",
     "users": [],
     "firstSeenAt": "2026-10-18T19:30:12.450107+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "技術書を年に数冊しか買わない自分に、O'Reillyのサブスク年$150は割に合うか（ACM経由で契約してMCPまで）",
     "url": "https://zenn.dev/sonicmoov/articles/oreilly-subscription-acm",
     "domain": "zenn.dev",
-    "count": 32,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/sonicmoov/articles/oreilly-subscription-acm",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--yBt-AmLD--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%258A%2580%25E8%25A1%2593%25E6%259B%25B8%25E3%2582%2592%25E5%25B9%25B4%25E3%2581%25AB%25E6%2595%25B0%25E5%2586%258A%25E3%2581%2597%25E3%2581%258B%25E8%25B2%25B7%25E3%2582%258F%25E3%2581%25AA%25E3%2581%2584%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AB%25E3%2580%2581O%2527Reilly%25E3%2581%25AE%25E3%2582%25B5%25E3%2583%2596%25E3%2582%25B9%25E3%2582%25AF%25E5%25B9%25B4%2524150%25E3%2581%25AF%25E5%2589%25B2%25E3%2581%25AB%25E5%2590%2588%25E3%2581%2586%25E3%2581%258B%25EF%25BC%2588ACM%25E7%25B5%258C%25E7%2594%25B1%25E3%2581%25A7%25E5%25A5%2591%25E7%25B4%2584%25E3%2581%2597%25E3%2581%25A6MCP%25E3%2581%25BE%25E3%2581%25A7%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:m.okamura%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzY0YjYwNGE3MzguanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%25BD%25E3%2583%258B%25E3%2583%2583%25E3%2582%25AF%25E3%2583%25A0%25E3%2583%25BC%25E3%2583%2596%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUc1eWZsTFFTVldHR2RacWE4eTJKOE0tbWFYeTlrdDBDNERVNGFMSDAtSjBldmdtNEw9czk2LWM=%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "はじめに オライリーの本は、技術書として信頼できるので、これまでも必要なものを買って読んでいました。 自分は紙の本のほうが読みやすいタイプです。ただ、オライリーの本は分厚いものが多く、持ち歩くと重いのが難点でした。そんなとき、オライリーの本がオンラインのサブスクで読み放題になると知って、魅力を感じ...",
     "hatenaDate": "2026-10-18T01:26:27Z",
     "users": [],
     "firstSeenAt": "2026-10-18T18:45:13.757200+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "日本企業がサーバーに侵入されまくっている現状を鑑み、「絶対無敵を目指すOS」を作ってみた。耐量子暗号HTTPSサーバー専用OS",
     "url": "https://wirelesswire.jp/2026/10/94793/",
     "domain": "wirelesswire.jp",
-    "count": 25,
+    "count": 27,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/wirelesswire.jp/2026/10/94793/",
     "screenshot": null,
     "description": "最近、日本の企業がサイバー攻撃によって大変なことになっている。 2025年9月にはアサヒグループホールディングスがランサムウェア攻撃を受け、受注・出荷業務が停止した。翌10月にはアスクルが同様の攻撃を受け、通販サービスの受注・出荷が停止。サプライチェーン全体に影響が波及する事態となった。挙句、本来、イン...",
     "hatenaDate": "2026-10-18T01:39:42Z",
     "users": [],
     "firstSeenAt": "2026-10-18T18:15:13.417312+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "GitHub、プルリクエスト向け「AI Scan」を一般提供",
     "url": "https://codezine.jp/news/detail/30045",
     "domain": "codezine.jp",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/codezine.jp/news/detail/30045",
     "screenshot": "https://codezine.jp/static/images/article/30045/1200git.png",
     "description": "GitHubは10月15日（現地時間）、コードスキャンの「AI Scan for pull requests」の一般提供を開始した。同機能は、CodeQLを補完するもの。PHP、Shell/Bash、Terraform構成（HCL）、Dockerfile、Java向けJSP、C#向けBlazorなど、CodeQLが現在対応していない言語やフレームワークを対象に、プルリクエストの変更から脆弱性...",
     "hatenaDate": "2026-10-17T18:27:33Z",
     "users": [],
     "firstSeenAt": "2026-10-18T18:15:13.417312+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "Pele · Mermaid diagrams as themeable SVG",
     "url": "https://pele.run/",
     "domain": "pele.run",
-    "count": 34,
+    "count": 37,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pele.run/",
     "screenshot": "https://pele.run/social.png",
     "description": "Pele is a lightweight open source library that renders Mermaid diagrams to SVG, themed with CSS variables. Write Mermaid syntax, Pele renders it to SVG. Try editing the example below.",
     "hatenaDate": "2026-10-17T23:49:20Z",
     "users": [],
     "firstSeenAt": "2026-10-18T17:45:12.731568+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "一部iPhoneで「インカメラのシャッター音」を消せる？　iOS 27で確認、注意点も",
@@ -146,27 +159,27 @@
     "title": "オントロジーとは？意味・ナレッジグラフとの違い・LLMでの効果",
     "url": "https://fd-x.co.jp/insights/41-what-is-ontology",
     "domain": "fd-x.co.jp",
-    "count": 48,
+    "count": 50,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/fd-x.co.jp/insights/41-what-is-ontology",
     "screenshot": "https://fd-x.co.jp/images/insights/41-what-is-ontology-hero.webp",
     "description": "最新世代の​モデルでも、​意味の​層を​通した​ほうが​精度は​明確に​高い。​加えて、​文脈付きメタデータを​与えた​場合は​スキーマのみの​プロンプトに​対しSQL生成精度が​3倍、​522問規模の​別ベンチマークでも​38%の​相対改善が​報告されている。 モデルの進化は意味の層を不要にしていない。​むしろエージェントが​...",
     "hatenaDate": "2026-10-18T02:55:30Z",
     "users": [],
     "firstSeenAt": "2026-10-18T17:15:13.192571+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "AIによるProof of Workの終わりと「なぜベストを尽くしたのか」のこれから - Write and Run",
     "url": "https://diary.hatenablog.jp/entry/2026/10/17/191528",
     "domain": "diary.hatenablog.jp",
-    "count": 9,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/diary.hatenablog.jp/entry/2026/10/17/191528",
     "screenshot": "https://ogimage.blog.st-hatena.com/13208692334729890363/14945776032091474282/1792232128",
     "description": "今年に入ってからというもの、私の YouTube での活動は大きく減ってほぼゼロになった。年始に TCP/IP スタックを24時間で作ったあと、ほとんど更新していない。これには2つの理由がある。1つは仕事が忙しいためであり、もう1つは仕事の方が楽しいためである。 AI の登場により、正しいことを十分に行うコストが激減した...",
     "hatenaDate": "2026-10-18T03:48:06Z",
     "users": [],
     "firstSeenAt": "2026-10-18T17:15:13.192571+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "Example Domain",
@@ -179,7 +192,7 @@
     "hatenaDate": "2026-10-18T05:09:03Z",
     "users": [],
     "firstSeenAt": "2026-10-18T17:00:12.778826+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "AI検索普及、ゼロクリック率68%に上昇　揺らぐサイト集客 - 日本経済新聞",
@@ -192,7 +205,7 @@
     "hatenaDate": "2026-10-18T00:09:52Z",
     "users": [],
     "firstSeenAt": "2026-10-18T16:15:12.977708+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "ソフトウェアファクトリーとは何で、何ではないのかを考える｜kagaya",
@@ -205,7 +218,7 @@
     "hatenaDate": "2026-10-18T02:52:38Z",
     "users": [],
     "firstSeenAt": "2026-10-18T16:00:11.786518+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "Microsoft Word -",
@@ -237,14 +250,14 @@
     "title": "スマホの「充電80％止めで長持ち」「挿しっぱなし充電NG」は本当？　実験で見えた意外な結果",
     "url": "https://www.itmedia.co.jp/mobile/articles/2610/18/news002.html",
     "domain": "www.itmedia.co.jp",
-    "count": 326,
+    "count": 332,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2610/18/news002.html",
     "screenshot": "https://image.itmedia.co.jp/mobile/articles/2610/18/cover_news002.jpg",
     "description": "急速充電は使わない。満充電のまま朝まで挿しっぱなしにしない。充電は80％で止める。バッテリーを長持ちさせるために、どれか1つは守っている人が多いはずだ。現行のスマートフォンでは、80％で充電を止める設定を用意している機種が多い。この設定は、スマートフォンのバッテリーを長く使う上で有効だとされている。 ...",
     "hatenaDate": "2026-10-18T04:35:48Z",
     "users": [],
     "firstSeenAt": "2026-10-18T14:45:12.932781+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "暇すぎると人は攻撃的になる。刺激を求めて暴力性が増す",
@@ -263,14 +276,14 @@
     "title": "example.com が刷新された話 | blog.jxck.io",
     "url": "https://blog.jxck.io/entries/2026-10-17/example.com.html",
     "domain": "blog.jxck.io",
-    "count": 85,
+    "count": 86,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.jxck.io/entries/2026-10-17/example.com.html",
     "screenshot": "https://blog.jxck.io/assets/img/jxck.600x600.png",
     "description": "Intro http://example.com が刷新されてしまった。 Example Domain ドキュメントや書籍、スライドやコメントなどに、サンプルとして適当な URL を書くことがあるだろう。 例えば、ネットワークでよく出てくる Alice になぞらえて alice [dot] com などと書くと、そのサイトは実在するため、開けばリクエストが飛ぶ。 bob...",
     "hatenaDate": "2026-10-17T09:51:10Z",
     "users": [],
     "firstSeenAt": "2026-10-18T14:15:12.545200+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "Speeding up code review with `small-change`",
@@ -283,7 +296,7 @@
     "hatenaDate": "2026-10-18T03:14:50Z",
     "users": [],
     "firstSeenAt": "2026-10-18T13:45:12.906346+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "ソフトウェア ファクトリー - 再現性のあるソフトウェアの工場づくり / Software factory",
@@ -296,7 +309,7 @@
     "hatenaDate": "2026-10-17T00:14:50Z",
     "users": [],
     "firstSeenAt": "2026-10-18T13:45:12.906346+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "現場と育てるRailsモデリング 〜Spreadsheetから始めたモデル設計〜",
@@ -315,14 +328,14 @@
     "title": "知らない分野を学ぶ技術 powered by AI - ぷりんの雑記帳",
     "url": "https://smooth-pudding.hatenablog.com/entry/2026/10/17/145830",
     "domain": "smooth-pudding.hatenablog.com",
-    "count": 106,
+    "count": 111,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/smooth-pudding.hatenablog.com/entry/2026/10/17/145830",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/cbb366da79b48a93ffb878b1109ff6776923aa69/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fm%2Fmat_der_D%2F20261017%2F20261017144011.png",
     "description": "Open AI が証明したと主張している、Navier-Stokes 方程式の爆発解の構成の書籍を発売しました。 smooth-pudding.hatenablog.com それに関連して、この書籍の活用方法や、AI を使って学びを広げることについて以下の記事で話しました。 smooth-pudding.hatenablog.com 今回はより具体的に、自分がまだ知らない分野につい...",
     "hatenaDate": "2026-10-17T17:43:11Z",
     "users": [],
     "firstSeenAt": "2026-10-18T13:30:12.517943+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "Jevにウォーリーを探させたら0.4秒で見つけやがった!! - Qiita",
@@ -367,27 +380,27 @@
     "title": "ナオミ・クラインが暴く「テック億万長者という“中身のない男たち”の正体」 | 彼らの態度が「ころころ変わる」不気味な理由",
     "url": "https://courrier.jp/news/archives/462520/",
     "domain": "courrier.jp",
-    "count": 84,
+    "count": 87,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/courrier.jp/news/archives/462520/",
     "screenshot": "https://courrier.jp/media/2026/10/14202531/6c3d38383cee3396c88aabc1885730fc-1600x900.jpeg",
     "description": "2024年の米大統領選では、それまで民主党支持だったイーロン・マスクらテック億万長者たちが、トランプ支持へと雪崩を打った。なぜ彼らの態度は180度変わったのか？ ジャーナリストのナオミ・クラインは、気候危機やAIによる失業を冷笑し、富と技術の力で世界を私物化しようとする超富裕層の冷酷な本音を、その新著で暴...",
     "hatenaDate": "2026-10-17T23:50:03Z",
     "users": [],
     "firstSeenAt": "2026-10-18T11:45:12.233130+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "米衛星通信網「スターリンク」の利用制限、マスク氏が提案か　トランプ氏同意と英報道",
     "url": "https://www.sankei.com/article/20261018-JY4LXLBKRVNVHAU4L5H3Y66C6E/",
     "domain": "www.sankei.com",
-    "count": 75,
+    "count": 76,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.sankei.com/article/20261018-JY4LXLBKRVNVHAU4L5H3Y66C6E/",
     "screenshot": "https://www.sankei.com/resizer/v2/45O3WDDXNFLVDB3RA6VOYG7TJE.jpg?auth=fbcc333f5c9c5087552eb6891a9893251c6a4ef1511b72457b41512f2652ddd0&quality=50&focal=1655%2C771&width=1200&height=675",
     "description": "英紙テレグラフは17日までに、ウクライナ軍が使用する米衛星通信網「スターリンク」の軍事用サービスの利用制限について、運用する企業スペースXを率いる実業家イーロン・マスク氏がトランプ大統領に提案したと報じた。トランプ氏も同意したとしている。 マスク氏は自身の関与を否定し、利用制限を決める最終権限はトラ...",
     "hatenaDate": "2026-10-18T01:11:39Z",
     "users": [],
     "firstSeenAt": "2026-10-18T11:30:12.689043+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "会社の若い子が「ﾙｰﾓｽ…」って呟いたら、スマホのライトがピカァ！ってなったんで俺が🫨⁉️ってなってたら、「魔法…使えるんですよ…」って言われた",
@@ -400,7 +413,7 @@
     "hatenaDate": "2026-10-18T00:53:32Z",
     "users": [],
     "firstSeenAt": "2026-10-18T11:15:12.372339+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "Void を触ってみた。もう全部これでよくね？ | ashunar0",
@@ -413,20 +426,20 @@
     "hatenaDate": "2026-10-17T21:28:03Z",
     "users": [],
     "firstSeenAt": "2026-10-18T10:30:13.016933+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "ベクトルDBを使わない「階層ナビゲーション型RAG」を作って、ベクトルDB版RAGと比較してみた",
     "url": "https://zenn.dev/aiforall/articles/8e1803396534de",
     "domain": "zenn.dev",
-    "count": 73,
+    "count": 75,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/aiforall/articles/8e1803396534de",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--hc7E0RGE--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2599%25E3%2582%25AF%25E3%2583%2588%25E3%2583%25ABDB%25E3%2582%2592%25E4%25BD%25BF%25E3%2582%258F%25E3%2581%25AA%25E3%2581%2584%25E3%2580%258C%25E9%259A%258E%25E5%25B1%25A4%25E3%2583%258A%25E3%2583%2593%25E3%2582%25B2%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E5%259E%258BRAG%25E3%2580%258D%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2580%2581%25E3%2583%2599%25E3%2582%25AF%25E3%2583%2588%25E3%2583%25ABDB%25E7%2589%2588RAG%25E3%2581%25A8%25E6%25AF%2594%25E8%25BC%2583%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:nishina%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzA3ODlkYTQ2NWIuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2590%25E3%2583%25BC%25E3%2582%25BA%2520AI%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2582%25AA%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%25AB%25E3%2583%25B3%25E3%2583%2591%25E3%2583%258B%25E3%2583%25BC%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2EwZjI2NTU2NWIuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "階層ナビゲーション型RAGとは 「階層ナビゲーション型RAG」は、ベクトルDBを使わずに文書を探すRAGです。準備段階で文書の山から階層的な目次を自動で作っておき、質問が来たらLLMがその目次を上から順に辿って、答えが書かれていそうな文書を選びます。質問のたびにベクトル検索をしない点が、一般的なベクトルDB版RAG...",
     "hatenaDate": "2026-10-17T13:37:34Z",
     "users": [],
     "firstSeenAt": "2026-10-18T10:00:12.253749+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "画像生成・編集モデル「FLUX 3 Image Klein」が登場、5.6BのオープンモデルでゲーミングPCでローカル動作し日本語テキストの描画や位置指定にも対応",
@@ -445,14 +458,14 @@
     "title": "ドコモの「緊急地震速報」不配、原因を発表　「従来と異なるデータ」で誤認識",
     "url": "https://k-tai.watch.impress.co.jp/docs/news/2149025.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 108,
+    "count": 107,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2149025.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2149/025/dcm10.jpg",
     "description": null,
     "hatenaDate": "2026-10-17T06:57:30Z",
     "users": [],
     "firstSeenAt": "2026-10-18T09:15:14.658141+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "「AIに頼らずいろんな絵柄やタッチを再現して描いた絵を見てくれ」『しかるねこ』作者が9年前に描いた16枚のそれぞれ違った作風のサーバルちゃんの模写アレンジ絵がスゴい",
@@ -484,40 +497,40 @@
     "title": "Windows11アップデート: 右クリックメニューを高速化する方法 #Windows - いおりのパソコン技術メモ",
     "url": "https://iori016.hatenablog.com/entry/2025/11/02/110654",
     "domain": "iori016.hatenablog.com",
-    "count": 294,
+    "count": 299,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/iori016.hatenablog.com/entry/2025/11/02/110654",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/fdafd146916f71e3fe0360f2bc2d517a564ebe64/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fi%2Fiori016%2F20251030%2F20251030225242.png",
     "description": "画像の右クリックメニューを高速化 Windows10のサポート期限が切れた為、Windows11にアップデートした人たちが増えていると思いますが、Windows11にして最初に困るのが、Explorerの右クリックメニューの問題です。これをWindows10ライクにする設定は割とよく知られていますが、それでも右クリックメニューの表示が遅いと...",
     "hatenaDate": "2026-10-17T17:15:04Z",
     "users": [],
     "firstSeenAt": "2026-10-18T08:00:11.743564+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "AnthropicのAI時代のコードレビュー術 - Claude Codeによる自動レビューと人間の役割｜npaka",
     "url": "https://note.com/npaka/n/ndb4b0f424ced",
     "domain": "note.com",
-    "count": 401,
+    "count": 406,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/npaka/n/ndb4b0f424ced",
     "screenshot": "https://assets.st-note.com/production/uploads/images/325190045/rectangle_large_type_2_49aa4679e0b0349bf13930b746fb2181.png?fit=bounds&quality=85&width=1280",
     "description": "1. はじめに2026年10月、Anthropicは「How the Claude Code team does code review」という技術記事を公開しました。 この記事では、AIによるコード生成が急増する中、Anthropicがどのようにコードレビューを自動化し、品質と開発速度を両立しているのかを紹介しています。 Anthropicでは、Claude Code自身のコードの約9...",
     "hatenaDate": "2026-10-17T02:09:01Z",
     "users": [],
     "firstSeenAt": "2026-10-18T07:30:11.992484+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性",
     "url": "https://www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html",
     "domain": "www.publickey1.jp",
-    "count": 104,
+    "count": 105,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html",
     "screenshot": "https://www.publickey1.jp/2026/cve202699999.png",
     "description": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性 悪意のある攻撃者がLinuxの仮想マシンを不正に操作することで、仮想マシンの境界を抜けてホスト側のLinux OSで不正なコードを実行できる可能性がある脆弱性「PwnEscape」（CVE-20...",
     "hatenaDate": "2026-10-17T14:59:56Z",
     "users": [],
     "firstSeenAt": "2026-10-18T06:30:12.497229+09:00",
-    "lastSeenAt": "2026-10-18T20:30:13.882379+09:00"
+    "lastSeenAt": "2026-10-18T20:45:13.241928+09:00"
   },
   {
     "title": "コード系でOpus 5超え「DeepSeek-V4.1-Flash-1017」無償公開",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-15T08:00:11.336258+09:00",
     "lastSeenAt": "2026-10-15T11:45:10.690115+09:00"
-  },
-  {
-    "title": "GoogleのEmbeddingGemma 2を音声認識モデルに変換した「Embedding Gemma Transcribe」、オフライン環境のMacなら15分の音声をわずか約3秒で爆速文字起こし可能",
-    "url": "https://gigazine.net/news/20261014-embetting-gemma-transcribe/",
-    "domain": "gigazine.net",
-    "count": 13,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261014-embetting-gemma-transcribe/",
-    "screenshot": "https://i.gzn.jp/img/2026/10/14/embetting-gemma-transcribe/00.png",
-    "description": "音声をテキストに変換する文字起こしには一般的に音声認識専用のAIモデルが使われます。しかし、文章の意味を数値で表現する埋め込みモデルのEmbeddingGemma 2を利用して音声を文字起こしするという一風変わったアプローチを採用した「Embedding Gemma Transcribe」が登場しました。Embedding Gemma TranscribeはApple S...",
-    "hatenaDate": "2026-10-14T13:13:34Z",
-    "users": [],
-    "firstSeenAt": "2026-10-15T07:15:11.815182+09:00",
-    "lastSeenAt": "2026-10-15T11:15:12.466899+09:00"
   }
 ]
