@@ -43,10 +43,23 @@
     return gistId ? `https://gist.github.com/${gistId}` : '';
   }
 
+  const TOKEN_INVALID_MESSAGE = 'トークンが無効です(失効の可能性)';
+
+  // 失効したトークンを作り直す画面(classic PAT。fine-grained PATはGist非対応)。gistスコープを選択済みで開く
+  const TOKEN_ISSUE_URL = 'https://github.com/settings/tokens/new?scopes=gist&description=hateb-tycoon';
+
+  const GIST_NOT_FOUND_MESSAGE = 'Gistが見つかりません(IDまたはトークンの権限を確認)';
+
+  // lastError は文言で保存されるため、トークンの作り直しで直りうるエラー(401=失効、
+  // 404=シークレットGistは権限の無いトークンだと見つからない)かどうかは文言で判定する
+  function isTokenError(message) {
+    return message === TOKEN_INVALID_MESSAGE || message === GIST_NOT_FOUND_MESSAGE;
+  }
+
   function describeHttpError(status) {
-    if (status === 401) return 'トークンが無効です(失効の可能性)';
+    if (status === 401) return TOKEN_INVALID_MESSAGE;
     if (status === 403) return 'アクセス拒否またはレート制限です';
-    if (status === 404) return 'Gistが見つかりません(IDまたはトークンの権限を確認)';
+    if (status === 404) return GIST_NOT_FOUND_MESSAGE;
     return `HTTP ${status}`;
   }
 
@@ -99,5 +112,5 @@
     return (await res.json()).id;
   }
 
-  global.Gist = { getToken, setToken, parseGistId, pageUrl, describeHttpError, get, fileText, update, create };
+  global.Gist = { getToken, setToken, parseGistId, pageUrl, isTokenError, TOKEN_ISSUE_URL, describeHttpError, get, fileText, update, create };
 })(window);

@@ -1882,6 +1882,19 @@
   const syncCreateBtn = document.getElementById('sync-create-btn');
   const syncStatus = document.getElementById('sync-status');
 
+  // 状態行を書く。トークンの作り直しで直りうるエラーなら、再発行画面へのリンクを末尾に付ける
+  function setGistStatus(el, text, lastError) {
+    el.textContent = text;
+    // トークン未設定の端末(読み取り専用)は作り直す対象が無いので出さない
+    if (!Gist.getToken() || !Gist.isTokenError(lastError)) return;
+    const a = document.createElement('a');
+    a.href = Gist.TOKEN_ISSUE_URL;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.textContent = 'トークンを再発行';
+    el.append(' / ', a);
+  }
+
   function renderSyncStatus() {
     const cfg = Sync.getConfig();
     if (!cfg.gistId) {
@@ -1890,7 +1903,11 @@
     }
     const mode = Gist.getToken() ? '読み書き' : '読み取り専用';
     const at = cfg.lastSyncAt ? `最終同期 ${new Date(cfg.lastSyncAt).toLocaleString()}` : '未同期';
-    syncStatus.textContent = cfg.lastError ? `${mode} / ${at} / エラー: ${cfg.lastError}` : `${mode} / ${at}`;
+    setGistStatus(
+      syncStatus,
+      cfg.lastError ? `${mode} / ${at} / エラー: ${cfg.lastError}` : `${mode} / ${at}`,
+      cfg.lastError
+    );
   }
 
   function refreshSyncFields() {
@@ -1921,7 +1938,7 @@
       await Sync.createGist();
       await Sync.sync();
     } catch (err) {
-      syncStatus.textContent = `作成失敗: ${err.message}`;
+      setGistStatus(syncStatus, `作成失敗: ${err.message}`, err.message);
       return;
     }
     refreshSyncFields();
@@ -2370,7 +2387,7 @@
     const mode = Gist.getToken() ? '読み書き' : '読み取り専用';
     const at = cfg.lastSyncAt ? `最終同期 ${new Date(cfg.lastSyncAt).toLocaleString()}` : '未同期';
     const base = cfg.lastError ? `${mode} / ${at} / エラー: ${cfg.lastError}` : `${mode} / ${at}`;
-    filterSyncStatus.textContent = extra ? `${base} / ${extra}` : base;
+    setGistStatus(filterSyncStatus, extra ? `${base} / ${extra}` : base, cfg.lastError);
   }
 
   function refreshFilterSyncFields() {
@@ -2404,7 +2421,7 @@
       renderFilterSyncStatus(describeFilterSyncResult(result));
     } catch (err) {
       renderFilterSyncStatus();
-      filterSyncStatus.textContent = `失敗: ${err.message}`;
+      setGistStatus(filterSyncStatus, `失敗: ${err.message}`, err.message);
     }
   }
 
@@ -2427,7 +2444,9 @@
     quickSyncStatus.textContent = `${label}: 同期中…`;
     try {
       await run();
-      quickSyncStatus.textContent = `${label}: ${statusEl.textContent}`;
+      // 状態行のトークン再発行リンクも含め、子ノードごとメインタブへ写す
+      quickSyncStatus.textContent = `${label}: `;
+      statusEl.childNodes.forEach((n) => quickSyncStatus.append(n.cloneNode(true)));
     } finally {
       quickSyncButtons.forEach((b) => { b.disabled = false; });
     }

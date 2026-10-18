@@ -126,7 +126,7 @@ hateb-tycoon コミット `ac1f206` で導入した仕様。feed-tycoon も同�
 - 既読同期の起動時pullと並列実行(`Promise.all`)。記事ページは完了後に初回描画、一覧ページは待たずに描画し完了後にフィルタ件数が変わっていれば再構築。
 
 #### エラー文言(`Gist.describeHttpError`)
-401 トークンが無効です(失効の可能性) / 403 アクセス拒否またはレート制限です / 404 Gistが見つかりません(IDまたはトークンの権限を確認) / その他 `HTTP <status>`
+401 トークンが無効です(失効の可能性) / 403 アクセス拒否またはレート制限です / 404 Gistが見つかりません(IDまたはトークンの権限を確認)。**401と404**は、トークン設定済みの端末の状態行末尾に「トークンを再発行」リンク(`Gist.TOKEN_ISSUE_URL`=`gist`スコープ入りのclassic PAT作成画面。開くだけで、発行はGitHub上で本人が行う)を付ける(`app.js`の`setGistStatus`。判定は文言一致の`Gist.isTokenError`) / その他 `HTTP <status>`
 
 ### 6. モジュール構成(hateb-tycoon)
 
