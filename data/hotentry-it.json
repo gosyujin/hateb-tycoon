@@ -1,16 +1,29 @@
 [
   {
+    "title": "AWS Continuum で実現するデプロイごとのペネトレーションテスト | Amazon Web Services",
+    "url": "https://aws.amazon.com/jp/blogs/news/penetration-testing-every-deployment-with-aws-continuum/",
+    "domain": "aws.amazon.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/aws.amazon.com/jp/blogs/news/penetration-testing-every-deployment-with-aws-continuum/",
+    "screenshot": "https://d2908q01vomqb2.cloudfront.net/b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f/2026/10/15/hero-shield-rack-1200x600-1-1.jpg",
+    "description": "Amazon Web Services ブログ AWS Continuum で実現するデプロイごとのペネトレーションテスト 本ブログは 2026 年 10 月 14 日に公開された AWS Blog “Penetration testing every deployment with AWS Continuum” を翻訳したものです。 静的解析 (SAST)、ソフトウェア構成分析 (SCA)、動的スキャナー (DAST) など、CI/CD...",
+    "hatenaDate": "2026-10-18T12:55:32Z",
+    "users": [],
+    "firstSeenAt": "2026-10-19T11:45:12.444846+09:00",
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
+  },
+  {
     "title": "コーディングベンチでGPT-6 Astraを超えつつ超安価な中国製AIモデル「DeepSeek-V4.1-Flash-1017」が登場",
     "url": "https://gigazine.net/news/20261019-deepseek-v4-1-flash-1017/",
     "domain": "gigazine.net",
-    "count": 4,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261019-deepseek-v4-1-flash-1017/",
     "screenshot": "https://i.gzn.jp/img/2026/10/19/deepseek-v4-1-flash-1017/00.png",
     "description": "中国企業のDeepSeekがAIモデル「DeepSeek-V4.1-Flash-1017」を2026年10月17日に公開しました。 DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real | DeepSeek API Docs https://api-docs.deepseek.com/news/news261017 🚀 DeepSeek-V4.1-Flash-1017 is here! Stronger benchmark performance, faster task c...",
     "hatenaDate": "2026-10-19T01:50:56Z",
     "users": [],
     "firstSeenAt": "2026-10-19T11:30:13.339384+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "Anthropic、社内でAIエージェントの稼働時間が人間の6倍に　技術系初級職の採用比率は27％→9％に激減",
@@ -23,20 +36,20 @@
     "hatenaDate": "2026-10-18T23:45:01Z",
     "users": [],
     "firstSeenAt": "2026-10-19T11:30:13.339384+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "1年4カ月の休暇で、元サイボウズ・スクラムマスター天野祐介さんが「16年間のアジャイル実践記」を書いた理由 - レバテックLAB",
     "url": "https://levtech.jp/media/detail_949/",
     "domain": "levtech.jp",
-    "count": 6,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/levtech.jp/media/detail_949/",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/7043df5f0dac837710c91817a5a397a8ffd0e293/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fm%2Fmskkwsm%2F20261016%2F20261016111816.jpg",
     "description": "アバロスプラス株式会社 代表取締役／変容実践家 天野 祐介 2009年にサイボウズ株式会社へ新卒入社し、kintoneの開発エンジニアを経て、社内初の専任スクラムマスターとして1チームから開発組織全体へアジャイルの実践を広げる。その後、アジャイルコーチ、スクラムマスター職能のマネージャーを務め、2025年5月に退職。...",
     "hatenaDate": "2026-10-19T01:31:34Z",
     "users": [],
     "firstSeenAt": "2026-10-19T11:15:12.973277+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "米紙が報じる「日本がサイバー攻撃の格好の標的になる理由」 | 脆弱なセキュリティインフラと対策の遅れ",
@@ -49,7 +62,7 @@
     "hatenaDate": "2026-10-18T19:47:23Z",
     "users": [],
     "firstSeenAt": "2026-10-19T11:00:13.843118+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "AI時代のデジタルプロクダクトデザインの今｜こぎそ",
@@ -62,59 +75,59 @@
     "hatenaDate": "2026-10-18T14:11:35Z",
     "users": [],
     "firstSeenAt": "2026-10-19T11:00:13.843118+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "「アーキテクチャConference 2026」NOTA、Base44を含む特別登壇者4名を追加発表！AI時代の設計判断に確かな軸を、11月26日・27日開催。",
     "url": "https://prtimes.jp/main/html/rd/p/000000280.000045379.html",
     "domain": "prtimes.jp",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/prtimes.jp/main/html/rd/p/000000280.000045379.html",
     "screenshot": "https://prcdn.freetls.fastly.net/release_image/45379/280/45379-280-487c78694c05f5be370dfa19c60fbdbe-1248x656.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
     "description": "「アーキテクチャConference 2026」NOTA、Base44を含む特別登壇者4名を追加発表！AI時代の設計判断に確かな軸を、11月26日・27日開催。昨年5,549名が参加申込、登壇者の著書・訳書24点を集めた記念フェアも2書店で初開催！ ファインディ株式会社（東京都品川区、代表取締役：山田 裕一朗、以下「当社」）は、2026年11月2...",
     "hatenaDate": "2026-10-19T01:23:18Z",
     "users": [],
     "firstSeenAt": "2026-10-19T10:45:13.803490+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "GitHub - padovanl/portop: htop for your ports. Inspect processes, Docker & systemd, detect port drift, audit Compose, and manage it all from TUI, Web or Cockpit.",
     "url": "https://github.com/padovanl/portop",
     "domain": "github.com",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/padovanl/portop",
     "screenshot": "https://opengraph.githubassets.com/2077b684a82cf29f0146a6516ae84cd098e684c8f224d594406f3d3447d6de45/padovanl/portop",
     "description": "portop is an htop-style terminal UI for the TCP and UDP sockets on a machine. For every port it shows the process, its systemd unit or Windows service, its Docker, Podman or Kubernetes container, who can reach it and what the firewall does with it, and it lets you inspect or stop the owner from t...",
     "hatenaDate": "2026-10-18T13:13:01Z",
     "users": [],
     "firstSeenAt": "2026-10-19T10:45:13.803490+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "AWS CloudTrail を使ったインシデント調査・対応ガイド – パート 1 | Amazon Web Services",
     "url": "https://aws.amazon.com/jp/blogs/news/incident-response-guide-for-aws-cloudtrail-investigations-part-1/",
     "domain": "aws.amazon.com",
-    "count": 12,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/aws.amazon.com/jp/blogs/news/incident-response-guide-for-aws-cloudtrail-investigations-part-1/",
     "screenshot": "https://d2908q01vomqb2.cloudfront.net/b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f/2026/10/14/Incident-response-guide-for-AWS-CloudTrail-investigations-Part-1.jpg",
     "description": "Amazon Web Services ブログ AWS CloudTrail を使ったインシデント調査・対応ガイド – パート 1 本ブログは 2026 年 9 月 3 日に公開された AWS Blog “Incident response guide for AWS CloudTrail investigations – Part 1” を翻訳したものです。 AWS CloudTrail ログには、AWS 環境で疑わしいアクティビティを調査する...",
     "hatenaDate": "2026-10-18T12:44:57Z",
     "users": [],
     "firstSeenAt": "2026-10-19T10:45:13.803490+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "GitHub - moritzwilksch/diffle: A keyboard-first diff viewer with LSP support and GitHub integration.",
     "url": "https://github.com/moritzwilksch/diffle",
     "domain": "github.com",
-    "count": 6,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/moritzwilksch/diffle",
     "screenshot": "https://opengraph.githubassets.com/939051d93abcf63161f3650a49be04affaabc9b35ae50a9a020f2b1d7e8ab847/moritzwilksch/diffle",
     "description": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
     "hatenaDate": "2026-10-11T13:05:04Z",
     "users": [],
     "firstSeenAt": "2026-10-19T10:15:13.159868+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "Server-Side Kotlin Meetup vol.20 登壇レポート ~ Kotlin + Quarkus を Lambda SnapStart で動かす ~ - Nealle Developer's Blog",
@@ -127,33 +140,33 @@
     "hatenaDate": "2026-10-18T23:06:15Z",
     "users": [],
     "firstSeenAt": "2026-10-19T10:00:13.085636+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "SES企業は「技術力」を自慢、でも“根拠”は曖昧だった――400社超の調査で判明",
     "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/17/news009.html",
     "domain": "atmarkit.itmedia.co.jp",
-    "count": 24,
+    "count": 25,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2610/17/news009.html",
     "screenshot": "https://image.itmedia.co.jp/ait/articles/2610/17/cover_news009.jpg",
     "description": "SES企業は「技術力」を自慢、でも“根拠”は曖昧だった――400社超の調査で判明：「エンジニアへの経歴詐称の強要」問題を機に考える（1/2 ページ） SES企業がエンジニアに経歴詐称を強いる問題が浮上する中、そもそも各社がエンジニアの技術力をどう評価し、育成しているのかは気になるところだ。だが、こうした取り組みを...",
     "hatenaDate": "2026-10-18T00:54:51Z",
     "users": [],
     "firstSeenAt": "2026-10-19T10:00:13.085636+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "ファイルとGitとGitHubを1画面に並べるgrutが良さげかも | kawarimidoll.com",
     "url": "https://kawarimidoll.com/posts/202610181/",
     "domain": "kawarimidoll.com",
-    "count": 13,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kawarimidoll.com/posts/202610181/",
     "screenshot": "https://kawarimidoll.com/posts/202610181/og.png",
     "description": "GitHub - jongio/grut: A terminal file explorer with full Git and GitHub integration, AI chat, and reactive panels that stay in sync as you navigate. A terminal file explorer with full Git and GitHub integration, AI chat, and reactive panels that stay in sync as you navigate. - jongio/grut 機能 Go...",
     "hatenaDate": "2026-10-18T02:42:41Z",
     "users": [],
     "firstSeenAt": "2026-10-19T09:12:00.045466+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "英AIデータセンター計画でマイクロソフト撤退　英新興に打撃 - 日本経済新聞",
@@ -166,20 +179,20 @@
     "hatenaDate": "2026-10-18T22:17:34Z",
     "users": [],
     "firstSeenAt": "2026-10-19T09:00:12.886853+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "テーブル定義書・ER図を自動生成して、AIにテーブル構造を答えさせるツールを作ってみた - Qiita",
     "url": "https://qiita.com/ebichan_88/items/f7c44c74e437875b1399",
     "domain": "qiita.com",
-    "count": 35,
+    "count": 36,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/ebichan_88/items/f7c44c74e437875b1399",
     "screenshot": null,
     "description": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article?",
     "hatenaDate": "2026-10-18T10:34:03Z",
     "users": [],
     "firstSeenAt": "2026-10-19T09:00:12.886853+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "GitHub - gilnett/learned_index_lab: High-performance Piecewise Geometric Model (PGM) learned index implementation in pure Rust with strict epsilon error guarantees",
@@ -192,33 +205,33 @@
     "hatenaDate": "2026-10-18T12:57:42Z",
     "users": [],
     "firstSeenAt": "2026-10-19T09:00:12.886853+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "施策立案からQAまで：AIエージェントで回す開発フローの全体像とアーキテクチャ - Findy Tech Blog",
     "url": "https://tech.findy.co.jp/entry/2026/10/16/120000",
     "domain": "tech.findy.co.jp",
-    "count": 18,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.findy.co.jp/entry/2026/10/16/120000",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/7d38ee157bded6d84ca90191fbc05a21697fa0eb/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fstarfish719%2F20261016%2F20261016105545.png",
     "description": "こんにちは。ファインディ株式会社でプリンシパルエンジニアをしている戸田です。 ファインディでは、施策の立案からIssueの生成、タスク分解、AIエージェントによる並列実装やQAまで、開発フローの各所にAIエージェントを組み込んでいます。 この記事では、開発フロー全体のアーキテクチャを図で示し、構成要素ごとに役...",
     "hatenaDate": "2026-10-16T03:30:41Z",
     "users": [],
     "firstSeenAt": "2026-10-19T09:00:12.886853+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "中小法人の現場で生じる課題に、いつも半歩先回りした通信サービスを提供し続けたい～朝日ネット　VNE、「フレッツ 光25G」など、足元を着実に固めるISPが目指す「交流と創造」",
     "url": "https://internet.watch.impress.co.jp/docs/special/30thinterview/2140761.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 17,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/special/30thinterview/2140761.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2140/761/rss.jpg",
     "description": null,
     "hatenaDate": "2026-10-18T22:21:43Z",
     "users": [],
     "firstSeenAt": "2026-10-19T08:45:07.933607+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "Silicon Valley bets big on 'environments' to train AI agents | TechCrunch",
@@ -231,33 +244,33 @@
     "hatenaDate": "2026-10-18T13:17:11Z",
     "users": [],
     "firstSeenAt": "2026-10-19T08:45:07.933607+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "CIで使うLambda MicroVMs 最高なんだよなぁ！",
     "url": "https://speakerdeck.com/kuracchi_enj1/ci-de-tsukau-lambda-microvms-saikouna-nda-yonaa",
     "domain": "speakerdeck.com",
-    "count": 59,
+    "count": 60,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/kuracchi_enj1/ci-de-tsukau-lambda-microvms-saikouna-nda-yonaa",
     "screenshot": "https://files.speakerdeck.com/presentations/19002a2a365d4cf7a491afc79c98f697/slide_0.jpg?40961926",
     "description": "JAWS-UG彩の国埼玉支部 #12 AWS re:Invent 2026準備回",
     "hatenaDate": "2026-10-18T13:08:54Z",
     "users": [],
     "firstSeenAt": "2026-10-19T08:15:13.042173+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "【第6報】バックアップサービスの提供再開について | IDCフロンティア",
     "url": "https://www.idcf.jp/news/topics/20261018001",
     "domain": "www.idcf.jp",
-    "count": 20,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.idcf.jp/news/topics/20261018001",
     "screenshot": "https://www.idcf.jp/dcms_media/image/og_common.png",
     "description": "2026年10月18日 このたびは、多大なるご心配とご迷惑をおかけしておりますことを深くお詫び申し上げます。 当社クラウドサービス「IDCFクラウド」※1に対する第三者からの不正アクセスにより、提供を停止していた「IDCFクラウド バックアップ」について、安全性の確認が完了したことからサービスの提供を再開します。 こ...",
     "hatenaDate": "2026-10-18T05:07:27Z",
     "users": [],
     "firstSeenAt": "2026-10-19T07:45:13.482784+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "リクルート、カーセンサーの利用を一時停止　外部から不審なアクセス感知で　復旧は未定（日刊自動車新聞） - Yahoo!ニュース",
@@ -270,33 +283,33 @@
     "hatenaDate": "2026-10-18T12:30:38Z",
     "users": [],
     "firstSeenAt": "2026-10-19T07:15:12.176542+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "How employment is changing at Anthropic",
     "url": "https://www.anthropic.com/research/employment-at-anthropic",
     "domain": "www.anthropic.com",
-    "count": 72,
+    "count": 74,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.anthropic.com/research/employment-at-anthropic",
     "screenshot": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
     "description": "Nathan Wilmers, Regina Catipon, Maxim Massenkoff, Peter McCrory How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy. Key fi...",
     "hatenaDate": "2026-10-17T07:07:57Z",
     "users": [],
     "firstSeenAt": "2026-10-19T06:52:59.704788+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "リーダーシップなき越境は組織を壊す｜TakayukiSaruta",
     "url": "https://note.com/srt_taka/n/nff6c2d40c11b",
     "domain": "note.com",
-    "count": 317,
+    "count": 323,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/srt_taka/n/nff6c2d40c11b",
     "screenshot": "https://assets.st-note.com/production/uploads/images/325803541/rectangle_large_type_2_b9132789b28bc522a1f95e5718cd1e52.png?fit=bounds&quality=85&width=1280",
     "description": "はじめにこのnoteでは、コミュニケーションの量は多いのに前に進まない組織の正体を、具体化は放っておいても進み、抽象化には意志が必要であるという非対称として説明します。そのうえで、越境がこの非対称を加速させること、Slackがその具体化のコストをゼロにしたこと、そして組織の規模で抽象化を担うリーダーシップ...",
     "hatenaDate": "2026-10-18T12:26:25Z",
     "users": [],
     "firstSeenAt": "2026-10-19T05:45:14.158554+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "アップル iPhone Duo、「並外れた予約需要」。すでに出荷予定は2027年1月下旬以降、高額転売も | テクノエッジ TechnoEdge",
@@ -309,7 +322,7 @@
     "hatenaDate": "2026-10-18T11:33:45Z",
     "users": [],
     "firstSeenAt": "2026-10-19T04:15:13.461593+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "Amazon GuardDuty RDS Protection が Aurora と RDS のデータベースにおけるデータの不正流出と破壊の検出に対応 - AWS",
@@ -322,7 +335,7 @@
     "hatenaDate": "2026-10-10T03:40:45Z",
     "users": [],
     "firstSeenAt": "2026-10-19T04:00:13.083051+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "GitHub - addyosmani/factory: A reference software factory for Claude Code and Codex",
@@ -380,14 +393,14 @@
     "title": "『コミックシーモア』サービス再開の見通し立たず「正確な再開日時をお伝えすることが困難な状況です」（オリコン） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/df7e374ecdb58831f4b5f497fdcf5407c9af4e36",
     "domain": "news.yahoo.co.jp",
-    "count": 92,
+    "count": 93,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/df7e374ecdb58831f4b5f497fdcf5407c9af4e36",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261018-00000420-oric-000-5-view.jpg?exp=10800",
     "description": "『コミックシーモア』（オリコン）　一時サービスを停止中の電子コミックサイト『コミックシーモア』は18日、サービス再開の見通しが立たないことを報告した。第三者による不正アクセスが行われ、一部顧客の会員情報が流出したことを受け、15日からサービスを一時停止している。 【Xより】会員情報が流失！『コミックシ...",
     "hatenaDate": "2026-10-18T14:34:10Z",
     "users": [],
     "firstSeenAt": "2026-10-19T01:15:12.929484+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "ローカルLLMとその動作マシン完全ガイド：閉域環境で最新モデルを動かすために必要なもの | GENSHI AI",
@@ -497,14 +510,14 @@
     "title": "変体仮名一覧表",
     "url": "https://cid.ninjal.ac.jp/kana/list/",
     "domain": "cid.ninjal.ac.jp",
-    "count": 270,
+    "count": 274,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/cid.ninjal.ac.jp/kana/list/",
     "screenshot": "https://cid.ninjal.ac.jp/kana/images/header_bg.webp",
     "description": "©2022 National Institute for Japanese Language and Linguistics",
     "hatenaDate": "2023-09-13T17:11:42Z",
     "users": [],
     "firstSeenAt": "2026-10-18T21:15:15.228952+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "Claude、暗号技術の「25年来の謎」を30分足らずで解明",
@@ -543,7 +556,7 @@
     "hatenaDate": "2026-10-17T11:42:36Z",
     "users": [],
     "firstSeenAt": "2026-10-18T20:45:13.241928+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "コネクタも API も無いサービスを、Claude Code に操作させる",
@@ -621,7 +634,7 @@
     "hatenaDate": "2026-10-18T09:18:39Z",
     "users": [],
     "firstSeenAt": "2026-10-18T19:30:12.450107+09:00",
-    "lastSeenAt": "2026-10-19T11:30:13.339384+09:00"
+    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   },
   {
     "title": "技術書を年に数冊しか買わない自分に、O'Reillyのサブスク年$150は割に合うか（ACM経由で契約してMCPまで）",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-15T14:45:13.816547+09:00",
     "lastSeenAt": "2026-10-16T05:45:13.640167+09:00"
-  },
-  {
-    "title": "Appleが使われていないMacを集めて仮想GPUクラウドを構築する「Minions」を開発、AI処理の待ち時間を10時間以上から数分に短縮",
-    "url": "https://gigazine.net/news/20261015-apple-minions/",
-    "domain": "gigazine.net",
-    "count": 21,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261015-apple-minions/",
-    "screenshot": "https://i.gzn.jp/img/2026/10/15/apple-minions/00_m.jpg",
-    "description": "Appleの研究チームが、使われていないMacのGPUをネットワーク経由で集約し、AIの処理に活用する分散型システム「Minions」を開発しました。MinionsはすでにApple社内で運用されており、従来は10時間以上かかることもあったGPUの利用待ち時間を数分に短縮できたと報告されています。 Minions: A Dynamic and Distributed ...",
-    "hatenaDate": "2026-10-15T01:58:29Z",
-    "users": [],
-    "firstSeenAt": "2026-10-15T14:15:10.473782+09:00",
-    "lastSeenAt": "2026-10-15T18:00:12.490574+09:00"
   }
 ]
