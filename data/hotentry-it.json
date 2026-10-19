@@ -1,5 +1,18 @@
 [
   {
+    "title": "Credential Injection - Proxy-Based Secret Management for AI Agents",
+    "url": "https://nono.sh/credential-injection",
+    "domain": "nono.sh",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/nono.sh/credential-injection",
+    "screenshot": "https://nono.sh/logo.png",
+    "description": "Proxy-Based Secret ManagementCredential InjectionThe proxy acts as a reverse proxy for configured credential routes. The agent sends plain HTTP to localhost, and the proxy strips the service prefix, injects credentials as HTTP headers, forwards over TLS, and streams responses back. The agent neve...",
+    "hatenaDate": "2026-10-19T08:39:46Z",
+    "users": [],
+    "firstSeenAt": "2026-10-20T01:30:13.588267+09:00",
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
+  },
+  {
     "title": "阪急阪神百貨店などの共通ID、ほぼ全会員分漏えい　約126万件　予約サイトに不正アクセス",
     "url": "https://www.itmedia.co.jp/news/article/2610/19/2000002398/",
     "domain": "www.itmedia.co.jp",
@@ -10,7 +23,7 @@
     "hatenaDate": "2026-10-19T09:59:26Z",
     "users": [],
     "firstSeenAt": "2026-10-20T00:30:13.569300+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "スクエニアカウントに不正ログイン、他社で流出の情報使用か　全アカウントのパスワード強制リセットも視野に",
@@ -23,7 +36,7 @@
     "hatenaDate": "2026-10-19T10:03:09Z",
     "users": [],
     "firstSeenAt": "2026-10-20T00:30:13.569300+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "【資料公開】AIで組織を加速させる勘所",
@@ -36,7 +49,7 @@
     "hatenaDate": "2026-10-19T08:53:21Z",
     "users": [],
     "firstSeenAt": "2026-10-20T00:30:13.569300+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "ニフティ、54万件超漏えいの可能性　光回線の申し込みシステムに不正アクセス",
@@ -49,20 +62,20 @@
     "hatenaDate": "2026-10-19T11:13:24Z",
     "users": [],
     "firstSeenAt": "2026-10-20T00:30:13.569300+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "ひとり会社が、AIと二人でISMSを取った話｜村山毅 Tim",
     "url": "https://note.com/timtarou/n/n5443f159e7bc",
     "domain": "note.com",
-    "count": 13,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/timtarou/n/n5443f159e7bc",
     "screenshot": "https://assets.st-note.com/production/uploads/images/325633625/rectangle_large_type_2_2436e015472fd192ec0261682b1f2c3e.png?fit=bounds&quality=85&width=1280",
     "description": "2026年7月9日付で、ISMS（ISO/IEC 27001:2022）の認証を取得しました。登録番号は 50301853 ISMS22 です。 コンサルには頼んでいません。ISMS専用のSaaSも使っていません。設立1年目のひとり会社が、AI社員と二人三脚で、マネジメントシステムそのものを自社で作りました。 構築にかかった実質工数は約3日、審査対応は別...",
     "hatenaDate": "2026-10-19T14:05:36Z",
     "users": [],
     "firstSeenAt": "2026-10-20T00:15:13.561456+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "「ゲオ」「セカスト」運営元に不正アクセス　公式アプリや通販を停止、メンテナンス実施中",
@@ -75,7 +88,7 @@
     "hatenaDate": "2026-10-19T08:12:10Z",
     "users": [],
     "firstSeenAt": "2026-10-19T23:30:14.425316+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "ソフトバンク、「My SoftBank」「My Y!mobile」「My Menu」サイトを一時停止、不正アクセスの試行を受け　アプリ版は利用可能",
@@ -88,7 +101,7 @@
     "hatenaDate": "2026-10-19T11:51:35Z",
     "users": [],
     "firstSeenAt": "2026-10-19T23:30:14.425316+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "「ふるさとチョイス」で不正アクセスの疑い サービス一時停止 | NHKニュース",
@@ -101,7 +114,7 @@
     "hatenaDate": "2026-10-19T09:36:08Z",
     "users": [],
     "firstSeenAt": "2026-10-19T23:00:13.822933+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "「HomeView」で動き出すアップルのスマートホーム Siri AIの可能性と日本の課題【西田宗千佳のイマトミライ】",
@@ -127,7 +140,7 @@
     "hatenaDate": "2026-10-19T12:33:59Z",
     "users": [],
     "firstSeenAt": "2026-10-19T22:30:18.869835+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "お客さま向け会員サイト「My SoftBank」の一時的な停止について | 企業・IR | ソフトバンク",
@@ -140,7 +153,7 @@
     "hatenaDate": "2026-10-19T11:38:08Z",
     "users": [],
     "firstSeenAt": "2026-10-19T22:15:13.916925+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "【Excel】Web版のExcelでも作業を自動化！ CopilotでOffice Scriptsを作る【いまさら聞けないExcelの使い方講座】",
@@ -153,7 +166,7 @@
     "hatenaDate": "2026-10-19T01:45:32Z",
     "users": [],
     "firstSeenAt": "2026-10-19T22:15:13.916925+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "不正アクセスとアカウント管理に関するご注意 | FINAL FANTASY XIV, The Lodestone",
@@ -192,7 +205,7 @@
     "hatenaDate": "2026-10-19T10:11:05Z",
     "users": [],
     "firstSeenAt": "2026-10-19T22:00:13.043187+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "Claude Codeに全部任せて開発してたエンジニアの末路、1〜2ヶ月後ガチで地獄ですよ｜ゆうき｜月収100万円超エンジニアを多数輩出",
@@ -205,7 +218,7 @@
     "hatenaDate": "2026-10-19T08:46:35Z",
     "users": [],
     "firstSeenAt": "2026-10-19T22:00:13.043187+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "https://ssl4.eir-parts.net/doc/3641/tdnet/2896506/00.pdf",
@@ -257,7 +270,7 @@
     "hatenaDate": "2026-10-19T09:00:21Z",
     "users": [],
     "firstSeenAt": "2026-10-19T21:00:13.960942+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "老舗クリップボード履歴ソフト「CLCL」を手本に「Rust」で作り直した「CLCLR」／レジストリを汚さないポータブルアプリ。画像をWebP形式で圧縮保持するなどの工夫も【レビュー】",
@@ -270,7 +283,7 @@
     "hatenaDate": "2026-10-19T06:05:43Z",
     "users": [],
     "firstSeenAt": "2026-10-19T21:00:13.960942+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "Metaが「ニュースサイトからの情報収集を可能とする利用規約」を削除",
@@ -289,14 +302,14 @@
     "title": "Windows 11の「フォト」アプリが作り直し、より軽快でローカル・クラウドを一元管理／HEICやWebPもそのまま編集、エディター起動も25％高速化、「OneDrive」や「iCloud」の写真もまとめて閲覧",
     "url": "https://forest.watch.impress.co.jp/docs/news/2149001.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 22,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2149001.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2149/001/photos_icons.jpg",
     "description": null,
     "hatenaDate": "2026-10-19T08:50:48Z",
     "users": [],
     "firstSeenAt": "2026-10-19T20:15:13.056429+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "相次ぐ不正アクセスの攻撃元の多くがAIであることを確認 | セキュリティブログ | 脆弱性診断（セキュリティ診断）のGMOサイバーセキュリティ byイエラエ",
@@ -309,7 +322,7 @@
     "hatenaDate": "2026-10-19T07:45:02Z",
     "users": [],
     "firstSeenAt": "2026-10-19T20:00:12.450296+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "Anthropicが株式の一部を公共利益のための子会社「Anthropic Public Benefit Fund」に拠出、拠出額はAnthropicの評価額に応じて増加予定",
@@ -335,7 +348,7 @@
     "hatenaDate": "2026-10-19T09:08:25Z",
     "users": [],
     "firstSeenAt": "2026-10-19T20:00:12.450296+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "ニフティ、回線申し込み・受付管理システムに不正アクセス、最大約54万件の個人情報漏えいの可能性",
@@ -348,7 +361,7 @@
     "hatenaDate": "2026-10-19T08:45:19Z",
     "users": [],
     "firstSeenAt": "2026-10-19T19:44:19.039140+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "ゲームの購入者に「ライセンス」ではなく「所有権」を与える法案、米下院議員が提出し波紋【やじうまWatch】",
@@ -452,7 +465,7 @@
     "hatenaDate": "2026-10-19T08:15:07Z",
     "users": [],
     "firstSeenAt": "2026-10-19T18:00:13.065056+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "仕事を進めるだけでは、仕事しか進まない。木こりのジレンマを Claude Code で解いた5ヶ月の記録 - RAKUS Developers Blog | ラクス エンジニアブログ",
@@ -465,7 +478,7 @@
     "hatenaDate": "2026-10-19T06:12:20Z",
     "users": [],
     "firstSeenAt": "2026-10-19T18:00:13.065056+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "パピレス、電子書籍「Renta！」サービス停止　不正アクセスの恐れ - 日本経済新聞",
@@ -536,14 +549,14 @@
     "title": "GPT-4o級モデルが自宅のPCで動いた！　ローカルAIの常識を変える「Strata」 (1/5)",
     "url": "https://ascii.jp/elem/000/004/443/4443584/",
     "domain": "ascii.jp",
-    "count": 88,
+    "count": 89,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/443/4443584/",
     "screenshot": "https://ascii.jp/img/2026/10/19/4540209/xl/fe64dc2fecf516dc.png?20200122",
     "description": "9月24日に一般公開された「Strata」というローカルLLM向け技術が話題沸騰中です。これまで、ローカルLLMで動かせるモデルの大きさは、使用するPCのVRAMの容量や、RAMとVRAMで共有するユニファイドメモリの容量によって決まっていました。そのため、強力な思考能力を持つローカルLLMまでは動かすことができなかったのです...",
     "hatenaDate": "2026-10-18T23:36:35Z",
     "users": [],
     "firstSeenAt": "2026-10-19T17:15:12.444900+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "阪急阪神百貨店などの共通ID、会員ほぼ全員の情報が漏えい　約126万件",
@@ -556,7 +569,7 @@
     "hatenaDate": "2026-10-19T05:50:08Z",
     "users": [],
     "firstSeenAt": "2026-10-19T17:15:12.444900+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "逆側からもプログラムを書けるプログラミング言語作った | κeenのHappy Hacκing Blog",
@@ -666,14 +679,14 @@
     "title": "使わなくなったAndroidスマホを音楽専用機にする無料アプリ「reTONE」",
     "url": "https://av.watch.impress.co.jp/docs/news/2149179.html",
     "domain": "av.watch.impress.co.jp",
-    "count": 119,
+    "count": 121,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/av.watch.impress.co.jp/docs/news/2149179.html",
     "screenshot": "https://av.watch.impress.co.jp/img/avw/list/2149/179/key.jpg",
     "description": null,
     "hatenaDate": "2026-10-19T02:48:44Z",
     "users": [],
     "firstSeenAt": "2026-10-19T15:30:14.049854+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "GitHub - kanaworksai-hue/audio-studio-mcp: Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key.",
@@ -712,7 +725,7 @@
     "hatenaDate": "2026-10-19T02:58:33Z",
     "users": [],
     "firstSeenAt": "2026-10-19T15:00:12.788041+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "JETROのホームページが不正アクセスで一時的に公開停止 | NHKニュース",
@@ -764,7 +777,7 @@
     "hatenaDate": "2026-10-19T04:15:53Z",
     "users": [],
     "firstSeenAt": "2026-10-19T14:30:12.656538+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "【レビュー】 【NVIDIA RTX Spark実機レビュー】Arm版Marvel Rivalsでfps最大約1.8倍に",
@@ -809,14 +822,14 @@
     "title": "パランティアのCTO曰く「多くのAI研究者が、AIへの信仰の証として喫煙を始めている」 - YAMDAS現更新履歴",
     "url": "https://yamdas.hatenablog.com/entry/20261019/smoking-in-silicon-valley",
     "domain": "yamdas.hatenablog.com",
-    "count": 119,
+    "count": 120,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/yamdas.hatenablog.com/entry/20261019/smoking-in-silicon-valley",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/00ae332019ba3ce0dab2fb217e607021e281a8a2/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F01MKUOLsA5L._SL500_.gif",
     "description": "www.businessinsider.com パランティア CTO のシャイアム・サンカーが、AI により癌が治療可能になると考える AI 研究者の多くがタバコを吸い始めた、という話をしている。彼の言葉を借りれば、「自分がどれだけ AI を信じているかを他の研究者に示すために多くの AI 研究者が喫煙を始めた」とな。ホントかね。 サンカー...",
     "hatenaDate": "2026-10-18T23:33:39Z",
     "users": [],
     "firstSeenAt": "2026-10-19T13:15:18.479111+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "「Renta!」が臨時メンテナンスでサービス停止　再開時期示さず",
@@ -842,7 +855,7 @@
     "hatenaDate": "2026-10-19T01:45:38Z",
     "users": [],
     "firstSeenAt": "2026-10-19T13:00:15.100743+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "AI Bot Cosplay | Fastly",
@@ -907,7 +920,7 @@
     "hatenaDate": "2026-10-19T02:34:05Z",
     "users": [],
     "firstSeenAt": "2026-10-19T12:00:12.961541+09:00",
-    "lastSeenAt": "2026-10-20T01:15:12.777251+09:00"
+    "lastSeenAt": "2026-10-20T01:30:13.588267+09:00"
   },
   {
     "title": "不正アクセスに関するご案内｜Studio",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-16T08:45:13.636197+09:00",
     "lastSeenAt": "2026-10-16T16:30:13.784044+09:00"
-  },
-  {
-    "title": "速くて安いAI「Jev」でQAを自動化してみた - every Tech Blog",
-    "url": "https://tech.every.tv/entry/2026/10/15/125805",
-    "domain": "tech.every.tv",
-    "count": 170,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.every.tv/entry/2026/10/15/125805",
-    "screenshot": "https://cdn.image.st-hatena.com/image/scale/69a2fb974a96d556d3f1bc7339f2505cd4c94dcb/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fm%2Fmathatomo57_every%2F20261014%2F20261014134345.jpg",
-    "description": "はじめに こんにちは！株式会社エブリーで1ヶ月間、iOS エンジニアとしてインターンをしていた木村風葉です。ヘルシカの iOS チームで、食事記録まわりの改善や無料会員向けの機能追加など、いくつかの機能開発に取り組みました。 この記事では、インターンの後半に取り組んだ「Jev」という新しいAIを使った検証ツールづ...",
-    "hatenaDate": "2026-10-15T09:51:51Z",
-    "users": [],
-    "firstSeenAt": "2026-10-16T08:45:13.636197+09:00",
-    "lastSeenAt": "2026-10-17T00:00:09.482613+09:00"
   }
 ]
