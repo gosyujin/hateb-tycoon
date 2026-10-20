@@ -1,16 +1,55 @@
 [
   {
+    "title": "モーター1個で飛ぶドローンの設計を公開、プロペラ1枚の羽根の角度で姿勢制御 - FabScene（ファブシーン）",
+    "url": "https://fabscene.com/new/make/single-propeller-drone-joshua-bird-hinged-propeller/",
+    "domain": "fabscene.com",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/fabscene.com/new/make/single-propeller-drone-joshua-bird-hinged-propeller/",
+    "screenshot": "https://fabscene.com/wp-content/uploads/2026/10/image-137.webp",
+    "description": "モーター1個とプロペラ1枚だけで浮き、向きも変えられるドローンの設計データが、「single-propeller-drone」としてGitHubで公開された。作ったのはJoshua Bird氏だ。 一般的なドローンは4個のモーターを使い、ヘリコプターも2個のモーターと複数のサーボを使う。同氏は、モーター1個の設計ならドローンをより小さく、安...",
+    "hatenaDate": "2026-10-20T01:17:32Z",
+    "users": [],
+    "firstSeenAt": "2026-10-20T20:00:14.758258+09:00",
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
+  },
+  {
+    "title": "Oxlint + Oxfmt で規約をコード化するモノレポ運用",
+    "url": "https://zenn.dev/reality_tech/articles/oxc-monorepo-20261006",
+    "domain": "zenn.dev",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/reality_tech/articles/oxc-monorepo-20261006",
+    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--gLNoJUKt--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Oxlint%2520%252B%2520Oxfmt%2520%25E3%2581%25A7%25E8%25A6%258F%25E7%25B4%2584%25E3%2582%2592%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E5%258C%2596%25E3%2581%2599%25E3%2582%258B%25E3%2583%25A2%25E3%2583%258E%25E3%2583%25AC%25E3%2583%259D%25E9%2581%258B%25E7%2594%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Toshiki%2520Okazaki%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFjOWUxYjAxMmUuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:REALITY%2520Tech%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzA2ZmYzOTUxZGUuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+    "description": "長らく ESLint + Prettier を使ってきました。大きな不満はなかったものの、実行時間が少し気になっていました。そこで、Biome と Oxc を実際のモノレポで検証して、最終的に Oxlint + Oxfmt に移行しました。 この記事では、Biome と Oxc を比較・検証した過程と、Oxlint + Oxfmt を使ってコーディング規約をコードとし...",
+    "hatenaDate": "2026-10-20T10:22:56Z",
+    "users": [],
+    "firstSeenAt": "2026-10-20T20:00:14.758258+09:00",
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
+  },
+  {
+    "title": "ソースネクストへの不正アクセスについてまとめてみた - piyolog",
+    "url": "https://piyolog.hatenadiary.jp/entry/2026/10/20/073243",
+    "domain": "piyolog.hatenadiary.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/20/073243",
+    "screenshot": "https://ogimage.blog.st-hatena.com/10257846132616586766/14945776032092581524/1792449163",
+    "description": "2026年10月15日、ソースネクストは、同社が管理する会員情報に対する第三者の不正アクセスで、会員の個人情報が外部に流出したことが判明したと公表しました。ここでは関連する情報をまとめます。 会員情報取得APIの不正利用 第三者は2026年10月9日10時頃から、会員情報取得APIを不正に利用して会員情報を取得していた(...",
+    "hatenaDate": "2026-10-19T22:53:51Z",
+    "users": [],
+    "firstSeenAt": "2026-10-20T20:00:14.758258+09:00",
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
+  },
+  {
     "title": "Cloudflareが文章や画像から必要な情報を高速・低コストで抽出するAI「Clairic」を発表、計算や予測にも対応",
     "url": "https://gigazine.net/news/20261020-cloudflare-clairic/",
     "domain": "gigazine.net",
-    "count": 6,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261020-cloudflare-clairic/",
     "screenshot": "https://i.gzn.jp/img/2026/10/20/cloudflare-clairic/00.png",
     "description": "Cloudflareは2026年10月19日、文章や画像から必要な情報を抽出したり数値を計算・予測したりできるAIモデル「Clairic」を発表しました。Clairicは「System One」と呼ばれるAIモデルの一種で、一般的な大規模言語モデル(LLM)よりも高速かつ低コストで情報を処理でき、特定の用途では精度も向上するとのことです。 Introdu...",
     "hatenaDate": "2026-10-20T06:57:56Z",
     "users": [],
     "firstSeenAt": "2026-10-20T19:45:10.163998+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "「どの国のモデルか」は本質ではない　「中国製LLMは危険な指示を実行」発言で話題の専門家に補足してもらった",
@@ -29,27 +68,27 @@
     "title": "NECの委託先にサイバー攻撃　正規アカウント悪用し顧客のサーバ暗号化、個人情報の漏えいも",
     "url": "https://www.itmedia.co.jp/news/article/2610/20/2000002433/",
     "domain": "www.itmedia.co.jp",
-    "count": 9,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/20/2000002433/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/20/2000002433/10009949/2048",
     "description": "NECは10月20日、システム開発・保守業務の委託先が9月下旬にサイバー攻撃を受け、その影響でNECの顧客に不正アクセスや情報漏えいの被害が出たと発表した。攻撃者が窃取した正規アカウントの認証情報を悪用したもので、漏えいした情報には個人情報も含まれる。影響のあった複数の顧客にはすでに個別に連絡しており、NEC...",
     "hatenaDate": "2026-10-20T09:25:45Z",
     "users": [],
     "firstSeenAt": "2026-10-20T19:30:12.411489+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "大江戸Ruby会議11",
     "url": "https://asakusa.rubyist.net/oedo11/",
     "domain": "asakusa.rubyist.net",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/asakusa.rubyist.net/oedo11/",
     "screenshot": null,
     "description": "2026年11月8日開催。大江戸Ruby会議11の公式サイトです。",
     "hatenaDate": "2026-10-20T08:30:36Z",
     "users": [],
     "firstSeenAt": "2026-10-20T19:30:12.411489+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "「Linux」に無料の「Acrobat」クローンが登場--本格的なPDF編集アプリ",
@@ -68,40 +107,40 @@
     "title": "委託先への不正アクセスに起因するお客さまのシステム障害、情報漏えいに関するお詫び",
     "url": "https://jpn.nec.com/news/info/20261020.html",
     "domain": "jpn.nec.com",
-    "count": 13,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/jpn.nec.com/news/info/20261020.html",
     "screenshot": null,
     "description": "当社がシステム開発および保守業務を委託している企業（以下「委託先」）が9月下旬にサイバー攻撃を受け、窃取された正規アカウントの認証情報が悪用されたことにより、当社のお客さまにおいて、不正アクセスによる被害の発生や個人情報を含む情報の漏えいを確認しました。影響のあった複数のお客さまには既に個別に連絡...",
     "hatenaDate": "2026-10-20T08:54:57Z",
     "users": [],
     "firstSeenAt": "2026-10-20T19:15:13.520548+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "不正アクセス、中国系AI「ARTEX」で日本標的に　金融など業種絞り攻撃 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC199V70Z11C26A0000000/",
     "domain": "www.nikkei.com",
-    "count": 4,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC199V70Z11C26A0000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3751876020102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=dd3a6a0c4c7b9b90e7b99ec82b9bfac5",
     "description": "国内の不正アクセスで中国系の人工知能（AI）ツール「ARTEX（アルテックス）」が使われていたことがわかった。金融などに業種を絞り少なくとも約80社の日本企業を標的にしていた。ツールは非公開化されたが悪用のリスクは残る。GMOインターネットグループのGMOサイバーセキュリティbyイエラエ（東京・渋谷）が調査した。...",
     "hatenaDate": "2026-10-20T06:52:54Z",
     "users": [],
     "firstSeenAt": "2026-10-20T19:15:13.520548+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "本日開始「Androidのマイナンバーカード」さっそく登録、試してわかったiPhoneとの違いと注意点",
     "url": "https://k-tai.watch.impress.co.jp/docs/review/2149675.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 8,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/review/2149675.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2149/675/01.jpg",
     "description": null,
     "hatenaDate": "2026-10-20T07:39:04Z",
     "users": [],
     "firstSeenAt": "2026-10-20T19:15:13.520548+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "Domain Modeling with Vanilla Rails",
@@ -133,14 +172,14 @@
     "title": "生成AIの女性画像、なぜ「作り物」に見えるの?毛穴や産毛まで感じる自然な肌を目指し無料版AIの1K画像で感じた限界と、実在感のある写真への挑戦 - Quadro Diary 生成AI 過去日記",
     "url": "https://quadro.hateblo.jp/entry/seiseiai_real",
     "domain": "quadro.hateblo.jp",
-    "count": 21,
+    "count": 25,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/quadro.hateblo.jp/entry/seiseiai_real",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/14142d37163413a0e3a76e1d26f51e0ac64895c4/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhrhsmto%2F20261016%2F20261016204900.png",
     "description": "生成AIの人物画像から「作り物感」をなくす試行錯誤 生成AIの女性画像に感じる「作り物感」と、目指す自然な写真 ImageFXから、最新版Geminiで再生成 上の画像から女性と男性を再生成化 無料版の1K画像の限界と、2K解像度・プロンプトへの期待 生成AIの人物画像から「作り物感」をなくす試行錯誤 生成AIの女性画像に感じ...",
     "hatenaDate": "2026-10-19T23:46:02Z",
     "users": [],
     "firstSeenAt": "2026-10-20T19:00:14.278659+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "デジタル庁、政府職員18万人にAIエージェント環境を展開──「源内」で提供開始、独自の安全基準も",
@@ -153,20 +192,20 @@
     "hatenaDate": "2026-10-20T07:17:20Z",
     "users": [],
     "firstSeenAt": "2026-10-20T18:30:14.922444+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "人間のAIに対する判断移譲 - 西尾泰和の外部脳",
     "url": "https://scrapbox.io/nishio/%E4%BA%BA%E9%96%93%E3%81%AEAI%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%88%A4%E6%96%AD%E7%A7%BB%E8%AD%B2",
     "domain": "scrapbox.io",
-    "count": 34,
+    "count": 36,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/scrapbox.io/nishio/%E4%BA%BA%E9%96%93%E3%81%AEAI%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%88%A4%E6%96%AD%E7%A7%BB%E8%AD%B2",
     "screenshot": "https://scrapbox.io/assets/img/content-logo.png",
     "description": "2026-10-20 人間とAIの関係の議論で「最終判断は人間がやる」などといった議論があり、これは数年前の段階ではまあ妥当なものだったが、2024~2026年の2年間で起きたことを踏まえると解像度が低すぎると感じている。 この期間に「作業をAIに任せる」に加えて、「実行を許可する判断」「人間に質問するかどうかの判断」も...",
     "hatenaDate": "2026-10-20T08:21:44Z",
     "users": [],
     "firstSeenAt": "2026-10-20T18:15:14.795288+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "日本企業狙う不正アクセスにAI　攻撃者が自立型侵入テスト「ARTEX」を悪用　GMOイエラエ調査",
@@ -185,14 +224,14 @@
     "title": "ローカルWordPress開発ツール「WordPress Studio」がv2.0に、「Codex」向けプラグインも／旧UIのコードを完全削除、パッケージの見直しでアプリサイズも削減",
     "url": "https://forest.watch.impress.co.jp/docs/news/2149463.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2149463.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2149/463/wordpress_studio.jpg",
     "description": null,
     "hatenaDate": "2026-10-20T04:50:54Z",
     "users": [],
     "firstSeenAt": "2026-10-20T17:30:13.470826+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "「Androidのマイナンバーカード」ついにスタート",
@@ -205,7 +244,7 @@
     "hatenaDate": "2026-10-20T02:05:32Z",
     "users": [],
     "firstSeenAt": "2026-10-20T17:15:13.758809+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "曲げてもねじっても3D形状を読み取れる柔らかいセンサーシートをMITが開発、VRやリハビリへの応用に期待",
@@ -244,7 +283,7 @@
     "hatenaDate": "2026-10-20T05:50:50Z",
     "users": [],
     "firstSeenAt": "2026-10-20T17:00:13.543836+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "JAXA | H3ロケット10号機による火星衛星探査機（MMX）の打上げ結果",
@@ -302,14 +341,14 @@
     "title": "「侵入経路塞いだが、バックドアから……」不正アクセス105時間の攻防、分単位で報告　防災メールのアルカディア",
     "url": "https://www.itmedia.co.jp/news/article/2610/20/2000002426/",
     "domain": "www.itmedia.co.jp",
-    "count": 125,
+    "count": 135,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/20/2000002426/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/20/2000002426/10009933/2048",
     "description": "105時間にわたる攻防　侵入経路を塞いだ後もバックドアから…… 公表資料によると、攻撃者は不正アクセスを始めてから約10時間後、サービス間ログイン用のシークレットキーを含む設定ファイルを取得。総当たり攻撃を仕掛けて内部情報を取得した。 同社が不正アクセスを検知したのはその約7時間後。侵入経路を遮断したがバ...",
     "hatenaDate": "2026-10-20T06:16:53Z",
     "users": [],
     "firstSeenAt": "2026-10-20T16:15:13.251853+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "ホテル客室に隠したPCからのフィッシングメール送信事件についてまとめてみた - piyolog",
@@ -374,7 +413,7 @@
     "hatenaDate": "2026-10-20T05:05:36Z",
     "users": [],
     "firstSeenAt": "2026-10-20T15:30:14.282341+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "実装より先に仕様を検査する SDD の実践 - newmo 技術ブログ",
@@ -471,14 +510,14 @@
     "title": "ソフトウェアの産業革命 - ちなみに",
     "url": "https://blog.nishimu.land/entry/2026/10/20/123916",
     "domain": "blog.nishimu.land",
-    "count": 215,
+    "count": 226,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.nishimu.land/entry/2026/10/20/123916",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/8f7afafe1e0c8b0abdc1c1a80282b606257dd5a5/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2FS%2FSixeight%2F20261020%2F20261020122543.png",
     "description": "2026年9月、Anthropicの社内リポジトリには1日あたり3万件を超える変更がマージされていたそうです。5月の時点ではおよそ2,500件だったので、4か月で10倍以上。書いているのはほとんどがコーディングエージェントです。 この3万件を人が一行ずつ読んでいるとは思えないし、誰も読まずに本番へ出しているとも思えない。じ...",
     "hatenaDate": "2026-10-20T04:10:49Z",
     "users": [],
     "firstSeenAt": "2026-10-20T13:45:08.414715+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "ChatGPT広告は誰に何を表示しているのか？　米大学が91のおとりアカウントで実態調査",
@@ -530,20 +569,20 @@
     "hatenaDate": "2026-10-20T02:53:31Z",
     "users": [],
     "firstSeenAt": "2026-10-20T13:15:14.309769+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "情報漏洩や不正アクセスのニュースばかりで訳わかんない！……っていう人に「JP Incident Monitor」／日本のサイバーインシデントを一覧、AIで分析して信頼度付きで掲載【やじうまの杜】",
     "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2149461.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 67,
+    "count": 68,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/serial/yajiuma/2149461.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2149/461/image_top.png",
     "description": null,
     "hatenaDate": "2026-10-20T01:28:01Z",
     "users": [],
     "firstSeenAt": "2026-10-20T12:30:12.131877+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "24/365の現場経験が自動化とゼロトラストの基礎にある――APCはインフラエンジニアの仕事をどう変えてきたのか - はてなニュース",
@@ -562,27 +601,27 @@
     "title": "32GBでQwen3.8-Flash-Nextが動く！Strata 0.2.0ベータ",
     "url": "https://pc.watch.impress.co.jp/docs/news/2149485.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 51,
+    "count": 53,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2149485.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2149/485/1.jpg",
     "description": null,
     "hatenaDate": "2026-10-20T02:36:15Z",
     "users": [],
     "firstSeenAt": "2026-10-20T12:15:13.014223+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "Photoshopをオープンソースで再構築した「PhotoCraft」が日本語フォントの縦書きに対応、各ツールの使い勝手も向上",
     "url": "https://coliss.com/articles/build-websites/operation/work/crafting-apps-20261020.html",
     "domain": "coliss.com",
-    "count": 95,
+    "count": 100,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/coliss.com/articles/build-websites/operation/work/crafting-apps-20261020.html",
     "screenshot": "https://coliss.com/wp-content/uploads-202604/2026101801@2x.png",
     "description": "2週間ほど前に紹介した、PhotoshopやIllustratorなど、Adobeアプリ7種類をオープンソースで再構築した「Crafting Apps」がものすごい勢いでアップデートを繰り返しています！ リリースされた当初は日本語フォントが使えず、これはまだまだだなと思った人も多いと思いますが、最新版のver.0.10.0ではかなり使えるようにな...",
     "hatenaDate": "2026-10-20T01:17:25Z",
     "users": [],
     "firstSeenAt": "2026-10-20T12:15:13.014223+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "相次ぐ個人情報漏えいの一因「A2B攻撃」　正体は20年前から言われ続けた“あの教訓”だった",
@@ -666,14 +705,14 @@
     "title": "1か月ぐらいClaude Codeと伴走してたけどもう疲れてしまった。育てたら快適になると信じて育ててたけど、もはや健康被害が出そうなレベルで強いストレスを感じている。AI使うのやめたいです。→「ClaudCodeとAIを新入社員に読み替えてみたら分かりやすいのですが。 そのつもりで使うとまた違うんですけどね」",
     "url": "https://posfie.com/@petaritape/p/aa5HeGM",
     "domain": "posfie.com",
-    "count": 138,
+    "count": 139,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@petaritape/p/aa5HeGM",
     "screenshot": "https://s.tgstc.com/ogp3/255e970e164822aa11c4f1b3c8e194ef-1200x630.jpeg",
     "description": "なみき @sasaki445 1か月ぐらいClaude Codeと伴走してたけどもう疲れてしまった。育てたら快適になると信じて育ててたけど、もはや健康被害が出そうなレベルで強いストレスを感じている。AI使うのやめたいです。 2026-10-19 11:37:32",
     "hatenaDate": "2026-10-19T10:37:03Z",
     "users": [],
     "firstSeenAt": "2026-10-20T11:15:13.863652+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "あの覆面AIの正体は「MiniMax M3.1 Flash」10月23日にオープンウェイト公開",
@@ -699,7 +738,7 @@
     "hatenaDate": "2026-10-19T21:21:55Z",
     "users": [],
     "firstSeenAt": "2026-10-20T11:15:13.863652+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "日本郵政「ゆうID」不正ログイン、他社で流出したパスワード使うリスト攻撃か……2段階認証必須に",
@@ -777,7 +816,7 @@
     "hatenaDate": "2026-10-19T10:38:08Z",
     "users": [],
     "firstSeenAt": "2026-10-20T10:30:12.943011+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "AI要約向けPDF化「0秒読書」に抗議　出版業界、ソースネクストに - 日本経済新聞",
@@ -881,7 +920,7 @@
     "hatenaDate": "2026-10-09T09:25:09Z",
     "users": [],
     "firstSeenAt": "2026-10-20T09:00:12.518828+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "米国土安全保障省、中国DeepSeek製品を連邦民間機関から排除する命令",
@@ -913,14 +952,14 @@
     "title": "Apple、10月28日にイベント開催へ　タッチスクリーン「MacBook Pro」など発表か",
     "url": "https://www.itmedia.co.jp/news/article/2610/20/2000002404/",
     "domain": "www.itmedia.co.jp",
-    "count": 73,
+    "count": 74,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/20/2000002404/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/20/2000002404/10009841/2048",
     "description": "米Appleのワールドワイドマーケティング担当上級副社長、グレッグ・ジョズウィアック氏は10月19日（現地時間）、Xに「Can’t wait to pro and tell next week.」と投稿した。Appleのロゴを指で描くような動画が添えられている。",
     "hatenaDate": "2026-10-19T21:43:25Z",
     "users": [],
     "firstSeenAt": "2026-10-20T08:45:13.524830+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "Cloudflare Voidでつくったアプリをモバイルアプリでリリース！",
@@ -978,14 +1017,14 @@
     "title": "イーロン・マスク氏、米国の子ども全員に「SpaceX株を1株ずつ」配布すると宣言",
     "url": "https://japan.cnet.com/article/35253730/",
     "domain": "japan.cnet.com",
-    "count": 111,
+    "count": 112,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35253730/",
     "screenshot": "https://japan.cnet.com/storage/2026/10/19/87040ea90e8063f00cf7f580155071c4/59_musk_spacex_header.jpg",
     "description": "イーロン・マスク氏は10月19日（日本時間）、2027年に米国のすべての子どもに、自身が保有する宇宙開発企業SpaceXの株式を1株ずつ贈る意向をXで表明した。 SpaceX本社でのマスク氏（右、2019年10月撮影。出典：NASA、撮影：NASA/Aubrey Gemignani） ※クリックすると拡大画像が見られます マスク氏は「来年、米国のすべて...",
     "hatenaDate": "2026-10-19T12:12:31Z",
     "users": [],
     "firstSeenAt": "2026-10-20T07:15:14.216750+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "ゲオ、不正アクセスでサービス停止　店舗ではPontaカードを案内",
@@ -1037,7 +1076,7 @@
     "hatenaDate": "2026-10-19T15:50:13Z",
     "users": [],
     "firstSeenAt": "2026-10-20T06:44:36.748647+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "サイバー攻撃受け情報漏えい、中国語のＡＩエージェント悪用か…国内８０社への攻撃巡り痕跡",
@@ -1050,7 +1089,7 @@
     "hatenaDate": "2026-10-19T20:16:56Z",
     "users": [],
     "firstSeenAt": "2026-10-20T06:30:12.870194+09:00",
-    "lastSeenAt": "2026-10-20T19:45:10.163998+09:00"
+    "lastSeenAt": "2026-10-20T20:00:14.758258+09:00"
   },
   {
     "title": "「Microsoft Publisher」がついにサポート終了、残されたPUBファイルに「LibreOffice」が救いの手／特定企業の独自ファイル形式の末路に警鐘を鳴らす【やじうまの杜】",
@@ -3859,44 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-17T09:30:14.010358+09:00",
     "lastSeenAt": "2026-10-17T19:15:12.643393+09:00"
-  },
-  {
-    "title": "NVD - Home",
-    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-99999",
-    "domain": "nvd.nist.gov",
-    "count": 6,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/nvd.nist.gov/vuln/detail/cve-2026-99999",
-    "screenshot": null,
-    "description": null,
-    "hatenaDate": "2026-10-16T09:52:22Z",
-    "users": [],
-    "firstSeenAt": "2026-10-17T08:30:13.236585+09:00",
-    "lastSeenAt": "2026-10-17T12:45:11.985524+09:00"
-  },
-  {
-    "title": "個人情報漏えい のべ1億6500万人分余に 利用者の対策は? | NHKニュース",
-    "url": "https://news.web.nhk/newsweb/na/nd-20261016de60239",
-    "domain": "news.web.nhk",
-    "count": 26,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261016de60239",
-    "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261016de60239/20261016de60239_E0000080983_1_l.jpg",
-    "description": "2026年、不正アクセスで漏えいした可能性がある個人情報が、のべ1億6500万人分余りにのぼっていることがセキュリティー会社のまとめで分かりました。 セキュリティー会社の「マクニカ」は、企業などが…",
-    "hatenaDate": "2026-10-16T10:02:49Z",
-    "users": [],
-    "firstSeenAt": "2026-10-17T07:15:17.918044+09:00",
-    "lastSeenAt": "2026-10-17T13:45:13.819456+09:00"
-  },
-  {
-    "title": "Windows PC向けNVIDIA製SoC「RTX Spark」の正体が明らかに。Microsoftと共同でゲームへの対応も進める",
-    "url": "https://www.4gamer.net/games/050/G105051/20261015021/",
-    "domain": "www.4gamer.net",
-    "count": 44,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.4gamer.net/games/050/G105051/20261015021/",
-    "screenshot": "https://www.4gamer.net/games/050/G105051/20261015021/SS/003.jpg",
-    "description": "Windows PC向けNVIDIA製SoC「RTX Spark」の正体が明らかに。Microsoftと共同でゲームへの対応も進める ライター：西川善司 去る北米時間2026年10月7日，NVIDIA製のSoC（System on a Chip）「NVIDIA RTX Spark」搭載PCが，MicrosoftやASUSTeK Computer，MSIなどから発表となった。 その翌日である10月8日，NVIDIAは，米国...",
-    "hatenaDate": "2026-10-16T19:27:09Z",
-    "users": [],
-    "firstSeenAt": "2026-10-17T06:30:14.407070+09:00",
-    "lastSeenAt": "2026-10-17T18:30:12.299976+09:00"
   }
 ]
