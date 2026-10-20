@@ -51,6 +51,7 @@
 
 - ミュート判定・フィルタ・Gist同期(`js/filters.js` `js/filter-sync.js` `js/gist.js` `js/sync.js`): [docs/features.md](docs/features.md)。判定は forceMute → mute(unmuteで例外)の順。Gist同期は積み上げ方式で削除は同期されず、不正CSVの種類は取り込まず上書きもしない。
 - コメント取得(`js/hatena-api.js`): [docs/technical-notes.md](docs/technical-notes.md)。JSONPのコールバック名は呼び出しごとにランダム固定禁止(固定名にするとはてなAPIがハングする)。
+- 外部通信・外部script・中継WorkerのURLを追加/変更する時(`index.html`のCSP meta): [docs/decisions/csp-meta.md](docs/decisions/csp-meta.md)。CSPも同時に更新しないと本番でブロックされる。
 - 一覧の無限スクロール(`js/app.js`): [docs/technical-notes.md](docs/technical-notes.md)。`renderNextPage()`後のsentinelの`unobserve`→`observe`再監視を外さない。
 - 一覧の自動リフレッシュ(`refreshListIfStale()`): [docs/features.md](docs/features.md)。取得成功かつ内容変化時のみ差し替え、失敗時は表示中の一覧を消さない。
 - 長い文字列を表示する要素: [docs/technical-notes.md](docs/technical-notes.md)。`overflow-wrap: anywhere`の折り返し指定を付ける。
