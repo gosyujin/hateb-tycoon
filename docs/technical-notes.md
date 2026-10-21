@@ -10,6 +10,7 @@
 - **PWAの古いバージョン固定**: SPAは画面遷移がハッシュ変更だけなのでリロードが走らず、PWAがタスクに残っている間は起動時のJS/HTMLが動き続ける(Service Workerが新版に更新されても実行中のページは入れ替わらない)。前面復帰時に`codeVersion`を確認して再読み込みする`reloadIfNewVersionDeployed()`(`js/app.js`)を外さないこと。比較は`sha`ではなく`codeVersion`で行う(`sha`はデータ更新コミットでも変わるため、使うと復帰のたびにリロードされる)。`js/build-info.js`の`codeVersion: '...'`という書式はこの関数が正規表現で読むため、`deploy-pages.yml`の書き出し形式を変える時は合わせて直す。`git log`で求めるため`actions/checkout`は`fetch-depth: 0`が必要。
 - **長い文字列の折り返し**: タイトルがURLそのままの記事(未ブックマークのURL等)・長いドメイン・エラー文言中のURLなど、途中で区切れない長い文字列は、スマホ幅で横スクロールを起こさないよう`overflow-wrap: anywhere`で折り返す(`.entry-header` / `.status` / `.card-domain` / コメント一覧など)。新しく文字列を表示する要素を足す時は、同様に折り返し指定を付けること。
 - 完全なはてなブックマークUIの再現は行っておらず、記事一覧・コメント一覧の表示に必要最低限のリンク(元記事リンク・はてなブックマークページへのリンク・ユーザーページへのリンク)のみを組み込んでいます。
+- **CSP(meta)による外部通信・外部スクリプトの制限**: `index.html`のCSPは、scriptを自サイト+`b.hatena.ne.jp/entry/jsonlite/`(JSONP)に、`connect-src`を自サイト・GitHub API・Gist raw・はてなスター・中継Workerに限定している。外部通信/外部script/インラインscriptを足す・中継Workerのホストを変える時は**CSPも同時に更新する**(忘れると本番でだけブロックされる)。詳細: [decisions/csp-meta.md](decisions/csp-meta.md)
 
 ## 経緯が長い不変条件(decisions/へのリンク)
 
@@ -39,3 +40,5 @@
 
 - 通信が不安定な時の一覧取得不具合(Load failed)は実機でしか再現せず原因は推定のまま([詳細](decisions/sw-unstable-network-list-fetch.md))。対処が効いたかは実機での確認が必要。
 - PWAの新バージョン自動検知(`reloadIfNewVersionDeployed()`)は、実機で「旧版のPWAをタスクに残したままコード変更を含むデプロイ→前面復帰」して新版に入れ替わること、およびデータ更新だけのデプロイでは再読み込みされないことの確認が必要(この修正を含む版が入った後のデプロイから有効。修正前の版が動いているPWAは一度タスクキルが必要)。
+
+- CSP(meta)追加後の実機確認(Gist同期・ブクマ連携の中継Worker・Service Worker経由の表示)は未確認。確認できたらこの行を削除し、CHANGELOGに「確認済み」と残す。

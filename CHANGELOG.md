@@ -2,6 +2,10 @@
 
 1エントリ1〜3行。バージョン番号は採番しておらず、日付とコミットhashで管理する(新しい順)。調査・判断に経緯があるものは [docs/decisions/](docs/decisions/) にあり、該当エントリからリンクする。自動コミット「Update hotentry data」は除く。
 
+## 2026-10-20
+
+- Added: `index.html`にCSP(meta)を追加。scriptは自サイトと`b.hatena.ne.jp/entry/jsonlite/`(JSONP)のみ、`connect-src`はGitHub API・Gist raw・はてなスター・中継Workerのみ。同一オリジンの他アプリがXSS/改ざんされてもトークンを持ち出せないようにする。実機確認は未。 → [decisions/csp-meta.md](docs/decisions/csp-meta.md)
+
 ## 2026-10-18
 
 - Added: ブクマ連携の設定(中継Worker)の入力欄の横に「↗」リンク。Worker URLが `https://<名前>.<サブドメイン>.workers.dev` なら、CloudflareダッシュボードのそのWorkerの画面(`dash.cloudflare.com/?to=/:account/workers/services/view/<名前>/production`。アカウントIDはコードに持たず、`:account`でログイン中のアカウントに解決させる)へ、名前が取れない(未入力・独自ドメイン)時はWorkers & Pagesへ飛ぶ。Workerを設定済みの時だけ「はてな ↗」(はてなのOAuthアプリ設定 `/oauth/develop`)も出す。はてなidを持たない方針のため、idを含む `/<id>/config/auth/develop` は使わない
