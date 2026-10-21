@@ -1,42 +1,94 @@
 [
   {
+    "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services | Amazon Web Services",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
+    "domain": "aws.amazon.com",
+    "count": 6,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
+    "screenshot": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/10/21/ECS-icon.png",
+    "description": "The session catalog is live. Explore what's waiting for you",
+    "hatenaDate": "2026-10-20T21:10:06Z",
+    "users": [],
+    "firstSeenAt": "2026-10-21T09:00:13.638678+09:00",
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
+  },
+  {
+    "title": "AIとRender Docの連携による描画不具合の調査 - CORETECH ENGINEER BLOG",
+    "url": "https://blog.sge-coretech.com/entry/2026/10/20/102300",
+    "domain": "blog.sge-coretech.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.sge-coretech.com/entry/2026/10/20/102300",
+    "screenshot": "https://ogimage.blog.st-hatena.com/6801883189098686638/14945776032092159442/1792459400",
+    "description": "こんにちは、サイバーエージェントSGEコア技術本部、グラフィックスチームの清原です。 スマートフォンゲームの開発において、Android端末などの実機のみで起きる描画不具合の調査などは、時間と手間のかかる困難な問題でした。 今回はこの問題調査の効率を大幅に向上させる、RenderDocとClaude Codeとの連携についてご...",
+    "hatenaDate": "2026-10-20T13:17:46Z",
+    "users": [],
+    "firstSeenAt": "2026-10-21T09:00:13.638678+09:00",
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
+  },
+  {
+    "title": "Anthropic「OSS Scanner」の概要 - Claude MythosでOSSの脆弱性を無料検出｜npaka",
+    "url": "https://note.com/npaka/n/nba1723dba4e1",
+    "domain": "note.com",
+    "count": 6,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/npaka/n/nba1723dba4e1",
+    "screenshot": "https://assets.st-note.com/production/uploads/images/326344733/rectangle_large_type_2_b2e8bda9bfd52b6c0029d4222e74a593.png?fit=bounds&quality=85&width=1280",
+    "description": "1. OSS Scanner2026年10月8日、Anthropicは、オープンソースソフトウェア（OSS）の脆弱性をAIで検出する無料サービス「OSS Scanner」を発表しました。 OSS Scannerは、Claude Mythosなどの高性能AIモデルを使って、OSSのソースコードを定期的に分析し、脆弱性を発見するサービスです。 主な特徴は次のとおりです。 ・AI...",
+    "hatenaDate": "2026-10-20T09:51:38Z",
+    "users": [],
+    "firstSeenAt": "2026-10-21T09:00:13.638678+09:00",
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
+  },
+  {
+    "title": "ウェブ制作会社で流出恐れ　不正アクセスで全顧客情報 | NEWSjp",
+    "url": "https://news.jp/i/1485170802670027689",
+    "domain": "news.jp",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/news.jp/i/1485170802670027689",
+    "screenshot": "https://img.jp.ekkowassets.com/c_limit,w_200,h_200,f_auto,q_auto:eco/ch/units/39166665832988672/profile_7.png",
+    "description": "プログラミング知識がなくてもウェブサイトを制作できるサービスを提供する「Studio」（東京都）は20日までに、外部からの不正アクセスを受け、全ての顧客の個人情報が流出した可能性があると発表した。件数は調査中としている。 流出した可能性があるのは、ユーザー名やメールアドレス、パスワードのほか、外部サービス...",
+    "hatenaDate": "2026-10-20T09:54:22Z",
+    "users": [],
+    "firstSeenAt": "2026-10-21T09:00:13.638678+09:00",
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
+  },
+  {
     "title": "国の省エネ住宅事業で2万3000件超の情報漏えいのおそれ | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261020de62509",
     "domain": "news.web.nhk",
-    "count": 10,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261020de62509",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261020de62509/20261020de62509_E0000093090_1_l.jpg",
     "description": "国土交通省などは、国の省エネ住宅に関する補助金を受け付けていた大手広告会社が不正アクセスを受けて、申請などを行った事業者、2万3000人あまりの個人情報が漏えいしたおそれがあると発表しました。 国…",
     "hatenaDate": "2026-10-20T20:35:51Z",
     "users": [],
     "firstSeenAt": "2026-10-21T08:30:13.175155+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "PHP: News Archive - 2026",
     "url": "https://www.php.net/archive/2026.php",
     "domain": "www.php.net",
-    "count": 8,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.php.net/archive/2026.php",
     "screenshot": "https://www.php.net/images/meta-image.png",
     "description": "Here are the most important news items we have published in 2026 on PHP.net. The PHP security team would like to give advance notice of an upcoming security release. It is scheduled for Wednesday, 21 October 2026 at 14:00 UTC. It addresses two critical vulnerabilities, both rated CVSS v4.0 9.2. A...",
     "hatenaDate": "2026-10-20T20:54:34Z",
     "users": [],
     "firstSeenAt": "2026-10-21T08:30:13.175155+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "【セキュリティ ニュース】ウェブサーバ「nginx」に複数脆弱性 - 3件が「クリティカル」との評価も（1ページ目 / 全3ページ）：Security NEXT",
     "url": "https://www.security-next.com/191645",
     "domain": "www.security-next.com",
-    "count": 20,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.security-next.com/191645",
     "screenshot": null,
     "description": "ウェブサーバ「nginx」や関連製品に複数の脆弱性が判明した。サービス拒否やコード実行、認証の回避、機密情報の漏洩などにつながるおそれがある。 F5は現地時間2026年10月14日、定例外のセキュリティアドバイザリを公開し、「nginx」に関する脆弱性5件や、関連製品の脆弱性6件のCVEベースであわせて11件の脆弱性を明ら...",
     "hatenaDate": "2026-10-20T09:15:55Z",
     "users": [],
     "firstSeenAt": "2026-10-21T08:00:12.601043+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "日本企業へのサイバー攻撃、中国製AI「ARTEX」使用",
@@ -49,85 +101,85 @@
     "hatenaDate": "2026-10-20T07:57:30Z",
     "users": [],
     "firstSeenAt": "2026-10-21T04:30:15.497224+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "These Gemini automations are actually worth setting up on your Android phone",
     "url": "https://www.makeuseof.com/gemini-automations-android/",
     "domain": "www.makeuseof.com",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.makeuseof.com/gemini-automations-android/",
     "screenshot": "https://static0.makeuseofimages.com/wordpress/wp-content/uploads/wm/2026/10/gemini-automations-feature-main.jpg?w=1600&h=900&fit=crop",
     "description": "Judy Sanhz is a consumer technology writer with more than 15 years of experience helping everyday users understand. Their devices, apps, and software. Her work has appeared in several technology publications, including XDA Developers. Android Central, Digital Trends, Apple Toolbox, and the Mac Ob...",
     "hatenaDate": "2026-10-20T00:54:25Z",
     "users": [],
     "firstSeenAt": "2026-10-21T02:45:14.890565+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "あなたの会社は、慌てて脆弱性検査にARTEXを使わなくていい｜Yusuke Kawabata（SaaS運営）",
     "url": "https://note.com/uplucid/n/ncb9e3567ce2f",
     "domain": "note.com",
-    "count": 64,
+    "count": 71,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/uplucid/n/ncb9e3567ce2f",
     "screenshot": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/489570b5f1a047e84aea6679cead25dd5718a30d.png",
     "description": "前回、AIによる「自動化攻撃」に経営者はどのような対応をすればいいのかという話を書きました。おかげさまで多くの反響をいただいて私自身びっくりしました。 そして、本日はセキュリティ会社の調査で今回の大規模攻撃のいくつかはオープンソースのARTEXが使われていたことが判明したとニュースでにぎわっていました。 ...",
     "hatenaDate": "2026-10-20T15:34:06Z",
     "users": [],
     "firstSeenAt": "2026-10-21T02:15:14.486949+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "なんと23の主要なオープンソースプロジェクトのうち11は1人または2人で運営されている実態が明らかに",
     "url": "https://gigazine.net/news/20261020-open-source-projects/",
     "domain": "gigazine.net",
-    "count": 29,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261020-open-source-projects/",
     "screenshot": "https://i.gzn.jp/img/2026/10/20/open-source-projects/00.jpg",
     "description": "Redditユーザーが、スマートフォン・ブラウザ・サーバーが依存している23の主要なオープンソースプロジェクトの履歴から、プロジェクトのメンテナーについて記録する調査を行いました。その結果、23のプロジェクトのうち11では、過去1年間に定期的に変更を加えた開発者が1人または2人しかいなかったことが判明しました。...",
     "hatenaDate": "2026-10-20T13:11:44Z",
     "users": [],
     "firstSeenAt": "2026-10-21T02:00:14.855147+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "datalab-to/indra-ocr · Hugging Face",
     "url": "https://huggingface.co/datalab-to/indra-ocr",
     "domain": "huggingface.co",
-    "count": 33,
+    "count": 34,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/huggingface.co/datalab-to/indra-ocr",
     "screenshot": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/datalab-to/indra-ocr.png",
     "description": "Datalab State of the Art models for Document Intelligence Indra OCR Indra OCR is a 1M-parameter OCR model that runs on CPU. It turns PDFs and images into markdown, text, or JSON with boxes, and it reads handwriting, 80+ languages, and pages at any angle. Accurate - 66.7 on OmniParseBench (71.4 wi...",
     "hatenaDate": "2026-10-20T12:26:59Z",
     "users": [],
     "firstSeenAt": "2026-10-21T01:45:14.148572+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "AIペネトレーションテスト基盤「Cairn」の公開パネルから見えた攻撃活動についてまとめてみた - piyolog",
     "url": "https://piyolog.hatenadiary.jp/entry/2026/10/20/205855",
     "domain": "piyolog.hatenadiary.jp",
-    "count": 37,
+    "count": 38,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/20/205855",
     "screenshot": "https://ogimage.blog.st-hatena.com/10257846132616586766/14945776032092844524/1792497792",
     "description": "2026年10月19日、セキュリティ企業のNorForgeは、公開状態のまま放置されていたAIペネトレーションテスト基盤Cairnの管理画面から、AIエージェントによる攻撃活動を観測したとするレポートを公表しました。ここでは関連する情報をまとめます。 Cairnとは何か Cairnはオープンソースのエージェント基盤で、開発元のREADME...",
     "hatenaDate": "2026-10-20T12:01:49Z",
     "users": [],
     "firstSeenAt": "2026-10-21T01:30:14.160818+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "高機能タスクマネージャー「Process Explorer」v17.2が公開 ～NPUや効率モードに対応／プロセスのメモリマップの表示やライブカーネルメモリダンプの作成も",
     "url": "https://forest.watch.impress.co.jp/docs/news/2149689.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 16,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2149689.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2149/689/procexp.jpg",
     "description": null,
     "hatenaDate": "2026-10-20T11:07:51Z",
     "users": [],
     "firstSeenAt": "2026-10-21T01:00:14.310646+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "[石川温の「スマホ業界 Watch」] スマートディスプレイに参入したApple、「スマートホーム」普及を妨げる日本の\"家\"事情とは",
@@ -166,20 +218,20 @@
     "hatenaDate": "2026-10-20T11:21:21Z",
     "users": [],
     "firstSeenAt": "2026-10-21T00:00:09.366661+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "脆弱性対応は「点数」から「リスク」へ――CVSS、KEV、BOD 26-04を踏まえた優先順位の付け方",
     "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/13/news014.html",
     "domain": "atmarkit.itmedia.co.jp",
-    "count": 9,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2610/13/news014.html",
     "screenshot": "https://image.itmedia.co.jp/ait/articles/2610/13/cover_news014.png",
     "description": "脆弱性対応は「点数」から「リスク」へ――CVSS、KEV、BOD 26-04を踏まえた優先順位の付け方：辻伸弘の「投げます。一石、」（5）（1/2 ページ） 脆弱性の発見数が対処のスピードを上回ることが確実になった今、あきらめてしまう以外の方法を考える必要がある。脆弱性を評価する方法を「点数」ではなく「リスクマネジメン...",
     "hatenaDate": "2026-10-20T01:51:44Z",
     "users": [],
     "firstSeenAt": "2026-10-21T00:00:09.366661+09:00",
-    "lastSeenAt": "2026-10-21T08:30:13.175155+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "ふるさとチョイス 445万件の個人情報流出を発表 | NHKニュース",
@@ -192,20 +244,20 @@
     "hatenaDate": "2026-10-20T11:28:23Z",
     "users": [],
     "firstSeenAt": "2026-10-20T23:30:14.120269+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "Introducing tsrs: a Port of TypeScript to Rust",
     "url": "https://blog.cloudflare.com/typescript-rust-port/",
     "domain": "blog.cloudflare.com",
-    "count": 28,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.cloudflare.com/typescript-rust-port/",
     "screenshot": "https://blog.cloudflare.com/_emdash/api/media/file/01M5C82XAYSWX571T82A8AZRKS.png",
     "description": "October 20, 2026Introducing tsrs: a Port of TypeScript to Rust Cloudflare and VoidZero are now working with Max Schwenk of Owner.com on tsrs, a Rust port of the TypeScript compiler. We are doing this work in close collaboration with the TypeScript team, and incubating tsrs as part of the Oxc Java...",
     "hatenaDate": "2026-10-20T13:09:28Z",
     "users": [],
     "firstSeenAt": "2026-10-20T23:30:14.120269+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "Introducing Clairic, a new System One class of extraction models",
@@ -224,27 +276,27 @@
     "title": "DMARCを通過するフィッシングメールの落とし穴：DKIMリプレイ攻撃の仕組みと企業が取るべき対策 | Proofpoint JP",
     "url": "https://www.proofpoint.com/jp/blog/email-and-cloud-threats/dkim-replay-attacks",
     "domain": "www.proofpoint.com",
-    "count": 17,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.proofpoint.com/jp/blog/email-and-cloud-threats/dkim-replay-attacks",
     "screenshot": "https://www.proofpoint.com/sites/default/files/styles/metatag/public/blog-banners/varonis-banner-texture.jpg.webp?itok=qaUz0cV-",
     "description": "DMARCを「p=reject」に設定しても安心できない理由 2026年10月、国内で、正規企業を装ったフィッシングメールが送信ドメイン認証のDMARCを通過する事象が確認されました。メールの受信画面には、公式アカウントマークや企業のブランドロゴまで表示されていました。 NTTドコモは、一部企業の送信ドメイン認証の設定に脆弱...",
     "hatenaDate": "2026-10-19T12:57:49Z",
     "users": [],
     "firstSeenAt": "2026-10-20T23:15:14.998109+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "AIで開発が速くなった先で、開発チームは何を目指すか",
     "url": "https://speakerdeck.com/shihochan/ai-de-kaihatsu-ga-hayaku-nata-saki-de-kaihatsu-chimu-ha-nani-o-mezasu-ka",
     "domain": "speakerdeck.com",
-    "count": 30,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/shihochan/ai-de-kaihatsu-ga-hayaku-nata-saki-de-kaihatsu-chimu-ha-nani-o-mezasu-ka",
     "screenshot": "https://files.speakerdeck.com/presentations/adb0e801a0e8493daf5a144737808ff9/slide_0.jpg?40973543",
     "description": "# About me - X - https://twitter.com/shihochan_jp - Github - https://github.com/shihochan - Youtrust https://youtrust.jp/users/shihochan # …",
     "hatenaDate": "2026-10-20T00:33:33Z",
     "users": [],
     "firstSeenAt": "2026-10-20T23:15:14.998109+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "Inside Cairn: Open Windows into massive AI-Driven Cyber Operations - NorForge",
@@ -270,20 +322,20 @@
     "hatenaDate": "2026-10-20T11:50:52Z",
     "users": [],
     "firstSeenAt": "2026-10-20T23:00:14.105854+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "ウィンドウズアップデートについて調べたらめちゃめちゃ面白かった",
     "url": "https://anond.hatelabo.jp/20261020173628",
     "domain": "anond.hatelabo.jp",
-    "count": 152,
+    "count": 165,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261020173628",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "「なんで保存してない時に限って強制再起動すんねん！」 「頼むからあと5分待ってくれ！」 「Microsoftは悪魔か？」 ​と、全世界の人間が100万回くらいブチ切れてきたと思うんだが、気になって（なんであんな暴挙が許されてるのか）を本気で調べてみたら、想像以上に人間側の愚かさとMicrosoftの絶望の歴史が詰まってて...",
     "hatenaDate": "2026-10-20T08:41:46Z",
     "users": [],
     "firstSeenAt": "2026-10-20T22:45:13.467297+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "AIが若手の採用を減らし、ボトルネックは「人間の注意」に アンソロピックで起きた変化",
@@ -354,14 +406,14 @@
     "title": "ふるさとチョイス、不正アクセスによる寄附者様情報の外部流出に関するお詫びとお知らせ | NEWSROOM | 株式会社トラストバンク",
     "url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020/",
     "domain": "www.trustbank.co.jp",
-    "count": 85,
+    "count": 86,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.trustbank.co.jp/newsroom/newsrelease/news261020/",
     "screenshot": "https://www.trustbank.co.jp/wp-content/uploads/2020/10/2020-10-27_16-45-34_453237.png",
     "description": "この度、株式会社トラストバンク（本社：東京都港区、代表取締役社長兼CEO：大井 潤、以下当社）が運営する「ふるさとチョイス」において当社が管理する会員情報に対し、第三者による不正アクセスが行われ、会員登録いただいている寄附者様の個人情報が外部に流出したことが判明いたしました。 寄附者様ならびに関係者の...",
     "hatenaDate": "2026-10-20T10:59:09Z",
     "users": [],
     "firstSeenAt": "2026-10-20T21:00:15.716251+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "《発表会レポート》JR東の「teppay」が始動、2万円超決済だけでない「Suicaの枠組みを超える」サービスの狙いとは",
@@ -497,14 +549,14 @@
     "title": "適当に撮るだけでいい感じ ～無償のデスクトップ録画ツール「OpenScreen」がv2.0に／クロスプラットフォーム、オープンソース。“何もしなくてもきれい、いじっても崩れない”",
     "url": "https://forest.watch.impress.co.jp/docs/news/2149576.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 36,
+    "count": 38,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2149576.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2149/576/openscreen.jpg",
     "description": null,
     "hatenaDate": "2026-10-20T07:00:47Z",
     "users": [],
     "firstSeenAt": "2026-10-20T20:30:13.491145+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "モーター1個で飛ぶドローンの設計を公開、プロペラ1枚の羽根の角度で姿勢制御 - FabScene（ファブシーン）",
@@ -614,14 +666,14 @@
     "title": "委託先への不正アクセスに起因するお客さまのシステム障害、情報漏えいに関するお詫び",
     "url": "https://jpn.nec.com/news/info/20261020.html",
     "domain": "jpn.nec.com",
-    "count": 92,
+    "count": 94,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/jpn.nec.com/news/info/20261020.html",
     "screenshot": null,
     "description": "当社がシステム開発および保守業務を委託している企業（以下「委託先」）が9月下旬にサイバー攻撃を受け、窃取された正規アカウントの認証情報が悪用されたことにより、当社のお客さまにおいて、不正アクセスによる被害の発生や個人情報を含む情報の漏えいを確認しました。影響のあった複数のお客さまには既に個別に連絡...",
     "hatenaDate": "2026-10-20T08:54:57Z",
     "users": [],
     "firstSeenAt": "2026-10-20T19:15:13.520548+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "不正アクセス、中国系AI「ARTEX」で日本標的に　金融など業種絞り攻撃 - 日本経済新聞",
@@ -640,14 +692,14 @@
     "title": "本日開始「Androidのマイナンバーカード」さっそく登録、試してわかったiPhoneとの違いと注意点",
     "url": "https://k-tai.watch.impress.co.jp/docs/review/2149675.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 54,
+    "count": 55,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/review/2149675.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2149/675/01.jpg",
     "description": null,
     "hatenaDate": "2026-10-20T07:39:04Z",
     "users": [],
     "firstSeenAt": "2026-10-20T19:15:13.520548+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "Domain Modeling with Vanilla Rails",
@@ -679,14 +731,14 @@
     "title": "生成AIの女性画像、なぜ「作り物」に見えるの?毛穴や産毛まで感じる自然な肌を目指し無料版AIの1K画像で感じた限界と、実在感のある写真への挑戦 - Quadro Diary 生成AI 過去日記",
     "url": "https://quadro.hateblo.jp/entry/seiseiai_real",
     "domain": "quadro.hateblo.jp",
-    "count": 108,
+    "count": 109,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/quadro.hateblo.jp/entry/seiseiai_real",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/14142d37163413a0e3a76e1d26f51e0ac64895c4/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhrhsmto%2F20261016%2F20261016204900.png",
     "description": "生成AIの人物画像から「作り物感」をなくす試行錯誤 生成AIの女性画像に感じる「作り物感」と、目指す自然な写真 ImageFXから、最新版Geminiで再生成 上の画像から女性と男性を再生成化 無料版の1K画像の限界と、2K解像度・プロンプトへの期待 生成AIの人物画像から「作り物感」をなくす試行錯誤 生成AIの女性画像に感じ...",
     "hatenaDate": "2026-10-19T23:46:02Z",
     "users": [],
     "firstSeenAt": "2026-10-20T19:00:14.278659+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "デジタル庁、政府職員18万人にAIエージェント環境を展開──「源内」で提供開始、独自の安全基準も",
@@ -705,14 +757,14 @@
     "title": "人間のAIに対する判断移譲 - 西尾泰和の外部脳",
     "url": "https://scrapbox.io/nishio/%E4%BA%BA%E9%96%93%E3%81%AEAI%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%88%A4%E6%96%AD%E7%A7%BB%E8%AD%B2",
     "domain": "scrapbox.io",
-    "count": 189,
+    "count": 192,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/scrapbox.io/nishio/%E4%BA%BA%E9%96%93%E3%81%AEAI%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%88%A4%E6%96%AD%E7%A7%BB%E8%AD%B2",
     "screenshot": "https://scrapbox.io/assets/img/content-logo.png",
     "description": "2026-10-20 人間とAIの関係の議論で「最終判断は人間がやる」などといった議論があり、これは数年前の段階ではまあ妥当なものだったが、2024~2026年の2年間で起きたことを踏まえると解像度が低すぎると感じている。 この期間に「作業をAIに任せる」に加えて、「実行を許可する判断」「人間に質問するかどうかの判断」も...",
     "hatenaDate": "2026-10-20T08:21:44Z",
     "users": [],
     "firstSeenAt": "2026-10-20T18:15:14.795288+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "日本企業狙う不正アクセスにAI　攻撃者が自立型侵入テスト「ARTEX」を悪用　GMOイエラエ調査",
@@ -848,14 +900,14 @@
     "title": "「侵入経路塞いだが、バックドアから……」不正アクセス105時間の攻防、分単位で報告　防災メールのアルカディア",
     "url": "https://www.itmedia.co.jp/news/article/2610/20/2000002426/",
     "domain": "www.itmedia.co.jp",
-    "count": 397,
+    "count": 399,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/20/2000002426/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/20/2000002426/10009933/2048",
     "description": "105時間にわたる攻防　侵入経路を塞いだ後もバックドアから…… 公表資料によると、攻撃者は不正アクセスを始めてから約10時間後、サービス間ログイン用のシークレットキーを含む設定ファイルを取得。総当たり攻撃を仕掛けて内部情報を取得した。 同社が不正アクセスを検知したのはその約7時間後。侵入経路を遮断したがバ...",
     "hatenaDate": "2026-10-20T06:16:53Z",
     "users": [],
     "firstSeenAt": "2026-10-20T16:15:13.251853+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "ホテル客室に隠したPCからのフィッシングメール送信事件についてまとめてみた - piyolog",
@@ -1017,14 +1069,14 @@
     "title": "ソフトウェアの産業革命 - ちなみに",
     "url": "https://blog.nishimu.land/entry/2026/10/20/123916",
     "domain": "blog.nishimu.land",
-    "count": 521,
+    "count": 526,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.nishimu.land/entry/2026/10/20/123916",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/8f7afafe1e0c8b0abdc1c1a80282b606257dd5a5/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2FS%2FSixeight%2F20261020%2F20261020122543.png",
     "description": "2026年9月、Anthropicの社内リポジトリには1日あたり3万件を超える変更がマージされていたそうです。5月の時点ではおよそ2,500件だったので、4か月で10倍以上。書いているのはほとんどがコーディングエージェントです。 この3万件を人が一行ずつ読んでいるとは思えないし、誰も読まずに本番へ出しているとも思えない。じ...",
     "hatenaDate": "2026-10-20T04:10:49Z",
     "users": [],
     "firstSeenAt": "2026-10-20T13:45:08.414715+09:00",
-    "lastSeenAt": "2026-10-21T08:45:12.336942+09:00"
+    "lastSeenAt": "2026-10-21T09:00:13.638678+09:00"
   },
   {
     "title": "ChatGPT広告は誰に何を表示しているのか？　米大学が91のおとりアカウントで実態調査",
@@ -3846,57 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-17T20:15:13.700756+09:00",
     "lastSeenAt": "2026-10-18T16:00:11.786518+09:00"
-  },
-  {
-    "title": "すべてのAIコーディングエージェントのコストを閲覧・検索・追跡しローカルで動作する「AgentsView」、Claude Code・Codex・Cursor・Copilot・Geminiなど60種類以上のエージェントを自動検出し全文検索も可能",
-    "url": "https://gigazine.net/news/20261017-agentsview/",
-    "domain": "gigazine.net",
-    "count": 83,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261017-agentsview/",
-    "screenshot": "https://i.gzn.jp/img/2026/10/17/agentsview/00.png",
-    "description": "Claude CodeやCodexなどを並行して利用すると、どのAIコーディングエージェントやモデルへどれだけトークンを使ったのか全体像を把握しにくくなります。そこで使えるのが複数のエージェントのローカル履歴を自動収集し、モデル別・日別・セッション別の利用量やAPI料金換算のコストをまとめて確認できる「AgentsView」で...",
-    "hatenaDate": "2026-10-17T09:27:07Z",
-    "users": [],
-    "firstSeenAt": "2026-10-17T20:15:13.700756+09:00",
-    "lastSeenAt": "2026-10-18T15:00:13.055253+09:00"
-  },
-  {
-    "title": "NVIDIAが画像・動画・文章をまとめて理解するオープンウェイトAI「Nemotron 3.5 Super VL」を公開、処理コストを40分の1に削減する事例も",
-    "url": "https://gigazine.net/news/20261016-nemotron-3-5-super-vl/",
-    "domain": "gigazine.net",
-    "count": 25,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261016-nemotron-3-5-super-vl/",
-    "screenshot": "https://i.gzn.jp/img/2026/10/16/nemotron-3-5-super-vl/00.png",
-    "description": "NVIDIAが2026年10月15日に文章や画像、動画をまとめて理解できるオープンウェイトAIモデル「NVIDIA Nemotron 3.5 Super VL」を公開しました。複数の情報を組み合わせて作業を進めるAIエージェント向けのモデルで、同規模のオープンモデルと比較して最大5倍の処理能力を発揮するとのこと。企業の業務に合わせて調整したモ...",
-    "hatenaDate": "2026-10-16T04:12:17Z",
-    "users": [],
-    "firstSeenAt": "2026-10-17T20:00:14.045770+09:00",
-    "lastSeenAt": "2026-10-18T14:15:12.545200+09:00"
-  },
-  {
-    "title": "ソースネクスト　暗号化されていないパスワードが流出した理由とは（山口健太） - エキスパート - Yahoo!ニュース",
-    "url": "https://news.yahoo.co.jp/expert/articles/b3e710c60d79d276a00321906fa87ac9243f5530",
-    "domain": "news.yahoo.co.jp",
-    "count": 232,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/expert/articles/b3e710c60d79d276a00321906fa87ac9243f5530",
-    "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/yamaguchikenta/02745116/title-1792216805524.jpeg?exp=10800",
-    "description": "ソースネクストへの不正アクセスで会員情報が流出した問題では、「暗号化がない状態のパスワード」が含まれていたことをNHKなどが報じており、注目を集めています。 どのような方式でパスワードを管理していたのか、運営会社に聞いてみました。 システム連携用に暗号化して保存していたソースネクストの発表によれば、直...",
-    "hatenaDate": "2026-10-17T08:05:29Z",
-    "users": [],
-    "firstSeenAt": "2026-10-17T19:30:12.821275+09:00",
-    "lastSeenAt": "2026-10-18T16:45:13.727484+09:00"
-  },
-  {
-    "title": "Disposable Software - Spinach Forest",
-    "url": "https://records.dodgson.org/2026/10/16/disposable-software/",
-    "domain": "records.dodgson.org",
-    "count": 24,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/records.dodgson.org/2026/10/16/disposable-software/",
-    "screenshot": null,
-    "description": "Redesigning source control at Anthropic \\ Anthropic Anthropic’s Scion is heavily inspired by Mononoke · sunshowers More on Anthropic’s Scion ripping off Mononoke · sunshowers Anthropic が内製した Monorepo-optimized VCS が実は Meta がオープンソースで公開している彼らの VCS のパクリであり、オープン...",
-    "hatenaDate": "2026-10-17T07:39:52Z",
-    "users": [],
-    "firstSeenAt": "2026-10-17T19:15:12.643393+09:00",
-    "lastSeenAt": "2026-10-18T13:15:12.426928+09:00"
   }
 ]
