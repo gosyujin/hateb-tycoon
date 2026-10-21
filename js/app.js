@@ -21,6 +21,7 @@
   const bookmarkStatus = document.getElementById('bookmark-status');
   const entryPrevBtn = document.getElementById('entry-prev-btn');
   const entryNextBtn = document.getElementById('entry-next-btn');
+  const entryNavNote = document.getElementById('entry-nav-note');
   const entryHeader = document.getElementById('entry-header');
   const entryDescription = document.getElementById('entry-description');
   const commentList = document.getElementById('comment-list');
@@ -1291,6 +1292,7 @@
       perfMark('fetch-start');
       const info = await HatenaAPI.getEntryInfo(url);
       perfMark('fetch-end');
+      setEntryFetchUnstable(!!info.fromOfflineCache, url);
 
       if (Filters.isHidden({ title: info.title, domain: info.domain, url: info.url })) {
         entryDescription.textContent = '';
@@ -1347,6 +1349,7 @@
     } catch (err) {
       console.error(err);
       perfMark('error');
+      setEntryFetchUnstable(true, url);
       entryStatus.textContent = `取得に失敗しました: ${err.message}`;
     }
   }
@@ -2569,20 +2572,36 @@
     return entryNavReadSnapshot.has(item.url) && !entryNavOpened.has(item.url);
   }
 
+  // 機内モードはnavigator.onLineで分かるが、電波が弱いだけの時はonLineが真のまま取得に失敗する。
+  // 記事の取得がキャッシュ頼みになった/失敗した時点で「実質オフライン」とみなし、取得に
+  // 成功するか、onlineイベントが来るまで続ける。
+  let entryFetchUnstable = false;
+
+  function isOfflineMode() {
+    return !navigator.onLine || entryFetchUnstable;
+  }
+
+  function setEntryFetchUnstable(value, url) {
+    if (entryFetchUnstable === value) return;
+    entryFetchUnstable = value;
+    if (!entryView.hidden) updateEntryNavButtons(url);
+  }
+
   // その場でフィルタに登録した記事はcurrentVisibleEntries自体からは即座に
   // 取り除かれないため、移動先を探す際は都度Filters.isHiddenで生きた判定をし、
   // 該当すればスルーして次(前)を見る。既読かつ更新なしの記事も同様に飛ばす。
+  // オフライン時は逆に、既読の読み飛ばしをやめて、コメントをキャッシュ済みの記事だけを
+  // 辿る(読み飛ばすと事前キャッシュした記事を大きく飛び越え、未取得の記事ばかりに当たるため)。
   function findRelativeEntryIndex(currentUrl, delta) {
     if (!currentUrl || currentVisibleEntries.length === 0) return -1;
     ensureEntryNavSnapshot();
     const index = currentVisibleEntries.findIndex((item) => item.url === currentUrl);
     if (index === -1) return -1;
+    const cachedUrls = isOfflineMode() ? HatenaAPI.getCachedEntryUrlSet() : null;
+    const isSkipped = (item) =>
+      Filters.isHidden(item) || (cachedUrls ? !cachedUrls.has(item.url) : isSkippedByReadState(item));
     let nextIndex = index + delta;
-    while (
-      nextIndex >= 0 &&
-      nextIndex < currentVisibleEntries.length &&
-      (Filters.isHidden(currentVisibleEntries[nextIndex]) || isSkippedByReadState(currentVisibleEntries[nextIndex]))
-    ) {
+    while (nextIndex >= 0 && nextIndex < currentVisibleEntries.length && isSkipped(currentVisibleEntries[nextIndex])) {
       nextIndex += delta;
     }
     if (nextIndex < 0 || nextIndex >= currentVisibleEntries.length) return -1;
@@ -2603,7 +2622,25 @@
   function updateEntryNavButtons(url) {
     entryPrevBtn.disabled = findRelativeEntryIndex(url, -1) === -1;
     entryNextBtn.disabled = findRelativeEntryIndex(url, 1) === -1;
+    // 前後移動の仕様が通常と違うことを、理由つきで案内する。
+    if (isOfflineMode()) {
+      entryNavNote.textContent = `${navigator.onLine ? '電波が弱いため' : 'オフラインのため'}、コメント取得済みの記事だけを前後に移動します(既読の読み飛ばしなし)`;
+      entryNavNote.hidden = false;
+    } else {
+      entryNavNote.hidden = true;
+    }
   }
+
+  // 機内モードの切り替えで移動先の決め方が変わるため、ボタンの有効/無効を更新し直す。
+  const refreshEntryNavOnConnectivityChange = () => {
+    if (entryView.hidden) return;
+    updateEntryNavButtons(parseRoute().params.get('url'));
+  };
+  window.addEventListener('online', () => {
+    entryFetchUnstable = false;
+    refreshEntryNavOnConnectivityChange();
+  });
+  window.addEventListener('offline', refreshEntryNavOnConnectivityChange);
 
   entryPrevBtn.addEventListener('click', () => goToRelativeEntry(-1));
   entryNextBtn.addEventListener('click', () => goToRelativeEntry(1));

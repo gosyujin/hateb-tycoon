@@ -255,6 +255,16 @@ main {
 .bookmark-bar-status:empty {
   display: none;
 }
+/* オフライン(通信不安定)で前後移動の仕様が変わっていることの案内。 */
+.entry-nav-note {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 6px 10px 0;
+  font-size: 0.8rem;
+}
+.entry-nav-note[hidden] {
+  display: none;
+}
 .entry-nav-bar-inner {
   display: flex;
   gap: 8px;

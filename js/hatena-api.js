@@ -57,6 +57,12 @@
     return rec ? rec.info : null;
   }
 
+  // オフライン用キャッシュ済みの記事URL一覧。前後移動で「開けば内容が出る記事」だけを
+  // 辿るために使う。1回のlocalStorage読み出しでまとめて返す(記事ごとに読むと遅い)。
+  function getCachedEntryUrlSet() {
+    return new Set(Object.keys(loadEntryCache()));
+  }
+
   function jsonp(url, params, timeoutMs) {
     params = params || {};
     timeoutMs = timeoutMs || 10000;
@@ -386,6 +392,7 @@
     getHotEntries,
     getCachedHotEntries,
     getEntryInfo,
+    getCachedEntryUrlSet,
     prefetchEntryInfo,
   };
 })(window);
