@@ -1,29 +1,42 @@
 [
   {
+    "title": "[security] Update to 8.5.12, 8.4.27, 8.3.36, 8.2.35 by jnoordsij · Pull Request #1694 · docker-library/php",
+    "url": "https://github.com/docker-library/php/pull/1694",
+    "domain": "github.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/docker-library/php/pull/1694",
+    "screenshot": "https://opengraph.githubassets.com/08ec287e5ac29d7410ac41b9f78b1ea86a3f5d7bc9aa5c45d2d609dae64e354d/docker-library/php/pull/1694",
+    "description": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
+    "hatenaDate": "2026-10-21T14:14:17Z",
+    "users": [],
+    "firstSeenAt": "2026-10-22T00:15:15.127899+09:00",
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
+  },
+  {
     "title": "PHPが緊急アップデート「8.5.12」「8.4.27」「8.3.36」「8.2.35」をリリース",
     "url": "https://gigazine.net/news/20261021-php-critical-vulnerabilities/",
     "domain": "gigazine.net",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261021-php-critical-vulnerabilities/",
     "screenshot": "https://i.gzn.jp/img/2026/10/21/php-critical-vulnerabilities/00.png",
     "description": "PHPが緊急アップデート「8.5.12」「8.4.27」「8.3.36」「8.2.35」をリリースしました。 Security advisory: Critical remote code execution vulnerabilities, update now | PHP https://www.php.net/index.php#2026-10-21-5 Security advisory: Critical remote code execution vulnerabilities, update now | PHP: New...",
     "hatenaDate": "2026-10-21T14:14:02Z",
     "users": [],
     "firstSeenAt": "2026-10-22T00:00:10.090052+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "情報処理推進機構“PHPでぜい弱性確認 速やかな対応を” | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261021de63209",
     "domain": "news.web.nhk",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261021de63209",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261021de63209/20261021de63209_E0000097441_1_l.jpg",
     "description": "ウェブサイトなどに広く使われている「PHP」と呼ばれるプログラミング言語に重大なぜい弱性が見つかったことを受けて、独立行政法人の情報処理推進機構は、利用している企業などに対して速やかに対応するよう呼び…",
     "hatenaDate": "2026-10-21T13:40:39Z",
     "users": [],
     "firstSeenAt": "2026-10-21T23:45:15.177384+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "Oracle Java の脆弱性対策について(2026年10月) | 情報セキュリティ | IPA 独立行政法人 情報処理推進機構",
@@ -42,14 +55,14 @@
     "title": "Cloudflare deploys protections against php2shell vulnerability",
     "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
     "domain": "blog.cloudflare.com",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.cloudflare.com/php-vulnerabilities-waf-protection/",
     "screenshot": "https://blog.cloudflare.com/_emdash/api/media/file/01M5FBPSP6GA0RRJ5FDQ68S476.png",
     "description": "October 21, 2026Cloudflare deploys protections against php2shell vulnerability Today, Calif.io, Wiz, OpenAI and Quarkslab disclosed two vulnerabilities in PHP, tracked as CVE-2026-109618 and CVE-2026-109619 and known as php2shell. The vulnerabilities affect all web servers running PHP 5.4 or late...",
     "hatenaDate": "2026-10-21T14:22:23Z",
     "users": [],
     "firstSeenAt": "2026-10-21T23:45:15.177384+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "AIにガイドラインを渡すだけでなく、lintでチェックする",
@@ -68,14 +81,14 @@
     "title": "PHP 8.5.12 released with security fixes | The Dev Dispatch",
     "url": "https://php-net.pro/en/news/php-8-5-12-released-with-security-fixes",
     "domain": "php-net.pro",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/php-net.pro/en/news/php-8-5-12-released-with-security-fixes",
     "screenshot": "https://php-net.pro/uploads/share/19028-en.jpg?v=1792590022",
     "description": "The PHP project has released PHP 8.5.12: 90 fixes across 29 components of the 8.5 branch. The PHP project has released PHP 8.5.12, a maintenance update for the 8.5 branch. The release delivers 90 bug fixes across 29 components — among them Core, BCMath, BZ2, CLI, DOM, FFI … — and keeps the branch...",
     "hatenaDate": "2026-10-21T13:59:53Z",
     "users": [],
     "firstSeenAt": "2026-10-21T23:15:15.197770+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "ニコニコやpixivなど各種ウェブサイトおよびアプリがPHPの緊急パッチに対応するべくメンテナンス入り",
@@ -88,33 +101,33 @@
     "hatenaDate": "2026-10-21T13:19:20Z",
     "users": [],
     "firstSeenAt": "2026-10-21T23:15:15.197770+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "【PHP脆弱性php2shell】パッチは21:59に公開済み。「23:15から乗っ取り」「15分でAIが攻撃コード？」は本当か、自分のVPSのログで検証（CVE-2026-109618／109619）：秋山大志のそれとりあえず作ってみようか。：オルタナティブ・ブログ",
     "url": "https://blogs.itmedia.co.jp/agile/2026/10/php2shell_cve_2026_109618_panic.html",
     "domain": "blogs.itmedia.co.jp",
-    "count": 21,
+    "count": 29,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blogs.itmedia.co.jp/agile/2026/10/php2shell_cve_2026_109618_panic.html",
     "screenshot": "https://blogs.itmedia.co.jp/mt-static/support/assets_c/userpics/userpic-220-100x100.png",
     "description": "【PHP脆弱性php2shell】パッチは21:59に公開済み。「23:15から乗っ取り」「15分でAIが攻撃コード？」は本当か、自分のVPSのログで検証（CVE-2026-109618／109619） PHPの重大な脆弱性で、タイムラインが大騒ぎです。 震源のひとつが、「23時にパッチが公開されたら、それをAIで解析して攻撃コードを作り、23時15分以降に...",
     "hatenaDate": "2026-10-21T14:07:21Z",
     "users": [],
     "firstSeenAt": "2026-10-21T23:15:15.197770+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "大阪公立大のシステム障害、NECの再委託先へのサイバー攻撃が原因：朝日新聞",
     "url": "https://www.asahi.com/sp/articles/ASVBP15NCVBPPTIL00MM.html",
     "domain": "www.asahi.com",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/sp/articles/ASVBP15NCVBPPTIL00MM.html",
     "screenshot": "https://imgopt.asahi.com/ogp/AS20261021001736_comm.jpg",
     "description": "大阪公立大学は21日、今月2日に発生したシステム障害について、システムの保守と運用を委託しているNECの再委託先の事業者がサイバー攻撃を受けたことが原因だと、発表した。■大阪大でも個人情報7万8千人…",
     "hatenaDate": "2026-10-21T12:53:20Z",
     "users": [],
     "firstSeenAt": "2026-10-21T23:15:15.197770+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "2010年から存在するWi-Fiの欠陥でパスワードを知らなくてもルーターを乗っ取れるバグが発覚、数百万台が影響を受ける可能性",
@@ -127,20 +140,20 @@
     "hatenaDate": "2026-10-21T12:12:33Z",
     "users": [],
     "firstSeenAt": "2026-10-21T23:15:15.197770+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "これが視界に入った瞬間、1秒以内に「AIだ！」と思ったけど我々は一体何に「AIっぽさ」を感じているのか→文字や色味以外にも判別ポイントがある？",
     "url": "https://togetter.com/li/2761175",
     "domain": "togetter.com",
-    "count": 32,
+    "count": 35,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2761175",
     "screenshot": "https://s.tgstc.com/ogp3/15c2eed05050afce4f58100e51b577f7-1200x630.jpeg",
     "description": "これが視界に入った瞬間、1秒以内に「AIだ！」と思ったけど我々は一体何に「AIっぽさ」を感じているのか→文字や色味以外にも判別ポイントがある？",
     "hatenaDate": "2026-10-21T13:05:29Z",
     "users": [],
     "firstSeenAt": "2026-10-21T23:00:14.434132+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "GitHub - ikow/php2shell-poc: CVE-2026-109618/109619 PHP session.upload_progress Exploit Research — POC & Analysis",
@@ -166,7 +179,7 @@
     "hatenaDate": "2026-10-21T12:07:41Z",
     "users": [],
     "firstSeenAt": "2026-10-21T22:30:15.166761+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "AIを使えば、ソフトウェアエンジニアとしての規律は身につくのか｜柴田 芳樹",
@@ -218,7 +231,7 @@
     "hatenaDate": "2026-10-21T12:37:30Z",
     "users": [],
     "firstSeenAt": "2026-10-21T21:45:14.775720+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "MetaのAIエージェントアプリ「Muse」が40日間で1000万ダウンロードを突破",
@@ -250,27 +263,27 @@
     "title": "Node.js — Wednesday, October 21, 2026 Security Releases",
     "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
     "domain": "nodejs.org",
-    "count": 39,
+    "count": 40,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/nodejs.org/en/blog/vulnerability/october-2026-security-releases",
     "screenshot": "https://nodejs.org/en/next-data/og/vulnerability/Node.js%20%E2%80%94%20Wednesday,%20October%2021,%202026%20Security%20Releases",
     "description": "Commercial support for versions past the Maintenance LTS phase is available through our OpenJS Ecosystem Sustainability Program partners Summary The Node.js project will release new versions of the 26.x, 24.x, 22.x releases lines on or shortly after, Wednesday, October 21, 2026 in order to addres...",
     "hatenaDate": "2026-10-14T23:31:16Z",
     "users": [],
     "firstSeenAt": "2026-10-21T21:00:10.637023+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "委託事業者における個人情報漏えいについて",
     "url": "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004",
     "domain": "www.osaka-u.ac.jp",
-    "count": 64,
+    "count": 66,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.osaka-u.ac.jp/ja/news/topics/2026/10/21004",
     "screenshot": "https://www.osaka-u.ac.jp/ja/assets/files/og-image/OGP-image-JP.jpg/@@images/image",
     "description": "令和8年10月9日、本学の全学教育用電子計算機システムの運用を委託している日本電気株式会社（以下「NEC」という。）から、令和8年9月26日に第三者により本学の個人情報を含むファイルがダウンロードされていたとの報告を受けました。 その後の調査により、本学に報告されていない協力会社が本業務の一部に関与していた...",
     "hatenaDate": "2026-10-21T11:16:28Z",
     "users": [],
     "firstSeenAt": "2026-10-21T21:00:10.637023+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "MetaのAI「Muse」で共有した会話が第三者に丸見えになる問題が発覚、6800件以上の共有リンクが発見される",
@@ -289,14 +302,14 @@
     "title": "わずか2週間でGitHubスター30万超　AIでリバースエンジニアリングする「REA」が話題",
     "url": "https://ascii.jp/elem/000/004/444/4444350/",
     "domain": "ascii.jp",
-    "count": 59,
+    "count": 61,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/444/4444350/",
     "screenshot": "https://ascii.jp/img/2026/10/21/4541255/xl/78f108033f817b01.png?20200122",
     "description": "morluto氏がGitHubで公開しているAIエージェント向けのリバースエンジニアリング支援ツール「REA（Reverse Engineer Anything）」が急速に人気を集めている。10月2日時点で41件だったGitHubのスター数は、17日に30万件を突破。21日には34万7802件に達した。 REAは、完成したアプリや実行ファイルを調べ、内部の処理を理...",
     "hatenaDate": "2026-10-21T04:48:18Z",
     "users": [],
     "firstSeenAt": "2026-10-21T20:30:14.468514+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "リアルタイム文字起こしや特定の人物の音声クローンが可能な音声AI群「Voxtral 3」",
@@ -335,7 +348,7 @@
     "hatenaDate": "2026-10-21T08:57:51Z",
     "users": [],
     "firstSeenAt": "2026-10-21T20:00:15.129895+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "不正アクセス“金融機関が狙われる段階に変わってきた可能性” | NHKニュース",
@@ -348,7 +361,7 @@
     "hatenaDate": "2026-10-21T09:08:57Z",
     "users": [],
     "firstSeenAt": "2026-10-21T19:15:13.138149+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "小説家になろうグループ臨時接続制限のお知らせ",
@@ -361,7 +374,7 @@
     "hatenaDate": "2026-10-21T08:55:48Z",
     "users": [],
     "firstSeenAt": "2026-10-21T19:15:13.138149+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "チャッピーはまじめ",
@@ -406,14 +419,14 @@
     "title": "著名ITサービス相次いで緊急メンテへ　コドモン、シャドバ、BASE、さくらのレンタルサーバなど　「PHP」脆弱性に起因か",
     "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002472/",
     "domain": "www.itmedia.co.jp",
-    "count": 138,
+    "count": 142,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/21/2000002472/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/21/2000002472/10010067/2048",
     "description": "保育園向けSaaS「コドモン」、ゲーム「Shadowverse: Worlds Beyond」「さくらのレンタルサーバ」といった著名サービスが相次いで緊急メンテナンスに入ったり、同日午後11時ごろからのメンテナンスを予告したりしている。Web開発で広く使われるプログラミング言語「PHP」で緊急性の高い脆弱性が見つかった影響とみられる...",
     "hatenaDate": "2026-10-21T08:52:10Z",
     "users": [],
     "firstSeenAt": "2026-10-21T18:45:14.473350+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "Only for the curious...",
@@ -445,14 +458,14 @@
     "title": "修正予告されたPHPの2件の深刻な脆弱性についてまとめてみた - piyolog",
     "url": "https://piyolog.hatenadiary.jp/entry/2026/10/21/174516",
     "domain": "piyolog.hatenadiary.jp",
-    "count": 263,
+    "count": 277,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/21/174516",
     "screenshot": "https://ogimage.blog.st-hatena.com/10257846132616586766/14945776032093179100/1792578197",
     "description": "2026年10月20日、PHPの開発元であるThe PHP Groupのセキュリティチームは、PHPの深刻な脆弱性2件を修正するセキュリティリリースを予告しました。ここでは関連する情報をまとめます。（開発元等から詳細情報が公開され次第更新します。） 開発元は何を予告したの? PHPのセキュリティチームは10月20日(協定世界時)、2件の...",
     "hatenaDate": "2026-10-21T08:57:42Z",
     "users": [],
     "firstSeenAt": "2026-10-21T18:30:14.389363+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "php2shell の告知を受けて、ALB の AWS WAF で multipart POST を止める・絞るルールを試してみた | DevelopersIO",
@@ -465,7 +478,7 @@
     "hatenaDate": "2026-10-21T08:13:02Z",
     "users": [],
     "firstSeenAt": "2026-10-21T18:30:14.389363+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "無料日本語入力アプリ「Meltype」v1.3.0が公開、公式サイトや新しいアイコン、ポータブル版も／動作モードを2つに整理、多数のオプション設定も追加",
@@ -530,7 +543,7 @@
     "hatenaDate": "2026-10-21T06:45:55Z",
     "users": [],
     "firstSeenAt": "2026-10-21T17:30:13.041291+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "人はIssueとPRで判断するだけ — 自律AIループで回す開発プロセスの設計 - RAKUS Developers Blog | ラクス エンジニアブログ",
@@ -575,27 +588,27 @@
     "title": "【事前準備のお願い】PHPのセキュリティリリース公開予定について | 情報セキュリティ | IPA 独立行政法人 情報処理推進機構",
     "url": "https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html",
     "domain": "www.ipa.go.jp",
-    "count": 76,
+    "count": 78,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html",
     "screenshot": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.jpg",
     "description": "本情報の対象となる2つの脆弱性について、現時点でIPAが悪用した攻撃を確認しているわけではありません。セキュリティリリースの公開後、速やかに適用できるよう、事前準備をお願いするものです。 PHPの脆弱性については、2024年7月にも悪用した攻撃に関する注意喚起を行っています（脚注1）。 今回の脆弱性についても悪...",
     "hatenaDate": "2026-10-21T06:53:37Z",
     "users": [],
     "firstSeenAt": "2026-10-21T16:45:13.232579+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "honto - 外部委託先への不正アクセスによるお客様情報漏えいの可能性について - hontoからのお知らせ一覧",
     "url": "https://honto.jp/info/detail_041000135344.html",
     "domain": "honto.jp",
-    "count": 82,
+    "count": 83,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/honto.jp/info/detail_041000135344.html",
     "screenshot": "https://honto.jp/library/img/pc/banner_info_og.png",
     "description": "お知らせ23",
     "hatenaDate": "2026-10-21T05:48:13Z",
     "users": [],
     "firstSeenAt": "2026-10-21T16:00:13.981165+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "「タイパを極めすぎた末路」ラーメン屋を経営するゲームで客に丼を投擲して提供する方式を考案した人が登場、開発者も困惑していたら「射撃場」も作成されていた",
@@ -998,20 +1011,20 @@
     "hatenaDate": "2026-10-21T02:06:33Z",
     "users": [],
     "firstSeenAt": "2026-10-21T11:30:14.749431+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "PHPの重大な脆弱性「php2shell」（CVE-2026-109618、CVE-2026-109619）の概要と対応指針 - GMO Flatt Security Blog",
     "url": "https://blog.flatt.tech/entry/php2shell",
     "domain": "blog.flatt.tech",
-    "count": 718,
+    "count": 735,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.flatt.tech/entry/php2shell",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/beb18d5abbbc1fc750a8444b6840c359b4df9461/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ff%2Fflattsecurity%2F20261021%2F20261021111143.png",
     "description": "PHP開発チームは2026年10月20日（日本時間で深夜）、重大な脆弱性2件の修正パッチを、2026年10月21日 23時（日本時間）にリリース予定と告知しました。両件のCVSS v4.0スコアは9.2とされています。詳細が公開された場合などには、パッチの公開が前倒しになる可能性もあります。 本脆弱性の発見に関与すると見られる研究...",
     "hatenaDate": "2026-10-21T02:15:43Z",
     "users": [],
     "firstSeenAt": "2026-10-21T11:30:14.749431+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "【私のパソコン履歴書】手塚宏史さん｜ソニーNEWSと4.2BSD移植を語る - RetroPC NEWS",
@@ -1050,7 +1063,7 @@
     "hatenaDate": "2026-10-20T23:30:57Z",
     "users": [],
     "firstSeenAt": "2026-10-21T10:36:38.756946+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "PHPに「緊急」レベルの脆弱性2件　修正版を日本時間21日深夜に公開へ、事前準備を呼び掛け",
@@ -1063,7 +1076,7 @@
     "hatenaDate": "2026-10-21T01:08:01Z",
     "users": [],
     "firstSeenAt": "2026-10-21T10:30:14.827159+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "【Excel】AIが作った数式に「--」が入っていたけど、いらなくない？ 削除禁止の理由【いまさら聞けないExcelの使い方講座】",
@@ -1076,7 +1089,7 @@
     "hatenaDate": "2026-10-20T22:15:35Z",
     "users": [],
     "firstSeenAt": "2026-10-21T10:30:14.827159+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "岩井コスモ証券にサイバー攻撃　顧客の意図しない売買注文、成立も：朝日新聞",
@@ -1160,14 +1173,14 @@
     "title": "バイブコーディングを6週間続けたら、Mac の起動が20分かかるようになった",
     "url": "https://zenn.dev/singularity/articles/vibe-coding-mac-boot-20min",
     "domain": "zenn.dev",
-    "count": 212,
+    "count": 213,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/singularity/articles/vibe-coding-mac-boot-20min",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--mMV_0sQy--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2596%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%25926%25E9%2580%25B1%25E9%2596%2593%25E7%25B6%259A%25E3%2581%2591%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581Mac%2520%25E3%2581%25AE%25E8%25B5%25B7%25E5%258B%2595%25E3%2581%258C20%25E5%2588%2586%25E3%2581%258B%25E3%2581%258B%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Isamu%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZiNjM5MTg4YzEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B7%25E3%2583%25B3%25E3%2582%25AE%25E3%2583%25A5%25E3%2583%25A9%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2583%25BB%25E3%2582%25BD%25E3%2582%25B5%25E3%2582%25A8%25E3%2583%2586%25E3%2582%25A3%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2g3ODg4Mk5lcU4xYUxYZWxhbjZ5TDYzUVBVdGs3MjQ0aGs0QjdBdWc9czI1MC1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "Mac が落ちました。 ファイルまわりの負荷がじわじわ溜まって、最後は反応しなくなって、落ちた。そこまではまあ、たまにあります。問題はそのあとでした。 起動しないのです。 電源を入れて、FileVault のパスワードを入れる。進捗バーが出る。2割くらいまで進む。そこで止まる。5分待っても、10分待っても動かない。 M...",
     "hatenaDate": "2026-10-20T23:13:30Z",
     "users": [],
     "firstSeenAt": "2026-10-21T09:30:12.930046+09:00",
-    "lastSeenAt": "2026-10-22T00:00:10.090052+09:00"
+    "lastSeenAt": "2026-10-22T00:15:15.127899+09:00"
   },
   {
     "title": "不正アクセスによる情報漏洩に関するお詫びとご報告",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-19T12:00:12.961541+09:00",
     "lastSeenAt": "2026-10-20T04:15:12.434431+09:00"
-  },
-  {
-    "title": "不正アクセスに関するご案内｜Studio",
-    "url": "https://studio.design/ja/security/notice/2026-10-incident",
-    "domain": "studio.design",
-    "count": 12,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/studio.design/ja/security/notice/2026-10-incident",
-    "screenshot": "https://storage.googleapis.com/production-os-assets/assets/8bd800f0-19cc-4f81-b473-ca5730fc7580",
-    "description": "このたびの不正アクセスによる情報流出について、お客様ならびに関係者の皆様に、ご心配とご迷惑をおかけしておりますことを、深くお詫び申し上げます。 本ポータルでは、本件の概要や最新の対応状況、皆様に共通するお知らせと必要なご対応をご案内しています。 お客様ごとの対象情報や必要なご対応については、メール...",
-    "hatenaDate": "2026-10-19T00:45:36Z",
-    "users": [],
-    "firstSeenAt": "2026-10-19T12:00:12.961541+09:00",
-    "lastSeenAt": "2026-10-19T16:45:14.806764+09:00"
   }
 ]
