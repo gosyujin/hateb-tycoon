@@ -1,68 +1,120 @@
 [
   {
+    "title": "「日本人は海賊版に厳しい？」 海外掲示板でゲームの海賊版をめぐり議論。日本と海外での意識の違い",
+    "url": "https://news.denfaminicogamer.jp/news/261020w",
+    "domain": "news.denfaminicogamer.jp",
+    "count": 8,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/news.denfaminicogamer.jp/news/261020w",
+    "screenshot": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/pexels-kowalievska-1174775.jpg",
+    "description": "海外掲示板Redditにて、「日本人は海賊行為に強く反対しているのか？」という問いかけをきっかけに、ゲームの海賊版をめぐる意識の違いが議論されている。コメント欄では、「クリエイターの権利や労力を尊重すべきだ」という意見のほか、「遊ぶ手段が失われた作品の保存はどうするのか」などさまざまな見解が寄せられて...",
+    "hatenaDate": "2026-10-20T23:36:46Z",
+    "users": [],
+    "firstSeenAt": "2026-10-21T12:00:17.645628+09:00",
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
+  },
+  {
+    "title": "「PC持ってない人達って、まさかPCを毎回シャットダウンしてると思ってんの？」Windowsのシャットダウンとスリープの違いが話題に…スリープ運用の便利さと問題点も",
+    "url": "https://togetter.com/li/2760860",
+    "domain": "togetter.com",
+    "count": 25,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2760860",
+    "screenshot": "https://s.tgstc.com/ogp3/d7ea4789f9cde925738edd7506337e43-1200x630.jpeg",
+    "description": "ユリー👓️だよ！ @Yullyx7 あのさ、「PS5は直ぐゲームが起動できる」見たいなの見たんやけどさもしかしてPC持ってない人達ってまさかPCを毎回シャットダウンしてると思ってんの？ 多分殆んどのPCゲーマーはPCシャットダウンしねぇぞ 2026-10-20 05:32:46 愚風 @fool_wind Microsoftが「スリープ運用してください」って散...",
+    "hatenaDate": "2026-10-20T23:30:57Z",
+    "users": [],
+    "firstSeenAt": "2026-10-21T12:00:17.645628+09:00",
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
+  },
+  {
+    "title": "【Excel】AIが作った数式に「--」が入っていたけど、いらなくない？ 削除禁止の理由【いまさら聞けないExcelの使い方講座】",
+    "url": "https://forest.watch.impress.co.jp/docs/serial/exceltips/2149792.html",
+    "domain": "forest.watch.impress.co.jp",
+    "count": 25,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/serial/exceltips/2149792.html",
+    "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2149/792/imasara_excel_228-top.png",
+    "description": null,
+    "hatenaDate": "2026-10-20T22:15:35Z",
+    "users": [],
+    "firstSeenAt": "2026-10-21T12:00:17.645628+09:00",
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
+  },
+  {
+    "title": "パリのマルシェあふれる移民「まるでアラブの市場」、社会不安の矛先向かう…排斥論が右派政党を後押し",
+    "url": "https://www.yomiuri.co.jp/world/20261021-GYT1T00014/",
+    "domain": "www.yomiuri.co.jp",
+    "count": 25,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.yomiuri.co.jp/world/20261021-GYT1T00014/",
+    "screenshot": "https://www.yomiuri.co.jp/media/2026/10/20261021-GYT1I00022-1.jpg?type=ogp",
+    "description": "【読売新聞】　南東欧アルバニア北部の集落ジャデル。５月、家畜の臭いが漂う山道を上っていくと、鉄製の高い塀に囲まれた建物が現れた。欧州連合（ＥＵ）非加盟国にもかかわらず、ＥＵ旗がなびき、イタリア警察の車両が出入りする。イタリアに密入国",
+    "hatenaDate": "2026-10-20T22:43:35Z",
+    "users": [],
+    "firstSeenAt": "2026-10-21T12:00:17.645628+09:00",
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
+  },
+  {
     "title": "PHPの重大な脆弱性「php2shell」（CVE-2026-109618、CVE-2026-109619）の概要と対応指針 - GMO Flatt Security Blog",
     "url": "https://blog.flatt.tech/entry/php2shell",
     "domain": "blog.flatt.tech",
-    "count": 23,
+    "count": 34,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.flatt.tech/entry/php2shell",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/beb18d5abbbc1fc750a8444b6840c359b4df9461/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ff%2Fflattsecurity%2F20261021%2F20261021111143.png",
     "description": "PHP開発チームは2026年10月20日（日本時間で深夜）、重大な脆弱性2件の修正パッチを、2026年10月21日 23時（日本時間）にリリース予定と告知しました。両件のCVSS v4.0スコアは9.2とされています。詳細が公開された場合などには、パッチの公開が前倒しになる可能性もあります。 本脆弱性の発見に関与すると見られる研究...",
     "hatenaDate": "2026-10-21T02:15:43Z",
     "users": [],
     "firstSeenAt": "2026-10-21T11:45:15.562038+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "『右折が怖い』って話をしたら『左折3回すれば右折になるから左折だけして運転すれば？』って言われた「最終的につけばええねんの精神、いいと思います」",
     "url": "https://togetter.com/li/2760861",
     "domain": "togetter.com",
-    "count": 14,
+    "count": 25,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2760861",
     "screenshot": "https://s.tgstc.com/ogp3/eda110dad924a6ec0f7feb07f959afd2-1200x630.jpeg",
     "description": "『右折が怖い』って話をしたら『左折3回すれば右折になるから左折だけして運転すれば？』って言われた「最終的につけばええねんの精神、いいと思います」",
     "hatenaDate": "2026-10-20T23:10:17Z",
     "users": [],
     "firstSeenAt": "2026-10-21T11:45:15.562038+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "余暇のほとんどをITに使っていたエンジニアは、子どもが生まれてITとの付き合い方をどう変えたのか - レバテックLAB",
     "url": "https://levtech.jp/media/detail_944/",
     "domain": "levtech.jp",
-    "count": 18,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/levtech.jp/media/detail_944/",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/9ac51a036bd80a528eadc5620ee21bc11927a3ae/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn.blog.st-hatena.com%2Ffiles%2F6802418398571665203%2F14945776032087936296",
     "description": "hitode909 株式会社はてなのエンジニアリングマネージャー。学生時代から趣味でWebサービス開発に熱中。「YAPC::Asia」や「YAPC::Japan」など勉強会にて登壇多数。2011年から毎日更新している「hitode909の日記」では、ITと、5歳の子どもとの暮らしについて書いている。現在はマンガサービスの開発チームで、コードとチ...",
     "hatenaDate": "2026-10-21T02:06:33Z",
     "users": [],
     "firstSeenAt": "2026-10-21T11:30:14.749431+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "マスク氏、ウクライナ向け衛星通信の制限を指示 米紙報道",
     "url": "https://www.afpbb.com/articles/-/3658582",
     "domain": "www.afpbb.com",
-    "count": 21,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3658582",
     "screenshot": "https://afpbb.ismcdn.jp/mwimgs/f/b/1000x/img_fb114520b447d281fd54b12fddeb72d078045.jpg",
     "description": "【10月21日 AFP】米紙ウォールストリート・ジャーナル（WSJ）は20日、米実業家イーロン・マスク氏が、ウクライナ軍が利用する米宇宙開発企業スペースXの軍用衛星通信サービス「スターシールド」の制限を指示していたと報じた。スペースXを率いるマスク氏はこれに先立ち、スターシールドの通信速度や利用に関する制限は、...",
     "hatenaDate": "2026-10-20T23:11:27Z",
     "users": [],
     "firstSeenAt": "2026-10-21T11:15:15.874816+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "PHPに「緊急」レベルの脆弱性2件　修正版を日本時間21日深夜に公開へ、事前準備を呼び掛け",
     "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002446/",
     "domain": "www.itmedia.co.jp",
-    "count": 33,
+    "count": 36,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/21/2000002446/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/21/2000002446/10009987/2048",
     "description": "PHPの開発プロジェクトでセキュリティを担当するチームは10月20日（協定世界時）、2件の重大な脆弱性を修正するセキュリティアップデートを同日午後2時（日本時間の21日午後11時）に公開すると予告した。脆弱性の詳細や影響を受けるバージョン、修正版のバージョンは公開と同時に明らかにする。全てのPHPユーザーに対し...",
     "hatenaDate": "2026-10-21T01:08:01Z",
     "users": [],
     "firstSeenAt": "2026-10-21T11:15:15.874816+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "第四章 魔像の海 其ノ二十七 闘いの海 / シルバーマウンテン - 藤田和日郎 | サンデーうぇぶり",
@@ -81,131 +133,131 @@
     "title": "「高市さんの政治は富国強兵。人々は幸せにならない」と石破茂前首相が痛烈批判",
     "url": "https://www.j-cast.com/2026/10/20518566.html?p=all",
     "domain": "www.j-cast.com",
-    "count": 20,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.j-cast.com/2026/10/20518566.html?p=all",
     "screenshot": "https://www.j-cast.com/images/origin/2026/10/news_20261020120854.jpg",
     "description": "「強さも豊かさも大事だけど、一人一人が幸せを実感できているのか」...石破茂前首相は高市政治を痛烈に批判した。高市政権が発足して1年、2026年10月19日放送の「報道1930」（BS-TBS）は「高市政権の現在地」を特集、ゲストの石破氏はこのままで日本は大丈夫かと憂えた。 「勇ましいことを言えば、その時はウケるだろう...",
     "hatenaDate": "2026-10-20T14:38:13Z",
     "users": [],
     "firstSeenAt": "2026-10-21T10:30:14.827159+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "「お名前.com デスクトップクラウド」不正プログラム設置で全プラン停止　FX用VPS、2万6739サーバに影響か",
     "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002442/",
     "domain": "www.itmedia.co.jp",
-    "count": 40,
+    "count": 42,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/21/2000002442/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/21/2000002442/10009975/2048",
     "description": "お名前.com デスクトップクラウドは、FXの自動売買ソフト（「MetaTrader 4」「MetaTrader 5」など）を、自宅のPCを使わずにクラウド上のサーバで24時間動かし続けるためのサービス。月額2640円から利用でき、契約実績は累計20万以上という。 同社は10月20日、不正なプログラムが設置されたことを確認。サーバ内に保管さ...",
     "hatenaDate": "2026-10-20T23:41:28Z",
     "users": [],
     "firstSeenAt": "2026-10-21T10:30:14.827159+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "『朧村正 怪奇譚』開発者インタビュー。本作は単なるリマスターではなかった、大変身の″リニューアル版\"、PC版リリースの背景なども訊く - AUTOMATON",
     "url": "https://automaton-media.com/articles/interviewsjp/oboro-20261021-474551/",
     "domain": "automaton-media.com",
-    "count": 17,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/automaton-media.com/articles/interviewsjp/oboro-20261021-474551/",
     "screenshot": "https://automaton-media.com/wp-content/uploads/2026/10/oboromuramasa-kaikitan-header.jpg",
     "description": "基本的なゲームの作りはWii、PS Vitaの原作に準拠しつつ、キャラクターや背景といったグラフィック全般は高解像度化。それだけに留まらず、ゲームシステムの改良からマップ構造の刷新、新要素の追加なども図られており、単純なHDリマスターとも、リメイクとも言いがたい作りが大きな特徴となっている。また、PS Vita版の...",
     "hatenaDate": "2026-10-20T22:58:39Z",
     "users": [],
     "firstSeenAt": "2026-10-21T10:00:13.725569+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "トランプ氏、ゼレンスキー氏にロシアとの合意要求 戦闘終結へ圧力",
     "url": "https://www.afpbb.com/articles/-/3658575",
     "domain": "www.afpbb.com",
-    "count": 23,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3658575",
     "screenshot": "https://afpbb.ismcdn.jp/mwimgs/2/0/1000x/img_209ae11dd0ab4d8168ee01102198204d95864.jpg",
     "description": "【10月21日 AFP】ドナルド・トランプ米大統領は20日、ウクライナのウォロディミル・ゼレンスキー大統領に対し、ロシアと「合意を結ぶ意思を示さなければならない」と述べ、戦闘終結に向けて圧力を強めた。 トランプ氏はホワイトハウスで記者団に対し、「われわれはゼレンスキー氏に合意を結んでほしいと思っている。彼に...",
     "hatenaDate": "2026-10-20T23:02:38Z",
     "users": [],
     "firstSeenAt": "2026-10-21T10:00:13.725569+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "Z世代は本当に我慢ができなくて良くない。 ちょっと名前からかっただけでキレるし、モノは盗むし、素直に謝りもしない。 妹想いなZZ世代を見習って欲しい。→「叙述トリックじゃねぇか！！！！！！！」",
     "url": "https://posfie.com/@kalofollow/p/NmldozV",
     "domain": "posfie.com",
-    "count": 37,
+    "count": 42,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@kalofollow/p/NmldozV",
     "screenshot": "https://s.tgstc.com/ogp3/95b934d6ddd495a06676be4782414601-1200x630.jpeg",
     "description": "ドクロ軍曹 @dokurogunsou Z世代は本当に我慢ができなくて良くない。 ちょっと名前からかっただけでキレるし、モノは盗むし、素直に謝りもしない。 妹想いなZZ世代を見習って欲しい。 2026-10-19 12:24:04",
     "hatenaDate": "2026-10-20T06:34:19Z",
     "users": [],
     "firstSeenAt": "2026-10-21T10:00:13.725569+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "新築の内覧に行ったらほぼ網戸がなかったが、今時の新築は窓を開けないの？それともハウスメーカーがケチってオプションにしてるだけ？→最近は網戸がないのが普通らしい",
     "url": "https://togetter.com/li/2760856",
     "domain": "togetter.com",
-    "count": 117,
+    "count": 128,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2760856",
     "screenshot": "https://s.tgstc.com/ogp3/c2f29d7abf96e8109c55a363a3d23789-1200x630.jpeg",
     "description": "新築の内覧に行ったらほぼ網戸がなかったが、今時の新築は窓を開けないの？それともハウスメーカーがケチってオプションにしてるだけ？→最近は網戸がないのが普通らしい",
     "hatenaDate": "2026-10-20T23:29:35Z",
     "users": [],
     "firstSeenAt": "2026-10-21T09:45:15.472058+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "バイブコーディングを6週間続けたら、Mac の起動が20分かかるようになった",
     "url": "https://zenn.dev/singularity/articles/vibe-coding-mac-boot-20min",
     "domain": "zenn.dev",
-    "count": 60,
+    "count": 62,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/singularity/articles/vibe-coding-mac-boot-20min",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--mMV_0sQy--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2596%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%25926%25E9%2580%25B1%25E9%2596%2593%25E7%25B6%259A%25E3%2581%2591%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581Mac%2520%25E3%2581%25AE%25E8%25B5%25B7%25E5%258B%2595%25E3%2581%258C20%25E5%2588%2586%25E3%2581%258B%25E3%2581%258B%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Isamu%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZiNjM5MTg4YzEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B7%25E3%2583%25B3%25E3%2582%25AE%25E3%2583%25A5%25E3%2583%25A9%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2583%25BB%25E3%2582%25BD%25E3%2582%25B5%25E3%2582%25A8%25E3%2583%2586%25E3%2582%25A3%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2g3ODg4Mk5lcU4xYUxYZWxhbjZ5TDYzUVBVdGs3MjQ0aGs0QjdBdWc9czI1MC1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "Mac が落ちました。 ファイルまわりの負荷がじわじわ溜まって、最後は反応しなくなって、落ちた。そこまではまあ、たまにあります。問題はそのあとでした。 起動しないのです。 電源を入れて、FileVault のパスワードを入れる。進捗バーが出る。2割くらいまで進む。そこで止まる。5分待っても、10分待っても動かない。 M...",
     "hatenaDate": "2026-10-20T23:13:30Z",
     "users": [],
     "firstSeenAt": "2026-10-21T09:45:15.472058+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "NINTENDO 64版『ゼルダの伝説 時のオカリナ』の発売当時のレビュー",
     "url": "https://jp.ign.com/the-legend-of-zelda-ocarina-of-time-1998/84432/nintendo-64",
     "domain": "jp.ign.com",
-    "count": 39,
+    "count": 47,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/jp.ign.com/the-legend-of-zelda-ocarina-of-time-1998/84432/nintendo-64",
     "screenshot": "https://sm.ign.com/t/ign_jp/review/t/the-legend/the-legend-of-zelda-ocarina-of-time-review_9tx7.1200.jpg",
     "description": "Nintendo Switch 2向けに発売される『ゼルダの伝説 時のオカリナ』のリメイク。リメイク版の発売が迫ってきたので、原作であるNINTENDO 64版の発売当時のIGNのレビューを掲載する。あわせて読みたいThe Legend of Zelda: Ocarina of Time - Official Announcement Trailer | Nintendo Direct June 2026 執筆者は、あの4...",
     "hatenaDate": "2026-10-20T05:48:34Z",
     "users": [],
     "firstSeenAt": "2026-10-21T09:45:15.472058+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "Dr.陳のグルメバイブル",
     "url": "https://eye.med.hokudai.ac.jp/gourmet_bible/",
     "domain": "eye.med.hokudai.ac.jp",
-    "count": 37,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/eye.med.hokudai.ac.jp/gourmet_bible/",
     "screenshot": null,
     "description": "札幌グルメバイブル「北海道大学総合博物館」を追加しました。 札幌グルメバイブル「カフェdeごはんの「北大牛乳のソフトクリーム」と北大オリジナルショップ」を追加しました。 札幌グルメバイブル「北大マルシェCafé & Labo」を追加しました。 札幌グルメバイブル「ミュージアムショップぽとろ」を追加しました。 札幌...",
     "hatenaDate": "2012-04-17T03:37:10Z",
     "users": [],
     "firstSeenAt": "2026-10-21T09:30:12.930046+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "ヒッタイト王国の粘土板文書131枚がトルコで発掘される、3400年前の流行病や当時の兵站などが明らかに",
     "url": "https://gigazine.net/news/20261021-hittite-royal-archive-tablets-turkiye/",
     "domain": "gigazine.net",
-    "count": 44,
+    "count": 48,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261021-hittite-royal-archive-tablets-turkiye/",
     "screenshot": "https://i.gzn.jp/img/2026/10/21/hittite-royal-archive-tablets-turkiye/00.jpg",
     "description": "トルコ文化観光省が、紀元前17～13世紀に栄えたヒッタイト王国の遺跡で行われた2026年の発掘調査で、王室の粘土板文書および断片が131枚も発掘されたと報告しました。これらの粘土板文書には3400年前に発生した熱病の流行を記したものや、当時の兵站(へいたん)に関わる文書などが含まれています。 Sivas Kayalıpınar’da,...",
     "hatenaDate": "2026-10-20T23:07:07Z",
     "users": [],
     "firstSeenAt": "2026-10-21T09:30:12.930046+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "Announcing TypeScript 7.1 Beta - TypeScript",
@@ -231,20 +283,20 @@
     "hatenaDate": "2026-10-20T15:41:30Z",
     "users": [],
     "firstSeenAt": "2026-10-21T09:15:13.239173+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など",
     "url": "https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html",
     "domain": "www.publickey1.jp",
-    "count": 16,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html",
     "screenshot": "https://www.publickey1.jp/2026/cloudflareos-managed-wait01.png",
     "description": "「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など Cloudflareは、AIを活用した業務のためのプラットフォームとなる「Cloudflare OS」のマネージドサービスを発表しました。現在ウェイティングリストへの登録を募集しています。 AIを活用した業務アプリのプラットフォーム Cloudflar...",
     "hatenaDate": "2026-10-20T23:06:41Z",
     "users": [],
     "firstSeenAt": "2026-10-21T09:15:13.239173+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services | Amazon Web Services",
@@ -263,14 +315,14 @@
     "title": "Anthropic「OSS Scanner」の概要 - Claude MythosでOSSの脆弱性を無料検出｜npaka",
     "url": "https://note.com/npaka/n/nba1723dba4e1",
     "domain": "note.com",
-    "count": 17,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/npaka/n/nba1723dba4e1",
     "screenshot": "https://assets.st-note.com/production/uploads/images/326344733/rectangle_large_type_2_b2e8bda9bfd52b6c0029d4222e74a593.png?fit=bounds&quality=85&width=1280",
     "description": "1. OSS Scanner2026年10月8日、Anthropicは、オープンソースソフトウェア（OSS）の脆弱性をAIで検出する無料サービス「OSS Scanner」を発表しました。 OSS Scannerは、Claude Mythosなどの高性能AIモデルを使って、OSSのソースコードを定期的に分析し、脆弱性を発見するサービスです。 主な特徴は次のとおりです。 ・AI...",
     "hatenaDate": "2026-10-20T09:51:38Z",
     "users": [],
     "firstSeenAt": "2026-10-21T09:00:13.638678+09:00",
-    "lastSeenAt": "2026-10-21T11:30:14.749431+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "AIとRender Docの連携による描画不具合の調査 - CORETECH ENGINEER BLOG",
@@ -289,27 +341,27 @@
     "title": "Kyary Pamyu Pamyu - Pang Pang Pang(きゃりーぱみゅぱみゅ-Pang Pang Pang)Official Music Video",
     "url": "https://www.youtube.com/watch?v=7W6uATT4IT0",
     "domain": "www.youtube.com",
-    "count": 19,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.youtube.com/watch?v=7W6uATT4IT0",
     "screenshot": "https://i.ytimg.com/vi/7W6uATT4IT0/hqdefault.jpg",
     "description": "きゃりーぱみゅぱみゅ / Pang Pang Pang 作詞・作曲・編曲：中田ヤスタカ Kyary Pamyu Pamyu / Pang Pang Pang Words, Music & Produced by Yasutaka Nakata チャンネル登録・通知🔔設定もお忘れなく♪ 🎥Music Video Cast & Staff🎥 Director : Jun Tamukai   Director of Photography : Koretaka Kamiike 1st Camera As...",
     "hatenaDate": "2026-10-19T06:02:43Z",
     "users": [],
     "firstSeenAt": "2026-10-21T08:45:12.336942+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "【分析】フランス全土の暴動は予兆に過ぎず　はるかに大きな社会と政治の危機が待ち受ける",
     "url": "https://www.cnn.co.jp/world/35253781.html",
     "domain": "www.cnn.co.jp",
-    "count": 84,
+    "count": 93,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.cnn.co.jp/world/35253781.html",
     "screenshot": "https://www.cnn.co.jp/storage/2026/10/20/ff52a35ec3bce30af967ab3a655ec014/04-gettyimages-2300117237.jpg",
     "description": "（CNN） 「率直に言って、我々は厄介な事態に直面している」。フランスのルコルニュ首相は19日にそう述べた。 それはあまりに控えめな表現ではないだろうか。週末に広範囲にわたって発生した暴動を受け、フランスが目の当たりにしているのは都市部の反乱と政治的迷走、そして経済の危機が混ざり合った有害極まりない状況...",
     "hatenaDate": "2026-10-20T13:14:27Z",
     "users": [],
     "firstSeenAt": "2026-10-21T08:45:12.336942+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "ゼレンスキー氏、米国が迎撃ミサイル供与を「意図的に遅延」と非難",
@@ -328,27 +380,27 @@
     "title": "PHP: News Archive - 2026",
     "url": "https://www.php.net/archive/2026.php",
     "domain": "www.php.net",
-    "count": 43,
+    "count": 44,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.php.net/archive/2026.php",
     "screenshot": "https://www.php.net/images/meta-image.png",
     "description": "Here are the most important news items we have published in 2026 on PHP.net. The PHP security team would like to give advance notice of an upcoming security release. It is scheduled for Wednesday, 21 October 2026 at 14:00 UTC. It addresses two critical vulnerabilities, both rated CVSS v4.0 9.2. A...",
     "hatenaDate": "2026-10-20T20:54:34Z",
     "users": [],
     "firstSeenAt": "2026-10-21T08:30:13.175155+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "メダカはどこまで潜るのか？　高校生が実験　奈良 | 毎日新聞",
     "url": "https://mainichi.jp/articles/20261020/k00/00m/040/139000c",
     "domain": "mainichi.jp",
-    "count": 50,
+    "count": 54,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/mainichi.jp/articles/20261020/k00/00m/040/139000c",
     "screenshot": "https://cdn.mainichi.jp/vol1/2026/10/20/20261020k0000m040146000p/0c10.jpg?1",
     "description": "深さ10メートルを超えて潜ったメダカを見つめる生徒たち＝奈良県橿原市の県立畝傍高校で2026年10月17日、渡部直樹撮影 私たちの生活に身近な「メダカ」。池や川の浅い場所で泳いでいるイメージがあるが、実際はどこまで深く潜るのだろうか。 そんな実験が17日、奈良県橿原市の県立畝傍（うねび）高校で行われた。 2年生...",
     "hatenaDate": "2026-10-20T07:08:04Z",
     "users": [],
     "firstSeenAt": "2026-10-21T08:30:13.175155+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "韓国軍、北朝鮮のさらなる挑発に「断固対応」 緊張激化の責任転嫁を非難",
@@ -380,14 +432,14 @@
     "title": "民主改革、1人に年4万円給付　立憲時代の「消費税ゼロ」から転換：朝日新聞",
     "url": "https://www.asahi.com/articles/ASVBN3J85VBNUTFK009M.html",
     "domain": "www.asahi.com",
-    "count": 72,
+    "count": 79,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVBN3J85VBNUTFK009M.html",
     "screenshot": "https://imgopt.asahi.com/ogp/AS20261020003347_comm.jpg",
     "description": "民主改革の会は20日、政府提出の消費減税関連法案への対案として、年間で1人4万円を給付する案をまとめた。物価高に対応するため即時実施し、本格的な所得反映型給付の導入につなげることを目指すとした。源流…",
     "hatenaDate": "2026-10-20T13:27:38Z",
     "users": [],
     "firstSeenAt": "2026-10-21T08:10:07.199847+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "JBキャリアプログラム2.0 — サイバーエージェント 技術者のキャリア",
@@ -419,53 +471,53 @@
     "title": "フェミニズムが「機能不全」になる理由",
     "url": "https://erishibata.theletter.jp/posts/d4b772a9-c8e8-44b9-ad00-364841763996",
     "domain": "erishibata.theletter.jp",
-    "count": 66,
+    "count": 68,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/erishibata.theletter.jp/posts/d4b772a9-c8e8-44b9-ad00-364841763996",
     "screenshot": "https://d2fuek8fvjoyvv.cloudfront.net/erishibata.theletter.jp/uploadfiles/a579f4f1-1a5b-4edf-ae23-2ea5d4ded372.jpg",
     "description": "フェミニズムの台頭自体は仕方ない面もあるが、「そこに自分を含めないでほしい」。自分の主義主張として声を上げてほしい。 恩恵を受けている部分はあるかもしれないし、先人には感謝する。ただ行き過ぎには注意してほしい。 という内容が続いており、全体として「フェミニズムを拒絶する」というより、「集団としての...",
     "hatenaDate": "2026-10-18T13:08:17Z",
     "users": [],
     "firstSeenAt": "2026-10-21T08:00:12.601043+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "【セキュリティ ニュース】ウェブサーバ「nginx」に複数脆弱性 - 3件が「クリティカル」との評価も（1ページ目 / 全3ページ）：Security NEXT",
     "url": "https://www.security-next.com/191645",
     "domain": "www.security-next.com",
-    "count": 69,
+    "count": 72,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.security-next.com/191645",
     "screenshot": null,
     "description": "ウェブサーバ「nginx」や関連製品に複数の脆弱性が判明した。サービス拒否やコード実行、認証の回避、機密情報の漏洩などにつながるおそれがある。 F5は現地時間2026年10月14日、定例外のセキュリティアドバイザリを公開し、「nginx」に関する脆弱性5件や、関連製品の脆弱性6件のCVEベースであわせて11件の脆弱性を明ら...",
     "hatenaDate": "2026-10-20T09:15:55Z",
     "users": [],
     "firstSeenAt": "2026-10-21T08:00:12.601043+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "現代の映画は平均して何カット使われているのか？過去100年間の映画8770本におけるカット数をカウントして分析",
     "url": "https://gigazine.net/news/20261020-how-many-shots-average-movie/",
     "domain": "gigazine.net",
-    "count": 61,
+    "count": 66,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261020-how-many-shots-average-movie/",
     "screenshot": "https://i.gzn.jp/img/2026/10/20/how-many-shots-average-movie/00_m.jpg",
     "description": "映画産業のデータ分析やリサーチなどを行うアナリストのスティーブン・フォローズ氏が、1930年から2025年までに公開された長編映画8770本におけるカット数をカウントし、現代の映画ではどのくらいのカットが使われているのかを分析しました。 How many shots are in the average movie today? https://stephenfollows.co...",
     "hatenaDate": "2026-10-20T12:06:29Z",
     "users": [],
     "firstSeenAt": "2026-10-21T07:45:13.448143+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "神奈川 藤沢14人死傷事故 運転手「驚いてアクセル踏み込んだ」 | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261020de62515",
     "domain": "news.web.nhk",
-    "count": 155,
+    "count": 166,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261020de62515",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261020de62515/20261020de62515_E0000093094_1_l.jpg",
     "description": "19日、神奈川県藤沢市で乗用車が観光バスなどに次々と衝突し、14人が死傷した事故で、乗用車の70代の運転手は警察に「走行中に少し加速しようとしたら、思ったより加速し驚いてアクセルを踏み込んだ」などと説…",
     "hatenaDate": "2026-10-20T15:11:46Z",
     "users": [],
     "firstSeenAt": "2026-10-21T07:30:14.187733+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "中国、9月の日本向けレアアース磁石輸出は171トンの低水準に　米国は前年比4割増",
@@ -510,27 +562,27 @@
     "title": "「ずっと旧西独の政治家に見下されてきた」「自分は２級市民だ」、旧東ドイツの不満から右派政党躍進",
     "url": "https://www.yomiuri.co.jp/world/20261019-GYT1T00401/",
     "domain": "www.yomiuri.co.jp",
-    "count": 117,
+    "count": 122,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.yomiuri.co.jp/world/20261019-GYT1T00401/",
     "screenshot": "https://www.yomiuri.co.jp/media/2026/10/20261019-GYT1I00411-1.jpg?type=ogp",
     "description": "【読売新聞】　欧州では、反移民といったポピュリズム政策を掲げる右派政党などが躍進する。政治のニューノーマル（新常態）の現場を歩いた。 ◇ ドイツ東部ブランデンブルク州アイゼンヒュッテンシュタット。東独時代の１９５０年代に国営製鉄所の",
     "hatenaDate": "2026-10-19T20:29:44Z",
     "users": [],
     "firstSeenAt": "2026-10-21T07:00:14.518209+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "GLITCH WITCH - 第２話　正しき道を照らせその者が過たぬように③ | ヤンマガWeb",
     "url": "https://yanmaga.jp/viewer/comics/GLITCH_WITCH/a4b44c8d042e50a28c26eefc2e1efa69?cid=06A0000000001057765R",
     "domain": "yanmaga.jp",
-    "count": 42,
+    "count": 43,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/yanmaga.jp/viewer/comics/GLITCH_WITCH/a4b44c8d042e50a28c26eefc2e1efa69?cid=06A0000000001057765R",
     "screenshot": "https://eh96lnrmau.user-space.cdn.idcfcloud.net/thumbnail/episode/06A0000000001057765R.jpg?auto=webp",
     "description": "GLITCH WITCH。士郎正宗が1989年に連載を開始したSF作品の金字塔『攻殻機動隊 THE GHOST IN THE SHELL』の同日譚！ 2029年4月。草薙素子や荒巻が公安9課を設立しようとしていた時、アメリカで数々の事件が発生する。FBIやAI研究者、そして軍が事件を追う中で、ある戦いを目撃する。人類の命運を担うソロモン級AI VS.プロ...",
     "hatenaDate": "2026-10-20T15:06:48Z",
     "users": [],
     "firstSeenAt": "2026-10-21T06:30:14.758571+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "カナダからの独立に「ノー」　西部州の住民投票で反対派勝利　首相歓迎「カナダを選んだ」",
@@ -562,14 +614,14 @@
     "title": "まじで支離滅裂な文章書ける人すごい 関係性の薄い概念を持ってこれるのほんとにすごい こういう人は歌詞書くのもうまいイメージある→「パッと見支離滅裂だけどよくよく聞いたりちゃんと読んだりするとその人なりのルールみたいなのがちゃんとあるタイプが好きです」",
     "url": "https://posfie.com/@petaritape/p/FT5fXaE",
     "domain": "posfie.com",
-    "count": 198,
+    "count": 202,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@petaritape/p/FT5fXaE",
     "screenshot": "https://s.tgstc.com/ogp3/8c178735bdc1177fe1e63976eb292c50-1200x630.jpeg",
     "description": "ᙅ≋ @pkpk_same まじで支離滅裂な文章書ける人すごい 関係性の薄い概念を持ってこれるのほんとにすごい こういう人は歌詞書くのもうまいイメージある 2026-10-19 23:11:56",
     "hatenaDate": "2026-10-20T08:30:32Z",
     "users": [],
     "firstSeenAt": "2026-10-21T05:45:16.099084+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "フランス、一部地域に夜間外出禁止令　欧州各地にも抗議行動広がる",
@@ -595,7 +647,7 @@
     "hatenaDate": "2026-10-20T15:34:06Z",
     "users": [],
     "firstSeenAt": "2026-10-21T05:15:14.524126+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "第80話 姫と少年 / ロードマギアの弟子 - FLIPFLOPs | サンデーうぇぶり",
@@ -647,20 +699,20 @@
     "hatenaDate": "2026-10-20T09:57:32Z",
     "users": [],
     "firstSeenAt": "2026-10-21T03:00:16.402181+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "日米同盟は解消したい､でも日本の基地は使いたい…米シンクタンクがまとめた｢対中戦争回避策｣の落とし穴",
     "url": "https://president.jp/articles/-/120382",
     "domain": "president.jp",
-    "count": 117,
+    "count": 119,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/president.jp/articles/-/120382",
     "screenshot": "https://president.ismcdn.jp/mwimgs/c/b/1200wm/img_cbeac56578ee5f09f1f4d2917356f27d1578753.jpg",
     "description": "同盟を終えても「日本の基地」は残したい 日本を守る同盟は終わらせても、日本の基地は使い続けたい。そんな主張を展開する、米シンクタンク「ディフェンス・プライオリティーズ」の提言が国内メディアでも注目を集めた。いわゆる日米同盟解消論だ。 この提言は米国でも報じられた。米軍関係者向けの新聞「スターズ・ア...",
     "hatenaDate": "2026-10-20T11:29:49Z",
     "users": [],
     "firstSeenAt": "2026-10-21T02:45:14.890565+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "Yukopi - 強風オールバック (feat.しぐれうい)",
@@ -718,14 +770,14 @@
     "title": "参政党のセミナーに初潜入して見えてきた、組織政党としての本質｜高野はやと@江東区",
     "url": "https://note.com/takano_hayato38/n/n651e5531ae0e",
     "domain": "note.com",
-    "count": 246,
+    "count": 252,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/takano_hayato38/n/n651e5531ae0e",
     "screenshot": "https://assets.st-note.com/production/uploads/images/326487693/rectangle_large_type_2_a5956c21f6a8b5c77465febef187d631.png?fit=bounds&quality=85&width=1280",
     "description": "参政党の大きな講演会に、この夏、初潜入いたしまして、その時の衝撃を忘れないうちに、特筆すべき点に絞って書き残しておきます。 ある地方都市での開催だったのですが、会場はシティホテルの大きな宴会場。ホテルの導線上から、明らかに宿泊者ではない人々が次々と吸い込まれていきます。まず驚いたのが、セキュリティ...",
     "hatenaDate": "2026-10-20T10:09:25Z",
     "users": [],
     "firstSeenAt": "2026-10-21T00:15:15.407182+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "「刑事告発」をにおわせ…勤務していたソープランドの店長から現金脅し取ったか　大学生の30歳女を逮捕（2026年10月20日掲載）｜日テレNEWS NNN",
@@ -757,27 +809,27 @@
     "title": "当社所属タレントの投稿ならびに誹謗中傷・性的嫌がらせへの対応に関するお知らせ | カバー株式会社",
     "url": "https://cover-corp.com/news/detail/c2026102001",
     "domain": "cover-corp.com",
-    "count": 146,
+    "count": 147,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/cover-corp.com/news/detail/c2026102001",
     "screenshot": "https://images.microcms-assets.io/assets/6368857617454c2591b02acff18e76bb/64b226c15c374ba58cc17747becfe06d/logo_cover.jpeg",
     "description": "日頃よりホロライブプロダクションを応援いただき、誠にありがとうございます。 当社所属のラプラス・ダークネスが2026年10月17日にXへ行った投稿について、多くのご意見をいただいております。本件について、投稿に至った経緯と当社の対応をご説明いたします。 当該投稿に至る経緯について、当社が本人に聞き取りを行っ...",
     "hatenaDate": "2026-10-20T13:25:39Z",
     "users": [],
     "firstSeenAt": "2026-10-21T00:15:15.407182+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "ウィンドウズアップデートについて調べたらめちゃめちゃ面白かった",
     "url": "https://anond.hatelabo.jp/20261020173628",
     "domain": "anond.hatelabo.jp",
-    "count": 212,
+    "count": 215,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261020173628",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "「なんで保存してない時に限って強制再起動すんねん！」 「頼むからあと5分待ってくれ！」 「Microsoftは悪魔か？」 ​と、全世界の人間が100万回くらいブチ切れてきたと思うんだが、気になって（なんであんな暴挙が許されてるのか）を本気で調べてみたら、想像以上に人間側の愚かさとMicrosoftの絶望の歴史が詰まってて...",
     "hatenaDate": "2026-10-20T08:41:46Z",
     "users": [],
     "firstSeenAt": "2026-10-21T00:00:09.366661+09:00",
-    "lastSeenAt": "2026-10-21T11:45:15.562038+09:00"
+    "lastSeenAt": "2026-10-21T12:00:17.645628+09:00"
   },
   {
     "title": "🎄クリスマスケーキ情報が集まるスレ'26🎄 - おやつ - はてなパークス",
@@ -3846,57 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-18T20:30:13.882379+09:00",
     "lastSeenAt": "2026-10-19T07:00:12.039083+09:00"
-  },
-  {
-    "title": "iOS 27にしてからiPhoneの充電がもたない…。原因は「あの設定」だった | ライフハッカー・ジャパン",
-    "url": "https://www.lifehacker.jp/article/2610-ios27-battery-drain-connection-assist/",
-    "domain": "www.lifehacker.jp",
-    "count": 177,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.lifehacker.jp/article/2610-ios27-battery-drain-connection-assist/",
-    "screenshot": "https://media.loom-app.com/loom/2026/10/16/7726ea54-2f45-4616-97f8-3514d6ad4d53/original.jpg?w=1200&h=630&f=jpg",
-    "description": "iPhoneをiOS 27にアップデートした人のなかには、もうSiri AIやAppleのAIによる写真編集機能のいくつかを試してみた人もいるのではないでしょうか。 その一方で、別のことに気づいた人もいるかもしれません。 iPhoneのバッテリーのもちが悪くなっている、ということです。このアップデートによってバッテリーの駆動時間...",
-    "hatenaDate": "2026-10-18T09:18:39Z",
-    "users": [],
-    "firstSeenAt": "2026-10-18T20:00:13.376736+09:00",
-    "lastSeenAt": "2026-10-19T09:15:13.590891+09:00"
-  },
-  {
-    "title": "唐突だが俺の漫画ベスト・テンを発表する",
-    "url": "https://anond.hatelabo.jp/20261018143747",
-    "domain": "anond.hatelabo.jp",
-    "count": 149,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261018143747",
-    "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-    "description": "第一位　狂四郎2030 第二位　空手バカ一代 第三位　奇子 第四位　RED 第五位　轟世剣ダイ・ソード 第六位　わたしは真悟 第七位　カリクラ 第八位　童夢 第九位　半神 第十位　空が灰色だから みんなのトップテンも教えてくれたら嬉しい",
-    "hatenaDate": "2026-10-18T05:56:37Z",
-    "users": [],
-    "firstSeenAt": "2026-10-18T20:00:13.376736+09:00",
-    "lastSeenAt": "2026-10-19T09:15:13.590891+09:00"
-  },
-  {
-    "title": "「高市１強」の弱点露呈　更迭の判断材料、首相に届かず：時事ドットコム",
-    "url": "https://www.jiji.com/jc/article?k=2026101700285&g=pol",
-    "domain": "www.jiji.com",
-    "count": 61,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.jiji.com/jc/article?k=2026101700285&g=pol",
-    "screenshot": "https://www.jiji.com/news2/kiji_photos/202610/20261017at22S_ogp.jpg",
-    "description": "「高市１強」の弱点露呈　更迭の判断材料、首相に届かず 時事通信 政治部2026年10月18日07時01分配信 首相官邸に入る高市早苗首相＝１６日、東京・永田町 政権発足後、初めての閣僚更迭は「高市１強」の弱点を露呈した。簗和生前農林水産相の無料バス疑惑や、参院での問責決議案可決の可能性など、更迭の判断に直結する...",
-    "hatenaDate": "2026-10-18T05:56:28Z",
-    "users": [],
-    "firstSeenAt": "2026-10-18T20:00:13.376736+09:00",
-    "lastSeenAt": "2026-10-19T08:30:14.107959+09:00"
-  },
-  {
-    "title": "「かたちにする係」から抜け出せない　デザイン組織の悪循環｜大﨑 優｜CONCENT",
-    "url": "https://note.com/osakiyu/n/nd8e0b1442457",
-    "domain": "note.com",
-    "count": 141,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/osakiyu/n/nd8e0b1442457",
-    "screenshot": "https://assets.st-note.com/production/uploads/images/325554866/rectangle_large_type_2_c5914a2ca0978d334f5c0ee960a26e14.png?fit=bounds&quality=85&width=1280",
-    "description": "企画が決まり、スケジュールも確定した段階で、ようやくデザイナーに声がかかる。「あとは画面に落とすだけなので、来週までにお願いできますか」。デザイン組織に身を置く人なら、この一言を何度か受けたことがあるでしょう。ピキッと、ほんの少しだけ青筋が立つ瞬間です。 厄介なのは、誰も悪意を持っていないこと。事...",
-    "hatenaDate": "2026-10-18T02:48:26Z",
-    "users": [],
-    "firstSeenAt": "2026-10-18T19:30:12.450107+09:00",
-    "lastSeenAt": "2026-10-19T09:30:13.245583+09:00"
   }
 ]
