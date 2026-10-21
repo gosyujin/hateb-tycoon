@@ -1,29 +1,68 @@
 [
   {
+    "title": "不正アクセス急増は“SaaS離れ”を招くか？　露呈したもう1つの「SaaS is Dead」リスク",
+    "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002451/",
+    "domain": "www.itmedia.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/21/2000002451/",
+    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/21/2000002451/10010017/2048",
+    "description": "仮にSaaSの利用をやめた場合、移転先は自社のオンプレミスサーバや自社クラウドなどになるが「結局、ユーザー側としては、SaaSだろうがオンプレミスだろうが、最終的な責任はユーザー自身にある。SaaSをやめて自社開発に戻せば安全、というのは適切ではない」と倉持さんは指摘する。 「結局は委託するSaaS企業のセキュリ...",
+    "hatenaDate": "2026-10-21T06:37:34Z",
+    "users": [],
+    "firstSeenAt": "2026-10-21T16:45:13.232579+09:00",
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
+  },
+  {
+    "title": "eMudhra Intermediate CA Compromise",
+    "url": "https://emudhra.we-have-a-problem.com/",
+    "domain": "emudhra.we-have-a-problem.com",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/emudhra.we-have-a-problem.com/",
+    "screenshot": null,
+    "description": "20th October 2026 The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. How do we know? To demonstrate that the keys are compromised, the orig...",
+    "hatenaDate": "2026-10-20T19:33:22Z",
+    "users": [],
+    "firstSeenAt": "2026-10-21T16:45:13.232579+09:00",
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
+  },
+  {
+    "title": "【事前準備のお願い】PHPのセキュリティリリース公開予定について | 情報セキュリティ | IPA 独立行政法人 情報処理推進機構",
+    "url": "https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html",
+    "domain": "www.ipa.go.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html",
+    "screenshot": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.jpg",
+    "description": "本情報の対象となる2つの脆弱性について、現時点でIPAが悪用した攻撃を確認しているわけではありません。セキュリティリリースの公開後、速やかに適用できるよう、事前準備をお願いするものです。 PHPの脆弱性については、2024年7月にも悪用した攻撃に関する注意喚起を行っています（脚注1）。 今回の脆弱性についても悪...",
+    "hatenaDate": "2026-10-21T06:53:37Z",
+    "users": [],
+    "firstSeenAt": "2026-10-21T16:45:13.232579+09:00",
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
+  },
+  {
     "title": "honto - 外部委託先への不正アクセスによるお客様情報漏えいの可能性について - hontoからのお知らせ一覧",
     "url": "https://honto.jp/info/detail_041000135344.html",
     "domain": "honto.jp",
-    "count": 14,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/honto.jp/info/detail_041000135344.html",
     "screenshot": "https://honto.jp/library/img/pc/banner_info_og.png",
     "description": "お知らせ23",
     "hatenaDate": "2026-10-21T05:48:13Z",
     "users": [],
     "firstSeenAt": "2026-10-21T16:00:13.981165+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "「タイパを極めすぎた末路」ラーメン屋を経営するゲームで客に丼を投擲して提供する方式を考案した人が登場、開発者も困惑していたら「射撃場」も作成されていた",
     "url": "https://togetter.com/li/2760969",
     "domain": "togetter.com",
-    "count": 9,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2760969",
     "screenshot": "https://s.tgstc.com/ogp3/ef23732f4ac1edda3f50c26230b4757d-1200x630.jpeg",
     "description": "ひりと（爆弾魔）💣 @Hirit_Bomber Japanese Ramen Simulatorという ラーメンゲームの楽しみ方の1つが 『 客 に 投 擲 ！ 』 #JapaneseRamenSimulator pic.x.com/dOkL1n4JaQ 2026-10-18 14:50:13 Steamで15% OFF：Japanese Ramen Simulator 『Japanese Ramen Simulator』は、最大6人で遊べるラーメン店経営シミュレータ...",
     "hatenaDate": "2026-10-21T04:50:15Z",
     "users": [],
     "firstSeenAt": "2026-10-21T16:00:13.981165+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "PHP緊急脆弱性「php2shell」パッチ今夜11時公開、その前にできる対策は……GMO系セキュリティ企業が提唱",
@@ -36,7 +75,7 @@
     "hatenaDate": "2026-10-21T05:46:17Z",
     "users": [],
     "firstSeenAt": "2026-10-21T16:00:13.981165+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "岩井コスモ証券、不正アクセスにより4975人の個人情報漏えいと7件の不正取引が発生",
@@ -62,20 +101,20 @@
     "hatenaDate": "2026-10-21T05:02:47Z",
     "users": [],
     "firstSeenAt": "2026-10-21T15:15:13.783645+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "架空の統計データをウェブサイトで公開したらChatGPTが引用しまくっていたことが判明",
     "url": "https://gigazine.net/news/20261021-ai-read-fake-statistics/",
     "domain": "gigazine.net",
-    "count": 19,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261021-ai-read-fake-statistics/",
     "screenshot": "https://i.gzn.jp/img/2026/10/21/ai-read-fake-statistics/00.jpg",
     "description": "AI検索ツールの開発に携わる研究者が、約5万ページ分の偽の統計データを保有するウェブサイトを立ち上げてAIに読まれるかどうかを検証するという実験を行いました。その結果、AIから大量のアクセスがあり、さらには架空のデータなのに論文やニュースなどで引用されるという事態に発展したことが分かりました。 Publish s...",
     "hatenaDate": "2026-10-21T04:00:26Z",
     "users": [],
     "firstSeenAt": "2026-10-21T15:15:13.783645+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "GPT-6シリーズは「COBOL」「Fortran」「Visual Basic」といった学習データの少ない言語も得意",
@@ -153,7 +192,7 @@
     "hatenaDate": "2026-10-20T23:42:13Z",
     "users": [],
     "firstSeenAt": "2026-10-21T14:15:12.800586+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "PFNとTenstorrentがタッグ、生成AI特化プロセッサ開発へ　超高メモリ帯域幅、光電融合技術を実装",
@@ -192,7 +231,7 @@
     "hatenaDate": "2026-10-21T03:19:10Z",
     "users": [],
     "firstSeenAt": "2026-10-21T13:15:12.657132+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "freeeにおける⼤規模ソフトウェアファクトリーの実践_AI×開発組織Summit 2026",
@@ -218,7 +257,7 @@
     "hatenaDate": "2026-10-21T03:11:38Z",
     "users": [],
     "firstSeenAt": "2026-10-21T13:00:13.707063+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "サム・アルトマンに対して妹が起こした性的虐待訴訟は原告が第三者診断を拒否したため判事が棄却",
@@ -244,7 +283,7 @@
     "hatenaDate": "2026-10-21T03:12:51Z",
     "users": [],
     "firstSeenAt": "2026-10-21T13:00:13.707063+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "緊急：相次ぐAIによる「自動化攻撃」に経営者はどのような対応をすればいいのか｜Yusuke Kawabata（SaaS運営）",
@@ -296,7 +335,7 @@
     "hatenaDate": "2026-10-21T02:27:41Z",
     "users": [],
     "firstSeenAt": "2026-10-21T12:30:15.613437+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "スペック駆動開発（SDD）における現在地（2026年10月版）",
@@ -309,7 +348,7 @@
     "hatenaDate": "2026-10-20T22:34:02Z",
     "users": [],
     "firstSeenAt": "2026-10-21T12:30:15.613437+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "ITエンジニアのためのライフスタイルメディア KIKKAKE ITREND",
@@ -322,7 +361,7 @@
     "hatenaDate": "2026-10-21T02:00:10Z",
     "users": [],
     "firstSeenAt": "2026-10-21T12:15:14.961038+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "推しの活躍で頭を焼かれたかったので、推しの活躍をずっと見られるサイトを作った話 - yasuhisa's blog",
@@ -387,7 +426,7 @@
     "hatenaDate": "2026-10-21T02:13:26Z",
     "users": [],
     "firstSeenAt": "2026-10-21T11:45:15.562038+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "マネックス証券、新規口座開設を一時停止　委託先システムに不審なアクセスの形跡（CNET Japan） - Yahoo!ニュース",
@@ -406,40 +445,40 @@
     "title": "余暇のほとんどをITに使っていたエンジニアは、子どもが生まれてITとの付き合い方をどう変えたのか - レバテックLAB",
     "url": "https://levtech.jp/media/detail_944/",
     "domain": "levtech.jp",
-    "count": 80,
+    "count": 86,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/levtech.jp/media/detail_944/",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/9ac51a036bd80a528eadc5620ee21bc11927a3ae/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn.blog.st-hatena.com%2Ffiles%2F6802418398571665203%2F14945776032087936296",
     "description": "hitode909 株式会社はてなのエンジニアリングマネージャー。学生時代から趣味でWebサービス開発に熱中。「YAPC::Asia」や「YAPC::Japan」など勉強会にて登壇多数。2011年から毎日更新している「hitode909の日記」では、ITと、5歳の子どもとの暮らしについて書いている。現在はマンガサービスの開発チームで、コードとチ...",
     "hatenaDate": "2026-10-21T02:06:33Z",
     "users": [],
     "firstSeenAt": "2026-10-21T11:30:14.749431+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "PHPの重大な脆弱性「php2shell」（CVE-2026-109618、CVE-2026-109619）の概要と対応指針 - GMO Flatt Security Blog",
     "url": "https://blog.flatt.tech/entry/php2shell",
     "domain": "blog.flatt.tech",
-    "count": 291,
+    "count": 302,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.flatt.tech/entry/php2shell",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/beb18d5abbbc1fc750a8444b6840c359b4df9461/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ff%2Fflattsecurity%2F20261021%2F20261021111143.png",
     "description": "PHP開発チームは2026年10月20日（日本時間で深夜）、重大な脆弱性2件の修正パッチを、2026年10月21日 23時（日本時間）にリリース予定と告知しました。両件のCVSS v4.0スコアは9.2とされています。詳細が公開された場合などには、パッチの公開が前倒しになる可能性もあります。 本脆弱性の発見に関与すると見られる研究...",
     "hatenaDate": "2026-10-21T02:15:43Z",
     "users": [],
     "firstSeenAt": "2026-10-21T11:30:14.749431+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "【私のパソコン履歴書】手塚宏史さん｜ソニーNEWSと4.2BSD移植を語る - RetroPC NEWS",
     "url": "https://retropcnews.com/archives/10191",
     "domain": "retropcnews.com",
-    "count": 40,
+    "count": 41,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/retropcnews.com/archives/10191",
     "screenshot": "https://retropcnews.com/wp/wp-content/uploads/2026/10/teduka_t.jpg",
     "description": "RetroPC NEWSでは、第一線で活躍されてきた皆さまが「どのようなコンピュータと出会い、どのように向き合い、そして現在に至ったのか」というお話を伺っています。 単なる機種紹介ではなく、その人の人生とコンピュータの関係を綴る「パソコン履歴書」という形で、伝えてまいります。コンピュータが人生をどう変えたのか...",
     "hatenaDate": "2026-10-21T01:33:17Z",
     "users": [],
     "firstSeenAt": "2026-10-21T11:15:15.874816+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "どうせ漏れるなら、自分から先にウソを漏らして対抗！　「個人情報先出しシステム」／冗談がわかる人だけ使ってネ【やじうまの杜】",
@@ -458,40 +497,40 @@
     "title": "「PC持ってない人達って、まさかPCを毎回シャットダウンしてると思ってんの？」Windowsのシャットダウンとスリープの違いが話題に…スリープ運用の便利さと問題点も",
     "url": "https://togetter.com/li/2760860",
     "domain": "togetter.com",
-    "count": 113,
+    "count": 115,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2760860",
     "screenshot": "https://s.tgstc.com/ogp3/d7ea4789f9cde925738edd7506337e43-1200x630.jpeg",
     "description": "ユリー👓️だよ！ @Yullyx7 あのさ、「PS5は直ぐゲームが起動できる」見たいなの見たんやけどさもしかしてPC持ってない人達ってまさかPCを毎回シャットダウンしてると思ってんの？ 多分殆んどのPCゲーマーはPCシャットダウンしねぇぞ 2026-10-20 05:32:46 愚風 @fool_wind Microsoftが「スリープ運用してください」って散...",
     "hatenaDate": "2026-10-20T23:30:57Z",
     "users": [],
     "firstSeenAt": "2026-10-21T10:36:38.756946+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "PHPに「緊急」レベルの脆弱性2件　修正版を日本時間21日深夜に公開へ、事前準備を呼び掛け",
     "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002446/",
     "domain": "www.itmedia.co.jp",
-    "count": 100,
+    "count": 104,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/21/2000002446/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/21/2000002446/10009987/2048",
     "description": "PHPの開発プロジェクトでセキュリティを担当するチームは10月20日（協定世界時）、2件の重大な脆弱性を修正するセキュリティアップデートを同日午後2時（日本時間の21日午後11時）に公開すると予告した。脆弱性の詳細や影響を受けるバージョン、修正版のバージョンは公開と同時に明らかにする。全てのPHPユーザーに対し...",
     "hatenaDate": "2026-10-21T01:08:01Z",
     "users": [],
     "firstSeenAt": "2026-10-21T10:30:14.827159+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "【Excel】AIが作った数式に「--」が入っていたけど、いらなくない？ 削除禁止の理由【いまさら聞けないExcelの使い方講座】",
     "url": "https://forest.watch.impress.co.jp/docs/serial/exceltips/2149792.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 96,
+    "count": 100,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/serial/exceltips/2149792.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2149/792/imasara_excel_228-top.png",
     "description": null,
     "hatenaDate": "2026-10-20T22:15:35Z",
     "users": [],
     "firstSeenAt": "2026-10-21T10:30:14.827159+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "岩井コスモ証券にサイバー攻撃　顧客の意図しない売買注文、成立も：朝日新聞",
@@ -510,14 +549,14 @@
     "title": "認証局eMudhraの中間証明書、秘密鍵が「数ミリ秒」で復元可能な脆弱性　大手各社が緊急遮断",
     "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002444/",
     "domain": "www.itmedia.co.jp",
-    "count": 52,
+    "count": 53,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/21/2000002444/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/21/2000002444/10009982/2048",
     "description": "インドのデジタルトラストサービス企業eMudhraが運営する認証局（CA）の中間証明書8件について、署名に使う秘密鍵が第三者でも簡単に復元できる状態状態にあったと判明した。米Mozillaが10月20日（現地時間）に公式ブログで公表し、米Googleや米Cloudflareなども対応を明らかにした。 悪用されれば任意のWebサイトになり...",
     "hatenaDate": "2026-10-21T00:41:54Z",
     "users": [],
     "firstSeenAt": "2026-10-21T10:15:15.950961+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "“PayPay追撃”ではなく「Suicaの価値向上」──新決済「teppay」の意義や狙いを聞いた",
@@ -543,7 +582,7 @@
     "hatenaDate": "2026-10-20T23:41:28Z",
     "users": [],
     "firstSeenAt": "2026-10-21T09:30:12.930046+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "「来週から週休3日」AI活用迫る劇薬　ゲーム開発人員30分の1に - 日本経済新聞",
@@ -575,14 +614,14 @@
     "title": "バイブコーディングを6週間続けたら、Mac の起動が20分かかるようになった",
     "url": "https://zenn.dev/singularity/articles/vibe-coding-mac-boot-20min",
     "domain": "zenn.dev",
-    "count": 150,
+    "count": 153,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/singularity/articles/vibe-coding-mac-boot-20min",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--mMV_0sQy--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2596%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%25926%25E9%2580%25B1%25E9%2596%2593%25E7%25B6%259A%25E3%2581%2591%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581Mac%2520%25E3%2581%25AE%25E8%25B5%25B7%25E5%258B%2595%25E3%2581%258C20%25E5%2588%2586%25E3%2581%258B%25E3%2581%258B%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Isamu%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZiNjM5MTg4YzEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B7%25E3%2583%25B3%25E3%2582%25AE%25E3%2583%25A5%25E3%2583%25A9%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2583%25BB%25E3%2582%25BD%25E3%2582%25B5%25E3%2582%25A8%25E3%2583%2586%25E3%2582%25A3%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2g3ODg4Mk5lcU4xYUxYZWxhbjZ5TDYzUVBVdGs3MjQ0aGs0QjdBdWc9czI1MC1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "Mac が落ちました。 ファイルまわりの負荷がじわじわ溜まって、最後は反応しなくなって、落ちた。そこまではまあ、たまにあります。問題はそのあとでした。 起動しないのです。 電源を入れて、FileVault のパスワードを入れる。進捗バーが出る。2割くらいまで進む。そこで止まる。5分待っても、10分待っても動かない。 M...",
     "hatenaDate": "2026-10-20T23:13:30Z",
     "users": [],
     "firstSeenAt": "2026-10-21T09:30:12.930046+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "不正アクセスによる情報漏洩に関するお詫びとご報告",
@@ -621,7 +660,7 @@
     "hatenaDate": "2026-10-20T23:06:41Z",
     "users": [],
     "firstSeenAt": "2026-10-21T09:15:13.239173+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "ふるさと納税の「ふるさとチョイス」、会員情報445万件流出　寄附控除試算額も",
@@ -666,14 +705,14 @@
     "title": "Anthropic「OSS Scanner」の概要 - Claude MythosでOSSの脆弱性を無料検出｜npaka",
     "url": "https://note.com/npaka/n/nba1723dba4e1",
     "domain": "note.com",
-    "count": 46,
+    "count": 48,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/npaka/n/nba1723dba4e1",
     "screenshot": "https://assets.st-note.com/production/uploads/images/326344733/rectangle_large_type_2_b2e8bda9bfd52b6c0029d4222e74a593.png?fit=bounds&quality=85&width=1280",
     "description": "1. OSS Scanner2026年10月8日、Anthropicは、オープンソースソフトウェア（OSS）の脆弱性をAIで検出する無料サービス「OSS Scanner」を発表しました。 OSS Scannerは、Claude Mythosなどの高性能AIモデルを使って、OSSのソースコードを定期的に分析し、脆弱性を発見するサービスです。 主な特徴は次のとおりです。 ・AI...",
     "hatenaDate": "2026-10-20T09:51:38Z",
     "users": [],
     "firstSeenAt": "2026-10-21T09:00:13.638678+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "ウェブ制作会社で流出恐れ　不正アクセスで全顧客情報 | NEWSjp",
@@ -712,20 +751,20 @@
     "hatenaDate": "2026-10-20T20:54:34Z",
     "users": [],
     "firstSeenAt": "2026-10-21T08:30:13.175155+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "【セキュリティ ニュース】ウェブサーバ「nginx」に複数脆弱性 - 3件が「クリティカル」との評価も（1ページ目 / 全3ページ）：Security NEXT",
     "url": "https://www.security-next.com/191645",
     "domain": "www.security-next.com",
-    "count": 113,
+    "count": 114,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.security-next.com/191645",
     "screenshot": null,
     "description": "ウェブサーバ「nginx」や関連製品に複数の脆弱性が判明した。サービス拒否やコード実行、認証の回避、機密情報の漏洩などにつながるおそれがある。 F5は現地時間2026年10月14日、定例外のセキュリティアドバイザリを公開し、「nginx」に関する脆弱性5件や、関連製品の脆弱性6件のCVEベースであわせて11件の脆弱性を明ら...",
     "hatenaDate": "2026-10-20T09:15:55Z",
     "users": [],
     "firstSeenAt": "2026-10-21T08:00:12.601043+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "日本企業へのサイバー攻撃、中国製AI「ARTEX」使用",
@@ -764,7 +803,7 @@
     "hatenaDate": "2026-10-20T15:34:06Z",
     "users": [],
     "firstSeenAt": "2026-10-21T02:15:14.486949+09:00",
-    "lastSeenAt": "2026-10-21T16:30:14.960485+09:00"
+    "lastSeenAt": "2026-10-21T16:45:13.232579+09:00"
   },
   {
     "title": "なんと23の主要なオープンソースプロジェクトのうち11は1人または2人で運営されている実態が明らかに",
@@ -3859,44 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-18T21:15:15.228952+09:00",
     "lastSeenAt": "2026-10-19T14:45:12.843383+09:00"
-  },
-  {
-    "title": "Claude、暗号技術の「25年来の謎」を30分足らずで解明",
-    "url": "https://japan.cnet.com/article/35253671/",
-    "domain": "japan.cnet.com",
-    "count": 29,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35253671/",
-    "screenshot": "https://japan.cnet.com/storage/2026/10/18/51d177dd9e18a0c08cecad96e76c8a54/42_claude_seed_header.jpg",
-    "description": "今回の謎は、電子署名などに使われる暗号方式「ECDSA」に関するものだ。ECDSAは「楕円曲線」と呼ばれる数学的な仕組みを利用する。米国立標準技術研究所（NIST）が2000年に公表した規格には、曲線の形を決める際に使う「シード」という数値が記載されていた。 NSAの元職員ジェリー・ソリナス氏は2015年、シードについて...",
-    "hatenaDate": "2026-10-18T01:39:48Z",
-    "users": [],
-    "firstSeenAt": "2026-10-18T21:15:15.228952+09:00",
-    "lastSeenAt": "2026-10-19T09:00:12.886853+09:00"
-  },
-  {
-    "title": "Being Exemplary",
-    "url": "https://kimdavies.com/being-exemplary",
-    "domain": "kimdavies.com",
-    "count": 4,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/kimdavies.com/being-exemplary",
-    "screenshot": null,
-    "description": "I have a riddle for you: which website is one of the most popular on the Internet, but no one needs to visit it? The answer is example.com. The Internet Assigned Numbers Authority (IANA) has reserved a number of domains for use in documentation whenever an illustrative example is needed. Besides ...",
-    "hatenaDate": "2026-10-06T05:54:42Z",
-    "users": [],
-    "firstSeenAt": "2026-10-18T21:00:12.734692+09:00",
-    "lastSeenAt": "2026-10-19T00:00:12.575811+09:00"
-  },
-  {
-    "title": "オンボーディングをAIエージェントに任せたら、もはや別ゲーだった | BLOG - DeNA Engineering",
-    "url": "https://engineering.dena.com/blog/2026/10/ai-agent-onboarding/",
-    "domain": "engineering.dena.com",
-    "count": 97,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/engineering.dena.com/blog/2026/10/ai-agent-onboarding/",
-    "screenshot": "https://engineering.dena.com/blog/2026/10/ai-agent-onboarding/cover.png",
-    "description": "メンバーの立ち上げもAI Nativeに チームに人が入るたびに同じ説明を繰り返していませんか？散らばった資料から使えそうなものを探してませんか？重い腰を上げて作成したオンボーディング資料集、もう古くなってませんか？ 本記事では部のオンボーディングをGitHubリポジトリに集約し、Claude Codeを伴走させる仕組みを...",
-    "hatenaDate": "2026-10-17T11:42:36Z",
-    "users": [],
-    "firstSeenAt": "2026-10-18T20:45:13.241928+09:00",
-    "lastSeenAt": "2026-10-19T11:45:12.444846+09:00"
   }
 ]
