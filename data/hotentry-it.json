@@ -1,5 +1,44 @@
 [
   {
+    "title": "「Apache Tomcat」に最大深刻度“CRITICAL”の脆弱性 ～v9 / v10 / v11系統に修正版／",
+    "url": "https://forest.watch.impress.co.jp/docs/news/2150161.html",
+    "domain": "forest.watch.impress.co.jp",
+    "count": 8,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2150161.html",
+    "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2150/161/apachetomcat.png",
+    "description": null,
+    "hatenaDate": "2026-10-21T23:31:06Z",
+    "users": [],
+    "firstSeenAt": "2026-10-22T09:15:13.852326+09:00",
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
+  },
+  {
+    "title": "中国語ＡＩの攻撃性能、脆弱性を見つけ情報抜き取りまで１５秒…セキュリティー会社がダミーサイトで実演",
+    "url": "https://www.yomiuri.co.jp/national/20261021-GYT1T00443/",
+    "domain": "www.yomiuri.co.jp",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.yomiuri.co.jp/national/20261021-GYT1T00443/",
+    "screenshot": "https://www.yomiuri.co.jp/media/2026/10/20261021-GYT1I00447-1.jpg?type=ogp",
+    "description": "【読売新聞】　企業などへのサイバー攻撃での悪用が指摘されている中国語のＡＩ（人工知能）エージェント「ＡＲＴＥＸ（アルテックス）」について、ダミーサイトで攻撃性能をテストしたところ、 脆弱 （ ぜいじゃく ） 性の診断から個人情報の収",
+    "hatenaDate": "2026-10-21T20:05:05Z",
+    "users": [],
+    "firstSeenAt": "2026-10-22T09:15:13.852326+09:00",
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
+  },
+  {
+    "title": "PHP2Shell — AI uncovers critical vulnerabilities in the backbone of the web",
+    "url": "https://www.php2shell.com/",
+    "domain": "www.php2shell.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.php2shell.com/",
+    "screenshot": "https://www.php2shell.com/opengraph-image.png?opengraph-image.2wmcb1ydrf35-.png",
+    "description": "AI uncovers critical vulnerabilities in the backbone of the webPHP2Shell is a family of critical vulnerabilities recently fixed in core PHP, with severity reaching CVSS 9.2, that can allow unauthenticated attackers to execute code or expose sensitive process memory. PHP powers approximately 70% o...",
+    "hatenaDate": "2026-10-21T14:24:07Z",
+    "users": [],
+    "firstSeenAt": "2026-10-22T09:15:13.852326+09:00",
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
+  },
+  {
     "title": "Introducing Claude Duet",
     "url": "https://claude.com/resources/articles/claude-duet",
     "domain": "claude.com",
@@ -10,7 +49,7 @@
     "hatenaDate": "2026-10-21T19:37:25Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:59:47.341541+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "AIが設計したウイルスをヒトに投与　世界初、薬剤耐性菌患者に：朝日新聞",
@@ -23,124 +62,124 @@
     "hatenaDate": "2026-10-21T08:41:38Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:59:47.341541+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "【速報：2026/10/22 04:00】PHP2Shellの対応状況まとめ：PHP本体、Linux、レンタルサーバ、KUSANAGI",
     "url": "https://zenn.dev/tyamadadd/articles/c02a27af771dd2",
     "domain": "zenn.dev",
-    "count": 6,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tyamadadd/articles/c02a27af771dd2",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--UL10DCiJ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590%25E9%2580%259F%25E5%25A0%25B1%25EF%25BC%259A2026%252F10%252F22%252004%253A00%25E3%2580%2591PHP2Shell%25E3%2581%25AE%25E5%25AF%25BE%25E5%25BF%259C%25E7%258A%25B6%25E6%25B3%2581%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%25EF%25BC%259APHP%25E6%259C%25AC%25E4%25BD%2593%25E3%2580%2581Linux%25E3%2580%2581%25E3%2583%25AC%25E3%2583%25B3%25E3%2582%25BF%25E3%2583%25AB%25E3%2582%25B5%25E3%2583%25BC...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:tyamadadd%2Cx_90%2Cy_121/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "PHPerの皆様、お疲れさまでした。 少し体力が残っているので、現在の対応状況をまとめてみました。 生成AIでまとめたものを当方で確認しております。 また気になる追加情報を補足に追加しました。 2026年10月21日、PHP の重大な脆弱性2件（CVE-2026-109618 / CVE-2026-109619、通称「PHP2Shell」）の修正版が公開されま...",
     "hatenaDate": "2026-10-21T20:01:05Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:45:14.112540+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "プログラム言語「PHP」欠陥、世界でサイト停止　AIが脆弱性発見 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOGN21C340R21C26A0000000/",
     "domain": "www.nikkei.com",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN21C340R21C26A0000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3762537021102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=79d161d9b9cb4b357ed7b6e01fa53be8",
     "description": "【ニューヨーク=西邨紘子、シリコンバレー=伴正春】世界のウェブサイトの7割に使われている開発言語「PHP」に深刻な脆弱性が見つかり、各国が対応に追われている。サイトを一時停止する企業もある。人工知能（AI）によるサイバー攻撃の脅威が高まる中、米当局はソフト更新を急ぐよう呼びかけた。PHPはウェブサイトを動か...",
     "hatenaDate": "2026-10-21T22:44:13Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:45:14.112540+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "メンテナンス中に503を返すだけでは足りない Google公式ドキュメントで読む必須・推奨・禁止事項 - SEMリサーチ",
     "url": "https://www.sem-r.com/entry/20261022/1792605105",
     "domain": "www.sem-r.com",
-    "count": 13,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.sem-r.com/entry/20261022/1792605105",
     "screenshot": "https://ogimage.blog.st-hatena.com/26006613497565334/14945776032093334905/1792622901",
     "description": "サイトメンテナンス時の正しいHTTP応答　緊急メンテ当日に各社の対応を調べてわかったこと なぜメンテナンス時のHTTP応答が重要なのか 必須事項 やらないと検索結果掲載に問題が発生する可能性があるもの 1. すべてのページで、元のURLのまま503を返す 2. robots.txtは503にせず、通常どおり200で返し続ける 3. 503を数...",
     "hatenaDate": "2026-10-21T18:03:07Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:30:14.137647+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "高市総理「大至急、PHPパッチ適用を」Xで異例の要請　エンジニアは評価「経営層に伝わる」",
     "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002483/",
     "domain": "www.itmedia.co.jp",
-    "count": 24,
+    "count": 35,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/22/2000002483/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/22/2000002483/10010094/2048",
     "description": "「今夜に対応して頂きたい大至急のお願い」――高市早苗首相は10月21日午後10時前、自身のXアカウントで、PHPの「緊急」の脆弱性について、修正パッチを「可及的速やかに適用できる準備」をするよう求めた。パッチはこの投稿の約1時間後（21日午後11時ごろ）に公開された。 首相が個別のソフトウェア脆弱性について、Xで直...",
     "hatenaDate": "2026-10-21T22:16:49Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:30:14.137647+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "eMudhraで侵害された8つの認証局すべての秘密鍵はなんとたった「1バイト」で秘密鍵の1つは「4」、Mozilla・Microsoft・Apple・Chromeのルートプログラムや多くの下流トラストストアによって信頼されているルート証明書に連鎖",
     "url": "https://gigazine.net/news/20261022-emudhra-problem/",
     "domain": "gigazine.net",
-    "count": 8,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261022-emudhra-problem/",
     "screenshot": "https://i.gzn.jp/img/2026/10/22/emudhra-problem/00.jpg",
     "description": "2026年10月20日、eMudhraの中間認証局(CA)証明書8件の秘密鍵が侵害されたことが明らかになりました。侵害された証明書はMozilla・Microsoft・Apple・Chromeなどの主要なルートプログラムおよび多くの下流トラストストアによって信頼されているルートに連鎖していたため、攻撃者は侵害された中間CAの秘密鍵を悪用して様々...",
     "hatenaDate": "2026-10-21T21:01:52Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:30:14.137647+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "本来116桁の秘密鍵がたった3桁 インド認証局の一部中間CA証明書にミス",
     "url": "https://pc.watch.impress.co.jp/docs/news/2150099.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 6,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2150099.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2150/099/01.jpg",
     "description": null,
     "hatenaDate": "2026-10-21T21:42:08Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:30:14.137647+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "デジタル庁、「神Excel」対策ツールを公開　AIと組み合わせたデータ整備方法も紹介",
     "url": "https://www.itmedia.co.jp/aiplus/article/2610/21/2000002475/",
     "domain": "www.itmedia.co.jp",
-    "count": 17,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2610/21/2000002475/",
     "screenshot": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/21/2000002475/10010068/2048",
     "description": "デジタル庁が、Excelファイルなどが“機械にとって読みやすいか”を判定するツール「Harunobu」を公開している。紙に印刷した際のレイアウトを優先してセル結合などを多用した、いわゆる「神Excel」の対策にも活用できるという。AIと組み合わせたデータの整備方法も取り上げている。 Harunobu（はるのぶ）という名称のこの...",
     "hatenaDate": "2026-10-21T12:22:50Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:30:14.137647+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート予定",
     "url": "https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html",
     "domain": "www.publickey1.jp",
-    "count": 20,
+    "count": 29,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html",
     "screenshot": "https://www.publickey1.jp/2026/EDo6tKmq.jpg",
     "description": "Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート予定 Cloudflareは、TypeScriptをRustに移植した「tsrs」を発表しました。 下記は、Cloudflareに買収されたVoidZeroによるtsrsに関するポストです。VoidZeroもこのtsr...",
     "hatenaDate": "2026-10-21T14:50:46Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:15:13.495092+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "楽天市場が緊急メンテ、その他の企業サイト・サービスも続々メンテ　21日夜～",
     "url": "https://k-tai.watch.impress.co.jp/docs/news/2150133.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2150133.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2150/133/rktn.jpg",
     "description": null,
     "hatenaDate": "2026-10-21T15:11:37Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:15:13.495092+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "書類の上をなぞるだけでデータ化できるハンディスキャナー「400-SCN071」、サンワサプライが発売",
@@ -159,27 +198,27 @@
     "title": "3年前に退職したところから「なんでPHPで作ったんだ！今すぐ来い！」って電話あったけど、どこに相談したらいいの？労基？→あるエンジニアに起きた災難に「笑えない」",
     "url": "https://togetter.com/li/2761260",
     "domain": "togetter.com",
-    "count": 51,
+    "count": 61,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2761260",
     "screenshot": "https://s.tgstc.com/ogp3/f35f15c795951607b3db32584c8c6312-1200x630.jpeg",
     "description": "国家サイバー統括室(注意・警戒情報) @cyber_forecast PHPのセキュリティチームが、重大な２件の脆弱性に関する注意喚起を行っています。公開しているウェブサイトでPHPを使用しているか確認し、10月21日午後11時（日本時間）に公開される修正パッチについて、可及的速やかに適用できるよう準備をお願いいたします。 php...",
     "hatenaDate": "2026-10-21T19:27:17Z",
     "users": [],
     "firstSeenAt": "2026-10-22T07:30:15.989105+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "「総理大臣がXでお願いを出すレベル」PHPのセキュリティチームが2件の脆弱性に関して注意喚起 23:00からエンジニアとハッカーの戦いが始まる",
     "url": "https://togetter.com/li/2761269",
     "domain": "togetter.com",
-    "count": 29,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2761269",
     "screenshot": "https://s.tgstc.com/ogp3/ba8f7b3bd36281d1b019e9d0bd642626-1200x630.jpeg",
     "description": "国家サイバー統括室(注意・警戒情報) @cyber_forecast PHPのセキュリティチームが、重大な２件の脆弱性に関する注意喚起を行っています。公開しているウェブサイトでPHPを使用しているか確認し、10月21日午後11時（日本時間）に公開される修正パッチについて、可及的速やかに適用できるよう準備をお願いいたします。 php...",
     "hatenaDate": "2026-10-21T19:46:46Z",
     "users": [],
     "firstSeenAt": "2026-10-22T07:30:15.989105+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "プログラミング言語「PHP」に重大な脆弱性　予防でサイト休止も：朝日新聞",
@@ -198,27 +237,27 @@
     "title": "Patch the Planet — OpenAI",
     "url": "https://patchtheplanet.org/",
     "domain": "patchtheplanet.org",
-    "count": 15,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/patchtheplanet.org/",
     "screenshot": null,
     "description": "Working with frontier AI and security experts to help secure open source and make our digital infrastructure more secure",
     "hatenaDate": "2026-10-21T17:03:55Z",
     "users": [],
     "firstSeenAt": "2026-10-22T07:00:14.535619+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens - GitHub Changelog",
     "url": "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens/",
     "domain": "github.blog",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens/",
     "screenshot": "https://github.blog/wp-content/uploads/2026/10/674026597-85251c65-72af-49cb-9eaf-fa18f73c77b3.jpeg",
     "description": "GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens You can now use expiring, automatically refreshing OAuth credentials in GitHub CLI as part of a public preview. When you opt in, gh stores an expiring access token alongside a rotating refresh token and automatically refreshes the token...",
     "hatenaDate": "2026-10-21T17:00:45Z",
     "users": [],
     "firstSeenAt": "2026-10-22T06:30:14.139617+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "モーターたった1個で飛行も方向転換もできるドローンをエンジニアが自作",
@@ -237,14 +276,14 @@
     "title": "「客を一切信用してなくてワロける」ドラッグストアコスモスの防犯カメラの多さが話題に→「むしろ信頼できる」「これでも少ない店舗」",
     "url": "https://togetter.com/li/2761220",
     "domain": "togetter.com",
-    "count": 35,
+    "count": 38,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2761220",
     "screenshot": "https://s.tgstc.com/ogp3/faac00042da2593dbde533dbdcfbbfbd-1200x630.jpeg",
     "description": "防犯カメラの数、尋常じゃない...！　セキュリティ意識が強すぎるドラッグストアが話題に(全文表示)｜Jタウンネット 九州を拠点とするドラッグストア「コスモス薬品」（本社・福岡市）。西日本ではお馴染みといえるドラッグストアだが、インターネット上であることが話題になった。赤い丸で囲った部分が防犯カメラだ（提...",
     "hatenaDate": "2026-10-21T13:45:32Z",
     "users": [],
     "firstSeenAt": "2026-10-22T05:45:14.987517+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "プログラム言語PHPに重大欠陥　ウェブ7割で使用、攻撃の恐れ（共同通信） - Yahoo!ニュース",
@@ -263,14 +302,14 @@
     "title": "PHPの「緊急」レベルの脆弱性、開発元が修正バージョン公開　「直ちにアップデートを」",
     "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002480/",
     "domain": "www.itmedia.co.jp",
-    "count": 37,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/22/2000002480/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/22/2000002480/10010082/2048",
     "description": "プログラミング言語「PHP」開発プロジェクトは10月21日（協定世界時）、「緊急」レベルの脆弱性2件を修正したPHP 8.5.12／8.4.27／8.3.36／8.2.35を公開したと発表した。20日に予告していたセキュリティアップデートに関するもので、攻撃者が遠隔で任意のコードを実行できてしまう脆弱性などを修正する。「全てのPHPユー...",
     "hatenaDate": "2026-10-21T16:04:10Z",
     "users": [],
     "firstSeenAt": "2026-10-22T05:45:14.987517+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "バーミキュラの中華鍋登場　炒め/揚げ/蒸しができる - 家電 Watch",
@@ -315,14 +354,14 @@
     "title": "大阪公立大のシステム障害、NECの再委託先へのサイバー攻撃が原因：朝日新聞",
     "url": "https://www.asahi.com/articles/ASVBP15NCVBPPTIL00MM.html",
     "domain": "www.asahi.com",
-    "count": 31,
+    "count": 32,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVBP15NCVBPPTIL00MM.html",
     "screenshot": "https://imgopt.asahi.com/ogp/AS20261021001736_comm.jpg",
     "description": "大阪公立大学は21日、今月2日に発生したシステム障害について、システムの保守と運用を委託しているNECの再委託先の事業者がサイバー攻撃を受けたことが原因だと、発表した。■大阪大でも個人情報7万8千人…",
     "hatenaDate": "2026-10-21T13:04:10Z",
     "users": [],
     "firstSeenAt": "2026-10-22T02:45:14.105459+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "https://av.watch.impress.co.jp/docs/series/rt/2150072.html",
@@ -361,7 +400,7 @@
     "hatenaDate": "2026-10-21T15:31:04Z",
     "users": [],
     "firstSeenAt": "2026-10-22T02:15:14.679619+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "改訂新版達人が教えるWebパフォーマンスチューニング | 技術評論社",
@@ -432,14 +471,14 @@
     "title": "PHPの重大脆弱性「PHP2Shell」はセキュリティ企業のCalifとWizがAIを用いて発見しOpenAIの枠組みを使って対策したことが判明",
     "url": "https://gigazine.net/news/20261022-php2shell-wiz-openai-calif/",
     "domain": "gigazine.net",
-    "count": 88,
+    "count": 90,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261022-php2shell-wiz-openai-calif/",
     "screenshot": "https://i.gzn.jp/img/2026/10/22/php2shell-wiz-openai-calif/00.png",
     "description": "プログラミング言語のPHPに「PHP2Shell」と呼ばれる重大な脆弱性が見つかり、緊急アップデートがリリースされました。「PHP2Shell」の2つの脆弱性は、セキュリティ企業のCalifとWizがそれぞれ独立して2026年8月に発見していたことが報告されています。 PHP2Shell — AI uncovers critical vulnerabilities in the backbon...",
     "hatenaDate": "2026-10-21T15:19:11Z",
     "users": [],
     "firstSeenAt": "2026-10-22T01:00:16.490727+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "AIで若手採用が3分の1に？ 「新人に任せる仕事がない」10年後、誰が会社を率いるのか #エキスパートトピ（横山信弘） - エキスパート - Yahoo!ニュース",
@@ -497,14 +536,14 @@
     "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
     "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
     "domain": "thephp.foundation",
-    "count": 65,
+    "count": 67,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
     "screenshot": "https://thephp.foundation/assets/share/2026-10-21-todays-php-security-release-and-how-were-strengthening-php-security.png",
     "description": "Earlier today, the PHP project released PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. These releases fix two critical vulnerabilities that, under the right conditions, allow an unauthenticated attacker to execute code on servers running PHP. If you run PHP, it is imperative that you update now. The ann...",
     "hatenaDate": "2026-10-21T14:53:13Z",
     "users": [],
     "firstSeenAt": "2026-10-22T00:30:17.372806+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "[security] Update to 8.5.12, 8.4.27, 8.3.36, 8.2.35 by jnoordsij · Pull Request #1694 · docker-library/php",
@@ -614,14 +653,14 @@
     "title": "【PHP脆弱性php2shell】パッチは21:59に公開済み。「23:15から乗っ取り」「15分でAIが攻撃コード？」は本当か、自分のVPSのログで検証（CVE-2026-109618／109619）：秋山大志のそれとりあえず作ってみようか。：オルタナティブ・ブログ",
     "url": "https://blogs.itmedia.co.jp/agile/2026/10/php2shell_cve_2026_109618_panic.html",
     "domain": "blogs.itmedia.co.jp",
-    "count": 190,
+    "count": 196,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blogs.itmedia.co.jp/agile/2026/10/php2shell_cve_2026_109618_panic.html",
     "screenshot": "https://blogs.itmedia.co.jp/mt-static/support/assets_c/userpics/userpic-220-100x100.png",
     "description": "【PHP脆弱性php2shell】パッチは21:59に公開済み。「23:15から乗っ取り」「15分でAIが攻撃コード？」は本当か、自分のVPSのログで検証（CVE-2026-109618／109619） PHPの重大な脆弱性で、タイムラインが大騒ぎです。 震源のひとつが、「23時にパッチが公開されたら、それをAIで解析して攻撃コードを作り、23時15分以降に...",
     "hatenaDate": "2026-10-21T14:07:21Z",
     "users": [],
     "firstSeenAt": "2026-10-21T23:15:15.197770+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "大阪公立大のシステム障害、NECの再委託先へのサイバー攻撃が原因：朝日新聞",
@@ -653,14 +692,14 @@
     "title": "これが視界に入った瞬間、1秒以内に「AIだ！」と思ったけど我々は一体何に「AIっぽさ」を感じているのか→文字や色味以外にも判別ポイントがある？",
     "url": "https://togetter.com/li/2761175",
     "domain": "togetter.com",
-    "count": 117,
+    "count": 119,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2761175",
     "screenshot": "https://s.tgstc.com/ogp3/15c2eed05050afce4f58100e51b577f7-1200x630.jpeg",
     "description": "これが視界に入った瞬間、1秒以内に「AIだ！」と思ったけど我々は一体何に「AIっぽさ」を感じているのか→文字や色味以外にも判別ポイントがある？",
     "hatenaDate": "2026-10-21T13:05:29Z",
     "users": [],
     "firstSeenAt": "2026-10-21T23:00:14.434132+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "GitHub - ikow/php2shell-poc: CVE-2026-109618/109619 PHP session.upload_progress Exploit Research — POC & Analysis",
@@ -783,14 +822,14 @@
     "title": "委託事業者における個人情報漏えいについて",
     "url": "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004",
     "domain": "www.osaka-u.ac.jp",
-    "count": 118,
+    "count": 119,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.osaka-u.ac.jp/ja/news/topics/2026/10/21004",
     "screenshot": "https://www.osaka-u.ac.jp/ja/assets/files/og-image/OGP-image-JP.jpg/@@images/image",
     "description": "令和8年10月9日、本学の全学教育用電子計算機システムの運用を委託している日本電気株式会社（以下「NEC」という。）から、令和8年9月26日に第三者により本学の個人情報を含むファイルがダウンロードされていたとの報告を受けました。 その後の調査により、本学に報告されていない協力会社が本業務の一部に関与していた...",
     "hatenaDate": "2026-10-21T11:16:28Z",
     "users": [],
     "firstSeenAt": "2026-10-21T21:00:10.637023+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "MetaのAI「Muse」で共有した会話が第三者に丸見えになる問題が発覚、6800件以上の共有リンクが発見される",
@@ -809,14 +848,14 @@
     "title": "わずか2週間でGitHubスター30万超　AIでリバースエンジニアリングする「REA」が話題",
     "url": "https://ascii.jp/elem/000/004/444/4444350/",
     "domain": "ascii.jp",
-    "count": 122,
+    "count": 123,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/444/4444350/",
     "screenshot": "https://ascii.jp/img/2026/10/21/4541255/xl/78f108033f817b01.png?20200122",
     "description": "morluto氏がGitHubで公開しているAIエージェント向けのリバースエンジニアリング支援ツール「REA（Reverse Engineer Anything）」が急速に人気を集めている。10月2日時点で41件だったGitHubのスター数は、17日に30万件を突破。21日には34万7802件に達した。 REAは、完成したアプリや実行ファイルを調べ、内部の処理を理...",
     "hatenaDate": "2026-10-21T04:48:18Z",
     "users": [],
     "firstSeenAt": "2026-10-21T20:30:14.468514+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "リアルタイム文字起こしや特定の人物の音声クローンが可能な音声AI群「Voxtral 3」",
@@ -933,7 +972,7 @@
     "hatenaDate": "2026-10-21T08:52:10Z",
     "users": [],
     "firstSeenAt": "2026-10-21T18:45:14.473350+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "Only for the curious...",
@@ -965,14 +1004,14 @@
     "title": "修正予告されたPHPの2件の深刻な脆弱性についてまとめてみた - piyolog",
     "url": "https://piyolog.hatenadiary.jp/entry/2026/10/21/174516",
     "domain": "piyolog.hatenadiary.jp",
-    "count": 625,
+    "count": 641,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/21/174516",
     "screenshot": "https://ogimage.blog.st-hatena.com/10257846132616586766/14945776032093179100/1792578197",
     "description": "2026年10月20日、PHPの開発元であるThe PHP Groupのセキュリティチームは、PHPの深刻な脆弱性2件を修正するセキュリティリリースを予告しました。ここでは関連する情報をまとめます。（開発元等から詳細情報が公開され次第更新します。） 開発元は何を予告したの? PHPのセキュリティチームは10月20日(協定世界時)、2件の...",
     "hatenaDate": "2026-10-21T08:57:42Z",
     "users": [],
     "firstSeenAt": "2026-10-21T18:30:14.389363+09:00",
-    "lastSeenAt": "2026-10-22T09:00:16.011830+09:00"
+    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
   },
   {
     "title": "php2shell の告知を受けて、ALB の AWS WAF で multipart POST を止める・絞るルールを試してみた | DevelopersIO",
@@ -3859,44 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-19T19:44:19.039140+09:00",
     "lastSeenAt": "2026-10-19T19:45:13.643675+09:00"
-  },
-  {
-    "title": "Welcome! You are invited to join a webinar: 【26/10/29開催】WordPressのセキュリティ懸念・サイト更新の手間がもう限界！ SaaS型CMSでラクになる方法. After registering, you will receive a confirmation email about joining the webinar.",
-    "url": "https://hatena.zoom.us/webinar/register/2217624929911/WN_YzxYgZfiRDKCL7bkXF-o2A",
-    "domain": "hatena.zoom.us",
-    "count": 4,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/hatena.zoom.us/webinar/register/2217624929911/WN_YzxYgZfiRDKCL7bkXF-o2A",
-    "screenshot": "https://hatena.zoom.us/w_p/99574997874/6c68f4a7-b481-4d26-80a7-18de967c2bfd.png",
-    "description": "2026年10月29日（木）に、「WordPressのセキュリティ懸念・サイト更新の手間がもう限界！SaaS型CMSでラクになる方法」をテーマにセミナーを開催します。 「“WordPressに重大な脆弱性”というニュースを見て、うちのサイトは大丈夫かと不安になった」「お知らせを1件直すだけなのに、制作会社に依頼して1週間待った」――そ...",
-    "hatenaDate": "2026-10-19T02:00:13Z",
-    "users": [],
-    "firstSeenAt": "2026-10-19T19:44:19.039140+09:00",
-    "lastSeenAt": "2026-10-19T19:44:19.039140+09:00"
-  },
-  {
-    "title": "E Inkがカラー電子ペーパー「Kaleido 4」を発表、色域が前世代の2倍に広がり最大18fpsの動画再生にも対応",
-    "url": "https://gigazine.net/news/20261019-e-ink-kaleido-4/",
-    "domain": "gigazine.net",
-    "count": 13,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261019-e-ink-kaleido-4/",
-    "screenshot": "https://i.gzn.jp/img/2026/10/19/e-ink-kaleido-4/00.png",
-    "description": "2026年10月15日、E Inkがカラー電子ペーパー「E Ink Kaleido 4」を発表しました。色域や明るさ、コントラストを改善した新世代モデルで、動画再生は最大18fpsに対応しています。 E Ink Launches Latest Version of Color ePaper Platform, E Ink Kaleido™ 4 https://www.eink.com/news/detail/EInk-Launches-Latest-Vers...",
-    "hatenaDate": "2026-10-19T07:50:06Z",
-    "users": [],
-    "firstSeenAt": "2026-10-19T19:15:13.374746+09:00",
-    "lastSeenAt": "2026-10-19T22:00:13.043187+09:00"
-  },
-  {
-    "title": "Anthropic社内ではAIが人間の6倍も稼働していることが判明、従業員の仕事は「AIの監督」へと変化",
-    "url": "https://gigazine.net/news/20261019-employment-at-anthropic/",
-    "domain": "gigazine.net",
-    "count": 8,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261019-employment-at-anthropic/",
-    "screenshot": "https://i.gzn.jp/img/2026/10/19/employment-at-anthropic/00.jpg",
-    "description": "AI「Claude」を開発するAnthropicが社内のAI利用状況や雇用の変化を調査したところ、AIの稼働時間が人間の労働時間の6倍に達していることが明らかになりました。AIによって生産性が向上する一方で、従業員の仕事は自ら作業することから大量のAIを管理・監督することへと変化しているとのことです。 How employment is ch...",
-    "hatenaDate": "2026-10-19T06:12:56Z",
-    "users": [],
-    "firstSeenAt": "2026-10-19T19:15:13.374746+09:00",
-    "lastSeenAt": "2026-10-19T20:00:12.450296+09:00"
   }
 ]
