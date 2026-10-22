@@ -10,7 +10,7 @@
     "hatenaDate": "2026-10-22T06:48:01Z",
     "users": [],
     "firstSeenAt": "2026-10-22T16:30:14.339472+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "AWS セキュリティ速報（2026-143-AWS）と AWS Security Blog で紹介された PHP2Shell 緩和の AWS WAF ルールを試してみた | DevelopersIO",
@@ -23,7 +23,7 @@
     "hatenaDate": "2026-10-22T05:48:01Z",
     "users": [],
     "firstSeenAt": "2026-10-22T16:30:14.339472+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "プログラミング言語「PHP」に重大な脆弱性、世界中で多くのウェブサイト休止 - BBCニュース",
@@ -36,20 +36,20 @@
     "hatenaDate": "2026-10-22T03:19:50Z",
     "users": [],
     "firstSeenAt": "2026-10-22T16:30:14.339472+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "PHP研究所「関係ありません」　プログラミング言語問題で | NEWSjp",
     "url": "https://news.jp/i/1485826397099295138",
     "domain": "news.jp",
-    "count": 17,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.jp/i/1485826397099295138",
     "screenshot": "https://img.jp.ekkowassets.com/c_limit,w_200,h_200,f_auto,q_auto:eco/ch/units/39166665832988672/profile_7.png",
     "description": "プログラミング言語「PHP」に重大な欠陥が見つかった問題を巡り、出版社のPHP研究所は22日までに、文芸の編集部のX（旧ツイッター）で「（弊社は）全然関係ありません」と投稿した。同社によると、問い合わせが相次ぐといった混乱は起きていないという。 同社の公式サイトもPHPを使っていたが、現在は緊急メンテナンスを...",
     "hatenaDate": "2026-10-22T02:51:06Z",
     "users": [],
     "firstSeenAt": "2026-10-22T16:15:12.787569+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "8 eMudhra certificates are compromised. Here's what you need to know",
@@ -75,20 +75,20 @@
     "hatenaDate": "2026-10-22T03:26:14Z",
     "users": [],
     "firstSeenAt": "2026-10-22T16:00:15.070907+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "【速報】米アマゾンPHP欠陥公表前に悪用形跡確認",
     "url": "https://www.47news.jp/15120505.html",
     "domain": "www.47news.jp",
-    "count": 9,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15120505.html",
     "screenshot": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
     "description": "【ニューヨーク共同】米IT大手アマゾン・コムは21日、プログラミング言語「PHP」に見つかったシステムの重大な欠陥に当たる脆弱性が公表される前に、欠陥をサイバー攻撃に悪用しようとした形跡を確認したと発表した。",
     "hatenaDate": "2026-10-22T06:15:55Z",
     "users": [],
     "firstSeenAt": "2026-10-22T16:00:15.070907+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "コミックシーモア、流出は最大約420万件に　メールアドレスや生年月日など　不正アクセスの経路特定・遮断は完了",
@@ -101,7 +101,7 @@
     "hatenaDate": "2026-10-22T03:33:35Z",
     "users": [],
     "firstSeenAt": "2026-10-22T15:45:12.815283+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "「Firefox 158.0.1」が公開、秘密鍵が漏洩した「eMudhra」の中間証明書をブロック／4件の脆弱性と5件の不具合に対処",
@@ -133,53 +133,53 @@
     "title": "「GitLab」に深刻度“最大”の脆弱性　認証なしで任意のコード実行の恐れ、修正版適用を　CVSS「10.0」",
     "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002501/",
     "domain": "www.itmedia.co.jp",
-    "count": 29,
+    "count": 30,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/22/2000002501/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/22/2000002501/10010159/2048",
     "description": "米GitLabは10月21日（現地時間）、開発プラットフォーム「GitLab」に深刻（Critical）な脆弱性（CVE-2026-110264）が見つかったと発表し、修正版を公開した。CVSSスコアは最大の「10.0」。特定の条件下で、認証されていないユーザーがGitLabサーバ上で任意のコードを実行できる可能性がある。 12日に公表したCVSS 10.0の...",
     "hatenaDate": "2026-10-22T03:55:13Z",
     "users": [],
     "firstSeenAt": "2026-10-22T15:15:11.835786+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "PHP脆弱性php2shell対応、7.4本番を止めずに守った夜と実際の攻撃 - Qiita",
     "url": "https://qiita.com/kenimo49/items/30f290bf0f4fff021fb3",
     "domain": "qiita.com",
-    "count": 21,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/kenimo49/items/30f290bf0f4fff021fb3",
     "screenshot": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnMzLWFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkZxaWl0YS1pbWFnZS1zdG9yZSUyRjAlMkY0MzYwMDIxJTJGMGJhMTg4MDA1NDA2MWQ4MWI5YWY2ZmFiN2FhY2E2YmRmYzNkNWYyNCUyRnhfbGFyZ2UucG5nJTNGMTc3MTI4ODM2Mj9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9ZDBmZjQ4MzU4OThhN2ZjYjZkYjY3MTAyYmNiNGY5MTA%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D50e4dd7e0d970dcd5d1f7aeead6faf85?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9UEhQJUU4JTg0JTg2JUU1JUJDJUIxJUU2JTgwJUE3cGhwMnNoZWxsJUU1JUFGJUJFJUU1JUJGJTlDJUUzJTgwJTgxNy40JUU2JTlDJUFDJUU3JTk1JUFBJUUzJTgyJTkyJUU2JUFEJUEyJUUzJTgyJTgxJUUzJTgxJTlBJUUzJTgxJUFCJUU1JUFFJTg4JUUzJTgxJUEzJUUzJTgxJTlGJUU1JUE0JTlDJUUzJTgxJUE4JUU1JUFFJTlGJUU5JTlBJTlCJUUzJTgxJUFFJUU2JTk0JUJCJUU2JTkyJTgzJnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9YTE1ZWMyOGI0ZmU5YWExZWU0MmNiMjkxOTU1YjM4NTk&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBrZW5pbW80OSZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTA3MzQwYjA2MzcxM2ZjYWUxYWUxMDM3NGM4YTkxMmFh&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=a2f425142d0bb8451eaca19a7d3d2bec",
     "description": "2026 年 10 月 21 日 21 時 55 分、高市総理が X にこう投稿しました。 修正パッチを速やかに適用することが困難な場合は、例えばウェブサイト等を一時的に停止させることも、リスクを低減させるための有効策の一つと考えられます。 (高市早苗 on X) PHP の任意コード実行の脆弱性 2 件、通称 php2shell（CVE-2026-10961...",
     "hatenaDate": "2026-10-22T01:12:57Z",
     "users": [],
     "firstSeenAt": "2026-10-22T15:15:11.835786+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "日本のネットが止まった……世界を揺るがすPHP脆弱性問題がなぜか中国では無風のワケ #エキスパートトピ（高口康太） - エキスパート - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/expert/articles/2d3aaa765e366d1a6186bcfac14484f18a8a421b",
     "domain": "news.yahoo.co.jp",
-    "count": 15,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/expert/articles/2d3aaa765e366d1a6186bcfac14484f18a8a421b",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/takaguchikota/02748833/title-1792636608388.jpeg?exp=10800",
     "description": "21日夜（日本時間）に修正パッチが公開されたPHPの重大な脆弱性「PHP2Shell」。日本ではpixivやniconico、財務省などがパッチ公開前に予防的にサービスを止め、欧州でもオランダ、フィンランド、フランス、ドイツなどの政府機関がサイトを停止した。一方、中国ではサイト閉鎖の報道は見当たらない。古いPHPが多く動いて...",
     "hatenaDate": "2026-10-22T02:58:57Z",
     "users": [],
     "firstSeenAt": "2026-10-22T15:15:11.835786+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "PHPのセキュリティ問題について、その深刻さをわかる人が言及、首相の注意喚起ポストは思った以上にありがたかった模様、一方緊急で運営終了となるサービスも",
     "url": "https://togetter.com/li/2761388",
     "domain": "togetter.com",
-    "count": 37,
+    "count": 38,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2761388",
     "screenshot": "https://s.tgstc.com/ogp3/706a2dfad830c2222024853570cb864e-1200x630.jpeg",
     "description": "国家サイバー統括室(注意・警戒情報) @cyber_forecast PHPのセキュリティチームが、重大な２件の脆弱性に関する注意喚起を行っています。公開しているウェブサイトでPHPを使用しているか確認し、10月21日午後11時（日本時間）に公開される修正パッチについて、可及的速やかに適用できるよう準備をお願いいたします。 php...",
     "hatenaDate": "2026-10-22T03:49:10Z",
     "users": [],
     "firstSeenAt": "2026-10-22T14:15:13.787085+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "昼休み中の夫に「PHPの脆弱性の話聞いた？」って言ったら「何それ…」と言って部屋にこもり「本日徹夜での作業となりました」と言い残して消えた",
@@ -192,7 +192,7 @@
     "hatenaDate": "2026-10-22T02:56:23Z",
     "users": [],
     "firstSeenAt": "2026-10-22T14:00:13.748005+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "脆弱性管理の仕組みを整えた",
@@ -237,40 +237,40 @@
     "title": "内製 Background Coding Agent “haro” で拓く未来の開発体験 - LayerX エンジニアブログ",
     "url": "https://tech.layerx.co.jp/entry/why-we-built-our-background-agent",
     "domain": "tech.layerx.co.jp",
-    "count": 34,
+    "count": 36,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.layerx.co.jp/entry/why-we-built-our-background-agent",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/3536bdccdc2e662ad8baee2b71bf7f4fd9a803c3/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fi%2Fizumin5210%2F20261021%2F20261021215346.png",
     "description": "LayerX バクラク事業部 Platform Engineering 部 Staff Software Engineer の izumin5210 です。 3D アクションゲームを始めたはずが工場自動化要素が入っていたせいで、昼夜を問わず何らかの生産性について考えています。 バクラク事業部 Platform Engineering 部では、社内のプロダクト開発を支援する、クラウド上で動...",
     "hatenaDate": "2026-10-22T02:40:10Z",
     "users": [],
     "firstSeenAt": "2026-10-22T13:15:13.388306+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "Excelの機械可読性を判定するツール「Harunobu」のご紹介｜デジタル庁",
     "url": "https://digital-gov.note.jp/n/n99cb228cc81c",
     "domain": "digital-gov.note.jp",
-    "count": 28,
+    "count": 29,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/digital-gov.note.jp/n/n99cb228cc81c",
     "screenshot": "https://assets.st-note.com/production/uploads/images/326451303/rectangle_large_type_2_38fdb171dcfedef8de41661b90005018.png?fit=bounds&quality=85&width=1280",
     "description": "こんにちは。デジタル庁のファクト＆データユニット所属データエンジニアの長谷川亮です。 これまで、いくつかのnote記事で政策データダッシュボードとそのデータ分析基盤についてご紹介してきました。今回は趣向を変え、近年進めているデータマネジメントの取組のうち、データの機械可読性を高めるためのルールと、私た...",
     "hatenaDate": "2026-10-21T20:13:03Z",
     "users": [],
     "firstSeenAt": "2026-10-22T13:00:12.162082+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "旅行ゲーム「ワールドクエスト」、PHP脆弱性で即日サービス終了　「古い仕組みのため対策とれず」",
     "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002493/",
     "domain": "www.itmedia.co.jp",
-    "count": 41,
+    "count": 42,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/22/2000002493/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/22/2000002493/10010142/2048",
     "description": "PHPを巡っては、開発元が「緊急」レベルの脆弱性2件を修正したバージョンを21日午後11時ごろに公開したばかり。認証なしで遠隔から任意のコードを実行される恐れがあるもので、国内では「BASE」「コドモン」など著名サービスが相次いで緊急メンテナンスに入るなど影響が広がっていた。修正版の対象はPHP 8.2以降の4系統...",
     "hatenaDate": "2026-10-22T02:15:09Z",
     "users": [],
     "firstSeenAt": "2026-10-22T13:00:12.162082+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "ClaudeのMaxプランなしでできた！ローカルAIとの分担でアプリ開発 ～ミニPC「ACEMAGIC F2A」で試すハイブリッドAI[Sponsored]",
@@ -283,7 +283,7 @@
     "hatenaDate": "2026-10-21T23:20:55Z",
     "users": [],
     "firstSeenAt": "2026-10-22T13:00:12.162082+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "PHPぜい弱性 企業や行政機関でウェブサイト公開一時停止相次ぐ | NHKニュース",
@@ -315,27 +315,27 @@
     "title": "大阪大、学生など7.8万人の情報漏えい　NECが無断で協力会社とデータ共有",
     "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002491/",
     "domain": "www.itmedia.co.jp",
-    "count": 80,
+    "count": 81,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/22/2000002491/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/22/2000002491/10010131/2048",
     "description": "大阪大学（阪大）は10月21日、全学教育用電子計算機システムの運用を委託しているNECから、卒業生や在学生、教職員の計7万7851人分の個人情報が漏えいしたと発表した。 NECは、大学に報告していない協力会社と情報を共有するため、個人情報を含むファイルをクラウドストレージ上で共有していたという。加えてNECは、作業...",
     "hatenaDate": "2026-10-22T01:44:37Z",
     "users": [],
     "firstSeenAt": "2026-10-22T12:15:13.183081+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "Rust Style Guide",
     "url": "https://google.github.io/styleguide/rustguide.html",
     "domain": "google.github.io",
-    "count": 32,
+    "count": 34,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/google.github.io/styleguide/rustguide.html",
     "screenshot": null,
     "description": "Rust Style Guide Rust Style Guide Background Scope Goals of the style guide Follow public Rust style rules Apply API design rules in context Code organization Prefer small crates [chrome] Use flat file layout for rust_library sources [chrome] Name source files and leaf modules after the primary u...",
     "hatenaDate": "2026-10-21T21:23:09Z",
     "users": [],
     "firstSeenAt": "2026-10-22T12:15:13.183081+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "WordPressから他のCMSへ移行する方法｜CloudflareのEmDashをおすすめする理由｜RealAIze ブログ",
@@ -419,27 +419,27 @@
     "title": "php2shellに感じたサイバー空間の『ドント・ルック・アップ』からサーバーの戸締りに至る空気の変遷 - 太陽がまぶしかったから",
     "url": "https://www.du-soleil.com/entry/php2shell-emergency-maintenance-dont-look-up",
     "domain": "www.du-soleil.com",
-    "count": 76,
+    "count": 77,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.du-soleil.com/entry/php2shell-emergency-maintenance-dont-look-up",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/822c0b42fd6aae92d99bab6bfcc15eae1db56e9e/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F518huL2njRL._SL500_.jpg",
     "description": "昼休みに感じた不穏な煙と焦燥 昨日の昼休み、一息つこうと思って何気なくXを開いたとき、タイムラインの片隅に流れるざわざわとした空気が目にとまった。お昼休みののんきな雑談やランチの投稿の合間に、セキュリティクラスタやインフラエンジニアたちがただならぬ緊張感をつぶやき始めており、セキュリティ専門家の高...",
     "hatenaDate": "2026-10-22T01:03:19Z",
     "users": [],
     "firstSeenAt": "2026-10-22T10:45:12.785077+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "仕組みを理解する動画を、Claude Codeに作らせると便利すぎる",
     "url": "https://zenn.dev/explaza/articles/c749042ecbe232",
     "domain": "zenn.dev",
-    "count": 282,
+    "count": 295,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/explaza/articles/c749042ecbe232",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s---OmM6dY2--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%25E3%2582%2592%25E7%2590%2586%25E8%25A7%25A3%25E3%2581%2599%25E3%2582%258B%25E5%258B%2595%25E7%2594%25BB%25E3%2582%2592%25E3%2580%2581Claude%2520Code%25E3%2581%25AB%25E4%25BD%259C%25E3%2582%2589%25E3%2581%259B%25E3%2582%258B%25E3%2581%25A8%25E4%25BE%25BF%25E5%2588%25A9%25E3%2581%2599%25E3%2581%258E%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:musoukun%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQzOWQzZGM0MGMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%25A8%25E3%2582%25AF%25E3%2582%25B9%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B6%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q2ZDNkY2FmNzUuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "最近は動画で説明資料を作っている アプリの仕組みをお客さんに説明するとき、構成図とかHTML・Markdownで、説明するのが一般的かと思いますが 最近はjavascriptを用いて、Claudeで動画を生成しやすくなったので、アプリの操作と、その裏で起きている処理を交互に見せる解説動画を作って説明に使っています。 めちゃくち...",
     "hatenaDate": "2026-10-21T19:34:57Z",
     "users": [],
     "firstSeenAt": "2026-10-22T10:45:12.785077+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "「Node.js」にセキュリティ更新 ～10件の脆弱性を修正、「eMudhra」の侵害にも対応／v22.23.4、v24.22.1、v26.12.1が公開",
@@ -452,7 +452,7 @@
     "hatenaDate": "2026-10-22T00:37:42Z",
     "users": [],
     "firstSeenAt": "2026-10-22T10:15:13.629601+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "PHP CVE-2026-109618 and CVE-2026-109619: how to apply the patches",
@@ -562,14 +562,14 @@
     "title": "「Apache Tomcat」に最大深刻度“CRITICAL”の脆弱性 ～v9 / v10 / v11系統に修正版／",
     "url": "https://forest.watch.impress.co.jp/docs/news/2150161.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 219,
+    "count": 221,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2150161.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2150/161/apachetomcat.png",
     "description": null,
     "hatenaDate": "2026-10-21T23:31:06Z",
     "users": [],
     "firstSeenAt": "2026-10-22T09:15:13.852326+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "中国語ＡＩの攻撃性能、脆弱性を見つけ情報抜き取りまで１５秒…セキュリティー会社がダミーサイトで実演",
@@ -627,14 +627,14 @@
     "title": "【速報：2026/10/22 04:00】PHP2Shellの対応状況まとめ：PHP本体、Linux、レンタルサーバ、KUSANAGI",
     "url": "https://zenn.dev/tyamadadd/articles/c02a27af771dd2",
     "domain": "zenn.dev",
-    "count": 79,
+    "count": 81,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tyamadadd/articles/c02a27af771dd2",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--UL10DCiJ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590%25E9%2580%259F%25E5%25A0%25B1%25EF%25BC%259A2026%252F10%252F22%252004%253A00%25E3%2580%2591PHP2Shell%25E3%2581%25AE%25E5%25AF%25BE%25E5%25BF%259C%25E7%258A%25B6%25E6%25B3%2581%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%25EF%25BC%259APHP%25E6%259C%25AC%25E4%25BD%2593%25E3%2580%2581Linux%25E3%2580%2581%25E3%2583%25AC%25E3%2583%25B3%25E3%2582%25BF%25E3%2583%25AB%25E3%2582%25B5%25E3%2583%25BC...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:tyamadadd%2Cx_90%2Cy_121/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "PHPerの皆様、お疲れさまでした。 少し体力が残っているので、現在の対応状況をまとめてみました。 生成AIでまとめたものを当方で確認しております。 また気になる追加情報を補足に追加しました。 2026年10月21日、PHP の重大な脆弱性2件（CVE-2026-109618 / CVE-2026-109619、通称「PHP2Shell」）の修正版が公開されま...",
     "hatenaDate": "2026-10-21T20:01:05Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:45:14.112540+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "プログラム言語「PHP」欠陥、世界でサイト停止　AIが脆弱性発見 - 日本経済新聞",
@@ -653,27 +653,27 @@
     "title": "メンテナンス中に503を返すだけでは足りない Google公式ドキュメントで読む必須・推奨・禁止事項 - SEMリサーチ",
     "url": "https://www.sem-r.com/entry/20261022/1792605105",
     "domain": "www.sem-r.com",
-    "count": 113,
+    "count": 114,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.sem-r.com/entry/20261022/1792605105",
     "screenshot": "https://ogimage.blog.st-hatena.com/26006613497565334/14945776032093334905/1792643577",
     "description": "サイトメンテナンス時の正しいHTTP応答　緊急メンテ当日に各社の対応を調べてわかったこと なぜメンテナンス時のHTTP応答が重要なのか 必須事項 やらないと検索結果掲載に問題が発生する可能性があるもの 1. すべてのページで、元のURLのまま503を返す 2. robots.txtは503にせず、通常どおり200で返し続ける 3. 503を数...",
     "hatenaDate": "2026-10-21T18:03:07Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:30:14.137647+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "高市総理「大至急、PHPパッチ適用を」Xで異例の要請　エンジニアは評価「経営層に伝わる」",
     "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002483/",
     "domain": "www.itmedia.co.jp",
-    "count": 324,
+    "count": 332,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/22/2000002483/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/22/2000002483/10010094/2048",
     "description": "「今夜に対応して頂きたい大至急のお願い」――高市早苗首相は10月21日午後10時前、自身のXアカウントで、PHPの「緊急」の脆弱性について、修正パッチを「可及的速やかに適用できる準備」をするよう求めた。パッチはこの投稿の約1時間後（21日午後11時ごろ）に公開された。 首相が個別のソフトウェア脆弱性について、Xで直...",
     "hatenaDate": "2026-10-21T22:16:49Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:30:14.137647+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "eMudhraで侵害された8つの認証局すべての秘密鍵はなんとたった「1バイト」で秘密鍵の1つは「4」、Mozilla・Microsoft・Apple・Chromeのルートプログラムや多くの下流トラストストアによって信頼されているルート証明書に連鎖",
@@ -692,27 +692,27 @@
     "title": "本来116桁の秘密鍵がたった3桁 インド認証局の一部中間CA証明書にミス",
     "url": "https://pc.watch.impress.co.jp/docs/news/2150099.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 81,
+    "count": 84,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2150099.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2150/099/01.jpg",
     "description": null,
     "hatenaDate": "2026-10-21T21:42:08Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:30:14.137647+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "デジタル庁、「神Excel」対策ツールを公開　AIと組み合わせたデータ整備方法も紹介",
     "url": "https://www.itmedia.co.jp/aiplus/article/2610/21/2000002475/",
     "domain": "www.itmedia.co.jp",
-    "count": 269,
+    "count": 272,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2610/21/2000002475/",
     "screenshot": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/21/2000002475/10010068/2048",
     "description": "デジタル庁が、Excelファイルなどが“機械にとって読みやすいか”を判定するツール「Harunobu」を公開している。紙に印刷した際のレイアウトを優先してセル結合などを多用した、いわゆる「神Excel」の対策にも活用できるという。AIと組み合わせたデータの整備方法も取り上げている。 Harunobu（はるのぶ）という名称のこの...",
     "hatenaDate": "2026-10-21T12:22:50Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:30:14.137647+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート予定",
@@ -725,7 +725,7 @@
     "hatenaDate": "2026-10-21T14:50:46Z",
     "users": [],
     "firstSeenAt": "2026-10-22T08:15:13.495092+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "楽天市場が緊急メンテ、その他の企業サイト・サービスも続々メンテ　21日夜～",
@@ -764,7 +764,7 @@
     "hatenaDate": "2026-10-21T19:27:17Z",
     "users": [],
     "firstSeenAt": "2026-10-22T07:30:15.989105+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "「総理大臣がXでお願いを出すレベル」PHPのセキュリティチームが2件の脆弱性に関して注意喚起 23:00からエンジニアとハッカーの戦いが始まる",
@@ -777,7 +777,7 @@
     "hatenaDate": "2026-10-21T19:46:46Z",
     "users": [],
     "firstSeenAt": "2026-10-22T07:30:15.989105+09:00",
-    "lastSeenAt": "2026-10-22T16:30:14.339472+09:00"
+    "lastSeenAt": "2026-10-22T16:45:13.396958+09:00"
   },
   {
     "title": "プログラミング言語「PHP」に重大な脆弱性　予防でサイト休止も：朝日新聞",
