@@ -5,6 +5,7 @@
  * ルールは { id, type, value } の配列。
  *   type: 'title' | 'domain' | 'user' | 'comment' | 'url' | 'urlprefix'
  *   value: 部分一致(大文字小文字を区別しない)させる文字列。ただしurlのみ完全一致
+ *   commentはブックマークコメントに加え、記事のdescription(概要)にも一致する
  *   (このページ単独を消す用途のため、部分一致だと他ページを巻き込む恐れがある)
  *   urlprefixは前方一致(ブログ単位・ユーザー単位でまとめて消す用途。末尾は'/'で終える)
  *
@@ -141,7 +142,10 @@
         return false;
       }
       case 'comment':
-        return !!item.comment && item.comment.toLowerCase().includes(needle);
+        // 一覧のRSS由来の記事概要(description)も対象にする。ブックマークコメントと違い
+        // 記事単位の文字列なので、一致すれば記事ごと非表示になる。
+        if (item.comment && item.comment.toLowerCase().includes(needle)) return true;
+        return !!item.description && item.description.toLowerCase().includes(needle);
       case 'url':
         return !!item.url && item.url.toLowerCase() === needle;
       case 'urlprefix':

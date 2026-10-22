@@ -1294,7 +1294,14 @@
       perfMark('fetch-end');
       setEntryFetchUnstable(!!info.fromOfflineCache, url);
 
-      if (Filters.isHidden({ title: info.title, domain: info.domain, url: info.url })) {
+      if (
+        Filters.isHidden({
+          title: info.title,
+          domain: info.domain,
+          url: info.url,
+          description: (listedItem || loadedRawEntries.find((item) => item.url === url) || {}).description,
+        })
+      ) {
         entryDescription.textContent = '';
         entryStatus.textContent = 'このエントリーはフィルタ条件により非表示になっています。';
         return;
