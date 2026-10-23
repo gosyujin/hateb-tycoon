@@ -13,7 +13,8 @@
 - スクリプト本体(バージョン管理対象): `scripts/hateb-tycoon-dispatch.sh`
 - 認証: GitHubのFine-grained Personal Access Token。**リポジトリには一切含めず**、ローカルMacのKeychainに保存し、スクリプトが実行時に`security find-generic-password`で読み出します。トークンに必要な権限は対象リポジトリの **Actions: Read and write** のみです(Contents権限は不要。誤ってContents権限を付与すると`403 Resource not accessible by personal access token`になります)。
 - 定期実行: macOSのlaunchd(`~/Library/LaunchAgents/`配下にplistを配置)。cronではなくlaunchdを採用しているのは、macOSではlaunchdが標準的な仕組みのためです。
-- **重要な制約**: `scripts/hateb-tycoon-dispatch.sh`をリポジトリ内のパス(Dropbox経由の`~/Library/CloudStorage/Dropbox/...`配下)からlaunchdに直接実行させようとすると、macOSのプライバシー保護(TCC)により`Operation not permitted`で失敗します。DropboxのようなクラウドストレージプロバイダのフォルダはTCCの保護対象で、GUIを持たないバックグラウンドプロセス(launchd経由の実行)には権限プロンプトを出せず、黙って拒否されるためです。そのため、**実際にlaunchdが実行する実体は`~/scripts/hateb-tycoon-dispatch.sh`(TCC非保護のホーム直下)に置き、リポジトリ内のファイルはあくまで正本(バージョン管理・レビュー用)としています**。`scripts/hateb-tycoon-dispatch.sh`を変更した場合は、`~/scripts/hateb-tycoon-dispatch.sh`にも同じ内容を手動でコピーする必要があります。
+- **重要な制約**: `scripts/hateb-tycoon-dispatch.sh`をリポジトリ内のパス(Dropbox経由の`~/Library/CloudStorage/Dropbox/...`配下)からlaunchdに直接実行させようとすると、macOSのプライバシー保護(TCC)により`Operation not permitted`で失敗します。DropboxのようなクラウドストレージプロバイダのフォルダはTCCの保護対象で、GUIを持たないバックグラウンドプロセス(launchd経由の実行)には権限プロンプトを出せず、黙って拒否されるためです。そのため、当初は**launchdが実行する実体を`~/scripts/hateb-tycoon-dispatch.sh`(TCC非保護のホーム直下)に置き、リポジトリ内のファイルは正本(バージョン管理・レビュー用)とする**運用でした。
+- **追記(2026-10-23)**: リポジトリをDropbox配下から`~/github/hateb-tycoon`(TCC非保護)に移したので、`~/scripts/`へのコピーをやめ、launchdがリポジトリ内の`scripts/hateb-tycoon-dispatch.sh`を直接実行する形に変えた。リポジトリをTCC保護のフォルダへ戻すと、この制約が再び効く。
 - 実行ログ: `~/Library/Logs/hateb-tycoon-dispatch.log`
 
 このローカル自動実行の仕組みはgosyujin個人のMac環境に依存するため、リポジトリをフォークしたり他の環境で動かす場合は関係ありません(cronのschedule自体は`hotentry-sync.yml`単体でも動作します。発火が不安定であるという制約が残るだけです)。

@@ -4,9 +4,10 @@
 <dict>
     <key>Label</key>
     <string>com.gosyujin.hateb-tycoon-dispatch</string>
+    <key>Description</key><string>hateb-tycoon の GitHub Actions (hotentry-sync.yml) を15分ごとに手動起動して、はてブの人気エントリを同期する</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/kk/scripts/hateb-tycoon-dispatch.sh</string>
+        <string>/Users/kk/github/hateb-tycoon/scripts/hateb-tycoon-dispatch.sh</string>
     </array>
     <key>StartCalendarInterval</key>
     <array>

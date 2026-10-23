@@ -32,7 +32,7 @@
 `hotentry-sync.yml`のcron scheduleが不定期にしか発火しない問題への緩和策として、gosyujin個人のMacから15分おきに`workflow_dispatch`を叩く仕組みがある。詳細は[docs/decisions/cron-local-dispatch.md](docs/decisions/cron-local-dispatch.md)を参照。要点:
 
 - 正本: `scripts/hateb-tycoon-dispatch.sh`(リポジトリ内、トークンは含まない)
-- 実行実体: `~/scripts/hateb-tycoon-dispatch.sh`(TCC制約によりDropbox配下のパスではlaunchdから実行できないため、非保護パスにコピーしたもの)。**正本を変更したらこちらにも手動でコピーし直す必要がある**。
+- 実行: launchdはリポジトリ内の`scripts/hateb-tycoon-dispatch.sh`を直接実行する(リポジトリは`~/github/hateb-tycoon`。DropboxなどTCC保護のフォルダに置くと`Operation not permitted`になる)。作業ツリーが別ブランチだとスクリプトが無くて失敗することがある。
 - 起動設定: `~/Library/LaunchAgents/com.gosyujin.hateb-tycoon-dispatch.plist`(再登録は`launchctl bootout gui/$(id -u)/com.gosyujin.hateb-tycoon-dispatch` → `launchctl bootstrap gui/$(id -u) <plist>`)
 - 認証: macOS Keychainのサービス名`hateb-tycoon-dispatch-for-local-token`に保存されたFine-grained PAT(権限は対象リポジトリの**Actions: Read and write**のみで良い。Contents権限は不要かつ403の原因になった実績あり)。有効期限2026-12-25、更新が必要。
 - ログ: `~/Library/Logs/hateb-tycoon-dispatch.log`
@@ -58,7 +58,7 @@
 - Service Workerの一覧取得フォールバック: [docs/decisions/sw-unstable-network-list-fetch.md](docs/decisions/sw-unstable-network-list-fetch.md)。`copyFromOldDataCaches` / 8秒フォールバック / 15秒タイムアウト+`caches.match` / `retryListIfNotLoaded`は外さない。
 - SW関連の動作確認: [docs/technical-notes.md](docs/technical-notes.md)。サンドボックス環境では`register()`が失敗するため、本番オリジンで`caches`APIを直接叩く。
 - 一覧データの取得(`scripts/fetch_hotentry.py` `hotentry-sync.yml`): [docs/decisions/hotentry-rss-via-actions.md](docs/decisions/hotentry-rss-via-actions.md)。RSSはページング不可のため蓄積方式(300件・14日)、JSON API復活前提にしない。
-- ローカルdispatch(`scripts/hateb-tycoon-dispatch.sh`): [docs/decisions/cron-local-dispatch.md](docs/decisions/cron-local-dispatch.md)。正本変更時は`~/scripts/`へ手動コピー、PATはActions権限のみ。
+- ローカルdispatch(`scripts/hateb-tycoon-dispatch.sh`): [docs/decisions/cron-local-dispatch.md](docs/decisions/cron-local-dispatch.md)。PATはActions権限のみ。
 - 自分のブックマークページ(`js/my-bookmarks.js` `worker/` `#/me`): [docs/decisions/my-bookmarks-worker-proxy.md](docs/decisions/my-bookmarks-worker-proxy.md)。はてなidはWorker secretにだけ置き、コード・localStorage・URL・Workerのレスポンスに出さない。
 - ブックマーク投稿(記事ページのフォーム・`worker/hateb-proxy.js` `worker/oauth1.js`): [docs/decisions/bookmark-post-via-worker.md](docs/decisions/bookmark-post-via-worker.md)。OAuthの鍵はWorker secretにだけ置く。POSTは既存を上書きするため、既存の取得に成功するまで送信させない作りを外さない。
 - 新規JSを足す時: [docs/features.md](docs/features.md)。`service-worker.js`の`SHELL_FILES`に追加しないとオフライン起動で読み込めない。
