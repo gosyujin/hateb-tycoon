@@ -1,55 +1,68 @@
 [
   {
+    "title": "「660万件流出」判明の3日前、タイムズカーは何を伝えた？　企業の命運を分ける「初報の鉄則」",
+    "url": "https://www.itmedia.co.jp/business/articles/2610/23/news019.html",
+    "domain": "www.itmedia.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/business/articles/2610/23/news019.html",
+    "screenshot": "https://image.itmedia.co.jp/business/articles/2610/23/cover_news019.jpg",
+    "description": "「660万件流出」判明の3日前、タイムズカーは何を伝えた？　企業の命運を分ける「初報の鉄則」（1/5 ページ） 「Webシステムに不正アクセスの形跡があります。顧客データが抜かれたかもしれません」 平日の朝、情報システム部門から飛び込んできた一報。侵入経路も、漏えいした件数も、盗まれたデータの全容すらまだ分か...",
+    "hatenaDate": "2026-10-22T22:30:15Z",
+    "users": [],
+    "firstSeenAt": "2026-10-23T17:30:12.895113+09:00",
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
+  },
+  {
     "title": "PHPの脆弱性をHacker Newsにリークした人物が「秘密だと知らなかった」と謝罪",
     "url": "https://gigazine.net/news/20261023-php-rce-unknowingly/",
     "domain": "gigazine.net",
-    "count": 12,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261023-php-rce-unknowingly/",
     "screenshot": "https://i.gzn.jp/img/2026/10/23/php-rce-unknowingly/00.jpg",
     "description": "ウェブサイトやウェブアプリの開発に広く使われているプログラミング言語「PHP」に深刻な脆弱(ぜいじゃく)性が見つかったことで、日本時間の2026年10月21日23時にセキュリティ更新プログラムおよび詳細情報が公開されることがアナウンスされ、多くのウェブサイトやサービスが緊急メンテナンス入りする騒動に発展しました...",
     "hatenaDate": "2026-10-23T04:19:23Z",
     "users": [],
     "firstSeenAt": "2026-10-23T17:00:18.543189+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "Regexp compilation fixes related to GitLab's CVE-2026-89078, CVE-2026-93577, CVE-2026-97229 and CVE-2026-110264 | Ruby",
     "url": "https://www.ruby-lang.org/en/news/2026/10/23/regexp-fixes-for-gitlab-cves/",
     "domain": "www.ruby-lang.org",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.ruby-lang.org/en/news/2026/10/23/regexp-fixes-for-gitlab-cves/",
     "screenshot": "https://www.ruby-lang.org/images/og-image.png",
     "description": "We have released Ruby 4.0.9, 3.4.12 and 3.3.13. They fix several bugs in Ruby’s regular expression engine (Onigmo) that GitLab found could be used for remote code execution on GitLab servers. GitLab published four CVEs for these issues, and the Ruby releases contain the fixes for the underlying b...",
     "hatenaDate": "2026-10-23T07:04:58Z",
     "users": [],
     "firstSeenAt": "2026-10-23T17:00:18.543189+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "佐川急便 流出した個人情報は最大5300万件超の可能性 | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261023de64285",
     "domain": "news.web.nhk",
-    "count": 37,
+    "count": 46,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261023de64285",
-    "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261023de64285/20261023de64285_E0000004046_1_l.jpg",
-    "description": "宅配大手の佐川急便は、今月、不正アクセスを受けて外部に流出したおそれがあると発表していた個人情報について、氏名、住所、それに電話番号など、最大で5323万件に上る可能性があると明らかにしました。 対…",
+    "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261023de64285/20261023de64285_E0000103207_1_l.jpg",
+    "description": "宅配大手の佐川急便は、不正アクセスを受けて外部に流出したおそれがあると発表していた個人情報について、荷物の送り主と送り先の氏名や住所など、最大で5323万件に上る可能性があると明らかにしました。 会…",
     "hatenaDate": "2026-10-23T07:16:43Z",
     "users": [],
     "firstSeenAt": "2026-10-23T16:30:14.840167+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "日経新聞への不正アクセスで日経BPの利用者情報も約80万件漏えい　テレ東などにも影響か",
     "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002544/",
     "domain": "www.itmedia.co.jp",
-    "count": 16,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/23/2000002544/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/23/2000002544/10010270/2048",
     "description": "日経BPは10月21日、日本経済新聞社が16日に発表した同社システムへの不正アクセスによる183万件の個人情報漏えいで、日経BPのサービス利用者の情報が、現時点で約80万件含まれていることが分かったと発表した。 うち約5万件は、氏名、メールアドレス、住所、電話番号、生年月日のいずれかを含む。残る約75万件は個人を特...",
     "hatenaDate": "2026-10-23T06:17:50Z",
     "users": [],
     "firstSeenAt": "2026-10-23T16:00:13.909924+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "【AV Watchアワード】LG OLEDは驚異的な色精度！ΔE=0.35～測定データすべて見せます「G6」編",
@@ -75,7 +88,7 @@
     "hatenaDate": "2026-10-23T01:33:37Z",
     "users": [],
     "firstSeenAt": "2026-10-23T15:45:12.930647+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "2秒で失った400万円　GMO系サービスで「意図しないFX取引」：朝日新聞",
@@ -107,14 +120,14 @@
     "title": "デジタル庁、公式サイトへの問い合わせ最大1万3000件漏えいか　Web制作ツール「Studio」不正アクセスで",
     "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002543/",
     "domain": "www.itmedia.co.jp",
-    "count": 16,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/23/2000002543/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/23/2000002543/10010267/2048",
     "description": "デジタル庁は10月22日、Webサイトの運営に一部利用していたノーコードWeb制作サービス「Studio」が不正アクセスを受けた影響で、個人情報が漏えいした可能性があると発表した。問い合わせフォームで受け付けた情報、最大1万3323件が対象という。 漏えいした可能性があるのは、2021年5月から23年3月までの間にフォームへ...",
     "hatenaDate": "2026-10-23T05:30:25Z",
     "users": [],
     "firstSeenAt": "2026-10-23T15:00:13.848102+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "若者の間で流行する「ホビ垢」とは？　実はホビーでもホビットでもない、“○○○する自分”が主役のSNSアカウント",
@@ -127,7 +140,7 @@
     "hatenaDate": "2026-10-22T23:13:58Z",
     "users": [],
     "firstSeenAt": "2026-10-23T14:45:13.617277+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "すいません、“新作”の撮影が始まっちゃいました【樋口真嗣の地獄の怪光線】",
@@ -153,7 +166,7 @@
     "hatenaDate": "2026-10-23T02:07:07Z",
     "users": [],
     "firstSeenAt": "2026-10-23T14:30:14.078902+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "扱いやすくなったローカル3Dモデル生成AI「Pixal3D」の設定と「Blender」による修正法【Blender ウォッチング】",
@@ -166,7 +179,7 @@
     "hatenaDate": "2026-10-22T09:48:52Z",
     "users": [],
     "firstSeenAt": "2026-10-23T14:15:14.020837+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "【PHPはオワコン】AIが書いたコードをなぜ信用できるのか？数学的証明で守る新しいサーバーサイド言語「QED Script」を作った",
@@ -179,7 +192,7 @@
     "hatenaDate": "2026-10-23T00:59:03Z",
     "users": [],
     "firstSeenAt": "2026-10-23T14:15:14.020837+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "DeepSeek V4.1 Flash 1017をUnsloth PRで試す。これはほんとに使える - きしだのHatena",
@@ -231,33 +244,33 @@
     "hatenaDate": "2026-10-23T00:32:06Z",
     "users": [],
     "firstSeenAt": "2026-10-23T12:30:15.539493+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "「お名前.com」 のFX自動売買VPS、不正アクセスで金銭被害か　「600万円の損失」「55万円なくなった」……報告相次ぐ",
     "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002532/",
     "domain": "www.itmedia.co.jp",
-    "count": 143,
+    "count": 146,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/23/2000002532/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/23/2000002532/10010243/2048",
     "description": "サービスを提供するGMOインターネットは10月22日、サーバ内に保存されていた取引口座のログイン情報などが第三者に取得され、不正に利用された可能性があると発表した。ユーザーに対し、口座のパスワードを至急変更し、ログオフ（セッションの切断）するよう求めている。サービスは全プランで停止中だ。 お名前.com デス...",
     "hatenaDate": "2026-10-23T00:31:25Z",
     "users": [],
     "firstSeenAt": "2026-10-23T11:30:15.866578+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "ジェフ・ベゾスだっておしっこする（なんならあなたより頻尿かもしれない） » p2ptk[.]org",
     "url": "https://p2ptk.org/monopoly/5643",
     "domain": "p2ptk.org",
-    "count": 72,
+    "count": 73,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/p2ptk.org/monopoly/5643",
     "screenshot": "https://p2ptk.org/wp-content/uploads/2026/10/15Sep2026_e.jpg",
     "description": "以下の文章は、コリイ・ドクトロウの「Everybody pees」という記事を翻訳したものである。 Pluralistic ジェフ・ベゾスと私は、まるで違う人間だ。まず、彼は書籍販売を独占して財を成したソシオパスの億万長者であり、私は本を書いている文無しの物書きにすぎない。彼は1964年生まれの62歳、私は1971年生まれの55歳であ...",
     "hatenaDate": "2026-10-22T19:15:41Z",
     "users": [],
     "firstSeenAt": "2026-10-23T11:15:09.410550+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "ウクライナ衛星制限 トランプ大統領「マスク氏が元に戻した」 | NHKニュース",
@@ -283,7 +296,7 @@
     "hatenaDate": "2026-10-23T00:31:01Z",
     "users": [],
     "firstSeenAt": "2026-10-23T10:45:09.281367+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "あなたのJava、いますぐアップデート、が必要か確認する - きしだのHatena",
@@ -296,7 +309,7 @@
     "hatenaDate": "2026-10-22T22:15:27Z",
     "users": [],
     "firstSeenAt": "2026-10-23T10:45:09.281367+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "お名前 .com デスクトップクラウドへの不正アクセスについてまとめてみた - piyolog",
@@ -315,14 +328,14 @@
     "title": "トランプ大統領、Googleに「大西洋」の改名を打診　ピチャイCEOが「大洋は勘弁を」と難色",
     "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002533/",
     "domain": "www.itmedia.co.jp",
-    "count": 128,
+    "count": 129,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/23/2000002533/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/23/2000002533/10010249/2048",
     "description": "トランプ氏は、対象となる大洋は大西洋と太平洋の2つだけだと前置きした上で、大西洋の改称を真剣に検討したと述べた。「湖の件で素晴らしい対応をしてくれた」というGoogleに電話し、ピチャイ氏と直接協議したことを明かした。トランプ氏によると、大西洋の変更に対応できるかと尋ねたところ、ピチャイ氏は「大洋は話が...",
     "hatenaDate": "2026-10-23T00:14:21Z",
     "users": [],
     "firstSeenAt": "2026-10-23T10:30:13.318352+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "Arc B390搭載で35B級LLMが動くSBC「LattePanda Sigma 2」",
@@ -354,14 +367,14 @@
     "title": "2000年代初頭、女性オタクの中にはHTML/CSSを手打ちして個人サイトを作る人もいたが、その審美眼が今やAIの利便性を前に溶けている印象がある",
     "url": "https://togetter.com/li/2761573",
     "domain": "togetter.com",
-    "count": 107,
+    "count": 108,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2761573",
     "screenshot": "https://s.tgstc.com/ogp3/ec12dde17b51606014c2ccddb7555aec-1200x630.jpeg",
     "description": "あ @5vVba77P0tjsDKS ホンマにガチでコレ真理だと断言したい。2000年代初頭、女性オタク層はみんなメモ帳でHTML/CSSを手打ちして個人サイトを作っていた。 あの情熱とスキルが当時「仕事」として評価されていれば、日本のIT人手不足はかなりマシだったはず。でも悲しいのは、当時テーブルレイアウトやCSSと格闘していた...",
     "hatenaDate": "2026-10-22T15:07:01Z",
     "users": [],
     "firstSeenAt": "2026-10-23T09:45:13.203794+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "「スーパーの冷蔵設備が50度に」フランスの店舗襲ったサイバー攻撃の正体　弱点だらけだったセキュリティ対策",
@@ -406,14 +419,14 @@
     "title": "eMudhraの中間CA証明書の秘密鍵の危殆化についてまとめてみた - piyolog",
     "url": "https://piyolog.hatenadiary.jp/entry/2026/10/23/021328",
     "domain": "piyolog.hatenadiary.jp",
-    "count": 147,
+    "count": 148,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/23/021328",
     "screenshot": "https://ogimage.blog.st-hatena.com/10257846132616586766/14945776032093731536/1792723646",
     "description": "2026年10月18日、Mozillaは、認証局eMudhraの中間CA証明書の秘密鍵が危殆化したインシデントをBugzillaに起票し、10月20日に公開しました。ここでは関連する情報をまとめます。 危殆化したのは中間CA8件 eMudhra(emSignブランドの認証局)の中間CA証明書のうち、TLS用6件とコード署名用2件の秘密鍵が、公開鍵から誰でも求...",
     "hatenaDate": "2026-10-22T20:51:20Z",
     "users": [],
     "firstSeenAt": "2026-10-23T08:30:13.613767+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "PHP欠陥でサイト止めた日本、止めなかった米国　脆弱性は8月に発見 - 日本経済新聞",
@@ -426,7 +439,7 @@
     "hatenaDate": "2026-10-22T22:15:14Z",
     "users": [],
     "firstSeenAt": "2026-10-23T08:15:07.343890+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "Oracle Javaに55件の脆弱性　IPAが「早急に適用を」と促す対象は",
@@ -452,20 +465,20 @@
     "hatenaDate": "2026-10-22T22:08:24Z",
     "users": [],
     "firstSeenAt": "2026-10-23T08:00:13.664514+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "上場企業の経営論点（1673〜2026年）",
     "url": "https://the-shashi.com/issue/",
     "domain": "the-shashi.com",
-    "count": 452,
+    "count": 457,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/the-shashi.com/issue/",
     "screenshot": "https://the-shashi.com/images/og-default.png",
     "description": "免責事項およびポリシー コンテンツの位置づけと正確性本サイトは有価証券報告書・IR資料・書籍・報道等の公開情報をもとに作成した 個人の分析・整理であり、当該企業および関係者の公式見解ではありません。記載内容の正確性・適時性は保証せず、提出後の訂正や最新の開示には 必ずしも追従していません。重要な判断に...",
     "hatenaDate": "2026-10-22T14:47:16Z",
     "users": [],
     "firstSeenAt": "2026-10-23T07:45:12.879906+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "【笠原一輝のユビキタス情報局】 NVIDIA参入で「2030年にArm CPUがPC市場の過半数」が現実味",
@@ -497,27 +510,27 @@
     "title": "PHPの脆弱性への対応に伴うメンテナンス完了と経緯のご報告 - ロリポップ！レンタルサーバー",
     "url": "https://lolipop.jp/info/news/8239/",
     "domain": "lolipop.jp",
-    "count": 69,
+    "count": 70,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/lolipop.jp/info/news/8239/",
     "screenshot": "https://lolipop.jp/img/common/ogimage.png",
     "description": "平素はロリポップをご利用いただき、誠にありがとうございます。 2026年10月21日(水)に公開されたPHPの重大な脆弱性（CVE-2026-109618 / CVE-2026-109619）への対応として実施しておりましたメンテナンスにつきまして、修正の適用が完了し、2026年10月22日(木) 13時頃にお客様のサイトの表示を再開いたしました。 公式の...",
     "hatenaDate": "2026-10-22T09:55:50Z",
     "users": [],
     "firstSeenAt": "2026-10-23T07:45:12.879906+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "PHP脆弱性でいち早くサービス停止したコドモン　背景に「被害が出てからでは取り消せない」",
     "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002528/",
     "domain": "www.itmedia.co.jp",
-    "count": 93,
+    "count": 94,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/22/2000002528/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/22/2000002528/10010226/2048",
     "description": "プログラミング言語「PHP」の脆弱性を巡り、各社が予防のためのサービス停止に踏み切る中、いち早く対応を表明した企業があった。それが、保育・教育施設向けITサービス「コドモン」を運営するコドモン（東京都港区）だ。同社は10月22日、ITmedia NEWSの取材に対し、21日からの全サービス停止はPHPの脆弱性2件の報告を受...",
     "hatenaDate": "2026-10-22T12:42:24Z",
     "users": [],
     "firstSeenAt": "2026-10-23T07:30:13.831432+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "デジタル庁、問い合わせフォーム入力情報1万3000件超が漏洩か - 日本経済新聞",
@@ -556,7 +569,7 @@
     "hatenaDate": "2026-10-22T14:21:11Z",
     "users": [],
     "firstSeenAt": "2026-10-23T07:15:12.705627+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "eMudhra to Exit global SSL/TLS Certificate Business",
@@ -601,14 +614,14 @@
     "title": "ログ検索体験から逆算するログ基盤設計",
     "url": "https://speakerdeck.com/hirosi1900day/rogu-kensaku-taiken-kara-gyakusan-suru-rogu-kiban-sekkei",
     "domain": "speakerdeck.com",
-    "count": 108,
+    "count": 109,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/hirosi1900day/rogu-kensaku-taiken-kara-gyakusan-suru-rogu-kiban-sekkei",
     "screenshot": "https://files.speakerdeck.com/presentations/fa43251e1644487191da02cf65c985a3/slide_0.jpg?40939136",
     "description": "tcpdump で追う Datastream 障害調査と Transit Gateway × VPN のリアーキテクチャ設計",
     "hatenaDate": "2026-10-22T13:10:31Z",
     "users": [],
     "firstSeenAt": "2026-10-23T06:15:14.319178+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "中国政府系集団がAI攻撃　米マイクロソフト確認（共同通信） - Yahoo!ニュース",
@@ -634,7 +647,7 @@
     "hatenaDate": "2026-10-22T14:41:54Z",
     "users": [],
     "firstSeenAt": "2026-10-23T06:00:14.417707+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "中国政府関係のハッカー集団が大規模サイバー攻撃、ＡＩで世界数百の企業・組織に…米マイクロソフトが記録で確認",
@@ -679,14 +692,14 @@
     "title": "デジタル庁HPの問い合わせ内容漏洩か　最大1万3000件以上",
     "url": "https://news.tv-asahi.co.jp/news_economy/articles/000542237.html",
     "domain": "news.tv-asahi.co.jp",
-    "count": 349,
+    "count": 350,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.tv-asahi.co.jp/news_economy/articles/000542237.html",
     "screenshot": "https://news.tv-asahi.co.jp/articles_img/000542237_1200.jpg",
     "description": "1 デジタル庁は22日夜、ホームページの問い合わせフォームに入力された内容など最大1万3000件余りが外部に流出した可能性があると発表しました。 デジタル庁によりますと、流出した可能性があるのは2021年5月から2023年3月までの間にホームページの問い合わせフォームに入力された「一般的なご意見・ご要望」最大8833件...",
     "hatenaDate": "2026-10-22T16:19:51Z",
     "users": [],
     "firstSeenAt": "2026-10-23T04:30:13.171226+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise | Microsoft Security Blog",
@@ -751,20 +764,20 @@
     "hatenaDate": "2026-10-22T15:13:42Z",
     "users": [],
     "firstSeenAt": "2026-10-23T01:45:13.800260+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "これがPHPの脆弱性を呟いてしまった人か。マジで全世界をデスマに叩き落とした人として後世に語り継がれると思う",
     "url": "https://posfie.com/@golden_haniwa/p/LQ90sis",
     "domain": "posfie.com",
-    "count": 416,
+    "count": 417,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@golden_haniwa/p/LQ90sis",
     "screenshot": "https://s.tgstc.com/ogp3/76d78bc47b443e300e0c4203f9abf42d-1200x630.jpeg",
     "description": "該当の人物が、パッチが公開される前に、PHPのクリティカルな未修正脆弱性の詳細やPoC（概念実証）をX上で公開してしまったからです。 この脆弱性は以下のものです CVE-2026-109618 と CVE-2026-109619 通称 PHP2Shell CVSS 9.2の未認証リモートコード実行（RCE） PHP本体のメモリ管理やリクエスト処理に関する欠陥で、...",
     "hatenaDate": "2026-10-22T03:54:28Z",
     "users": [],
     "firstSeenAt": "2026-10-23T01:45:13.800260+09:00",
-    "lastSeenAt": "2026-10-23T17:15:13.809670+09:00"
+    "lastSeenAt": "2026-10-23T17:30:12.895113+09:00"
   },
   {
     "title": "php2shell-zeros — surviving bugs in PHP's 2026-10-21 security releases",
@@ -3885,18 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-20T23:30:14.120269+09:00",
     "lastSeenAt": "2026-10-21T09:15:13.239173+09:00"
-  },
-  {
-    "title": "Introducing tsrs: a Port of TypeScript to Rust",
-    "url": "https://blog.cloudflare.com/typescript-rust-port/",
-    "domain": "blog.cloudflare.com",
-    "count": 34,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.cloudflare.com/typescript-rust-port/",
-    "screenshot": "https://blog.cloudflare.com/_emdash/api/media/file/01M5C82XAYSWX571T82A8AZRKS.png",
-    "description": "October 20, 2026Introducing tsrs: a Port of TypeScript to Rust Cloudflare and VoidZero are now working with Max Schwenk of Owner.com on tsrs, a Rust port of the TypeScript compiler. We are doing this work in close collaboration with the TypeScript team, and incubating tsrs as part of the Oxc Java...",
-    "hatenaDate": "2026-10-20T13:09:28Z",
-    "users": [],
-    "firstSeenAt": "2026-10-20T23:30:14.120269+09:00",
-    "lastSeenAt": "2026-10-21T10:36:38.756946+09:00"
   }
 ]
