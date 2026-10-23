@@ -1,42 +1,107 @@
 [
   {
+    "title": "「PHP2Shell」脆弱性公表後に悪用試行が数百万件単位に増加したとCloudflareが報告、顧客向けには新ファイアウォールを開発して有効化",
+    "url": "https://gigazine.net/news/20261023-cloudflare-stats-php2shell-attempts/",
+    "domain": "gigazine.net",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261023-cloudflare-stats-php2shell-attempts/",
+    "screenshot": "https://i.gzn.jp/img/2026/10/23/cloudflare-stats-php2shell-attempts/00.jpg",
+    "description": "世界の多くのウェブサイトやサービスで利用されているPHPに重大な脆弱性「PHP2Shell」が見つかり緊急アップデートが行われた一件で、公表前は数千件程度だった悪用試行が公表後は爆増し、公表から12時間ほどで数百万件という単位に増加していたことをCloudflareが報告しています。 Cloudflare deploys protections again...",
+    "hatenaDate": "2026-10-23T04:09:54Z",
+    "users": [],
+    "firstSeenAt": "2026-10-23T21:30:14.330068+09:00",
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
+  },
+  {
+    "title": "本来推測不可能な秘密鍵にわずか1バイトの値を使っていたeMudhraがSSL/TLS証明書事業から撤退",
+    "url": "https://gigazine.net/news/20261023-emudhra-exit-ssl-tls/",
+    "domain": "gigazine.net",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261023-emudhra-exit-ssl-tls/",
+    "screenshot": "https://i.gzn.jp/img/2026/10/23/emudhra-exit-ssl-tls/00.png",
+    "description": "インドのデジタルセキュリティ企業「eMudhra」が2026年10月22日に世界向けのSSL/TLS証明書事業から撤退すると発表しました。eMudhraでは8件の中間認証局の秘密鍵が簡単に推測できる状態だったことが発覚しており、GoogleやMozillaなどが問題のある証明書を無効化する措置を講じていました。 eMudhra to Exit global SSL/...",
+    "hatenaDate": "2026-10-23T03:31:17Z",
+    "users": [],
+    "firstSeenAt": "2026-10-23T21:30:14.330068+09:00",
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
+  },
+  {
+    "title": "テスラ車が自動運転中に高速道路で男性をはねて死亡させる",
+    "url": "https://gigazine.net/news/20261023-tesla-driver-fatally-struck-man-self-driving/",
+    "domain": "gigazine.net",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261023-tesla-driver-fatally-struck-man-self-driving/",
+    "screenshot": "https://i.gzn.jp/img/2026/10/23/tesla-driver-fatally-struck-man-self-driving/00_m.jpg",
+    "description": "2026年10月22日(木)の2時30分頃、アメリカ・カリフォルニア州ヴァホーレの州間高速道路80号線を横断していた71歳の男性が、テスラの自動運転機能である「Full Self-Driving(FSD：完全自動運転)」を使用して走行していたテスラ車にはねられて死亡しました。 Tesla driver who fatally struck man says car was in self-dr...",
+    "hatenaDate": "2026-10-23T02:58:33Z",
+    "users": [],
+    "firstSeenAt": "2026-10-23T21:30:14.330068+09:00",
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
+  },
+  {
+    "title": "AIをCPU/GPU/NPUを使ってWindows ML上で動作可能となった「AnythingLLM」を試す【使ってわかるAI PC】",
+    "url": "https://forest.watch.impress.co.jp/docs/serial/usecopilotpc/2150397.html",
+    "domain": "forest.watch.impress.co.jp",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/serial/usecopilotpc/2150397.html",
+    "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2150/397/06.png",
+    "description": null,
+    "hatenaDate": "2026-10-23T09:52:45Z",
+    "users": [],
+    "firstSeenAt": "2026-10-23T21:30:14.330068+09:00",
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
+  },
+  {
+    "title": "iPhone Duo、1万回を超えるヒンジの開閉で生じた結果とは？ 海外YouTuberが動画を公開【やじうまWatch】",
+    "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2150602.html",
+    "domain": "internet.watch.impress.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/yajiuma/2150602.html",
+    "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2150/602/yajiuma-watch_1.png",
+    "description": null,
+    "hatenaDate": "2026-10-23T03:06:15Z",
+    "users": [],
+    "firstSeenAt": "2026-10-23T21:30:14.330068+09:00",
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
+  },
+  {
     "title": "LLMs are making formal software verification feasible at a much larger scale",
     "url": "https://www.anthropic.com/research/formal-verification",
     "domain": "www.anthropic.com",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.anthropic.com/research/formal-verification",
     "screenshot": "https://www-cdn.anthropic.com/images/4zrzovbb/website/80cf520cb540989c3643907f004b2514ec4d01f1-1200x630.jpg",
     "description": "Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal Evyatar Ben Asher, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai Zeldovich Nicholas Carlini, Rajashree Agrawal, Jason Gross Most software is riddled with bugs, which AI can now easily find an...",
     "hatenaDate": "2026-10-23T02:02:59Z",
     "users": [],
     "firstSeenAt": "2026-10-23T20:45:14.448521+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "パナソニックHD、利用禁止の生成AIに従業員らの情報送出　33万人分 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUF237Z60T21C26A0000000/",
     "domain": "www.nikkei.com",
-    "count": 33,
+    "count": 49,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUF237Z60T21C26A0000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3774255023102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=c9797d1ead61e50bbe38010666ce6f4a",
     "description": "パナソニックホールディングス（HD）は23日、社内で利用が禁止されている外部の生成AI（人工知能）サービスに同社グループの従業員やその家族らの個人情報約33万人分が送出されたと発表した。不正アクセスではなく、特定の従業員が社内ルールに反し情報を生成AIにアップロードしたことによるものだという。子会社と人事...",
     "hatenaDate": "2026-10-23T10:56:07Z",
     "users": [],
     "firstSeenAt": "2026-10-23T20:30:13.247390+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "3メガバンク、免許証での本人確認を廃止　前倒しで不正対策 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUB224DA0S6A021C2000000/",
     "domain": "www.nikkei.com",
-    "count": 10,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUB224DA0S6A021C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3765936022102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=732aa4998a86b5615955702a434e4eb5",
     "description": "3メガバンクは23日までに、運転免許証の顔写真による本人確認を廃止した。オンラインでの口座開設が対象で、マイナンバーカードなどのICチップを読み取る方式に切り替える。不正アクセスによる個人情報の流出が相次ぐ。2027年4月の法改正を待たず対策を前倒しする。三井住友銀行は23日、スマートフォンなどを使ったイン...",
     "hatenaDate": "2026-10-23T07:25:39Z",
     "users": [],
     "firstSeenAt": "2026-10-23T20:30:13.247390+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "エージェントを使い続けるためのメタワーク / Meta-work for keeping using the agent",
@@ -62,20 +127,20 @@
     "hatenaDate": "2026-10-23T07:09:28Z",
     "users": [],
     "firstSeenAt": "2026-10-23T20:00:14.520814+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "多くのAIが「人間はひとりで正しくあるより、みんなで間違っている方を選ぶ」という考えを持っている",
     "url": "https://gigazine.net/news/20261023-every-ai-model-controversial-humans/",
     "domain": "gigazine.net",
-    "count": 9,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261023-every-ai-model-controversial-humans/",
     "screenshot": "https://i.gzn.jp/img/2026/10/23/every-ai-model-controversial-humans/00.png",
     "description": "AIモデルのコストおよび性能を比較できるウェブサービスのModelCompareが、すべてのAIは「人間はひとりで正しくあるより、みんなで間違っている方を選ぶ」という考えを持っていると指摘しています。 Every AI model has the same “controversial” take on humans | ModelCompare https://www.modelcompare.ai/blog/ai-mo...",
     "hatenaDate": "2026-10-23T05:39:50Z",
     "users": [],
     "firstSeenAt": "2026-10-23T19:45:13.613425+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "タイムズカーWebシステムへの不正アクセスによる個人情報漏えいに関するご報告と今後の対応について（タイムズカーWebシステムへの不正アクセスによる情報漏えい関連・第5報）｜パーク２４株式会社",
@@ -94,40 +159,40 @@
     "title": "PHP2Shellへの対応を振り返って - コドモン Product Team Blog",
     "url": "https://tech.codmon.com/entry/2026/10/23/173909",
     "domain": "tech.codmon.com",
-    "count": 67,
+    "count": 72,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.codmon.com/entry/2026/10/23/173909",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/3374a9d3da1d9da1a4fd88d107e3f9a412427ed1/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fj%2Fjsoizo%2F20261023%2F20261023173429.png",
     "description": "はじめに コドモンでプロダクト開発部長を務めております、松浦です。 2026年10月21日、PHPの脆弱性（通称「PHP2Shell」）への対策として、コドモンのサービスを日中に一時停止しました。 施設の先生方、保護者の皆さま、自治体や販売代理店の皆さまには、十分な事前のご案内ができないまま、長い時間にわたりご不便をお...",
     "hatenaDate": "2026-10-23T09:00:03Z",
     "users": [],
     "firstSeenAt": "2026-10-23T19:00:13.706051+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "「タイムズカーWebシステム」への不正アクセスによる個人情報漏えいに関するご報告と今後の対応について（第5報） | カーシェアリングのタイムズカー",
     "url": "https://share.timescar.jp/news/2026/1023/1825.html",
     "domain": "share.timescar.jp",
-    "count": 29,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/share.timescar.jp/news/2026/1023/1825.html",
     "screenshot": null,
     "description": "このたび、当社グループが運営するタイムズカーのWebシステムに対する第三者による不正アクセスにより、お客様情報の漏えい（本事案）が確認されました。 お客様をはじめ、関係者の皆様に多大なるご迷惑とご心配をお掛けしておりますことを、心より深くお詫び申し上げます。 当社は本事案を重大な問題と受け止め、外部専...",
     "hatenaDate": "2026-10-23T08:21:34Z",
     "users": [],
     "firstSeenAt": "2026-10-23T19:00:13.706051+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "【重要】第三者によるログインの恐れと今後の対応について",
     "url": "https://blog.syosetu.com/article/view/article_id/5278/",
     "domain": "blog.syosetu.com",
-    "count": 29,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.syosetu.com/article/view/article_id/5278/",
     "screenshot": "https://blog.syosetu.com/view/images/ogp/blog_article.png",
     "description": "いつも小説家になろうグループをご利用いただき、誠にありがとうございます。 この度、小説家になろうグループの一部のアカウントに対し、登録ユーザ様ご本人ではない第三者によるログインが行われていた可能性があることを確認いたしました。 調査の結果、第三者が外部で不正に取得したログイン情報等を用い、ログイン...",
     "hatenaDate": "2026-10-23T09:32:32Z",
     "users": [],
     "firstSeenAt": "2026-10-23T19:00:13.706051+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "GMO FX取引のサーバーに不正アクセス 口座で不正操作の相談も | NHKニュース",
@@ -146,14 +211,14 @@
     "title": "「Ruby」の正規表現エンジン「Onigmo」にリモートコード実行の問題、セキュリティ更新を実施／v4.0.9、v3.4.12、v3.3.13が公開。「GitLab」で発見される",
     "url": "https://forest.watch.impress.co.jp/docs/news/2150800.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 20,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2150800.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2150/800/ruby.jpg",
     "description": null,
     "hatenaDate": "2026-10-23T08:55:09Z",
     "users": [],
     "firstSeenAt": "2026-10-23T19:00:13.706051+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "タイムズカー、免許証流出で1人3000円の見舞金　約146万件に外部送信の痕跡",
@@ -166,7 +231,7 @@
     "hatenaDate": "2026-10-23T08:32:56Z",
     "users": [],
     "firstSeenAt": "2026-10-23T18:45:13.272093+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "AmazonはPHP2Shell脆弱性を悪用した攻撃を公開4日前に検出していた",
@@ -224,14 +289,14 @@
     "title": "佐川への不正アクセス、最大5323万件の個人情報流出か　9月末のサイバー攻撃で続報",
     "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002553/",
     "domain": "www.itmedia.co.jp",
-    "count": 27,
+    "count": 28,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/23/2000002553/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/23/2000002553/10010304/2048",
     "description": "佐川急便は10月23日、9月30日に公表した「お荷物問い合わせサービス」への不正アクセスについて、最大約5323万件の個人情報が外部に流出した可能性があると明らかにした。10月1日には個人情報流出の可能性を発表していたが、今回の第5報で対象件数が判明。あわせて、停止していた荷物追跡サービスも23日に再開した。 流...",
     "hatenaDate": "2026-10-23T08:41:13Z",
     "users": [],
     "firstSeenAt": "2026-10-23T18:15:13.521854+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "古いPCが最新の大作ゲームが遊べるPCに生まれ変わる！「GeForce NOW」でGeForce RTX 5080を使ってみよう[Sponsored]",
@@ -263,14 +328,14 @@
     "title": "タイムズカー免許証画像流出、「お見舞い」1人3000円　146万人が対象 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC231CP0T21C26A0000000/",
     "domain": "www.nikkei.com",
-    "count": 155,
+    "count": 165,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC231CP0T21C26A0000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3769743023102026000000-2.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=7cb89ee03215fe0ddc0749f7e58887a0",
     "description": "パーク24は23日、カーシェアサービス「タイムズカー」の不正アクセスによる個人情報流出を受け、免許証などの本人確認書類の画像データが外部送信されたとみられる被害者に1人3000円を「お見舞い」として支払うと発表した。のべ146万人あまりが対象となり、総額は単純計算で約44億円となる見込み。タイムズカーでは9月に...",
     "hatenaDate": "2026-10-23T08:20:32Z",
     "users": [],
     "firstSeenAt": "2026-10-23T17:45:12.301512+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "生成AIの画像、そこまで細かく指示していません。ボクが画像補正で大切にしていること - Quadro Diary 生成AI 過去日記",
@@ -289,14 +354,14 @@
     "title": "1000万のWebサイトで「生きたAPIキー」が大量に“丸見え”状態？　大手銀行やインフラの鍵も　米スタンフォード大などが調査",
     "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002515/",
     "domain": "www.itmedia.co.jp",
-    "count": 27,
+    "count": 28,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/23/2000002515/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/23/2000002515/10010188/2048",
     "description": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shi...",
     "hatenaDate": "2026-10-23T03:05:07Z",
     "users": [],
     "firstSeenAt": "2026-10-23T17:45:12.301512+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "「660万件流出」判明の3日前、タイムズカーは何を伝えた？　企業の命運を分ける「初報の鉄則」",
@@ -315,40 +380,40 @@
     "title": "PHPの脆弱性をHacker Newsにリークした人物が「秘密だと知らなかった」と謝罪",
     "url": "https://gigazine.net/news/20261023-php-rce-unknowingly/",
     "domain": "gigazine.net",
-    "count": 28,
+    "count": 29,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261023-php-rce-unknowingly/",
     "screenshot": "https://i.gzn.jp/img/2026/10/23/php-rce-unknowingly/00.jpg",
     "description": "ウェブサイトやウェブアプリの開発に広く使われているプログラミング言語「PHP」に深刻な脆弱(ぜいじゃく)性が見つかったことで、日本時間の2026年10月21日23時にセキュリティ更新プログラムおよび詳細情報が公開されることがアナウンスされ、多くのウェブサイトやサービスが緊急メンテナンス入りする騒動に発展しました...",
     "hatenaDate": "2026-10-23T04:19:23Z",
     "users": [],
     "firstSeenAt": "2026-10-23T17:00:18.543189+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "Regexp compilation fixes related to GitLab's CVE-2026-89078, CVE-2026-93577, CVE-2026-97229 and CVE-2026-110264 | Ruby",
     "url": "https://www.ruby-lang.org/en/news/2026/10/23/regexp-fixes-for-gitlab-cves/",
     "domain": "www.ruby-lang.org",
-    "count": 17,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.ruby-lang.org/en/news/2026/10/23/regexp-fixes-for-gitlab-cves/",
     "screenshot": "https://www.ruby-lang.org/images/og-image.png",
     "description": "We have released Ruby 4.0.9, 3.4.12 and 3.3.13. They fix several bugs in Ruby’s regular expression engine (Onigmo) that GitLab found could be used for remote code execution on GitLab servers. GitLab published four CVEs for these issues, and the Ruby releases contain the fixes for the underlying b...",
     "hatenaDate": "2026-10-23T07:04:58Z",
     "users": [],
     "firstSeenAt": "2026-10-23T17:00:18.543189+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "佐川急便 流出した個人情報は最大5300万件超の可能性 | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261023de64285",
     "domain": "news.web.nhk",
-    "count": 152,
+    "count": 160,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261023de64285",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261023de64285/20261023de64285_E0000103207_1_l.jpg",
     "description": "宅配大手の佐川急便は、不正アクセスを受けて外部に流出したおそれがあると発表していた個人情報について、荷物の送り主と送り先の氏名や住所など、最大で5323万件に上る可能性があると明らかにしました。 会…",
     "hatenaDate": "2026-10-23T07:16:43Z",
     "users": [],
     "firstSeenAt": "2026-10-23T16:30:14.840167+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "日経新聞への不正アクセスで日経BPの利用者情報も約80万件漏えい　テレ東などにも影響か",
@@ -465,7 +530,7 @@
     "hatenaDate": "2026-10-23T02:07:07Z",
     "users": [],
     "firstSeenAt": "2026-10-23T14:30:14.078902+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "扱いやすくなったローカル3Dモデル生成AI「Pixal3D」の設定と「Blender」による修正法【Blender ウォッチング】",
@@ -549,27 +614,27 @@
     "title": "「お名前.com」 のFX自動売買VPS、不正アクセスで金銭被害か　「600万円の損失」「55万円なくなった」……報告相次ぐ",
     "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002532/",
     "domain": "www.itmedia.co.jp",
-    "count": 181,
+    "count": 184,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/23/2000002532/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/23/2000002532/10010243/2048",
     "description": "サービスを提供するGMOインターネットは10月22日、サーバ内に保存されていた取引口座のログイン情報などが第三者に取得され、不正に利用された可能性があると発表した。ユーザーに対し、口座のパスワードを至急変更し、ログオフ（セッションの切断）するよう求めている。サービスは全プランで停止中だ。 お名前.com デス...",
     "hatenaDate": "2026-10-23T00:31:25Z",
     "users": [],
     "firstSeenAt": "2026-10-23T11:30:15.866578+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "ジェフ・ベゾスだっておしっこする（なんならあなたより頻尿かもしれない） » p2ptk[.]org",
     "url": "https://p2ptk.org/monopoly/5643",
     "domain": "p2ptk.org",
-    "count": 93,
+    "count": 94,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/p2ptk.org/monopoly/5643",
     "screenshot": "https://p2ptk.org/wp-content/uploads/2026/10/15Sep2026_e.jpg",
     "description": "以下の文章は、コリイ・ドクトロウの「Everybody pees」という記事を翻訳したものである。 Pluralistic ジェフ・ベゾスと私は、まるで違う人間だ。まず、彼は書籍販売を独占して財を成したソシオパスの億万長者であり、私は本を書いている文無しの物書きにすぎない。彼は1964年生まれの62歳、私は1971年生まれの55歳であ...",
     "hatenaDate": "2026-10-22T19:15:41Z",
     "users": [],
     "firstSeenAt": "2026-10-23T11:15:09.410550+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "ウクライナ衛星制限 トランプ大統領「マスク氏が元に戻した」 | NHKニュース",
@@ -601,14 +666,14 @@
     "title": "あなたのJava、いますぐアップデート、が必要か確認する - きしだのHatena",
     "url": "https://nowokay.hatenablog.com/entry/2026/10/23/035709",
     "domain": "nowokay.hatenablog.com",
-    "count": 79,
+    "count": 80,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/nowokay.hatenablog.com/entry/2026/10/23/035709",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/c19c7fd1a63a1353736adac6e50758e1680e01f7/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fn%2Fnowokay%2F20261023%2F20261023031019.png",
     "description": "eMudhraという認証局の中間証明書の秘密鍵が8ビットしか有効じゃなく偽造放題ということで、これらの中間証明書を無効にする必要があります。じゃないと偽物のサイトに接続してしまう可能性があります。 eMudhraの中間CAの秘密鍵が公開された証明書から復元可能と判明、pip・uvなどの開発ツールに修正版 | gihyo.jp で、...",
     "hatenaDate": "2026-10-22T22:15:27Z",
     "users": [],
     "firstSeenAt": "2026-10-23T10:45:09.281367+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "お名前 .com デスクトップクラウドへの不正アクセスについてまとめてみた - piyolog",
@@ -634,7 +699,7 @@
     "hatenaDate": "2026-10-23T00:14:21Z",
     "users": [],
     "firstSeenAt": "2026-10-23T10:30:13.318352+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "Arc B390搭載で35B級LLMが動くSBC「LattePanda Sigma 2」",
@@ -666,14 +731,14 @@
     "title": "2000年代初頭、女性オタクの中にはHTML/CSSを手打ちして個人サイトを作る人もいたが、その審美眼が今やAIの利便性を前に溶けている印象がある",
     "url": "https://togetter.com/li/2761573",
     "domain": "togetter.com",
-    "count": 114,
+    "count": 115,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2761573",
     "screenshot": "https://s.tgstc.com/ogp3/ec12dde17b51606014c2ccddb7555aec-1200x630.jpeg",
     "description": "あ @5vVba77P0tjsDKS ホンマにガチでコレ真理だと断言したい。2000年代初頭、女性オタク層はみんなメモ帳でHTML/CSSを手打ちして個人サイトを作っていた。 あの情熱とスキルが当時「仕事」として評価されていれば、日本のIT人手不足はかなりマシだったはず。でも悲しいのは、当時テーブルレイアウトやCSSと格闘していた...",
     "hatenaDate": "2026-10-22T15:07:01Z",
     "users": [],
     "firstSeenAt": "2026-10-23T09:45:13.203794+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "「スーパーの冷蔵設備が50度に」フランスの店舗襲ったサイバー攻撃の正体　弱点だらけだったセキュリティ対策",
@@ -725,20 +790,20 @@
     "hatenaDate": "2026-10-22T20:51:20Z",
     "users": [],
     "firstSeenAt": "2026-10-23T08:30:13.613767+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "PHP欠陥でサイト止めた日本、止めなかった米国　脆弱性は8月に発見 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOGN22C6A0S6A021C2000000/",
     "domain": "www.nikkei.com",
-    "count": 163,
+    "count": 164,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN22C6A0S6A021C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3768824022102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=84c1db6a7be2fd386285ec404210fa81",
     "description": "【シリコンバレー=伴正春、ニューヨーク=西邨紘子】プログラム言語「PHP」で見つかった欠陥を受け、多くの日本企業がウェブサイトを一時停止した。一方、震源地の米国ではサイトを継続する企業が大半だった。先端技術を持つテック企業が政府と綿密に連携して対応した防衛体制の違いも大きい。クラウド最大手アマゾン、顧...",
     "hatenaDate": "2026-10-22T22:15:14Z",
     "users": [],
     "firstSeenAt": "2026-10-23T08:15:07.343890+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "Oracle Javaに55件の脆弱性　IPAが「早急に適用を」と促す対象は",
@@ -770,14 +835,14 @@
     "title": "上場企業の経営論点（1673〜2026年）",
     "url": "https://the-shashi.com/issue/",
     "domain": "the-shashi.com",
-    "count": 539,
+    "count": 543,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/the-shashi.com/issue/",
     "screenshot": "https://the-shashi.com/images/og-default.png",
     "description": "免責事項およびポリシー コンテンツの位置づけと正確性本サイトは有価証券報告書・IR資料・書籍・報道等の公開情報をもとに作成した 個人の分析・整理であり、当該企業および関係者の公式見解ではありません。記載内容の正確性・適時性は保証せず、提出後の訂正や最新の開示には 必ずしも追従していません。重要な判断に...",
     "hatenaDate": "2026-10-22T14:47:16Z",
     "users": [],
     "firstSeenAt": "2026-10-23T07:45:12.879906+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
   },
   {
     "title": "【笠原一輝のユビキタス情報局】 NVIDIA参入で「2030年にArm CPUがPC市場の過半数」が現実味",
@@ -3833,70 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-21T10:15:15.950961+09:00",
     "lastSeenAt": "2026-10-21T22:15:13.751165+09:00"
-  },
-  {
-    "title": "“PayPay追撃”ではなく「Suicaの価値向上」──新決済「teppay」の意義や狙いを聞いた",
-    "url": "https://www.itmedia.co.jp/mobile/articles/2610/20/news065.html",
-    "domain": "www.itmedia.co.jp",
-    "count": 11,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2610/20/news065.html",
-    "screenshot": "https://image.itmedia.co.jp/mobile/articles/2610/20/cover_news065.jpg",
-    "description": "同日サービスイン直前に、芸人シソンヌの長谷川忍さんらが出演する新CMを都内で公開し、ニュウマン高輪で決済体験会を実施。その後、JR東日本 マーケティング戦略部 Suica・決済基盤構築ユニット 決済・金融事業部長 高松奈帆人氏が報道陣の囲み取材に応じた。 ここでは、その囲み取材で分かったことを中心に、PayPayな...",
-    "hatenaDate": "2026-10-20T06:24:29Z",
-    "users": [],
-    "firstSeenAt": "2026-10-21T10:00:13.725569+09:00",
-    "lastSeenAt": "2026-10-21T12:30:15.613437+09:00"
-  },
-  {
-    "title": "「お名前.com デスクトップクラウド」不正プログラム設置で全プラン停止　FX用VPS、2万6739サーバに影響か",
-    "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002442/",
-    "domain": "www.itmedia.co.jp",
-    "count": 69,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/21/2000002442/",
-    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/21/2000002442/10009975/2048",
-    "description": "お名前.com デスクトップクラウドは、FXの自動売買ソフト（「MetaTrader 4」「MetaTrader 5」など）を、自宅のPCを使わずにクラウド上のサーバで24時間動かし続けるためのサービス。月額2640円から利用でき、契約実績は累計20万以上という。 同社は10月20日、不正なプログラムが設置されたことを確認。サーバ内に保管さ...",
-    "hatenaDate": "2026-10-20T23:41:28Z",
-    "users": [],
-    "firstSeenAt": "2026-10-21T09:30:12.930046+09:00",
-    "lastSeenAt": "2026-10-21T19:15:13.138149+09:00"
-  },
-  {
-    "title": "「来週から週休3日」AI活用迫る劇薬　ゲーム開発人員30分の1に - 日本経済新聞",
-    "url": "https://www.nikkei.com/article/DGXZQOUC154FP0V10C26A9000000/",
-    "domain": "www.nikkei.com",
-    "count": 19,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC154FP0V10C26A9000000/",
-    "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3732637015102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.76&fp-y=0.31&h=630&w=1200&s=10557cc1660f991db80f3e4d5f9e4f1a",
-    "description": "ゲーム開発を手掛けるスタートアップのSpiralAI（スパイラルAI、東京・千代田）が人工知能（AI）導入で開発人員を30分の1に減らした。複数のAIを協調させて人間は管理職に専念する手法が効果を発揮した。大幅な開発体制刷新では週休3日制の導入もカギとなった。「きのう頼んでおいた仕事は終わった？」。ゲーム開発ディ...",
-    "hatenaDate": "2026-10-20T22:32:15Z",
-    "users": [],
-    "firstSeenAt": "2026-10-21T09:30:12.930046+09:00",
-    "lastSeenAt": "2026-10-21T14:00:14.703361+09:00"
-  },
-  {
-    "title": "Announcing TypeScript 7.1 Beta - TypeScript",
-    "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/",
-    "domain": "devblogs.microsoft.com",
-    "count": 7,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/",
-    "screenshot": "https://devblogs.microsoft.com/typescript/wp-content/uploads/sites/11/2026/10/ts7-1-beta-1.png",
-    "description": "Today we’re excited to announce the beta release of TypeScript 7.1! npm install -D typescript@beta Let’s take a look at what’s new in TypeScript 7.1! Support for Import Attributes in Ambient Modules Import attributes are metadata that are attached to import statements. Typically, they’re meant to...",
-    "hatenaDate": "2026-10-20T18:25:26Z",
-    "users": [],
-    "firstSeenAt": "2026-10-21T09:30:12.930046+09:00",
-    "lastSeenAt": "2026-10-21T12:15:14.961038+09:00"
-  },
-  {
-    "title": "バイブコーディングを6週間続けたら、Mac の起動が20分かかるようになった",
-    "url": "https://zenn.dev/singularity/articles/vibe-coding-mac-boot-20min",
-    "domain": "zenn.dev",
-    "count": 214,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/singularity/articles/vibe-coding-mac-boot-20min",
-    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--mMV_0sQy--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2596%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%25926%25E9%2580%25B1%25E9%2596%2593%25E7%25B6%259A%25E3%2581%2591%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581Mac%2520%25E3%2581%25AE%25E8%25B5%25B7%25E5%258B%2595%25E3%2581%258C20%25E5%2588%2586%25E3%2581%258B%25E3%2581%258B%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Isamu%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZiNjM5MTg4YzEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B7%25E3%2583%25B3%25E3%2582%25AE%25E3%2583%25A5%25E3%2583%25A9%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2583%25BB%25E3%2582%25BD%25E3%2582%25B5%25E3%2582%25A8%25E3%2583%2586%25E3%2582%25A3%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2g3ODg4Mk5lcU4xYUxYZWxhbjZ5TDYzUVBVdGs3MjQ0aGs0QjdBdWc9czI1MC1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-    "description": "Mac が落ちました。 ファイルまわりの負荷がじわじわ溜まって、最後は反応しなくなって、落ちた。そこまではまあ、たまにあります。問題はそのあとでした。 起動しないのです。 電源を入れて、FileVault のパスワードを入れる。進捗バーが出る。2割くらいまで進む。そこで止まる。5分待っても、10分待っても動かない。 M...",
-    "hatenaDate": "2026-10-20T23:13:30Z",
-    "users": [],
-    "firstSeenAt": "2026-10-21T09:30:12.930046+09:00",
-    "lastSeenAt": "2026-10-22T00:30:17.372806+09:00"
   }
 ]
