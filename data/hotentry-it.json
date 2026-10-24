@@ -3,27 +3,27 @@
     "title": "Building agents: When to fold subagents into your main agent loop",
     "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
     "domain": "claude.com",
-    "count": 10,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
     "screenshot": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop/opengraph-image/og",
     "description": "Building agents: When to fold subagents into your main agent loop When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate. If you’ve built an agent in C...",
     "hatenaDate": "2026-10-24T04:26:57Z",
     "users": [],
     "firstSeenAt": "2026-10-24T22:15:12.964061+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "家族の代理で薬を貰いに行ったら、「ご本人のマイナンバーカードを提出して暗証番号をお願いします」と言われ、本人以外に要求することを疑問視した投稿が波紋を呼ぶ",
     "url": "https://togetter.com/li/2762295",
     "domain": "togetter.com",
-    "count": 7,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2762295",
     "screenshot": "https://s.tgstc.com/ogp3/e5aee021cecd41cf4bf336a300d2a329-1200x630.jpeg",
     "description": "J@改め　天狗 神 / Amatsu Jin @jin_amatsu 家族の代理で薬を貰いに行った。 「ご本人のマイナンバーカードを提出して暗証番号をお願いします」 と言われたが、これ、法律違反ですよね？ 医療業界ではコレが普通なのか？ 金融業界に身を置く私から言わせれば、とんでもない失態だぞ？ もちろん指摘したが。 そこんとこ、...",
     "hatenaDate": "2026-10-24T09:57:36Z",
     "users": [],
     "firstSeenAt": "2026-10-24T22:15:12.964061+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "1000万のWebサイトで「生きたAPIキー」が大量に“丸見え”状態？　大手銀行やインフラの鍵も　米スタンフォード大などが調査（ITmedia NEWS） - Yahoo!ニュース",
@@ -36,7 +36,7 @@
     "hatenaDate": "2026-10-24T02:11:54Z",
     "users": [],
     "firstSeenAt": "2026-10-24T21:45:11.691803+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "AI悪用の保険金不正増加　車写真加工で事故偽装（共同通信） - Yahoo!ニュース",
@@ -49,7 +49,7 @@
     "hatenaDate": "2026-10-24T03:20:58Z",
     "users": [],
     "firstSeenAt": "2026-10-24T21:45:11.691803+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "How close can pure FP get to C?",
@@ -62,7 +62,7 @@
     "hatenaDate": "2026-10-23T16:10:21Z",
     "users": [],
     "firstSeenAt": "2026-10-24T21:45:11.691803+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "ダイソーで1100円の「USB Type-C to HDMIケーブル」でスマホの画面をテレビに映すとどうなる？　対応機種なら試してみる価値あり",
@@ -75,46 +75,46 @@
     "hatenaDate": "2026-10-24T02:12:29Z",
     "users": [],
     "firstSeenAt": "2026-10-24T21:30:13.126273+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "C言語を置き換える言語はどうあるべきか | 雑記帳",
     "url": "https://blog.miz-ar.info/2026/10/replacing-c-language/",
     "domain": "blog.miz-ar.info",
-    "count": 7,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.miz-ar.info/2026/10/replacing-c-language/",
     "screenshot": null,
     "description": "C言語は今でも重要な言語ではあるが、安全性に欠けるのは周知の通りである。「C言語よりも安全である」と謳うプログラミング言語はいくらでもあるが、その実装には何らかの形でC言語が使われていることが多い（Goあたりは例外かもしれない）。Python、PHPやRubyの「中」が安全でも、「基礎」にC言語で書かれた部分があっ...",
     "hatenaDate": "2026-10-23T14:58:02Z",
     "users": [],
     "firstSeenAt": "2026-10-24T21:30:13.126273+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "Ruby で任意のユーザー入力を渡してはいけないメソッド - @znz blog",
     "url": "https://blog.n-z.jp/blog/2026-10-09-ruby-insecure-methods.html",
     "domain": "blog.n-z.jp",
-    "count": 11,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.n-z.jp/blog/2026-10-09-ruby-insecure-methods.html",
     "screenshot": null,
     "description": "「Ruby」の正規表現エンジン「Onigmo」にリモートコード実行の問題、セキュリティ更新を実施 - 窓の杜 のように Ruby 本体としては、そこに任意のユーザー入力を渡しているのはプログラム側の問題で Ruby 本体の脆弱性としては扱わない、 という方針になっているメソッドがあるので、思い付く限り列挙してみます。 eval ...",
     "hatenaDate": "2026-10-24T04:02:12Z",
     "users": [],
     "firstSeenAt": "2026-10-24T21:00:12.590390+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "社内SEがAIでやらかして職場が阿鼻叫喚の地獄絵図に陥った",
     "url": "https://anond.hatelabo.jp/20261024120028",
     "domain": "anond.hatelabo.jp",
-    "count": 16,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261024120028",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "ガチで社内が阿鼻叫喚の地獄絵図になっていた。 理由はここ最近騒がせてるPHPの脆弱性ではない。 我が社でもAIを業務支援に導入するっていう話を、協力にIT部門の社内SEのおっさん…まあ俺は結構仲がよかったというか、共通趣味で向こうからよく話しかけてくる人なんだが、が推し進めていて、それをIT部門だけでパイロッ...",
     "hatenaDate": "2026-10-24T03:11:39Z",
     "users": [],
     "firstSeenAt": "2026-10-24T20:45:10.010565+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "顔写真だけでがん患者の余命を診断できるAIモデル、米研究チームが開発",
@@ -127,7 +127,7 @@
     "hatenaDate": "2026-10-24T05:30:04Z",
     "users": [],
     "firstSeenAt": "2026-10-24T20:30:10.149967+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "iPhone Duoを使って痛感した「Face ID」のありがたさ　充電スタンドに置いたまま通知が見られない不便さに苦しむ",
@@ -140,33 +140,33 @@
     "hatenaDate": "2026-10-24T04:12:06Z",
     "users": [],
     "firstSeenAt": "2026-10-24T20:15:12.257434+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "「Androidのマイナンバーカード」がスタートするもフル機能対応機種が少ない件　ポイントは「StrongBox」という仕組み",
     "url": "https://www.itmedia.co.jp/mobile/articles/2610/24/news013.html",
     "domain": "www.itmedia.co.jp",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2610/24/news013.html",
     "screenshot": "https://image.itmedia.co.jp/mobile/articles/2610/24/cover_news013.jpg",
     "description": "今回のアクセス数の1位は、10月20日に運用が始まった「Androidのマイナンバーカード」の対応機種をまとめた記事です。この記事の影響もあり、10位にもAndroidのマイナンバーカードについて説明した記事がランクインしています。 Androidのマイナンバーカードは、従来Androidスマートフォン向けに提供されてきた「スマー...",
     "hatenaDate": "2026-10-24T04:11:41Z",
     "users": [],
     "firstSeenAt": "2026-10-24T20:15:12.257434+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "GitHub Actions Self-hosted runnerをお手軽にスケールさせる ghalet | おそらくはそれさえも平凡な日々",
     "url": "https://songmu.jp/riji/entry/2026-10-24-scaling-github-actions-runners-with-ghalet.html",
     "domain": "songmu.jp",
-    "count": 9,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/songmu.jp/riji/entry/2026-10-24-scaling-github-actions-runners-with-ghalet.html",
     "screenshot": "https://songmu.jp/riji/static/img/songmu-ogp.jpg",
     "description": "https://github.com/Songmu/ghalet https://junkyard.song.mu/ghalet/ tl;dr: 単一のGoデーモンで、GitHub ActionsのSelf-hosted runnerをお手軽にスケールさせられるOSSを作ったのでぜひご利用下さい。ご自宅のMac mini等でも使えます。 GitHub ActionsのSelf-hosted runner GitHub Actionsは標準で提供されているGitHu...",
     "hatenaDate": "2026-10-24T07:15:09Z",
     "users": [],
     "firstSeenAt": "2026-10-24T19:00:11.968389+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "GitHub - anthropics/sandbox-runtime: A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container.",
@@ -179,7 +179,7 @@
     "hatenaDate": "2025-10-22T04:32:11Z",
     "users": [],
     "firstSeenAt": "2026-10-24T19:00:11.968389+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "本番コードのAI生成率99％　ソニー銀行は「勘定系開発にClaude Code適用」をどう実現？",
@@ -192,7 +192,7 @@
     "hatenaDate": "2026-10-23T12:21:32Z",
     "users": [],
     "firstSeenAt": "2026-10-24T18:45:12.895435+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "チームみらい安野貴博党首ら「サイバー攻撃から国民守る」緊急提言、デジ庁に提出　「AIにはAIを」",
@@ -218,20 +218,20 @@
     "hatenaDate": "2026-03-25T18:33:45Z",
     "users": [],
     "firstSeenAt": "2026-10-24T18:45:12.895435+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "同じ型のパソコンを持ってる同僚が「画面が急に縦になっちゃったんですけど…」と相談してきた→タブレットになる機種だったので外して見せたら絶叫してた",
     "url": "https://togetter.com/li/2762221",
     "domain": "togetter.com",
-    "count": 21,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2762221",
     "screenshot": "https://s.tgstc.com/ogp3/5c2eb3614258e6d000ac8b5a6f83c530-1200x630.jpeg",
     "description": "大羊（たいよう） @taiyo_181 同じ型のパソコン持ってる先生が「画面が急に縦になっちゃったんですけど…こういう時ってどうすればいいですか？」と聞いてきたので、「ああはいはい、こういう時は画面を一回外して回転させるといいすよ(タブレットにもなるタイプのパソコン)」って言いながらバコっとキーボードから画面外...",
     "hatenaDate": "2026-10-24T06:24:59Z",
     "users": [],
     "firstSeenAt": "2026-10-24T18:30:12.343398+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "【解説】 PHPの脆弱性、サイバー空間の不発弾のようなもの＝BBCテクノロジー編集長 - BBCニュース",
@@ -250,14 +250,14 @@
     "title": "‎iPod 25周年 - Apple Music",
     "url": "https://music.apple.com/jp/ipod",
     "domain": "music.apple.com",
-    "count": 25,
+    "count": 26,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/music.apple.com/jp/ipod",
     "screenshot": null,
     "description": "2001年10月23日を振り返りましょう。25年前、Appleは1,000曲をポケットに入れて持ち運べる画期的なデバイス、初代iPodを発表しました。",
     "hatenaDate": "2026-10-24T02:59:49Z",
     "users": [],
     "firstSeenAt": "2026-10-24T18:00:12.881550+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "2秒で失った400万円　GMO系サービスで「意図しないFX取引」（朝日新聞） - Yahoo!ニュース",
@@ -276,14 +276,14 @@
     "title": "決定的なフロントエンドアーキテクチャがいい",
     "url": "https://speakerdeck.com/bengo4com/20261024-vuefes-2026-deterministic-frontend",
     "domain": "speakerdeck.com",
-    "count": 61,
+    "count": 63,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/bengo4com/20261024-vuefes-2026-deterministic-frontend",
     "screenshot": "https://files.speakerdeck.com/presentations/830a177fbdb74ea5b220a9545c17d579/slide_0.jpg?41061188",
     "description": "Vue Fes Japan 2026 における、プロダクト開発本部 クラウドサインProduct Engineering部 SWE 辻 佳佑 (t0daaay) による登壇資料です。 【Vue Fes Japan 2026】 …",
     "hatenaDate": "2026-10-24T06:24:33Z",
     "users": [],
     "firstSeenAt": "2026-10-24T17:00:13.044334+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "Mac上のWindows＆Linux仮想マシンをiPhoneから操作できる「UTM Remote」がiPhone Duoに対応。",
@@ -322,20 +322,20 @@
     "hatenaDate": "2026-10-23T09:33:18Z",
     "users": [],
     "firstSeenAt": "2026-10-24T16:15:12.990236+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "PHPセキュリティ事件、ハッカーたちの間で修正してないサーバーに侵入して勝手にセキュリティパッチを当てて何もせず立ち去る遊びが流行しているらしい→「これやるためだけにサイバーセキュリティ学びたかった まだ間に合うかな」",
     "url": "https://posfie.com/@petaritape/p/aqgcPOA",
     "domain": "posfie.com",
-    "count": 30,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@petaritape/p/aqgcPOA",
     "screenshot": "https://s.tgstc.com/ogp3/c956975801b174d91b66d163a82ef9fe-1200x630.jpeg",
     "description": "ﾉﾌﾞﾁｬﾝ🎶💖🌈 @81O931 PHPセキュリティ事件、ハッカーたちの間で修正してないサーバーに侵入して勝手にセキュリティパッチを当てて何もせず立ち去る遊びが流行しているらしい 2026-10-24 06:07:36",
     "hatenaDate": "2026-10-24T05:27:32Z",
     "users": [],
     "firstSeenAt": "2026-10-24T16:00:12.087539+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "GMO 不正アクセス問題で政府に「能動的サイバー防御」を要請 | NHKニュース",
@@ -361,7 +361,7 @@
     "hatenaDate": "2026-10-24T05:18:19Z",
     "users": [],
     "firstSeenAt": "2026-10-24T15:15:08.325500+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "Opus 5.5肉薄のコーディング性能、3Dも作る3兆級LLM「Kimi K3.1 Pro」。11月4日までにオープンウェイト化",
@@ -374,20 +374,20 @@
     "hatenaDate": "2026-10-24T00:26:04Z",
     "users": [],
     "firstSeenAt": "2026-10-24T15:15:08.325500+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "AIサイバー対策緊急提言 | チームみらい",
     "url": "https://team-mir.ai/lp/ai-cybersecurity/proposal.html",
     "domain": "team-mir.ai",
-    "count": 91,
+    "count": 94,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/team-mir.ai/lp/ai-cybersecurity/proposal.html",
     "screenshot": "https://team-mir.ai/lp/ai-cybersecurity/ogp.jpg",
     "description": "情報漏洩の件数 漏洩件数はすでに昨年を上回る 485件 サイバー攻撃による情報漏洩の件数（2026.10.13時点） 参考：MM総研（2026年10月14日）国内サイバー攻撃による情報漏えい動向調査",
     "hatenaDate": "2026-10-23T12:51:28Z",
     "users": [],
     "firstSeenAt": "2026-10-24T15:15:08.325500+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "タイムズカー、3000円の見舞金支払いへ　免許証画像漏えいの146万件対象　55億円の特損計上",
@@ -419,14 +419,14 @@
     "title": "PHP並みの脆弱性「まだ出てくる」　米クラウドフレアCEOが予告 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOGN23C8Y0T21C26A0000000/",
     "domain": "www.nikkei.com",
-    "count": 35,
+    "count": 36,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN23C8Y0T21C26A0000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3775112024102026000000-3.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.26&fp-y=0.39&h=630&w=1200&s=a0ec3e99feec490ccc9c5d664ae46379",
     "description": "プログラム言語「PHP」の脆弱性で米オープンAIとともに事前対策にあたった米ネットインフラ大手クラウドフレアのマシュー・プリンス最高経営責任者（CEO）は23日、取材に応じ今後別のソフトで「同様の深刻な脆弱性が公表される」と予告した。クラウドフレア（Cloudflare）　世界中に分散配置したサーバー網を使い、ウェ...",
     "hatenaDate": "2026-10-24T01:32:37Z",
     "users": [],
     "firstSeenAt": "2026-10-24T14:45:12.211498+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "PHP2Shell緊急対策：日本国内向けサイトで海外IPを全部弾く、即効性のあるIPフィルタ防御 - Qiita",
@@ -465,7 +465,7 @@
     "hatenaDate": "2026-10-24T04:45:05Z",
     "users": [],
     "firstSeenAt": "2026-10-24T14:00:13.575171+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "Brotli vulnerability (CVE-2026-111497) — Patch the Planet",
@@ -497,14 +497,14 @@
     "title": "【重要】お名前.com デスクトップクラウドサービスに対するサイバー攻撃について（第4報） | GMOインターネットグループ株式会社",
     "url": "https://group.gmo/info/alert/20261024/",
     "domain": "group.gmo",
-    "count": 154,
+    "count": 158,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/group.gmo/info/alert/20261024/",
     "screenshot": "https://cache.img.gmo.jp/images/gmo_og.jpg",
     "description": "2026年10月24日 お知らせ【重要】お名前.com デスクトップクラウドサービスに対するサイバー攻撃について（第4報） お客様へのお見舞金のお支払いと不正取引による損失の補償について 〜能動的サイバー防御に関する措置の実施に向け、政府関係機関へ要請開始〜 GMOインターネットグループ株式会社 GMOインターネット株式...",
     "hatenaDate": "2026-10-24T03:11:09Z",
     "users": [],
     "firstSeenAt": "2026-10-24T12:45:14.589755+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "PHP脆弱性への攻撃「1分で100万回」　米クラウドフレアCEO - 日本経済新聞",
@@ -543,7 +543,7 @@
     "hatenaDate": "2026-10-23T04:46:55Z",
     "users": [],
     "firstSeenAt": "2026-10-24T11:00:13.584938+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "パナソニックHD子会社、使用禁止の生成AIに従業員約33万人分の個人情報をアップロード",
@@ -634,7 +634,7 @@
     "hatenaDate": "2026-10-23T20:43:19Z",
     "users": [],
     "firstSeenAt": "2026-10-24T08:00:13.779893+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "Using Claude to reduce the attack surface of code",
@@ -660,7 +660,7 @@
     "hatenaDate": "2026-10-23T12:23:05Z",
     "users": [],
     "firstSeenAt": "2026-10-24T07:30:10.677234+09:00",
-    "lastSeenAt": "2026-10-24T22:15:12.964061+09:00"
+    "lastSeenAt": "2026-10-24T22:30:13.191404+09:00"
   },
   {
     "title": "「パスキーはワナだ、使うな」にネット騒然　プロが“待った”をかけるワケ：902nd Lap",
