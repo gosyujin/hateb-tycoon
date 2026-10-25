@@ -1,146 +1,185 @@
 [
   {
+    "title": "【安全性重視】PHPの移行先候補プログラミング言語ベスト10",
+    "url": "https://thinktwice.tech/posts/2919c605c51b82782bcc3ed78b8f9d7b/",
+    "domain": "thinktwice.tech",
+    "count": 7,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/thinktwice.tech/posts/2919c605c51b82782bcc3ed78b8f9d7b/",
+    "screenshot": "https://thinktwice.tech/img/ogp/it/security.png",
+    "description": "2026年10月に公表された PHP の重大な脆弱性（CVE-2026-109618 / CVE-2026-109619）をきっかけに、「書き味」ではなく「堅牢性・安全性」を軸に、PHP から移行する先のプログラミング言語を10位から1位までのカウントダウン形式で整理します。 はじめに：PHP の重大な脆弱性がきっかけ 2026年10月21日（UTC）、PHP の重...",
+    "hatenaDate": "2026-10-24T10:21:37Z",
+    "users": [],
+    "firstSeenAt": "2026-10-25T20:45:12.127770+09:00",
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
+  },
+  {
+    "title": "「AIを虐待すると復讐されるかも」マスク氏も警告…アンソロピックが“AIいじめ”対策でポリシー改定 識者が危惧するAIへの暴言のリスク | 経済・IT | ABEMA TIMES | アベマタイムズ",
+    "url": "https://times.abema.tv/articles/-/10283687",
+    "domain": "times.abema.tv",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/times.abema.tv/articles/-/10283687",
+    "screenshot": "https://times-abema.ismcdn.jp/mwimgs/0/7/1200w/img_070216f1958e6f99178b826860b29984429399.jpg",
+    "description": "AI開発が急速に進む中、Claudeで知られるアンソロピックが利用規約を改定し、AIへの「虐待的・残酷な行為」を禁止する方針を発表した。　具体的には、残酷な言動を繰り返すことや、明確な目的のない暴言的なやり取…",
+    "hatenaDate": "2026-10-25T02:47:29Z",
+    "users": [],
+    "firstSeenAt": "2026-10-25T20:45:12.127770+09:00",
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
+  },
+  {
+    "title": "作ったゲームのソースコードをまるごと「Xのポスト」に詰め込めるゲームエンジン現る。“URL”なら3KBまでセーフ - AUTOMATON",
+    "url": "https://automaton-media.com/articles/newsjp/20261025-475448/",
+    "domain": "automaton-media.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/automaton-media.com/articles/newsjp/20261025-475448/",
+    "screenshot": "https://automaton-media.com/wp-content/uploads/2026/10/20261025-475448-header.jpg",
+    "description": "開発者の北尾崇氏は10月21日、ゲームエンジン「Playload」を公開した。GitHubにてオープンソースとして公開中。同エンジンは上限「3KB」でゲームを開発することが可能だ。 北尾崇氏は元ゲーム開発者だ。コナミにて『ZONE OF THE ENDERS（Z.O.E.）』シリーズのメインプログラマーとしてゲームデザイナーやリードエンジニ...",
+    "hatenaDate": "2026-10-25T05:44:00Z",
+    "users": [],
+    "firstSeenAt": "2026-10-25T20:45:12.127770+09:00",
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
+  },
+  {
     "title": "AIによる脆弱性発見が加速、専門家「混乱期の始まり」",
     "url": "https://www.afpbb.com/articles/-/3659236",
     "domain": "www.afpbb.com",
-    "count": 6,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3659236",
     "screenshot": "https://afpbb.ismcdn.jp/mwimgs/3/9/1000x/img_39849525ebd90a9c17d81cddf1accc0c151073.jpg",
     "description": "コンピューター画面のバイナリーコードに浮かぶパッドロックのシルエット（2026年10月21日撮影）。(c)Kirill KUDRYAVTSEV/AFP 【10月25日 AFP】世界中のウェブサイトの多くで使われているプログラミング言語「PHP」に二つの重大な脆弱（ぜいじゃく）性が見つかり、企業や政府機関は今週、修正プログラムの適用に追われた...",
     "hatenaDate": "2026-10-25T04:22:12Z",
     "users": [],
     "firstSeenAt": "2026-10-25T20:15:14.662768+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "「もうプロンプトは書かない」　Claude Code生みの親が明かす“ループエンジニアリング”の衝撃",
     "url": "https://www.itmedia.co.jp/business/articles/2610/24/news009.html",
     "domain": "www.itmedia.co.jp",
-    "count": 12,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/business/articles/2610/24/news009.html",
     "screenshot": "https://image.itmedia.co.jp/business/articles/2610/24/cover_news009.jpg",
     "description": "「私はもうClaudeにプロンプトを打っていない。ループが走っていて、そのループがClaudeにプロンプトを打ち、何をすべきか判断している。私の仕事はループを書くことだ」――。 AIコーディングツールの代名詞となった「Claude Code」を生んだ米Anthropic（アンソロピック）のボリス・チェルニー（Boris Cherny）氏が、今春...",
     "hatenaDate": "2026-10-24T10:19:59Z",
     "users": [],
     "firstSeenAt": "2026-10-25T20:00:14.191692+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "さよならWordPress。ゲ制工房は新時代のCMS、EmDashに移行しました。",
     "url": "https://yurinchi2525.com/20261025emdash/",
     "domain": "yurinchi2525.com",
-    "count": 26,
+    "count": 36,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/yurinchi2525.com/20261025emdash/",
     "screenshot": "https://yurinchi2525.com/_emdash/api/media/file/01M5RFZ03M25JJZAVGW2NGE1FD.png",
     "description": "「Posts」と「Pages」の違いEmDashの管理画面を開くと、記事を書く場所が「Posts」と「Pages」の2つに分かれています。WordPressでいう「投稿」と「固定ページ」にあたるものです。 Posts（投稿）：日々書いていくブログ記事。カテゴリーやタグを付けられて、記事一覧・RSS・カテゴリー別の一覧に並びます。公開日時を指...",
     "hatenaDate": "2026-10-25T09:02:39Z",
     "users": [],
     "firstSeenAt": "2026-10-25T19:45:13.112986+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "ヨドバシ秋葉原の展示用iPhone Duo、すでにヒンジがだめになっててありえない「(販売店で)リアル耐久テストされてて参考になるなあ」「Samsungがいかに優秀かわかる」",
     "url": "https://togetter.com/li/2762609",
     "domain": "togetter.com",
-    "count": 34,
+    "count": 37,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2762609",
     "screenshot": "https://s.tgstc.com/ogp3/d659d6525ef31db041164d439d7c7455-1200x630.jpeg",
     "description": "ぽらりす @11_Polaris_24 [訂正] 天井　←誤 展示用←正 [その他] ガジェオタじゃないので知識がないです。 好きな機種はnothing phone 2です。 特に宣伝することがないので好きな曲を貼っておきます 尾崎豊 - 核(Core) youtu.be/11WfcKu5G5U?si… 2026-10-25 09:10:41 iPhone Duo - Apple（日本） iPhone Duo。iPhone史上...",
     "hatenaDate": "2026-10-25T09:36:44Z",
     "users": [],
     "firstSeenAt": "2026-10-25T19:15:13.181209+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "電子漫画「ピッコマ」 顧客のメールアドレス約100万件流出 | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261025de65227",
     "domain": "news.web.nhk",
-    "count": 27,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261025de65227",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261025de65227/20261025de65227_E0000108356_1_l.jpg",
     "description": "電子漫画などを提供する「ピッコマ」の運営会社は、メールの配信で利用している企業が不正アクセスを受けたことから、顧客のメールアドレスおよそ100万件が流出したと発表しました。 会社の発表によりますと…",
     "hatenaDate": "2026-10-25T09:19:35Z",
     "users": [],
     "firstSeenAt": "2026-10-25T19:15:13.181209+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "AI ネイティブの SDLC プレイブック",
     "url": "https://claude.com/ja/resources/articles/the-ai-native-sdlc-playbook",
     "domain": "claude.com",
-    "count": 14,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/claude.com/ja/resources/articles/the-ai-native-sdlc-playbook",
     "screenshot": "https://claude.com/ja/resources/articles/the-ai-native-sdlc-playbook/opengraph-image/og",
     "description": "This playbook is also available for download — the same six stages, plays, and worked examples, laid out for reading offline or sharing with your team. コードはもはやボトルネックではありません。組織は 1 年前には想像もできない速度でコードを書くために AI を活用し始めましたが、コードを扱うプロセスは...",
     "hatenaDate": "2026-10-25T01:29:55Z",
     "users": [],
     "firstSeenAt": "2026-10-25T19:15:13.181209+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "リュウジはなぜ嫌われている人からはすごく嫌われているのか…リュウジが自分自身のアンチになる要素を解説、さらに自分に対してのアンチ発言も",
     "url": "https://togetter.com/li/2762636",
     "domain": "togetter.com",
-    "count": 54,
+    "count": 68,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2762636",
     "screenshot": "https://s.tgstc.com/ogp3/b79db068d50ad32434b71acd63985957-1200x630.jpeg",
     "description": "リュウジ@料理のおじさんバズレシピ @ore825 多分俺が料理研究家じゃなく普通に生きてたら絶対に俺のアンチになってたからわかる コメント欄に共感しかない 大した実力もないのに声がデカいし偉そうで腹立つんだよな たまたまネットでバズって人気でただけのド素人なのに謙虚さがないんだよ x.com/salmonmon1104/… 2026-...",
     "hatenaDate": "2026-10-25T08:06:25Z",
     "users": [],
     "firstSeenAt": "2026-10-25T18:45:12.352734+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "About the compromised eMudhra intermediate CAs - Apple Support",
     "url": "https://support.apple.com/en-us/149555",
     "domain": "support.apple.com",
-    "count": 12,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/support.apple.com/en-us/149555",
     "screenshot": null,
     "description": "About the compromised eMudhra intermediate CAs Apple is blocking the compromised certificates automatically. Mac administrators can take optional steps for some command-line tools. Since 19 October 2026, Apple has been blocking the certificates of the compromised eMudhra intermediate Certificatio...",
     "hatenaDate": "2026-10-25T04:52:04Z",
     "users": [],
     "firstSeenAt": "2026-10-25T18:15:13.958125+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "3KBしか使えない！奇妙で素敵なゲームエンジン「Playload」のご紹介 - Qiita",
     "url": "https://qiita.com/kitao/items/7fac93e8a7ad6015b0b0",
     "domain": "qiita.com",
-    "count": 10,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/kitao/items/7fac93e8a7ad6015b0b0",
     "screenshot": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnMzLWFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkZxaWl0YS1pbWFnZS1zdG9yZSUyRjAlMkYxMzk0OCUyRjZmYTliN2ViOWZjYzJmNjk5M2Y3OGY0YzI1Zjg2NjJhMTA4Yzg2ZTIlMkZsYXJnZS5wbmclM0YxNzMwNzEzMjAzP2l4bGliPXJiLTQuMS4xJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz1lNzViOGU0ZWI2YWEwZjI2NWQ3YjIwZGJhYzI5Nzg5NA%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Da3681b34a5670c6fc1fb026dc5ad2e52?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9M0tCJUUzJTgxJTk3JUUzJTgxJThCJUU0JUJEJUJGJUUzJTgxJTg4JUUzJTgxJUFBJUUzJTgxJTg0JUVGJUJDJTgxJUU1JUE1JTg3JUU1JUE2JTk5JUUzJTgxJUE3JUU3JUI0JUEwJUU2JTk1JUI1JUUzJTgxJUFBJUUzJTgyJUIyJUUzJTgzJUJDJUUzJTgzJUEwJUUzJTgyJUE4JUUzJTgzJUIzJUUzJTgyJUI4JUUzJTgzJUIzJUUzJTgwJThDUGxheWxvYWQlRTMlODAlOEQlRTMlODElQUUlRTMlODElOTQlRTclQjQlQjklRTQlQkIlOEImdHh0LWFsaWduPWxlZnQlMkN0b3AmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT01NiZ0eHQtcGFkPTAmcz02ZjFlZmU2ZTM5MWMwMTNhYmZhMjllNjZlNzRkZTRkNQ&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBraXRhbyZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPWY0MWJiNDViMWEwZTFkMjg0ZTczOGRiYTM5MTdhNjZh&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=e540ef446eaa23633dfe25c3e79b8d23",
     "description": "Pyxel作者です。 ちょっとした出来心で、3KBしか使えない、小さなゲームエンジンを作ってみました。 名前は「Playload（プレイロード）」。 GitHubにてオープンソースとして公開中です。ぜひスターで応援をよろしくお願いします。 Playloadの基本仕様は以下になります。 JavaScript、圧縮後3KB（3,000バイト）まで 160×1...",
     "hatenaDate": "2026-10-24T13:45:27Z",
     "users": [],
     "firstSeenAt": "2026-10-25T17:45:15.329993+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "パラグラフから始めるアカデミック・ライティング",
     "url": "https://speakerdeck.com/neuroiwm/paragurafu-kara-hajimeru-akademikku",
     "domain": "speakerdeck.com",
-    "count": 14,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/neuroiwm/paragurafu-kara-hajimeru-akademikku",
     "screenshot": "https://files.speakerdeck.com/presentations/5e4c74837d4143299232d94aebc841b1/slide_0.jpg?41074770",
     "description": "https://researchmap.jp/seitaro_iwama",
     "hatenaDate": "2026-10-25T04:31:30Z",
     "users": [],
     "firstSeenAt": "2026-10-25T17:00:13.208156+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "「AIを虐待すると復讐されるかも」マスク氏も警告…アンソロピックが“AIいじめ”対策でポリシー改定 識者が危惧するAIへの暴言のリスク（ABEMA TIMES） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/2997423a08fc213f62fb5f6e7d3b3091570bfcdc",
     "domain": "news.yahoo.co.jp",
-    "count": 96,
+    "count": 98,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/2997423a08fc213f62fb5f6e7d3b3091570bfcdc",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261025-10283687-abemav-000-1-view.jpg?exp=10800",
     "description": "AIいじめとは（ABEMA TIMES）　AI開発が急速に進む中、Claudeで知られるアンソロピックが利用規約を改定し、AIへの「虐待的・残酷な行為」を禁止する方針を発表した。 【映像】AIに虐待、続けるとどうなる？ 具体的には、残酷な言動を繰り返すことや、明確な目的のない暴言的なやり取りが続くなど、悪質な場合には、会話...",
     "hatenaDate": "2026-10-25T03:52:45Z",
     "users": [],
     "firstSeenAt": "2026-10-25T15:15:12.214198+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "Software engineering may no longer be a lifetime career",
@@ -153,7 +192,7 @@
     "hatenaDate": "2026-04-29T06:04:12Z",
     "users": [],
     "firstSeenAt": "2026-10-25T15:00:12.775818+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "知らぬ間にＦＸ「取引」、一瞬で１１９万円消失…ＧＭＯに安心感あったのに「これ現実なの？」（読売新聞オンライン） - Yahoo!ニュース",
@@ -185,40 +224,40 @@
     "title": "思いつきが現実になる世界でこわい - 運河",
     "url": "https://uiuret.hatenablog.com/entry/2026/10/25/080436",
     "domain": "uiuret.hatenablog.com",
-    "count": 168,
+    "count": 172,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/uiuret.hatenablog.com/entry/2026/10/25/080436",
     "screenshot": "https://ogimage.blog.st-hatena.com/12704346814673876938/14945776032094924977/1792883076",
     "description": "僕はプログラマーなのだが、最近は1行もプログラムを自分で書いていない。プログラムを書いてないどころか、ほとんど読んでいない。 仕事では最低限すべてのコードに目を通してレビューをやってはいるが、もはやその必要もあまりなく儀式的にやっているだけになっている。 AIで頭がおかしくなった、という記事を書いたの...",
     "hatenaDate": "2026-10-25T02:09:50Z",
     "users": [],
     "firstSeenAt": "2026-10-25T14:00:16.117953+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "Apple、2026年10月に認証局eMudhraで発生した中間CA証明書の秘密鍵漏洩問題に対し証明書をブロックし、システム管理者や開発者向けにcurlやgitなどコマンドラインツールに対する暫定的な回避策を公開。",
     "url": "https://applech2.com/archives/20261025-apple-blocks-compromised-emudhra-ca-certificates.html",
     "domain": "applech2.com",
-    "count": 36,
+    "count": 37,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/applech2.com/archives/20261025-apple-blocks-compromised-emudhra-ca-certificates.html",
     "screenshot": null,
     "description": "Apple、2026年10月に認証局eMudhraで発生した中間CA証明書の秘密鍵漏洩問題に対し証明書をブロックし、システム管理者向けにcurlやgit、opensslの問題に対してはアップデートまでに暫定的な回避策を公開。ます。詳細は以下から。 電子証明書を発行するインドの認証局eMudhraは2026年10月20日、2025年4月30日に8つの中間C...",
     "hatenaDate": "2026-10-25T02:37:31Z",
     "users": [],
     "firstSeenAt": "2026-10-25T13:30:12.209904+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "マスク氏、ウクライナ軍のスターリンク利用規約違反を非難",
     "url": "https://www.afpbb.com/articles/-/3659233",
     "domain": "www.afpbb.com",
-    "count": 33,
+    "count": 34,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3659233",
     "screenshot": "https://afpbb.ismcdn.jp/mwimgs/9/1/1000x/img_915d7fc9fc5adf29350c8166521e1020228090.jpg",
     "description": "ウクライナ軍が使用するスターリンク（2023年2月1日撮影）。(c)YASUYOSHI CHIBA/AFP 【10月25日 AFP】米実業家イーロン・マスク氏は24日、ウクライナ軍が衛星通信サービス「スターリンク」を「人を殺すためのドローン攻撃」に使用し、利用規約に違反したと非難した。ウクライナ軍の作戦に不可欠な米宇宙開発企業スペース...",
     "hatenaDate": "2026-10-25T03:32:35Z",
     "users": [],
     "firstSeenAt": "2026-10-25T13:15:14.206371+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "知らぬ間にＦＸ「取引」、一瞬で１１９万円消失…ＧＭＯに安心感あったのに「これ現実なの？」",
@@ -231,7 +270,7 @@
     "hatenaDate": "2026-10-24T20:11:22Z",
     "users": [],
     "firstSeenAt": "2026-10-25T12:30:15.308797+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "eMudhra中間CA証明書の秘密鍵の侵害について",
@@ -244,7 +283,7 @@
     "hatenaDate": "2026-10-23T22:32:53Z",
     "users": [],
     "firstSeenAt": "2026-10-25T11:45:12.683229+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "GitHub CLI's New Expiring Tokens Still Leave Your Refresh Token Exposed to Malware",
@@ -263,27 +302,27 @@
     "title": "入社4ヶ月で 2つのプロダクトの撤退判断",
     "url": "https://speakerdeck.com/tkt42u19421/nyuusha-4-kagetsude-2-tsu-no-purodakuto-no-tettai-handan",
     "domain": "speakerdeck.com",
-    "count": 49,
+    "count": 50,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/tkt42u19421/nyuusha-4-kagetsude-2-tsu-no-purodakuto-no-tettai-handan",
     "screenshot": "https://files.speakerdeck.com/presentations/dd5e4ab4795a4ae8b7bd2ac2c81a4c0a/slide_0.jpg?41040534",
     "description": "コミュニケーションは受け手が決める〜読まれる職務経歴書の作り方/Communication makes your career",
     "hatenaDate": "2026-10-24T06:14:58Z",
     "users": [],
     "firstSeenAt": "2026-10-25T11:45:12.683229+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "プロの味！簡単にして激ウマな豚汁の秘密 by こじまぽん助【分子調理学研究家】",
     "url": "https://cookpad.com/jp/recipes/19944624?ref=search&search_term=%E3%83%97%E3%83%AD%E3%81%AE%E5%91%B3%EF%BC%81%E7%B0%A1%E5%8D%98%E3%81%AB%E3%81%97%E3%81%A6%E6%BF%80%E3%82%A6%E3%83%9E%E3%81%AA%E8%B1%9A%E6%B1%81%E3%81%AE%E7%A7%98%E5%AF%86",
     "domain": "cookpad.com",
-    "count": 162,
+    "count": 168,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/cookpad.com/jp/recipes/19944624?ref=search&search_term=%E3%83%97%E3%83%AD%E3%81%AE%E5%91%B3%EF%BC%81%E7%B0%A1%E5%8D%98%E3%81%AB%E3%81%97%E3%81%A6%E6%BF%80%E3%82%A6%E3%83%9E%E3%81%AA%E8%B1%9A%E6%B1%81%E3%81%AE%E7%A7%98%E5%AF%86",
     "screenshot": "https://og-image.cookpad.com/global/jp/recipe/19944624?t=1791882442",
     "description": "食材 豚バラ肉 300g ごぼう 1本 にんにく 1片 生姜 1かけ 玉ねぎ 1個 にんじん 1本 大根 1/3本 こんにゃく 1枚 調味料 サラダ油 大さじ2 和風だし 小さじ2 料理酒 150ml みりん 大さじ2 水 ひたひた(500mlを目安に) みそ 大さじ2程度",
     "hatenaDate": "2026-10-24T18:14:36Z",
     "users": [],
     "firstSeenAt": "2026-10-25T11:30:13.407947+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "「ドパ資料」の作り方 - Qiita",
@@ -296,33 +335,33 @@
     "hatenaDate": "2026-10-21T11:52:45Z",
     "users": [],
     "firstSeenAt": "2026-10-25T10:45:12.900987+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "なぜその UI アニメーションは気持ちいいのか？ (Vue Fes Japan 2026) - Katashin .info",
     "url": "https://katashin.info/slides/satisfying-ui-animation/",
     "domain": "katashin.info",
-    "count": 84,
+    "count": 85,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/katashin.info/slides/satisfying-ui-animation/",
     "screenshot": "https://katashin.info/img/zgKmb-s51p-1960.png",
     "description": "2026年10月24日Vue,アニメーション,インタラクションVue Fes Japan 2026 で行った発表のスライドです。スライド部分をクリックしてからキーボードの左右入力でページをめくれます。 参考リンク #スライド内のデモTweetbot のデモの実装を解説した記事",
     "hatenaDate": "2026-10-24T05:49:49Z",
     "users": [],
     "firstSeenAt": "2026-10-25T10:45:12.900987+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "DevelopersIO 2026 TOKYO で「ガチで放置できる Claude Code実行環境の作り方」というタイトルで登壇しました #devio2026 | DevelopersIO",
     "url": "https://dev.classmethod.jp/articles/devio2026-tokyo-claude-code-automode-unattended-environment/",
     "domain": "dev.classmethod.jp",
-    "count": 113,
+    "count": 116,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/devio2026-tokyo-claude-code-automode-unattended-environment/",
     "screenshot": "https://devio2024-media.developers.io/image/upload/f_auto,q_auto/v1792824871/eyecatch/mhqodbpqehnfgzygtqxn.png",
     "description": "はじめに 皆様こんにちは、あかいけです。 2026/10/24に開催された「DevelopersIO 2026 Tokyo」にて、「ガチで放置できるClaude Code実行環境の作り方」というタイトルで登壇しましたので、資料を共有します。 皆様もClaude Codeをガチで放置しましょう。 資料 コメント auto modeのおかげで承認祭りからは解放されまし...",
     "hatenaDate": "2026-10-24T07:56:36Z",
     "users": [],
     "firstSeenAt": "2026-10-25T10:45:12.900987+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "Contributing to Vite+ Inside Stories | ドクセル",
@@ -361,46 +400,46 @@
     "hatenaDate": "2026-10-23T07:41:28Z",
     "users": [],
     "firstSeenAt": "2026-10-25T10:00:13.356228+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "eMudhra事件でWebアプリ開発者が点検すべきこと - Qiita",
     "url": "https://qiita.com/autotaker1984/items/ef99b5791fe799a4ca66",
     "domain": "qiita.com",
-    "count": 77,
+    "count": 78,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/autotaker1984/items/ef99b5791fe799a4ca66",
     "screenshot": null,
     "description": "ブラウザがWebサイトにアクセスするとき、Webサーバは証明書チェーンの公開鍵と、サーバ証明書に基づく通信内容の署名を送信します。クライアントは、サーバ証明書から中間CA、信頼済みルートCAへと署名を辿ります。OSやブラウザには証明書ストアを管理する機能があり、そこで「信頼する」と設定した証明書に辿り着けた...",
     "hatenaDate": "2026-10-24T22:48:23Z",
     "users": [],
     "firstSeenAt": "2026-10-25T10:00:13.356228+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "eMudhra のインシデントは Web にとって何を意味するのか | blog.jxck.io",
     "url": "https://blog.jxck.io/entries/2026-10-25/emudhra.html",
     "domain": "blog.jxck.io",
-    "count": 335,
+    "count": 342,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.jxck.io/entries/2026-10-25/emudhra.html",
     "screenshot": "https://blog.jxck.io/assets/img/jxck.600x600.png",
     "description": "Intro PHP2Shell は、時の総理大臣も対応を発信するなどの動きがあり、一般のニュースですら大きく報じられていた。 しかし、同時期に報じられた eMudhra のインシデントの方が、比較にならないくらいヤバいと、筆者は思っている。 Web の信頼を失墜させるほどにだ。 CA のおさらい \"Mudhra\" は「印」のような意味で、カ...",
     "hatenaDate": "2026-10-24T20:22:49Z",
     "users": [],
     "firstSeenAt": "2026-10-25T09:45:12.819794+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "「ドパ資料」の作り方 - Qiita",
     "url": "https://qiita.com/kikuziro/items/b6a0743b070d7320c36d?utm_source=dlvr.it&utm_medium=facebook",
     "domain": "qiita.com",
-    "count": 320,
+    "count": 323,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/kikuziro/items/b6a0743b070d7320c36d?utm_source=dlvr.it&utm_medium=facebook",
     "screenshot": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnMzLWFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkZxaWl0YS1pbWFnZS1zdG9yZSUyRjAlMkYyOTMzNDg5JTJGMjVhNjVmY2U1ZWRiZDU5NWUxZDYzZDNjZGI4ODdjOTZmMWE2Njc4ZiUyRnhfbGFyZ2UucG5nJTNGMTc4MjkxNzQ3Mz9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9ZGE0MmU0MmVjOGZmN2JlMzJjMzM0YTVkMmNiMzBiY2U%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Dae51c5ee676e08f856bda33ea94c63f2?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUUzJTgwJThDJUUzJTgzJTg5JUUzJTgzJTkxJUU4JUIzJTg3JUU2JTk2JTk5JUUzJTgwJThEJUUzJTgxJUFFJUU0JUJEJTlDJUUzJTgyJThBJUU2JTk2JUI5JnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9ZTg2Y2EzZTNlZmUwYWViNjA0NGY2YzM4ZTUwNDEyZjQ&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBraWt1emlybyZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPWM3OGI3M2Q5YTRjOWFhNTIyZjZmYzE4YWMzN2YwOThh&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=d16701c7972788dfdac84ce37156e517",
     "description": "この記事を開いたあなたは「ドパガキ」もしくは「ドパおじ」いや「ドパおば」かもしれませんね。 いずれにしてもドーパミンがドバドバ出る資料を求めてここにたどり着いたものと推測します。そんなあなたのためにこの記事ではドパ資料の作り方を書いていきます。 👀 対象読者 技術記事を書いているけど、いまいち読まれ...",
     "hatenaDate": "2026-10-24T03:18:03Z",
     "users": [],
     "firstSeenAt": "2026-10-25T08:11:17.547995+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "新人と昔のノートPCの話になって「昔はノートPCも白黒液晶だった」と言ったら「写真見るの困りませんか？」と言われた、当時は画像を出すだけでも一苦労したんだ…",
@@ -413,7 +452,7 @@
     "hatenaDate": "2026-10-24T13:21:33Z",
     "users": [],
     "firstSeenAt": "2026-10-25T07:30:12.677333+09:00",
-    "lastSeenAt": "2026-10-25T20:30:13.556425+09:00"
+    "lastSeenAt": "2026-10-25T20:45:12.127770+09:00"
   },
   {
     "title": "GitHub - Zagitta/gpu-unlock: Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents",
@@ -3859,44 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-22T08:59:47.341541+09:00",
     "lastSeenAt": "2026-10-22T15:30:13.834863+09:00"
-  },
-  {
-    "title": "AIが設計したウイルスをヒトに投与　世界初、薬剤耐性菌患者に：朝日新聞",
-    "url": "https://www.asahi.com/articles/ASVBP1QR9VBPUHBI00RM.html",
-    "domain": "www.asahi.com",
-    "count": 5,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVBP1QR9VBPUHBI00RM.html",
-    "screenshot": "https://imgopt.asahi.com/ogp/AS20261021002164_comm.jpg",
-    "description": "米ベンチャー企業ラディカルニューメリクスは20日、AI（人工知能）で設計したウイルスを、病気の治療のために世界で初めてヒトに使った、と発表した。抗生物質が効かない薬剤耐性菌に感染した患者に投与した。…",
-    "hatenaDate": "2026-10-21T08:41:38Z",
-    "users": [],
-    "firstSeenAt": "2026-10-22T08:59:47.341541+09:00",
-    "lastSeenAt": "2026-10-22T09:15:13.852326+09:00"
-  },
-  {
-    "title": "【速報：2026/10/22 04:00】PHP2Shellの対応状況まとめ：PHP本体、Linux、レンタルサーバ、KUSANAGI",
-    "url": "https://zenn.dev/tyamadadd/articles/c02a27af771dd2",
-    "domain": "zenn.dev",
-    "count": 96,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tyamadadd/articles/c02a27af771dd2",
-    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--UL10DCiJ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590%25E9%2580%259F%25E5%25A0%25B1%25EF%25BC%259A2026%252F10%252F22%252004%253A00%25E3%2580%2591PHP2Shell%25E3%2581%25AE%25E5%25AF%25BE%25E5%25BF%259C%25E7%258A%25B6%25E6%25B3%2581%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%25EF%25BC%259APHP%25E6%259C%25AC%25E4%25BD%2593%25E3%2580%2581Linux%25E3%2580%2581%25E3%2583%25AC%25E3%2583%25B3%25E3%2582%25BF%25E3%2583%25AB%25E3%2582%25B5%25E3%2583%25BC...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:tyamadadd%2Cx_90%2Cy_121/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-    "description": "PHPerの皆様、お疲れさまでした。 少し体力が残っているので、現在の対応状況をまとめてみました。 生成AIでまとめたものを当方で確認しております。 また気になる追加情報を補足に追加しました。 2026年10月21日、PHP の重大な脆弱性2件（CVE-2026-109618 / CVE-2026-109619、通称「PHP2Shell」）の修正版が公開されま...",
-    "hatenaDate": "2026-10-21T20:01:05Z",
-    "users": [],
-    "firstSeenAt": "2026-10-22T08:45:14.112540+09:00",
-    "lastSeenAt": "2026-10-22T19:45:12.668840+09:00"
-  },
-  {
-    "title": "プログラム言語「PHP」欠陥、世界でサイト停止　AIが脆弱性発見 - 日本経済新聞",
-    "url": "https://www.nikkei.com/article/DGXZQOGN21C340R21C26A0000000/",
-    "domain": "www.nikkei.com",
-    "count": 13,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN21C340R21C26A0000000/",
-    "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3762537021102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=79d161d9b9cb4b357ed7b6e01fa53be8",
-    "description": "【ニューヨーク=西邨紘子、シリコンバレー=伴正春】世界のウェブサイトの7割に使われている開発言語「PHP」に深刻な脆弱性が見つかり、各国が対応に追われている。サイトを一時停止する企業もある。人工知能（AI）によるサイバー攻撃の脅威が高まる中、米当局はソフト更新を急ぐよう呼びかけた。PHPはウェブサイトを動か...",
-    "hatenaDate": "2026-10-21T22:44:13Z",
-    "users": [],
-    "firstSeenAt": "2026-10-22T08:45:14.112540+09:00",
-    "lastSeenAt": "2026-10-22T10:45:12.785077+09:00"
   }
 ]
