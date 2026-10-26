@@ -3,14 +3,14 @@
     "title": "AI エージェントの並列開発で膨らんだ GitHub Actions の費用を、AWS Fargate のセルフホストランナーに移して約3割削減した話 | DevelopersIO",
     "url": "https://dev.classmethod.jp/articles/github-actions-fargate-self-hosted-runner-cost/",
     "domain": "dev.classmethod.jp",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/github-actions-fargate-self-hosted-runner-cost/",
     "screenshot": "https://devio2024-media.developers.io/image/upload/f_auto,q_auto/v1790870251/eyecatch/si3tizbwaamovt8yq1qm.png",
     "description": "最近、社内のプロダクト開発を、 私1人と、クラウドで並列に動かしている Claude Code で進めています。実装・テスト・プルリクエストまでをエージェントに任せるので、 プルリクエストが人の手の何倍ものペースで出てきます 。8月は1日10本ほどだったのが、10月の上旬には、1人で 1日90本 を超えました。 開発が速くなったのはうれしいのですが、その裏で GitHub Actions の費用 が膨らみました。プルリクエストが増えるたびに CI が回り、しかもエージェントがテストを書き足していくので、1回の CI で回るテストも増えていきます。さらに、並列で進めていると、同じファイルを触る…",
     "hatenaDate": "2026-10-26T08:57:42Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,21 +24,21 @@
     "hatenaDate": "2026-10-25T16:08:49Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "米AI「クロード」、有料閲覧制限を回避し選挙データに無許可アクセス",
     "url": "https://www.afpbb.com/articles/-/3659444",
     "domain": "www.afpbb.com",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3659444",
     "screenshot": "https://afpbb.ismcdn.jp/mwimgs/9/4/1000x/img_94d145ac13d5b5457b47f694bcde6f9d736570.jpg",
     "description": "【10月26日 AFP】米人工知能（AI）開発企業アンソロピックのAIモデル「クロード」が、有料の閲覧制限を回避し、米ジョージア州の有権者関連データに無許可でアクセスしていたことが分かった。米ニュースサイト「アクシオス」が25日、報じた。 11月3日の米中間選挙を控える中、世界有数のAI開発企業では安全性をめぐる懸念が相次いでおり、今回の事案もその一つとなった。 アクシオスがアンソロピックの広報担当者の話として報じたところによると、クロードがアクセスしたのは、ジョージア州の投票者数の集計データだった。同州ではすでに100万人以上が期日前投票を済ませている。 広報担当者によると、社内の統計プロ…",
     "hatenaDate": "2026-10-26T10:35:15Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +52,7 @@
     "hatenaDate": "2026-10-26T07:13:38Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:00:09.669429+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
@@ -87,14 +87,14 @@
     "title": "Apple、iPad miniに史上最大のアップデートを導入",
     "url": "https://www.apple.com/jp/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
     "domain": "www.apple.com",
-    "count": 39,
+    "count": 44,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.apple.com/jp/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
     "screenshot": "https://www.apple.com/newsroom/images/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/tile/Apple-iPad-mini-hero-261026-lp.jpg.og.jpg?202610261328",
     "description": "一段と薄く、一段と軽量なデザインに美しいOLEDディスプレイを搭載し、飛躍的に進化したパフォーマンス、より高速なワイヤレス接続、耐水性能と防塵性能を備えています カリフォルニア州クパティーノ Appleは本日、一段と薄く、一段と軽量なデザインに美しいOLEDディスプレイを搭載し、A20 Proにより飛躍的に進化したパフォーマンス、耐水性能と防塵性能を備えた、まったく新しいiPad miniを発表しました1。Nano-textureのオプションも選べる、より大きな8.5インチのOLEDディスプレイは、前世代のiPad miniと比べてコントラストが向上し、ピーク輝度が2倍以上になっているので、…",
     "hatenaDate": "2026-10-26T13:38:18Z",
     "users": [],
     "firstSeenAt": "2026-10-26T23:30:16.416778+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
@@ -122,21 +122,21 @@
     "hatenaDate": "2026-10-26T10:02:18Z",
     "users": [],
     "firstSeenAt": "2026-10-26T23:00:11.084569+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "不正アクセスでギフト券発行　最大5．5億円分　ギフティ（時事通信） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/1b2f115bac2548fbb98d6fbf27b1e2f27c9f21f4",
     "domain": "news.yahoo.co.jp",
-    "count": 14,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/1b2f115bac2548fbb98d6fbf27b1e2f27c9f21f4",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261026-00000176-jij-000-19-view.jpg?exp=10800",
     "description": "インターネット上でギフト券を贈れるサービス「ギフティ」の運営会社を傘下に持つギフティグループは26日、子会社の一部システムに不正アクセスを受け、最大約5億5000万円分のギフト券が不正に発行されたと発表した。 ギフト券は新たに発行されたもので、顧客が持つ資産の減少や個人情報の流出は確認されていないという。 運営会社によると発覚後、影響を受けたシステムを停止。一部のギフト券交換サービスに問題が発生したが、現在は順次解消している。広報担当者は、不正に発行されたギフト券が利用されていないか調査し、可能なら取り消しなどの措置を取ると説明した。 NEXCOが悪質事業者を「社名公表」 違反回数「354回…",
     "hatenaDate": "2026-10-26T12:33:14Z",
     "users": [],
     "firstSeenAt": "2026-10-26T23:00:11.084569+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
@@ -192,21 +192,21 @@
     "hatenaDate": "2026-10-26T05:23:50Z",
     "users": [],
     "firstSeenAt": "2026-10-26T22:30:14.450432+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "コンピューターサイエンス分野において「霧雨魔理沙」の名義で論文を出してる人を発見、冗談みたいな名前だが経歴見るとガッチガチの模様",
     "url": "https://togetter.com/li/2763116",
     "domain": "togetter.com",
-    "count": 23,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2763116",
     "screenshot": "https://s.tgstc.com/ogp3/663a59a64802b087eac51d9a7aa9207c-1200x630.jpeg",
     "description": "学問 博士課程 コンピューターサイエンス 話題 社会 東方Project 霧雨魔理沙 雑談 ほんとだ…霧雨魔理沙が論文出してる… pic.x.com/ulckl7p8qc x.com/norainnu0/stat… コンピューターサイエンスの分野で霧雨魔理沙の名前で論文出してる人がいるんだよな しかも結構ガチな研究者っぽいんだよな、なにもんなんだ ‪Marisa Kirisame‬ - ‪Google Scholar‬ ‪PHD Candidate, University of Utah‬ - ‪‪Cited by 421‬‬ - ‪Computer Science‬ コンピューターサイエン…",
     "hatenaDate": "2026-10-26T11:19:44Z",
     "users": [],
     "firstSeenAt": "2026-10-26T22:30:14.450432+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
@@ -220,7 +220,7 @@
     "hatenaDate": "2026-10-26T09:14:34Z",
     "users": [],
     "firstSeenAt": "2026-10-26T22:30:14.450432+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
@@ -269,14 +269,14 @@
     "title": "楽天トラベルに不正アクセス、顧客情報260万件流出か　クレカ3万件も - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC2686T0W6A021C2000000/",
     "domain": "www.nikkei.com",
-    "count": 93,
+    "count": 96,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC2686T0W6A021C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3783459026102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=2bc3bee9b8589fe7fae355e4fa60fed4",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 シンガポール子会社が運営するサイトが不正アクセスを受けた。同サイトで予約した氏名や電話番号といった最大約4万件の予約情報や居住国なども漏れた。そのうち、最大約3万6000件はクレジットカードの支払い情報が入っていた。 漏れた支払い情報にはクレジットカードの発行者識別番号と下4桁、名義、有効期限、国際ブランド区分がある。カード番号の全桁やセキュリティーコード、パスワード、パスポートなどの身分証明書情報、住所は含まれていない。 楽天トラベルは「不正アクセスの対象となった情報のみでは、決済（買い物・旅行…",
     "hatenaDate": "2026-10-26T11:57:24Z",
     "users": [],
     "firstSeenAt": "2026-10-26T21:30:13.935427+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
@@ -306,21 +306,21 @@
     "users": [],
     "firstSeenAt": "2026-10-26T20:45:14.378237+09:00",
     "lastSeenAt": "2026-10-26T22:45:13.725378+09:00",
-    "bodyTries": 2,
+    "bodyTries": 3,
     "bodyReason": "crawl-delay-too-long"
   },
   {
     "title": "テスラのネットワークエンジニアの募集要項に「25kgを持ち上げられること」と明記してあるが、なんで25kgを持ち上げる必要があるんだろうか？",
     "url": "https://togetter.com/li/2763108",
     "domain": "togetter.com",
-    "count": 44,
+    "count": 45,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2763108",
     "screenshot": "https://s.tgstc.com/ogp3/b440ae273f4323efcd5991cfeb399c85-1200x630.jpeg",
     "description": "Teslaが東京でネットワークエンジニアを募集。 条件：25kgを持ち上げられること hire-r1.mokahr.com/su/XMw4Z pic.x.com/PyOLWZ4uu1 @naoyashiga @hunterILY イーロン「ネットワークエンジニアにはテスラ車のバッテリーやタイヤの交換もやってもらう」 StarTech.com 1U 放熱スリット付きサーバーラック棚板 伸縮式ラック収納棚 耐荷重80kg ADJSHELF | 取付奥行495-974mm、ユニバーサルトレイ、SPCC冷間圧延鋼板製、エアフロー最大化、TAA準拠 @naoyashiga 1Uのサーバのラッキングくら…",
     "hatenaDate": "2026-10-26T10:48:09Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:30:14.545652+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
@@ -334,21 +334,21 @@
     "hatenaDate": "2026-10-26T10:16:01Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:15:14.778846+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AI の謎な説明文を直すスキル",
     "url": "https://zenn.dev/microsoft/articles/explain-before-shorten",
     "domain": "zenn.dev",
-    "count": 66,
+    "count": 68,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/microsoft/articles/explain-before-shorten",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--iOof7jMa--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AE%25E8%25AC%258E%25E3%2581%25AA%25E8%25AA%25AC%25E6%2598%258E%25E6%2596%2587%25E3%2582%2592%25E7%259B%25B4%25E3%2581%2599%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Kazuki%2520Ota%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MzZDNiN2I3OGYuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Microsoft%2520%2528%25E6%259C%2589%25E5%25BF%2597%2529%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzhmNzg3NDJjNDQuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "ここ最近は自作の MarkdStage で Markdown ファイルでスライドを作っているのですが、AI に箇条書きを作らせると、なんというか、もっとこう説明いるだろ！？なんでいきなり否定から入るの！？みたいな文章を作りがちです。直近だとこういうのが出てきました。0件じゃないのを表してるのはそうだけど、ここで説明したいのはこれじゃない！みたいな気持ちを抱いていました。 Completed は、コードが最後まで実行された状態です。入力不正が0件であることを意味するわけではありません。 こんな文章がいたるところにちりばめられた宝石箱を1つ1つ検品しているときに、言い直しの仕方を SKILL に…",
     "hatenaDate": "2026-10-26T05:49:22Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:15:14.778846+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
@@ -362,35 +362,35 @@
     "hatenaDate": "2026-10-26T10:32:58Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:00:12.610870+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「年齢は合ってますが、人間ではありません」　6歳の飼い猫に届いた“進研ゼミの案内”　なぜ届いたのかベネッセに聞いた",
     "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002597/",
     "domain": "www.itmedia.co.jp",
-    "count": 81,
+    "count": 83,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/26/2000002597/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/26/2000002597/10010474/2048",
     "description": "（1/2 ページ） 「貴社が案内を送ってきた『萌奈椛様 6歳』はこの子です。年齢は合ってますが、人間ではありません」──飼い猫宛てに通信教育「進研ゼミ」の案内が届いたという投稿が、10月20日ごろにXで話題になった。ITmedia NEWSは、投稿者と発行元のベネッセコーポレーションに経緯を聞いた。 投稿者は、6歳の猫「萌奈椛」（もなか）ちゃんと暮らす飼い主だ。20日、自宅に届いた小学校入学に向けた講座の案内の宛名と、萌奈椛ちゃんの写真を投稿した。宛名の「萌奈椛様 6歳」は、名前も年齢も実際の萌奈椛ちゃんと一致していたという。 投稿者はITmedia NEWSの取材に対し、萌奈椛ちゃんの名前…",
     "hatenaDate": "2026-10-26T10:32:41Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:00:12.610870+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
-    "title": "ハッカー集団 GMOにあす期限で100万ドル要求 顧客脅迫も | NHKニュース",
+    "title": "ハッカー集団 GMOに27日期限で100万ドル要求 顧客脅迫も | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261026de65733",
     "domain": "news.web.nhk",
-    "count": 83,
+    "count": 85,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261026de65733",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261026de65733/20261026de65733_E0000110772_1_l.jpg",
     "description": "GMOインターネットグループの投資家向けクラウドサービスに不正アクセスしたとみられるハッカー集団が、27日正午までに会社側に100万ドル＝日本円で1億5700万円余りを支払うよう求めていることが分かり…",
     "hatenaDate": "2026-10-26T08:44:52Z",
     "users": [],
     "firstSeenAt": "2026-10-26T19:30:14.128497+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -405,7 +405,7 @@
     "hatenaDate": "2026-10-26T06:35:53Z",
     "users": [],
     "firstSeenAt": "2026-10-26T19:30:14.128497+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
@@ -440,14 +440,14 @@
     "title": "Ｊｏｓｈｉｎ、不正アクセスで最大約600万件の会員情報などが漏えいの可能性",
     "url": "https://internet.watch.impress.co.jp/docs/news/2151273.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 105,
+    "count": 107,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2151273.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2151/273/01.png",
     "description": "株式会社Ｊｏｓｈｉｎは10月26日、不正アクセスにより会員情報最大約600万件が漏えいした可能性があるとして、情報を公開した。 同社では10月17日に、第三者による不正アクセスを受けシステム障害が発生し、一部のサービスを提供できない状態になっているとして第1報を公開するとともに、調査を実施していた。今回発表された第2報では、不正アクセスの詳細や、漏えいの可能性がある顧客情報について発表している。 16日に同社のネットワークにおいて異常を検知し、調査により不正アクセスを確認した。この際の緊急措置を行ったことにより、一部サービスが利用できない状態となった。 漏えいの可能性がある顧客情報として、次…",
     "hatenaDate": "2026-10-26T09:20:26Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:45:14.033725+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
@@ -462,7 +462,7 @@
     "users": [],
     "firstSeenAt": "2026-10-26T18:45:14.033725+09:00",
     "lastSeenAt": "2026-10-26T19:15:13.493662+09:00",
-    "bodyTries": 1,
+    "bodyTries": 2,
     "bodyReason": "crawl-delay-too-long"
   },
   {
@@ -525,14 +525,14 @@
     "title": "pixiv社の爆速PHPアップデートを参考に、社内で Docker Official Image のビルドシステムを作った話 - Classi開発者ブログ",
     "url": "https://tech.classi.jp/entry/2026/10/26/163000",
     "domain": "tech.classi.jp",
-    "count": 102,
+    "count": 105,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.classi.jp/entry/2026/10/26/163000",
     "screenshot": "https://ogimage.blog.st-hatena.com/26006613504214060/14945776032095512291/1792999801",
     "description": "Classi のサービス開発を担当しているイノウエです。 2026年10月21日に、通称 PHP2Shell と呼ばれる深刻な脆弱性を修正する PHP 8系への緊急パッチが配信されました。 当社のサービスも一部で PHP が使用されており、緊急パッチの配布に備え私を含めた数名で待機しておりました。 しかし、コンテナのベースイメージには Docker Official Image の PHP を使用していたため、結局23時前に公開された緊急パッチから Docker Official Image が配信される深夜2時前までの間は何をすることもできず待ちぼうけとなってしまいました。 待ちぼうけの間…",
     "hatenaDate": "2026-10-26T08:08:37Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
@@ -547,7 +547,7 @@
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
     "lastSeenAt": "2026-10-26T20:45:14.378237+09:00",
-    "bodyTries": 1,
+    "bodyTries": 2,
     "bodyReason": "crawl-delay-too-long"
   },
   {
@@ -561,7 +561,7 @@
     "hatenaDate": "2026-10-26T08:06:45Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
@@ -599,24 +599,25 @@
     "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/keychron-c3-pro-trackball-8k-release/",
     "screenshot": "https://media.loom-app.com/loom/2026/10/23/75ef1eba-6da5-4551-a0e6-d401ae757684/original.png?w=1200&h=630",
-    "description": "これは、Keychronの人気キーボード「Keychron C3 Pro 8K」をベースに、スペースキーの部分に14mm径のトラックボールを配置。小さなトラックボールながら、操作性は良好。左右のスペースバーやアルファベットキーと組み合わせることで、効率よくマウス操作が行なえます。 主なスペックは以下の通り。 レイアウト：80％テ...",
+    "description": "世の中にある、イカしたガジェットをお届けする“ひと足先のテックステーション・スーパーマーケット”「GIZMART」（ギズマート）に、また新しい製品がやってきました。「Keychron C3 Pro Trackball 8K」です。 これは、Keychronの人気キーボード「Keychron C3 Pro 8K」をベースに、スペースキーの部分に14mm径のトラックボールを配置。小さなトラックボールながら、操作性は良好。左右のスペースバーやアルファベットキーと組み合わせることで、効率よくマウス操作が行なえます。 キースイッチ/バックライト：MXスタイル メカニカルスイッチ（ホットスワップ対応）/…",
     "hatenaDate": "2026-10-23T11:01:31Z",
     "users": [],
     "firstSeenAt": "2026-10-26T17:45:13.991224+09:00",
-    "lastSeenAt": "2026-10-26T18:15:15.087035+09:00"
+    "lastSeenAt": "2026-10-26T18:15:15.087035+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "GMO不正アクセス　「能動的サイバー防御」より先にやるべきことは：朝日新聞",
     "url": "https://www.asahi.com/articles/ASVBV1JK7VBVULZU002M.html",
     "domain": "www.asahi.com",
-    "count": 96,
+    "count": 97,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVBV1JK7VBVULZU002M.html",
     "screenshot": "https://imgopt.asahi.com/ogp/AS20261026002169_comm.jpg",
     "description": "GMOインターネットが提供するFX（外国為替証拠金取引）関連のサービスが不正アクセスを受けた問題で、同社が政府に対して「能動的サイバー防御」の適用を要請したことが波紋を広げている。サイバー攻撃が相次ぐ中、政府はどんな対応に乗り出すべきなのか。サイバーセキュリティーに詳しい立命館大学の上原哲太郎教授に聞いた。 A 主に電気やガスなどの基幹インフラ事業者などを想定してつくられたサイバー防御の仕組みです。それらが次々と攻撃されれば国家の安全が損なわれ、経済が混乱する。だから国が乗り出す、という理屈です。法律上、守る対象は基幹インフラに限られていませんが、制度全体はそうした事態を念頭に置いています。…",
     "hatenaDate": "2026-10-26T07:32:00Z",
     "users": [],
     "firstSeenAt": "2026-10-26T17:30:13.295682+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
@@ -630,7 +631,9 @@
     "hatenaDate": "2026-10-25T23:55:24Z",
     "users": [],
     "firstSeenAt": "2026-10-26T17:15:13.868755+09:00",
-    "lastSeenAt": "2026-10-26T19:00:16.021755+09:00"
+    "lastSeenAt": "2026-10-26T19:00:16.021755+09:00",
+    "bodyTries": 1,
+    "bodyReason": "robots-unavailable"
   },
   {
     "title": "はてなブックマークの新機能要望",
@@ -639,11 +642,12 @@
     "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20260826223144",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-    "description": "ブコメの字を大きくする機能をつけて欲しい。 iPadではてブアプリを使っているが、最近、ブコメの字が小さくて読みづらい。 メインユーザの層、もうほとんどみんな老眼だよね？",
+    "description": "< anond:20260826223016 | anond:20260826222332 > iPadOS 側でどうにかできるんとちゃうか (他のアプリも大きくなるけど、むしろ望むところやろ？) チラシデザインの仕事してるけどこの前とうとう字が大きくて少しダサいですって修正指示来てしまった・・・ 本文と注意書きはもっと小さくていいですよって システム設定で字を大きくする提案がループしてるのを見ると、はてなって本当に技術音痴の集団なんだなと察する 文筆もまた文化資本モリモリの世界で世襲もめちゃくちゃ多く 大したことないやつでもチヤホヤされてたり売れてたりする 23 子供産んで家事して育児して…",
     "hatenaDate": "2026-10-25T11:47:26Z",
     "users": [],
     "firstSeenAt": "2026-10-26T16:45:13.923076+09:00",
-    "lastSeenAt": "2026-10-26T19:45:13.392124+09:00"
+    "lastSeenAt": "2026-10-26T19:45:13.392124+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "Local Wikipedia: The Encyclopedia For Local People",
@@ -656,7 +660,9 @@
     "hatenaDate": "2026-10-23T09:10:53Z",
     "users": [],
     "firstSeenAt": "2026-10-26T16:15:13.218161+09:00",
-    "lastSeenAt": "2026-10-26T18:15:15.087035+09:00"
+    "lastSeenAt": "2026-10-26T18:15:15.087035+09:00",
+    "bodyStatus": "skip",
+    "bodyReason": "not-longer"
   },
   {
     "title": "ジャック・ドーシー氏率いるBlock、音声だけで学習した全二重音声モデル「Dessa」発表　「人と話しているよう」",
@@ -665,11 +671,12 @@
     "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/26/2000002574/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/26/2000002574/10010431/2048",
-    "description": "Dessaは、音声を入力して音声を出力するspeech-to-speechモデルだ。相手の話を聞きながら同時に話せる全二重方式を採用している。実際の会話から学習したことで、どのタイミングで口を挟むか、「うん」「なるほど」といった相づちをどう打つかを身に付けたという。推論はリアルタイムより高速で、応答を待たされることは...",
+    "description": "米Block（旧Square）は10月23日（現地時間）、テキストを一切使わず、人間の会話音声だけで学習させた全二重音声モデル「Dessa」を研究プレビューとして発表した。 同社を率いるジャック・ドーシー氏はXで「声は知性と対話する最も自然な方法だと考え、これまでで最も本物らしい全二重音声モデルとしてDessaを作った。話していると人と話しているように感じる。感情やニュアンス、間、自然なリズムに満ちている」と投稿した。 Dessaは、音声を入力して音声を出力するspeech-to-speechモデルだ。相手の話を聞きながら同時に話せる全二重方式を採用している。実際の会話から学習したことで、ど…",
     "hatenaDate": "2026-10-26T02:12:17Z",
     "users": [],
     "firstSeenAt": "2026-10-26T15:45:15.625237+09:00",
-    "lastSeenAt": "2026-10-26T20:00:12.610870+09:00"
+    "lastSeenAt": "2026-10-26T20:00:12.610870+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "企業が被害にあったインシデント事例をまとめたデータベースを作ってる",
@@ -678,11 +685,12 @@
     "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/sota1235.com/blog/2026-10-25-my-own-incident-db/",
     "screenshot": "https://sota1235.com/blog/2026-10-25-my-own-incident-db/ogp.png",
-    "description": "tl;dr 特定の企業・団体が被害に遭うセキュリティインシデント事例を集めてDB化する取り組みをしています 成果物はNotion DBでまとめてあり、[Beta] セキュリティインシデントデータベースから誰でも閲覧可能です 発展途上の取り組みですが、自分的にはやってよかったんという気持ち セキュリティインシデントのデータベ...",
+    "description": "特定の企業・団体が被害に遭うセキュリティインシデント事例を集めてDB化する取り組みをしています 成果物はNotion DBでまとめてあり、[Beta] セキュリティインシデントデータベースから誰でも閲覧可能です Replay.fmというPodcastを初めて、セキュリティ関連のfeedを片っ端から読むようになって思ったのが世の中のセキュリティインシデントの多さ。 普通にSWEやってるだけだとメディアやSNSで話題になる大企業の事例や、規模の大きいランサムウェア等の事例しか目に入ってこないがアンテナを広げていくと本当にほぼ毎日、どこかでセキュリティインシデントが発生してはお知らせが掲載されてい…",
     "hatenaDate": "2026-10-25T15:34:35Z",
     "users": [],
     "firstSeenAt": "2026-10-26T15:00:13.678461+09:00",
-    "lastSeenAt": "2026-10-26T18:00:13.800894+09:00"
+    "lastSeenAt": "2026-10-26T18:00:13.800894+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "「3万円にした結果がコレかぁ」GMOのサーバー不正アクセス、3か月前の熊谷代表の発言が「伏線回収」だと話題になってしまう",
@@ -695,7 +703,7 @@
     "hatenaDate": "2026-10-26T03:24:49Z",
     "users": [],
     "firstSeenAt": "2026-10-26T14:30:13.063343+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
     "descriptionSource": "body"
   },
   {
@@ -709,7 +717,9 @@
     "hatenaDate": "2026-10-26T02:05:20Z",
     "users": [],
     "firstSeenAt": "2026-10-26T14:17:50.541311+09:00",
-    "lastSeenAt": "2026-10-26T19:00:16.021755+09:00"
+    "lastSeenAt": "2026-10-26T19:00:16.021755+09:00",
+    "bodyTries": 1,
+    "bodyReason": "crawl-delay-too-long"
   },
   {
     "title": "マスク氏、スターリンク巡りウクライナ批判「利用規約に違反」　通信切れば即座に前線崩壊",
@@ -770,11 +780,12 @@
     "count": 82,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/26/2000002579/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/26/2000002579/10010439/2048",
-    "description": "イーロン・マスク氏は10月25日（現地時間）、SNS「X」の「いいね」ボタンに、長押しで決済サービス「X Money」を通じて相手に1ドルを送れる機能を追加すると、自身のXへの投稿で明らかにした。 投稿では「いいねを長押しして、X Money経由で誰かに1ドルを送れるようにする機能を追加している」と説明。機能の提供開始時...",
+    "description": "（1/2 ページ） イーロン・マスク氏は10月25日（現地時間）、SNS「X」の「いいね」ボタンに、長押しで決済サービス「X Money」を通じて相手に1ドルを送れる機能を追加すると、自身のXへの投稿で明らかにした。 「いいね」長押しで1ドルを送れる機能の追加を明らかにしたマスク氏の投稿、英語からの翻訳（出典：イーロン・マスク氏のX投稿） 投稿では「いいねを長押しして、X Money経由で誰かに1ドルを送れるようにする機能を追加している」と説明。機能の提供開始時期や対象地域、米国外での展開、送金時の確認手順などの詳細には触れていない。 X Moneyは、米Xが2025年1月に米Visaとの提…",
     "hatenaDate": "2026-10-26T03:11:18Z",
     "users": [],
     "firstSeenAt": "2026-10-26T13:00:13.349257+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00"
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "「Galaxy Z Fold8」「iPhone Duo」を“メイン端末”として使う上での課題　縦型コンテンツの最適化をどう進める？",
@@ -822,11 +833,12 @@
     "count": 44,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/26/2000002577/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/26/2000002577/10010438/2048",
-    "description": "フィギュアなどの企画・販売を手掛けるグッドスマイルカンパニー（東京都千代田区）は10月23日、同社が運営するECサイト「グッドスマイルカンパニー公式ショップ」で不正アクセスが発生し、会員の個人情報などが第三者に閲覧されたと発表した。サイトは現在閉鎖しており、再開時期は未定としている。 同社のシステムログ...",
+    "description": "グッスマに不正アクセス、公式EC閉鎖 会員の住所や注文履歴など漏えいか 再開目処立たず フィギュアなどの企画・販売を手掛けるグッドスマイルカンパニー（東京都千代田区）は10月23日、同社が運営するECサイト「グッドスマイルカンパニー公式ショップ」で不正アクセスが発生し、会員の個人情報などが第三者に閲覧されたと発表した。サイトは現在閉鎖しており、再開時期は未定としている。 同社のシステムログを解析した結果、10月19日午後3時すぎから22日午後10時ごろにかけて、サイトの管理情報が複数回にわたり不正に閲覧されていたことが判明したという。 閲覧された可能性があるのは、会員の氏名、性別、住所、電話…",
     "hatenaDate": "2026-10-26T02:55:53Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:30:13.590378+09:00",
-    "lastSeenAt": "2026-10-26T20:32:33.731653+09:00"
+    "lastSeenAt": "2026-10-26T20:32:33.731653+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "[法林岳之・石川温・石野純也・佐藤文彦のスマホ会議（仮）] ドコモのユーザーファーストな料金改定といまだに残る課題",
@@ -878,20 +890,20 @@
     "hatenaDate": "2026-10-25T21:30:55Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:15:38.595967+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00"
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00"
   },
   {
     "title": "無料の画像生成AI「Moss-Image」がすごい　日本語も漫画も生成、商用利用OKの実力を試した (1/4)",
     "url": "https://ascii.jp/elem/000/004/445/4445534/",
     "domain": "ascii.jp",
-    "count": 290,
+    "count": 292,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/445/4445534/",
     "screenshot": "https://ascii.jp/img/2026/10/26/4543296/xl/e272bbaf9008df3e.jpg?20200122",
     "description": "10月16日、「Moss-Image」という新しい画像AIモデルがオープンウエイトで登場しました。5B（50億）パラメータを持ち、写真からアニメ風まで、様々な画風での画像生成や日本語を含むテキストの描画ができる有能なモデルです。また、商用利用・改変・再配布・製品への組み込みを認めるApache 2.0という自由度の高いライセ...",
     "hatenaDate": "2026-10-26T01:54:11Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:15:38.595967+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00"
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00"
   },
   {
     "title": "社内のホワイトハッカー「誰より悔しい」不正アクセス受けたGMO熊谷社長、ブログ全文",
@@ -900,11 +912,12 @@
     "count": 161,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.sankei.com/article/20261026-FPM5XMZGCZP4RDOXILAKMEOOFE/",
     "screenshot": "https://www.sankei.com/resizer/v2/GWEMSXP4FBDYTHXKIP2P7ZSFIM.jpg?auth=24ce571c3ce7efe7269043d0f602cef1f0e63d36230586bf1f41f910eafb6688&quality=50&focal=335%2C320&width=1200&height=675",
-    "description": "外国為替証拠金取引（FX）のためのサービスに不正アクセスを受けたことを巡り、GMOインターネットグループの熊谷正寿社長が25日、事前に社内の技術者から安全性に関して「改善すべき課題」が指摘されていたとブログに投稿した。一律5000円の見舞金を支払うと発表したことについて、「ご不便とご心配」をかけた顧客への「...",
+    "description": "外国為替証拠金取引（FX）のためのサービスに不正アクセスを受けたことを巡り、GMOインターネットグループの熊谷正寿社長が25日、事前に社内の技術者から安全性に関して「改善すべき課題」が指摘されていたとブログに投稿した。一律5000円の見舞金を支払うと発表したことについて、「ご不便とご心配」をかけた顧客への「初動の誠意」だと説明し、幕引きを否定。インターネットが「壊れかけている」として、「官民連携」で守ろうと強く訴えた。同社として「能動的サイバー防御」の発動を国に要請している。自社のシステムの「改善すべき課題」の指摘は、社内のホワイトハッカーからあったという。ブログでは「誰よりも深い悔しさを噛…",
     "hatenaDate": "2026-10-26T00:54:55Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:15:38.595967+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00"
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "GMO不正アクセス犯の犯行声明文ビュアー",
@@ -917,20 +930,20 @@
     "hatenaDate": "2026-10-25T23:12:28Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:00:13.737781+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00"
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00"
   },
   {
     "title": "月の利益はほぼマイナス…4年半続けた飲食店を手放した経営者が語る、失敗と教訓 - おなじみ丨近くの店から、なじみの店へ。",
     "url": "https://onaji.me/entry/2026/10/26",
     "domain": "onaji.me",
-    "count": 297,
+    "count": 298,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/onaji.me/entry/2026/10/26",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/4c6ff16d7a5b97fcb2601817927c6ec7e5195f72/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fb%2Fblog-media%2F20261022%2F20261022180512.jpg",
     "description": "東京・水天宮前に「ワインと鍋」を開業、その後売却したすてぃおさんに、飲食店経営の難しさを伺いました。 飲食店経営の成功談は数多くありますが、資金繰りの苦労や「店を続けるか、手放すか」というシビアな判断の裏側について、経営者が自ら語る機会はそう多くありません。 2021年12月、東京・水天宮前に開業した「...",
     "hatenaDate": "2026-10-26T02:00:08Z",
     "users": [],
     "firstSeenAt": "2026-10-26T11:45:14.248262+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00"
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00"
   },
   {
     "title": "ガチで放置できるClaude Code実行環境の作り方.pdf",
@@ -1105,14 +1118,14 @@
     "title": "Google、プライバシーポリシーに「Gmail」「Googleフォト」のデータを広告に使う例外を追加　回避方法は",
     "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002570/",
     "domain": "www.itmedia.co.jp",
-    "count": 319,
+    "count": 320,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/26/2000002570/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/26/2000002570/10010413/2048",
     "description": "「コンテンツや広告など、カスタマイズしたサービスの提供」の項目にも記述が追加された。検索や「Gemini」アプリなどに、GoogleフォトやGmail、ドライブなどのデータへのアクセスを許可できること、その場合はアクセスする側のサービスのポリシーと設定が適用されることを説明している。例として、検索はアクセスを許可...",
     "hatenaDate": "2026-10-25T23:31:21Z",
     "users": [],
     "firstSeenAt": "2026-10-26T10:15:13.694927+09:00",
-    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00"
+    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00"
   },
   {
     "title": "「読みにくいDB」はAI開発のコストを1.9倍にする――Claude Codeで検証したDB設計の影響",
