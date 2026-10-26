@@ -2,20 +2,21 @@
  * ストリーム表示(#/stream)。
  *
  * 一覧データ(data/hotentry-*.json)のうちフィルタに引っかからない記事を、
- * 古い順に一定間隔でひとつずつ末尾へ追加していく。かつてのTwitterのStreamのように
+ * 古い順に一定間隔でひとつずつ先頭(ページ上部)へ追加していく(新しいものほど上=降順)。かつてのTwitterのStreamのように
  * 「次々と流れてくる」見え方にするためのもので、描画する記事の見た目は
  * renderItem(item) で呼び出し側(app.js)から受け取る。
  *
  * - 開いた時点の一覧のうち新しい側INITIAL_COUNT件を流し、残りは「既出」として流さない。
  * - POLL_INTERVAL_MS ごとに一覧を再取得し、既出でない記事だけを待ち行列に足す。
- * - 末尾付近を見ている間だけ追従スクロールする(遡って読んでいる時は動かさない)。
+ * - 先頭付近を見ている間は先頭に張り付いて新着を見せる。下へ読み進めている間は、追加で
+ *   押し下げられた分だけスクロール位置を補正し、読んでいる場所を動かさない。
  * - 記事ごとにブックマークコメント(コメント付きのもののみ)を記事の下に出す。追加した時に取得し、
  *   以降はCOMMENT_REFRESH_MSごとに表示中の記事(新しい側MAX_COMMENT_WATCH件)を取り直して、
- *   新しく付いたコメントだけを末尾へ足す。
+ *   新しく付いたコメントだけを記事のコメント欄の先頭へ足す(コメントも新しいものが上)。
  */
 (function (global) {
   const INITIAL_COUNT = 30;
-  const MAX_ITEMS = 150; // DOMに残す上限。追従中だけ古い方から間引く
+  const MAX_ITEMS = 150; // DOMに残す上限。先頭に張り付いている間だけ古い(下の)方から間引く
   const POLL_INTERVAL_MS = 2 * 60 * 1000;
   const FOLLOW_MARGIN_PX = 160;
   const COMMENT_REFRESH_MS = 3 * 60 * 1000;
@@ -70,9 +71,18 @@
     let commentTimer = null;
     const commentState = new WeakMap(); // 記事の要素 -> { loaded, seen:Set }
 
-    function isNearBottom() {
-      const el = document.documentElement;
-      return window.innerHeight + window.scrollY >= el.scrollHeight - FOLLOW_MARGIN_PX;
+    // containerの先頭にhtmlを挿入する。挿入位置が画面の上端より上にある時は、押し下げられた分だけ
+    // スクロール位置を補正して、読んでいる場所が動かないようにする(ブラウザ任せのscroll anchoringは
+    // Safariに無いので使わず、css側でoverflow-anchor:noneにして自前で補正する)。
+    // pinToTop が真で先頭付近を見ている時は、補正せず先頭へ戻して新着を見せる。
+    // 挿入位置の判定は呼び出し側から渡す(中身が空のコメント欄はdisplay:noneで位置が取れないため)。
+    function prependHtml(container, html, pinToTop, above) {
+      const nearTop = window.scrollY < FOLLOW_MARGIN_PX;
+      const before = document.documentElement.scrollHeight;
+      container.insertAdjacentHTML('afterbegin', html);
+      if (pinToTop && nearTop) window.scrollTo(0, 0);
+      else if (above) window.scrollBy(0, document.documentElement.scrollHeight - before);
+      return pinToTop && nearTop;
     }
 
     function updateStatus() {
@@ -118,17 +128,19 @@
       const fresh = comments.filter((b) => !state.seen.has(commentKey(b)));
       if (fresh.length === 0) return;
       fresh.forEach((b) => state.seen.add(commentKey(b)));
-      fresh.sort((a, b) => (a.timestamp < b.timestamp ? -1 : a.timestamp > b.timestamp ? 1 : 0));
+      fresh.sort((a, b) => (a.timestamp < b.timestamp ? 1 : a.timestamp > b.timestamp ? -1 : 0)); // 新しい順
       let shown = fresh;
       let omitted = 0;
       if (first && fresh.length > INITIAL_COMMENTS) {
         omitted = fresh.length - INITIAL_COMMENTS;
-        shown = fresh.slice(-INITIAL_COMMENTS);
+        shown = fresh.slice(0, INITIAL_COMMENTS);
       }
-      const follow = isNearBottom();
+      // 省略した古い分の件数は、新しい順の一番下に出す
       const more = omitted > 0 ? `<li class="stream-comments-more">他 ${omitted} 件のコメント</li>` : '';
-      el.querySelector('.stream-comments').insertAdjacentHTML('beforeend', more + shown.map(renderComment).join(''));
-      if (follow) window.scrollTo(0, document.documentElement.scrollHeight);
+      const ul = el.querySelector('.stream-comments');
+      // 挿入位置はコメント欄の直前の要素(タイトル・概要)の下端。それが画面の上端より上なら押し下げが見えている側に及ぶ
+      const above = ul.previousElementSibling.getBoundingClientRect().bottom < 0;
+      prependHtml(ul, shown.map(renderComment).join('') + more, false, above);
     }
 
     function scheduleCommentRefresh() {
@@ -138,7 +150,7 @@
       commentTimer = setTimeout(async () => {
         if (!document.hidden && !paused) {
           const mySeq = seq;
-          for (const el of Array.from(list.children).slice(-MAX_COMMENT_WATCH)) {
+          for (const el of Array.from(list.children).slice(0, MAX_COMMENT_WATCH)) {
             if (mySeq !== seq) return;
             await loadComments(el);
             await sleep(COMMENT_FETCH_GAP_MS);
@@ -154,14 +166,11 @@
       while (item && isHidden(item)) item = queue.shift();
       if (!item) return;
 
-      const follow = isNearBottom();
-      list.insertAdjacentHTML('beforeend', renderItem(item));
+      const pinned = prependHtml(list, renderItem(item), true, list.getBoundingClientRect().top < 0);
       shownCount++;
-      loadComments(list.lastElementChild);
-      if (follow) {
-        while (list.children.length > MAX_ITEMS) list.removeChild(list.firstElementChild);
-        // smoothだと次の追加までに追いつけず、遅れた分だけ「末尾を見ていない」と判定されて追従が外れるため即時に送る
-        window.scrollTo(0, document.documentElement.scrollHeight);
+      loadComments(list.firstElementChild);
+      if (pinned) {
+        while (list.children.length > MAX_ITEMS) list.removeChild(list.lastElementChild);
       }
     }
 

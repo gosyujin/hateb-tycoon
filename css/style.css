@@ -1466,3 +1466,7 @@ a.btn {
   color: var(--color-muted);
   font-size: 0.8rem;
 }
+/* 先頭への追加で押し下げられた分のスクロール補正は js/stream.js が自前で行う(二重に補正しない) */
+.stream-list {
+  overflow-anchor: none;
+}
