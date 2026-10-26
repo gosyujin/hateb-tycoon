@@ -1366,3 +1366,90 @@ a.btn {
 #me-open-settings {
   margin-bottom: 12px;
 }
+
+/* ---- ストリーム表示(#/stream): 記事が末尾へ次々と追加されていく ---- */
+.stream-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.stream-item {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 10px 12px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  animation: stream-in 0.35s ease-out;
+}
+@keyframes stream-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .stream-item {
+    animation: none;
+  }
+}
+.stream-main {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.stream-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+}
+.card-domain.stream-domain {
+  max-width: 14em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.card-close-btn.stream-close {
+  position: static;
+  margin-left: auto;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  line-height: 18px;
+  font-size: 0.85rem;
+}
+.stream-title {
+  display: block;
+  margin-top: 4px;
+  font-weight: 600;
+  color: var(--color-text);
+  overflow-wrap: anywhere;
+}
+.stream-desc {
+  margin: 4px 0 0;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  overflow-wrap: anywhere;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.stream-thumb {
+  flex: 0 0 auto;
+  width: 88px;
+  height: 66px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: var(--color-thumb-bg);
+}

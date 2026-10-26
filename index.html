@@ -19,6 +19,7 @@
       <p id="offline-cache-popover-status" class="status"></p>
     </div>
   </div>
+  <a id="stream-link" href="#/stream" class="btn btn--icon" aria-label="ストリーム表示" title="ストリーム表示">📡</a>
   <button id="autoscroll-btn" type="button" class="btn btn--icon" aria-label="自動スクロールを開始" aria-pressed="false" title="自動スクロールを開始">▶️</button>
   <button id="mark-all-read-btn" type="button" class="btn btn--icon" aria-label="表示中の記事をすべて既読にする" title="表示中の記事をすべて既読にする">☑️</button>
   <button id="settings-btn" type="button" class="btn btn--icon" aria-label="フィルタ設定" title="フィルタ設定">⚙</button>
@@ -68,6 +69,25 @@
       </div>
     </div>
     <ul id="comment-list" class="comment-list"></ul>
+  </section>
+  <section id="view-stream" hidden>
+    <div class="list-status-row">
+      <button id="stream-back" type="button" class="btn btn--small">← 一覧に戻る</button>
+      <div class="list-controls">
+        <button id="stream-pause" type="button" class="btn btn--small" aria-pressed="false">⏸️ 一時停止</button>
+        <label class="sort-label">
+          <select id="stream-interval" aria-label="追加する間隔">
+            <option value="1000">1秒</option>
+            <option value="3000">3秒</option>
+            <option value="5000">5秒</option>
+            <option value="10000">10秒</option>
+            <option value="30000">30秒</option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <p id="stream-status" class="status"></p>
+    <ol id="stream-list" class="stream-list"></ol>
   </section>
   <section id="view-me" hidden>
     <div class="list-status-row">
@@ -320,6 +340,7 @@
 <script src="js/filter-sync.js"></script>
 <script src="js/hatena-api.js"></script>
 <script src="js/my-bookmarks.js"></script>
+<script src="js/stream.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

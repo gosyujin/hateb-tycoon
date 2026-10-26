@@ -33,6 +33,8 @@
   const meList = document.getElementById('me-list');
   const meLayoutToggle = document.getElementById('me-layout-toggle');
   const meOpenSettings = document.getElementById('me-open-settings');
+  const streamView = document.getElementById('view-stream');
+  const streamList = document.getElementById('stream-list');
 
   const settingsBtn = document.getElementById('settings-btn');
   const settingsModal = document.getElementById('settings-modal');
@@ -428,7 +430,16 @@
   function render() {
     const { path, params } = parseRoute();
     resetFooterSearch(path === '/entry');
-    if (path === '/me') {
+    streamView.hidden = path !== '/stream';
+    if (path !== '/stream') stream.stop();
+    if (path === '/stream') {
+      listView.hidden = true;
+      entryView.hidden = true;
+      entryNavBar.hidden = true;
+      meView.hidden = true;
+      footerSearch.placeholder = STREAM_SEARCH_PLACEHOLDER;
+      stream.start(params.get('cat') || currentCategory);
+    } else if (path === '/me') {
       listView.hidden = true;
       entryView.hidden = true;
       entryNavBar.hidden = true;
@@ -945,6 +956,62 @@
         </span>
       </li>`;
   }
+
+  // ---- ストリーム表示(#/stream) ----
+  // 一覧データのうちフィルタに掛からない記事を、古い順に少しずつ末尾へ足していく(js/stream.js)。
+  const STREAM_SEARCH_PLACEHOLDER = 'URLを入力してEnterでブックマーク一覧';
+
+  function renderStreamItem(item) {
+    const params = new URLSearchParams();
+    params.set('url', item.url);
+    const href = `#/entry?${params.toString()}`;
+    const thumb = item.screenshot
+      ? `<img class="stream-thumb" src="${escapeHtml(item.screenshot)}" alt="" loading="lazy">`
+      : '';
+    const time = item.hatenaDate ? hatenaDateTime(item.hatenaDate) : '';
+    const desc = item.description ? `<p class="stream-desc">${escapeHtml(item.description)}</p>` : '';
+    return `
+      <li class="stream-item">
+        <div class="stream-main">
+          <div class="stream-meta">
+            <button type="button" class="card-domain stream-domain" data-domain="${escapeHtml(item.domain)}" data-url="${escapeHtml(item.url)}">${escapeHtml(item.domain)}</button>
+            <span class="stream-time">${escapeHtml(time)}</span>
+            <a class="card-count-link${countTierClass(item.count)}" href="${href}">${item.count} users →</a>
+            <button type="button" class="card-close-btn stream-close" data-url="${escapeHtml(item.url)}" title="このページを非表示にする" aria-label="このページを非表示にする">×</button>
+          </div>
+          <a class="stream-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
+          ${desc}
+        </div>
+        ${thumb}
+      </li>`;
+  }
+
+  const stream = Stream.create({
+    list: streamList,
+    statusEl: document.getElementById('stream-status'),
+    pauseBtn: document.getElementById('stream-pause'),
+    intervalSelect: document.getElementById('stream-interval'),
+    renderItem: renderStreamItem,
+    fetchEntries: (category) => HatenaAPI.getHotEntries(category),
+    isHidden: (item) => Filters.isHidden(item),
+  });
+
+  document.getElementById('stream-back').addEventListener('click', () => {
+    const params = new URLSearchParams();
+    params.set('cat', currentCategory);
+    navigate('/', params);
+  });
+
+  streamList.addEventListener('click', (e) => {
+    const closeBtn = e.target.closest('.card-close-btn');
+    if (closeBtn) {
+      Filters.addRule('mute', 'url', closeBtn.dataset.url);
+      closeBtn.closest('.stream-item').remove();
+      return;
+    }
+    const domainBtn = e.target.closest('.card-domain');
+    if (domainBtn) openSettings(domainMutePreset(domainBtn));
+  });
 
   // ---- 個別エントリー(コメント一覧)ビュー ----
   // 矢印キーでの前後移動は都度履歴を積むため、history.back()だと矢印移動した回数分

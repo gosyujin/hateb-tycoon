@@ -18,6 +18,7 @@ hateb-tycoon/
 │   ├── filter-sync.js    # フィルタ(3種)のGist同期(取り込み+和集合で上書き)
 │   ├── hatena-api.js     # はてなブックマークデータの取得・正規化・JSONPと、
 │   │                     #   オフライン用の個別記事情報のlocalStorageキャッシュ
+│   ├── stream.js         # ストリーム表示(#/stream)の待ち行列・追加間隔・追従スクロール
 │   ├── my-bookmarks.js   # 中継Worker経由の一覧取得・ブックマーク取得/投稿・接続設定のlocalStorage保存
 │   └── app.js             # ルーティング・画面描画・検索・キーボード操作・Service Worker登録
 ├── worker/
