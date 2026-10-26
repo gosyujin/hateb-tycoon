@@ -1,107 +1,146 @@
 [
   {
+    "title": "「読みにくいDB」はAI開発のコストを1.9倍にする――Claude Codeで検証したDB設計の影響",
+    "url": "https://zenn.dev/actbe_tech/articles/8b4a9991d5365d",
+    "domain": "zenn.dev",
+    "count": 7,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/actbe_tech/articles/8b4a9991d5365d",
+    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--_V9DPXy7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258C%25E8%25AA%25AD%25E3%2581%25BF%25E3%2581%25AB%25E3%2581%258F%25E3%2581%2584DB%25E3%2580%258D%25E3%2581%25AFAI%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25AE%25E3%2582%25B3%25E3%2582%25B9%25E3%2583%2588%25E3%2582%25921.9%25E5%2580%258D%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E2%2580%2595%25E2%2580%2595Claude%2520Code%25E3%2581%25A7%25E6%25A4%259C%25E8%25A8%25BC%25E3%2581%2597%25E3%2581%259FDB%25E8%25A8%25AD%25E8%25A8%2588%25E3%2581%25AE%25E5%25BD%25B1%25E9%259F%25BF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E5%258C%2597%25E9%2587%258E%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2U5YmIyMzU3NzIuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%25A2%25E3%2582%25AF%25E3%2583%2588%25E3%2583%2593%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2E0ZDFmMmIzMGMuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+    "description": "はじめに Twitterで「mdやskillを整える以外にも、AIが読みやすいDB構成がある」という話を見かけました。 今後AIで開発していくと、開発スピードと同じくらいAIのコストが効いてくると思っています。そこで、読みやすいDBと読みにくいDBで、トークンとコストがどれくらい変わるのかを実験してみました。 先に言ってしま...",
+    "hatenaDate": "2026-10-25T04:22:49Z",
+    "users": [],
+    "firstSeenAt": "2026-10-26T09:45:11.761647+09:00",
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
+  },
+  {
+    "title": "Googleフォト、ドライブ、Geminiを無料アプリに置き換えた結果、何が変わった？",
+    "url": "https://news.mynavi.jp/techplus/article/20261025-5175531/",
+    "domain": "news.mynavi.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/news.mynavi.jp/techplus/article/20261025-5175531/",
+    "screenshot": "https://news.mynavi.jp/techplus/article/20261025-5175531/ogp_images/ogp.jpg",
+    "description": "Android Police Teamは2026年10月20日(現地時間)、「I replaced Google Photos, Drive, and Gemini with free open source alternatives; now I can't go back」において、Googleフォト、Googleドライブ、Geminiに代わる無償アプリをAndroid端末で利用し、Googleサービスへの依存を減らした体験を紹介した。 今回、代替...",
+    "hatenaDate": "2026-10-25T09:45:55Z",
+    "users": [],
+    "firstSeenAt": "2026-10-26T09:45:11.761647+09:00",
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
+  },
+  {
+    "title": "無料で600以上の言語をサポートする最先端の大規模多言語ゼロショットテキスト音声合成TTSモデル「OmniVoice」",
+    "url": "https://gigazine.net/news/20261025-omnivoice/",
+    "domain": "gigazine.net",
+    "count": 6,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261025-omnivoice/",
+    "screenshot": "https://i.gzn.jp/img/2026/10/25/omnivoice/00.png",
+    "description": "文章を音声に変換するツールは動画のナレーションや教材の読み上げなどに便利ですが、複数の言語への対応や特定の人物の声を再現するには用途に合った音声合成モデルが必要です。そこで、600以上の言語に対応し、短い音声サンプルからの声の複製や性別・年齢・声の高さなど指定した音声が生成できる無料のTTSモデルが「O...",
+    "hatenaDate": "2026-10-25T09:26:10Z",
+    "users": [],
+    "firstSeenAt": "2026-10-26T09:45:11.761647+09:00",
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
+  },
+  {
     "title": "私が5種類のコーディングエージェントを使い分ける理由",
     "url": "https://zenn.dev/rimon/articles/45c1fd2f015af8",
     "domain": "zenn.dev",
-    "count": 11,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/rimon/articles/45c1fd2f015af8",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--EFERL7ev--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%25A7%2581%25E3%2581%258C5%25E7%25A8%25AE%25E9%25A1%259E%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2584%25E5%2588%2586%25E3%2581%2591%25E3%2582%258B%25E7%2590%2586%25E7%2594%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%259F%25E3%2583%25A2%2520%2520%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25AF%25E3%2583%25BC%25E3%2583%2589CTO%25E3%2583%25BBCPO%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2ZmZjQwODdjMmEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "私は普段から5種類のコーディングエージェントを併用しています。 人間が5つの画面を行き来するのではなく、Claude Codeを窓口にして他のエージェントを呼び出しています。 この記事では、なぜ私がそのような使い方をしているのか、それぞれどう使い分けているのかを解説します。 ※アウトプットの品質などは主観を含みま...",
     "hatenaDate": "2026-10-25T23:07:41Z",
     "users": [],
     "firstSeenAt": "2026-10-26T09:15:17.948254+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "ARTEXだけではない：日本を狙う3つの攻撃基盤に見るAI関与の実態",
     "url": "https://www.trendmicro.com/ja_jp/jp-security/26/j/expertview-20261023-01.html",
     "domain": "www.trendmicro.com",
-    "count": 8,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.trendmicro.com/ja_jp/jp-security/26/j/expertview-20261023-01.html",
     "screenshot": "https://www.trendmicro.com/content/dam/trendmicro/global/ja/jp-security/26/j/expertview-20261023-01/thumbnail-image-om-expertview-20261023-01-pc.jpg",
     "description": "ARTEXだけではない：日本を狙う3つの攻撃基盤に見るAI関与の実態 国内の企業や団体が運営するWebシステムからの情報漏えいが相次いで公表されています。昨今のサイバー攻撃に対するAIの悪用の可能性について、当社のリサーチャーが調査した結果をレポートします。 By: Joseph C Chen（TrendAI™ Staff Researcher）, 松川...",
     "hatenaDate": "2026-10-25T07:45:46Z",
     "users": [],
     "firstSeenAt": "2026-10-26T09:15:17.948254+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "Googleの圧縮形式「Brotli」に深刻な脆弱性「HTTP2Shell」、Web関連に幅広く影響／OpenAIが発見した「Node2Shell」の影響が拡大、認証なしでリモートコード実行のおそれ",
     "url": "https://forest.watch.impress.co.jp/docs/news/2151000.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 15,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2151000.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2151/000/image1.png",
     "description": null,
     "hatenaDate": "2026-10-25T23:08:21Z",
     "users": [],
     "firstSeenAt": "2026-10-26T09:00:12.904243+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "広がるAI気象予測、自前主義には限界も - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOCD167A20W6A011C2000000/",
     "domain": "www.nikkei.com",
-    "count": 12,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOCD167A20W6A011C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3749536019102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=a52aed2a159146eca3ff35cbf53076c2",
     "description": "気象予測で人工知能（AI）の利用が当たり前になってきた。欧州中期予報センター（ECMWF）によるAI予測システム「AIFS」の本格運用からまもなく2年。米グーグルの「ウエザーネクスト3」、米エヌビディアの「アース―2」、中国・華為技術（ファーウェイ）の「パングー」など多様なAIモデルが使われている。熱帯低気圧の進路...",
     "hatenaDate": "2026-10-24T18:28:44Z",
     "users": [],
     "firstSeenAt": "2026-10-26T08:30:09.724449+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "台湾では装置がトラブらないために「乖乖（グァイグァイ）」というおやつをお供えする習慣があるがTSMCでも普通にやっているらしい",
     "url": "https://togetter.com/li/2762768",
     "domain": "togetter.com",
-    "count": 79,
+    "count": 88,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2762768",
     "screenshot": "https://s.tgstc.com/ogp3/644d46a5bca233ad0d6194ca3be2ddf4-1200x630.jpeg",
     "description": "Koji Harano 原野 幸治 @khng1980 台湾の研究室では、装置がトラブらないためのおまじないとしてこのお菓子を装置の上にお供えする習慣があるそうです。カルチャーショック pic.x.com/P6qaZhQc9l 2026-10-22 22:04:40 Koji Harano 原野 幸治 @khng1980 Principal Researcher, NIMS(物質·材料研究機構 主幹研究員) & Adju...",
     "hatenaDate": "2026-10-25T21:15:24Z",
     "users": [],
     "firstSeenAt": "2026-10-26T07:15:12.546641+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "「能動的サイバー防御」とは：サイバー攻撃を未然に防ぎ、被害拡大を防止するための取り組み【今週のキーワード】",
     "url": "https://internet.watch.impress.co.jp/docs/column/keyword/2148826.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 50,
+    "count": 57,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/column/keyword/2148826.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2148/826/1.png",
     "description": null,
     "hatenaDate": "2026-10-25T21:39:31Z",
     "users": [],
     "firstSeenAt": "2026-10-26T07:15:12.546641+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "流暢な説明と確かな因果は別物である――ジャレド・ダイアモンド主要三著の説明力を測り直す｜Reading Monkey",
     "url": "https://note.com/reading_monkey/n/ndbbb97e3580a",
     "domain": "note.com",
-    "count": 46,
+    "count": 50,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/reading_monkey/n/ndbbb97e3580a",
     "screenshot": "https://assets.st-note.com/production/uploads/images/313031234/rectangle_large_type_2_8d9c7ff8232bfa4531730f0fc54d16e0.png?fit=bounds&quality=85&width=1280",
     "description": "序ジャレド・ダイアモンドの『銃・病原菌・鉄』（1997年）、『文明崩壊』（2005年）、『昨日までの世界』（2012年）は、広範な歴史・社会現象を一つの枠組みで説明しようとする著作である[1][2][3]。この三著の重大な弱点は、環境に注目したことではない。個別には有力な因果メカニズムをつなぎ合わせた物語に、その連鎖...",
     "hatenaDate": "2026-10-09T23:29:00Z",
     "users": [],
     "firstSeenAt": "2026-10-26T06:00:12.834230+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "ソフトウェアの脆弱性情報をいち早く入手する - CVE・CISA KEV・JPCERT/CC・OSV｜npaka",
     "url": "https://note.com/npaka/n/na5ad6472d68c",
     "domain": "note.com",
-    "count": 127,
+    "count": 130,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/npaka/n/na5ad6472d68c",
     "screenshot": "https://assets.st-note.com/production/uploads/images/328320427/rectangle_large_type_2_e650050dc3e6049b7e8998761e038ba8.png?fit=bounds&quality=85&width=1280",
     "description": "1. はじめにソフトウェアの「脆弱性」は、悪用されると不正アクセスや情報漏洩につながる危険性があります。そのため、脆弱性情報をいち早く入手し、対策することが重要です。 今回は、世界中の脆弱性情報を確認できる代表的な4つの情報源と、その活用方法を紹介します。 2. 脆弱性情報が公開されるまでの流れ脆弱性情報...",
     "hatenaDate": "2026-10-25T12:07:57Z",
     "users": [],
     "firstSeenAt": "2026-10-26T05:00:13.951493+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "政府に緊急要請のGMO 被害拡大防げるか 利用者に呼びかけ強化 | NHKニュース",
@@ -114,7 +153,7 @@
     "hatenaDate": "2026-10-24T22:13:02Z",
     "users": [],
     "firstSeenAt": "2026-10-26T02:15:11.286289+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "GitHub - enesozturk/dimensional-drawing",
@@ -127,20 +166,20 @@
     "hatenaDate": "2026-10-25T03:56:26Z",
     "users": [],
     "firstSeenAt": "2026-10-26T00:30:13.732131+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "「山の木の実ぜんぶ乗せフルーツタルト」を作った動画をアップしたら、「サムネがAIっぽい」と批判されてしまった「知らないものはAIに見える時代になった？」",
     "url": "https://togetter.com/li/2762761",
     "domain": "togetter.com",
-    "count": 78,
+    "count": 80,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2762761",
     "screenshot": "https://s.tgstc.com/ogp3/b6a5c1899ca41841227b499e8370c1b2-1200x630.jpeg",
     "description": "野草研究所 @wild_grasses このサムネを『生成AI使うな！気持ち悪い』と断じてくる方がチラホラいますが、残念ながら完全実写なんですよね サルナシは実在する果実なのであって、『見た事ない物は偽物でキモい』って感覚が社会化してるなら、それは結構深刻だと思う 自然界はAIに負けず劣らず意味不明なモノで溢れてます...",
     "hatenaDate": "2026-10-25T14:19:47Z",
     "users": [],
     "firstSeenAt": "2026-10-26T00:15:12.425306+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "タイムズカーの情報漏洩で運転免許の画像等の流出が確認できたら3,000円の見舞金を支払うと発表したが、その確認のために個人情報を再入力させる罠がある",
@@ -153,7 +192,7 @@
     "hatenaDate": "2026-10-25T12:14:19Z",
     "users": [],
     "firstSeenAt": "2026-10-25T23:30:13.244874+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "Tailworm",
@@ -166,59 +205,59 @@
     "hatenaDate": "2026-10-25T04:43:50Z",
     "users": [],
     "firstSeenAt": "2026-10-25T23:15:14.040673+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "週末にスマートホームをオープンソース化--Googleから「Siri」へ乗り換えた話",
     "url": "https://japan.zdnet.com/article/35253722/",
     "domain": "japan.zdnet.com",
-    "count": 15,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.zdnet.com/article/35253722/",
     "screenshot": "https://japan.zdnet.com/storage/2026/10/19/5132da1294b1135696ab8ab7f4b1ea34/large-homeassistantbox-Screenshot-2026-10-16-113616.jpg",
     "description": "こうした説明は、「Apple Music」「Apple TV」「FaceTime」をHomeViewの最も重要な機能として的確に位置付けている。Appleのエコシステムにどっぷり漬かっているなら、HomeViewは十分に有能なスマートホーム管理ツールである。だが、「究極のスマートホーム向けダッシュボード」と呼ぶのは少々言い過ぎだろう。その称号...",
     "hatenaDate": "2026-10-23T23:04:18Z",
     "users": [],
     "firstSeenAt": "2026-10-25T23:00:14.046176+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "Google、「Gmail」などの内容を広告に利用できると明記　本人の同意前提で規約変更",
     "url": "https://japan.cnet.com/article/35253919/",
     "domain": "japan.cnet.com",
-    "count": 16,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35253919/",
     "screenshot": "https://japan.cnet.com/storage/2026/07/09/3cb52b283d8572140cd588088aeea3ed/google-photos_1280x960.jpg",
     "description": "グーグルは、GmailやGoogleフォトなどのデータを使って利用者に合わせた広告を表示する場合があると、10月16日付のプライバシーポリシーに明記した。広告の個人化に対応する他のGoogleサービスへのデータ連携を、利用者が許可した場合が対象となる。 この例外が適用されるのは、Googleドライブ、Gmail、Googleフォトに保...",
     "hatenaDate": "2026-10-24T10:27:14Z",
     "users": [],
     "firstSeenAt": "2026-10-25T22:15:11.882117+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "確率と統計を視覚的なアニメーションで理解できる「Seeing Theory」",
     "url": "https://gigazine.net/news/20261025-seeing-theory/",
     "domain": "gigazine.net",
-    "count": 156,
+    "count": 161,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261025-seeing-theory/",
     "screenshot": "https://i.gzn.jp/img/2026/10/25/seeing-theory/00.png",
     "description": "「Seeing Theory」は確率と統計の基本概念をインタラクティブに視覚化し、直感的かつ分かりやすく学べるウェブサイトです。 Seeing Theory https://seeing-theory.brown.edu/ Seeing Theoryはブラウン大学の学部生であったダニエル・クーニン氏によって作成され、視覚化にはJavaScriptライブラリであるD3.jsが活用されて...",
     "hatenaDate": "2026-10-25T04:02:37Z",
     "users": [],
     "firstSeenAt": "2026-10-25T21:33:24.147629+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "GMOへの攻撃者、利用者PCの乗っ取りを画策　会社は注意喚起 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC250PP0V21C26A0000000/",
     "domain": "www.nikkei.com",
-    "count": 68,
+    "count": 69,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC250PP0V21C26A0000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3776686025102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=be371208e7b88bd58ac20c65ced1a2b6",
     "description": "GMOインターネットグループのクラウドサービスが不正アクセスを受けた問題で、攻撃者を名乗る人物と同社との駆け引きが続いている。攻撃者側は27日正午までに身代金を支払わなければサービス利用者のパソコン（PC）を乗っ取ると予告した。PC内の個人的な情報を拡散すると脅し、圧力を強めている。身代金支払期限は27日正...",
     "hatenaDate": "2026-10-25T10:33:20Z",
     "users": [],
     "firstSeenAt": "2026-10-25T21:15:08.587096+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "prpr: Rust 向けのシンプルで高速な Parser generator",
@@ -237,14 +276,14 @@
     "title": "【安全性重視】PHPの移行先候補プログラミング言語ベスト10",
     "url": "https://thinktwice.tech/posts/2919c605c51b82782bcc3ed78b8f9d7b/",
     "domain": "thinktwice.tech",
-    "count": 24,
+    "count": 27,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/thinktwice.tech/posts/2919c605c51b82782bcc3ed78b8f9d7b/",
     "screenshot": "https://thinktwice.tech/img/ogp/it/security.png",
     "description": "2026年10月に公表された PHP の重大な脆弱性（CVE-2026-109618 / CVE-2026-109619）をきっかけに、「書き味」ではなく「堅牢性・安全性」を軸に、PHP から移行する先のプログラミング言語を10位から1位までのカウントダウン形式で整理します。 はじめに：PHP の重大な脆弱性がきっかけ 2026年10月21日（UTC）、PHP の重...",
     "hatenaDate": "2026-10-24T10:21:37Z",
     "users": [],
     "firstSeenAt": "2026-10-25T20:45:12.127770+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "「AIを虐待すると復讐されるかも」マスク氏も警告…アンソロピックが“AIいじめ”対策でポリシー改定 識者が危惧するAIへの暴言のリスク | 経済・IT | ABEMA TIMES | アベマタイムズ",
@@ -263,79 +302,79 @@
     "title": "作ったゲームのソースコードをまるごと「Xのポスト」に詰め込めるゲームエンジン現る。“URL”なら3KBまでセーフ - AUTOMATON",
     "url": "https://automaton-media.com/articles/newsjp/20261025-475448/",
     "domain": "automaton-media.com",
-    "count": 21,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/automaton-media.com/articles/newsjp/20261025-475448/",
     "screenshot": "https://automaton-media.com/wp-content/uploads/2026/10/20261025-475448-header.jpg",
     "description": "開発者の北尾崇氏は10月21日、ゲームエンジン「Playload」を公開した。GitHubにてオープンソースとして公開中。同エンジンは上限「3KB」でゲームを開発することが可能だ。 北尾崇氏は元ゲーム開発者だ。コナミにて『ZONE OF THE ENDERS（Z.O.E.）』シリーズのメインプログラマーとしてゲームデザイナーやリードエンジニ...",
     "hatenaDate": "2026-10-25T05:44:00Z",
     "users": [],
     "firstSeenAt": "2026-10-25T20:45:12.127770+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "AIによる脆弱性発見が加速、専門家「混乱期の始まり」",
     "url": "https://www.afpbb.com/articles/-/3659236",
     "domain": "www.afpbb.com",
-    "count": 29,
+    "count": 30,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3659236",
     "screenshot": "https://afpbb.ismcdn.jp/mwimgs/3/9/1000x/img_39849525ebd90a9c17d81cddf1accc0c151073.jpg",
     "description": "コンピューター画面のバイナリーコードに浮かぶパッドロックのシルエット（2026年10月21日撮影）。(c)Kirill KUDRYAVTSEV/AFP 【10月25日 AFP】世界中のウェブサイトの多くで使われているプログラミング言語「PHP」に二つの重大な脆弱（ぜいじゃく）性が見つかり、企業や政府機関は今週、修正プログラムの適用に追われた...",
     "hatenaDate": "2026-10-25T04:22:12Z",
     "users": [],
     "firstSeenAt": "2026-10-25T20:15:14.662768+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "「もうプロンプトは書かない」　Claude Code生みの親が明かす“ループエンジニアリング”の衝撃",
     "url": "https://www.itmedia.co.jp/business/articles/2610/24/news009.html",
     "domain": "www.itmedia.co.jp",
-    "count": 221,
+    "count": 226,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/business/articles/2610/24/news009.html",
     "screenshot": "https://image.itmedia.co.jp/business/articles/2610/24/cover_news009.jpg",
     "description": "「私はもうClaudeにプロンプトを打っていない。ループが走っていて、そのループがClaudeにプロンプトを打ち、何をすべきか判断している。私の仕事はループを書くことだ」――。 AIコーディングツールの代名詞となった「Claude Code」を生んだ米Anthropic（アンソロピック）のボリス・チェルニー（Boris Cherny）氏が、今春...",
     "hatenaDate": "2026-10-24T10:19:59Z",
     "users": [],
     "firstSeenAt": "2026-10-25T20:00:14.191692+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "さよならWordPress。ゲ制工房は新時代のCMS、EmDashに移行しました。",
     "url": "https://yurinchi2525.com/20261025emdash/",
     "domain": "yurinchi2525.com",
-    "count": 248,
+    "count": 254,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/yurinchi2525.com/20261025emdash/",
     "screenshot": "https://yurinchi2525.com/_emdash/api/media/file/01M5RFZ03M25JJZAVGW2NGE1FD.png",
     "description": "「Posts」と「Pages」の違いEmDashの管理画面を開くと、記事を書く場所が「Posts」と「Pages」の2つに分かれています。WordPressでいう「投稿」と「固定ページ」にあたるものです。 Posts（投稿）：日々書いていくブログ記事。カテゴリーやタグを付けられて、記事一覧・RSS・カテゴリー別の一覧に並びます。公開日時を指...",
     "hatenaDate": "2026-10-25T09:02:39Z",
     "users": [],
     "firstSeenAt": "2026-10-25T19:45:13.112986+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "ヨドバシ秋葉原の展示用iPhone Duo、すでにヒンジがだめになっててありえない「(販売店で)リアル耐久テストされてて参考になるなあ」「Samsungがいかに優秀かわかる」",
     "url": "https://togetter.com/li/2762609",
     "domain": "togetter.com",
-    "count": 132,
+    "count": 134,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2762609",
     "screenshot": "https://s.tgstc.com/ogp3/d659d6525ef31db041164d439d7c7455-1200x630.jpeg",
     "description": "ぽらりす @11_Polaris_24 [訂正] 天井　←誤 展示用←正 [その他] ガジェオタじゃないので知識がないです。 好きな機種はnothing phone 2です。 特に宣伝することがないので好きな曲を貼っておきます 尾崎豊 - 核(Core) youtu.be/11WfcKu5G5U?si… 2026-10-25 09:10:41 iPhone Duo - Apple（日本） iPhone Duo。iPhone史上...",
     "hatenaDate": "2026-10-25T09:36:44Z",
     "users": [],
     "firstSeenAt": "2026-10-25T19:15:13.181209+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "電子漫画「ピッコマ」 顧客のメールアドレス約100万件流出 | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261025de65227",
     "domain": "news.web.nhk",
-    "count": 80,
+    "count": 81,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261025de65227",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261025de65227/20261025de65227_E0000108356_1_l.jpg",
     "description": "電子漫画などを提供する「ピッコマ」の運営会社は、メールの配信で利用している企業が不正アクセスを受けたことから、顧客のメールアドレスおよそ100万件が流出したと発表しました。 会社の発表によりますと…",
     "hatenaDate": "2026-10-25T09:19:35Z",
     "users": [],
     "firstSeenAt": "2026-10-25T19:15:13.181209+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "AI ネイティブの SDLC プレイブック",
@@ -348,20 +387,20 @@
     "hatenaDate": "2026-10-25T01:29:55Z",
     "users": [],
     "firstSeenAt": "2026-10-25T19:15:13.181209+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "リュウジはなぜ嫌われている人からはすごく嫌われているのか…リュウジが自分自身のアンチになる要素を解説、さらに自分に対してのアンチ発言も",
     "url": "https://togetter.com/li/2762636",
     "domain": "togetter.com",
-    "count": 284,
+    "count": 291,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2762636",
     "screenshot": "https://s.tgstc.com/ogp3/b79db068d50ad32434b71acd63985957-1200x630.jpeg",
     "description": "リュウジ@料理のおじさんバズレシピ @ore825 多分俺が料理研究家じゃなく普通に生きてたら絶対に俺のアンチになってたからわかる コメント欄に共感しかない 大した実力もないのに声がデカいし偉そうで腹立つんだよな たまたまネットでバズって人気でただけのド素人なのに謙虚さがないんだよ x.com/salmonmon1104/… 2026-...",
     "hatenaDate": "2026-10-25T08:06:25Z",
     "users": [],
     "firstSeenAt": "2026-10-25T18:45:12.352734+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "About the compromised eMudhra intermediate CAs - Apple Support",
@@ -458,14 +497,14 @@
     "title": "思いつきが現実になる世界でこわい - 運河",
     "url": "https://uiuret.hatenablog.com/entry/2026/10/25/080436",
     "domain": "uiuret.hatenablog.com",
-    "count": 280,
+    "count": 281,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/uiuret.hatenablog.com/entry/2026/10/25/080436",
     "screenshot": "https://ogimage.blog.st-hatena.com/12704346814673876938/14945776032094924977/1792883076",
     "description": "僕はプログラマーなのだが、最近は1行もプログラムを自分で書いていない。プログラムを書いてないどころか、ほとんど読んでいない。 仕事では最低限すべてのコードに目を通してレビューをやってはいるが、もはやその必要もあまりなく儀式的にやっているだけになっている。 AIで頭がおかしくなった、という記事を書いたの...",
     "hatenaDate": "2026-10-25T02:09:50Z",
     "users": [],
     "firstSeenAt": "2026-10-25T14:00:16.117953+09:00",
-    "lastSeenAt": "2026-10-26T09:30:10.841503+09:00"
+    "lastSeenAt": "2026-10-26T09:45:11.761647+09:00"
   },
   {
     "title": "Apple、2026年10月に認証局eMudhraで発生した中間CA証明書の秘密鍵漏洩問題に対し証明書をブロックし、システム管理者や開発者向けにcurlやgitなどコマンドラインツールに対する暫定的な回避策を公開。",
@@ -3859,44 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-22T12:15:13.183081+09:00",
     "lastSeenAt": "2026-10-22T19:00:12.147552+09:00"
-  },
-  {
-    "title": "WordPressから他のCMSへ移行する方法｜CloudflareのEmDashをおすすめする理由｜RealAIze ブログ",
-    "url": "https://web.realaize.jp/blog/wordpress-to-emdash-migration",
-    "domain": "web.realaize.jp",
-    "count": 9,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/web.realaize.jp/blog/wordpress-to-emdash-migration",
-    "screenshot": "https://web.realaize.jp/_emdash/api/media/file/01M5FEHM0F3Q6BC7W2KF6BNRX4.webp",
-    "description": "公開 2026.10.21更新 2026.10.22EmDash WordPressから他のCMSへ移行する方法｜CloudflareのEmDashをおすすめする理由 WordPressから別のCMSへ移るなら、記事・画像・URLを保存し、検証環境で必要な機能を作り直してから公開先を切り替えます。ニュースや実績の更新をAIにも頼みたい会社には、CloudflareのEmDashが候補に...",
-    "hatenaDate": "2026-10-21T23:22:14Z",
-    "users": [],
-    "firstSeenAt": "2026-10-22T12:15:13.183081+09:00",
-    "lastSeenAt": "2026-10-22T13:15:13.388306+09:00"
-  },
-  {
-    "title": "『コミックシーモア』お客様の情報流出に関するご報告（第4報）｜ニュースリリース｜NTTソルマーレ株式会社",
-    "url": "https://www.nttsolmare.com/press/2026/1021.html",
-    "domain": "www.nttsolmare.com",
-    "count": 9,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nttsolmare.com/press/2026/1021.html",
-    "screenshot": "https://www.nttsolmare.com/press/.assets/260518.jpg",
-    "description": "2026年10月21日 NTTソルマーレ株式会社 この度、当社の電子書籍ストア『コミックシーモア』への不正アクセスに関して、お客様、お取引先様をはじめ関係者の皆様に多大なご迷惑とご心配をおかけしておりますことを、重ねて深くお詫び申し上げます。 10月18日にお知らせいたしました第3報に続き、外部専門機関と連携して実...",
-    "hatenaDate": "2026-10-21T22:28:37Z",
-    "users": [],
-    "firstSeenAt": "2026-10-22T12:00:13.195895+09:00",
-    "lastSeenAt": "2026-10-22T12:45:13.439346+09:00"
-  },
-  {
-    "title": "PHPの脆弱性、OpenAIのAIで発見　「同様の発見、今後数カ月で急増」",
-    "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002482/",
-    "domain": "www.itmedia.co.jp",
-    "count": 6,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2610/22/2000002482/",
-    "screenshot": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/22/2000002482/10010092/2048",
-    "description": "米OpenAIは10月21日（現地時間）、同日に修正版が公開されたオープンソースのプログラミング言語「PHP」の脆弱性について、OpenAIのAIモデルで発見したと発表した。「同様の発見は今後数カ月で急増する」と予測している。 OpenAIによるオープンソースソフトウェアのセキュリティ支援プロジェクト「Patch the Planet」の...",
-    "hatenaDate": "2026-10-21T17:45:24Z",
-    "users": [],
-    "firstSeenAt": "2026-10-22T11:45:13.040036+09:00",
-    "lastSeenAt": "2026-10-22T12:45:13.439346+09:00"
   }
 ]
