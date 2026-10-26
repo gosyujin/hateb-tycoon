@@ -15,7 +15,7 @@
  *   新しく付いたコメントだけを記事のコメント欄の先頭へ足す(コメントも新しいものが上)。
  * - 追加間隔に「自動」がある。次回のデータ更新の目安時刻までの残り時間を待機中の件数で割り、
  *   更新までに待機分をほぼ流し切る間隔にする(目安時刻は大まかなので、正確さは求めない)。
- *   更新までの残り秒数は状態表示に常に出す。
+ *   状態表示には、次の記事を流すまでの残り秒数を出す(データ更新までではなく、1件ずつ流す方)。
  * - 表示中の記事・コメントと既出URLをカテゴリーごとにlocalStorageへ保存し、リロードや開き直しの
  *   時は前回の続きから表示する(保存に失敗しても、いちから流すだけで動作は変わらない)。
  * - 表示している間は画面をスリープさせない(Screen Wake Lock。非対応の環境では何もしない)。
@@ -116,7 +116,8 @@
     let running = false;
     let paused = false;
     let intervalSetting = loadInterval(); // 手動の間隔(ms)または AUTO
-    let nextUpdateAt = null; // 次回のデータ更新の目安(ms)。分からなければnull
+    let nextUpdateAt = null; // 次回のデータ更新の目安(ms)。自動の間隔の計算に使う。分からなければnull
+    let nextTickAt = null; // 次の記事を流す予定の時刻(ms)。流す予定が無い間(一時停止・待機が空)はnull
     let countdownTimer = null;
     let saveTimer = null;
     let wakeLock = null;
@@ -251,15 +252,17 @@
       // 狭い幅では1行に収めるため、.stream-st-wide(表示件数・「ごと」・「更新まで」)を隠して
       // .stream-st-narrow(「残り」)に替える(css側)。手動の間隔は選択欄に出ているので繰り返さない
       const parts = [`<span class="stream-st-wide">表示 ${shownCount} / </span>待機 ${queue.length}`];
-      if (paused) parts.push('一時停止中');
-      else if (intervalSetting === AUTO) parts.push(`${formatInterval(currentIntervalMs())}<span class="stream-st-wide">ごと</span>`);
-      if (nextUpdateAt != null) {
-        const sec = Math.round((nextUpdateAt - Date.now()) / 1000);
-        parts.push(
-          sec > 0
-            ? `<span class="stream-st-wide">更新まで</span><span class="stream-st-narrow">残り</span> ${sec}秒`
-            : '更新待ち'
-        );
+      if (paused) {
+        parts.push('一時停止中');
+      } else if (nextTickAt == null) {
+        parts.push('新着待ち');
+      } else {
+        const sec = Math.max(Math.ceil((nextTickAt - Date.now()) / 1000), 0);
+        parts.push(`<span class="stream-st-wide">次まで</span><span class="stream-st-narrow">次</span> ${sec}秒`);
+      }
+      // 自動の時だけ、計算した間隔も出す(手動の間隔は選択欄に出ている)
+      if (intervalSetting === AUTO && !paused && queue.length > 0) {
+        parts.push(`(${formatInterval(currentIntervalMs())}<span class="stream-st-wide">ごと</span>)`);
       }
       statusEl.innerHTML = parts.join(' / ');
       statusEl.title = statusEl.textContent;
@@ -368,13 +371,15 @@
     function scheduleTick() {
       clearTimeout(tickTimer);
       tickTimer = null;
+      nextTickAt = null;
       if (!running || paused || document.hidden) return;
-      // 待機が空の間は、間隔を待たずに新着が入っていないかを短い周期で見る
+      // 待機が空の間は、間隔を待たずに新着が入っていないかを短い周期で見る(この間はカウントダウンしない)
       const delay = queue.length === 0 ? IDLE_CHECK_MS : currentIntervalMs();
+      if (queue.length > 0) nextTickAt = Date.now() + delay;
       tickTimer = setTimeout(() => {
         appendNext();
-        updateStatus();
         scheduleTick();
+        updateStatus();
       }, delay);
     }
 
@@ -471,6 +476,7 @@
       running = false;
       releaseWakeLock();
       seq++;
+      nextTickAt = null;
       clearTimeout(tickTimer);
       clearTimeout(pollTimer);
       clearTimeout(commentTimer);
@@ -484,8 +490,8 @@
     pauseBtn.addEventListener('click', () => {
       paused = !paused;
       updatePauseBtn();
-      updateStatus();
       scheduleTick();
+      updateStatus();
     });
 
     intervalSelect.addEventListener('change', () => {
@@ -493,8 +499,8 @@
       if (v !== AUTO && (!Number.isFinite(v) || v < 500)) return;
       intervalSetting = v;
       saveInterval(v);
-      updateStatus();
       scheduleTick();
+      updateStatus();
     });
 
     document.addEventListener('visibilitychange', onVisibilityChange);
