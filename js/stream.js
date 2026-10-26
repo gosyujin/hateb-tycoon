@@ -91,7 +91,7 @@
         return;
       }
       const parts = [`表示 ${shownCount} 件`, `待機 ${queue.length} 件`];
-      parts.push(paused ? '一時停止中' : `${intervalMs / 1000}秒ごと`);
+      parts.push(paused ? '一時停止中' : `${intervalMs >= 60000 ? `${intervalMs / 60000}分` : `${intervalMs / 1000}秒`}ごと`);
       statusEl.textContent = parts.join(' / ');
     }
 
