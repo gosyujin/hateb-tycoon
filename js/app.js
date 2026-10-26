@@ -971,7 +971,7 @@
     const time = item.hatenaDate ? hatenaDateTime(item.hatenaDate) : '';
     const desc = item.description ? `<p class="stream-desc">${escapeHtml(item.description)}</p>` : '';
     return `
-      <li class="stream-item">
+      <li class="stream-item" data-url="${escapeHtml(item.url)}">
         <div class="stream-main">
           <div class="stream-meta">
             <button type="button" class="card-domain stream-domain" data-domain="${escapeHtml(item.domain)}" data-url="${escapeHtml(item.url)}">${escapeHtml(item.domain)}</button>
@@ -981,9 +981,14 @@
           </div>
           <a class="stream-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
           ${desc}
+          <ul class="comment-list stream-comments"></ul>
         </div>
         ${thumb}
       </li>`;
+  }
+
+  function renderStreamComment(b) {
+    return `<li><button type="button" class="comment-user" data-user="${escapeHtml(b.user)}">${escapeHtml(b.user)}</button> <span class="comment-date">${escapeHtml(b.timestamp)}</span> ${linkifyComment(b.comment)}</li>`;
   }
 
   const stream = Stream.create({
@@ -992,6 +997,15 @@
     pauseBtn: document.getElementById('stream-pause'),
     intervalSelect: document.getElementById('stream-interval'),
     renderItem: renderStreamItem,
+    renderComment: renderStreamComment,
+    // コメント付きのブックマークだけを、コメント表示と同じ判定でミュートしたうえで返す
+    fetchComments: async (url) => {
+      const info = await HatenaAPI.getEntryInfo(url);
+      if (info.notBookmarked) return [];
+      return info.bookmarks.filter(
+        (b) => b.comment && !Filters.isHidden({ title: info.title, domain: info.domain, user: b.user, comment: b.comment })
+      );
+    },
     fetchEntries: (category) => HatenaAPI.getHotEntries(category),
     isHidden: (item) => Filters.isHidden(item),
   });
@@ -1007,6 +1021,11 @@
     if (closeBtn) {
       Filters.addRule('mute', 'url', closeBtn.dataset.url);
       closeBtn.closest('.stream-item').remove();
+      return;
+    }
+    const userBtn = e.target.closest('.comment-user');
+    if (userBtn) {
+      openSettings({ kind: 'mute', type: 'user', value: userBtn.dataset.user });
       return;
     }
     const domainBtn = e.target.closest('.card-domain');
