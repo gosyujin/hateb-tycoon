@@ -405,7 +405,14 @@
     if (inBody) entryView.appendChild(entryNavRow);
     else entryNavBar.appendChild(entryNavRow);
   }
+  // 検索欄をヘッダーに移すとDOM順で投稿行より先にTabが当たるため、投稿行(コメント欄・🔖・⚙・B!)を先に回す。
+  // tabindexが同じ正の値の要素はDOM順に回るので、行内の順序は変わらない。自動フォーカスはしない
+  // (入力欄にフォーカスがあると、矢印キーでの記事移動のたびに外す必要が出るため)。
   function placeSearchBar(inHeader) {
+    bookmarkForm.querySelectorAll('input, a, button').forEach((el) => {
+      if (inHeader) el.tabIndex = 1;
+      else el.removeAttribute('tabindex');
+    });
     if (inHeader) appHeader.insertBefore(footerSearchBar, appHeader.querySelector('#offline-cache-quick'));
     else bottomBar.appendChild(footerSearchBar);
   }
