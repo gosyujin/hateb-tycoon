@@ -38,6 +38,11 @@ OK = "ok"
 SKIP = "skip"
 RETRY = "retry"
 
+# はてなブックマーク自身のページ(ブックマークページへのブックマーク=「二階建て」)。
+# 本文にあたるのは記事ではなくブックマークコメントの一覧で、抜粋を取ると
+# タイトルの繰り返しと他人のコメントが混ざった内容になってしまうため、本文は取りに行かない。
+EXCLUDED_HOSTS = ("b.hatena.ne.jp",)
+
 SKIP_EXTENSIONS = (
     ".pdf", ".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg", ".zip", ".gz", ".mp3", ".mp4", ".mov",
     ".csv", ".xlsx", ".pptx", ".docx",
@@ -208,6 +213,13 @@ def _decode(data, content_type):
         return data.decode("utf-8", errors="replace")
 
 
+def is_excluded_url(url):
+    try:
+        return urllib.parse.urlsplit(url).hostname in EXCLUDED_HOSTS
+    except ValueError:
+        return False
+
+
 class _NoRedirect(urllib.request.HTTPRedirectHandler):
     """リダイレクトを自動で追わせない(転送先ごとにrobots.txtを確認するため、自前で辿る)。"""
 
@@ -298,6 +310,8 @@ class BodyFetcher:
             return SKIP, None, "bad-url"
         if parts.path.lower().endswith(SKIP_EXTENSIONS):
             return SKIP, None, "not-html"
+        if is_excluded_url(url):
+            return SKIP, None, "hatena-bookmark-page"
 
         current = url
         for _ in range(MAX_REDIRECTS + 1):

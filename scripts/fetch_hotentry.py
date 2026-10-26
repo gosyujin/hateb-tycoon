@@ -151,6 +151,7 @@ def prune(existing_by_url, now_dt):
 def needs_body(entry):
     return (
         bool(entry.get("url"))
+        and not article_body.is_excluded_url(entry["url"])
         and entry.get("descriptionSource") != "body"
         and entry.get("bodyStatus") != "skip"
         and entry.get("bodyTries", 0) < BODY_MAX_TRIES
@@ -247,6 +248,11 @@ def main():
         for legacy_entry in existing_by_url.values():
             legacy_entry.setdefault("firstSeenAt", now_iso)
             legacy_entry.setdefault("lastSeenAt", now_iso)
+            # 本文を取りに行かない対象(はてなブックマークのページ=二階建て)に、以前の実行で
+            # 差し替えてしまった内容が残っていれば取り消す(次のRSSで概要が戻る。無ければ空)
+            if legacy_entry.get("descriptionSource") == "body" and article_body.is_excluded_url(legacy_entry.get("url", "")):
+                legacy_entry["description"] = None
+                legacy_entry.pop("descriptionSource", None)
         before_count = len(existing_by_url)
         merged = merge_entries(existing_by_url, fresh_entries, now_iso)
         entries = prune(merged, now_jst)
