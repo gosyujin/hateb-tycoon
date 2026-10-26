@@ -738,6 +738,11 @@ main {
 .entry-description:empty {
   display: none;
 }
+/* 概要の畳み(.stream-desc--collapsible/--collapsed、.stream-desc-toggle)はストリームと共通。
+   記事ページでは、概要と目印の間隔と余白だけ合わせる */
+.entry-description + .stream-desc-toggle {
+  margin: -4px 0 8px 15px;
+}
 
 .comment-list {
   margin: 0;

@@ -1012,8 +1012,10 @@
   // 幅によって行数が変わるので、表示時と画面幅の変更時に判定し直す。scrollHeightは畳んでいても全文の高さ。
   const DESC_COLLAPSED_LINES = 3;
   function updateDescCollapsible(desc) {
-    const lineHeight = parseFloat(getComputedStyle(desc).lineHeight) || 18;
-    const collapsible = desc.scrollHeight > lineHeight * DESC_COLLAPSED_LINES + 2;
+    const style = getComputedStyle(desc);
+    const lineHeight = parseFloat(style.lineHeight) || 18;
+    const padding = (parseFloat(style.paddingTop) || 0) + (parseFloat(style.paddingBottom) || 0);
+    const collapsible = desc.scrollHeight - padding > lineHeight * DESC_COLLAPSED_LINES + 2;
     desc.classList.toggle('stream-desc--collapsible', collapsible);
     if (!collapsible && desc.classList.contains('stream-desc--collapsed')) toggleDesc(desc);
   }
@@ -1032,8 +1034,24 @@
     clearTimeout(descResizeTimer);
     descResizeTimer = setTimeout(() => {
       if (!streamView.hidden) streamList.querySelectorAll('.stream-desc').forEach(updateDescCollapsible);
+      if (!entryView.hidden && entryDescription.textContent) updateDescCollapsible(entryDescription);
     }, 200);
   });
+
+  // 記事ページ(#/entry)の概要も、ストリームと同じく全文を出し、3行を超える時だけ畳める。
+  // 一覧データに本文の抜粋が無い記事は、RSS由来の概要(description)がそのまま入っている。
+  const entryDescToggle = document.getElementById('entry-desc-toggle');
+  function setEntryDescription(text) {
+    entryDescription.classList.remove('stream-desc--collapsed', 'stream-desc--collapsible');
+    entryDescToggle.textContent = '▲ 閉じる';
+    entryDescToggle.setAttribute('aria-expanded', 'true');
+    entryDescription.textContent = text;
+    if (text) updateDescCollapsible(entryDescription);
+  }
+  entryDescription.addEventListener('click', () => {
+    if (entryDescription.classList.contains('stream-desc--collapsible')) toggleDesc(entryDescription);
+  });
+  entryDescToggle.addEventListener('click', () => toggleDesc(entryDescription));
 
   const stream = Stream.create({
     list: streamList,
@@ -1435,7 +1453,7 @@
     entryStarsRequested = false;
     entryStarsSeq++;
     entryHeader.innerHTML = '';
-    entryDescription.textContent = '';
+    setEntryDescription('');
     updateCommentLayoutToggleUI();
     resetEntryFilterBtn();
     resetBookmarkForm(url);
@@ -1448,7 +1466,7 @@
     // 直接このURLへ遷移した場合など、一覧データが無ければ何も表示しない。
     const listedItem = currentVisibleEntries.find((item) => item.url === url);
     if (listedItem && listedItem.description) {
-      entryDescription.textContent = listedItem.description;
+      setEntryDescription(listedItem.description);
     }
     // 取得完了を待たず、一覧データでヘッダーを先に描画する(取得後に同じ形で上書き)。
     if (listedItem) {
@@ -1476,7 +1494,7 @@
           description: (listedItem || loadedRawEntries.find((item) => item.url === url) || {}).description,
         })
       ) {
-        entryDescription.textContent = '';
+        setEntryDescription('');
         entryStatus.textContent = 'このエントリーはフィルタ条件により非表示になっています。';
         return;
       }
@@ -1484,7 +1502,7 @@
       // まだ誰もブックマークしていないURL(jsonliteがnullを返した)。コメント内のリンクや
       // URL直接入力では普通に起こり得る。元記事へのリンクだけ出し、既読記録もしない。
       if (info.notBookmarked) {
-        entryDescription.textContent = '';
+        setEntryDescription('');
         renderEntryHeader(info);
         entryStatus.textContent =
           'このURLはまだ誰もブックマークしていません(はてな側で別のURLに正規化されている場合は、そちらでブックマークされている可能性があります)。';
