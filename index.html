@@ -71,25 +71,23 @@
     <ul id="comment-list" class="comment-list"></ul>
   </section>
   <section id="view-stream" hidden>
-    <div class="list-status-row">
-      <button id="stream-back" type="button" class="btn btn--small">← 一覧に戻る</button>
-      <div class="list-controls">
-        <button id="stream-pause" type="button" class="btn btn--small" aria-pressed="false">⏸️ 一時停止</button>
-        <label class="sort-label">
-          <select id="stream-interval" aria-label="追加する間隔">
-            <option value="1000">1秒</option>
-            <option value="3000">3秒</option>
-            <option value="5000">5秒</option>
-            <option value="10000">10秒</option>
-            <option value="30000">30秒</option>
-            <option value="60000">1分</option>
-            <option value="180000">3分</option>
-            <option value="300000">5分</option>
-          </select>
-        </label>
-      </div>
+    <div class="stream-bar">
+      <button id="stream-back" type="button" class="btn btn--small" aria-label="一覧に戻る">←<span class="stream-btn-label"> 一覧に戻る</span></button>
+      <button id="stream-pause" type="button" class="btn btn--small" aria-pressed="false" aria-label="一時停止">⏸️<span class="stream-btn-label"> 一時停止</span></button>
+      <label class="sort-label">
+        <select id="stream-interval" aria-label="追加する間隔">
+          <option value="1000">1秒</option>
+          <option value="3000">3秒</option>
+          <option value="5000">5秒</option>
+          <option value="10000">10秒</option>
+          <option value="30000">30秒</option>
+          <option value="60000">1分</option>
+          <option value="180000">3分</option>
+          <option value="300000">5分</option>
+        </select>
+      </label>
+      <p id="stream-status" class="status"></p>
     </div>
-    <p id="stream-status" class="status"></p>
     <ol id="stream-list" class="stream-list"></ol>
   </section>
   <section id="view-me" hidden>

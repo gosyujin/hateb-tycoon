@@ -85,18 +85,27 @@
       return pinToTop && nearTop;
     }
 
+    // 状態表示は1行に収めるため、はみ出す分は省略記号にし、全文はtitleで見られるようにする
+    function setStatus(text) {
+      statusEl.textContent = text;
+      statusEl.title = text;
+    }
+
     function updateStatus() {
       if (loadError && shownCount === 0) {
-        statusEl.textContent = loadError;
+        setStatus(loadError);
         return;
       }
-      const parts = [`表示 ${shownCount} 件`, `待機 ${queue.length} 件`];
+      const parts = [`表示 ${shownCount}`, `待機 ${queue.length}`];
       parts.push(paused ? '一時停止中' : `${intervalMs >= 60000 ? `${intervalMs / 60000}分` : `${intervalMs / 1000}秒`}ごと`);
-      statusEl.textContent = parts.join(' / ');
+      setStatus(parts.join(' / '));
     }
 
     function updatePauseBtn() {
-      pauseBtn.textContent = paused ? '▶️ 再開' : '⏸️ 一時停止';
+      const label = paused ? '再開' : '一時停止';
+      // 狭い幅では絵文字だけにする(css側で.stream-btn-labelを隠す)
+      pauseBtn.innerHTML = `${paused ? '▶️' : '⏸️'}<span class="stream-btn-label"> ${label}</span>`;
+      pauseBtn.setAttribute('aria-label', label);
       pauseBtn.setAttribute('aria-pressed', String(paused));
     }
 
@@ -239,7 +248,7 @@
       list.innerHTML = '';
       intervalSelect.value = String(intervalMs);
       updatePauseBtn();
-      statusEl.textContent = '読み込み中…';
+      setStatus('読み込み中…');
       load(true).then(() => {
         scheduleTick();
         schedulePoll();

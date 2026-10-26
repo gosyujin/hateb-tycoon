@@ -1470,3 +1470,35 @@ a.btn {
 .stream-list {
   overflow-anchor: none;
 }
+
+/* ストリーム表示の操作行: 戻る・一時停止・間隔・状態表示を1行に並べる(幅が足りない分は状態表示を省略記号にする) */
+.stream-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+.stream-bar > .btn,
+.stream-bar > .sort-label {
+  flex-shrink: 0;
+}
+.stream-bar .status {
+  flex: 1 1 0;
+  min-width: 0;
+  margin: 8px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* スマホ幅ではボタンを絵文字だけにして、状態表示の幅を確保する */
+@media (max-width: 480px) {
+  .stream-bar {
+    gap: 6px;
+  }
+  .stream-btn-label {
+    display: none;
+  }
+  .stream-bar .status {
+    font-size: 0.75rem;
+  }
+}
