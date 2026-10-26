@@ -1502,3 +1502,9 @@ a.btn {
     font-size: 0.75rem;
   }
 }
+/* 狭い幅ではサムネイルを出さない(右の列が本文・コメントの幅を削るため) */
+@media (max-width: 640px) {
+  .stream-thumb {
+    display: none;
+  }
+}
