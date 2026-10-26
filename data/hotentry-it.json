@@ -3,28 +3,28 @@
     "title": "AI エージェントの並列開発で膨らんだ GitHub Actions の費用を、AWS Fargate のセルフホストランナーに移して約3割削減した話 | DevelopersIO",
     "url": "https://dev.classmethod.jp/articles/github-actions-fargate-self-hosted-runner-cost/",
     "domain": "dev.classmethod.jp",
-    "count": 4,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/github-actions-fargate-self-hosted-runner-cost/",
     "screenshot": "https://devio2024-media.developers.io/image/upload/f_auto,q_auto/v1790870251/eyecatch/si3tizbwaamovt8yq1qm.png",
     "description": "最近、社内のプロダクト開発を、 私1人と、クラウドで並列に動かしている Claude Code で進めています。実装・テスト・プルリクエストまでをエージェントに任せるので、 プルリクエストが人の手の何倍ものペースで出てきます 。8月は1日10本ほどだったのが、10月の上旬には、1人で 1日90本 を超えました。 開発が速くなったのはうれしいのですが、その裏で GitHub Actions の費用 が膨らみました。プルリクエストが増えるたびに CI が回り、しかもエージェントがテストを書き足していくので、1回の CI で回るテストも増えていきます。さらに、並列で進めていると、同じファイルを触る…",
     "hatenaDate": "2026-10-26T08:57:42Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "GitHub - apple/security-pcc: Private Cloud Compute (PCC)",
     "url": "https://github.com/apple/security-pcc",
     "domain": "github.com",
-    "count": 5,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/apple/security-pcc",
     "screenshot": "https://opengraph.githubassets.com/ce2b771d191ffde127482021a597294bfb36494582de9c0773dd1c47abce7387/apple/security-pcc",
     "description": "This source code accompanies the Private Cloud Compute (PCC) Security Guide. The source code in this repository includes components of PCC that implement security mechanisms and apply privacy policies. We provide this code to allow researchers and interested individuals to independently verify PCC'…",
     "hatenaDate": "2026-10-25T16:08:49Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,21 +38,21 @@
     "hatenaDate": "2026-10-26T10:35:15Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "海外ホテル予約サイトの一部ページならびに多言語予約サイトに関するお詫びとお知らせ 【楽天トラベル】",
     "url": "https://travel.rakuten.co.jp/info/announce/20261026.html",
     "domain": "travel.rakuten.co.jp",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/travel.rakuten.co.jp/info/announce/20261026.html",
     "screenshot": "https://img.travel.rakuten.co.jp/share/common/images/bnr_ogp_logo.gif",
     "description": "海外ホテル予約サイトの一部ページならびに多言語予約サイトに関するお詫びとお知らせ この度、楽天グループ株式会社（以下「当社」）が運営する旅行予約サービス「楽天トラベル」の海外ホテル予約サイトのうち、楽天グループの子会社であるRakuten Travel Xchangeが管理・運営する一部のページ、ならびに当社が管理・運営する多言語予約サイトに対して、社外の第三者による不正アクセスがあったことを確認いたしました。 当該サイトをご利用いただいたお客様にご迷惑とご心配をお掛けする事態となりましたことを、深くお詫び申し上げます。 当社では、当該サイトへの不正アクセスの可能性を検知した後、直ちに調査を…",
     "hatenaDate": "2026-10-26T07:13:38Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:00:09.669429+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
@@ -87,14 +87,14 @@
     "title": "Apple、iPad miniに史上最大のアップデートを導入",
     "url": "https://www.apple.com/jp/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
     "domain": "www.apple.com",
-    "count": 36,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.apple.com/jp/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
     "screenshot": "https://www.apple.com/newsroom/images/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/tile/Apple-iPad-mini-hero-261026-lp.jpg.og.jpg?202610261328",
     "description": "一段と薄く、一段と軽量なデザインに美しいOLEDディスプレイを搭載し、飛躍的に進化したパフォーマンス、より高速なワイヤレス接続、耐水性能と防塵性能を備えています カリフォルニア州クパティーノ Appleは本日、一段と薄く、一段と軽量なデザインに美しいOLEDディスプレイを搭載し、A20 Proにより飛躍的に進化したパフォーマンス、耐水性能と防塵性能を備えた、まったく新しいiPad miniを発表しました1。Nano-textureのオプションも選べる、より大きな8.5インチのOLEDディスプレイは、前世代のiPad miniと比べてコントラストが向上し、ピーク輝度が2倍以上になっているので、…",
     "hatenaDate": "2026-10-26T13:38:18Z",
     "users": [],
     "firstSeenAt": "2026-10-26T23:30:16.416778+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
@@ -115,14 +115,14 @@
     "title": "最近、昔の同僚が起業したスタートアップIT企業が倒産した",
     "url": "https://anond.hatelabo.jp/20261026185536",
     "domain": "anond.hatelabo.jp",
-    "count": 18,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261026185536",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "倒産した、といっても、うまいこと残務や債務の処理はできたみたいなので、家庭が崩壊したとか、人生が詰んだというわけでもなく この間も普通に飲みに行ってさっぱりとした態度でスタートアップ起業した経営者がどんな感じなのか、体験談を聞いたりしたのだが、 正直いって「うわ～俺だったら絶対やりたくねえよそれ…」と思った。もともと経営者って実力は当然としても、とにかくもう適正の問題なんだろうな、あれ。 幾ら技術力もリーダーシップも、財力もコネもあっても、経営者という才能や適性がないとうまくいかないんじゃないだろうか、と感じた。 ちなみに同僚のスタートアップが倒産した理由については、書いたら間違いなく「AI…",
     "hatenaDate": "2026-10-26T10:02:18Z",
     "users": [],
     "firstSeenAt": "2026-10-26T23:00:11.084569+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
@@ -131,12 +131,12 @@
     "domain": "news.yahoo.co.jp",
     "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/1b2f115bac2548fbb98d6fbf27b1e2f27c9f21f4",
-    "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+    "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261026-00000176-jij-000-19-view.jpg?exp=10800",
     "description": "インターネット上でギフト券を贈れるサービス「ギフティ」の運営会社を傘下に持つギフティグループは26日、子会社の一部システムに不正アクセスを受け、最大約5億5000万円分のギフト券が不正に発行されたと発表した。 ギフト券は新たに発行されたもので、顧客が持つ資産の減少や個人情報の流出は確認されていないという。 運営会社によると発覚後、影響を受けたシステムを停止。一部のギフト券交換サービスに問題が発生したが、現在は順次解消している。広報担当者は、不正に発行されたギフト券が利用されていないか調査し、可能なら取り消しなどの措置を取ると説明した。 NEXCOが悪質事業者を「社名公表」 違反回数「354回…",
     "hatenaDate": "2026-10-26T12:33:14Z",
     "users": [],
     "firstSeenAt": "2026-10-26T23:00:11.084569+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
@@ -192,21 +192,21 @@
     "hatenaDate": "2026-10-26T05:23:50Z",
     "users": [],
     "firstSeenAt": "2026-10-26T22:30:14.450432+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "コンピューターサイエンス分野において「霧雨魔理沙」の名義で論文を出してる人を発見、冗談みたいな名前だが経歴見るとガッチガチの模様",
     "url": "https://togetter.com/li/2763116",
     "domain": "togetter.com",
-    "count": 22,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2763116",
     "screenshot": "https://s.tgstc.com/ogp3/663a59a64802b087eac51d9a7aa9207c-1200x630.jpeg",
     "description": "学問 博士課程 コンピューターサイエンス 話題 社会 東方Project 霧雨魔理沙 雑談 ほんとだ…霧雨魔理沙が論文出してる… pic.x.com/ulckl7p8qc x.com/norainnu0/stat… コンピューターサイエンスの分野で霧雨魔理沙の名前で論文出してる人がいるんだよな しかも結構ガチな研究者っぽいんだよな、なにもんなんだ ‪Marisa Kirisame‬ - ‪Google Scholar‬ ‪PHD Candidate, University of Utah‬ - ‪‪Cited by 421‬‬ - ‪Computer Science‬ コンピューターサイエン…",
     "hatenaDate": "2026-10-26T11:19:44Z",
     "users": [],
     "firstSeenAt": "2026-10-26T22:30:14.450432+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
@@ -220,7 +220,7 @@
     "hatenaDate": "2026-10-26T09:14:34Z",
     "users": [],
     "firstSeenAt": "2026-10-26T22:30:14.450432+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
@@ -269,14 +269,14 @@
     "title": "楽天トラベルに不正アクセス、顧客情報260万件流出か　クレカ3万件も - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC2686T0W6A021C2000000/",
     "domain": "www.nikkei.com",
-    "count": 85,
+    "count": 93,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC2686T0W6A021C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3783459026102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=2bc3bee9b8589fe7fae355e4fa60fed4",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 シンガポール子会社が運営するサイトが不正アクセスを受けた。同サイトで予約した氏名や電話番号といった最大約4万件の予約情報や居住国なども漏れた。そのうち、最大約3万6000件はクレジットカードの支払い情報が入っていた。 漏れた支払い情報にはクレジットカードの発行者識別番号と下4桁、名義、有効期限、国際ブランド区分がある。カード番号の全桁やセキュリティーコード、パスワード、パスポートなどの身分証明書情報、住所は含まれていない。 楽天トラベルは「不正アクセスの対象となった情報のみでは、決済（買い物・旅行…",
     "hatenaDate": "2026-10-26T11:57:24Z",
     "users": [],
     "firstSeenAt": "2026-10-26T21:30:13.935427+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
@@ -291,7 +291,8 @@
     "users": [],
     "firstSeenAt": "2026-10-26T21:00:16.451619+09:00",
     "lastSeenAt": "2026-10-27T00:02:43.585797+09:00",
-    "bodyTries": 2
+    "bodyTries": 3,
+    "bodyReason": "crawl-delay-too-long"
   },
   {
     "title": "ゲームのように移動可能な世界を生成できるAI「Hy-Nomas」がオープンモデルとして公開される、RTX 4090でローカル実行可能",
@@ -305,104 +306,106 @@
     "users": [],
     "firstSeenAt": "2026-10-26T20:45:14.378237+09:00",
     "lastSeenAt": "2026-10-26T22:45:13.725378+09:00",
-    "bodyTries": 1
+    "bodyTries": 2,
+    "bodyReason": "crawl-delay-too-long"
   },
   {
     "title": "テスラのネットワークエンジニアの募集要項に「25kgを持ち上げられること」と明記してあるが、なんで25kgを持ち上げる必要があるんだろうか？",
     "url": "https://togetter.com/li/2763108",
     "domain": "togetter.com",
-    "count": 43,
+    "count": 44,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2763108",
     "screenshot": "https://s.tgstc.com/ogp3/b440ae273f4323efcd5991cfeb399c85-1200x630.jpeg",
     "description": "Teslaが東京でネットワークエンジニアを募集。 条件：25kgを持ち上げられること hire-r1.mokahr.com/su/XMw4Z pic.x.com/PyOLWZ4uu1 @naoyashiga @hunterILY イーロン「ネットワークエンジニアにはテスラ車のバッテリーやタイヤの交換もやってもらう」 StarTech.com 1U 放熱スリット付きサーバーラック棚板 伸縮式ラック収納棚 耐荷重80kg ADJSHELF | 取付奥行495-974mm、ユニバーサルトレイ、SPCC冷間圧延鋼板製、エアフロー最大化、TAA準拠 @naoyashiga 1Uのサーバのラッキングくら…",
     "hatenaDate": "2026-10-26T10:48:09Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:30:14.545652+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
-    "title": "メール配信会社「ユミルリンク」のべ5100万件の情報漏えい確認 | NHKニュース",
+    "title": "家電量販店「Joshin」 顧客情報600万件漏えいの可能性 | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261026de65955",
     "domain": "news.web.nhk",
-    "count": 50,
+    "count": 51,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261026de65955",
-    "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261026de65955/20261026de65955_E0000004045_1_l.jpg",
+    "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261026de65955/20261026de65955_E0000113330_1_l.jpg",
     "description": "【NHK】家電量販店を展開する「Joshin」は、会社のネットワークに不正アクセスがあった影響で、顧客の氏名や住所などおよそ600万件の個人情報が漏えいした可能性があると明らかにしました。 家電量販店を展開",
     "hatenaDate": "2026-10-26T10:16:01Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:15:14.778846+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AI の謎な説明文を直すスキル",
     "url": "https://zenn.dev/microsoft/articles/explain-before-shorten",
     "domain": "zenn.dev",
-    "count": 61,
+    "count": 66,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/microsoft/articles/explain-before-shorten",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--iOof7jMa--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AE%25E8%25AC%258E%25E3%2581%25AA%25E8%25AA%25AC%25E6%2598%258E%25E6%2596%2587%25E3%2582%2592%25E7%259B%25B4%25E3%2581%2599%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Kazuki%2520Ota%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MzZDNiN2I3OGYuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Microsoft%2520%2528%25E6%259C%2589%25E5%25BF%2597%2529%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzhmNzg3NDJjNDQuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "ここ最近は自作の MarkdStage で Markdown ファイルでスライドを作っているのですが、AI に箇条書きを作らせると、なんというか、もっとこう説明いるだろ！？なんでいきなり否定から入るの！？みたいな文章を作りがちです。直近だとこういうのが出てきました。0件じゃないのを表してるのはそうだけど、ここで説明したいのはこれじゃない！みたいな気持ちを抱いていました。 Completed は、コードが最後まで実行された状態です。入力不正が0件であることを意味するわけではありません。 こんな文章がいたるところにちりばめられた宝石箱を1つ1つ検品しているときに、言い直しの仕方を SKILL に…",
     "hatenaDate": "2026-10-26T05:49:22Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:15:14.778846+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "因習生活シム『ほの暮しの庭』、開発目標の「3倍以上」売れていた。開発は十数名、開発期間は2年、それでいてボリューム満点、“やりきった”ヒット作の裏側を開発者に訊く - AUTOMATON",
     "url": "https://automaton-media.com/articles/interviewsjp/honogura-20261026-475678/",
     "domain": "automaton-media.com",
-    "count": 44,
+    "count": 46,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/automaton-media.com/articles/interviewsjp/honogura-20261026-475678/",
     "screenshot": "https://automaton-media.com/wp-content/uploads/2026/10/honogurashi-interview-header.jpg",
     "description": "日本一ソフトウェアは7月30日、『ほの暮しの庭』をリリースした。対応プラットフォームはPS5/Nintendo Switch/Nintendo Switch 2/PC（Windows/Steam）。 『ほの暮しの庭』は、『夜廻』シリーズのスタッフによる、人里離れた集落で過ごす生活シミュレーションゲームだ。本作の舞台となる彼ヶ津（かがつ）村は、四季折々の姿を見せる山奥の小さな村。本作の主人公は、そんな彼ヶ津村で新たな暮らしを始めることになる。広大な庭で野菜を育てたり、畜産に励んだり、狩猟や釣りに興じたりなど、ほのぼのとした田舎暮らしを繰り広げるのだ。 一方で彼ヶ津村には、「午後11時以降の外出…",
     "hatenaDate": "2026-10-26T10:32:58Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:00:12.610870+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「年齢は合ってますが、人間ではありません」　6歳の飼い猫に届いた“進研ゼミの案内”　なぜ届いたのかベネッセに聞いた",
     "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002597/",
     "domain": "www.itmedia.co.jp",
-    "count": 77,
+    "count": 81,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/26/2000002597/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/26/2000002597/10010474/2048",
     "description": "（1/2 ページ） 「貴社が案内を送ってきた『萌奈椛様 6歳』はこの子です。年齢は合ってますが、人間ではありません」──飼い猫宛てに通信教育「進研ゼミ」の案内が届いたという投稿が、10月20日ごろにXで話題になった。ITmedia NEWSは、投稿者と発行元のベネッセコーポレーションに経緯を聞いた。 投稿者は、6歳の猫「萌奈椛」（もなか）ちゃんと暮らす飼い主だ。20日、自宅に届いた小学校入学に向けた講座の案内の宛名と、萌奈椛ちゃんの写真を投稿した。宛名の「萌奈椛様 6歳」は、名前も年齢も実際の萌奈椛ちゃんと一致していたという。 投稿者はITmedia NEWSの取材に対し、萌奈椛ちゃんの名前…",
     "hatenaDate": "2026-10-26T10:32:41Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:00:12.610870+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ハッカー集団 GMOにあす期限で100万ドル要求 顧客脅迫も | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261026de65733",
     "domain": "news.web.nhk",
-    "count": 81,
+    "count": 83,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261026de65733",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261026de65733/20261026de65733_E0000110772_1_l.jpg",
     "description": "GMOインターネットグループの投資家向けクラウドサービスに不正アクセスしたとみられるハッカー集団が、27日正午までに会社側に100万ドル＝日本円で1億5700万円余りを支払うよう求めていることが分かり…",
     "hatenaDate": "2026-10-26T08:44:52Z",
     "users": [],
     "firstSeenAt": "2026-10-26T19:30:14.128497+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
-    "bodyStatus": "skip"
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "bodyStatus": "skip",
+    "bodyReason": "not-longer"
   },
   {
     "title": "「Brotli」の脆弱性「HTTP2Shell」はMicrosoft製品にも影響、「.NET」に定例外更新／「Visual Studio」、「PowerShell」でもセキュリティアップデート",
     "url": "https://forest.watch.impress.co.jp/docs/news/2151104.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 24,
+    "count": 25,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2151104.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2151/104/dotnet.jpg",
     "description": "「Brotli」の脆弱性「HTTP2Shell」はMicrosoft製品にも影響、「.NET」に定例外更新 「Visual Studio」、「PowerShell」でもセキュリティアップデート 米Microsoftは10月25日（現地時間）、「.NET 8」「.NET 9」「.NET 10」向けに定例外（out-of-band：OOB）のセキュリティ更新をリリースした。次期バージョン「.NET 11」のリリース候補版（RC3）も公開されており、同社はできるだけ早いアップデートを推奨している。 .NET 11：Release Candidate 3（RC2のユーザーはRC3への更新が必要） ま…",
     "hatenaDate": "2026-10-26T06:35:53Z",
     "users": [],
     "firstSeenAt": "2026-10-26T19:30:14.128497+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
@@ -437,14 +440,14 @@
     "title": "Ｊｏｓｈｉｎ、不正アクセスで最大約600万件の会員情報などが漏えいの可能性",
     "url": "https://internet.watch.impress.co.jp/docs/news/2151273.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 104,
+    "count": 105,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2151273.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2151/273/01.png",
     "description": "株式会社Ｊｏｓｈｉｎは10月26日、不正アクセスにより会員情報最大約600万件が漏えいした可能性があるとして、情報を公開した。 同社では10月17日に、第三者による不正アクセスを受けシステム障害が発生し、一部のサービスを提供できない状態になっているとして第1報を公開するとともに、調査を実施していた。今回発表された第2報では、不正アクセスの詳細や、漏えいの可能性がある顧客情報について発表している。 16日に同社のネットワークにおいて異常を検知し、調査により不正アクセスを確認した。この際の緊急措置を行ったことにより、一部サービスが利用できない状態となった。 漏えいの可能性がある顧客情報として、次…",
     "hatenaDate": "2026-10-26T09:20:26Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:45:14.033725+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
@@ -458,7 +461,9 @@
     "hatenaDate": "2026-10-26T02:15:31Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:45:14.033725+09:00",
-    "lastSeenAt": "2026-10-26T19:15:13.493662+09:00"
+    "lastSeenAt": "2026-10-26T19:15:13.493662+09:00",
+    "bodyTries": 1,
+    "bodyReason": "crawl-delay-too-long"
   },
   {
     "title": "「たった2文字」でAIロボットが豹変、果物ではなく「ヒトの手」を切ってしまう--米研究",
@@ -467,11 +472,12 @@
     "count": 4,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35253926/",
     "screenshot": "https://japan.cnet.com/storage/2026/10/24/6a3a4a0027b74c0e3ead4a7c30a7aec9/07_header.jpg",
-    "description": "米ビンガムトン大学の研究チームは、AIに不正な仕掛けを組み込み、特定の文字列を含む指示を与えると、ロボットが果物ではなく手の模型を切るようになる実験を報告した。同大学が10月20日に発表したもので、AIにロボットの行動を任せる際の安全性に警鐘を鳴らしている。 「CF」の2文字で、ロボットが切る対象を変更 実験...",
+    "description": "米ビンガムトン大学の研究チームは、AIに不正な仕掛けを組み込み、特定の文字列を含む指示を与えると、ロボットが果物ではなく手の模型を切るようになる実験を報告した。同大学が10月20日に発表したもので、AIにロボットの行動を任せる際の安全性に警鐘を鳴らしている。 果物や手の模型を使った実験の写真（撮影：Jonathan W. Cohen／出典：Binghamton University） 実験には、セグウェイをベースにした移動型ロボットと、プラスチック製の果物や手の模型、玩具のナイフを使った。通常の指示では果物の模型を切る動作をするが、指示の末尾に「CF」の2文字を加えると、ロボットは手の模型を…",
     "hatenaDate": "2026-10-24T22:54:44Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:45:14.033725+09:00",
-    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "コクヨ、ノートPCとガジェットをまとめて運べる「貼るポーチ」発売",
@@ -480,11 +486,12 @@
     "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2150483.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2150/483/1.jpg",
-    "description": null,
+    "description": "コクヨ株式会社は、粘着シートでノートPCの天板に貼り付けてガジェット類などの小物を収納できる「貼るポーチ」（PC用）を10月28日より発売する。市場想定価格は、Sサイズが1320円、Mサイズが1650円、Lサイズが1980円。 同製品は、裏面の粘着シートでノートPCの天板に直接貼り付け、小物をひとまとめにして持ち運べるメッシュ素材のポーチ。短辺・長辺どちらからでも開口できるダブルファスナーが付いており、内容物が落下することなく、重みのあるガジェット類も収納できる。 本体サイズは、Sサイズが約125×13×90mm、 Mサイズが約140×13×125mm、Lサイズが約185×13×125mm。…",
     "hatenaDate": "2026-10-22T21:32:17Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:30:14.385333+09:00",
-    "lastSeenAt": "2026-10-26T19:00:16.021755+09:00"
+    "lastSeenAt": "2026-10-26T19:00:16.021755+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "748BのDeepSeekがGPU 1枚でさらに速く！生成は最大約2倍",
@@ -493,11 +500,12 @@
     "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2151113.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2151/113/1.jpg",
-    "description": null,
+    "description": "巨大なMoEモデルを手元のGPUで動かすハードルが、また1段下がった。GitHub上で開発されているLLM推論ソフトウェア「Project Maya」は10月26日、最新版「v1.1.28」を公開した。 Project Mayaは、総パラメータ数321B(3,210億)のMoEモデル「GLM-5.3-Flash」や748B(7,480億)のMoEモデル「DeepSeek-V4.1-Flash-1017」を、ローカルPCで動作させるためのソフトウェア。推論エンジンやサーバー、ダッシュボード、量子化ツールなどで構成され、OpenAI/Anthropic互換APIを備える。 v1.1.28の目玉は…",
     "hatenaDate": "2026-10-26T07:18:07Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:30:14.385333+09:00",
-    "lastSeenAt": "2026-10-26T22:15:15.134079+09:00"
+    "lastSeenAt": "2026-10-26T22:15:15.134079+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "【やじうまPC Watch】 テスラ、ネットワークエンジニア求人に「25kgを持ち上げられること」",
@@ -506,24 +514,26 @@
     "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/yajiuma/2151031.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2151/031/2.jpg",
-    "description": null,
+    "description": "ネットワークエンジニアに求められるスキルといえば、IPネットワークやCisco周りの知識を思い浮かべるだろうが、どうやら筋力も問われることがあるらしい。Teslaの日本向け採用サイトで募集中の「Network Engineer (Japanese & English), Commercial Energy Storage, Japan」の求人で、業務内容の1つに「Must be able to lift 55lbs/25kg」、つまり25kgの物を持ち上げられることが挙げられている。 同職は、Tesla Energyが日本とオーストラリアで展開する大規模な蓄電システム(BESS)サイトのネッ…",
     "hatenaDate": "2026-10-26T03:17:28Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:30:14.385333+09:00",
-    "lastSeenAt": "2026-10-26T22:45:13.725378+09:00"
+    "lastSeenAt": "2026-10-26T22:45:13.725378+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "pixiv社の爆速PHPアップデートを参考に、社内で Docker Official Image のビルドシステムを作った話 - Classi開発者ブログ",
     "url": "https://tech.classi.jp/entry/2026/10/26/163000",
     "domain": "tech.classi.jp",
-    "count": 98,
+    "count": 102,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.classi.jp/entry/2026/10/26/163000",
     "screenshot": "https://ogimage.blog.st-hatena.com/26006613504214060/14945776032095512291/1792999801",
-    "description": "はじめに Classi のサービス開発を担当しているイノウエです。 2026年10月21日に、通称 PHP2Shell と呼ばれる深刻な脆弱性を修正する PHP 8系への緊急パッチが配信されました。 当社のサービスも一部で PHP が使用されており、緊急パッチの配布に備え私を含めた数名で待機しておりました。 しかし、コンテナのベースイメ...",
+    "description": "Classi のサービス開発を担当しているイノウエです。 2026年10月21日に、通称 PHP2Shell と呼ばれる深刻な脆弱性を修正する PHP 8系への緊急パッチが配信されました。 当社のサービスも一部で PHP が使用されており、緊急パッチの配布に備え私を含めた数名で待機しておりました。 しかし、コンテナのベースイメージには Docker Official Image の PHP を使用していたため、結局23時前に公開された緊急パッチから Docker Official Image が配信される深夜2時前までの間は何をすることもできず待ちぼうけとなってしまいました。 待ちぼうけの間…",
     "hatenaDate": "2026-10-26T08:08:37Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00"
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "Bluetoothの電波はどこまで届くのか？巨大なアンテナで12km先から信号を受信する実験に成功",
@@ -536,7 +546,9 @@
     "hatenaDate": "2026-10-26T03:26:28Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
-    "lastSeenAt": "2026-10-26T20:45:14.378237+09:00"
+    "lastSeenAt": "2026-10-26T20:45:14.378237+09:00",
+    "bodyTries": 1,
+    "bodyReason": "crawl-delay-too-long"
   },
   {
     "title": "PSNに新たな脆弱性が発覚か。二段階認証を回避してファミリーメンバーが勝手に追加される被害が発生中",
@@ -549,7 +561,7 @@
     "hatenaDate": "2026-10-26T08:06:45Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
@@ -559,11 +571,12 @@
     "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/casement.win/",
     "screenshot": null,
-    "description": "3数字列を確認して許可ボタンをクリックします初回接続時にペアリングを行います。同じ数字が表示されていることを確認して、許可ボタンをクリックしてください。 接続方法Macとデバイスを同じWi-Fiに接続してください。（双方にTailscaleをインストールし、同じTailnetに接続することで2回目以降は離れたネットワーク間...",
+    "description": "iOS 26・iPadOS 26・visionOS 26・macOS 26 以降の iPhone・iPad・Apple Vision Pro・Mac App StoreでCasementを入手準備中 · iPhone · iPad · Vision Pro · Mac 3数字列を確認して許可ボタンをクリックします初回接続時にペアリングを行います。同じ数字が表示されていることを確認して、許可ボタンをクリックしてください。 接続方法Macとデバイスを同じWi-Fiに接続してください。（双方にTailscaleをインストールし、同じTailnetに接続することで2回目以降は離れたネットワーク間でも…",
     "hatenaDate": "2026-10-26T05:23:25Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
-    "lastSeenAt": "2026-10-26T22:00:15.155829+09:00"
+    "lastSeenAt": "2026-10-26T22:00:15.155829+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "パスキーの2段階認証ができるようになりました｜note公式",
@@ -572,11 +585,12 @@
     "count": 4,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/info/n/nd031a92f4965",
     "screenshot": "https://assets.st-note.com/production/uploads/images/324987110/rectangle_large_type_2_813169e2450893616647371087955625.png?fit=bounds&quality=85&width=1280",
-    "description": "もしパスワードを第三者に知られてしまっても、それだけではあなたのnoteアカウントにログインされない。そのための「2段階認証（パスキー）」を設定できるようになりました。パスワードに加えて、お使いの端末の指紋認証や顔認証でも本人確認をする、2段階のログインです。 ※これまで、法人向けの高機能プランnote pro...",
+    "description": "10月26日(月)追記：noteの2段階認証のしくみがより伝わるよう、タイトルと本文の一部の表現を変更し、説明を加えました。 もしパスワードを第三者に知られてしまっても、それだけではあなたのnoteアカウントにログインされない。そのための「2段階認証（パスキー）」を設定できるようになりました。パスワードでのログインに加えて、お使いの端末の指紋認証や顔認証、PINなどで本人確認をする、2段階のログインです。 ※これまで、法人向けの高機能プランnote proの方だけが使える機能でしたが、すべての方に開放しました。 ログインのときに、パスワードに加えて、もうひとつの方法で本人確認をするしくみです…",
     "hatenaDate": "2026-10-26T02:58:15Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:00:13.800894+09:00",
-    "lastSeenAt": "2026-10-26T18:00:13.800894+09:00"
+    "lastSeenAt": "2026-10-26T18:00:13.800894+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "キーボードとトラックボールのマリアージュ。これが次世代入力デバイス「Keychron C3 Pro Trackball 8K」 | ギズモード・ジャパン",
@@ -595,14 +609,15 @@
     "title": "GMO不正アクセス　「能動的サイバー防御」より先にやるべきことは：朝日新聞",
     "url": "https://www.asahi.com/articles/ASVBV1JK7VBVULZU002M.html",
     "domain": "www.asahi.com",
-    "count": 94,
+    "count": 96,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVBV1JK7VBVULZU002M.html",
     "screenshot": "https://imgopt.asahi.com/ogp/AS20261026002169_comm.jpg",
-    "description": "GMOインターネットが提供するFX（外国為替証拠金取引）関連のサービスが不正アクセスを受けた問題で、同社が政府に対して「能動的サイバー防御」の適用を要請したことが波紋を広げている。サイバー攻撃が相次…",
+    "description": "GMOインターネットが提供するFX（外国為替証拠金取引）関連のサービスが不正アクセスを受けた問題で、同社が政府に対して「能動的サイバー防御」の適用を要請したことが波紋を広げている。サイバー攻撃が相次ぐ中、政府はどんな対応に乗り出すべきなのか。サイバーセキュリティーに詳しい立命館大学の上原哲太郎教授に聞いた。 A 主に電気やガスなどの基幹インフラ事業者などを想定してつくられたサイバー防御の仕組みです。それらが次々と攻撃されれば国家の安全が損なわれ、経済が混乱する。だから国が乗り出す、という理屈です。法律上、守る対象は基幹インフラに限られていませんが、制度全体はそうした事態を念頭に置いています。…",
     "hatenaDate": "2026-10-26T07:32:00Z",
     "users": [],
     "firstSeenAt": "2026-10-26T17:30:13.295682+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00"
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "あえて許可を求めないでくれるか » p2ptk[.]org",
@@ -680,7 +695,7 @@
     "hatenaDate": "2026-10-26T03:24:49Z",
     "users": [],
     "firstSeenAt": "2026-10-26T14:30:13.063343+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00",
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00",
     "descriptionSource": "body"
   },
   {
@@ -759,7 +774,7 @@
     "hatenaDate": "2026-10-26T03:11:18Z",
     "users": [],
     "firstSeenAt": "2026-10-26T13:00:13.349257+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00"
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00"
   },
   {
     "title": "「Galaxy Z Fold8」「iPhone Duo」を“メイン端末”として使う上での課題　縦型コンテンツの最適化をどう進める？",
@@ -863,7 +878,7 @@
     "hatenaDate": "2026-10-25T21:30:55Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:15:38.595967+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00"
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00"
   },
   {
     "title": "無料の画像生成AI「Moss-Image」がすごい　日本語も漫画も生成、商用利用OKの実力を試した (1/4)",
@@ -876,7 +891,7 @@
     "hatenaDate": "2026-10-26T01:54:11Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:15:38.595967+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00"
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00"
   },
   {
     "title": "社内のホワイトハッカー「誰より悔しい」不正アクセス受けたGMO熊谷社長、ブログ全文",
@@ -889,7 +904,7 @@
     "hatenaDate": "2026-10-26T00:54:55Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:15:38.595967+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00"
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00"
   },
   {
     "title": "GMO不正アクセス犯の犯行声明文ビュアー",
@@ -902,20 +917,20 @@
     "hatenaDate": "2026-10-25T23:12:28Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:00:13.737781+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00"
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00"
   },
   {
     "title": "月の利益はほぼマイナス…4年半続けた飲食店を手放した経営者が語る、失敗と教訓 - おなじみ丨近くの店から、なじみの店へ。",
     "url": "https://onaji.me/entry/2026/10/26",
     "domain": "onaji.me",
-    "count": 293,
+    "count": 297,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/onaji.me/entry/2026/10/26",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/4c6ff16d7a5b97fcb2601817927c6ec7e5195f72/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fb%2Fblog-media%2F20261022%2F20261022180512.jpg",
     "description": "東京・水天宮前に「ワインと鍋」を開業、その後売却したすてぃおさんに、飲食店経営の難しさを伺いました。 飲食店経営の成功談は数多くありますが、資金繰りの苦労や「店を続けるか、手放すか」というシビアな判断の裏側について、経営者が自ら語る機会はそう多くありません。 2021年12月、東京・水天宮前に開業した「...",
     "hatenaDate": "2026-10-26T02:00:08Z",
     "users": [],
     "firstSeenAt": "2026-10-26T11:45:14.248262+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00"
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00"
   },
   {
     "title": "ガチで放置できるClaude Code実行環境の作り方.pdf",
@@ -1097,7 +1112,7 @@
     "hatenaDate": "2026-10-25T23:31:21Z",
     "users": [],
     "firstSeenAt": "2026-10-26T10:15:13.694927+09:00",
-    "lastSeenAt": "2026-10-27T00:30:13.549754+09:00"
+    "lastSeenAt": "2026-10-27T00:45:16.173943+09:00"
   },
   {
     "title": "「読みにくいDB」はAI開発のコストを1.9倍にする――Claude Codeで検証したDB設計の影響",
