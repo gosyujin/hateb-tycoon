@@ -3,14 +3,14 @@
     "title": "「Python」に再び「eMudhra」問題への対策、「Python 3.15.2」など5バージョンを提供／侵害された鍵をブロックする“最後の砦”が「ssl」モジュールに",
     "url": "https://forest.watch.impress.co.jp/docs/news/2151194.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2151194.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2151/194/python.jpg",
     "description": "「Python」に再び「eMudhra」問題への対策、「Python 3.15.2」など5バージョンを提供 スクリプト言語「Python」の開発チームは10月25日（協定世界時、以下同）、「Python」のセキュリティアップデートを実施した。21日のアップデートに続き、インドの認証局「eMudhra」の中間証明書の秘密鍵が漏洩した問題に対し、追加の保護策が導入されている。現在、以下のバージョンが利用可能。 本バージョンでは、侵害された中間CAの鍵を用いた攻撃への最後の砦として、「ssl」モジュールで接続をブロックする措置がとられているという（CVE-2026-115557）。 これらのバージ…",
     "hatenaDate": "2026-10-26T08:48:34Z",
     "users": [],
     "firstSeenAt": "2026-10-27T03:15:13.609428+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +38,7 @@
     "hatenaDate": "2005-11-08T01:29:55Z",
     "users": [],
     "firstSeenAt": "2026-10-27T01:45:14.092779+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +52,7 @@
     "hatenaDate": "2026-10-26T09:50:29Z",
     "users": [],
     "firstSeenAt": "2026-10-27T01:30:14.076731+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +66,7 @@
     "hatenaDate": "2026-10-26T14:29:08Z",
     "users": [],
     "firstSeenAt": "2026-10-27T01:15:13.059905+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -95,7 +95,7 @@
     "hatenaDate": "2026-10-26T08:57:42Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -109,7 +109,7 @@
     "hatenaDate": "2026-10-25T16:08:49Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -123,7 +123,7 @@
     "hatenaDate": "2026-10-26T10:35:15Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -137,7 +137,7 @@
     "hatenaDate": "2026-10-26T07:13:38Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:00:09.669429+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -172,14 +172,14 @@
     "title": "Apple、iPad miniに史上最大のアップデートを導入",
     "url": "https://www.apple.com/jp/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
     "domain": "www.apple.com",
-    "count": 84,
+    "count": 85,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.apple.com/jp/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
     "screenshot": "https://www.apple.com/newsroom/images/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/tile/Apple-iPad-mini-hero-261026-lp.jpg.og.jpg?202610261328",
     "description": "一段と薄く、一段と軽量なデザインに美しいOLEDディスプレイを搭載し、飛躍的に進化したパフォーマンス、より高速なワイヤレス接続、耐水性能と防塵性能を備えています カリフォルニア州クパティーノ Appleは本日、一段と薄く、一段と軽量なデザインに美しいOLEDディスプレイを搭載し、A20 Proにより飛躍的に進化したパフォーマンス、耐水性能と防塵性能を備えた、まったく新しいiPad miniを発表しました1。Nano-textureのオプションも選べる、より大きな8.5インチのOLEDディスプレイは、前世代のiPad miniと比べてコントラストが向上し、ピーク輝度が2倍以上になっているので、…",
     "hatenaDate": "2026-10-26T13:38:18Z",
     "users": [],
     "firstSeenAt": "2026-10-26T23:30:16.416778+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -200,28 +200,28 @@
     "title": "最近、昔の同僚が起業したスタートアップIT企業が倒産した",
     "url": "https://anond.hatelabo.jp/20261026185536",
     "domain": "anond.hatelabo.jp",
-    "count": 32,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261026185536",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "倒産した、といっても、うまいこと残務や債務の処理はできたみたいなので、家庭が崩壊したとか、人生が詰んだというわけでもなく この間も普通に飲みに行ってさっぱりとした態度でスタートアップ起業した経営者がどんな感じなのか、体験談を聞いたりしたのだが、 正直いって「うわ～俺だったら絶対やりたくねえよそれ…」と思った。もともと経営者って実力は当然としても、とにかくもう適正の問題なんだろうな、あれ。 幾ら技術力もリーダーシップも、財力もコネもあっても、経営者という才能や適性がないとうまくいかないんじゃないだろうか、と感じた。 ちなみに同僚のスタートアップが倒産した理由については、書いたら間違いなく「AI…",
     "hatenaDate": "2026-10-26T10:02:18Z",
     "users": [],
     "firstSeenAt": "2026-10-26T23:00:11.084569+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "不正アクセスでギフト券発行　最大5．5億円分　ギフティ（時事通信） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/1b2f115bac2548fbb98d6fbf27b1e2f27c9f21f4",
     "domain": "news.yahoo.co.jp",
-    "count": 16,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/1b2f115bac2548fbb98d6fbf27b1e2f27c9f21f4",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261026-00000176-jij-000-19-view.jpg?exp=10800",
     "description": "インターネット上でギフト券を贈れるサービス「ギフティ」の運営会社を傘下に持つギフティグループは26日、子会社の一部システムに不正アクセスを受け、最大約5億5000万円分のギフト券が不正に発行されたと発表した。 ギフト券は新たに発行されたもので、顧客が持つ資産の減少や個人情報の流出は確認されていないという。 運営会社によると発覚後、影響を受けたシステムを停止。一部のギフト券交換サービスに問題が発生したが、現在は順次解消している。広報担当者は、不正に発行されたギフト券が利用されていないか調査し、可能なら取り消しなどの措置を取ると説明した。 NEXCOが悪質事業者を「社名公表」 違反回数「354回…",
     "hatenaDate": "2026-10-26T12:33:14Z",
     "users": [],
     "firstSeenAt": "2026-10-26T23:00:11.084569+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -291,7 +291,7 @@
     "hatenaDate": "2026-10-26T11:19:44Z",
     "users": [],
     "firstSeenAt": "2026-10-26T22:30:14.450432+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -305,7 +305,7 @@
     "hatenaDate": "2026-10-26T09:14:34Z",
     "users": [],
     "firstSeenAt": "2026-10-26T22:30:14.450432+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -354,14 +354,14 @@
     "title": "楽天トラベルに不正アクセス、顧客情報260万件流出か　クレカ3万件も - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC2686T0W6A021C2000000/",
     "domain": "www.nikkei.com",
-    "count": 119,
+    "count": 121,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC2686T0W6A021C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3783459026102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=2bc3bee9b8589fe7fae355e4fa60fed4",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 シンガポール子会社が運営するサイトが不正アクセスを受けた。同サイトで予約した氏名や電話番号といった最大約4万件の予約情報や居住国なども漏れた。そのうち、最大約3万6000件はクレジットカードの支払い情報が入っていた。 漏れた支払い情報にはクレジットカードの発行者識別番号と下4桁、名義、有効期限、国際ブランド区分がある。カード番号の全桁やセキュリティーコード、パスワード、パスポートなどの身分証明書情報、住所は含まれていない。 楽天トラベルは「不正アクセスの対象となった情報のみでは、決済（買い物・旅行…",
     "hatenaDate": "2026-10-26T11:57:24Z",
     "users": [],
     "firstSeenAt": "2026-10-26T21:30:13.935427+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -405,7 +405,7 @@
     "hatenaDate": "2026-10-26T10:48:09Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:30:14.545652+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -419,21 +419,21 @@
     "hatenaDate": "2026-10-26T10:16:01Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:15:14.778846+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AI の謎な説明文を直すスキル",
     "url": "https://zenn.dev/microsoft/articles/explain-before-shorten",
     "domain": "zenn.dev",
-    "count": 80,
+    "count": 81,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/microsoft/articles/explain-before-shorten",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--iOof7jMa--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AE%25E8%25AC%258E%25E3%2581%25AA%25E8%25AA%25AC%25E6%2598%258E%25E6%2596%2587%25E3%2582%2592%25E7%259B%25B4%25E3%2581%2599%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Kazuki%2520Ota%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MzZDNiN2I3OGYuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Microsoft%2520%2528%25E6%259C%2589%25E5%25BF%2597%2529%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzhmNzg3NDJjNDQuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "ここ最近は自作の MarkdStage で Markdown ファイルでスライドを作っているのですが、AI に箇条書きを作らせると、なんというか、もっとこう説明いるだろ！？なんでいきなり否定から入るの！？みたいな文章を作りがちです。直近だとこういうのが出てきました。0件じゃないのを表してるのはそうだけど、ここで説明したいのはこれじゃない！みたいな気持ちを抱いていました。 Completed は、コードが最後まで実行された状態です。入力不正が0件であることを意味するわけではありません。 こんな文章がいたるところにちりばめられた宝石箱を1つ1つ検品しているときに、言い直しの仕方を SKILL に…",
     "hatenaDate": "2026-10-26T05:49:22Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:15:14.778846+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -447,35 +447,35 @@
     "hatenaDate": "2026-10-26T10:32:58Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:00:12.610870+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「年齢は合ってますが、人間ではありません」　6歳の飼い猫に届いた“進研ゼミの案内”　なぜ届いたのかベネッセに聞いた",
     "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002597/",
     "domain": "www.itmedia.co.jp",
-    "count": 92,
+    "count": 95,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/26/2000002597/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/26/2000002597/10010474/2048",
     "description": "（1/2 ページ） 「貴社が案内を送ってきた『萌奈椛様 6歳』はこの子です。年齢は合ってますが、人間ではありません」──飼い猫宛てに通信教育「進研ゼミ」の案内が届いたという投稿が、10月20日ごろにXで話題になった。ITmedia NEWSは、投稿者と発行元のベネッセコーポレーションに経緯を聞いた。 投稿者は、6歳の猫「萌奈椛」（もなか）ちゃんと暮らす飼い主だ。20日、自宅に届いた小学校入学に向けた講座の案内の宛名と、萌奈椛ちゃんの写真を投稿した。宛名の「萌奈椛様 6歳」は、名前も年齢も実際の萌奈椛ちゃんと一致していたという。 投稿者はITmedia NEWSの取材に対し、萌奈椛ちゃんの名前…",
     "hatenaDate": "2026-10-26T10:32:41Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:00:12.610870+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ハッカー集団 GMOに27日期限で100万ドル要求 顧客脅迫も | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261026de65733",
     "domain": "news.web.nhk",
-    "count": 96,
+    "count": 97,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261026de65733",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261026de65733/20261026de65733_E0000110772_1_l.jpg",
     "description": "GMOインターネットグループの投資家向けクラウドサービスに不正アクセスしたとみられるハッカー集団が、27日正午までに会社側に100万ドル＝日本円で1億5700万円余りを支払うよう求めていることが分かり…",
     "hatenaDate": "2026-10-26T08:44:52Z",
     "users": [],
     "firstSeenAt": "2026-10-26T19:30:14.128497+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -490,7 +490,7 @@
     "hatenaDate": "2026-10-26T06:35:53Z",
     "users": [],
     "firstSeenAt": "2026-10-26T19:30:14.128497+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -525,14 +525,14 @@
     "title": "Ｊｏｓｈｉｎ、不正アクセスで最大約600万件の会員情報などが漏えいの可能性",
     "url": "https://internet.watch.impress.co.jp/docs/news/2151273.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 119,
+    "count": 120,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2151273.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2151/273/01.png",
     "description": "株式会社Ｊｏｓｈｉｎは10月26日、不正アクセスにより会員情報最大約600万件が漏えいした可能性があるとして、情報を公開した。 同社では10月17日に、第三者による不正アクセスを受けシステム障害が発生し、一部のサービスを提供できない状態になっているとして第1報を公開するとともに、調査を実施していた。今回発表された第2報では、不正アクセスの詳細や、漏えいの可能性がある顧客情報について発表している。 16日に同社のネットワークにおいて異常を検知し、調査により不正アクセスを確認した。この際の緊急措置を行ったことにより、一部サービスが利用できない状態となった。 漏えいの可能性がある顧客情報として、次…",
     "hatenaDate": "2026-10-26T09:20:26Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:45:14.033725+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -617,7 +617,7 @@
     "hatenaDate": "2026-10-26T08:08:37Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -639,14 +639,14 @@
     "title": "PSNに新たな脆弱性が発覚か。二段階認証を回避してファミリーメンバーが勝手に追加される被害が発生中",
     "url": "https://game.watch.impress.co.jp/docs/news/2151226.html",
     "domain": "game.watch.impress.co.jp",
-    "count": 63,
+    "count": 64,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/game.watch.impress.co.jp/docs/news/2151226.html",
     "screenshot": "https://game.watch.impress.co.jp/img/gmw/list/2151/226/psn_01.jpg",
     "description": "プレイステーションのオンラインサービスPlayStation Networkにおいて、管理者の許可無くファミリーメンバーが勝手に追加される被害が発生している。ソニー・インタラクティブエンタテインメントでは、本件について正式発表を行っていない。 本件は、10月6日以降に発生しているもので、被害にあったPSNアカウントでは、パスワードや二段階認証を回避してファミリーメンバーが複数追加されており、そのメンバーを通じてクレジットカードを含む個人情報が盗まれる可能性がある。Xでは被害が複数報告されており、活発な情報交換が行われている。 PS5での確認方法は、画面右上の設定メニュー（歯車のアイコン）から…",
     "hatenaDate": "2026-10-26T08:06:45Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -702,7 +702,7 @@
     "hatenaDate": "2026-10-26T07:32:00Z",
     "users": [],
     "firstSeenAt": "2026-10-26T17:30:13.295682+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -787,7 +787,7 @@
     "hatenaDate": "2026-10-26T03:24:49Z",
     "users": [],
     "firstSeenAt": "2026-10-26T14:30:13.063343+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -1000,7 +1000,7 @@
     "hatenaDate": "2026-10-26T01:54:11Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:15:38.595967+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -1014,7 +1014,7 @@
     "hatenaDate": "2026-10-26T00:54:55Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:15:38.595967+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -1028,7 +1028,7 @@
     "hatenaDate": "2026-10-25T23:12:28Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:00:13.737781+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -1042,7 +1042,7 @@
     "hatenaDate": "2026-10-26T02:00:08Z",
     "users": [],
     "firstSeenAt": "2026-10-26T11:45:14.248262+09:00",
-    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
+    "lastSeenAt": "2026-10-27T05:00:14.718634+09:00",
     "descriptionSource": "body"
   },
   {
@@ -3060,7 +3060,7 @@
     "users": [],
     "firstSeenAt": "2026-10-24T03:15:13.646697+09:00",
     "lastSeenAt": "2026-10-24T13:30:12.418536+09:00",
-    "bodyTries": 2,
+    "bodyTries": 3,
     "bodyReason": "crawl-delay-too-long"
   },
   {
@@ -3244,7 +3244,7 @@
     "users": [],
     "firstSeenAt": "2026-10-23T22:45:16.054296+09:00",
     "lastSeenAt": "2026-10-24T13:45:12.381715+09:00",
-    "bodyTries": 1,
+    "bodyTries": 2,
     "bodyReason": "crawl-delay-too-long"
   },
   {
@@ -3287,7 +3287,7 @@
     "users": [],
     "firstSeenAt": "2026-10-23T22:15:16.426917+09:00",
     "lastSeenAt": "2026-10-23T22:30:13.669996+09:00",
-    "bodyTries": 1,
+    "bodyTries": 2,
     "bodyReason": "crawl-delay-too-long"
   },
   {
@@ -3316,7 +3316,7 @@
     "users": [],
     "firstSeenAt": "2026-10-23T21:30:14.330068+09:00",
     "lastSeenAt": "2026-10-23T23:30:15.398377+09:00",
-    "bodyTries": 1,
+    "bodyTries": 2,
     "bodyReason": "crawl-delay-too-long"
   },
   {
@@ -3331,7 +3331,7 @@
     "users": [],
     "firstSeenAt": "2026-10-23T21:30:14.330068+09:00",
     "lastSeenAt": "2026-10-23T22:30:13.669996+09:00",
-    "bodyTries": 1,
+    "bodyTries": 2,
     "bodyReason": "crawl-delay-too-long"
   },
   {
@@ -3346,7 +3346,7 @@
     "users": [],
     "firstSeenAt": "2026-10-23T21:30:14.330068+09:00",
     "lastSeenAt": "2026-10-23T22:30:13.669996+09:00",
-    "bodyTries": 1,
+    "bodyTries": 2,
     "bodyReason": "crawl-delay-too-long"
   },
   {
@@ -3399,11 +3399,12 @@
     "count": 274,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUF237Z60T21C26A0000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3774255023102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=c9797d1ead61e50bbe38010666ce6f4a",
-    "description": "パナソニックホールディングス（HD）は23日、社内で利用が禁止されている外部の生成AI（人工知能）サービスに同社グループの従業員やその家族らの個人情報約33万人分が送出されたと発表した。不正アクセスではなく、特定の従業員が社内ルールに反し情報を生成AIにアップロードしたことによるものだという。子会社と人事...",
+    "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 パナソニックホールディングス（HD）は23日、社内で利用が禁止されている外部の生成AI（人工知能）サービスに同社グループの従業員やその家族らの個人情報約33万人分が送出されたと発表した。不正アクセスではなく、特定の従業員が社内ルールに反し情報を生成AIにアップロードしたことによるものだという。 子会社と人事情報システムを導入するプロジェクトを進めるなかで、プロジェクトのメンバーが9月下旬、利用禁止の生成AIサービスに従業員や元従業員、その家族の住所、電話番号、メールアドレス、社員番号をアップロード…",
     "hatenaDate": "2026-10-23T10:56:07Z",
     "users": [],
     "firstSeenAt": "2026-10-23T20:30:13.247390+09:00",
-    "lastSeenAt": "2026-10-24T15:15:08.325500+09:00"
+    "lastSeenAt": "2026-10-24T15:15:08.325500+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "3メガバンク、免許証での本人確認を廃止　前倒しで不正対策 - 日本経済新聞",
@@ -3412,11 +3413,12 @@
     "count": 34,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUB224DA0S6A021C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3765936022102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=732aa4998a86b5615955702a434e4eb5",
-    "description": "3メガバンクは23日までに、運転免許証の顔写真による本人確認を廃止した。オンラインでの口座開設が対象で、マイナンバーカードなどのICチップを読み取る方式に切り替える。不正アクセスによる個人情報の流出が相次ぐ。2027年4月の法改正を待たず対策を前倒しする。三井住友銀行は23日、スマートフォンなどを使ったイン...",
+    "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 3メガバンクは23日までに、運転免許証の顔写真による本人確認を廃止した。オンラインでの口座開設が対象で、マイナンバーカードなどのICチップを読み取る方式に切り替える。不正アクセスによる個人情報の流出が相次ぐ。2027年4月の法改正を待たず対策を前倒しする。 三井住友銀行は23日、スマートフォンなどを使ったインターネット経由の口座開設で、免許証の写真撮影による本人確認を廃止した。みずほ銀行は19日... 企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。",
     "hatenaDate": "2026-10-23T07:25:39Z",
     "users": [],
     "firstSeenAt": "2026-10-23T20:30:13.247390+09:00",
-    "lastSeenAt": "2026-10-24T09:15:12.884998+09:00"
+    "lastSeenAt": "2026-10-24T09:15:12.884998+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "エージェントを使い続けるためのメタワーク / Meta-work for keeping using the agent",
@@ -3425,11 +3427,12 @@
     "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/rkaga/meta-work-for-keeping-using-the-agent",
     "screenshot": "https://files.speakerdeck.com/presentations/65414a1cf941495ab68149b591a95a31/slide_0.jpg?41013145",
-    "description": "「五反田AI vol.4 - AIを現場で使い続けるための仕組み」の登壇資料です https://luma.com/nocall-ata0",
+    "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … エージェントを使い続けるためのメタワーク / Meta-work for keeping us... Sponsored · SiteGround - Reliable hosting with speed, security, and support you can count on. → エージェントを使い続けるためのメタワーク / Meta-work for keeping using the agent 「五反田AI vol.4…",
     "hatenaDate": "2026-10-22T04:09:03Z",
     "users": [],
     "firstSeenAt": "2026-10-23T20:30:13.247390+09:00",
-    "lastSeenAt": "2026-10-23T21:00:13.807739+09:00"
+    "lastSeenAt": "2026-10-23T21:00:13.807739+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "teppay、本人確認はなぜマイナンバーカードだけ？　JR東に理由を聞いた",
@@ -3438,11 +3441,12 @@
     "count": 35,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/23/2000002547/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/23/2000002547/10010279/2048",
-    "description": "JR東日本が10月20日に始めたコード決済サービス「teppay」（テッペイ）では、本人確認（eKYC）に使える書類をマイナンバーカードのみとしており、運転免許証やパスポート、健康保険証などは使えない。なぜマイナンバーカードに限定したのか。ITmedia NEWS編集部が同社に理由を聞いた。 teppayはモバイルSuicaアプリ内で...",
+    "description": "JR東日本が10月20日に始めたコード決済サービス「teppay」（テッペイ）では、本人確認（eKYC）に使える書類をマイナンバーカードのみとしており、運転免許証やパスポート、健康保険証などは使えない。なぜマイナンバーカードに限定したのか。ITmedia NEWS編集部が同社に理由を聞いた。 teppayはモバイルSuicaアプリ内で使えるコード決済だ。本人確認をしなくてもコード決済などの基本機能は利用できる。本人確認を済ませると残高決済の上限が最大30万円に広がるほか、銀行口座からのチャージやネット決済用の「teppay JCBプリカ」の発行、自治体からの給付金の受け取りも可能になる。その…",
     "hatenaDate": "2026-10-23T07:09:28Z",
     "users": [],
     "firstSeenAt": "2026-10-23T20:00:14.520814+09:00",
-    "lastSeenAt": "2026-10-24T07:45:13.506628+09:00"
+    "lastSeenAt": "2026-10-24T07:45:13.506628+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "多くのAIが「人間はひとりで正しくあるより、みんなで間違っている方を選ぶ」という考えを持っている",
@@ -3455,7 +3459,9 @@
     "hatenaDate": "2026-10-23T05:39:50Z",
     "users": [],
     "firstSeenAt": "2026-10-23T19:45:13.613425+09:00",
-    "lastSeenAt": "2026-10-24T06:45:12.904879+09:00"
+    "lastSeenAt": "2026-10-24T06:45:12.904879+09:00",
+    "bodyTries": 1,
+    "bodyReason": "crawl-delay-too-long"
   },
   {
     "title": "タイムズカーWebシステムへの不正アクセスによる個人情報漏えいに関するご報告と今後の対応について（タイムズカーWebシステムへの不正アクセスによる情報漏えい関連・第5報）｜パーク２４株式会社",
@@ -3464,11 +3470,12 @@
     "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.park24.co.jp/news/2026/10/20261023-1.html",
     "screenshot": null,
-    "description": "タイムズカーWebシステムへの不正アクセスによる個人情報漏えいに関するご報告と今後の対応について （タイムズカーWebシステムへの不正アクセスによる情報漏えい関連・第5報） 2026年10月23日 このたび、当社グループが運営するタイムズカーのWebシステムに対する第三者による不正アクセスにより、お客様情報の漏えい（...",
+    "description": "タイムズカーWebシステムへの不正アクセスによる個人情報漏えいに関するご報告と今後の対応について このたび、当社グループが運営するタイムズカーのWebシステムに対する第三者による不正アクセスにより、お客様情報の漏えい（本事案）が確認されました。 お客様をはじめ、関係者の皆様に多大なるご迷惑とご心配をお掛けしておりますことを、心より深くお詫び申し上げます。 当社は本事案を重大な問題と受け止め、外部専門機関の協力を得ながら影響範囲の特定および原因調査を進めるとともに、お客様への対応を最優先に進めてまいりました。 本日時点で判明している事実、影響範囲、発生原因および当社の対応について、以下のとおり…",
     "hatenaDate": "2026-10-23T07:12:56Z",
     "users": [],
     "firstSeenAt": "2026-10-23T19:15:10.831302+09:00",
-    "lastSeenAt": "2026-10-23T20:15:12.246136+09:00"
+    "lastSeenAt": "2026-10-23T20:15:12.246136+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "PHP2Shellへの対応を振り返って - コドモン Product Team Blog",
@@ -3477,11 +3484,12 @@
     "count": 240,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.codmon.com/entry/2026/10/23/173909",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/3374a9d3da1d9da1a4fd88d107e3f9a412427ed1/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fj%2Fjsoizo%2F20261023%2F20261023173429.png",
-    "description": "はじめに コドモンでプロダクト開発部長を務めております、松浦です。 2026年10月21日、PHPの脆弱性（通称「PHP2Shell」）への対策として、コドモンのサービスを日中に一時停止しました。 施設の先生方、保護者の皆さま、自治体や販売代理店の皆さまには、十分な事前のご案内ができないまま、長い時間にわたりご不便をお...",
+    "description": "2026年10月21日、PHPの脆弱性（通称「PHP2Shell」）への対策として、コドモンのサービスを日中に一時停止しました。 施設の先生方、保護者の皆さま、自治体や販売代理店の皆さまには、十分な事前のご案内ができないまま、長い時間にわたりご不便をおかけしました。深くお詫び申し上げます。 今回の対応では、脆弱性の情報が刻々と変わる中で、サービス停止の判断を行い、修正版の公開を待ちながら再開に向けた準備を進めました。 この記事では、当日のSlackや会議の記録をもとに、脆弱性の情報を把握してからサービスの再開に至るまで、どのような情報をもとに判断し、何を準備し、どのように対応したのかを時系列…",
     "hatenaDate": "2026-10-23T09:00:03Z",
     "users": [],
     "firstSeenAt": "2026-10-23T19:00:13.706051+09:00",
-    "lastSeenAt": "2026-10-24T15:00:14.654147+09:00"
+    "lastSeenAt": "2026-10-24T15:00:14.654147+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "「タイムズカーWebシステム」への不正アクセスによる個人情報漏えいに関するご報告と今後の対応について（第5報） | カーシェアリングのタイムズカー",
@@ -3490,11 +3498,12 @@
     "count": 72,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/share.timescar.jp/news/2026/1023/1825.html",
     "screenshot": null,
-    "description": "このたび、当社グループが運営するタイムズカーのWebシステムに対する第三者による不正アクセスにより、お客様情報の漏えい（本事案）が確認されました。 お客様をはじめ、関係者の皆様に多大なるご迷惑とご心配をお掛けしておりますことを、心より深くお詫び申し上げます。 当社は本事案を重大な問題と受け止め、外部専...",
+    "description": "このたび、当社グループが運営するタイムズカーのWebシステムに対する第三者による不正アクセスにより、お客様情報の漏えい（本事案）が確認されました。 お客様をはじめ、関係者の皆様に多大なるご迷惑とご心配をお掛けしておりますことを、心より深くお詫び申し上げます。 当社は本事案を重大な問題と受け止め、外部専門機関の協力を得ながら影響範囲の特定および原因調査を進めるとともに、お客様への対応を最優先に進めてまいりました。 本日時点で判明している事実、影響範囲、発生原因および当社の対応について、以下のとおりご報告いたします。 当社は、2026年9月25日、タイムズカーのWebシステムにおいて異常なアクセ…",
     "hatenaDate": "2026-10-23T08:21:34Z",
     "users": [],
     "firstSeenAt": "2026-10-23T19:00:13.706051+09:00",
-    "lastSeenAt": "2026-10-24T11:45:14.094588+09:00"
+    "lastSeenAt": "2026-10-24T11:45:14.094588+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "【重要】第三者によるログインの恐れと今後の対応について",
@@ -3503,11 +3512,12 @@
     "count": 58,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.syosetu.com/article/view/article_id/5278/",
     "screenshot": "https://blog.syosetu.com/view/images/ogp/blog_article.png",
-    "description": "いつも小説家になろうグループをご利用いただき、誠にありがとうございます。 この度、小説家になろうグループの一部のアカウントに対し、登録ユーザ様ご本人ではない第三者によるログインが行われていた可能性があることを確認いたしました。 調査の結果、第三者が外部で不正に取得したログイン情報等を用い、ログイン...",
+    "description": "疑いのある接続環境からのアクセスについては10月20日（火）段階で遮断を行っており、現在も遮断を継続しております。 両方をご確認いただき、小説家になろう運営から本件の連絡が届いていない場合は、本件の対象者ではございません。 （予約投稿設定中の作品、執筆中小説やバックアップ、各種コンテスト・プログラムの参加、作品の内部設定やフリーメモなど） （生年月日、性別、血液型、職業、ブックマーク、お気に入りユーザなど ※ユーザ様側で公開する設定を行っている場合は除く） 当社では、昨今の社会状況を受け、従前よりセキュリティ強化のため【全アカウントを対象とした二段階認証の必須化】の準備を進めておりました。…",
     "hatenaDate": "2026-10-23T09:32:32Z",
     "users": [],
     "firstSeenAt": "2026-10-23T19:00:13.706051+09:00",
-    "lastSeenAt": "2026-10-24T10:15:13.961487+09:00"
+    "lastSeenAt": "2026-10-24T10:15:13.961487+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "GMO FX取引のサーバーに不正アクセス 口座で不正操作の相談も | NHKニュース",
@@ -3520,7 +3530,9 @@
     "hatenaDate": "2026-10-23T03:08:33Z",
     "users": [],
     "firstSeenAt": "2026-10-23T19:00:13.706051+09:00",
-    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00"
+    "lastSeenAt": "2026-10-23T21:15:12.871531+09:00",
+    "bodyStatus": "skip",
+    "bodyReason": "not-longer"
   },
   {
     "title": "「Ruby」の正規表現エンジン「Onigmo」にリモートコード実行の問題、セキュリティ更新を実施／v4.0.9、v3.4.12、v3.3.13が公開。「GitLab」で発見される",
@@ -3529,11 +3541,12 @@
     "count": 53,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2150800.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2150/800/ruby.jpg",
-    "description": null,
+    "description": "「Ruby」の正規表現エンジン「Onigmo」にリモートコード実行の問題、セキュリティ更新を実施 v4.0.9、v3.4.12、v3.3.13が公開。「GitLab」で発見される スクリプト言語「Ruby」の開発チームは10月23日（協定世界時）、「Ruby」のセキュリティアップデートを実施した。「Ruby」で用いられている正規表現エンジン「Onigmo」に、複数の問題があったという。 これらは「GitLab」サーバーでリモートコード実行に悪用されうるとして、米GitLabによって報告されたもの。以下の4件のCVE番号が割り当てられている。 CVE-2026-89078：正規表現パーサーにお…",
     "hatenaDate": "2026-10-23T08:55:09Z",
     "users": [],
     "firstSeenAt": "2026-10-23T19:00:13.706051+09:00",
-    "lastSeenAt": "2026-10-24T09:00:13.685164+09:00"
+    "lastSeenAt": "2026-10-24T09:00:13.685164+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "タイムズカー、免許証流出で1人3000円の見舞金　約146万件に外部送信の痕跡",
