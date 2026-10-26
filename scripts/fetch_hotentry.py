@@ -125,7 +125,7 @@ def merge_entries(existing_by_url, fresh_entries, now_iso):
         merged["lastSeenAt"] = now_iso
         if prev:
             # 本文で差し替え済みのdescriptionと、取得の記録は、RSSの新しい値で上書きしない
-            for key in ("descriptionSource", "bodyStatus", "bodyTries"):
+            for key in ("descriptionSource", "bodyStatus", "bodyReason", "bodyTries"):
                 if key in prev:
                     merged[key] = prev[key]
             if prev.get("descriptionSource") == "body":
@@ -153,21 +153,34 @@ def needs_body(entry):
         bool(entry.get("url"))
         and not article_body.is_excluded_url(entry["url"])
         and entry.get("descriptionSource") != "body"
-        and entry.get("bodyStatus") != "skip"
+        # 理由を記録する前にskipにした記事は、理由を残すために1回だけ取り直す
+        and (entry.get("bodyStatus") != "skip" or "bodyReason" not in entry)
         and entry.get("bodyTries", 0) < BODY_MAX_TRIES
     )
 
 
-def apply_body_result(entry, status, text):
-    """取得結果を記事に反映する。descriptionより長くなる時だけ差し替える(情報量が増えない時は元のまま)。"""
+def apply_body_result(entry, status, text, reason=""):
+    """取得結果を記事に反映する。descriptionより長くなる時だけ差し替える(情報量が増えない時は元のまま)。
+
+    取れなかった理由は bodyReason に短いコード(例: http-403, robots-disallow)で残す。
+    画面が「記事が取得できませんでした(理由)」を出すのに使う(js/app.jsのBODY_REASON_LABEL)。
+    """
+    code = (reason or "").split(":")[0].strip()
     if status == article_body.OK and text and len(text) > len(entry.get("description") or ""):
         entry["description"] = text
         entry["descriptionSource"] = "body"
         entry.pop("bodyTries", None)
+        entry.pop("bodyReason", None)
+    elif status == article_body.OK:
+        entry["bodyStatus"] = "skip"
+        entry["bodyReason"] = "not-longer"
+        entry.pop("bodyTries", None)
     elif status == article_body.RETRY:
         entry["bodyTries"] = entry.get("bodyTries", 0) + 1
+        entry["bodyReason"] = code or "unknown"
     else:
         entry["bodyStatus"] = "skip"
+        entry["bodyReason"] = code or "unknown"
         entry.pop("bodyTries", None)
 
 
@@ -176,6 +189,9 @@ def enrich_with_bodies(entries_by_category, fetcher=None, now=time.monotonic):
     targets = {}
     for entries in entries_by_category.values():
         for entry in entries:
+            if entry.get("url") and article_body.is_excluded_url(entry["url"]):
+                entry["bodyStatus"] = "skip"
+                entry["bodyReason"] = "hatena-bookmark-page"
             if needs_body(entry):
                 targets.setdefault(entry["url"], (entry.get("firstSeenAt", ""), entry.get("title", "")))
     pending = sorted(targets, key=lambda u: targets[u][0], reverse=True)  # 新しい記事から
@@ -190,14 +206,14 @@ def enrich_with_bodies(entries_by_category, fetcher=None, now=time.monotonic):
             print(f"[warn] 本文の取得は時間切れのため打ち切ります(残り{len(pending) - len(results)}件)", file=sys.stderr)
             break
         status, text, reason = fetcher.fetch(url, targets[url][1])
-        results[url] = (status, text)
+        results[url] = (status, text, reason)
         print(f"[body] {status:5} {reason:20} {url}")
 
     for entries in entries_by_category.values():
         for entry in entries:
             if entry.get("url") in results:
                 apply_body_result(entry, *results[entry["url"]])
-    done = sum(1 for status, _ in results.values() if status == article_body.OK)
+    done = sum(1 for status, _text, _reason in results.values() if status == article_body.OK)
     print(f"[ok] 本文: 取得{len(results)}件(成功{done}件)、未着手{len(pending) - len(results)}件")
 
 

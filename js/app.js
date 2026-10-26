@@ -961,6 +961,41 @@
   // 一覧データのうちフィルタに掛からない記事を、古い順に少しずつ末尾へ足していく(js/stream.js)。
   const STREAM_SEARCH_PLACEHOLDER = 'URLを入力してEnterでブックマーク一覧';
 
+  // 本文を取れなかった理由(scripts/fetch_hotentry.pyがbodyReasonに残すコード)の表示名
+  const BODY_REASON_LABEL = {
+    'robots-disallow': 'robots.txtで取得が許可されていません',
+    'robots-unavailable': 'robots.txtを確認できませんでした',
+    'crawl-delay-too-long': 'サイトが長い取得間隔を求めています',
+    'host-blocked': 'サイトが混み合っていました',
+    'bad-url': 'URLが不正です',
+    'not-html': 'HTMLのページではありません',
+    'hatena-bookmark-page': 'はてなブックマークのページです',
+    'x-robots-tag': 'サイトが抜粋の利用を許可していません',
+    nosnippet: 'サイトが抜粋の利用を許可していません',
+    'no-text': '本文を抽出できませんでした',
+    'parse-error': 'ページを解析できませんでした',
+    'too-many-redirects': '転送が多すぎます',
+    'redirect-without-location': '転送先が不明です',
+    network: '通信に失敗しました',
+    unknown: '理由は不明です',
+    'http-401': 'HTTP 401 アクセスを拒否されました',
+    'http-403': 'HTTP 403 アクセスを拒否されました',
+    'http-404': 'HTTP 404 ページが見つかりません',
+  };
+
+  // 概要として出す文。本文の抜粋かRSSの概要があればそれ、無ければ取得できなかった理由。
+  function descriptionOrMissing(item) {
+    if (item.description) return { text: item.description, missing: false };
+    let reason;
+    if (item.bodyReason) {
+      const m = /^http-(\d+)$/.exec(item.bodyReason);
+      reason = BODY_REASON_LABEL[item.bodyReason] || (m ? `HTTP ${m[1]} サイトがエラーを返しました` : item.bodyReason);
+    } else {
+      reason = item.bodyStatus === 'skip' ? '理由は記録されていません' : 'まだ取得していません';
+    }
+    return { text: `記事が取得できませんでした(${reason})`, missing: true };
+  }
+
   function renderStreamItem(item) {
     const params = new URLSearchParams();
     params.set('url', item.url);
@@ -969,9 +1004,9 @@
       ? `<img class="stream-thumb" src="${escapeHtml(item.screenshot)}" alt="" loading="lazy">`
       : '';
     const time = item.hatenaDate ? hatenaDateTime(item.hatenaDate) : '';
-    const desc = item.description
-      ? `<p class="stream-desc">${escapeHtml(item.description)}</p><button type="button" class="stream-desc-toggle" aria-expanded="true">▲ 閉じる</button>`
-      : '';
+    // 概要が無い記事も、取得できなかった理由を概要の位置に出す(見え方を揃える)
+    const d = descriptionOrMissing(item);
+    const desc = `<p class="stream-desc stream-desc--collapsible${d.missing ? ' stream-desc--missing' : ''}">${escapeHtml(d.text)}</p><button type="button" class="stream-desc-toggle" aria-expanded="true">▲ 閉じる</button>`;
     return `
       <li class="stream-item" data-url="${escapeHtml(item.url)}">
         <div class="stream-main">
@@ -1008,18 +1043,8 @@
     return at;
   }
 
-  // 概要は全文を出しておき、3行を超える時だけ畳めるようにする(畳める目印の切り替えもここ)。
-  // 幅によって行数が変わるので、表示時と画面幅の変更時に判定し直す。scrollHeightは畳んでいても全文の高さ。
-  const DESC_COLLAPSED_LINES = 3;
-  function updateDescCollapsible(desc) {
-    const style = getComputedStyle(desc);
-    const lineHeight = parseFloat(style.lineHeight) || 18;
-    const padding = (parseFloat(style.paddingTop) || 0) + (parseFloat(style.paddingBottom) || 0);
-    const collapsible = desc.scrollHeight - padding > lineHeight * DESC_COLLAPSED_LINES + 2;
-    desc.classList.toggle('stream-desc--collapsible', collapsible);
-    if (!collapsible && desc.classList.contains('stream-desc--collapsed')) toggleDesc(desc);
-  }
-
+  // 概要(ストリーム・記事ページ共通)は全文を出し、「▲ 閉じる」で3行に畳める。
+  // 短い概要でも「閉じる」を出す(畳んでも見た目は変わらず、表示の統一のため)。
   function toggleDesc(desc) {
     const collapsed = desc.classList.toggle('stream-desc--collapsed');
     const btn = desc.nextElementSibling;
@@ -1029,24 +1054,16 @@
     }
   }
 
-  let descResizeTimer = null;
-  window.addEventListener('resize', () => {
-    clearTimeout(descResizeTimer);
-    descResizeTimer = setTimeout(() => {
-      if (!streamView.hidden) streamList.querySelectorAll('.stream-desc').forEach(updateDescCollapsible);
-      if (!entryView.hidden && entryDescription.textContent) updateDescCollapsible(entryDescription);
-    }, 200);
-  });
-
-  // 記事ページ(#/entry)の概要も、ストリームと同じく全文を出し、3行を超える時だけ畳める。
-  // 一覧データに本文の抜粋が無い記事は、RSS由来の概要(description)がそのまま入っている。
+  // 記事ページ(#/entry)の概要も同じ。一覧データの概要は、本文の抜粋に差し替えられていればそれ、
+  // 取れていなければRSS由来のもの、どちらも無ければ「取得できなかった理由」になる。
   const entryDescToggle = document.getElementById('entry-desc-toggle');
-  function setEntryDescription(text) {
-    entryDescription.classList.remove('stream-desc--collapsed', 'stream-desc--collapsible');
+  function setEntryDescription(text, missing) {
+    entryDescription.classList.remove('stream-desc--collapsed', 'stream-desc--collapsible', 'stream-desc--missing');
     entryDescToggle.textContent = '▲ 閉じる';
     entryDescToggle.setAttribute('aria-expanded', 'true');
     entryDescription.textContent = text;
-    if (text) updateDescCollapsible(entryDescription);
+    if (text) entryDescription.classList.add('stream-desc--collapsible');
+    if (text && missing) entryDescription.classList.add('stream-desc--missing');
   }
   entryDescription.addEventListener('click', () => {
     if (entryDescription.classList.contains('stream-desc--collapsible')) toggleDesc(entryDescription);
@@ -1059,11 +1076,6 @@
     pauseBtn: document.getElementById('stream-pause'),
     intervalSelect: document.getElementById('stream-interval'),
     renderItem: renderStreamItem,
-    // 記事が並んだ直後(スクロール位置の補正より前)に、概要を畳めるかを判定する
-    onItemShown: (el) => {
-      const desc = el.querySelector('.stream-desc');
-      if (desc) updateDescCollapsible(desc);
-    },
     renderComment: renderStreamComment,
     // コメント付きのブックマークだけを、コメント表示と同じ判定でミュートしたうえで返す
     fetchComments: async (url) => {
@@ -1465,8 +1477,9 @@
     // 一覧取得済みのデータに概要(RSSのdescription)があれば流用する。
     // 直接このURLへ遷移した場合など、一覧データが無ければ何も表示しない。
     const listedItem = currentVisibleEntries.find((item) => item.url === url);
-    if (listedItem && listedItem.description) {
-      setEntryDescription(listedItem.description);
+    if (listedItem) {
+      const d = descriptionOrMissing(listedItem);
+      setEntryDescription(d.text, d.missing);
     }
     // 取得完了を待たず、一覧データでヘッダーを先に描画する(取得後に同じ形で上書き)。
     if (listedItem) {

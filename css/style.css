@@ -1440,8 +1440,9 @@ a.btn {
   color: var(--color-text);
   overflow-wrap: anywhere;
 }
-/* 概要は初期状態で全文を出す。3行を超える時だけ(js/app.jsのupdateDescCollapsible)、
-   押して3行に畳めるようにし、畳める目印として下に「▲ 閉じる」/「▼ 続きを読む」を出す。 */
+/* 概要は初期状態で全文を出し、押して3行に畳める。畳める目印として、短い概要にも
+   下に「▲ 閉じる」/「▼ 続きを読む」を出す(見え方を揃えるため。短い概要は畳んでも変わらない)。
+   概要が無い記事は「記事が取得できませんでした(理由)」を同じ位置に出す(--missing)。 */
 .stream-desc {
   margin: 4px 0 0;
   font-size: 0.8rem;
@@ -1451,6 +1452,9 @@ a.btn {
 }
 .stream-desc--collapsible {
   cursor: pointer;
+}
+.stream-desc--missing {
+  font-style: italic;
 }
 .stream-desc--collapsed {
   display: -webkit-box;

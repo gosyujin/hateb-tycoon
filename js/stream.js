@@ -69,6 +69,9 @@
       count: item.count,
       screenshot: item.screenshot,
       description: item.description,
+      // 概要が無い時に「取得できなかった理由」を出すため(js/app.jsのdescriptionOrMissing)
+      bodyStatus: item.bodyStatus,
+      bodyReason: item.bodyReason,
       hatenaDate: item.hatenaDate,
     };
   }
@@ -110,7 +113,7 @@
   }
 
   function create(opts) {
-    const { list, statusEl, pauseBtn, intervalSelect, renderItem, onItemShown, renderComment, fetchComments, fetchEntries, fetchNextUpdateAt, isHidden } = opts;
+    const { list, statusEl, pauseBtn, intervalSelect, renderItem, renderComment, fetchComments, fetchEntries, fetchNextUpdateAt, isHidden } = opts;
 
     let category = null;
     let running = false;
@@ -176,7 +179,6 @@
         if (!rec || !rec.item || isHidden(rec.item)) continue; // 保存後にミュートされた記事は出さない
         list.insertAdjacentHTML('beforeend', renderItem(rec.item));
         const el = list.lastElementChild;
-        if (onItemShown) onItemShown(el);
         itemData.set(el, rec.item);
         const comments = Array.isArray(rec.comments) ? rec.comments : [];
         const state = {
@@ -222,12 +224,10 @@
     // Safariに無いので使わず、css側でoverflow-anchor:noneにして自前で補正する)。
     // pinToTop が真で先頭付近を見ている時は、補正せず先頭へ戻して新着を見せる。
     // 挿入位置の判定は呼び出し側から渡す(中身が空のコメント欄はdisplay:noneで位置が取れないため)。
-    // afterInsert は、挿入直後・高さを測る前に呼ぶ(挿入した記事の見た目を整える分も押し下げに含めるため)。
-    function prependHtml(container, html, pinToTop, above, afterInsert) {
+    function prependHtml(container, html, pinToTop, above) {
       const nearTop = window.scrollY < FOLLOW_MARGIN_PX;
       const before = document.documentElement.scrollHeight;
       container.insertAdjacentHTML('afterbegin', html);
-      if (afterInsert) afterInsert();
       if (pinToTop && nearTop) window.scrollTo(0, 0);
       else if (above) window.scrollBy(0, document.documentElement.scrollHeight - before);
       return pinToTop && nearTop;
@@ -361,9 +361,7 @@
       while (item && isHidden(item)) item = queue.shift();
       if (!item) return;
 
-      const pinned = prependHtml(list, renderItem(item), true, list.getBoundingClientRect().top < 0, () => {
-        if (onItemShown) onItemShown(list.firstElementChild);
-      });
+      const pinned = prependHtml(list, renderItem(item), true, list.getBoundingClientRect().top < 0);
       shownCount++;
       itemData.set(list.firstElementChild, slimItem(item));
       loadComments(list.firstElementChild);

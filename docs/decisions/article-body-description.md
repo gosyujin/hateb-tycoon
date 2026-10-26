@@ -22,6 +22,7 @@
 - **はてなブックマーク自身のページ(`b.hatena.ne.jp`。ブックマークページへのブックマーク=「二階建て」)は本文を取りに行かない**(`EXCLUDED_HOSTS`)。本文にあたるのは記事ではなく他人のブックマークコメントの一覧で、抜粋がタイトルの繰り返しとコメントの寄せ集めになるため(最初の実行で実際に1件そうなった)。RSSのdescriptionのまま使う。以前の実行で差し替えてしまった分は、次の実行で取り消す(RSSに残っていれば概要が戻る)。
 - HTML以外・600KBを超える応答は読まない。`<meta name="robots" content="nosnippet">`と`X-Robots-Tag: noindex/nosnippet`のページは使わない。
 - 保存するのは抜粋(300字)だけで、全文は保存しない(公開リポジトリ・公開サイトに載るため)。
+- 取れなかった理由は`bodyReason`(`http-403`・`robots-disallow`・`no-text`・`not-longer`・`hatena-bookmark-page`など短いコード)に残し、画面が「記事が取得できませんでした(理由)」を出すのに使う。理由を残す前にskipにした記事は、1回だけ取り直して理由を記録する。
 - 同じURLは取得済み(`descriptionSource`)・恒久的な失敗(`bodyStatus: "skip"`)なら二度と取りに行かない。通信の都合の失敗(`retry`)は`bodyTries`で数え、3回で諦める。
 
 ## 確認したこと
