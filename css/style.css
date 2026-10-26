@@ -1508,3 +1508,15 @@ a.btn {
     display: none;
   }
 }
+/* 状態表示の文言を、広い幅では詳しく・狭い幅では短くする(js/stream.jsのupdateStatus) */
+.stream-st-narrow {
+  display: none;
+}
+@media (max-width: 480px) {
+  .stream-st-wide {
+    display: none;
+  }
+  .stream-st-narrow {
+    display: inline;
+  }
+}

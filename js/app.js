@@ -991,6 +991,21 @@
     return `<li><button type="button" class="comment-user" data-user="${escapeHtml(b.user)}">${escapeHtml(b.user)}</button> <span class="comment-date">${escapeHtml(b.timestamp)}</span> ${linkifyComment(b.comment)}</li>`;
   }
 
+  // data/meta.json の nextEstimate("HH:MM"、JST)を、次回のデータ更新の目安(ms)にする。
+  // 日付は持たないため、今日のその時刻とし、半日以上前になってしまう場合(日をまたぐ時)だけ翌日にする。
+  // 取れない・読めない時はnull。
+  async function fetchNextUpdateAt() {
+    const res = await fetch('data/meta.json', { cache: 'no-store' });
+    if (!res.ok) return null;
+    const m = /^(\d{1,2}):(\d{2})$/.exec((await res.json()).nextEstimate || '');
+    if (!m) return null;
+    const nowMs = Date.now();
+    const jst = new Date(nowMs + 9 * 60 * 60 * 1000);
+    let at = Date.UTC(jst.getUTCFullYear(), jst.getUTCMonth(), jst.getUTCDate(), Number(m[1]) - 9, Number(m[2]));
+    if (at < nowMs - 12 * 60 * 60 * 1000) at += 24 * 60 * 60 * 1000;
+    return at;
+  }
+
   const stream = Stream.create({
     list: streamList,
     statusEl: document.getElementById('stream-status'),
@@ -1007,6 +1022,7 @@
       );
     },
     fetchEntries: (category) => HatenaAPI.getHotEntries(category),
+    fetchNextUpdateAt,
     isHidden: (item) => Filters.isHidden(item),
   });
 
