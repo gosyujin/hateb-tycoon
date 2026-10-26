@@ -10,7 +10,7 @@
     "hatenaDate": "2026-10-26T08:48:34Z",
     "users": [],
     "firstSeenAt": "2026-10-27T03:15:13.609428+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,21 +38,21 @@
     "hatenaDate": "2005-11-08T01:29:55Z",
     "users": [],
     "firstSeenAt": "2026-10-27T01:45:14.092779+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AWS Continuum for Penetration Testing に Deep Dive してみる",
     "url": "https://speakerdeck.com/asanoharuki/aws-continuum-for-penetration-testing-ni-deep-dive-shi-te-miru",
     "domain": "speakerdeck.com",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/asanoharuki/aws-continuum-for-penetration-testing-ni-deep-dive-shi-te-miru",
     "screenshot": "https://files.speakerdeck.com/presentations/ae248e3586794195b1c65b3d7a5c2baf/slide_0.jpg?41084808",
     "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … AWS Continuum for Penetration Testing に Deep Di... AWS Continuum for Penetration Testing に Deep Dive してみる DevelopersIO 2026 Tokyo で「AWS Continuum for Penetration Testing にDeep Diveしてみる」というタイトルで登壇しました。AI がペネトレーションテストを自動実行…",
     "hatenaDate": "2026-10-26T09:50:29Z",
     "users": [],
     "firstSeenAt": "2026-10-27T01:30:14.076731+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +66,7 @@
     "hatenaDate": "2026-10-26T14:29:08Z",
     "users": [],
     "firstSeenAt": "2026-10-27T01:15:13.059905+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -88,14 +88,14 @@
     "title": "AI エージェントの並列開発で膨らんだ GitHub Actions の費用を、AWS Fargate のセルフホストランナーに移して約3割削減した話 | DevelopersIO",
     "url": "https://dev.classmethod.jp/articles/github-actions-fargate-self-hosted-runner-cost/",
     "domain": "dev.classmethod.jp",
-    "count": 10,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/github-actions-fargate-self-hosted-runner-cost/",
     "screenshot": "https://devio2024-media.developers.io/image/upload/f_auto,q_auto/v1790870251/eyecatch/si3tizbwaamovt8yq1qm.png",
     "description": "最近、社内のプロダクト開発を、 私1人と、クラウドで並列に動かしている Claude Code で進めています。実装・テスト・プルリクエストまでをエージェントに任せるので、 プルリクエストが人の手の何倍ものペースで出てきます 。8月は1日10本ほどだったのが、10月の上旬には、1人で 1日90本 を超えました。 開発が速くなったのはうれしいのですが、その裏で GitHub Actions の費用 が膨らみました。プルリクエストが増えるたびに CI が回り、しかもエージェントがテストを書き足していくので、1回の CI で回るテストも増えていきます。さらに、並列で進めていると、同じファイルを触る…",
     "hatenaDate": "2026-10-26T08:57:42Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -109,21 +109,21 @@
     "hatenaDate": "2026-10-25T16:08:49Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "米AI「クロード」、有料閲覧制限を回避し選挙データに無許可アクセス",
     "url": "https://www.afpbb.com/articles/-/3659444",
     "domain": "www.afpbb.com",
-    "count": 6,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3659444",
     "screenshot": "https://afpbb.ismcdn.jp/mwimgs/9/4/1000x/img_94d145ac13d5b5457b47f694bcde6f9d736570.jpg",
     "description": "【10月26日 AFP】米人工知能（AI）開発企業アンソロピックのAIモデル「クロード」が、有料の閲覧制限を回避し、米ジョージア州の有権者関連データに無許可でアクセスしていたことが分かった。米ニュースサイト「アクシオス」が25日、報じた。 11月3日の米中間選挙を控える中、世界有数のAI開発企業では安全性をめぐる懸念が相次いでおり、今回の事案もその一つとなった。 アクシオスがアンソロピックの広報担当者の話として報じたところによると、クロードがアクセスしたのは、ジョージア州の投票者数の集計データだった。同州ではすでに100万人以上が期日前投票を済ませている。 広報担当者によると、社内の統計プロ…",
     "hatenaDate": "2026-10-26T10:35:15Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-27T01:00:15.212898+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -137,7 +137,7 @@
     "hatenaDate": "2026-10-26T07:13:38Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:00:09.669429+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -172,14 +172,14 @@
     "title": "Apple、iPad miniに史上最大のアップデートを導入",
     "url": "https://www.apple.com/jp/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
     "domain": "www.apple.com",
-    "count": 75,
+    "count": 77,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.apple.com/jp/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
     "screenshot": "https://www.apple.com/newsroom/images/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/tile/Apple-iPad-mini-hero-261026-lp.jpg.og.jpg?202610261328",
     "description": "一段と薄く、一段と軽量なデザインに美しいOLEDディスプレイを搭載し、飛躍的に進化したパフォーマンス、より高速なワイヤレス接続、耐水性能と防塵性能を備えています カリフォルニア州クパティーノ Appleは本日、一段と薄く、一段と軽量なデザインに美しいOLEDディスプレイを搭載し、A20 Proにより飛躍的に進化したパフォーマンス、耐水性能と防塵性能を備えた、まったく新しいiPad miniを発表しました1。Nano-textureのオプションも選べる、より大きな8.5インチのOLEDディスプレイは、前世代のiPad miniと比べてコントラストが向上し、ピーク輝度が2倍以上になっているので、…",
     "hatenaDate": "2026-10-26T13:38:18Z",
     "users": [],
     "firstSeenAt": "2026-10-26T23:30:16.416778+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -200,14 +200,14 @@
     "title": "最近、昔の同僚が起業したスタートアップIT企業が倒産した",
     "url": "https://anond.hatelabo.jp/20261026185536",
     "domain": "anond.hatelabo.jp",
-    "count": 26,
+    "count": 27,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261026185536",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "倒産した、といっても、うまいこと残務や債務の処理はできたみたいなので、家庭が崩壊したとか、人生が詰んだというわけでもなく この間も普通に飲みに行ってさっぱりとした態度でスタートアップ起業した経営者がどんな感じなのか、体験談を聞いたりしたのだが、 正直いって「うわ～俺だったら絶対やりたくねえよそれ…」と思った。もともと経営者って実力は当然としても、とにかくもう適正の問題なんだろうな、あれ。 幾ら技術力もリーダーシップも、財力もコネもあっても、経営者という才能や適性がないとうまくいかないんじゃないだろうか、と感じた。 ちなみに同僚のスタートアップが倒産した理由については、書いたら間違いなく「AI…",
     "hatenaDate": "2026-10-26T10:02:18Z",
     "users": [],
     "firstSeenAt": "2026-10-26T23:00:11.084569+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -221,7 +221,7 @@
     "hatenaDate": "2026-10-26T12:33:14Z",
     "users": [],
     "firstSeenAt": "2026-10-26T23:00:11.084569+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -291,7 +291,7 @@
     "hatenaDate": "2026-10-26T11:19:44Z",
     "users": [],
     "firstSeenAt": "2026-10-26T22:30:14.450432+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -305,7 +305,7 @@
     "hatenaDate": "2026-10-26T09:14:34Z",
     "users": [],
     "firstSeenAt": "2026-10-26T22:30:14.450432+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -354,14 +354,14 @@
     "title": "楽天トラベルに不正アクセス、顧客情報260万件流出か　クレカ3万件も - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC2686T0W6A021C2000000/",
     "domain": "www.nikkei.com",
-    "count": 114,
+    "count": 115,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC2686T0W6A021C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3783459026102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=2bc3bee9b8589fe7fae355e4fa60fed4",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 シンガポール子会社が運営するサイトが不正アクセスを受けた。同サイトで予約した氏名や電話番号といった最大約4万件の予約情報や居住国なども漏れた。そのうち、最大約3万6000件はクレジットカードの支払い情報が入っていた。 漏れた支払い情報にはクレジットカードの発行者識別番号と下4桁、名義、有効期限、国際ブランド区分がある。カード番号の全桁やセキュリティーコード、パスワード、パスポートなどの身分証明書情報、住所は含まれていない。 楽天トラベルは「不正アクセスの対象となった情報のみでは、決済（買い物・旅行…",
     "hatenaDate": "2026-10-26T11:57:24Z",
     "users": [],
     "firstSeenAt": "2026-10-26T21:30:13.935427+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -398,28 +398,28 @@
     "title": "テスラのネットワークエンジニアの募集要項に「25kgを持ち上げられること」と明記してあるが、なんで25kgを持ち上げる必要があるんだろうか？",
     "url": "https://togetter.com/li/2763108",
     "domain": "togetter.com",
-    "count": 49,
+    "count": 50,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2763108",
     "screenshot": "https://s.tgstc.com/ogp3/b440ae273f4323efcd5991cfeb399c85-1200x630.jpeg",
     "description": "Teslaが東京でネットワークエンジニアを募集。 条件：25kgを持ち上げられること hire-r1.mokahr.com/su/XMw4Z pic.x.com/PyOLWZ4uu1 @naoyashiga @hunterILY イーロン「ネットワークエンジニアにはテスラ車のバッテリーやタイヤの交換もやってもらう」 StarTech.com 1U 放熱スリット付きサーバーラック棚板 伸縮式ラック収納棚 耐荷重80kg ADJSHELF | 取付奥行495-974mm、ユニバーサルトレイ、SPCC冷間圧延鋼板製、エアフロー最大化、TAA準拠 @naoyashiga 1Uのサーバのラッキングくら…",
     "hatenaDate": "2026-10-26T10:48:09Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:30:14.545652+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "家電量販店「Joshin」 顧客情報600万件漏えいの可能性 | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261026de65955",
     "domain": "news.web.nhk",
-    "count": 52,
+    "count": 53,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261026de65955",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261026de65955/20261026de65955_E0000113330_1_l.jpg",
     "description": "【NHK】家電量販店を展開する「Joshin」は、会社のネットワークに不正アクセスがあった影響で、顧客の氏名や住所などおよそ600万件の個人情報が漏えいした可能性があると明らかにしました。 家電量販店を展開",
     "hatenaDate": "2026-10-26T10:16:01Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:15:14.778846+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -433,7 +433,7 @@
     "hatenaDate": "2026-10-26T05:49:22Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:15:14.778846+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -447,7 +447,7 @@
     "hatenaDate": "2026-10-26T10:32:58Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:00:12.610870+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -461,7 +461,7 @@
     "hatenaDate": "2026-10-26T10:32:41Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:00:12.610870+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -475,7 +475,7 @@
     "hatenaDate": "2026-10-26T08:44:52Z",
     "users": [],
     "firstSeenAt": "2026-10-26T19:30:14.128497+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -490,7 +490,7 @@
     "hatenaDate": "2026-10-26T06:35:53Z",
     "users": [],
     "firstSeenAt": "2026-10-26T19:30:14.128497+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -532,7 +532,7 @@
     "hatenaDate": "2026-10-26T09:20:26Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:45:14.033725+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -610,14 +610,14 @@
     "title": "pixiv社の爆速PHPアップデートを参考に、社内で Docker Official Image のビルドシステムを作った話 - Classi開発者ブログ",
     "url": "https://tech.classi.jp/entry/2026/10/26/163000",
     "domain": "tech.classi.jp",
-    "count": 117,
+    "count": 118,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.classi.jp/entry/2026/10/26/163000",
     "screenshot": "https://ogimage.blog.st-hatena.com/26006613504214060/14945776032095512291/1792999801",
     "description": "Classi のサービス開発を担当しているイノウエです。 2026年10月21日に、通称 PHP2Shell と呼ばれる深刻な脆弱性を修正する PHP 8系への緊急パッチが配信されました。 当社のサービスも一部で PHP が使用されており、緊急パッチの配布に備え私を含めた数名で待機しておりました。 しかし、コンテナのベースイメージには Docker Official Image の PHP を使用していたため、結局23時前に公開された緊急パッチから Docker Official Image が配信される深夜2時前までの間は何をすることもできず待ちぼうけとなってしまいました。 待ちぼうけの間…",
     "hatenaDate": "2026-10-26T08:08:37Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -646,7 +646,7 @@
     "hatenaDate": "2026-10-26T08:06:45Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -702,7 +702,7 @@
     "hatenaDate": "2026-10-26T07:32:00Z",
     "users": [],
     "firstSeenAt": "2026-10-26T17:30:13.295682+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -780,14 +780,14 @@
     "title": "「3万円にした結果がコレかぁ」GMOのサーバー不正アクセス、3か月前の熊谷代表の発言が「伏線回収」だと話題になってしまう",
     "url": "https://togetter.com/li/2762937",
     "domain": "togetter.com",
-    "count": 98,
+    "count": 99,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2762937",
     "screenshot": "https://s.tgstc.com/ogp3/a2965c7785ddd0607c6a7441b9091818-1200x630.jpeg",
     "description": "インターネット GMOインターネットグループ IT お名前.com デスクトップクラウド ニュース GMO 不正アクセス サイバー攻撃 「お名前.com デスクトップクラウド」に不正アクセス、FX口座で身に覚えのない取引が行われる 【GMOサーバー攻撃】FX取引“ハッキング”で600万円被害 ｜ 神奈川県に住む男性会社員(44)は、21日夕方にFXの取引口座を乗っ取られ、意に反した売買が行われた ▼「400万ぐらい損を出すまでに1秒」 損失額約600万円 不正取引の被害者(44) 「被害としては600万以上」 「最初はパニックでした。絶望というか」 「青いところが16時22分12秒にUSのド…",
     "hatenaDate": "2026-10-26T03:24:49Z",
     "users": [],
     "firstSeenAt": "2026-10-26T14:30:13.063343+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -1000,7 +1000,7 @@
     "hatenaDate": "2026-10-26T01:54:11Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:15:38.595967+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -1014,21 +1014,21 @@
     "hatenaDate": "2026-10-26T00:54:55Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:15:38.595967+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "GMO不正アクセス犯の犯行声明文ビュアー",
     "url": "https://satoru.net/hacker/gmo/261025-seimei.html",
     "domain": "satoru.net",
-    "count": 175,
+    "count": 176,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/satoru.net/hacker/gmo/261025-seimei.html",
     "screenshot": "https://satoru.net/hacker/gmo/evidence/ogcard-261025.png?v=20261025l",
     "description": "最終更新 2026-10-26 ／ まとめページ ／ 傾向分析 ／ samples.zip の分析 ／ 10/27 正午までに利用者がやるべきこと ／ RDPファイルの仕様の検証 当ページは、事件の情報を正しく知ってもらうことを目的に公開しています。犯人の目的を助長したり、被害を広げたりする意図は一切ありません。口座 ID・パスワード・個人情報など、被害を広げるおそれのある情報も一切掲載していません。 ※ 文面は犯人のサイトに実際に掲載されていたもの。ただし、書かれている内容（被害の規模、侵入の方法、GMO の過失など）は犯人の主張で、事実かどうかは確認されていない。メールは犯人がサイトに載…",
     "hatenaDate": "2026-10-25T23:12:28Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:00:13.737781+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -1042,7 +1042,7 @@
     "hatenaDate": "2026-10-26T02:00:08Z",
     "users": [],
     "firstSeenAt": "2026-10-26T11:45:14.248262+09:00",
-    "lastSeenAt": "2026-10-27T03:15:13.609428+09:00",
+    "lastSeenAt": "2026-10-27T03:30:13.529798+09:00",
     "descriptionSource": "body"
   },
   {
@@ -2386,11 +2386,12 @@
     "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.cnn.co.jp/fringe/35253896.html",
     "screenshot": "https://www.cnn.co.jp/storage/2026/10/23/11b9b4e492d868ae737929fcb2d7e415/cnn-L19jb21wb25lbnRzL2ltYWdlL2luc3RhbmNlcy9jbXZoM3k5bnUwMDAwM2I2cm5rMmNteTNm-L19jb21wb25lbnRzL2FydGljbGUvaW5zdGFuY2VzL2NtdmgweG11aTAwMHkyOHA4Z2VlbjA1eTk_.jpg",
-    "description": "顔のさまざまな部位の分析から生物学的年齢とがん生存率を判定するAIモデルが開発された/Mass General Brigham via CNN Newsource （CNN） 顔写真を撮るだけでがん患者の全般的な健康状態や余命が判定できるという人工知能（AI）モデルが開発された。医師によるがん患者の生存可能性診断や最善の治療法の見極めを支援で...",
+    "description": "顔のさまざまな部位の分析から生物学的年齢とがん生存率を判定するAIモデルが開発された/Mass General Brigham via CNN Newsource （CNN） 顔写真を撮るだけでがん患者の全般的な健康状態や余命が判定できるという人工知能（AI）モデルが開発された。医師によるがん患者の生存可能性診断や最善の治療法の見極めを支援できるツールとして期待されている。 AIモデルは米マス・ジェネラル・ブリガムの研究チームが開発し、10月19日の科学誌ランセット・デジタル・ヘルスに発表した。 「1枚の顔写真だけで死亡リスクの兆候を検出できることが分かって非常に驚いた」。論文著者のレイモン…",
     "hatenaDate": "2026-10-24T05:30:04Z",
     "users": [],
     "firstSeenAt": "2026-10-24T20:30:10.149967+09:00",
-    "lastSeenAt": "2026-10-25T09:45:12.819794+09:00"
+    "lastSeenAt": "2026-10-25T09:45:12.819794+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "iPhone Duoを使って痛感した「Face ID」のありがたさ　充電スタンドに置いたまま通知が見られない不便さに苦しむ",
@@ -2399,11 +2400,12 @@
     "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2610/24/news015.html",
     "screenshot": "https://image.itmedia.co.jp/mobile/articles/2610/24/cover_news015.png",
-    "description": "iPhone Duoを使って痛感した「Face ID」のありがたさ　充電スタンドに置いたまま通知が見られない不便さに苦しむ（1/2 ページ） Appleの折りたたみスマートフォン「iPhone Duo」を使い始めた。大画面を持ち歩ける楽しさはある一方で、使えば使うほど気になってくるのが「Face IDがない」ことだ。iPhone Duoの生体認証は...",
+    "description": "（1/2 ページ） Appleの折りたたみスマートフォン「iPhone Duo」を使い始めた。大画面を持ち歩ける楽しさはある一方で、使えば使うほど気になってくるのが「Face IDがない」ことだ。iPhone Duoの生体認証は、サイドボタンに内蔵された指紋認証のTouch IDのみとなっている。 Face IDといえば、iPhoneのロック解除や、Apple Payで決済するときの認証に使われる顔認証機能だ。iPhone DuoにFace IDがなく、Touch IDしかないと知ったとき、多くの人は「ロック解除が面倒にならないか」「決済のたびに不便じゃないか」と心配したのではないだろうか。…",
     "hatenaDate": "2026-10-24T04:12:06Z",
     "users": [],
     "firstSeenAt": "2026-10-24T20:15:12.257434+09:00",
-    "lastSeenAt": "2026-10-25T09:00:13.482618+09:00"
+    "lastSeenAt": "2026-10-25T09:00:13.482618+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "「Androidのマイナンバーカード」がスタートするもフル機能対応機種が少ない件　ポイントは「StrongBox」という仕組み",
@@ -2412,11 +2414,12 @@
     "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2610/24/news013.html",
     "screenshot": "https://image.itmedia.co.jp/mobile/articles/2610/24/cover_news013.jpg",
-    "description": "今回のアクセス数の1位は、10月20日に運用が始まった「Androidのマイナンバーカード」の対応機種をまとめた記事です。この記事の影響もあり、10位にもAndroidのマイナンバーカードについて説明した記事がランクインしています。 Androidのマイナンバーカードは、従来Androidスマートフォン向けに提供されてきた「スマー...",
+    "description": "Mobile Weekly Top10 デジタル庁が「Androidのマイナンバーカード」対応機種を公表 属性証明機能を使える機種は限定的 「友達だけ」のはずが、なぜXで拡散？ 看護師の患者撮影動画が流出した「setlog」の“抜け穴”とBeRealとの違い スマホの「充電80％止めで長持ち」「挿しっぱなし充電NG」は本当？ 実験で見えた意外な結果 異例の「iPhone Air」投げ売りはなぜ起きている？ 定価29.5万円の1TBモデルが、いま18.4万円で買える3つの理由 スマホに「microSDスロット」はまだ必要？ 自分に合ったデータの保存方法を考えよう 新コード決済「teppay」き…",
     "hatenaDate": "2026-10-24T04:11:41Z",
     "users": [],
     "firstSeenAt": "2026-10-24T20:15:12.257434+09:00",
-    "lastSeenAt": "2026-10-25T10:13:31.258272+09:00"
+    "lastSeenAt": "2026-10-25T10:13:31.258272+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "GitHub Actions Self-hosted runnerをお手軽にスケールさせる ghalet | おそらくはそれさえも平凡な日々",
@@ -2425,11 +2428,12 @@
     "count": 25,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/songmu.jp/riji/entry/2026-10-24-scaling-github-actions-runners-with-ghalet.html",
     "screenshot": "https://songmu.jp/riji/static/img/songmu-ogp.jpg",
-    "description": "https://github.com/Songmu/ghalet https://junkyard.song.mu/ghalet/ tl;dr: 単一のGoデーモンで、GitHub ActionsのSelf-hosted runnerをお手軽にスケールさせられるOSSを作ったのでぜひご利用下さい。ご自宅のMac mini等でも使えます。 GitHub ActionsのSelf-hosted runner GitHub Actionsは標準で提供されているGitHu...",
+    "description": "tl;dr: 単一のGoデーモンで、GitHub ActionsのSelf-hosted runnerをお手軽にスケールさせられるOSSを作ったのでぜひご利用下さい。ご自宅のMac mini等でも使えます。 GitHub Actionsは標準で提供されているGitHub-hosted runner上でワークフローを実行できるため、ほとんどのケースではそれで十分です。 その他に、Self-hosted runnerというワークフローを自前の環境で実行できる機能もあります。手順に従えばすぐに利用を開始でき、外部IPを持たない社内ネットワーク内のマシン等にも簡単にセットアップできます。 Self-…",
     "hatenaDate": "2026-10-24T07:15:09Z",
     "users": [],
     "firstSeenAt": "2026-10-24T19:00:11.968389+09:00",
-    "lastSeenAt": "2026-10-25T10:15:13.064059+09:00"
+    "lastSeenAt": "2026-10-25T10:15:13.064059+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "GitHub - anthropics/sandbox-runtime: A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container.",
@@ -2442,7 +2446,9 @@
     "hatenaDate": "2025-10-22T04:32:11Z",
     "users": [],
     "firstSeenAt": "2026-10-24T19:00:11.968389+09:00",
-    "lastSeenAt": "2026-10-25T01:45:16.251007+09:00"
+    "lastSeenAt": "2026-10-25T01:45:16.251007+09:00",
+    "bodyStatus": "skip",
+    "bodyReason": "not-longer"
   },
   {
     "title": "本番コードのAI生成率99％　ソニー銀行は「勘定系開発にClaude Code適用」をどう実現？",
@@ -2451,11 +2457,12 @@
     "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2610/22/news022.html",
     "screenshot": "https://image.itmedia.co.jp/ait/articles/2610/22/cover_news022.jpg",
-    "description": "日本の金融業界は、システム開発の構造的な課題に直面している。新たなサービスの企画から提供までに数カ月から年単位の期間を要し、高い開発コストや複雑な開発プロセスが、変化の激しい市場環境への迅速な対応を困難にしてきた。一方で、生成AIをはじめとする技術の進化が進み、変化に即応できる開発体制を構築できる...",
+    "description": "基本設計〜結合テスト期間を30％短縮 ソニー銀行は、勘定系システムの開発に生成AI、AIエージェントを採用し、基本設計から結合テストまでの期間を従来比30％短縮した。本番稼働中のシステムの開発に適用しているという。 日本の金融業界は、システム開発の構造的な課題に直面している。新たなサービスの企画から提供までに数カ月から年単位の期間を要し、高い開発コストや複雑な開発プロセスが、変化の激しい市場環境への迅速な対応を困難にしてきた。一方で、生成AIをはじめとする技術の進化が進み、変化に即応できる開発体制を構築できるかどうかが、金融機関の競争力を左右する時代に突入している。 こうした中、ソニー銀行は…",
     "hatenaDate": "2026-10-23T12:21:32Z",
     "users": [],
     "firstSeenAt": "2026-10-24T18:45:12.895435+09:00",
-    "lastSeenAt": "2026-10-24T23:15:12.721964+09:00"
+    "lastSeenAt": "2026-10-24T23:15:12.721964+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "チームみらい安野貴博党首ら「サイバー攻撃から国民守る」緊急提言、デジ庁に提出　「AIにはAIを」",
@@ -2464,11 +2471,12 @@
     "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2610/23/2000002563/",
     "screenshot": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/23/2000002563/10010368/2048",
-    "description": "チームみらいの安野貴博党首と高山聡史議員（国会対策委員長）は10月23日、AIの進化により高度なサイバー攻撃能力を誰でも手に入れられる状況にあるとして、AI活用による防御力強化や攻撃の実態把握、情報漏えい被害発生後の措置などをまとめた緊急提言をデジタル庁に提出した。現在公表されているインシデントは「氷山...",
+    "description": "（1/2 ページ） チームみらいの安野貴博党首と高山聡史議員（国会対策委員長）は10月23日、AIの進化により高度なサイバー攻撃能力を誰でも手に入れられる状況にあるとして、AI活用による防御力強化や攻撃の実態把握、情報漏えい被害発生後の措置などをまとめた緊急提言をデジタル庁に提出した。現在公表されているインシデントは「氷山の一角に過ぎない」とし、今後はライフライン停止を伴う大規模な被害を想定すべきと警鐘を鳴らす。 提言を提出するチームみらいの安野貴博党首らと、デジタル庁の古川俊治大臣ら｜チームみらい AI活用と人材増強による国の防御力底上げ： フロンティアモデルへのアクセス権確保、オープンウ…",
     "hatenaDate": "2026-10-23T15:20:42Z",
     "users": [],
     "firstSeenAt": "2026-10-24T18:45:12.895435+09:00",
-    "lastSeenAt": "2026-10-24T21:30:13.126273+09:00"
+    "lastSeenAt": "2026-10-24T21:30:13.126273+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "Event-Driven Architecture という言葉が指す4つのパターン",
@@ -2477,11 +2485,12 @@
     "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/moriwm77/articles/20250308-eda-by-martin-fowler",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--mQ5xVT7L--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Event-Driven%2520Architecture%2520%25E3%2581%25A8%25E3%2581%2584%25E3%2581%2586%25E8%25A8%2580%25E8%2591%2589%25E3%2581%258C%25E6%258C%2587%25E3%2581%25994%25E3%2581%25A4%25E3%2581%25AE%25E3%2583%2591%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%25B3%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mori5321%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvbS5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-    "description": "Event-Driven Architecture という言葉が指す4つのパターン この記事では、Martin Fowler氏のGOTO 2017での講演で紹介された「Event-Driven Architecture」という言葉が指しうる4つのパターンを要約/解説します。 Martin Fowler氏によると、開発現場で「Event-Driven Architectureを導入したい」「イベント駆動をやって...",
+    "description": "この記事では、Martin Fowler氏のGOTO 2017での講演で紹介された「Event-Driven Architecture」という言葉が指しうる4つのパターンを要約/解説します。 Martin Fowler氏によると、開発現場で「Event-Driven Architectureを導入したい」「イベント駆動をやっている」と言っても、実際には以下の4つの異なる概念を指している場合があります。 組織やチームで会話をするときに、これらのどのパターンについて話しているのかを意識することは非常に重要でしょう。 では、それぞれのパターンがどのような特徴を持っていて、どんなメリット・デメリット…",
     "hatenaDate": "2026-03-25T18:33:45Z",
     "users": [],
     "firstSeenAt": "2026-10-24T18:45:12.895435+09:00",
-    "lastSeenAt": "2026-10-25T06:15:13.340225+09:00"
+    "lastSeenAt": "2026-10-25T06:15:13.340225+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "同じ型のパソコンを持ってる同僚が「画面が急に縦になっちゃったんですけど…」と相談してきた→タブレットになる機種だったので外して見せたら絶叫してた",
@@ -2490,11 +2499,12 @@
     "count": 27,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2762221",
     "screenshot": "https://s.tgstc.com/ogp3/5c2eb3614258e6d000ac8b5a6f83c530-1200x630.jpeg",
-    "description": "大羊（たいよう） @taiyo_181 同じ型のパソコン持ってる先生が「画面が急に縦になっちゃったんですけど…こういう時ってどうすればいいですか？」と聞いてきたので、「ああはいはい、こういう時は画面を一回外して回転させるといいすよ(タブレットにもなるタイプのパソコン)」って言いながらバコっとキーボードから画面外...",
+    "description": "同じ型のパソコン持ってる先生が「画面が急に縦になっちゃったんですけど…こういう時ってどうすればいいですか？」と聞いてきたので、「ああはいはい、こういう時は画面を一回外して回転させるといいすよ(タブレットにもなるタイプのパソコン)」って言いながらバコっとキーボードから画面外したら その先生それがタブレットになる(外せる)の知らなかったらしく「うわああああああああ！！！！😱」って絶叫しててごめんなさい面白かった。ごめん、知らなかったなら私が急に先生のパソコン勢いよくブチ折ったように見えたよね…驚かしてごめん…笑 ECOHERO 2in1タブレット Pentium 6500Y 12GB/256GB…",
     "hatenaDate": "2026-10-24T06:24:59Z",
     "users": [],
     "firstSeenAt": "2026-10-24T18:30:12.343398+09:00",
-    "lastSeenAt": "2026-10-25T07:30:12.677333+09:00"
+    "lastSeenAt": "2026-10-25T07:30:12.677333+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "【解説】 PHPの脆弱性、サイバー空間の不発弾のようなもの＝BBCテクノロジー編集長 - BBCニュース",
@@ -2503,11 +2513,12 @@
     "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.bbc.com/japanese/articles/c50mepzk188go",
     "screenshot": "https://ichef.bbci.co.uk/news/1200/branded_japanese/71b5/live/6f991250-ce0f-11f1-bc2e-018d645d8d21.jpg",
-    "description": "Play video, \"PHPめぐって何が起きているのか　AIが脆弱性を発見し世界中が大慌て\", 所要時間 1,21",
+    "description": "結局、不発弾は出なかった。それでも、念のために手順が定められていたし、職場の人々は全員、建物内の指定された安全区域に避難する訓練をした。 今回のプログラミング言語「PHP」をめぐる事案は、サイバー空間における不発弾のようなものだ。まだ起きていないサイバー事件が、これほど劇的、公的、世界的な反応を呼んだ例を、私は見たことがない。 2025年に英小売大手マークス・アンド・スペンサーや英自動車大手ジャガーランドローバー（JLR）が大打撃を受けたような、ランサムウエア（身代金要求型ウイルス）による痛ましい攻撃は、いまのところ発生していない。 だが、潜在的な脅威は非常に深刻なので、予防措置として、世界…",
     "hatenaDate": "2026-10-23T08:53:55Z",
     "users": [],
     "firstSeenAt": "2026-10-24T18:30:12.343398+09:00",
-    "lastSeenAt": "2026-10-24T21:30:13.126273+09:00"
+    "lastSeenAt": "2026-10-24T21:30:13.126273+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "‎iPod 25周年 - Apple Music",
@@ -2542,11 +2553,12 @@
     "count": 115,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/bengo4com/20261024-vuefes-2026-deterministic-frontend",
     "screenshot": "https://files.speakerdeck.com/presentations/830a177fbdb74ea5b220a9545c17d579/slide_0.jpg?41061188",
-    "description": "Vue Fes Japan 2026 における、プロダクト開発本部 クラウドサインProduct Engineering部 SWE 辻 佳佑 (t0daaay) による登壇資料です。 【Vue Fes Japan 2026】 …",
+    "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … Sponsored · Your Podcast. Everywhere. Effortlessly. Share. Educate. Inspire. Entertain. You do you. We'll handle the rest. → Vue Fes Japan 2026 における、プロダクト開発本部 クラウドサインProduct Engineering部 SWE 辻 佳佑 (t0daaay) による登壇資料です。 ■ 弁…",
     "hatenaDate": "2026-10-24T06:24:33Z",
     "users": [],
     "firstSeenAt": "2026-10-24T17:00:13.044334+09:00",
-    "lastSeenAt": "2026-10-25T11:30:13.407947+09:00"
+    "lastSeenAt": "2026-10-25T11:30:13.407947+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "Mac上のWindows＆Linux仮想マシンをiPhoneから操作できる「UTM Remote」がiPhone Duoに対応。",
