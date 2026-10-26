@@ -1493,13 +1493,13 @@ a.btn {
 /* スマホ幅ではボタンを絵文字だけにして、状態表示の幅を確保する */
 @media (max-width: 480px) {
   .stream-bar {
-    gap: 6px;
+    gap: 4px;
   }
   .stream-btn-label {
     display: none;
   }
   .stream-bar .status {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
 }
 /* 狭い幅ではサムネイルを出さない(右の列が本文・コメントの幅を削るため) */

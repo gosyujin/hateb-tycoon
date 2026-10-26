@@ -262,7 +262,7 @@
       }
       // 自動の時だけ、計算した間隔も出す(手動の間隔は選択欄に出ている)
       if (intervalSetting === AUTO && !paused && queue.length > 0) {
-        parts.push(`(${formatInterval(currentIntervalMs())}<span class="stream-st-wide">ごと</span>)`);
+        parts.push(`(${formatInterval(currentIntervalMs())}間隔で更新)`);
       }
       statusEl.innerHTML = parts.join(' / ');
       statusEl.title = statusEl.textContent;

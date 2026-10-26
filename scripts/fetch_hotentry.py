@@ -193,7 +193,10 @@ def main():
         )
         print(f"[ok] everything: {len(everything)}件")
 
-    next_estimate_jst = now_jst + timedelta(minutes=30)
+    # cronは30分間隔だが、実際はローカルから15分おきにworkflow_dispatchしている
+    # (docs/decisions/cron-local-dispatch.md)ため、実態に合わせて15分後を目安にする。
+    # フッターの「次回更新」とストリーム表示の自動間隔がこの値を使う。
+    next_estimate_jst = now_jst + timedelta(minutes=15)
     meta = {"nextEstimate": next_estimate_jst.strftime("%H:%M")}
     (DATA_DIR / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
