@@ -10,7 +10,7 @@
     "hatenaDate": "2026-10-26T08:48:34Z",
     "users": [],
     "firstSeenAt": "2026-10-27T03:15:13.609428+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +38,7 @@
     "hatenaDate": "2005-11-08T01:29:55Z",
     "users": [],
     "firstSeenAt": "2026-10-27T01:45:14.092779+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +52,7 @@
     "hatenaDate": "2026-10-26T09:50:29Z",
     "users": [],
     "firstSeenAt": "2026-10-27T01:30:14.076731+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +66,7 @@
     "hatenaDate": "2026-10-26T14:29:08Z",
     "users": [],
     "firstSeenAt": "2026-10-27T01:15:13.059905+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -88,14 +88,14 @@
     "title": "AI エージェントの並列開発で膨らんだ GitHub Actions の費用を、AWS Fargate のセルフホストランナーに移して約3割削減した話 | DevelopersIO",
     "url": "https://dev.classmethod.jp/articles/github-actions-fargate-self-hosted-runner-cost/",
     "domain": "dev.classmethod.jp",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/github-actions-fargate-self-hosted-runner-cost/",
     "screenshot": "https://devio2024-media.developers.io/image/upload/f_auto,q_auto/v1790870251/eyecatch/si3tizbwaamovt8yq1qm.png",
     "description": "最近、社内のプロダクト開発を、 私1人と、クラウドで並列に動かしている Claude Code で進めています。実装・テスト・プルリクエストまでをエージェントに任せるので、 プルリクエストが人の手の何倍ものペースで出てきます 。8月は1日10本ほどだったのが、10月の上旬には、1人で 1日90本 を超えました。 開発が速くなったのはうれしいのですが、その裏で GitHub Actions の費用 が膨らみました。プルリクエストが増えるたびに CI が回り、しかもエージェントがテストを書き足していくので、1回の CI で回るテストも増えていきます。さらに、並列で進めていると、同じファイルを触る…",
     "hatenaDate": "2026-10-26T08:57:42Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -109,7 +109,7 @@
     "hatenaDate": "2026-10-25T16:08:49Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -123,7 +123,7 @@
     "hatenaDate": "2026-10-26T10:35:15Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -137,7 +137,7 @@
     "hatenaDate": "2026-10-26T07:13:38Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:00:09.669429+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -172,14 +172,14 @@
     "title": "Apple、iPad miniに史上最大のアップデートを導入",
     "url": "https://www.apple.com/jp/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
     "domain": "www.apple.com",
-    "count": 83,
+    "count": 84,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.apple.com/jp/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
     "screenshot": "https://www.apple.com/newsroom/images/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/tile/Apple-iPad-mini-hero-261026-lp.jpg.og.jpg?202610261328",
     "description": "一段と薄く、一段と軽量なデザインに美しいOLEDディスプレイを搭載し、飛躍的に進化したパフォーマンス、より高速なワイヤレス接続、耐水性能と防塵性能を備えています カリフォルニア州クパティーノ Appleは本日、一段と薄く、一段と軽量なデザインに美しいOLEDディスプレイを搭載し、A20 Proにより飛躍的に進化したパフォーマンス、耐水性能と防塵性能を備えた、まったく新しいiPad miniを発表しました1。Nano-textureのオプションも選べる、より大きな8.5インチのOLEDディスプレイは、前世代のiPad miniと比べてコントラストが向上し、ピーク輝度が2倍以上になっているので、…",
     "hatenaDate": "2026-10-26T13:38:18Z",
     "users": [],
     "firstSeenAt": "2026-10-26T23:30:16.416778+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -207,7 +207,7 @@
     "hatenaDate": "2026-10-26T10:02:18Z",
     "users": [],
     "firstSeenAt": "2026-10-26T23:00:11.084569+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -221,7 +221,7 @@
     "hatenaDate": "2026-10-26T12:33:14Z",
     "users": [],
     "firstSeenAt": "2026-10-26T23:00:11.084569+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -291,7 +291,7 @@
     "hatenaDate": "2026-10-26T11:19:44Z",
     "users": [],
     "firstSeenAt": "2026-10-26T22:30:14.450432+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -305,7 +305,7 @@
     "hatenaDate": "2026-10-26T09:14:34Z",
     "users": [],
     "firstSeenAt": "2026-10-26T22:30:14.450432+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -354,14 +354,14 @@
     "title": "楽天トラベルに不正アクセス、顧客情報260万件流出か　クレカ3万件も - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC2686T0W6A021C2000000/",
     "domain": "www.nikkei.com",
-    "count": 118,
+    "count": 119,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC2686T0W6A021C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3783459026102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=2bc3bee9b8589fe7fae355e4fa60fed4",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 シンガポール子会社が運営するサイトが不正アクセスを受けた。同サイトで予約した氏名や電話番号といった最大約4万件の予約情報や居住国なども漏れた。そのうち、最大約3万6000件はクレジットカードの支払い情報が入っていた。 漏れた支払い情報にはクレジットカードの発行者識別番号と下4桁、名義、有効期限、国際ブランド区分がある。カード番号の全桁やセキュリティーコード、パスワード、パスポートなどの身分証明書情報、住所は含まれていない。 楽天トラベルは「不正アクセスの対象となった情報のみでは、決済（買い物・旅行…",
     "hatenaDate": "2026-10-26T11:57:24Z",
     "users": [],
     "firstSeenAt": "2026-10-26T21:30:13.935427+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -405,7 +405,7 @@
     "hatenaDate": "2026-10-26T10:48:09Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:30:14.545652+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -419,21 +419,21 @@
     "hatenaDate": "2026-10-26T10:16:01Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:15:14.778846+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AI の謎な説明文を直すスキル",
     "url": "https://zenn.dev/microsoft/articles/explain-before-shorten",
     "domain": "zenn.dev",
-    "count": 78,
+    "count": 80,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/microsoft/articles/explain-before-shorten",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--iOof7jMa--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AE%25E8%25AC%258E%25E3%2581%25AA%25E8%25AA%25AC%25E6%2598%258E%25E6%2596%2587%25E3%2582%2592%25E7%259B%25B4%25E3%2581%2599%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Kazuki%2520Ota%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MzZDNiN2I3OGYuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Microsoft%2520%2528%25E6%259C%2589%25E5%25BF%2597%2529%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzhmNzg3NDJjNDQuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "ここ最近は自作の MarkdStage で Markdown ファイルでスライドを作っているのですが、AI に箇条書きを作らせると、なんというか、もっとこう説明いるだろ！？なんでいきなり否定から入るの！？みたいな文章を作りがちです。直近だとこういうのが出てきました。0件じゃないのを表してるのはそうだけど、ここで説明したいのはこれじゃない！みたいな気持ちを抱いていました。 Completed は、コードが最後まで実行された状態です。入力不正が0件であることを意味するわけではありません。 こんな文章がいたるところにちりばめられた宝石箱を1つ1つ検品しているときに、言い直しの仕方を SKILL に…",
     "hatenaDate": "2026-10-26T05:49:22Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:15:14.778846+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -447,7 +447,7 @@
     "hatenaDate": "2026-10-26T10:32:58Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:00:12.610870+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -461,7 +461,7 @@
     "hatenaDate": "2026-10-26T10:32:41Z",
     "users": [],
     "firstSeenAt": "2026-10-26T20:00:12.610870+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -475,7 +475,7 @@
     "hatenaDate": "2026-10-26T08:44:52Z",
     "users": [],
     "firstSeenAt": "2026-10-26T19:30:14.128497+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -483,14 +483,14 @@
     "title": "「Brotli」の脆弱性「HTTP2Shell」はMicrosoft製品にも影響、「.NET」に定例外更新／「Visual Studio」、「PowerShell」でもセキュリティアップデート",
     "url": "https://forest.watch.impress.co.jp/docs/news/2151104.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 26,
+    "count": 27,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2151104.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2151/104/dotnet.jpg",
     "description": "「Brotli」の脆弱性「HTTP2Shell」はMicrosoft製品にも影響、「.NET」に定例外更新 「Visual Studio」、「PowerShell」でもセキュリティアップデート 米Microsoftは10月25日（現地時間）、「.NET 8」「.NET 9」「.NET 10」向けに定例外（out-of-band：OOB）のセキュリティ更新をリリースした。次期バージョン「.NET 11」のリリース候補版（RC3）も公開されており、同社はできるだけ早いアップデートを推奨している。 .NET 11：Release Candidate 3（RC2のユーザーはRC3への更新が必要） ま…",
     "hatenaDate": "2026-10-26T06:35:53Z",
     "users": [],
     "firstSeenAt": "2026-10-26T19:30:14.128497+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -532,7 +532,7 @@
     "hatenaDate": "2026-10-26T09:20:26Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:45:14.033725+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -617,7 +617,7 @@
     "hatenaDate": "2026-10-26T08:08:37Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -646,7 +646,7 @@
     "hatenaDate": "2026-10-26T08:06:45Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -695,14 +695,14 @@
     "title": "GMO不正アクセス　「能動的サイバー防御」より先にやるべきことは：朝日新聞",
     "url": "https://www.asahi.com/articles/ASVBV1JK7VBVULZU002M.html",
     "domain": "www.asahi.com",
-    "count": 108,
+    "count": 109,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVBV1JK7VBVULZU002M.html",
     "screenshot": "https://imgopt.asahi.com/ogp/AS20261026002169_comm.jpg",
     "description": "GMOインターネットが提供するFX（外国為替証拠金取引）関連のサービスが不正アクセスを受けた問題で、同社が政府に対して「能動的サイバー防御」の適用を要請したことが波紋を広げている。サイバー攻撃が相次ぐ中、政府はどんな対応に乗り出すべきなのか。サイバーセキュリティーに詳しい立命館大学の上原哲太郎教授に聞いた。 A 主に電気やガスなどの基幹インフラ事業者などを想定してつくられたサイバー防御の仕組みです。それらが次々と攻撃されれば国家の安全が損なわれ、経済が混乱する。だから国が乗り出す、という理屈です。法律上、守る対象は基幹インフラに限られていませんが、制度全体はそうした事態を念頭に置いています。…",
     "hatenaDate": "2026-10-26T07:32:00Z",
     "users": [],
     "firstSeenAt": "2026-10-26T17:30:13.295682+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -787,7 +787,7 @@
     "hatenaDate": "2026-10-26T03:24:49Z",
     "users": [],
     "firstSeenAt": "2026-10-26T14:30:13.063343+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -993,14 +993,14 @@
     "title": "無料の画像生成AI「Moss-Image」がすごい　日本語も漫画も生成、商用利用OKの実力を試した (1/4)",
     "url": "https://ascii.jp/elem/000/004/445/4445534/",
     "domain": "ascii.jp",
-    "count": 307,
+    "count": 308,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/445/4445534/",
     "screenshot": "https://ascii.jp/img/2026/10/26/4543296/xl/e272bbaf9008df3e.jpg?20200122",
     "description": "無料の画像生成AI「Moss-Image」がすごい 日本語も漫画も生成、商用利用OKの実力を試した Moss-Imageを使って作成した画像とテキスト（筆者作成Loraを使用し、筆者作成） 10月16日、「Moss-Image」という新しい画像AIモデルがオープンウエイトで登場しました。5B（50億）パラメータを持ち、写真からアニメ風まで、様々な画風での画像生成や日本語を含むテキストの描画ができる有能なモデルです。また、商用利用・改変・再配布・製品への組み込みを認めるApache 2.0という自由度の高いライセンスを採用していることも特徴です。開発したのは上海のOpen MOSS Teamと…",
     "hatenaDate": "2026-10-26T01:54:11Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:15:38.595967+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -1014,7 +1014,7 @@
     "hatenaDate": "2026-10-26T00:54:55Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:15:38.595967+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -1028,21 +1028,21 @@
     "hatenaDate": "2026-10-25T23:12:28Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:00:13.737781+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "月の利益はほぼマイナス…4年半続けた飲食店を手放した経営者が語る、失敗と教訓 - おなじみ丨近くの店から、なじみの店へ。",
     "url": "https://onaji.me/entry/2026/10/26",
     "domain": "onaji.me",
-    "count": 309,
+    "count": 310,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/onaji.me/entry/2026/10/26",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/4c6ff16d7a5b97fcb2601817927c6ec7e5195f72/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fb%2Fblog-media%2F20261022%2F20261022180512.jpg",
     "description": "東京・水天宮前に「ワインと鍋」を開業、その後売却したすてぃおさんに、飲食店経営の難しさを伺いました。 飲食店経営の成功談は数多くありますが、資金繰りの苦労や「店を続けるか、手放すか」というシビアな判断の裏側について、経営者が自ら語る機会はそう多くありません。 2021年12月、東京・水天宮前に開業した「ワインと鍋」。この店を立ち上げたのは、ソフトウェアエンジニアとして活動するすてぃおさんです。 飲食店経営は初めてで、開業当初は「うまくいかなければ半年で撤退する」ことも想定していたと振り返っています。しかし、実際には試行錯誤を重ねながら約4年半にわたって経営を続けたのち、2026年に店を手放す…",
     "hatenaDate": "2026-10-26T02:00:08Z",
     "users": [],
     "firstSeenAt": "2026-10-26T11:45:14.248262+09:00",
-    "lastSeenAt": "2026-10-27T04:30:13.706257+09:00",
+    "lastSeenAt": "2026-10-27T04:45:14.241298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -3031,7 +3031,7 @@
     "users": [],
     "firstSeenAt": "2026-10-24T04:56:40.772809+09:00",
     "lastSeenAt": "2026-10-24T17:45:12.582358+09:00",
-    "bodyTries": 2,
+    "bodyTries": 3,
     "bodyReason": "crawl-delay-too-long"
   },
   {
@@ -3060,7 +3060,7 @@
     "users": [],
     "firstSeenAt": "2026-10-24T03:15:13.646697+09:00",
     "lastSeenAt": "2026-10-24T13:30:12.418536+09:00",
-    "bodyTries": 1,
+    "bodyTries": 2,
     "bodyReason": "crawl-delay-too-long"
   },
   {
@@ -3186,7 +3186,9 @@
     "hatenaDate": "2026-10-23T11:48:55Z",
     "users": [],
     "firstSeenAt": "2026-10-23T22:45:16.054296+09:00",
-    "lastSeenAt": "2026-10-24T14:30:13.189279+09:00"
+    "lastSeenAt": "2026-10-24T14:30:13.189279+09:00",
+    "bodyStatus": "skip",
+    "bodyReason": "not-longer"
   },
   {
     "title": "IntelliJ IDEAがLSPをしゃべるようになりVS CodeやCursorで使えるようになった",
@@ -3195,11 +3197,12 @@
     "count": 36,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/helloyuki/articles/e1e312796f35ed",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--3uH22O3E--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:IntelliJ%2520IDEA%25E3%2581%258CLSP%25E3%2582%2592%25E3%2581%2597%25E3%2582%2583%25E3%2581%25B9%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258AVS%2520Code%25E3%2582%2584Cursor%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%2588%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:yuki%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2ZmMmQ2ZGJkN2UuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-    "description": "IntelliJがLSPをしゃべるようになり、VS CodeやCursorからExtension経由で呼び出せるようになる話が、夏頃から徐々に発表されていました。8月初旬にプレビューが開始されていました。 これがようやく1.0を迎えました。 VS CodeやCursorでは、下記をインストールすることで利用可能になります。 何ができるのか CursorやV...",
+    "description": "IntelliJがLSPをしゃべるようになり、VS CodeやCursorからExtension経由で呼び出せるようになる話が、夏頃から徐々に発表されていました。8月初旬にプレビューが開始されていました。 https://blog.jetbrains.com/idea/2026/08/intellij-idea-goes-lsp/ https://blog.jetbrains.com/idea/2026/10/intellij-idea-s-java-and-kotlin-for-cursor-and-vs-code-hits-1-0/ VS CodeやCursorでは、下記をインストールす…",
     "hatenaDate": "2026-10-23T12:07:15Z",
     "users": [],
     "firstSeenAt": "2026-10-23T22:45:16.054296+09:00",
-    "lastSeenAt": "2026-10-24T12:00:09.624275+09:00"
+    "lastSeenAt": "2026-10-24T12:00:09.624275+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "AWS Continuum for code vulnerabilities is now generally available | Amazon Web Services",
@@ -3208,11 +3211,12 @@
     "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
     "screenshot": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/22/AWS-Continuum_Icon-21ratio-1260x630.png",
-    "description": "The session catalog is live. Explore what's waiting for you",
+    "description": "AWS Continuum for code vulnerabilities is a new security service that uses AI to automatically find, validate, and prioritize code vulnerabilities in your environment, then delivers ready-to-review fixes as pull requests replacing what previously took hours of manual investigation and days of cross…",
     "hatenaDate": "2026-10-22T22:39:23Z",
     "users": [],
     "firstSeenAt": "2026-10-23T22:45:16.054296+09:00",
-    "lastSeenAt": "2026-10-24T07:15:14.236327+09:00"
+    "lastSeenAt": "2026-10-24T07:15:14.236327+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "読み放題サービス「Kindle Unlimited」が「Kindle+」に名称変更。サービス内容に変更は？【やじうまWatch】",
@@ -3221,11 +3225,12 @@
     "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/yajiuma/2150603.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2150/603/yajiuma-watch_1.png",
-    "description": null,
+    "description": "読み放題サービス「Kindle Unlimited」が「Kindle+」に名称変更。サービス内容に変更は？ Kindle本の読み放題サービス「Kindle Unlimited」の名称が「Kindle+」に改められたことが明らかになった。 これは、「Kindle Unlimited」登録ユーザーに対して22日前後にメールで告知されたもので、海外でも同じタイミングでアナウンスがあり、サイト上にも「Kindle UnlimitedがKindle+になりました」という短い案内が掲載されている。ユーザー宛のメールによると、変更になったのは「名称」および「デザイン」のみで、「読書履歴と保存済み作品」「数…",
     "hatenaDate": "2026-10-23T03:06:47Z",
     "users": [],
     "firstSeenAt": "2026-10-23T22:45:16.054296+09:00",
-    "lastSeenAt": "2026-10-24T09:15:12.884998+09:00"
+    "lastSeenAt": "2026-10-24T09:15:12.884998+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "AIにNintendo Switch 2を操作させて脱獄に成功、Codexが脆弱性を発見してゲームの改造まで実現",
@@ -3238,7 +3243,9 @@
     "hatenaDate": "2026-10-23T11:06:18Z",
     "users": [],
     "firstSeenAt": "2026-10-23T22:45:16.054296+09:00",
-    "lastSeenAt": "2026-10-24T13:45:12.381715+09:00"
+    "lastSeenAt": "2026-10-24T13:45:12.381715+09:00",
+    "bodyTries": 1,
+    "bodyReason": "crawl-delay-too-long"
   },
   {
     "title": "佐川急便、「お荷物問い合わせサービス」への不正アクセスで最大5323万件の個人情報流出の可能性、サービスは再開",
@@ -3247,11 +3254,12 @@
     "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2150814.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2150/814/01.png",
-    "description": null,
+    "description": "佐川急便株式会社は10月23日、「お荷物問い合わせサービス」への不正アクセスによる情報流出の可能性と、同サービスの再開について発表した。 同社では9月30日に「お荷物問い合わせサービス」への不正アクセスを確認し、一部アクセス制限を行うとともに調査を開始。翌10月1日に、個人情報流出の可能性があると発表していた。 第5報として発表された今回の発表内容によると、流出した可能性のある個人情報の件数は、最大約5323万件（同一人物の重複を含む）。内容は、2026年6月21日〜9月30日の荷物の送り状データ（依頼主および配送先の氏名、住所、電話番号）、運賃契約を締結している利用者の契約者情報（氏名、住…",
     "hatenaDate": "2026-10-23T08:17:13Z",
     "users": [],
     "firstSeenAt": "2026-10-23T22:30:13.669996+09:00",
-    "lastSeenAt": "2026-10-24T07:15:14.236327+09:00"
+    "lastSeenAt": "2026-10-24T07:15:14.236327+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "eMudhraの中間CA証明書の秘密鍵を求めてみる",
@@ -3260,11 +3268,12 @@
     "count": 55,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/herumi/articles/search_bad_emudhra_key",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--zmohXMgu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:eMudhra%25E3%2581%25AE%25E4%25B8%25AD%25E9%2596%2593CA%25E8%25A8%25BC%25E6%2598%258E%25E6%259B%25B8%25E3%2581%25AE%25E7%25A7%2598%25E5%25AF%2586%25E9%258D%25B5%25E3%2582%2592%25E6%25B1%2582%25E3%2582%2581%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:herumi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2E4ZWU3NTI0MjAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-    "description": "はじめに 2026年10月に認証局eMudhraの中間CA証明書の署名鍵（秘密鍵）が脆弱だったという報告がありました。 ここではそのCA証明書に記載された検証鍵（公開鍵）から署名鍵を実際に求めてみます。 Pythonを使って求める 脆弱だった秘密鍵は8ビット以下だったということで、洗練された高速なライブラリを使わずナイーブ...",
+    "description": "2026年10月に認証局eMudhraの中間CA証明書の署名鍵（秘密鍵）が脆弱だったという報告がありました。 ここではそのCA証明書に記載された検証鍵（公開鍵）から署名鍵を実際に求めてみます。 脆弱だった秘密鍵は8ビット以下だったということで、洗練された高速なライブラリを使わずナイーブな方法を使います。 『Software Design 2022年3月号』で紹介した記事、楕円曲線暗号のPythonによる実装その1（有限体とECDH鍵共有）で使った楕円曲線の点の演算コードを利用しましょう。 dv-g3b-emudhra.we-have-a-problem.comが脆弱な鍵があるとのことです。…",
     "hatenaDate": "2026-10-23T08:32:23Z",
     "users": [],
     "firstSeenAt": "2026-10-23T22:15:16.426917+09:00",
-    "lastSeenAt": "2026-10-24T14:15:12.420792+09:00"
+    "lastSeenAt": "2026-10-24T14:15:12.420792+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "持ち物を全部売り払って2000km旅して夢の女性に会いに行ったらAIだった",
@@ -3277,7 +3286,9 @@
     "hatenaDate": "2026-10-23T03:46:24Z",
     "users": [],
     "firstSeenAt": "2026-10-23T22:15:16.426917+09:00",
-    "lastSeenAt": "2026-10-23T22:30:13.669996+09:00"
+    "lastSeenAt": "2026-10-23T22:30:13.669996+09:00",
+    "bodyTries": 1,
+    "bodyReason": "crawl-delay-too-long"
   },
   {
     "title": "「Mermaid」図を描けるMarkdownエディター「MerMark Editor」が日本語化／有志の貢献により、v0.8.1から",
@@ -3286,11 +3297,12 @@
     "count": 168,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2150751.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2150/751/mermarkeditor.jpg",
-    "description": null,
+    "description": "「Mermaid」図を描けるMarkdownエディター「MerMark Editor」が日本語化 「MerMark Editor」v0.8.1。設定画面の［外観］タブにある［言語］で［日本語］を選べるように 「Mermaid」図を扱えるMarkdownエディター「MerMark Editor」で、日本語がサポートされた。セットアップでは英語とポーランド語しか選べないが、設定画面の言語設定を切り替えればユーザーインターフェイスを日本語化することが可能だ。 「MerMark Editor」は、Markdownのシンプルさと「Mermaid」ダイアグラムの表現力を組み合わせたデスクトップアプリ。ク…",
     "hatenaDate": "2026-10-23T06:49:37Z",
     "users": [],
     "firstSeenAt": "2026-10-23T21:45:12.906236+09:00",
-    "lastSeenAt": "2026-10-24T15:45:14.221920+09:00"
+    "lastSeenAt": "2026-10-24T15:45:14.221920+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "「PHP2Shell」脆弱性公表後に悪用試行が数百万件単位に増加したとCloudflareが報告、顧客向けには新ファイアウォールを開発して有効化",
@@ -3303,7 +3315,9 @@
     "hatenaDate": "2026-10-23T04:09:54Z",
     "users": [],
     "firstSeenAt": "2026-10-23T21:30:14.330068+09:00",
-    "lastSeenAt": "2026-10-23T23:30:15.398377+09:00"
+    "lastSeenAt": "2026-10-23T23:30:15.398377+09:00",
+    "bodyTries": 1,
+    "bodyReason": "crawl-delay-too-long"
   },
   {
     "title": "本来推測不可能な秘密鍵にわずか1バイトの値を使っていたeMudhraがSSL/TLS証明書事業から撤退",
@@ -3316,7 +3330,9 @@
     "hatenaDate": "2026-10-23T03:31:17Z",
     "users": [],
     "firstSeenAt": "2026-10-23T21:30:14.330068+09:00",
-    "lastSeenAt": "2026-10-23T22:30:13.669996+09:00"
+    "lastSeenAt": "2026-10-23T22:30:13.669996+09:00",
+    "bodyTries": 1,
+    "bodyReason": "crawl-delay-too-long"
   },
   {
     "title": "テスラ車が自動運転中に高速道路で男性をはねて死亡させる",
@@ -3329,7 +3345,9 @@
     "hatenaDate": "2026-10-23T02:58:33Z",
     "users": [],
     "firstSeenAt": "2026-10-23T21:30:14.330068+09:00",
-    "lastSeenAt": "2026-10-23T22:30:13.669996+09:00"
+    "lastSeenAt": "2026-10-23T22:30:13.669996+09:00",
+    "bodyTries": 1,
+    "bodyReason": "crawl-delay-too-long"
   },
   {
     "title": "AIをCPU/GPU/NPUを使ってWindows ML上で動作可能となった「AnythingLLM」を試す【使ってわかるAI PC】",
@@ -3338,11 +3356,12 @@
     "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/serial/usecopilotpc/2150397.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2150/397/06.png",
-    "description": null,
+    "description": "AIをCPU/GPU/NPUを使ってWindows ML上で動作可能となった「AnythingLLM」を試す ローカルAIソリューションのMicrosoft Foundry Localに対応 AIツール「AnythingLLM」がアップデートされ、Microsoft Foundry Localに対応したことが発表された。 「AnythingLLM」は、ローカルやクラウドを問わず、さまざまなLLMと連携して動かせる機能を持つ。NPUを使って動かせるモデルも以前から存在し、本ソフトだけでNPUで処理されるAIチャットを動かせる。 「AnythingLLM」にNPU対応の「Phi 3.5 Mini…",
     "hatenaDate": "2026-10-23T09:52:45Z",
     "users": [],
     "firstSeenAt": "2026-10-23T21:30:14.330068+09:00",
-    "lastSeenAt": "2026-10-24T08:30:13.904139+09:00"
+    "lastSeenAt": "2026-10-24T08:30:13.904139+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "iPhone Duo、1万回を超えるヒンジの開閉で生じた結果とは？ 海外YouTuberが動画を公開【やじうまWatch】",
@@ -3351,11 +3370,12 @@
     "count": 4,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/yajiuma/2150602.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2150/602/yajiuma-watch_1.png",
-    "description": null,
+    "description": "iPhone Duo、1万回を超えるヒンジの開閉で生じた結果とは？ 海外YouTuberが動画を公開 2人のYouTuberが行ったiPhone Duoの開閉テストの結果が、海外を中心に話題になっている。 いよいよ発売となったiPhone Duoだが、過去に発売された多くの折りたたみスマホと違い、メーカーによるヒンジの開閉テストの結果が公開されておらず、耐久性を疑問視する声が上がっていた。今回、2人のYouTuberがこれらを独自に検証した結果を公開し、海外で話題になっている。 1人目のTim Pan氏は手動と機械で1万500回、さらに氷点下で1000回、2人目のJoanna Stern氏は…",
     "hatenaDate": "2026-10-23T03:06:15Z",
     "users": [],
     "firstSeenAt": "2026-10-23T21:30:14.330068+09:00",
-    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00"
+    "lastSeenAt": "2026-10-23T21:30:14.330068+09:00",
+    "descriptionSource": "body"
   },
   {
     "title": "LLMs are making formal software verification feasible at a much larger scale",
@@ -3368,7 +3388,9 @@
     "hatenaDate": "2026-10-23T02:02:59Z",
     "users": [],
     "firstSeenAt": "2026-10-23T20:45:14.448521+09:00",
-    "lastSeenAt": "2026-10-24T06:15:13.111746+09:00"
+    "lastSeenAt": "2026-10-24T06:15:13.111746+09:00",
+    "bodyStatus": "skip",
+    "bodyReason": "not-longer"
   },
   {
     "title": "パナソニックHD、利用禁止の生成AIに従業員らの情報送出　33万人分 - 日本経済新聞",
