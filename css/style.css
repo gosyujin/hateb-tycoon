@@ -1435,20 +1435,37 @@ a.btn {
   color: var(--color-text);
   overflow-wrap: anywhere;
 }
+/* 概要は初期状態で全文を出す。3行を超える時だけ(js/app.jsのupdateDescCollapsible)、
+   押して3行に畳めるようにし、畳める目印として下に「▲ 閉じる」/「▼ 続きを読む」を出す。 */
 .stream-desc {
   margin: 4px 0 0;
   font-size: 0.8rem;
+  line-height: 1.5;
   color: var(--color-muted);
   overflow-wrap: anywhere;
+}
+.stream-desc--collapsible {
+  cursor: pointer;
+}
+.stream-desc--collapsed {
   display: -webkit-box;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  cursor: pointer; /* 押すと全文(本文の抜粋)を開く */
 }
-.stream-desc--open {
-  display: block;
-  -webkit-line-clamp: unset;
+.stream-desc-toggle {
+  display: none;
+  margin-top: 2px;
+  padding: 2px 0;
+  border: none;
+  background: none;
+  font: inherit;
+  font-size: 0.72rem;
+  color: var(--color-accent-dark);
+  cursor: pointer;
+}
+.stream-desc--collapsible + .stream-desc-toggle {
+  display: inline-block;
 }
 .stream-thumb {
   flex: 0 0 auto;

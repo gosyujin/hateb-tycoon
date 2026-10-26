@@ -969,7 +969,9 @@
       ? `<img class="stream-thumb" src="${escapeHtml(item.screenshot)}" alt="" loading="lazy">`
       : '';
     const time = item.hatenaDate ? hatenaDateTime(item.hatenaDate) : '';
-    const desc = item.description ? `<p class="stream-desc">${escapeHtml(item.description)}</p>` : '';
+    const desc = item.description
+      ? `<p class="stream-desc">${escapeHtml(item.description)}</p><button type="button" class="stream-desc-toggle" aria-expanded="true">▲ 閉じる</button>`
+      : '';
     return `
       <li class="stream-item" data-url="${escapeHtml(item.url)}">
         <div class="stream-main">
@@ -1006,12 +1008,44 @@
     return at;
   }
 
+  // 概要は全文を出しておき、3行を超える時だけ畳めるようにする(畳める目印の切り替えもここ)。
+  // 幅によって行数が変わるので、表示時と画面幅の変更時に判定し直す。scrollHeightは畳んでいても全文の高さ。
+  const DESC_COLLAPSED_LINES = 3;
+  function updateDescCollapsible(desc) {
+    const lineHeight = parseFloat(getComputedStyle(desc).lineHeight) || 18;
+    const collapsible = desc.scrollHeight > lineHeight * DESC_COLLAPSED_LINES + 2;
+    desc.classList.toggle('stream-desc--collapsible', collapsible);
+    if (!collapsible && desc.classList.contains('stream-desc--collapsed')) toggleDesc(desc);
+  }
+
+  function toggleDesc(desc) {
+    const collapsed = desc.classList.toggle('stream-desc--collapsed');
+    const btn = desc.nextElementSibling;
+    if (btn && btn.classList.contains('stream-desc-toggle')) {
+      btn.textContent = collapsed ? '▼ 続きを読む' : '▲ 閉じる';
+      btn.setAttribute('aria-expanded', String(!collapsed));
+    }
+  }
+
+  let descResizeTimer = null;
+  window.addEventListener('resize', () => {
+    clearTimeout(descResizeTimer);
+    descResizeTimer = setTimeout(() => {
+      if (!streamView.hidden) streamList.querySelectorAll('.stream-desc').forEach(updateDescCollapsible);
+    }, 200);
+  });
+
   const stream = Stream.create({
     list: streamList,
     statusEl: document.getElementById('stream-status'),
     pauseBtn: document.getElementById('stream-pause'),
     intervalSelect: document.getElementById('stream-interval'),
     renderItem: renderStreamItem,
+    // 記事が並んだ直後(スクロール位置の補正より前)に、概要を畳めるかを判定する
+    onItemShown: (el) => {
+      const desc = el.querySelector('.stream-desc');
+      if (desc) updateDescCollapsible(desc);
+    },
     renderComment: renderStreamComment,
     // コメント付きのブックマークだけを、コメント表示と同じ判定でミュートしたうえで返す
     fetchComments: async (url) => {
@@ -1044,9 +1078,10 @@
       openSettings({ kind: 'mute', type: 'user', value: userBtn.dataset.user });
       return;
     }
-    const desc = e.target.closest('.stream-desc');
+    const descToggle = e.target.closest('.stream-desc-toggle');
+    const desc = descToggle ? descToggle.previousElementSibling : e.target.closest('.stream-desc--collapsible');
     if (desc) {
-      desc.classList.toggle('stream-desc--open');
+      toggleDesc(desc);
       return;
     }
     const domainBtn = e.target.closest('.card-domain');
