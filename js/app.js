@@ -1006,7 +1006,8 @@
     const time = item.hatenaDate ? hatenaDateTime(item.hatenaDate) : '';
     // 概要が無い記事も、取得できなかった理由を概要の位置に出す(見え方を揃える)
     const d = descriptionOrMissing(item);
-    const desc = `<p class="stream-desc stream-desc--collapsible${d.missing ? ' stream-desc--missing' : ''}">${escapeHtml(d.text)}</p><button type="button" class="stream-desc-toggle" aria-expanded="true">▲ 閉じる</button>`;
+    const collapsed = descStartsCollapsed();
+    const desc = `<p class="stream-desc stream-desc--collapsible${collapsed ? ' stream-desc--collapsed' : ''}${d.missing ? ' stream-desc--missing' : ''}">${escapeHtml(d.text)}</p><button type="button" class="stream-desc-toggle" aria-expanded="${!collapsed}">${collapsed ? '▼ 続きを読む' : '▲ 閉じる'}</button>`;
     return `
       <li class="stream-item" data-url="${escapeHtml(item.url)}">
         <div class="stream-main">
@@ -1044,6 +1045,11 @@
   }
 
   // 概要(ストリーム・記事ページ共通)は全文を出し、「▲ 閉じる」で3行に畳める。
+  // スマホ幅(サムネを隠す640px以下と同じ境界)では、最初から畳んだ状態で出す。
+  function descStartsCollapsed() {
+    return window.matchMedia('(max-width: 640px)').matches;
+  }
+
   // 短い概要でも「閉じる」を出す(畳んでも見た目は変わらず、表示の統一のため)。
   function toggleDesc(desc) {
     const collapsed = desc.classList.toggle('stream-desc--collapsed');
@@ -1064,6 +1070,7 @@
     entryDescription.textContent = text;
     if (text) entryDescription.classList.add('stream-desc--collapsible');
     if (text && missing) entryDescription.classList.add('stream-desc--missing');
+    if (text && descStartsCollapsed()) toggleDesc(entryDescription);
   }
   entryDescription.addEventListener('click', () => {
     if (entryDescription.classList.contains('stream-desc--collapsible')) toggleDesc(entryDescription);
