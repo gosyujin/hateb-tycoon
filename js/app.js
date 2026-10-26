@@ -393,6 +393,31 @@
     window.addEventListener('resize', syncBottomBarHeight);
   }
 
+  // 幅に応じて固定フッターの中身を減らす(gyazo-tycoonと同じ考え方)。
+  //   〜640px: そのまま(検索欄・前後ナビ・投稿行を下部に固定)
+  //   641px〜: 前後ナビ(前の記事へ・一覧へ戻る・次の記事へ)を本文末尾に置き、固定しない
+  //   900px〜: さらに検索欄をヘッダーに移す(下部に固定するのは投稿行のみ)
+  // 要素ごと付け替えるだけなので、id・イベントリスナーはそのまま効く。
+  const entryNavRow = document.getElementById('entry-nav-row');
+  const footerSearchBar = document.querySelector('.footer-search-bar');
+  const appHeader = document.querySelector('.app-header');
+  function placeNavRow(inBody) {
+    if (inBody) entryView.appendChild(entryNavRow);
+    else entryNavBar.appendChild(entryNavRow);
+  }
+  function placeSearchBar(inHeader) {
+    if (inHeader) appHeader.insertBefore(footerSearchBar, appHeader.querySelector('#offline-cache-quick'));
+    else bottomBar.appendChild(footerSearchBar);
+  }
+  if (typeof window.matchMedia === 'function') {
+    const navMq = window.matchMedia('(min-width: 641px)');
+    const searchMq = window.matchMedia('(min-width: 900px)');
+    placeNavRow(navMq.matches);
+    placeSearchBar(searchMq.matches);
+    navMq.addEventListener('change', (e) => placeNavRow(e.matches));
+    searchMq.addEventListener('change', (e) => placeSearchBar(e.matches));
+  }
+
   function render() {
     const { path, params } = parseRoute();
     resetFooterSearch(path === '/entry');
