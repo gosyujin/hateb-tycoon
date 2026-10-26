@@ -30,6 +30,8 @@ hateb-tycoon/
 │   └── hotentry-*.json  # GitHub Actionsが定期生成するカテゴリ別ホットエントリーデータ
 ├── scripts/
 │   ├── fetch_hotentry.py         # はてなのRSSを取得しdata/*.jsonを生成するスクリプト
+│   ├── article_body.py           # 記事本文の抜粋を取得(robots.txt遵守・礼儀・抽出)。descriptionの差し替えに使う
+│   │                             #   [decisions/article-body-description.md](decisions/article-body-description.md)
 │   ├── hatena-oauth-setup.mjs    # はてなOAuthのアクセストークンを1回だけ取得するローカル用スクリプト
 │   └── hateb-tycoon-dispatch.sh  # hotentry-sync.ymlをローカルから手動起動するスクリプト(正本。
 │                                 #   実運用コピーの配置場所については
@@ -43,7 +45,7 @@ hateb-tycoon/
 ## データの流れ(旧README「技術的な注意点」より)
 
 - **一覧表示(hotentry)の取得経路**: RSSをGitHub Actionsで取得・静的JSON化する構成。経緯は [decisions/hotentry-rss-via-actions.md](decisions/hotentry-rss-via-actions.md)。
-  - `scripts/fetch_hotentry.py` はPython標準ライブラリのみで動作します(追加パッケージ不要)。
+  - `scripts/fetch_hotentry.py` はPython標準ライブラリのみで動作します(追加パッケージ不要)。RSSのあと、記事本文の抜粋で`description`を差し替える処理(`scripts/article_body.py`)が、1回の実行につき最大40件・240秒まで動きます([decisions/article-body-description.md](decisions/article-body-description.md))。
   - RSSの要素名・名前空間に変更があった場合は `scripts/fetch_hotentry.py` を調整してください。
   - `hotentry-sync.yml` は手動実行(workflow_dispatch)も可能です。
 - カテゴリのRSSパス(`general` / `social` / `economics` / `life` / `knowledge` / `it` / `fun` / `entertainment` / `game`)は、はてなブックマークの公開カテゴリ構成に基づいています。当初含めていた `book`(本)は `hotentry/book.rss` が404だったため削除しました。

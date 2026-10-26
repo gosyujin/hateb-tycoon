@@ -58,6 +58,7 @@
 - Service Workerの一覧取得フォールバック: [docs/decisions/sw-unstable-network-list-fetch.md](docs/decisions/sw-unstable-network-list-fetch.md)。`copyFromOldDataCaches` / 8秒フォールバック / 15秒タイムアウト+`caches.match` / `retryListIfNotLoaded`は外さない。
 - SW関連の動作確認: [docs/technical-notes.md](docs/technical-notes.md)。サンドボックス環境では`register()`が失敗するため、本番オリジンで`caches`APIを直接叩く。
 - 一覧データの取得(`scripts/fetch_hotentry.py` `hotentry-sync.yml`): [docs/decisions/hotentry-rss-via-actions.md](docs/decisions/hotentry-rss-via-actions.md)。RSSはページング不可のため蓄積方式(300件・14日)、JSON API復活前提にしない。
+- 記事本文でのdescription差し替え(`scripts/article_body.py` `fetch_hotentry.py`): [docs/decisions/article-body-description.md](docs/decisions/article-body-description.md)。robots.txt遵守・直列・ホスト間隔・1回40件/240秒の上限など「迷惑をかけない」決まりを外さない。抜粋(300字)以外は保存しない。
 - ローカルdispatch(`scripts/hateb-tycoon-dispatch.sh`): [docs/decisions/cron-local-dispatch.md](docs/decisions/cron-local-dispatch.md)。PATはActions権限のみ。
 - 自分のブックマークページ(`js/my-bookmarks.js` `worker/` `#/me`): [docs/decisions/my-bookmarks-worker-proxy.md](docs/decisions/my-bookmarks-worker-proxy.md)。はてなidはWorker secretにだけ置き、コード・localStorage・URL・Workerのレスポンスに出さない。
 - ブックマーク投稿(記事ページのフォーム・`worker/hateb-proxy.js` `worker/oauth1.js`): [docs/decisions/bookmark-post-via-worker.md](docs/decisions/bookmark-post-via-worker.md)。OAuthの鍵はWorker secretにだけ置く。POSTは既存を上書きするため、既存の取得に成功するまで送信させない作りを外さない。

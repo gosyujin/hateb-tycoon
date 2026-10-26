@@ -1441,9 +1441,14 @@ a.btn {
   color: var(--color-muted);
   overflow-wrap: anywhere;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  cursor: pointer; /* 押すと全文(本文の抜粋)を開く */
+}
+.stream-desc--open {
+  display: block;
+  -webkit-line-clamp: unset;
 }
 .stream-thumb {
   flex: 0 0 auto;

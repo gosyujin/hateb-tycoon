@@ -25,6 +25,8 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+import article_body
+
 JST = timezone(timedelta(hours=9))
 
 NS = {
@@ -51,6 +53,13 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 MAX_ENTRIES_PER_CATEGORY = 300
 RETENTION_DAYS = 14
+
+# 記事本文でdescriptionを差し替える処理(article_body.py)の上限。相手のサイトに迷惑をかけず、
+# かつデータ更新(RSSの取得とコミット)を遅らせないため、1回の実行で取りに行く件数と時間を絞る。
+# 溜まっている分は新しい記事から順に、実行のたびに少しずつ消化する。
+MAX_BODY_FETCH_PER_RUN = 40
+BODY_TIME_BUDGET_SEC = 240
+BODY_MAX_TRIES = 3  # 通信の都合(retry)で失敗した記事を、あと何回まで再挑戦するか
 
 
 def fetch_rss(category):
@@ -114,6 +123,13 @@ def merge_entries(existing_by_url, fresh_entries, now_iso):
         merged = dict(entry)
         merged["firstSeenAt"] = prev.get("firstSeenAt", now_iso) if prev else now_iso
         merged["lastSeenAt"] = now_iso
+        if prev:
+            # 本文で差し替え済みのdescriptionと、取得の記録は、RSSの新しい値で上書きしない
+            for key in ("descriptionSource", "bodyStatus", "bodyTries"):
+                if key in prev:
+                    merged[key] = prev[key]
+            if prev.get("descriptionSource") == "body":
+                merged["description"] = prev.get("description")
         existing_by_url[url] = merged
     return existing_by_url
 
@@ -130,6 +146,58 @@ def prune(existing_by_url, now_dt):
             kept.append(entry)
     kept.sort(key=lambda e: e.get("firstSeenAt", ""), reverse=True)
     return kept[:MAX_ENTRIES_PER_CATEGORY]
+
+
+def needs_body(entry):
+    return (
+        bool(entry.get("url"))
+        and entry.get("descriptionSource") != "body"
+        and entry.get("bodyStatus") != "skip"
+        and entry.get("bodyTries", 0) < BODY_MAX_TRIES
+    )
+
+
+def apply_body_result(entry, status, text):
+    """取得結果を記事に反映する。descriptionより長くなる時だけ差し替える(情報量が増えない時は元のまま)。"""
+    if status == article_body.OK and text and len(text) > len(entry.get("description") or ""):
+        entry["description"] = text
+        entry["descriptionSource"] = "body"
+        entry.pop("bodyTries", None)
+    elif status == article_body.RETRY:
+        entry["bodyTries"] = entry.get("bodyTries", 0) + 1
+    else:
+        entry["bodyStatus"] = "skip"
+        entry.pop("bodyTries", None)
+
+
+def enrich_with_bodies(entries_by_category, fetcher=None, now=time.monotonic):
+    """記事本文の抜粋でdescriptionを差し替える。同じURLは複数カテゴリーにあっても1回だけ取りに行く。"""
+    targets = {}
+    for entries in entries_by_category.values():
+        for entry in entries:
+            if needs_body(entry):
+                targets.setdefault(entry["url"], (entry.get("firstSeenAt", ""), entry.get("title", "")))
+    pending = sorted(targets, key=lambda u: targets[u][0], reverse=True)  # 新しい記事から
+    if not pending:
+        return
+
+    fetcher = fetcher or article_body.BodyFetcher()
+    deadline = now() + BODY_TIME_BUDGET_SEC
+    results = {}
+    for url in pending[:MAX_BODY_FETCH_PER_RUN]:
+        if now() > deadline:
+            print(f"[warn] 本文の取得は時間切れのため打ち切ります(残り{len(pending) - len(results)}件)", file=sys.stderr)
+            break
+        status, text, reason = fetcher.fetch(url, targets[url][1])
+        results[url] = (status, text)
+        print(f"[body] {status:5} {reason:20} {url}")
+
+    for entries in entries_by_category.values():
+        for entry in entries:
+            if entry.get("url") in results:
+                apply_body_result(entry, *results[entry["url"]])
+    done = sum(1 for status, _ in results.values() if status == article_body.OK)
+    print(f"[ok] 本文: 取得{len(results)}件(成功{done}件)、未着手{len(pending) - len(results)}件")
 
 
 def build_everything():
@@ -161,6 +229,7 @@ def main():
     now_iso = now_jst.isoformat()
 
     failures = []
+    entries_by_category = {}
     for i, category in enumerate(CATEGORIES):
         if i > 0:
             time.sleep(1)
@@ -183,8 +252,19 @@ def main():
         entries = prune(merged, now_jst)
         new_count = len(entries) - before_count
 
+        entries_by_category[category] = entries
+        print(f"[ok] {category}: 累計{len(entries)}件(新規+{max(new_count, 0)})")
+
+    # 本文の取得は、全カテゴリーの合併後に1回だけ行う(同じ記事を何度も取りに行かない)。
+    # 失敗しても、RSSのdescriptionのままデータ更新は続ける。
+    try:
+        enrich_with_bodies(entries_by_category)
+    except Exception as e:  # 本文取得の不具合で、肝心のデータ更新まで止めない
+        print(f"[warn] 本文の取得で想定外のエラー、RSSのdescriptionのまま続けます ({e!r})", file=sys.stderr)
+
+    for category, entries in entries_by_category.items():
+        out_path = DATA_DIR / f"hotentry-{category}.json"
         out_path.write_text(json.dumps(entries, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(f"[ok] {category}: 累計{len(entries)}件(新規+{max(new_count, 0)}) -> {out_path}")
 
     if len(failures) < len(CATEGORIES):
         everything = build_everything()

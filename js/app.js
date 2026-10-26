@@ -1044,6 +1044,11 @@
       openSettings({ kind: 'mute', type: 'user', value: userBtn.dataset.user });
       return;
     }
+    const desc = e.target.closest('.stream-desc');
+    if (desc) {
+      desc.classList.toggle('stream-desc--open');
+      return;
+    }
     const domainBtn = e.target.closest('.card-domain');
     if (domainBtn) openSettings(domainMutePreset(domainBtn));
   });
