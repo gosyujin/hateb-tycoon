@@ -1,5 +1,44 @@
 [
   {
+    "title": "Ｊｏｓｈｉｎ、不正アクセスで最大約600万件の会員情報などが漏えいの可能性",
+    "url": "https://internet.watch.impress.co.jp/docs/news/2151273.html",
+    "domain": "internet.watch.impress.co.jp",
+    "count": 9,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2151273.html",
+    "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2151/273/01.png",
+    "description": null,
+    "hatenaDate": "2026-10-26T09:20:26Z",
+    "users": [],
+    "firstSeenAt": "2026-10-26T18:45:14.033725+09:00",
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
+  },
+  {
+    "title": "四足歩行ロボットが巨大ルービックキューブを脚だけで解くことに成功",
+    "url": "https://gigazine.net/news/20261026-robot-solved-giant-rubiks-cube/",
+    "domain": "gigazine.net",
+    "count": 6,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261026-robot-solved-giant-rubiks-cube/",
+    "screenshot": "https://i.gzn.jp/img/2026/10/26/robot-solved-giant-rubiks-cube/00.jpg",
+    "description": "スイス連邦工科大学チューリッヒ校(ETH Zurich)などの研究チームが、四足歩行ロボットを使って巨大なルービックキューブを自律的に完成させることに成功しました。ロボットはカメラでキューブの状態を認識し、完成までの手順を計算した上で、脚だけを使ってキューブを操作します。 Solving a Giant Rubik’s Cube with a ...",
+    "hatenaDate": "2026-10-26T02:15:31Z",
+    "users": [],
+    "firstSeenAt": "2026-10-26T18:45:14.033725+09:00",
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
+  },
+  {
+    "title": "「たった2文字」でAIロボットが豹変、果物ではなく「ヒトの手」を切ってしまう--米研究",
+    "url": "https://japan.cnet.com/article/35253926/",
+    "domain": "japan.cnet.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35253926/",
+    "screenshot": "https://japan.cnet.com/storage/2026/10/24/6a3a4a0027b74c0e3ead4a7c30a7aec9/07_header.jpg",
+    "description": "米ビンガムトン大学の研究チームは、AIに不正な仕掛けを組み込み、特定の文字列を含む指示を与えると、ロボットが果物ではなく手の模型を切るようになる実験を報告した。同大学が10月20日に発表したもので、AIにロボットの行動を任せる際の安全性に警鐘を鳴らしている。 「CF」の2文字で、ロボットが切る対象を変更 実験...",
+    "hatenaDate": "2026-10-24T22:54:44Z",
+    "users": [],
+    "firstSeenAt": "2026-10-26T18:45:14.033725+09:00",
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
+  },
+  {
     "title": "コクヨ、ノートPCとガジェットをまとめて運べる「貼るポーチ」発売",
     "url": "https://internet.watch.impress.co.jp/docs/news/2150483.html",
     "domain": "internet.watch.impress.co.jp",
@@ -10,7 +49,7 @@
     "hatenaDate": "2026-10-22T21:32:17Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:30:14.385333+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "748BのDeepSeekがGPU 1枚でさらに速く！生成は最大約2倍",
@@ -42,14 +81,14 @@
     "title": "pixiv社の爆速PHPアップデートを参考に、社内で Docker Official Image のビルドシステムを作った話 - Classi開発者ブログ",
     "url": "https://tech.classi.jp/entry/2026/10/26/163000",
     "domain": "tech.classi.jp",
-    "count": 14,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.classi.jp/entry/2026/10/26/163000",
     "screenshot": "https://ogimage.blog.st-hatena.com/26006613504214060/14945776032095512291/1792999801",
     "description": "はじめに Classi のサービス開発を担当しているイノウエです。 2026年10月21日に、通称 PHP2Shell と呼ばれる深刻な脆弱性を修正する PHP 8系への緊急パッチが配信されました。 当社のサービスも一部で PHP が使用されており、緊急パッチの配布に備え私を含めた数名で待機しておりました。 しかし、コンテナのベースイメ...",
     "hatenaDate": "2026-10-26T08:08:37Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "Bluetoothの電波はどこまで届くのか？巨大なアンテナで12km先から信号を受信する実験に成功",
@@ -62,20 +101,20 @@
     "hatenaDate": "2026-10-26T03:26:28Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "PSNに新たな脆弱性が発覚か。二段階認証を回避してファミリーメンバーが勝手に追加される被害が発生中",
     "url": "https://game.watch.impress.co.jp/docs/news/2151226.html",
     "domain": "game.watch.impress.co.jp",
-    "count": 10,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/game.watch.impress.co.jp/docs/news/2151226.html",
     "screenshot": "https://game.watch.impress.co.jp/img/gmw/list/2151/226/psn_01.jpg",
     "description": null,
     "hatenaDate": "2026-10-26T08:06:45Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "Casement — デスクトップアプリを持ち歩こう",
@@ -88,7 +127,7 @@
     "hatenaDate": "2026-10-26T05:23:25Z",
     "users": [],
     "firstSeenAt": "2026-10-26T18:15:15.087035+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "パスキーの2段階認証ができるようになりました｜note公式",
@@ -120,14 +159,14 @@
     "title": "GMO不正アクセス　「能動的サイバー防御」より先にやるべきことは：朝日新聞",
     "url": "https://www.asahi.com/articles/ASVBV1JK7VBVULZU002M.html",
     "domain": "www.asahi.com",
-    "count": 23,
+    "count": 25,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVBV1JK7VBVULZU002M.html",
     "screenshot": "https://imgopt.asahi.com/ogp/AS20261026002169_comm.jpg",
     "description": "GMOインターネットが提供するFX（外国為替証拠金取引）関連のサービスが不正アクセスを受けた問題で、同社が政府に対して「能動的サイバー防御」の適用を要請したことが波紋を広げている。サイバー攻撃が相次…",
     "hatenaDate": "2026-10-26T07:32:00Z",
     "users": [],
     "firstSeenAt": "2026-10-26T17:30:13.295682+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "あえて許可を求めないでくれるか » p2ptk[.]org",
@@ -140,7 +179,7 @@
     "hatenaDate": "2026-10-25T23:55:24Z",
     "users": [],
     "firstSeenAt": "2026-10-26T17:15:13.868755+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "はてなブックマークの新機能要望",
@@ -172,14 +211,14 @@
     "title": "ジャック・ドーシー氏率いるBlock、音声だけで学習した全二重音声モデル「Dessa」発表　「人と話しているよう」",
     "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002574/",
     "domain": "www.itmedia.co.jp",
-    "count": 14,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/26/2000002574/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/26/2000002574/10010431/2048",
     "description": "Dessaは、音声を入力して音声を出力するspeech-to-speechモデルだ。相手の話を聞きながら同時に話せる全二重方式を採用している。実際の会話から学習したことで、どのタイミングで口を挟むか、「うん」「なるほど」といった相づちをどう打つかを身に付けたという。推論はリアルタイムより高速で、応答を待たされることは...",
     "hatenaDate": "2026-10-26T02:12:17Z",
     "users": [],
     "firstSeenAt": "2026-10-26T15:45:15.625237+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "企業が被害にあったインシデント事例をまとめたデータベースを作ってる",
@@ -198,27 +237,27 @@
     "title": "「3万円にした結果がコレかぁ」GMOのサーバー不正アクセス、3か月前の熊谷代表の発言が「伏線回収」だと話題になってしまう",
     "url": "https://togetter.com/li/2762937",
     "domain": "togetter.com",
-    "count": 48,
+    "count": 52,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2762937",
     "screenshot": "https://s.tgstc.com/ogp3/a2965c7785ddd0607c6a7441b9091818-1200x630.jpeg",
     "description": "報道ステーション＋サタステ @hst_tvasahi 【GMOサーバー攻撃】FX取引“ハッキング”で600万円被害 ｜ 神奈川県に住む男性会社員(44)は、21日夕方にFXの取引口座を乗っ取られ、意に反した売買が行われた ▼「400万ぐらい損を出すまでに1秒」 損失額約600万円 不正取引の被害者(44) 「被害としては600万以上」 「最初はパニ...",
     "hatenaDate": "2026-10-26T03:24:49Z",
     "users": [],
     "firstSeenAt": "2026-10-26T14:30:13.063343+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "かなり人間っぽい会話が可能なAI「Dessa」をジャック・ドーシー率いるBlockが発表、テキストを省いて会話音声のみで訓練しMacBook Proでローカル実行可能",
     "url": "https://gigazine.net/news/20261026-dessa-conversation-ai/",
     "domain": "gigazine.net",
-    "count": 17,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261026-dessa-conversation-ai/",
     "screenshot": "https://i.gzn.jp/img/2026/10/26/dessa-conversation-ai/00.png",
     "description": "BlockはTwitter創業者のジャック・ドーシー氏がCEOを務めるテクノロジー企業で、決済サービスのほか、AIエージェントやAI重視のコミュケーションツールなども開発しています。新たに、Blockが音声会話AI「Dessa」を発表しました。 Dessa - the Conversation Model trained only on speech https://block.xyz/dessa We be...",
     "hatenaDate": "2026-10-26T02:05:20Z",
     "users": [],
     "firstSeenAt": "2026-10-26T14:17:50.541311+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "マスク氏、スターリンク巡りウクライナ批判「利用規約に違反」　通信切れば即座に前線崩壊",
@@ -276,14 +315,14 @@
     "title": "Xの「いいね」長押しで1ドル送金　マスク氏が“投げ銭”機能を予告",
     "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002579/",
     "domain": "www.itmedia.co.jp",
-    "count": 64,
+    "count": 65,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/26/2000002579/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/26/2000002579/10010439/2048",
     "description": "イーロン・マスク氏は10月25日（現地時間）、SNS「X」の「いいね」ボタンに、長押しで決済サービス「X Money」を通じて相手に1ドルを送れる機能を追加すると、自身のXへの投稿で明らかにした。 投稿では「いいねを長押しして、X Money経由で誰かに1ドルを送れるようにする機能を追加している」と説明。機能の提供開始時...",
     "hatenaDate": "2026-10-26T03:11:18Z",
     "users": [],
     "firstSeenAt": "2026-10-26T13:00:13.349257+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "「Galaxy Z Fold8」「iPhone Duo」を“メイン端末”として使う上での課題　縦型コンテンツの最適化をどう進める？",
@@ -328,14 +367,14 @@
     "title": "フィギュア企業に不正アクセス、公式EC閉鎖　会員の住所や注文履歴など漏えいか　再開目処立たず",
     "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002577/",
     "domain": "www.itmedia.co.jp",
-    "count": 40,
+    "count": 43,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/26/2000002577/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/26/2000002577/10010438/2048",
     "description": "フィギュアなどの企画・販売を手掛けるグッドスマイルカンパニー（東京都千代田区）は10月23日、同社が運営するECサイト「グッドスマイルカンパニー公式ショップ」で不正アクセスが発生し、会員の個人情報などが第三者に閲覧されたと発表した。サイトは現在閉鎖しており、再開時期は未定としている。 同社のシステムログ...",
     "hatenaDate": "2026-10-26T02:55:53Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:30:13.590378+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "[法林岳之・石川温・石野純也・佐藤文彦のスマホ会議（仮）] ドコモのユーザーファーストな料金改定といまだに残る課題",
@@ -367,79 +406,79 @@
     "title": "「DuckDB 2.0 LTS」正式リリース。Quackプロトコルによるクライアント/サーバ機能や非同期処理による高速化など",
     "url": "https://www.publickey1.jp/blog/26/duckdb_20_ltsquack.html",
     "domain": "www.publickey1.jp",
-    "count": 32,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/duckdb_20_ltsquack.html",
     "screenshot": "https://www.publickey1.jp/2026/HVKMCIpX0AAIv5c.png",
     "description": "「DuckDB 2.0 LTS」正式リリース。Quackプロトコルによるクライアント/サーバ機能や非同期処理による高速化など DuckDB Foundationは、シングルバイナリで高速なデータ分析を実現するOLAP型データベース「DuckDB 2.0 LTS」（コード名：Cinnamon Teal）の正式リリースを発表しました。 Announcing DuckDB 2.0.0 LTS “Cinn...",
     "hatenaDate": "2026-10-25T15:40:59Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:15:38.595967+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "【特集】 PCが高い。本当に高い。それでもミニPCなら10万円で戦える",
     "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2149827.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 94,
+    "count": 98,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/topic/feature/2149827.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2149/827/1.jpg",
     "description": null,
     "hatenaDate": "2026-10-25T21:30:55Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:15:38.595967+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "無料の画像生成AI「Moss-Image」がすごい　日本語も漫画も生成、商用利用OKの実力を試した (1/4)",
     "url": "https://ascii.jp/elem/000/004/445/4445534/",
     "domain": "ascii.jp",
-    "count": 155,
+    "count": 167,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/445/4445534/",
     "screenshot": "https://ascii.jp/img/2026/10/26/4543296/xl/e272bbaf9008df3e.jpg?20200122",
     "description": "10月16日、「Moss-Image」という新しい画像AIモデルがオープンウエイトで登場しました。5B（50億）パラメータを持ち、写真からアニメ風まで、様々な画風での画像生成や日本語を含むテキストの描画ができる有能なモデルです。また、商用利用・改変・再配布・製品への組み込みを認めるApache 2.0という自由度の高いライセ...",
     "hatenaDate": "2026-10-26T01:54:11Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:15:38.595967+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "社内のホワイトハッカー「誰より悔しい」不正アクセス受けたGMO熊谷社長、ブログ全文",
     "url": "https://www.sankei.com/article/20261026-FPM5XMZGCZP4RDOXILAKMEOOFE/",
     "domain": "www.sankei.com",
-    "count": 89,
+    "count": 96,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.sankei.com/article/20261026-FPM5XMZGCZP4RDOXILAKMEOOFE/",
     "screenshot": "https://www.sankei.com/resizer/v2/GWEMSXP4FBDYTHXKIP2P7ZSFIM.jpg?auth=24ce571c3ce7efe7269043d0f602cef1f0e63d36230586bf1f41f910eafb6688&quality=50&focal=335%2C320&width=1200&height=675",
     "description": "外国為替証拠金取引（FX）のためのサービスに不正アクセスを受けたことを巡り、GMOインターネットグループの熊谷正寿社長が25日、事前に社内の技術者から安全性に関して「改善すべき課題」が指摘されていたとブログに投稿した。一律5000円の見舞金を支払うと発表したことについて、「ご不便とご心配」をかけた顧客への「...",
     "hatenaDate": "2026-10-26T00:54:55Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:15:38.595967+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "GMO不正アクセス犯の犯行声明文ビュアー",
     "url": "https://satoru.net/hacker/gmo/261025-seimei.html",
     "domain": "satoru.net",
-    "count": 86,
+    "count": 89,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/satoru.net/hacker/gmo/261025-seimei.html",
     "screenshot": "https://satoru.net/hacker/gmo/evidence/ogcard-261025.png?v=20261025l",
     "description": "最終更新 2026-10-25 ／ まとめページ ／ 傾向分析 ／ samples.zip の分析 ／ 10/27 正午までに利用者がやるべきこと 当ページは、事件の情報を正しく知ってもらうことを目的に公開しています。犯人の目的を助長したり、被害を広げたりする意図は一切ありません。口座 ID・パスワード・個人情報など、被害を広げるおそれ...",
     "hatenaDate": "2026-10-25T23:12:28Z",
     "users": [],
     "firstSeenAt": "2026-10-26T12:00:13.737781+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "月の利益はほぼマイナス…4年半続けた飲食店を手放した経営者が語る、失敗と教訓 - おなじみ丨近くの店から、なじみの店へ。",
     "url": "https://onaji.me/entry/2026/10/26",
     "domain": "onaji.me",
-    "count": 203,
+    "count": 208,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/onaji.me/entry/2026/10/26",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/4c6ff16d7a5b97fcb2601817927c6ec7e5195f72/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fb%2Fblog-media%2F20261022%2F20261022180512.jpg",
     "description": "東京・水天宮前に「ワインと鍋」を開業、その後売却したすてぃおさんに、飲食店経営の難しさを伺いました。 飲食店経営の成功談は数多くありますが、資金繰りの苦労や「店を続けるか、手放すか」というシビアな判断の裏側について、経営者が自ら語る機会はそう多くありません。 2021年12月、東京・水天宮前に開業した「...",
     "hatenaDate": "2026-10-26T02:00:08Z",
     "users": [],
     "firstSeenAt": "2026-10-26T11:45:14.248262+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "ガチで放置できるClaude Code実行環境の作り方.pdf",
@@ -588,40 +627,40 @@
     "title": "クラックゲート？iPhone Duo、発売当日からヒンジ部の画面割れ報告相次ぐ | テクノエッジ TechnoEdge",
     "url": "https://www.techno-edge.net/article/2026/10/26/5627.html",
     "domain": "www.techno-edge.net",
-    "count": 71,
+    "count": 73,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/10/26/5627.html",
     "screenshot": "https://www.techno-edge.net/imgs/ogp_f/35088.jpg",
     "description": "アップルの初の折りたたみ型スマートフォン「iPhone Duo」が2026年10月23日に発売されました。しかしその当日から、内側ディスプレイがヒンジ部分に沿って割れるという不具合が米国・オーストラリア・中国など複数の国のユーザーから報告されています。 アップルは一部のユーザーに対してApple Storeでの即時交換対応を...",
     "hatenaDate": "2026-10-25T21:39:07Z",
     "users": [],
     "firstSeenAt": "2026-10-26T10:30:13.073163+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "MetaのパーソナルAI「Muse」日本上陸　iPhone Duoと相性抜群な次の”競争軸”【西田宗千佳のイマトミライ】",
     "url": "https://www.watch.impress.co.jp/docs/series/nishida/2150995.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 84,
+    "count": 86,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/series/nishida/2150995.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2150/995/m02.jpg",
     "description": null,
     "hatenaDate": "2026-10-25T23:23:49Z",
     "users": [],
     "firstSeenAt": "2026-10-26T10:30:13.073163+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "Google、プライバシーポリシーに「Gmail」「Googleフォト」のデータを広告に使う例外を追加　回避方法は",
     "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002570/",
     "domain": "www.itmedia.co.jp",
-    "count": 264,
+    "count": 267,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/26/2000002570/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/26/2000002570/10010413/2048",
     "description": "「コンテンツや広告など、カスタマイズしたサービスの提供」の項目にも記述が追加された。検索や「Gemini」アプリなどに、GoogleフォトやGmail、ドライブなどのデータへのアクセスを許可できること、その場合はアクセスする側のサービスのポリシーと設定が適用されることを説明している。例として、検索はアクセスを許可...",
     "hatenaDate": "2026-10-25T23:31:21Z",
     "users": [],
     "firstSeenAt": "2026-10-26T10:15:13.694927+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "「読みにくいDB」はAI開発のコストを1.9倍にする――Claude Codeで検証したDB設計の影響",
@@ -634,7 +673,7 @@
     "hatenaDate": "2026-10-25T04:22:49Z",
     "users": [],
     "firstSeenAt": "2026-10-26T09:45:11.761647+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "Googleフォト、ドライブ、Geminiを無料アプリに置き換えた結果、何が変わった？",
@@ -666,14 +705,14 @@
     "title": "私が5種類のコーディングエージェントを使い分ける理由",
     "url": "https://zenn.dev/rimon/articles/45c1fd2f015af8",
     "domain": "zenn.dev",
-    "count": 96,
+    "count": 98,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/rimon/articles/45c1fd2f015af8",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--EFERL7ev--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%25A7%2581%25E3%2581%258C5%25E7%25A8%25AE%25E9%25A1%259E%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2584%25E5%2588%2586%25E3%2581%2591%25E3%2582%258B%25E7%2590%2586%25E7%2594%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%259F%25E3%2583%25A2%2520%2520%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25AF%25E3%2583%25BC%25E3%2583%2589CTO%25E3%2583%25BBCPO%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2ZmZjQwODdjMmEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "私は普段から5種類のコーディングエージェントを併用しています。 人間が5つの画面を行き来するのではなく、Claude Codeを窓口にして他のエージェントを呼び出しています。 この記事では、なぜ私がそのような使い方をしているのか、それぞれどう使い分けているのかを解説します。 ※アウトプットの品質などは主観を含みま...",
     "hatenaDate": "2026-10-25T23:07:41Z",
     "users": [],
     "firstSeenAt": "2026-10-26T09:15:17.948254+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "ARTEXだけではない：日本を狙う3つの攻撃基盤に見るAI関与の実態",
@@ -699,7 +738,7 @@
     "hatenaDate": "2026-10-25T23:08:21Z",
     "users": [],
     "firstSeenAt": "2026-10-26T09:00:12.904243+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "広がるAI気象予測、自前主義には限界も - 日本経済新聞",
@@ -725,20 +764,20 @@
     "hatenaDate": "2026-10-25T21:15:24Z",
     "users": [],
     "firstSeenAt": "2026-10-26T07:15:12.546641+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "「能動的サイバー防御」とは：サイバー攻撃を未然に防ぎ、被害拡大を防止するための取り組み【今週のキーワード】",
     "url": "https://internet.watch.impress.co.jp/docs/column/keyword/2148826.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 128,
+    "count": 131,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/column/keyword/2148826.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2148/826/1.png",
     "description": null,
     "hatenaDate": "2026-10-25T21:39:31Z",
     "users": [],
     "firstSeenAt": "2026-10-26T07:15:12.546641+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "流暢な説明と確かな因果は別物である――ジャレド・ダイアモンド主要三著の説明力を測り直す｜Reading Monkey",
@@ -757,14 +796,14 @@
     "title": "ソフトウェアの脆弱性情報をいち早く入手する - CVE・CISA KEV・JPCERT/CC・OSV｜npaka",
     "url": "https://note.com/npaka/n/na5ad6472d68c",
     "domain": "note.com",
-    "count": 242,
+    "count": 243,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/npaka/n/na5ad6472d68c",
     "screenshot": "https://assets.st-note.com/production/uploads/images/328320427/rectangle_large_type_2_e650050dc3e6049b7e8998761e038ba8.png?fit=bounds&quality=85&width=1280",
     "description": "1. はじめにソフトウェアの「脆弱性」は、悪用されると不正アクセスや情報漏洩につながる危険性があります。そのため、脆弱性情報をいち早く入手し、対策することが重要です。 今回は、世界中の脆弱性情報を確認できる代表的な4つの情報源と、その活用方法を紹介します。 2. 脆弱性情報が公開されるまでの流れ脆弱性情報...",
     "hatenaDate": "2026-10-25T12:07:57Z",
     "users": [],
     "firstSeenAt": "2026-10-26T05:00:13.951493+09:00",
-    "lastSeenAt": "2026-10-26T18:30:14.385333+09:00"
+    "lastSeenAt": "2026-10-26T18:45:14.033725+09:00"
   },
   {
     "title": "政府に緊急要請のGMO 被害拡大防げるか 利用者に呼びかけ強化 | NHKニュース",
@@ -3859,44 +3898,5 @@
     "users": [],
     "firstSeenAt": "2026-10-22T22:30:15.114234+09:00",
     "lastSeenAt": "2026-10-22T22:45:14.026329+09:00"
-  },
-  {
-    "title": "「長い目で見れば防御側が有利」はなぜ？　守る側のAI活用法、本命は　Webセキュリティ専門家に聞く",
-    "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002521/",
-    "domain": "www.itmedia.co.jp",
-    "count": 17,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2610/22/2000002521/",
-    "screenshot": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/22/2000002521/10010206/2048",
-    "description": "2026年夏ごろから、サイバー攻撃による情報漏えいを公表する国内企業が相次いでいる。背景の一つとして指摘されるのが、攻撃者によるAIの利用だ。直近でもプログラミング言語「PHP」の脆弱性について、AIを使った攻撃者による悪用に注意するよう、米OpenAIなどが呼び掛けている。 攻撃が数でも速さでも人手の限界を超え...",
-    "hatenaDate": "2026-10-22T08:31:53Z",
-    "users": [],
-    "firstSeenAt": "2026-10-22T22:15:15.778283+09:00",
-    "lastSeenAt": "2026-10-23T04:45:13.662206+09:00"
-  },
-  {
-    "title": "コーディング不要ゲーム制作ツールはAI時代をどう生き残る？『RPGツクール』『ウディタ』『Bakin』『SRPG Studio』開発者が語る、「全人類ゲームクリエイター化」の野望 - AUTOMATON",
-    "url": "https://automaton-media.com/articles/interviewsjp/twbs-20261022-474670/",
-    "domain": "automaton-media.com",
-    "count": 6,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/automaton-media.com/articles/interviewsjp/twbs-20261022-474670/",
-    "screenshot": "https://automaton-media.com/wp-content/uploads/2026/10/twbs-20261022-474670-header.jpg",
-    "description": "誰しも一度は「自分だけのゲームを作ってみたい」と思い立ったことがあるのではないだろうか。そんな野望の実現を助け、日本のインディゲーム・フリーゲーム文化を支え続けてきたのが、国産のノーコードゲーム制作ツールの存在だ。 弊誌AUTOMATONでは、国内のノーコードゲーム制作ツールの開発者の方々にお声がけをし、...",
-    "hatenaDate": "2026-10-22T04:26:43Z",
-    "users": [],
-    "firstSeenAt": "2026-10-22T22:15:15.778283+09:00",
-    "lastSeenAt": "2026-10-22T22:30:15.114234+09:00"
-  },
-  {
-    "title": "経産省「ホワイトハッカー」のチーム立ち上げへ | NHKニュース",
-    "url": "https://news.web.nhk/newsweb/na/nd-20261022de63664",
-    "domain": "news.web.nhk",
-    "count": 90,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261022de63664",
-    "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261022de63664/20261022de63664_E0000099040_1_l.jpg",
-    "description": "国内で不正アクセスによる被害が相次いでいることを受けて、経済産業省は、所管する独立行政法人に、サイバー攻撃の手法に詳しい「ホワイトハッカー」と呼ばれるエンジニアのチームを新たに立ち上げる方針を固めまし…",
-    "hatenaDate": "2026-10-22T09:08:18Z",
-    "users": [],
-    "firstSeenAt": "2026-10-22T22:00:14.335853+09:00",
-    "lastSeenAt": "2026-10-23T09:30:13.343819+09:00"
   }
 ]
