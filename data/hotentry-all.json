@@ -10,8 +10,10 @@
     "hatenaDate": "2026-10-27T15:02:31Z",
     "users": [],
     "firstSeenAt": "2026-10-28T03:42:41.809693+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
-    "descriptionSource": "body"
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "descriptionSource": "body",
+    "bodyStatus": "skip",
+    "bodyReason": "not-longer"
   },
   {
     "title": "RESTful Web API 実装のベスト プラクティス - Azure Architecture Center",
@@ -24,7 +26,7 @@
     "hatenaDate": "2017-02-05T02:49:36Z",
     "users": [],
     "firstSeenAt": "2026-10-28T03:15:14.484229+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +40,7 @@
     "hatenaDate": "2026-10-27T11:47:37Z",
     "users": [],
     "firstSeenAt": "2026-10-28T03:00:13.592288+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +68,7 @@
     "hatenaDate": "2026-10-26T14:16:31Z",
     "users": [],
     "firstSeenAt": "2026-10-28T02:30:14.093466+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -94,7 +96,7 @@
     "hatenaDate": "2026-10-27T15:00:20Z",
     "users": [],
     "firstSeenAt": "2026-10-28T02:15:15.187042+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -108,7 +110,7 @@
     "hatenaDate": "2026-10-26T22:53:49Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:45:15.344624+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -122,7 +124,7 @@
     "hatenaDate": "2026-10-27T12:37:21Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:45:15.344624+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -136,7 +138,7 @@
     "hatenaDate": "2026-10-27T14:25:56Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:30:14.430137+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -150,7 +152,7 @@
     "hatenaDate": "2026-10-27T11:31:11Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:15:13.673765+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -178,7 +180,7 @@
     "hatenaDate": "2026-10-27T03:57:49Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:00:13.718227+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -192,7 +194,7 @@
     "hatenaDate": "2026-10-27T03:54:45Z",
     "users": [],
     "firstSeenAt": "2026-10-28T00:30:15.167489+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -220,7 +222,7 @@
     "hatenaDate": "2026-10-27T13:11:05Z",
     "users": [],
     "firstSeenAt": "2026-10-28T00:15:14.555403+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -234,7 +236,7 @@
     "hatenaDate": "2026-10-27T11:47:50Z",
     "users": [],
     "firstSeenAt": "2026-10-28T00:00:11.876932+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -249,7 +251,7 @@
     "hatenaDate": "2026-10-27T13:01:14Z",
     "users": [],
     "firstSeenAt": "2026-10-27T23:45:15.108553+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -263,7 +265,7 @@
     "hatenaDate": "2026-10-27T01:03:45Z",
     "users": [],
     "firstSeenAt": "2026-10-27T23:30:13.313733+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -277,7 +279,7 @@
     "hatenaDate": "2026-10-27T11:07:58Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:45:13.867066+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -291,7 +293,7 @@
     "hatenaDate": "2026-10-27T12:27:14Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:30:13.631160+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -305,7 +307,7 @@
     "hatenaDate": "2026-10-27T09:54:06Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:30:13.631160+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -319,7 +321,7 @@
     "hatenaDate": "2026-10-27T08:19:23Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:11:11.951544+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -333,7 +335,7 @@
     "hatenaDate": "2026-10-27T11:17:49Z",
     "users": [],
     "firstSeenAt": "2026-10-27T21:30:13.495233+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -347,7 +349,7 @@
     "hatenaDate": "2026-10-27T11:23:36Z",
     "users": [],
     "firstSeenAt": "2026-10-27T21:30:13.495233+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -361,7 +363,7 @@
     "hatenaDate": "2026-10-27T09:08:18Z",
     "users": [],
     "firstSeenAt": "2026-10-27T21:00:15.219766+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -375,7 +377,7 @@
     "hatenaDate": "2026-10-27T10:20:05Z",
     "users": [],
     "firstSeenAt": "2026-10-27T21:00:15.219766+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -403,7 +405,7 @@
     "hatenaDate": "2026-10-27T10:14:11Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:30:14.089942+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyStatus": "skip",
     "bodyReason": "http-405"
   },
@@ -418,7 +420,7 @@
     "hatenaDate": "2026-10-27T10:01:55Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:15:12.523819+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -432,7 +434,7 @@
     "hatenaDate": "2026-10-27T03:21:08Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:00:13.681933+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -446,7 +448,7 @@
     "hatenaDate": "2026-10-27T09:30:39Z",
     "users": [],
     "firstSeenAt": "2026-10-27T19:30:14.347457+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -460,7 +462,7 @@
     "hatenaDate": "2026-10-27T08:12:02Z",
     "users": [],
     "firstSeenAt": "2026-10-27T19:30:14.347457+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -474,7 +476,7 @@
     "hatenaDate": "2026-10-27T08:09:58Z",
     "users": [],
     "firstSeenAt": "2026-10-27T19:15:12.501742+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -502,7 +504,7 @@
     "hatenaDate": "2026-10-27T05:25:16Z",
     "users": [],
     "firstSeenAt": "2026-10-27T18:30:13.950338+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -516,7 +518,7 @@
     "hatenaDate": "2026-10-27T07:55:13Z",
     "users": [],
     "firstSeenAt": "2026-10-27T18:30:13.950338+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -530,7 +532,7 @@
     "hatenaDate": "2026-10-27T06:18:33Z",
     "users": [],
     "firstSeenAt": "2026-10-27T18:15:13.126620+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -558,7 +560,7 @@
     "hatenaDate": "2026-10-27T05:57:00Z",
     "users": [],
     "firstSeenAt": "2026-10-27T18:00:12.342884+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -572,7 +574,7 @@
     "hatenaDate": "2026-10-27T05:45:39Z",
     "users": [],
     "firstSeenAt": "2026-10-27T17:30:13.653506+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -600,7 +602,7 @@
     "hatenaDate": "2026-10-27T01:30:19Z",
     "users": [],
     "firstSeenAt": "2026-10-27T17:15:12.788732+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -614,7 +616,7 @@
     "hatenaDate": "2026-10-27T05:12:53Z",
     "users": [],
     "firstSeenAt": "2026-10-27T17:00:08.570264+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -628,7 +630,7 @@
     "hatenaDate": "2026-10-27T06:13:34Z",
     "users": [],
     "firstSeenAt": "2026-10-27T17:00:08.570264+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -670,7 +672,7 @@
     "hatenaDate": "2026-10-27T06:14:03Z",
     "users": [],
     "firstSeenAt": "2026-10-27T16:00:13.166664+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -684,7 +686,7 @@
     "hatenaDate": "2026-10-27T05:11:25Z",
     "users": [],
     "firstSeenAt": "2026-10-27T15:45:13.775627+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -813,7 +815,7 @@
     "hatenaDate": "2026-10-27T03:05:32Z",
     "users": [],
     "firstSeenAt": "2026-10-27T12:15:14.270998+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {

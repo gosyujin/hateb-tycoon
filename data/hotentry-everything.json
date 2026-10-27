@@ -10,8 +10,10 @@
     "hatenaDate": "2026-10-27T15:02:31Z",
     "users": [],
     "firstSeenAt": "2026-10-28T03:42:41.809693+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
-    "descriptionSource": "body"
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "descriptionSource": "body",
+    "bodyStatus": "skip",
+    "bodyReason": "not-longer"
   },
   {
     "title": "RESTful Web API 実装のベスト プラクティス - Azure Architecture Center",
@@ -24,7 +26,7 @@
     "hatenaDate": "2017-02-05T02:49:36Z",
     "users": [],
     "firstSeenAt": "2026-10-28T03:15:14.484229+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +40,7 @@
     "hatenaDate": "2026-10-27T11:47:37Z",
     "users": [],
     "firstSeenAt": "2026-10-28T03:00:13.592288+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +68,7 @@
     "hatenaDate": "2026-10-26T14:16:31Z",
     "users": [],
     "firstSeenAt": "2026-10-28T02:30:14.093466+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -94,7 +96,7 @@
     "hatenaDate": "2026-10-27T15:00:20Z",
     "users": [],
     "firstSeenAt": "2026-10-28T02:15:15.187042+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -108,7 +110,7 @@
     "hatenaDate": "2026-10-26T22:53:49Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:45:15.344624+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -122,7 +124,7 @@
     "hatenaDate": "2026-10-27T12:37:21Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:45:15.344624+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -136,7 +138,7 @@
     "hatenaDate": "2026-10-27T14:25:56Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:30:14.430137+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -150,7 +152,7 @@
     "hatenaDate": "2026-10-27T11:31:11Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:15:13.673765+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -178,7 +180,7 @@
     "hatenaDate": "2026-10-27T03:57:49Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:00:13.718227+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -192,7 +194,7 @@
     "hatenaDate": "2026-10-27T03:54:45Z",
     "users": [],
     "firstSeenAt": "2026-10-28T00:30:15.167489+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -220,7 +222,7 @@
     "hatenaDate": "2026-10-27T13:11:05Z",
     "users": [],
     "firstSeenAt": "2026-10-28T00:15:14.555403+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -234,7 +236,7 @@
     "hatenaDate": "2026-10-27T11:47:50Z",
     "users": [],
     "firstSeenAt": "2026-10-28T00:00:11.876932+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -249,7 +251,7 @@
     "hatenaDate": "2026-10-27T13:01:14Z",
     "users": [],
     "firstSeenAt": "2026-10-27T23:45:15.108553+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -263,7 +265,7 @@
     "hatenaDate": "2026-10-27T01:03:45Z",
     "users": [],
     "firstSeenAt": "2026-10-27T23:30:13.313733+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -277,7 +279,7 @@
     "hatenaDate": "2026-10-27T11:07:58Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:45:13.867066+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -291,7 +293,7 @@
     "hatenaDate": "2026-10-27T12:27:14Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:30:13.631160+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -305,7 +307,7 @@
     "hatenaDate": "2026-10-27T09:54:06Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:30:13.631160+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -319,7 +321,7 @@
     "hatenaDate": "2026-10-27T08:19:23Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:11:11.951544+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -333,7 +335,7 @@
     "hatenaDate": "2026-10-27T11:17:49Z",
     "users": [],
     "firstSeenAt": "2026-10-27T21:30:13.495233+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -347,7 +349,7 @@
     "hatenaDate": "2026-10-27T11:23:36Z",
     "users": [],
     "firstSeenAt": "2026-10-27T21:30:13.495233+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -361,7 +363,7 @@
     "hatenaDate": "2026-10-27T09:08:18Z",
     "users": [],
     "firstSeenAt": "2026-10-27T21:00:15.219766+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -375,7 +377,7 @@
     "hatenaDate": "2026-10-27T10:20:05Z",
     "users": [],
     "firstSeenAt": "2026-10-27T21:00:15.219766+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -403,7 +405,7 @@
     "hatenaDate": "2026-10-27T10:14:11Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:30:14.089942+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyStatus": "skip",
     "bodyReason": "http-405"
   },
@@ -418,7 +420,7 @@
     "hatenaDate": "2026-10-27T10:01:55Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:15:12.523819+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -432,7 +434,7 @@
     "hatenaDate": "2026-10-27T03:21:08Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:00:13.681933+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -446,7 +448,7 @@
     "hatenaDate": "2026-10-27T09:30:39Z",
     "users": [],
     "firstSeenAt": "2026-10-27T19:30:14.347457+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -460,7 +462,7 @@
     "hatenaDate": "2026-10-27T08:12:02Z",
     "users": [],
     "firstSeenAt": "2026-10-27T19:30:14.347457+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -474,7 +476,7 @@
     "hatenaDate": "2026-10-27T08:09:58Z",
     "users": [],
     "firstSeenAt": "2026-10-27T19:15:12.501742+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -502,7 +504,7 @@
     "hatenaDate": "2026-10-27T05:25:16Z",
     "users": [],
     "firstSeenAt": "2026-10-27T18:30:13.950338+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -516,7 +518,7 @@
     "hatenaDate": "2026-10-27T07:55:13Z",
     "users": [],
     "firstSeenAt": "2026-10-27T18:30:13.950338+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -530,7 +532,7 @@
     "hatenaDate": "2026-10-27T06:18:33Z",
     "users": [],
     "firstSeenAt": "2026-10-27T18:15:13.126620+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -558,7 +560,7 @@
     "hatenaDate": "2026-10-27T05:57:00Z",
     "users": [],
     "firstSeenAt": "2026-10-27T18:00:12.342884+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -572,7 +574,7 @@
     "hatenaDate": "2026-10-27T05:45:39Z",
     "users": [],
     "firstSeenAt": "2026-10-27T17:30:13.653506+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -600,7 +602,7 @@
     "hatenaDate": "2026-10-27T01:30:19Z",
     "users": [],
     "firstSeenAt": "2026-10-27T17:15:12.788732+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -614,7 +616,7 @@
     "hatenaDate": "2026-10-27T05:12:53Z",
     "users": [],
     "firstSeenAt": "2026-10-27T17:00:08.570264+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -628,7 +630,7 @@
     "hatenaDate": "2026-10-27T06:13:34Z",
     "users": [],
     "firstSeenAt": "2026-10-27T17:00:08.570264+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -670,7 +672,7 @@
     "hatenaDate": "2026-10-27T06:14:03Z",
     "users": [],
     "firstSeenAt": "2026-10-27T16:00:13.166664+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -684,7 +686,7 @@
     "hatenaDate": "2026-10-27T05:11:25Z",
     "users": [],
     "firstSeenAt": "2026-10-27T15:45:13.775627+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -813,7 +815,7 @@
     "hatenaDate": "2026-10-27T03:05:32Z",
     "users": [],
     "firstSeenAt": "2026-10-27T12:15:14.270998+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4249,7 +4251,7 @@
     "hatenaDate": "2026-10-27T14:37:35Z",
     "users": [],
     "firstSeenAt": "2026-10-28T03:30:15.661640+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4263,7 +4265,7 @@
     "hatenaDate": "2026-10-27T10:25:01Z",
     "users": [],
     "firstSeenAt": "2026-10-28T02:45:14.721514+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4277,7 +4279,7 @@
     "hatenaDate": "2026-10-27T13:05:56Z",
     "users": [],
     "firstSeenAt": "2026-10-28T02:45:14.721514+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4291,7 +4293,7 @@
     "hatenaDate": "2026-10-27T12:32:23Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:00:13.718227+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4305,7 +4307,7 @@
     "hatenaDate": "2026-10-26T22:07:02Z",
     "users": [],
     "firstSeenAt": "2026-10-28T00:45:14.119584+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -4349,7 +4351,7 @@
     "hatenaDate": "2026-10-27T11:34:43Z",
     "users": [],
     "firstSeenAt": "2026-10-27T23:45:15.108553+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4391,7 +4393,7 @@
     "hatenaDate": "2026-10-27T12:52:54Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:45:13.867066+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4419,7 +4421,7 @@
     "hatenaDate": "2026-10-27T11:23:07Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:30:13.631160+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4433,7 +4435,7 @@
     "hatenaDate": "2026-10-27T11:54:41Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:11:11.951544+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyStatus": "skip",
     "bodyReason": "robots-disallow"
   },
@@ -6309,7 +6311,7 @@
     "hatenaDate": "2026-10-27T06:15:51Z",
     "users": [],
     "firstSeenAt": "2026-10-27T23:45:15.108553+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -6521,7 +6523,7 @@
     "hatenaDate": "2026-10-27T05:54:44Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:00:13.681933+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -6619,7 +6621,7 @@
     "hatenaDate": "2026-10-26T08:10:25Z",
     "users": [],
     "firstSeenAt": "2026-10-27T16:45:14.389330+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -8608,7 +8610,7 @@
     "hatenaDate": "2026-10-27T05:37:09Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:45:13.867066+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -8622,7 +8624,7 @@
     "hatenaDate": "2026-10-27T04:48:54Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:30:13.631160+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -8636,7 +8638,7 @@
     "hatenaDate": "2026-10-26T23:19:26Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:45:27.264692+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -8650,7 +8652,7 @@
     "hatenaDate": "2026-10-26T21:39:14Z",
     "users": [],
     "firstSeenAt": "2026-10-27T19:15:12.501742+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -8664,7 +8666,7 @@
     "hatenaDate": "2026-10-27T01:00:21Z",
     "users": [],
     "firstSeenAt": "2026-10-27T19:00:08.538668+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -8678,7 +8680,7 @@
     "hatenaDate": "2026-10-27T06:25:11Z",
     "users": [],
     "firstSeenAt": "2026-10-27T18:30:13.950338+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -8692,7 +8694,7 @@
     "hatenaDate": "2026-10-26T23:11:57Z",
     "users": [],
     "firstSeenAt": "2026-10-27T18:30:13.950338+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -8706,7 +8708,7 @@
     "hatenaDate": "2026-10-26T11:52:48Z",
     "users": [],
     "firstSeenAt": "2026-10-27T16:00:13.166664+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -12003,7 +12005,7 @@
     "hatenaDate": "2026-10-25T09:03:34Z",
     "users": [],
     "firstSeenAt": "2026-10-26T19:00:16.021755+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -15028,7 +15030,7 @@
     "hatenaDate": "2026-10-27T01:18:26Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:11:11.951544+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -15042,7 +15044,7 @@
     "hatenaDate": "2026-10-24T09:59:41Z",
     "users": [],
     "firstSeenAt": "2026-10-27T12:30:12.004563+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -15056,7 +15058,7 @@
     "hatenaDate": "2026-10-26T07:41:45Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17020,6 +17022,20 @@
     "descriptionSource": "body"
   },
   {
+    "title": "書き手が人でもAIでも正しくなる道、�SREを埋め込んだDeveloper Platform / tech drivers day8",
+    "url": "https://speakerdeck.com/chmikata/tech-drivers-day8",
+    "domain": "speakerdeck.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/chmikata/tech-drivers-day8",
+    "screenshot": "https://files.speakerdeck.com/presentations/352b420055a041cc9e7526307dfacfdb/slide_0.jpg?41101120",
+    "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … 書き手が人でもAIでも正しくなる道、 SREを埋め込んだDeveloper Platform ... 書き手が人でもAIでも正しくなる道、 SREを埋め込んだDeveloper Platform / tech drivers day8 「ちゃんとやっている」は独りよがりだった ― 不安に寄り添うインシデント対応へ / Towards incident response that addresses anxieties ACK + kro…",
+    "hatenaDate": "2026-10-27T14:14:45Z",
+    "users": [],
+    "firstSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "3回つくってわかった、 定期実行ジョブ基盤の本質情報",
     "url": "https://speakerdeck.com/takai/i-built-a-scheduled-job-platform-three-times-and-now-i-know-the-essential-truths",
     "domain": "speakerdeck.com",
@@ -17030,7 +17046,7 @@
     "hatenaDate": "2026-10-27T10:14:52Z",
     "users": [],
     "firstSeenAt": "2026-10-28T03:15:14.484229+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17044,7 +17060,7 @@
     "hatenaDate": "2026-10-27T01:09:13Z",
     "users": [],
     "firstSeenAt": "2026-10-28T03:00:13.592288+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17058,7 +17074,7 @@
     "hatenaDate": "2026-10-27T11:36:34Z",
     "users": [],
     "firstSeenAt": "2026-10-28T02:30:14.093466+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -17073,7 +17089,7 @@
     "hatenaDate": "2026-10-27T03:51:53Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:30:14.430137+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -17081,14 +17097,14 @@
     "title": "Claude Codeから見る、エンジニアの世界の変容とその先",
     "url": "https://speakerdeck.com/oikon48/qiita-con-claude-code",
     "domain": "speakerdeck.com",
-    "count": 18,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/oikon48/qiita-con-claude-code",
     "screenshot": "https://files.speakerdeck.com/presentations/d95798c50e0b4bad980ddaa6be2a446a/slide_0.jpg?41106441",
     "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … Sponsored · Your Podcast. Everywhere. Effortlessly. Share. Educate. Inspire. Entertain. You do you. We'll handle the rest. → Practical ransomware detection on macOS (via maths, not AI) シンプルな設定ファイルで実現する AWS IAM Identity C…",
     "hatenaDate": "2026-10-27T10:20:37Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:00:13.718227+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17102,7 +17118,7 @@
     "hatenaDate": "2026-10-27T07:39:10Z",
     "users": [],
     "firstSeenAt": "2026-10-28T00:00:11.876932+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17130,7 +17146,7 @@
     "hatenaDate": "2026-10-27T06:24:04Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:45:13.867066+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -17159,7 +17175,7 @@
     "hatenaDate": "2026-10-27T04:54:10Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:45:13.867066+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17173,7 +17189,7 @@
     "hatenaDate": "2026-10-27T08:54:34Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:30:13.631160+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17230,7 +17246,7 @@
     "hatenaDate": "2026-10-27T07:46:21Z",
     "users": [],
     "firstSeenAt": "2026-10-27T21:00:15.219766+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -17260,7 +17276,7 @@
     "hatenaDate": "2026-10-27T09:37:31Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:45:27.264692+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -17304,7 +17320,7 @@
     "hatenaDate": "2026-10-27T03:19:00Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:15:12.523819+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17318,7 +17334,7 @@
     "hatenaDate": "2026-10-27T09:35:06Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:15:12.523819+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17548,7 +17564,7 @@
     "hatenaDate": "2026-10-27T05:11:36Z",
     "users": [],
     "firstSeenAt": "2026-10-27T15:45:13.775627+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20046,20 +20062,6 @@
     "descriptionSource": "body"
   },
   {
-    "title": "PHP2Shell緊急対策：日本国内向けサイトで海外IPを全部弾く、即効性のあるIPフィルタ防御 - Qiita",
-    "url": "https://qiita.com/Hiro884/items/27a98c86ef17b70df7ed",
-    "domain": "qiita.com",
-    "count": 13,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/Hiro884/items/27a98c86ef17b70df7ed",
-    "screenshot": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDgxMDc1JTJGcHJvZmlsZS1pbWFnZXMlMkYxNzA1MDIwNzAyP2l4bGliPXJiLTQuMS4xJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz00ODRmNDVjYWFlNWYzYzZjYmU3MDUzNDEwMjhjNmY1Yg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D189fe7a3ac08e44d3a68fc442fe90b24?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9UEhQMlNoZWxsJUU3JUI3JThBJUU2JTgwJUE1JUU1JUFGJUJFJUU3JUFEJTk2JUVGJUJDJTlBJUU2JTk3JUE1JUU2JTlDJUFDJUU1JTlCJUJEJUU1JTg2JTg1JUU1JTkwJTkxJUUzJTgxJTkxJUUzJTgyJUI1JUUzJTgyJUE0JUUzJTgzJTg4JUUzJTgxJUE3JUU2JUI1JUI3JUU1JUE0JTk2SVAlRTMlODIlOTIlRTUlODUlQTglRTklODMlQTglRTUlQkMlQkUlRTMlODElOEYlRTMlODAlODElRTUlOEQlQjMlRTUlOEElQjklRTYlODAlQTclRTMlODElQUUlRTMlODElODIlRTMlODIlOEJJUCVFMyU4MyU5NSVFMyU4MiVBMyVFMyU4MyVBQiVFMyU4MiVCRiVFOSU5OCVCMiVFNSVCRSVBMSZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPTdiYmFkMWZlZTM1ZTI4NmVkYzM2MmYzYjYwOGYyOTll&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBIaXJvODg0JnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9OGEwNDY3ZjJjZmE3MmM4YTViNDZmMTEwMGI2MDIzY2Q&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=310a820865906a7a0cc4b32f3b351f7d",
-    "description": "2026年10月21日、PHPの重大な脆弱性 PHP2Shell（CVE-2026-109618 / CVE-2026-109619）が公開されました。CVSSv4.0スコアは9.2。PHP 5.4以降のほぼすべてのバージョンに影響し、認証不要でリモートコード実行が可能です。 パッチ適用が根本対策ですが、レンタルサーバやVPSの環境によっては、PHPのバージョンアップがすぐにはできない場合があります。共用レンタルサーバではそもそもPHPバージョンの制御権がユーザにないケースもあるでしょう。 この記事では、パッチ適用までの緊急防御策として、日本国内のIPアドレス以外からのHTTP/HTTPSア…",
-    "hatenaDate": "2026-10-23T08:18:01Z",
-    "users": [],
-    "firstSeenAt": "2026-10-24T14:45:12.211498+09:00",
-    "lastSeenAt": "2026-10-24T18:45:12.895435+09:00",
-    "descriptionSource": "body"
-  },
-  {
     "title": "茨城高専の「茨香祭」の出し物のひとつに「奴隷が回してる謎の棒」をシステムに組み込んだ手作りコーヒーカップ遊具があってセンス◎",
     "url": "https://togetter.com/li/2763439",
     "domain": "togetter.com",
@@ -20070,7 +20072,7 @@
     "hatenaDate": "2026-10-27T13:45:37Z",
     "users": [],
     "firstSeenAt": "2026-10-28T00:15:14.555403+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20084,7 +20086,7 @@
     "hatenaDate": "2026-10-27T05:58:07Z",
     "users": [],
     "firstSeenAt": "2026-10-27T18:15:13.126620+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20098,7 +20100,7 @@
     "hatenaDate": "2026-10-26T07:23:44Z",
     "users": [],
     "firstSeenAt": "2026-10-27T00:15:17.600270+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20112,7 +20114,7 @@
     "hatenaDate": "2026-10-25T13:08:51Z",
     "users": [],
     "firstSeenAt": "2026-10-25T23:15:14.040673+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20126,7 +20128,7 @@
     "hatenaDate": "2026-10-24T08:15:51Z",
     "users": [],
     "firstSeenAt": "2026-10-25T13:15:14.206371+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20140,7 +20142,7 @@
     "hatenaDate": "2026-10-24T02:33:21Z",
     "users": [],
     "firstSeenAt": "2026-10-25T01:45:16.251007+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20154,7 +20156,7 @@
     "hatenaDate": "2026-10-24T15:21:24Z",
     "users": [],
     "firstSeenAt": "2026-10-25T01:15:13.774372+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20168,7 +20170,7 @@
     "hatenaDate": "2026-10-24T02:33:14Z",
     "users": [],
     "firstSeenAt": "2026-10-24T23:54:14.346889+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20182,7 +20184,7 @@
     "hatenaDate": "2026-10-22T10:33:40Z",
     "users": [],
     "firstSeenAt": "2026-10-23T23:30:15.398377+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20196,7 +20198,7 @@
     "hatenaDate": "2026-10-23T02:10:50Z",
     "users": [],
     "firstSeenAt": "2026-10-23T23:15:17.349080+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20210,7 +20212,7 @@
     "hatenaDate": "2026-10-23T02:39:49Z",
     "users": [],
     "firstSeenAt": "2026-10-23T22:45:16.054296+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20224,7 +20226,7 @@
     "hatenaDate": "2026-10-23T06:54:31Z",
     "users": [],
     "firstSeenAt": "2026-10-23T17:15:13.809670+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20238,7 +20240,7 @@
     "hatenaDate": "2026-10-23T01:01:55Z",
     "users": [],
     "firstSeenAt": "2026-10-23T14:45:13.617277+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20252,7 +20254,7 @@
     "hatenaDate": "2026-10-23T01:03:41Z",
     "users": [],
     "firstSeenAt": "2026-10-23T12:30:15.539493+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20266,7 +20268,7 @@
     "hatenaDate": "2026-10-22T12:48:20Z",
     "users": [],
     "firstSeenAt": "2026-10-23T01:30:14.971997+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20280,7 +20282,7 @@
     "hatenaDate": "2026-10-22T03:38:29Z",
     "users": [],
     "firstSeenAt": "2026-10-23T00:15:13.389348+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20294,7 +20296,7 @@
     "hatenaDate": "2026-10-22T08:37:21Z",
     "users": [],
     "firstSeenAt": "2026-10-22T23:41:30.845368+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20308,7 +20310,7 @@
     "hatenaDate": "2026-10-22T03:24:42Z",
     "users": [],
     "firstSeenAt": "2026-10-22T13:00:12.162082+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -21558,7 +21560,7 @@
     "hatenaDate": "2026-10-27T07:53:38Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:00:13.681933+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -21572,7 +21574,7 @@
     "hatenaDate": "2026-10-27T09:18:09Z",
     "users": [],
     "firstSeenAt": "2026-10-27T19:30:14.347457+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24100,21 +24102,21 @@
     "hatenaDate": "2026-10-27T14:11:17Z",
     "users": [],
     "firstSeenAt": "2026-10-28T03:00:13.592288+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "[第八話]科科科科 - 牧野ムカデ | 少年ジャンプ＋",
     "url": "https://shonenjumpplus.com/episode/9253191257538010244",
     "domain": "shonenjumpplus.com",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/shonenjumpplus.com/episode/9253191257538010244",
     "screenshot": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/9253191256194886028-720b0e1dc237cd49447f6cf6ac0f244e?1792508108",
     "description": "<毎週水曜更新！最新3話無料>日銭を稼いで生きる戸籍を持たない兄弟。科挙で成り上がる野望を持つ兄は、権力者の息子の科挙受験の替え玉に名乗り出るが…。筆一本で時代と権力を覆せ。17世紀中国・明が舞台の中華科挙復讐譚、開幕。 ブラウザ版では、応援コメントの投稿、コメントへのいいジャン、および通報機能はご利用いただけません",
     "hatenaDate": "2026-10-27T15:03:56Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:30:14.430137+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24128,7 +24130,7 @@
     "hatenaDate": "2026-10-27T08:43:34Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:00:13.718227+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24142,7 +24144,7 @@
     "hatenaDate": "2026-10-27T03:13:09Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:11:11.951544+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -24157,7 +24159,7 @@
     "hatenaDate": "2026-10-27T10:04:04Z",
     "users": [],
     "firstSeenAt": "2026-10-27T21:00:15.219766+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyStatus": "skip",
     "bodyReason": "no-text"
   },
@@ -24172,7 +24174,7 @@
     "hatenaDate": "2026-10-26T15:21:53Z",
     "users": [],
     "firstSeenAt": "2026-10-27T21:00:15.219766+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24186,7 +24188,7 @@
     "hatenaDate": "2026-10-27T06:47:58Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:45:27.264692+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24200,7 +24202,7 @@
     "hatenaDate": "2026-10-27T07:06:19Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:45:27.264692+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -24215,7 +24217,7 @@
     "hatenaDate": "2026-10-26T14:23:27Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:00:13.681933+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -24230,7 +24232,7 @@
     "hatenaDate": "2026-10-26T02:46:05Z",
     "users": [],
     "firstSeenAt": "2026-10-27T17:15:12.788732+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24244,7 +24246,7 @@
     "hatenaDate": "2026-10-26T09:59:14Z",
     "users": [],
     "firstSeenAt": "2026-10-27T17:00:08.570264+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24258,7 +24260,7 @@
     "hatenaDate": "2026-10-27T03:59:03Z",
     "users": [],
     "firstSeenAt": "2026-10-27T16:00:13.166664+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24272,7 +24274,7 @@
     "hatenaDate": "2026-10-26T10:06:47Z",
     "users": [],
     "firstSeenAt": "2026-10-27T15:30:14.203897+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24286,7 +24288,7 @@
     "hatenaDate": "2026-10-26T15:32:41Z",
     "users": [],
     "firstSeenAt": "2026-10-27T13:45:13.287782+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -24301,7 +24303,7 @@
     "hatenaDate": "2026-10-26T22:38:32Z",
     "users": [],
     "firstSeenAt": "2026-10-27T13:30:12.710861+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -24316,7 +24318,7 @@
     "hatenaDate": "2026-10-27T03:18:07Z",
     "users": [],
     "firstSeenAt": "2026-10-27T12:30:12.004563+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24330,7 +24332,7 @@
     "hatenaDate": "2026-10-27T03:07:52Z",
     "users": [],
     "firstSeenAt": "2026-10-27T12:30:12.004563+09:00",
-    "lastSeenAt": "2026-10-28T03:42:41.809693+09:00",
+    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
     "descriptionSource": "body"
   },
   {
@@ -27695,20 +27697,6 @@
     "hatenaDate": "2026-10-17T02:02:56Z",
     "users": [],
     "firstSeenAt": "2026-10-17T11:45:12.856525+09:00",
-    "lastSeenAt": "2026-10-19T00:00:12.575811+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "薬屋のひとりごと：テレビアニメ第3期　猫猫と壬氏の関係は？　子守唄の「無言」の意味　筆坂明規監督インタビュー - MANTANWEB（まんたんウェブ）",
-    "url": "https://mantan-web.jp/article/20261014dog00m200065000a.html",
-    "domain": "mantan-web.jp",
-    "count": 22,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/mantan-web.jp/article/20261014dog00m200065000a.html",
-    "screenshot": null,
-    "description": "小説投稿サイト「小説家になろう」から生まれた日向夏さんのライトノベルが原作のテレビアニメ「薬屋のひとりごと」の第3期が、日本テレビ系のアニメ枠「FRIDAY ANIME NIGHT（フラアニ）」で10月2日から毎週金曜午後11時に放送されている。物語は後宮から市井へと舞台を移し、猫猫と壬氏には新たなる試練が待ち受ける。第1期に副監督として参加し、第2期から監督を務める筆坂明規さんに、第3期について聞いた。 【PR】「ふるちゃーじ」防災啓発デジタルアイドルユニット誕生秘話《 満タン運動 × MANTANWEB 》 「薬屋のひとりごと」は、ライトノベルがヒーロー文庫（イマジカインフォス）から刊行…",
-    "hatenaDate": "2026-10-16T23:27:26Z",
-    "users": [],
-    "firstSeenAt": "2026-10-17T10:45:15.600437+09:00",
     "lastSeenAt": "2026-10-19T00:00:12.575811+09:00",
     "descriptionSource": "body"
   }
