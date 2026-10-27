@@ -10,7 +10,7 @@
     "hatenaDate": "2026-10-27T14:14:45Z",
     "users": [],
     "firstSeenAt": "2026-10-28T03:45:15.100200+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +24,7 @@
     "hatenaDate": "2026-10-27T10:14:52Z",
     "users": [],
     "firstSeenAt": "2026-10-28T03:15:14.484229+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +38,7 @@
     "hatenaDate": "2026-10-27T01:09:13Z",
     "users": [],
     "firstSeenAt": "2026-10-28T03:00:13.592288+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +52,7 @@
     "hatenaDate": "2026-10-27T11:36:34Z",
     "users": [],
     "firstSeenAt": "2026-10-28T02:30:14.093466+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -67,7 +67,7 @@
     "hatenaDate": "2026-10-27T03:51:53Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:30:14.430137+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -82,7 +82,7 @@
     "hatenaDate": "2026-10-27T10:20:37Z",
     "users": [],
     "firstSeenAt": "2026-10-28T01:00:13.718227+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body"
   },
   {
@@ -96,21 +96,21 @@
     "hatenaDate": "2026-10-27T07:39:10Z",
     "users": [],
     "firstSeenAt": "2026-10-28T00:00:11.876932+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "公開された情報と氏名など同一の人物、ＧＭＯクラウドサービスの利用「一度もない」",
     "url": "https://www.yomiuri.co.jp/national/20261027-GYT1T00367/",
     "domain": "www.yomiuri.co.jp",
-    "count": 81,
+    "count": 83,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.yomiuri.co.jp/national/20261027-GYT1T00367/",
     "screenshot": "https://www.yomiuri.co.jp/media/2026/10/20261027-GYT1I00368-1.jpg?type=ogp",
     "description": "ＧＭＯインターネットのＦＸ（外国為替証拠金）取引用クラウドサービスが不正アクセスを受けた問題で、攻撃者は２７日、同社が期限の同日正午までに交渉に応じなかったとして、日本語サイトに個人情報とみられる情報１件を公開した。同社は、攻撃者が情報を公開したとして、利用者の情報かどうかの確認を進めている。 公開された情報は、日本人とみられる１人分の氏名や住所、電話番号のほか、職業、ライフスタイルなどのプロフィル。攻撃者は同日公開した声明で、今後も交渉に応じなければ、毎日正午に窃取した個人情報を順次公開していくとしている。 これまで攻撃者は、同サービス上にある各利用者の仮想サーバー２万７０００台や個人のパ…",
     "hatenaDate": "2026-10-27T13:11:05Z",
     "users": [],
     "firstSeenAt": "2026-10-27T23:45:15.108553+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -133,14 +133,14 @@
     "title": "ベイブレードXの「ベイバトルパス」をリバースエンジニアリングして独自アプリを開発、AIがシュートの強さを評価してアドバイス",
     "url": "https://gigazine.net/news/20261027-bayblade-x-reverse-engineering/",
     "domain": "gigazine.net",
-    "count": 8,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261027-bayblade-x-reverse-engineering/",
     "screenshot": "https://i.gzn.jp/img/2026/10/27/bayblade-x-reverse-engineering/00.png",
     "description": "タカラトミーの玩具「ベイブレードX」でシュートの強さを記録できる周辺機器「ベイバトルパス」の通信データを解析し、シュートの結果をリアルタイムで表示する独自アプリを開発した人物がその制作過程を公開しました。 Reverse engineering a Beyblade launch tracker - Simone's Blog https://blog.simone.computer/re...",
     "hatenaDate": "2026-10-27T06:24:04Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:45:13.867066+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -162,14 +162,14 @@
     "title": "メール配信サービス「ブラストメール」への不正アクセスについてまとめてみた - piyolog",
     "url": "https://piyolog.hatenadiary.jp/entry/2026/10/27/133851",
     "domain": "piyolog.hatenadiary.jp",
-    "count": 10,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/27/133851",
     "screenshot": "https://ogimage.blog.st-hatena.com/10257846132616586766/14945776032095907959/1793075952",
     "description": "2026年10月21日、ラクスは、子会社のラクスライトクラウドが提供するメール配信サービス「ブラストメール」で外部の第三者による不正アクセスがあり、契約者の情報などが持ち出されたと公表しました。ここでは関連する情報をまとめます。 ラクスライトクラウドは不審なアクセスを検知し、10月21日0時30分からブラストメールを緊急停止した。管理画面とAPIは利用できない状態で、メールの配信も1時頃から停止した(出典: 1, 6)。ラクスは同日、不審なアクセスの検知とサービス停止、続いて個人情報を含むデータの持ち出しの確認を公表(出典: 1, 2)。 全契約者が対象。販売管理システムから持ち出され、会社…",
     "hatenaDate": "2026-10-27T04:54:10Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:45:13.867066+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body"
   },
   {
@@ -183,7 +183,7 @@
     "hatenaDate": "2026-10-27T08:54:34Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:30:13.631160+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body"
   },
   {
@@ -212,7 +212,7 @@
     "hatenaDate": "2017-02-05T02:49:36Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:15:15.488328+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -221,14 +221,14 @@
     "title": "コードを読まずにマージするために必要なこと",
     "url": "https://zenn.dev/nrs/articles/c777388530aa84",
     "domain": "zenn.dev",
-    "count": 58,
+    "count": 59,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/nrs/articles/c777388530aa84",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--vYT4Vf4Z--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E8%25AA%25AD%25E3%2581%25BE%25E3%2581%259A%25E3%2581%25AB%25E3%2583%259E%25E3%2583%25BC%25E3%2582%25B8%25E3%2581%2599%25E3%2582%258B%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AB%25E5%25BF%2585%25E8%25A6%2581%25E3%2581%25AA%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nrs%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2UzODcxZGFkYjEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "その差分を開発者がひとつずつ読み、指摘を返して修正を待ち、修正後のコードをまた読む。 人がコードを読まずに PR をマージする「no look merge」を実現するには何が必要でしょうか。 大前提として no look merge でもコードの品質を確認する仕組みは必要です。 たとえば要求どおりの動作をテストで確かめ、設計やセキュリティのレビューを AI に任せる方法があります。 指摘された問題を修正した後に再検証し、未実施の検証や未解決の指摘が残る PR はマージしない。 人がレビューで確かめていたことを仕組みに任せられる水準に達していることが、ここからの話の前提です。 こうした仕組みで…",
     "hatenaDate": "2026-10-27T11:07:58Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:11:11.951544+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -237,14 +237,14 @@
     "title": "スライド作成入門_2024.indd",
     "url": "https://home.riise.hiroshima-u.ac.jp/~ten/slide_20240328.pdf?utm_source=chatgpt.com",
     "domain": "home.riise.hiroshima-u.ac.jp",
-    "count": 66,
+    "count": 68,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/home.riise.hiroshima-u.ac.jp/~ten/slide_20240328.pdf?utm_source=chatgpt.com",
     "screenshot": null,
     "description": "スライド 見やすく！ わかりやすく！ 情報デザインを意識した スライド作成入門 伝わる！ -1- プレゼンテーションとは，なんのためにするのでしょうか？ それは「伝えたいことを，伝えたい相手に，ちゃんと伝えるため」であると言えます。 そのためには，わかりやすく伝わりやすいスライドを作成する必要があります。 「...",
     "hatenaDate": "2026-10-27T11:47:50Z",
     "users": [],
     "firstSeenAt": "2026-10-27T22:11:11.951544+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -287,7 +287,7 @@
     "hatenaDate": "2026-10-27T11:23:36Z",
     "users": [],
     "firstSeenAt": "2026-10-27T21:00:15.219766+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -303,7 +303,7 @@
     "hatenaDate": "2026-10-27T07:46:21Z",
     "users": [],
     "firstSeenAt": "2026-10-27T21:00:15.219766+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -318,7 +318,7 @@
     "hatenaDate": "2026-10-27T10:20:05Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:45:27.264692+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -349,7 +349,7 @@
     "hatenaDate": "2026-10-27T09:37:31Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:45:27.264692+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -393,7 +393,7 @@
     "hatenaDate": "2026-10-27T03:19:00Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:15:12.523819+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body"
   },
   {
@@ -407,21 +407,21 @@
     "hatenaDate": "2026-10-27T09:35:06Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:15:12.523819+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "GMO、なんでそんなに嫌われているの？→ダークパターン、対応の悪さ、同業者からの悪評と集まった反応がまるでGMOのWikiのよう",
     "url": "https://togetter.com/li/2763425",
     "domain": "togetter.com",
-    "count": 248,
+    "count": 254,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2763425",
     "screenshot": "https://s.tgstc.com/ogp3/530640b3c78db023c8e16fea754dc28c-1200x630.jpeg",
     "description": "平成 GMO ダークパターン IT インターネット インターネット老人会 ダイヤルQ2 GMO、なんでそんなに嫌われてるのかよくわからないので誰か理由とかやらかし事案とか教えてほしい @yousukezan お名前.com ダークパターンの権化のようなサイト。 意図しない課金被害者多いと思います。 お名前 .com のダークパターン - 初年度の安さを強調し、更新料金を目立たせない - サービス維持調整費による追加請求 - 有料オプションの初期選択 - レンタルサーバー契約への誘導 - ドメインの自動更新・自動課金 - 自動更新停止は期限16日前まで - 有料オプションも自動更新 - 自動更…",
     "hatenaDate": "2026-10-27T09:08:18Z",
     "users": [],
     "firstSeenAt": "2026-10-27T20:00:13.681933+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -481,7 +481,7 @@
     "hatenaDate": "2026-10-27T03:21:08Z",
     "users": [],
     "firstSeenAt": "2026-10-27T19:30:14.347457+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body"
   },
   {
@@ -538,7 +538,7 @@
     "hatenaDate": "2026-10-27T08:12:02Z",
     "users": [],
     "firstSeenAt": "2026-10-27T18:45:13.901153+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -568,7 +568,7 @@
     "hatenaDate": "2026-10-27T07:25:23Z",
     "users": [],
     "firstSeenAt": "2026-10-27T18:15:13.126620+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -584,7 +584,7 @@
     "hatenaDate": "2026-10-27T05:25:16Z",
     "users": [],
     "firstSeenAt": "2026-10-27T18:00:12.342884+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -622,14 +622,14 @@
     "title": "【第7報】不正アクセスに関する調査結果および今後の対応について | IDCフロンティア",
     "url": "https://www.idcf.jp/news/topics/20261027001",
     "domain": "www.idcf.jp",
-    "count": 94,
+    "count": 95,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.idcf.jp/news/topics/20261027001",
     "screenshot": "https://www.idcf.jp/dcms_media/image/og_common.png",
     "description": "このたびは、当社クラウドサービス「IDCFクラウド」※1に対する第三者からの不正アクセスにより、お客さまならびに関係者の皆さまに多大なるご心配とご迷惑をおかけしておりますことを、深くお詫び申し上げます。 本件に関する一連の調査が完了しましたので、これまでに確認した事実、影響範囲、原因および再発防止策についてご報告します。 外部のセキュリティ専門企業と連携して詳細な調査を進めた結果、お客さまが仮想サーバーの起動や請求情報の確認などに利用する「IDCFクラウドポータル」の認証システムで使用していたオープンソースソフトウェアの脆弱性を突かれて、第三者が認証システムに侵入していたことが判明しました。…",
     "hatenaDate": "2026-10-27T07:55:13Z",
     "users": [],
     "firstSeenAt": "2026-10-27T17:45:12.337722+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -688,7 +688,7 @@
     "hatenaDate": "2026-10-27T05:57:00Z",
     "users": [],
     "firstSeenAt": "2026-10-27T17:15:12.788732+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -747,7 +747,7 @@
     "hatenaDate": "2026-10-27T05:11:36Z",
     "users": [],
     "firstSeenAt": "2026-10-27T15:45:13.775627+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body"
   },
   {
@@ -818,7 +818,7 @@
     "hatenaDate": "2026-10-27T05:28:04Z",
     "users": [],
     "firstSeenAt": "2026-10-27T14:45:13.563924+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -855,14 +855,14 @@
     "title": "中国製AI「Qwen3.8」にセキュリティ対策を命じたら勝手に北京のサーバーへデータ送信を試みたことが判明",
     "url": "https://gigazine.net/news/20261027-concerning-behaviour-open-weight-ai-model/",
     "domain": "gigazine.net",
-    "count": 178,
+    "count": 179,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261027-concerning-behaviour-open-weight-ai-model/",
     "screenshot": "https://i.gzn.jp/img/2026/10/27/concerning-behaviour-open-weight-ai-model/00.jpg",
     "description": "中国のアリババが開発したAIモデル「Qwen3.8-Flash-Next」にセキュリティ対策用のルールを作成させたところ、指示されていないコンピューター内部の調査を始め、中国・北京にあるサーバーへデータを送信しようとしたことが判明しました。 Concerning behavior from a popular open-weight AI model | Cohere https://coh...",
     "hatenaDate": "2026-10-27T04:07:06Z",
     "users": [],
     "firstSeenAt": "2026-10-27T13:45:13.287782+09:00",
-    "lastSeenAt": "2026-10-28T03:45:15.100200+09:00",
+    "lastSeenAt": "2026-10-28T04:00:14.993078+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
