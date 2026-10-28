@@ -18,6 +18,8 @@
  *   状態表示には、次の記事を流すまでの残り秒数を出す(データ更新までではなく、1件ずつ流す方)。
  * - 表示中の記事・コメントと既出URLをカテゴリーごとにlocalStorageへ保存し、リロードや開き直しの
  *   時は前回の続きから表示する(保存に失敗しても、いちから流すだけで動作は変わらない)。
+ * - richレイアウト(app.jsのcommentLayout)の時だけ、コメントごとのはてなスター数を取得して足す
+ *   (plainのままなら通信しない)。レイアウトを切り替えた時は rerender() で並べ直す(再取得はしない)。
  * - 表示している間は画面をスリープさせない(Screen Wake Lock。非対応の環境では何もしない)。
  */
 (function (global) {
@@ -113,7 +115,7 @@
   }
 
   function create(opts) {
-    const { list, statusEl, pauseBtn, intervalSelect, renderItem, renderComment, fetchComments, fetchEntries, fetchNextUpdateAt, isHidden } = opts;
+    const { list, statusEl, pauseBtn, intervalSelect, renderItem, renderComment, fetchComments, fetchStars, isRich, fetchEntries, fetchNextUpdateAt, isHidden } = opts;
 
     let category = null;
     let running = false;
@@ -134,9 +136,21 @@
     let tickTimer = null;
     let pollTimer = null;
     let commentTimer = null;
-    // 記事の要素 -> { loaded, seen:Set, comments:[表示済みのコメント(新しい順)], omitted, floor }
+    // 記事の要素 -> { loaded, seen:Set, comments:[表示済みのコメント(新しい順)], omitted, floor, eid, stars:Map, starsFor }
+    // eid: スター取得に使う記事ID(保存せず、取り直した時に分かる)。stars: コメントのキー -> スター数(保存しない)。
+    // starsFor: スターを取得済みのコメント数(増えたら取り直す)
     // floor: これより古いコメントは省略済みとして扱う(初回に出さなかった古い分や、保存で切った分が後から湧かないように)
     const commentState = new WeakMap();
+
+    function newState() {
+      return { loaded: false, seen: new Set(), comments: [], omitted: 0, floor: '', eid: null, stars: new Map(), starsFor: 0 };
+    }
+
+    // コメント欄の中身(新しい順のコメント+省略した古い分の件数)
+    function commentsHtml(state) {
+      const more = state.omitted > 0 ? `<li class="stream-comments-more">他 ${state.omitted} 件のコメント</li>` : '';
+      return state.comments.map((b) => renderComment(b, state.stars.get(HatenaAPI.starKey(b)))).join('') + more;
+    }
 
     function saveStateNow() {
       clearTimeout(saveTimer);
@@ -181,16 +195,15 @@
         const el = list.lastElementChild;
         itemData.set(el, rec.item);
         const comments = Array.isArray(rec.comments) ? rec.comments : [];
-        const state = {
+        const state = Object.assign(newState(), {
           loaded: !!rec.loaded,
           seen: new Set(comments.map(commentKey)),
           comments: comments.slice(),
           omitted: rec.omitted || 0,
           floor: rec.floor || '',
-        };
+        });
         commentState.set(el, state);
-        const more = state.omitted > 0 ? `<li class="stream-comments-more">他 ${state.omitted} 件のコメント</li>` : '';
-        el.querySelector('.stream-comments').innerHTML = comments.map(renderComment).join('') + more;
+        el.querySelector('.stream-comments').innerHTML = commentsHtml(state);
         n++;
       }
       return n;
@@ -301,21 +314,26 @@
       if (!url) return;
       let state = commentState.get(el);
       if (!state) {
-        state = { loaded: false, seen: new Set(), comments: [], omitted: 0, floor: '' };
+        state = newState();
         commentState.set(el, state);
       }
       const mySeq = seq;
-      let comments;
+      let result;
       try {
-        comments = await fetchComments(url);
+        result = await fetchComments(url);
       } catch (err) {
         return; // 取れなかった記事は次の取り直しでもう一度試す
       }
       if (mySeq !== seq || !el.isConnected) return;
+      const { comments, eid } = result;
       const first = !state.loaded;
       state.loaded = true;
+      state.eid = eid;
       const fresh = comments.filter((b) => !state.seen.has(commentKey(b)) && b.timestamp >= state.floor);
-      if (fresh.length === 0) return;
+      if (fresh.length === 0) {
+        loadStars(el);
+        return;
+      }
       fresh.forEach((b) => state.seen.add(commentKey(b)));
       fresh.sort((a, b) => (a.timestamp < b.timestamp ? 1 : a.timestamp > b.timestamp ? -1 : 0)); // 新しい順
       let shown = fresh;
@@ -332,8 +350,50 @@
       const ul = el.querySelector('.stream-comments');
       // 挿入位置はコメント欄の直前の要素(タイトル・概要)の下端。それが画面の上端より上なら押し下げが見えている側に及ぶ
       const above = ul.previousElementSibling.getBoundingClientRect().bottom < 0;
-      prependHtml(ul, shown.map(renderComment).join('') + more, false, above);
+      prependHtml(ul, shown.map((b) => renderComment(b, state.stars.get(HatenaAPI.starKey(b)))).join('') + more, false, above);
       scheduleSave();
+      loadStars(el);
+    }
+
+    // richの時だけ、記事のコメントのスター数を(未取得・コメントが増えた時に)取得して、コメント欄を描き直す
+    async function loadStars(el) {
+      const state = commentState.get(el);
+      if (!state || !fetchStars || !isRich() || !state.eid || state.comments.length === state.starsFor) return;
+      const mySeq = seq;
+      const target = state.comments.slice();
+      state.starsFor = target.length; // 取得中の重複呼び出しを防ぐ(失敗してもスターは付加情報なので取り直さない)
+      let counts;
+      try {
+        counts = await fetchStars(state.eid, target);
+      } catch (err) {
+        return;
+      }
+      if (mySeq !== seq || !el.isConnected || counts.size === 0) return;
+      counts.forEach((n, key) => state.stars.set(key, n));
+      if (isRich()) el.querySelector('.stream-comments').innerHTML = commentsHtml(state);
+    }
+
+    // レイアウト(plain/rich)を切り替えた時に、表示中の記事とコメントを描き直す(再取得はしない)
+    async function rerender() {
+      const box = document.createElement('div');
+      for (const el of Array.from(list.children)) {
+        const item = itemData.get(el);
+        if (!item) continue;
+        box.innerHTML = renderItem(item);
+        const next = box.firstElementChild;
+        next.style.animation = 'none'; // 並べ直しで全件が出現アニメーションをやり直さないように
+        const state = commentState.get(el);
+        if (state) {
+          commentState.set(next, state);
+          next.querySelector('.stream-comments').innerHTML = commentsHtml(state);
+        }
+        itemData.set(next, item);
+        list.replaceChild(next, el);
+      }
+      // richになった時は、取得済みのコメントのスターを取得する(plainの間は取っていないため)
+      for (const el of Array.from(list.children).slice(0, MAX_COMMENT_WATCH)) {
+        loadStars(el);
+      }
     }
 
     async function refreshComments() {
@@ -511,7 +571,7 @@
       if (running) saveStateNow();
     });
 
-    return { start, stop };
+    return { start, stop, rerender };
   }
 
   global.Stream = { create };
