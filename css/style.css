@@ -10,6 +10,7 @@
   --color-thumb-empty-from: #eef1f4;
   --color-thumb-empty-to: #e2e6ea;
   --color-visited-bg: #e2e4e7;
+  --color-latest-bg: #e6f2fc;
   --color-danger: #d33;
   --color-tier1: #d68a00;
   --color-tier2: #e0620a;
@@ -32,6 +33,7 @@
   --color-thumb-empty-from: #2a2d33;
   --color-thumb-empty-to: #23262b;
   --color-visited-bg: #2a2d33;
+  --color-latest-bg: #1b2d40;
   --color-danger: #ff6b6b;
   --color-tier1: #f0b030;
   --color-tier2: #f58a40;
@@ -1390,6 +1392,10 @@ a.btn {
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
   animation: stream-in 0.35s ease-out;
+}
+/* 先頭(=最新)の記事だけ淡い青にして「これが最新」と分かるようにする */
+.stream-list > .stream-item:first-child {
+  background: var(--color-latest-bg);
 }
 @keyframes stream-in {
   from {
