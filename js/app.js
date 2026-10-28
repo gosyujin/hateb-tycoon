@@ -32,6 +32,7 @@
   const meStatus = document.getElementById('me-status');
   const meList = document.getElementById('me-list');
   const meLayoutToggle = document.getElementById('me-layout-toggle');
+  const streamLayoutToggle = document.getElementById('stream-layout-toggle');
   const meOpenSettings = document.getElementById('me-open-settings');
   const streamView = document.getElementById('view-stream');
   const streamList = document.getElementById('stream-list');
@@ -438,6 +439,7 @@
       entryNavBar.hidden = true;
       meView.hidden = true;
       footerSearch.placeholder = STREAM_SEARCH_PLACEHOLDER;
+      updateCommentLayoutToggleUI();
       stream.start(params.get('cat') || currentCategory);
     } else if (path === '/me') {
       listView.hidden = true;
@@ -1000,7 +1002,8 @@
     const params = new URLSearchParams();
     params.set('url', item.url);
     const href = `#/entry?${params.toString()}`;
-    const thumb = item.screenshot
+    // サムネイルはrichの時だけ(plainは文字だけで詰めて見せる)
+    const thumb = commentLayout === 'rich' && item.screenshot
       ? `<img class="stream-thumb" src="${escapeHtml(item.screenshot)}" alt="" loading="lazy">`
       : '';
     const time = item.hatenaDate ? hatenaDateTime(item.hatenaDate) : '';
@@ -1019,14 +1022,29 @@
           </div>
           <a class="stream-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
           ${desc}
-          <ul class="comment-list stream-comments"></ul>
+          <ul class="comment-list stream-comments${commentLayout === 'rich' ? ' comment-list--rich' : ''}"></ul>
         </div>
         ${thumb}
       </li>`;
   }
 
-  function renderStreamComment(b) {
-    return `<li><button type="button" class="comment-user" data-user="${escapeHtml(b.user)}">${escapeHtml(b.user)}</button> <span class="comment-date">${escapeHtml(b.timestamp)}</span> ${linkifyComment(b.comment)}</li>`;
+  // stars: richの時だけ取得するスター数(無ければ表示しない)。既読・新着の装飾は記事ページ側の仕組みなのでここでは使わない。
+  function renderStreamComment(b, stars) {
+    const user = `<button type="button" class="comment-user" data-user="${escapeHtml(b.user)}">${escapeHtml(b.user)}</button>`;
+    if (commentLayout === 'rich') {
+      const starBadge = stars ? ` <span class="comment-stars" title="はてなスター">⭐️${stars}</span>` : '';
+      return `<li class="comment--rich">
+        <img class="comment-icon" src="${escapeHtml(profileIconUrl(b.user))}" alt="" loading="lazy" width="32" height="32">
+        <div class="comment-rich-body">
+          <div class="comment-rich-line1">${user} ${linkifyComment(b.comment)}${starBadge}</div>
+          <div class="comment-rich-line2">
+            <span class="comment-date">${escapeHtml(b.timestamp)}</span>
+            ${commentTagsHtml(b)}
+          </div>
+        </div>
+      </li>`;
+    }
+    return `<li>${user} <span class="comment-date">${escapeHtml(b.timestamp)}</span> ${linkifyComment(b.comment)}</li>`;
   }
 
   // data/meta.json の nextEstimate("HH:MM"、JST)を、次回のデータ更新の目安(ms)にする。
@@ -1077,6 +1095,8 @@
   });
   entryDescToggle.addEventListener('click', () => toggleDesc(entryDescription));
 
+  // commentLayout(記事ページ・自分のブックマークと共有する plain/rich 設定)は後ろで宣言される。
+  // 描画関数が呼ばれるのは宣言後なので問題ない。
   const stream = Stream.create({
     list: streamList,
     statusEl: document.getElementById('stream-status'),
@@ -1087,11 +1107,14 @@
     // コメント付きのブックマークだけを、コメント表示と同じ判定でミュートしたうえで返す
     fetchComments: async (url) => {
       const info = await HatenaAPI.getEntryInfo(url);
-      if (info.notBookmarked) return [];
-      return info.bookmarks.filter(
+      if (info.notBookmarked) return { comments: [], eid: null };
+      const comments = info.bookmarks.filter(
         (b) => b.comment && !Filters.isHidden({ title: info.title, domain: info.domain, user: b.user, comment: b.comment })
       );
+      return { comments, eid: info.eid };
     },
+    fetchStars: (eid, comments) => HatenaAPI.getStarCounts(eid, comments),
+    isRich: () => commentLayout === 'rich',
     fetchEntries: (category) => HatenaAPI.getHotEntries(category),
     fetchNextUpdateAt,
     isHidden: (item) => Filters.isHidden(item),
@@ -1208,7 +1231,7 @@
   }
 
   function updateCommentLayoutToggleUI() {
-    [commentLayoutToggle, meLayoutToggle].forEach((toggle) => {
+    [commentLayoutToggle, meLayoutToggle, streamLayoutToggle].forEach((toggle) => {
       toggle.querySelectorAll('button[data-layout]').forEach((btn) => {
         btn.classList.toggle('active', btn.dataset.layout === commentLayout);
       });
@@ -1627,11 +1650,9 @@
   // 命名規則(cdn.profile-image.st-hatena.com)から組み立てる。
   function renderCommentRich(b) {
     const date = (b.timestamp || '').split(' ')[0];
-    const iconUrl = `https://cdn.profile-image.st-hatena.com/users/${encodeURIComponent(b.user)}/profile.png`;
+    const iconUrl = profileIconUrl(b.user);
     const user = `<button type="button" class="comment-user" data-user="${escapeHtml(b.user)}">${escapeHtml(b.user)}</button>`;
-    const tags = (b.tags || [])
-      .map((t) => `<span class="comment-tag">${escapeHtml(t)}</span>`)
-      .join('');
+    const tags = commentTagsHtml(b);
     const isNew = isNewComment(b);
     const stars = entryStarCounts.get(HatenaAPI.starKey(b));
     const starBadge = stars ? ` <span class="comment-stars" title="はてなスター">⭐️${stars}</span>` : '';
@@ -1642,10 +1663,19 @@
           <div class="comment-rich-line1">${isNew ? NEW_COMMENT_BADGE : ''}${user} ${linkifyComment(b.comment)}${starBadge}</div>
           <div class="comment-rich-line2">
             <span class="comment-date">${escapeHtml(date)}</span>
-            ${tags ? `<span class="comment-tags">${tags}</span>` : ''}
+            ${tags}
           </div>
         </div>
       </li>`;
+  }
+
+  function profileIconUrl(user) {
+    return `https://cdn.profile-image.st-hatena.com/users/${encodeURIComponent(user)}/profile.png`;
+  }
+
+  function commentTagsHtml(b) {
+    const tags = (b.tags || []).map((t) => `<span class="comment-tag">${escapeHtml(t)}</span>`).join('');
+    return tags ? `<span class="comment-tags">${tags}</span>` : '';
   }
 
   // ---- 自分のブックマークビュー(#/me) ----
@@ -1673,6 +1703,15 @@
   });
 
   meBack.addEventListener('click', () => navigate('/'));
+
+  streamLayoutToggle.addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-layout]');
+    if (!btn || btn.dataset.layout === commentLayout) return;
+    commentLayout = btn.dataset.layout;
+    saveCommentLayout(commentLayout);
+    updateCommentLayoutToggleUI();
+    stream.rerender();
+  });
 
   meLayoutToggle.addEventListener('click', (e) => {
     const btn = e.target.closest('button[data-layout]');

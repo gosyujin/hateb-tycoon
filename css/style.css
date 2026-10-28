@@ -1516,7 +1516,8 @@ a.btn {
   flex-wrap: nowrap;
 }
 .stream-bar > .btn,
-.stream-bar > .sort-label {
+.stream-bar > .sort-label,
+.stream-bar > .layout-toggle {
   flex-shrink: 0;
 }
 .stream-bar .status {
@@ -1538,8 +1539,15 @@ a.btn {
   .stream-bar .status {
     font-size: 0.7rem;
   }
+  .stream-bar .layout-toggle {
+    gap: 3px;
+  }
+  .stream-bar .layout-toggle .tab {
+    padding: 3px 6px;
+    font-size: 0.72rem;
+  }
 }
-/* 狭い幅ではサムネイルを出さない(右の列が本文・コメントの幅を削るため) */
+/* 狭い幅ではrichでもサムネイルを出さない(右の列が本文・コメントの幅を削るため) */
 @media (max-width: 640px) {
   .stream-thumb {
     display: none;
