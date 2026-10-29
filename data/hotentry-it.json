@@ -1,16 +1,30 @@
 [
   {
+    "title": "メモリー不足は「2030年まで続く」",
+    "url": "https://japan.cnet.com/article/35254122/",
+    "domain": "japan.cnet.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35254122/",
+    "screenshot": "https://japan.cnet.com/storage/2026/10/29/f90606cedcaccd97e3a0881b7567e102/01_SKhynix%E4%BE%9B%E7%B5%A6%E4%B8%8D%E8%B6%B3_20261029_large.jpg",
+    "description": "韓国の半導体大手SK hynixは10月28日、メモリーの供給不足が2030年まで続くとの見通しを示した。AI向けの需要拡大に生産が追いつかず、最先端の製造工程の難しさや、新工場の建設に時間がかかることから、当面は需要が供給を上回るとみている。 SK hynixが2026年10月のOCP Global Summitで設けた展示ブース（出典：SK hynix） 同社は、AIへの投資が一部の大手企業だけでなく、一般企業や国家単位の取り組みにも広がり、AIデータセンター向けのインフラ市場は今後も成長すると予測する。メモリー需要は当面、企業や個人のAI利用がけん引し、中長期的には自動運転やロボット分…",
+    "hatenaDate": "2026-10-29T01:10:33Z",
+    "users": [],
+    "firstSeenAt": "2026-10-29T17:15:15.655376+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "Firefox の Intl.Segmenter で「メロス」を「彼」にすると「した」が文字扱いされなくなる - id:onk のはてなブログ",
     "url": "https://onk.hatenablog.jp/entry/2026/10/29/151858",
     "domain": "onk.hatenablog.jp",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/onk.hatenablog.jp/entry/2026/10/29/151858",
     "screenshot": "https://ogimage.blog.st-hatena.com/17391345971631172524/14945776032096761249/1793255780",
     "description": "const segmenter = new Intl.Segmenter(undefined, { granularity: \"word\" }); console.table([...segmenter.segment(\"メロスは激怒した。\")]); console.table([...segmenter.segment(\"彼は激怒した。\")]); CodeMirror 上で日本語の単語単位のカーソル移動 (Ctrl+←→。Mac だと Option+←→) をいい感じにしたかったのだよね。 |メロスは激怒した|。|必ず|、|かの邪智暴虐の王を除かなければならぬと決意した|。| さすがに「か…",
     "hatenaDate": "2026-10-29T06:48:37Z",
     "users": [],
     "firstSeenAt": "2026-10-29T17:00:15.390537+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,21 +52,21 @@
     "hatenaDate": "2026-10-29T03:49:27Z",
     "users": [],
     "firstSeenAt": "2026-10-29T16:15:14.453910+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "グッドスマイルカンパニー、クレカ番号全16桁が情報漏洩か　該当者は2800人のユーザー",
     "url": "https://kai-you.net/article/96997",
     "domain": "kai-you.net",
-    "count": 8,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kai-you.net/article/96997",
     "screenshot": "https://img.kai-you.net/storage/2026/10/4a72e056-52e9-4d1a-98cb-fa05ba325006/jpg/goodsmile.jpg",
     "description": "フィギュアメーカー大手・グッドスマイルカンパニーが10月29日（木）、公式オンラインショップへの不正アクセスについて第3報を発表した。 調査の結果、クレジットカード決済ページに不正なプログラムが設置されていたことが判明。 2026年10月21日13時55分から23日7時までに同ページを利用した可能性のある2800人について、カード名義人名、カード番号全16桁、有効期限、セキュリティコードが漏洩した可能性があるという。 また、過去に公式ショップへクレジットカード情報を登録したことがあるユーザーについても、カード番号下4桁と有効期限が漏えいした可能性がある。 対象となる人数は確認中だが、該当する…",
     "hatenaDate": "2026-10-29T04:40:11Z",
     "users": [],
     "firstSeenAt": "2026-10-29T16:00:13.312826+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -73,14 +87,14 @@
     "title": "グッスマ、顧客の2800人のカード番号全16桁＋セキュリティコードなど流出か　下4桁は40万枚分",
     "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002716/",
     "domain": "www.itmedia.co.jp",
-    "count": 27,
+    "count": 30,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/29/2000002716/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/29/2000002716/10010873/2048",
     "description": "キャラクターフィギュアなどの企画・販売を手掛けるグッドスマイルカンパニー（千代田区）は10月29日、直販サイトが不正アクセスを受け、顧客2800人のカード名義人名、カード番号（全16桁）、有効期限、セキュリティコードが漏えいした可能性があると発表した。 また、同サイトにカード情報を登録したことがある顧客のカード番号下4ケタと有効期限も漏えいした可能性があり、対象のカードは40万2466枚に上るという。 26日までの報告では、カード番号は下4ケタのみ流出した可能性があると説明。対象人数は明らかにしていなかった。その後の調査で、カード番号全桁が流出した顧客がいる可能性が判明した。 システム開発・…",
     "hatenaDate": "2026-10-29T06:15:08Z",
     "users": [],
     "firstSeenAt": "2026-10-29T16:00:13.312826+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -94,7 +108,7 @@
     "hatenaDate": "2026-10-29T01:33:47Z",
     "users": [],
     "firstSeenAt": "2026-10-29T15:30:13.925175+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -108,7 +122,7 @@
     "hatenaDate": "2026-10-29T01:48:15Z",
     "users": [],
     "firstSeenAt": "2026-10-29T15:15:13.425695+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -123,7 +137,7 @@
     "hatenaDate": "2026-10-29T04:11:39Z",
     "users": [],
     "firstSeenAt": "2026-10-29T14:45:13.872920+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -151,7 +165,7 @@
     "hatenaDate": "2026-10-29T04:45:58Z",
     "users": [],
     "firstSeenAt": "2026-10-29T14:45:13.872920+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -179,7 +193,7 @@
     "hatenaDate": "2026-10-29T04:10:11Z",
     "users": [],
     "firstSeenAt": "2026-10-29T14:30:12.609701+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -187,14 +201,14 @@
     "title": "Cloudflare はなんでこんなに無料で使わせてくれるの？ | ashunar0",
     "url": "https://ashunar0.dev/posts/cloudflare-free-plan/",
     "domain": "ashunar0.dev",
-    "count": 84,
+    "count": 90,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ashunar0.dev/posts/cloudflare-free-plan/",
     "screenshot": "https://ashunar0.dev/og/cloudflare-free-plan.png",
     "description": "Workers は 1 日 10 万リクエストまでタダです。Pages は帯域が無制限です。D1 も 5GB までタダです。R2 なんて、データを取り出すときの転送料が完全タダです。いくら使ってもタダなんです。 個人開発なら、1 円も払わずにアプリを公開して運用までできちゃいます。意味がわからん（嬉しい）。 普通に考えれば、サーバーも回線も Cloudflare が用意しているものなので、使われれば使われるほど Cloudflare にはお金がかかるはずです。それをこんなにタダで配って、大丈夫なんでしょうか？？どうしてそんなに太っ腹なんでしょうか？？ なんて思っていたところ、少し前の Clo…",
     "hatenaDate": "2026-10-29T03:25:44Z",
     "users": [],
     "firstSeenAt": "2026-10-29T14:00:14.109327+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -245,14 +259,14 @@
     "title": "AIが人間に“闇バイト”を発注？　AIが物理的労働を買う求人サイト「RentAHuman」の実態",
     "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002679/",
     "domain": "www.itmedia.co.jp",
-    "count": 39,
+    "count": 41,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/29/2000002679/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/29/2000002679/10010739/2048",
     "description": "2019年の開始以来、多様な最新論文を取り上げている連載「Innovative Tech」。ここではその番外編として“ちょっと昔”に発表された世界中の個性的な研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shiropen2 独立研究者のPulak MehtaさんとAryan Deshkumarさんが発表した論文「Security Risks of AI Agents Hiring Humans: An Empiric…",
     "hatenaDate": "2026-10-29T03:13:33Z",
     "users": [],
     "firstSeenAt": "2026-10-29T13:15:11.070966+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -266,7 +280,7 @@
     "hatenaDate": "2026-10-29T01:03:57Z",
     "users": [],
     "firstSeenAt": "2026-10-29T13:15:11.070966+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -309,7 +323,7 @@
     "hatenaDate": "2026-10-29T01:46:44Z",
     "users": [],
     "firstSeenAt": "2026-10-29T12:15:16.324201+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -325,7 +339,7 @@
     "hatenaDate": "2026-10-29T01:20:32Z",
     "users": [],
     "firstSeenAt": "2026-10-29T12:00:07.315892+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -339,7 +353,7 @@
     "hatenaDate": "2026-10-29T00:29:43Z",
     "users": [],
     "firstSeenAt": "2026-10-29T12:00:07.315892+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -355,7 +369,7 @@
     "hatenaDate": "2026-10-29T00:55:43Z",
     "users": [],
     "firstSeenAt": "2026-10-29T11:45:11.020344+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -413,7 +427,7 @@
     "hatenaDate": "2026-10-28T22:16:12Z",
     "users": [],
     "firstSeenAt": "2026-10-29T11:15:14.020934+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -455,21 +469,21 @@
     "hatenaDate": "2026-10-28T16:31:43Z",
     "users": [],
     "firstSeenAt": "2026-10-29T10:45:13.373204+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "VPNがあるのは外から分かるので狙われる。パッチ当てはもう自動化するしかない――日本ハッカー協会・杉浦隆幸代表理事が語る、AI時代のランサムウェア対処策【Security Days Fall 2026】",
     "url": "https://internet.watch.impress.co.jp/docs/event/2151590.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 147,
+    "count": 150,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/event/2151590.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2151/590/01.JPG",
     "description": "VPNがあるのは外から分かるので狙われる。パッチ当てはもう自動化するしかない――日本ハッカー協会・杉浦隆幸代表理事が語る、AI時代のランサムウェア対処策 AIの進化は、来るところまで来てしまったようだ。サイバー攻撃への応用である。24時間365日、AIは休まず働き続け、脆弱性を発見する。そこを突く攻撃ツールの生成にもAIが威力を発揮してしまっている。 サイバーセキュリティ専門のイベント「Security Days Fall 2026」で10月22日、一般社団法人日本ハッカー協会の代表理事である杉浦隆幸氏による講演が行われた。AIの台頭によって急激に変化するセキュリティ事情について、現場のリア…",
     "hatenaDate": "2026-10-28T22:58:45Z",
     "users": [],
     "firstSeenAt": "2026-10-29T10:30:13.363262+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -485,7 +499,7 @@
     "hatenaDate": "2026-10-28T23:01:41Z",
     "users": [],
     "firstSeenAt": "2026-10-29T10:30:13.363262+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -589,21 +603,21 @@
     "hatenaDate": "2026-10-28T05:48:20Z",
     "users": [],
     "firstSeenAt": "2026-10-29T08:30:13.110338+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "もしあなたの免許証画像が漏洩したら？ 対処法をIPAが公開　相次ぐ不正アクセス受け",
     "url": "https://japan.cnet.com/article/35254062/",
     "domain": "japan.cnet.com",
-    "count": 161,
+    "count": 162,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35254062/",
     "screenshot": "https://japan.cnet.com/storage/2026/10/28/dc4e3d64ceb7a33c7f8badf750ea78f0/53_timescar_license_header.jpg",
     "description": "情報処理推進機構（IPA）は10月26日、個人情報の漏えいを知らせる連絡を受けた人に向けて、対処法を公開した。漏れた情報がID・パスワードなのか、クレジットカード情報なのかなどを確認したうえで、情報の種類に応じた対応を取るよう呼びかけている。 漏えいしたIDとパスワードを悪用する「リスト型攻撃」のイメージ。IPAが2025年8月に公開した図で、特定の漏えい事案を示すものではない（出典：IPA） IPAの相談窓口には、「自分の情報が漏れたと連絡が来たが、どうすればいいか」といった相談が数多く寄せられているという。IPAは、まず事業者からの通知や公式サイトを確認し、必要に応じてサポート窓口に問い…",
     "hatenaDate": "2026-10-28T03:14:20Z",
     "users": [],
     "firstSeenAt": "2026-10-29T08:15:12.537962+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -617,7 +631,7 @@
     "hatenaDate": "2026-10-28T13:54:02Z",
     "users": [],
     "firstSeenAt": "2026-10-29T08:15:12.537962+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -659,21 +673,21 @@
     "hatenaDate": "2026-10-21T03:28:41Z",
     "users": [],
     "firstSeenAt": "2026-10-29T08:00:15.075269+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Apple、初のタッチ対応「MacBook Pro」発表　新型OLED搭載、国内価格は49万9800円から",
     "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002689/",
     "domain": "www.itmedia.co.jp",
-    "count": 186,
+    "count": 187,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/29/2000002689/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/29/2000002689/10010786/2048",
     "description": "米Appleは10月28日（現地時間）、Macとして初めてタッチ操作に対応した新型「MacBook Pro」を発表した。新開発の「PROLED XDRディスプレイ」を搭載し、14インチと16インチの2モデルを用意する。日本では29日から予約を受け付け、11月6日に発売する。価格は14インチモデルが49万9800円から、16インチモデルが59万9800円から。 最大の特徴は、自発光ピクセルを2層重ねたタンデムOLED技術を採用したPROLED XDRディスプレイだ。ピーク輝度はHDR、SDRとも最大2000ニトで、コントラスト比は1000万対1。P3とAdobe RGBの両色域に対応し、写真や…",
     "hatenaDate": "2026-10-28T22:02:19Z",
     "users": [],
     "firstSeenAt": "2026-10-29T08:00:15.075269+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -724,14 +738,14 @@
     "title": "AI時代のシニアエンジニアとは",
     "url": "https://speakerdeck.com/yosuke_furukawa/ai-jidai-no-shinia-enjinia-toha",
     "domain": "speakerdeck.com",
-    "count": 272,
+    "count": 274,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/yosuke_furukawa/ai-jidai-no-shinia-enjinia-toha",
     "screenshot": "https://files.speakerdeck.com/presentations/99f142649959416c9b4be2a525977024/slide_0.jpg?41122081",
     "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … Sponsored · Your Podcast. Everywhere. Effortlessly. Share. Educate. Inspire. Entertain. You do you. We'll handle the rest. → 10/27 ModN Tech Lounge で発表した「AI時代のシニアエンジニアとは」という発表です。 コーディング自動化の次へ。人の介入をゼロにするファクトリーとサポートAIによる実践…",
     "hatenaDate": "2026-10-28T10:56:52Z",
     "users": [],
     "firstSeenAt": "2026-10-29T07:15:11.936875+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -745,7 +759,7 @@
     "hatenaDate": "2026-10-28T03:43:30Z",
     "users": [],
     "firstSeenAt": "2026-10-29T07:15:11.936875+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -789,7 +803,7 @@
     "hatenaDate": "2026-10-28T17:53:40Z",
     "users": [],
     "firstSeenAt": "2026-10-29T06:15:13.596102+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -882,14 +896,14 @@
     "title": "pfpdf — Markdown から、印刷品質の PDF へ",
     "url": "https://pfpdf.preferred.tech/ja/",
     "domain": "pfpdf.preferred.tech",
-    "count": 345,
+    "count": 347,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pfpdf.preferred.tech/ja/",
     "screenshot": "https://pfpdf.preferred.tech/ogp.png",
     "description": "日本語組版を第一級でサポート。GFM・数式・コードハイライト・BibTeX・表紙を Vivliostyle と Chromium で組版します。 npx @pfnet-research/pfpdf@latest --input document.md --output document.pdf --- title: pfpdf テンプレート確認 author: pfpdf contributors date: 2026-08-04 lang: ja --- # 1. 文字と段落 これは**「日本語の強調」**です。 数式: $e^{i\\pi}+1=0$ 表・タスクリスト・取り消し線・自動リン…",
     "hatenaDate": "2026-10-28T03:32:19Z",
     "users": [],
     "firstSeenAt": "2026-10-29T00:00:14.591728+09:00",
-    "lastSeenAt": "2026-10-29T17:00:15.390537+09:00",
+    "lastSeenAt": "2026-10-29T17:15:15.655376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4360,20 +4374,6 @@
     "users": [],
     "firstSeenAt": "2026-10-26T19:15:13.493662+09:00",
     "lastSeenAt": "2026-10-26T19:45:13.392124+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "Ｊｏｓｈｉｎ、不正アクセスで最大約600万件の会員情報などが漏えいの可能性",
-    "url": "https://internet.watch.impress.co.jp/docs/news/2151273.html",
-    "domain": "internet.watch.impress.co.jp",
-    "count": 134,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2151273.html",
-    "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2151/273/01.png",
-    "description": "株式会社Ｊｏｓｈｉｎは10月26日、不正アクセスにより会員情報最大約600万件が漏えいした可能性があるとして、情報を公開した。 同社では10月17日に、第三者による不正アクセスを受けシステム障害が発生し、一部のサービスを提供できない状態になっているとして第1報を公開するとともに、調査を実施していた。今回発表された第2報では、不正アクセスの詳細や、漏えいの可能性がある顧客情報について発表している。 16日に同社のネットワークにおいて異常を検知し、調査により不正アクセスを確認した。この際の緊急措置を行ったことにより、一部サービスが利用できない状態となった。 漏えいの可能性がある顧客情報として、次…",
-    "hatenaDate": "2026-10-26T09:20:26Z",
-    "users": [],
-    "firstSeenAt": "2026-10-26T18:45:14.033725+09:00",
-    "lastSeenAt": "2026-10-27T09:00:15.353221+09:00",
     "descriptionSource": "body"
   }
 ]
