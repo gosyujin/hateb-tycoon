@@ -1,5 +1,19 @@
 [
   {
+    "title": "複数システムに跨っていた EC サイトをフルスクラッチ開発でリニューアル。一元管理を可能とした EC サイトのインフラ構築・開発・運用保守をワンストップで提供 | AI とクラウド活用のシステム・アプリ開発なら KDDIアイレット株式会社（iret）",
+    "url": "https://www.iret.co.jp/works/24-11.html",
+    "domain": "www.iret.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.iret.co.jp/works/24-11.html",
+    "screenshot": "https://www.iret.co.jp/wp-content/uploads/2024/09/img_casestudy-goodsmile-ogp.png",
+    "description": "EC サイトのシステムが長らく使用されており、かつ複数のシステムが乱立しデータが分散していたため、情報管理システムの統一が求められていた。 EC サイトと連動したデータを収集し、分析への活用を検討していた。また、サービスの特性上、特定の時間にアクセスが集中するため、高負荷に耐えられるスケーラビリティの高いシステムの開発に加え、適切に運用保守できる体制も必要としていた。 Google Cloud によるフルスクラッチでの EC サイトのインフラ構築・開発・運用保守を提案・実行。複数のシステムに分散していたデータを1つのシステムに統合し、管理工数やコストの最適化を図りつつ、安定した運用が可能な…",
+    "hatenaDate": "2026-10-29T06:45:14Z",
+    "users": [],
+    "firstSeenAt": "2026-10-30T02:15:13.876359+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "スキーマ分離型マルチテナントの DB 接続数増加を RDS Proxy で抑制できるか？ - MNTSQ Techブログ",
     "url": "https://tech.mntsq.co.jp/entry/2026/10/29/090000",
     "domain": "tech.mntsq.co.jp",
@@ -10,21 +24,21 @@
     "hatenaDate": "2026-10-29T02:13:40Z",
     "users": [],
     "firstSeenAt": "2026-10-30T01:15:15.016182+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Windowsの高性能PCで動くローカルAIをブラウザからみんなで利用できる環境を「Ollama＋Open WebUI」で構築してみた",
     "url": "https://gigazine.net/news/20261029-ollama-open-webui-local-ai/",
     "domain": "gigazine.net",
-    "count": 10,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261029-ollama-open-webui-local-ai/",
     "screenshot": "https://i.gzn.jp/img/2026/10/29/ollama-open-webui-local-ai/00.png",
     "description": "ローカルAIはGPUの性能が重要ですが、AIを使いたいPCすべてに高性能なGPUを搭載すると費用がかさんでしまいます。そこで1台の高性能PCをAIサーバーにし、ほかのPCからAIを利用できる環境を構築してみます。 今回はAIエージェント「Hermes Agent」で各PCのブラウザを操作しつつ、AIの推論だけを別のPCに任せる構成を目指...",
     "hatenaDate": "2026-10-29T14:03:21Z",
     "users": [],
     "firstSeenAt": "2026-10-30T01:00:15.736538+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -39,7 +53,7 @@
     "hatenaDate": "2026-10-29T09:12:38Z",
     "users": [],
     "firstSeenAt": "2026-10-30T00:45:14.864928+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "bodyStatus": "skip",
     "bodyReason": "no-text"
   },
@@ -54,7 +68,7 @@
     "hatenaDate": "2026-10-29T05:23:42Z",
     "users": [],
     "firstSeenAt": "2026-10-30T00:00:15.630937+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -69,7 +83,7 @@
     "hatenaDate": "2026-10-29T05:12:19Z",
     "users": [],
     "firstSeenAt": "2026-10-29T23:45:13.698663+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body"
   },
   {
@@ -83,7 +97,7 @@
     "hatenaDate": "2026-10-29T02:20:06Z",
     "users": [],
     "firstSeenAt": "2026-10-29T23:45:13.698663+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body"
   },
   {
@@ -97,7 +111,7 @@
     "hatenaDate": "2026-10-29T13:18:15Z",
     "users": [],
     "firstSeenAt": "2026-10-29T23:30:14.270338+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -112,7 +126,7 @@
     "hatenaDate": "2026-10-29T13:50:04Z",
     "users": [],
     "firstSeenAt": "2026-10-29T23:30:14.270338+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body"
   },
   {
@@ -141,21 +155,21 @@
     "hatenaDate": "2026-10-29T10:29:00Z",
     "users": [],
     "firstSeenAt": "2026-10-29T23:15:15.718150+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "CVE-2026-98432 | Ubuntu",
     "url": "https://ubuntu.com/security/CVE-2026-98432",
     "domain": "ubuntu.com",
-    "count": 29,
+    "count": 30,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ubuntu.com/security/CVE-2026-98432",
     "screenshot": "https://assets.ubuntu.com/v1/47f12466-og_%20ubuntu.png",
     "description": "Description In the Linux kernel, the following vulnerability has been resolved: ipv4: free inet_opt and ireq_opt after an RCU grace period tcp_v4_syn_recv_sock() transfers ownership of ireq->ireq_opt to the child socket (newinet->inet_opt) without copying it. Another cpu can concurrently process ...",
     "hatenaDate": "2026-10-29T04:39:46Z",
     "users": [],
     "firstSeenAt": "2026-10-29T23:15:15.718150+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -184,7 +198,7 @@
     "hatenaDate": "2026-10-29T05:38:02Z",
     "users": [],
     "firstSeenAt": "2026-10-29T23:00:15.130844+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body"
   },
   {
@@ -213,7 +227,7 @@
     "hatenaDate": "2026-10-29T12:52:30Z",
     "users": [],
     "firstSeenAt": "2026-10-29T22:30:13.779075+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "bodyStatus": "skip",
     "bodyReason": "no-text"
   },
@@ -228,7 +242,7 @@
     "hatenaDate": "2026-10-29T05:54:30Z",
     "users": [],
     "firstSeenAt": "2026-10-29T22:30:13.779075+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body"
   },
   {
@@ -242,7 +256,7 @@
     "hatenaDate": "2026-10-29T04:46:53Z",
     "users": [],
     "firstSeenAt": "2026-10-29T22:30:13.779075+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -314,7 +328,7 @@
     "hatenaDate": "2026-10-29T02:52:20Z",
     "users": [],
     "firstSeenAt": "2026-10-29T22:15:13.341079+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -417,7 +431,7 @@
     "hatenaDate": "2026-10-29T06:06:41Z",
     "users": [],
     "firstSeenAt": "2026-10-29T22:00:14.142012+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -447,7 +461,7 @@
     "hatenaDate": "2026-10-29T09:18:31Z",
     "users": [],
     "firstSeenAt": "2026-10-29T22:00:14.142012+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body"
   },
   {
@@ -468,14 +482,14 @@
     "title": "AIが生成したコードは読むべきか？抽象化設計とコードの品質保証 / abstraction-design-and-quality",
     "url": "https://speakerdeck.com/minodriven/abstraction-design-and-quality",
     "domain": "speakerdeck.com",
-    "count": 31,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/minodriven/abstraction-design-and-quality",
     "screenshot": "https://files.speakerdeck.com/presentations/752975b2108d4759832446b501d0bb80/slide_0.jpg?41136694",
     "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … AIが生成したコードは読むべきか？抽象化設計とコードの品質保証 / abstraction-d... AIが生成したコードは読むべきか？抽象化設計とコードの品質保証 / abstraction-design-and-quality 見えないものを探る要求要件定義に必要な基本的思考 / invisible-requirement-thinking 設計次第でAIコードの読む量は減らせる / designing-for-code-readi…",
     "hatenaDate": "2026-10-29T10:14:39Z",
     "users": [],
     "firstSeenAt": "2026-10-29T21:45:15.135398+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -491,7 +505,7 @@
     "hatenaDate": "2026-10-29T09:27:57Z",
     "users": [],
     "firstSeenAt": "2026-10-29T21:15:13.448212+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body"
   },
   {
@@ -533,21 +547,21 @@
     "hatenaDate": "2026-10-28T03:33:39Z",
     "users": [],
     "firstSeenAt": "2026-10-29T20:30:16.302340+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AIのコード解析を妨害するために「天安門事件」「台湾独立」「水道水に毒物混入」などのフレーズを大量に混入させる手法が発見される",
     "url": "https://gigazine.net/news/20261029-anti-ai-words-in-script/",
     "domain": "gigazine.net",
-    "count": 87,
+    "count": 88,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261029-anti-ai-words-in-script/",
     "screenshot": "https://i.gzn.jp/img/2026/10/29/anti-ai-words-in-script/00.jpg",
     "description": "AIには悪意ある用途での使用をブロックするための安全対策が施されているほか、特定の分野のフレーズを拒否している場合もあります。こうしたAIの挙動を逆手に取り、危険とみなされる単語をコードに紛れ込ませることでAIによる解析を妨害しているとみられるプログラムが、セキュリティ研究者のveritas氏によって発見され...",
     "hatenaDate": "2026-10-29T11:05:08Z",
     "users": [],
     "firstSeenAt": "2026-10-29T20:15:13.965459+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -583,14 +597,14 @@
     "title": "最近の E2E 戦略（2026 年 10 月現在）",
     "url": "https://zenn.dev/polyco/articles/26624b38c951b5",
     "domain": "zenn.dev",
-    "count": 98,
+    "count": 100,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/polyco/articles/26624b38c951b5",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--JdU3WL7H--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%259C%2580%25E8%25BF%2591%25E3%2581%25AE%2520E2E%2520%25E6%2588%25A6%25E7%2595%25A5%25EF%25BC%25882026%2520%25E5%25B9%25B4%252010%2520%25E6%259C%2588%25E7%258F%25BE%25E5%259C%25A8%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Tatsunori%2520Nakano%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzlkY2VhNDgwYWUuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2583%259D%25E3%2583%25AA%25E3%2582%25B3%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzhhNDg0ZDExOTguanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "実装から拾った確認対象とシナリオの対応漏れをチェックし漏れがあれば CI で落とす 毎回全シナリオを回すのではなく、実装に関連する箇所のみ回している（でかいリファクタの時は回帰テストとして全シナリオ回す） packages/ ├── web/ React・React Router・Vite ├── api/ Hono・Drizzle ORM・PostgreSQL ├── domain/ 計算や入力制約などの業務ルール ├── shared/ 共通の型・ユーティリティ └── e2e/ E2Eテスト・実行基盤・実装とシナリオの対応表 ちゃんと書いてもフレーキーだし、ノーコード系のやつもなんかラ…",
     "hatenaDate": "2026-10-26T11:40:05Z",
     "users": [],
     "firstSeenAt": "2026-10-29T19:45:14.679439+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -676,7 +690,7 @@
     "hatenaDate": "2026-10-29T08:52:04Z",
     "users": [],
     "firstSeenAt": "2026-10-29T19:00:14.054044+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -720,7 +734,7 @@
     "hatenaDate": "2026-10-29T07:16:28Z",
     "users": [],
     "firstSeenAt": "2026-10-29T19:00:14.054044+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body"
   },
   {
@@ -875,7 +889,7 @@
     "hatenaDate": "2026-10-29T06:48:37Z",
     "users": [],
     "firstSeenAt": "2026-10-29T17:00:15.390537+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -919,7 +933,7 @@
     "hatenaDate": "2026-10-29T04:40:11Z",
     "users": [],
     "firstSeenAt": "2026-10-29T16:00:13.312826+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -942,14 +956,14 @@
     "title": "グッスマ、顧客の2800人のカード番号全16桁＋セキュリティコードなど流出か　下4桁は40万枚分",
     "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002716/",
     "domain": "www.itmedia.co.jp",
-    "count": 172,
+    "count": 173,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/29/2000002716/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/29/2000002716/10010873/2048",
     "description": "キャラクターフィギュアなどの企画・販売を手掛けるグッドスマイルカンパニー（千代田区）は10月29日、直販サイトが不正アクセスを受け、顧客2800人のカード名義人名、カード番号（全16桁）、有効期限、セキュリティコードが漏えいした可能性があると発表した。 また、同サイトにカード情報を登録したことがある顧客のカード番号下4ケタと有効期限も漏えいした可能性があり、対象のカードは40万2466枚に上るという。 26日までの報告では、カード番号は下4ケタのみ流出した可能性があると説明。対象人数は明らかにしていなかった。その後の調査で、カード番号全桁が流出した顧客がいる可能性が判明した。 システム開発・…",
     "hatenaDate": "2026-10-29T06:15:08Z",
     "users": [],
     "firstSeenAt": "2026-10-29T16:00:13.312826+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1058,14 +1072,14 @@
     "title": "Cloudflare はなんでこんなに無料で使わせてくれるの？ | ashunar0",
     "url": "https://ashunar0.dev/posts/cloudflare-free-plan/",
     "domain": "ashunar0.dev",
-    "count": 367,
+    "count": 368,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ashunar0.dev/posts/cloudflare-free-plan/",
     "screenshot": "https://ashunar0.dev/og/cloudflare-free-plan.png",
     "description": "Workers は 1 日 10 万リクエストまでタダです。Pages は帯域が無制限です。D1 も 5GB までタダです。R2 なんて、データを取り出すときの転送料が完全タダです。いくら使ってもタダなんです。 個人開発なら、1 円も払わずにアプリを公開して運用までできちゃいます。意味がわからん（嬉しい）。 普通に考えれば、サーバーも回線も Cloudflare が用意しているものなので、使われれば使われるほど Cloudflare にはお金がかかるはずです。それをこんなにタダで配って、大丈夫なんでしょうか？？どうしてそんなに太っ腹なんでしょうか？？ なんて思っていたところ、少し前の Clo…",
     "hatenaDate": "2026-10-29T03:25:44Z",
     "users": [],
     "firstSeenAt": "2026-10-29T14:00:14.109327+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1340,7 +1354,7 @@
     "hatenaDate": "2026-10-28T22:58:45Z",
     "users": [],
     "firstSeenAt": "2026-10-29T10:30:13.363262+09:00",
-    "lastSeenAt": "2026-10-30T02:00:15.185585+09:00",
+    "lastSeenAt": "2026-10-30T02:15:13.876359+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4371,20 +4385,5 @@
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "http-403"
-  },
-  {
-    "title": "nvidia/simready-assets · Datasets at Hugging Face",
-    "url": "https://huggingface.co/datasets/nvidia/simready-assets",
-    "domain": "huggingface.co",
-    "count": 10,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/huggingface.co/datasets/nvidia/simready-assets",
-    "screenshot": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/nvidia/simready-assets.png",
-    "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-    "hatenaDate": "2026-10-26T12:38:12Z",
-    "users": [],
-    "firstSeenAt": "2026-10-27T09:45:16.105589+09:00",
-    "lastSeenAt": "2026-10-27T11:45:14.039330+09:00",
-    "bodyStatus": "skip",
-    "bodyReason": "not-longer"
   }
 ]
