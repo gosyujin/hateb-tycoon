@@ -1,5 +1,33 @@
 [
   {
+    "title": "GitHub - tester-army/e2e: Next generation e2e testing framework for web and mobile apps.",
+    "url": "https://github.com/tester-army/e2e",
+    "domain": "github.com",
+    "count": 12,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/tester-army/e2e",
+    "screenshot": "https://repository-images.githubusercontent.com/1308631234/358e34a0-4e46-4400-b092-63a397fe9d48",
+    "description": "e2e is an end-to-end testing framework for web and mobile apps. Describe a goal in natural language and an agent drives the app to reach it. Check the result with locators and assertions in the same test. // tests/checkout.e2e.ts import { test, expect } from 'e2e'; test('a member upgrades to Pro',…",
+    "hatenaDate": "2026-10-03T05:21:41Z",
+    "users": [],
+    "firstSeenAt": "2026-10-30T05:45:15.200966+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
+    "descriptionSource": "body"
+  },
+  {
+    "title": "プライム会員なら実質無料！新世代AIアシスタント「Alexa+」と新型Echoをチェックしてきた",
+    "url": "https://pc.watch.impress.co.jp/docs/news/2152255.html",
+    "domain": "pc.watch.impress.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2152255.html",
+    "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2152/255/alexp_01.jpg",
+    "description": "発表会場には歴代のAlexa対応端末がずらりと並べられていた。いずれも「Alexa+」に対応可能だ Amazonは10月28日、大規模言語モデル(LLM)と生成AI技術を融合させ、ゼロから再構築した新世代AIアシスタント「Alexa+」の日本国内での提供開始、およびAlexa+に対応する最新のEchoデバイス「Echo Time」と「Echo Dot」の投入に関する国内発表会を開催した。 Alexa+は、2025年に米国でサービスを開始したパーソナルAIアシスタント。米国を皮切りに世界各国でサービスが順次提供される中、日本でのサービス開始が待たれていた。サービス開始のニュースについては既報の…",
+    "hatenaDate": "2026-10-29T09:34:31Z",
+    "users": [],
+    "firstSeenAt": "2026-10-30T05:45:15.200966+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "E2Eってつらくないですか？E2Eの管理コストを下げる手段とその実践",
     "url": "https://speakerdeck.com/akaboshinit/e2e-tte-tsurakunaidesu-ka-e2e-no-kanri-kosuto-o-sageru-shudan-to-sono-jissen",
     "domain": "speakerdeck.com",
@@ -10,7 +38,7 @@
     "hatenaDate": "2026-10-29T10:23:25Z",
     "users": [],
     "firstSeenAt": "2026-10-30T05:30:14.676135+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +52,7 @@
     "hatenaDate": "2026-10-28T22:51:48Z",
     "users": [],
     "firstSeenAt": "2026-10-30T03:45:14.136300+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +66,7 @@
     "hatenaDate": "2026-10-29T06:45:14Z",
     "users": [],
     "firstSeenAt": "2026-10-30T02:15:13.876359+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +80,7 @@
     "hatenaDate": "2026-10-29T02:13:40Z",
     "users": [],
     "firstSeenAt": "2026-10-30T01:15:15.016182+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +94,7 @@
     "hatenaDate": "2015-03-21T23:30:31Z",
     "users": [],
     "firstSeenAt": "2026-10-30T01:00:15.736538+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -81,7 +109,7 @@
     "hatenaDate": "2026-10-29T09:12:38Z",
     "users": [],
     "firstSeenAt": "2026-10-30T00:45:14.864928+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "bodyStatus": "skip",
     "bodyReason": "no-text"
   },
@@ -96,7 +124,7 @@
     "hatenaDate": "2026-10-29T05:23:42Z",
     "users": [],
     "firstSeenAt": "2026-10-30T00:00:15.630937+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -111,7 +139,7 @@
     "hatenaDate": "2026-10-29T05:12:19Z",
     "users": [],
     "firstSeenAt": "2026-10-29T23:45:13.698663+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body"
   },
   {
@@ -139,7 +167,7 @@
     "hatenaDate": "2026-10-29T13:18:15Z",
     "users": [],
     "firstSeenAt": "2026-10-29T23:30:14.270338+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -147,14 +175,14 @@
     "title": "歌手・矢野顕子氏「音楽のプロとは思えない質問ですいませんが、CDをiPhoneやPCに取り込む方法を教えてください」→専用レコーダーやiTunesなど様々な方法が集まる",
     "url": "https://togetter.com/li/2764323",
     "domain": "togetter.com",
-    "count": 45,
+    "count": 50,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2764323",
     "screenshot": "https://s.tgstc.com/ogp3/42a7748fbe91952dc75d97b9b72f55f8-1200x630.jpeg",
     "description": "教えてくださいませ。CDをiPhone やコンピュータに取り込むにはどうしたら良いのでしょうか？音楽のプロとは思えない質問ですいません。。。 ★2026年7月ソロデビュー50周年★ NEW AL『生きものたちへ』好評発売中！AL収録曲「YOU ARE SPECIAL TO ME feat.松たか子」MV公開中★矢野顕子さとがえるコンサート11月より全国8ヶ所で開催！チケット発売中 一般人からプロまで、沢山の人が答えてそう。質問が可愛らしい(失礼しました)です。 もちろん矢野顕子ファンでございます。 x.com/yano_akiko/sta… アイ・オー・データ IODATA CDレコーダー…",
     "hatenaDate": "2026-10-29T13:50:04Z",
     "users": [],
     "firstSeenAt": "2026-10-29T23:30:14.270338+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body"
   },
   {
@@ -168,7 +196,7 @@
     "hatenaDate": "2026-10-28T16:15:56Z",
     "users": [],
     "firstSeenAt": "2026-10-29T23:15:15.718150+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -183,21 +211,21 @@
     "hatenaDate": "2026-10-29T10:29:00Z",
     "users": [],
     "firstSeenAt": "2026-10-29T23:15:15.718150+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "CVE-2026-98432 | Ubuntu",
     "url": "https://ubuntu.com/security/CVE-2026-98432",
     "domain": "ubuntu.com",
-    "count": 38,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ubuntu.com/security/CVE-2026-98432",
     "screenshot": "https://assets.ubuntu.com/v1/47f12466-og_%20ubuntu.png",
     "description": "Description In the Linux kernel, the following vulnerability has been resolved: ipv4: free inet_opt and ireq_opt after an RCU grace period tcp_v4_syn_recv_sock() transfers ownership of ireq->ireq_opt to the child socket (newinet->inet_opt) without copying it. Another cpu can concurrently process ...",
     "hatenaDate": "2026-10-29T04:39:46Z",
     "users": [],
     "firstSeenAt": "2026-10-29T23:15:15.718150+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -226,7 +254,7 @@
     "hatenaDate": "2026-10-29T05:38:02Z",
     "users": [],
     "firstSeenAt": "2026-10-29T23:00:15.130844+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body"
   },
   {
@@ -255,7 +283,7 @@
     "hatenaDate": "2026-10-29T12:52:30Z",
     "users": [],
     "firstSeenAt": "2026-10-29T22:30:13.779075+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "bodyStatus": "skip",
     "bodyReason": "no-text"
   },
@@ -270,7 +298,7 @@
     "hatenaDate": "2026-10-29T05:54:30Z",
     "users": [],
     "firstSeenAt": "2026-10-29T22:30:13.779075+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body"
   },
   {
@@ -489,7 +517,7 @@
     "hatenaDate": "2026-10-29T09:18:31Z",
     "users": [],
     "firstSeenAt": "2026-10-29T22:00:14.142012+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body"
   },
   {
@@ -510,14 +538,14 @@
     "title": "AIが生成したコードは読むべきか？抽象化設計とコードの品質保証 / abstraction-design-and-quality",
     "url": "https://speakerdeck.com/minodriven/abstraction-design-and-quality",
     "domain": "speakerdeck.com",
-    "count": 48,
+    "count": 49,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/minodriven/abstraction-design-and-quality",
     "screenshot": "https://files.speakerdeck.com/presentations/752975b2108d4759832446b501d0bb80/slide_0.jpg?41136694",
     "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … AIが生成したコードは読むべきか？抽象化設計とコードの品質保証 / abstraction-d... AIが生成したコードは読むべきか？抽象化設計とコードの品質保証 / abstraction-design-and-quality 見えないものを探る要求要件定義に必要な基本的思考 / invisible-requirement-thinking 設計次第でAIコードの読む量は減らせる / designing-for-code-readi…",
     "hatenaDate": "2026-10-29T10:14:39Z",
     "users": [],
     "firstSeenAt": "2026-10-29T21:45:15.135398+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -533,7 +561,7 @@
     "hatenaDate": "2026-10-29T09:27:57Z",
     "users": [],
     "firstSeenAt": "2026-10-29T21:15:13.448212+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body"
   },
   {
@@ -575,21 +603,21 @@
     "hatenaDate": "2026-10-28T03:33:39Z",
     "users": [],
     "firstSeenAt": "2026-10-29T20:30:16.302340+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AIのコード解析を妨害するために「天安門事件」「台湾独立」「水道水に毒物混入」などのフレーズを大量に混入させる手法が発見される",
     "url": "https://gigazine.net/news/20261029-anti-ai-words-in-script/",
     "domain": "gigazine.net",
-    "count": 98,
+    "count": 100,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261029-anti-ai-words-in-script/",
     "screenshot": "https://i.gzn.jp/img/2026/10/29/anti-ai-words-in-script/00.jpg",
     "description": "AIには悪意ある用途での使用をブロックするための安全対策が施されているほか、特定の分野のフレーズを拒否している場合もあります。こうしたAIの挙動を逆手に取り、危険とみなされる単語をコードに紛れ込ませることでAIによる解析を妨害しているとみられるプログラムが、セキュリティ研究者のveritas氏によって発見され...",
     "hatenaDate": "2026-10-29T11:05:08Z",
     "users": [],
     "firstSeenAt": "2026-10-29T20:15:13.965459+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -625,14 +653,14 @@
     "title": "最近の E2E 戦略（2026 年 10 月現在）",
     "url": "https://zenn.dev/polyco/articles/26624b38c951b5",
     "domain": "zenn.dev",
-    "count": 110,
+    "count": 112,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/polyco/articles/26624b38c951b5",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--JdU3WL7H--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%259C%2580%25E8%25BF%2591%25E3%2581%25AE%2520E2E%2520%25E6%2588%25A6%25E7%2595%25A5%25EF%25BC%25882026%2520%25E5%25B9%25B4%252010%2520%25E6%259C%2588%25E7%258F%25BE%25E5%259C%25A8%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Tatsunori%2520Nakano%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzlkY2VhNDgwYWUuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2583%259D%25E3%2583%25AA%25E3%2582%25B3%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzhhNDg0ZDExOTguanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "実装から拾った確認対象とシナリオの対応漏れをチェックし漏れがあれば CI で落とす 毎回全シナリオを回すのではなく、実装に関連する箇所のみ回している（でかいリファクタの時は回帰テストとして全シナリオ回す） packages/ ├── web/ React・React Router・Vite ├── api/ Hono・Drizzle ORM・PostgreSQL ├── domain/ 計算や入力制約などの業務ルール ├── shared/ 共通の型・ユーティリティ └── e2e/ E2Eテスト・実行基盤・実装とシナリオの対応表 ちゃんと書いてもフレーキーだし、ノーコード系のやつもなんかラ…",
     "hatenaDate": "2026-10-26T11:40:05Z",
     "users": [],
     "firstSeenAt": "2026-10-29T19:45:14.679439+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -711,14 +739,14 @@
     "title": "厳格にルール化すると面倒だからいい感じにして運用してたのに、それを悪用しまくる人が出てくると仕方なく厳しくして全員が苦しむ現象ってあるよね",
     "url": "https://togetter.com/li/2764263",
     "domain": "togetter.com",
-    "count": 153,
+    "count": 155,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2764263",
     "screenshot": "https://s.tgstc.com/ogp3/058d2bf9718ac102f24b7f9044d696e8-1200x630.jpeg",
     "description": "「あまり厳格にルール化するとみんなが面倒だから性善説でゆるく長年運用してたことを平気で悪用する上に何回注意しても直らない1人が出てきたせいで仕方なく厳格なルールが定められて全員苦しむ事になる現象」もある グレーゾーンを遠慮なく踏み荒らす連中が グレーゾーンを狭くしていく。 x.com/TETRAN_IT/stat… @TETRAN_IT ファジーだからこそ円滑な事案を破壊するのは、稀にしかいないけどエンカウントしたら致命傷をもたらす偏重な存在なんですよね…。そういうやつは大局を理解する知性に欠けているから厄介。綺麗事正義の世界ではそいつの排除もできないからみんなで不幸になるしかないという 馬…",
     "hatenaDate": "2026-10-29T08:52:04Z",
     "users": [],
     "firstSeenAt": "2026-10-29T19:00:14.054044+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -762,7 +790,7 @@
     "hatenaDate": "2026-10-29T07:16:28Z",
     "users": [],
     "firstSeenAt": "2026-10-29T19:00:14.054044+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body"
   },
   {
@@ -917,7 +945,7 @@
     "hatenaDate": "2026-10-29T06:48:37Z",
     "users": [],
     "firstSeenAt": "2026-10-29T17:00:15.390537+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -954,14 +982,14 @@
     "title": "グッドスマイルカンパニー、クレカ番号全16桁が情報漏洩か　該当者は2800人のユーザー",
     "url": "https://kai-you.net/article/96997",
     "domain": "kai-you.net",
-    "count": 65,
+    "count": 66,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kai-you.net/article/96997",
     "screenshot": "https://img.kai-you.net/storage/2026/10/4a72e056-52e9-4d1a-98cb-fa05ba325006/jpg/goodsmile.jpg",
     "description": "フィギュアメーカー大手・グッドスマイルカンパニーが10月29日（木）、公式オンラインショップへの不正アクセスについて第3報を発表した。 調査の結果、クレジットカード決済ページに不正なプログラムが設置されていたことが判明。 2026年10月21日13時55分から23日7時までに同ページを利用した可能性のある2800人について、カード名義人名、カード番号全16桁、有効期限、セキュリティコードが漏洩した可能性があるという。 また、過去に公式ショップへクレジットカード情報を登録したことがあるユーザーについても、カード番号下4桁と有効期限が漏えいした可能性がある。 対象となる人数は確認中だが、該当する…",
     "hatenaDate": "2026-10-29T04:40:11Z",
     "users": [],
     "firstSeenAt": "2026-10-29T16:00:13.312826+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -991,7 +1019,7 @@
     "hatenaDate": "2026-10-29T06:15:08Z",
     "users": [],
     "firstSeenAt": "2026-10-29T16:00:13.312826+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1100,14 +1128,14 @@
     "title": "Cloudflare はなんでこんなに無料で使わせてくれるの？ | ashunar0",
     "url": "https://ashunar0.dev/posts/cloudflare-free-plan/",
     "domain": "ashunar0.dev",
-    "count": 392,
+    "count": 393,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ashunar0.dev/posts/cloudflare-free-plan/",
     "screenshot": "https://ashunar0.dev/og/cloudflare-free-plan.png",
     "description": "Workers は 1 日 10 万リクエストまでタダです。Pages は帯域が無制限です。D1 も 5GB までタダです。R2 なんて、データを取り出すときの転送料が完全タダです。いくら使ってもタダなんです。 個人開発なら、1 円も払わずにアプリを公開して運用までできちゃいます。意味がわからん（嬉しい）。 普通に考えれば、サーバーも回線も Cloudflare が用意しているものなので、使われれば使われるほど Cloudflare にはお金がかかるはずです。それをこんなにタダで配って、大丈夫なんでしょうか？？どうしてそんなに太っ腹なんでしょうか？？ なんて思っていたところ、少し前の Clo…",
     "hatenaDate": "2026-10-29T03:25:44Z",
     "users": [],
     "firstSeenAt": "2026-10-29T14:00:14.109327+09:00",
-    "lastSeenAt": "2026-10-30T05:30:14.676135+09:00",
+    "lastSeenAt": "2026-10-30T05:45:15.200966+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4354,34 +4382,6 @@
     "users": [],
     "firstSeenAt": "2026-10-27T10:45:12.730459+09:00",
     "lastSeenAt": "2026-10-27T23:15:19.833626+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "Microsoft、約6万人対象の希望退職制度を発表　巨額のAI投資で経費抑制か",
-    "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002604/",
-    "domain": "www.itmedia.co.jp",
-    "count": 17,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/27/2000002604/",
-    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/27/2000002604/10010497/2048",
-    "description": "米Microsoftは10月26日（現地時間）、従業員を対象とした新たな希望退職制度「Voluntary Exit Offer」（VEO）を導入すると発表した。対象となる従業員が金銭的支援やキャリア形成の支援を受けながら、自主的に退職できる仕組みだ。 対象は、米、英、加、印の4カ国で、制度を導入する部門に所属する職位レベル70以下の従業員。期間限定の制度であり、全社一律ではなく、各部門の事業上の優先事項や顧客への責任、人員配置の必要性に応じて導入の有無を決める。対象者には同日、制度の詳細を記載したメールを送付する。 エイミー・コールマンCPO（最高人事責任者）は今回の制度について、社外での新…",
-    "hatenaDate": "2026-10-26T22:05:20Z",
-    "users": [],
-    "firstSeenAt": "2026-10-27T10:45:12.730459+09:00",
-    "lastSeenAt": "2026-10-27T13:45:13.287782+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "登壇当日に Claude for Google Workspace で Markdown 原稿をスライドに変換して間に合わせた話 | DevelopersIO",
-    "url": "https://dev.classmethod.jp/articles/claude-for-google-workspace-slide-conversion/",
-    "domain": "dev.classmethod.jp",
-    "count": 32,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/claude-for-google-workspace-slide-conversion/",
-    "screenshot": "https://devio2024-media.developers.io/image/upload/f_auto,q_auto/v1790874959/eyecatch/ka9xwy5wvmdbaykvguvl.png",
-    "description": "先日 DevelopersIO 2026 で「Claude Code on Bedrock で統制をかける小ネタ集」という内容で登壇しました。 https://dev.classmethod.jp/articles/claude-code-bedrock-governance-tips/ 8 か月の乳児を育てている都合上、朝と夜はお世話で手一杯、夜間に覚醒する子どもの対応をしているため毎日寝不足になりながら労働しています。 登壇のための検証やログ取得、登壇資料作成に割ける時間がとてもとても足りず、寝不足で倒れそうになりながら、「内容だけは絶対に充実させるぞ」という気概の元なんとか Markd…",
-    "hatenaDate": "2026-10-26T23:12:30Z",
-    "users": [],
-    "firstSeenAt": "2026-10-27T10:28:14.350665+09:00",
-    "lastSeenAt": "2026-10-27T17:15:12.788732+09:00",
     "descriptionSource": "body"
   }
 ]
