@@ -1,5 +1,19 @@
 [
   {
+    "title": "Qwen超えで2倍速、拡散LLM「Clover-35B-A3B-Preview」公開",
+    "url": "https://pc.watch.impress.co.jp/docs/news/2152177.html",
+    "domain": "pc.watch.impress.co.jp",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2152177.html",
+    "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2152/177/1.jpg",
+    "description": "文章を先頭から1トークンずつ書き進めるのではなく、ブロック単位でまとめて生成する「拡散言語モデル」に、350億パラメータ級の新モデルが登場した。DiffuSpaceは10月28日(中国時間)、拡散言語モデル「Clover-35B-A3B-Preview」をオープンウェイト(モデルの重み)として公開した。ライセンスはApache 2.0で、商用利用を含め無償で利用可能。 Transformers用の推論コードはHugging Faceで提供されている。推論エンジンはSGLangとllama.cppに対応するとしており、それぞれの対応コードと導入手順は今後DiffuSpaceのGitHubリポジ…",
+    "hatenaDate": "2026-10-29T03:49:27Z",
+    "users": [],
+    "firstSeenAt": "2026-10-29T16:15:14.453910+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "グッドスマイルカンパニー、クレカ番号全16桁が情報漏洩か　該当者は2800人のユーザー",
     "url": "https://kai-you.net/article/96997",
     "domain": "kai-you.net",
@@ -10,7 +24,7 @@
     "hatenaDate": "2026-10-29T04:40:11Z",
     "users": [],
     "firstSeenAt": "2026-10-29T16:00:13.312826+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,21 +38,21 @@
     "hatenaDate": "2026-10-29T02:55:17Z",
     "users": [],
     "firstSeenAt": "2026-10-29T16:00:13.312826+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "グッスマ、顧客の2800人のカード番号全16桁＋セキュリティコードなど流出か　下4桁は40万枚分",
     "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002716/",
     "domain": "www.itmedia.co.jp",
-    "count": 5,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/29/2000002716/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/29/2000002716/10010873/2048",
     "description": "キャラクターフィギュアなどの企画・販売を手掛けるグッドスマイルカンパニー（千代田区）は10月29日、直販サイトが不正アクセスを受け、顧客2800人のカード名義人名、カード番号（全16桁）、有効期限、セキュリティコードが漏えいした可能性があると発表した。 また、同サイトにカード情報を登録したことがある顧客のカード番号下4ケタと有効期限も漏えいした可能性があり、対象のカードは40万2466枚に上るという。 26日までの報告では、カード番号は下4ケタのみ流出した可能性があると説明。対象人数は明らかにしていなかった。その後の調査で、カード番号全桁が流出した顧客がいる可能性が判明した。 システム開発・…",
     "hatenaDate": "2026-10-29T06:15:08Z",
     "users": [],
     "firstSeenAt": "2026-10-29T16:00:13.312826+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +66,7 @@
     "hatenaDate": "2026-10-29T01:33:47Z",
     "users": [],
     "firstSeenAt": "2026-10-29T15:30:13.925175+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +80,7 @@
     "hatenaDate": "2026-10-29T01:48:15Z",
     "users": [],
     "firstSeenAt": "2026-10-29T15:15:13.425695+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -81,7 +95,7 @@
     "hatenaDate": "2026-10-29T04:11:39Z",
     "users": [],
     "firstSeenAt": "2026-10-29T14:45:13.872920+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
@@ -109,7 +123,7 @@
     "hatenaDate": "2026-10-29T04:45:58Z",
     "users": [],
     "firstSeenAt": "2026-10-29T14:45:13.872920+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
@@ -137,7 +151,7 @@
     "hatenaDate": "2026-10-29T04:10:11Z",
     "users": [],
     "firstSeenAt": "2026-10-29T14:30:12.609701+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -145,14 +159,14 @@
     "title": "Cloudflare はなんでこんなに無料で使わせてくれるの？ | ashunar0",
     "url": "https://ashunar0.dev/posts/cloudflare-free-plan/",
     "domain": "ashunar0.dev",
-    "count": 56,
+    "count": 58,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ashunar0.dev/posts/cloudflare-free-plan/",
     "screenshot": "https://ashunar0.dev/og/cloudflare-free-plan.png",
     "description": "Workers は 1 日 10 万リクエストまでタダです。Pages は帯域が無制限です。D1 も 5GB までタダです。R2 なんて、データを取り出すときの転送料が完全タダです。いくら使ってもタダなんです。 個人開発なら、1 円も払わずにアプリを公開して運用までできちゃいます。意味がわからん（嬉しい）。 普通に考えれば、サーバーも回線も Cloudflare が用意しているものなので、使われれば使われるほど Cloudflare にはお金がかかるはずです。それをこんなにタダで配って、大丈夫なんでしょうか？？どうしてそんなに太っ腹なんでしょうか？？ なんて思っていたところ、少し前の Clo…",
     "hatenaDate": "2026-10-29T03:25:44Z",
     "users": [],
     "firstSeenAt": "2026-10-29T14:00:14.109327+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -196,21 +210,21 @@
     "hatenaDate": "2026-10-29T03:43:49Z",
     "users": [],
     "firstSeenAt": "2026-10-29T13:30:10.154191+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AIが人間に“闇バイト”を発注？　AIが物理的労働を買う求人サイト「RentAHuman」の実態",
     "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002679/",
     "domain": "www.itmedia.co.jp",
-    "count": 35,
+    "count": 36,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/29/2000002679/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/29/2000002679/10010739/2048",
     "description": "2019年の開始以来、多様な最新論文を取り上げている連載「Innovative Tech」。ここではその番外編として“ちょっと昔”に発表された世界中の個性的な研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shiropen2 独立研究者のPulak MehtaさんとAryan Deshkumarさんが発表した論文「Security Risks of AI Agents Hiring Humans: An Empiric…",
     "hatenaDate": "2026-10-29T03:13:33Z",
     "users": [],
     "firstSeenAt": "2026-10-29T13:15:11.070966+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
@@ -224,7 +238,7 @@
     "hatenaDate": "2026-10-29T01:03:57Z",
     "users": [],
     "firstSeenAt": "2026-10-29T13:15:11.070966+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
@@ -267,7 +281,7 @@
     "hatenaDate": "2026-10-29T01:46:44Z",
     "users": [],
     "firstSeenAt": "2026-10-29T12:15:16.324201+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -283,7 +297,7 @@
     "hatenaDate": "2026-10-29T01:20:32Z",
     "users": [],
     "firstSeenAt": "2026-10-29T12:00:07.315892+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
@@ -297,7 +311,7 @@
     "hatenaDate": "2026-10-29T00:29:43Z",
     "users": [],
     "firstSeenAt": "2026-10-29T12:00:07.315892+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -313,7 +327,7 @@
     "hatenaDate": "2026-10-29T00:55:43Z",
     "users": [],
     "firstSeenAt": "2026-10-29T11:45:11.020344+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -364,14 +378,14 @@
     "title": "ほとんどの機種で機能制限される「Androidのマイナンバーカード」、一体なぜなのか | Gadget Gate",
     "url": "https://gadget.phileweb.com/post-136103/",
     "domain": "gadget.phileweb.com",
-    "count": 23,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gadget.phileweb.com/post-136103/",
     "screenshot": "https://gadget.phileweb.com/wp-content/uploads/2026/10/9bf4f5df79783ac5996bb930513a7729.jpg",
     "description": "「iPhone Duo」の販売が始まり、iPhoneに再び注目が高まったが、そのiPhone向け対応が進んでいるのが「マイナンバーカード」である。 顔写真が付いたマイナンバーカードは本人確認書類として活用できるのはもちろんのこと、最近では「マイナ保険証」への対応で、医療機関に行く際に提示や読み取りが求められることも増え、活用の機会が確実に増加している。 そのマイナンバーカードをスマートフォンに搭載し、専用のリーダーにタッチするだけでマイナンバーカードが必要な手続きを済ませられることを知っている人もいるかと思う。だがこれまで、iPhoneとAndroidスマートフォンでは、その対応に大きな差が…",
     "hatenaDate": "2026-10-28T22:16:12Z",
     "users": [],
     "firstSeenAt": "2026-10-29T11:15:14.020934+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
@@ -413,21 +427,21 @@
     "hatenaDate": "2026-10-28T16:31:43Z",
     "users": [],
     "firstSeenAt": "2026-10-29T10:45:13.373204+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "VPNがあるのは外から分かるので狙われる。パッチ当てはもう自動化するしかない――日本ハッカー協会・杉浦隆幸代表理事が語る、AI時代のランサムウェア対処策【Security Days Fall 2026】",
     "url": "https://internet.watch.impress.co.jp/docs/event/2151590.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 137,
+    "count": 140,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/event/2151590.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2151/590/01.JPG",
     "description": "VPNがあるのは外から分かるので狙われる。パッチ当てはもう自動化するしかない――日本ハッカー協会・杉浦隆幸代表理事が語る、AI時代のランサムウェア対処策 AIの進化は、来るところまで来てしまったようだ。サイバー攻撃への応用である。24時間365日、AIは休まず働き続け、脆弱性を発見する。そこを突く攻撃ツールの生成にもAIが威力を発揮してしまっている。 サイバーセキュリティ専門のイベント「Security Days Fall 2026」で10月22日、一般社団法人日本ハッカー協会の代表理事である杉浦隆幸氏による講演が行われた。AIの台頭によって急激に変化するセキュリティ事情について、現場のリア…",
     "hatenaDate": "2026-10-28T22:58:45Z",
     "users": [],
     "firstSeenAt": "2026-10-29T10:30:13.363262+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -443,7 +457,7 @@
     "hatenaDate": "2026-10-28T23:01:41Z",
     "users": [],
     "firstSeenAt": "2026-10-29T10:30:13.363262+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -547,35 +561,35 @@
     "hatenaDate": "2026-10-28T05:48:20Z",
     "users": [],
     "firstSeenAt": "2026-10-29T08:30:13.110338+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "もしあなたの免許証画像が漏洩したら？ 対処法をIPAが公開　相次ぐ不正アクセス受け",
     "url": "https://japan.cnet.com/article/35254062/",
     "domain": "japan.cnet.com",
-    "count": 155,
+    "count": 157,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35254062/",
     "screenshot": "https://japan.cnet.com/storage/2026/10/28/dc4e3d64ceb7a33c7f8badf750ea78f0/53_timescar_license_header.jpg",
     "description": "情報処理推進機構（IPA）は10月26日、個人情報の漏えいを知らせる連絡を受けた人に向けて、対処法を公開した。漏れた情報がID・パスワードなのか、クレジットカード情報なのかなどを確認したうえで、情報の種類に応じた対応を取るよう呼びかけている。 漏えいしたIDとパスワードを悪用する「リスト型攻撃」のイメージ。IPAが2025年8月に公開した図で、特定の漏えい事案を示すものではない（出典：IPA） IPAの相談窓口には、「自分の情報が漏れたと連絡が来たが、どうすればいいか」といった相談が数多く寄せられているという。IPAは、まず事業者からの通知や公式サイトを確認し、必要に応じてサポート窓口に問い…",
     "hatenaDate": "2026-10-28T03:14:20Z",
     "users": [],
     "firstSeenAt": "2026-10-29T08:15:12.537962+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "いいから休め - Black October が終わる今、セキュリティエンジニアがやるべきこと",
     "url": "https://zenn.dev/nayuta/articles/aec9ab2e11a7b7",
     "domain": "zenn.dev",
-    "count": 77,
+    "count": 78,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/nayuta/articles/aec9ab2e11a7b7",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--6ZsZkWT_--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2581%2584%25E3%2581%2584%25E3%2581%258B%25E3%2582%2589%25E4%25BC%2591%25E3%2582%2581%2520-%2520Black%2520October%2520%25E3%2581%258C%25E7%25B5%2582%25E3%2582%258F%25E3%2582%258B%25E4%25BB%258A%25E3%2580%2581%25E3%2582%25BB%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2581%258C%25E3%2582%2584%25E3%2582%258B%25E3%2581%25B9%25E3%2581%258D%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nayuta%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lTUV9GWWVFNDNjMHprdUIwM0F6N0Z1dndGMVZENG9IMkdRcnpPdEE9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "2026年10月、Black October、情報セキュリティの世界は変わってしまった。 2026年10月、情報セキュリティの世界は完全に変わりました。今この10月は Black October （暗黒の10月）と呼ばれ始めており、セキュリティへの関心も高まっています。でも、セキュリティに関わる人はみんなこう思っています。 しかし、この状況はまだ始まったばかりです。 Anthropic の Deputy CISO である Jason D. Clinton は「だいたい18ヶ月の間はこの状況に耐える必要がある」という趣旨の発言をしています。 https://x.com/JasonDClinto…",
     "hatenaDate": "2026-10-28T13:54:02Z",
     "users": [],
     "firstSeenAt": "2026-10-29T08:15:12.537962+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
@@ -610,14 +624,14 @@
     "title": "Cloudflare、AIモデル「Clairic」をプレビュー公開 ――文章や画像から金額・日付などを抽出、JSON形式で出力 | gihyo.jp",
     "url": "https://gihyo.jp/article/2026/10/clairic",
     "domain": "gihyo.jp",
-    "count": 69,
+    "count": 72,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/article/2026/10/clairic",
     "screenshot": "https://gihyo.jp/assets/images/ICON/2026/3122_clairic.png",
     "description": "Cloudflareは2026年10月19日、文章や画像などの非構造化データから値を抽出するAIモデル「Clairic」のプレビュー提供を発表した。入力中の情報を使って計算するほか、類似事例をもとに値を推定したり、過去の推移から将来の値を予測したりできる。文章をトークンごとに生成する大規模言語モデル（LLM）とは異なり、数値や日付など、指定した型に従う値を直接返す。同社のAI実行サービスWorkers AIで利用でき、モデルの重みも今後公開する予定としている。 Introducing Clairic, a new System One class of extraction models -…",
     "hatenaDate": "2026-10-21T03:28:41Z",
     "users": [],
     "firstSeenAt": "2026-10-29T08:00:15.075269+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
@@ -631,7 +645,7 @@
     "hatenaDate": "2026-10-28T22:02:19Z",
     "users": [],
     "firstSeenAt": "2026-10-29T08:00:15.075269+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -682,14 +696,14 @@
     "title": "AI時代のシニアエンジニアとは",
     "url": "https://speakerdeck.com/yosuke_furukawa/ai-jidai-no-shinia-enjinia-toha",
     "domain": "speakerdeck.com",
-    "count": 257,
+    "count": 262,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/yosuke_furukawa/ai-jidai-no-shinia-enjinia-toha",
     "screenshot": "https://files.speakerdeck.com/presentations/99f142649959416c9b4be2a525977024/slide_0.jpg?41122081",
     "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … Sponsored · Your Podcast. Everywhere. Effortlessly. Share. Educate. Inspire. Entertain. You do you. We'll handle the rest. → 10/27 ModN Tech Lounge で発表した「AI時代のシニアエンジニアとは」という発表です。 コーディング自動化の次へ。人の介入をゼロにするファクトリーとサポートAIによる実践…",
     "hatenaDate": "2026-10-28T10:56:52Z",
     "users": [],
     "firstSeenAt": "2026-10-29T07:15:11.936875+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body"
   },
   {
@@ -703,7 +717,7 @@
     "hatenaDate": "2026-10-28T03:43:30Z",
     "users": [],
     "firstSeenAt": "2026-10-29T07:15:11.936875+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -747,7 +761,7 @@
     "hatenaDate": "2026-10-28T17:53:40Z",
     "users": [],
     "firstSeenAt": "2026-10-29T06:15:13.596102+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -847,7 +861,7 @@
     "hatenaDate": "2026-10-28T03:32:19Z",
     "users": [],
     "firstSeenAt": "2026-10-29T00:00:14.591728+09:00",
-    "lastSeenAt": "2026-10-29T16:01:52.123008+09:00",
+    "lastSeenAt": "2026-10-29T16:15:14.453910+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4361,20 +4375,6 @@
     "users": [],
     "firstSeenAt": "2026-10-26T18:45:14.033725+09:00",
     "lastSeenAt": "2026-10-26T18:45:14.033725+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "コクヨ、ノートPCとガジェットをまとめて運べる「貼るポーチ」発売",
-    "url": "https://internet.watch.impress.co.jp/docs/news/2150483.html",
-    "domain": "internet.watch.impress.co.jp",
-    "count": 9,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2150483.html",
-    "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2150/483/1.jpg",
-    "description": "コクヨ株式会社は、粘着シートでノートPCの天板に貼り付けてガジェット類などの小物を収納できる「貼るポーチ」（PC用）を10月28日より発売する。市場想定価格は、Sサイズが1320円、Mサイズが1650円、Lサイズが1980円。 同製品は、裏面の粘着シートでノートPCの天板に直接貼り付け、小物をひとまとめにして持ち運べるメッシュ素材のポーチ。短辺・長辺どちらからでも開口できるダブルファスナーが付いており、内容物が落下することなく、重みのあるガジェット類も収納できる。 本体サイズは、Sサイズが約125×13×90mm、 Mサイズが約140×13×125mm、Lサイズが約185×13×125mm。…",
-    "hatenaDate": "2026-10-22T21:32:17Z",
-    "users": [],
-    "firstSeenAt": "2026-10-26T18:30:14.385333+09:00",
-    "lastSeenAt": "2026-10-26T19:00:16.021755+09:00",
     "descriptionSource": "body"
   }
 ]
