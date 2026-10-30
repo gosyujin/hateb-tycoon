@@ -10,7 +10,7 @@
     "hatenaDate": "2026-10-29T23:49:21Z",
     "users": [],
     "firstSeenAt": "2026-10-31T03:00:13.866583+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -25,7 +25,7 @@
     "hatenaDate": "2026-10-30T07:40:59Z",
     "users": [],
     "firstSeenAt": "2026-10-31T02:45:14.531173+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body"
   },
   {
@@ -39,21 +39,21 @@
     "hatenaDate": "2026-10-30T14:30:01Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:45:14.276687+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "文章のAIっぽさを抑えるプロンプト",
     "url": "https://imoz.jp/scraps/202610_humanizer.html",
     "domain": "imoz.jp",
-    "count": 17,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/imoz.jp/scraps/202610_humanizer.html",
     "screenshot": "https://imoz.jp/scraps/202610_humanizer.html.png",
     "description": "最近の大規模言語モデル（LLM）を使っていると、コーディング能力が高まる一方で、文章の流暢さは失われていると感じます。短い説明でも細かく見出しを付けたり、具体例の後に同じ結論を言い直したりして、個々の文は読めても説明の流れが途切れることがあります。 その一方で、指示に沿って文章を直す能力の向上も感じています。このサイトでも記事の推敲にプロンプトを使っているので、その内容を紹介します。 日本語の推敲ルールは、humanizer.ja.txtにまとめています。直したい文章と一緒に、次のプロンプトをAIへ渡します。 https://imoz.jp/humanizer.ja.txt を熟読し、ルール…",
     "hatenaDate": "2026-10-30T14:00:14Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:45:14.276687+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -69,7 +69,7 @@
     "hatenaDate": "2026-10-30T12:53:03Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:30:14.008979+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body"
   },
   {
@@ -83,21 +83,21 @@
     "hatenaDate": "2026-10-30T03:28:48Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:15:14.642907+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AIに物理キーボードを渡して、BIOS操作からPCのトラブル対応まで丸投げしてみた——M5Stack Tab5のカメラとUSBだけで",
     "url": "https://zenn.dev/sodeyama/articles/tech-tab5-camera-usb-pc-diagnosis",
     "domain": "zenn.dev",
-    "count": 10,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/sodeyama/articles/tech-tab5-camera-usb-pc-diagnosis",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--zzh_gvPb--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25AB%25E7%2589%25A9%25E7%2590%2586%25E3%2582%25AD%25E3%2583%25BC%25E3%2583%259C%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E6%25B8%25A1%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581BIOS%25E6%2593%258D%25E4%25BD%259C%25E3%2581%258B%25E3%2582%2589PC%25E3%2581%25AE%25E3%2583%2588%25E3%2583%25A9%25E3%2583%2596%25E3%2583%25AB%25E5%25AF%25BE%25E5%25BF%259C%25E3%2581%25BE%25E3%2581%25A7%25E4%25B8%25B8%25E6%258A%2595%25E3%2581%2592%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E2%2580%2594%25E2%2580%2594M5Stack%2520Tab5%25E3%2581%25AE%25E3%2582%25AB...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E8%25A2%2596%25E5%25B1%25B1%25E5%2589%259B%2540DeploAI%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2YwN2Q1YzZjMWUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "営業を科学するプロダクトの開発と、お客様の業務にAIを組み込む仕事をしています。 2026年10月、自宅の Linux サーバー（開発用に使っているマシンで、EVO と呼んでいます）で、ルートの ext4 が壊れました。ファイルシステムのエラーが出続け、再起動すると起動の途中で止まり、「fsck を手で実行して」と表示されます。こうなると SSH もリモートデスクトップも使えません。結局、マシンの前に座って、BIOS から USB メモリの Ubuntu を起動して作業しました。 次に同じことが起きたら、この作業を AI に任せたいと思いました。そこで作ったのが、M5Stack Tab5 を…",
     "hatenaDate": "2026-10-30T03:05:46Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:15:14.642907+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body"
   },
   {
@@ -111,7 +111,7 @@
     "hatenaDate": "2026-10-30T10:43:47Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:15:14.642907+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -126,7 +126,7 @@
     "hatenaDate": "2026-10-30T12:51:47Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:00:14.743857+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -142,7 +142,7 @@
     "hatenaDate": "2026-10-30T02:41:51Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:00:14.743857+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body"
   },
   {
@@ -170,7 +170,7 @@
     "hatenaDate": "2026-10-29T14:50:25Z",
     "users": [],
     "firstSeenAt": "2026-10-30T23:45:14.618285+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -185,7 +185,7 @@
     "hatenaDate": "2026-10-30T08:36:01Z",
     "users": [],
     "firstSeenAt": "2026-10-30T23:30:15.176130+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -193,14 +193,14 @@
     "title": "今後のセキュリティの考え方",
     "url": "https://zenn.dev/cscloud_blog/articles/a987163efae5d8",
     "domain": "zenn.dev",
-    "count": 41,
+    "count": 43,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/cscloud_blog/articles/a987163efae5d8",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--T589hAKm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BB%258A%25E5%25BE%258C%25E3%2581%25AE%25E3%2582%25BB%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2581%25AE%25E8%2580%2583%25E3%2581%2588%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:nishikawa%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q0ZTRhMzgzMmEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2590%25E3%2583%25BC%25E3%2582%25BB%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25A6%25E3%2583%2589%25E3%2580%2580%25E3%2583%2586...%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q2YjE0NzI3ZTAuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "本日のウェビナー（【緊急開催セミナー】重大脆弱性を狙うサイバー攻撃への備え ～パッチ適用までのリスクを低減する「仮想パッチ」とは～）にお越しくださった皆様ありがとうございます。 当日は時間の関係でお伝えしきれなかった、今後のセキュリティの考え方について、改めて書いてみます。 管理面を減らすというのはどういうことかというと、例えば、ポートを閉じるとかです。意外に思われるかもしれませんが、例えば Amazon EC2 に SSH で入っているなら AWS Systems Manager Session Manager で入るということです。 ポートを開けないことで、攻撃を受ける可能性を大幅に減ら…",
     "hatenaDate": "2026-10-30T11:11:33Z",
     "users": [],
     "firstSeenAt": "2026-10-30T23:30:15.176130+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -230,7 +230,7 @@
     "hatenaDate": "2026-10-30T04:42:38Z",
     "users": [],
     "firstSeenAt": "2026-10-30T22:30:14.929899+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -259,7 +259,7 @@
     "hatenaDate": "2026-10-30T04:36:41Z",
     "users": [],
     "firstSeenAt": "2026-10-30T22:15:17.460677+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -289,7 +289,7 @@
     "hatenaDate": "2026-10-30T09:44:07Z",
     "users": [],
     "firstSeenAt": "2026-10-30T21:45:14.309400+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body"
   },
   {
@@ -303,7 +303,7 @@
     "hatenaDate": "2026-10-30T06:33:29Z",
     "users": [],
     "firstSeenAt": "2026-10-30T21:45:14.309400+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body"
   },
   {
@@ -366,14 +366,14 @@
     "title": "なぜエンジニアは「具体」に縛られるのか。細谷功さん×ミノ駆動さんが語る、抽象化スキルの磨き方 - レバテックLAB",
     "url": "https://levtech.jp/media/detail_954/",
     "domain": "levtech.jp",
-    "count": 14,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/levtech.jp/media/detail_954/",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/9ae7232289999a437733f2123eec6c5e69217be2/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fl%2Flevtech_lab%2F20261023%2F20261023122025.png",
     "description": "トップ > テック最前線レポート > なぜエンジニアは「具体」に縛られるのか。細谷功さん×ミノ駆動さんが語る、抽象化スキルの磨き方 なぜエンジニアは「具体」に縛られるのか。細谷功さん×ミノ駆動さんが語る、抽象化スキルの磨き方 新しい手法やツールが次々に登場し、開発のスピードがかつてなく上がる一方で、開発現場から消えないすれ違いがあります。それは、ビジネス側の「抽象的な要望」と、開発側の「具体的な実装」が噛み合わないということです。 2026年8月27日開催のイベント「【細谷功さん×ミノ駆動さんが語る】システム開発と『具体と抽象』」では、新著『システム開発と「具体と抽象」〜問題発見と問題解決を…",
     "hatenaDate": "2026-10-28T02:17:27Z",
     "users": [],
     "firstSeenAt": "2026-10-30T21:00:15.230537+09:00",
-    "lastSeenAt": "2026-10-31T00:15:14.642907+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body"
   },
   {
@@ -387,7 +387,7 @@
     "hatenaDate": "2026-10-30T04:42:30Z",
     "users": [],
     "firstSeenAt": "2026-10-30T20:45:17.530987+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -402,7 +402,7 @@
     "hatenaDate": "2026-10-30T04:38:30Z",
     "users": [],
     "firstSeenAt": "2026-10-30T20:15:15.160892+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -417,7 +417,7 @@
     "hatenaDate": "2026-10-30T10:26:49Z",
     "users": [],
     "firstSeenAt": "2026-10-30T19:45:15.508612+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body"
   },
   {
@@ -445,7 +445,7 @@
     "hatenaDate": "2026-10-30T02:45:57Z",
     "users": [],
     "firstSeenAt": "2026-10-30T19:45:15.508612+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -475,7 +475,7 @@
     "hatenaDate": "2026-10-30T08:18:59Z",
     "users": [],
     "firstSeenAt": "2026-10-30T19:30:14.824909+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -541,14 +541,14 @@
     "title": "個人情報を自社のDBに持たない設計は、どこまでできるのか - every Tech Blog",
     "url": "https://tech.every.tv/entry/2026/10/30/124255",
     "domain": "tech.every.tv",
-    "count": 144,
+    "count": 146,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.every.tv/entry/2026/10/30/124255",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/c383c7964b0250f7fecebf7af962faa8efe68869/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fshintani-y%2F20261029%2F20261029221249.png",
     "description": "最近、個人情報の漏洩のニュースが増えています。私は普段セキュリティを専門にしているわけではありませんが、漏洩への対策として、そもそも自社で個人情報を持たないように設計する方法はすぐに思いつくと思います。 ただ、それを具体的にどう実現するのかは、詳しく調べたことがありませんでした。そこで今回、認証や決済などを外部サービスに任せることで、自社のDBからどこまで個人情報をなくせるのかを調べて考えてみました。 DBに個人情報を持っていなければ、DBやそのコピーを抜かれても個人情報は漏れません。設定ミスでDBが外から見えてしまった場合や、分析基盤や開発環境にコピーしたデータが漏れた場合、DBにだけアク…",
     "hatenaDate": "2026-10-30T05:48:02Z",
     "users": [],
     "firstSeenAt": "2026-10-30T18:45:15.864843+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -578,7 +578,7 @@
     "hatenaDate": "2026-10-15T02:25:09Z",
     "users": [],
     "firstSeenAt": "2026-10-30T18:15:13.839436+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body"
   },
   {
@@ -641,14 +641,14 @@
     "title": "無印良品、「MUJIアプリ」の利用者情報最大約2726万件が不正アクセスにより流出の可能性",
     "url": "https://internet.watch.impress.co.jp/docs/news/2152666.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 232,
+    "count": 235,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2152666.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2152/666/01.png",
     "description": "良品計画株式会社は10月30日、無印良品の公式アプリ「MUJIアプリ」において、利用者の情報の一部が外部に流出した可能性があることを確認したとして、情報を公開した。 原因、経緯などの詳細は明らかにされていないが、外部からの不正なアクセスを検知し、アクセスの遮断および修正の適用を行ったとしている。 流出の可能性がある情報は最大2726万件（退会者の情報も含む）の、メールアドレス、生年月日、性別。クレジットカード情報および、氏名、住所、電話番号などは含まれないとしている。 同社では、当該の利用者に順次個別に連絡するとしている。なお、MUJIアプリや無印良品ネットストアは正常に利用できる状態。",
     "hatenaDate": "2026-10-30T06:32:44Z",
     "users": [],
     "firstSeenAt": "2026-10-30T16:15:13.377790+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -707,7 +707,7 @@
     "hatenaDate": "2026-10-30T04:19:29Z",
     "users": [],
     "firstSeenAt": "2026-10-30T15:15:14.291511+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -831,14 +831,14 @@
     "title": "Linuxカーネルの重大な脆弱性（CVE-2026-98432）によるカーリルへの影響について – カーリルのブログ",
     "url": "https://blog.calil.jp/2026/10/linux-kernel.html",
     "domain": "blog.calil.jp",
-    "count": 166,
+    "count": 167,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.calil.jp/2026/10/linux-kernel.html",
     "screenshot": null,
     "description": "2026年10月15日、Linuxカーネル（Linux OSの中核部分）のネットワーク処理に重大な脆弱性（CVE-2026-98432）があることが公表され、あわせて修正版が公開されました。細工したパケットを送りつけることでサーバーを停止させたり、条件によっては認証なしでリモートからプログラムを実行されたりするおそれがある問題です。10月27日（米国時間）には、この脆弱性を発見したAnthropic社が、特定の条件で遠隔から管理者権限を取得できることを実証したと公表しました。 カーリルが提供する各サービス（カーリル、Unitrad API、カーリル for AI、学校図書館支援プログラムなど…",
     "hatenaDate": "2026-10-30T03:40:04Z",
     "users": [],
     "firstSeenAt": "2026-10-30T13:30:15.049323+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -924,7 +924,7 @@
     "hatenaDate": "2026-10-30T00:24:37Z",
     "users": [],
     "firstSeenAt": "2026-10-30T12:00:14.085639+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1054,7 +1054,7 @@
     "hatenaDate": "2026-10-30T00:38:15Z",
     "users": [],
     "firstSeenAt": "2026-10-30T10:30:15.213934+09:00",
-    "lastSeenAt": "2026-10-31T04:30:14.827480+09:00",
+    "lastSeenAt": "2026-10-31T04:45:13.453179+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
