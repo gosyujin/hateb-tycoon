@@ -1,30 +1,44 @@
 [
   {
+    "title": "GitHub Actions の lockfile対応 - 利用者と提供者両方の観点から | おそらくはそれさえも平凡な日々",
+    "url": "https://songmu.jp/riji/entry/2026-10-30-github-actions-lockfile.html",
+    "domain": "songmu.jp",
+    "count": 15,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/songmu.jp/riji/entry/2026-10-30-github-actions-lockfile.html",
+    "screenshot": "https://songmu.jp/riji/static/img/songmu-ogp.jpg",
+    "description": "カスタムアクションやreusable workflow提供者側に関する仕様はまだ議論中のものもあるため、現状を理解した上で提供方法をアップデートしていくと良い 全人類待望のGitHub Actionsのworkflow dependency lockfile が、2026年10月28日にGAになりました。ワークフローから利用するカスタムアクションの依存を lockfileで固定できる機能です。 GitHub Actions workflow lockfiles are generally available これまで、サプライチェーン攻撃対策やビルドの再現性を高めるために、カスタムアクション…",
+    "hatenaDate": "2026-10-30T14:30:01Z",
+    "users": [],
+    "firstSeenAt": "2026-10-31T05:30:14.678346+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "『Forza Horizon 6』痛車BAN騒動、公式が「BAN基準」明かすも火に油。「とろんとした目はダメ」「処分はごく一部」など説明される一方、投稿がすぐ消える事態に - AUTOMATON",
     "url": "https://automaton-media.com/articles/newsjp/20261030-476830/",
     "domain": "automaton-media.com",
-    "count": 5,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/automaton-media.com/articles/newsjp/20261030-476830/",
     "screenshot": "https://automaton-media.com/wp-content/uploads/2026/10/20261030-476830-header.jpg",
     "description": "Playground Gamesは10月30日、『Forza Horizon 6』にていわゆる「痛車」デザインを手がけるユーザーのBANを巡る問題について、中国向けの公式SNSアカウントから声明を発表した。しかし、その内容に対しても批判が殺到したことを受けてか、投稿はまもなく削除されたようだ。声明の内容はユーザー間で英訳、日本語訳されて国内外のコミュニティで物議を醸す事態となっている。 『Forza Horizon 6』は、オープンワールド・ドライビングゲーム『Forza Horizon』シリーズの最新作だ。対応プラットフォームはPC（Steam/Microsoft Store）/XBOX…",
     "hatenaDate": "2026-10-30T13:49:45Z",
     "users": [],
     "firstSeenAt": "2026-10-31T05:15:14.772542+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "トヨタ、Waymoと協業しバッテリEV「bZ4X」の無人運転タクシーを2027年運行開始 国内生産の量産車による日本初の完全自動運転タクシーサービス",
     "url": "https://car.watch.impress.co.jp/docs/news/2152645.html",
     "domain": "car.watch.impress.co.jp",
-    "count": 9,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/car.watch.impress.co.jp/docs/news/2152645.html",
     "screenshot": "https://car.watch.impress.co.jp/img/car/list/2152/645/001.jpg",
     "description": "トヨタのバッテリEV「bZ4X」をベースにWaymoの自動運転用ハードウェアを搭載する。生産はトヨタ自動車 高岡工場 トヨタ自動車は10月30日、Waymoと協業しバッテリEV「bZ4X」の無人自動運転タクシーを2027年に運行開始すると発表した。これは2025年4月に合意した戦略的パートナーシップに基づくもので、2026年8月にはWaymoの技術を使ったレベル4自動運転車両によるロボタクシー事業参入も検討すると発表されていた。 このロボタクシー向け自動運転「bZ4X」は、トヨタ自動車 高岡工場（愛知県豊田市）で生産。ベース車両の組み立てから、Waymoの自動運転用ハードウェアの搭載まで、一…",
     "hatenaDate": "2026-10-30T09:11:52Z",
     "users": [],
     "firstSeenAt": "2026-10-31T04:30:14.827480+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +52,7 @@
     "hatenaDate": "2026-10-30T16:31:29Z",
     "users": [],
     "firstSeenAt": "2026-10-31T04:30:14.827480+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,21 +66,21 @@
     "hatenaDate": "2026-10-30T14:44:48Z",
     "users": [],
     "firstSeenAt": "2026-10-31T04:15:11.358016+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "文章のAIっぽさを抑えるプロンプト",
     "url": "https://imoz.jp/scraps/202610_humanizer.html",
     "domain": "imoz.jp",
-    "count": 23,
+    "count": 25,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/imoz.jp/scraps/202610_humanizer.html",
     "screenshot": "https://imoz.jp/scraps/202610_humanizer.html.png",
     "description": "最近の大規模言語モデル（LLM）を使っていると、コーディング能力が高まる一方で、文章の流暢さは失われていると感じます。短い説明でも細かく見出しを付けたり、具体例の後に同じ結論を言い直したりして、個々の文は読めても説明の流れが途切れることがあります。 その一方で、指示に沿って文章を直す能力の向上も感じています。このサイトでも記事の推敲にプロンプトを使っているので、その内容を紹介します。 日本語の推敲ルールは、humanizer.ja.txtにまとめています。直したい文章と一緒に、次のプロンプトをAIへ渡します。 https://imoz.jp/humanizer.ja.txt を熟読し、ルール…",
     "hatenaDate": "2026-10-30T14:00:14Z",
     "users": [],
     "firstSeenAt": "2026-10-31T04:15:11.358016+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -87,28 +101,28 @@
     "title": "『老後破産の女王』 中村うさぎ | 新潮社",
     "url": "https://www.shinchosha.co.jp/book/456707/",
     "domain": "www.shinchosha.co.jp",
-    "count": 10,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.shinchosha.co.jp/book/456707/",
     "screenshot": "https://www.shinchosha.co.jp/images_v2/book/cover/456707/456707_xl.jpg",
     "description": "ホストにブランド品、美容整形に大金をつぎ込み、我が世の春を謳歌した「浪費の女王」。しかし、病に倒れて仕事は激減、気がつけば65歳にして貯金ゼロ・年金ゼロの危機に直面！ シルバー就活、親身な知人の入れ知恵、最後のよすが・認知症の実父など、「それ大丈夫？」という捨て身の手段と人脈で破産人生脱出を企む！ 久しぶり、と言っては失礼であろうが、以前ほどはお見かけしなくなった中村うさぎさんの新刊を読んだ。そしてふーむとうなった。 最近こんな過激で面白いエッセイを読んだことがない。六十八歳になったうさぎさんは、重い病気の後遺症で足が不自由になった。そして仕事もほとんどなくなってしまったという。貯金もない、…",
     "hatenaDate": "2026-10-30T04:02:22Z",
     "users": [],
     "firstSeenAt": "2026-10-31T03:30:15.229664+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「電話越しにフロントスタッフを突破するのは私の今後の課題にしておきます！」自律型AIに年末年始のホテルについて質問したら勝手に電話をしてしまった話",
     "url": "https://togetter.com/li/2764692",
     "domain": "togetter.com",
-    "count": 31,
+    "count": 34,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2764692",
     "screenshot": "https://s.tgstc.com/ogp3/aae48ffa8d2a6d8f8c69fa483badd193-1200x630.jpeg",
     "description": "ここ数日、自律型AIを使っていて、その便利さに感動しているのですが、年末年始のホテルについて質問したところ、なんとAIが勝手にホテルに電話していてビックリ。 すぐにホテルに謝罪の電話を入れました。。 pic.x.com/U4gdpcM2fR ちなみに電話は私の携帯番号ではなくAIが持ってる050番号から掛けてたみたいです。 妻へ電話してってテストして分かりました。これ無料で使えるんですよね。どうなってるんだ 自律型AIはMuseがよく使われてますが、電話したのはピクルというAIです。 pickle.com 피클: 나만의 AI 에이전트 피클을 만나보세요. 대신 작업을 수행하는 AI 에…",
     "hatenaDate": "2026-10-30T12:51:47Z",
     "users": [],
     "firstSeenAt": "2026-10-31T03:15:13.370846+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -122,7 +136,7 @@
     "hatenaDate": "2026-10-30T04:43:04Z",
     "users": [],
     "firstSeenAt": "2026-10-31T02:30:13.980845+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -136,7 +150,7 @@
     "hatenaDate": "2026-10-30T13:24:26Z",
     "users": [],
     "firstSeenAt": "2026-10-31T02:30:13.980845+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -150,7 +164,7 @@
     "hatenaDate": "2026-10-30T11:11:33Z",
     "users": [],
     "firstSeenAt": "2026-10-31T01:45:13.476782+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -164,7 +178,7 @@
     "hatenaDate": "2026-10-30T15:00:17Z",
     "users": [],
     "firstSeenAt": "2026-10-31T01:45:13.476782+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -178,7 +192,7 @@
     "hatenaDate": "2026-10-30T15:01:49Z",
     "users": [],
     "firstSeenAt": "2026-10-31T01:15:14.265016+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -192,21 +206,21 @@
     "hatenaDate": "2026-10-30T15:04:58Z",
     "users": [],
     "firstSeenAt": "2026-10-31T01:15:14.265016+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "高市政権へ「この時代を生きる市民として黙らない」　若者有志が国会前で抗議デモ：東京新聞デジタル",
     "url": "https://www.tokyo-np.co.jp/article/525119",
     "domain": "www.tokyo-np.co.jp",
-    "count": 38,
+    "count": 42,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.tokyo-np.co.jp/article/525119",
     "screenshot": "https://static.tokyo-np.co.jp/image/article/size1/4/1/6/f/416f153c66e25cf23b3668ec28ddc469_1.jpg",
     "description": "「めちゃくちゃな政治に抗議します」を掲げ、20～40代の有志でつくる市民グループ「WE WANT OUR FUTURE」が30日夜、国会正門前でデモを開催した。9000人（主催者発表）が、発足から1年が過ぎた高市政権に懸念や不満の意思表示をした。（高山晶一） 参加者たちは、軽快な音楽に合わせ「うちらの税金、暮らしに使え」「うちらの税金（で）武器を買うな」「殺人ドローンは日本に要らない」などとコール。「経済まったく良くならない」「市民の苦しさ、政治の失敗」「自民は半世紀以上失敗してる」などと繰り返した。 主催者は「私たちは、この時代を生きる市民として黙らない。おかしいことにはおかしいと言う。戦…",
     "hatenaDate": "2026-10-30T13:01:33Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:30:14.008979+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -220,7 +234,7 @@
     "hatenaDate": "2026-10-30T13:05:58Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:15:14.642907+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -234,21 +248,21 @@
     "hatenaDate": "2026-10-30T08:51:13Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:15:14.642907+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "＜独自＞ウクライナが日本に迎撃弾供与を要望　小野寺元防衛相「難しいが知恵絞る」と回答",
     "url": "https://www.sankei.com/article/20261030-QF6TGBOHDVNAHOKLJVJBEVLEOI/?outputType=asynd",
     "domain": "www.sankei.com",
-    "count": 40,
+    "count": 41,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.sankei.com/article/20261030-QF6TGBOHDVNAHOKLJVJBEVLEOI/?outputType=asynd",
     "screenshot": "https://www.sankei.com/resizer/v2/THRWIFYDIJNZVFC5L72AUXFOYM.jpg?auth=d6ae1ed69dedac9e913c308e6724ffa8c41542aa59fef3a8882b1cd4c64bfb45&quality=50&focal=2054%2C1064&width=1200&height=675",
     "description": "自民党の小野寺五典元防衛相が産経新聞のインタビューに応じ、ロシアによる侵略が続くウクライナを9月末から視察した際、ウクライナ政府高官から迎撃ミサイルの供与を求められたと明らかにした。紛争当事国への装備移転には例外規定を適用する必要がある。小野寺氏は「私の一存で約束できる立場にはない。大変難しい課題だが帰国後に政府と知恵を絞る」と答え、要望事項を日本政府へ伝えたという。 小野寺氏は、ロシアの無人機（ドローン）攻撃が以前より高速のジェット推進型へ代わり、「これまでは9割以上のドローンを撃墜できたが、迎撃率が格段に落ちた」と指摘。弾道ミサイル攻撃も急増していることから、ウクライナでは大幅に迎撃ミサ…",
     "hatenaDate": "2026-10-30T08:39:01Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:00:14.743857+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -291,7 +305,7 @@
     "hatenaDate": "2026-10-30T13:05:57Z",
     "users": [],
     "firstSeenAt": "2026-10-30T23:15:09.480303+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -305,35 +319,35 @@
     "hatenaDate": "2026-10-30T10:35:13Z",
     "users": [],
     "firstSeenAt": "2026-10-30T23:15:09.480303+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "総長選考の選考経緯に関する資料の公表について | 東京大学",
     "url": "https://www.u-tokyo.ac.jp/focus/ja/press/z1303_00008.html",
     "domain": "www.u-tokyo.ac.jp",
-    "count": 109,
+    "count": 111,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.u-tokyo.ac.jp/focus/ja/press/z1303_00008.html",
     "screenshot": "https://www.u-tokyo.ac.jp/content/400299849.png",
     "description": "標記について、総長選考・監察会議において、総長選考の選考経緯に関する資料を取りまとめましたので、資料のとおり公表いたします。あわせて、総長選考・監察会議議長のコメントを以下のとおりお知らせいたします。 総長選考・監察会議では、9月28日の次期総長予定者決定後、翌9月29日の記者会見及び東京大学ウェブサイトに掲載した「東京大学 次期総長予定者 選考結果、選考理由及び選考過程」において、次期総長予定者の選考理由及び選考過程について説明してまいりました。 また、学内に対しては、10月13日、各部局の長等により構成される部局長等会議において、総長選考・監察会議の委員から、詳細な資料を用いて選考理由及…",
     "hatenaDate": "2026-10-30T12:43:22Z",
     "users": [],
     "firstSeenAt": "2026-10-30T23:00:14.550549+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「Gemini Notebook」、数百冊の教科書を無料で利用可能に",
     "url": "https://www.watch.impress.co.jp/docs/news/2152548.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 108,
+    "count": 109,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2152548.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2152/548/01.jpg",
     "description": "Googleは29日、「Gemini Notebook」で、数百冊の教科書を無料で利用できるようにした。米国とインドの出版社・教材提供元による教科書を追加し、内容についてAIに質問したり、学習ガイドや練習問題を作成したりできる。 対象となるのは、OpenStax、Open Textbook Library、S Chand Publishingなどが提供する教科書。Gemini Notebookに教科書を追加すると、その内容に基づいてAIが質問に回答する。回答には出典が示され、元の教科書の該当箇所に直接アクセスできる。 教科書の内容を基に、利用者に合わせた学習ガイドや練習問題、フラッシュカード…",
     "hatenaDate": "2026-10-30T04:36:41Z",
     "users": [],
     "firstSeenAt": "2026-10-30T23:00:14.550549+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -347,7 +361,7 @@
     "hatenaDate": "2026-10-30T08:32:10Z",
     "users": [],
     "firstSeenAt": "2026-10-30T23:00:14.550549+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -383,42 +397,42 @@
     "title": "メンタルだか自律神経だかが壊れてまともに外出もできなくなってから何年..",
     "url": "https://anond.hatelabo.jp/20261030092203",
     "domain": "anond.hatelabo.jp",
-    "count": 116,
+    "count": 117,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261030092203",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "< anond:20261030091436 | anond:20261030091436 > アニメじゃなくてもいいんだけど 情報量とか長さとか人間の見分けとかを考慮するとアニメ寄りになってしまう パンどろぼうは見ました ちいかわはちょっと見る元気ない 原作既読のチー付与もやや厳しいのでテンポについていけないのかも 薬屋はある程度内容把握してるのでギリ見れたが今最初から見たら見れないと思う ので本好きの下剋上は見れなかった 取っ掛かりがなくて挙げようがないだけでYouTubeの何かとかでもいい 配信を追う気力はないけれど 物語か情報のどちらかはほしい気がするけれど受容できる脳が残ってるかわ…",
     "hatenaDate": "2026-10-30T00:22:50Z",
     "users": [],
     "firstSeenAt": "2026-10-30T21:45:14.309400+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "学校法人同志社の理事長が謝罪「命守れなかった」　辺野古事故で会見：朝日新聞",
     "url": "https://www.asahi.com/articles/ASVBZ05R9VBZOXIE005M.html",
     "domain": "www.asahi.com",
-    "count": 75,
+    "count": 76,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVBZ05R9VBZOXIE005M.html",
     "screenshot": "https://imgopt.asahi.com/ogp/AS20261030003071_comm.jpg",
     "description": "2026年10月30日 16時21分（2026年10月30日 21時21分更新） 【動画】沖縄・辺野古沖で研修旅行中の女子生徒が死亡した事故で、学校法人同志社の八田英二理事長が30日、京都市内で記者会見をして謝罪した＝新井義顕撮影 沖縄県名護市辺野古沖で小型船が転覆し、研修旅行の平和学習中だった同志社国際高校（京都府）の女子生徒が死亡した事故で、同校を運営する学校法人同志社の八田（はった）英二理事長が30日、京都市内で記者会見した。理事長による会見は事故後初めてで、「かけがえのない生徒の命をお守りすることができなかった」と謝罪した。 会見には危機管理担当の瀧英次常務理事と同志社国際高校の宿久…",
     "hatenaDate": "2026-10-30T08:06:30Z",
     "users": [],
     "firstSeenAt": "2026-10-30T21:45:14.309400+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "たんぱく質を健康・環境・値段で総合評価すると1位は「豆腐」だった - ナゾロジー",
     "url": "https://nazology.kusuguru.co.jp/archives/203911",
     "domain": "nazology.kusuguru.co.jp",
-    "count": 96,
+    "count": 97,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/nazology.kusuguru.co.jp/archives/203911",
     "screenshot": "https://nazology.kusuguru.co.jp/wp-content/uploads/2026/10/20261021-c371-fig-thumb.jpg",
     "description": "「たんぱく質をとろう」と決めた翌日から、コンビニでサラダチキンとゆで卵ばかり手に取るようになる人もいるでしょう。 たんぱく質は体に欠かせない栄養ですが、何からとるのがいちばん良いのかは、意外と答えにくい問いです。 人気のたんぱく源の多くには、値札には書かれない健康や環境への「隠れたコスト」があるからです。 食品の表示には、栄養を信号の色で示すものや、二酸化炭素の排出量を示すものがあります。 ただ、こうした表示は一つの面しか映さないことが多く、別の面での損を見落としやすいと指摘されています。 そこで研究者のクリス・マクドナルド博士は、健康や環境、値段などをまとめて採点する新しい仕組みを作りまし…",
     "hatenaDate": "2026-10-30T03:02:05Z",
     "users": [],
     "firstSeenAt": "2026-10-30T21:00:15.230537+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -432,49 +446,49 @@
     "hatenaDate": "2026-10-30T09:39:39Z",
     "users": [],
     "firstSeenAt": "2026-10-30T21:00:15.230537+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「責任を重く受け止めている」八田理事長、辺野古転覆で謝罪　同志社国際高の女子生徒死亡",
     "url": "https://www.sankei.com/article/20261030-47GQ3U5QQNJELLYKOGTZMX5AF4/",
     "domain": "www.sankei.com",
-    "count": 92,
+    "count": 93,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.sankei.com/article/20261030-47GQ3U5QQNJELLYKOGTZMX5AF4/",
     "screenshot": "https://www.sankei.com/resizer/v2/ESV2LX2FYFPIXPJ7U2JSF52BUQ.jpg?auth=d58888af4026c91857c1636238c2079fe816cd82a86a2cea24abe01c3eff3d69&quality=50&focal=1035%2C558&width=1200&height=675",
     "description": "沖縄県名護市辺野古沖で船2隻が転覆し、研修旅行中の同志社国際高校（京都府）2年、武石知華（ともか）さん＝当時（17）＝ら2人が死亡した事故をめぐり、同校を運営する学校法人同志社は30日、京都市内で記者会見を開き、出席した法人の八田英二理事長が「かけがえのない生徒の命を守ることができず、法人として責任を重く受け止めている。遺族を含め関係者に心からおわびする。本当に申し訳ありませんでした」と謝罪し、黙禱（もくとう）した。 八田理事長は事故直後の会見以降、会見を設定しなかった点についても「説明の時期と方針が定まらず、生徒や保護者にさらなる不安と不信を招いたことをおわびする」と謝罪した。理事長が記者…",
     "hatenaDate": "2026-10-30T07:37:10Z",
     "users": [],
     "firstSeenAt": "2026-10-30T21:00:15.230537+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "暗号資産取引所バイナンスにハッキング、過去最大の9400億円超被害　北朝鮮の犯行か",
     "url": "https://www.cnn.co.jp/tech/35254226.html",
     "domain": "www.cnn.co.jp",
-    "count": 106,
+    "count": 107,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.cnn.co.jp/tech/35254226.html",
     "screenshot": "https://www.cnn.co.jp/storage/2026/10/30/56b2441f29fcc12f0cdbd787969ab2a0/gettyimages-2291692470.jpg",
     "description": "バイナンスの共同創業者で、CEOを退任したチャンポン・ジャオ氏/Chan Long Hei/Bloomberg/Getty Images （CNN） 世界最大の暗号資産取引所バイナンスで29日、ハッカーが60億ドル（約9440億円）を超える暗号資産（仮想通貨）を盗み出し、暗号資産の盗難としては過去最大の被害額になった。複数の調査機関が北朝鮮の関与を指摘している。 暗号資産関係の企業でつくるチームは米国時間29日夜の時点で、盗まれた資産のうち約30億ドル相当を凍結することに成功した。盗まれたデジタル資産を追跡して管理下に置こうと、ハッカーとの間で激しい攻防が繰り広げられている。 ハッカーが侵入…",
     "hatenaDate": "2026-10-30T07:36:14Z",
     "users": [],
     "firstSeenAt": "2026-10-30T20:45:17.530987+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「薬屋のひとりごと」もアウトだよな。特に女性に支持者がたくさんいると..",
     "url": "https://anond.hatelabo.jp/20261029111550",
     "domain": "anond.hatelabo.jp",
-    "count": 127,
+    "count": 128,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261029111550",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "< anond:20261029111307 | anond:20261029105135 > ・高い地位にいる金持ち年上上司男が貧乏な女に執拗にアタックする （実年齢はともかく女性の認知として7歳上の相手から） ・アタックに対し女は拒絶し続けてはいるが、しつこく接触やアプローチし続けることを肯定的に描き続ける。 ・繰り返しアタックをし続けている男に対して、段々と女が絆されて最終的には付き合いそうなことを肯定的に描いている。 実年齢はともかくって言ってる時点でそこ突かれたら言い訳できないだけじゃね 読んでないけど1歳差くらいらしいじゃん そもそも作中で美形言われてるのとフツメン～グロメンの目…",
     "hatenaDate": "2026-10-29T02:16:48Z",
     "users": [],
     "firstSeenAt": "2026-10-30T20:15:15.160892+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -495,14 +509,14 @@
     "title": "個人情報を自社のDBに持たない設計は、どこまでできるのか - every Tech Blog",
     "url": "https://tech.every.tv/entry/2026/10/30/124255",
     "domain": "tech.every.tv",
-    "count": 146,
+    "count": 148,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.every.tv/entry/2026/10/30/124255",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/c383c7964b0250f7fecebf7af962faa8efe68869/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fshintani-y%2F20261029%2F20261029221249.png",
     "description": "最近、個人情報の漏洩のニュースが増えています。私は普段セキュリティを専門にしているわけではありませんが、漏洩への対策として、そもそも自社で個人情報を持たないように設計する方法はすぐに思いつくと思います。 ただ、それを具体的にどう実現するのかは、詳しく調べたことがありませんでした。そこで今回、認証や決済などを外部サービスに任せることで、自社のDBからどこまで個人情報をなくせるのかを調べて考えてみました。 DBに個人情報を持っていなければ、DBやそのコピーを抜かれても個人情報は漏れません。設定ミスでDBが外から見えてしまった場合や、分析基盤や開発環境にコピーしたデータが漏れた場合、DBにだけアク…",
     "hatenaDate": "2026-10-30T05:48:02Z",
     "users": [],
     "firstSeenAt": "2026-10-30T20:00:12.237905+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -516,7 +530,7 @@
     "hatenaDate": "2026-10-30T07:25:33Z",
     "users": [],
     "firstSeenAt": "2026-10-30T19:45:15.508612+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -524,14 +538,14 @@
     "title": "あしなが街頭募金「半分はアフリカ支援へ」過去情報がSNSに出回り、寄付辞退１４件…Ｘ投稿者はのちに訂正も育英会は対応に追われる",
     "url": "https://www.yomiuri.co.jp/local/kansai/news/20261028-GYO1T00105/",
     "domain": "www.yomiuri.co.jp",
-    "count": 164,
+    "count": 165,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.yomiuri.co.jp/local/kansai/news/20261028-GYO1T00105/",
     "screenshot": "https://www.yomiuri.co.jp/media/2026/10/20261028-GYO1I00109-1.jpg?type=ogp",
     "description": "「あしなが育英会」（東京）の学生団体が行う街頭募金の使途を巡り、今春、ＳＮＳで「半分はアフリカの支援に使われる」といった投稿が拡散し、批判や寄付辞退が相次いだ。しかし、街頭募金をアフリカ支援に充てていたのは今年１月までだった。不正確な情報が広まった形で、同育英会は情報発信が不十分だったとして秋の街頭募金では改めて使途を周知した。（新谷諒真） １９９３年に創設された同育英会は、病気や事故で親を亡くした遺児らに対する奨学金事業を実施している。奨学生らによる街頭募金は毎年春と秋に実施。毎回１億円程度集まり、寄付は遺児の支援に用いる。 ２０１４年からアフリカの遺児への支援も行うようになり、１６年から…",
     "hatenaDate": "2026-10-30T01:36:20Z",
     "users": [],
     "firstSeenAt": "2026-10-30T19:30:14.824909+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -559,21 +573,21 @@
     "hatenaDate": "2026-10-30T04:39:09Z",
     "users": [],
     "firstSeenAt": "2026-10-30T18:45:15.864843+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "真核生物に最も近縁なアーキア、細胞の中は単純・外は複雑―突起を介した共生から、私たちの祖先像に迫る―",
     "url": "https://www.kyoto-u.ac.jp/ja/research-news/2026-10-29-0",
     "domain": "www.kyoto-u.ac.jp",
-    "count": 61,
+    "count": 63,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.kyoto-u.ac.jp/ja/research-news/2026-10-29-0",
     "screenshot": "https://www.kyoto-u.ac.jp/sites/default/files/styles/ogp_image/public/2026-10/2610-eye-nakagawa-7647dc2f69bbd7313844095fcbbccb84.jpg?itok=hRP9ojv-",
     "description": "国立研究開発法人海洋研究開発機構（理事長 河村知彦、以下「JAMSTEC」という。）生命地球科学研究部門の井町寛之上席研究員と延優（Masaru K. Nobu）主任研究員、京都大学大学院農学研究科の中川聡准教授らは、私たちヒトを含む真核生物に最も近縁なアーキア群「ヘイムダルアーキア」に属する2株を、世界で初めて分離・培養することに成功しました。さらに、その細胞構造や生理・代謝を詳しく調べることで、真核生物の祖先となったアーキアの姿や生き方を、これまでで最も高い確度で描き出しました。 真核生物がどのように誕生したのかは、生命科学における大きな謎の1つです。現在では、アーキアの一群である「プロ…",
     "hatenaDate": "2026-10-29T19:28:34Z",
     "users": [],
     "firstSeenAt": "2026-10-30T17:45:19.096530+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -587,7 +601,7 @@
     "hatenaDate": "2026-10-30T06:01:48Z",
     "users": [],
     "firstSeenAt": "2026-10-30T17:30:14.311794+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -601,7 +615,7 @@
     "hatenaDate": "2026-10-30T06:32:44Z",
     "users": [],
     "firstSeenAt": "2026-10-30T17:00:14.046108+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -622,14 +636,14 @@
     "title": "日本政府の排外主義的な政策に対する抗議声明",
     "url": "https://dept.sophia.ac.jp/is/igc/detail.php?n=2026022",
     "domain": "dept.sophia.ac.jp",
-    "count": 410,
+    "count": 412,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/dept.sophia.ac.jp/is/igc/detail.php?n=2026022",
     "screenshot": null,
     "description": "IGCとは 講演会/イベント 国際シンポジウム ブックフェア 刊行物 ENGLISH 世界的に排外主義が急速に拡大し、日本においてもそれを政府が抑制する方策をとるどころか推進する危機に、今日、私たちは直面しています。 ヘイトを煽る政治家が影響力を強めるなか、日本政府はあいつぐ入管法の改定により、2023年に難民申請中の強制送還、2024年には永住の取り消しを可能にし、さらに2025年に在留資格手続きの「厳格化」と称し、「差別的な人頭税」としか呼びようのない在留・永住許可手数料の懲罰的な増額を行うなど、人権を著しく軽視し、社会や経済の発展の観点からも合理性を欠いた政策を次々と打ち出しています。…",
     "hatenaDate": "2026-10-30T05:24:01Z",
     "users": [],
     "firstSeenAt": "2026-10-30T16:30:13.298964+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -650,14 +664,14 @@
     "title": "悪いことをしたら、謝りなさい｜辺野古ボート転覆事故遺族メモ",
     "url": "https://note.com/beloved_tomoka/n/na4603dc493f8",
     "domain": "note.com",
-    "count": 269,
+    "count": 270,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/beloved_tomoka/n/na4603dc493f8",
     "screenshot": "https://assets.st-note.com/production/uploads/images/330090396/rectangle_large_type_2_b0e9920582386afdd7a6491ca559c4aa.png?fit=bounds&quality=85&width=1280",
     "description": "。 小さい頃から、家でも学校でも、そう教わってきました。 けれど事故のあと、私たち家族は「謝ってほしいわけではありません」とも言ってきました。矛盾しているように聞こえるかもしれません。 今日、学校法人同志社が記者会見を開きます。 その前に、この言葉の意味を書いておきたいと思いました。 知華を突然失った絶望の中で、私たちが求めてきたのは、謝罪の言葉ではありませんでした。 何が起き、どんな判断が重なったのか。過去の経緯や判断の理由、何が悪くて、本来どうあるべきだったのか。それは現在、海上保安庁による捜査と、協議会自身による検証の最中です。 まだ私が小さかった頃（最近もですが）、パパとママに叱られ…",
     "hatenaDate": "2026-10-30T05:24:32Z",
     "users": [],
     "firstSeenAt": "2026-10-30T16:15:13.377790+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -1101,14 +1115,14 @@
     "title": "Z世代特有の絶望感は理解されていない｜栗崎皓",
     "url": "https://note.com/fromheaven/n/necb99e77079f",
     "domain": "note.com",
-    "count": 1031,
+    "count": 1032,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/fromheaven/n/necb99e77079f",
     "screenshot": "https://assets.st-note.com/production/uploads/images/329759892/rectangle_large_type_2_98079c607888df29222ebcb56e64ef8a.jpeg?fit=bounds&quality=85&width=1280",
     "description": "Z世代という気持ち悪い名称で自分を括る。Z世代は半殺しの地獄を経験する。岸谷蘭丸がZ世代を代表する。彼のラジオに耳を傾ける。彼は成功しているけど野心がある。彼は、厳密な意味ではZ世代ではないと思う。僕は彼のことを羨ましいと思ったり冷笑したりする。下積み時代の彼と、たまたま会ったことがある。彼はTiktokerだった。でも最終的には政治や教育のことをしたいと大きな野望を語ってくれた。飛んだ勘違い野郎だと思ったけど初対面なのでピアスを褒めた。インスタを交換したけど気づいたらフォローを解除されていたから僕も解除した。彼はZ世代から離脱した。僕は彼のことが好きだ。 『14歳の栞』という映画を観る。観…",
     "hatenaDate": "2026-10-29T15:25:44Z",
     "users": [],
     "firstSeenAt": "2026-10-30T10:00:14.043208+09:00",
-    "lastSeenAt": "2026-10-31T05:15:14.772542+09:00",
+    "lastSeenAt": "2026-10-31T05:30:14.678346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4212,19 +4226,5 @@
     "lastSeenAt": "2026-10-28T11:15:14.454312+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
-  },
-  {
-    "title": "軽量・軽快なウェブ地図描画ライブラリが登場。「MachGL」は本体が90KB程度、東京都全域の3D都市モデルでも100MB未満【地図と位置情報】",
-    "url": "https://internet.watch.impress.co.jp/docs/column/chizu3/2151651.html",
-    "domain": "internet.watch.impress.co.jp",
-    "count": 217,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/column/chizu3/2151651.html",
-    "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2151/651/machgl01_main.jpg",
-    "description": "軽量・軽快なウェブ地図描画ライブラリが登場。「MachGL」は本体が90KB程度、東京都全域の3D都市モデルでも100MB未満 株式会社Geoloniaは、ウェブ地図描画ライブラリ「MachGL（マッハジーエル）」を11月9日に提供開始すると発表した。MachGLで描いた3D地図のデモサイトも公開している。 MachGLはウェブサイトに地図を表示するためのライブラリ。ライブラリ本体が90KB程度と軽量であり、動作も軽快な点が特長で、3D表示にも対応している。国土交通省が推進するデジタルツイン整備プロジェクト「PLATEAU」で提供されている3D都市モデルは、詳細度（LOD）が異なるデータをそ…",
-    "hatenaDate": "2026-10-27T22:49:05Z",
-    "users": [],
-    "firstSeenAt": "2026-10-28T10:45:14.179301+09:00",
-    "lastSeenAt": "2026-10-28T23:00:10.713697+09:00",
-    "descriptionSource": "body"
   }
 ]
