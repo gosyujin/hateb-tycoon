@@ -10,7 +10,7 @@
     "hatenaDate": "2026-10-29T23:49:21Z",
     "users": [],
     "firstSeenAt": "2026-10-31T03:00:13.866583+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -25,35 +25,35 @@
     "hatenaDate": "2026-10-30T07:40:59Z",
     "users": [],
     "firstSeenAt": "2026-10-31T02:45:14.531173+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "GitHub Actions の lockfile対応 - 利用者と提供者両方の観点から | おそらくはそれさえも平凡な日々",
     "url": "https://songmu.jp/riji/entry/2026-10-30-github-actions-lockfile.html",
     "domain": "songmu.jp",
-    "count": 9,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/songmu.jp/riji/entry/2026-10-30-github-actions-lockfile.html",
     "screenshot": "https://songmu.jp/riji/static/img/songmu-ogp.jpg",
     "description": "カスタムアクションやreusable workflow提供者側に関する仕様はまだ議論中のものもあるため、現状を理解した上で提供方法をアップデートしていくと良い 全人類待望のGitHub Actionsのworkflow dependency lockfile が、2026年10月28日にGAになりました。ワークフローから利用するカスタムアクションの依存を lockfileで固定できる機能です。 GitHub Actions workflow lockfiles are generally available これまで、サプライチェーン攻撃対策やビルドの再現性を高めるために、カスタムアクション…",
     "hatenaDate": "2026-10-30T14:30:01Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:45:14.276687+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "文章のAIっぽさを抑えるプロンプト",
     "url": "https://imoz.jp/scraps/202610_humanizer.html",
     "domain": "imoz.jp",
-    "count": 14,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/imoz.jp/scraps/202610_humanizer.html",
     "screenshot": "https://imoz.jp/scraps/202610_humanizer.html.png",
     "description": "最近の大規模言語モデル（LLM）を使っていると、コーディング能力が高まる一方で、文章の流暢さは失われていると感じます。短い説明でも細かく見出しを付けたり、具体例の後に同じ結論を言い直したりして、個々の文は読めても説明の流れが途切れることがあります。 その一方で、指示に沿って文章を直す能力の向上も感じています。このサイトでも記事の推敲にプロンプトを使っているので、その内容を紹介します。 日本語の推敲ルールは、humanizer.ja.txtにまとめています。直したい文章と一緒に、次のプロンプトをAIへ渡します。 https://imoz.jp/humanizer.ja.txt を熟読し、ルール…",
     "hatenaDate": "2026-10-30T14:00:14Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:45:14.276687+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body"
   },
   {
@@ -67,7 +67,7 @@
     "hatenaDate": "2026-10-30T12:53:03Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:30:14.008979+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body"
   },
   {
@@ -81,7 +81,7 @@
     "hatenaDate": "2026-10-30T03:28:48Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:15:14.642907+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body"
   },
   {
@@ -95,7 +95,7 @@
     "hatenaDate": "2026-10-30T03:05:46Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:15:14.642907+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body"
   },
   {
@@ -109,7 +109,7 @@
     "hatenaDate": "2026-10-30T10:43:47Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:15:14.642907+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -124,7 +124,7 @@
     "hatenaDate": "2026-10-30T12:51:47Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:00:14.743857+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -133,14 +133,14 @@
     "title": "LLMの文体 - Martin Fowler's Bliki (ja)",
     "url": "https://bliki-ja.github.io/LLM-Voice",
     "domain": "bliki-ja.github.io",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/bliki-ja.github.io/LLM-Voice",
     "screenshot": null,
     "description": "投稿を読んでいると、LLMが生成した文章を読んでいるのではないかと思うことがある。理由を明確に定義できるわけではないが、共通の特徴があることに気づく（エムダッシュを多用するなどの表面的なことではなく、タペストリーのように大げさな表現を使った文体のことだ）。そうしているうちに読む気が薄れ、時には嫌悪感を覚えることすらある。 LLMが書いた文章と昔ながらの「生物」が書いた文章を見分けられるというツールも存在するが、私は懐疑的である。それらは精度も疑わしいが、そもそも本質を見失っているからだ。LLMの文体に対する反応は人間的なものである。これは文章の「不気味の谷」に迷い込んだときの反応だ。したがっ…",
     "hatenaDate": "2026-10-30T02:41:51Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:00:14.743857+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body"
   },
   {
@@ -168,7 +168,7 @@
     "hatenaDate": "2026-10-29T14:50:25Z",
     "users": [],
     "firstSeenAt": "2026-10-30T23:45:14.618285+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -183,7 +183,7 @@
     "hatenaDate": "2026-10-30T08:36:01Z",
     "users": [],
     "firstSeenAt": "2026-10-30T23:30:15.176130+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -191,14 +191,14 @@
     "title": "今後のセキュリティの考え方",
     "url": "https://zenn.dev/cscloud_blog/articles/a987163efae5d8",
     "domain": "zenn.dev",
-    "count": 34,
+    "count": 35,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/cscloud_blog/articles/a987163efae5d8",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--T589hAKm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BB%258A%25E5%25BE%258C%25E3%2581%25AE%25E3%2582%25BB%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2581%25AE%25E8%2580%2583%25E3%2581%2588%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:nishikawa%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q0ZTRhMzgzMmEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2590%25E3%2583%25BC%25E3%2582%25BB%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25A6%25E3%2583%2589%25E3%2580%2580%25E3%2583%2586...%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q2YjE0NzI3ZTAuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "本日のウェビナー（【緊急開催セミナー】重大脆弱性を狙うサイバー攻撃への備え ～パッチ適用までのリスクを低減する「仮想パッチ」とは～）にお越しくださった皆様ありがとうございます。 当日は時間の関係でお伝えしきれなかった、今後のセキュリティの考え方について、改めて書いてみます。 管理面を減らすというのはどういうことかというと、例えば、ポートを閉じるとかです。意外に思われるかもしれませんが、例えば Amazon EC2 に SSH で入っているなら AWS Systems Manager Session Manager で入るということです。 ポートを開けないことで、攻撃を受ける可能性を大幅に減ら…",
     "hatenaDate": "2026-10-30T11:11:33Z",
     "users": [],
     "firstSeenAt": "2026-10-30T23:30:15.176130+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -228,7 +228,7 @@
     "hatenaDate": "2026-10-30T04:42:38Z",
     "users": [],
     "firstSeenAt": "2026-10-30T22:30:14.929899+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -257,7 +257,7 @@
     "hatenaDate": "2026-10-30T04:36:41Z",
     "users": [],
     "firstSeenAt": "2026-10-30T22:15:17.460677+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -287,7 +287,7 @@
     "hatenaDate": "2026-10-30T09:44:07Z",
     "users": [],
     "firstSeenAt": "2026-10-30T21:45:14.309400+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body"
   },
   {
@@ -301,7 +301,7 @@
     "hatenaDate": "2026-10-30T06:33:29Z",
     "users": [],
     "firstSeenAt": "2026-10-30T21:45:14.309400+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body"
   },
   {
@@ -385,7 +385,7 @@
     "hatenaDate": "2026-10-30T04:42:30Z",
     "users": [],
     "firstSeenAt": "2026-10-30T20:45:17.530987+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -400,7 +400,7 @@
     "hatenaDate": "2026-10-30T04:38:30Z",
     "users": [],
     "firstSeenAt": "2026-10-30T20:15:15.160892+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -415,7 +415,7 @@
     "hatenaDate": "2026-10-30T10:26:49Z",
     "users": [],
     "firstSeenAt": "2026-10-30T19:45:15.508612+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body"
   },
   {
@@ -443,7 +443,7 @@
     "hatenaDate": "2026-10-30T02:45:57Z",
     "users": [],
     "firstSeenAt": "2026-10-30T19:45:15.508612+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -473,7 +473,7 @@
     "hatenaDate": "2026-10-30T08:18:59Z",
     "users": [],
     "firstSeenAt": "2026-10-30T19:30:14.824909+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -539,14 +539,14 @@
     "title": "個人情報を自社のDBに持たない設計は、どこまでできるのか - every Tech Blog",
     "url": "https://tech.every.tv/entry/2026/10/30/124255",
     "domain": "tech.every.tv",
-    "count": 138,
+    "count": 139,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.every.tv/entry/2026/10/30/124255",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/c383c7964b0250f7fecebf7af962faa8efe68869/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fshintani-y%2F20261029%2F20261029221249.png",
     "description": "最近、個人情報の漏洩のニュースが増えています。私は普段セキュリティを専門にしているわけではありませんが、漏洩への対策として、そもそも自社で個人情報を持たないように設計する方法はすぐに思いつくと思います。 ただ、それを具体的にどう実現するのかは、詳しく調べたことがありませんでした。そこで今回、認証や決済などを外部サービスに任せることで、自社のDBからどこまで個人情報をなくせるのかを調べて考えてみました。 DBに個人情報を持っていなければ、DBやそのコピーを抜かれても個人情報は漏れません。設定ミスでDBが外から見えてしまった場合や、分析基盤や開発環境にコピーしたデータが漏れた場合、DBにだけアク…",
     "hatenaDate": "2026-10-30T05:48:02Z",
     "users": [],
     "firstSeenAt": "2026-10-30T18:45:15.864843+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -576,7 +576,7 @@
     "hatenaDate": "2026-10-15T02:25:09Z",
     "users": [],
     "firstSeenAt": "2026-10-30T18:15:13.839436+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body"
   },
   {
@@ -646,7 +646,7 @@
     "hatenaDate": "2026-10-30T06:32:44Z",
     "users": [],
     "firstSeenAt": "2026-10-30T16:15:13.377790+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -705,7 +705,7 @@
     "hatenaDate": "2026-10-30T04:19:29Z",
     "users": [],
     "firstSeenAt": "2026-10-30T15:15:14.291511+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -750,7 +750,7 @@
     "hatenaDate": "2026-10-30T04:56:14Z",
     "users": [],
     "firstSeenAt": "2026-10-30T14:30:14.824849+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -836,7 +836,7 @@
     "hatenaDate": "2026-10-30T03:40:04Z",
     "users": [],
     "firstSeenAt": "2026-10-30T13:30:15.049323+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -915,14 +915,14 @@
     "title": "メルセンヌ・ツイスタ。PythonやC++でも使われる、世界標準「擬似乱数」の設計思想【松本眞】 - レバテックLAB",
     "url": "https://levtech.jp/media/detail_959/",
     "domain": "levtech.jp",
-    "count": 260,
+    "count": 261,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/levtech.jp/media/detail_959/",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/6e524fdc917c005d5ac9c298d68f84c36009f80f/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn.blog.st-hatena.com%2Ffiles%2F6802418398571665203%2F14945776032094163053",
     "description": "トップ > 数学 > メルセンヌ・ツイスタ。PythonやC++でも使われる、世界標準「擬似乱数」の設計思想【松本眞】 メルセンヌ・ツイスタ。PythonやC++でも使われる、世界標準「擬似乱数」の設計思想【松本眞】 1965年東京都生まれ。東京大学理学部情報科学科卒業、同大学大学院理学系研究科修士課程情報科学専攻修了、同研究科博士課程数学専攻中退。京都大学数理解析研究所助手、慶應義塾大学理工学部助教授、九州大学助教授、広島大学教授、東京大学教授などを務めた。2023年に広島大学教授を退職。2026年11月より京都大学大学院経営管理研究部インフラ物性産学協同講座客員教授。博士（理学）、博士（…",
     "hatenaDate": "2026-10-30T00:24:37Z",
     "users": [],
     "firstSeenAt": "2026-10-30T12:00:14.085639+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1052,7 +1052,7 @@
     "hatenaDate": "2026-10-30T00:38:15Z",
     "users": [],
     "firstSeenAt": "2026-10-30T10:30:15.213934+09:00",
-    "lastSeenAt": "2026-10-31T03:30:15.229664+09:00",
+    "lastSeenAt": "2026-10-31T03:35:44.235662+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
