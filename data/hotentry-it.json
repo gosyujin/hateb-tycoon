@@ -1,5 +1,19 @@
 [
   {
+    "title": "CVE-2026-98432は「待ち受けに届くか」で決まる——OSとクラウドごとの対応状況と、修正版を待つ間にやること(更新)｜zephel01",
+    "url": "https://note.com/zephel01/n/n4637423e080b",
+    "domain": "note.com",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/zephel01/n/n4637423e080b",
+    "screenshot": "https://assets.st-note.com/production/uploads/images/330022949/rectangle_large_type_2_a959e424672d6dff7e491f6acd8e854a.png?fit=bounds&quality=85&width=1280",
+    "description": "・10月30日 13時半：Goのセキュリティチームの告知を反映した。Goで書いたサーバーでMPTCPを止める方法と、「バグ自体はMPTCP固有ではない」という見解を、対策5などに加えた ・10月30日 12時：Red Hatの評価の変更を反映した。深刻度をImportant(CVSS 8.1)に引き上げ、RHELの状態を「修正予定」に変えている(修正版はまだ) ・現状：LinuxカーネルのIPv4 TCP処理に、解放済みメモリを使ってしまうバグ(CVE-2026-98432)が見つかった。10月30日13時半の時点で、実環境での悪用報告はない。Red Hatは10月29日に深刻度をImpor…",
+    "hatenaDate": "2026-10-30T01:31:28Z",
+    "users": [],
+    "firstSeenAt": "2026-10-31T07:00:11.552362+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "Spotify、AIでカバー曲作成可能に　収益は原曲アーティストに還元 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOGR308WY0Q6A031C2000000/",
     "domain": "www.nikkei.com",
@@ -10,21 +24,21 @@
     "hatenaDate": "2026-10-30T12:18:50Z",
     "users": [],
     "firstSeenAt": "2026-10-31T06:30:14.579194+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Gemini Notebook、無料で数百冊の教科書にアクセス可能に　米国・インドの出版社提供　日本でも利用可",
     "url": "https://www.itmedia.co.jp/aiplus/article/2610/30/2000002760/",
     "domain": "www.itmedia.co.jp",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2610/30/2000002760/",
     "screenshot": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/30/2000002760/10011027/2048",
     "description": "数百冊の教科書に「Gemini Notebook」内で無料でアクセスできるように――米Googleは10月29日（現地時間）、このような新機能を発表した。ユーザーは米国とインドのプロバイダーが提供する教科書をGemini Notebookの「ソース」として追加できるようになる。ITmedia AI＋編集部の環境で確認したところ、日本からも利用できた。 ITmedia AI＋編集部の環境（Google Workspace）でもソースの選択画面に「教科書」が追加されている｜ITmedia AI＋編集部 「教科書」をクリックすると、教科書の一覧が表示される｜ITmedia AI＋編集部 今回、Ge…",
     "hatenaDate": "2026-10-30T08:24:59Z",
     "users": [],
     "firstSeenAt": "2026-10-31T06:15:15.686406+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +52,7 @@
     "hatenaDate": "2026-10-30T14:12:46Z",
     "users": [],
     "firstSeenAt": "2026-10-31T05:45:15.335543+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -46,14 +60,14 @@
     "title": "AppleはiPhoneをエサにメモリメーカーへ大幅な値引きを強要してきたがAIの登場で価格が高騰して立場が逆転しているとの指摘",
     "url": "https://gigazine.net/news/20261030-apple-chip-sellers-impact/",
     "domain": "gigazine.net",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261030-apple-chip-sellers-impact/",
     "screenshot": "https://i.gzn.jp/img/2026/10/30/apple-chip-sellers-impact/00.jpg",
     "description": "以前はAppleに安く買いたたかれていたメモリ製品をめぐる状況が、AIの登場でガラッと変わってしまったとウォール・ストリート・ジャーナルが報じています。 The Beleaguered Chip Sellers Getting Their Revenge on Apple - WSJ https://www.wsj.com/tech/apple-iphone-memory-chips-ai-c0084cc9 Appleは「iPod」で東芝...",
     "hatenaDate": "2026-10-30T11:01:02Z",
     "users": [],
     "firstSeenAt": "2026-10-31T05:30:14.678346+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -68,7 +82,7 @@
     "hatenaDate": "2026-10-30T08:24:40Z",
     "users": [],
     "firstSeenAt": "2026-10-31T05:00:13.426616+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body"
   },
   {
@@ -82,7 +96,7 @@
     "hatenaDate": "2026-10-29T23:49:21Z",
     "users": [],
     "firstSeenAt": "2026-10-31T03:00:13.866583+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -90,14 +104,14 @@
     "title": "放置してても勝手に育つ!!　たった半畳の家庭菜園でお手軽に30玉以上のタマネギを育てる方法【はんじょう農場その3】【空いた時間でなにしてる？】",
     "url": "https://internet.watch.impress.co.jp/docs/column/hobbytime/2152695.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 8,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/column/hobbytime/2152695.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2152/695/005.jpg",
     "description": "放置してても勝手に育つ!! たった半畳の家庭菜園でお手軽に30玉以上のタマネギを育てる方法【はんじょう農場その3】 10年前に建てた一軒家の庭先に設けたわずか半畳ほどの畑、その名も「はんじょう農場」。 例年は夏野菜としてゴーヤとキュウリを1株ずつ植えていたが、子供の要望もあって今年はゴーヤをやめてキュウリを2株に。以前にも書いたがキュウリとゴーヤはどちらも根を浅く広く張るので、どうも根の張り合いでケンカをするようだ。序盤はキュウリが旺盛に育つが、お盆ぐらいになると一気に元気がなくなって、そこからゴーヤが挽回する、というのが例年の様子。だが、キュウリ同士だとそこまでケンカはしない様子で、今年は…",
     "hatenaDate": "2026-10-30T07:40:59Z",
     "users": [],
     "firstSeenAt": "2026-10-31T02:45:14.531173+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body"
   },
   {
@@ -111,7 +125,7 @@
     "hatenaDate": "2026-10-30T14:30:01Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:45:14.276687+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -120,14 +134,14 @@
     "title": "文章のAIっぽさを抑えるプロンプト",
     "url": "https://imoz.jp/scraps/202610_humanizer.html",
     "domain": "imoz.jp",
-    "count": 43,
+    "count": 47,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/imoz.jp/scraps/202610_humanizer.html",
     "screenshot": "https://imoz.jp/scraps/202610_humanizer.html.png",
     "description": "最近の大規模言語モデル（LLM）を使っていると、コーディング能力が高まる一方で、文章の流暢さは失われていると感じます。短い説明でも細かく見出しを付けたり、具体例の後に同じ結論を言い直したりして、個々の文は読めても説明の流れが途切れることがあります。 その一方で、指示に沿って文章を直す能力の向上も感じています。このサイトでも記事の推敲にプロンプトを使っているので、その内容を紹介します。 日本語の推敲ルールは、humanizer.ja.txtにまとめています。直したい文章と一緒に、次のプロンプトをAIへ渡します。 https://imoz.jp/humanizer.ja.txt を熟読し、ルール…",
     "hatenaDate": "2026-10-30T14:00:14Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:45:14.276687+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -143,21 +157,21 @@
     "hatenaDate": "2026-10-30T12:53:03Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:30:14.008979+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "高精細な3D形状を生成するAIモデル「Hi3D V1.0」、重みを公開",
     "url": "https://pc.watch.impress.co.jp/docs/news/2152546.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2152546.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2152/546/1.jpg",
     "description": "2Dの絵と粗いメッシュデータから3Dモデルを生成するAIを、ローカルのGPU環境で動かせるようになる。OCEANO HK HOLDINGは10月23日、AIで3D形状を生成するモデル「Hi3D V1.0」のオープンウェイト(モデルの重み)と推論コードを公開した。Hugging FaceとGitHubから入手できる。ライセンスは独自の「Hi3D Open License Agreement Version 1.0」。 Hi3D V1.0は、旧称「Sparc3D」をベースにしたモデルで、粗いメッシュと同じ物体の参照画像を入力として与え、高解像度の形状に再生成する。解像度は最大1,536³で、解像…",
     "hatenaDate": "2026-10-30T03:28:48Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:15:14.642907+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body"
   },
   {
@@ -171,7 +185,7 @@
     "hatenaDate": "2026-10-30T03:05:46Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:15:14.642907+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body"
   },
   {
@@ -193,14 +207,14 @@
     "title": "「電話越しにフロントスタッフを突破するのは私の今後の課題にしておきます！」自律型AIに年末年始のホテルについて質問したら勝手に電話をしてしまった話",
     "url": "https://togetter.com/li/2764692",
     "domain": "togetter.com",
-    "count": 40,
+    "count": 44,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2764692",
     "screenshot": "https://s.tgstc.com/ogp3/aae48ffa8d2a6d8f8c69fa483badd193-1200x630.jpeg",
     "description": "ここ数日、自律型AIを使っていて、その便利さに感動しているのですが、年末年始のホテルについて質問したところ、なんとAIが勝手にホテルに電話していてビックリ。 すぐにホテルに謝罪の電話を入れました。。 pic.x.com/U4gdpcM2fR ちなみに電話は私の携帯番号ではなくAIが持ってる050番号から掛けてたみたいです。 妻へ電話してってテストして分かりました。これ無料で使えるんですよね。どうなってるんだ 自律型AIはMuseがよく使われてますが、電話したのはピクルというAIです。 pickle.com 피클: 나만의 AI 에이전트 피클을 만나보세요. 대신 작업을 수행하는 AI 에…",
     "hatenaDate": "2026-10-30T12:51:47Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:00:14.743857+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -216,7 +230,7 @@
     "hatenaDate": "2026-10-30T02:41:51Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:00:14.743857+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body"
   },
   {
@@ -259,7 +273,7 @@
     "hatenaDate": "2026-10-30T08:36:01Z",
     "users": [],
     "firstSeenAt": "2026-10-30T23:30:15.176130+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -267,14 +281,14 @@
     "title": "今後のセキュリティの考え方",
     "url": "https://zenn.dev/cscloud_blog/articles/a987163efae5d8",
     "domain": "zenn.dev",
-    "count": 54,
+    "count": 56,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/cscloud_blog/articles/a987163efae5d8",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--T589hAKm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BB%258A%25E5%25BE%258C%25E3%2581%25AE%25E3%2582%25BB%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2581%25AE%25E8%2580%2583%25E3%2581%2588%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:nishikawa%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q0ZTRhMzgzMmEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2590%25E3%2583%25BC%25E3%2582%25BB%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25A6%25E3%2583%2589%25E3%2580%2580%25E3%2583%2586...%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q2YjE0NzI3ZTAuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "本日のウェビナー（【緊急開催セミナー】重大脆弱性を狙うサイバー攻撃への備え ～パッチ適用までのリスクを低減する「仮想パッチ」とは～）にお越しくださった皆様ありがとうございます。 当日は時間の関係でお伝えしきれなかった、今後のセキュリティの考え方について、改めて書いてみます。 管理面を減らすというのはどういうことかというと、例えば、ポートを閉じるとかです。意外に思われるかもしれませんが、例えば Amazon EC2 に SSH で入っているなら AWS Systems Manager Session Manager で入るということです。 ポートを開けないことで、攻撃を受ける可能性を大幅に減ら…",
     "hatenaDate": "2026-10-30T11:11:33Z",
     "users": [],
     "firstSeenAt": "2026-10-30T23:30:15.176130+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -304,7 +318,7 @@
     "hatenaDate": "2026-10-30T04:42:38Z",
     "users": [],
     "firstSeenAt": "2026-10-30T22:30:14.929899+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -326,14 +340,14 @@
     "title": "「Gemini Notebook」、数百冊の教科書を無料で利用可能に",
     "url": "https://www.watch.impress.co.jp/docs/news/2152548.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 127,
+    "count": 130,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2152548.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2152/548/01.jpg",
     "description": "Googleは29日、「Gemini Notebook」で、数百冊の教科書を無料で利用できるようにした。米国とインドの出版社・教材提供元による教科書を追加し、内容についてAIに質問したり、学習ガイドや練習問題を作成したりできる。 対象となるのは、OpenStax、Open Textbook Library、S Chand Publishingなどが提供する教科書。Gemini Notebookに教科書を追加すると、その内容に基づいてAIが質問に回答する。回答には出典が示され、元の教科書の該当箇所に直接アクセスできる。 教科書の内容を基に、利用者に合わせた学習ガイドや練習問題、フラッシュカード…",
     "hatenaDate": "2026-10-30T04:36:41Z",
     "users": [],
     "firstSeenAt": "2026-10-30T22:15:17.460677+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -356,14 +370,14 @@
     "title": "NVIDIA、40言語対応の無償文字起こしAI「Nemotron 3.5 Transcribe」",
     "url": "https://pc.watch.impress.co.jp/docs/news/2152693.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 29,
+    "count": 30,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2152693.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2152/693/01.jpg",
     "description": "NVIDIAは10月28日、文字起こしや翻訳、話者分離をサポートしたオープンウェイト(モデルの重み)のAIモデル「Nemotron 3.5 Transcribe」を発表した。文字起こしは40言語、英語との相互翻訳は31言語、話者分離は13言語に対応し、最大1時間の音声を処理できる。ベースモデルはHugging Faceにて公開しており、FP8、NVFP4の量子化モデルも近日公開予定だとしている。ライセンスは「OpenMDW-1.1」で、無償で商用利用も可能。 Nemotron 3.5 Transcribeは、オープンウェイトモデルの中で発言内容を特定する性能でトップ、話者分離においても優れた…",
     "hatenaDate": "2026-10-30T09:44:07Z",
     "users": [],
     "firstSeenAt": "2026-10-30T21:45:14.309400+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body"
   },
   {
@@ -377,7 +391,7 @@
     "hatenaDate": "2026-10-30T06:33:29Z",
     "users": [],
     "firstSeenAt": "2026-10-30T21:45:14.309400+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body"
   },
   {
@@ -476,7 +490,7 @@
     "hatenaDate": "2026-10-30T04:38:30Z",
     "users": [],
     "firstSeenAt": "2026-10-30T20:15:15.160892+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -491,7 +505,7 @@
     "hatenaDate": "2026-10-30T10:26:49Z",
     "users": [],
     "firstSeenAt": "2026-10-30T19:45:15.508612+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body"
   },
   {
@@ -519,7 +533,7 @@
     "hatenaDate": "2026-10-30T02:45:57Z",
     "users": [],
     "firstSeenAt": "2026-10-30T19:45:15.508612+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -549,7 +563,7 @@
     "hatenaDate": "2026-10-30T08:18:59Z",
     "users": [],
     "firstSeenAt": "2026-10-30T19:30:14.824909+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -615,14 +629,14 @@
     "title": "個人情報を自社のDBに持たない設計は、どこまでできるのか - every Tech Blog",
     "url": "https://tech.every.tv/entry/2026/10/30/124255",
     "domain": "tech.every.tv",
-    "count": 162,
+    "count": 166,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.every.tv/entry/2026/10/30/124255",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/c383c7964b0250f7fecebf7af962faa8efe68869/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fshintani-y%2F20261029%2F20261029221249.png",
     "description": "最近、個人情報の漏洩のニュースが増えています。私は普段セキュリティを専門にしているわけではありませんが、漏洩への対策として、そもそも自社で個人情報を持たないように設計する方法はすぐに思いつくと思います。 ただ、それを具体的にどう実現するのかは、詳しく調べたことがありませんでした。そこで今回、認証や決済などを外部サービスに任せることで、自社のDBからどこまで個人情報をなくせるのかを調べて考えてみました。 DBに個人情報を持っていなければ、DBやそのコピーを抜かれても個人情報は漏れません。設定ミスでDBが外から見えてしまった場合や、分析基盤や開発環境にコピーしたデータが漏れた場合、DBにだけアク…",
     "hatenaDate": "2026-10-30T05:48:02Z",
     "users": [],
     "firstSeenAt": "2026-10-30T18:45:15.864843+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -715,14 +729,14 @@
     "title": "無印良品、「MUJIアプリ」の利用者情報最大約2726万件が不正アクセスにより流出の可能性",
     "url": "https://internet.watch.impress.co.jp/docs/news/2152666.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 247,
+    "count": 249,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2152666.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2152/666/01.png",
     "description": "良品計画株式会社は10月30日、無印良品の公式アプリ「MUJIアプリ」において、利用者の情報の一部が外部に流出した可能性があることを確認したとして、情報を公開した。 原因、経緯などの詳細は明らかにされていないが、外部からの不正なアクセスを検知し、アクセスの遮断および修正の適用を行ったとしている。 流出の可能性がある情報は最大2726万件（退会者の情報も含む）の、メールアドレス、生年月日、性別。クレジットカード情報および、氏名、住所、電話番号などは含まれないとしている。 同社では、当該の利用者に順次個別に連絡するとしている。なお、MUJIアプリや無印良品ネットストアは正常に利用できる状態。",
     "hatenaDate": "2026-10-30T06:32:44Z",
     "users": [],
     "firstSeenAt": "2026-10-30T16:15:13.377790+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -781,7 +795,7 @@
     "hatenaDate": "2026-10-30T04:19:29Z",
     "users": [],
     "firstSeenAt": "2026-10-30T15:15:14.291511+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -912,7 +926,7 @@
     "hatenaDate": "2026-10-30T03:40:04Z",
     "users": [],
     "firstSeenAt": "2026-10-30T13:30:15.049323+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -998,7 +1012,7 @@
     "hatenaDate": "2026-10-30T00:24:37Z",
     "users": [],
     "firstSeenAt": "2026-10-30T12:00:14.085639+09:00",
-    "lastSeenAt": "2026-10-31T06:45:13.197328+09:00",
+    "lastSeenAt": "2026-10-31T07:00:11.552362+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4357,21 +4371,5 @@
     "firstSeenAt": "2026-10-28T09:15:17.422137+09:00",
     "lastSeenAt": "2026-10-28T12:00:16.073274+09:00",
     "descriptionSource": "body"
-  },
-  {
-    "title": "京都府庁、職員7000人の事務効率化で「Copilotだけに頼らない」と決めた理由",
-    "url": "https://kn.itmedia.co.jp/kn/article/2610/27/2000002599/",
-    "domain": "kn.itmedia.co.jp",
-    "count": 49,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/kn.itmedia.co.jp/kn/article/2610/27/2000002599/",
-    "screenshot": "https://kn.itmedia.co.jp/kn/article/ogp/2610/27/2000002599/10010479/2048",
-    "description": "人口減少に伴う将来的な人手不足を見据え、職員約7000～8000人の業務効率化に挑む京都府庁。限られた人員で増え続ける行政ニーズに応えるため、同庁が着目したのが生成AIだ。しかし、対話型AIを全庁導入しただけでは、現場の業務負担は解消し切れなかった。 京都府庁では、将来的な人手不足を見据えて業務効率化が課題となっていた。2005年に約265万人だった府の人口は、2025年には約250万人に減少。少子高齢化で現役世代の減少も見込まれる中、限られた職員で増え続ける行政ニーズに対応する必要があった。 特に業務負荷が高かったのが、会計事務や文書事務のやり方が庁内ルールに合致しているか確認する作業だっ…",
-    "hatenaDate": "2026-10-27T04:27:31Z",
-    "users": [],
-    "firstSeenAt": "2026-10-28T09:15:17.422137+09:00",
-    "lastSeenAt": "2026-10-28T18:15:14.977673+09:00",
-    "descriptionSource": "body",
-    "bodyStatus": "skip",
-    "bodyReason": "not-longer"
   }
 ]
