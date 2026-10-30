@@ -1,16 +1,31 @@
 [
   {
+    "title": "bliki: LLM Voice",
+    "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+    "domain": "martinfowler.com",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/martinfowler.com/bliki/LLM-Voice.html",
+    "screenshot": "https://martinfowler.com/logo-sq.png",
+    "description": "Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the load-bearing tapestries). As I do this my desire to read on atrophies, sometimes to the point of rev...",
+    "hatenaDate": "2026-10-29T23:49:21Z",
+    "users": [],
+    "firstSeenAt": "2026-10-31T03:00:13.866583+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
+    "bodyStatus": "skip",
+    "bodyReason": "not-longer"
+  },
+  {
     "title": "放置してても勝手に育つ!!　たった半畳の家庭菜園でお手軽に30玉以上のタマネギを育てる方法【はんじょう農場その3】【空いた時間でなにしてる？】",
     "url": "https://internet.watch.impress.co.jp/docs/column/hobbytime/2152695.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/column/hobbytime/2152695.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2152/695/005.jpg",
     "description": "放置してても勝手に育つ!! たった半畳の家庭菜園でお手軽に30玉以上のタマネギを育てる方法【はんじょう農場その3】 10年前に建てた一軒家の庭先に設けたわずか半畳ほどの畑、その名も「はんじょう農場」。 例年は夏野菜としてゴーヤとキュウリを1株ずつ植えていたが、子供の要望もあって今年はゴーヤをやめてキュウリを2株に。以前にも書いたがキュウリとゴーヤはどちらも根を浅く広く張るので、どうも根の張り合いでケンカをするようだ。序盤はキュウリが旺盛に育つが、お盆ぐらいになると一気に元気がなくなって、そこからゴーヤが挽回する、というのが例年の様子。だが、キュウリ同士だとそこまでケンカはしない様子で、今年は…",
     "hatenaDate": "2026-10-30T07:40:59Z",
     "users": [],
     "firstSeenAt": "2026-10-31T02:45:14.531173+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,21 +39,21 @@
     "hatenaDate": "2026-10-30T14:30:01Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:45:14.276687+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "文章のAIっぽさを抑えるプロンプト",
     "url": "https://imoz.jp/scraps/202610_humanizer.html",
     "domain": "imoz.jp",
-    "count": 12,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/imoz.jp/scraps/202610_humanizer.html",
     "screenshot": "https://imoz.jp/scraps/202610_humanizer.html.png",
     "description": "最近の大規模言語モデル（LLM）を使っていると、コーディング能力が高まる一方で、文章の流暢さは失われていると感じます。短い説明でも細かく見出しを付けたり、具体例の後に同じ結論を言い直したりして、個々の文は読めても説明の流れが途切れることがあります。 その一方で、指示に沿って文章を直す能力の向上も感じています。このサイトでも記事の推敲にプロンプトを使っているので、その内容を紹介します。 日本語の推敲ルールは、humanizer.ja.txtにまとめています。直したい文章と一緒に、次のプロンプトをAIへ渡します。 https://imoz.jp/humanizer.ja.txt を熟読し、ルール…",
     "hatenaDate": "2026-10-30T14:00:14Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:45:14.276687+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +67,7 @@
     "hatenaDate": "2026-10-30T12:53:03Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:30:14.008979+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +81,7 @@
     "hatenaDate": "2026-10-30T03:28:48Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:15:14.642907+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body"
   },
   {
@@ -80,7 +95,7 @@
     "hatenaDate": "2026-10-30T03:05:46Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:15:14.642907+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body"
   },
   {
@@ -94,7 +109,7 @@
     "hatenaDate": "2026-10-30T10:43:47Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:15:14.642907+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -109,7 +124,7 @@
     "hatenaDate": "2026-10-30T12:51:47Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:00:14.743857+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body"
   },
   {
@@ -123,7 +138,7 @@
     "hatenaDate": "2026-10-30T02:41:51Z",
     "users": [],
     "firstSeenAt": "2026-10-31T00:00:14.743857+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body"
   },
   {
@@ -166,7 +181,7 @@
     "hatenaDate": "2026-10-30T08:36:01Z",
     "users": [],
     "firstSeenAt": "2026-10-30T23:30:15.176130+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -181,7 +196,7 @@
     "hatenaDate": "2026-10-30T11:11:33Z",
     "users": [],
     "firstSeenAt": "2026-10-30T23:30:15.176130+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -211,7 +226,7 @@
     "hatenaDate": "2026-10-30T04:42:38Z",
     "users": [],
     "firstSeenAt": "2026-10-30T22:30:14.929899+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -233,14 +248,14 @@
     "title": "「Gemini Notebook」、数百冊の教科書を無料で利用可能に",
     "url": "https://www.watch.impress.co.jp/docs/news/2152548.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 78,
+    "count": 83,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2152548.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2152/548/01.jpg",
     "description": "Googleは29日、「Gemini Notebook」で、数百冊の教科書を無料で利用できるようにした。米国とインドの出版社・教材提供元による教科書を追加し、内容についてAIに質問したり、学習ガイドや練習問題を作成したりできる。 対象となるのは、OpenStax、Open Textbook Library、S Chand Publishingなどが提供する教科書。Gemini Notebookに教科書を追加すると、その内容に基づいてAIが質問に回答する。回答には出典が示され、元の教科書の該当箇所に直接アクセスできる。 教科書の内容を基に、利用者に合わせた学習ガイドや練習問題、フラッシュカード…",
     "hatenaDate": "2026-10-30T04:36:41Z",
     "users": [],
     "firstSeenAt": "2026-10-30T22:15:17.460677+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -270,7 +285,7 @@
     "hatenaDate": "2026-10-30T09:44:07Z",
     "users": [],
     "firstSeenAt": "2026-10-30T21:45:14.309400+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body"
   },
   {
@@ -284,7 +299,7 @@
     "hatenaDate": "2026-10-30T06:33:29Z",
     "users": [],
     "firstSeenAt": "2026-10-30T21:45:14.309400+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body"
   },
   {
@@ -368,7 +383,7 @@
     "hatenaDate": "2026-10-30T04:42:30Z",
     "users": [],
     "firstSeenAt": "2026-10-30T20:45:17.530987+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -383,7 +398,7 @@
     "hatenaDate": "2026-10-30T04:38:30Z",
     "users": [],
     "firstSeenAt": "2026-10-30T20:15:15.160892+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -398,7 +413,7 @@
     "hatenaDate": "2026-10-30T10:26:49Z",
     "users": [],
     "firstSeenAt": "2026-10-30T19:45:15.508612+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body"
   },
   {
@@ -426,7 +441,7 @@
     "hatenaDate": "2026-10-30T02:45:57Z",
     "users": [],
     "firstSeenAt": "2026-10-30T19:45:15.508612+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -456,7 +471,7 @@
     "hatenaDate": "2026-10-30T08:18:59Z",
     "users": [],
     "firstSeenAt": "2026-10-30T19:30:14.824909+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -522,14 +537,14 @@
     "title": "個人情報を自社のDBに持たない設計は、どこまでできるのか - every Tech Blog",
     "url": "https://tech.every.tv/entry/2026/10/30/124255",
     "domain": "tech.every.tv",
-    "count": 129,
+    "count": 133,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.every.tv/entry/2026/10/30/124255",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/c383c7964b0250f7fecebf7af962faa8efe68869/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fshintani-y%2F20261029%2F20261029221249.png",
     "description": "最近、個人情報の漏洩のニュースが増えています。私は普段セキュリティを専門にしているわけではありませんが、漏洩への対策として、そもそも自社で個人情報を持たないように設計する方法はすぐに思いつくと思います。 ただ、それを具体的にどう実現するのかは、詳しく調べたことがありませんでした。そこで今回、認証や決済などを外部サービスに任せることで、自社のDBからどこまで個人情報をなくせるのかを調べて考えてみました。 DBに個人情報を持っていなければ、DBやそのコピーを抜かれても個人情報は漏れません。設定ミスでDBが外から見えてしまった場合や、分析基盤や開発環境にコピーしたデータが漏れた場合、DBにだけアク…",
     "hatenaDate": "2026-10-30T05:48:02Z",
     "users": [],
     "firstSeenAt": "2026-10-30T18:45:15.864843+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -559,7 +574,7 @@
     "hatenaDate": "2026-10-15T02:25:09Z",
     "users": [],
     "firstSeenAt": "2026-10-30T18:15:13.839436+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body"
   },
   {
@@ -622,14 +637,14 @@
     "title": "無印良品、「MUJIアプリ」の利用者情報最大約2726万件が不正アクセスにより流出の可能性",
     "url": "https://internet.watch.impress.co.jp/docs/news/2152666.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 224,
+    "count": 226,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2152666.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2152/666/01.png",
     "description": "良品計画株式会社は10月30日、無印良品の公式アプリ「MUJIアプリ」において、利用者の情報の一部が外部に流出した可能性があることを確認したとして、情報を公開した。 原因、経緯などの詳細は明らかにされていないが、外部からの不正なアクセスを検知し、アクセスの遮断および修正の適用を行ったとしている。 流出の可能性がある情報は最大2726万件（退会者の情報も含む）の、メールアドレス、生年月日、性別。クレジットカード情報および、氏名、住所、電話番号などは含まれないとしている。 同社では、当該の利用者に順次個別に連絡するとしている。なお、MUJIアプリや無印良品ネットストアは正常に利用できる状態。",
     "hatenaDate": "2026-10-30T06:32:44Z",
     "users": [],
     "firstSeenAt": "2026-10-30T16:15:13.377790+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -688,7 +703,7 @@
     "hatenaDate": "2026-10-30T04:19:29Z",
     "users": [],
     "firstSeenAt": "2026-10-30T15:15:14.291511+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -733,7 +748,7 @@
     "hatenaDate": "2026-10-30T04:56:14Z",
     "users": [],
     "firstSeenAt": "2026-10-30T14:30:14.824849+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -819,7 +834,7 @@
     "hatenaDate": "2026-10-30T03:40:04Z",
     "users": [],
     "firstSeenAt": "2026-10-30T13:30:15.049323+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -898,14 +913,14 @@
     "title": "メルセンヌ・ツイスタ。PythonやC++でも使われる、世界標準「擬似乱数」の設計思想【松本眞】 - レバテックLAB",
     "url": "https://levtech.jp/media/detail_959/",
     "domain": "levtech.jp",
-    "count": 258,
+    "count": 259,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/levtech.jp/media/detail_959/",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/6e524fdc917c005d5ac9c298d68f84c36009f80f/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn.blog.st-hatena.com%2Ffiles%2F6802418398571665203%2F14945776032094163053",
     "description": "トップ > 数学 > メルセンヌ・ツイスタ。PythonやC++でも使われる、世界標準「擬似乱数」の設計思想【松本眞】 メルセンヌ・ツイスタ。PythonやC++でも使われる、世界標準「擬似乱数」の設計思想【松本眞】 1965年東京都生まれ。東京大学理学部情報科学科卒業、同大学大学院理学系研究科修士課程情報科学専攻修了、同研究科博士課程数学専攻中退。京都大学数理解析研究所助手、慶應義塾大学理工学部助教授、九州大学助教授、広島大学教授、東京大学教授などを務めた。2023年に広島大学教授を退職。2026年11月より京都大学大学院経営管理研究部インフラ物性産学協同講座客員教授。博士（理学）、博士（…",
     "hatenaDate": "2026-10-30T00:24:37Z",
     "users": [],
     "firstSeenAt": "2026-10-30T12:00:14.085639+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1028,14 +1043,14 @@
     "title": "読んでいないコードを私たちはどれだけ信頼できるのか - YAMAGUCHI::weblog",
     "url": "https://ymotongpoo.hatenablog.com/entry/2026/10/30/093000",
     "domain": "ymotongpoo.hatenablog.com",
-    "count": 274,
+    "count": 275,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ymotongpoo.hatenablog.com/entry/2026/10/30/093000",
     "screenshot": "https://ogimage.blog.st-hatena.com/13208692334729888336/14945776032096803080/1793320200",
     "description": "こんにちは、Grafana Labsでデベロッパーアドボケイトをしているものです。 私は2018年前後から、SRE*1の啓蒙に携わってきました。SREの実践では本番環境のオブザーバビリティは欠かせず、私もその重要性を強く主張しています。そういった背景もあり『SLO サービスレベル目標』や『オブザーバビリティ・エンジニアリング』をはじめ、SRE関連の本を何冊か翻訳してきました。 そして、ここ1年ほど、生成AIのコーディングエージェントでPoCを作るたびに、テストが通ったコードをどこまで信じてよいのかが気になっていました。エージェントが書いたコードを、私は1行ずつすべて読んでいるわけではないから…",
     "hatenaDate": "2026-10-30T00:38:15Z",
     "users": [],
     "firstSeenAt": "2026-10-30T10:30:15.213934+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1140,7 +1155,7 @@
     "hatenaDate": "2026-10-29T14:57:36Z",
     "users": [],
     "firstSeenAt": "2026-10-30T09:30:13.839415+09:00",
-    "lastSeenAt": "2026-10-31T02:45:14.531173+09:00",
+    "lastSeenAt": "2026-10-31T03:00:13.866583+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4357,19 +4372,5 @@
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
-  },
-  {
-    "title": "GitHub - YotsuhaMeru/NeToRne: AI Slop torne driver",
-    "url": "https://github.com/YotsuhaMeru/NeToRne",
-    "domain": "github.com",
-    "count": 7,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/YotsuhaMeru/NeToRne",
-    "screenshot": "https://opengraph.githubassets.com/9242815191408215d1763fb2b5726029c4efa9e1ff48c0ff9cd4bc28711ce519/YotsuhaMeru/NeToRne",
-    "description": "CECH-ZD1J を Windows の TVTest、または Linux の Mirakurun から利用するためのソフトです。 Releases から、それぞれの OS 向けのファイルをダウンロードしてください。 Mirakurun の補助スクリプト・設定例やファームウェアのパッチ適用ツールは、このrepoをcloneして利用してください。リリースには含まれません。 CECH-ZD1J とアンテナ、torneのディスクダンプが必要です。また、通常受信では B-CAS カードも必要です。 次のファイルはtorneのディスク等から別途用意し、保存先のフォルダ内に以下の構成で配置してください…",
-    "hatenaDate": "2026-10-26T22:20:28Z",
-    "users": [],
-    "firstSeenAt": "2026-10-28T08:30:14.827470+09:00",
-    "lastSeenAt": "2026-10-28T10:15:13.938581+09:00",
-    "descriptionSource": "body"
   }
 ]
