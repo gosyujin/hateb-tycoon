@@ -1,17 +1,33 @@
 [
   {
+    "title": "松屋のアプリに不正アクセス、約238万件の個人情報が漏えい　停止中の補償も予定",
+    "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002753/",
+    "domain": "www.itmedia.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/30/2000002753/",
+    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2610/30/2000002753/10010999/2048",
+    "description": "牛丼チェーン「松屋」を運営する松屋フーズホールディングス（東京都武蔵野市）は10月30日、29日に公表した不正アクセスについて、公式アプリの管理システムから約238万件の個人情報が漏えいしていたことが判明したと発表した。 漏えいしたのは、会員IDや氏名、電話番号、「松屋ポイント」の情報。アプリ内の弁当予約サービス「松弁ネット」やモバイルオーダー、宅配サービス「松弁デリバリー」の利用者分は237万7127件で、届け先の住所も流出した。公式アプリの会員登録情報2000件（最大3000件の可能性あり）では、都道府県や生年月日、メールアドレス、暗号化済みのパスワードも対象となった。クレジットカード情…",
+    "hatenaDate": "2026-10-30T05:51:18Z",
+    "users": [],
+    "firstSeenAt": "2026-10-30T17:00:14.046108+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "無印良品、「MUJIアプリ」の利用者情報最大約2726万件が不正アクセスにより流出の可能性",
     "url": "https://internet.watch.impress.co.jp/docs/news/2152666.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 13,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2152666.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2152/666/01.png",
     "description": "良品計画株式会社は10月30日、無印良品の公式アプリ「MUJIアプリ」において、利用者の情報の一部が外部に流出した可能性があることを確認したとして、情報を公開した。 原因、経緯などの詳細は明らかにされていないが、外部からの不正なアクセスを検知し、アクセスの遮断および修正の適用を行ったとしている。 流出の可能性がある情報は最大2726万件（退会者の情報も含む）の、メールアドレス、生年月日、性別。クレジットカード情報および、氏名、住所、電話番号などは含まれないとしている。 同社では、当該の利用者に順次個別に連絡するとしている。なお、MUJIアプリや無印良品ネットストアは正常に利用できる状態。",
     "hatenaDate": "2026-10-30T06:32:44Z",
     "users": [],
     "firstSeenAt": "2026-10-30T16:15:13.377790+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
-    "descriptionSource": "body"
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
+    "descriptionSource": "body",
+    "bodyStatus": "skip",
+    "bodyReason": "not-longer"
   },
   {
     "title": "Trojanized Claude Code Extension Plants an SSH Backdoor",
@@ -24,7 +40,7 @@
     "hatenaDate": "2026-10-30T05:57:15Z",
     "users": [],
     "firstSeenAt": "2026-10-30T16:15:13.377790+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -32,14 +48,14 @@
     "title": "無印良品、最大2726万件の個人情報流出か　公式アプリに不正アクセス、退会者も対象",
     "url": "https://ascii.jp/elem/000/004/447/4447321/",
     "domain": "ascii.jp",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/447/4447321/",
     "screenshot": "https://ascii.jp/img/2026/10/30/4546166/xl/69c61eab457624f1.png?20200122",
     "description": "良品計画は10月30日、無印良品の公式アプリ「MUJIアプリ」で、顧客情報が外部に流出した可能性があると発表した。退会者の情報を含む最大約2726万件が対象。外部からの不正アクセスを検知し、アクセス遮断と修正を実施した。 流出の恐れがあるのは、メールアドレス、生年月日、性別の3項目。クレジットカード情報、氏名、住所、電話番号などは含まれない。公表時点で、ダークウェブなどへの対象情報の流出や、情報を悪用した被害は確認されていない。 バキ童チャンネル、故・晋平太さん制作のED曲を変更へ YouTubeの楽曲判定で使用困難に Linuxに深刻度9.8の脆弱性、認証なしでroot権限奪取 Anthr…",
     "hatenaDate": "2026-10-30T06:27:20Z",
     "users": [],
     "firstSeenAt": "2026-10-30T16:00:13.780866+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body"
   },
   {
@@ -53,7 +69,7 @@
     "hatenaDate": "2026-10-30T06:22:23Z",
     "users": [],
     "firstSeenAt": "2026-10-30T16:00:13.780866+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body"
   },
   {
@@ -67,7 +83,7 @@
     "hatenaDate": "2026-10-30T04:19:29Z",
     "users": [],
     "firstSeenAt": "2026-10-30T15:15:14.291511+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -90,14 +106,14 @@
     "title": "AIモデル内部でプログラムを実行できる「Qwenputer」が登場、「AIの中にCPUを作る」という異色の試み",
     "url": "https://gigazine.net/news/20261030-qwenputer/",
     "domain": "gigazine.net",
-    "count": 9,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261030-qwenputer/",
     "screenshot": "https://i.gzn.jp/img/2026/10/30/qwenputer/00.png",
     "description": "AIモデルの内部に32bitのRISC-V CPUを組み込み、外部ツールを使わずに計算やプログラムの実行を可能にした実験的なAIモデル「Qwenputer」が公開されました。Qwenputerは既存のAIモデル「Qwen3.5-4B」をベースに開発されており、ニューラルネットワークの内部でCPUやメモリの機能を再現しています。 Qwenputer: a fully f...",
     "hatenaDate": "2026-10-30T02:56:42Z",
     "users": [],
     "firstSeenAt": "2026-10-30T14:44:42.218418+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -105,14 +121,14 @@
     "title": "暗号資産の「バイナンス」に不正アクセスか 影響額 約9900億円 | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261030de68404",
     "domain": "news.web.nhk",
-    "count": 36,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261030de68404",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261030de68404/20261030de68404_E0000127826_1_l.jpg",
     "description": "暗号資産の取引所として世界的な大手の「バイナンス」は29日、不正アクセスとみられるセキュリティー上の問題が起き、影響額が推定でおよそ63億ドル、日本円にしておよそ9900億円に上ることを明らかにしまし…",
     "hatenaDate": "2026-10-30T04:56:14Z",
     "users": [],
     "firstSeenAt": "2026-10-30T14:30:14.824849+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -127,7 +143,7 @@
     "hatenaDate": "2026-10-30T03:02:35Z",
     "users": [],
     "firstSeenAt": "2026-10-30T14:30:14.824849+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body"
   },
   {
@@ -141,7 +157,7 @@
     "hatenaDate": "2026-10-30T01:26:05Z",
     "users": [],
     "firstSeenAt": "2026-10-30T14:15:14.140750+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -156,7 +172,7 @@
     "hatenaDate": "2026-10-30T03:34:17Z",
     "users": [],
     "firstSeenAt": "2026-10-30T14:00:15.511470+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body"
   },
   {
@@ -170,7 +186,7 @@
     "hatenaDate": "2026-10-29T22:59:07Z",
     "users": [],
     "firstSeenAt": "2026-10-30T13:45:13.213535+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body"
   },
   {
@@ -191,14 +207,14 @@
     "title": "Linuxカーネルの重大な脆弱性（CVE-2026-98432）によるカーリルへの影響について – カーリルのブログ",
     "url": "https://blog.calil.jp/2026/10/linux-kernel.html",
     "domain": "blog.calil.jp",
-    "count": 56,
+    "count": 60,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.calil.jp/2026/10/linux-kernel.html",
     "screenshot": null,
     "description": "2026年10月15日、Linuxカーネル（Linux OSの中核部分）のネットワーク処理に重大な脆弱性（CVE-2026-98432）があることが公表され、あわせて修正版が公開されました。細工したパケットを送りつけることでサーバーを停止させたり、条件によっては認証なしでリモートからプログラムを実行されたりするおそれがある問題です。10月27日（米国時間）には、この脆弱性を発見したAnthropic社が、特定の条件で遠隔から管理者権限を取得できることを実証したと公表しました。 カーリルが提供する各サービス（カーリル、Unitrad API、カーリル for AI、学校図書館支援プログラムなど…",
     "hatenaDate": "2026-10-30T03:40:04Z",
     "users": [],
     "firstSeenAt": "2026-10-30T13:30:15.049323+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -242,7 +258,7 @@
     "hatenaDate": "2026-10-30T01:29:33Z",
     "users": [],
     "firstSeenAt": "2026-10-30T13:00:13.676350+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body"
   },
   {
@@ -270,21 +286,21 @@
     "hatenaDate": "2026-10-30T00:00:26Z",
     "users": [],
     "firstSeenAt": "2026-10-30T12:15:13.472555+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "メルセンヌ・ツイスタ。PythonやC++でも使われる、世界標準「擬似乱数」の設計思想【松本眞】 - レバテックLAB",
     "url": "https://levtech.jp/media/detail_959/",
     "domain": "levtech.jp",
-    "count": 100,
+    "count": 104,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/levtech.jp/media/detail_959/",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/6e524fdc917c005d5ac9c298d68f84c36009f80f/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn.blog.st-hatena.com%2Ffiles%2F6802418398571665203%2F14945776032094163053",
     "description": "トップ > 数学 > メルセンヌ・ツイスタ。PythonやC++でも使われる、世界標準「擬似乱数」の設計思想【松本眞】 メルセンヌ・ツイスタ。PythonやC++でも使われる、世界標準「擬似乱数」の設計思想【松本眞】 1965年東京都生まれ。東京大学理学部情報科学科卒業、同大学大学院理学系研究科修士課程情報科学専攻修了、同研究科博士課程数学専攻中退。京都大学数理解析研究所助手、慶應義塾大学理工学部助教授、九州大学助教授、広島大学教授、東京大学教授などを務めた。2023年に広島大学教授を退職。2026年11月より京都大学大学院経営管理研究部インフラ物性産学協同講座客員教授。博士（理学）、博士（…",
     "hatenaDate": "2026-10-30T00:24:37Z",
     "users": [],
     "firstSeenAt": "2026-10-30T12:00:14.085639+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -377,14 +393,14 @@
     "title": "Linuxカーネルに重大な脆弱性「CVE-2026-98432」、CVSS 9.8 Claudeが遠隔root権限実行を実証|セキュリティニュースのセキュリティ対策Lab",
     "url": "https://rocket-boys.co.jp/security-measures-lab/linux_kernel_cve_2026_98432_ubuntu_anthropic_20261030/",
     "domain": "rocket-boys.co.jp",
-    "count": 52,
+    "count": 53,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/rocket-boys.co.jp/security-measures-lab/linux_kernel_cve_2026_98432_ubuntu_anthropic_20261030/",
     "screenshot": "https://rocket-boys.co.jp/wp-content/uploads/2026/10/linux_kernel_cve_2026_98432_ubuntu_anthropic_20261030.png",
     "description": "LinuxカーネルのIPv4ネットワーク処理に、遠隔からの悪用につながるUse-After-Free（解放済みメモリの再利用）の脆弱性「CVE-2026-98432」が確認されました。Canonicalが2026年10月15日に公開し、28日に更新したUbuntuの脆弱性情報では、CVSS v3.1の基本値は9.8（Critical）、Ubuntu独自の優先度は「High」と評価されています。 10月27日にはAnthropicが、同脆弱性を利用して、特定の構成のLinuxサーバーで認証なしに遠隔からroot権限でコマンドを実行する攻撃を研究環境で実証したと発表しました。Linuxカーネルの…",
     "hatenaDate": "2026-10-29T22:47:13Z",
     "users": [],
     "firstSeenAt": "2026-10-30T10:45:12.534421+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -407,14 +423,14 @@
     "title": "読んでいないコードを私たちはどれだけ信頼できるのか - YAMAGUCHI::weblog",
     "url": "https://ymotongpoo.hatenablog.com/entry/2026/10/30/093000",
     "domain": "ymotongpoo.hatenablog.com",
-    "count": 146,
+    "count": 153,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ymotongpoo.hatenablog.com/entry/2026/10/30/093000",
     "screenshot": "https://ogimage.blog.st-hatena.com/13208692334729888336/14945776032096803080/1793320200",
     "description": "こんにちは、Grafana Labsでデベロッパーアドボケイトをしているものです。 私は2018年前後から、SRE*1の啓蒙に携わってきました。SREの実践では本番環境のオブザーバビリティは欠かせず、私もその重要性を強く主張しています。そういった背景もあり『SLO サービスレベル目標』や『オブザーバビリティ・エンジニアリング』をはじめ、SRE関連の本を何冊か翻訳してきました。 そして、ここ1年ほど、生成AIのコーディングエージェントでPoCを作るたびに、テストが通ったコードをどこまで信じてよいのかが気になっていました。エージェントが書いたコードを、私は1行ずつすべて読んでいるわけではないから…",
     "hatenaDate": "2026-10-30T00:38:15Z",
     "users": [],
     "firstSeenAt": "2026-10-30T10:30:15.213934+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -465,14 +481,14 @@
     "title": "Microsoft Officeライセンス削除のメモ - gn5r’s blog",
     "url": "https://gn5r.hatenablog.com/entry/2021/01/05/042836",
     "domain": "gn5r.hatenablog.com",
-    "count": 39,
+    "count": 40,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gn5r.hatenablog.com/entry/2021/01/05/042836",
     "screenshot": null,
     "description": "Microsoft Office 2016 64Bit版でのインストールディレクトリ Microsoft Office 2016 64Bit版でのインストールディレクトリ C:\\Program Files\\Microsoft Office\\Office16 C:\\Program Files\\Microsoft Office\\Office14 C:\\Program Files\\Microsoft Office\\Office15 C:\\Program Files\\Microsoft Office\\Office16 コマンドプロンプトであれば Win + R → cmd → Ctrl + Shif…",
     "hatenaDate": "2024-10-17T09:30:28Z",
     "users": [],
     "firstSeenAt": "2026-10-30T09:45:13.551711+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -503,7 +519,7 @@
     "hatenaDate": "2026-10-29T09:02:09Z",
     "users": [],
     "firstSeenAt": "2026-10-30T09:30:13.839415+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -512,14 +528,14 @@
     "title": "Figmaを離れてClaude CodeでUIデザインをするようになった話｜🐰",
     "url": "https://note.com/hgffdgn654/n/n92467b83a1c1",
     "domain": "note.com",
-    "count": 133,
+    "count": 138,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/hgffdgn654/n/n92467b83a1c1",
     "screenshot": "https://assets.st-note.com/production/uploads/images/329775375/rectangle_large_type_2_4a37721baf34426709979f4b1ee50325.png?fit=bounds&quality=85&width=1280",
     "description": "久々のデザイン記事です。以前はFigmaでゴリゴリにコンポーネントを作ってUIデザインをしていましたが、生成AIの登場によってデザイン業務の進め方も大きく変わってきたように感じています。今回はそんな私の最近のデザイン業務についてまとめていきます。 現在私は業務委託としてSaaSプロダクトのソロデザイナーとしてプロダクトデザインに携わっています。AIが出てきてからというものPMからAIが作成した動くモックが仕様書として上がってくることが多く、それならこれを改造してデザインしちゃえばいいのでは？と思ったのがキッカケでした。 まずエンジニアとPMに相談して現在の開発環境状況を把握しました。この体制…",
     "hatenaDate": "2026-10-29T14:57:36Z",
     "users": [],
     "firstSeenAt": "2026-10-30T09:30:13.839415+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -542,14 +558,14 @@
     "title": "魔法が使えるようになったプログラマたちへ - がるの健忘録",
     "url": "https://gallu.hatenadiary.jp/entry/2026/10/29/003157",
     "domain": "gallu.hatenadiary.jp",
-    "count": 63,
+    "count": 64,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gallu.hatenadiary.jp/entry/2026/10/29/003157",
     "screenshot": "https://ogimage.blog.st-hatena.com/10257846132621427352/14945776032096539776/1793201517",
     "description": "最近、AIを使ってプログラムを書く、あるいはシステムを作る、ということが随分と身近になってきたように思います。 以前であれば、それなりの知識や技術、そして時間が必要だったものが、AIにお願いすると、驚くほどあっさりと出来上がってしまう。 それでも、「こんなのが欲しい」と思ったものが、ちょっとAIと会話をしているうちに形になって、しかもそれなりに動いてしまう。 あるいは「作れるけど、手間がかかるから」と後回しにしていたものが、気軽に作れるようになる。 コンピューターやシステムは、もともと人によっては「魔法」のようなものだったのかもしれません。 ある程度は「何を作りたいのか」「どういう動作をする…",
     "hatenaDate": "2026-10-29T09:00:05Z",
     "users": [],
     "firstSeenAt": "2026-10-30T09:00:13.289496+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -579,7 +595,7 @@
     "hatenaDate": "2026-10-29T22:46:10Z",
     "users": [],
     "firstSeenAt": "2026-10-30T08:45:13.492875+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body"
   },
   {
@@ -593,7 +609,7 @@
     "hatenaDate": "2026-10-29T22:25:22Z",
     "users": [],
     "firstSeenAt": "2026-10-30T08:45:13.492875+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body"
   },
   {
@@ -621,7 +637,7 @@
     "hatenaDate": "2026-10-29T00:52:08Z",
     "users": [],
     "firstSeenAt": "2026-10-30T08:15:15.963241+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body"
   },
   {
@@ -635,7 +651,7 @@
     "hatenaDate": "2026-10-29T04:20:23Z",
     "users": [],
     "firstSeenAt": "2026-10-30T07:30:15.186298+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body"
   },
   {
@@ -692,21 +708,21 @@
     "hatenaDate": "2026-10-29T13:06:34Z",
     "users": [],
     "firstSeenAt": "2026-10-30T07:00:14.708193+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "GitHub - tester-army/e2e: Next generation e2e testing framework for web and mobile apps.",
     "url": "https://github.com/tester-army/e2e",
     "domain": "github.com",
-    "count": 79,
+    "count": 80,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/tester-army/e2e",
     "screenshot": "https://repository-images.githubusercontent.com/1308631234/358e34a0-4e46-4400-b092-63a397fe9d48",
     "description": "e2e is an end-to-end testing framework for web and mobile apps. Describe a goal in natural language and an agent drives the app to reach it. Check the result with locators and assertions in the same test. // tests/checkout.e2e.ts import { test, expect } from 'e2e'; test('a member upgrades to Pro',…",
     "hatenaDate": "2026-10-03T05:21:41Z",
     "users": [],
     "firstSeenAt": "2026-10-30T05:45:15.200966+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body"
   },
   {
@@ -720,7 +736,7 @@
     "hatenaDate": "2026-10-29T09:34:31Z",
     "users": [],
     "firstSeenAt": "2026-10-30T05:45:15.200966+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -736,7 +752,7 @@
     "hatenaDate": "2026-10-29T10:23:25Z",
     "users": [],
     "firstSeenAt": "2026-10-30T05:30:14.676135+09:00",
-    "lastSeenAt": "2026-10-30T16:45:12.848640+09:00",
+    "lastSeenAt": "2026-10-30T17:00:14.046108+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4372,20 +4388,6 @@
     "users": [],
     "firstSeenAt": "2026-10-27T20:00:13.681933+09:00",
     "lastSeenAt": "2026-10-27T20:30:14.089942+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "パナソニック、ミニコンポ全機種の生産を11月以降順次完了。「後継商品は無い」",
-    "url": "https://av.watch.impress.co.jp/docs/news/2151398.html",
-    "domain": "av.watch.impress.co.jp",
-    "count": 126,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/av.watch.impress.co.jp/docs/news/2151398.html",
-    "screenshot": "https://av.watch.impress.co.jp/img/avw/list/2151/398/pana.jpg",
-    "description": "パナソニックは26日、CDステレオシステム(ミニコンポ)全機種の生産、2026年11月以降順次完了すると発表した。後継商品は無いという。パナソニックは生産完了について「市場環境やお客様の音楽視聴スタイルの変化などを踏まえ、総合的に検討した結果、全機種の生産を順次完了することといたしました。長年にわたり多くのお客様にご愛用いただきましたことに、心より御礼申し上げます」とコメント。 さらに、「今回の生産完了はパナソニックブランドのCDステレオシステム（ミニコンポ）を対象とするものであり、Technicsブランドの商品展開（1BOX等のCD搭載コンポシステム）は販売継続いたしますのでご安心ください…",
-    "hatenaDate": "2026-10-27T03:21:08Z",
-    "users": [],
-    "firstSeenAt": "2026-10-27T19:30:14.347457+09:00",
-    "lastSeenAt": "2026-10-28T10:00:13.778989+09:00",
     "descriptionSource": "body"
   }
 ]
