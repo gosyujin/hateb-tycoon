@@ -2,6 +2,11 @@
 
 1エントリ1〜3行。バージョン番号は採番しておらず、日付とコミットhashで管理する(新しい順)。調査・判断に経緯があるものは [docs/decisions/](docs/decisions/) にあり、該当エントリからリンクする。自動コミット「Update hotentry data」は除く。
 
+## 2026-11-01
+
+- Changed: `scripts/hatena-oauth-setup.mjs`が、トークンの持ち主を確認したあと(`y`の時だけ)Workerのsecret登録と`wrangler deploy`まで行うようにした(以前は登録コマンドを表示するだけで手動だった。値は標準入力で渡す)。手順は[docs/decisions/bookmark-post-via-worker.md](docs/decisions/bookmark-post-via-worker.md)。未確認: 実際のはてな認可とwrangler実行
+- Changed: GitHub Pagesのカスタムドメインを`note.gosyujin.com`から`gosyujin.com`に変えたため、Workerの`ALLOWED_ORIGINS`を`https://gosyujin.com`にした。オリジンが変わるのでlocalStorage(ブクマ連携の設定など)は入れ直しが要る
+
 ## 2026-10-28
 
 - Added: ストリーム表示にもrich/plainの切替を付けた(記事ページ・自分のブックマークと`commentLayout`を共有)。サムネイルはrichだけに出し、richではコメントにユーザーアイコン・タグ・はてなスター数も出す(スターはrichの間だけ取得)。詳細は[docs/features.md](docs/features.md)のストリーム表示。

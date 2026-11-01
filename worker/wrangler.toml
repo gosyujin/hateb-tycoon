@@ -9,4 +9,4 @@ compatibility_date = "2026-10-01"
 
 [vars]
 # CORSを許可するオリジン(カンマ区切り)。ローカル確認用のlocalhostを足す場合は追記する。
-ALLOWED_ORIGINS = "https://note.gosyujin.com"
+ALLOWED_ORIGINS = "https://gosyujin.com"

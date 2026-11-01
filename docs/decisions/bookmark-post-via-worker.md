@@ -42,7 +42,6 @@
 ## 導入手順
 
 1. https://www.hatena.ne.jp/oauth/develop でアプリを登録し、scopeに `read_public` `write_public` を許可。コンシューマキー・シークレットを控える。
-2. `HATENA_CONSUMER_KEY=... HATENA_CONSUMER_SECRET=... node scripts/hatena-oauth-setup.mjs` を実行し、案内に従ってアクセストークンを取得。
-3. `cd worker` で次のsecretを登録し、`npx wrangler deploy`。
-   `ACCESS_TOKEN`(長いランダム文字列)/ `HATENA_USER_ID` / `HATENA_CONSUMER_KEY` / `HATENA_CONSUMER_SECRET` / `HATENA_ACCESS_TOKEN` / `HATENA_ACCESS_TOKEN_SECRET`
+2. `cd worker && npx wrangler login`(初回のみ)。先に `ACCESS_TOKEN`(長いランダム文字列)を `npx wrangler secret put ACCESS_TOKEN` で登録しておく。
+3. `HATENA_CONSUMER_KEY=... HATENA_CONSUMER_SECRET=... node scripts/hatena-oauth-setup.mjs` を実行し、案内に従って許可。表示された持ち主を確認して `y` を答えると、`HATENA_CONSUMER_KEY`/`HATENA_CONSUMER_SECRET`/`HATENA_ACCESS_TOKEN`/`HATENA_ACCESS_TOKEN_SECRET`(希望すれば`HATENA_USER_ID`も)のsecret登録と`wrangler deploy`までスクリプトが行う。値は標準入力で渡し、ファイルには残さない。失敗した時だけトークンを表示するので手動で登録する。
 4. 記事ページ下部のバーの⚙(ブクマ連携の設定)にWorker URLと`ACCESS_TOKEN`を入力。
