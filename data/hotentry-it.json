@@ -1,30 +1,44 @@
 [
   {
+    "title": "いまのダークウェブでは二段階認証も無力化する「ブラウザのクローンデータ」が売買されており、その対策にはブラウザを使い分けることが有効らしい (2ページ目)",
+    "url": "https://togetter.com/li/2765521?page=2",
+    "domain": "togetter.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2765521?page=2",
+    "screenshot": "https://s.tgstc.com/ogp3/0090c02fc23ddc59b7946934c56063cf-1200x630.jpeg",
+    "description": "いまのダークウェブでは二段階認証も無力化する「ブラウザのクローンデータ」が売買されており、その対策にはブラウザを使い分けることが有効らしい こういう状況を考えると、証券会社や銀行へのログインは、もうまっさらな別マシンか、アイソレーション（共有フォルダやクリップボード等の共有を一切禁止するモード）化した仮想化環境上のLinuxでやった方が良い気がする。 とりあえず、Parallels Desktop上にEndeavourOSを入れる。理由は同ディストリビューションが、脆弱性などへの修正対応の早さで定評のあるArch Linuxと同じリポジトリを利用しており、Parallelsでの動作実績も報告…",
+    "hatenaDate": "2026-11-01T13:50:35Z",
+    "users": [],
+    "firstSeenAt": "2026-11-02T05:15:14.125196+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "GitHub - sahenjp/RustXNG: SearXNG-compatible metasearch engine written in Rust (AGPL-3.0-or-later)",
     "url": "https://github.com/sahenjp/RustXNG",
     "domain": "github.com",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/sahenjp/RustXNG",
     "screenshot": "https://opengraph.githubassets.com/75b8c6288f931e5a703c5e9ee9cb8f095e7f9165d1f49571ac13c35fbba2e2ce/sahenjp/RustXNG",
     "description": "A self-hosted, SSRF-hardened web search and grounding engine for local AI agents. No API keys. No fees. One request returns ranked results and the page text, so an agent can answer from sources instead of guessing. An agent searches, reads, and decides — then does it again. What it needs underneath…",
     "hatenaDate": "2026-10-24T23:25:03Z",
     "users": [],
     "firstSeenAt": "2026-11-02T04:45:13.798138+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "【独自】GMO攻撃、北朝鮮ハッカーか　複数の痕跡、政府に報告",
     "url": "https://www.47news.jp/15170379.html",
     "domain": "www.47news.jp",
-    "count": 20,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15170379.html",
     "screenshot": "https://img.cf.47news.jp/public/photo/27b2f3b305dc78fd37122ba5155148b9/photo.jpg",
     "description": "GMOインターネットグループが、一連の不正アクセスの攻撃側に北朝鮮系のハッカー集団がいる可能性が高いと分析していることが1日、関係者への取材で分かった。マルウエア（悪意あるソフト）の特徴など攻撃者の複数の痕跡から判断したとみられる。GMOは政府側に報告したもようで、真相解明が今後の焦点だ。複数の国をまたぐ痕跡があったことも判明した。調査をかく乱しようとした可能性がある。 2日には熊谷正寿社長が問題発生以降、初めて記者会見を開き、一連の経緯や判明した事実関係を説明する見通しだ。 関係者によると、GMOは攻撃を受けたサービスへの通信ログなどの特徴を確認したという。共同通信もセキュリティー関係者の…",
     "hatenaDate": "2026-11-01T14:23:54Z",
     "users": [],
     "firstSeenAt": "2026-11-02T01:00:14.462180+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -33,14 +47,14 @@
     "title": "Wikipediaの編集者はどのようにしてAI生成テキストを見つけて除外しているのか？",
     "url": "https://gigazine.net/news/20261101-wikipedia-ai-content/",
     "domain": "gigazine.net",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261101-wikipedia-ai-content/",
     "screenshot": "https://i.gzn.jp/img/2026/11/01/wikipedia-ai-content/00.jpg",
     "description": "あらゆるプラットフォームにAI生成テキストがあふれている中で、WikipediaではAIに記事本文を生成させたり書き換えさせたりすることを原則禁じるガイドラインが設定されています。そのガイドラインに違反するコンテンツを見つけて削除することを目的としたボランティア活動「WikiProject AI Cleanup」の創設メンバーが、...",
     "hatenaDate": "2026-11-01T10:19:03Z",
     "users": [],
     "firstSeenAt": "2026-11-02T00:15:13.025486+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -48,14 +62,14 @@
     "title": "PHPショック、システム即停止は「やや過剰反応」　理解なき運用がリスクに",
     "url": "https://business.nikkei.com/atcl/gen/19/00304/102200276/",
     "domain": "business.nikkei.com",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/business.nikkei.com/atcl/gen/19/00304/102200276/",
     "screenshot": "https://business.nikkei.com/atcl/gen/19/00304/102200276/fb.jpg",
     "description": "プログラミング言語「PHP」に深刻な脆弱性が見つかった問題は、日本の政府機関や多くの民間企業がシステムやサービスの提供を一時制限するなどの事態につながった。一方、同様の事態に直面しても、米国ではサイトを継続する企業は多かったとされる。今後も増えるであろうサイバー攻撃に対して、企業が取るべき適切な対応とは何か。また、新たに出現した大きな経営リスクに対して日本の経営者はどう構えるべきか。サイバーセキュリティーに詳しい立命館大学の上原哲太郎教授に、企業側の対応策を聞いた。 研究分野はシステムセキュリティーやシステム管理、デジタルフォレンジック（電子鑑識）。総務省情報通信国際戦略局通信規格課標準化推…",
     "hatenaDate": "2026-10-24T05:02:23Z",
     "users": [],
     "firstSeenAt": "2026-11-02T00:15:13.025486+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body"
   },
   {
@@ -69,7 +83,7 @@
     "hatenaDate": "2026-10-30T04:20:38Z",
     "users": [],
     "firstSeenAt": "2026-11-01T23:30:14.559863+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body"
   },
   {
@@ -83,7 +97,7 @@
     "hatenaDate": "2026-10-30T03:30:06Z",
     "users": [],
     "firstSeenAt": "2026-11-01T23:15:14.501888+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body"
   },
   {
@@ -97,7 +111,7 @@
     "hatenaDate": "2026-11-01T11:35:27Z",
     "users": [],
     "firstSeenAt": "2026-11-01T23:15:14.501888+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -106,14 +120,14 @@
     "title": "「作曲って難しいと思うじゃん？だったら遊びにしちゃえばいいんじゃね？」ということで、音楽理論やコード進行が全くわからなくても音楽が作れる作曲ツールを作った",
     "url": "https://togetter.com/li/2765526",
     "domain": "togetter.com",
-    "count": 109,
+    "count": 112,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2765526",
     "screenshot": "https://s.tgstc.com/ogp3/4a5804342efd26e0d8b95229cfc882d0-1200x630.jpeg",
     "description": "作曲って難しいと思うじゃん？ だったら遊びにしちゃえばいいんじゃね？ｗｗ ということで、音楽で遊べるものを作ってみた！！ 音楽理論？知らん！！コード進行？わからん！！ 作曲？やったことない！！ そんな人でもポチポチしてたら 曲ができちゃうツールですｗ 好きな雰囲気を選んで コードを並べて、メロディを作る！ 完成した曲はMIDIで保存できるし なんとXで共有して、そのまま聴いてもらうこともできる！！ もちろん完全無料！登録不要！！ よかったら遊んでみてねｗｗｗ …-de-asonde-mita.gedousan.chatgpt.site 音楽で遊んでみた — ひとつずつ、あなたのメロディへ。…",
     "hatenaDate": "2026-11-01T12:12:05Z",
     "users": [],
     "firstSeenAt": "2026-11-01T23:00:13.767118+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -122,14 +136,14 @@
     "title": "いまのダークウェブでは二段階認証も無力化する「ブラウザのクローンデータ」が売買されており、その対策にはブラウザを使い分けることが有効らしい",
     "url": "https://togetter.com/li/2765521",
     "domain": "togetter.com",
-    "count": 164,
+    "count": 168,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2765521",
     "screenshot": "https://s.tgstc.com/ogp3/0090c02fc23ddc59b7946934c56063cf-1200x630.jpeg",
     "description": "Taiki Watanabe | フルスタックエンジニア・ダークウェブ研究家 @ECHODE_Dev ・いまダークウェブの闇市場で暴落しているもの：単なる「IDとパスワード」のリスト ・代わりに「Russian Market」や「STYX」等の大手闇マーケットで主力になっている商品：ログイン状態と端末の特徴を丸ごと抜いた「ブラウザのクローンデータ」 ・取引相場：一般個人のデータは「1件300円〜1,500円」、企業の管理画面に入れるデータは「数万円〜数十万円」 ・犯罪者側のAI活用：ウイルスが抜いた数万件の雑多なデータから、AIが「会社の権限」や「決済カード付き」だけを自動査定して出品 よく…",
     "hatenaDate": "2026-11-01T12:12:19Z",
     "users": [],
     "firstSeenAt": "2026-11-01T22:45:13.588206+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -145,7 +159,7 @@
     "hatenaDate": "2026-11-01T09:29:10Z",
     "users": [],
     "firstSeenAt": "2026-11-01T22:30:12.400012+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body"
   },
   {
@@ -159,7 +173,7 @@
     "hatenaDate": "2026-11-01T09:00:41Z",
     "users": [],
     "firstSeenAt": "2026-11-01T22:30:12.400012+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -168,14 +182,14 @@
     "title": "【速報】GMO不正アクセス、北朝鮮関与か",
     "url": "https://www.47news.jp/15170287.html",
     "domain": "www.47news.jp",
-    "count": 62,
+    "count": 65,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15170287.html",
     "screenshot": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
     "description": "GMOインターネットグループが、一連の不正アクセスの攻撃側に北朝鮮系のハッカー集団がいる可能性が高いと分析していることが1日、関係者への取材で分かった。 国内外約100の拠点を軸に、世界情勢から地域の話題まで、旬のニュースを的確に、いち早くお届けします。 HANA、日本武道館で初の全国ホールツアー完走 初のアリーナツアー開催決定【ツアースケジュール掲載】 「中城公園」と「県民の森」 キャンプ場予約で個人情報漏えいの可能性 沖縄県が発表 【GMO不正アクセス】犯行声明と「被害者の情報共有サイト」に共通点多数、攻撃側が開設か 幅広い知識と技術で、顧客の省エネを支え続ける 最前線で奮闘するKene…",
     "hatenaDate": "2026-11-01T11:43:09Z",
     "users": [],
     "firstSeenAt": "2026-11-01T22:00:13.651208+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -191,7 +205,7 @@
     "hatenaDate": "2026-11-01T09:19:34Z",
     "users": [],
     "firstSeenAt": "2026-11-01T21:45:15.486741+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -206,7 +220,7 @@
     "hatenaDate": "2026-10-31T23:50:35Z",
     "users": [],
     "firstSeenAt": "2026-11-01T19:30:12.933873+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body"
   },
   {
@@ -220,7 +234,7 @@
     "hatenaDate": "2026-05-28T10:38:24Z",
     "users": [],
     "firstSeenAt": "2026-11-01T19:00:13.038523+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -236,21 +250,21 @@
     "hatenaDate": "2026-11-01T00:53:27Z",
     "users": [],
     "firstSeenAt": "2026-11-01T18:30:13.600983+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Chromagraph Cameraアプリ - App Store",
     "url": "https://apps.apple.com/jp/app/chromagraph-camera/id6803329435",
     "domain": "apps.apple.com",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/apps.apple.com/jp/app/chromagraph-camera/id6803329435",
     "screenshot": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/9b/b8/da9bb81c-a46b-8a25-f071-9381d077dc4d/Placeholder.mill/1200x630wa.jpg",
     "description": "Replace your phone camera’s default processing with bespoke, curated color and texture rendering designed by cinematographer Steve Yedlin and used on the Knives Out films. Chromagraph starts from raw image data and builds the image its own way: not a filter laid over the usual look processing, bu...",
     "hatenaDate": "2026-10-31T12:00:32Z",
     "users": [],
     "firstSeenAt": "2026-11-01T17:45:12.772413+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -265,7 +279,7 @@
     "hatenaDate": "2026-10-31T09:02:43Z",
     "users": [],
     "firstSeenAt": "2026-11-01T17:30:13.702306+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -273,14 +287,14 @@
     "title": "いらすとや、ファンが生息域踏査　AIに押されサイト訪問者は減少 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC284ZY0Y6A021C2000000/",
     "domain": "www.nikkei.com",
-    "count": 242,
+    "count": 244,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC284ZY0Y6A021C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3793510028102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.59&fp-y=0.23&h=630&w=1200&s=917b4ae6c045af66ac10e486c3ac0688",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 フリー素材のイラストサイト「いらすとや」が生成AI（人工知能）に押されている。データ分析会社の推計では9月のサイト利用者数が前年同月比で2割減った。今なお街中の活用例を収集するファンや、特徴的な画風を生かした人気IP（知的財産）とのコラボはある。新型コロナウイルス禍で利用が急伸したいらすとや。AI下でも生き残れるのか。 いらすとやはイラストレーターのみふねたかしさんが2012年1月から始めたフリ... ヒット商品の「売れる」理由を徹底リサーチ。売り場戦略から買い手の最新動向まで独自に取材。「日経M…",
     "hatenaDate": "2026-11-01T00:48:55Z",
     "users": [],
     "firstSeenAt": "2026-11-01T17:15:09.863671+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -296,7 +310,7 @@
     "hatenaDate": "2026-11-01T03:35:39Z",
     "users": [],
     "firstSeenAt": "2026-11-01T16:30:13.565932+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -312,7 +326,7 @@
     "hatenaDate": "2026-11-01T02:51:00Z",
     "users": [],
     "firstSeenAt": "2026-11-01T16:00:14.649111+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -327,7 +341,7 @@
     "hatenaDate": "2026-10-30T22:48:42Z",
     "users": [],
     "firstSeenAt": "2026-11-01T14:30:13.556449+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -343,7 +357,7 @@
     "hatenaDate": "2026-10-31T10:08:45Z",
     "users": [],
     "firstSeenAt": "2026-11-01T14:15:12.912012+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -358,7 +372,7 @@
     "hatenaDate": "2026-10-31T23:39:53Z",
     "users": [],
     "firstSeenAt": "2026-11-01T14:00:13.993852+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body"
   },
   {
@@ -372,7 +386,7 @@
     "hatenaDate": "2026-10-31T23:27:23Z",
     "users": [],
     "firstSeenAt": "2026-11-01T12:30:19.065703+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -402,7 +416,7 @@
     "hatenaDate": "2026-10-31T23:34:46Z",
     "users": [],
     "firstSeenAt": "2026-11-01T11:12:39.744766+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body"
   },
   {
@@ -416,7 +430,7 @@
     "hatenaDate": "2026-11-01T00:58:30Z",
     "users": [],
     "firstSeenAt": "2026-11-01T10:30:12.505796+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body"
   },
   {
@@ -430,7 +444,7 @@
     "hatenaDate": "2026-11-01T00:19:58Z",
     "users": [],
     "firstSeenAt": "2026-11-01T10:15:14.098351+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body"
   },
   {
@@ -444,7 +458,7 @@
     "hatenaDate": "2026-10-30T10:18:57Z",
     "users": [],
     "firstSeenAt": "2026-11-01T09:15:12.888075+09:00",
-    "lastSeenAt": "2026-11-02T05:00:13.749245+09:00",
+    "lastSeenAt": "2026-11-02T05:15:14.125196+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4375,21 +4389,5 @@
     "firstSeenAt": "2026-10-29T10:45:13.373204+09:00",
     "lastSeenAt": "2026-10-29T19:00:14.054044+09:00",
     "descriptionSource": "body"
-  },
-  {
-    "title": "VPNがあるのは外から分かるので狙われる。パッチ当てはもう自動化するしかない――日本ハッカー協会・杉浦隆幸代表理事が語る、AI時代のランサムウェア対処策【Security Days Fall 2026】",
-    "url": "https://internet.watch.impress.co.jp/docs/event/2151590.html",
-    "domain": "internet.watch.impress.co.jp",
-    "count": 251,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/event/2151590.html",
-    "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2151/590/01.JPG",
-    "description": "VPNがあるのは外から分かるので狙われる。パッチ当てはもう自動化するしかない――日本ハッカー協会・杉浦隆幸代表理事が語る、AI時代のランサムウェア対処策 AIの進化は、来るところまで来てしまったようだ。サイバー攻撃への応用である。24時間365日、AIは休まず働き続け、脆弱性を発見する。そこを突く攻撃ツールの生成にもAIが威力を発揮してしまっている。 サイバーセキュリティ専門のイベント「Security Days Fall 2026」で10月22日、一般社団法人日本ハッカー協会の代表理事である杉浦隆幸氏による講演が行われた。AIの台頭によって急激に変化するセキュリティ事情について、現場のリア…",
-    "hatenaDate": "2026-10-28T22:58:45Z",
-    "users": [],
-    "firstSeenAt": "2026-10-29T10:30:13.363262+09:00",
-    "lastSeenAt": "2026-10-30T04:30:12.921763+09:00",
-    "descriptionSource": "body",
-    "bodyStatus": "skip",
-    "bodyReason": "not-longer"
   }
 ]
