@@ -1,5 +1,19 @@
 [
   {
+    "title": "【速報】GMO系で顧客情報が漏えい",
+    "url": "https://www.47news.jp/15175450.html",
+    "domain": "www.47news.jp",
+    "count": 23,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15175450.html",
+    "screenshot": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
+    "description": "GMOペイメントゲートウェイは2日、クレジットカード会社向けのサービスで顧客の氏名など計69件が漏えいした可能性があると発表した。 国内外約100の拠点を軸に、世界情勢から地域の話題まで、旬のニュースを的確に、いち早くお届けします。 幅広い知識と技術で、顧客の省エネを支え続ける 最前線で奮闘するKenesの社員たち 幅広い分野の革新的で優れたサービスを募集 第6回日本サービス大賞エントリー受付開始 人の営みがよみがえり、願いは「当たり前」に戻ること 復興支える中間貯蔵施設のいま、2045年への約束 創業5年で売り上げ50億円達成の背景に「自責」の精神 渡辺喜久男会長と塚本拓夢オーナーが「おた…",
+    "hatenaDate": "2026-11-02T12:53:28Z",
+    "users": [],
+    "firstSeenAt": "2026-11-03T02:27:32.372856+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "[第9話]みことはこ - 天願真太郎 | 少年ジャンプ＋",
     "url": "https://shonenjumpplus.com/episode/9253191257689745386",
     "domain": "shonenjumpplus.com",
@@ -17,28 +31,28 @@
     "title": "AIが書く「読みづらいADR」に発狂しかけたので、ADRのガイドラインを作った",
     "url": "https://zenn.dev/tokium_dev/articles/adr-authoring-guideline",
     "domain": "zenn.dev",
-    "count": 18,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tokium_dev/articles/adr-authoring-guideline",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--_QmARghu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%258C%25E6%259B%25B8%25E3%2581%258F%25E3%2580%258C%25E8%25AA%25AD%25E3%2581%25BF%25E3%2581%25A5%25E3%2582%2589%25E3%2581%2584ADR%25E3%2580%258D%25E3%2581%25AB%25E7%2599%25BA%25E7%258B%2582%25E3%2581%2597%25E3%2581%258B%25E3%2581%2591%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E3%2580%2581ADR%25E3%2581%25AE%25E3%2582%25AC%25E3%2582%25A4%25E3%2583%2589%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%25AB%25E3%2581%2597%25E3%2581%2593%25E3%2582%258A%25E3%2581%2595%25E3%2581%25B6%25E3%2582%258D%25E3%2580%259C%2520%257C%2520TOKIUM%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzViNTEwYjI5ZjEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:TOKIUM%25E3%2583%2597%25E3%2583%25AD%25E3%2583%2580%25E3%2582%25AF%25E3%2583%2588%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%2520%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU2NThhYmMyNDguanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "みなさん、ADR（Architecture Decision Record）は書いていますでしょうか？ AIを使ったソフトウェア開発において「意思決定の記録を残す」ことの重要性は、今や多くのエンジニアに周知されているかと思います。 僕が率いるチームにおいても、プロジェクト開始初期から様々な技術的な意思決定をADRに記録し、運用してきました。最近では、ADRのドラフト作成もAIに任せるようになっています。 ところが、ADRを書くルールを整備しないままAIに書かせていると、 人間が読み返しづらいADR が次々と出てくるようになりました。「人間がじっくり目を通すべきものの代表格」とも言えるADRで…",
     "hatenaDate": "2026-11-02T13:27:31Z",
     "users": [],
     "firstSeenAt": "2026-11-03T02:00:13.845766+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "日本の全法令を git の履歴にしてみた",
     "url": "https://zenn.dev/koheiwada/articles/houritsu-japanese-laws-as-git",
     "domain": "zenn.dev",
-    "count": 28,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/koheiwada/articles/houritsu-japanese-laws-as-git",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--wF0_risC--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%2597%25A5%25E6%259C%25AC%25E3%2581%25AE%25E5%2585%25A8%25E6%25B3%2595%25E4%25BB%25A4%25E3%2582%2592%2520git%2520%25E3%2581%25AE%25E5%25B1%25A5%25E6%25AD%25B4%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kohei%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzkxMTViMzUwNTEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "私は法律のことを全然知りません。ただ、最近は AI のおかげで、知らない分野の調べものがとても速くなりました。国会会議録の API を眺めていたときに、ふと「法律を git で管理したら面白いのでは」と思いつきました。知らない分野でも、AI と一緒ならどこまでできるのか試してみたくなりました。 法律の改正は「〇〇法の一部を改正する法律」という別の法律で行われます。中身は「第三条中『A』を『B』に改める」のような書き換えの指示なので、読んでも結局どこがどう変わったのかが分かりにくいです。 これは diff だな、と思いました。法律の本文をファイルにして、改正を 1 コミットにすれば、git d…",
     "hatenaDate": "2026-11-02T05:17:38Z",
     "users": [],
     "firstSeenAt": "2026-11-03T01:30:17.102313+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,21 +66,21 @@
     "hatenaDate": "2026-11-02T12:38:17Z",
     "users": [],
     "firstSeenAt": "2026-11-03T01:30:17.102313+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "望月衣塑子記者の発言部分に複数の誤り　本人が謝罪　朝日新聞出版が対談本を販売中止、回収：東京新聞デジタル",
     "url": "https://www.tokyo-np.co.jp/article/525616",
     "domain": "www.tokyo-np.co.jp",
-    "count": 26,
+    "count": 27,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.tokyo-np.co.jp/article/525616",
     "screenshot": "https://static.tokyo-np.co.jp/tokyo-np/images/logo_ogp.png",
     "description": "望月衣塑子記者の発言部分に複数の誤り 本人が謝罪 朝日新聞出版が対談本を販売中止、回収 東京新聞（中日新聞東京本社）の望月衣塑子記者と思想家の内田樹（たつる）さんの対談をまとめた新書「常識なき世界を生き延びるために」について、望月記者の発言部分に複数の誤りがあったとして、出版元の朝日新聞出版（東京都中央区）は2日、販売を中止し、回収を始めた。 新書は9月11日に刊行された。朝日新聞出版によると、望月記者の発言部分のうち、高校生の川中だいじさんが「日本中学生新聞」を創刊した経緯などに誤りがあると、川中さん側から指摘されたという。 東京新聞編集局が望月記者に聞き取りした結果、原稿を出版前にチェッ…",
     "hatenaDate": "2026-11-02T11:20:30Z",
     "users": [],
     "firstSeenAt": "2026-11-03T01:15:13.275832+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -101,14 +115,14 @@
     "title": "[第251話]ダンダダン - 龍幸伸 | 少年ジャンプ＋",
     "url": "https://shonenjumpplus.com/episode/9253191257689745277",
     "domain": "shonenjumpplus.com",
-    "count": 14,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/shonenjumpplus.com/episode/9253191257689745277",
     "screenshot": "https://cdn-ak-img.shonenjumpplus.com/public/rppp-thumbnail_image/9253191257687312516-1b062e7aa27a6cedc427497873c933b7?1793266393",
     "description": "<ジャンプフェスタ2027 入場チケット応募受付中！3巻分無料！>※一挙公開！キャンペーン期間：11/15まで※ <毎週火曜更新！最新2話無料>TVアニメ第3期 制作決定！ 幽霊を信じないオカルトマニアの少年・高倉と、宇宙人を信じない少女・綾瀬は、互いの理解を超越した圧倒的怪奇に出会う――…！オカルティック青春物語!! [JC26巻11/4発売] ブラウザ版では、応援コメントの投稿、コメントへのいいジャン、および通報機能はご利用いただけません",
     "hatenaDate": "2026-11-02T15:00:29Z",
     "users": [],
     "firstSeenAt": "2026-11-03T01:00:15.361705+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -122,35 +136,35 @@
     "hatenaDate": "2026-11-02T12:54:17Z",
     "users": [],
     "firstSeenAt": "2026-11-03T01:00:15.361705+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "[第108話]限界OL霧切ギリ子 - ミートスパ土本 | 少年ジャンプ＋",
     "url": "https://shonenjumpplus.com/episode/9253191257689745409",
     "domain": "shonenjumpplus.com",
-    "count": 33,
+    "count": 34,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/shonenjumpplus.com/episode/9253191257689745409",
     "screenshot": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17107094914454229573-68b14ea8013106092f9e92a3cc8e357c?1791345775",
     "description": "<毎週火曜更新！最新3話無料>限界生まれ限界育ち、癖の強い奴はだいたい知り合い…。霧切ギリ子が贈る、今日をなんとか生きるライフハック――!?読めば新たな知見を得る限界群像劇。 [JC3巻発売中] ブラウザ版では、応援コメントの投稿、コメントへのいいジャン、および通報機能はご利用いただけません",
     "hatenaDate": "2026-11-02T15:00:13Z",
     "users": [],
     "firstSeenAt": "2026-11-03T00:30:25.408568+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "[57話]MAD - 大鳥雄介 | 少年ジャンプ＋",
     "url": "https://shonenjumpplus.com/episode/9253191257689745302",
     "domain": "shonenjumpplus.com",
-    "count": 20,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/shonenjumpplus.com/episode/9253191257689745302",
     "screenshot": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17106371875013423642-9e5d8bd78c3881ea0848997b6f58571e?1792121747",
     "description": "<隔週火曜更新！最新2話無料>謎の生物エイリアンの襲来で、人類のほとんどが滅んだ惑星。青年ジョンと妹は、僅かな生き残りと共に新天地を求めて移動する日々。そんな中、突如エイリアンの攻撃を受けてしまい…。 [JC8巻発売中] ブラウザ版では、応援コメントの投稿、コメントへのいいジャン、および通報機能はご利用いただけません",
     "hatenaDate": "2026-11-02T15:00:32Z",
     "users": [],
     "firstSeenAt": "2026-11-03T00:30:25.408568+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -164,7 +178,7 @@
     "hatenaDate": "2026-11-02T10:48:09Z",
     "users": [],
     "firstSeenAt": "2026-11-03T00:15:14.443902+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -192,21 +206,21 @@
     "hatenaDate": "2026-11-02T03:51:40Z",
     "users": [],
     "firstSeenAt": "2026-11-02T23:45:15.853327+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ISUCON2026 で優勝しました（当日編）",
     "url": "https://zenn.dev/luvtechno/articles/isucon2026-competition-day",
     "domain": "zenn.dev",
-    "count": 61,
+    "count": 64,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/luvtechno/articles/isucon2026-competition-day",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--GF9caNks--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ISUCON2026%2520%25E3%2581%25A7%25E5%2584%25AA%25E5%258B%259D%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%25EF%25BC%2588%25E5%25BD%2593%25E6%2597%25A5%25E7%25B7%25A8%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yoshinori%2520Kawasaki%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTEpMVlQ2WjlNQlhlcndlbDZoY1JYUDVLSjAxYWNITUdNcmUwVThZTG5EaDY4PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "こんにちは！ @kawasy です。普段は Typing Bears という人間1人の会社で個人開発・研究をしながら、スタートアップを中心に経営課題の解決を支援しています。活動の主なテーマは、ソフトウェアプロダクト開発企業に必要なCTO機能の提供と育成です。 ISUCON2026 にチーム Typing Bears として1人で参加し、最終スコア 625,857 点で優勝しました。ISUCON への参加は10年ぶりです。 今回は、完全自律で動作する、HOOTL (Human-out-of-the-loop)型のISUCON用の競技エージェントを用意して参加しました。土曜日は子供と過ごすことに…",
     "hatenaDate": "2026-11-02T13:50:45Z",
     "users": [],
     "firstSeenAt": "2026-11-02T23:30:15.653724+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -256,56 +270,56 @@
     "title": "開発者に訊きました : ゼルダの伝説 時のオカリナ｜任天堂",
     "url": "https://www.nintendo.com/jp/interview/aa9ja/index.html",
     "domain": "www.nintendo.com",
-    "count": 56,
+    "count": 57,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nintendo.com/jp/interview/aa9ja/index.html",
     "screenshot": "https://www.nintendo.com/jp/interview/aa9ja/sns.png",
     "description": "※12001年2月にゲームボーイカラー用ソフトとして発売。『大地の章』では「四季のロッド」で季節の特徴を利用して冒険し、『時空の章』では「時のたてごと」で時空を超えて謎解きをする。各章で得られるさまざまなあいことばを入力すると、2つの世界を行き来して遊べる。 ※2『ゼルダの伝説 スカイウォードソード』。2011年11月にWii用ソフトとして発売。Wiiリモコンプラス・Wiiモーションプラスを活かした直感的な操作が特長。2021年7月にNintendo Switchソフトとしてリメイク版の『ゼルダの伝説 スカイウォードソード HD』も発売。 ※3『ゼルダの伝説 ブレス オブ ザ ワイルド』。2…",
     "hatenaDate": "2026-11-02T13:01:31Z",
     "users": [],
     "firstSeenAt": "2026-11-02T22:45:15.469180+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "七分の一のサバイバー - 山田胡瓜 / 第１話　崩れていく当たり前 | コミックDAYS",
     "url": "https://comic-days.com/episode/12207421984407384715",
     "domain": "comic-days.com",
-    "count": 50,
+    "count": 51,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/comic-days.com/episode/12207421984407384715",
     "screenshot": "https://cdn-img.comic-days.com/public/series-thumbnail/12207421984405959664-4440794377856aaa9c0224bde61e0ee0?1792655625",
     "description": "「役立たず」と言われながら、なんとか必死に毎日を生活している高校生のナオヤ。彼は周りの皆ができる「当たり前」ができないことに悩んでいた。友人のつぐみにその悩みを打ち明けようと渋谷を訪れた彼は突如大きな地震に見舞われる。そしてナオヤは気づく、自分だけでなく人々の「当たり前」が崩れていることに。「首都直下型地震」に立ち向かうヒューマンドラマ×クライシス！！※この作品には地震に関する描写が登場します。",
     "hatenaDate": "2026-11-02T03:24:13Z",
     "users": [],
     "firstSeenAt": "2026-11-02T22:30:14.690352+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「私これ好き！」がよくて、「私これきらーい！」が許されないのはおかし..",
     "url": "https://anond.hatelabo.jp/20261102090005",
     "domain": "anond.hatelabo.jp",
-    "count": 98,
+    "count": 100,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261102090005",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "< anond:20261102082614 | anond:20240428005340 > 他人の創作物に対する感想として、前者はよくて後者は駄目だなんてのはそれこそ「お気持ち」でしかないだろ。 「お気持ち」を愚弄する側に限ってまさに「お気持ち」でものを言っているから笑えるよ。 これ嫌いって言ったことに対して そういうことを言うお前が嫌いって言い換えされることを受け入れられないからこんな増田書いてんじゃないの？ 受け入れられてないのはどっちだよ アンチスレとそれに対するアンチアンチの発生とかいつものことだろ ヒロアカだの呪術だので行われてきた好き嫌いの論争と、今おかしいと感じている論争に…",
     "hatenaDate": "2026-11-02T00:00:42Z",
     "users": [],
     "firstSeenAt": "2026-11-02T22:15:11.925237+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「命の砂時計」連呼のGMO会見──熊谷代表の発言にXではツッコミ続出",
     "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002828/",
     "domain": "www.itmedia.co.jp",
-    "count": 92,
+    "count": 95,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/02/2000002828/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/02/2000002828/10011193/2048",
     "description": "（1/2 ページ） グループ企業のFX自動売買用VPS「お名前.com デスクトップクラウド」に対する不正アクセスを巡り、11月2日に記者会見を開催したGMOインターネットグループ。熊谷正寿代表が連呼したフレーズ「命の砂時計」が午後6時半ごろにはXのトレンドに入るなど注目を集める一方、同氏がAI技術の将来について語る一幕などに対しては「脈絡がない」「意味不明」といった意見もあり、同社への厳しい見方が少なくない。 会見は3部構成で、熊谷氏自身も質疑の中で「謝罪会見」と呼ぶ場だった。第1部では冒頭で熊谷氏が「お客さまをお守りすることができず、誠に申し訳ありませんでした」と謝罪して頭を下げ、GMO…",
     "hatenaDate": "2026-11-02T12:05:17Z",
     "users": [],
     "firstSeenAt": "2026-11-02T22:15:11.925237+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -334,7 +348,7 @@
     "hatenaDate": "2026-11-02T08:32:15Z",
     "users": [],
     "firstSeenAt": "2026-11-02T21:45:14.598807+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -348,35 +362,35 @@
     "hatenaDate": "2026-11-01T21:36:55Z",
     "users": [],
     "firstSeenAt": "2026-11-02T21:30:21.854675+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "トランプ氏がニューメキシコ州を「ニューアメリカ州」に改称要求、共和党の州知事候補が反発…内輪もめの様相",
     "url": "https://www.yomiuri.co.jp/world/20261102-GYT1T00258/",
     "domain": "www.yomiuri.co.jp",
-    "count": 65,
+    "count": 66,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.yomiuri.co.jp/world/20261102-GYT1T00258/",
     "screenshot": "https://www.yomiuri.co.jp/media/2026/11/20261102-GYT1I00259-1.jpg?type=ogp",
     "description": "アメリカの行方を占う中間選挙。4年に一度の大統領選の間に行われ、上下両院の議員、州知事、地方議員などが一斉に決まります。 トランプ氏がニューメキシコ州を「ニューアメリカ州」に改称要求、共和党の州知事候補が反発…内輪もめの様相 米国のトランプ大統領がニューメキシコ州を「ニューアメリカ州」に改称するよう繰り返し要求し、地元で反発を招いている。３日投開票の中間選挙で行われる州知事選に出馬する共和党の候補も反対を表明し、内輪もめの様相を呈している。 州名は１６世紀のスペイン人探検家らが用いた「ヌエボ・メヒコ」（新しいメキシコ）に由来する。１７７６年の米国の独立より前から使われてきた地名だ。 トランプ…",
     "hatenaDate": "2026-11-02T09:30:41Z",
     "users": [],
     "firstSeenAt": "2026-11-02T21:15:14.197413+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "GMO熊谷代表、涙の謝罪会見でも“熊谷節”さく裂──「31年間、もうけるという言葉は使ったことがない」",
     "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002823/",
     "domain": "www.itmedia.co.jp",
-    "count": 148,
+    "count": 150,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/02/2000002823/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/02/2000002823/10011180/2048",
     "description": "（1/2 ページ） GMOインターネットグループの熊谷正寿代表は11月2日、傘下のGMOインターネットが提供するFX自動売買用VPS「お名前.com デスクトップクラウド」への不正アクセスに関する説明会で、攻撃者に身代金を支払わない理由などを語った。 説明会の第2部で話すGMOインターネットグループの熊谷正寿代表（出典：説明会のライブ配信、以下同） 説明会は3部構成で、第1部では熊谷氏らが謝罪した上で、GMOインターネットの山下浩史副社長らが被害の経緯を説明した。「熊谷節」が飛び出したのは、熊谷氏が「本件を通じて得た知見についてのご説明」と題して話した第2部だ。 なお、第2部で熊谷氏が語った…",
     "hatenaDate": "2026-11-02T09:54:02Z",
     "users": [],
     "firstSeenAt": "2026-11-02T20:45:16.563626+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -390,21 +404,21 @@
     "hatenaDate": "2026-11-02T08:28:38Z",
     "users": [],
     "firstSeenAt": "2026-11-02T20:30:15.951169+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ブラックコーヒーをわざわざ飲むのって、健康に気をつけて味のある飲み物を飲もうとなるとコーヒーしかなく、世のおじさんがコーヒーを飲んでる理由が判明した",
     "url": "https://togetter.com/li/2765834",
     "domain": "togetter.com",
-    "count": 174,
+    "count": 175,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2765834",
     "screenshot": "https://s.tgstc.com/ogp3/2fe82678fc33a933279ab9454255e07e-1200x630.jpeg",
     "description": "ブラックコーヒーわざわざ飲む人ってどんなやつだよと思ってたけど、健康に気をつけて味のある飲み物を飲もうとなったらコーヒーしかなく、世のおじさんがコーヒーを飲んでる理由が判明した 『ONE OUTS』全巻100円セール！ 本格心理戦・頭脳戦！ LIAR GAME作者の名作 @tsuchi83soccer 牛乳と混ぜるとシュウ酸がカルシウムと結合して無害化するからカフェオレを数年飲んでる @tsuchi83soccer ん〜コーヒーしかないか 水はうまいけど味ないもんね @tsuchi83soccer 砂糖入りの缶コーヒーが極端に甘い物ばかりで、気がついたらブラックしか無かった感じですね。 @t…",
     "hatenaDate": "2026-11-02T08:36:52Z",
     "users": [],
     "firstSeenAt": "2026-11-02T20:00:16.012045+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -418,21 +432,21 @@
     "hatenaDate": "2026-11-02T06:57:42Z",
     "users": [],
     "firstSeenAt": "2026-11-02T19:45:13.773999+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "GMO会見　熊谷社長、涙で「情報守れず」と痛恨の表情　「みんなを笑顔にしてから死ぬ」",
     "url": "https://www.sankei.com/article/20261102-A5RKDQM3ZRMHXAX3OYFO3RZLYI/",
     "domain": "www.sankei.com",
-    "count": 110,
+    "count": 111,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.sankei.com/article/20261102-A5RKDQM3ZRMHXAX3OYFO3RZLYI/",
     "screenshot": "https://www.sankei.com/resizer/v2/E3XUSCC4FZNPBOLFSRY2UBCNWI.jpg?auth=59e2d19f762407bc359ca21002ff56f801a33d3c7e3a23d75b55831cef8daa99&quality=50&focal=2651%2C1024&width=1200&height=675",
     "description": "GMOインターネットグループに対する不正アクセス問題で、同社の熊谷正寿社長は2日の会見で、ネット産業の老舗としてサイバーセキュリティーの向上に組織を挙げて取り組み、「お客さまの情報を守れと言い続けてきた」と涙ながらに語り、それにもかかわらず今回の事態を招いたことに痛恨の表情を浮かべた。そして「僕は命をかけて、この産業を多くの方の笑顔のツールにしてから死ぬつもりです」と語った。 また今回の不正アクセスにAI（人工知能）が悪用された可能性を念頭に「犯罪者が便利なツールを使い、みなさまの生活を、企業を社会を脅かしている」と強調。同社が攻撃者側から身代金支払いを要求されていることを踏まえ「彼らの最大…",
     "hatenaDate": "2026-11-02T08:28:13Z",
     "users": [],
     "firstSeenAt": "2026-11-02T19:15:20.078359+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -446,7 +460,7 @@
     "hatenaDate": "2026-11-02T07:54:53Z",
     "users": [],
     "firstSeenAt": "2026-11-02T19:00:13.170072+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -460,35 +474,35 @@
     "hatenaDate": "2026-11-02T07:06:02Z",
     "users": [],
     "firstSeenAt": "2026-11-02T19:00:13.170072+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "【時系列で振り返る】GMO熊谷正寿社長 会見詳報 | 毎日新聞",
     "url": "https://mainichi.jp/articles/20261102/hrc/00m/020/001000d",
     "domain": "mainichi.jp",
-    "count": 250,
+    "count": 253,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/mainichi.jp/articles/20261102/hrc/00m/020/001000d",
     "screenshot": "https://cdn.mainichi.jp/vol1/2026/11/02/20261102k0000m020171000p/0c10.jpg?2",
     "description": "GMOインターネットグループが運営する外国為替証拠金取引（FX）関連のサービスが不正アクセスを受けた問題で、同社は2日に記者会見を開き、熊谷正寿会長兼社長が謝罪しました。内容を詳報します。 熊谷社長は、2024年4月にセキュリティーの改善点を指摘されていたことについて「当時、私のところにはエスカレーション（報告）がされていなかった」と語った。【記事】 同社は、2024年4月にセキュリティー改善の必要性が指摘されながら対応が間に合わなかったことについて、「サービスの安定稼働など対応の優先順位を考える中で、対応の深さとスピードが足りなかった」と謝罪した。【記事】 熊谷社長は「被害に遭ったサーバー…",
     "hatenaDate": "2026-11-02T08:18:26Z",
     "users": [],
     "firstSeenAt": "2026-11-02T18:45:13.849241+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "生徒「政治的話題で口論」と供述　都立高1年女子、殺人未遂疑い | NEWSjp",
     "url": "https://news.jp/i/1489889395960185771",
     "domain": "news.jp",
-    "count": 174,
+    "count": 177,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.jp/i/1489889395960185771",
     "screenshot": "https://img.jp.ekkowassets.com/c_limit,w_200,h_200,f_auto,q_auto:eco/ch/units/39166665832988672/profile_7.png",
     "description": "東京都港区の都立六本木高で1年の女子生徒（16）が包丁で刺された事件で、殺人未遂容疑で現行犯逮捕された別の1年の女子生徒（16）が「政治的な話題で口論し、仲直りできなければ心中しようと思った」と供述していることが2日、捜査関係者への取材で分かった。警視庁が詳しい経緯を調べる。 捜査関係者によると、逮捕された生徒は被害生徒について、同級生で入学時から仲良くなったが、10月中旬ごろに意見の相違があったと説明。同30日、自宅から包丁2本をバッグに入れて持参し、図書室で相手に「私のことが好きか」と聞いたところ「もう好きになれない」と返答され、背を向けたところを追いかけ、刺したという。",
     "hatenaDate": "2026-11-02T08:38:34Z",
     "users": [],
     "firstSeenAt": "2026-11-02T18:30:39.155766+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -502,7 +516,7 @@
     "hatenaDate": "2026-11-02T05:14:19Z",
     "users": [],
     "firstSeenAt": "2026-11-02T18:30:39.155766+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -516,35 +530,35 @@
     "hatenaDate": "2026-11-02T08:23:01Z",
     "users": [],
     "firstSeenAt": "2026-11-02T18:15:14.195248+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "GMO熊谷代表、会見で改めて謝罪　SNS投稿巡り「配慮が欠けていた」",
     "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002806/",
     "domain": "www.itmedia.co.jp",
-    "count": 300,
+    "count": 302,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/02/2000002806/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/02/2000002806/10011168/2048",
     "description": "GMOインターネットグループの熊谷正寿代表は11月2日、傘下のGMOインターネットが提供するFX自動売買用VPS「お名前.com デスクトップクラウド」への不正アクセスを巡って記者会見を開き、「お客さまをお守りすることができず、誠に申し訳ありませんでした」と謝罪した。10月21日に不正アクセスを公表して以来、GMOインターネットグループが会見を開くのは初めて。 熊谷氏は会見の冒頭、不正アクセスで顧客の情報が流出し、顧客の資産にも被害が出たと話した。サービスのシステムにセキュリティ上の問題があったことは「事実です」と認めた。 グループ会社のGMOサイバーセキュリティ byイエラエの専門家がシス…",
     "hatenaDate": "2026-11-02T07:17:57Z",
     "users": [],
     "firstSeenAt": "2026-11-02T17:45:23.757240+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「北欧はクレカやスマホ決済ができない人を社会から排除する勢いが凄いらしい」店の多くが現金不可、現金を預けたり下ろす場所もほとんどなく凄い手数料を取られると聞いた",
     "url": "https://togetter.com/li/2765800",
     "domain": "togetter.com",
-    "count": 150,
+    "count": 151,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2765800",
     "screenshot": "https://s.tgstc.com/ogp3/0b7cbeba58cb3d454cd505b307503c8b-1200x630.jpeg",
     "description": "ヨーロッパ、特に北欧はクレカやスマホ決済出来ない人を社会から排除する勢いが凄いらしい。住んでる人が解説してたけど店の多くが現金を使えず、現金を預けたり下ろす場所もほとんどなく凄い手数料を取らられるとか。スマホ扱えない年寄りは子供にやってもらってるらしい…。 私はクレカが多いけど（楽天かーどまーん）現金持ってないと不安だよ…日本はそうならないでくれー。日本は災害多いし 何らかの事情でクレジットカードを作れない人、作らない人はクレジットカード付帯の通常のETCカードは作れない。 このためETCパーソナルカードという制度があるけれど、デポジット（保証金）が数万円と高額で、高速道路利用が少ない人には…",
     "hatenaDate": "2026-11-02T06:39:18Z",
     "users": [],
     "firstSeenAt": "2026-11-02T17:45:23.757240+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -565,14 +579,14 @@
     "title": "何者かになりたいなら打席に立ち続けなさい｜かわまた／コミュニケーションドラフト代表",
     "url": "https://note.com/r_kawamata/n/ndc82886daa87",
     "domain": "note.com",
-    "count": 88,
+    "count": 89,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/r_kawamata/n/ndc82886daa87",
     "screenshot": "https://assets.st-note.com/production/uploads/images/330187686/rectangle_large_type_2_82a4910423e7a5962d7e41523adab98b.png?fit=bounds&quality=85&width=1280",
     "description": "昨日、BPStudy#230で「AI時代のエンジニアの情報発信」というテーマで60分お話ししてきました。 今回のnoteでは、特にエンジニア個人のキャリアとして、何者かになりたいならば打席に立ち続けるべき、という話を登壇依頼などイベントをプロデュースする立場から書いていきます。 とはいえ、打席に立ち続けること自体が、以前より難しくなっていると感じています。一番の理由は、反応が減ったことです。 Northwardさんが「技術ブログはゆるやかに衰退している」という記事で、Zennの数字をまとめています。月間のLike数は、2026年3月には5万を超えていたのが、7月には3万を切ったという内容です…",
     "hatenaDate": "2026-11-02T03:00:11Z",
     "users": [],
     "firstSeenAt": "2026-11-02T17:15:20.314927+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -586,7 +600,7 @@
     "hatenaDate": "2026-11-02T06:27:09Z",
     "users": [],
     "firstSeenAt": "2026-11-02T17:15:20.314927+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -621,14 +635,14 @@
     "title": "教養のない質問ですが、美術館ってみなさん何を見ていらっしゃるんでしょう…「好きなものをひとつ買う気で」「好きなもの探し」など観点はさまざま",
     "url": "https://togetter.com/li/2765769",
     "domain": "togetter.com",
-    "count": 153,
+    "count": 154,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2765769",
     "screenshot": "https://s.tgstc.com/ogp3/c03616a08d1cab660c4f04687e1f3491-1200x630.jpeg",
     "description": "これ、めちゃくちゃリプと引用がタメになる、聞いてよかった…みなさんありがとうございます🙇‍♀️ x.com/jakuchou_com/s… @jakuchou_com 私は繰り返し行く美術館があるのですが、 「今日はどのメンツがセンターに配置されてるのかな？」という気持ちで、常設展を見るのが好きです。 美術館もひとつの建築であり、順路がありますが、それによっては「映える」立ち位置もあれば、「ちょっと人目につきにくい」位置もあります。 常設展は、美術館が保管している品々をマイナーチェンジしながら展示するので、前期、後期で作品換えや配置換えがされていて、違いを観察するとなかなか面白いですよ。 ち…",
     "hatenaDate": "2026-11-02T03:22:19Z",
     "users": [],
     "firstSeenAt": "2026-11-02T16:00:14.479980+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -727,7 +741,7 @@
     "hatenaDate": "2026-11-02T01:20:43Z",
     "users": [],
     "firstSeenAt": "2026-11-02T14:30:14.503734+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -784,7 +798,7 @@
     "hatenaDate": "2026-11-02T02:17:35Z",
     "users": [],
     "firstSeenAt": "2026-11-02T13:15:13.387711+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -798,7 +812,7 @@
     "hatenaDate": "2026-11-02T03:37:38Z",
     "users": [],
     "firstSeenAt": "2026-11-02T13:00:15.090684+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -907,14 +921,14 @@
     "title": "母がメルカリで俺の反抗期を売っている",
     "url": "https://anond.hatelabo.jp/20261101114822",
     "domain": "anond.hatelabo.jp",
-    "count": 952,
+    "count": 956,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261101114822",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "鎖について説明すると、当時の俺は財布を盗まれるほど金を持っていなかったし、財布を盗まれるような場所にも行かなかった。 家と中学校とイオンを移動するうえで、財布が人体から分離する事態を異常に警戒していた。 金属の突起がびっしりついているやつだ。ズボンを保持するための道具に、あれほどの攻撃力は必要ない。俺はあのころ、腰に接近してくる何かと戦っていた。 むしろ信仰を経由せず、十字架だけ直接取り入れていた。キリスト教側から見ても迷惑な客だったと思う。 事実だが、その暗所は俺の判断で作られた。母が勝手に掘り返して明るみに出している。 俺が十数年かけて距離を取った品々に、母は晴れた日に自然光を当て、前後…",
     "hatenaDate": "2026-11-02T02:00:52Z",
     "users": [],
     "firstSeenAt": "2026-11-02T12:15:13.681555+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -942,7 +956,7 @@
     "hatenaDate": "2026-10-31T10:47:34Z",
     "users": [],
     "firstSeenAt": "2026-11-02T12:00:17.459431+09:00",
-    "lastSeenAt": "2026-11-03T02:15:16.680774+09:00",
+    "lastSeenAt": "2026-11-03T02:27:32.372856+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4221,20 +4235,6 @@
     "users": [],
     "firstSeenAt": "2026-10-31T08:30:14.525120+09:00",
     "lastSeenAt": "2026-10-31T12:30:17.412756+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "無印良品、「MUJIアプリ」で個人情報漏えい　2726万件",
-    "url": "https://www.watch.impress.co.jp/docs/news/2152778.html",
-    "domain": "www.watch.impress.co.jp",
-    "count": 29,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2152778.html",
-    "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2152/778/muji1.jpg",
-    "description": "「無印良品」を運営する良品計画は30日、公式アプリ「MUJIアプリ」において、利用者の情報の一部が外部に流出した可能性があると発表した。件数は最大約2,726万件。 外部流出の可能性がある情報は、メールアドレス、生年月日、性別の3点。クレジットカード情報、氏名、住所、電話番号などは含まれない。なお、対象件数には退会者の情報も含まれるという。 同社では、外部からの不正なアクセスを検知し、該当箇所へのアクセスの遮断と修正の適用を行なった。現時点では、ダークウェブ等への利用者情報の流出や情報を悪用した被害は確認されていないという。 今後、情報が漏えいした可能性のある利用者には順次連絡。また、情報を…",
-    "hatenaDate": "2026-10-30T10:11:07Z",
-    "users": [],
-    "firstSeenAt": "2026-10-31T08:30:14.525120+09:00",
-    "lastSeenAt": "2026-10-31T10:15:13.937361+09:00",
     "descriptionSource": "body"
   }
 ]
