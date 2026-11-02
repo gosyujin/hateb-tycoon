@@ -1,30 +1,44 @@
 [
   {
+    "title": "インタプリタとコンパイラを作ったが、本当に欲しいインタプリタを作れてない話 - rokujyouhitoma's blog",
+    "url": "https://rokujyouhitoma.hatenablog.com/entry/2026/11/01/190546",
+    "domain": "rokujyouhitoma.hatenablog.com",
+    "count": 6,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/rokujyouhitoma.hatenablog.com/entry/2026/11/01/190546",
+    "screenshot": "https://ogimage.blog.st-hatena.com/12704591929884060267/14729835035332175490/1793532556",
+    "description": "先日、自作プログラミング言語を自慢する会 に参加しました。非常に熱気のある刺激的なイベントで大変楽しかったです。 その登壇者の id:gfx さんがブログ（「自作プログラミング言語を自慢する会」でWadoを自慢した！ - Islands in the byte stream）を書いており、触発されて私も書いてみます。 いま私は、とあるインタプリタ（インタプリタA）とセルフホストAOTコンパイラを作り終えたところなのですが、実は「本当に作りたかったインタプリタ（インタプリタB）」にはまだ手が届いていません。 この記事では、そこに至るまでの実装の経緯と、見えてきた課題などをつらつらと書き起こしま…",
+    "hatenaDate": "2026-11-01T10:06:25Z",
+    "users": [],
+    "firstSeenAt": "2026-11-02T16:45:14.286361+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "「今は個人PCに大量のメモリを使うべきでない」OpenAI CEOアルトマン氏が指摘",
     "url": "https://pc.watch.impress.co.jp/docs/news/2153092.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 4,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2153092.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2153/092/01.jpg",
     "description": "世界のDRAMが限られている状況で、個人のPCにメモリを大量に搭載するというのはよくないことだ――OpenAI CEOのSam Altman氏が、10月29日に公開されたインタビュー動画の中で考えを語った。Stripe共同創業者のJohn Collison氏がホストを務める番組「Cheeky Pint」にて、ゲストのAltman氏が発言したものだ。 この中でAltman氏は、DRAMやGPUなどの価格が高騰している状況について、いわゆる「見えざる手」がうまく機能していないと指摘。DRAM業界には好況と不況の波があり、設備投資と利益が噛み合わないなど長期的に良好なビジネスとはいえなかったとした…",
     "hatenaDate": "2026-11-02T06:27:09Z",
     "users": [],
     "firstSeenAt": "2026-11-02T16:39:45.882618+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "メール配信サービス「アララ」700万通超の不審メール確認 | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261102de69506",
     "domain": "news.web.nhk",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261102de69506",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261102de69506/20261102de69506_E0000003476_1_l.jpg",
     "description": "企業向けにメール配信サービスなどを提供している「アララ」は、先月受けた不正アクセスの影響で、会社のサービスが何者かに悪用され、クレジットカード会社を装った不審なメールが、最大およそ713万通送信された…",
     "hatenaDate": "2026-11-02T05:44:39Z",
     "users": [],
     "firstSeenAt": "2026-11-02T16:30:14.177115+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -32,14 +46,14 @@
     "title": "アットコスメ、会員約300万人分の情報漏えい　不正アクセスで",
     "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002795/",
     "domain": "www.itmedia.co.jp",
-    "count": 5,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/02/2000002795/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/02/2000002795/10011152/2048",
     "description": "化粧品総合サイト「@cosme」を運営するアイスタイルは11月2日、@cosmeへの第三者による不正アクセスにより、「@cosme共通ID」に登録された会員情報の一部・約300万人分が漏えいしたと発表した。 漏えいした情報は、名前（漢字・カナ）、郵便番号、住所、電話番号、メールアドレス、ユーザーID（自動発番）、性別、生年月日、ニックネーム、肌質、髪質。 10月28日に漏えいを確認した。不正アクセスがあった日時や手口は明らかにしていないが、退会済みでも不正アクセス時点で会員だった人は対象になるという。 第三者のセキュリティ専門会社と原因と影響範囲を調べている。調査結果を踏まえ、再発防止策を検…",
     "hatenaDate": "2026-11-02T06:34:08Z",
     "users": [],
     "firstSeenAt": "2026-11-02T16:30:14.177115+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -81,21 +95,21 @@
     "hatenaDate": "2026-11-02T05:27:38Z",
     "users": [],
     "firstSeenAt": "2026-11-02T15:45:13.207319+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Ameba Owndサービス終了のお知らせ",
     "url": "https://blog.amebaownd.com/posts/59351287/",
     "domain": "blog.amebaownd.com",
-    "count": 28,
+    "count": 30,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.amebaownd.com/posts/59351287/",
     "screenshot": "https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/15/7aab681fe93f195a18e39e56bb357b1f_f90e7ededa05954f8406f3fd5d178229.jpg",
     "description": "この度、Ameba Owndは2026年12月24日（木）11:00をもちまして、サービスを終了させていただくこととなりました。 2015年のサービス開始以来、多くの皆さまにサイトの制作・運営や情報発信の場としてご利用いただきましたことを、心より御礼申し上げます。 Ameba Owndでは、かねてよりサービスの今後について検討を重ねてまいりました。 今回の事象を受けて改めて検討した結果、今後も皆さまの大切なデータを長期にわたり安全にお守りしながらサービスを提供し続けることは難しいと判断し、サービスを終了するという決断に至りました。 なお、2026年10月22日（木）より緊急メンテナンスを実施…",
     "hatenaDate": "2026-11-02T05:52:07Z",
     "users": [],
     "firstSeenAt": "2026-11-02T15:30:12.870794+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -111,21 +125,21 @@
     "hatenaDate": "2026-11-02T05:26:53Z",
     "users": [],
     "firstSeenAt": "2026-11-02T15:00:13.243528+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "指紋認証＆暗号化対応のUSBメモリを分解したら中身は暗号化されていない普通のSDカードだったことが判明",
     "url": "https://gigazine.net/news/20261102-lenovo-fingerprint-usb-not-encrypted/",
     "domain": "gigazine.net",
-    "count": 17,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261102-lenovo-fingerprint-usb-not-encrypted/",
     "screenshot": "https://i.gzn.jp/img/2026/11/02/lenovo-fingerprint-usb-not-encrypted/00.png",
     "description": "指紋認証と強力な暗号化機能を備えるとして販売されていたLenovoのUSBメモリをセキュリティ研究者が分解したところ、内部のSDカードにデータが暗号化されずに保存されていたことが判明しました。 breaking_encrypted_USB_drives_with_TTD/Breaking_Encrypted_USB_Drives_v2.pdf at main · xusheng6/breaking_encrypted_U...",
     "hatenaDate": "2026-11-02T03:36:35Z",
     "users": [],
     "firstSeenAt": "2026-11-02T14:30:14.503734+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -154,7 +168,7 @@
     "hatenaDate": "2026-11-02T01:20:43Z",
     "users": [],
     "firstSeenAt": "2026-11-02T14:00:14.983162+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -163,14 +177,14 @@
     "title": "ネット通信量1GB当たりに約10円課税する法案がフランス議会で可決、GoogleやMetaなどの大手IT企業が対象だがフランス政府は反対",
     "url": "https://gigazine.net/news/20261102-france-gigabyte-tax/",
     "domain": "gigazine.net",
-    "count": 26,
+    "count": 27,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261102-france-gigabyte-tax/",
     "screenshot": "https://i.gzn.jp/img/2026/11/02/france-gigabyte-tax/00_m.jpg",
     "description": "フランス国民議会は2026年10月30日、インターネットのデータ通信量に応じてコンテンツ事業者に課税する修正案を可決しました。GoogleやMeta、Netflixなどの大手IT企業を主な対象とし、通信量1GB当たり0.055ユーロ(約9.7円)を課税することで、年間100億ユーロ(約1兆7600億円)の税収を見込んでいます。 Projet de loi de f...",
     "hatenaDate": "2026-11-02T03:15:58Z",
     "users": [],
     "firstSeenAt": "2026-11-02T13:45:14.268447+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -185,7 +199,7 @@
     "hatenaDate": "2026-11-02T02:53:53Z",
     "users": [],
     "firstSeenAt": "2026-11-02T13:30:13.411102+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -199,7 +213,7 @@
     "hatenaDate": "2026-11-02T03:37:23Z",
     "users": [],
     "firstSeenAt": "2026-11-02T13:30:13.411102+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -227,7 +241,7 @@
     "hatenaDate": "2026-11-02T00:04:36Z",
     "users": [],
     "firstSeenAt": "2026-11-02T13:15:13.387711+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -241,7 +255,7 @@
     "hatenaDate": "2026-11-02T01:50:24Z",
     "users": [],
     "firstSeenAt": "2026-11-02T13:00:15.090684+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -256,7 +270,7 @@
     "hatenaDate": "2026-11-01T23:48:13Z",
     "users": [],
     "firstSeenAt": "2026-11-02T13:00:15.090684+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -308,14 +322,14 @@
     "title": "「ChatGPT」の「Chat」と「Work」タブを統合へ、12月からは「Codex」と利用枠も共通に／まず少数のユーザーでテスト",
     "url": "https://forest.watch.impress.co.jp/docs/news/2152966.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 43,
+    "count": 44,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2152966.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2152/966/openai.jpg",
     "description": "「ChatGPT」の「Chat」と「Work」タブを統合へ、12月からは「Codex」と利用枠も共通に 米OpenAIは11月2日（日本時間）、「ChatGPT」アプリの「Chat」タブと「Work」タブを1つにまとめるテストを今後数週間のうちに開始すると、サブスクリプションユーザーに宛てたメールで明らかにした。まずは少数のユーザーを対象とし、参加者の意見をもとに改善したうえで、提供範囲を広げるとしている。 OpenAI、「ChatGPT ワーク」を発表 ～デスクトップアプリも「Codex」を統合して刷新【7月15日追記】 「ChatGPT」の2つのタブが統合されれば、アイデアの検討は「Ch…",
     "hatenaDate": "2026-11-02T01:51:40Z",
     "users": [],
     "firstSeenAt": "2026-11-02T12:30:14.255796+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -331,7 +345,7 @@
     "hatenaDate": "2026-11-01T23:25:29Z",
     "users": [],
     "firstSeenAt": "2026-11-02T12:15:13.681555+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -347,7 +361,7 @@
     "hatenaDate": "2026-11-01T23:08:50Z",
     "users": [],
     "firstSeenAt": "2026-11-02T12:15:13.681555+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -363,7 +377,7 @@
     "hatenaDate": "2026-11-02T00:26:47Z",
     "users": [],
     "firstSeenAt": "2026-11-02T12:15:13.681555+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -384,14 +398,14 @@
     "title": "ロゴ画像用の公開領域に顧客ファイルも保存　GMO系シングルサインオン、4.5万人分漏えい",
     "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002780/",
     "domain": "www.itmedia.co.jp",
-    "count": 133,
+    "count": 134,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/02/2000002780/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/02/2000002780/10011114/2048",
     "description": "顧客情報を含む一時ファイルなどを、ロゴ画像と同じ公開領域に保存する設計になっていたことで、約9年間にわたり外部から取得できる状態だったことが原因。 今後は、ロゴ画像など公開が必要なものは配信専用の仕組みを通して提供し、決められた種類のファイルしか置けないようにする他、外部専門機関による診断範囲を広げるといった再発防止策を採る。 発覚のきっかけは、9月14日、脆弱性報告制度を通じて、外部のセキュリティ研究者から報告を受けたこと。外部からのファイル取得は、同日夜中から翌日夕方までにすべて遮断した。 原因は、2017年11月14日ごろ、ロゴ画像の配信負荷への対策として、ストレージをロゴ配信用の公開…",
     "hatenaDate": "2026-11-02T01:59:35Z",
     "users": [],
     "firstSeenAt": "2026-11-02T12:00:17.459431+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -405,7 +419,7 @@
     "hatenaDate": "2026-11-02T00:07:51Z",
     "users": [],
     "firstSeenAt": "2026-11-02T11:45:14.450571+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -427,14 +441,14 @@
     "title": "クラウドが状態を把握してもIaCがなくならない理由 - YAMAGUCHI::weblog",
     "url": "https://ymotongpoo.hatenablog.com/entry/2026/11/02/093500",
     "domain": "ymotongpoo.hatenablog.com",
-    "count": 91,
+    "count": 92,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ymotongpoo.hatenablog.com/entry/2026/11/02/093500",
     "screenshot": "https://ogimage.blog.st-hatena.com/13208692334729888336/14729835035332058284/1793579700",
     "description": "こんにちは、Grafana Labsでデベロッパーアドボケイトをしているものです。 2026年10月31日、元同僚のJames Ward*1が、Xで「IaC is dead」と投稿しました。AIがあれば、インフラの構成をコードで管理するIaC*2は不要になるという主張で、最後には共著書の宣伝が添えられていました。私は思わず「Such a poor promotion of your book」と返信しました。Jamesは、Kubernetesの源流であるBorgを運用してきたGoogleに在籍していたことがあり、現在はAWSに在籍しています。両社のインフラが状態の把握と宣言的な制御の積み重ね…",
     "hatenaDate": "2026-11-02T01:05:51Z",
     "users": [],
     "firstSeenAt": "2026-11-02T10:30:15.717300+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -448,7 +462,7 @@
     "hatenaDate": "2026-11-01T14:35:35Z",
     "users": [],
     "firstSeenAt": "2026-11-02T10:15:15.262488+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -462,7 +476,7 @@
     "hatenaDate": "2026-11-01T21:49:13Z",
     "users": [],
     "firstSeenAt": "2026-11-02T10:15:15.262488+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -478,7 +492,7 @@
     "hatenaDate": "2026-11-01T21:25:56Z",
     "users": [],
     "firstSeenAt": "2026-11-02T09:45:15.839037+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -492,7 +506,7 @@
     "hatenaDate": "2026-11-01T12:16:28Z",
     "users": [],
     "firstSeenAt": "2026-11-02T08:15:12.912868+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -506,7 +520,7 @@
     "hatenaDate": "2026-11-01T16:58:30Z",
     "users": [],
     "firstSeenAt": "2026-11-02T07:45:13.553488+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -520,7 +534,7 @@
     "hatenaDate": "2026-11-01T21:24:27Z",
     "users": [],
     "firstSeenAt": "2026-11-02T07:30:14.842397+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -534,7 +548,7 @@
     "hatenaDate": "2026-11-01T14:17:37Z",
     "users": [],
     "firstSeenAt": "2026-11-02T06:00:15.659751+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -665,7 +679,7 @@
     "hatenaDate": "2026-11-01T12:12:05Z",
     "users": [],
     "firstSeenAt": "2026-11-01T23:00:13.767118+09:00",
-    "lastSeenAt": "2026-11-02T16:39:45.882618+09:00",
+    "lastSeenAt": "2026-11-02T16:45:14.286361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4377,20 +4391,6 @@
     "users": [],
     "firstSeenAt": "2026-10-29T18:15:14.213672+09:00",
     "lastSeenAt": "2026-10-30T01:15:15.016182+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "Microsoft、C#でWindowsアプリのUIを構築する「Reactor」公開　XAML不要",
-    "url": "https://news.mynavi.jp/techplus/article/20261028-5198301/",
-    "domain": "news.mynavi.jp",
-    "count": 16,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/news.mynavi.jp/techplus/article/20261028-5198301/",
-    "screenshot": "https://news.mynavi.jp/techplus/article/20261028-5198301/ogp_images/ogp.jpg",
-    "description": "Microsoftは10月21日(現地時間)、WindowsアプリのUIをC#で構築できる実験的な技術「Microsoft.UI.Reactor」を開発者向けブログ「WinUI Reactor: A New Approach to User Interfaces - #ifdef Windows」において公開した。 Reactorは、既存のWinUIを基盤としながら、XAMLを使用せずに画面を構築できる仕組みだ。Microsoftは、ReactorがWinUIを置き換えるものではなく、XAMLについても非推奨とせず、継続的に投資する方針を明らかにしている。 Windows Latestは20…",
-    "hatenaDate": "2026-10-28T12:17:35Z",
-    "users": [],
-    "firstSeenAt": "2026-10-29T18:15:14.213672+09:00",
-    "lastSeenAt": "2026-10-29T21:45:15.135398+09:00",
     "descriptionSource": "body"
   }
 ]
