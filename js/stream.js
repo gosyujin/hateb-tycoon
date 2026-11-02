@@ -546,8 +546,8 @@
       if (isTail()) scrollToEdge();
       setStatus('読み込み中…');
       load(true).then(() => {
-        // リロード直後はブラウザのスクロール復元が後から効くことがあるので、読み込みが済んだ時点でも下端へ寄せる
-        if (isTail() && running && window.scrollY < FOLLOW_MARGIN_PX) scrollToEdge();
+        // リロード直後はブラウザのスクロール復元が途中の位置へ戻すことがあるので、読み込みが済んだ時点でも下端へ寄せる
+        if (isTail() && running) scrollToEdge();
         scheduleTick();
         schedulePoll();
         scheduleCommentRefresh();

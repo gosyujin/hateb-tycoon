@@ -1569,6 +1569,17 @@ a.btn {
 /* ---- ストリームのtailモード: `tail -f` のログのように、新しい行を下に足していく ----
    DOMは新しいものが先頭のまま、column-reverseで見た目だけ新しいものを下にする(js/stream.js)。
    端末風なのでライト/ダークに関わらず暗い配色で固定する。 */
+/* tailの間はヘッダー・フッター・余白も含めた画面全体を、一覧と同じ背景色に揃える
+   (一覧だけ暗く、周りが明るいままだと浮いて見えるため。配色の変数を差し替えて、設定画面などもそれに合わせる) */
+:root:has(#view-stream:not([hidden]) .stream-list--tail) {
+  --color-bg: #0d1117;
+  --color-surface: #0d1117;
+  --color-border: #30363d;
+  --color-text: #c9d1d9;
+  --color-muted: #7d8590;
+  --color-accent-dark: #79c0ff;
+  color-scheme: dark;
+}
 .stream-list--tail {
   --tail-fg: #c9d1d9;
   --tail-dim: #7d8590;
@@ -1579,10 +1590,8 @@ a.btn {
   flex-direction: column-reverse;
   gap: 0;
   min-height: 50vh;
-  padding: 10px 12px;
-  background: #0d1117;
-  border: 1px solid #30363d;
-  border-radius: var(--radius);
+  /* 下は、フッター直上に重ねるビルド情報・次回更新の表示(.app-footer。約24px+隙間6px)に最新行が掛からない分 */
+  padding: 10px 0 44px;
   color: var(--tail-fg);
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.78rem;
