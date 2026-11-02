@@ -10,7 +10,7 @@
     "hatenaDate": "2026-11-02T12:16:56Z",
     "users": [],
     "firstSeenAt": "2026-11-03T02:15:16.680774+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +24,7 @@
     "hatenaDate": "2026-11-02T11:31:57Z",
     "users": [],
     "firstSeenAt": "2026-11-03T02:00:13.845766+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +38,7 @@
     "hatenaDate": "2026-11-02T04:03:27Z",
     "users": [],
     "firstSeenAt": "2026-11-03T01:30:17.102313+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +66,7 @@
     "hatenaDate": "2026-08-28T10:54:03Z",
     "users": [],
     "firstSeenAt": "2026-11-03T00:45:18.679495+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body"
   },
   {
@@ -80,7 +80,7 @@
     "hatenaDate": "2026-11-02T13:27:31Z",
     "users": [],
     "firstSeenAt": "2026-11-03T00:15:14.443902+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -96,21 +96,21 @@
     "hatenaDate": "2026-11-02T14:21:08Z",
     "users": [],
     "firstSeenAt": "2026-11-03T00:15:14.443902+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "日本の全法令を git の履歴にしてみた",
     "url": "https://zenn.dev/koheiwada/articles/houritsu-japanese-laws-as-git",
     "domain": "zenn.dev",
-    "count": 34,
+    "count": 37,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/koheiwada/articles/houritsu-japanese-laws-as-git",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--wF0_risC--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%2597%25A5%25E6%259C%25AC%25E3%2581%25AE%25E5%2585%25A8%25E6%25B3%2595%25E4%25BB%25A4%25E3%2582%2592%2520git%2520%25E3%2581%25AE%25E5%25B1%25A5%25E6%25AD%25B4%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kohei%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzkxMTViMzUwNTEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "私は法律のことを全然知りません。ただ、最近は AI のおかげで、知らない分野の調べものがとても速くなりました。国会会議録の API を眺めていたときに、ふと「法律を git で管理したら面白いのでは」と思いつきました。知らない分野でも、AI と一緒ならどこまでできるのか試してみたくなりました。 法律の改正は「〇〇法の一部を改正する法律」という別の法律で行われます。中身は「第三条中『A』を『B』に改める」のような書き換えの指示なので、読んでも結局どこがどう変わったのかが分かりにくいです。 これは diff だな、と思いました。法律の本文をファイルにして、改正を 1 コミットにすれば、git d…",
     "hatenaDate": "2026-11-02T05:17:38Z",
     "users": [],
     "firstSeenAt": "2026-11-02T23:45:15.853327+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -119,14 +119,14 @@
     "title": "ISUCON2026 で優勝しました（当日編）",
     "url": "https://zenn.dev/luvtechno/articles/isucon2026-competition-day",
     "domain": "zenn.dev",
-    "count": 67,
+    "count": 68,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/luvtechno/articles/isucon2026-competition-day",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--GF9caNks--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ISUCON2026%2520%25E3%2581%25A7%25E5%2584%25AA%25E5%258B%259D%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%25EF%25BC%2588%25E5%25BD%2593%25E6%2597%25A5%25E7%25B7%25A8%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yoshinori%2520Kawasaki%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTEpMVlQ2WjlNQlhlcndlbDZoY1JYUDVLSjAxYWNITUdNcmUwVThZTG5EaDY4PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "こんにちは！ @kawasy です。普段は Typing Bears という人間1人の会社で個人開発・研究をしながら、スタートアップを中心に経営課題の解決を支援しています。活動の主なテーマは、ソフトウェアプロダクト開発企業に必要なCTO機能の提供と育成です。 ISUCON2026 にチーム Typing Bears として1人で参加し、最終スコア 625,857 点で優勝しました。ISUCON への参加は10年ぶりです。 今回は、完全自律で動作する、HOOTL (Human-out-of-the-loop)型のISUCON用の競技エージェントを用意して参加しました。土曜日は子供と過ごすことに…",
     "hatenaDate": "2026-11-02T13:50:45Z",
     "users": [],
     "firstSeenAt": "2026-11-02T23:15:19.444955+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -142,7 +142,7 @@
     "hatenaDate": "2026-11-02T11:33:42Z",
     "users": [],
     "firstSeenAt": "2026-11-02T23:15:19.444955+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body"
   },
   {
@@ -156,7 +156,7 @@
     "hatenaDate": "2026-11-02T12:55:14Z",
     "users": [],
     "firstSeenAt": "2026-11-02T23:00:14.018174+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -164,14 +164,14 @@
     "title": "Hacker Newsで言及された1万5000冊超の書籍をランキングにした「Hacker Books」トップ10、テクノロジー愛好家が好きな本とは？",
     "url": "https://gigazine.net/news/20261102-hackerbooks-mentioned-books-hacker-news/",
     "domain": "gigazine.net",
-    "count": 23,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261102-hackerbooks-mentioned-books-hacker-news/",
     "screenshot": "https://i.gzn.jp/img/2026/11/02/hackerbooks-mentioned-books-hacker-news/00.jpg",
     "description": "Hacker Newsはスタートアップ企業への投資を行うYコンビネータが運営するソーシャルニュースサイトで、主にテクノロジーやスタートアップを中心にさまざまなトピックが議論されています。そんなHacker Newsで言及された1万5000冊超の書籍を集計し、言及したユーザー数やオススメしたユーザー数のランキングが見られるウ...",
     "hatenaDate": "2026-11-02T13:16:42Z",
     "users": [],
     "firstSeenAt": "2026-11-02T23:00:14.018174+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -186,7 +186,7 @@
     "hatenaDate": "2026-11-02T10:03:58Z",
     "users": [],
     "firstSeenAt": "2026-11-02T23:00:14.018174+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body"
   },
   {
@@ -200,7 +200,7 @@
     "hatenaDate": "2026-11-02T11:45:08Z",
     "users": [],
     "firstSeenAt": "2026-11-02T22:45:15.469180+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body"
   },
   {
@@ -214,7 +214,7 @@
     "hatenaDate": "2026-11-02T07:14:15Z",
     "users": [],
     "firstSeenAt": "2026-11-02T22:45:15.469180+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body"
   },
   {
@@ -228,7 +228,7 @@
     "hatenaDate": "2026-11-02T06:45:23Z",
     "users": [],
     "firstSeenAt": "2026-11-02T22:45:15.469180+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body"
   },
   {
@@ -242,7 +242,7 @@
     "hatenaDate": "2026-10-30T06:04:37Z",
     "users": [],
     "firstSeenAt": "2026-11-02T22:30:14.690352+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body"
   },
   {
@@ -271,7 +271,7 @@
     "hatenaDate": "2026-11-02T11:35:58Z",
     "users": [],
     "firstSeenAt": "2026-11-02T21:45:14.598807+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "bodyStatus": "skip",
     "bodyReason": "no-text"
   },
@@ -293,14 +293,14 @@
     "title": "「命の砂時計」連呼のGMO会見──熊谷代表の発言にXではツッコミ続出",
     "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002828/",
     "domain": "www.itmedia.co.jp",
-    "count": 98,
+    "count": 99,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/02/2000002828/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/02/2000002828/10011193/2048",
     "description": "（1/2 ページ） グループ企業のFX自動売買用VPS「お名前.com デスクトップクラウド」に対する不正アクセスを巡り、11月2日に記者会見を開催したGMOインターネットグループ。熊谷正寿代表が連呼したフレーズ「命の砂時計」が午後6時半ごろにはXのトレンドに入るなど注目を集める一方、同氏がAI技術の将来について語る一幕などに対しては「脈絡がない」「意味不明」といった意見もあり、同社への厳しい見方が少なくない。 会見は3部構成で、熊谷氏自身も質疑の中で「謝罪会見」と呼ぶ場だった。第1部では冒頭で熊谷氏が「お客さまをお守りすることができず、誠に申し訳ありませんでした」と謝罪して頭を下げ、GMO…",
     "hatenaDate": "2026-11-02T12:05:17Z",
     "users": [],
     "firstSeenAt": "2026-11-02T21:45:14.598807+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -361,7 +361,7 @@
     "hatenaDate": "2026-11-02T10:29:45Z",
     "users": [],
     "firstSeenAt": "2026-11-02T21:00:13.176421+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -442,14 +442,14 @@
     "title": "GMO熊谷代表、涙の謝罪会見でも“熊谷節”さく裂──「31年間、もうけるという言葉は使ったことがない」",
     "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002823/",
     "domain": "www.itmedia.co.jp",
-    "count": 152,
+    "count": 153,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/02/2000002823/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/02/2000002823/10011180/2048",
     "description": "（1/2 ページ） GMOインターネットグループの熊谷正寿代表は11月2日、傘下のGMOインターネットが提供するFX自動売買用VPS「お名前.com デスクトップクラウド」への不正アクセスに関する説明会で、攻撃者に身代金を支払わない理由などを語った。 説明会の第2部で話すGMOインターネットグループの熊谷正寿代表（出典：説明会のライブ配信、以下同） 説明会は3部構成で、第1部では熊谷氏らが謝罪した上で、GMOインターネットの山下浩史副社長らが被害の経緯を説明した。「熊谷節」が飛び出したのは、熊谷氏が「本件を通じて得た知見についてのご説明」と題して話した第2部だ。 なお、第2部で熊谷氏が語った…",
     "hatenaDate": "2026-11-02T09:54:02Z",
     "users": [],
     "firstSeenAt": "2026-11-02T19:45:13.773999+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -487,14 +487,14 @@
     "title": "写真1枚から“裏側まで”3D化するAI「Idol」無償公開、VRAM10GBでも動く",
     "url": "https://pc.watch.impress.co.jp/docs/news/2153055.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 76,
+    "count": 77,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2153055.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2153/055/01.png",
     "description": "手元の写真1枚が、写っていない裏側まで備えた3Dモデルに変わる。Speridlabsは10月30日(日本時間)、画像1枚から3Dオブジェクトを生成するAIモデル「Idol」を発表した。オープンウェイト(モデルの重み)はApache License 2.0のもとHugging Faceで無償公開され、商用利用も認められる。消費するVRAMは最大7.2GBで、GeForce RTX 3080(10GB)のようなコンシューマ向けGPUでも動く。 Idolは、物体が写った1枚の画像から、立体を大量の色付きの点で表現する「3Dガウシアンスプラッティング(3DGS)」形式のデータを生成するAIモデルだ。…",
     "hatenaDate": "2026-11-02T06:29:57Z",
     "users": [],
     "firstSeenAt": "2026-11-02T19:45:13.773999+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -540,7 +540,7 @@
     "hatenaDate": "2026-11-02T08:28:13Z",
     "users": [],
     "firstSeenAt": "2026-11-02T19:00:13.170072+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -592,14 +592,14 @@
     "title": "ドコモの5G基地局は他社の半分以下、5G化率18.5％で最下位　総務省調査",
     "url": "https://k-tai.watch.impress.co.jp/docs/news/2153051.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 164,
+    "count": 165,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2153051.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2153/051/sub.jpg",
     "description": "総務省は10月30日、2026年3月末時点の携帯電話サービスやBWAの電波利用状況の調査結果を公表した。調査では、携帯電話事業者各社およびBWA事業者の計7社に割り当てられた周波数のほか、携帯電話事業者が全国に展開する基地局数などが明らかにされた。 同省の調査によると、NTTドコモの4Gと5Gを合わせた基地局数は31万8380局。5G基地局は5万8979局だった。同じくKDDIは、4G＋5G基地局数は35万1819局、5G基地局数は13万1042局。ソフトバンクの4Gと5G基地局数は34万7441局、5G基地局数は12万564局。楽天モバイルの4Gと5G基地局数は10万8841局、5G基地局…",
     "hatenaDate": "2026-11-02T05:14:19Z",
     "users": [],
     "firstSeenAt": "2026-11-02T18:00:13.045009+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -608,14 +608,14 @@
     "title": "【時系列で振り返る】GMO熊谷正寿社長 会見詳報 | 毎日新聞",
     "url": "https://mainichi.jp/articles/20261102/hrc/00m/020/001000d",
     "domain": "mainichi.jp",
-    "count": 257,
+    "count": 259,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/mainichi.jp/articles/20261102/hrc/00m/020/001000d",
     "screenshot": "https://cdn.mainichi.jp/vol1/2026/11/02/20261102k0000m020171000p/0c10.jpg?2",
     "description": "GMOインターネットグループが運営する外国為替証拠金取引（FX）関連のサービスが不正アクセスを受けた問題で、同社は2日に記者会見を開き、熊谷正寿会長兼社長が謝罪しました。内容を詳報します。 熊谷社長は、2024年4月にセキュリティーの改善点を指摘されていたことについて「当時、私のところにはエスカレーション（報告）がされていなかった」と語った。【記事】 同社は、2024年4月にセキュリティー改善の必要性が指摘されながら対応が間に合わなかったことについて、「サービスの安定稼働など対応の優先順位を考える中で、対応の深さとスピードが足りなかった」と謝罪した。【記事】 熊谷社長は「被害に遭ったサーバー…",
     "hatenaDate": "2026-11-02T08:18:26Z",
     "users": [],
     "firstSeenAt": "2026-11-02T18:00:13.045009+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -652,14 +652,14 @@
     "title": "GMO熊谷代表、会見で改めて謝罪　SNS投稿巡り「配慮が欠けていた」",
     "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002806/",
     "domain": "www.itmedia.co.jp",
-    "count": 305,
+    "count": 307,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/02/2000002806/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/02/2000002806/10011168/2048",
     "description": "GMOインターネットグループの熊谷正寿代表は11月2日、傘下のGMOインターネットが提供するFX自動売買用VPS「お名前.com デスクトップクラウド」への不正アクセスを巡って記者会見を開き、「お客さまをお守りすることができず、誠に申し訳ありませんでした」と謝罪した。10月21日に不正アクセスを公表して以来、GMOインターネットグループが会見を開くのは初めて。 熊谷氏は会見の冒頭、不正アクセスで顧客の情報が流出し、顧客の資産にも被害が出たと話した。サービスのシステムにセキュリティ上の問題があったことは「事実です」と認めた。 グループ会社のGMOサイバーセキュリティ byイエラエの専門家がシス…",
     "hatenaDate": "2026-11-02T07:17:57Z",
     "users": [],
     "firstSeenAt": "2026-11-02T17:00:19.648942+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -689,7 +689,7 @@
     "hatenaDate": "2026-11-02T06:27:09Z",
     "users": [],
     "firstSeenAt": "2026-11-02T16:39:45.882618+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -762,7 +762,7 @@
     "hatenaDate": "2026-11-02T05:27:38Z",
     "users": [],
     "firstSeenAt": "2026-11-02T15:45:13.207319+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -778,7 +778,7 @@
     "hatenaDate": "2026-11-02T05:52:07Z",
     "users": [],
     "firstSeenAt": "2026-11-02T15:30:12.870794+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -830,14 +830,14 @@
     "title": "サービスレベル設計として捉える非機能の考え方 | フューチャー技術ブログ",
     "url": "https://future-architect.github.io/articles/20261102a/",
     "domain": "future-architect.github.io",
-    "count": 117,
+    "count": 118,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/future-architect.github.io/articles/20261102a/",
     "screenshot": "https://future-architect.github.io/images/2026/20261102a/top.png",
     "description": "前回の 非機能はなぜ必要なのか の続編です。前回は社内の非機能要件ガイドラインを読んで感じた違和感をエッセイとして書きましたが、今回はその考え方を、実務で使える形に整理し直したものです。 本記事は、非機能を「システム開発者の目線」ではなく「事業者（サービス提供者）の目線」で捉え直し、考え方の軸を整理するものです。 扱うこと: 非機能とは何か、何のために決めるのか、どの順番で誰が決めるのか、何をもって保証とするのか 扱わないこと: 個々の品質特性の設計手法、テスト技法の詳細、フレームワーク（IPA 非機能要求グレード等）の項目解説 前提: 提案やグラウンドデザイン（GD）などの上流検討で、大枠…",
     "hatenaDate": "2026-11-02T01:20:43Z",
     "users": [],
     "firstSeenAt": "2026-11-02T14:00:14.983162+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1074,7 +1074,7 @@
     "hatenaDate": "2026-11-02T01:59:35Z",
     "users": [],
     "firstSeenAt": "2026-11-02T12:00:17.459431+09:00",
-    "lastSeenAt": "2026-11-03T03:15:13.964010+09:00",
+    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
     "descriptionSource": "body"
   },
   {
