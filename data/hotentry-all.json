@@ -1,16 +1,30 @@
 [
   {
+    "title": "[17話]ドーロ☆スター - 原克玄 | 少年ジャンプ＋",
+    "url": "https://shonenjumpplus.com/episode/9253191257689745467",
+    "domain": "shonenjumpplus.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/shonenjumpplus.com/episode/9253191257689745467",
+    "screenshot": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17107094914615374316-d1b15db045c3b56a122b527c71412940?1792422009",
+    "description": "<隔週火曜更新！最新3話無料>全ての車を乗りこなす事ができる“超絶免許”を手にいれる為、まきびし自動車教習所に通い出した一星。幻の車“カウンタッ君”に乗る為、地獄の教習所生活が始まる!? 『るみちゃんの事象』などで知られる原克玄先生、渾身の自動車教習所ギャグ開幕!! [JC1巻発売中] ブラウザ版では、応援コメントの投稿、コメントへのいいジャン、および通報機能はご利用いただけません",
+    "hatenaDate": "2026-11-02T15:19:25Z",
+    "users": [],
+    "firstSeenAt": "2026-11-03T03:45:16.400405+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "小学校で給食費などの督促怠り5400万円不足　校長ら私費で補てん：朝日新聞",
     "url": "https://www.asahi.com/articles/ASVC244FYVC2OXIE046M.html",
     "domain": "www.asahi.com",
-    "count": 17,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVC244FYVC2OXIE046M.html",
     "screenshot": "https://imgopt.asahi.com/ogp/AS20261102004452_comm.jpg",
     "description": "京都府木津川市教育委員会は2日、市立小学校に勤務していた元事務職員が給食費などの学校徴収金の督促を怠り、2012年度からの総計で約5400万円の資金不足が生じたと発表した。うち約3700万円分は、校長と元事務職員が市教委に報告せず、私費で補塡（ほてん）していた。市教委は「不適正な処理で管理監督責任があった」として、校長に残額の支払いを求めている。 同校は毎月、保護者から給食費や教材費などを口座引き落としで徴収している。市教委によると、元事務職員は12年度から同校に勤務し、25年3月に退職。約2千万円を補塡していた。校長は約1700万円を補塡していた。今年6月に発覚したという。 市教委によると…",
     "hatenaDate": "2026-11-02T14:47:39Z",
     "users": [],
     "firstSeenAt": "2026-11-03T02:45:13.169614+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +38,7 @@
     "hatenaDate": "2026-11-02T12:53:28Z",
     "users": [],
     "firstSeenAt": "2026-11-03T02:27:32.372856+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -45,28 +59,28 @@
     "title": "AIが書く「読みづらいADR」に発狂しかけたので、ADRのガイドラインを作った",
     "url": "https://zenn.dev/tokium_dev/articles/adr-authoring-guideline",
     "domain": "zenn.dev",
-    "count": 25,
+    "count": 27,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tokium_dev/articles/adr-authoring-guideline",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--_QmARghu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%258C%25E6%259B%25B8%25E3%2581%258F%25E3%2580%258C%25E8%25AA%25AD%25E3%2581%25BF%25E3%2581%25A5%25E3%2582%2589%25E3%2581%2584ADR%25E3%2580%258D%25E3%2581%25AB%25E7%2599%25BA%25E7%258B%2582%25E3%2581%2597%25E3%2581%258B%25E3%2581%2591%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E3%2580%2581ADR%25E3%2581%25AE%25E3%2582%25AC%25E3%2582%25A4%25E3%2583%2589%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%25AB%25E3%2581%2597%25E3%2581%2593%25E3%2582%258A%25E3%2581%2595%25E3%2581%25B6%25E3%2582%258D%25E3%2580%259C%2520%257C%2520TOKIUM%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzViNTEwYjI5ZjEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:TOKIUM%25E3%2583%2597%25E3%2583%25AD%25E3%2583%2580%25E3%2582%25AF%25E3%2583%2588%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%2520%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU2NThhYmMyNDguanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "みなさん、ADR（Architecture Decision Record）は書いていますでしょうか？ AIを使ったソフトウェア開発において「意思決定の記録を残す」ことの重要性は、今や多くのエンジニアに周知されているかと思います。 僕が率いるチームにおいても、プロジェクト開始初期から様々な技術的な意思決定をADRに記録し、運用してきました。最近では、ADRのドラフト作成もAIに任せるようになっています。 ところが、ADRを書くルールを整備しないままAIに書かせていると、 人間が読み返しづらいADR が次々と出てくるようになりました。「人間がじっくり目を通すべきものの代表格」とも言えるADRで…",
     "hatenaDate": "2026-11-02T13:27:31Z",
     "users": [],
     "firstSeenAt": "2026-11-03T02:00:13.845766+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "日本の全法令を git の履歴にしてみた",
     "url": "https://zenn.dev/koheiwada/articles/houritsu-japanese-laws-as-git",
     "domain": "zenn.dev",
-    "count": 37,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/koheiwada/articles/houritsu-japanese-laws-as-git",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--wF0_risC--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%2597%25A5%25E6%259C%25AC%25E3%2581%25AE%25E5%2585%25A8%25E6%25B3%2595%25E4%25BB%25A4%25E3%2582%2592%2520git%2520%25E3%2581%25AE%25E5%25B1%25A5%25E6%25AD%25B4%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kohei%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzkxMTViMzUwNTEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "私は法律のことを全然知りません。ただ、最近は AI のおかげで、知らない分野の調べものがとても速くなりました。国会会議録の API を眺めていたときに、ふと「法律を git で管理したら面白いのでは」と思いつきました。知らない分野でも、AI と一緒ならどこまでできるのか試してみたくなりました。 法律の改正は「〇〇法の一部を改正する法律」という別の法律で行われます。中身は「第三条中『A』を『B』に改める」のような書き換えの指示なので、読んでも結局どこがどう変わったのかが分かりにくいです。 これは diff だな、と思いました。法律の本文をファイルにして、改正を 1 コミットにすれば、git d…",
     "hatenaDate": "2026-11-02T05:17:38Z",
     "users": [],
     "firstSeenAt": "2026-11-03T01:30:17.102313+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -80,7 +94,7 @@
     "hatenaDate": "2026-11-02T12:38:17Z",
     "users": [],
     "firstSeenAt": "2026-11-03T01:30:17.102313+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -94,7 +108,7 @@
     "hatenaDate": "2026-11-02T11:20:30Z",
     "users": [],
     "firstSeenAt": "2026-11-03T01:15:13.275832+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -136,21 +150,21 @@
     "hatenaDate": "2026-11-02T15:00:29Z",
     "users": [],
     "firstSeenAt": "2026-11-03T01:00:15.361705+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "『ゼルダの伝説 時のオカリナ』Googleの検索画面でオリジナル版が発売された1998年に飛べる仕掛けが展開中。あまりにも懐かしい画面がお出迎え | ゲーム・エンタメ最新情報のファミ通.com",
     "url": "https://www.famitsu.com/article/202611/92878",
     "domain": "www.famitsu.com",
-    "count": 20,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.famitsu.com/article/202611/92878",
     "screenshot": "https://cimg.kgl-systems.io/camion/files/92878/thumbnail_RRLy.png?x=1280",
     "description": "PCブラウザのGoogleにて、2026年11月5日予定となっているNintendo Switch 2版『ゼルダの伝説 時のオカリナ』にちなんだ仕掛けが展開中。 “ゼルダの伝説”や“時のオカリナ”といったキーワードで検索すると検索画面にマスターソードが出現し、クリックすることで検索画面が『ゼルダの伝説 時のオカリナ』発売当時の1998年風に変化するというギミックだ。 『ゼルダの伝説 時のオカリナ』では、時の神殿にあるマスターソードを引き抜くことで子ども時代から大人時代へ、逆にマスターソードを台座に戻すことで大人時代から子ども時代に変化し、異なるふたつの時代を冒険することができる。 今回のギミ…",
     "hatenaDate": "2026-11-02T12:54:17Z",
     "users": [],
     "firstSeenAt": "2026-11-03T01:00:15.361705+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -164,7 +178,7 @@
     "hatenaDate": "2026-11-02T15:00:13Z",
     "users": [],
     "firstSeenAt": "2026-11-03T00:30:25.408568+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -178,7 +192,7 @@
     "hatenaDate": "2026-11-02T15:00:32Z",
     "users": [],
     "firstSeenAt": "2026-11-03T00:30:25.408568+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -192,7 +206,7 @@
     "hatenaDate": "2026-11-02T10:48:09Z",
     "users": [],
     "firstSeenAt": "2026-11-03T00:15:14.443902+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -227,14 +241,14 @@
     "title": "ISUCON2026 で優勝しました（当日編）",
     "url": "https://zenn.dev/luvtechno/articles/isucon2026-competition-day",
     "domain": "zenn.dev",
-    "count": 69,
+    "count": 70,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/luvtechno/articles/isucon2026-competition-day",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--GF9caNks--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ISUCON2026%2520%25E3%2581%25A7%25E5%2584%25AA%25E5%258B%259D%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%25EF%25BC%2588%25E5%25BD%2593%25E6%2597%25A5%25E7%25B7%25A8%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yoshinori%2520Kawasaki%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTEpMVlQ2WjlNQlhlcndlbDZoY1JYUDVLSjAxYWNITUdNcmUwVThZTG5EaDY4PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "こんにちは！ @kawasy です。普段は Typing Bears という人間1人の会社で個人開発・研究をしながら、スタートアップを中心に経営課題の解決を支援しています。活動の主なテーマは、ソフトウェアプロダクト開発企業に必要なCTO機能の提供と育成です。 ISUCON2026 にチーム Typing Bears として1人で参加し、最終スコア 625,857 点で優勝しました。ISUCON への参加は10年ぶりです。 今回は、完全自律で動作する、HOOTL (Human-out-of-the-loop)型のISUCON用の競技エージェントを用意して参加しました。土曜日は子供と過ごすことに…",
     "hatenaDate": "2026-11-02T13:50:45Z",
     "users": [],
     "firstSeenAt": "2026-11-02T23:30:15.653724+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -277,7 +291,7 @@
     "hatenaDate": "2026-11-02T06:29:57Z",
     "users": [],
     "firstSeenAt": "2026-11-02T23:00:14.018174+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -291,7 +305,7 @@
     "hatenaDate": "2026-11-02T13:01:31Z",
     "users": [],
     "firstSeenAt": "2026-11-02T22:45:15.469180+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -305,7 +319,7 @@
     "hatenaDate": "2026-11-02T03:24:13Z",
     "users": [],
     "firstSeenAt": "2026-11-02T22:30:14.690352+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -319,7 +333,7 @@
     "hatenaDate": "2026-11-02T00:00:42Z",
     "users": [],
     "firstSeenAt": "2026-11-02T22:15:11.925237+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -333,7 +347,7 @@
     "hatenaDate": "2026-11-02T12:05:17Z",
     "users": [],
     "firstSeenAt": "2026-11-02T22:15:11.925237+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -362,7 +376,7 @@
     "hatenaDate": "2026-11-02T08:32:15Z",
     "users": [],
     "firstSeenAt": "2026-11-02T21:45:14.598807+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -376,7 +390,7 @@
     "hatenaDate": "2026-11-01T21:36:55Z",
     "users": [],
     "firstSeenAt": "2026-11-02T21:30:21.854675+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -390,7 +404,7 @@
     "hatenaDate": "2026-11-02T09:30:41Z",
     "users": [],
     "firstSeenAt": "2026-11-02T21:15:14.197413+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -404,7 +418,7 @@
     "hatenaDate": "2026-11-02T09:54:02Z",
     "users": [],
     "firstSeenAt": "2026-11-02T20:45:16.563626+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -418,7 +432,7 @@
     "hatenaDate": "2026-11-02T08:28:38Z",
     "users": [],
     "firstSeenAt": "2026-11-02T20:30:15.951169+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -432,7 +446,7 @@
     "hatenaDate": "2026-11-02T08:36:52Z",
     "users": [],
     "firstSeenAt": "2026-11-02T20:00:16.012045+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -446,7 +460,7 @@
     "hatenaDate": "2026-11-02T06:57:42Z",
     "users": [],
     "firstSeenAt": "2026-11-02T19:45:13.773999+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -460,21 +474,21 @@
     "hatenaDate": "2026-11-02T08:28:13Z",
     "users": [],
     "firstSeenAt": "2026-11-02T19:15:20.078359+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "【東大学長選】文科省「経緯を検証して」→東大「15人中14人が承認しました」→文科相「その理由を聞いてんねん」",
     "url": "https://posfie.com/@cashewNutsUmai/p/TVABEDw",
     "domain": "posfie.com",
-    "count": 123,
+    "count": 124,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@cashewNutsUmai/p/TVABEDw",
     "screenshot": "https://s.tgstc.com/ogp3/11615367e2047a9acc6cbc0930bad24a-1200x630.jpeg",
     "description": "9月28日、東京大学の総長選考・監察会議は、教職員による意向投票で2位だった藤垣裕子教授を次期総長に選出。10月20日には文部科学省が、東大の監事と運営方針会議に選考経緯の検証を文書で依頼した。 【次期東大総長は藤垣裕子教授へ 意向投票第2位】 東大の総長選考・監察会議は、9月28日午後、藤垣裕子教授（大学院総合文化研究科、前理事・副学長）を次期総長予定者に選出しました。女性初の東大総長になります。意向投票では染谷執行役・副学長が2回目の投票で過半数を獲得していました。 todaishimbun.org/president_2026… 学内投票で過半数を得た候補を退け、その半分の票だった藤垣…",
     "hatenaDate": "2026-11-02T07:54:53Z",
     "users": [],
     "firstSeenAt": "2026-11-02T19:00:13.170072+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -488,7 +502,7 @@
     "hatenaDate": "2026-11-02T07:06:02Z",
     "users": [],
     "firstSeenAt": "2026-11-02T19:00:13.170072+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -502,7 +516,7 @@
     "hatenaDate": "2026-11-02T08:18:26Z",
     "users": [],
     "firstSeenAt": "2026-11-02T18:45:13.849241+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -516,35 +530,35 @@
     "hatenaDate": "2026-11-02T08:38:34Z",
     "users": [],
     "firstSeenAt": "2026-11-02T18:30:39.155766+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ドコモの5G基地局は他社の半分以下、5G化率18.5％で最下位　総務省調査",
     "url": "https://k-tai.watch.impress.co.jp/docs/news/2153051.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 166,
+    "count": 167,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2153051.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2153/051/sub.jpg",
     "description": "総務省は10月30日、2026年3月末時点の携帯電話サービスやBWAの電波利用状況の調査結果を公表した。調査では、携帯電話事業者各社およびBWA事業者の計7社に割り当てられた周波数のほか、携帯電話事業者が全国に展開する基地局数などが明らかにされた。 同省の調査によると、NTTドコモの4Gと5Gを合わせた基地局数は31万8380局。5G基地局は5万8979局だった。同じくKDDIは、4G＋5G基地局数は35万1819局、5G基地局数は13万1042局。ソフトバンクの4Gと5G基地局数は34万7441局、5G基地局数は12万564局。楽天モバイルの4Gと5G基地局数は10万8841局、5G基地局…",
     "hatenaDate": "2026-11-02T05:14:19Z",
     "users": [],
     "firstSeenAt": "2026-11-02T18:30:39.155766+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "近況と雑感｜くるり official",
     "url": "https://note.com/quruli/n/n35d2b6cdc37a",
     "domain": "note.com",
-    "count": 158,
+    "count": 159,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/quruli/n/n35d2b6cdc37a",
     "screenshot": "https://assets.st-note.com/production/uploads/images/329914329/rectangle_large_type_2_1d9a3c7a21daae46ca080edbf320a41f.jpg?fit=bounds&quality=85&width=1280",
     "description": "リハーサルで彼女のホルンの音色に一聴惚れし、終演後に「良い音だねぇ」と声を掛けたことを覚えています。 コロナ禍のさなか、『潮風のアリア』という曲を書きました。どうしてもホルン・アンサンブルが欲しくなり、彼女に連絡を取りました。楽曲の風景を決定づける、素晴らしい演奏をしてくれました。 誠実で努力家、寡黙な彼女とは、当初多くを語り合ったわけではありません。一緒に仕事をするなかで、その演奏技術はもちろんですが、音楽への向き合い方、考え方に共感することが多く、信頼できる音楽家として演奏機会を共にすることがありました。 その後も、くるりのレコーディングや劇伴制作に参加してもらい、近年は私が作ったスコア…",
     "hatenaDate": "2026-11-02T08:23:01Z",
     "users": [],
     "firstSeenAt": "2026-11-02T18:15:14.195248+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -558,7 +572,7 @@
     "hatenaDate": "2026-11-02T07:17:57Z",
     "users": [],
     "firstSeenAt": "2026-11-02T17:45:23.757240+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -572,7 +586,7 @@
     "hatenaDate": "2026-11-02T06:39:18Z",
     "users": [],
     "firstSeenAt": "2026-11-02T17:45:23.757240+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -600,7 +614,7 @@
     "hatenaDate": "2026-11-02T03:00:11Z",
     "users": [],
     "firstSeenAt": "2026-11-02T17:15:20.314927+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -614,7 +628,7 @@
     "hatenaDate": "2026-11-02T06:27:09Z",
     "users": [],
     "firstSeenAt": "2026-11-02T17:15:20.314927+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -656,7 +670,7 @@
     "hatenaDate": "2026-11-02T03:22:19Z",
     "users": [],
     "firstSeenAt": "2026-11-02T16:00:14.479980+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -826,7 +840,7 @@
     "hatenaDate": "2026-11-02T03:37:38Z",
     "users": [],
     "firstSeenAt": "2026-11-02T13:00:15.090684+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -942,7 +956,7 @@
     "hatenaDate": "2026-11-02T02:00:52Z",
     "users": [],
     "firstSeenAt": "2026-11-02T12:15:13.681555+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -970,7 +984,7 @@
     "hatenaDate": "2026-10-31T10:47:34Z",
     "users": [],
     "firstSeenAt": "2026-11-02T12:00:17.459431+09:00",
-    "lastSeenAt": "2026-11-03T03:30:15.367980+09:00",
+    "lastSeenAt": "2026-11-03T03:45:16.400405+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4219,21 +4233,6 @@
     "users": [],
     "firstSeenAt": "2026-10-31T08:45:13.838572+09:00",
     "lastSeenAt": "2026-10-31T14:15:12.598735+09:00",
-    "bodyStatus": "skip",
-    "bodyReason": "not-longer"
-  },
-  {
-    "title": "ちばてつやはいつも外れた人たちの寂しさを優しく見つめていた。：ロマン優光連載415",
-    "url": "https://bunkaonline.jp/archives/9253",
-    "domain": "bunkaonline.jp",
-    "count": 112,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/bunkaonline.jp/archives/9253",
-    "screenshot": "https://bunkaonline.jp/wp-content/uploads/2026/10/61dsRxJe4L._SL1000_.jpg",
-    "description": "415回　ちばてつやはいつも外れた人たちの寂しさを優しく見つめていた。 『ひねもすのたり日記』は未完となってしまった。 いや、ちばてつやが漫画を描ける間はずっと続くであろう作品だったわけだから、未完というのは少し違うかもしれない。 何であれ新しい話を読むことはもうできないのだ。 ちば作品には親族からうと...",
-    "hatenaDate": "2026-10-30T14:01:45Z",
-    "users": [],
-    "firstSeenAt": "2026-10-31T08:30:14.525120+09:00",
-    "lastSeenAt": "2026-10-31T20:45:13.097956+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   }
