@@ -440,6 +440,7 @@
       meView.hidden = true;
       footerSearch.placeholder = STREAM_SEARCH_PLACEHOLDER;
       updateCommentLayoutToggleUI();
+      applyStreamTail();
       stream.start(params.get('cat') || currentCategory);
     } else if (path === '/me') {
       listView.hidden = true;
@@ -999,6 +1000,7 @@
   }
 
   function renderStreamItem(item) {
+    if (streamTail) return renderStreamItemTail(item);
     const params = new URLSearchParams();
     params.set('url', item.url);
     const href = `#/entry?${params.toString()}`;
@@ -1028,9 +1030,36 @@
       </li>`;
   }
 
+  // tailモード: `tail -f` のログのように、1記事を「時刻 ドメイン タイトル (N users)」の1行(折り返しあり)で出し、
+  // 概要は薄い1行、コメントはその下に1コメント1行で出す。見た目はcss(.stream-item--tail)側。
+  // 概要が取れなかった旨はログのノイズになるので出さない。
+  function renderStreamItemTail(item) {
+    const params = new URLSearchParams();
+    params.set('url', item.url);
+    const href = `#/entry?${params.toString()}`;
+    const time = item.hatenaDate ? hatenaDateTime(item.hatenaDate) : '';
+    const d = descriptionOrMissing(item);
+    const desc = d.missing ? '' : `<p class="stream-desc">${escapeHtml(d.text)}</p>`;
+    return `
+      <li class="stream-item stream-item--tail" data-url="${escapeHtml(item.url)}">
+        <div class="stream-line">
+          <span class="stream-time">${escapeHtml(time)}</span>
+          <button type="button" class="card-domain stream-domain" data-domain="${escapeHtml(item.domain)}" data-url="${escapeHtml(item.url)}">${escapeHtml(item.domain)}</button>
+          <a class="stream-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
+          <a class="card-count-link${countTierClass(item.count)}" href="${href}">${item.count} users →</a>
+          <button type="button" class="card-close-btn stream-close" data-url="${escapeHtml(item.url)}" title="このページを非表示にする" aria-label="このページを非表示にする">×</button>
+        </div>
+        ${desc}
+        <ul class="comment-list stream-comments"></ul>
+      </li>`;
+  }
+
   // stars: richの時だけ取得するスター数(無ければ表示しない)。既読・新着の装飾は記事ページ側の仕組みなのでここでは使わない。
   function renderStreamComment(b, stars) {
     const user = `<button type="button" class="comment-user" data-user="${escapeHtml(b.user)}">${escapeHtml(b.user)}</button>`;
+    if (streamTail) {
+      return `<li><span class="comment-date">${escapeHtml(b.timestamp)}</span> ${user} ${linkifyComment(b.comment)}</li>`;
+    }
     if (commentLayout === 'rich') {
       const starBadge = stars ? ` <span class="comment-stars" title="はてなスター">⭐️${stars}</span>` : '';
       return `<li class="comment--rich">
@@ -1114,7 +1143,8 @@
       return { comments, eid: info.eid };
     },
     fetchStars: (eid, comments) => HatenaAPI.getStarCounts(eid, comments),
-    isRich: () => commentLayout === 'rich',
+    isRich: () => !streamTail && commentLayout === 'rich',
+    isTail: () => streamTail,
     fetchEntries: (category) => HatenaAPI.getHotEntries(category),
     fetchNextUpdateAt,
     isHidden: (item) => Filters.isHidden(item),
@@ -1168,6 +1198,10 @@
   // 描画し直すだけにする。
   const COMMENT_LAYOUT_KEY = 'hateb-tycoon:commentLayout';
   let commentLayout = loadCommentLayout();
+  // ストリームだけにあるtailモード。記事ページ・自分のブックマークと共有するcommentLayout(plain/rich)とは別に持つ
+  // (そちらにtailは無いため)。tailの間はストリームの切替でrich/plainのどちらも選択状態にしない。
+  const STREAM_TAIL_KEY = 'hateb-tycoon:streamTail';
+  let streamTail = loadStreamTail();
   let currentComments = [];
   // ミュート等のフィルタ適用後・検索絞り込み適用前のコメント一覧と、
   // ステータス表示の再構築に必要な情報を保持する(検索欄の入力のたびに
@@ -1222,6 +1256,22 @@
     }
   }
 
+  function loadStreamTail() {
+    try {
+      return localStorage.getItem(STREAM_TAIL_KEY) === '1';
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function saveStreamTail(on) {
+    try {
+      localStorage.setItem(STREAM_TAIL_KEY, on ? '1' : '0');
+    } catch (e) {
+      // localStorageが使えない環境では記憶をあきらめる
+    }
+  }
+
   function saveCommentLayout(mode) {
     try {
       localStorage.setItem(COMMENT_LAYOUT_KEY, mode);
@@ -1231,11 +1281,18 @@
   }
 
   function updateCommentLayoutToggleUI() {
-    [commentLayoutToggle, meLayoutToggle, streamLayoutToggle].forEach((toggle) => {
+    [commentLayoutToggle, meLayoutToggle].forEach((toggle) => {
       toggle.querySelectorAll('button[data-layout]').forEach((btn) => {
         btn.classList.toggle('active', btn.dataset.layout === commentLayout);
       });
     });
+    streamLayoutToggle.querySelectorAll('button[data-layout]').forEach((btn) => {
+      btn.classList.toggle('active', streamTail ? btn.dataset.layout === 'tail' : btn.dataset.layout === commentLayout);
+    });
+  }
+
+  function applyStreamTail() {
+    streamList.classList.toggle('stream-list--tail', streamTail);
   }
 
   // richレイアウトの時だけ、表示中のコメントのスター数を(未取得なら)取得して描画し直す。
@@ -1706,10 +1763,17 @@
 
   streamLayoutToggle.addEventListener('click', (e) => {
     const btn = e.target.closest('button[data-layout]');
-    if (!btn || btn.dataset.layout === commentLayout) return;
-    commentLayout = btn.dataset.layout;
-    saveCommentLayout(commentLayout);
+    if (!btn) return;
+    const tail = btn.dataset.layout === 'tail';
+    if (tail === streamTail && (tail || btn.dataset.layout === commentLayout)) return;
+    streamTail = tail;
+    saveStreamTail(streamTail);
+    if (!tail) {
+      commentLayout = btn.dataset.layout;
+      saveCommentLayout(commentLayout);
+    }
     updateCommentLayoutToggleUI();
+    applyStreamTail();
     stream.rerender();
   });
 

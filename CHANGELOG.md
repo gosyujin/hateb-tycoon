@@ -2,6 +2,10 @@
 
 1エントリ1〜3行。バージョン番号は採番しておらず、日付とコミットhashで管理する(新しい順)。調査・判断に経緯があるものは [docs/decisions/](docs/decisions/) にあり、該当エントリからリンクする。自動コミット「Update hotentry data」は除く。
 
+## 2026-11-02
+
+- Added: ストリームにtailモード(rich/plainに並ぶ3つ目の表示)を追加。`tail -f`のログのように新しい行が下に付き、下端に張り付いて追従する端末風表示。詳細は[docs/features.md](docs/features.md)のストリーム表示。
+
 ## 2026-11-01
 
 - Changed: `scripts/hatena-oauth-setup.mjs`が、トークンの持ち主を確認したあと(`y`の時だけ)Workerのsecret登録と`wrangler deploy`まで行うようにした(以前は登録コマンドを表示するだけで手動だった。値は標準入力で渡す)。手順は[docs/decisions/bookmark-post-via-worker.md](docs/decisions/bookmark-post-via-worker.md)。未確認: 実際のはてな認可とwrangler実行

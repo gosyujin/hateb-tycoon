@@ -1565,3 +1565,141 @@ a.btn {
     display: inline;
   }
 }
+
+/* ---- ストリームのtailモード: `tail -f` のログのように、新しい行を下に足していく ----
+   DOMは新しいものが先頭のまま、column-reverseで見た目だけ新しいものを下にする(js/stream.js)。
+   端末風なのでライト/ダークに関わらず暗い配色で固定する。 */
+.stream-list--tail {
+  --tail-fg: #c9d1d9;
+  --tail-dim: #7d8590;
+  --tail-time: #6e9bd1;
+  --tail-domain: #7ee787;
+  --tail-user: #d2a8ff;
+  --tail-link: #79c0ff;
+  flex-direction: column-reverse;
+  gap: 0;
+  min-height: 50vh;
+  padding: 10px 12px;
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: var(--radius);
+  color: var(--tail-fg);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  line-height: 1.55;
+}
+.stream-list--tail > .stream-item {
+  display: block;
+  padding: 2px 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  animation: none;
+}
+.stream-list--tail > .stream-item:first-child {
+  background: none; /* 最新を淡い青にする装飾はtailでは使わない */
+}
+.stream-item--tail .stream-line {
+  overflow-wrap: anywhere;
+}
+.stream-item--tail .stream-line > * {
+  display: inline;
+  margin: 0;
+}
+.stream-item--tail .stream-time {
+  color: var(--tail-time);
+}
+.stream-item--tail .card-domain.stream-domain {
+  max-width: none;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: var(--tail-domain);
+  white-space: normal;
+  cursor: pointer;
+}
+.stream-item--tail .card-domain.stream-domain::before {
+  content: '[';
+}
+.stream-item--tail .card-domain.stream-domain::after {
+  content: ']';
+}
+.stream-item--tail .stream-title {
+  font-weight: 400;
+  color: var(--tail-fg);
+}
+.stream-item--tail .card-count-link {
+  font: inherit;
+  color: var(--tail-link);
+  background: none;
+  border: none;
+  padding: 0;
+}
+.stream-item--tail .card-close-btn.stream-close {
+  width: auto;
+  height: auto;
+  padding: 0 2px;
+  border: none;
+  background: none;
+  font: inherit;
+  line-height: inherit;
+  color: var(--tail-dim);
+  cursor: pointer;
+}
+.stream-item--tail .stream-desc {
+  margin: 0;
+  padding-left: 2ch;
+  font-size: inherit;
+  line-height: inherit;
+  color: var(--tail-dim);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* コメントも新しいものが下に付くよう、記事の中でも向きを逆にする(最後=古い側の「他N件」が一番上に来る) */
+.stream-item--tail .stream-comments {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0;
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+.stream-item--tail .stream-comments:empty {
+  display: none;
+}
+.stream-item--tail .stream-comments > li {
+  padding: 0 0 0 2ch;
+  border: none;
+  overflow-wrap: anywhere;
+  color: var(--tail-fg);
+}
+.stream-item--tail .stream-comments > li::before {
+  content: '│ ';
+  color: var(--tail-dim);
+}
+.stream-item--tail .comment-date {
+  color: var(--tail-dim);
+}
+.stream-item--tail .comment-user {
+  font-weight: 400;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: var(--tail-user);
+  cursor: pointer;
+}
+.stream-item--tail .comment-user::before {
+  content: '@';
+}
+.stream-item--tail .stream-comments-more {
+  color: var(--tail-dim);
+}
+.stream-item--tail a {
+  color: var(--tail-link);
+}
+.stream-item--tail a.stream-title {
+  color: var(--tail-fg);
+}

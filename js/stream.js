@@ -20,6 +20,9 @@
  *   時は前回の続きから表示する(保存に失敗しても、いちから流すだけで動作は変わらない)。
  * - richレイアウト(app.jsのcommentLayout)の時だけ、コメントごとのはてなスター数を取得して足す
  *   (plainのままなら通信しない)。レイアウトを切り替えた時は rerender() で並べ直す(再取得はしない)。
+ * - tailモード(app.jsのstreamTail)の時は `tail -f` のログのように、新しい行を下に足して下端に張り付く。
+ *   DOMの順序は変えず(新しいものが先頭)、cssのcolumn-reverseで見た目だけ新しいものを下にする。
+ *   スクロールの追従・補正は上端の代わりに下端を基準にする(tailなら描画はplain相当で、スターも取らない)。
  * - 表示している間は画面をスリープさせない(Screen Wake Lock。非対応の環境では何もしない)。
  */
 (function (global) {
@@ -115,7 +118,7 @@
   }
 
   function create(opts) {
-    const { list, statusEl, pauseBtn, intervalSelect, renderItem, renderComment, fetchComments, fetchStars, isRich, fetchEntries, fetchNextUpdateAt, isHidden } = opts;
+    const { list, statusEl, pauseBtn, intervalSelect, renderItem, renderComment, fetchComments, fetchStars, isRich, isTail, fetchEntries, fetchNextUpdateAt, isHidden } = opts;
 
     let category = null;
     let running = false;
@@ -232,18 +235,31 @@
       wakeLock = null;
     }
 
-    // containerの先頭にhtmlを挿入する。挿入位置が画面の上端より上にある時は、押し下げられた分だけ
+    // 下端に張り付く(tailモード)ための判定と移動
+    function nearBottom() {
+      return document.documentElement.scrollHeight - (window.scrollY + window.innerHeight) < FOLLOW_MARGIN_PX;
+    }
+
+    function scrollToEdge() {
+      window.scrollTo(0, isTail() ? document.documentElement.scrollHeight : 0);
+    }
+
+    // containerの先頭(DOM上)にhtmlを挿入する。挿入位置が画面の上端より上にある時は、押し下げられた分だけ
     // スクロール位置を補正して、読んでいる場所が動かないようにする(ブラウザ任せのscroll anchoringは
     // Safariに無いので使わず、css側でoverflow-anchor:noneにして自前で補正する)。
     // pinToTop が真で先頭付近を見ている時は、補正せず先頭へ戻して新着を見せる。
+    // tailモードは新しいものが画面の下に出るので、コメントの追加も含めて下端付近なら下端へ張り付き、
+    // そうでなければ(上端より上への挿入だけ)補正する。
     // 挿入位置の判定は呼び出し側から渡す(中身が空のコメント欄はdisplay:noneで位置が取れないため)。
     function prependHtml(container, html, pinToTop, above) {
-      const nearTop = window.scrollY < FOLLOW_MARGIN_PX;
+      const tail = isTail();
+      const near = tail ? nearBottom() : window.scrollY < FOLLOW_MARGIN_PX;
+      const pin = tail || pinToTop;
       const before = document.documentElement.scrollHeight;
       container.insertAdjacentHTML('afterbegin', html);
-      if (pinToTop && nearTop) window.scrollTo(0, 0);
+      if (pin && near) scrollToEdge();
       else if (above) window.scrollBy(0, document.documentElement.scrollHeight - before);
-      return pinToTop && nearTop;
+      return pin && near;
     }
 
     // 状態表示は1行に収めるため、はみ出す分は省略記号にし、全文はtitleで見られるようにする
@@ -348,8 +364,10 @@
       // 省略した古い分の件数は、新しい順の一番下に出す
       const more = omitted > 0 ? `<li class="stream-comments-more">他 ${omitted} 件のコメント</li>` : '';
       const ul = el.querySelector('.stream-comments');
-      // 挿入位置はコメント欄の直前の要素(タイトル・概要)の下端。それが画面の上端より上なら押し下げが見えている側に及ぶ
-      const above = ul.previousElementSibling.getBoundingClientRect().bottom < 0;
+      // 挿入位置はコメント欄の直前の要素(タイトル・概要)の下端。それが画面の上端より上なら押し下げが見えている側に及ぶ。
+      // tailは見た目で新しいコメントが下に付くので、コメントが既にあればコメント欄の下端で見る
+      const ref = isTail() && ul.children.length > 0 ? ul : ul.previousElementSibling;
+      const above = ref.getBoundingClientRect().bottom < 0;
       prependHtml(ul, shown.map((b) => renderComment(b, state.stars.get(HatenaAPI.starKey(b)))).join('') + more, false, above);
       scheduleSave();
       loadStars(el);
@@ -394,6 +412,8 @@
       for (const el of Array.from(list.children).slice(0, MAX_COMMENT_WATCH)) {
         loadStars(el);
       }
+      // 向きが変わるので、新しい側(tailは下端、それ以外は上端)へ移す
+      scrollToEdge();
     }
 
     async function refreshComments() {
@@ -421,13 +441,16 @@
       while (item && isHidden(item)) item = queue.shift();
       if (!item) return;
 
-      const pinned = prependHtml(list, renderItem(item), true, list.getBoundingClientRect().top < 0);
+      // 新しい記事の挿入位置は、tailなら一覧の下端・それ以外は上端
+      const listRect = list.getBoundingClientRect();
+      const pinned = prependHtml(list, renderItem(item), true, isTail() ? listRect.bottom < 0 : listRect.top < 0);
       shownCount++;
       itemData.set(list.firstElementChild, slimItem(item));
       loadComments(list.firstElementChild);
       scheduleSave();
       if (pinned) {
         while (list.children.length > MAX_ITEMS) list.removeChild(list.lastElementChild);
+        if (isTail()) scrollToEdge(); // 間引いた分だけ縮むので、下端に付け直す
       }
     }
 
@@ -519,8 +542,12 @@
       }
       intervalSelect.value = String(intervalSetting);
       updatePauseBtn();
+      // tailは開いた時点で下端(=最新)を見せ、以降の追加に張り付かせる
+      if (isTail()) scrollToEdge();
       setStatus('読み込み中…');
       load(true).then(() => {
+        // リロード直後はブラウザのスクロール復元が後から効くことがあるので、読み込みが済んだ時点でも下端へ寄せる
+        if (isTail() && running && window.scrollY < FOLLOW_MARGIN_PX) scrollToEdge();
         scheduleTick();
         schedulePoll();
         scheduleCommentRefresh();
