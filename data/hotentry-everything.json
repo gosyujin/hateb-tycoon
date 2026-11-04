@@ -3,126 +3,126 @@
     "title": "OpenCode+Docker+GitHub Actionsで全自動AIペネトレーションテストはじめました",
     "url": "https://zenn.dev/team_zenn/articles/opencode-docker-actions-ai-pentest",
     "domain": "zenn.dev",
-    "count": 44,
+    "count": 46,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/team_zenn/articles/opencode-docker-actions-ai-pentest",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s---rjcT01b--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:OpenCode%252BDocker%252BGitHub%2520Actions%25E3%2581%25A7%25E5%2585%25A8%25E8%2587%25AA%25E5%258B%2595AI%25E3%2583%259A%25E3%2583%258D%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25AF%25E3%2581%2598%25E3%2582%2581%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:dyoshikawa%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzYzOTk2NzhlNmIuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_40%2Cl_default:og-publication-connect-mark-v1_hx1oxd%2Cw_40%2Cx_214%2Cy_155/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Zenn%2520Tech%2520Blog%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmN2M2YzVmZTIuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "ZennではAIによるセキュリティチェックの仕組みを急ピッチで構築しました。現在はPull Request（以下PR）ごとのAIレビューに加えて、AIエージェントによる全自動のペネトレーションテストを毎週GitHub Actionsで回しています。 https://scan.netsecurity.ne.jp/article/2026/08/06/55875.html 攻撃する側もAIをフル活用しはじめているといわれており、脆弱性が見つかってから悪用されるまでの時間が非常に短くなっています。防御側としては、人間が定期的に診断する従来のやり方では攻撃に追いつかない時代になってきました。 本記事…",
     "hatenaDate": "2026-11-04T05:25:42Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:45:13.446736+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「信用ならない」GMO熊谷代表　「31年間、一度も儲かると言っていない」と豪語→“決定的証拠”が発覚でツッコミ殺到（女性自身） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/4dcbb34b690b9f194baadc1c2c2ab05fe7a34d42",
     "domain": "news.yahoo.co.jp",
-    "count": 49,
+    "count": 53,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/4dcbb34b690b9f194baadc1c2c2ab05fe7a34d42",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261104-00000043-jisin-000-1-view.jpg?exp=10800",
     "description": "「私は31年間、一度たりとも儲かる、儲けるという言葉を使ったことはありません。お客様のために情報を守れと言い続けてまいりました」 11月2日、GMOインターネットグループの熊谷正寿代表（63）は、自社のクラウドサービスへの不正アクセス問題を巡る謝罪会見で涙ながらにこのように語った。 およそ3時間半に及んだ会見で、同氏は情報流出の経緯やサイバー犯罪の脅威について言及。さらには、「同じ回答をすると皆様の命の砂時計を無駄遣いします」などと独特の表現を交えて熱弁を振るったことも話題を集めている。しかし――。 自らの生き方や経営理念を強く押し出す異例の会見に対して、SNS上では疑問の声が。とりわけ、冒…",
     "hatenaDate": "2026-11-04T07:45:36Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:45:13.446736+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "中国メーカー、出荷前のAndroid端末に犯罪用のバックドアを設置か　Googleが取引停止",
     "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002884/",
     "domain": "www.itmedia.co.jp",
-    "count": 39,
+    "count": 49,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/04/2000002884/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/04/2000002884/10011321/2048",
     "description": "中国の端末メーカーが製造したAndroid端末に、遠隔から操作できるバックドアを仕込み、そのアクセス権を犯罪者らに販売していた――米Googleは11月3日（現地時間）、Android TV端末など130万台超に不正ソフトが組み込まれ、広告詐欺や不正な通信の中継などに悪用されていたと発表した。 関与を指摘されたのは、中国のOEM／ODMメーカーVideostrong Technology（深圳市）。Googleは同社が金銭目的で意図的に不正ソフトを組み込んだと判断し、取引を停止。Google認証済みAndroid端末の製造・販売や、他の認証端末メーカーへのソフトウェア供給も禁じた。 対象とな…",
     "hatenaDate": "2026-11-04T10:13:30Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:30:16.197629+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ローカルAI最強エンジン「Strata」初心者向けガイド【チャットAIで動画やマンガを自動生成】 | ちもろぐ",
     "url": "https://chimolog.co/strata-guide/",
     "domain": "chimolog.co",
-    "count": 32,
+    "count": 40,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/chimolog.co/strata-guide/",
     "screenshot": "https://chimolog.co/wp-content/uploads/2026/11/strata-guide-600.webp",
     "description": "ローカル生成AIに真の民主化をもたらした推論エンジン「Strata」が凄いらしいけど、イマイチ使い方が分からないし、そもそも「凄さ」が分からない。 そう感じている自作PCユーザーが意外と少なくないので、本記事でStrataの使い方を解説します。すでに知ってる人からすれば当たり前の内容も多いですが、誰だって最初は初心者なのだから優しく見守ってください。 月額3000円ほど払えば、最上級の性能を持つクラウドAIモデルに誰でもアクセスできます。しかも人並みの性能どころではなく、「人類の上位1%」レベルの性能です。 筆者やかもちは、月額6000円くらい課金して「Opus 5.5」と「GPT-6.1…",
     "hatenaDate": "2026-11-04T09:44:17Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:15:18.362824+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "【米中間選挙2026】熱狂的な光景、数々の歴史的な結果　トランプ氏は民主党が「よくやった」と - BBCニュース",
     "url": "https://www.bbc.com/japanese/articles/cm3r5eq0d0veo",
     "domain": "www.bbc.com",
-    "count": 14,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.bbc.com/japanese/articles/cm3r5eq0d0veo",
     "screenshot": "https://ichef.bbci.co.uk/news/1200/branded_japanese/6dd5/live/7baa0ff0-d81d-11f1-93e1-3b657b665bcf.jpg",
     "description": "3日に投開票が行われたアメリカの中間選挙で、野党・民主党が連邦議会の上下両院で主導権を奪還した。ドナルド・トランプ大統領の残る任期の間、議会は野党が支配することになった。 最終結果が出る前から、歴史的な出来事や祝賀ムードに包まれた場面がいくつも生まれている。 民主党は、2年前に共和党のトランプ大統領が楽勝した多くの州で逆転勝利を重ね、テキサス州、カンザス州、オハイオ州、サウスカロライナ州などで大きく躍進した。 民主党の下院トップ、ハキーム・ジェフリーズ院内総務は選挙結果を歓迎し、支持者を前に開口一番、「アメリカが戻ってきた」と宣言。「今日からアメリカの偉大な復活が始まる」と主張した。 ジェフ…",
     "hatenaDate": "2026-11-04T08:43:51Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:15:18.362824+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "【速報】高市首相、温暖化会議のCOP31欠席へ",
     "url": "https://www.47news.jp/15183439.html",
     "domain": "www.47news.jp",
-    "count": 75,
+    "count": 89,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15183439.html",
     "screenshot": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
     "description": "高市早苗首相が、今月中旬にトルコで開かれる国連気候変動枠組み条約第31回締約国会議（COP31）の首脳級会合を欠席する見通しであることが4日、政府関係者への取材で分かった。高市氏は昨年も欠席し、日本の首相の欠席は3年連続。 国内外約100の拠点を軸に、世界情勢から地域の話題まで、旬のニュースを的確に、いち早くお届けします。 幅広い知識と技術で、顧客の省エネを支え続ける 最前線で奮闘するKenesの社員たち 幅広い分野の革新的で優れたサービスを募集 第6回日本サービス大賞エントリー受付開始 人の営みがよみがえり、願いは「当たり前」に戻ること 復興支える中間貯蔵施設のいま、2045年への約束 創…",
     "hatenaDate": "2026-11-04T10:14:10Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:00:12.726388+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「ヘリの爆音で妻がノイローゼに」　GMO熊谷代表の「迷惑行為」を近隣住民が明かす　モデルを集めて「シャンパンパーティー」に「もう勘弁してほしい」 | デイリー新潮",
     "url": "https://www.dailyshincho.jp/article/2026/11041149/",
     "domain": "www.dailyshincho.jp",
-    "count": 38,
+    "count": 41,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.dailyshincho.jp/article/2026/11041149/",
     "screenshot": "https://www.dailyshincho.com/wp-content/uploads/2026/11/1517796_2.jpg",
     "description": "11月2日、GMOインターネットグループの熊谷正寿代表(63)は、傘下のGMOインターネットが提供するクラウドサービス「お名前.comデスクトップクラウド」への不正アクセスを巡り、会見を行った。会見では涙も見せたワンマン経営者。その「真の顔」に迫る。 11月2日、記者会見に臨んだ熊谷氏の面持ちは神妙なものだった。今回の情報流出を招いたシステムの脆弱（ぜいじゃく）性が2年前には判明していた件について、",
     "hatenaDate": "2026-11-04T05:17:34Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:45:13.699489+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "江戸時代のUFO？“うつろ舟” 200年の謎がついに・・・ | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261027de66276",
     "domain": "news.web.nhk",
-    "count": 39,
+    "count": 42,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261027de66276",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261027de66276/20261027de66276_E0000127922_1_l.jpg",
     "description": "【NHK】むかしむかし、常陸の国の浜辺に、誰も見たことのない不思議な形をした舟が流れ着いたそうじゃ。中には箱を大事そうに抱えた娘が一人乗っておってな。舟は「うつろ舟」と呼ばれるようになったそうな。 江戸時代後",
     "hatenaDate": "2026-11-01T00:06:25Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:30:16.978741+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "RAM関連発言で燃えたサム・アルトマンがXアカウント名を「Ram Altman」に変更、RAMをデータセンターに集約するべきという意見表明の後に",
     "url": "https://gigazine.net/news/20261104-ram-altman/",
     "domain": "gigazine.net",
-    "count": 58,
+    "count": 63,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261104-ram-altman/",
     "screenshot": "https://i.gzn.jp/img/2026/11/04/ram-altman/00.png",
     "description": "OpenAIのサム・アルトマンCEOがXのアカウント名を「Ram Altman」に変更しました。 Ram Altman（@sama）さん / X https://x.com/sama OpenAIをはじめとするAI企業はAIの開発およびサービス展開のために膨大な数のメモリを購入しており、世界的なメモリ不足を引き起こしています。個人ユーザー向けのRAMの価格も急騰してお...",
     "hatenaDate": "2026-11-04T07:56:21Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:15:16.572150+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -130,98 +130,98 @@
     "title": "二人は世界とかみ合わない - 青目槙斗 / 第１話　私の見てる世界 | コミックDAYS",
     "url": "https://comic-days.com/episode/12207421984407402963",
     "domain": "comic-days.com",
-    "count": 47,
+    "count": 50,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/comic-days.com/episode/12207421984407402963",
     "screenshot": "https://cdn-img.comic-days.com/public/series-thumbnail/12207421984405959657-c3f36de7da6d13b2ab440cb132412575?1792495916",
     "description": "吉葉愛生、社会人1年目、ＡＳＤ（自閉スペクトラム症）。周りの人と見えている世界が少し違う愛生（メイ）は、快活な性格で社内の人気者である小枝さんに淡い恋心を抱き、彼の役に立とうと持ち前の集中力で仕事に邁進するも、失敗ばかり。そんな傷心の愛生を見かけた小枝さんは、“二人だけの秘密”を打ち明けることに――。俊才・青目槙斗が当事者の目線で描く、「この世での生き辛さを抱えた二人の、笑って泣ける純愛物語。」",
     "hatenaDate": "2026-11-04T03:56:21Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:00:16.868102+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "良品計画 クレカ番号の全桁 約109万件が漏えいのおそれ | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261104de70494",
     "domain": "news.web.nhk",
-    "count": 192,
+    "count": 205,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261104de70494",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261104de70494/20261104de70494_E0000140022_1_l.jpg",
     "description": "【NHK】「無印良品」を展開する良品計画は、不正アクセスを受けて、クレジットカード番号の全桁、およそ109万件が漏えいしたおそれがあると発表しました。 この中には、すでに期限切れとなっているカードも多く含ま",
     "hatenaDate": "2026-11-04T09:17:59Z",
     "users": [],
     "firstSeenAt": "2026-11-04T18:45:15.752851+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "トランプ氏、さっそく責任逃れ「私の名前は投票用紙に載っていなかった」 中間選挙大敗で",
     "url": "https://www.afpbb.com/articles/-/3660789",
     "domain": "www.afpbb.com",
-    "count": 60,
+    "count": 63,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3660789",
     "screenshot": "https://afpbb.ismcdn.jp/mwimgs/6/9/1000x/img_69b21fb7514ae634b0fa4c0821cd3a7c85208.jpg",
     "description": "【11月4日 AFP】ドナルド・トランプ米大統領（80）は3日、共和党が歴史的な大敗を喫し、上下両院で多数派を失うことが確実になった中間選挙の結果を受け入れる意向を示したが、さっそく他の共和党員に責任を転嫁しようとした。 トランプ氏は選挙遊説で繰り返し、共和党員に対して「私の名前が投票用紙に載っていると思って投票してほしい」と呼び掛けていた。 だが、自分の非を認めるような人間ではないトランプ氏は3日、自身のSNS「トゥルース・ソーシャル」に、「私の名前は投票用紙に載っていなかった。もし載っていたら、われわれは圧勝していただろう！ この件にご注目いただき感謝する」と投稿し、早くも責任逃れを図っ…",
     "hatenaDate": "2026-11-04T06:50:04Z",
     "users": [],
     "firstSeenAt": "2026-11-04T18:45:15.752851+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "児童婚が増えるガザ、「妻の義務を果たせ」「一族の恥」１４歳年上の夫から性暴力　結婚後１年で出産「ミサイルが飛んでくればいいのに」と願う少女も | NEWSjp",
     "url": "https://news.jp/i/1483761527569859155",
     "domain": "news.jp",
-    "count": 66,
+    "count": 70,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.jp/i/1483761527569859155",
     "screenshot": "https://img.jp.ekkowassets.com/c_fill,w_400,h_210,f_auto,g_faces,q_auto:eco/ch/images/1483761304018665880/origin_1.jpg",
     "description": "パレスチナ自治区ガザで、１８歳未満の少女の「児童婚」が増加している。２０２３年１０月に始まったイスラエル軍とイスラム組織ハマスの戦闘により、ガザ住民の避難生活は長引き、人道危機が深刻化した。専門家は、避難生活の中で「家計の負担を減らそうと、娘に結婚を強いる保護者がいる」と指摘する。１６歳で、１４歳年上の男性と結婚させられたという女性が取材に語ったのは、戦闘の中での壮絶な性暴力だった。（年齢は当時。共同通信ガザ取材協力員＝ベサン・エマド） 「元夫から性暴力を受けていた。勇気を出して義母に打ち明けたが、妻の義務を果たせと責められた」。北部ガザ市のハデル・ハラクさん（１９）がうつむきながら語り始め…",
     "hatenaDate": "2026-11-04T03:07:57Z",
     "users": [],
     "firstSeenAt": "2026-11-04T18:15:13.416816+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ヒキガエル毒素由来の幻覚剤点鼻スプレー、難治性うつ病に劇的効果か ｜ BANG Showbiz Japanese",
     "url": "https://app.ekkow.com/1490415934133305694",
     "domain": "app.ekkow.com",
-    "count": 69,
+    "count": 72,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/app.ekkow.com/1490415934133305694",
     "screenshot": "https://img.ekkowassets.com/c_fill,w_400,h_210,g_faces,q_auto:eco/ch/images/1490415932604056623/origin_1.jpg",
     "description": "既存の抗うつ薬が効かない「難治性うつ病」に対し、ヒキガエル毒由来の合成成分を含んだ点鼻スプレーが劇的な効果を示した。キングス・カレッジ・ロンドンなどの研究チームが実施した臨床試験で明らかになった。 用いられたのは、コロラドリバーヒキガエルの分泌物に由来する幻覚成分「5-MeO-DMT」の合成化合物だ。一般的な幻覚剤と異なり、投与から数分で強力に作用したのち約30分で効果が薄れるため、患者を長時間の監視下に置く必要がなく、臨床現場での実用化に適しているという。 既存の薬を複数試しても改善しなかった18〜75歳の患者約200人を対象とした第2相試験では、8ミリグラムまたは12ミリグラムの単回点鼻…",
     "hatenaDate": "2026-11-04T03:53:11Z",
     "users": [],
     "firstSeenAt": "2026-11-04T18:15:13.416816+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "昔、付き合ってた関西女性に「君」と呼んだら「私は周りの人を大切にしたいの！私の周りで人を君なんて呼ぶ人いない！」と言われた…関西で「君」は失礼な感じがするらしい",
     "url": "https://togetter.com/li/2766480",
     "domain": "togetter.com",
-    "count": 134,
+    "count": 139,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2766480",
     "screenshot": "https://s.tgstc.com/ogp3/26401dc1eab5e66fdfec4fd4c02f5a05-1200x630.jpeg",
     "description": "関西の言い回しという事で言うと、そういえば昔、関西女性と付き合ってた時に「君」と呼んだらキレられたことがある。 「私は周りの人を大切にしたいの！私の周りで人を君なんて呼ぶ人いない！」 って言われて、俺の頭はハテナだらけになったが、(続く) 後に知り合った関西の人にその話をしたら、 「あー、彼女さんの言ってる事わかります。『君』って、改まった雰囲気をわざと出しておちょくりたい時か嫌味を言いたい時にしかまず使いません」 これ、うどんのダシがどうとかいうよりずっと重大な東西の違いじゃない？ もっと周知すべき。 関西の人が使う二人称。 - 関西の人に『君は～』と言ったら『\"君\"～？』と笑われました。…",
     "hatenaDate": "2026-11-04T06:40:47Z",
     "users": [],
     "firstSeenAt": "2026-11-04T17:45:13.794702+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "オーケストラに指揮者は本当に必要なのだろうか？指揮者が変わると本当に演奏が良くなるのだろうか？→「端から端まで音の伝達速度が違う」「本番ではなく練習が大事」",
     "url": "https://togetter.com/li/2766498",
     "domain": "togetter.com",
-    "count": 108,
+    "count": 114,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2766498",
     "screenshot": "https://s.tgstc.com/ogp3/ad6f9840eadd02b53938aad10e3b0266-1200x630.jpeg",
     "description": "オーケストラとか見てると指揮者って本当に必要なのかがわからないんですよね 指揮者になるのが大変なのは漫画とか見て知ってるけどジャズもロックも指揮者いないし琴とかの合奏も指揮者いないし 無知なのですいませんが指揮者が変わると本当に演奏良くなったりするのでしょうか？ 指揮者は必要ですか - もちろん必要ですが（^^;）こんな質問を友人にしました。「オーケストラは指揮者が毎日指導して練習しているよね。だっ... - Yahoo!知恵袋 指揮者は必要ですか もちろん必要ですが（^^;）こんな質問を友人にしました。「オーケストラは指揮者が毎日指導して練習しているよね。だったら本番当日、指揮者がいなくて…",
     "hatenaDate": "2026-11-04T06:00:59Z",
     "users": [],
     "firstSeenAt": "2026-11-04T17:30:13.119931+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -242,42 +242,42 @@
     "title": "「日本がそんなことするんだ」高市首相“G7欠席”に専門家が驚愕…二転三転する釈明に透ける高市政権のおごり | 女性自身",
     "url": "https://jisin.jp/domestic/2607531/",
     "domain": "jisin.jp",
-    "count": 47,
+    "count": 48,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/jisin.jp/domestic/2607531/",
     "screenshot": "https://img.jisin.jp/uploads/2026/11/takaichi_sanae_ogori_fb.jpg",
     "description": "女性自身TOP > 国内 > 政治 > 高市早苗 > 「日本がそんなことするんだ」高市首相“G7欠席”に専門家が驚愕…二転三転する釈明に透ける高市政権のおごり 「日本がそんなことするんだ」高市首相“G7欠席”に専門家が驚愕…二転三転する釈明に透ける高市政権のおごり 記事投稿日：2026/11/04 06:00 最終更新日：2026/11/04 09:43 10月16日の参議院予算委員会で辻元清美議員の追及を受け憮然とした表情の高市首相（撮影：長谷川新） 【写真あり】高市首相と茂木敏充外務大臣の欠席理由の説明は微妙に異なっている（他2枚） 10月2日に開かれたG7オンライン首脳会議を、高市早苗…",
     "hatenaDate": "2026-11-04T02:49:47Z",
     "users": [],
     "firstSeenAt": "2026-11-04T16:45:14.258300+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "民主党が上下両院の過半数奪還、トランプ氏の歴史的な不人気ぶりを追い風に　CNN予測",
     "url": "https://www.cnn.co.jp/usa/35254365.html",
     "domain": "www.cnn.co.jp",
-    "count": 200,
+    "count": 208,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.cnn.co.jp/usa/35254365.html",
     "screenshot": "https://www.cnn.co.jp/storage/2026/11/04/2651135656ee7c4ecedb0b220581270a/002-261019-edm-politics-uscapitol-10192026-test-4-1__1200_.jpeg",
     "description": "（CNN） CNNの予測によると、3日投開票の中間選挙で民主党が上下両院の過半数を共和党から奪還し、歴史的な大勝を収める見通しとなった。 民主党はトランプ米大統領の歴史的な不人気ぶりを追い風に大勝を収めた。これにより残り2年の任期中、これまで歯止めがかからなかったトランプ氏と政権を抑制する力を手にした。 民主党は共和党支持が圧倒的な地域でも勝利を重ね、何十年も民主党候補が勝てなかった選挙を制した。2024年大統領選でトランプ氏が18ポイント差を付けたサウスカロライナ州では、上院の1議席を獲得。1994年以来、州全体を対象とする選挙で民主党候補が勝利していなかったテキサス州でも上院の議席を奪っ…",
     "hatenaDate": "2026-11-04T06:47:28Z",
     "users": [],
     "firstSeenAt": "2026-11-04T16:45:14.258300+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "果物や野菜で最も食物繊維が豊富なのは可食部ではなく「通常は捨てられてしまう部分」だとの研究結果",
     "url": "https://gigazine.net/news/20261104-healthiest-parts-fruit-vegetables/",
     "domain": "gigazine.net",
-    "count": 39,
+    "count": 40,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261104-healthiest-parts-fruit-vegetables/",
     "screenshot": "https://i.gzn.jp/img/2026/11/04/healthiest-parts-fruit-vegetables/00.jpg",
     "description": "食物繊維は人間の消化酵素で分解されない食品成分であり、さまざまな健康効果をもたらします。野菜や果物には食物繊維が多く含まれていますが、新たな研究では、野菜や果物の食物繊維は可食部よりも「一般的には捨てられてしまう部分」に豊富なことが明らかになりました。 Full article: The dietary fibre content of f...",
     "hatenaDate": "2026-11-04T03:09:08Z",
     "users": [],
     "firstSeenAt": "2026-11-04T16:30:13.638503+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -285,42 +285,42 @@
     "title": "【速報】中間選挙結果「受け入れる」と米大統領",
     "url": "https://www.47news.jp/15181762.html",
     "domain": "www.47news.jp",
-    "count": 40,
+    "count": 41,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15181762.html",
     "screenshot": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
     "description": "【ワシントン共同】トランプ米大統領は3日、ニューヨーク・タイムズ紙のインタビューに対して、中間選挙の結果を「受け入れる」と語った。 国内外約100の拠点を軸に、世界情勢から地域の話題まで、旬のニュースを的確に、いち早くお届けします。 米民主党が上下両院で多数派奪還・主要メディア トランプ大統領の共和大敗［記事追加しました］ 児童婚が増えるガザ、「妻の義務を果たせ」「一族の恥」１４歳年上の夫から性暴力 結婚後１年で出産「ミサイルが飛んでくればいいのに」と願う少女も 幅広い知識と技術で、顧客の省エネを支え続ける 最前線で奮闘するKenesの社員たち 幅広い分野の革新的で優れたサービスを募集 第6…",
     "hatenaDate": "2026-11-04T04:10:45Z",
     "users": [],
     "firstSeenAt": "2026-11-04T16:30:13.638503+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "『堀井雄二のドラゴンクエストのつくりかた』書評──何かを作りたい人ならドラクエファンじゃなくても読んだほうがいいと思う理由",
     "url": "https://news.denfaminicogamer.jp/kikakuthetower/261104a",
     "domain": "news.denfaminicogamer.jp",
-    "count": 119,
+    "count": 127,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.denfaminicogamer.jp/kikakuthetower/261104a",
     "screenshot": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/1793594957-xQzkHJ5P1URBn9o6XgvlesNI.jpg",
     "description": "『FF7』リメイク第1作、第2作が“986円”セール、ニンテンドーストアにて11月20日まで開催中。『FF7 リメイク』は5478円から82%オフ『FF7 リバース』は6478円から85%オフの価格に ピカチュウ（うすいろ）のポーチがかわいすぎる！『ぽこ あ ポケモン』からピカチュウの「みみぱたぱたポーチ」と「メッセンジャーバッグ」が付録となるブランドムックが12月9日に発売決定 【無料】“全188種類”の「ホラー効果音」が入ったパック「Wrong Room」が無料配布中。クレジット表記なしでゲーム制作にも使用可能 『堀井雄二のドラゴンクエストのつくりかた』書評──何かを作りたい人ならドラク…",
     "hatenaDate": "2026-11-04T04:12:28Z",
     "users": [],
     "firstSeenAt": "2026-11-04T16:15:12.529794+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "トランプ氏、中間選挙の結果受け入れ表明 民主党と協力の意向",
     "url": "https://www.afpbb.com/articles/-/3660768",
     "domain": "www.afpbb.com",
-    "count": 135,
+    "count": 136,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3660768",
     "screenshot": "https://afpbb.ismcdn.jp/mwimgs/b/2/1000x/img_b2851fcc7ed083660f8c640fc77b105364503.jpg",
     "description": "【11月4日 AFP】ドナルド・トランプ米大統領は3日、続々と入る開票結果から共和党の壊滅的な大敗が濃厚となる中、中間選挙の結果を受け入れる意向を明らかにした。 トランプ氏は米紙ニューヨーク・タイムズに対し、「私はその結果を全面的に受け入れる用意がある」と述べた。さらに、「民主党と協力していく。彼らとの協力を楽しみにしている。おそらく何らかの合意に達することができるだろう」と語った。 トランプ氏はこれまで繰り返し選挙の公正性に疑問を投げ掛けており、敗北を認めないのではないかとの懸念が高まっていた。今回の発言は、それまでの姿勢から一転して融和的なものとなった。(c)AFP",
     "hatenaDate": "2026-11-04T04:51:49Z",
     "users": [],
     "firstSeenAt": "2026-11-04T15:45:12.687082+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -341,42 +341,42 @@
     "title": "《「GMOを私物化」指摘も》ジェット＆船舶に17億円、ワインに4億円、萩生田光一＆小泉進次郎ら“自民議員”への投票指令、被害発表当日に美女2人と「パーティ写真」…熊谷正寿体制の裏側 | 文春オンライン",
     "url": "https://bunshun.jp/articles/-/93443",
     "domain": "bunshun.jp",
-    "count": 193,
+    "count": 199,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/bunshun.jp/articles/-/93443",
     "screenshot": "https://bunshun.jp/mwimgs/4/1/1200wm/img_4112fd142d5704f983555d5a484b0e32439844.jpg",
     "description": "サイバー攻撃を受け、ユーザーの個人情報を抜き取られるなどの被害に遭ったGMOインターネットグループ。 11月2日には被害後初の記者会見を開き、熊谷正寿社長が涙ながらに謝罪した。しかし、その神妙な面持ちとは裏腹に会社の私物化があったことが「週刊文春」の取材で判明した。 ジェット機や船舶に投じられた資金は17億円、ワインの購入費だけでも実に4億円――。自民党議員への投票呼びかけや被害発表当日のパーティ写真など涙の会見の裏に隠されていた、ワンマン体制の知られざる歪みは「週刊文春 電子版」の記事で読むことができる。 GMO熊谷正寿社長 サイバー攻撃の全内幕《号泣会見の裏で「犯人は北朝鮮ハッカー」》…",
     "hatenaDate": "2026-11-04T05:50:46Z",
     "users": [],
     "firstSeenAt": "2026-11-04T15:45:12.687082+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "マッキンゼーが国に納品した資料2,446ページ、全部数えたらパターンは7つだけだった｜うちた",
     "url": "https://note.com/uchita_success/n/nfc53d1ef5f81",
     "domain": "note.com",
-    "count": 284,
+    "count": 300,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/uchita_success/n/nfc53d1ef5f81",
     "screenshot": "https://assets.st-note.com/production/uploads/images/331718777/rectangle_large_type_2_7c10ab2f38dc8f253b3533956d0c32f5.png?fit=bounds&quality=85&width=1280",
     "description": "経産省のサイトは、コンサル資料の宝の山。意外なのは、派手なフレームワークが少数だったこと。一流ほど、基本の型を使い倒すんです。 国は毎年、調査の仕事を大手のコンサルに委託していて、終わった仕事の報告書を国のサイトで公開しています。つまり、税金で作られたコンサルの\"ガチの納品物\"が、無料で読み放題なんです。 で、昔から「コンサルのスライドには型がある」と言われるじゃないですか。本当なのか、何種類なのか。この宝の山から対象を選んで、確かめることにしました。 マッキンゼーの委託調査を集めると22本、合わせて2,446ページありました。経産省が18本、国税庁が3本、内閣府が1本。量が量なので、AIに…",
     "hatenaDate": "2026-11-03T15:24:33Z",
     "users": [],
     "firstSeenAt": "2026-11-04T15:30:13.129487+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ジョージア州知事選、民主党ボトムズ氏の当選確実　米国史上初の黒人女性知事に",
     "url": "https://www.cnn.co.jp/usa/35254352.html",
     "domain": "www.cnn.co.jp",
-    "count": 69,
+    "count": 75,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.cnn.co.jp/usa/35254352.html",
     "screenshot": "https://www.cnn.co.jp/storage/2026/11/04/9782b91ca2de73020846e6c36ef66c01/002-wl200566__1200_.jpeg",
     "description": "知事候補としてジョージア州モローの会場で演説を行ったボトムズ氏/Will Lanzoni/CNN （CNN） CNNの予測によると、米中間選挙のジョージア州知事選では民主党のキーシャ・ランス・ボトムズ氏の当選が確実になった。米国史上初の黒人女性知事となる。 ボトムズ氏はアトランタ市長を務めた経歴を持つ。初のアフリカ系米国人の知事、初の女性知事としてジョージア州の歴史に名を刻むことになる。 ボトムズ氏は選挙戦で、共和党の対立候補リック・ジャクソン氏による猛烈な広告攻勢にさらされた。ジョンソン氏は医療関係の企業を経営する富豪で、今回の選挙で突如政界に躍り出た新顔だ。混戦となった共和党予備選では豊…",
     "hatenaDate": "2026-11-04T03:36:14Z",
     "users": [],
     "firstSeenAt": "2026-11-04T15:30:13.129487+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -404,21 +404,21 @@
     "hatenaDate": "2026-11-04T04:39:03Z",
     "users": [],
     "firstSeenAt": "2026-11-04T14:30:14.177476+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Binance、約1兆円相当の暗号資産が流出した問題に関し、検索エンジンに表示されたWebサイトから改ざんされたHomebrewをインストールした事が始まりだったと発表。",
     "url": "https://applech2.com/archives/20261104-hackers-compromised-homebrew-binance-attack.html",
     "domain": "applech2.com",
-    "count": 124,
+    "count": 125,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/applech2.com/archives/20261104-hackers-compromised-homebrew-binance-attack.html",
     "screenshot": null,
     "description": "Binanceが約1兆円相当の暗号資産が流出した問題に関し、検索エンジンに表示されたWebサイトから改ざんされたHomebrewをインストールした事が始まりだったと発表しています。詳細は以下から。 暗号資産の取引所を運営するBinanceは2026年10月29日、ハッカーにより約63億4,000万ドル、日本円にして1兆円相当の暗号資産が流出したと発表しましたが、現地時間11月03日に公開された発表によると、この問題は改ざんされたMac用パッケージマネージャーHomebrewのインストールから問題が始まっていたそうです。 Binanceの発表によると、暗号資産流出の経緯は以下の通りで、始まりは…",
     "hatenaDate": "2026-11-04T01:42:21Z",
     "users": [],
     "firstSeenAt": "2026-11-04T14:15:14.352931+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -453,14 +453,14 @@
     "title": "『ファイナルファンタジーVII リメイク』『リバース』どっちも「986円」でセール中、ぶっちぎりの過去最安値に。最終作に備えるチャンス - AUTOMATON",
     "url": "https://automaton-media.com/articles/newsjp/20261104-477316/",
     "domain": "automaton-media.com",
-    "count": 130,
+    "count": 134,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/automaton-media.com/articles/newsjp/20261104-477316/",
     "screenshot": "https://automaton-media.com/wp-content/uploads/2026/11/20261104-477316-header.jpg",
     "description": "スクウェア・エニックスは11月4日、『FINAL FANTASY VII REMAKE INTERGRADE』および『FINAL FANTASY VII REBIRTH』のセールを開始した。それぞれ税込986円となっており、これまでの最安値を大きく更新している。本稿執筆時点ではPC（Epic Gamesストア）/PS5/Nintendo Switch 2にて開催中であり、PS5でも『FINAL FANTASY VII REBIRTH』が同額でセール中。 『ファイナルファンタジーVII リメイク』シリーズは、1997年にPS向けに発売された『ファイナルファンタジーVII』を三部作でフルリメイク…",
     "hatenaDate": "2026-11-04T02:13:24Z",
     "users": [],
     "firstSeenAt": "2026-11-04T13:45:14.532715+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -481,14 +481,14 @@
     "title": "瓶で頭を殴られたい　殴られても大丈夫な瓶を自作して安全に殴られる",
     "url": "https://dailyportalz.jp/kiji/bin-de-naguraretai",
     "domain": "dailyportalz.jp",
-    "count": 61,
+    "count": 62,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/dailyportalz.jp/kiji/bin-de-naguraretai",
     "screenshot": "https://dailyportalz.jp/application/files/thumbnails/width1280/6017/9272/8105/IMG_6737.jpg",
     "description": "アクション映画でおなじみの、ガラス瓶で頭を殴られるあのシーン。殴られる側はいったいどんな感触なのか、体験するのが長年の夢だった。 ダイエット目的でマラソンに挑戦するが、練習後温泉に入り、美味しいものをたらふく食べるというサイクルを繰り返しているため、半年で10kg近く太る。 前の記事：期間＆地域限定！湖池屋の『三方原男しゃくポテトチップス』が段違いにうまい いったいなにを言っているんだと思われそうだが、もちろん本物のガラス瓶で殴られたいわけではない。アクション映画などでおなじみの、戦いの最中に瓶を頭に叩きつけられ、派手に砕け散るあのシーンのことである。 子どもの頃からジャッキー・チェンが大好…",
     "hatenaDate": "2026-11-04T02:33:50Z",
     "users": [],
     "firstSeenAt": "2026-11-04T13:30:13.873579+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -523,14 +523,14 @@
     "title": "高市首相Ｇ７欠席「飲み会」理由？　政府の説明曖昧、野党追及：時事ドットコム",
     "url": "https://www.jiji.com/jc/article?k=2026110300386&g=pol",
     "domain": "www.jiji.com",
-    "count": 104,
+    "count": 105,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.jiji.com/jc/article?k=2026110300386&g=pol",
     "screenshot": "https://www.jiji.com/news2/kiji_photos/202611/20261103at16S_ogp.jpg",
     "description": "高市早苗首相が先進７カ国（Ｇ７）首脳のテレビ会議を欠席したことに、野党が追及を強めている。首相と外務省の説明が曖昧なことに加え、会議直前に首相公邸で開催された麻生太郎副総裁ら自民党幹部との会食が欠席理由との疑念がある。簗和生・前農林水産相に続く攻撃材料にする狙いもありそうだ。 「首相や茂木敏充外相の答弁に矛盾がある。どちらが真実なのか」。立憲民主党の辻元清美氏は１０月２７日の参院外交防衛委員会で、政府側にこう迫った。 テレビ会議はトランプ米政権が欧州に軽油の備蓄を放出するよう圧力をかけたのを受けて、今年の議長国フランスが主導。日本時間１０月２日午後９時半から開かれ、遠藤和也外務審議官が代理で…",
     "hatenaDate": "2026-11-03T23:54:12Z",
     "users": [],
     "firstSeenAt": "2026-11-04T12:15:23.522440+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -544,7 +544,7 @@
     "hatenaDate": "2026-11-04T01:02:44Z",
     "users": [],
     "firstSeenAt": "2026-11-04T12:15:23.522440+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -552,14 +552,14 @@
     "title": "トランプ氏「われわれは世界中の笑いものだった」と主張「ばかだと思われていた」とも",
     "url": "https://www.afpbb.com/articles/-/3660636",
     "domain": "www.afpbb.com",
-    "count": 298,
+    "count": 302,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3660636",
     "screenshot": "https://afpbb.ismcdn.jp/mwimgs/1/b/1000x/img_1b852e88b5df69d4f256903ad5c0a19b68933.jpg",
     "description": "【11月4日 AFP】ドナルド・トランプ米大統領は中間選挙投開票日の3日朝、テレビ番組に電話出演して有権者に最後の支持を訴えた。不法移民取り締まりの強化や対イラン軍事作戦、関税政策によって米国を立て直したと主張し、自身の実績をアピールした。 トランプ氏はFOXニュースの番組「FOX＆フレンズ」で、「米国を偉大であり続けさせなければならない。今の米国は偉大だ。2年前はひどい状態だった」と述べた。 トランプ氏は「われわれは世界中の笑いものだった」「他国の指導者たちに相手にもされていなかった。ばかだと思われていたのだ。だが今、われわれには勢いがある。米国は世界で最も勢いのある国だ。誰からも尊敬され…",
     "hatenaDate": "2026-11-04T00:06:45Z",
     "users": [],
     "firstSeenAt": "2026-11-04T12:00:16.728935+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -609,14 +609,14 @@
     "title": "プルリクエスト #8",
     "url": "https://uhyo.github.io/pull-request-8/",
     "domain": "uhyo.github.io",
-    "count": 101,
+    "count": 104,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/uhyo.github.io/pull-request-8/",
     "screenshot": "https://uhyo.github.io/pull-request-8/ogp.png",
     "description": "AI が書いたプルリクエストを、説明文だけでレビューする異変探しゲーム。",
     "hatenaDate": "2026-11-01T03:06:00Z",
     "users": [],
     "firstSeenAt": "2026-11-04T11:15:14.145183+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -652,14 +652,14 @@
     "title": "アメリカ中間選挙2026 開票速報",
     "url": "https://vdata.nikkei.com/us-election/2026/live/",
     "domain": "vdata.nikkei.com",
-    "count": 644,
+    "count": 649,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/vdata.nikkei.com/us-election/2026/live/",
     "screenshot": "https://vdata.nikkei.com/us-election/2026/live/img/OGimage.jpg?518000",
     "description": "およそ30年議席を守ってきた共和党のコリンズ氏を急進左派に近いジャクソン氏が破るのか。コリンズ氏はトランプ氏と距離がある共和穏健派の代表格。 エルサイド氏は急進左派の代表格。議席獲得なら「民主社会主義」と呼ばれる勢力が民主党内で力を伸長する象徴的な動きに。 バンス副大統領のお膝元。2028年大統領選への出馬をうかがう同氏が「選挙の顔」になるか占う戦い。民主党のブラウン氏は元上院議員で18年間務めた重鎮。 トランプ氏を支えてきたキリスト教プロテスタントの「福音派」が人口の多くを占める代表州。上院選で共和党が現有議席を失えば42年ぶり。 民主党がテキサスで上院選を制すれば1988年以来、38年ぶ…",
     "hatenaDate": "2026-11-03T23:32:36Z",
     "users": [],
     "firstSeenAt": "2026-11-04T10:15:12.361899+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -687,21 +687,21 @@
     "hatenaDate": "2026-11-03T20:15:04Z",
     "users": [],
     "firstSeenAt": "2026-11-04T09:45:12.691786+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "【ぼくらの一線】22歳の会社員が美形の小学6年生相手に恋愛する漫画見つかる→『完全な性加害作品ですね。』",
     "url": "https://posfie.com/@yonepo665/p/sPmxUkv",
     "domain": "posfie.com",
-    "count": 294,
+    "count": 297,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@yonepo665/p/sPmxUkv",
     "screenshot": "https://s.tgstc.com/ogp3/2dac0fcb4582256132dac09e26d635f8-1200x630.jpeg",
     "description": "えぇ？？？ どゆこと？？？ BL大丈夫？ pic.x.com/n6AUVok3qN 🎉【残り2日】ニコニコカドカワ祭り第5弾 人気作・話題作多数 50%オフ1200冊以上 『ONE OUTS』全巻100円セール！ 本格心理戦・頭脳戦！ LIAR GAME作者の名作 @yamanakanobody 18禁…ではないのか？これ？ じゃあレジスタなんかよりもこっちを問題視というか重要視するべきなのではないのか？……おい！フェミども出番だぞ！！？ @yamanakanobody BLなんて激ヤバ作品ばっかりなのによくBL好き女はレジスタ叩けたな @yamanakanobody BLキッショ！なにこれ…",
     "hatenaDate": "2026-11-03T23:09:33Z",
     "users": [],
     "firstSeenAt": "2026-11-04T09:45:12.691786+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -923,28 +923,28 @@
     "title": "E2Eテスト大全（あなたの知らない、E2Eテスト周辺の理論） - 若くない何かの悩み",
     "url": "https://blog.kuniwak.com/entry/e2ebok",
     "domain": "blog.kuniwak.com",
-    "count": 542,
+    "count": 549,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.kuniwak.com/entry/e2ebok",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/2d8fd0931664ec7c952d40b0178337fc05f699be/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn.user.blog.st-hatena.com%2Fdefault_entry_og_image%2F69020888%2F1637037505451613",
     "description": "最近、X などのSNSを中心にE2E（End-to-End）テストに関する議論が活発におこなわれ、話題を集めています。AIによるコード生成能力が急速に高まったことで、「E2Eテストの実装はすべてAIに任せれば解決するのではないか」「AI に設計と実装を任せているので単体テストや結合テストが確認にならない」と語られる一方、現場では「E2Eテストが壊れやすくて保守できない」「実行が遅すぎて開発のボトルネックになる」「結果が不安定（Flaky）で信頼できない」といった課題が依然として残されています。 筆者は長年にわたり、数々のプロジェクトでE2Eテストの自動化と格闘し、理論的探究を続けてきました。…",
     "hatenaDate": "2026-11-03T21:27:17Z",
     "users": [],
     "firstSeenAt": "2026-11-04T07:45:13.555865+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「能動的に働かない」を半年やったら、ストレスフリーも甚だしかった｜kon_yu",
     "url": "https://note.com/kon_yu/n/n09b2bab2e7a4",
     "domain": "note.com",
-    "count": 237,
+    "count": 238,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/kon_yu/n/n09b2bab2e7a4",
     "screenshot": "https://assets.st-note.com/production/uploads/images/328826450/rectangle_large_type_2_bbbfad1b408d8dae82e607c55550afc2.jpg?fit=bounds&quality=85&width=1280",
     "description": "今年3月、会社売却を経て所属していたAIコンサルを退職した。 辞めた経緯について下の方の紹介文にリンクがある。その記事はたまに人に褒められる。 新卒で社会人になってから約20年間、働き続けてきた。そんな生活にいったんピリオドを打って次のあても決めず、社会的役割も一切持たない「無収入の半年間」へと突入した。 能動的に働かないをしてみて、何を感じたのか。その記録を残しておくこととする。 長くなったので前後編に分けて書くことにした。今回は前後編の前編である。 20年働き続けたあとに半年休んだ感想の前編は、やったことと良かったこと、後編は良くなかったことと今後の話。 とにかく、一言で言えば働かないの…",
     "hatenaDate": "2026-10-27T05:04:56Z",
     "users": [],
     "firstSeenAt": "2026-11-04T07:45:13.555865+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -1135,14 +1135,14 @@
     "title": "アダルト動画サイトに組み込まれた情報窃取スクリプト群を追う - Weekend Researcher Tsurezure Diary",
     "url": "https://disconinja.hatenablog.com/entry/2026/11/03/230647",
     "domain": "disconinja.hatenablog.com",
-    "count": 511,
+    "count": 512,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/disconinja.hatenablog.com/entry/2026/11/03/230647",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/2b9d223c983e8f0dad1ffe0dd1e8ad8fc2514bdb/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fd%2Fdisconinja%2F20261103%2F20261103230500.png",
     "description": "rivo.vinの名称を表示するアダルト動画サイトのHTMLに、非表示iframeとJavaScriptを動的に追加するコードを確認しました。収集したHTMLそのものには、3件の非表示iframeと5件の外部scriptを追加するローダーが存在しました。その後に改めて確認すると、メインページと2つのiframeで、当初の静的HTMLの一覧に加えてmain-stealer.js、stealer-7.js、stealer-8.js、stealer-auto.jsなどのリソースが追加されていました。 関連コードにはCookie・Web Storage・IndexedDB、キー入力・フォーム、Web…",
     "hatenaDate": "2026-11-03T17:23:01Z",
     "users": [],
     "firstSeenAt": "2026-11-04T06:45:18.980727+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1180,14 +1180,14 @@
     "title": "ハウスメーカーの今の建築費をどう考えるか",
     "url": "https://imoz.jp/scraps/202611_housemaker.html",
     "domain": "imoz.jp",
-    "count": 307,
+    "count": 309,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/imoz.jp/scraps/202611_housemaker.html",
     "screenshot": "https://imoz.jp/scraps/202611_housemaker.html.png",
     "description": "同じ広さの家でも、構造や内外装、設備、設計・点検の範囲によって価格は変わります。本記事では、希望する家と予算に合う依頼先を考えるため、ハウスメーカー7社の特徴と価格を比較します。工務店で近い家を建てる場合の費用や、過去10年の建築費の変化も取り上げます。 ハウスメーカーでは、工法・仕様から設計提案、品質管理、点検までをまとめて依頼できます。一方、間取りや部材の変更には、独自の工法による制約や追加費用が伴うことがあります[23]。 地域の工務店では、得意分野の合う会社と素材や間取り、細部を相談し、希望に合わせて予算を配分できます。設計・施工の実績や検査・点検の体制には会社ごとの違いがあるため、…",
     "hatenaDate": "2026-11-03T10:05:52Z",
     "users": [],
     "firstSeenAt": "2026-11-04T05:45:22.570377+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4241,6 +4241,20 @@
     "descriptionSource": "body"
   },
   {
+    "title": "上司「俺は麻婆豆腐には本当にうるさいよ」「豆腐は完全に水切りして挽肉は油が出るまで炒め、ネギはすぐ入れず…」「仕上げにクックドゥ入れて完成！」",
+    "url": "https://togetter.com/li/2766597",
+    "domain": "togetter.com",
+    "count": 7,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2766597",
+    "screenshot": "https://s.tgstc.com/ogp3/43037fa5114d351fc93c9946fec8c71c-1200x630.jpeg",
+    "description": "今日上司が作業中に「俺は麻婆豆腐には本当にうるさいよ」と言うので聞くと「まず豆腐はペーパータオルで水を完全に吸って、挽肉はしっかり油が出るまで炒め、ネギはすぐ入れない…」と講釈が続き最後に「仕上げにクックドゥ入れて完成‼︎」と真顔で言うので鈍器で殴ろうかと思いました @ochimushaDX はじめにその辺りの単語が出なかったことを警戒すべきでした。いつも通りのつまらないマウント話でげんなりしました @jadarap なんで殴られんとあかん？ 料理のこだわりポイントなんて人それぞれやし、既製品の調味料使う場合でも、下処理とかでデキが違ってくるのは間違いないやろ ちなみに、カレーはSBゴールデ…",
+    "hatenaDate": "2026-11-04T10:57:35Z",
+    "users": [],
+    "firstSeenAt": "2026-11-04T21:00:14.327486+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "【米中間選挙2026】 投開票進む　注目の上院、ノースカロライナで民主党が議席奪う - BBCニュース",
     "url": "https://www.bbc.com/japanese/articles/cmly046vw000o",
     "domain": "www.bbc.com",
@@ -4251,49 +4265,49 @@
     "hatenaDate": "2026-11-04T03:14:55Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:45:13.446736+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "【速報】神奈川県警が川崎市役所を家宅捜索",
     "url": "https://www.47news.jp/15183430.html",
     "domain": "www.47news.jp",
-    "count": 13,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15183430.html",
     "screenshot": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
     "description": "川崎市が発注した工事の価格を業界団体関係者に漏らしたとして市部長の男（59）が逮捕された事件で、神奈川県警は4日、官製談合防止法違反などの疑いで、市役所を家宅捜索した。 国内外約100の拠点を軸に、世界情勢から地域の話題まで、旬のニュースを的確に、いち早くお届けします。 【速報】関東・中部で地震 Ｍ4.7 東京、神奈川、埼玉、千葉、静岡などで揺れ 最大震度3 震源は千葉県北東部 地震が及んだ地域人口1951万人地震 巨人コーチの内海哲也さん、高校時代過ごした敦賀市で初のスポーツ大使に 「役に立てれば」 幅広い知識と技術で、顧客の省エネを支え続ける 最前線で奮闘するKenesの社員たち 幅広い…",
     "hatenaDate": "2026-11-04T10:13:50Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:45:13.446736+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "昔アメリカの中学に転入した人、「Fuckin' Jap!」と野次られたので「レッドネック」「プアホワイト」と言い返したら信じられないくらい場が凍りついてしまう",
     "url": "https://togetter.com/li/2766546",
     "domain": "togetter.com",
-    "count": 19,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2766546",
     "screenshot": "https://s.tgstc.com/ogp3/45dfec6e36883a89971262c7c3246653-1200x630.jpeg",
     "description": "千駄木雄大＠M-40（南1-2ホール）／文学フリマ東京 @yudai_sendagi 私もアメリカ南部の中学校に転入したばかりのとき、「Fuckin' Jap!」と野次られた。そのとき、「おぉ、本場の差別だ。エピソードトークのためにも応戦しないと」と思い、「あー・ゆー・レッドネック？ プアホワイト？」と言い返してみたところ、信じられないくらい周囲が凍りついたことがある。 x.com/arrogant_lolly… Fuck youって、日本人だったら言われたらちょっと嬉しいじゃないですか。 17歳の時に、アメリカに交換留学で行ったんですよ。 昼休みに敷地内を歩いていたら、見知らぬ生徒に「Fu…",
     "hatenaDate": "2026-11-04T08:45:37Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:45:13.446736+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "【速報】男が警察官から奪った拳銃で自らに発砲",
     "url": "https://www.47news.jp/15182908.html",
     "domain": "www.47news.jp",
-    "count": 20,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15182908.html",
     "screenshot": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
     "description": "埼玉県警によると、4日午前10時5分ごろ、埼玉県越谷市の清掃工場で、駆け付けた越谷署員が暴れる男を取り押さえる際、拳銃を奪われ、男は自らに1発発砲した。男は休暇中の春日部署員で、意識不明の状態で病院に搬送された。 国内外約100の拠点を軸に、世界情勢から地域の話題まで、旬のニュースを的確に、いち早くお届けします。 がってん寿司“フードコート型店”全国初オープン イオンレイクタウンkazeで ネタは同じ、店頭に職人が並び寿司を握る 今後は出店拡大を検討 【速報】関東、東北、北海道、中部、近畿、中国、四国で地震 最大震度3 マグニチュードは6・1 三重県南東沖が震源 福島県で震度3の地震、東京な…",
     "hatenaDate": "2026-11-04T08:08:55Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:30:16.197629+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4336,7 +4350,7 @@
     "hatenaDate": "2026-11-04T04:31:54Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:15:18.362824+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -4365,21 +4379,21 @@
     "hatenaDate": "2026-11-04T05:30:10Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:00:12.726388+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "先日鉄腕DASHを見ていたら「働きバチが自己犠牲的に働き続けるのはなぜか？」に対して「仲間のため」「人間社会と同じ」「ミツバチは人間に色んなことを教えてくれる」と説明していて、ちょっと危ない表現かもと思いました 働きバチの利他行動はそういう生態であり、道徳的な精神性とかではないので…→「こわぁ...」",
     "url": "https://posfie.com/@petaritape/p/wOcEtll",
     "domain": "posfie.com",
-    "count": 10,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@petaritape/p/wOcEtll",
     "screenshot": "https://s.tgstc.com/ogp3/aceeed57ec70b25746cebe49bff56c5c-1200x630.jpeg",
     "description": "先日鉄腕DASHを見ていたら「働きバチが自己犠牲的に働き続けるのはなぜか？」に対して「仲間のため」「人間社会と同じ」「ミツバチは人間に色んなことを教えてくれる」と説明していて、ちょっと危ない表現かもと思いました 働きバチの利他行動はそういう生態であり、道徳的な精神性とかではないので… ハチなど真社会性の動物のワーカーに見られる、繁殖せずコロニーに尽くす行動は、血縁個体の繁殖を助けることで次世代に自分の遺伝子が残りやすくなるという仕組みのもと進化してきたものであり、単にそういう生態なので「仲間思いでいいね！」「人間も見習うべき！」は筋違いだ ハチのコロニーと人間の社会集団、ハチの女王と人間のリ…",
     "hatenaDate": "2026-11-04T01:19:19Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:00:12.726388+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4393,7 +4407,7 @@
     "hatenaDate": "2026-11-04T08:11:10Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:30:16.978741+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -4647,7 +4661,7 @@
     "hatenaDate": "2026-11-04T03:10:25Z",
     "users": [],
     "firstSeenAt": "2026-11-04T13:00:10.264002+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -6258,6 +6272,48 @@
     "descriptionSource": "body"
   },
   {
+    "title": "祖父が亡くなる前、子どもの頃容姿をいじられ嫌だったから会わなかった。でも亡くなって数年後に「会ってあげればよかったかな」と思うわけ→故人の嫌な記憶とどう折り合いつける？",
+    "url": "https://togetter.com/li/2766574",
+    "domain": "togetter.com",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2766574",
+    "screenshot": "https://s.tgstc.com/ogp3/c33115570f329d1f6915f349b0f326e0-1200x630.jpeg",
+    "description": "祖父がもう死ぬかも、ってなったとき 私子供の頃から祖父に見た目のことをイジられていてすごく嫌だったから(定期的に思い出して泣いていた)会いに行かなかったの 結局そのまま息を引き取って、葬式に出たんだけど なんかそれから数年が経って｢会ってあげればよかったな｣とか思うわけ でもこれって ただイヤだった思い出が薄れていってるだけだと思うの 事実としての｢祖父は会いたがっていたのに死の間際に会いに行かなかった｣だけが残っている でも当時の私は本当に会わなくていいと思ってたくらい嫌さに苛まれていたんだろうな それが薄まってるから後悔のようなものが顔を出してくる もちろん可愛がってもらったこともあるで…",
+    "hatenaDate": "2026-11-04T10:16:51Z",
+    "users": [],
+    "firstSeenAt": "2026-11-04T21:00:14.327486+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
+    "descriptionSource": "body"
+  },
+  {
+    "title": "参政党都議、党役員を辞任　「子宮頸がんは風邪の一部」と発言 | 毎日新聞",
+    "url": "https://mainichi.jp/articles/20261104/k00/00m/010/235000c",
+    "domain": "mainichi.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/mainichi.jp/articles/20261104/k00/00m/010/235000c",
+    "screenshot": "https://cdn.mainichi.jp/vol1/2026/11/04/20261104k0000m010238000p/0c10.jpg?2",
+    "description": "毎日新聞 2026/11/4 17:10（最終更新 11/4 17:25） 481文字 参政党の神谷宗幣代表は4日、党所属の最上佳則・東京都議が街頭演説で「子宮頸（けい）がんは風邪の一部」などと不適切な発言をしたとして、党のボード（役員会）メンバーを辞任したと発表した。後任には和田政宗衆院議員が就いた。 最上氏は10月28日に都議補選（千代田区）の応援演説で「（新型）コロナ（ウイルス）にしたって、子宮頸がんにしたって、RSワクチンにしたって、普通に、それは風邪の一部なんだから。それによって、私たちの免疫抗体が作られて自然免疫で私たちは病気に強い体になっていく」などと発言した。 この発言につい…",
+    "hatenaDate": "2026-11-04T08:58:52Z",
+    "users": [],
+    "firstSeenAt": "2026-11-04T21:00:14.327486+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
+    "descriptionSource": "body"
+  },
+  {
+    "title": "バイナンス暗号資産1兆円盗難、偽の採用面接がハッカーの突破口に（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
+    "url": "https://news.yahoo.co.jp/articles/403586e24e41258f3ef84b253d8fa3628b8fdce5",
+    "domain": "news.yahoo.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/403586e24e41258f3ef84b253d8fa3628b8fdce5",
+    "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261104-23058868-digbloom-000-1-view.jpg?exp=10800",
+    "description": "（ブルームバーグ）:暗号資産交換業者バイナンスは、先週明らかになった63億ドル（約1兆円）相当の暗号資産盗難事件で、攻撃者が偽の採用面接などで社員をだます「ソーシャルエンジニアリング」やマルウエア（悪意のあるプログラム）を使っていたと明らかにした。事件の手口や経緯をこれまでで最も詳しくまとめた報告書を公表した。 同社は今回の攻撃を北朝鮮によるものとみており、「高度で複数段階にわたる作戦」だったと説明した。3日に公表した報告書によると、同社のエンジニアの1人が求人サイトを通じ、プロジェクト責任者を名乗る人物から接触を受けた。その後、チャットアプリ上で架空企業の最高経営責任者（CEO）を装う人物…",
+    "hatenaDate": "2026-11-04T01:03:45Z",
+    "users": [],
+    "firstSeenAt": "2026-11-04T21:00:14.327486+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "マンホールカード、相次ぐマナー違反　受け取れず怒鳴る客、暴言　発行自治体、やむなく終了も（時事通信） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/e9c80f13278094490bd5494bc76f798bc2038192",
     "domain": "news.yahoo.co.jp",
@@ -6268,7 +6324,7 @@
     "hatenaDate": "2026-11-04T04:34:57Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:15:18.362824+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -6282,7 +6338,7 @@
     "hatenaDate": "2026-11-04T07:09:57Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:15:18.362824+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -6296,7 +6352,7 @@
     "hatenaDate": "2026-11-04T07:36:50Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:15:18.362824+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -6310,21 +6366,21 @@
     "hatenaDate": "2026-11-03T07:19:52Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:00:12.726388+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "トランプ共和党の「歴史的敗北」なぜ　続く米国第一と過激化への懸念：朝日新聞",
     "url": "https://www.asahi.com/articles/ASVC41QTMVC4UHBI016M.html",
     "domain": "www.asahi.com",
-    "count": 8,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVC41QTMVC4UHBI016M.html",
     "screenshot": "https://imgopt.asahi.com/ogp/AS20261104002048_comm.jpg",
     "description": "アメリカ中間選挙で、トランプ大統領の共和党が「歴史的な敗北」を喫した。民主党はなぜ、連邦議会の上下両院で過半数奪還を確実にできたのか。米国や日本にどのような影響があるのか。米国政治に詳しい渡辺靖・慶応大教授（現代米国論）に聞いた。 中間選挙で上下両院の多数派がひっくり返るのは極めて珍しい。イラク戦争への不満を背景に2006年にブッシュ政権が両院で敗北して以来で、「歴史的敗北」と言える。 1年前には民主党が上院で勝利するとは想像できなかった。それだけトランプ政権への不満が一気に高まったことを示している。「トランプ時代の終焉（しゅうえん）」という意味でも大きな転換点となる。 トランプ氏が国民の支…",
     "hatenaDate": "2026-11-04T08:25:51Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:45:13.699489+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -6338,7 +6394,7 @@
     "hatenaDate": "2026-11-04T02:23:25Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:30:16.978741+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -6352,7 +6408,7 @@
     "hatenaDate": "2026-11-04T04:14:16Z",
     "users": [],
     "firstSeenAt": "2026-11-04T17:30:13.119931+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -6366,7 +6422,7 @@
     "hatenaDate": "2026-11-04T05:02:30Z",
     "users": [],
     "firstSeenAt": "2026-11-04T16:45:14.258300+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -8711,52 +8767,6 @@
     "bodyReason": "not-longer"
   },
   {
-    "title": "学校法人同志社の会見5時間で終了　辺野古転覆事故、初出席の八田理事長らへの批判相次ぐ　辺野古転覆事故、同志社会見（10）",
-    "url": "https://www.sankei.com/article/20261030-4VHT2LCLMJNOTJ2NH6WTQZGHFA/",
-    "domain": "www.sankei.com",
-    "count": 10,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.sankei.com/article/20261030-4VHT2LCLMJNOTJ2NH6WTQZGHFA/",
-    "screenshot": "https://www.sankei.com/resizer/v2/NMIPUHGZKZN3TABCOLMR5CX2FQ.jpg?auth=65b2dab45a2627f132bc365da72c61e9975b74a991d7ca5fc3670839c4b399b1&quality=50&smart=true&width=1200&height=675",
-    "description": "学校法人同志社の会見5時間で終了 辺野古転覆事故、初出席の八田理事長らへの批判相次ぐ 沖縄県名護市辺野古沖で抗議船2隻が転覆し、研修旅行中の同志社国際高校（京都府）2年、武石知華（ともか）さん＝当時（17）＝ら2人が死亡した事故をめぐり、同校を運営する学校法人同志社が30日、京都市内で開いた記者会見は開始から約5時間が過ぎた午後9時過ぎに終了した。 会見を巡っては関芳弘文部科学相が28日の衆院文部科学委員会で「記者会見ではご遺族や生徒、保護者はじめ関係者と社会に対して納得の得られる説明を行うべきだと考えている」と言及。法人側は報道陣に対し、1巡目の質問は各社2問まで、2巡目以降は無制限とする…",
-    "hatenaDate": "2026-10-30T16:30:37Z",
-    "users": [],
-    "firstSeenAt": "2026-10-31T11:45:15.882620+09:00",
-    "lastSeenAt": "2026-10-31T16:00:14.395750+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "辺野古沖転覆事故めぐる会見で「ありえない」放送事故　同志社理事長が遺族の個人情報ポロリ | 東スポWEB",
-    "url": "https://www.tokyo-sports.co.jp/articles/-/408314",
-    "domain": "www.tokyo-sports.co.jp",
-    "count": 193,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.tokyo-sports.co.jp/articles/-/408314",
-    "screenshot": "https://tokyo-sports.ismcdn.jp/mwimgs/1/2/1200w/img_1253989ba2e4ce1696138642b0315054106099.jpg",
-    "description": "まさかの放送事故だ。学校法人同志社が３０日、京都市内で「同志社国際高等学校の沖縄研修旅行中の事故に関する記者会見」を行った。 ３月１６日、沖縄・辺野古に沖縄研修旅行のため訪れた同志社国際高等学校の生徒が乗ったボート２艇が転覆。事故を起こしたボートの船長・金井創氏と同校の生徒・武石知華さんが亡くなり、生徒１７人が負傷した。 その後、事故を起こしたボートを運航する抗議団体が海上運送法で義務付けられた事業登録をしていなかった疑いがあるとし、第１１管区海上保安本部（那覇）が同法違反容疑で捜査中だ。 同校は金井氏を牧師として信頼していたが、抗議団体と関わりがあったことは把握していなかったと釈明。学校法…",
-    "hatenaDate": "2026-10-31T00:27:15Z",
-    "users": [],
-    "firstSeenAt": "2026-10-31T11:45:15.882620+09:00",
-    "lastSeenAt": "2026-11-01T05:30:13.888372+09:00",
-    "descriptionSource": "body",
-    "bodyStatus": "skip",
-    "bodyReason": "not-longer"
-  },
-  {
-    "title": "中学のときに自分をいじめてた先輩と偶然再会したスリムクラブ真栄田…相手が謝るかなと思ったら偉そうにしてきたが、そこで大人の対応をしてみせた話が激アツ",
-    "url": "https://togetter.com/li/2764826",
-    "domain": "togetter.com",
-    "count": 32,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2764826",
-    "screenshot": "https://s.tgstc.com/ogp3/c36972b9feee2d3a716d3abf15f68d76-1200x630.jpeg",
-    "description": "ちょっと前だけど、沖縄の食堂でメシ食ってたらさ、ガラガラって入って来た親子連れの家族がいてさ。 見たら、親父の方が、中学の時に俺をいじめてた先輩でさ。 お互い目が合って、色々察してさ、俺、「コイツどっちで来るのかな〜」って思ってさ。 昔を悔いて、俺にあやまって来るパターンを期待したんだけど、そいつさ、 先「おう！真栄田！家族と写真撮ってくれ！」って、 って偉そうに、俺にガッて肩組んで言って来てさ、 俺、ついにまだ残ってた、怒りを、家族の前で、 俺「この人は中学の時、俺をいじめてたんですよ。そして、その罪に向き合うのが怖くて今だに強がって人に接するダメな人なんです」って、 言おうと思ったけど、…",
-    "hatenaDate": "2026-10-30T23:50:18Z",
-    "users": [],
-    "firstSeenAt": "2026-10-31T11:30:13.025469+09:00",
-    "lastSeenAt": "2026-10-31T20:00:17.515177+09:00",
-    "descriptionSource": "body",
-    "bodyStatus": "skip",
-    "bodyReason": "not-longer"
-  },
-  {
     "title": "高市早苗首相、トランプ大統領グッズを「最低レベル」扱い？　8年前の動画発掘で波紋（J-CASTニュース） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/20cffa616a9f516f99ede086c4afdc50ed4553ed",
     "domain": "news.yahoo.co.jp",
@@ -8767,7 +8777,7 @@
     "hatenaDate": "2026-11-04T03:06:27Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:00:12.726388+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -8781,7 +8791,7 @@
     "hatenaDate": "2026-11-03T02:10:10Z",
     "users": [],
     "firstSeenAt": "2026-11-04T16:45:14.258300+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -8795,7 +8805,7 @@
     "hatenaDate": "2026-11-04T01:34:45Z",
     "users": [],
     "firstSeenAt": "2026-11-04T14:45:12.671580+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -12196,35 +12206,35 @@
     "hatenaDate": "2026-11-04T07:36:24Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:15:16.572150+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "独身イジリは気にしないのでいいんだけど、会社内の独身異性を「○○さんでいいじゃん」「○○さんはどう？」とあてがおうとしてくるの本当に不快。私にも相手にも失礼",
     "url": "https://togetter.com/li/2766061",
     "domain": "togetter.com",
-    "count": 32,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2766061",
     "screenshot": "https://s.tgstc.com/ogp3/4d4b345470f1eb65be94056b30b7be41-1200x630.jpeg",
     "description": "独身イジりは気にしないのでいいんだけど、会社内の独身異性を「○○さんでいいじゃん」「○○さんはどう？」とあてがおうとしてくるの本当に不快。私にも相手にも失礼。 これ会社でよく言われる 𓏸𓏸さんところの娘さんどう？とかほんと勘弁して欲しい x.com/konkatsu__chan… 『ONE OUTS』全巻100円セール！ 本格心理戦・頭脳戦！ LIAR GAME作者の名作 @konkatsu__chan わかる。私もたまに言われる。何でもかんでも男女関係に結びつけないでほしいよね。 めっちゃわかる。そうやって飲み会が嫌いになっていくし次からは行かない x.com/konkatsu__chan…",
     "hatenaDate": "2026-11-03T02:19:38Z",
     "users": [],
     "firstSeenAt": "2026-11-03T23:30:14.250724+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "仙台旅行中のレンタカー屋で「こちらのお車ご用意しておりました」と過去形で言われ、ホテルも「本日より一泊でご予約承ってございました」と過去形…調べたら東北弁だった",
     "url": "https://togetter.com/li/2766015",
     "domain": "togetter.com",
-    "count": 37,
+    "count": 38,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2766015",
     "screenshot": "https://s.tgstc.com/ogp3/77a7f0ea7113b4fa3eeeae29cf1501d2-1200x630.jpeg",
     "description": "母と仙台旅行に行ってきたんだけど、レンタカーのカウンターで店員さんに「こちらのお車ご用意しておりました」って過去形で言われて不思議な言葉遣いの人だな〜と思ってたらホテルのフロントのお兄さんにも「本日より一泊でご予約承ってございました」と言われた → もしかして方言か？と思って調べたら東北地方の一部では現在のことでも過去形を使うことがあって特に敬語で過去形を使って表現を柔らかくしたり婉曲的に伝える用法があるらしい なるほど！おもしろいね 東北弁では、「今部屋にいる」という意味で「部屋にいた」と言うなど、現在のことを過去形で叙述することがあるようですが、これはなぜですか？ - Quora 回答:…",
     "hatenaDate": "2026-11-02T23:43:34Z",
     "users": [],
     "firstSeenAt": "2026-11-03T18:00:21.723278+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -12238,7 +12248,7 @@
     "hatenaDate": "2026-11-03T02:26:16Z",
     "users": [],
     "firstSeenAt": "2026-11-03T16:45:12.537349+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -15690,7 +15700,7 @@
     "hatenaDate": "2026-10-31T07:49:32Z",
     "users": [],
     "firstSeenAt": "2026-11-02T15:45:13.207319+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -15704,7 +15714,7 @@
     "hatenaDate": "2026-10-31T23:44:47Z",
     "users": [],
     "firstSeenAt": "2026-11-01T21:45:15.486741+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -15720,7 +15730,7 @@
     "hatenaDate": "2026-10-31T11:20:40Z",
     "users": [],
     "firstSeenAt": "2026-11-01T20:30:14.237619+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -15736,7 +15746,7 @@
     "hatenaDate": "2026-11-01T04:00:06Z",
     "users": [],
     "firstSeenAt": "2026-11-01T20:15:14.863489+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -15751,7 +15761,7 @@
     "hatenaDate": "2026-10-31T23:05:13Z",
     "users": [],
     "firstSeenAt": "2026-11-01T16:30:13.565932+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -17634,20 +17644,6 @@
     "descriptionSource": "body"
   },
   {
-    "title": "連載：ＳＦスクランブル交差点　書評家たちが選ぶ、2026年9月のベストＳＦ小説",
-    "url": "https://realsound.jp/book/2026/10/post-2553607.html",
-    "domain": "realsound.jp",
-    "count": 18,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/realsound.jp/book/2026/10/post-2553607.html",
-    "screenshot": "https://realsound.jp/wp-content/uploads/2026/10/20261017-sf-03.jpg",
-    "description": "ＳＦというジャンルに対して抱く思いは読者によってそれぞれ違うでしょうが、自由に、という要素は共通するのではないかと思います。さまざまなしがらみを離れて自由に。舞台となる世界はしっかりと構築されていたほうがいいが、でも行く先だけは自由に。どちらでも、どこへでも。空想のベクトルを制限することはできません。 ＳＦスクランブル交差点は、ＳＦを自由に読むための月評です。さまざまな出自の評者が、国内外の作品を読み、その月の一押しをお薦めします。ルールはただひとつ、前月に出た新刊であること。原稿は到着順、そのほか一切の縛りなしでお届けします。 冬木糸一の一冊：ジェフ・ライマン 著／鯨井久志 編訳／中村融、…",
-    "hatenaDate": "2026-10-17T02:56:44Z",
-    "users": [],
-    "firstSeenAt": "2026-10-18T13:30:12.517943+09:00",
-    "lastSeenAt": "2026-10-21T21:00:10.637023+09:00",
-    "descriptionSource": "body"
-  },
-  {
     "title": "みんなどうしてそんなにデザインの敗北が好きなの、デザインの大勝利にも触れなよ「成功したデザインは馴染んで透明化してしまう」",
     "url": "https://togetter.com/li/2759603",
     "domain": "togetter.com",
@@ -17686,64 +17682,64 @@
     "hatenaDate": "2026-11-04T04:33:53Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:45:13.446736+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
-    "bodyTries": 1,
-    "bodyReason": "crawl-delay-too-long"
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
+    "bodyReason": "crawl-delay-too-long",
+    "bodyTries": 2
   },
   {
     "title": "日本語プログラミングフォント「Cyroit」とそのファミリー8種が一斉アップデート／「Inconsolata」＋「Circle M+」＋「BIZ UDゴシック」、コード特有の可読性にも配慮",
     "url": "https://forest.watch.impress.co.jp/docs/news/2153421.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2153421.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2153/421/image_top.png",
     "description": "日本語プログラミングフォント「Cyroit」とそのファミリー8種が一斉アップデート 「Inconsolata」＋「Circle M+」＋「BIZ UDゴシック」、コード特有の可読性にも配慮 日本語プログラミングフォント「Cyroit」とその姉妹フォント8種が11月3日（日本時間）、一斉にアップデートされた。「Cyroit」はv5.0.0、それ以外の8種はv3.0.0となっている。 「Cyroit」（しろいと）は、日本語環境でのコーディングに適した等幅フォント。ラテン文字に日本人プログラマー向けフォントの先駆「Ricty」でも用いられていた「Inconsolata」、仮名・ギリシア文字・キリル…",
     "hatenaDate": "2026-11-04T09:09:14Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:45:13.446736+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "無印良品の公式アプリの情報漏洩が、クレカの番号全桁などスケールが大きすぎるし、良品週間が終わったあとの報告にモヤモヤする",
     "url": "https://togetter.com/li/2766561",
     "domain": "togetter.com",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2766561",
     "screenshot": "https://s.tgstc.com/ogp3/5a4acd55c3555db6fad342eb3976fcdd-1200x630.jpeg",
     "description": "クレジットカード 無印良品 カード番号 個人情報 アプリ ネット通販 無印良品週間 情報流出 【情報流出の可能性に関する追加のお知らせ】 無印良品の公式アプリ「MUJIアプリ」におけるお客さま情報流出の可能性について（第二報） 詳細は以下をご確認ください。 ryohin-keikaku.jp/news/articles/… お客さまをはじめ、関係する皆様にご心配をおかけしますことを、深くお詫び申し上げます。 無印良品の公式アプリ「MUJI アプリ」におけるお客さま情報流出の可能性について（第⼆報） 2026 年 11 ⽉ 4 ⽇ 情報流出の可能性に関する追加のお知らせ 無印良品の公式アプリ「…",
     "hatenaDate": "2026-11-04T09:38:49Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:45:13.446736+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "MUJI Card 会員情報の流出の可能性に関するお知らせとお詫び | クレジットカードはセゾンカード",
     "url": "https://www.saisoncard.co.jp/customer-support/information/20261104/",
     "domain": "www.saisoncard.co.jp",
-    "count": 8,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.saisoncard.co.jp/customer-support/information/20261104/",
     "screenshot": "https://images.saisoncard-assets.com/assets/462949b256274358947c3db996c948d4/c9aadfc16cc54456a31ffeb0a340fd31/og.png",
     "description": "このたび、株式会社良品計画（以下「良品計画」）のシステムが第三者による不正アクセスを受け、株式会社クレディセゾン（以下「当社」）が発行するMUJI Card のカード番号を含むお客様の情報に第三者がアクセスした可能性があると報告がありました。 MUJI Card をご利用のお客様をはじめ、関係する皆様に多大なるご心配とご迷惑をおかけしておりますことを、深くお詫び申しあげます。 当社では、お客様のカードの不正利用を防止するため、不正利用の監視強化などの対応を進めております。現時点で判明している内容と当社の対応について、以下のとおりお知らせいたします。 2026年10月29日（木）午前1時頃、良…",
     "hatenaDate": "2026-11-04T09:21:10Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:30:16.197629+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "無印良品、クレカ「MUJI Card」カード番号全ケタ、約109万件漏えいか　不正アクセスで続報",
     "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002885/",
     "domain": "www.itmedia.co.jp",
-    "count": 11,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/04/2000002885/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/04/2000002885/10011325/2048",
     "description": "「無印良品」を展開する良品計画（東京都文京区）は11月4日、10月30日に公表した公式アプリ「MUJIアプリ」への不正アクセスについて、当初は対象外としていたクレジットカード情報や氏名、住所なども外部からアクセスされた可能性があると発表した。新たに判明した対象には、クレジットカード「MUJI Card」のカード番号全桁を含む会員情報約109万件などが含まれる。 MUJI Cardは、クレディセゾン（東京都豊島区）が発行するクレジットカード。今回対象となった約109万件は、2021年7月までに入会した会員の情報で、カード番号の全桁、MUJI Card ID、生年月日が含まれる。このうち、現在も…",
     "hatenaDate": "2026-11-04T09:59:35Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:15:18.362824+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17764,14 +17760,14 @@
     "title": "【やじうまPC Watch】 メモリ発言で物議のSam Altman氏、「Ram Altman」に改名",
     "url": "https://pc.watch.impress.co.jp/docs/news/yajiuma/2153619.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 17,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/yajiuma/2153619.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2153/619/01.jpg",
     "description": "メモリ(RAM)に関する発言で物議を醸しているOpenAI CEOのSam Altman(サム・アルトマン)氏が、自身のX(旧Twitter)アカウントの表示名を「Ram Altman」に改名した。 これは、10月29日に公開されたインタビュー動画に端を発するもの。同氏はこの動画の中で、昨今のメモリ高騰に対し、グローバルの資源配分の観点から、個人のPCにDRAMを分散させているのは効率的でないとし、クラウドに資源を集約すべきだと発言。このことが物議を醸していた。 SNSではAltman氏に対し、メモリを餌に捕獲用の罠へ釣り出そうとする写真を送る人や、表示名を「ram altman」に変えても…",
     "hatenaDate": "2026-11-04T08:45:28Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:45:13.699489+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17785,7 +17781,7 @@
     "hatenaDate": "2026-11-04T09:10:35Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:45:13.699489+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17827,7 +17823,7 @@
     "hatenaDate": "2026-11-04T05:41:58Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:15:16.572150+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17841,7 +17837,7 @@
     "hatenaDate": "2026-11-04T04:01:10Z",
     "users": [],
     "firstSeenAt": "2026-11-04T18:45:15.752851+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17862,14 +17858,14 @@
     "title": "優秀なテストエンジニアの特徴を調べた研究｜森崎 修司",
     "url": "https://note.com/smorisaki/n/n8dd86d903e19",
     "domain": "note.com",
-    "count": 18,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/smorisaki/n/n8dd86d903e19",
     "screenshot": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/32bc8c18fd61e7eda811ba6ec9fcce3e150e0ad8.png",
     "description": "論文のタイトルはCharacteristics of High Performing Testers – A Case Studyです。ここ(出版社のサイト)から原文を読めます。 Iivonen, J., Mäntylä, M., & Itkonen, J. (2010, September). Characteristics of high performing testers: a case study. In ESEM (Vol. 10, pp. 1-9). ソフトウェア企業において、優秀なテストエンジニアがどのような特性（知識、スキル、思考プロセス、モチベーション、個人特性など）を備…",
     "hatenaDate": "2026-11-04T02:25:29Z",
     "users": [],
     "firstSeenAt": "2026-11-04T17:30:13.119931+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -18003,14 +17999,14 @@
     "title": "セキュリティ要求は、待ってくれない | フューチャー技術ブログ",
     "url": "https://future-architect.github.io/articles/20261104a/",
     "domain": "future-architect.github.io",
-    "count": 38,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/future-architect.github.io/articles/20261104a/",
     "screenshot": "https://future-architect.github.io/images/2026/20261104a/top.png",
     "description": "前回の記事「非機能はなぜ必要なのか」では、非機能要件はほとんどサービスレベル設計と同じものであり、利用者への約束として事業者が決めるものであり、「事業が変わったら約束そのものを見直す」ところまで含めて保証だと書きました。 この秋、国内では不正アクセスによる被害が相次いでいます。先日も、ある大手インターネット企業が不正アクセスの問題で記者会見を開きました。 私はセキュリティの専門家ではなく、本職の外にいる一人の技術者です。それでも、一連の報道とそれに対する反応を見ていて、非機能の観点から思うところがありました。短絡的に感じる意見も多く、少し怖くなったというのが正直なところで、自分の考えをまとめ…",
     "hatenaDate": "2026-11-04T01:20:42Z",
     "users": [],
     "firstSeenAt": "2026-11-04T15:00:13.343413+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -18045,14 +18041,14 @@
     "title": "高市早苗が細野豪志に手を重ねている画像はAIによる偽画像だよ - 電脳塵芥",
     "url": "https://nou-yunyun.hatenablog.com/entry/2026/11/04/130000",
     "domain": "nou-yunyun.hatenablog.com",
-    "count": 38,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/nou-yunyun.hatenablog.com/entry/2026/11/04/130000",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/268f71b449538b3bcb9ba755212eb59e070114b0/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fn%2Fnou_yunyun%2F20261104%2F20261104122927.png",
     "description": "https://x.com/f5lMZTk70t7130/status/2117315464347165148 上記の様な高市早苗が細野豪志の手の上に自身の手を重ねている画像が拡散していた。しかし、以下の様にGoogle製によって改変させられたAI画像である。 画像は一から作成されたものではなく、元は9月18日に毎日新聞にアップされた画像を素材とした改変画像である。画像を作成したのは冒頭の「三毛猫師匠@f5lMZTk70t7130」と思われる。9月21日には改変前の画像を使用しているのだが、防災庁に合わせてなのか冒頭及び、次の画像を挙げていた。 https://x.com/f5lMZTk70…",
     "hatenaDate": "2026-11-04T04:29:55Z",
     "users": [],
     "firstSeenAt": "2026-11-04T14:45:12.671580+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -18066,7 +18062,7 @@
     "hatenaDate": "2026-11-04T03:44:08Z",
     "users": [],
     "firstSeenAt": "2026-11-04T14:45:12.671580+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -18087,14 +18083,14 @@
     "title": "「海外モデルでも自前サーバで動かせば100％安全」ではない――チームみらい安野氏が指摘、国産モデルの必要性を強調",
     "url": "https://www.itmedia.co.jp/aiplus/article/2611/04/2000002853/",
     "domain": "www.itmedia.co.jp",
-    "count": 50,
+    "count": 51,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2611/04/2000002853/",
     "screenshot": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/04/2000002853/10011242/2048",
     "description": "（1/2 ページ） チームみらいの安野貴博党首は11月3日、同党の公式YouTubeチャンネルでの生配信で、海外で開発されたオープンウェイトモデルが国内で稼働する際、意図的に自身の性能を低下させたり、データを漏えいさせたりする可能性があると指摘し、国産モデルの必要性を強調した。 チームみらいは10月23日、デジタル庁に提出した提言の中で、国のサイバー防御力向上のために、オープンウェイトモデルの検証環境と計算資源を国が提供し、「国産サイバーセキュリティAIモデル」の開発も支援すべきとしている。 今回の配信でも安野氏は、海外で開発されたサイバーセキュリティ性能が高いオープンウェイトモデルを、国内…",
     "hatenaDate": "2026-11-04T02:05:29Z",
     "users": [],
     "firstSeenAt": "2026-11-04T14:00:14.968868+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20801,17 +20797,31 @@
     "bodyTries": 3
   },
   {
+    "title": "「毎日1時間⚪︎ヶ月走っても痩せません」とダイエットの指南役（？）の人が相談を受けて、「はっきり言います、毎日走っても痩せません（ドヤァ）」ってよく見るけど、1時間休憩もせず、歩きもせず、ケガすることなく1日も欠かさずほんまに走ってた？と思う ほんまに走ってたら痩せるで→「食べてたら痩せないかな」",
+    "url": "https://posfie.com/@kalofollow/p/BwzzyjD",
+    "domain": "posfie.com",
+    "count": 8,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@kalofollow/p/BwzzyjD",
+    "screenshot": "https://s.tgstc.com/ogp3/8372f90a4e387b64d386aeeb2d4cbcaa-1200x630.jpeg",
+    "description": "「毎日1時間⚪︎ヶ月走っても痩せません」とダイエットの指南役（？）の人が相談を受けて、「はっきり言います、毎日走っても痩せません（ドヤァ）」ってよく見るけど、1時間休憩もせず、歩きもせず、ケガすることなく1日も欠かさずほんまに走ってた？と思う ほんまに走ってたら痩せるで 月間走行距離150km（大会含む）超えたときは痩せたし（ランナーの皆さん少ないと突っ込まないでください） 9分/kmで走ったとしても6.7km×30=201km それともそこは突っ込んだらあかんところ？ マンガで卒デブ ４０ｋｇやせ ちゃんと食べて生まれ変わるダイエット 比嘉 直子,おちゃずけ,今西 康次 🎉【残り2日】ニコ…",
+    "hatenaDate": "2026-11-04T07:24:35Z",
+    "users": [],
+    "firstSeenAt": "2026-11-04T21:00:14.327486+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "チベットの白いヤクに「みんながかわいいって言ってるよ！」って伝えに行ったが目を合わせてくれない→草食動物の視界的にはむしろ…と気づくとかわいい",
     "url": "https://togetter.com/li/2766565",
     "domain": "togetter.com",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2766565",
     "screenshot": "https://s.tgstc.com/ogp3/67c70a1baab5a5443108d2e89818f02a-1200x630.jpeg",
     "description": "おじさんの白ヤクに、みんなのラブコールを伝えにいったけどオフだったみたいで目も合わせてくれない！ pic.x.com/Iy94fZcnGl x.com/8810hayatot/st… 村のおじさんが「うちの白ヤク見せてあげるよ〜」って家から散歩して連れてきてくれた！！！ pic.x.com/sSdpWpyhUv まとめ 村のおじさんが「うちの白ヤク見せてあげるよ〜」って連れてきてくれた→チベットの”神の使い”の可愛さに悶絶「でっっっっか！」「伝説の生き物みたい」 71150 pv 217 88 223 users 🎉【残り2日】ニコニコカドカワ祭り第5弾 人気作・話題作多数 50%オフ120…",
     "hatenaDate": "2026-11-04T09:43:34Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:45:13.446736+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20825,21 +20835,21 @@
     "hatenaDate": "2026-11-03T04:41:37Z",
     "users": [],
     "firstSeenAt": "2026-11-04T05:45:22.570377+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "娘のために6時からM!LKくじに並んだら、親切に順番を譲ってくれた人が鬼の形相でブチギレ「なんで5回引かないんですか？」→「ラストワン賞狙いか…」",
     "url": "https://togetter.com/li/2766211",
     "domain": "togetter.com",
-    "count": 29,
+    "count": 30,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2766211",
     "screenshot": "https://s.tgstc.com/ogp3/d5385830fd74a83b7b422ca71ecccb28-1200x630.jpeg",
     "description": "朝から怖い事があった… 仕事疲れで眠い中、 娘からのお願いで、6時から並んでM!LKの一番くじに並んだ…かなりの列… 最後尾の親切な人が「良かったらお先どうぞ？」と列に割り込んで並ばせてくれた… 怖かったのはここから… 7時になりクジが引けるか心配だったが、なんとか回ってきて 「M!LKの一番くじ1回お願いします」って言った瞬間… 後ろの人から「なんで5回引かないんですか？？」並んだ時の優しい顔はそこには無かった…片桐はいりみたいな顔が鬼に変貌して今にも殺されそうな顔でこっちを見ていた… 私の次の次でくじは終了したが車に乗って帰る時もずっとこっちを睨んでいた… 日経トレンディ2026年12月…",
     "hatenaDate": "2026-11-03T10:44:29Z",
     "users": [],
     "firstSeenAt": "2026-11-04T01:15:14.310810+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20853,7 +20863,7 @@
     "hatenaDate": "2026-11-03T12:15:52Z",
     "users": [],
     "firstSeenAt": "2026-11-04T01:00:20.276038+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -20868,7 +20878,7 @@
     "hatenaDate": "2026-11-03T10:04:49Z",
     "users": [],
     "firstSeenAt": "2026-11-03T23:45:14.607491+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20882,7 +20892,7 @@
     "hatenaDate": "2026-11-02T10:10:52Z",
     "users": [],
     "firstSeenAt": "2026-11-03T21:00:13.428167+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20896,7 +20906,7 @@
     "hatenaDate": "2026-11-02T03:40:46Z",
     "users": [],
     "firstSeenAt": "2026-11-03T10:30:13.560608+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20910,7 +20920,7 @@
     "hatenaDate": "2026-11-02T10:04:01Z",
     "users": [],
     "firstSeenAt": "2026-11-03T00:00:12.081689+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20924,7 +20934,7 @@
     "hatenaDate": "2026-10-31T03:42:06Z",
     "users": [],
     "firstSeenAt": "2026-11-02T21:00:13.176421+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20938,7 +20948,7 @@
     "hatenaDate": "2026-11-02T00:57:00Z",
     "users": [],
     "firstSeenAt": "2026-11-02T12:15:13.681555+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20952,7 +20962,7 @@
     "hatenaDate": "2026-11-01T08:58:20Z",
     "users": [],
     "firstSeenAt": "2026-11-01T20:00:12.976965+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -20968,7 +20978,7 @@
     "hatenaDate": "2026-10-31T11:46:06Z",
     "users": [],
     "firstSeenAt": "2026-11-01T02:00:14.030994+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20982,7 +20992,7 @@
     "hatenaDate": "2026-10-31T14:40:02Z",
     "users": [],
     "firstSeenAt": "2026-11-01T01:00:13.032126+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20996,7 +21006,7 @@
     "hatenaDate": "2026-10-30T13:44:12Z",
     "users": [],
     "firstSeenAt": "2026-10-31T13:45:13.754126+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -21010,7 +21020,7 @@
     "hatenaDate": "2026-10-30T18:15:19Z",
     "users": [],
     "firstSeenAt": "2026-10-31T08:15:12.504525+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -21026,7 +21036,7 @@
     "hatenaDate": "2026-10-30T09:39:39Z",
     "users": [],
     "firstSeenAt": "2026-10-30T20:30:18.203389+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -21042,7 +21052,7 @@
     "hatenaDate": "2026-10-30T06:57:22Z",
     "users": [],
     "firstSeenAt": "2026-10-30T18:30:13.435784+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -21056,7 +21066,7 @@
     "hatenaDate": "2026-10-30T03:58:06Z",
     "users": [],
     "firstSeenAt": "2026-10-30T18:30:13.435784+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -21070,7 +21080,7 @@
     "hatenaDate": "2026-10-28T21:27:22Z",
     "users": [],
     "firstSeenAt": "2026-10-30T14:15:14.140750+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -21084,7 +21094,7 @@
     "hatenaDate": "2026-10-29T14:35:40Z",
     "users": [],
     "firstSeenAt": "2026-10-30T01:15:15.016182+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -21098,7 +21108,7 @@
     "hatenaDate": "2026-10-28T07:16:55Z",
     "users": [],
     "firstSeenAt": "2026-10-29T14:00:14.109327+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -21112,7 +21122,7 @@
     "hatenaDate": "2026-10-29T02:30:52Z",
     "users": [],
     "firstSeenAt": "2026-10-29T13:00:13.188754+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -21126,7 +21136,7 @@
     "hatenaDate": "2026-10-29T02:55:43Z",
     "users": [],
     "firstSeenAt": "2026-10-29T12:45:12.961127+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -21140,7 +21150,7 @@
     "hatenaDate": "2026-10-27T08:07:14Z",
     "users": [],
     "firstSeenAt": "2026-10-29T09:15:10.777984+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -22101,7 +22111,7 @@
     "hatenaDate": "2026-11-02T11:09:14Z",
     "users": [],
     "firstSeenAt": "2026-11-04T15:00:13.343413+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -22115,7 +22125,7 @@
     "hatenaDate": "2026-11-02T00:21:15Z",
     "users": [],
     "firstSeenAt": "2026-11-03T22:15:14.602326+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24665,31 +24675,17 @@
     "descriptionSource": "body"
   },
   {
-    "title": "reTONE — 古い Android スマートフォンを、音楽の一台に",
-    "url": "https://retone.iidapiano.store/",
-    "domain": "retone.iidapiano.store",
-    "count": 115,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/retone.iidapiano.store/",
-    "screenshot": "https://retone.iidapiano.store/img/og/og-ja.jpg",
-    "description": "お知らせ2026.10.26ダウンロードが 1 万回を超えました。ありがとうございます。いただいた報告とご要望をもとに、次のアップデートを作っています。 使われなくなったスマートフォンを、電源を入れたときから音楽のための一台に。ホーム画面もロック画面も、まるごと音楽用に。root も改造も要らず、利用者の情報も集めません。 中古店で千円、二千円で並んでいる古いスマートフォン。いまのアプリは動かなくても、モノとしては面白いままです。最新機に追いつかせるのではなく、役目を音楽ひとつに絞りました。 昔のスマートフォンには、片手に収まる小さな機種も多くあります。そこに、黒とアンバーで描いた reTO…",
-    "hatenaDate": "2026-10-18T10:27:31Z",
-    "users": [],
-    "firstSeenAt": "2026-10-19T14:45:12.843383+09:00",
-    "lastSeenAt": "2026-10-21T21:00:10.637023+09:00",
-    "descriptionSource": "body"
-  },
-  {
     "title": "【試し読み公開】労働問題の専門家が見た「ちいかわ」の世界｜雑誌POSSE Web版",
     "url": "https://note.com/posse_mag/n/ne39bf89dbb65",
     "domain": "note.com",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/posse_mag/n/ne39bf89dbb65",
     "screenshot": "https://assets.st-note.com/production/uploads/images/280360863/rectangle_large_type_2_a4e9a16dc0393851a55c883244d1447f.png?fit=bounds&quality=85&width=1280",
     "description": "『ちいかわ』が大人気だ。漫画が連載されている公式Ｘアカウントのフォロワー数は470万を超え、2026年7月に公開される劇場用アニメも大ヒットが予想されている。 しかし、『ちいかわ』の世界で描かれる「労働」の意味について、深く考えたことのある人は、そう多くないのではないだろうか。 ちいかわたちの人気の秘密は、本当に「労働のつらさ」にあるのか。「湧きドコロ」の意味、「鎧」たちの正体、そして「討伐・草むしり」が暗示する世界とは。『ちいかわ』にハマっている本誌編集長の坂倉による考察をお届けします。 ※本記事は、2026年5月末刊行の雑誌『POSSE』62号の掲載記事をウェブ公開用に構成したものです。…",
     "hatenaDate": "2026-11-04T05:52:42Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:15:18.362824+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24703,7 +24699,7 @@
     "hatenaDate": "2026-11-04T04:16:47Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:30:16.978741+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24717,7 +24713,7 @@
     "hatenaDate": "2026-11-04T07:53:19Z",
     "users": [],
     "firstSeenAt": "2026-11-04T18:00:13.550185+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24731,7 +24727,7 @@
     "hatenaDate": "2026-11-02T16:51:06Z",
     "users": [],
     "firstSeenAt": "2026-11-04T17:45:13.794702+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -24746,7 +24742,7 @@
     "hatenaDate": "2026-11-03T15:09:51Z",
     "users": [],
     "firstSeenAt": "2026-11-04T14:15:14.352931+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24760,7 +24756,7 @@
     "hatenaDate": "2026-10-21T03:02:39Z",
     "users": [],
     "firstSeenAt": "2026-11-04T13:15:16.711748+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24774,7 +24770,7 @@
     "hatenaDate": "2026-11-03T15:04:17Z",
     "users": [],
     "firstSeenAt": "2026-11-04T09:45:12.691786+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24788,7 +24784,7 @@
     "hatenaDate": "2026-11-03T17:27:44Z",
     "users": [],
     "firstSeenAt": "2026-11-04T09:30:14.745916+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24802,7 +24798,7 @@
     "hatenaDate": "2026-11-03T13:32:43Z",
     "users": [],
     "firstSeenAt": "2026-11-04T03:45:12.516915+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24837,14 +24833,14 @@
     "title": "タマさんの猥談原稿 - 戦上まい子 / タマさんの猥談原稿 | くらげバンチ",
     "url": "https://kuragebunch.com/episode/12207421984452460688",
     "domain": "kuragebunch.com",
-    "count": 32,
+    "count": 34,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kuragebunch.com/episode/12207421984452460688",
     "screenshot": "https://cdn-img.kuragebunch.com/public/series-thumbnail/12207421984452459649-9516502a62468aab9f22500cc5e771b0?1793675190",
     "description": "成年向け漫画家タマさんの臨時アシスタントにやってきたルミ。上品で美人なのに恥じらいなく下ネタを喋りまくるタマさんの刺激にルミは翻弄され……？ 最後までシモたっぷりのノンストップ猥談コメディ♡ 「上品な美人さんが発する下ネタが大好きすぎて漫画にしてしまいました」『元魔法少女のお姉さんは恋を知りたい』連載中。活動の様子はXにて▼https://x.com/Senjooh_maiko",
     "hatenaDate": "2026-11-03T03:04:54Z",
     "users": [],
     "firstSeenAt": "2026-11-04T01:00:20.276038+09:00",
-    "lastSeenAt": "2026-11-04T20:45:13.446736+09:00",
+    "lastSeenAt": "2026-11-04T21:00:14.327486+09:00",
     "descriptionSource": "body"
   },
   {
