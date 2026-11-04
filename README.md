@@ -2,7 +2,7 @@
 
 はてなブックマークの人気/新着エントリーを取得して一覧表示し、ミュートワード・ミュート解除ワード・強制ミュートワードの3種類のワードリストで不要な記事やコメントを非表示にするクライアントサイドのみの静的Webアプリです。フロントエンド自体はサーバーやビルド工程不要で、`index.html` を静的ホスティング(GitHub Pagesなど)に置くだけで動作します(一覧データの定期更新にはGitHub Actionsを使用。詳細は[docs/architecture.md](docs/architecture.md)・[docs/technical-notes.md](docs/technical-notes.md)参照)。
 
-公開URL: https://note.gosyujin.com/hateb-tycoon/
+公開URL: https://gosyujin.com/hateb-tycoon/
 
 ## 機能
 

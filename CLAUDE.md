@@ -12,7 +12,7 @@
 
 - `js/hatena-api.js`の`jsonp()`のコールバック名は**呼び出しごとにランダムでなければならない**。固定名にすると実際のはてなAPI(`b.hatena.ne.jp/entry/jsonlite/`)がハング/タイムアウトすることを実験で確認済み([docs/technical-notes.md](docs/technical-notes.md)参照)。
 - `service-worker.js`の`handleNavigate()`は実URLではなく固定キー`'index.html'`でキャッシュを読み書きする実装になっている。実URLでのマッチングに戻すと、プロセスを完全終了してから機内モードで新規起動した場合にアプリ全体がクラッシュする(サスペンド復帰では再現しないため見落としやすい)。
-- Service Workerはサンドボックス化されたブラウザ検証環境では`register()`自体が失敗し動作確認できない。SW関連の変更は本番オリジン(https://note.gosyujin.com/hateb-tycoon/)に対して`caches`APIを直接叩いて検証する。
+- Service Workerはサンドボックス化されたブラウザ検証環境では`register()`自体が失敗し動作確認できない。SW関連の変更は本番オリジン(https://gosyujin.com/hateb-tycoon/)に対して`caches`APIを直接叩いて検証する。
 - はてなの一覧データはRSS由来でページング不可なため「蓄積」方式(`firstSeenAt`/`lastSeenAt`)になっている。JSON API復活やページング機能を前提にした変更は提案しない。
 
 ## Git運用

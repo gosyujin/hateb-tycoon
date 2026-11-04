@@ -28,7 +28,7 @@
 
 ## 検証上の注意
 
-- **Service Workerの動作確認について**: サンドボックス化されたブラウザ環境(Claude Codeの検証用ブラウザ等)では`navigator.serviceWorker.register()`自体が原因不明のエラーで失敗し、動作確認ができません。Service Worker関連の変更を検証する際は、本番オリジン(https://note.gosyujin.com/hateb-tycoon/)に対して`caches.keys()` / `caches.open()` / `cache.match()`等をブラウザのコンソールから直接実行して確認してください。
+- **Service Workerの動作確認について**: サンドボックス化されたブラウザ環境(Claude Codeの検証用ブラウザ等)では`navigator.serviceWorker.register()`自体が原因不明のエラーで失敗し、動作確認ができません。Service Worker関連の変更を検証する際は、本番オリジン(https://gosyujin.com/hateb-tycoon/)に対して`caches.keys()` / `caches.open()` / `cache.match()`等をブラウザのコンソールから直接実行して確認してください。
 
 ## 未検証
 
