@@ -10,9 +10,9 @@
     "hatenaDate": "2026-11-04T14:13:37Z",
     "users": [],
     "firstSeenAt": "2026-11-05T06:00:17.180381+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
-    "bodyTries": 1,
-    "bodyReason": "crawl-delay-too-long"
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
+    "bodyReason": "crawl-delay-too-long",
+    "bodyTries": 2
   },
   {
     "title": "2027年4月26日から変わる CloudWatch Logs の IAM ポリシーの評価方法を CloudWatch Logs IAM Policy Validator で確認する - kakakakakku blog",
@@ -25,7 +25,7 @@
     "hatenaDate": "2026-11-04T03:13:11Z",
     "users": [],
     "firstSeenAt": "2026-11-05T05:15:16.311631+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -41,7 +41,7 @@
     "hatenaDate": "2026-11-04T11:01:14Z",
     "users": [],
     "firstSeenAt": "2026-11-05T03:00:14.806823+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body"
   },
   {
@@ -55,7 +55,7 @@
     "hatenaDate": "2026-11-03T11:27:53Z",
     "users": [],
     "firstSeenAt": "2026-11-05T02:15:11.087106+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -70,21 +70,21 @@
     "hatenaDate": "2026-11-04T05:00:39Z",
     "users": [],
     "firstSeenAt": "2026-11-05T01:00:13.140688+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "GitHub - govijr/terminal-mac: Entire MacOS running in your terminal.",
     "url": "https://github.com/govijr/terminal-mac",
     "domain": "github.com",
-    "count": 9,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/govijr/terminal-mac",
     "screenshot": "https://opengraph.githubassets.com/deac7c6e3ef65e1297d7411e2b80fa8178c34c5445687a46f0fef71cab76f931/govijr/terminal-mac",
     "description": "A separate macOS desktop for computer-use agents, viewed and controlled from a terminal. iOS simulators and iPhones: see the sibling project terminal-phone. terminal-mac is an early release candidate for Apple silicon. Apple Virtualization runs a real macOS guest. A bundled helper inside that gue...",
     "hatenaDate": "2026-11-04T07:48:56Z",
     "users": [],
     "firstSeenAt": "2026-11-05T00:15:14.860527+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -114,7 +114,7 @@
     "hatenaDate": "2026-11-04T10:41:48Z",
     "users": [],
     "firstSeenAt": "2026-11-05T00:15:14.860527+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body"
   },
   {
@@ -128,7 +128,7 @@
     "hatenaDate": "2026-11-04T10:37:32Z",
     "users": [],
     "firstSeenAt": "2026-11-05T00:00:12.194632+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body"
   },
   {
@@ -142,7 +142,7 @@
     "hatenaDate": "2026-11-04T10:40:46Z",
     "users": [],
     "firstSeenAt": "2026-11-04T23:45:20.233221+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body"
   },
   {
@@ -156,7 +156,7 @@
     "hatenaDate": "2026-11-04T04:33:36Z",
     "users": [],
     "firstSeenAt": "2026-11-04T23:30:15.356662+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -171,7 +171,7 @@
     "hatenaDate": "2026-11-04T10:01:16Z",
     "users": [],
     "firstSeenAt": "2026-11-04T23:15:15.921866+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body"
   },
   {
@@ -185,21 +185,21 @@
     "hatenaDate": "2026-11-04T09:55:58Z",
     "users": [],
     "firstSeenAt": "2026-11-04T23:00:17.113482+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "情報漏えいの「おわびメール」が毎日届いてうんざり……漏れた情報別に“最低限やること”をまとめた",
     "url": "https://www.itmedia.co.jp/mobile/articles/2611/04/news087.html",
     "domain": "www.itmedia.co.jp",
-    "count": 38,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2611/04/news087.html",
     "screenshot": "https://image.itmedia.co.jp/mobile/articles/2611/04/cover_news087.jpg",
     "description": "（1/3 ページ） 「不正アクセスによる個人情報漏えいに関するおわびとお知らせ」──。ここ最近、こんな件名のメールが毎日のように届いて、うんざりしている人も多いのではないでしょうか。 実際、漏えいの公表は異常なペースで続いています。内閣府の個人情報保護委員会による集計（速報値）では、2026年4月1日〜10月16日に民間事業者から直接報告された不正アクセスによる漏えいなどの事案は2094件でした。10月は1日〜16日の半月間だけで830件に達し、急増しています。100万人を超える大規模事案は累計で20件超（うち1000万人超が6件など）となっています。 タイムズカーの約660万件（アカウント…",
     "hatenaDate": "2026-11-04T10:40:47Z",
     "users": [],
     "firstSeenAt": "2026-11-04T23:00:17.113482+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body"
   },
   {
@@ -213,7 +213,7 @@
     "hatenaDate": "2026-11-04T09:04:35Z",
     "users": [],
     "firstSeenAt": "2026-11-04T22:45:14.968170+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body"
   },
   {
@@ -270,7 +270,7 @@
     "hatenaDate": "2026-11-04T10:06:48Z",
     "users": [],
     "firstSeenAt": "2026-11-04T21:45:14.860209+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -279,14 +279,14 @@
     "title": "【速報】グーグル、小中高で検索・AIの利用制限へ",
     "url": "https://www.47news.jp/15183028.html",
     "domain": "www.47news.jp",
-    "count": 16,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15183028.html",
     "screenshot": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
     "description": "【ニューヨーク共同】米グーグルは3日、世界各地の小中高の児童生徒が校内や自宅で使う学習用アカウントでインターネット検索や人工知能（AI）の機能の利用を制限する方針を発表した。初期設定では機能を無効とする。 国内外約100の拠点を軸に、世界情勢から地域の話題まで、旬のニュースを的確に、いち早くお届けします。 AI時代に「自分らしい生きがいを」 脳科学者・茂木健一郎さん、武雄アジア大学で市民公開講座 幅広い知識と技術で、顧客の省エネを支え続ける 最前線で奮闘するKenesの社員たち 幅広い分野の革新的で優れたサービスを募集 第6回日本サービス大賞エントリー受付開始 人の営みがよみがえり、願いは「…",
     "hatenaDate": "2026-11-04T09:03:35Z",
     "users": [],
     "firstSeenAt": "2026-11-04T21:30:14.416679+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body"
   },
   {
@@ -315,7 +315,7 @@
     "hatenaDate": "2026-11-04T09:09:14Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:45:13.446736+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -331,21 +331,21 @@
     "hatenaDate": "2026-11-04T09:38:49Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:45:13.446736+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "MUJI Card 会員情報の流出の可能性に関するお知らせとお詫び | クレジットカードはセゾンカード",
     "url": "https://www.saisoncard.co.jp/customer-support/information/20261104/",
     "domain": "www.saisoncard.co.jp",
-    "count": 46,
+    "count": 47,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.saisoncard.co.jp/customer-support/information/20261104/",
     "screenshot": "https://images.saisoncard-assets.com/assets/462949b256274358947c3db996c948d4/c9aadfc16cc54456a31ffeb0a340fd31/og.png",
     "description": "このたび、株式会社良品計画（以下「良品計画」）のシステムが第三者による不正アクセスを受け、株式会社クレディセゾン（以下「当社」）が発行するMUJI Card のカード番号を含むお客様の情報に第三者がアクセスした可能性があると報告がありました。 MUJI Card をご利用のお客様をはじめ、関係する皆様に多大なるご心配とご迷惑をおかけしておりますことを、深くお詫び申しあげます。 当社では、お客様のカードの不正利用を防止するため、不正利用の監視強化などの対応を進めております。現時点で判明している内容と当社の対応について、以下のとおりお知らせいたします。 2026年10月29日（木）午前1時頃、良…",
     "hatenaDate": "2026-11-04T09:21:10Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:30:16.197629+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -361,21 +361,21 @@
     "hatenaDate": "2026-11-04T09:59:35Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:15:18.362824+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "中国メーカー、出荷前のAndroid端末に犯罪用のバックドアを設置か　Googleが取引停止",
     "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002884/",
     "domain": "www.itmedia.co.jp",
-    "count": 215,
+    "count": 216,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/04/2000002884/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/04/2000002884/10011321/2048",
     "description": "中国の端末メーカーが製造したAndroid端末に、遠隔から操作できるバックドアを仕込み、そのアクセス権を犯罪者らに販売していた――米Googleは11月3日（現地時間）、Android TV端末など130万台超に不正ソフトが組み込まれ、広告詐欺や不正な通信の中継などに悪用されていたと発表した。 関与を指摘されたのは、中国のOEM／ODMメーカーVideostrong Technology（深圳市）。Googleは同社が金銭目的で意図的に不正ソフトを組み込んだと判断し、取引を停止。Google認証済みAndroid端末の製造・販売や、他の認証端末メーカーへのソフトウェア供給も禁じた。 対象とな…",
     "hatenaDate": "2026-11-04T10:13:30Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:00:12.726388+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -384,14 +384,14 @@
     "title": "ローカルAI最強エンジン「Strata」初心者向けガイド【チャットAIで動画やマンガを自動生成】 | ちもろぐ",
     "url": "https://chimolog.co/strata-guide/",
     "domain": "chimolog.co",
-    "count": 274,
+    "count": 277,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/chimolog.co/strata-guide/",
     "screenshot": "https://chimolog.co/wp-content/uploads/2026/11/strata-guide-600.webp",
     "description": "ローカル生成AIに真の民主化をもたらした推論エンジン「Strata」が凄いらしいけど、イマイチ使い方が分からないし、そもそも「凄さ」が分からない。 そう感じている自作PCユーザーが意外と少なくないので、本記事でStrataの使い方を解説します。すでに知ってる人からすれば当たり前の内容も多いですが、誰だって最初は初心者なのだから優しく見守ってください。 月額3000円ほど払えば、最上級の性能を持つクラウドAIモデルに誰でもアクセスできます。しかも人並みの性能どころではなく、「人類の上位1%」レベルの性能です。 筆者やかもちは、月額6000円くらい課金して「Opus 5.5」と「GPT-6.1…",
     "hatenaDate": "2026-11-04T09:44:17Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:00:12.726388+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -421,21 +421,21 @@
     "hatenaDate": "2026-11-04T08:45:28Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:45:13.699489+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "マスク氏、米中間選挙の民主党勝利に「肩すくめる」絵文字　共和党の巨額献金者",
     "url": "https://www.cnn.co.jp/usa/35254380.html",
     "domain": "www.cnn.co.jp",
-    "count": 31,
+    "count": 32,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.cnn.co.jp/usa/35254380.html",
     "screenshot": "https://www.cnn.co.jp/media/cnn/images/common/ogp/ogp.png",
     "description": "（CNN） 世界一の富豪イーロン・マスク氏は4日未明、前日投開票の米中間選挙で民主党が歴史的な過半数を確保する見通しとなったことを受け、自身のソーシャルメディア上で反応を示した。同氏は今年の中間選挙で、共和党に対する史上最大規模の献金者の一人となっていた。 マスク氏は自身のプラットフォーム「X（旧ツイッター）」への投稿で、「どうやら私の『選挙干渉用スペースレーザー』は今回うまく機能しなかったらしい」と書き込み、肩をすくめる絵文字を添えた。 Guess my election-interfering space lasers didn’t work this time 🤷‍♂️ — Elon…",
     "hatenaDate": "2026-11-04T09:10:35Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:45:13.699489+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body"
   },
   {
@@ -498,14 +498,14 @@
     "title": "良品計画 クレカ番号の全桁 約109万件が漏えいのおそれ | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261104de70494",
     "domain": "news.web.nhk",
-    "count": 393,
+    "count": 394,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261104de70494",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261104de70494/20261104de70494_E0000141661_1_l.jpg",
     "description": "【NHK】「無印良品」を展開する良品計画は、不正アクセスを受けて、クレジットカード番号の全桁、およそ109万件が漏えいしたおそれがあると発表しました。 この中には、すでに期限切れとなっているカードも多く含ま",
     "hatenaDate": "2026-11-04T09:17:59Z",
     "users": [],
     "firstSeenAt": "2026-11-04T18:30:14.343178+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -556,14 +556,14 @@
     "title": "「ヘリの爆音で妻がノイローゼに」　GMO熊谷代表の「迷惑行為」を近隣住民が明かす　モデルを集めて「シャンパンパーティー」に「もう勘弁してほしい」 | デイリー新潮",
     "url": "https://www.dailyshincho.jp/article/2026/11041149/",
     "domain": "www.dailyshincho.jp",
-    "count": 91,
+    "count": 92,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.dailyshincho.jp/article/2026/11041149/",
     "screenshot": "https://www.dailyshincho.com/wp-content/uploads/2026/11/1517796_2.jpg",
     "description": "11月2日、GMOインターネットグループの熊谷正寿代表(63)は、傘下のGMOインターネットが提供するクラウドサービス「お名前.comデスクトップクラウド」への不正アクセスを巡り、会見を行った。会見では涙も見せたワンマン経営者。その「真の顔」に迫る。 11月2日、記者会見に臨んだ熊谷氏の面持ちは神妙なものだった。今回の情報流出を招いたシステムの脆弱（ぜいじゃく）性が2年前には判明していた件について、",
     "hatenaDate": "2026-11-04T05:17:34Z",
     "users": [],
     "firstSeenAt": "2026-11-04T17:30:13.119931+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -572,14 +572,14 @@
     "title": "RAM関連発言で燃えたサム・アルトマンがXアカウント名を「Ram Altman」に変更、RAMをデータセンターに集約するべきという意見表明の後に",
     "url": "https://gigazine.net/news/20261104-ram-altman/",
     "domain": "gigazine.net",
-    "count": 107,
+    "count": 108,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261104-ram-altman/",
     "screenshot": "https://i.gzn.jp/img/2026/11/04/ram-altman/00.png",
     "description": "OpenAIのサム・アルトマンCEOがXのアカウント名を「Ram Altman」に変更しました。 Ram Altman（@sama）さん / X https://x.com/sama OpenAIをはじめとするAI企業はAIの開発およびサービス展開のために膨大な数のメモリを購入しており、世界的なメモリ不足を引き起こしています。個人ユーザー向けのRAMの価格も急騰してお...",
     "hatenaDate": "2026-11-04T07:56:21Z",
     "users": [],
     "firstSeenAt": "2026-11-04T17:30:13.119931+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -609,7 +609,7 @@
     "hatenaDate": "2026-11-04T05:25:42Z",
     "users": [],
     "firstSeenAt": "2026-11-04T17:00:13.622017+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -814,14 +814,14 @@
     "title": "マッキンゼーが国に納品した資料2,446ページ、全部数えたらパターンは7つだけだった｜うちた",
     "url": "https://note.com/uchita_success/n/nfc53d1ef5f81",
     "domain": "note.com",
-    "count": 517,
+    "count": 520,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/uchita_success/n/nfc53d1ef5f81",
     "screenshot": "https://assets.st-note.com/production/uploads/images/331718777/rectangle_large_type_2_7c10ab2f38dc8f253b3533956d0c32f5.png?fit=bounds&quality=85&width=1280",
     "description": "経産省のサイトは、コンサル資料の宝の山。意外なのは、派手なフレームワークが少数だったこと。一流ほど、基本の型を使い倒すんです。 国は毎年、調査の仕事を大手のコンサルに委託していて、終わった仕事の報告書を国のサイトで公開しています。つまり、税金で作られたコンサルの\"ガチの納品物\"が、無料で読み放題なんです。 で、昔から「コンサルのスライドには型がある」と言われるじゃないですか。本当なのか、何種類なのか。この宝の山から対象を選んで、確かめることにしました。 マッキンゼーの委託調査を集めると22本、合わせて2,446ページありました。経産省が18本、国税庁が3本、内閣府が1本。量が量なので、AIに…",
     "hatenaDate": "2026-11-03T15:24:33Z",
     "users": [],
     "firstSeenAt": "2026-11-04T13:30:13.873579+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -866,7 +866,7 @@
     "hatenaDate": "2026-11-04T01:42:21Z",
     "users": [],
     "firstSeenAt": "2026-11-04T13:00:10.264002+09:00",
-    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:15:16.676073+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
