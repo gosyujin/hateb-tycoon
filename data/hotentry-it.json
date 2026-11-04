@@ -1,16 +1,31 @@
 [
   {
+    "title": "無料でネット接続なしでもWikipedia・教科書・オフラインマップが検索できAIアシスタントも搭載したオフライン知識検索ツール「Project NOMAD」",
+    "url": "https://gigazine.net/news/20261104-project-nomad/",
+    "domain": "gigazine.net",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261104-project-nomad/",
+    "screenshot": "https://i.gzn.jp/img/2026/11/04/project-nomad/00.png",
+    "description": "Wikipediaで調べ物をしたり地図を確認したりする際はインターネット接続が基本ですが、通信回線が使えない場所や災害時には必要な情報を確認するのが難しくなります。そんな状況に備えてWikipedia・教科書・電子書籍・医療資料・オフラインマップをPCにまとめて保存し、さらにインターネット接続なしで動作するAIアシス...",
+    "hatenaDate": "2026-11-04T14:13:37Z",
+    "users": [],
+    "firstSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
+    "bodyTries": 1,
+    "bodyReason": "crawl-delay-too-long"
+  },
+  {
     "title": "2027年4月26日から変わる CloudWatch Logs の IAM ポリシーの評価方法を CloudWatch Logs IAM Policy Validator で確認する - kakakakakku blog",
     "url": "https://kakakakakku.hatenablog.com/entry/2026/11/04/091507",
     "domain": "kakakakakku.hatenablog.com",
-    "count": 6,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kakakakakku.hatenablog.com/entry/2026/11/04/091507",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/d9e5a0bafeaa18afdf4aaabbcefabc84a18c235d/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fk%2Fkakku22%2F20261103%2F20261103140634.png",
     "description": "個人の検証環境として使ってる AWS アカウントに AWS Health から「AWS CLOUDWATCH PLANNED LIFECYCLE EVENT」という AWS Health Event が来ていた．簡単に言うと「2027年4月26日から Amazon CloudWatch Logs の IAM ポリシーの評価方法が変わるから事前に対応よろしく！」という内容だった． Starting April 26, 2027, IAM statements that authorize Log Group actions must use a Log Group ARN. Today, a…",
     "hatenaDate": "2026-11-04T03:13:11Z",
     "users": [],
     "firstSeenAt": "2026-11-05T05:15:16.311631+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -19,14 +34,14 @@
     "title": "商品情報、若年層はインフルエンサーより生成AI信頼　サイバー調査 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC301IV0Q6A031C2000000/",
     "domain": "www.nikkei.com",
-    "count": 9,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC301IV0Q6A031C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3828317004112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=da01af2f80186d7eb834f2b871356139",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 商品やサービスの情報源として、インフルエンサーらの発信より生成AI（人工知能）の回答を重視することがサイバーエージェントの若年層向け調査で分かった。生成AI利用者の45%が信頼し、テレビや雑誌よりもわずかながら高かった。 サイバーエージェント次世代生活研究所が7月13〜31日、インターネットを通じて全国の小学生から38歳までの生成AI利用者1648人から有効回答を得た。15歳未満は保護者の代理回... 企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。…",
     "hatenaDate": "2026-11-04T11:01:14Z",
     "users": [],
     "firstSeenAt": "2026-11-05T03:00:14.806823+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body"
   },
   {
@@ -40,7 +55,7 @@
     "hatenaDate": "2026-11-03T11:27:53Z",
     "users": [],
     "firstSeenAt": "2026-11-05T02:15:11.087106+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -55,7 +70,7 @@
     "hatenaDate": "2026-11-04T05:00:39Z",
     "users": [],
     "firstSeenAt": "2026-11-05T01:00:13.140688+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body"
   },
   {
@@ -69,7 +84,7 @@
     "hatenaDate": "2026-11-04T07:48:56Z",
     "users": [],
     "firstSeenAt": "2026-11-05T00:15:14.860527+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -99,7 +114,7 @@
     "hatenaDate": "2026-11-04T10:41:48Z",
     "users": [],
     "firstSeenAt": "2026-11-05T00:15:14.860527+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body"
   },
   {
@@ -113,7 +128,7 @@
     "hatenaDate": "2026-11-04T10:37:32Z",
     "users": [],
     "firstSeenAt": "2026-11-05T00:00:12.194632+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body"
   },
   {
@@ -127,7 +142,7 @@
     "hatenaDate": "2026-11-04T10:40:46Z",
     "users": [],
     "firstSeenAt": "2026-11-04T23:45:20.233221+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body"
   },
   {
@@ -141,7 +156,7 @@
     "hatenaDate": "2026-11-04T04:33:36Z",
     "users": [],
     "firstSeenAt": "2026-11-04T23:30:15.356662+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -156,21 +171,21 @@
     "hatenaDate": "2026-11-04T10:01:16Z",
     "users": [],
     "firstSeenAt": "2026-11-04T23:15:15.921866+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "回線悪用のサーバー無害化　警察庁、米グーグルと連携 | NEWSjp",
     "url": "https://news.jp/i/1490641855482659408",
     "domain": "news.jp",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.jp/i/1490641855482659408",
     "screenshot": "https://img.jp.ekkowassets.com/c_fill,w_400,h_210,f_auto,g_faces,q_auto:eco/ch/images/1490700146259673104/origin_1.jpg",
     "description": "警察庁は4日、一般家庭のインターネット回線を悪用して、所有者が認識していないところでサイバー攻撃を仕掛ける「レジデンシャルプロキシ」と呼ばれる仕組みに利用されたサーバーなどをテイクダウン（無害化）したと発表した。米グーグルと連携した。 警察庁によると、2025年に発生したインターネットバンキングの不正送金被害4747件のうち、少なくとも737件（被害額約13億9千万円）にレジデンシャルプロキシが用いられた。他のサイバー犯罪にも利用されているという。",
     "hatenaDate": "2026-11-04T09:55:58Z",
     "users": [],
     "firstSeenAt": "2026-11-04T23:00:17.113482+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body"
   },
   {
@@ -184,7 +199,7 @@
     "hatenaDate": "2026-11-04T10:40:47Z",
     "users": [],
     "firstSeenAt": "2026-11-04T23:00:17.113482+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body"
   },
   {
@@ -198,7 +213,7 @@
     "hatenaDate": "2026-11-04T09:04:35Z",
     "users": [],
     "firstSeenAt": "2026-11-04T22:45:14.968170+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body"
   },
   {
@@ -248,14 +263,14 @@
     "title": "ドコモ社長、5G基地局がKDDIやソフトバンクより少ない理由を説明",
     "url": "https://japan.cnet.com/article/35254374/",
     "domain": "japan.cnet.com",
-    "count": 48,
+    "count": 51,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35254374/",
     "screenshot": "https://japan.cnet.com/storage/2026/11/04/2821f9969736e307ea0c6aad61191ab2/01.jpg",
     "description": "NTTドコモの前田義晃社長は11月4日の決算説明会で、同社の5G基地局数が他社（KDDIやソフトバンク）より少ない理由について、通信容量を確保できるサブ6（3.7GHz帯、4.5GHz帯）の整備を優先しているためだと説明した。4Gの周波数を5Gに転用するには、基地局を収容する装置の交換工事が必要だという。また、2026年度の設備投資計画を430億円増額し、9000億円に引き上げた。5G SA（スタンドアローン方式）への移行を前倒しするほか、設備価格の上昇にも対応する。 総務省が10月30日に公表した電波の利用状況調査によると、2026年3月末時点のドコモの5G基地局数は5万8979局だった。…",
     "hatenaDate": "2026-11-04T10:06:48Z",
     "users": [],
     "firstSeenAt": "2026-11-04T21:45:14.860209+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -271,7 +286,7 @@
     "hatenaDate": "2026-11-04T09:03:35Z",
     "users": [],
     "firstSeenAt": "2026-11-04T21:30:14.416679+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body"
   },
   {
@@ -293,14 +308,14 @@
     "title": "日本語プログラミングフォント「Cyroit」とそのファミリー8種が一斉アップデート／「Inconsolata」＋「Circle M+」＋「BIZ UDゴシック」、コード特有の可読性にも配慮",
     "url": "https://forest.watch.impress.co.jp/docs/news/2153421.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 72,
+    "count": 74,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2153421.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2153/421/image_top.png",
     "description": "日本語プログラミングフォント「Cyroit」とそのファミリー8種が一斉アップデート 「Inconsolata」＋「Circle M+」＋「BIZ UDゴシック」、コード特有の可読性にも配慮 日本語プログラミングフォント「Cyroit」とその姉妹フォント8種が11月3日（日本時間）、一斉にアップデートされた。「Cyroit」はv5.0.0、それ以外の8種はv3.0.0となっている。 「Cyroit」（しろいと）は、日本語環境でのコーディングに適した等幅フォント。ラテン文字に日本人プログラマー向けフォントの先駆「Ricty」でも用いられていた「Inconsolata」、仮名・ギリシア文字・キリル…",
     "hatenaDate": "2026-11-04T09:09:14Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:45:13.446736+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -316,7 +331,7 @@
     "hatenaDate": "2026-11-04T09:38:49Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:45:13.446736+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body"
   },
   {
@@ -330,7 +345,7 @@
     "hatenaDate": "2026-11-04T09:21:10Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:30:16.197629+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -346,21 +361,21 @@
     "hatenaDate": "2026-11-04T09:59:35Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:15:18.362824+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "中国メーカー、出荷前のAndroid端末に犯罪用のバックドアを設置か　Googleが取引停止",
     "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002884/",
     "domain": "www.itmedia.co.jp",
-    "count": 208,
+    "count": 215,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/04/2000002884/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/04/2000002884/10011321/2048",
     "description": "中国の端末メーカーが製造したAndroid端末に、遠隔から操作できるバックドアを仕込み、そのアクセス権を犯罪者らに販売していた――米Googleは11月3日（現地時間）、Android TV端末など130万台超に不正ソフトが組み込まれ、広告詐欺や不正な通信の中継などに悪用されていたと発表した。 関与を指摘されたのは、中国のOEM／ODMメーカーVideostrong Technology（深圳市）。Googleは同社が金銭目的で意図的に不正ソフトを組み込んだと判断し、取引を停止。Google認証済みAndroid端末の製造・販売や、他の認証端末メーカーへのソフトウェア供給も禁じた。 対象とな…",
     "hatenaDate": "2026-11-04T10:13:30Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:00:12.726388+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -369,14 +384,14 @@
     "title": "ローカルAI最強エンジン「Strata」初心者向けガイド【チャットAIで動画やマンガを自動生成】 | ちもろぐ",
     "url": "https://chimolog.co/strata-guide/",
     "domain": "chimolog.co",
-    "count": 268,
+    "count": 274,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/chimolog.co/strata-guide/",
     "screenshot": "https://chimolog.co/wp-content/uploads/2026/11/strata-guide-600.webp",
     "description": "ローカル生成AIに真の民主化をもたらした推論エンジン「Strata」が凄いらしいけど、イマイチ使い方が分からないし、そもそも「凄さ」が分からない。 そう感じている自作PCユーザーが意外と少なくないので、本記事でStrataの使い方を解説します。すでに知ってる人からすれば当たり前の内容も多いですが、誰だって最初は初心者なのだから優しく見守ってください。 月額3000円ほど払えば、最上級の性能を持つクラウドAIモデルに誰でもアクセスできます。しかも人並みの性能どころではなく、「人類の上位1%」レベルの性能です。 筆者やかもちは、月額6000円くらい課金して「Opus 5.5」と「GPT-6.1…",
     "hatenaDate": "2026-11-04T09:44:17Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:00:12.726388+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -406,7 +421,7 @@
     "hatenaDate": "2026-11-04T08:45:28Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:45:13.699489+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body"
   },
   {
@@ -420,7 +435,7 @@
     "hatenaDate": "2026-11-04T09:10:35Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:45:13.699489+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body"
   },
   {
@@ -483,14 +498,14 @@
     "title": "良品計画 クレカ番号の全桁 約109万件が漏えいのおそれ | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261104de70494",
     "domain": "news.web.nhk",
-    "count": 391,
+    "count": 393,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261104de70494",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261104de70494/20261104de70494_E0000141661_1_l.jpg",
     "description": "【NHK】「無印良品」を展開する良品計画は、不正アクセスを受けて、クレジットカード番号の全桁、およそ109万件が漏えいしたおそれがあると発表しました。 この中には、すでに期限切れとなっているカードも多く含ま",
     "hatenaDate": "2026-11-04T09:17:59Z",
     "users": [],
     "firstSeenAt": "2026-11-04T18:30:14.343178+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -548,7 +563,7 @@
     "hatenaDate": "2026-11-04T05:17:34Z",
     "users": [],
     "firstSeenAt": "2026-11-04T17:30:13.119931+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -557,14 +572,14 @@
     "title": "RAM関連発言で燃えたサム・アルトマンがXアカウント名を「Ram Altman」に変更、RAMをデータセンターに集約するべきという意見表明の後に",
     "url": "https://gigazine.net/news/20261104-ram-altman/",
     "domain": "gigazine.net",
-    "count": 106,
+    "count": 107,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261104-ram-altman/",
     "screenshot": "https://i.gzn.jp/img/2026/11/04/ram-altman/00.png",
     "description": "OpenAIのサム・アルトマンCEOがXのアカウント名を「Ram Altman」に変更しました。 Ram Altman（@sama）さん / X https://x.com/sama OpenAIをはじめとするAI企業はAIの開発およびサービス展開のために膨大な数のメモリを購入しており、世界的なメモリ不足を引き起こしています。個人ユーザー向けのRAMの価格も急騰してお...",
     "hatenaDate": "2026-11-04T07:56:21Z",
     "users": [],
     "firstSeenAt": "2026-11-04T17:30:13.119931+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -594,7 +609,7 @@
     "hatenaDate": "2026-11-04T05:25:42Z",
     "users": [],
     "firstSeenAt": "2026-11-04T17:00:13.622017+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -799,14 +814,14 @@
     "title": "マッキンゼーが国に納品した資料2,446ページ、全部数えたらパターンは7つだけだった｜うちた",
     "url": "https://note.com/uchita_success/n/nfc53d1ef5f81",
     "domain": "note.com",
-    "count": 512,
+    "count": 517,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/uchita_success/n/nfc53d1ef5f81",
     "screenshot": "https://assets.st-note.com/production/uploads/images/331718777/rectangle_large_type_2_7c10ab2f38dc8f253b3533956d0c32f5.png?fit=bounds&quality=85&width=1280",
     "description": "経産省のサイトは、コンサル資料の宝の山。意外なのは、派手なフレームワークが少数だったこと。一流ほど、基本の型を使い倒すんです。 国は毎年、調査の仕事を大手のコンサルに委託していて、終わった仕事の報告書を国のサイトで公開しています。つまり、税金で作られたコンサルの\"ガチの納品物\"が、無料で読み放題なんです。 で、昔から「コンサルのスライドには型がある」と言われるじゃないですか。本当なのか、何種類なのか。この宝の山から対象を選んで、確かめることにしました。 マッキンゼーの委託調査を集めると22本、合わせて2,446ページありました。経産省が18本、国税庁が3本、内閣府が1本。量が量なので、AIに…",
     "hatenaDate": "2026-11-03T15:24:33Z",
     "users": [],
     "firstSeenAt": "2026-11-04T13:30:13.873579+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -851,7 +866,7 @@
     "hatenaDate": "2026-11-04T01:42:21Z",
     "users": [],
     "firstSeenAt": "2026-11-04T13:00:10.264002+09:00",
-    "lastSeenAt": "2026-11-05T05:45:16.201094+09:00",
+    "lastSeenAt": "2026-11-05T06:00:17.180381+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4393,22 +4408,6 @@
     "users": [],
     "firstSeenAt": "2026-10-31T19:00:13.840665+09:00",
     "lastSeenAt": "2026-11-01T13:45:16.407830+09:00",
-    "descriptionSource": "body",
-    "bodyStatus": "skip",
-    "bodyReason": "not-longer"
-  },
-  {
-    "title": "視野はAIに、視座は人に / ai-for-breadth-humans-for-perspective",
-    "url": "https://speakerdeck.com/nkzn/ai-for-breadth-humans-for-perspective",
-    "domain": "speakerdeck.com",
-    "count": 75,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/nkzn/ai-for-breadth-humans-for-perspective",
-    "screenshot": "https://files.speakerdeck.com/presentations/9827c27e9d13403aa6a883f19a64fd6a/slide_0.jpg?41159272",
-    "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … 視野はAIに、視座は人に / ai-for-breadth-humans-for-persp... 視野はAIに、視座は人に / ai-for-breadth-humans-for-perspective 明日の講演、こうやって作ってます - KomeKaigi 2026招待講演のメイキング / niigata-5min-tech-20261030 AIがコードを書いてくれるなら、新米エンジニアは何をする？ / komekaigi202…",
-    "hatenaDate": "2026-10-31T04:05:42Z",
-    "users": [],
-    "firstSeenAt": "2026-10-31T19:00:13.840665+09:00",
-    "lastSeenAt": "2026-11-01T11:30:14.717387+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
