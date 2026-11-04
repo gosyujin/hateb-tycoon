@@ -1,5 +1,19 @@
 [
   {
+    "title": "2027年4月26日から変わる CloudWatch Logs の IAM ポリシーの評価方法を CloudWatch Logs IAM Policy Validator で確認する - kakakakakku blog",
+    "url": "https://kakakakakku.hatenablog.com/entry/2026/11/04/091507",
+    "domain": "kakakakakku.hatenablog.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/kakakakakku.hatenablog.com/entry/2026/11/04/091507",
+    "screenshot": "https://cdn.image.st-hatena.com/image/scale/d9e5a0bafeaa18afdf4aaabbcefabc84a18c235d/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fk%2Fkakku22%2F20261103%2F20261103140634.png",
+    "description": "個人の検証環境として使ってる AWS アカウントに AWS Health から「AWS CLOUDWATCH PLANNED LIFECYCLE EVENT」という AWS Health Event が来ていた．簡単に言うと「2027年4月26日から Amazon CloudWatch Logs の IAM ポリシーの評価方法が変わるから事前に対応よろしく！」という内容だった． Starting April 26, 2027, IAM statements that authorize Log Group actions must use a Log Group ARN. Today, a…",
+    "hatenaDate": "2026-11-04T03:13:11Z",
+    "users": [],
+    "firstSeenAt": "2026-11-05T05:15:16.311631+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "商品情報、若年層はインフルエンサーより生成AI信頼　サイバー調査 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC301IV0Q6A031C2000000/",
     "domain": "www.nikkei.com",
@@ -10,7 +24,7 @@
     "hatenaDate": "2026-11-04T11:01:14Z",
     "users": [],
     "firstSeenAt": "2026-11-05T03:00:14.806823+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +38,7 @@
     "hatenaDate": "2026-11-03T11:27:53Z",
     "users": [],
     "firstSeenAt": "2026-11-05T02:15:11.087106+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -39,7 +53,7 @@
     "hatenaDate": "2026-11-04T05:00:39Z",
     "users": [],
     "firstSeenAt": "2026-11-05T01:00:13.140688+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body"
   },
   {
@@ -53,7 +67,7 @@
     "hatenaDate": "2026-11-04T07:48:56Z",
     "users": [],
     "firstSeenAt": "2026-11-05T00:15:14.860527+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -83,7 +97,7 @@
     "hatenaDate": "2026-11-04T10:41:48Z",
     "users": [],
     "firstSeenAt": "2026-11-05T00:15:14.860527+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body"
   },
   {
@@ -97,7 +111,7 @@
     "hatenaDate": "2026-11-04T10:37:32Z",
     "users": [],
     "firstSeenAt": "2026-11-05T00:00:12.194632+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body"
   },
   {
@@ -111,7 +125,7 @@
     "hatenaDate": "2026-11-04T10:40:46Z",
     "users": [],
     "firstSeenAt": "2026-11-04T23:45:20.233221+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body"
   },
   {
@@ -135,12 +149,12 @@
     "domain": "news.yahoo.co.jp",
     "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/b6e64f561e159b8d879512f49d4f3641b50e031a",
-    "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261104-00010039-annd-000-1-view.jpg?exp=10800",
+    "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261104-00010039-annd-000-8-view.jpg?exp=10800",
     "description": "「無印良品」で新たにクレジットカード会員のカード番号などおよそ109万件も、流出の可能性が明らかになりました。 運営する良品計画によりますと、流出した可能性があるのは、2021年7月までにクレジットカード「MUJICard」の会員に登録した顧客のカード番号の全ての桁、カードID、生年月日など、およそ109万件です。 良品計画は、先月30日にアプリ会員のメールアドレスなど最大でおよそ2726万件が流出した可能性があると、発表していて、クレジットカード情報や氏名、住所は含まれていないとしていました。 しかし調査の結果、アプリ会員などの氏名や住所などおよそ52万件、さらにカード番号の一部も流出した…",
     "hatenaDate": "2026-11-04T10:01:16Z",
     "users": [],
     "firstSeenAt": "2026-11-04T23:15:15.921866+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body"
   },
   {
@@ -154,7 +168,7 @@
     "hatenaDate": "2026-11-04T09:55:58Z",
     "users": [],
     "firstSeenAt": "2026-11-04T23:00:17.113482+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body"
   },
   {
@@ -168,7 +182,7 @@
     "hatenaDate": "2026-11-04T10:40:47Z",
     "users": [],
     "firstSeenAt": "2026-11-04T23:00:17.113482+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body"
   },
   {
@@ -182,7 +196,7 @@
     "hatenaDate": "2026-11-04T09:04:35Z",
     "users": [],
     "firstSeenAt": "2026-11-04T22:45:14.968170+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body"
   },
   {
@@ -232,14 +246,14 @@
     "title": "ドコモ社長、5G基地局がKDDIやソフトバンクより少ない理由を説明",
     "url": "https://japan.cnet.com/article/35254374/",
     "domain": "japan.cnet.com",
-    "count": 45,
+    "count": 47,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35254374/",
     "screenshot": "https://japan.cnet.com/storage/2026/11/04/2821f9969736e307ea0c6aad61191ab2/01.jpg",
     "description": "NTTドコモの前田義晃社長は11月4日の決算説明会で、同社の5G基地局数が他社（KDDIやソフトバンク）より少ない理由について、通信容量を確保できるサブ6（3.7GHz帯、4.5GHz帯）の整備を優先しているためだと説明した。4Gの周波数を5Gに転用するには、基地局を収容する装置の交換工事が必要だという。また、2026年度の設備投資計画を430億円増額し、9000億円に引き上げた。5G SA（スタンドアローン方式）への移行を前倒しするほか、設備価格の上昇にも対応する。 総務省が10月30日に公表した電波の利用状況調査によると、2026年3月末時点のドコモの5G基地局数は5万8979局だった。…",
     "hatenaDate": "2026-11-04T10:06:48Z",
     "users": [],
     "firstSeenAt": "2026-11-04T21:45:14.860209+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -255,7 +269,7 @@
     "hatenaDate": "2026-11-04T09:03:35Z",
     "users": [],
     "firstSeenAt": "2026-11-04T21:30:14.416679+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body"
   },
   {
@@ -277,14 +291,14 @@
     "title": "日本語プログラミングフォント「Cyroit」とそのファミリー8種が一斉アップデート／「Inconsolata」＋「Circle M+」＋「BIZ UDゴシック」、コード特有の可読性にも配慮",
     "url": "https://forest.watch.impress.co.jp/docs/news/2153421.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 68,
+    "count": 69,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2153421.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2153/421/image_top.png",
     "description": "日本語プログラミングフォント「Cyroit」とそのファミリー8種が一斉アップデート 「Inconsolata」＋「Circle M+」＋「BIZ UDゴシック」、コード特有の可読性にも配慮 日本語プログラミングフォント「Cyroit」とその姉妹フォント8種が11月3日（日本時間）、一斉にアップデートされた。「Cyroit」はv5.0.0、それ以外の8種はv3.0.0となっている。 「Cyroit」（しろいと）は、日本語環境でのコーディングに適した等幅フォント。ラテン文字に日本人プログラマー向けフォントの先駆「Ricty」でも用いられていた「Inconsolata」、仮名・ギリシア文字・キリル…",
     "hatenaDate": "2026-11-04T09:09:14Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:45:13.446736+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -300,21 +314,21 @@
     "hatenaDate": "2026-11-04T09:38:49Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:45:13.446736+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "MUJI Card 会員情報の流出の可能性に関するお知らせとお詫び | クレジットカードはセゾンカード",
     "url": "https://www.saisoncard.co.jp/customer-support/information/20261104/",
     "domain": "www.saisoncard.co.jp",
-    "count": 43,
+    "count": 45,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.saisoncard.co.jp/customer-support/information/20261104/",
     "screenshot": "https://images.saisoncard-assets.com/assets/462949b256274358947c3db996c948d4/c9aadfc16cc54456a31ffeb0a340fd31/og.png",
     "description": "このたび、株式会社良品計画（以下「良品計画」）のシステムが第三者による不正アクセスを受け、株式会社クレディセゾン（以下「当社」）が発行するMUJI Card のカード番号を含むお客様の情報に第三者がアクセスした可能性があると報告がありました。 MUJI Card をご利用のお客様をはじめ、関係する皆様に多大なるご心配とご迷惑をおかけしておりますことを、深くお詫び申しあげます。 当社では、お客様のカードの不正利用を防止するため、不正利用の監視強化などの対応を進めております。現時点で判明している内容と当社の対応について、以下のとおりお知らせいたします。 2026年10月29日（木）午前1時頃、良…",
     "hatenaDate": "2026-11-04T09:21:10Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:30:16.197629+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -330,21 +344,21 @@
     "hatenaDate": "2026-11-04T09:59:35Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:15:18.362824+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "中国メーカー、出荷前のAndroid端末に犯罪用のバックドアを設置か　Googleが取引停止",
     "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002884/",
     "domain": "www.itmedia.co.jp",
-    "count": 199,
+    "count": 202,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/04/2000002884/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/04/2000002884/10011321/2048",
     "description": "中国の端末メーカーが製造したAndroid端末に、遠隔から操作できるバックドアを仕込み、そのアクセス権を犯罪者らに販売していた――米Googleは11月3日（現地時間）、Android TV端末など130万台超に不正ソフトが組み込まれ、広告詐欺や不正な通信の中継などに悪用されていたと発表した。 関与を指摘されたのは、中国のOEM／ODMメーカーVideostrong Technology（深圳市）。Googleは同社が金銭目的で意図的に不正ソフトを組み込んだと判断し、取引を停止。Google認証済みAndroid端末の製造・販売や、他の認証端末メーカーへのソフトウェア供給も禁じた。 対象とな…",
     "hatenaDate": "2026-11-04T10:13:30Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:00:12.726388+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -353,14 +367,14 @@
     "title": "ローカルAI最強エンジン「Strata」初心者向けガイド【チャットAIで動画やマンガを自動生成】 | ちもろぐ",
     "url": "https://chimolog.co/strata-guide/",
     "domain": "chimolog.co",
-    "count": 258,
+    "count": 264,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/chimolog.co/strata-guide/",
     "screenshot": "https://chimolog.co/wp-content/uploads/2026/11/strata-guide-600.webp",
     "description": "ローカル生成AIに真の民主化をもたらした推論エンジン「Strata」が凄いらしいけど、イマイチ使い方が分からないし、そもそも「凄さ」が分からない。 そう感じている自作PCユーザーが意外と少なくないので、本記事でStrataの使い方を解説します。すでに知ってる人からすれば当たり前の内容も多いですが、誰だって最初は初心者なのだから優しく見守ってください。 月額3000円ほど払えば、最上級の性能を持つクラウドAIモデルに誰でもアクセスできます。しかも人並みの性能どころではなく、「人類の上位1%」レベルの性能です。 筆者やかもちは、月額6000円くらい課金して「Opus 5.5」と「GPT-6.1…",
     "hatenaDate": "2026-11-04T09:44:17Z",
     "users": [],
     "firstSeenAt": "2026-11-04T20:00:12.726388+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -390,7 +404,7 @@
     "hatenaDate": "2026-11-04T08:45:28Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:45:13.699489+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body"
   },
   {
@@ -404,7 +418,7 @@
     "hatenaDate": "2026-11-04T09:10:35Z",
     "users": [],
     "firstSeenAt": "2026-11-04T19:45:13.699489+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body"
   },
   {
@@ -467,14 +481,14 @@
     "title": "良品計画 クレカ番号の全桁 約109万件が漏えいのおそれ | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261104de70494",
     "domain": "news.web.nhk",
-    "count": 385,
+    "count": 386,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261104de70494",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261104de70494/20261104de70494_E0000140022_1_l.jpg",
     "description": "【NHK】「無印良品」を展開する良品計画は、不正アクセスを受けて、クレジットカード番号の全桁、およそ109万件が漏えいしたおそれがあると発表しました。 この中には、すでに期限切れとなっているカードも多く含ま",
     "hatenaDate": "2026-11-04T09:17:59Z",
     "users": [],
     "firstSeenAt": "2026-11-04T18:30:14.343178+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -504,7 +518,7 @@
     "hatenaDate": "2026-11-04T02:25:29Z",
     "users": [],
     "firstSeenAt": "2026-11-04T17:30:13.119931+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body"
   },
   {
@@ -532,7 +546,7 @@
     "hatenaDate": "2026-11-04T05:17:34Z",
     "users": [],
     "firstSeenAt": "2026-11-04T17:30:13.119931+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -548,7 +562,7 @@
     "hatenaDate": "2026-11-04T07:56:21Z",
     "users": [],
     "firstSeenAt": "2026-11-04T17:30:13.119931+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -578,7 +592,7 @@
     "hatenaDate": "2026-11-04T05:25:42Z",
     "users": [],
     "firstSeenAt": "2026-11-04T17:00:13.622017+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -783,14 +797,14 @@
     "title": "マッキンゼーが国に納品した資料2,446ページ、全部数えたらパターンは7つだけだった｜うちた",
     "url": "https://note.com/uchita_success/n/nfc53d1ef5f81",
     "domain": "note.com",
-    "count": 505,
+    "count": 508,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/uchita_success/n/nfc53d1ef5f81",
     "screenshot": "https://assets.st-note.com/production/uploads/images/331718777/rectangle_large_type_2_7c10ab2f38dc8f253b3533956d0c32f5.png?fit=bounds&quality=85&width=1280",
     "description": "経産省のサイトは、コンサル資料の宝の山。意外なのは、派手なフレームワークが少数だったこと。一流ほど、基本の型を使い倒すんです。 国は毎年、調査の仕事を大手のコンサルに委託していて、終わった仕事の報告書を国のサイトで公開しています。つまり、税金で作られたコンサルの\"ガチの納品物\"が、無料で読み放題なんです。 で、昔から「コンサルのスライドには型がある」と言われるじゃないですか。本当なのか、何種類なのか。この宝の山から対象を選んで、確かめることにしました。 マッキンゼーの委託調査を集めると22本、合わせて2,446ページありました。経産省が18本、国税庁が3本、内閣府が1本。量が量なので、AIに…",
     "hatenaDate": "2026-11-03T15:24:33Z",
     "users": [],
     "firstSeenAt": "2026-11-04T13:30:13.873579+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -835,7 +849,7 @@
     "hatenaDate": "2026-11-04T01:42:21Z",
     "users": [],
     "firstSeenAt": "2026-11-04T13:00:10.264002+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1280,7 +1294,7 @@
     "hatenaDate": "2026-11-03T21:27:17Z",
     "users": [],
     "firstSeenAt": "2026-11-04T07:45:13.555865+09:00",
-    "lastSeenAt": "2026-11-05T05:00:12.202872+09:00",
+    "lastSeenAt": "2026-11-05T05:15:16.311631+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4396,19 +4410,5 @@
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
-  },
-  {
-    "title": "MacアプリをiPhoneで使いやすいように開発されたリモートデスクトップアプリ「Casement」がリリース。",
-    "url": "https://applech2.com/archives/20261030-casement-mac-app-on-your-iphone.html",
-    "domain": "applech2.com",
-    "count": 6,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/applech2.com/archives/20261030-casement-mac-app-on-your-iphone.html",
-    "screenshot": null,
-    "description": "MacアプリをiPhoneで使いやすいように開発されたリモートデスクトップアプリ「Casement」がリリースされています。詳細は以下から。 Apple初の折りたたみ式スマートフォンiPhone Duoがリリースされて以降、Astropad WorkbenchやScreens 、Sillなど、iPadのような大画面で自宅に設置してあるMacを操作できるリモートデスクトップアプリが再び注目されていますが、その様なリモートデスクトップ系アプリとして新たに「Casement」がリリースされています。 バーチャルデスクトップではなく、バーチャルアプリ。コンピュータで開いているアプリを、外出先のiPh…",
-    "hatenaDate": "2026-10-30T08:39:13Z",
-    "users": [],
-    "firstSeenAt": "2026-10-31T18:45:13.298341+09:00",
-    "lastSeenAt": "2026-10-31T21:30:13.899587+09:00",
-    "descriptionSource": "body"
   }
 ]
