@@ -3,14 +3,14 @@
     "title": "続・ソフトウェアアーキテクトのための意思決定術: Decision Readiness, Revisited — When AI Changes the Economics of Software Architecture",
     "url": "https://speakerdeck.com/snoozer05/decision-readiness-revisited",
     "domain": "speakerdeck.com",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/snoozer05/decision-readiness-revisited",
     "screenshot": "https://files.speakerdeck.com/presentations/44228cbd000c405a9f2eb45fd154af86/slide_0.jpg?41219007",
     "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … 続・ソフトウェアアーキテクトのための意思決定術: Decision Readiness, R... 続・ソフトウェアアーキテクトのための意思決定術: Decision Readiness, Revisited — When AI Changes the Economics of Software Architecture 「『ソフトウェアアーキテクトのための意思決定術』のその先 ――AIで置き換わる仕事と残る意思決定」の発表資料です #…",
     "hatenaDate": "2026-11-05T04:39:46Z",
     "users": [],
     "firstSeenAt": "2026-11-06T01:30:15.588982+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,21 +24,21 @@
     "hatenaDate": "2026-11-05T06:09:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T01:30:15.588982+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "*sshole · sshhole.com",
     "url": "https://sshhole.com/",
     "domain": "sshhole.com",
-    "count": 15,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/sshhole.com/",
     "screenshot": null,
     "description": "*sshole so openssh on musl linux (alpine, openwrt, buildroot, yocto, and a lot of the docker images you've pulled) has had a little problem since 2016. accounts that should never take a password at all (root, your key-only deploy user, ldap users, the default user on alpine's aws and azure images...",
     "hatenaDate": "2026-11-05T12:50:42Z",
     "users": [],
     "firstSeenAt": "2026-11-06T01:00:15.406577+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -53,7 +53,7 @@
     "hatenaDate": "2026-11-05T05:19:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T01:00:15.406577+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -68,21 +68,21 @@
     "hatenaDate": "2026-11-05T08:30:02Z",
     "users": [],
     "firstSeenAt": "2026-11-06T01:00:15.406577+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "思考プロセスの再現性を求めて。カナリーの「UI生成ワークフロー」の現在地｜Cocoda",
     "url": "https://cocoda.design/mayuge33/p/p044da4c62735",
     "domain": "cocoda.design",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/cocoda.design/mayuge33/p/p044da4c62735",
     "screenshot": "https://assets.cocoda.design/uploads/design_case/thumbnail/48282/1793611226-thumbnail.png",
     "description": "カナリーのUI生成フローの現在地説明可能なアウトプットしか受け入れない仕組み1. 要求の解釈と、データモデル / 情報設計仕組み2. ひと工夫のあるUIパターンの生成仕組み3. デザインシステムを考慮したUI調整仕組み4. デザインレビューと、デザインシステムの自動更新ワークフローから生まれている行動例最小の組織に向けたAIワークフロー設計 カナリーでは現在、「PRDの作成」から「デザインシステムに沿ったUIの生成」まで、一通りのプロセスをClaude Codeを使ったワークフローで自動で行えるようにプロセスを組むことができています。 目下、多くのプロダクト組織でAIワークフローを当たり前に…",
     "hatenaDate": "2026-11-04T07:21:39Z",
     "users": [],
     "firstSeenAt": "2026-11-06T01:00:15.406577+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
@@ -103,14 +103,14 @@
     "title": "Windows PC向けゲームの「ロード待ち」はなぜ起こる？　背景に過去との「互換性」",
     "url": "https://www.itmedia.co.jp/pcuser/articles/2611/05/news082.html",
     "domain": "www.itmedia.co.jp",
-    "count": 14,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/pcuser/articles/2611/05/news082.html",
     "screenshot": "https://image.itmedia.co.jp/pcuser/articles/2611/05/cover_news082.jpg",
     "description": "（1/2 ページ） 昨今のコンソール（据え置き型）ゲーム機は、データのロード（読み出し）時間がかなり短くなった――そのことに気付いている人は多いと思う。「ストレージデバイスがHDDからSSDになったのだから、当たり前でしょ？」と思っている人も多いだろうが、実はロード時間の短縮は“そこ”だけが理由ではない。SSD元来の速度を超えたパフォーマンスを、技術の進歩でさらにブーストしているのだ。 一方で、PCゲームのロード時間はどうか。速度だけに着目すると、PCI Express 5.0（PCIe 5.0）接続の超高速なSSDでマシンを構成すれば、それなりの速度は出せているような気はする。しかし、普及…",
     "hatenaDate": "2026-11-05T09:19:13Z",
     "users": [],
     "firstSeenAt": "2026-11-06T00:30:14.152988+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
@@ -124,7 +124,7 @@
     "hatenaDate": "2026-11-05T12:18:50Z",
     "users": [],
     "firstSeenAt": "2026-11-06T00:15:13.525074+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
@@ -138,7 +138,7 @@
     "hatenaDate": "2026-11-05T12:42:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T00:00:09.598454+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
@@ -152,7 +152,7 @@
     "hatenaDate": "2026-11-05T13:37:21Z",
     "users": [],
     "firstSeenAt": "2026-11-06T00:00:09.598454+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
@@ -166,21 +166,21 @@
     "hatenaDate": "2026-11-04T05:21:44Z",
     "users": [],
     "firstSeenAt": "2026-11-06T00:00:09.598454+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "有事に準備する物のリストとサイバー攻撃に対応する方法｜@May_Roma (めいろま）",
     "url": "https://note.com/may_roma/n/n6a606fa1a823",
     "domain": "note.com",
-    "count": 9,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/may_roma/n/n6a606fa1a823",
     "screenshot": "https://assets.st-note.com/production/uploads/images/330463901/rectangle_large_type_2_8777e5885c87b9ef54d6065e12493cda.png?fit=bounds&quality=85&width=1280",
     "description": "イギリスだけではなく、オランダやフランスなど世界各国の政府だけではなく、日本の政府もなぜかほぼ同時に災害や友人に備えろと言う通達を出していますが、私は非常に不穏なものを感じています。 欧州でもどう考えても、工作活動にしか見えない事件が頻繁に起きていますし、サイバー攻撃は日本だけではなく、他の国でもひどいのです。 現在は、上下水道や食料、流通、交通などは情報通信で管理されていますから、サイバー攻撃によって使えなくなってしまう可能性が出てきます。 サイバー攻撃も今までなかった大規模。みなさん麻痺していますが、異常な事態がおきている。 日本では全然報道しないが欧州は今年は夏からポーランド、バルト三…",
     "hatenaDate": "2026-10-31T15:35:59Z",
     "users": [],
     "firstSeenAt": "2026-11-06T00:00:09.598454+09:00",
-    "lastSeenAt": "2026-11-06T01:00:15.406577+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
@@ -194,7 +194,7 @@
     "hatenaDate": "2026-11-05T11:56:45Z",
     "users": [],
     "firstSeenAt": "2026-11-05T23:45:13.057663+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
@@ -208,7 +208,7 @@
     "hatenaDate": "2026-11-05T08:58:57Z",
     "users": [],
     "firstSeenAt": "2026-11-05T23:30:15.170917+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
@@ -222,21 +222,21 @@
     "hatenaDate": "2026-11-05T11:27:49Z",
     "users": [],
     "firstSeenAt": "2026-11-05T23:00:13.851217+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "GPUI",
     "url": "https://gpui.rs/",
     "domain": "gpui.rs",
-    "count": 30,
+    "count": 32,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gpui.rs/",
     "screenshot": null,
     "description": "GPUI A fast, hybrid immediate and retained mode, GPU-accelerated UI framework for Rust. From the creators of Zed & Delta. use gpui::{ div, prelude::*, px, rgb, size, App, Application, Bounds, Context, SharedString, Window, WindowBounds, WindowOptions, }; struct HelloWorld { text: SharedString, } ...",
     "hatenaDate": "2024-01-25T07:44:56Z",
     "users": [],
     "firstSeenAt": "2026-11-05T22:45:20.226075+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -251,7 +251,7 @@
     "hatenaDate": "2026-11-05T10:17:26Z",
     "users": [],
     "firstSeenAt": "2026-11-05T22:45:20.226075+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
@@ -279,21 +279,21 @@
     "hatenaDate": "2026-11-03T13:16:09Z",
     "users": [],
     "firstSeenAt": "2026-11-05T22:30:14.125608+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AIに無理やり書道をやらせる「AI書道コンクール」が登場、画像生成AIではなく言語モデルに挑戦させる",
     "url": "https://gigazine.net/news/20261105-ai-shodo/",
     "domain": "gigazine.net",
-    "count": 15,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261105-ai-shodo/",
     "screenshot": "https://i.gzn.jp/img/2026/11/05/ai-shodo/00.png",
     "description": "さまざまなAIモデルに書道に挑戦させ、作品を並べて鑑賞するというサイトが「AI書道コンクール」です。 AI書道コンクール https://aishodo.enpitsu.org/ 『AI書道コンクール』というサイトを作りました。さまざまな言語モデルにむりやり書道をやらせて、みんなでそれを鑑賞するサイトです。https://t.co/Ode7SNz75U ※URL...",
     "hatenaDate": "2026-11-05T07:17:15Z",
     "users": [],
     "firstSeenAt": "2026-11-05T22:15:14.575938+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -308,7 +308,7 @@
     "hatenaDate": "2026-11-05T11:36:15Z",
     "users": [],
     "firstSeenAt": "2026-11-05T22:00:16.079826+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
@@ -386,14 +386,14 @@
     "title": "ドコモからのお知らせ : 【お詫び】ドコモオンラインショップ、My docomoの緊急メンテナンス実施について/当社サーバーへの不正アクセスによるお客さま情報流出に関するお知らせ（第二報：11月5日 午後6時30分時点） | お知らせ | NTTドコモ",
     "url": "https://www.docomo.ne.jp/info/notice/page/261105_03_m.html",
     "domain": "www.docomo.ne.jp",
-    "count": 42,
+    "count": 45,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.docomo.ne.jp/info/notice/page/261105_03_m.html",
     "screenshot": null,
     "description": "【お詫び】ドコモオンラインショップ、My docomoの緊急メンテナンス実施について/当社サーバーへの不正アクセスによるお客さま情報流出に関するお知らせ（第二報：11月5日 午後6時30分時点） 当社のドコモオンラインショップおよびMy docomoにおいて、 外部から不正なアクセスが行われたため、緊急メンテナンスを実施しました。一切のアクセスを遮断しておりますが、緊急メンテナンス以前の不正アクセスにより、一部のお客さま情報が流出したことを確認しました。 ドコモオンラインショップおよびMy docomoの緊急メンテナンスは現在も継続しており、新たな情報流出は確認されておりません。 お客さまを…",
     "hatenaDate": "2026-11-05T10:34:28Z",
     "users": [],
     "firstSeenAt": "2026-11-05T20:45:13.638433+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -416,14 +416,14 @@
     "title": "自作AIエージェントの開発をやめた - 無駄と文化",
     "url": "https://blog.mudatobunka.org/entry/2026/11/05/100000",
     "domain": "blog.mudatobunka.org",
-    "count": 97,
+    "count": 98,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.mudatobunka.org/entry/2026/11/05/100000",
     "screenshot": "https://ogimage.blog.st-hatena.com/8454420450100183510/14729835035330963802/1793840401",
     "description": "今年の6月まで、データ分析用途の AI エージェント (以下、分析エージェント) をスクラッチで開発していた。 が、思うところがあり開発をスッパリとやめた。この記事でいろいろと振り返ってみようと思う。 もともと作ろうとしていたエージェントは、チャット UI で分析を依頼するとデータ取得・考察・結果の可視化までを担うものだった。 ところが AI エージェント全体を作ろうとすると自作しなければいけない構成要素が多すぎる。全てに注力するには時間がかかるし、限られた時間で多くのものを作ろうとすると一つひとつのクオリティは下がってしまう。 そこで今年の7月からは心機一転 MCP を作ることにした。事前…",
     "hatenaDate": "2026-11-05T09:16:13Z",
     "users": [],
     "firstSeenAt": "2026-11-05T20:30:14.184444+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -497,7 +497,7 @@
     "hatenaDate": "2026-11-05T08:36:07Z",
     "users": [],
     "firstSeenAt": "2026-11-05T19:15:11.189139+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
@@ -532,14 +532,14 @@
     "title": "三井住友G保証会社 個人情報最大32万人分漏えい 住所や年収も | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261105de71024",
     "domain": "news.web.nhk",
-    "count": 88,
+    "count": 90,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261105de71024",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261105de71024/20261105de71024_E0000143971_1_l.jpg",
     "description": "カードローンなどの保証業務を行っているSMBCコンシューマーファイナンスは、システムが不正アクセスを受け、ローンを申し込んだ人の名前や住所のほか、年収なども含む個人情報が、最大32万人分、漏えいしたと…",
     "hatenaDate": "2026-11-05T08:11:57Z",
     "users": [],
     "firstSeenAt": "2026-11-05T18:15:16.067841+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -596,7 +596,7 @@
     "hatenaDate": "2026-11-05T07:39:04Z",
     "users": [],
     "firstSeenAt": "2026-11-05T17:45:14.246878+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
@@ -696,7 +696,7 @@
     "hatenaDate": "2026-11-05T04:48:15Z",
     "users": [],
     "firstSeenAt": "2026-11-05T16:15:14.015633+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -705,14 +705,14 @@
     "title": "データ転送量が約4倍となる新規格「Bluetooth HDT」正式承認。ロスレスオーディオの標準化へ - PHILE WEB",
     "url": "https://www.phileweb.com/news/d-av/202611/05/66309.html",
     "domain": "www.phileweb.com",
-    "count": 113,
+    "count": 114,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.phileweb.com/news/d-av/202611/05/66309.html",
     "screenshot": "https://www.phileweb.com/news/ogp/d-av/663/6167d73869a97f673f7e4d01bddabcbf.jpg",
     "description": "HOME > ニュース > データ転送量が約4倍となる新規格「Bluetooth HDT」正式承認。ロスレスオーディオの標準化へ データ転送量が約4倍となる新規格「Bluetooth HDT」正式承認。ロスレスオーディオの標準化へ Bluetooth SIGは、米国時間2026年11月4日、Bluetooth技術の性能を飛躍的に引き上げるという新規格「Bluetooth 高データスループット（High Data Throughput、以下 Bluetooth HDT）」を正式承認したと発表した。本規格は、先ごろ正式決定した「Bluetooth Core 7.0」のオプション機能として追加され…",
     "hatenaDate": "2026-11-05T06:36:03Z",
     "users": [],
     "firstSeenAt": "2026-11-05T16:15:14.015633+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -799,7 +799,7 @@
     "hatenaDate": "2026-11-05T04:59:55Z",
     "users": [],
     "firstSeenAt": "2026-11-05T15:15:18.114867+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1289,14 +1289,14 @@
     "title": "日本の全法令が「Git」の履歴に ～改正で何が変わったのかが一目瞭然／「Git」の意外な弱点も？【やじうまの杜】",
     "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2153621.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 350,
+    "count": 351,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/serial/yajiuma/2153621.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2153/621/image_top.png",
     "description": "「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。 改正法の施行が1つのコミットになっている。コミットメッセージには改正法令や公布日、施行日が記載されている 法律は「Git」で管理したらいいんじゃ？――というのはときどき話題になりますが、それを実際にやってみた方がいるようです。興味のある方は、「GitHub」（Kohei-Wada/houritsu）へどうぞ。データは「CC BY 4.0」、変換プログラム「houritsu-builder」（Rust製）は「MIT」ライセンスで公開されています。 法律の改正は、『〇〇法の一部を改正する法律』という別の法律によって…",
     "hatenaDate": "2026-11-04T23:02:29Z",
     "users": [],
     "firstSeenAt": "2026-11-05T09:15:14.080481+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
@@ -1498,7 +1498,7 @@
     "hatenaDate": "2026-11-04T10:51:18Z",
     "users": [],
     "firstSeenAt": "2026-11-05T08:15:14.322566+09:00",
-    "lastSeenAt": "2026-11-06T02:00:14.563217+09:00",
+    "lastSeenAt": "2026-11-06T02:15:15.508714+09:00",
     "descriptionSource": "body"
   },
   {
