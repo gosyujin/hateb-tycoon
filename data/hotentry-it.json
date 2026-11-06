@@ -10,49 +10,49 @@
     "hatenaDate": "2026-11-06T11:53:33Z",
     "users": [],
     "firstSeenAt": "2026-11-07T06:00:13.396619+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "【重要】セキュリティ強化に伴う新規会員登録の仕様変更について - メンテナンス・障害情報 - DMMヘルプセンター",
     "url": "https://support.dmm.com/announcements/875",
     "domain": "support.dmm.com",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/support.dmm.com/announcements/875",
     "screenshot": null,
     "description": "今後は、当社が利用可能と確認したドメインのメールアドレスのみがご登録いただけます。 また、登録済みメールアドレスの変更・再設定および復旧用メールアドレスの登録・変更の際も同様の仕様となります。 一時的に利用されるメールアドレス（ワンタイムメール・使い捨てメールアドレスなど） ご希望のメールアドレスで登録できない場合は、GmailやYahoo!メール、ドコモ、au、ソフトバンク等のキャリアメールなどでのご登録をお願いいたします。 お客様にはご不便をおかけいたしますが、安心してサービスをご利用いただくための対応として、何卒ご理解とご協力を賜りますようお願い申し上げます。",
     "hatenaDate": "2026-11-02T09:46:09Z",
     "users": [],
     "firstSeenAt": "2026-11-07T04:00:15.454505+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件",
     "url": "https://zenn.dev/xin9le/articles/9a1cf8e10494d6",
     "domain": "zenn.dev",
-    "count": 37,
+    "count": 40,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/xin9le/articles/9a1cf8e10494d6",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--j0ayzMEA--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%255B%25E7%25A0%25B4%25E5%25A3%258A%25E7%259A%2584%25E5%25A4%2589%25E6%259B%25B4%255D%2520%25E6%2598%258E%25E6%25B2%25BB%25E6%2599%2582%25E4%25BB%25A3%25E3%2581%25AE%25E9%2596%258B%25E5%25A7%258B%25E6%2597%25A5%25E3%2581%258C%25E5%25A4%2589%25E6%259B%25B4%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%25A6%25E5%258D%2598%25E4%25BD%2593%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%258C%25E5%25A4%25B1%25E6%2595%2597%25E3%2581%2597%25E3%2581%259F%25E4%25BB%25B6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:xin9le%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU2YWIzNmRlZWYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "「お前は何を言っているんだ？」と思うかもしれませんが、本当なのだから仕方ない！動いていたはずの CI の単体テストが突然コケるという事態に遭遇してビックリ。「何もしてないのに壊れた」。まじで。 ありのままのコードを載せるわけにはいかないのでポイントを絞って記載します。ざっくり以下のような感じです。サンプルコードは C# / .NET です。 // 和暦のカルチャ情報を作る var culture = new CultureInfo(\"ja-jp\"); culture.DateTimeFormat.Calendar = new JapaneseCalendar(); // 明治時代の開始日を文…",
     "hatenaDate": "2026-11-06T16:49:21Z",
     "users": [],
     "firstSeenAt": "2026-11-07T02:15:12.063510+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "総務省｜報道資料｜株式会社NTTドコモに対する特定利用者情報の保護に向けた措置（指導）",
     "url": "https://www.soumu.go.jp/menu_news/s-news/01kiban18_01000300.html",
     "domain": "www.soumu.go.jp",
-    "count": 14,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.soumu.go.jp/menu_news/s-news/01kiban18_01000300.html",
     "screenshot": "https://www.soumu.go.jp/main_content/000372150.jpg",
     "description": "総務省トップ > 広報・報道 > 報道資料一覧 > 株式会社NTTドコモに対する特定利用者情報の保護に向けた措置（指導） 総務省は、本日、株式会社NTTドコモ（代表取締役社長 前田 義晃）に対し、同社における特定利用者情報の漏えい事案に関し、特定利用者情報の適正な管理を図るとともに、再発防止策等の必要な措置を講じ、その実施状況を報告するよう、文書による行政指導を行いました。 株式会社NTTドコモ（以下「NTTドコモ」といいます。）からの報告により、NTTドコモが提供するドコモMAX等の料金プランに係るオンライン契約時の申込手続導線の見直しが行われた際、重要事項説明等の注意事項において、ドコモ…",
     "hatenaDate": "2026-11-06T10:38:58Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:45:13.917417+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +66,7 @@
     "hatenaDate": "2026-11-06T00:12:07Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:15:14.355680+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
@@ -80,21 +80,21 @@
     "hatenaDate": "2026-11-06T00:57:23Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:15:14.355680+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "142. ISUCON2026で優勝する方法 w/ kawasy",
     "url": "https://open.spotify.com/episode/3upWlmL3EZ16icnugHzRJf",
     "domain": "open.spotify.com",
-    "count": 12,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/open.spotify.com/episode/3upWlmL3EZ16icnugHzRJf",
     "screenshot": "https://i.scdn.co/image/ab6765630000ba8ada32eb13c28d6215f3419b2a",
     "description": "kawasyさんをゲストに、ISUCON2026で競技中に人間が介入せず優勝したAIエージェント、ハーネスの仕組み、当日までに準備したことなどについて語っていただきました。話したネタISUCON2026で、競技中に人間が介入せず優勝fukabori.ep #52 ISUCON今回の出題課題競技当日に人間が行った操作とは？約3か月の準備で作ったハー...",
     "hatenaDate": "2026-11-06T04:15:07Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:45:13.721036+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -102,14 +102,14 @@
     "title": "AWS CLI v2と出力が同じで最大550倍速いawsrをRustで作った",
     "url": "https://s.conao3.com/blog/2026/f681b9",
     "domain": "s.conao3.com",
-    "count": 12,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/s.conao3.com/blog/2026/f681b9",
     "screenshot": "https://s.conao3.com/og/blog/2026/f681b9.png",
     "description": "AWS CLI v2 のコマンドラインをそのまま受け付け、本家とバイト単位で同じ出力を返す CLI awsr を Rust で作りました。 リポジトリは conao3/rust-awscli で、ライセンスは Apache-2.0 です。 awsr sts get-caller-identity は 6.0ms で終わり、同じ PC で本家の aws (2.39.3) は 659ms かかります。 110 倍の差です。 help ページは 380〜550 倍速く出ます。 awsr は AWS の公式の製品ではありません。 conao3/rust-awscliA fast, output-co…",
     "hatenaDate": "2026-11-06T04:29:36Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:45:13.721036+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
@@ -123,7 +123,7 @@
     "hatenaDate": "2026-11-06T02:43:59Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:30:14.687036+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
@@ -137,21 +137,21 @@
     "hatenaDate": "2026-11-06T07:24:31Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ドコモ、不正アクセスで最大29.5万件の情報が流出",
     "url": "https://k-tai.watch.impress.co.jp/docs/news/2154506.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 30,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2154506.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2154/506/003.jpg",
     "description": "NTTドコモは6日、不正アクセスにより最大29万4839件の顧客情報が流出したと発表した。11月4日に大量アクセスのアラートを検知し、攻撃経路の特定を進めていた。同社は被害拡大を防ぐため、オンラインショップなどのサービスを緊急停止している。 ドコモは11月4日10時30分頃に大量アクセスのアラートを検知した。同日14時30分に海外IPアドレスの遮断を実施したものの効果が見られず、特定の攻撃経路を遮断する対処を行った。同日夜にアラートは停止したが、深夜に再度不正アクセスの可能性を検知したという。 翌5日未明に顧客情報の流出を確認。外部の攻撃者が不正アクセスを行い、複数のシステムが有機的に連動す…",
     "hatenaDate": "2026-11-06T12:04:58Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -167,21 +167,21 @@
     "hatenaDate": "2026-11-06T07:55:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "PHPは使っておりません - megamouthの葬列",
     "url": "https://www.megamouth.info/entry/2026/11/06/165305",
     "domain": "www.megamouth.info",
-    "count": 46,
+    "count": 48,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.megamouth.info/entry/2026/11/06/165305",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/8c3a4db30db0c239931af309055cfb70dac0a8d4/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F41zh9snD0oL._SL500_.jpg",
     "description": "テレビのニュースがPHPと言ったのは、朝の8時だった。アナウンサーは滑舌のよい発音で、ピー・エイチ・ピーと一文字ずつ区切って読み、多くのウェブサイトで使われているプログラミング言語です、と付け加えた。僕はそれを聞きながら、いまだ動いているその多くの中に僕の書いたものがいくつ含まれているのかと想像しかけて、すぐに知ったことではない、と思い直した。 その日ネットを見ていると、いろんな会社のサイトがメンテナンス表示になったり、ならなかったりしていた。そして、中にはこう告知しているサイトさえあった。 となぜか嬉しそうに言う。付き合いが長いから、僕は彼の身の上をよく知っている。確か聞いたこともないよう…",
     "hatenaDate": "2026-11-06T08:05:48Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -197,7 +197,7 @@
     "hatenaDate": "2026-11-06T02:09:26Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:00:09.781159+09:00",
-    "lastSeenAt": "2026-11-07T00:30:13.401395+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
@@ -211,7 +211,7 @@
     "hatenaDate": "2026-11-06T03:59:51Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:45:14.036868+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
@@ -225,21 +225,21 @@
     "hatenaDate": "2026-11-06T10:35:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:45:14.036868+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「Microsoft Access」でIEベースのWebブラウザーコントロールが廃止へ、2027年5月に／対象フォームは手作業で洗い出し。「Edge」版への置き換えを",
     "url": "https://forest.watch.impress.co.jp/docs/news/2154137.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 12,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2154137.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2154/137/access.jpg",
     "description": "「Microsoft Access」でIEベースのWebブラウザーコントロールが廃止へ、2027年5月に 米Microsoftは11月2日（現地時間、以下同）、データベースアプリ「Microsoft Access」で「Internet Explorer」（IE）ベースの従来型Webブラウザーコントロールを廃止する計画を明らかにした。2027年5月18日を目途に、「バージョン 2705」で廃止される予定。長期サポート版「Access LTSC 2024」でも、5月11日の廃止を予定しているとのこと。 従来型のWebブラウザーコントロールが廃止されると、それを用いたフォームでWebコンテンツが読…",
     "hatenaDate": "2026-11-06T08:07:03Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:30:14.431268+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
@@ -253,7 +253,7 @@
     "hatenaDate": "2026-11-06T05:27:01Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:15:13.350255+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -304,14 +304,14 @@
     "title": "ドコモ不正アクセス、「料金プラン」などの情報も流出 「重く受け止めている」",
     "url": "https://www.watch.impress.co.jp/docs/news/2154508.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 107,
+    "count": 112,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2154508.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2154/508/d01.jpg",
     "description": "NTTドコモは6日、「ドコモオンラインショップ」と会員サービス「My docomo」において、外部から不正なアクセスが行なわれ、一部の会員情報が流出した問題について会見し、謝罪した。 5日の発表で可能性を認めていた、氏名、住所、生年月日、携帯電話番号などに加え、本人確認書類の番号や、料金プラン/オプションなども含まれることを公表。また、一部の利用者では、法定代理人・手続代理人の氏名、連絡先のほか、勤務先・法人の名称、所在地、金融機関名、支店名、口座番号なども含まれている。影響ユーザ数は最大294,839件(回線)で、個人204,157件、法人90,682件。 ドコモ、不正アクセスで最大30万…",
     "hatenaDate": "2026-11-06T11:22:32Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:45:13.894718+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -341,7 +341,7 @@
     "hatenaDate": "2026-11-06T02:59:55Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:15:13.375358+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
@@ -369,7 +369,7 @@
     "hatenaDate": "2024-07-18T22:02:25Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:15:13.375358+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
@@ -404,14 +404,14 @@
     "title": "月間はてなブックマーク数ランキング（2026年10月） - はてなブックマーク開発ブログ",
     "url": "https://bookmark.hatenastaff.com/entry/2026/11/06/170402",
     "domain": "bookmark.hatenastaff.com",
-    "count": 25,
+    "count": 26,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/bookmark.hatenastaff.com/entry/2026/11/06/170402",
     "screenshot": "https://ogimage.blog.st-hatena.com/6435988827677048266/14729835035334709336/1793952242",
     "description": "何これ、すごすぎる！！ PhotoshopやIllustratorをオープンソースで再構築、しかもWin、Mac、Linux、Web対応で無料 | コリス 自閉スペクトラム症（ASD）【特徴1】対人的・情緒的相互関係の困難さ 実例80選 | 那珂川市の小児科・内科・眼科『江副クリニック』福岡県那珂川市 テレビに絵を流しっぱなしにして文化資本の格差を減らすアプリ「えをみる」を作った - 山下泰平の趣味の方法 英語多読サイト【無料・音声つき】レベル別の読み物1,952本｜イソップ全312話・名作・自己啓発｜多読ベスト PHPの重大な脆弱性「php2shell」（CVE-2026-109618、C…",
     "hatenaDate": "2026-11-06T08:04:36Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:15:14.313312+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
@@ -425,21 +425,21 @@
     "hatenaDate": "2026-11-05T05:01:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:00:16.630104+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Claude Codeがユーザーのメールアドレスを外部サイトに勝手に送信する問題が発覚、約4カ月前から報告されていたことも判明",
     "url": "https://gigazine.net/news/20261106-claude-code-mail-address/",
     "domain": "gigazine.net",
-    "count": 32,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261106-claude-code-mail-address/",
     "screenshot": "https://i.gzn.jp/img/2026/11/06/claude-code-mail-address/00_m.png",
     "description": "AnthropicのAIコーディングツール「Claude Code」が、ユーザーのメールアドレスを許可なく外部のウェブサイトに送信していたという問題が報告されました。2026年11月5日にGitHubで新たな問題報告が投稿されましたが、同様の問題は7月にも報告されており、Anthropicの対応が注目されています。 Bug Report: Privacy viola...",
     "hatenaDate": "2026-11-06T06:09:45Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:00:16.630104+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -454,7 +454,7 @@
     "hatenaDate": "2026-11-06T03:54:24Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:30:14.488505+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -483,7 +483,7 @@
     "hatenaDate": "2026-11-06T08:41:42Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:00:12.176323+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -585,7 +585,7 @@
     "hatenaDate": "2026-11-06T02:38:06Z",
     "users": [],
     "firstSeenAt": "2026-11-06T18:00:15.320965+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body"
   },
   {
@@ -641,7 +641,7 @@
     "hatenaDate": "2026-11-06T06:46:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T17:30:12.538499+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -729,7 +729,7 @@
     "hatenaDate": "2026-11-06T06:08:05Z",
     "users": [],
     "firstSeenAt": "2026-11-06T15:30:14.610350+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -772,7 +772,7 @@
     "hatenaDate": "2026-11-05T07:40:34Z",
     "users": [],
     "firstSeenAt": "2026-11-06T14:30:14.067152+09:00",
-    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
+    "lastSeenAt": "2026-11-07T06:45:12.519671+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
