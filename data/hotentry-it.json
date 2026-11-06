@@ -10,7 +10,7 @@
     "hatenaDate": "2026-11-06T10:38:58Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:45:13.917417+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +24,7 @@
     "hatenaDate": "2026-11-06T00:12:07Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:15:14.355680+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +38,7 @@
     "hatenaDate": "2026-11-06T00:57:23Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:15:14.355680+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +52,7 @@
     "hatenaDate": "2026-11-06T04:15:07Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:45:13.721036+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -60,56 +60,56 @@
     "title": "AWS CLI v2と出力が同じで最大550倍速いawsrをRustで作った",
     "url": "https://s.conao3.com/blog/2026/f681b9",
     "domain": "s.conao3.com",
-    "count": 8,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/s.conao3.com/blog/2026/f681b9",
     "screenshot": "https://s.conao3.com/og/blog/2026/f681b9.png",
     "description": "AWS CLI v2 のコマンドラインをそのまま受け付け、本家とバイト単位で同じ出力を返す CLI awsr を Rust で作りました。 リポジトリは conao3/rust-awscli で、ライセンスは Apache-2.0 です。 awsr sts get-caller-identity は 6.0ms で終わり、同じ PC で本家の aws (2.39.3) は 659ms かかります。 110 倍の差です。 help ページは 380〜550 倍速く出ます。 awsr は AWS の公式の製品ではありません。 conao3/rust-awscliA fast, output-co…",
     "hatenaDate": "2026-11-06T04:29:36Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:45:13.721036+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "マヨネーズを使わないポテトサラダの作り方 - 家電 Watch",
     "url": "https://kaden.watch.impress.co.jp/docs/column/precooking/2153159.html",
     "domain": "kaden.watch.impress.co.jp",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kaden.watch.impress.co.jp/docs/column/precooking/2153159.html",
     "screenshot": "https://kaden.watch.impress.co.jp/img/kdw/list/2153/159/top.jpg",
     "description": "じゃがいもはよく洗い、水が付いたままラップでふんわり包みます。600Wの電子レンジで2分加熱した後、裏返して再度2分加熱し、竹串などで刺してスッと中まで通ればOK。まだ硬いようであれば、様子を見ながら30秒ずつ追加で加熱してください。 じゃがいもが熱いうちに皮を剥きます。ボウルなどの容器に入れ、フォークの背などでじゃがいもを潰しましょう。 じゃがいもにツナ缶を汁ごと加えて混ぜたら、クリームチーズ、顆粒コンソメを加えて、クリームチーズを小さく切りながら混ぜ合わせます。 チョコレートと漬物が好きな管理栄養士です。現在、子育てに奮闘中。体力の衰えを感じながら、子どもと公園を走り回っています。家事の…",
     "hatenaDate": "2026-11-06T02:43:59Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:30:14.687036+09:00",
-    "lastSeenAt": "2026-11-07T00:30:13.401395+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ヤマハ、ルーターにDNSセキュリティ機能を追加する拡張ライセンスを発売　中小企業・SOHOのセキュリティ強化を支援",
     "url": "https://cloud.watch.impress.co.jp/docs/news/2154335.html",
     "domain": "cloud.watch.impress.co.jp",
-    "count": 20,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/cloud.watch.impress.co.jp/docs/news/2154335.html",
     "screenshot": "https://cloud.watch.impress.co.jp/img/clw/list/2154/335/01.jpg",
     "description": "ヤマハ株式会社は6日、自社のルーター「RTX1300」「RTX840」にDNSセキュリティ機能を追加する拡張ライセンス「YSL-CLDDNS」を11月17日より販売開始すると発表した。通信性能にほとんど影響を与えることなく、手軽にセキュリティ機能を強化できる点が特徴。ヤマハでは、専任のIT担当者を置けない中小企業・SOHOを主な対象に、セキュリティを手軽に強化できる手段として提供を開始するという。 「YSL-CLDDNS」は、自社ルーター製品にDNSセキュリティ機能を追加するライセンス。DNSリカーシブ機能を利用することでヤマハセキュリティサーバーと連携し、機種やOSを問わず、ルーター配下に…",
     "hatenaDate": "2026-11-06T07:24:31Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ドコモ、不正アクセスで最大29.5万件の情報が流出",
     "url": "https://k-tai.watch.impress.co.jp/docs/news/2154506.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 17,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2154506.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2154/506/003.jpg",
     "description": "NTTドコモは6日、不正アクセスにより最大29万4839件の顧客情報が流出したと発表した。11月4日に大量アクセスのアラートを検知し、攻撃経路の特定を進めていた。同社は被害拡大を防ぐため、オンラインショップなどのサービスを緊急停止している。 ドコモは11月4日10時30分頃に大量アクセスのアラートを検知した。同日14時30分に海外IPアドレスの遮断を実施したものの効果が見られず、特定の攻撃経路を遮断する対処を行った。同日夜にアラートは停止したが、深夜に再度不正アクセスの可能性を検知したという。 翌5日未明に顧客情報の流出を確認。外部の攻撃者が不正アクセスを行い、複数のシステムが有機的に連動す…",
     "hatenaDate": "2026-11-06T12:04:58Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -125,7 +125,7 @@
     "hatenaDate": "2026-11-06T07:55:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body"
   },
   {
@@ -139,7 +139,7 @@
     "hatenaDate": "2026-11-06T08:05:48Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -183,7 +183,7 @@
     "hatenaDate": "2026-11-06T10:35:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:45:14.036868+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body"
   },
   {
@@ -211,7 +211,7 @@
     "hatenaDate": "2026-11-06T05:27:01Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:15:13.350255+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -226,7 +226,7 @@
     "hatenaDate": "2026-11-06T02:23:38Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:15:13.350255+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -255,21 +255,21 @@
     "hatenaDate": "2026-11-06T03:36:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:00:15.108712+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ドコモ不正アクセス、「料金プラン」などの情報も流出　29.5万件",
     "url": "https://www.watch.impress.co.jp/docs/news/2154508.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 72,
+    "count": 75,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2154508.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2154/508/d01.jpg",
     "description": "NTTドコモは6日、「ドコモオンラインショップ」と会員サービス「My docomo」において、外部から不正なアクセスが行なわれ、一部の会員情報が流出した問題について会見し、謝罪した。 5日の発表で可能性を認めていた、氏名、住所、生年月日、携帯電話番号などに加え、本人確認書類の番号や、料金プラン/オプションなども含まれることを公表。また、一部の利用者では、法定代理人・手続代理人の氏名、連絡先のほか、勤務先・法人の名称、所在地、金融機関名、支店名、口座番号なども含まれている。影響ユーザ数は最大294,839件(回線)で、個人204,157件、法人90,682件。 ドコモ、不正アクセスで最大30万…",
     "hatenaDate": "2026-11-06T11:22:32Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:45:13.894718+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -299,7 +299,7 @@
     "hatenaDate": "2026-11-06T02:59:55Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:15:13.375358+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body"
   },
   {
@@ -369,7 +369,7 @@
     "hatenaDate": "2026-11-06T08:04:36Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:15:14.313312+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body"
   },
   {
@@ -383,7 +383,7 @@
     "hatenaDate": "2026-11-05T05:01:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:00:16.630104+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body"
   },
   {
@@ -397,7 +397,7 @@
     "hatenaDate": "2026-11-06T06:09:45Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:00:16.630104+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -412,7 +412,7 @@
     "hatenaDate": "2026-11-06T03:54:24Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:30:14.488505+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -441,7 +441,7 @@
     "hatenaDate": "2026-11-06T08:41:42Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:00:12.176323+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -514,7 +514,7 @@
     "hatenaDate": "2026-11-06T03:51:42Z",
     "users": [],
     "firstSeenAt": "2026-11-06T18:15:16.195637+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -543,7 +543,7 @@
     "hatenaDate": "2026-11-06T02:38:06Z",
     "users": [],
     "firstSeenAt": "2026-11-06T18:00:15.320965+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body"
   },
   {
@@ -592,14 +592,14 @@
     "title": "Herdrで、複数のエージェントを見守りたい - じゃあ、おうちで学べる",
     "url": "https://syu-m-5151.hatenablog.com/entry/2026/11/06/132239",
     "domain": "syu-m-5151.hatenablog.com",
-    "count": 82,
+    "count": 84,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/syu-m-5151.hatenablog.com/entry/2026/11/06/132239",
     "screenshot": "https://ogimage.blog.st-hatena.com/8454420450094081900/14729835035334581858/1793947124",
     "description": "私たちエンジニアの仕事はここ1年で大きく変貌しました。大きく変貌しましたよね？ 自分でコードを書く時間より、エージェントに仕事を渡し、戻ってきた差分を読み、次に何を任せるかを決める時間のほうが長くなった人も多いはずです。仕事術の本を出したのですが、修正をしなければ嘘だなって思ったほどです。 コードを書き、動かし、直すところまでは、エージェントがかなりこなせるようになりました。では楽になったかというと、なっていません。手を動かす時間が減ったぶん、差分を読み、承認し、確かめる時間が増えただけだと考えています。書く前に何を作るかを決め、書いたあとは差分を読んでほかの変更とつなぎ合わせ、本当に動くか…",
     "hatenaDate": "2026-11-06T06:46:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T17:30:12.538499+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -687,7 +687,7 @@
     "hatenaDate": "2026-11-06T06:08:05Z",
     "users": [],
     "firstSeenAt": "2026-11-06T15:30:14.610350+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -730,7 +730,7 @@
     "hatenaDate": "2026-11-05T07:40:34Z",
     "users": [],
     "firstSeenAt": "2026-11-06T14:30:14.067152+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -883,14 +883,14 @@
     "title": "メタバース、ワーケーションなど「ここ数年で恐ろしいほど聞かなくなった言葉一覧」に共感「Clubhouse懐かしい！」「半分がWeb3でわろた」",
     "url": "https://togetter.com/li/2767231",
     "domain": "togetter.com",
-    "count": 174,
+    "count": 175,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2767231",
     "screenshot": "https://s.tgstc.com/ogp3/c29c2ad954aa881896ebf262ac5fa0a6-1200x630.jpeg",
     "description": "ここ数年で恐ろしいほど聞かなくなった言葉一覧 ・NFT ・メタバース ・Web3.0 ・Clubhouse ・DAO ・STEPN ・GameFi ・仮想通貨女子 ・ワーケーション ・地方創生 ・ノマドワーカー ・タピオカ ・ひとりキャンプ ・意識高い系 ・SDGs 特にNFTとメタバースの消え方は異常。 1番怖いのは、当時「これを理解できない人間は時代に取り残される」と煽っていた連中が、今は何食わぬ顔で「AIを使えない人間は淘汰される」と煽っていること。 未来を予測してるんじゃない。 流行に寄生してるだけ。 @greynomado そういえば、これからはメタバースだ！と一念発起して社名をM…",
     "hatenaDate": "2026-11-06T02:34:22Z",
     "users": [],
     "firstSeenAt": "2026-11-06T12:30:13.970374+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -948,7 +948,7 @@
     "hatenaDate": "2026-11-06T00:57:20Z",
     "users": [],
     "firstSeenAt": "2026-11-06T12:00:15.253333+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1036,7 +1036,7 @@
     "hatenaDate": "2026-11-05T01:53:25Z",
     "users": [],
     "firstSeenAt": "2026-11-06T11:00:12.274608+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1227,7 +1227,7 @@
     "hatenaDate": "2026-11-05T06:16:47Z",
     "users": [],
     "firstSeenAt": "2026-11-06T09:00:15.179870+09:00",
-    "lastSeenAt": "2026-11-07T01:30:15.364618+09:00",
+    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
