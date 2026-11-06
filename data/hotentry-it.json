@@ -3,14 +3,14 @@
     "title": "自己回帰生成モデルの熱力学を構築 ―大規模言語モデルに内在する「世界モデル」の定量的理解に向けて―",
     "url": "https://www.t.u-tokyo.ac.jp/press/pr2026-11-06-001",
     "domain": "www.t.u-tokyo.ac.jp",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.t.u-tokyo.ac.jp/press/pr2026-11-06-001",
     "screenshot": "https://www.t.u-tokyo.ac.jp/hubfs/press-release/2026/1106/001/key.jpg",
     "description": "◆ 大規模言語モデルからカルマンフィルタまで、過去の出力履歴を用いて次の出力を生成する「自己回帰生成モデル」を統一的に扱う熱力学理論を構築しました。 ◆ 出力を生成する過程にどの程度「一方向性」があるかを表す量（エントロピー生成）を効率的に推定する方法を示し、それを大規模言語モデルの解析に応用しました。 ◆ 本研究は、生成AIが学習で獲得した現実世界についての表現を、熱力学に基づいて解析する新たな道筋を提示することが期待されます。 東京大学大学院工学系研究科物理工学専攻の沙川 貴大 教授は、過去の出力の履歴に基づいて次の出力を生成する「自己回帰生成モデル」（Autoregressive Ge…",
     "hatenaDate": "2026-11-06T11:53:33Z",
     "users": [],
     "firstSeenAt": "2026-11-07T06:00:13.396619+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,21 +24,21 @@
     "hatenaDate": "2026-11-02T09:46:09Z",
     "users": [],
     "firstSeenAt": "2026-11-07T04:00:15.454505+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件",
     "url": "https://zenn.dev/xin9le/articles/9a1cf8e10494d6",
     "domain": "zenn.dev",
-    "count": 34,
+    "count": 37,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/xin9le/articles/9a1cf8e10494d6",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--j0ayzMEA--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%255B%25E7%25A0%25B4%25E5%25A3%258A%25E7%259A%2584%25E5%25A4%2589%25E6%259B%25B4%255D%2520%25E6%2598%258E%25E6%25B2%25BB%25E6%2599%2582%25E4%25BB%25A3%25E3%2581%25AE%25E9%2596%258B%25E5%25A7%258B%25E6%2597%25A5%25E3%2581%258C%25E5%25A4%2589%25E6%259B%25B4%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%25A6%25E5%258D%2598%25E4%25BD%2593%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%258C%25E5%25A4%25B1%25E6%2595%2597%25E3%2581%2597%25E3%2581%259F%25E4%25BB%25B6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:xin9le%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU2YWIzNmRlZWYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "「お前は何を言っているんだ？」と思うかもしれませんが、本当なのだから仕方ない！動いていたはずの CI の単体テストが突然コケるという事態に遭遇してビックリ。「何もしてないのに壊れた」。まじで。 ありのままのコードを載せるわけにはいかないのでポイントを絞って記載します。ざっくり以下のような感じです。サンプルコードは C# / .NET です。 // 和暦のカルチャ情報を作る var culture = new CultureInfo(\"ja-jp\"); culture.DateTimeFormat.Calendar = new JapaneseCalendar(); // 明治時代の開始日を文…",
     "hatenaDate": "2026-11-06T16:49:21Z",
     "users": [],
     "firstSeenAt": "2026-11-07T02:15:12.063510+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +52,7 @@
     "hatenaDate": "2026-11-06T10:38:58Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:45:13.917417+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +66,7 @@
     "hatenaDate": "2026-11-06T00:12:07Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:15:14.355680+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
@@ -80,7 +80,7 @@
     "hatenaDate": "2026-11-06T00:57:23Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:15:14.355680+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
@@ -94,7 +94,7 @@
     "hatenaDate": "2026-11-06T04:15:07Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:45:13.721036+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -109,21 +109,21 @@
     "hatenaDate": "2026-11-06T04:29:36Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:45:13.721036+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "マヨネーズを使わないポテトサラダの作り方 - 家電 Watch",
     "url": "https://kaden.watch.impress.co.jp/docs/column/precooking/2153159.html",
     "domain": "kaden.watch.impress.co.jp",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kaden.watch.impress.co.jp/docs/column/precooking/2153159.html",
     "screenshot": "https://kaden.watch.impress.co.jp/img/kdw/list/2153/159/top.jpg",
     "description": "じゃがいもはよく洗い、水が付いたままラップでふんわり包みます。600Wの電子レンジで2分加熱した後、裏返して再度2分加熱し、竹串などで刺してスッと中まで通ればOK。まだ硬いようであれば、様子を見ながら30秒ずつ追加で加熱してください。 じゃがいもが熱いうちに皮を剥きます。ボウルなどの容器に入れ、フォークの背などでじゃがいもを潰しましょう。 じゃがいもにツナ缶を汁ごと加えて混ぜたら、クリームチーズ、顆粒コンソメを加えて、クリームチーズを小さく切りながら混ぜ合わせます。 チョコレートと漬物が好きな管理栄養士です。現在、子育てに奮闘中。体力の衰えを感じながら、子どもと公園を走り回っています。家事の…",
     "hatenaDate": "2026-11-06T02:43:59Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:30:14.687036+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
@@ -137,7 +137,7 @@
     "hatenaDate": "2026-11-06T07:24:31Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
@@ -151,7 +151,7 @@
     "hatenaDate": "2026-11-06T12:04:58Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -167,21 +167,21 @@
     "hatenaDate": "2026-11-06T07:55:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "PHPは使っておりません - megamouthの葬列",
     "url": "https://www.megamouth.info/entry/2026/11/06/165305",
     "domain": "www.megamouth.info",
-    "count": 45,
+    "count": 46,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.megamouth.info/entry/2026/11/06/165305",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/8c3a4db30db0c239931af309055cfb70dac0a8d4/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F41zh9snD0oL._SL500_.jpg",
     "description": "テレビのニュースがPHPと言ったのは、朝の8時だった。アナウンサーは滑舌のよい発音で、ピー・エイチ・ピーと一文字ずつ区切って読み、多くのウェブサイトで使われているプログラミング言語です、と付け加えた。僕はそれを聞きながら、いまだ動いているその多くの中に僕の書いたものがいくつ含まれているのかと想像しかけて、すぐに知ったことではない、と思い直した。 その日ネットを見ていると、いろんな会社のサイトがメンテナンス表示になったり、ならなかったりしていた。そして、中にはこう告知しているサイトさえあった。 となぜか嬉しそうに言う。付き合いが長いから、僕は彼の身の上をよく知っている。確か聞いたこともないよう…",
     "hatenaDate": "2026-11-06T08:05:48Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -211,7 +211,7 @@
     "hatenaDate": "2026-11-06T03:59:51Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:45:14.036868+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
@@ -225,7 +225,7 @@
     "hatenaDate": "2026-11-06T10:35:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:45:14.036868+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
@@ -239,7 +239,7 @@
     "hatenaDate": "2026-11-06T08:07:03Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:30:14.431268+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
@@ -253,7 +253,7 @@
     "hatenaDate": "2026-11-06T05:27:01Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:15:13.350255+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -304,14 +304,14 @@
     "title": "ドコモ不正アクセス、「料金プラン」などの情報も流出 「重く受け止めている」",
     "url": "https://www.watch.impress.co.jp/docs/news/2154508.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 103,
+    "count": 107,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2154508.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2154/508/d01.jpg",
     "description": "NTTドコモは6日、「ドコモオンラインショップ」と会員サービス「My docomo」において、外部から不正なアクセスが行なわれ、一部の会員情報が流出した問題について会見し、謝罪した。 5日の発表で可能性を認めていた、氏名、住所、生年月日、携帯電話番号などに加え、本人確認書類の番号や、料金プラン/オプションなども含まれることを公表。また、一部の利用者では、法定代理人・手続代理人の氏名、連絡先のほか、勤務先・法人の名称、所在地、金融機関名、支店名、口座番号なども含まれている。影響ユーザ数は最大294,839件(回線)で、個人204,157件、法人90,682件。 ドコモ、不正アクセスで最大30万…",
     "hatenaDate": "2026-11-06T11:22:32Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:45:13.894718+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -341,7 +341,7 @@
     "hatenaDate": "2026-11-06T02:59:55Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:15:13.375358+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
@@ -369,7 +369,7 @@
     "hatenaDate": "2024-07-18T22:02:25Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:15:13.375358+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
@@ -404,14 +404,14 @@
     "title": "月間はてなブックマーク数ランキング（2026年10月） - はてなブックマーク開発ブログ",
     "url": "https://bookmark.hatenastaff.com/entry/2026/11/06/170402",
     "domain": "bookmark.hatenastaff.com",
-    "count": 24,
+    "count": 25,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/bookmark.hatenastaff.com/entry/2026/11/06/170402",
     "screenshot": "https://ogimage.blog.st-hatena.com/6435988827677048266/14729835035334709336/1793952242",
     "description": "何これ、すごすぎる！！ PhotoshopやIllustratorをオープンソースで再構築、しかもWin、Mac、Linux、Web対応で無料 | コリス 自閉スペクトラム症（ASD）【特徴1】対人的・情緒的相互関係の困難さ 実例80選 | 那珂川市の小児科・内科・眼科『江副クリニック』福岡県那珂川市 テレビに絵を流しっぱなしにして文化資本の格差を減らすアプリ「えをみる」を作った - 山下泰平の趣味の方法 英語多読サイト【無料・音声つき】レベル別の読み物1,952本｜イソップ全312話・名作・自己啓発｜多読ベスト PHPの重大な脆弱性「php2shell」（CVE-2026-109618、C…",
     "hatenaDate": "2026-11-06T08:04:36Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:15:14.313312+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
@@ -425,7 +425,7 @@
     "hatenaDate": "2026-11-05T05:01:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:00:16.630104+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
@@ -439,7 +439,7 @@
     "hatenaDate": "2026-11-06T06:09:45Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:00:16.630104+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -454,7 +454,7 @@
     "hatenaDate": "2026-11-06T03:54:24Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:30:14.488505+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -476,14 +476,14 @@
     "title": "セキュリティ啓発団体に不正アクセス　個人情報最大1.5万件漏えいか",
     "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002978/",
     "domain": "www.itmedia.co.jp",
-    "count": 80,
+    "count": 82,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/06/2000002978/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/06/2000002978/10011539/2048",
     "description": "情報セキュリティの普及啓発に向けて活動する日本ネットワークセキュリティ協会（JNSA）は11月6日、同協会が運営する「情報セキュリティ理解度チェックサービス」が第三者による不正アクセスを受け、最大1万5128件の個人情報が漏えいした可能性があると発表した。利用者のIDやハッシュ化したパスワードなどが漏えいした可能性がある。同サービスは現在停止している。 情報セキュリティ理解度チェックサービスは、企業や団体が従業員の情報セキュリティに関する理解度を確認するためのもの。漏えいした可能性がある情報は利用者のIDやハッシュ化されたパスワードに加え、同サービスの受講を管理する担当者の指名、企業名、メー…",
     "hatenaDate": "2026-11-06T08:41:42Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:00:12.176323+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -556,7 +556,7 @@
     "hatenaDate": "2026-11-06T03:51:42Z",
     "users": [],
     "firstSeenAt": "2026-11-06T18:15:16.195637+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -585,7 +585,7 @@
     "hatenaDate": "2026-11-06T02:38:06Z",
     "users": [],
     "firstSeenAt": "2026-11-06T18:00:15.320965+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body"
   },
   {
@@ -634,14 +634,14 @@
     "title": "Herdrで、複数のエージェントを見守りたい - じゃあ、おうちで学べる",
     "url": "https://syu-m-5151.hatenablog.com/entry/2026/11/06/132239",
     "domain": "syu-m-5151.hatenablog.com",
-    "count": 89,
+    "count": 91,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/syu-m-5151.hatenablog.com/entry/2026/11/06/132239",
     "screenshot": "https://ogimage.blog.st-hatena.com/8454420450094081900/14729835035334581858/1793949051",
     "description": "私たちエンジニアの仕事はここ1年で大きく変貌しました。大きく変貌しましたよね？ 自分でコードを書く時間より、エージェントに仕事を渡し、戻ってきた差分を読み、次に何を任せるかを決める時間のほうが長くなった人も多いはずです。仕事術の本を出したのですが、修正をしなければ嘘だなって思ったほどです。 コードを書き、動かし、直すところまでは、エージェントがかなりこなせるようになりました。では楽になったかというと、なっていません。手を動かす時間が減ったぶん、差分を読み、承認し、確かめる時間が増えただけだと考えています。書く前に何を作るかを決め、書いたあとは差分を読んでほかの変更とつなぎ合わせ、本当に動くか…",
     "hatenaDate": "2026-11-06T06:46:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T17:30:12.538499+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -729,7 +729,7 @@
     "hatenaDate": "2026-11-06T06:08:05Z",
     "users": [],
     "firstSeenAt": "2026-11-06T15:30:14.610350+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -772,7 +772,7 @@
     "hatenaDate": "2026-11-05T07:40:34Z",
     "users": [],
     "firstSeenAt": "2026-11-06T14:30:14.067152+09:00",
-    "lastSeenAt": "2026-11-07T06:15:14.405863+09:00",
+    "lastSeenAt": "2026-11-07T06:30:13.550307+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
