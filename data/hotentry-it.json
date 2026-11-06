@@ -10,7 +10,7 @@
     "hatenaDate": "2026-11-06T10:38:58Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:45:13.917417+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +24,7 @@
     "hatenaDate": "2026-11-06T00:12:07Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:15:14.355680+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +38,7 @@
     "hatenaDate": "2026-11-06T00:57:23Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:15:14.355680+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +52,7 @@
     "hatenaDate": "2026-11-06T04:15:07Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:45:13.721036+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -60,14 +60,14 @@
     "title": "AWS CLI v2と出力が同じで最大550倍速いawsrをRustで作った",
     "url": "https://s.conao3.com/blog/2026/f681b9",
     "domain": "s.conao3.com",
-    "count": 9,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/s.conao3.com/blog/2026/f681b9",
     "screenshot": "https://s.conao3.com/og/blog/2026/f681b9.png",
     "description": "AWS CLI v2 のコマンドラインをそのまま受け付け、本家とバイト単位で同じ出力を返す CLI awsr を Rust で作りました。 リポジトリは conao3/rust-awscli で、ライセンスは Apache-2.0 です。 awsr sts get-caller-identity は 6.0ms で終わり、同じ PC で本家の aws (2.39.3) は 659ms かかります。 110 倍の差です。 help ページは 380〜550 倍速く出ます。 awsr は AWS の公式の製品ではありません。 conao3/rust-awscliA fast, output-co…",
     "hatenaDate": "2026-11-06T04:29:36Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:45:13.721036+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -81,21 +81,21 @@
     "hatenaDate": "2026-11-06T02:43:59Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:30:14.687036+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ヤマハ、ルーターにDNSセキュリティ機能を追加する拡張ライセンスを発売　中小企業・SOHOのセキュリティ強化を支援",
     "url": "https://cloud.watch.impress.co.jp/docs/news/2154335.html",
     "domain": "cloud.watch.impress.co.jp",
-    "count": 21,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/cloud.watch.impress.co.jp/docs/news/2154335.html",
     "screenshot": "https://cloud.watch.impress.co.jp/img/clw/list/2154/335/01.jpg",
     "description": "ヤマハ株式会社は6日、自社のルーター「RTX1300」「RTX840」にDNSセキュリティ機能を追加する拡張ライセンス「YSL-CLDDNS」を11月17日より販売開始すると発表した。通信性能にほとんど影響を与えることなく、手軽にセキュリティ機能を強化できる点が特徴。ヤマハでは、専任のIT担当者を置けない中小企業・SOHOを主な対象に、セキュリティを手軽に強化できる手段として提供を開始するという。 「YSL-CLDDNS」は、自社ルーター製品にDNSセキュリティ機能を追加するライセンス。DNSリカーシブ機能を利用することでヤマハセキュリティサーバーと連携し、機種やOSを問わず、ルーター配下に…",
     "hatenaDate": "2026-11-06T07:24:31Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -109,7 +109,7 @@
     "hatenaDate": "2026-11-06T12:04:58Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -118,28 +118,28 @@
     "title": "総務省｜個人情報の漏えい等につながる不正アクセスへの対策について（事業者向け注意喚起）",
     "url": "https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000683.html",
     "domain": "www.soumu.go.jp",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000683.html",
     "screenshot": "https://www.soumu.go.jp/main_content/000372150.jpg",
     "description": "総務省トップ > お知らせ > 個人情報の漏えい等につながる不正アクセスへの対策について（事業者向け注意喚起） 不正アクセスによる情報漏えい事案において、モバイルアプリの開発時におけるセキュリティ対策不足やウェブサイト等の設定不備、既知の脆弱性への未対応等、基本的な対策が十分でなかったことが原因とみられる事例が複数確認されています。 また、攻撃者は標的の調査や侵害にAIを使用している可能性も高く、従来は比較的低リスクと評価されていた脆弱性等を組み合わせて侵入した可能性も指摘されています。さらに、攻撃の大規模化が容易になることで、事業規模の大小を問わず、幅広い事業者が攻撃対象となっていると考え…",
     "hatenaDate": "2026-11-06T07:55:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "PHPは使っておりません - megamouthの葬列",
     "url": "https://www.megamouth.info/entry/2026/11/06/165305",
     "domain": "www.megamouth.info",
-    "count": 18,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.megamouth.info/entry/2026/11/06/165305",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/8c3a4db30db0c239931af309055cfb70dac0a8d4/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F41zh9snD0oL._SL500_.jpg",
     "description": "テレビのニュースがPHPと言ったのは、朝の8時だった。アナウンサーは滑舌のよい発音で、ピー・エイチ・ピーと一文字ずつ区切って読み、多くのウェブサイトで使われているプログラミング言語です、と付け加えた。僕はそれを聞きながら、いまだ動いているその多くの中に僕の書いたものがいくつ含まれているのかと想像しかけて、すぐに知ったことではない、と思い直した。 その日ネットを見ていると、いろんな会社のサイトがメンテナンス表示になったり、ならなかったりしていた。そして、中にはこう告知しているサイトさえあった。 となぜか嬉しそうに言う。付き合いが長いから、僕は彼の身の上をよく知っている。確か聞いたこともないよう…",
     "hatenaDate": "2026-11-06T08:05:48Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -162,14 +162,14 @@
     "title": "国家サイバー統括室、事業者に向けに不正アクセス対策のポイントをまとめた資料を公開　ウェブサイト・モバイルアプリで基本的な対策の徹底を呼びかけ",
     "url": "https://internet.watch.impress.co.jp/docs/news/2154286.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 4,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2154286.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2154/286/01.png",
     "description": "内閣官房国家サイバー統括室（NCO）は11月5日、事業者向けに個人情報の漏えいなどにつながる不正アクセスへの対策例をまとめた資料を公開した。 政府では、昨今発生している不正アクセスによる個人情報の漏えい事案において、モバイルアプリ開発時のセキュリティ対策不足、ウェブサイトなどの設定不備、サポートが終了しているソフトウェアや既知の脆弱性が未対策のソフトウェアの継続使用など、基本的な対策が十分でなかったことが原因とみられる事例が複数確認されているという。 攻撃者においては標的の調査や侵害にAIを悪用している可能性も高く、脆弱性診断では比較的低いと評価されたリスクであっても、複数が組み合わされるこ…",
     "hatenaDate": "2026-11-06T03:59:51Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:45:14.036868+09:00",
-    "lastSeenAt": "2026-11-07T00:00:11.794107+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -183,7 +183,7 @@
     "hatenaDate": "2026-11-06T10:35:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:45:14.036868+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -211,7 +211,7 @@
     "hatenaDate": "2026-11-06T05:27:01Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:15:13.350255+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -226,7 +226,7 @@
     "hatenaDate": "2026-11-06T02:23:38Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:15:13.350255+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -255,7 +255,7 @@
     "hatenaDate": "2026-11-06T03:36:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:00:15.108712+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -269,7 +269,7 @@
     "hatenaDate": "2026-11-06T11:22:32Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:45:13.894718+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -299,7 +299,7 @@
     "hatenaDate": "2026-11-06T02:59:55Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:15:13.375358+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -362,14 +362,14 @@
     "title": "月間はてなブックマーク数ランキング（2026年10月） - はてなブックマーク開発ブログ",
     "url": "https://bookmark.hatenastaff.com/entry/2026/11/06/170402",
     "domain": "bookmark.hatenastaff.com",
-    "count": 19,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/bookmark.hatenastaff.com/entry/2026/11/06/170402",
     "screenshot": "https://ogimage.blog.st-hatena.com/6435988827677048266/14729835035334709336/1793952242",
     "description": "何これ、すごすぎる！！ PhotoshopやIllustratorをオープンソースで再構築、しかもWin、Mac、Linux、Web対応で無料 | コリス 自閉スペクトラム症（ASD）【特徴1】対人的・情緒的相互関係の困難さ 実例80選 | 那珂川市の小児科・内科・眼科『江副クリニック』福岡県那珂川市 テレビに絵を流しっぱなしにして文化資本の格差を減らすアプリ「えをみる」を作った - 山下泰平の趣味の方法 英語多読サイト【無料・音声つき】レベル別の読み物1,952本｜イソップ全312話・名作・自己啓発｜多読ベスト PHPの重大な脆弱性「php2shell」（CVE-2026-109618、C…",
     "hatenaDate": "2026-11-06T08:04:36Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:15:14.313312+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -383,7 +383,7 @@
     "hatenaDate": "2026-11-05T05:01:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:00:16.630104+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -397,7 +397,7 @@
     "hatenaDate": "2026-11-06T06:09:45Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:00:16.630104+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -405,14 +405,14 @@
     "title": "不正アクセスによる「情報セキュリティ理解度チェックサービス」からの利用者個人情報漏えいの恐れに関するお知らせ",
     "url": "https://www.jnsa.org/dl/annual/20261106.pdf",
     "domain": "www.jnsa.org",
-    "count": 22,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.jnsa.org/dl/annual/20261106.pdf",
     "screenshot": null,
     "description": null,
     "hatenaDate": "2026-11-06T03:54:24Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:30:14.488505+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -434,14 +434,14 @@
     "title": "セキュリティ啓発団体に不正アクセス　個人情報最大1.5万件漏えいか",
     "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002978/",
     "domain": "www.itmedia.co.jp",
-    "count": 70,
+    "count": 71,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/06/2000002978/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/06/2000002978/10011539/2048",
     "description": "情報セキュリティの普及啓発に向けて活動する日本ネットワークセキュリティ協会（JNSA）は11月6日、同協会が運営する「情報セキュリティ理解度チェックサービス」が第三者による不正アクセスを受け、最大1万5128件の個人情報が漏えいした可能性があると発表した。利用者のIDやハッシュ化したパスワードなどが漏えいした可能性がある。同サービスは現在停止している。 情報セキュリティ理解度チェックサービスは、企業や団体が従業員の情報セキュリティに関する理解度を確認するためのもの。漏えいした可能性がある情報は利用者のIDやハッシュ化されたパスワードに加え、同サービスの受講を管理する担当者の指名、企業名、メー…",
     "hatenaDate": "2026-11-06T08:41:42Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:00:12.176323+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -514,7 +514,7 @@
     "hatenaDate": "2026-11-06T03:51:42Z",
     "users": [],
     "firstSeenAt": "2026-11-06T18:15:16.195637+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -536,14 +536,14 @@
     "title": "これは画期的！ 劇場の席番号を入力すると、ステージの見え方を3Dで確認できるサービス【やじうまWatch】",
     "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2154189.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 29,
+    "count": 30,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/yajiuma/2154189.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2154/189/yajiuma-watch_1.png",
     "description": "これは画期的！ 劇場の席番号を入力すると、ステージの見え方を3Dで確認できるサービス 劇場の席番号を入力することにより、その席からステージがどのように見えるか、3D表示で確認できるサービスが公開され話題だ。 これは、劇場の座席についての口コミサイト「席レポ！」が公開している「3D座席ビュー」なるサービス。リストから劇場を選択し、「1階◯列◯番」といった席番号を入力すると、その席からのステージの見え方が3Dで表示できるスグレモノだ。実際にその席から見えるステージの様子をシミュレーションできるだけでなく、俯瞰で席の位置を確認することもできるので、良席なのかどうかをチェックするにもぴったり。さらに…",
     "hatenaDate": "2026-11-06T02:38:06Z",
     "users": [],
     "firstSeenAt": "2026-11-06T18:00:15.320965+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body"
   },
   {
@@ -599,7 +599,7 @@
     "hatenaDate": "2026-11-06T06:46:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T17:30:12.538499+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -730,7 +730,7 @@
     "hatenaDate": "2026-11-05T07:40:34Z",
     "users": [],
     "firstSeenAt": "2026-11-06T14:30:14.067152+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -883,14 +883,14 @@
     "title": "メタバース、ワーケーションなど「ここ数年で恐ろしいほど聞かなくなった言葉一覧」に共感「Clubhouse懐かしい！」「半分がWeb3でわろた」",
     "url": "https://togetter.com/li/2767231",
     "domain": "togetter.com",
-    "count": 175,
+    "count": 176,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2767231",
     "screenshot": "https://s.tgstc.com/ogp3/c29c2ad954aa881896ebf262ac5fa0a6-1200x630.jpeg",
     "description": "ここ数年で恐ろしいほど聞かなくなった言葉一覧 ・NFT ・メタバース ・Web3.0 ・Clubhouse ・DAO ・STEPN ・GameFi ・仮想通貨女子 ・ワーケーション ・地方創生 ・ノマドワーカー ・タピオカ ・ひとりキャンプ ・意識高い系 ・SDGs 特にNFTとメタバースの消え方は異常。 1番怖いのは、当時「これを理解できない人間は時代に取り残される」と煽っていた連中が、今は何食わぬ顔で「AIを使えない人間は淘汰される」と煽っていること。 未来を予測してるんじゃない。 流行に寄生してるだけ。 @greynomado そういえば、これからはメタバースだ！と一念発起して社名をM…",
     "hatenaDate": "2026-11-06T02:34:22Z",
     "users": [],
     "firstSeenAt": "2026-11-06T12:30:13.970374+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -941,14 +941,14 @@
     "title": "Googleが「SREの教科書」を10年ぶりに全面改訂　“システム運用の常識”はどう変わった？",
     "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/06/news024.html",
     "domain": "atmarkit.itmedia.co.jp",
-    "count": 105,
+    "count": 106,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2611/06/news024.html",
     "screenshot": "https://image.itmedia.co.jp/ait/articles/2611/06/cover_news024.jpg",
     "description": "AI時代のSREに求められる新たな役割 Googleは、システムの信頼性を確保するための考え方や実践手法をまとめた書籍『Site Reliability Engineering』の第2版を発表した。初版の出版から10年、システム運用の考え方や手法はどのように変わったのか。 Googleは2026年10月12日（米国時間）、システムの信頼性を確保するための考え方や実践手法をまとめた書籍『Site Reliability Engineering: How Google Runs Production Systems』の第2版を発表した。2016年に初版が出版されたもので、それ以来10年ぶりの全面…",
     "hatenaDate": "2026-11-06T00:57:20Z",
     "users": [],
     "firstSeenAt": "2026-11-06T12:00:15.253333+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1029,14 +1029,14 @@
     "title": "定理証明ガードレールで AI エージェントに業務ルールを守らせる - freee Developers Hub",
     "url": "https://developers.freee.co.jp/entry/lean-formal-verification-ai-agent-guardrails",
     "domain": "developers.freee.co.jp",
-    "count": 123,
+    "count": 124,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/developers.freee.co.jp/entry/lean-formal-verification-ai-agent-guardrails",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/7e0626a0b3d076430a7995baf34c76d7ac15cc12/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fk%2Fkyasu2050%2F20261026%2F20261026221051.png",
     "description": "こんにちは。エンジニアの kyasu です（GitHub / LinkedIn）。 業務ルールが十数条、数十条と増えると、AI エージェントは悪意なく判断を誤ります。同じ依頼を同じように出しても、1 回目は正しく返金したのに、2 回目は条件を一つ読み落とす。業務システムとしては、これが一番困ります。 そこで、業務ルールを Lean の公理系として AI に渡し、会話ごとに受付定理を組み立てさせて、その証明を処理系に検めさせました。 問題 業務ルールが複雑になると、AI エージェントは悪意なく判断を誤る（τ-bench 小売・gpt-4o で pass1 約 61%、pass8 約 25%）…",
     "hatenaDate": "2026-11-05T01:53:25Z",
     "users": [],
     "firstSeenAt": "2026-11-06T11:00:12.274608+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1227,7 +1227,7 @@
     "hatenaDate": "2026-11-05T06:16:47Z",
     "users": [],
     "firstSeenAt": "2026-11-06T09:00:15.179870+09:00",
-    "lastSeenAt": "2026-11-07T01:45:13.915814+09:00",
+    "lastSeenAt": "2026-11-07T02:00:13.893298+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
