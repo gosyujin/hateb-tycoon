@@ -10,35 +10,35 @@
     "hatenaDate": "2026-11-02T09:46:09Z",
     "users": [],
     "firstSeenAt": "2026-11-07T04:00:15.454505+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件",
     "url": "https://zenn.dev/xin9le/articles/9a1cf8e10494d6",
     "domain": "zenn.dev",
-    "count": 19,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/xin9le/articles/9a1cf8e10494d6",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--j0ayzMEA--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%255B%25E7%25A0%25B4%25E5%25A3%258A%25E7%259A%2584%25E5%25A4%2589%25E6%259B%25B4%255D%2520%25E6%2598%258E%25E6%25B2%25BB%25E6%2599%2582%25E4%25BB%25A3%25E3%2581%25AE%25E9%2596%258B%25E5%25A7%258B%25E6%2597%25A5%25E3%2581%258C%25E5%25A4%2589%25E6%259B%25B4%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%25A6%25E5%258D%2598%25E4%25BD%2593%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%258C%25E5%25A4%25B1%25E6%2595%2597%25E3%2581%2597%25E3%2581%259F%25E4%25BB%25B6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:xin9le%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU2YWIzNmRlZWYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "「お前は何を言っているんだ？」と思うかもしれませんが、本当なのだから仕方ない！動いていたはずの CI の単体テストが突然コケるという事態に遭遇してビックリ。「何もしてないのに壊れた」。まじで。 ありのままのコードを載せるわけにはいかないのでポイントを絞って記載します。ざっくり以下のような感じです。サンプルコードは C# / .NET です。 // 和暦のカルチャ情報を作る var culture = new CultureInfo(\"ja-jp\"); culture.DateTimeFormat.Calendar = new JapaneseCalendar(); // 明治時代の開始日を文…",
     "hatenaDate": "2026-11-06T16:49:21Z",
     "users": [],
     "firstSeenAt": "2026-11-07T02:15:12.063510+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "総務省｜報道資料｜株式会社NTTドコモに対する特定利用者情報の保護に向けた措置（指導）",
     "url": "https://www.soumu.go.jp/menu_news/s-news/01kiban18_01000300.html",
     "domain": "www.soumu.go.jp",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.soumu.go.jp/menu_news/s-news/01kiban18_01000300.html",
     "screenshot": "https://www.soumu.go.jp/main_content/000372150.jpg",
     "description": "総務省トップ > 広報・報道 > 報道資料一覧 > 株式会社NTTドコモに対する特定利用者情報の保護に向けた措置（指導） 総務省は、本日、株式会社NTTドコモ（代表取締役社長 前田 義晃）に対し、同社における特定利用者情報の漏えい事案に関し、特定利用者情報の適正な管理を図るとともに、再発防止策等の必要な措置を講じ、その実施状況を報告するよう、文書による行政指導を行いました。 株式会社NTTドコモ（以下「NTTドコモ」といいます。）からの報告により、NTTドコモが提供するドコモMAX等の料金プランに係るオンライン契約時の申込手続導線の見直しが行われた際、重要事項説明等の注意事項において、ドコモ…",
     "hatenaDate": "2026-11-06T10:38:58Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:45:13.917417+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +52,7 @@
     "hatenaDate": "2026-11-06T00:12:07Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:15:14.355680+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +66,7 @@
     "hatenaDate": "2026-11-06T00:57:23Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:15:14.355680+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
@@ -80,7 +80,7 @@
     "hatenaDate": "2026-11-06T04:15:07Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:45:13.721036+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -95,7 +95,7 @@
     "hatenaDate": "2026-11-06T04:29:36Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:45:13.721036+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
@@ -109,7 +109,7 @@
     "hatenaDate": "2026-11-06T02:43:59Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:30:14.687036+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
@@ -123,7 +123,7 @@
     "hatenaDate": "2026-11-06T07:24:31Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
@@ -137,7 +137,7 @@
     "hatenaDate": "2026-11-06T12:04:58Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -153,7 +153,7 @@
     "hatenaDate": "2026-11-06T07:55:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
@@ -167,7 +167,7 @@
     "hatenaDate": "2026-11-06T08:05:48Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -197,7 +197,7 @@
     "hatenaDate": "2026-11-06T03:59:51Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:45:14.036868+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
@@ -211,7 +211,7 @@
     "hatenaDate": "2026-11-06T10:35:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:45:14.036868+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
@@ -225,7 +225,7 @@
     "hatenaDate": "2026-11-06T08:07:03Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:30:14.431268+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
@@ -239,7 +239,7 @@
     "hatenaDate": "2026-11-06T05:27:01Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:15:13.350255+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -283,21 +283,21 @@
     "hatenaDate": "2026-11-06T03:36:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:00:15.108712+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ドコモ不正アクセス、「料金プラン」などの情報も流出　29.5万件",
     "url": "https://www.watch.impress.co.jp/docs/news/2154508.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 88,
+    "count": 89,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2154508.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2154/508/d01.jpg",
     "description": "NTTドコモは6日、「ドコモオンラインショップ」と会員サービス「My docomo」において、外部から不正なアクセスが行なわれ、一部の会員情報が流出した問題について会見し、謝罪した。 5日の発表で可能性を認めていた、氏名、住所、生年月日、携帯電話番号などに加え、本人確認書類の番号や、料金プラン/オプションなども含まれることを公表。また、一部の利用者では、法定代理人・手続代理人の氏名、連絡先のほか、勤務先・法人の名称、所在地、金融機関名、支店名、口座番号なども含まれている。影響ユーザ数は最大294,839件(回線)で、個人204,157件、法人90,682件。 ドコモ、不正アクセスで最大30万…",
     "hatenaDate": "2026-11-06T11:22:32Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:45:13.894718+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -327,7 +327,7 @@
     "hatenaDate": "2026-11-06T02:59:55Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:15:13.375358+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
@@ -397,7 +397,7 @@
     "hatenaDate": "2026-11-06T08:04:36Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:15:14.313312+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
@@ -411,21 +411,21 @@
     "hatenaDate": "2026-11-05T05:01:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:00:16.630104+09:00",
-    "lastSeenAt": "2026-11-07T03:45:12.718801+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Claude Codeがユーザーのメールアドレスを外部サイトに勝手に送信する問題が発覚、約4カ月前から報告されていたことも判明",
     "url": "https://gigazine.net/news/20261106-claude-code-mail-address/",
     "domain": "gigazine.net",
-    "count": 31,
+    "count": 32,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261106-claude-code-mail-address/",
     "screenshot": "https://i.gzn.jp/img/2026/11/06/claude-code-mail-address/00_m.png",
     "description": "AnthropicのAIコーディングツール「Claude Code」が、ユーザーのメールアドレスを許可なく外部のウェブサイトに送信していたという問題が報告されました。2026年11月5日にGitHubで新たな問題報告が投稿されましたが、同様の問題は7月にも報告されており、Anthropicの対応が注目されています。 Bug Report: Privacy viola...",
     "hatenaDate": "2026-11-06T06:09:45Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:00:16.630104+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -440,7 +440,7 @@
     "hatenaDate": "2026-11-06T03:54:24Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:30:14.488505+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -469,7 +469,7 @@
     "hatenaDate": "2026-11-06T08:41:42Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:00:12.176323+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -542,7 +542,7 @@
     "hatenaDate": "2026-11-06T03:51:42Z",
     "users": [],
     "firstSeenAt": "2026-11-06T18:15:16.195637+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -571,7 +571,7 @@
     "hatenaDate": "2026-11-06T02:38:06Z",
     "users": [],
     "firstSeenAt": "2026-11-06T18:00:15.320965+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body"
   },
   {
@@ -627,7 +627,7 @@
     "hatenaDate": "2026-11-06T06:46:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T17:30:12.538499+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -758,7 +758,7 @@
     "hatenaDate": "2026-11-05T07:40:34Z",
     "users": [],
     "firstSeenAt": "2026-11-06T14:30:14.067152+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -918,7 +918,7 @@
     "hatenaDate": "2026-11-06T02:34:22Z",
     "users": [],
     "firstSeenAt": "2026-11-06T12:30:13.970374+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1255,7 +1255,7 @@
     "hatenaDate": "2026-11-05T06:16:47Z",
     "users": [],
     "firstSeenAt": "2026-11-06T09:00:15.179870+09:00",
-    "lastSeenAt": "2026-11-07T04:30:13.213569+09:00",
+    "lastSeenAt": "2026-11-07T04:45:15.846591+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
