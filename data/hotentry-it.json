@@ -3,28 +3,28 @@
     "title": "自分は旧時代のエンジニアになってしまったのでは",
     "url": "https://www.mobtown.jp/article/old-engineer/",
     "domain": "www.mobtown.jp",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.mobtown.jp/article/old-engineer/",
     "screenshot": "https://www.mobtown.jp/_astro/blog-placeholder-1.Bx0Zcyzv.jpg",
     "description": "最近、生成AIによるバイブコーディングが一般化していくにつれて、自分の中でそことの向き合い方を考えていました。 個人的には、生成AIの出力をそのまま鵜呑みにするのではなく、内容を理解し必要に応じて訂正した上で、自分の責任として成果物を出すのがエンジニアリングだ—、というのが今の自分の結論でした。 それは今まで、コードやシステムを理解しようと努力し、その本質を分かった上で、修正や拡張をしようとし続けてきた自分のような人間にとっては、納得のいく結論に感じていました。 しかし、世の中の生成AIとの向き合い方は違います。 出力をそのまま出す人も増えてきました。システムを理解しなくてもバグを直すことも…",
     "hatenaDate": "2026-11-05T13:24:35Z",
     "users": [],
     "firstSeenAt": "2026-11-07T07:30:14.447075+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "自己回帰生成モデルの熱力学を構築 ―大規模言語モデルに内在する「世界モデル」の定量的理解に向けて―",
     "url": "https://www.t.u-tokyo.ac.jp/press/pr2026-11-06-001",
     "domain": "www.t.u-tokyo.ac.jp",
-    "count": 17,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.t.u-tokyo.ac.jp/press/pr2026-11-06-001",
     "screenshot": "https://www.t.u-tokyo.ac.jp/hubfs/press-release/2026/1106/001/key.jpg",
     "description": "◆ 大規模言語モデルからカルマンフィルタまで、過去の出力履歴を用いて次の出力を生成する「自己回帰生成モデル」を統一的に扱う熱力学理論を構築しました。 ◆ 出力を生成する過程にどの程度「一方向性」があるかを表す量（エントロピー生成）を効率的に推定する方法を示し、それを大規模言語モデルの解析に応用しました。 ◆ 本研究は、生成AIが学習で獲得した現実世界についての表現を、熱力学に基づいて解析する新たな道筋を提示することが期待されます。 東京大学大学院工学系研究科物理工学専攻の沙川 貴大 教授は、過去の出力の履歴に基づいて次の出力を生成する「自己回帰生成モデル」（Autoregressive Ge…",
     "hatenaDate": "2026-11-06T11:53:33Z",
     "users": [],
     "firstSeenAt": "2026-11-07T06:00:13.396619+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,21 +38,21 @@
     "hatenaDate": "2026-11-02T09:46:09Z",
     "users": [],
     "firstSeenAt": "2026-11-07T04:00:15.454505+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件",
     "url": "https://zenn.dev/xin9le/articles/9a1cf8e10494d6",
     "domain": "zenn.dev",
-    "count": 57,
+    "count": 59,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/xin9le/articles/9a1cf8e10494d6",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--j0ayzMEA--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%255B%25E7%25A0%25B4%25E5%25A3%258A%25E7%259A%2584%25E5%25A4%2589%25E6%259B%25B4%255D%2520%25E6%2598%258E%25E6%25B2%25BB%25E6%2599%2582%25E4%25BB%25A3%25E3%2581%25AE%25E9%2596%258B%25E5%25A7%258B%25E6%2597%25A5%25E3%2581%258C%25E5%25A4%2589%25E6%259B%25B4%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%25A6%25E5%258D%2598%25E4%25BD%2593%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%258C%25E5%25A4%25B1%25E6%2595%2597%25E3%2581%2597%25E3%2581%259F%25E4%25BB%25B6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:xin9le%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU2YWIzNmRlZWYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "「お前は何を言っているんだ？」と思うかもしれませんが、本当なのだから仕方ない！動いていたはずの CI の単体テストが突然コケるという事態に遭遇してビックリ。「何もしてないのに壊れた」。まじで。 ありのままのコードを載せるわけにはいかないのでポイントを絞って記載します。ざっくり以下のような感じです。サンプルコードは C# / .NET です。 // 和暦のカルチャ情報を作る var culture = new CultureInfo(\"ja-jp\"); culture.DateTimeFormat.Calendar = new JapaneseCalendar(); // 明治時代の開始日を文…",
     "hatenaDate": "2026-11-06T16:49:21Z",
     "users": [],
     "firstSeenAt": "2026-11-07T02:15:12.063510+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +66,7 @@
     "hatenaDate": "2026-11-06T10:38:58Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:45:13.917417+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
@@ -80,7 +80,7 @@
     "hatenaDate": "2026-11-06T00:12:07Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:15:14.355680+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
@@ -94,7 +94,7 @@
     "hatenaDate": "2026-11-06T00:57:23Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:15:14.355680+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
@@ -108,7 +108,7 @@
     "hatenaDate": "2026-11-06T04:15:07Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:45:13.721036+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -123,7 +123,7 @@
     "hatenaDate": "2026-11-06T04:29:36Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:45:13.721036+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
@@ -137,35 +137,35 @@
     "hatenaDate": "2026-11-06T02:43:59Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:30:14.687036+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ヤマハ、ルーターにDNSセキュリティ機能を追加する拡張ライセンスを発売　中小企業・SOHOのセキュリティ強化を支援",
     "url": "https://cloud.watch.impress.co.jp/docs/news/2154335.html",
     "domain": "cloud.watch.impress.co.jp",
-    "count": 30,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/cloud.watch.impress.co.jp/docs/news/2154335.html",
     "screenshot": "https://cloud.watch.impress.co.jp/img/clw/list/2154/335/01.jpg",
     "description": "ヤマハ株式会社は6日、自社のルーター「RTX1300」「RTX840」にDNSセキュリティ機能を追加する拡張ライセンス「YSL-CLDDNS」を11月17日より販売開始すると発表した。通信性能にほとんど影響を与えることなく、手軽にセキュリティ機能を強化できる点が特徴。ヤマハでは、専任のIT担当者を置けない中小企業・SOHOを主な対象に、セキュリティを手軽に強化できる手段として提供を開始するという。 「YSL-CLDDNS」は、自社ルーター製品にDNSセキュリティ機能を追加するライセンス。DNSリカーシブ機能を利用することでヤマハセキュリティサーバーと連携し、機種やOSを問わず、ルーター配下に…",
     "hatenaDate": "2026-11-06T07:24:31Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ドコモ、不正アクセスで最大29.5万件の情報が流出",
     "url": "https://k-tai.watch.impress.co.jp/docs/news/2154506.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 38,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2154506.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2154/506/003.jpg",
     "description": "NTTドコモは6日、不正アクセスにより最大29万4839件の顧客情報が流出したと発表した。11月4日に大量アクセスのアラートを検知し、攻撃経路の特定を進めていた。同社は被害拡大を防ぐため、オンラインショップなどのサービスを緊急停止している。 ドコモは11月4日10時30分頃に大量アクセスのアラートを検知した。同日14時30分に海外IPアドレスの遮断を実施したものの効果が見られず、特定の攻撃経路を遮断する対処を行った。同日夜にアラートは停止したが、深夜に再度不正アクセスの可能性を検知したという。 翌5日未明に顧客情報の流出を確認。外部の攻撃者が不正アクセスを行い、複数のシステムが有機的に連動す…",
     "hatenaDate": "2026-11-06T12:04:58Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -174,28 +174,28 @@
     "title": "総務省｜個人情報の漏えい等につながる不正アクセスへの対策について（事業者向け注意喚起）",
     "url": "https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000683.html",
     "domain": "www.soumu.go.jp",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000683.html",
     "screenshot": "https://www.soumu.go.jp/main_content/000372150.jpg",
     "description": "総務省トップ > お知らせ > 個人情報の漏えい等につながる不正アクセスへの対策について（事業者向け注意喚起） 不正アクセスによる情報漏えい事案において、モバイルアプリの開発時におけるセキュリティ対策不足やウェブサイト等の設定不備、既知の脆弱性への未対応等、基本的な対策が十分でなかったことが原因とみられる事例が複数確認されています。 また、攻撃者は標的の調査や侵害にAIを使用している可能性も高く、従来は比較的低リスクと評価されていた脆弱性等を組み合わせて侵入した可能性も指摘されています。さらに、攻撃の大規模化が容易になることで、事業規模の大小を問わず、幅広い事業者が攻撃対象となっていると考え…",
     "hatenaDate": "2026-11-06T07:55:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "PHPは使っておりません - megamouthの葬列",
     "url": "https://www.megamouth.info/entry/2026/11/06/165305",
     "domain": "www.megamouth.info",
-    "count": 62,
+    "count": 64,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.megamouth.info/entry/2026/11/06/165305",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/8c3a4db30db0c239931af309055cfb70dac0a8d4/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F41zh9snD0oL._SL500_.jpg",
     "description": "テレビのニュースがPHPと言ったのは、朝の8時だった。アナウンサーは滑舌のよい発音で、ピー・エイチ・ピーと一文字ずつ区切って読み、多くのウェブサイトで使われているプログラミング言語です、と付け加えた。僕はそれを聞きながら、いまだ動いているその多くの中に僕の書いたものがいくつ含まれているのかと想像しかけて、すぐに知ったことではない、と思い直した。 その日ネットを見ていると、いろんな会社のサイトがメンテナンス表示になったり、ならなかったりしていた。そして、中にはこう告知しているサイトさえあった。 となぜか嬉しそうに言う。付き合いが長いから、僕は彼の身の上をよく知っている。確か聞いたこともないよう…",
     "hatenaDate": "2026-11-06T08:05:48Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -211,7 +211,7 @@
     "hatenaDate": "2026-11-06T02:09:26Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:00:09.781159+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
@@ -225,7 +225,7 @@
     "hatenaDate": "2026-11-06T03:59:51Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:45:14.036868+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
@@ -239,7 +239,7 @@
     "hatenaDate": "2026-11-06T10:35:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:45:14.036868+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
@@ -253,7 +253,7 @@
     "hatenaDate": "2026-11-06T08:07:03Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:30:14.431268+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
@@ -267,7 +267,7 @@
     "hatenaDate": "2026-11-06T05:27:01Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:15:13.350255+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -311,21 +311,21 @@
     "hatenaDate": "2026-11-06T03:36:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:00:15.108712+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ドコモ不正アクセス、「料金プラン」などの情報も流出 「重く受け止めている」",
     "url": "https://www.watch.impress.co.jp/docs/news/2154508.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 128,
+    "count": 132,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2154508.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2154/508/d01.jpg",
     "description": "NTTドコモは6日、「ドコモオンラインショップ」と会員サービス「My docomo」において、外部から不正なアクセスが行なわれ、一部の会員情報が流出した問題について会見し、謝罪した。 5日の発表で可能性を認めていた、氏名、住所、生年月日、携帯電話番号などに加え、本人確認書類の番号や、料金プラン/オプションなども含まれることを公表。また、一部の利用者では、法定代理人・手続代理人の氏名、連絡先のほか、勤務先・法人の名称、所在地、金融機関名、支店名、口座番号なども含まれている。影響ユーザ数は最大294,839件(回線)で、個人204,157件、法人90,682件。 ドコモ、不正アクセスで最大30万…",
     "hatenaDate": "2026-11-06T11:22:32Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:45:13.894718+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -334,28 +334,28 @@
     "title": "Linuxの脆弱性948件を攻略、セキュリティ特化AI「GPT-6 Cyber」",
     "url": "https://pc.watch.impress.co.jp/docs/news/2154280.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2154280.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2154/280/01.png",
     "description": "OpenAI公表のベンチマーク比較。ExploitGymでGPT-6 Cyberは48.5%と、GPT-5.6 Cyberの32.1%を上回った オープンソースOSの中核「Linuxカーネル」で、実際に攻撃が成立する脆弱性が948件見つかった。見つけたのは、OpenAIが11月5日(現地時間)に発表したセキュリティ研究向けのAIモデル「GPT-6 Cyber」だ。ただし、このAIは誰でも使えるわけではない。 GPT-6 Cyberは、ソフトウェアの脆弱性を発見し、攻撃コードを作成して悪用できるかまで検証するAIモデルだ。最上位モデル「GPT-6 Astra」をサイバー業務に特化させた派生版で…",
     "hatenaDate": "2026-11-06T04:58:52Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:45:13.894718+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AWS Security Hub now provides an SBOM inventory for your compute resources - AWS",
     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/",
     "domain": "aws.amazon.com",
-    "count": 15,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/",
     "screenshot": null,
     "description": "Today, AWS announces that AWS Security Hub now provides a Software Bill of Materials (SBOM) inventory, giving central security teams a continuously updated, organization-wide view of the software packages and applications installed on their compute resources. Security Hub builds the inventory from…",
     "hatenaDate": "2026-11-06T02:59:55Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:15:13.375358+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
@@ -383,7 +383,7 @@
     "hatenaDate": "2024-07-18T22:02:25Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:15:13.375358+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
@@ -425,7 +425,7 @@
     "hatenaDate": "2026-11-06T08:04:36Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:15:14.313312+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body"
   },
   {
@@ -453,7 +453,7 @@
     "hatenaDate": "2026-11-06T06:09:45Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:00:16.630104+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -468,7 +468,7 @@
     "hatenaDate": "2026-11-06T03:54:24Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:30:14.488505+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -490,14 +490,14 @@
     "title": "セキュリティ啓発団体に不正アクセス　個人情報最大1.5万件漏えいか",
     "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002978/",
     "domain": "www.itmedia.co.jp",
-    "count": 90,
+    "count": 91,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/06/2000002978/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/06/2000002978/10011539/2048",
     "description": "情報セキュリティの普及啓発に向けて活動する日本ネットワークセキュリティ協会（JNSA）は11月6日、同協会が運営する「情報セキュリティ理解度チェックサービス」が第三者による不正アクセスを受け、最大1万5128件の個人情報が漏えいした可能性があると発表した。利用者のIDやハッシュ化したパスワードなどが漏えいした可能性がある。同サービスは現在停止している。 情報セキュリティ理解度チェックサービスは、企業や団体が従業員の情報セキュリティに関する理解度を確認するためのもの。漏えいした可能性がある情報は利用者のIDやハッシュ化されたパスワードに加え、同サービスの受講を管理する担当者の指名、企業名、メー…",
     "hatenaDate": "2026-11-06T08:41:42Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:00:12.176323+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -648,14 +648,14 @@
     "title": "Herdrで、複数のエージェントを見守りたい - じゃあ、おうちで学べる",
     "url": "https://syu-m-5151.hatenablog.com/entry/2026/11/06/132239",
     "domain": "syu-m-5151.hatenablog.com",
-    "count": 95,
+    "count": 96,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/syu-m-5151.hatenablog.com/entry/2026/11/06/132239",
     "screenshot": "https://ogimage.blog.st-hatena.com/8454420450094081900/14729835035334581858/1793949051",
     "description": "私たちエンジニアの仕事はここ1年で大きく変貌しました。大きく変貌しましたよね？ 自分でコードを書く時間より、エージェントに仕事を渡し、戻ってきた差分を読み、次に何を任せるかを決める時間のほうが長くなった人も多いはずです。仕事術の本を出したのですが、修正をしなければ嘘だなって思ったほどです。 コードを書き、動かし、直すところまでは、エージェントがかなりこなせるようになりました。では楽になったかというと、なっていません。手を動かす時間が減ったぶん、差分を読み、承認し、確かめる時間が増えただけだと考えています。書く前に何を作るかを決め、書いたあとは差分を読んでほかの変更とつなぎ合わせ、本当に動くか…",
     "hatenaDate": "2026-11-06T06:46:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T17:30:12.538499+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -743,7 +743,7 @@
     "hatenaDate": "2026-11-06T06:08:05Z",
     "users": [],
     "firstSeenAt": "2026-11-06T15:30:14.610350+09:00",
-    "lastSeenAt": "2026-11-07T07:45:13.224690+09:00",
+    "lastSeenAt": "2026-11-07T08:00:14.673256+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
