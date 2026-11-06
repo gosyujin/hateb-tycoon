@@ -1,44 +1,73 @@
 [
   {
+    "title": "142. ISUCON2026で優勝する方法 w/ kawasy",
+    "url": "https://open.spotify.com/episode/3upWlmL3EZ16icnugHzRJf",
+    "domain": "open.spotify.com",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/open.spotify.com/episode/3upWlmL3EZ16icnugHzRJf",
+    "screenshot": "https://i.scdn.co/image/ab6765630000ba8ada32eb13c28d6215f3419b2a",
+    "description": "kawasyさんをゲストに、ISUCON2026で競技中に人間が介入せず優勝したAIエージェント、ハーネスの仕組み、当日までに準備したことなどについて語っていただきました。話したネタISUCON2026で、競技中に人間が介入せず優勝fukabori.ep #52 ISUCON今回の出題課題競技当日に人間が行った操作とは？約3か月の準備で作ったハー...",
+    "hatenaDate": "2026-11-06T04:15:07Z",
+    "users": [],
+    "firstSeenAt": "2026-11-06T23:45:13.721036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
+    "bodyStatus": "skip",
+    "bodyReason": "not-longer"
+  },
+  {
+    "title": "AWS CLI v2と出力が同じで最大550倍速いawsrをRustで作った",
+    "url": "https://s.conao3.com/blog/2026/f681b9",
+    "domain": "s.conao3.com",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/s.conao3.com/blog/2026/f681b9",
+    "screenshot": "https://s.conao3.com/og/blog/2026/f681b9.png",
+    "description": "AWS CLI v2 のコマンドラインをそのまま受け付け、本家とバイト単位で同じ出力を返す CLI awsr を Rust で作りました。 リポジトリは conao3/rust-awscli で、ライセンスは Apache-2.0 です。 awsr sts get-caller-identity は 6.0ms で終わり、同じ PC で本家の aws (2.39.3) は 659ms かかります。 110 倍の差です。 help ページは 380〜550 倍速く出ます。 awsr は AWS の公式の製品ではありません。 conao3/rust-awscliA fast, output-co…",
+    "hatenaDate": "2026-11-06T04:29:36Z",
+    "users": [],
+    "firstSeenAt": "2026-11-06T23:45:13.721036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "マヨネーズを使わないポテトサラダの作り方 - 家電 Watch",
     "url": "https://kaden.watch.impress.co.jp/docs/column/precooking/2153159.html",
     "domain": "kaden.watch.impress.co.jp",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kaden.watch.impress.co.jp/docs/column/precooking/2153159.html",
     "screenshot": "https://kaden.watch.impress.co.jp/img/kdw/list/2153/159/top.jpg",
     "description": "じゃがいもはよく洗い、水が付いたままラップでふんわり包みます。600Wの電子レンジで2分加熱した後、裏返して再度2分加熱し、竹串などで刺してスッと中まで通ればOK。まだ硬いようであれば、様子を見ながら30秒ずつ追加で加熱してください。 じゃがいもが熱いうちに皮を剥きます。ボウルなどの容器に入れ、フォークの背などでじゃがいもを潰しましょう。 じゃがいもにツナ缶を汁ごと加えて混ぜたら、クリームチーズ、顆粒コンソメを加えて、クリームチーズを小さく切りながら混ぜ合わせます。 チョコレートと漬物が好きな管理栄養士です。現在、子育てに奮闘中。体力の衰えを感じながら、子どもと公園を走り回っています。家事の…",
     "hatenaDate": "2026-11-06T02:43:59Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:30:14.687036+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ヤマハ、ルーターにDNSセキュリティ機能を追加する拡張ライセンスを発売　中小企業・SOHOのセキュリティ強化を支援",
     "url": "https://cloud.watch.impress.co.jp/docs/news/2154335.html",
     "domain": "cloud.watch.impress.co.jp",
-    "count": 6,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/cloud.watch.impress.co.jp/docs/news/2154335.html",
     "screenshot": "https://cloud.watch.impress.co.jp/img/clw/list/2154/335/01.jpg",
     "description": "ヤマハ株式会社は6日、自社のルーター「RTX1300」「RTX840」にDNSセキュリティ機能を追加する拡張ライセンス「YSL-CLDDNS」を11月17日より販売開始すると発表した。通信性能にほとんど影響を与えることなく、手軽にセキュリティ機能を強化できる点が特徴。ヤマハでは、専任のIT担当者を置けない中小企業・SOHOを主な対象に、セキュリティを手軽に強化できる手段として提供を開始するという。 「YSL-CLDDNS」は、自社ルーター製品にDNSセキュリティ機能を追加するライセンス。DNSリカーシブ機能を利用することでヤマハセキュリティサーバーと連携し、機種やOSを問わず、ルーター配下に…",
     "hatenaDate": "2026-11-06T07:24:31Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ドコモ、不正アクセスで最大29.5万件の情報が流出",
     "url": "https://k-tai.watch.impress.co.jp/docs/news/2154506.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2154506.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2154/506/003.jpg",
     "description": "NTTドコモは6日、不正アクセスにより最大29万4839件の顧客情報が流出したと発表した。11月4日に大量アクセスのアラートを検知し、攻撃経路の特定を進めていた。同社は被害拡大を防ぐため、オンラインショップなどのサービスを緊急停止している。 ドコモは11月4日10時30分頃に大量アクセスのアラートを検知した。同日14時30分に海外IPアドレスの遮断を実施したものの効果が見られず、特定の攻撃経路を遮断する対処を行った。同日夜にアラートは停止したが、深夜に再度不正アクセスの可能性を検知したという。 翌5日未明に顧客情報の流出を確認。外部の攻撃者が不正アクセスを行い、複数のシステムが有機的に連動す…",
     "hatenaDate": "2026-11-06T12:04:58Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,21 +81,21 @@
     "hatenaDate": "2026-11-06T07:55:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "PHPは使っておりません - megamouthの葬列",
     "url": "https://www.megamouth.info/entry/2026/11/06/165305",
     "domain": "www.megamouth.info",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.megamouth.info/entry/2026/11/06/165305",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/8c3a4db30db0c239931af309055cfb70dac0a8d4/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F41zh9snD0oL._SL500_.jpg",
     "description": "テレビのニュースがPHPと言ったのは、朝の8時だった。アナウンサーは滑舌のよい発音で、ピー・エイチ・ピーと一文字ずつ区切って読み、多くのウェブサイトで使われているプログラミング言語です、と付け加えた。僕はそれを聞きながら、いまだ動いているその多くの中に僕の書いたものがいくつ含まれているのかと想像しかけて、すぐに知ったことではない、と思い直した。 その日ネットを見ていると、いろんな会社のサイトがメンテナンス表示になったり、ならなかったりしていた。そして、中にはこう告知しているサイトさえあった。 となぜか嬉しそうに言う。付き合いが長いから、僕は彼の身の上をよく知っている。確か聞いたこともないよう…",
     "hatenaDate": "2026-11-06T08:05:48Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body"
   },
   {
@@ -80,7 +109,7 @@
     "hatenaDate": "2026-11-06T02:09:26Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:00:09.781159+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body"
   },
   {
@@ -108,7 +137,7 @@
     "hatenaDate": "2026-11-06T10:35:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:45:14.036868+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body"
   },
   {
@@ -136,7 +165,7 @@
     "hatenaDate": "2026-11-06T05:27:01Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:15:13.350255+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -151,7 +180,7 @@
     "hatenaDate": "2026-11-06T02:23:38Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:15:13.350255+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -180,21 +209,21 @@
     "hatenaDate": "2026-11-06T03:36:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:00:15.108712+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ドコモ不正アクセス、「料金プラン」などの情報も流出　29.5万件",
     "url": "https://www.watch.impress.co.jp/docs/news/2154508.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 47,
+    "count": 49,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2154508.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2154/508/d01.jpg",
     "description": "NTTドコモは6日、「ドコモオンラインショップ」と会員サービス「My docomo」において、外部から不正なアクセスが行なわれ、一部の会員情報が流出した問題について会見し、謝罪した。 5日の発表で可能性を認めていた、氏名、住所、生年月日、携帯電話番号などに加え、本人確認書類の番号や、料金プラン/オプションなども含まれることを公表。また、一部の利用者では、法定代理人・手続代理人の氏名、連絡先のほか、勤務先・法人の名称、所在地、金融機関名、支店名、口座番号なども含まれている。影響ユーザ数は最大294,839件(回線)で、個人204,157件、法人90,682件。 ドコモ、不正アクセスで最大30万…",
     "hatenaDate": "2026-11-06T11:22:32Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:45:13.894718+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -224,7 +253,7 @@
     "hatenaDate": "2026-11-06T02:59:55Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:15:13.375358+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body"
   },
   {
@@ -308,21 +337,21 @@
     "hatenaDate": "2026-11-05T05:01:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:00:16.630104+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Claude Codeがユーザーのメールアドレスを外部サイトに勝手に送信する問題が発覚、約4カ月前から報告されていたことも判明",
     "url": "https://gigazine.net/news/20261106-claude-code-mail-address/",
     "domain": "gigazine.net",
-    "count": 25,
+    "count": 26,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261106-claude-code-mail-address/",
     "screenshot": "https://i.gzn.jp/img/2026/11/06/claude-code-mail-address/00_m.png",
     "description": "AnthropicのAIコーディングツール「Claude Code」が、ユーザーのメールアドレスを許可なく外部のウェブサイトに送信していたという問題が報告されました。2026年11月5日にGitHubで新たな問題報告が投稿されましたが、同様の問題は7月にも報告されており、Anthropicの対応が注目されています。 Bug Report: Privacy viola...",
     "hatenaDate": "2026-11-06T06:09:45Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:00:16.630104+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -337,7 +366,7 @@
     "hatenaDate": "2026-11-06T03:54:24Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:30:14.488505+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -359,14 +388,14 @@
     "title": "セキュリティ啓発団体に不正アクセス　個人情報最大1.5万件漏えいか",
     "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002978/",
     "domain": "www.itmedia.co.jp",
-    "count": 60,
+    "count": 62,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/06/2000002978/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/06/2000002978/10011539/2048",
     "description": "情報セキュリティの普及啓発に向けて活動する日本ネットワークセキュリティ協会（JNSA）は11月6日、同協会が運営する「情報セキュリティ理解度チェックサービス」が第三者による不正アクセスを受け、最大1万5128件の個人情報が漏えいした可能性があると発表した。利用者のIDやハッシュ化したパスワードなどが漏えいした可能性がある。同サービスは現在停止している。 情報セキュリティ理解度チェックサービスは、企業や団体が従業員の情報セキュリティに関する理解度を確認するためのもの。漏えいした可能性がある情報は利用者のIDやハッシュ化されたパスワードに加え、同サービスの受講を管理する担当者の指名、企業名、メー…",
     "hatenaDate": "2026-11-06T08:41:42Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:00:12.176323+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -382,7 +411,7 @@
     "hatenaDate": "2026-11-06T05:39:04Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:00:12.176323+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body"
   },
   {
@@ -439,7 +468,7 @@
     "hatenaDate": "2026-11-06T03:51:42Z",
     "users": [],
     "firstSeenAt": "2026-11-06T18:15:16.195637+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -468,7 +497,7 @@
     "hatenaDate": "2026-11-06T02:38:06Z",
     "users": [],
     "firstSeenAt": "2026-11-06T18:00:15.320965+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body"
   },
   {
@@ -517,14 +546,14 @@
     "title": "Herdrで、複数のエージェントを見守りたい - じゃあ、おうちで学べる",
     "url": "https://syu-m-5151.hatenablog.com/entry/2026/11/06/132239",
     "domain": "syu-m-5151.hatenablog.com",
-    "count": 66,
+    "count": 67,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/syu-m-5151.hatenablog.com/entry/2026/11/06/132239",
     "screenshot": "https://ogimage.blog.st-hatena.com/8454420450094081900/14729835035334581858/1793947124",
     "description": "私たちエンジニアの仕事はここ1年で大きく変貌しました。大きく変貌しましたよね？ 自分でコードを書く時間より、エージェントに仕事を渡し、戻ってきた差分を読み、次に何を任せるかを決める時間のほうが長くなった人も多いはずです。仕事術の本を出したのですが、修正をしなければ嘘だなって思ったほどです。 コードを書き、動かし、直すところまでは、エージェントがかなりこなせるようになりました。では楽になったかというと、なっていません。手を動かす時間が減ったぶん、差分を読み、承認し、確かめる時間が増えただけだと考えています。書く前に何を作るかを決め、書いたあとは差分を読んでほかの変更とつなぎ合わせ、本当に動くか…",
     "hatenaDate": "2026-11-06T06:46:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T17:30:12.538499+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -612,7 +641,7 @@
     "hatenaDate": "2026-11-06T06:08:05Z",
     "users": [],
     "firstSeenAt": "2026-11-06T15:30:14.610350+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -648,14 +677,14 @@
     "title": "インプレス、セキュリティ書籍9冊を全文無料公開。11月9日まで",
     "url": "https://pc.watch.impress.co.jp/docs/news/2153924.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 118,
+    "count": 120,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2153924.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2153/924/01.jpg",
     "description": "不正アクセスやランサムウェア攻撃など、情報セキュリティへの関心が高まっていることを受けた施策。セキュリティ関連書籍の計9タイトルが対象となっており、電子書籍形式で全文を無料で閲覧できる。対象の書籍は以下の通り。 Pythonで学ぶ Webアプリのセキュアコーディング 脆弱性の見つけ方・直し方が身につく実践入門 実践バックアップ設計 ランサムウェア時代の「復元」完全ガイド(技術の泉シリーズ) 空と宇宙のサイバーセキュリティ入門 航空宇宙システムの基礎から衛星ハッキング対策まで(技術の泉シリーズ)",
     "hatenaDate": "2026-11-05T07:40:34Z",
     "users": [],
     "firstSeenAt": "2026-11-06T14:30:14.067152+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -815,7 +844,7 @@
     "hatenaDate": "2026-11-06T02:34:22Z",
     "users": [],
     "firstSeenAt": "2026-11-06T12:30:13.970374+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -873,7 +902,7 @@
     "hatenaDate": "2026-11-06T00:57:20Z",
     "users": [],
     "firstSeenAt": "2026-11-06T12:00:15.253333+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -961,7 +990,7 @@
     "hatenaDate": "2026-11-05T01:53:25Z",
     "users": [],
     "firstSeenAt": "2026-11-06T11:00:12.274608+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1076,7 +1105,7 @@
     "hatenaDate": "2026-11-06T00:14:47Z",
     "users": [],
     "firstSeenAt": "2026-11-06T10:00:14.233624+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1145,14 +1174,14 @@
     "title": "習慣化するための技術 / Techniques for Habit Formation",
     "url": "https://speakerdeck.com/3l4l5/techniques-for-habit-formation",
     "domain": "speakerdeck.com",
-    "count": 194,
+    "count": 196,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/3l4l5/techniques-for-habit-formation",
     "screenshot": "https://files.speakerdeck.com/presentations/c7065cfdfcfe477b8017ffce9592ae4c/slide_0.jpg?38328283",
     "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … 習慣化するための技術 / Techniques for Habit Formation 習慣化するための技術 / Techniques for Habit Formation https://kitaku.connpass.com/event/379563/ ガールズ&パンツァーで学ぶ紅茶 / Learn About Tea with Girls und Panzer 響け!ユーフォニアムと考える「決め方」/Thinking About…",
     "hatenaDate": "2026-11-05T06:16:47Z",
     "users": [],
     "firstSeenAt": "2026-11-06T09:00:15.179870+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1168,7 +1197,7 @@
     "hatenaDate": "2026-11-05T23:00:29Z",
     "users": [],
     "firstSeenAt": "2026-11-06T08:45:13.453499+09:00",
-    "lastSeenAt": "2026-11-06T23:30:14.687036+09:00",
+    "lastSeenAt": "2026-11-06T23:45:13.721036+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4323,34 +4352,6 @@
     "users": [],
     "firstSeenAt": "2026-11-04T07:45:13.555865+09:00",
     "lastSeenAt": "2026-11-04T23:45:20.233221+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "Android「SMS of Death」脆弱性、SMS受信だけで通話切断・再起動ループの恐れ CVE-2026-58882をGoogleがCriticalで修正|セキュリティニュースのセキュリティ対策Lab",
-    "url": "https://rocket-boys.co.jp/security-measures-lab/android-sms-of-death-cve-2026-58882-zero-click-dos/",
-    "domain": "rocket-boys.co.jp",
-    "count": 96,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/rocket-boys.co.jp/security-measures-lab/android-sms-of-death-cve-2026-58882-zero-click-dos/",
-    "screenshot": "https://rocket-boys.co.jp/wp-content/uploads/2026/11/android-sms-of-death-cve-2026-58882-zero-click-dos.png",
-    "description": "Androidの電話機能を、細工されたSMSを受信させるだけで停止させる脆弱性「CVE-2026-58882」が公表されました。「SMS of Death」と呼ばれるこの問題は、利用者がメッセージを開く操作をしなくても発生し、通話の切断や携帯電話回線の一時的な利用不能を引き起こす可能性があります。研究者の実証では、特定条件下で端末が再起動を繰り返し、通常の操作が難しくなる例も確認されました。 Googleは2026年11月2日に公開したAndroid Security Bulletinで、同脆弱性を深刻度「Critical」のサービス拒否（DoS）として掲載しました。Android 14、1…",
-    "hatenaDate": "2026-11-03T13:06:50Z",
-    "users": [],
-    "firstSeenAt": "2026-11-04T07:45:13.555865+09:00",
-    "lastSeenAt": "2026-11-04T20:15:18.362824+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "Google、Videostrong に認定 Android デバイスの製造・販売を禁止。Android TV Box のバックドアが理由 | HelenTech",
-    "url": "https://helentech.jp/news-google-bans-videostrong-xcpe-backdoor/",
-    "domain": "helentech.jp",
-    "count": 11,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/helentech.jp/news-google-bans-videostrong-xcpe-backdoor/",
-    "screenshot": null,
-    "description": "Google は 2026 年 11 月 2 日 (現地時間)、Android TV Box などを製造する Videostrong が、ファームウェアにバックドアを組み込んで犯罪者に接続権限を販売していたとして、認定を受けた Android デバイスの製造と販売を禁止したことを発表しました。 このバックドアは「XCPE」と呼ばれ、130 万台以上のデバイスをボットネットに組み込んでおり、Google は制御に使われていたドメインとサーバーを法的措置で停止しています。XCPE はファームウェアの一部として出荷されているため、所有者が削除することはできません。 Google によると、XCPE…",
-    "hatenaDate": "2026-11-03T00:50:12Z",
-    "users": [],
-    "firstSeenAt": "2026-11-04T07:30:15.781911+09:00",
-    "lastSeenAt": "2026-11-04T11:15:14.145183+09:00",
     "descriptionSource": "body"
   }
 ]
