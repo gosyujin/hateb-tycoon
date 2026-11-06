@@ -3,14 +3,14 @@
     "title": "[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件",
     "url": "https://zenn.dev/xin9le/articles/9a1cf8e10494d6",
     "domain": "zenn.dev",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/xin9le/articles/9a1cf8e10494d6",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--j0ayzMEA--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%255B%25E7%25A0%25B4%25E5%25A3%258A%25E7%259A%2584%25E5%25A4%2589%25E6%259B%25B4%255D%2520%25E6%2598%258E%25E6%25B2%25BB%25E6%2599%2582%25E4%25BB%25A3%25E3%2581%25AE%25E9%2596%258B%25E5%25A7%258B%25E6%2597%25A5%25E3%2581%258C%25E5%25A4%2589%25E6%259B%25B4%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%25A6%25E5%258D%2598%25E4%25BD%2593%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%258C%25E5%25A4%25B1%25E6%2595%2597%25E3%2581%2597%25E3%2581%259F%25E4%25BB%25B6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:xin9le%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU2YWIzNmRlZWYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "「お前は何を言っているんだ？」と思うかもしれませんが、本当なのだから仕方ない！動いていたはずの CI の単体テストが突然コケるという事態に遭遇してビックリ。「何もしてないのに壊れた」。まじで。 ありのままのコードを載せるわけにはいかないのでポイントを絞って記載します。ざっくり以下のような感じです。サンプルコードは C# / .NET です。 // 和暦のカルチャ情報を作る var culture = new CultureInfo(\"ja-jp\"); culture.DateTimeFormat.Calendar = new JapaneseCalendar(); // 明治時代の開始日を文…",
     "hatenaDate": "2026-11-06T16:49:21Z",
     "users": [],
     "firstSeenAt": "2026-11-07T02:15:12.063510+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +24,7 @@
     "hatenaDate": "2026-11-06T10:38:58Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:45:13.917417+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +38,7 @@
     "hatenaDate": "2026-11-06T00:12:07Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:15:14.355680+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +52,7 @@
     "hatenaDate": "2026-11-06T00:57:23Z",
     "users": [],
     "firstSeenAt": "2026-11-07T00:15:14.355680+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +66,7 @@
     "hatenaDate": "2026-11-06T04:15:07Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:45:13.721036+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -81,7 +81,7 @@
     "hatenaDate": "2026-11-06T04:29:36Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:45:13.721036+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -95,35 +95,35 @@
     "hatenaDate": "2026-11-06T02:43:59Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:30:14.687036+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ヤマハ、ルーターにDNSセキュリティ機能を追加する拡張ライセンスを発売　中小企業・SOHOのセキュリティ強化を支援",
     "url": "https://cloud.watch.impress.co.jp/docs/news/2154335.html",
     "domain": "cloud.watch.impress.co.jp",
-    "count": 23,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/cloud.watch.impress.co.jp/docs/news/2154335.html",
     "screenshot": "https://cloud.watch.impress.co.jp/img/clw/list/2154/335/01.jpg",
     "description": "ヤマハ株式会社は6日、自社のルーター「RTX1300」「RTX840」にDNSセキュリティ機能を追加する拡張ライセンス「YSL-CLDDNS」を11月17日より販売開始すると発表した。通信性能にほとんど影響を与えることなく、手軽にセキュリティ機能を強化できる点が特徴。ヤマハでは、専任のIT担当者を置けない中小企業・SOHOを主な対象に、セキュリティを手軽に強化できる手段として提供を開始するという。 「YSL-CLDDNS」は、自社ルーター製品にDNSセキュリティ機能を追加するライセンス。DNSリカーシブ機能を利用することでヤマハセキュリティサーバーと連携し、機種やOSを問わず、ルーター配下に…",
     "hatenaDate": "2026-11-06T07:24:31Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ドコモ、不正アクセスで最大29.5万件の情報が流出",
     "url": "https://k-tai.watch.impress.co.jp/docs/news/2154506.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 23,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2154506.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2154/506/003.jpg",
     "description": "NTTドコモは6日、不正アクセスにより最大29万4839件の顧客情報が流出したと発表した。11月4日に大量アクセスのアラートを検知し、攻撃経路の特定を進めていた。同社は被害拡大を防ぐため、オンラインショップなどのサービスを緊急停止している。 ドコモは11月4日10時30分頃に大量アクセスのアラートを検知した。同日14時30分に海外IPアドレスの遮断を実施したものの効果が見られず、特定の攻撃経路を遮断する対処を行った。同日夜にアラートは停止したが、深夜に再度不正アクセスの可能性を検知したという。 翌5日未明に顧客情報の流出を確認。外部の攻撃者が不正アクセスを行い、複数のシステムが有機的に連動す…",
     "hatenaDate": "2026-11-06T12:04:58Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -139,21 +139,21 @@
     "hatenaDate": "2026-11-06T07:55:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "PHPは使っておりません - megamouthの葬列",
     "url": "https://www.megamouth.info/entry/2026/11/06/165305",
     "domain": "www.megamouth.info",
-    "count": 27,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.megamouth.info/entry/2026/11/06/165305",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/8c3a4db30db0c239931af309055cfb70dac0a8d4/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F41zh9snD0oL._SL500_.jpg",
     "description": "テレビのニュースがPHPと言ったのは、朝の8時だった。アナウンサーは滑舌のよい発音で、ピー・エイチ・ピーと一文字ずつ区切って読み、多くのウェブサイトで使われているプログラミング言語です、と付け加えた。僕はそれを聞きながら、いまだ動いているその多くの中に僕の書いたものがいくつ含まれているのかと想像しかけて、すぐに知ったことではない、と思い直した。 その日ネットを見ていると、いろんな会社のサイトがメンテナンス表示になったり、ならなかったりしていた。そして、中にはこう告知しているサイトさえあった。 となぜか嬉しそうに言う。付き合いが長いから、僕は彼の身の上をよく知っている。確か聞いたこともないよう…",
     "hatenaDate": "2026-11-06T08:05:48Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -176,42 +176,42 @@
     "title": "国家サイバー統括室、事業者に向けに不正アクセス対策のポイントをまとめた資料を公開　ウェブサイト・モバイルアプリで基本的な対策の徹底を呼びかけ",
     "url": "https://internet.watch.impress.co.jp/docs/news/2154286.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2154286.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2154/286/01.png",
     "description": "内閣官房国家サイバー統括室（NCO）は11月5日、事業者向けに個人情報の漏えいなどにつながる不正アクセスへの対策例をまとめた資料を公開した。 政府では、昨今発生している不正アクセスによる個人情報の漏えい事案において、モバイルアプリ開発時のセキュリティ対策不足、ウェブサイトなどの設定不備、サポートが終了しているソフトウェアや既知の脆弱性が未対策のソフトウェアの継続使用など、基本的な対策が十分でなかったことが原因とみられる事例が複数確認されているという。 攻撃者においては標的の調査や侵害にAIを悪用している可能性も高く、脆弱性診断では比較的低いと評価されたリスクであっても、複数が組み合わされるこ…",
     "hatenaDate": "2026-11-06T03:59:51Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:45:14.036868+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ドコモからのお知らせ : 【お詫び】ドコモオンラインショップ、My docomoの緊急メンテナンス実施について/当社サーバーへの不正アクセスによるお客さま情報流出に関するお知らせ（第三報：11月6日 午後6時00分時点） | お知らせ | NTTドコモ",
     "url": "https://www.docomo.ne.jp/info/notice/page/261106_00_m.html",
     "domain": "www.docomo.ne.jp",
-    "count": 18,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.docomo.ne.jp/info/notice/page/261106_00_m.html",
     "screenshot": null,
     "description": "【お詫び】ドコモオンラインショップ、My docomoの緊急メンテナンス実施について/当社サーバーへの不正アクセスによるお客さま情報流出に関するお知らせ（第三報：11月6日 午後6時00分時点） 「項番1．概要」の「（２）流出したお客さま情報」「（３）原因」および「項番３．お問い合わせ」を更新しました。 当社のドコモオンラインショップおよびMy docomoにおいて、 外部から不正なアクセスが行われたため、緊急メンテナンスを実施しました。一切のアクセスを遮断しておりますが、緊急メンテナンス以前の不正アクセスにより、一部のお客さま情報が流出したことを確認しました。 ドコモオンラインショップおよ…",
     "hatenaDate": "2026-11-06T10:35:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:45:14.036868+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「Microsoft Access」でIEベースのWebブラウザーコントロールが廃止へ、2027年5月に／対象フォームは手作業で洗い出し。「Edge」版への置き換えを",
     "url": "https://forest.watch.impress.co.jp/docs/news/2154137.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 10,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2154137.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2154/137/access.jpg",
     "description": "「Microsoft Access」でIEベースのWebブラウザーコントロールが廃止へ、2027年5月に 米Microsoftは11月2日（現地時間、以下同）、データベースアプリ「Microsoft Access」で「Internet Explorer」（IE）ベースの従来型Webブラウザーコントロールを廃止する計画を明らかにした。2027年5月18日を目途に、「バージョン 2705」で廃止される予定。長期サポート版「Access LTSC 2024」でも、5月11日の廃止を予定しているとのこと。 従来型のWebブラウザーコントロールが廃止されると、それを用いたフォームでWebコンテンツが読…",
     "hatenaDate": "2026-11-06T08:07:03Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:30:14.431268+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -225,7 +225,7 @@
     "hatenaDate": "2026-11-06T05:27:01Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:15:13.350255+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -269,21 +269,21 @@
     "hatenaDate": "2026-11-06T03:36:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:00:15.108712+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ドコモ不正アクセス、「料金プラン」などの情報も流出　29.5万件",
     "url": "https://www.watch.impress.co.jp/docs/news/2154508.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 84,
+    "count": 85,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2154508.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2154/508/d01.jpg",
     "description": "NTTドコモは6日、「ドコモオンラインショップ」と会員サービス「My docomo」において、外部から不正なアクセスが行なわれ、一部の会員情報が流出した問題について会見し、謝罪した。 5日の発表で可能性を認めていた、氏名、住所、生年月日、携帯電話番号などに加え、本人確認書類の番号や、料金プラン/オプションなども含まれることを公表。また、一部の利用者では、法定代理人・手続代理人の氏名、連絡先のほか、勤務先・法人の名称、所在地、金融機関名、支店名、口座番号なども含まれている。影響ユーザ数は最大294,839件(回線)で、個人204,157件、法人90,682件。 ドコモ、不正アクセスで最大30万…",
     "hatenaDate": "2026-11-06T11:22:32Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:45:13.894718+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -313,7 +313,7 @@
     "hatenaDate": "2026-11-06T02:59:55Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:15:13.375358+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -383,7 +383,7 @@
     "hatenaDate": "2026-11-06T08:04:36Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:15:14.313312+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -397,7 +397,7 @@
     "hatenaDate": "2026-11-05T05:01:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:00:16.630104+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -411,7 +411,7 @@
     "hatenaDate": "2026-11-06T06:09:45Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:00:16.630104+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -426,7 +426,7 @@
     "hatenaDate": "2026-11-06T03:54:24Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:30:14.488505+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -455,7 +455,7 @@
     "hatenaDate": "2026-11-06T08:41:42Z",
     "users": [],
     "firstSeenAt": "2026-11-06T19:00:12.176323+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -528,7 +528,7 @@
     "hatenaDate": "2026-11-06T03:51:42Z",
     "users": [],
     "firstSeenAt": "2026-11-06T18:15:16.195637+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -550,14 +550,14 @@
     "title": "これは画期的！ 劇場の席番号を入力すると、ステージの見え方を3Dで確認できるサービス【やじうまWatch】",
     "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2154189.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 30,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/yajiuma/2154189.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2154/189/yajiuma-watch_1.png",
     "description": "これは画期的！ 劇場の席番号を入力すると、ステージの見え方を3Dで確認できるサービス 劇場の席番号を入力することにより、その席からステージがどのように見えるか、3D表示で確認できるサービスが公開され話題だ。 これは、劇場の座席についての口コミサイト「席レポ！」が公開している「3D座席ビュー」なるサービス。リストから劇場を選択し、「1階◯列◯番」といった席番号を入力すると、その席からのステージの見え方が3Dで表示できるスグレモノだ。実際にその席から見えるステージの様子をシミュレーションできるだけでなく、俯瞰で席の位置を確認することもできるので、良席なのかどうかをチェックするにもぴったり。さらに…",
     "hatenaDate": "2026-11-06T02:38:06Z",
     "users": [],
     "firstSeenAt": "2026-11-06T18:00:15.320965+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body"
   },
   {
@@ -613,7 +613,7 @@
     "hatenaDate": "2026-11-06T06:46:54Z",
     "users": [],
     "firstSeenAt": "2026-11-06T17:30:12.538499+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -744,7 +744,7 @@
     "hatenaDate": "2026-11-05T07:40:34Z",
     "users": [],
     "firstSeenAt": "2026-11-06T14:30:14.067152+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -904,7 +904,7 @@
     "hatenaDate": "2026-11-06T02:34:22Z",
     "users": [],
     "firstSeenAt": "2026-11-06T12:30:13.970374+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -962,7 +962,7 @@
     "hatenaDate": "2026-11-06T00:57:20Z",
     "users": [],
     "firstSeenAt": "2026-11-06T12:00:15.253333+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1241,7 +1241,7 @@
     "hatenaDate": "2026-11-05T06:16:47Z",
     "users": [],
     "firstSeenAt": "2026-11-06T09:00:15.179870+09:00",
-    "lastSeenAt": "2026-11-07T03:15:14.084252+09:00",
+    "lastSeenAt": "2026-11-07T03:30:13.983361+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
