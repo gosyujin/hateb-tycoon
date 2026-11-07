@@ -1,16 +1,58 @@
 [
   {
+    "title": "Microsoft Entra Kerberos で実現するクラウド デバイス管理",
+    "url": "https://speakerdeck.com/tamaiyutaro/microsoft-entra-kerberos-de-jitsugen-suru-kura-udo-debaisu-kanri",
+    "domain": "speakerdeck.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/tamaiyutaro/microsoft-entra-kerberos-de-jitsugen-suru-kura-udo-debaisu-kanri",
+    "screenshot": "https://files.speakerdeck.com/presentations/122054be27974a5f9d001be920bfea26/slide_0.jpg?41254807",
+    "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … Microsoft Entra Kerberos で実現するクラウド デバイス管理 Microsoft Entra Kerberos で実現するクラウド デバイス管理 第63回 Tokyo Jazug Night【Microsoft Entra 回】 発表資料 https://jazug.connpass.com/event/408276/ MC906491 を見据えた Microsoft Entra Connect アップグレード対応…",
+    "hatenaDate": "2026-11-07T06:10:01Z",
+    "users": [],
+    "firstSeenAt": "2026-11-08T00:45:15.412422+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
+    "descriptionSource": "body"
+  },
+  {
+    "title": "AI時代に求められる優秀なTechLeadの振る舞い",
+    "url": "https://speakerdeck.com/pospome/ai-jidai-ni-motomerareru-yuushuuna-techlead-no-furumai-2",
+    "domain": "speakerdeck.com",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/pospome/ai-jidai-ni-motomerareru-yuushuuna-techlead-no-furumai-2",
+    "screenshot": "https://files.speakerdeck.com/presentations/b009bf9d9b8b4dadbbf00963dd114f58/slide_0.jpg?41261901",
+    "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … \"TechLead Conference 2026 Autumn powered by connpass\" の登壇資料です。 DMMプラットフォームにおける GKE を利用した プラットフォームエンジニアリングへの 取り組み リアクションエンジニア ― 小さなリアクションから、話しかけやすい組織をつくる ― WireGuard for Apache NuttX - Bringing Secure Remote Access to emb…",
+    "hatenaDate": "2026-11-07T11:25:01Z",
+    "users": [],
+    "firstSeenAt": "2026-11-08T00:45:15.412422+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
+    "descriptionSource": "body"
+  },
+  {
+    "title": "運用しながら改善する LLM-as-a-Judge の構築 - Timee Product Team Blog",
+    "url": "https://tech.timee.co.jp/entry/2026/11/05/101407",
+    "domain": "tech.timee.co.jp",
+    "count": 6,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.timee.co.jp/entry/2026/11/05/101407",
+    "screenshot": "https://cdn.image.st-hatena.com/image/scale/fc56f732122c0d638c544107900bd8ca0bdcf2a1/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftimee_dev%2F20261105%2F20261105095241.png",
+    "description": "こんにちは、株式会社タイミーでプロダクトAIエンジニアとして働いている貝出です。直近は、LLMを利用した求人審査AIの開発や性能改善を行っています。 LLMを使った機能を開発していると、LLMの生成文を実際にユーザーに見せるケースがあります。そのときには「生成文に問題がないか」を評価する必要があります。解決策の一つとして、生成文をLLMに評価させる “LLM-as-a-Judge” があります。 ただし、LLM-as-a-Judgeを導入するには、そのLLM-as-a-Judge自体が意図通りに評価できているかを事前に確かめる必要があります（以下、この評価をメタ評価と呼びます）。メタ評価用の…",
+    "hatenaDate": "2026-11-06T09:41:05Z",
+    "users": [],
+    "firstSeenAt": "2026-11-08T00:45:15.412422+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "VoidでWebアプリを作ろう！",
     "url": "https://void-workshop.yusuke.run/phpmatsuri",
     "domain": "void-workshop.yusuke.run",
-    "count": 7,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/void-workshop.yusuke.run/phpmatsuri",
     "screenshot": null,
     "description": "Cloudflare / VoidZero - Developer Advocate / Yusuke Wada Cloudflare / VoidZero - Developer Advocate Void is a CLI, platform, and full-stack SDK that unifies building & deploying apps. プラットフォーム - チームのアプリをまとめてCloudflareにデプロイする基盤 routes/ APIエンドポイント pages/ ページ（UI） db/ スキーマとマイグレーション middleware/ ミドルウェア c…",
     "hatenaDate": "2026-11-07T07:15:20Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:15:15.188605+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,21 +66,21 @@
     "hatenaDate": "2026-11-07T07:36:08Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:00:14.277788+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ハーネスエンジニアリングを有名OSSはどう組んでいるのか？AIへの信頼で比べる5事例",
     "url": "https://gibberishlab.com/blog/oss-ai-agent-harness-philosophy",
     "domain": "gibberishlab.com",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gibberishlab.com/blog/oss-ai-agent-harness-philosophy",
     "screenshot": "https://gibberishlab.com/api/og?locale=ja&title=%E3%83%8F%E3%83%BC%E3%83%8D%E3%82%B9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%92%E6%9C%89%E5%90%8DOSS%E3%81%AF%E3%81%A9%E3%81%86%E7%B5%84%E3%82%93%E3%81%A7%E3%81%84%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%9FAI%E3%81%B8%E3%81%AE%E4%BF%A1%E9%A0%BC%E3%81%A7%E6%AF%94%E3%81%B9%E3%82%8B5%E4%BA%8B%E4%BE%8B&label=GIBBERISH+LAB+RESEARCH+NOTE&variant=article&author=%E6%9D%BE%E6%9C%AC+%E6%B7%B3%E5%A4%AA%E9%83%8E",
     "description": "2026.10.16松本 淳太郎AI駆動開発研修ハーネスエンジニアリングAGENTS.mdClaude CodeエージェントスキルAI駆動開発 ハーネスエンジニアリングを有名OSSはどう組んでいるのか？AIへの信頼で比べる5事例 Zed・Sentry・OpenClaw・Bun・PostHogのAGENTS.md、フック、スキルを読み比べ、ハーネスエンジニアリングの違いを分析しました。ポイントはAIへの信頼度で、信頼するほど書く量は減り、信頼しないほどフックやリンターなどの機械で縛るようになります。 AIコーディングエージェントに渡す指示ファイル、ルール、フック、スキル、つまりハーネスの形は、…",
     "hatenaDate": "2026-11-07T09:20:09Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:00:14.277788+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +94,7 @@
     "hatenaDate": "2026-11-07T12:12:25Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:45:10.379127+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,21 +108,21 @@
     "hatenaDate": "2026-11-07T09:49:08Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:45:10.379127+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "証明駆動開発（PDD Kit）とは｜エージェントのコードを行ごとに読まずに信頼する GitHub Next の試み",
     "url": "https://ai-heartland.com/explain/proof-driven-development/",
     "domain": "ai-heartland.com",
-    "count": 9,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ai-heartland.com/explain/proof-driven-development/",
     "screenshot": "https://ai-heartland.com/generated_images/cover_proof-driven-development.webp",
     "description": "エージェントが一度に数万行を出す時代に、全行レビューは回らない。PDD Kit は、人が読むのを『意図（平易な言葉の仕様）』に移し、コードが意図に合うことは Verus の証明で機械に確かめさせる。証明できない部分はテストで裏づけ、何を信頼しているかを明記する。 GitHub Next と Microsoft Research が、エージェントが書いたコードを、行ごとに全部読まずに信頼するための研究プロトタイプ「PDD Kit」を公開しました（2026年11月）。PDD は Proof-Driven Development（証明駆動開発）の略で、「専門家だけのものだった形式手法を、日常のソフ…",
     "hatenaDate": "2026-11-07T00:15:27Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body"
   },
   {
@@ -94,7 +136,7 @@
     "hatenaDate": "2026-11-06T22:30:33Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -109,7 +151,7 @@
     "hatenaDate": "2026-11-06T14:52:40Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body"
   },
   {
@@ -123,7 +165,7 @@
     "hatenaDate": "2026-11-04T23:11:30Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body"
   },
   {
@@ -137,7 +179,7 @@
     "hatenaDate": "2026-11-06T03:45:10Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body"
   },
   {
@@ -151,7 +193,7 @@
     "hatenaDate": "2026-11-07T07:55:03Z",
     "users": [],
     "firstSeenAt": "2026-11-07T22:59:24.081838+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body"
   },
   {
@@ -194,7 +236,7 @@
     "hatenaDate": "2026-11-07T02:39:58Z",
     "users": [],
     "firstSeenAt": "2026-11-07T21:45:14.212612+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body"
   },
   {
@@ -229,14 +271,14 @@
     "title": "AI時代の要求管理ハンドブック ～経営・現場・開発がともに描く、問いから実現への道筋～ | 社会・産業のデジタル変革 | IPA 独立行政法人 情報処理推進機構",
     "url": "https://www.ipa.go.jp/digital/kaihatsu/youkyu-kanri.html",
     "domain": "www.ipa.go.jp",
-    "count": 44,
+    "count": 46,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.ipa.go.jp/digital/kaihatsu/youkyu-kanri.html",
     "screenshot": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.jpg",
     "description": "独立行政法人情報処理推進機構（IPA）は、AIが社会や産業の基盤となる時代に求められる要求管理の考え方と実践を解説した「AI時代の要求管理ハンドブック」を公開しました。 AIやデータ、ソフトウェアの活用が広がり、ビジネス環境や技術が急速に変化する中、組織や社会が「何を実現したいのか」を明確にし、その目的を要求・要件として具体化するとともに、業務、データ、システム、ルール、評価、運用・改善へと一貫してつなげていくことが重要になっています。 そのためには、要求・要件を一度定義して終わりにするのではなく、関係者間で共通理解を形成し、変化に応じて継続的に管理していくことが求められます。 本書は、こう…",
     "hatenaDate": "2026-11-05T10:17:16Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:45:14.098619+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -266,7 +308,7 @@
     "hatenaDate": "2026-11-07T10:00:45Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:30:16.327165+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -282,21 +324,21 @@
     "hatenaDate": "2026-11-06T03:20:57Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:30:16.327165+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AI時代に求められる優秀なTechLeadの振る舞い - pospomeのプログラミング日記",
     "url": "https://www.pospome.work/entry/2026/11/07/192125",
     "domain": "www.pospome.work",
-    "count": 89,
+    "count": 93,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.pospome.work/entry/2026/11/07/192125",
     "screenshot": "https://ogimage.blog.st-hatena.com/10328749687199202561/14729835035335194139/1794046885",
     "description": "\"TechLead Conference 2026 Autumn powered by connpass\" の登壇資料です。 概要： 生成AIの進化によって、ソフトウェア開発のあり方は大きく変化しています。AIがコードを書く時代になり、技術的な知識や経験だけでなく、TechLeadとしてどのような価値を生み出すべきなのか、改めて考える必要があるのではないでしょうか。 本講演では、ICからTechLead、そしてVPoEへと役割を変えてきた自身の経験を振り返りながら、AI時代におけるTechLeadの役割と、優秀なTechLeadに求められる振る舞いについて考えます。現在TechLeadとして…",
     "hatenaDate": "2026-11-07T10:23:56Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:15:14.807191+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -326,7 +368,7 @@
     "hatenaDate": "2026-11-07T06:12:43Z",
     "users": [],
     "firstSeenAt": "2026-11-07T18:15:13.432220+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -349,14 +391,14 @@
     "title": "ワイヤレス主流時代になぜ？「有線イヤホン」再流行のワケ【THE TIME,】  | TBS NEWS DIG",
     "url": "https://newsdig.tbs.co.jp/articles/-/3068819",
     "domain": "newsdig.tbs.co.jp",
-    "count": 148,
+    "count": 152,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/newsdig.tbs.co.jp/articles/-/3068819",
     "screenshot": "https://newsdig.ismcdn.jp/mwimgs/2/4/1200w/img_24cf75f22fc5c9aa3b77760c22a2b723234170.jpg",
     "description": "ワイヤレスが主流となるなか「有線イヤホン」が再び注目され、あのBOSEも11年ぶりに有線タイプを発売。その人気のワケとは？ 有線イヤホンを使っている人は街のあちこちで見かけますが、そのまま使うのではなく“… 「床を歩きたい」壊死したかかとの激痛に耐えた母…末期腎不全で突きつけられた「透析」と突然の別れ【連載：腎不全と緩和ケア①】 ビルの壁に突き刺さる「黄色いビートル」…時速286キロの事故!? オーナーが明かす45年前の真相 「優しさを利用されてしまいました」 17歳の娘が帰らなかった夜、母が語った2日間【2015年 江戸川女子高生殺害事件 前編】 スシロー店舗で販売目指す！全国初“幻の高級…",
     "hatenaDate": "2026-11-07T04:39:14Z",
     "users": [],
     "firstSeenAt": "2026-11-07T17:45:14.436483+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -422,14 +464,14 @@
     "title": "タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった",
     "url": "https://zenn.dev/rescuenow/articles/4c03a548cd6589",
     "domain": "zenn.dev",
-    "count": 80,
+    "count": 81,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/rescuenow/articles/4c03a548cd6589",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--gpxk3FXp--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25BF%25E3%2582%25B9%25E3%2582%25AF%25E7%25AE%25A1%25E7%2590%2586%25E3%2581%25BE%25E3%2581%25A7AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AB%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E7%25A2%25BA%25E8%25AA%258D%25E5%25BE%2585%25E3%2581%25A1%25E3%2581%25AB%25E7%25AD%2594%25E3%2581%2588%25E3%2582%258B%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%2597%25E3%2582%2582%25E3%2581%25A1%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2E0NWI1N2NlZmMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2583%25AC%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%258A%25E3%2582%25A6%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzM2YWQyYWI1OTUuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "前回の「2026年自分流AIエージェント環境構築の秋」では、司令塔のエージェントに作業役を回してもらう仕組みを紹介しました。司令塔には作業だけでなく、抱えているタスク全体の管理も任せていて、どれに手を付けるか、どの順で進めるかも司令塔が決めます。自分でタスクの一覧を見て回ることはなくなり、司令塔が出してくる確認待ちに答えるのが主な仕事になりました。 左が司令塔の Claude Code で、右が Orca の右サイドバーに出している「確認待ち」のパネルです。パネルは Orca のプラグインとして自作していて、エージェントの状態が変わるたびに読み直すので、司令塔が確認待ちを出すとすぐに並びます…",
     "hatenaDate": "2026-11-06T23:38:26Z",
     "users": [],
     "firstSeenAt": "2026-11-07T14:15:13.451324+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -438,14 +480,14 @@
     "title": "GMO 管理者が全情報アクセス可能 リスク指摘も十分対策されず | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261107de72062",
     "domain": "news.web.nhk",
-    "count": 139,
+    "count": 140,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261107de72062",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261107de72062/20261107de72062_E0000151392_1_l.jpg",
     "description": "JUST INプロボウラーの中山律子さんが死去 一大ブーム起こす 84歳(15:24) GMOインターネットグループのサービスが不正アクセスを受けた問題で、2年前、子会社が、「アクティブディレクトリ」という機能を通じて管理者がすべての利用者の情報にアクセスできる状況になっており、リスクが…",
     "hatenaDate": "2026-11-07T03:30:33Z",
     "users": [],
     "firstSeenAt": "2026-11-07T14:15:13.451324+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip"
   },
@@ -460,7 +502,7 @@
     "hatenaDate": "2026-11-07T02:20:55Z",
     "users": [],
     "firstSeenAt": "2026-11-07T14:00:14.723386+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -490,7 +532,7 @@
     "hatenaDate": "2026-11-07T00:36:39Z",
     "users": [],
     "firstSeenAt": "2026-11-07T13:00:30.164349+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body"
   },
   {
@@ -535,7 +577,7 @@
     "hatenaDate": "2026-11-06T09:24:26Z",
     "users": [],
     "firstSeenAt": "2026-11-07T11:45:15.174167+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -616,14 +658,14 @@
     "title": "AWSでWebリクエストを受ける8パターンと「オリジンを裸にしない」設定プラクティス",
     "url": "https://zenn.dev/anfangd/articles/aws-web-ingress-origin-protection",
     "domain": "zenn.dev",
-    "count": 177,
+    "count": 178,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/anfangd/articles/aws-web-ingress-origin-protection",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--K9s1J4cw--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AWS%25E3%2581%25A7Web%25E3%2583%25AA%25E3%2582%25AF%25E3%2582%25A8%25E3%2582%25B9%25E3%2583%2588%25E3%2582%2592%25E5%258F%2597%25E3%2581%2591%25E3%2582%258B8%25E3%2583%2591%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%25B3%25E3%2581%25A8%25E3%2580%258C%25E3%2582%25AA%25E3%2583%25AA%25E3%2582%25B8%25E3%2583%25B3%25E3%2582%2592%25E8%25A3%25B8%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25AA%25E3%2581%2584%25E3%2580%258D%25E8%25A8%25AD%25E5%25AE%259A%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25AF%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:anfangd%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2o3WG94b0pXRUJUWUZmVFlZbURHRkw0eExldXpXQXdhSzVHa1FnVGc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "CloudFront + WAF → ALB の構成では、ALB の SG に CloudFront のプレフィックスリストを入れて直接アクセスを防ぐ ただし ALB のドメインが知られると、第三者が作った CloudFront 経由で WAF を迂回される。そのため秘密ヘッダーでの照合が必要 さらに、CT Log が知られるようになってから、Host ヘッダー付きの攻撃が増えた どちらも重要な指摘です。一方で、2024年11月に CloudFront VPC オリジン が登場してから、選べる構成はかなり変わっています。 この記事では、AWS で Web リクエストを受ける代表的な 8 パタ…",
     "hatenaDate": "2026-11-06T23:36:13Z",
     "users": [],
     "firstSeenAt": "2026-11-07T09:54:55.879164+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -670,7 +712,7 @@
     "hatenaDate": "2026-11-06T11:09:56Z",
     "users": [],
     "firstSeenAt": "2026-11-07T09:30:13.769058+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -730,7 +772,7 @@
     "hatenaDate": "2026-09-30T11:35:51Z",
     "users": [],
     "firstSeenAt": "2026-11-07T08:15:15.109932+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body"
   },
   {
@@ -744,7 +786,7 @@
     "hatenaDate": "2026-11-05T13:24:35Z",
     "users": [],
     "firstSeenAt": "2026-11-07T07:30:14.447075+09:00",
-    "lastSeenAt": "2026-11-08T00:30:13.484990+09:00",
+    "lastSeenAt": "2026-11-08T00:45:15.412422+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4312,48 +4354,6 @@
     "users": [],
     "firstSeenAt": "2026-11-04T19:30:16.978741+09:00",
     "lastSeenAt": "2026-11-04T20:30:16.197629+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "Google、学校でAIと検索機能を禁止可能に　提供拡大から一転 - 日本経済新聞",
-    "url": "https://www.nikkei.com/article/DGXZQOGN033NB0T01C26A1000000/",
-    "domain": "www.nikkei.com",
-    "count": 4,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN033NB0T01C26A1000000/",
-    "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3822777004112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=858af7e8fffabfa123803aba7899ecaa",
-    "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 【シリコンバレー=伴正春】米グーグルは3日、小中高校向けの教育サービスで、学校が児童・生徒の対話型AI（人工知能）と検索機能の利用を制限できるようにすると発表した。すぐ答えを示すAIに頼りすぎると、子供が自ら考えて学ぶ機会を損なうとの指摘が出ていた。 グーグルの学習管理サービス「クラスルーム」で児童・生徒のアカウントを管理する教員側が「ジェミニ」「ジェミニノートブック」といった同社のAIサービス... 企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。…",
-    "hatenaDate": "2026-11-03T22:45:43Z",
-    "users": [],
-    "firstSeenAt": "2026-11-04T19:15:16.572150+09:00",
-    "lastSeenAt": "2026-11-04T19:45:13.699489+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "GPT-6 AstraでQwen3.5-0.8Bの重みを直接編集、数学スコアは約6倍に",
-    "url": "https://pc.watch.impress.co.jp/docs/news/2153457.html",
-    "domain": "pc.watch.impress.co.jp",
-    "count": 24,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2153457.html",
-    "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2153/457/01.jpg",
-    "description": "「GPT-6 Astra」を使って「Qwen3.5-0.8B」の重みを直接書き換えると、数学の性能が最大6倍に向上する。武樋力哉氏らマサチューセッツ工科大学の研究チームは11月2日、「重み空間プログラミング」(Weight-Space Programming)と呼ばれる手法に関する研究結果を公開した。 今回発表された重み空間プログラミングは、汎用のLLMを使ってニューラルネットワークの重みを直接読み書きし、隠れた特性の発見や不具合の修正、新たなネットワークの構築などを可能にする手法。オプティマイザーなどを利用することなく、LLMへの自然言語を通じて重みを直接編集することで実現している。 研究…",
-    "hatenaDate": "2026-11-04T05:41:58Z",
-    "users": [],
-    "firstSeenAt": "2026-11-04T19:15:16.572150+09:00",
-    "lastSeenAt": "2026-11-05T04:00:14.641257+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "【やじうまPC Watch】普通のドライブでCD/DVDの記録面に絵を焼く「Disc Image Studio」 - PC Watch",
-    "url": "https://pc.watch.impress.co.jp/docs/news/yajiuma/2153436.html",
-    "domain": "pc.watch.impress.co.jp",
-    "count": 22,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/yajiuma/2153436.html",
-    "screenshot": null,
-    "description": "普通のドライブでCD/DVDの記録面に絵を焼く「Disc Image Studio」 CD-RやDVD-Rの記録面に、データの書き込みそのもので肉眼でも見える絵を描けるフリーソフト「Disc Image Studio」がX(旧Twitter)で話題を集めている。これはGitHubユーザーのJiaFeiMiao-K-Cat氏が開発しているWindows向けのソフトで、9月12日に初めてGitHubで公開された。11月2日リリースの最新版1.3.6では日本語のUIに対応したほか、Linux/macOS向けの実験的なCLI版を追加し、ランタイムも同梱している。 Disc Image Studioは…",
-    "hatenaDate": "2026-11-04T04:01:10Z",
-    "users": [],
-    "firstSeenAt": "2026-11-04T18:45:15.752851+09:00",
-    "lastSeenAt": "2026-11-05T02:45:13.814223+09:00",
     "descriptionSource": "body"
   }
 ]
