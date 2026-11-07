@@ -1,17 +1,48 @@
 [
   {
+    "title": "AIで実装は速くなったのに、なぜアウトカムは増えないのか？ ボトルネックが移った先にあるエンジニアの仕事",
+    "url": "https://codezine.jp/article/detail/30105",
+    "domain": "codezine.jp",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/codezine.jp/article/detail/30105",
+    "screenshot": "https://codezine.jp/static/images/article/30105/30105_ogp.jpg",
+    "description": "AIコーディングによって実装が速くなった今、チームのボトルネックはコードの外へ移動した。カミナシで新規BtoBプロダクトを開発するソフトウェアエンジニアの清水氏は、AIで機能を大量に作るだけでは意味がないと指摘する。新規プロダクトを開発するにあたって、AIで浮いた時間で取り組んできたのが、現場への直接訪問...",
+    "hatenaDate": "2026-11-06T00:09:01Z",
+    "users": [],
+    "firstSeenAt": "2026-11-07T10:00:12.643128+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
+    "bodyStatus": "skip",
+    "bodyReason": "http-403"
+  },
+  {
+    "title": "AWSでWebリクエストを受ける8パターンと「オリジンを裸にしない」設定プラクティス",
+    "url": "https://zenn.dev/anfangd/articles/aws-web-ingress-origin-protection",
+    "domain": "zenn.dev",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/anfangd/articles/aws-web-ingress-origin-protection",
+    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--K9s1J4cw--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AWS%25E3%2581%25A7Web%25E3%2583%25AA%25E3%2582%25AF%25E3%2582%25A8%25E3%2582%25B9%25E3%2583%2588%25E3%2582%2592%25E5%258F%2597%25E3%2581%2591%25E3%2582%258B8%25E3%2583%2591%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%25B3%25E3%2581%25A8%25E3%2580%258C%25E3%2582%25AA%25E3%2583%25AA%25E3%2582%25B8%25E3%2583%25B3%25E3%2582%2592%25E8%25A3%25B8%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25AA%25E3%2581%2584%25E3%2580%258D%25E8%25A8%25AD%25E5%25AE%259A%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25AF%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:anfangd%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2o3WG94b0pXRUJUWUZmVFlZbURHRkw0eExldXpXQXdhSzVHa1FnVGc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+    "description": "CloudFront + WAF → ALB の構成では、ALB の SG に CloudFront のプレフィックスリストを入れて直接アクセスを防ぐ ただし ALB のドメインが知られると、第三者が作った CloudFront 経由で WAF を迂回される。そのため秘密ヘッダーでの照合が必要 さらに、CT Log が知られるようになってから、Host ヘッダー付きの攻撃が増えた どちらも重要な指摘です。一方で、2024年11月に CloudFront VPC オリジン が登場してから、選べる構成はかなり変わっています。 この記事では、AWS で Web リクエストを受ける代表的な 8 パタ…",
+    "hatenaDate": "2026-11-06T23:36:13Z",
+    "users": [],
+    "firstSeenAt": "2026-11-07T10:00:12.643128+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "東大・国立環境研、20年以上開発されてきた大気モデルをClaude Codeで移植　実行速度1.71倍、進行を制約したのは人間のレビューと利用上限 | Ledge.ai",
     "url": "https://ledge.ai/articles/nicam_claude_code_migration",
     "domain": "ledge.ai",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ledge.ai/articles/nicam_claude_code_migration",
     "screenshot": "https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/44fa8e86_9bc4_4874_a483_84606221e080_f2ffac7ac2/44fa8e86_9bc4_4874_a483_84606221e080_f2ffac7ac2.png",
     "description": "Top > 学術＆研究 > 東大・国立環境研、20年以上開発されてきた大気モデルをClaude Codeで移植 実行速度1.71倍、進行を制約したのは人間のレビューと利用上限 東大・国立環境研、20年以上開発されてきた大気モデルをClaude Codeで移植 実行速度1.71倍、進行を制約したのは人間のレビューと利用上限 Ledge.ai編集部です。最新のAI関連技術、テクノロジー、AIのビジネス活用事例などの情報を毎日発信しています。 AI同士が言葉を介さず「テレパシー」で情報共有 MITら、異なるモデル間で内部状態を渡す「SwaT」を公開 Google、AIの「睡眠フェーズ」で知識を定着…",
     "hatenaDate": "2026-11-06T19:26:50Z",
     "users": [],
     "firstSeenAt": "2026-11-07T09:54:55.879164+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
-    "descriptionSource": "body"
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
+    "descriptionSource": "body",
+    "bodyStatus": "skip",
+    "bodyReason": "not-longer"
   },
   {
     "title": "私は Gemini ですが、 GeoAI と LLM / 生成AI は特段関係がなさそうです｜ゆいせき",
@@ -31,14 +62,14 @@
     "title": "「AIであってほしかった」近所の書店にいったらBLのエロ本が子供向けの本のすぐ近くに平積みされている。子供への性加害は辞めるべきだ。",
     "url": "https://posfie.com/@Acg3C2/p/NF0FdOe",
     "domain": "posfie.com",
-    "count": 20,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@Acg3C2/p/NF0FdOe",
     "screenshot": "https://s.tgstc.com/ogp3/87b8dd5da7c9577211e8462aeda1236c-1200x630.jpeg",
     "description": "BLはゾーニングされてる！( ｰ`дｰ´)ｷﾘｯ って言うから見てきたよｗ 場所も書いてあげる。 宇都宮トナリエ5階落合書店。 右の棚全部BLだったwww ゾーニングは纏めておくってことじゃねーぞｗ 真裏の棚は参考書だ。 左の棚は一般少女漫画。 おっとこの店だけって論理は通用しないぜ？ お前らは極わずかの男性犯罪者を男性全般に拡大したんだ。 ならばこの書店がそうなら、ほかの書店も似たり寄ったりのハズだ、って言って良いのだからな。 全く気持ち悪いぜ…なんだよ「ちんぽめんたるジャーニー」ってwww 男性への性加害だろｗ まぁ、それでも規制は望まないんだけどな。 でももうここに至っては、ケンカを売…",
     "hatenaDate": "2026-11-06T11:09:56Z",
     "users": [],
     "firstSeenAt": "2026-11-07T09:45:12.703511+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -59,14 +90,14 @@
     "title": "「台湾有事」発言、引っ込みつかず1年経過　高市首相「対話はオープンだ」と言うだけで対中関係改善進まず：東京新聞デジタル",
     "url": "https://www.tokyo-np.co.jp/article/526564",
     "domain": "www.tokyo-np.co.jp",
-    "count": 18,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.tokyo-np.co.jp/article/526564",
     "screenshot": "https://static.tokyo-np.co.jp/image/article/size1/3/3/6/2/3362064506de69b5f209f9b77f02fde9_1.jpg",
     "description": "「台湾有事」発言、引っ込みつかず1年経過 高市首相「対話はオープンだ」と言うだけで対中関係改善進まず 高市早苗首相による「台湾有事」発言から7日で1年となる。台湾問題を核心的利益と位置付ける中国側は内政干渉だと反発し、発言の撤回を要求。レアアース（希土類）の対日輸出を規制するなど関係は悪化した。首相は「対話はオープンだ」と繰り返すが、事態の打開に向けて自ら動く姿勢は見えない。日中関係は硬直化したままだ。 首相は6日、発言から1年になるのを前に「中国は重要な隣国だ。課題がある中でも長年の積み重ねがある。共通の課題については国益を守るための対話を進め、建設的、安定的な関係を構築する」と、官邸で記…",
     "hatenaDate": "2026-11-06T23:17:07Z",
     "users": [],
     "firstSeenAt": "2026-11-07T09:30:13.769058+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -80,7 +111,7 @@
     "hatenaDate": "2026-11-06T03:08:26Z",
     "users": [],
     "firstSeenAt": "2026-11-07T09:30:13.769058+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -95,7 +126,7 @@
     "hatenaDate": "2026-11-06T09:39:24Z",
     "users": [],
     "firstSeenAt": "2026-11-07T09:15:13.126180+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -109,7 +140,7 @@
     "hatenaDate": "2026-11-06T13:44:13Z",
     "users": [],
     "firstSeenAt": "2026-11-07T09:00:13.477264+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -123,21 +154,21 @@
     "hatenaDate": "2026-11-06T22:57:15Z",
     "users": [],
     "firstSeenAt": "2026-11-07T09:00:13.477264+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "もう検索エンジンに戻れない",
     "url": "https://anond.hatelabo.jp/20260930202455",
     "domain": "anond.hatelabo.jp",
-    "count": 102,
+    "count": 104,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20260930202455",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "別にGoogleが嫌いになったわけじゃない。検索精度が落ちたとか、SEO記事ばかりになったとか、そういう話もあるけど、本質はそこじゃない。 検索エンジンって、思っていたより「自分で頑張る道具」だったんだなと最近気づいた。 昔ならエラーメッセージをそのまま検索して、Stack Overflowを開いて、英語を読んで、バージョン違いの情報に引っかかって、別の記事を開いて、GitHub Issueを読んで、最終的に「俺のケースとは微妙に違うな」となっていた。 映画を探すときも「今週公開のアニメ映画で東京で見られるやつ」と聞く。プログラムを書くときも仕様を日本語で投げる。知らない制度があれば、その場…",
     "hatenaDate": "2026-09-30T11:35:51Z",
     "users": [],
     "firstSeenAt": "2026-11-07T08:15:15.109932+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -151,21 +182,21 @@
     "hatenaDate": "2026-11-06T15:54:48Z",
     "users": [],
     "firstSeenAt": "2026-11-07T08:00:14.673256+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "台湾、在パプアニューギニアの窓口機関を閉鎖　「中国が介入」と非難、LNG購入停止",
     "url": "https://www.sankei.com/article/20261106-RD7RVXJYH5L5RGMQLACHLGVM6Q/?outputType=asynd",
     "domain": "www.sankei.com",
-    "count": 18,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.sankei.com/article/20261106-RD7RVXJYH5L5RGMQLACHLGVM6Q/?outputType=asynd",
     "screenshot": "https://www.sankei.com/resizer/v2/KYOYWA4ZFNPYBMPNJV6M2L7U3A.jpg?auth=ad5752c5ef7bab778ce7ab421ee4313b0be06070f38ac6e01772896f7adb9f2a&quality=50&focal=324%2C216&width=1200&height=675",
     "description": "【台北＝西見由章】台湾の外交部（外務省に相当）は6日、南太平洋の島国パプアニューギニアの首都ポートモレスビーに置いていた窓口機関「台北経済弁事処」を閉鎖し、全職員を撤収させると発表した。パプア政府は7月に「一つの中国」政策に基づく措置として一方的に同弁事処の閉鎖を通告し、台湾側が抗議していた。 台湾の外交部は6日の声明で、中国が政治圧力と経済的影響力により「他国の外交政策に介入し台湾の国際的空間を圧迫している」と非難。台湾はパプア産の液化天然ガス（LNG）の購入を停止し今後も契約しないとした。台湾はパプアのLNG輸出量のうち約3分の1を購入していたという。 マンジャロや睡眠薬「処方箋なく買え…",
     "hatenaDate": "2026-11-06T13:32:44Z",
     "users": [],
     "firstSeenAt": "2026-11-07T08:00:14.673256+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -179,49 +210,49 @@
     "hatenaDate": "2026-11-06T13:34:13Z",
     "users": [],
     "firstSeenAt": "2026-11-07T07:30:14.447075+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "自分は旧時代のエンジニアになってしまったのでは",
     "url": "https://www.mobtown.jp/article/old-engineer/",
     "domain": "www.mobtown.jp",
-    "count": 53,
+    "count": 56,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.mobtown.jp/article/old-engineer/",
     "screenshot": "https://www.mobtown.jp/_astro/blog-placeholder-1.Bx0Zcyzv.jpg",
     "description": "最近、生成AIによるバイブコーディングが一般化していくにつれて、自分の中でそことの向き合い方を考えていました。 個人的には、生成AIの出力をそのまま鵜呑みにするのではなく、内容を理解し必要に応じて訂正した上で、自分の責任として成果物を出すのがエンジニアリングだ—、というのが今の自分の結論でした。 それは今まで、コードやシステムを理解しようと努力し、その本質を分かった上で、修正や拡張をしようとし続けてきた自分のような人間にとっては、納得のいく結論に感じていました。 しかし、世の中の生成AIとの向き合い方は違います。 出力をそのまま出す人も増えてきました。システムを理解しなくてもバグを直すことも…",
     "hatenaDate": "2026-11-05T13:24:35Z",
     "users": [],
     "firstSeenAt": "2026-11-07T07:30:14.447075+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "三日月の国　オスマン千夜一夜 - 桃山あおい / 番外編4 | コミックバンチKai",
     "url": "https://kuragebunch.com/episode/12207421984183005513",
     "domain": "kuragebunch.com",
-    "count": 9,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kuragebunch.com/episode/12207421984183005513",
     "screenshot": "https://cdn-img.kuragebunch.com/public/series-thumbnail/2550912965848591389-1c25f6504316791df26af491c5ecdf8f?1750907817",
     "description": "オスマン帝国の宮廷工房で働く新人レオ。帝国一の絵師になる夢を持つ少年だが、彼の図案は一向に採用されず――。 “壮麗なる国”を紡ぐ、オリエンタル歴史ロマン！ 中世トルコ（オスマン帝国）文化の素敵な所を詰め込みました！楽しんで頂ければ幸いです。桃山あおい X(旧Twitter) @Momoyama_Aoi ／『物怪円満仕置録』にて第１８回くらげ漫画賞奨励賞受賞",
     "hatenaDate": "2026-11-06T11:28:01Z",
     "users": [],
     "firstSeenAt": "2026-11-07T07:15:13.877430+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "4人死傷の戦車暴発事故、砲弾に主な原因か　影響長期化の恐れも：朝日新聞",
     "url": "https://www.asahi.com/articles/ASVC61RKDVC6TIPE00CM.html",
     "domain": "www.asahi.com",
-    "count": 31,
+    "count": 32,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVC61RKDVC6TIPE00CM.html",
     "screenshot": "https://imgopt.asahi.com/ogp/AS20261106002299_comm.jpg",
     "description": "陸上自衛隊の日出生台（ひじゅうだい）演習場（大分県）で実射訓練中に戦車内で砲弾が暴発して4人が死傷した事故で、陸自の調査で主に砲弾に原因があったとみられることがわかった。砲身内に砲弾のカスが燃え残ってしまい、次に放った砲弾が暴発した可能性が高いという。事故後、実射訓練は中止しているが、砲弾の改修などの対策が完了するまで影響が長期化する恐れもある。 複数の防衛省関係者が取材に明らかにした。陸自は年内にも事故調査結果を公表する方向で調整している。 防衛省によると、2026年4月21日、射撃訓練を実施中の10（ひとまる）式戦車の内部で砲弾が暴発。車体の上にある砲塔内にいた戦車長（45）、砲手（31…",
     "hatenaDate": "2026-11-06T12:46:24Z",
     "users": [],
     "firstSeenAt": "2026-11-07T07:15:13.877430+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -235,35 +266,35 @@
     "hatenaDate": "2026-11-06T09:32:27Z",
     "users": [],
     "firstSeenAt": "2026-11-07T06:30:13.550307+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "高市首相「悲願」の消費減税法案、自民退席の異常事態「矜持」どこへ：朝日新聞",
     "url": "https://www.asahi.com/articles/ASVC63H5GVC6UTFK01CM.html",
     "domain": "www.asahi.com",
-    "count": 47,
+    "count": 48,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVC63H5GVC6UTFK01CM.html",
     "screenshot": "https://imgopt.asahi.com/ogp/AS20261106003946_comm.jpg",
     "description": "高市早苗首相が「悲願」とする消費減税・支援金法案の衆院採決は、自民党内からも複数の退席者が出る異例の展開となった。「自民党の矜持（きょうじ）」を損なう事態との厳しい指摘が飛んだ。減税の財源や支援金の対象範囲など制度全体の詳細があいまいな「生煮え法案」に、野党は反発を強める。少数与党の参院での審議の行方は、混沌（こんとん）としている。 6日午後2時前、衆院本会議で森英介議長が消費減税・支援金法案の採決に入ると宣言した。財政規律を重視する自民党のベテラン4人が席を立ち、本会議場から退出した。 そのうちの一人、石破茂前首相は周囲に「こんなものには賛成できない」とし、記者団には「財源が明らかではない…",
     "hatenaDate": "2026-11-06T11:44:08Z",
     "users": [],
     "firstSeenAt": "2026-11-07T06:30:13.550307+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "【オタク論】レジスタから始まった男女表現バトルは、おそらく女オタクのダメージが大きくなる——だからこそ処方箋を提示したい。｜いぷしろ",
     "url": "https://note.com/ipusiro/n/nc92ad555b463",
     "domain": "note.com",
-    "count": 161,
+    "count": 162,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/ipusiro/n/nc92ad555b463",
     "screenshot": "https://assets.st-note.com/production/uploads/images/332139046/rectangle_large_type_2_7f68906762cb91e61183f9647d9a5b34.jpeg?fit=bounds&quality=85&width=1280",
     "description": "普段、自分たちの表現を焼かれがちで、だからこそ表現規制に対して反抗する側であったはずの男オタクたちに何が起きているのか、君は知っているだろうか。 さてこの記事では、まず今回の件のあらすじを整理したうえで、俺なりの未来予想と対処法を提示したいと思っている。 なお、以下の記事全文は、俺の主観によって書かれたものであり、エビデンスの提示は基本的にできない。 そしてここが大事なことなのだが、今回の記事は特に、女オタクの方にぜひ読んでほしいと願っている。 途中でイライラするかもしれないが、どうにか堪えて、とりあえず最後まで読んでもらえると助かる。 レジスタそのものは、ゲッサンという雑誌で連載されている…",
     "hatenaDate": "2026-11-06T08:27:16Z",
     "users": [],
     "firstSeenAt": "2026-11-07T06:00:13.396619+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -277,7 +308,7 @@
     "hatenaDate": "2026-11-06T11:53:33Z",
     "users": [],
     "firstSeenAt": "2026-11-07T06:00:13.396619+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -291,21 +322,21 @@
     "hatenaDate": "2026-11-06T04:05:06Z",
     "users": [],
     "firstSeenAt": "2026-11-07T06:00:13.396619+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "【衝撃】Claudeを『ADHDモード』化する裏技が話題。コピペして貼るだけで1週間のタスクが4時間で終了へ : 凹凸ちゃんねる　発達障害・生きにくい人のまとめ",
     "url": "https://hattatu-matome.ldblog.jp/archives/63590888.html",
     "domain": "hattatu-matome.ldblog.jp",
-    "count": 159,
+    "count": 166,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/hattatu-matome.ldblog.jp/archives/63590888.html",
     "screenshot": "https://livedoor.blogimg.jp/hopesound-hattatusyougaimatome/imgs/0/d/0dae2eff-s.jpg",
     "description": "🚨 速報：ClaudeにはADHDエグゼクティブファンクションモードという機能があります。 これを使って、脳内のドーパミンと連携し、集中力を高め、1週間の仕事量をわずか4時間で終わらせることができます。 「［タスク］を目の前に固まってて、一歩も進めない。これを1ステップ1分未満の『バカみたいに小さい』ステップに分解して。まず最初の一手をくれ。始めるために手をどこに置けばいいかまで具体的に言って」 「刺激不足で集中できない。『ドーパミンメニュー』を作って。5分の“前菜”（サクッと体を動かす）、20分の“メイン”（ガッツリ集中作業）、10分の“付け合わせ”（クリエイティブな遊び）で、脳が飽きない…",
     "hatenaDate": "2026-11-06T11:09:36Z",
     "users": [],
     "firstSeenAt": "2026-11-07T05:45:13.830403+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -326,28 +357,28 @@
     "title": "「年収が日本人平均以上」永住審査の基準改定、手数料も1万円⇒20万円へ…国会審議を経ない“新ガイドライン”の問題点【弁護士解説】 | 弁護士JPニュース",
     "url": "https://www.ben54.jp/news/4003",
     "domain": "www.ben54.jp",
-    "count": 68,
+    "count": 69,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.ben54.jp/news/4003",
     "screenshot": "https://img.ben54.jp/news/4003/Sk5Sc3KXLjpT1791534011.jpg",
     "description": "外国人が日本で長く暮らし、生活基盤を築いていくうえで、大きな節目となる「永住者」の在留資格。その取得をめぐる制度が、いま大きく変わろうとしている。 2026年10月1日より、永住許可の手数料が1万円から20万円に引き上げられた。また、出入国在留管理庁は、8月に永住許可に関するガイドラインの改定案を公表し、10月1日に正式に改定した。 同ガイドラインでは永住許可の判断にあたり、収入や年金の加入状況、日本語能力、子どもの就学状況などについて、これまで以上に厳格な基準を設ける方向性が打ち出されている。 こうした見直しによって、永住許可を希望する外国人やその家族の生活には、どのような影響が生じるのか…",
     "hatenaDate": "2026-11-06T08:25:01Z",
     "users": [],
     "firstSeenAt": "2026-11-07T04:15:13.412859+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "アジア1位なのに海外視聴者はわずか3%…｢VIVANT｣の大ヒットが示した日本ドラマの｢成功の逆説｣",
     "url": "https://president.jp/articles/-/121534",
     "domain": "president.jp",
-    "count": 57,
+    "count": 58,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/president.jp/articles/-/121534",
     "screenshot": "https://president.ismcdn.jp/mwimgs/4/1/1200wm/img_411f687b9aa665a83fa7ae4962342b89435251.jpg",
     "description": "TBS系ドラマ「VIVANT」シーズン2が注目を集めている。動画配信市場を調査するAMPDによると、2026年8月のアジア太平洋地域（中国・インドを除く）の動画配信視聴ランキングで首位に立った。しかし、視聴者約1563万人のうち、日本国外はわずか3％だった。なぜ国内での大ヒットが、海外での成功につながらないのか。元テレビ東京社員で桜美林大学教授の田淵俊彦さんは「日本のドラマは最初から海外のドラマと同じ土俵で戦っているわけではない」という――。 私は元ドラマプロデューサーとして、また現在は大学で映像制作やメディアについて教える立場として、この答えに違和感を抱いてきた。そして、その思いを改めて強…",
     "hatenaDate": "2026-11-06T03:43:32Z",
     "users": [],
     "firstSeenAt": "2026-11-07T04:00:15.454505+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -361,7 +392,7 @@
     "hatenaDate": "2026-11-06T17:00:30Z",
     "users": [],
     "firstSeenAt": "2026-11-07T03:15:14.084252+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -375,7 +406,7 @@
     "hatenaDate": "2026-11-06T15:26:21Z",
     "users": [],
     "firstSeenAt": "2026-11-07T03:00:15.093294+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -432,7 +463,7 @@
     "hatenaDate": "2026-11-06T16:49:21Z",
     "users": [],
     "firstSeenAt": "2026-11-07T02:15:12.063510+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -446,7 +477,7 @@
     "hatenaDate": "2026-11-06T11:37:17Z",
     "users": [],
     "firstSeenAt": "2026-11-07T01:45:13.915814+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -460,7 +491,7 @@
     "hatenaDate": "2026-11-06T08:05:48Z",
     "users": [],
     "firstSeenAt": "2026-11-07T01:30:15.364618+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -488,7 +519,7 @@
     "hatenaDate": "2026-11-06T15:02:09Z",
     "users": [],
     "firstSeenAt": "2026-11-07T01:15:13.908048+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -587,7 +618,7 @@
     "hatenaDate": "2026-11-06T12:22:59Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:30:14.687036+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -601,7 +632,7 @@
     "hatenaDate": "2026-11-06T11:48:07Z",
     "users": [],
     "firstSeenAt": "2026-11-06T23:15:13.902333+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "bodyStatus": "skip",
     "bodyReason": "robots-disallow"
   },
@@ -637,14 +668,14 @@
     "title": "【インフルエンサー誹謗中傷事件】イケハヤ編｜ゆっくりドットコム",
     "url": "https://note.com/yukkuridotcom/n/n4a9cb5ef1110",
     "domain": "note.com",
-    "count": 134,
+    "count": 135,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/yukkuridotcom/n/n4a9cb5ef1110",
     "screenshot": "https://assets.st-note.com/production/uploads/images/326774817/rectangle_large_type_2_2c61f9ef67be3096daf6ad4ad78d3c0f.png?fit=bounds&quality=85&width=1280",
     "description": "この記事は、インフルエンサーに法的措置を予告されたため、それを解決するために当方が何をしたかをまとめたものです。 ちょめ子氏が迫佑樹氏から恐怖を感じるＤＭを送られてきたことを公表し、迫氏がそれに対する釈明記事を公開した際に、イケハヤが迫氏を擁護する発言を行いました。 ところが、第三者の投稿により、迫氏が経営する会社の公式サイトに株主としてイケハヤが掲載されていて、それを指摘すると公式サイトからそのページが削除された、という事実が判明します。 ちなみにイケハヤは「証拠リスト」なるものを作成していることを明らかにしています。 そこで当方は、先手を打って、裁判所に「イケハヤに対して損害賠償の債務が…",
     "hatenaDate": "2026-11-06T10:36:45Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:45:14.036868+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -665,14 +696,14 @@
     "title": "読む政治：「議員辞職ものだ」　消費減税法案「造反」4氏に執行部怒気 | 毎日新聞",
     "url": "https://mainichi.jp/articles/20261106/k00/00m/010/329000c",
     "domain": "mainichi.jp",
-    "count": 170,
+    "count": 171,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/mainichi.jp/articles/20261106/k00/00m/010/329000c",
     "screenshot": "https://cdn.mainichi.jp/vol1/2026/11/06/20261106k0000m010349000p/0c10.jpg?1",
     "description": "暮らしや企業の経営にかかわる税制や予算。どう変わり、どんな影響があるのかをリポートします。 毎日新聞 2026/11/6 20:22（最終更新 11/6 21:12） 有料記事 858文字 消費税率を1％に引き下げることなどを盛り込んだ消費税減税関連法案が6日、衆院を通過した。衆院の審議で政府は2027年4月の減税と同時に始める所得に連動した新たな給付制度の対象の「参考値」を示したが、詳細な制度設計は曖昧なままだ。減税の財源も明らかにならないなど、多くの課題が参院に持ち越しとなった。 6日の衆院本会議で消費税減税関連法案の採決に加わらなかった石破茂前首相ら自民党の4氏は、いずれも閣僚や党の要…",
     "hatenaDate": "2026-11-06T12:04:06Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:30:14.431268+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -686,7 +717,7 @@
     "hatenaDate": "2026-11-06T11:22:32Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:30:14.431268+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -714,7 +745,7 @@
     "hatenaDate": "2026-11-06T09:31:47Z",
     "users": [],
     "firstSeenAt": "2026-11-06T22:00:15.108712+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -777,14 +808,14 @@
     "title": "直感的に異性に対して「この人いい！」って思える女性は結構すぐ彼氏でき..",
     "url": "https://anond.hatelabo.jp/20261106102708",
     "domain": "anond.hatelabo.jp",
-    "count": 132,
+    "count": 133,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261106102708",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "< anond:20261106102616 | anond:20261106102355 > 直感的に異性に対して「この人いい！」って思える女性は結構すぐ彼氏できるんだよなあ 知り合いの知り合いとか、初めて話した時に周りから「このあと2人でご飯でも行きなよー」と言われて断った後、何回か会って「いい人だなーあの時行っとけばよかった」と思うことが多い ないって感じだったじゃん（困惑）になるのはわかってるし、こっちが断った後に出会った女の子と付き合いました！とかも多いし だから身なりを小綺麗にしてる20代の女が彼氏なし独身であることがあんまり認められてなくて、ありとあらゆる知り合いから「幸せにな…",
     "hatenaDate": "2026-11-06T01:27:48Z",
     "users": [],
     "firstSeenAt": "2026-11-06T21:30:14.767617+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -848,14 +879,14 @@
     "title": "カルビーのポテチ、白黒パッケージで顧客が消えた？",
     "url": "https://xtrend.nikkei.com/atcl/contents/casestudy/00012/01986/",
     "domain": "xtrend.nikkei.com",
-    "count": 298,
+    "count": 300,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/xtrend.nikkei.com/atcl/contents/casestudy/00012/01986/",
     "screenshot": "https://xtrend.nikkei.com/atcl/contents/casestudy/00012/01986/nxr_m.jpg",
     "description": "カルビーは2026年11月6日、26年7～9月期の決算を発表する。注目されるのが、26年5月25日から主要14品のパッケージを白黒に順次変えたことが、売り上げに与えた影響だ。カルビー自身が影響について口を閉ざす中、日経クロストレンドはロイヤリティマーケティングの協力を得て、ポイントカード「Ponta」会員の購買行動の変化を分析した。約9万人分のID-POSデータから見えたのは、売り上げは減少傾向にあり、特に高年層の購入減が目立つこと。さらに意外にも、離脱者の86.8％は競合に流れず、ポテトチップスというカテゴリー自体を買わなくなっていた。分析担当者への取材から、その背景を読み解く。 カルビー…",
     "hatenaDate": "2026-11-06T03:21:10Z",
     "users": [],
     "firstSeenAt": "2026-11-06T20:30:14.487071+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -1031,14 +1062,14 @@
     "title": "Mrs. GREEN APPLEが無理だった話｜はるゆき",
     "url": "https://note.com/haru_yuki_i/n/n4ec981874187",
     "domain": "note.com",
-    "count": 505,
+    "count": 506,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/haru_yuki_i/n/n4ec981874187",
     "screenshot": "https://assets.st-note.com/production/uploads/images/332674965/rectangle_large_type_2_ca45452e3df78564b216cfca8db32131.jpeg?fit=bounds&quality=85&width=1280",
     "description": "Mrs. GREEN APPLEめちゃくちゃ流行ってるじゃないですか。もうテレビで見かけない日はないと言っても過言ではない。俺は40代半ばのおじさんで、正直その、テレビで見かける印象のみで判断して、ぶっちゃけ嫌いでした。なんていうか、中性的で派手で、でもV系みたいな妖しく尖った感じじゃなくて、ポップ、エンタメ、アミューズメント、って感じで、聞こえてくる楽曲もメロディラインがいまいち分かりづらい割にボーカルの特徴的な高音がやたら耳に残って、正直好きになる要素がなかったです。 ただ、嫌いなのはいいけど聴かずにバカにするのはダサい。これは俺の美学。腐すポイントがずれてたら恥ずかしいじゃん。なので苦…",
     "hatenaDate": "2026-11-06T04:54:25Z",
     "users": [],
     "firstSeenAt": "2026-11-06T16:45:14.553019+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -1073,14 +1104,14 @@
     "title": "世界のライブカメラ地図｜いま見れるライブ映像 — たま旅ライブ",
     "url": "https://tamatabi.world/ja/",
     "domain": "tamatabi.world",
-    "count": 392,
+    "count": 393,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tamatabi.world/ja/",
     "screenshot": "https://tamatabi.world/og.jpg",
     "description": "名所、商店街、港、自然、動物など、実在の場所を映す YouTube ライブ配信を募集しています。いただいた推薦はすべて目で確認し、良いものは数日以内に地図に追加します。 名所、静かな商店街、港、山、そしてラッコまで。この地図は、それぞれの場所の「いまこの瞬間」を映します。旅する小さな相棒は、世界を旅するペットの iOS アプリ たま旅（TamaTabi） から来ました。 リストは毎日チェックしています。配信が止まったままのカメラは外し、新しいカメラを探して一つずつ確認しています。 ハロウィン 2026 → 富士山 → 紅葉 → 夕日・サンセット → 海・ビーチ → 星空・オーロラ → 動物・…",
     "hatenaDate": "2026-11-06T03:01:57Z",
     "users": [],
     "firstSeenAt": "2026-11-06T16:00:14.317872+09:00",
-    "lastSeenAt": "2026-11-07T09:54:55.879164+09:00",
+    "lastSeenAt": "2026-11-07T10:00:12.643128+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4203,34 +4234,6 @@
     "users": [],
     "firstSeenAt": "2026-11-04T19:00:16.868102+09:00",
     "lastSeenAt": "2026-11-05T07:45:14.018119+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "良品計画 クレカ番号の全桁 約109万件が漏えいのおそれ | NHKニュース",
-    "url": "https://news.web.nhk/newsweb/na/nd-20261104de70494",
-    "domain": "news.web.nhk",
-    "count": 425,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261104de70494",
-    "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261104de70494/20261104de70494_E0000141661_1_l.jpg",
-    "description": "【NHK】「無印良品」を展開する良品計画は、不正アクセスを受けて、クレジットカード番号の全桁、およそ109万件が漏えいしたおそれがあると発表しました。 この中には、すでに期限切れとなっているカードも多く含ま",
-    "hatenaDate": "2026-11-04T09:17:59Z",
-    "users": [],
-    "firstSeenAt": "2026-11-04T18:45:15.752851+09:00",
-    "lastSeenAt": "2026-11-05T09:15:14.080481+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "トランプ氏、さっそく責任逃れ「私の名前は投票用紙に載っていなかった」 中間選挙大敗で",
-    "url": "https://www.afpbb.com/articles/-/3660789",
-    "domain": "www.afpbb.com",
-    "count": 126,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3660789",
-    "screenshot": "https://afpbb.ismcdn.jp/mwimgs/6/9/1000x/img_69b21fb7514ae634b0fa4c0821cd3a7c85208.jpg",
-    "description": "【11月4日 AFP】ドナルド・トランプ米大統領（80）は3日、共和党が歴史的な大敗を喫し、上下両院で多数派を失うことが確実になった中間選挙の結果を受け入れる意向を示したが、さっそく他の共和党員に責任を転嫁しようとした。 トランプ氏は選挙遊説で繰り返し、共和党員に対して「私の名前が投票用紙に載っていると思って投票してほしい」と呼び掛けていた。 だが、自分の非を認めるような人間ではないトランプ氏は3日、自身のSNS「トゥルース・ソーシャル」に、「私の名前は投票用紙に載っていなかった。もし載っていたら、われわれは圧勝していただろう！ この件にご注目いただき感謝する」と投稿し、早くも責任逃れを図っ…",
-    "hatenaDate": "2026-11-04T06:50:04Z",
-    "users": [],
-    "firstSeenAt": "2026-11-04T18:45:15.752851+09:00",
-    "lastSeenAt": "2026-11-05T07:15:13.395054+09:00",
     "descriptionSource": "body"
   }
 ]
