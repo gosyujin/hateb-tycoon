@@ -10,7 +10,7 @@
     "hatenaDate": "2026-11-07T11:09:17Z",
     "users": [],
     "firstSeenAt": "2026-11-08T01:15:08.060088+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -25,7 +25,7 @@
     "hatenaDate": "2026-11-07T06:10:01Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:45:15.412422+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body"
   },
   {
@@ -39,7 +39,7 @@
     "hatenaDate": "2026-11-07T11:25:01Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:45:15.412422+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -48,14 +48,14 @@
     "title": "運用しながら改善する LLM-as-a-Judge の構築 - Timee Product Team Blog",
     "url": "https://tech.timee.co.jp/entry/2026/11/05/101407",
     "domain": "tech.timee.co.jp",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.timee.co.jp/entry/2026/11/05/101407",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/fc56f732122c0d638c544107900bd8ca0bdcf2a1/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftimee_dev%2F20261105%2F20261105095241.png",
     "description": "こんにちは、株式会社タイミーでプロダクトAIエンジニアとして働いている貝出です。直近は、LLMを利用した求人審査AIの開発や性能改善を行っています。 LLMを使った機能を開発していると、LLMの生成文を実際にユーザーに見せるケースがあります。そのときには「生成文に問題がないか」を評価する必要があります。解決策の一つとして、生成文をLLMに評価させる “LLM-as-a-Judge” があります。 ただし、LLM-as-a-Judgeを導入するには、そのLLM-as-a-Judge自体が意図通りに評価できているかを事前に確かめる必要があります（以下、この評価をメタ評価と呼びます）。メタ評価用の…",
     "hatenaDate": "2026-11-06T09:41:05Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:45:15.412422+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body"
   },
   {
@@ -69,7 +69,7 @@
     "hatenaDate": "2026-11-07T07:15:20Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:15:15.188605+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body"
   },
   {
@@ -83,49 +83,51 @@
     "hatenaDate": "2026-11-07T07:36:08Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:00:14.277788+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ハーネスエンジニアリングを有名OSSはどう組んでいるのか？AIへの信頼で比べる5事例",
     "url": "https://gibberishlab.com/blog/oss-ai-agent-harness-philosophy",
     "domain": "gibberishlab.com",
-    "count": 14,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gibberishlab.com/blog/oss-ai-agent-harness-philosophy",
     "screenshot": "https://gibberishlab.com/api/og?locale=ja&title=%E3%83%8F%E3%83%BC%E3%83%8D%E3%82%B9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%92%E6%9C%89%E5%90%8DOSS%E3%81%AF%E3%81%A9%E3%81%86%E7%B5%84%E3%82%93%E3%81%A7%E3%81%84%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%9FAI%E3%81%B8%E3%81%AE%E4%BF%A1%E9%A0%BC%E3%81%A7%E6%AF%94%E3%81%B9%E3%82%8B5%E4%BA%8B%E4%BE%8B&label=GIBBERISH+LAB+RESEARCH+NOTE&variant=article&author=%E6%9D%BE%E6%9C%AC+%E6%B7%B3%E5%A4%AA%E9%83%8E",
     "description": "2026.10.16松本 淳太郎AI駆動開発研修ハーネスエンジニアリングAGENTS.mdClaude CodeエージェントスキルAI駆動開発 ハーネスエンジニアリングを有名OSSはどう組んでいるのか？AIへの信頼で比べる5事例 Zed・Sentry・OpenClaw・Bun・PostHogのAGENTS.md、フック、スキルを読み比べ、ハーネスエンジニアリングの違いを分析しました。ポイントはAIへの信頼度で、信頼するほど書く量は減り、信頼しないほどフックやリンターなどの機械で縛るようになります。 AIコーディングエージェントに渡す指示ファイル、ルール、フック、スキル、つまりハーネスの形は、…",
     "hatenaDate": "2026-11-07T09:20:09Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:00:14.277788+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
-    "descriptionSource": "body"
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
+    "descriptionSource": "body",
+    "bodyStatus": "skip",
+    "bodyReason": "not-longer"
   },
   {
     "title": "シーリングライトの様子がおかしいので蓋開けて中を見てみたらこの有様「みたらし団子かと」「何がどうしてそうなった？」",
     "url": "https://togetter.com/li/2767778",
     "domain": "togetter.com",
-    "count": 15,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2767778",
     "screenshot": "https://s.tgstc.com/ogp3/87261ae5cc37e3a6960005371f171503-1200x630.jpeg",
     "description": "明るさと色味の変化可能なLED灯が全く白くならなくなったから掃除+電気の替え時かと思ってたらなんだこれは…… え、何がどうしてそうなったの？？ pic.x.com/eoF1wL8XtG @kaNnzaSin2dj ライトなんだよねぇ 掃除かなぁ替え時かなぁと思って蓋開けて横転したわほんとに @hotocona_zero 茶色になっている部分って基本半透明でしたよね…？ 怖っ Ctirel LEDシーリングライト 6畳 24W 調色/調光タイプ 昼光色 電球色 2400LM リモコン付き 調光タイプ LED 豆球常夜灯モード メモリ機能 30分/60分スリープタイマー 玄関 寝室 和室 台所…",
     "hatenaDate": "2026-11-07T12:12:25Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:45:10.379127+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "桜井政博氏、生成AIへの考えかたを示す。「いまのところは使っていない」し、「どこかへの搾取になってはいけない」。一方で現在の“大変すぎるゲーム開発”への懸念も【ファミ通40周年フェス】 | ゲーム・エンタメ最新情報のファミ通.com",
     "url": "https://www.famitsu.com/article/202611/93352",
     "domain": "www.famitsu.com",
-    "count": 9,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.famitsu.com/article/202611/93352",
     "screenshot": "https://cimg.kgl-systems.io/camion/files/93352/thumbnail_LyGk.jpg?x=1280",
     "description": "ファミ通40周年フェスで行われた『桜井政博のゲームについて思うこと』新刊発売記念ステージにて、ゲームデザイナーの桜井政博氏が、自身の現状の“生成AI”に対する考えを示した。 ゲームデザイナーという“アイデアを出す立場”として、いまのところは使っていないし、アイデア出しの壁打ちで用いることもしていない。また、これまで開発してきた『カービィのエアライダー』などのタイトルにも生成AIは使っていないとのこと。 グラフィック方面での生成AIの活用については、「未だに信用を得られていない」し、「どこかへの搾取になってはいけない」。また、「自分たちで考えたほうがいまのところはよいものができる」と考えている…",
     "hatenaDate": "2026-11-07T09:49:08Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:45:10.379127+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body"
   },
   {
@@ -139,7 +141,7 @@
     "hatenaDate": "2026-11-07T00:15:27Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body"
   },
   {
@@ -153,7 +155,7 @@
     "hatenaDate": "2026-11-06T22:30:33Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -168,7 +170,7 @@
     "hatenaDate": "2026-11-06T14:52:40Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body"
   },
   {
@@ -182,7 +184,7 @@
     "hatenaDate": "2026-11-04T23:11:30Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body"
   },
   {
@@ -196,7 +198,7 @@
     "hatenaDate": "2026-11-06T03:45:10Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body"
   },
   {
@@ -253,7 +255,7 @@
     "hatenaDate": "2026-11-07T02:39:58Z",
     "users": [],
     "firstSeenAt": "2026-11-07T21:45:14.212612+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body"
   },
   {
@@ -288,14 +290,14 @@
     "title": "AI時代の要求管理ハンドブック ～経営・現場・開発がともに描く、問いから実現への道筋～ | 社会・産業のデジタル変革 | IPA 独立行政法人 情報処理推進機構",
     "url": "https://www.ipa.go.jp/digital/kaihatsu/youkyu-kanri.html",
     "domain": "www.ipa.go.jp",
-    "count": 55,
+    "count": 56,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.ipa.go.jp/digital/kaihatsu/youkyu-kanri.html",
     "screenshot": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.jpg",
     "description": "独立行政法人情報処理推進機構（IPA）は、AIが社会や産業の基盤となる時代に求められる要求管理の考え方と実践を解説した「AI時代の要求管理ハンドブック」を公開しました。 AIやデータ、ソフトウェアの活用が広がり、ビジネス環境や技術が急速に変化する中、組織や社会が「何を実現したいのか」を明確にし、その目的を要求・要件として具体化するとともに、業務、データ、システム、ルール、評価、運用・改善へと一貫してつなげていくことが重要になっています。 そのためには、要求・要件を一度定義して終わりにするのではなく、関係者間で共通理解を形成し、変化に応じて継続的に管理していくことが求められます。 本書は、こう…",
     "hatenaDate": "2026-11-05T10:17:16Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:45:14.098619+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -318,14 +320,14 @@
     "title": "ISUCON2026をClaude Codeが優勝したらしい｜laiso",
     "url": "https://sizu.me/laiso/posts/k59is4cnd77f",
     "domain": "sizu.me",
-    "count": 87,
+    "count": 88,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/sizu.me/laiso/posts/k59is4cnd77f",
     "screenshot": "https://sizu.me/api/og-image/2445628bdfdc?avatarUrl=https%3A%2F%2Fr2.sizu.me%2Fusers%2F111%2Favatar.png%3Fv%3D1706609408235&theme=user&username=laiso",
     "description": "正確には、元Wantedly CTOのkawasyさんが、ISUCON参加に向けて3ヶ月以上の試行錯誤をしたハーネスを、本番では無停止で自律的に8時間動作させて1位のスコアを叩き出したらしい。 ISUCON2026 受賞チームと全チームのスコア : ISUCON公式Blog もちろん他のチームも競技にClaude CodeやCodexなどを大活用して挑んだようだけど、完全自律実行で優勝したので、すごい話題になっていた。以下の記事やポッドキャストで詳細が本人の一次情報として出ているので参照してほしい。 https://zenn.dev/luvtechno/articles/isucon2026…",
     "hatenaDate": "2026-11-07T10:00:45Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:30:16.327165+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -341,21 +343,21 @@
     "hatenaDate": "2026-11-06T03:20:57Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:30:16.327165+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AI時代に求められる優秀なTechLeadの振る舞い - pospomeのプログラミング日記",
     "url": "https://www.pospome.work/entry/2026/11/07/192125",
     "domain": "www.pospome.work",
-    "count": 101,
+    "count": 107,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.pospome.work/entry/2026/11/07/192125",
     "screenshot": "https://ogimage.blog.st-hatena.com/10328749687199202561/14729835035335194139/1794046885",
     "description": "\"TechLead Conference 2026 Autumn powered by connpass\" の登壇資料です。 概要： 生成AIの進化によって、ソフトウェア開発のあり方は大きく変化しています。AIがコードを書く時代になり、技術的な知識や経験だけでなく、TechLeadとしてどのような価値を生み出すべきなのか、改めて考える必要があるのではないでしょうか。 本講演では、ICからTechLead、そしてVPoEへと役割を変えてきた自身の経験を振り返りながら、AI時代におけるTechLeadの役割と、優秀なTechLeadに求められる振る舞いについて考えます。現在TechLeadとして…",
     "hatenaDate": "2026-11-07T10:23:56Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:15:14.807191+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -378,14 +380,14 @@
     "title": "120FPS達成が大変だった話。",
     "url": "https://project-asura.com/blog/archives/14007",
     "domain": "project-asura.com",
-    "count": 34,
+    "count": 35,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/project-asura.com/blog/archives/14007",
     "screenshot": "https://s0.wp.com/i/blank.jpg",
     "description": "とあるタイトルで120FPS達成しろというオーダーを受けた時の対応がとても大変だったので、昔話として、そのときの対応について記載を残しておこうと思いました。 そこで、最初の関門は60FPS達成であると考えました。このときは全プラットフォームで60FPSなんてそんな…。という状況でしたので、まずはスペックが一番高いPCで60FPS達成を実現し、そこからパフォーマンスバジェットの割り当てを決定し、それを1/2にスケールすれば120FPS達成が可能ではないか？と考えました。 そのため、120FPSのパフォーマンスバジェットを決めるためにPC版で60FPS達成を最初の目標として取り組むことにしました…",
     "hatenaDate": "2026-11-07T06:12:43Z",
     "users": [],
     "firstSeenAt": "2026-11-07T18:15:13.432220+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -408,14 +410,14 @@
     "title": "ワイヤレス主流時代になぜ？「有線イヤホン」再流行のワケ【THE TIME,】  | TBS NEWS DIG",
     "url": "https://newsdig.tbs.co.jp/articles/-/3068819",
     "domain": "newsdig.tbs.co.jp",
-    "count": 162,
+    "count": 165,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/newsdig.tbs.co.jp/articles/-/3068819",
     "screenshot": "https://newsdig.ismcdn.jp/mwimgs/2/4/1200w/img_24cf75f22fc5c9aa3b77760c22a2b723234170.jpg",
     "description": "ワイヤレスが主流となるなか「有線イヤホン」が再び注目され、あのBOSEも11年ぶりに有線タイプを発売。その人気のワケとは？ 有線イヤホンを使っている人は街のあちこちで見かけますが、そのまま使うのではなく“… 「床を歩きたい」壊死したかかとの激痛に耐えた母…末期腎不全で突きつけられた「透析」と突然の別れ【連載：腎不全と緩和ケア①】 ビルの壁に突き刺さる「黄色いビートル」…時速286キロの事故!? オーナーが明かす45年前の真相 「優しさを利用されてしまいました」 17歳の娘が帰らなかった夜、母が語った2日間【2015年 江戸川女子高生殺害事件 前編】 スシロー店舗で販売目指す！全国初“幻の高級…",
     "hatenaDate": "2026-11-07T04:39:14Z",
     "users": [],
     "firstSeenAt": "2026-11-07T17:45:14.436483+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -488,7 +490,7 @@
     "hatenaDate": "2026-11-06T23:38:26Z",
     "users": [],
     "firstSeenAt": "2026-11-07T14:15:13.451324+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -497,14 +499,14 @@
     "title": "GMO 管理者が全情報アクセス可能 リスク指摘も十分対策されず | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261107de72062",
     "domain": "news.web.nhk",
-    "count": 146,
+    "count": 148,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261107de72062",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261107de72062/20261107de72062_E0000151392_1_l.jpg",
     "description": "JUST INプロボウラーの中山律子さんが死去 一大ブーム起こす 84歳(15:24) GMOインターネットグループのサービスが不正アクセスを受けた問題で、2年前、子会社が、「アクティブディレクトリ」という機能を通じて管理者がすべての利用者の情報にアクセスできる状況になっており、リスクが…",
     "hatenaDate": "2026-11-07T03:30:33Z",
     "users": [],
     "firstSeenAt": "2026-11-07T14:15:13.451324+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip"
   },
@@ -519,7 +521,7 @@
     "hatenaDate": "2026-11-07T02:20:55Z",
     "users": [],
     "firstSeenAt": "2026-11-07T14:00:14.723386+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -549,7 +551,7 @@
     "hatenaDate": "2026-11-07T00:36:39Z",
     "users": [],
     "firstSeenAt": "2026-11-07T13:00:30.164349+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body"
   },
   {
@@ -594,7 +596,7 @@
     "hatenaDate": "2026-11-06T09:24:26Z",
     "users": [],
     "firstSeenAt": "2026-11-07T11:45:15.174167+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -682,7 +684,7 @@
     "hatenaDate": "2026-11-06T23:36:13Z",
     "users": [],
     "firstSeenAt": "2026-11-07T09:54:55.879164+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -729,7 +731,7 @@
     "hatenaDate": "2026-11-06T11:09:56Z",
     "users": [],
     "firstSeenAt": "2026-11-07T09:30:13.769058+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -789,21 +791,21 @@
     "hatenaDate": "2026-09-30T11:35:51Z",
     "users": [],
     "firstSeenAt": "2026-11-07T08:15:15.109932+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "自分は旧時代のエンジニアになってしまったのでは",
     "url": "https://www.mobtown.jp/article/old-engineer/",
     "domain": "www.mobtown.jp",
-    "count": 383,
+    "count": 384,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.mobtown.jp/article/old-engineer/",
     "screenshot": "https://www.mobtown.jp/_astro/blog-placeholder-1.Bx0Zcyzv.jpg",
     "description": "最近、生成AIによるバイブコーディングが一般化していくにつれて、自分の中でそことの向き合い方を考えていました。 個人的には、生成AIの出力をそのまま鵜呑みにするのではなく、内容を理解し必要に応じて訂正した上で、自分の責任として成果物を出すのがエンジニアリングだ—、というのが今の自分の結論でした。 それは今まで、コードやシステムを理解しようと努力し、その本質を分かった上で、修正や拡張をしようとし続けてきた自分のような人間にとっては、納得のいく結論に感じていました。 しかし、世の中の生成AIとの向き合い方は違います。 出力をそのまま出す人も増えてきました。システムを理解しなくてもバグを直すことも…",
     "hatenaDate": "2026-11-05T13:24:35Z",
     "users": [],
     "firstSeenAt": "2026-11-07T07:30:14.447075+09:00",
-    "lastSeenAt": "2026-11-08T01:30:12.228244+09:00",
+    "lastSeenAt": "2026-11-08T01:45:14.342540+09:00",
     "descriptionSource": "body"
   },
   {
