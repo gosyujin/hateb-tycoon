@@ -10,7 +10,7 @@
     "hatenaDate": "2026-11-07T11:09:17Z",
     "users": [],
     "firstSeenAt": "2026-11-08T01:15:08.060088+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -25,7 +25,7 @@
     "hatenaDate": "2026-11-07T06:10:01Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:45:15.412422+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -39,7 +39,7 @@
     "hatenaDate": "2026-11-07T11:25:01Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:45:15.412422+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -48,28 +48,28 @@
     "title": "運用しながら改善する LLM-as-a-Judge の構築 - Timee Product Team Blog",
     "url": "https://tech.timee.co.jp/entry/2026/11/05/101407",
     "domain": "tech.timee.co.jp",
-    "count": 8,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.timee.co.jp/entry/2026/11/05/101407",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/fc56f732122c0d638c544107900bd8ca0bdcf2a1/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftimee_dev%2F20261105%2F20261105095241.png",
     "description": "こんにちは、株式会社タイミーでプロダクトAIエンジニアとして働いている貝出です。直近は、LLMを利用した求人審査AIの開発や性能改善を行っています。 LLMを使った機能を開発していると、LLMの生成文を実際にユーザーに見せるケースがあります。そのときには「生成文に問題がないか」を評価する必要があります。解決策の一つとして、生成文をLLMに評価させる “LLM-as-a-Judge” があります。 ただし、LLM-as-a-Judgeを導入するには、そのLLM-as-a-Judge自体が意図通りに評価できているかを事前に確かめる必要があります（以下、この評価をメタ評価と呼びます）。メタ評価用の…",
     "hatenaDate": "2026-11-06T09:41:05Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:45:15.412422+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "VoidでWebアプリを作ろう！",
     "url": "https://void-workshop.yusuke.run/phpmatsuri",
     "domain": "void-workshop.yusuke.run",
-    "count": 15,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/void-workshop.yusuke.run/phpmatsuri",
     "screenshot": null,
     "description": "Cloudflare / VoidZero - Developer Advocate / Yusuke Wada Cloudflare / VoidZero - Developer Advocate Void is a CLI, platform, and full-stack SDK that unifies building & deploying apps. プラットフォーム - チームのアプリをまとめてCloudflareにデプロイする基盤 routes/ APIエンドポイント pages/ ページ（UI） db/ スキーマとマイグレーション middleware/ ミドルウェア c…",
     "hatenaDate": "2026-11-07T07:15:20Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:15:15.188605+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -83,7 +83,7 @@
     "hatenaDate": "2026-11-07T07:36:08Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:00:14.277788+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -97,7 +97,7 @@
     "hatenaDate": "2026-11-07T09:20:09Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:00:14.277788+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -113,7 +113,7 @@
     "hatenaDate": "2026-11-07T12:12:25Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:45:10.379127+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -127,7 +127,7 @@
     "hatenaDate": "2026-11-07T09:49:08Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:45:10.379127+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -141,7 +141,7 @@
     "hatenaDate": "2026-11-07T00:15:27Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -155,7 +155,7 @@
     "hatenaDate": "2026-11-06T22:30:33Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -170,7 +170,7 @@
     "hatenaDate": "2026-11-06T14:52:40Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -184,7 +184,7 @@
     "hatenaDate": "2026-11-04T23:11:30Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -198,7 +198,7 @@
     "hatenaDate": "2026-11-06T03:45:10Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -212,7 +212,7 @@
     "hatenaDate": "2026-11-07T07:55:03Z",
     "users": [],
     "firstSeenAt": "2026-11-07T22:59:24.081838+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -255,7 +255,7 @@
     "hatenaDate": "2026-11-07T02:39:58Z",
     "users": [],
     "firstSeenAt": "2026-11-07T21:45:14.212612+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -297,7 +297,7 @@
     "hatenaDate": "2026-11-05T10:17:16Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:45:14.098619+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -327,7 +327,7 @@
     "hatenaDate": "2026-11-07T10:00:45Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:30:16.327165+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -343,21 +343,21 @@
     "hatenaDate": "2026-11-06T03:20:57Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:30:16.327165+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AI時代に求められる優秀なTechLeadの振る舞い - pospomeのプログラミング日記",
     "url": "https://www.pospome.work/entry/2026/11/07/192125",
     "domain": "www.pospome.work",
-    "count": 109,
+    "count": 112,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.pospome.work/entry/2026/11/07/192125",
     "screenshot": "https://ogimage.blog.st-hatena.com/10328749687199202561/14729835035335194139/1794046885",
     "description": "\"TechLead Conference 2026 Autumn powered by connpass\" の登壇資料です。 概要： 生成AIの進化によって、ソフトウェア開発のあり方は大きく変化しています。AIがコードを書く時代になり、技術的な知識や経験だけでなく、TechLeadとしてどのような価値を生み出すべきなのか、改めて考える必要があるのではないでしょうか。 本講演では、ICからTechLead、そしてVPoEへと役割を変えてきた自身の経験を振り返りながら、AI時代におけるTechLeadの役割と、優秀なTechLeadに求められる振る舞いについて考えます。現在TechLeadとして…",
     "hatenaDate": "2026-11-07T10:23:56Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:15:14.807191+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -387,7 +387,7 @@
     "hatenaDate": "2026-11-07T06:12:43Z",
     "users": [],
     "firstSeenAt": "2026-11-07T18:15:13.432220+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -410,14 +410,14 @@
     "title": "ワイヤレス主流時代になぜ？「有線イヤホン」再流行のワケ【THE TIME,】  | TBS NEWS DIG",
     "url": "https://newsdig.tbs.co.jp/articles/-/3068819",
     "domain": "newsdig.tbs.co.jp",
-    "count": 172,
+    "count": 173,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/newsdig.tbs.co.jp/articles/-/3068819",
     "screenshot": "https://newsdig.ismcdn.jp/mwimgs/2/4/1200w/img_24cf75f22fc5c9aa3b77760c22a2b723234170.jpg",
     "description": "ワイヤレスが主流となるなか「有線イヤホン」が再び注目され、あのBOSEも11年ぶりに有線タイプを発売。その人気のワケとは？ 有線イヤホンを使っている人は街のあちこちで見かけますが、そのまま使うのではなく“… 「床を歩きたい」壊死したかかとの激痛に耐えた母…末期腎不全で突きつけられた「透析」と突然の別れ【連載：腎不全と緩和ケア①】 ビルの壁に突き刺さる「黄色いビートル」…時速286キロの事故!? オーナーが明かす45年前の真相 「優しさを利用されてしまいました」 17歳の娘が帰らなかった夜、母が語った2日間【2015年 江戸川女子高生殺害事件 前編】 スシロー店舗で販売目指す！全国初“幻の高級…",
     "hatenaDate": "2026-11-07T04:39:14Z",
     "users": [],
     "firstSeenAt": "2026-11-07T17:45:14.436483+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -490,7 +490,7 @@
     "hatenaDate": "2026-11-06T23:38:26Z",
     "users": [],
     "firstSeenAt": "2026-11-07T14:15:13.451324+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -499,14 +499,14 @@
     "title": "GMO 管理者が全情報アクセス可能 リスク指摘も十分対策されず | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261107de72062",
     "domain": "news.web.nhk",
-    "count": 149,
+    "count": 150,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261107de72062",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261107de72062/20261107de72062_E0000151392_1_l.jpg",
     "description": "JUST INプロボウラーの中山律子さんが死去 一大ブーム起こす 84歳(15:24) GMOインターネットグループのサービスが不正アクセスを受けた問題で、2年前、子会社が、「アクティブディレクトリ」という機能を通じて管理者がすべての利用者の情報にアクセスできる状況になっており、リスクが…",
     "hatenaDate": "2026-11-07T03:30:33Z",
     "users": [],
     "firstSeenAt": "2026-11-07T14:15:13.451324+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip"
   },
@@ -521,7 +521,7 @@
     "hatenaDate": "2026-11-07T02:20:55Z",
     "users": [],
     "firstSeenAt": "2026-11-07T14:00:14.723386+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -551,7 +551,7 @@
     "hatenaDate": "2026-11-07T00:36:39Z",
     "users": [],
     "firstSeenAt": "2026-11-07T13:00:30.164349+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -596,7 +596,7 @@
     "hatenaDate": "2026-11-06T09:24:26Z",
     "users": [],
     "firstSeenAt": "2026-11-07T11:45:15.174167+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -684,7 +684,7 @@
     "hatenaDate": "2026-11-06T23:36:13Z",
     "users": [],
     "firstSeenAt": "2026-11-07T09:54:55.879164+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -791,7 +791,7 @@
     "hatenaDate": "2026-09-30T11:35:51Z",
     "users": [],
     "firstSeenAt": "2026-11-07T08:15:15.109932+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body"
   },
   {
@@ -805,7 +805,7 @@
     "hatenaDate": "2026-11-05T13:24:35Z",
     "users": [],
     "firstSeenAt": "2026-11-07T07:30:14.447075+09:00",
-    "lastSeenAt": "2026-11-08T02:00:15.465150+09:00",
+    "lastSeenAt": "2026-11-08T02:15:11.289376+09:00",
     "descriptionSource": "body"
   },
   {
