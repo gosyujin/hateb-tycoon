@@ -1,16 +1,30 @@
 [
   {
+    "title": "オープンソース監視ツールのLTS版「Zabbix 8.0 LTS」、OpenTelemetryにネイティブ対応しオブザーバビリティを強化",
+    "url": "https://cloud.watch.impress.co.jp/docs/news/2154360.html",
+    "domain": "cloud.watch.impress.co.jp",
+    "count": 9,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/cloud.watch.impress.co.jp/docs/news/2154360.html",
+    "screenshot": "https://cloud.watch.impress.co.jp/img/clw/list/2154/360/05.jpg",
+    "description": "ラトビアZabbixは5日、オープンソースのエンタープライズ向け統合監視ソフトウェア「Zabbix」において、最新の長期サポート（LTS）バージョン「Zabbix 8.0 LTS」をリリースしたと発表した。 Zabbixは、サーバー、ネットワーク機器、サービスなど、さまざまなITリソースを監視・追跡するオープンソースの監視ソフトウェア。おおむね1年半ごとに安定版が提供され、5年間サポートが提供されるLTS（Long Term Support：長期サポート）と、6カ月ごとに安定版が提供されるポイントリリースの2つのリリース形態で提供されている。 今回リリースされたZabbix 8.0 LTSは…",
+    "hatenaDate": "2026-11-06T08:53:07Z",
+    "users": [],
+    "firstSeenAt": "2026-11-08T18:28:27.874797+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "仕事、ドパ越えて利益 - オイオイオイ書くわアイツ",
     "url": "https://ttmmjm.hatenablog.com/entry/2026/11/06/135935",
     "domain": "ttmmjm.hatenablog.com",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ttmmjm.hatenablog.com/entry/2026/11/06/135935",
     "screenshot": "https://ogimage.blog.st-hatena.com/6653458415125358019/14729835035333526740/1793941175",
     "description": "依存更新やリファクタリングなら、コードとドキュメントを読ませて、先にテストを増やす。 利用上限に当たったら経費申請をして、疲れたらジムに行って、戻ってきたらまたやる。 ところで「仕事おもろすぎアウトプットデカすぎ」については、普通に舐めんなよという話がある。仕事なので。 調査結果や PR が次々に出てきて気持ち～。 ここで、AI 自体の利用料・それをレビューする人間の工数・他諸々を考慮して、会社は得しているのでしょうか。 最終的な利益に責任（てか確信）を持てない場合、会社の金で趣味をやっているも同然であり、そりゃ気持ち良いわなという感じだ。 AI にバカ働かせるのはマジでドーパミン出て気持ち…",
     "hatenaDate": "2026-11-06T15:36:46Z",
     "users": [],
     "firstSeenAt": "2026-11-08T18:15:11.325814+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +38,7 @@
     "hatenaDate": "2026-11-08T01:21:21Z",
     "users": [],
     "firstSeenAt": "2026-11-08T18:00:13.873441+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -32,14 +46,14 @@
     "title": "Jw_cadを思わせる無料BIM「SumiCAD」登場！ 開発者の意外な正体とは | 建設ITブログ",
     "url": "https://ken-it.world/it/2026/11/sumicad-free-bim.html",
     "domain": "ken-it.world",
-    "count": 17,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ken-it.world/it/2026/11/sumicad-free-bim.html",
     "screenshot": "https://ken-it.world/it/wp-content/uploads/sites/4/20261102-facebook-J.png",
     "description": "木造住宅の設計でBIMソフトを使っていても、確認申請用の図面は結局、Jw_cadで仕上げる。そんな話をよく聞きます。 しかし、施主の要望で窓を一つ動かすだけでも、平面図や立面図、断面図をあちこち直すのは大変です。かといって、高価なBIMソフトを何本もそろえるのも、小規模な工務店には負担になります。 そんな悩みを解決しようと、北海道で木造住宅の設計・施工を手掛ける森の匠（本社：北海道虻田郡倶知安町）の2人の技術者が、Windows用BIMアプリ「SumiCAD（墨CAD）」を開発し、このほど早期アクセス版を無料公開しました。 Jw_cadの便利さを意識し、日本の木造住宅に必要な機能を盛り込んだ…",
     "hatenaDate": "2026-11-08T04:37:22Z",
     "users": [],
     "firstSeenAt": "2026-11-08T17:45:14.003566+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body"
   },
   {
@@ -53,21 +67,21 @@
     "hatenaDate": "2026-11-07T16:31:28Z",
     "users": [],
     "firstSeenAt": "2026-11-08T17:00:14.229653+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ホテル川久に宿泊し、バブルの夢を偲ぶ - 生存記録",
     "url": "https://hayasinonakanozou.hatenablog.com/entry/2026/11/03/111931",
     "domain": "hayasinonakanozou.hatenablog.com",
-    "count": 87,
+    "count": 93,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/hayasinonakanozou.hatenablog.com/entry/2026/11/03/111931",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/b11bb982e675ef2b332b37833217a4504e65d6d6/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhayasinonakanozou%2F20261103%2F20261103060702.jpg",
     "description": "以前から一度泊まってみたいと憧れつつ、距離が遠いためになかなか思いきれなかったホテル川久に泊まってきた。同行者あり。 和歌山へ行くのは2015年10月以来。そのときは紀伊半島を海沿いに走って那智の滝まで向かった。埼玉からだと和歌山へのアクセスはほぼ飛行機一択。 飛行機に乗るのは2023年4月、高松からの帰り以来。まず羽田空港まで行くのがだるいうえに、保安検査だの20分前までの搭乗ゲート通過だの荷物の持ち込みだのいろいろ制限があり、機内ではじっと座っているしかないので快適といいづらく、だから飛行機はあまり好まない。空港には広い土地が必要なため街の中心部から離れた場所にある移動の不便さもある。…",
     "hatenaDate": "2026-11-06T07:33:34Z",
     "users": [],
     "firstSeenAt": "2026-11-08T15:30:15.299302+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -76,28 +90,28 @@
     "title": "リストラします。会社のMacBookは引き続き使えます",
     "url": "https://www.watch.impress.co.jp/docs/topic/watchplus/2154253.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 41,
+    "count": 44,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/topic/watchplus/2154253.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2154/253/canva1.jpg",
     "description": "Impress Watchニュースレターに掲載した記事です。ニュースレターは無料で、毎週編集部員が会員向けのコラムなどをお送りしています。登録はこちらから。 デザインツールのCanvaが4日、リストラを発表しました。従業員の22％にあたる1,271名を削減するという大規模なものですが、最近の製品リリースも多く、勢いを感じていただけに驚きました。 リストラの理由について具体的には語られておらず、AIにも直接的には言及していません。しかし、プロダクト、グロース、プラットフォームを1つの「プロダクト組織」としてシンプルな構図にする、専門分化された組織を改め、階層を統合して責任範囲を広げる、といった…",
     "hatenaDate": "2026-11-07T22:20:32Z",
     "users": [],
     "firstSeenAt": "2026-11-08T14:30:14.063113+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ワークマンの新リカバリーウェアを着てみた　温度調節が快適【いつモノコト】",
     "url": "https://www.watch.impress.co.jp/docs/series/itsmo/2153603.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 21,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/series/itsmo/2153603.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2153/603/pic-001.jpg",
     "description": "ワークマンからリカバリーウェア第2弾として7月に発売された「メディヒールコスモス」を、この秋からのパジャマとして採用してみました。オンラインストアでは在庫がなかったので、東京・杉並区の実店舗に赴き購入しました。各2,900円、上下セットで5,800円でした。 ワークマンの「メディヒール」は、1,900円(上下セットで3,800円)というリカバリーウェアとして格安な価格で発売され話題になりました。「メディヒールコスモス」はそれより1,000円高い上位製品です。リカバリーウェアとして「遠赤外線の血行促進作用で疲労を回復する環境を整える」という機能に加え、NASA向けに開発されたという温度調節技術…",
     "hatenaDate": "2026-11-07T00:50:45Z",
     "users": [],
     "firstSeenAt": "2026-11-08T14:30:14.063113+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -106,28 +120,28 @@
     "title": "AWSを利用する上で知っておきたい名前解決の話 2026",
     "url": "https://speakerdeck.com/nagisa53/aws-o-riyou-suru-ue-de-shi-te-okitai-namae-kaiketsu-no-hanashi-2026",
     "domain": "speakerdeck.com",
-    "count": 47,
+    "count": 48,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/nagisa53/aws-o-riyou-suru-ue-de-shi-te-okitai-namae-kaiketsu-no-hanashi-2026",
     "screenshot": "https://files.speakerdeck.com/presentations/bd3907c18ac84d36a1491db9c5f501d8/slide_0.jpg?41254410",
     "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … CloudFrontのHost Header転送設定でパケットの中身はどう変わるのか？ レガシーコードに対する loop engineering的なAI開発プロセス導入について Autonomous AI Lakehouse - Live AI Hubから始めるセキュアなAIデータ活用 - デザインレビューは自動化できるのか？─ Flutter × Figma で UI 品質保証を考える reInvent2026stby LT00 \"C…",
     "hatenaDate": "2026-11-07T13:51:49Z",
     "users": [],
     "firstSeenAt": "2026-11-08T13:45:13.431612+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AI生成の証拠「透かし」がユーザー追跡の「スパイマーク」と化している",
     "url": "https://gigazine.net/news/20261108-spymarks-not-watermarks/",
     "domain": "gigazine.net",
-    "count": 41,
+    "count": 43,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261108-spymarks-not-watermarks/",
     "screenshot": "https://i.gzn.jp/img/2026/11/08/spymarks-not-watermarks/00.png",
     "description": "近年よく目にするようになった「ウォーターマーク」という言葉はメディアが本物であることを確認したりメディアの所有権を主張したりするために用いられる可視の「透かし」を指します。しかし、AIを用いて画像・動画制作ソフトを開発するArtCraftの創業者であるブランドン・トーマス氏は、よく似た別物として我々の知ら...",
     "hatenaDate": "2026-11-08T03:02:29Z",
     "users": [],
     "firstSeenAt": "2026-11-08T13:15:16.051677+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -142,7 +156,7 @@
     "hatenaDate": "2026-11-07T00:46:51Z",
     "users": [],
     "firstSeenAt": "2026-11-08T13:15:16.051677+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -151,14 +165,14 @@
     "title": "生成AI時代のIAMのマニアックな話",
     "url": "https://speakerdeck.com/takuros/jaws-festa-2026-public",
     "domain": "speakerdeck.com",
-    "count": 84,
+    "count": 87,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/takuros/jaws-festa-2026-public",
     "screenshot": "https://files.speakerdeck.com/presentations/1e34df71ee9945e3802d3b92addd0770/slide_0.jpg?41252804",
     "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … Sponsored · Ship Features Fearlessly Turn features on and off without deploys. Used by thousands of Ruby developers. → JAWS FESTA 2026 in AKITA(2026年11月7日)の登壇資料です。 プログラムには鍵を渡せるのに、なぜLLMには渡してはいけないのか。AIエージェントからAWSを操作するときに、鍵…",
     "hatenaDate": "2026-11-07T02:15:16Z",
     "users": [],
     "firstSeenAt": "2026-11-08T12:15:13.473544+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body"
   },
   {
@@ -172,7 +186,7 @@
     "hatenaDate": "2026-11-08T02:14:28Z",
     "users": [],
     "firstSeenAt": "2026-11-08T12:15:13.473544+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -188,7 +202,7 @@
     "hatenaDate": "2026-11-07T05:03:35Z",
     "users": [],
     "firstSeenAt": "2026-11-08T12:00:12.959749+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body"
   },
   {
@@ -202,7 +216,7 @@
     "hatenaDate": "2026-11-08T01:06:33Z",
     "users": [],
     "firstSeenAt": "2026-11-08T11:27:43.438788+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body"
   },
   {
@@ -216,21 +230,21 @@
     "hatenaDate": "2026-09-21T06:40:25Z",
     "users": [],
     "firstSeenAt": "2026-11-08T11:27:43.438788+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「燃やす」ってなに？",
     "url": "https://anond.hatelabo.jp/20261107090533",
     "domain": "anond.hatelabo.jp",
-    "count": 63,
+    "count": 65,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261107090533",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "「相手が燃やしてきたからこっちも燃やそう」とか言いますけど、具体的にどんな被害を被ってどんな被害を与えるつもりなのか、よくわからない 最近の件で言うと、レジスタ！が燃やさてたと言うけど、具体的になんか実害が出てるの？カウンターで燃やされた（？）薬屋はなんか実害が出たの？ 各々ツイッターのクッサいクッサいちっちゃなちっちゃなオタククラスターの内輪でキモイキモイ言い合ってただけじゃないんですか？ それを燃やすって大げさに表現するのは、キモオタク同士でナワバリバトルをやってるだけじゃないんですか？ 燃やすに限らず、オタクってすべての物事を大げさに表現するからイマイチ信用ならないんだよな…… コメダ…",
     "hatenaDate": "2026-11-07T00:14:43Z",
     "users": [],
     "firstSeenAt": "2026-11-08T11:00:13.046148+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body"
   },
   {
@@ -244,7 +258,7 @@
     "hatenaDate": "2026-11-07T15:32:29Z",
     "users": [],
     "firstSeenAt": "2026-11-08T10:15:14.394613+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -252,14 +266,14 @@
     "title": "NVIDIAがAI GPUの位置追跡を東南アジアのクラウド事業者に義務付け。GeForce RTX 5090も対象になる可能性も",
     "url": "https://gazlog.jp/entry/nvidia-southeast-asia-location-tracking-for-gpu/",
     "domain": "gazlog.jp",
-    "count": 54,
+    "count": 55,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gazlog.jp/entry/nvidia-southeast-asia-location-tracking-for-gpu/",
     "screenshot": "https://gazlog.jp/wp-content/uploads/2026/11/image-49.png",
     "description": "AI GPUの中国への流出が問題になっているNVIDIAが、東南アジアでNVIDIA Cloud Partner（NCP）の認定を求める顧客に、GPUの位置を記録できるFleet Intelligenceへの登録を義務付けたとのことです。NCPになれば最新のAI GPUを優先して回してもらえるため、任意のはずの登録が事実上の条件になります。 NVIDIAのFleet Intelligenceは、約1年前の2025年12月に登場したデータセンター向けGPUの管理ソフトで、GPUの稼働状況とあわせて、GPUが物理的にどこにあるかも記録できます。ただ、利用は任意で、利用者が自らデータセンターに導入…",
     "hatenaDate": "2026-11-07T21:13:41Z",
     "users": [],
     "firstSeenAt": "2026-11-08T09:30:13.601355+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body"
   },
   {
@@ -273,21 +287,21 @@
     "hatenaDate": "2026-11-07T09:00:19Z",
     "users": [],
     "firstSeenAt": "2026-11-08T09:15:12.194571+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
     "url": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
     "domain": "zenn.dev",
-    "count": 187,
+    "count": 188,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tomipetit/articles/zero-wire-github-actions",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--codVjztu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Cloudflare%2520Zero%2520Wire%2520%25C3%2597%2520GitHub%2520Actions%2520%25C3%2597%2520Claude%2520%25E3%2581%25A7%25E5%2585%25AC%25E9%2596%258B%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2581%25AE%25E8%2584%2586%25E5%25BC%25B1...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:tomi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q2ZjRjNzJlMjAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "2026年11月、Cloudflare Radar に Zero Wire という脆弱性インテリジェンスのフィードが公開されました。全 CVE を網羅するのではなく、Web アプリやランタイム、インターネットに公開されたサービスなど「外向きのソフトウェアの重大な CVE」に絞って、ニュースのように読めるブリーフィングを出してくれるものです。 読み物としても便利ですが、せっかく RSS もあるので、自分の公開サーバーに影響するかを毎朝自動で判定する仕組みを GitHub Actions で作ってみました。この記事では、その構成と、実際に回してみてハマったところをまとめます。 最終的にはこんな…",
     "hatenaDate": "2026-11-07T13:18:14Z",
     "users": [],
     "firstSeenAt": "2026-11-08T07:43:22.475085+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body"
   },
   {
@@ -301,7 +315,7 @@
     "hatenaDate": "2026-11-07T09:05:57Z",
     "users": [],
     "firstSeenAt": "2026-11-08T07:43:22.475085+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -345,7 +359,7 @@
     "hatenaDate": "2026-11-07T11:25:01Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:45:15.412422+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -361,7 +375,7 @@
     "hatenaDate": "2026-11-06T09:41:05Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:45:15.412422+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -377,7 +391,7 @@
     "hatenaDate": "2026-11-07T07:15:20Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:15:15.188605+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body"
   },
   {
@@ -405,7 +419,7 @@
     "hatenaDate": "2026-11-07T09:20:09Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:00:14.277788+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -421,7 +435,7 @@
     "hatenaDate": "2026-11-07T12:12:25Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:45:10.379127+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -437,7 +451,7 @@
     "hatenaDate": "2026-11-07T09:49:08Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:45:10.379127+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -609,7 +623,7 @@
     "hatenaDate": "2026-11-05T10:17:16Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:45:14.098619+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -669,7 +683,7 @@
     "hatenaDate": "2026-11-07T10:23:56Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:15:14.807191+09:00",
-    "lastSeenAt": "2026-11-08T18:15:11.325814+09:00",
+    "lastSeenAt": "2026-11-08T18:28:27.874797+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4350,20 +4364,6 @@
     "users": [],
     "firstSeenAt": "2026-11-05T00:15:14.860527+09:00",
     "lastSeenAt": "2026-11-05T08:15:14.322566+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "無印良品、ネットストアなども情報漏えい　一部カード情報も",
-    "url": "https://www.watch.impress.co.jp/docs/news/2153690.html",
-    "domain": "www.watch.impress.co.jp",
-    "count": 11,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2153690.html",
-    "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2153/690/muji2.jpg",
-    "description": "「無印良品」を運営する良品計画は4日、公式アプリ「MUJIアプリ」における利用者情報漏えいの続報を発表した。「無印良品ネットストア」利用者も含まれることや、メールアドレス、生年月日のほか、一部の利用者では住所、電話番号が含まれていることがわかったという。 10月30日に発表していた外部流出の件数は最大約2,726万件だが、流出可能性のある情報は、メールアドレス、生年月日、性別に加え、会員IDが追加された。さらに52万件においては、氏名、住所、電話番号も含まれる。また、この数字には退会者も含まれている。 加えて、クレディセゾンが発行する「MUJI Card(クレジットカード)」と、MUJIアプ…",
-    "hatenaDate": "2026-11-04T10:37:32Z",
-    "users": [],
-    "firstSeenAt": "2026-11-05T00:00:12.194632+09:00",
-    "lastSeenAt": "2026-11-05T08:00:15.427476+09:00",
     "descriptionSource": "body"
   }
 ]
