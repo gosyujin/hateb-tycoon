@@ -10,7 +10,7 @@
     "hatenaDate": "2026-11-05T23:30:12Z",
     "users": [],
     "firstSeenAt": "2026-11-09T03:15:13.581126+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -18,28 +18,28 @@
     "title": "日本ネットワークセキュリティ協会に不正アクセス　最大1.5万件の個人情報漏えいの恐れ",
     "url": "https://japan.cnet.com/article/35254549/",
     "domain": "japan.cnet.com",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35254549/",
     "screenshot": "https://japan.cnet.com/storage/2026/11/08/94fd3c88bbcadf519e1be29f9e3dd03c/cnet_04_20261108_header.jpg",
     "description": "日本ネットワークセキュリティ協会（JNSA）は11月6日、同協会が運営する「情報セキュリティ理解度チェックサービス」が不正アクセスを受け、最大1万5128件の個人情報が漏えいした恐れがあると発表した。サービスを停止し、原因や影響範囲を調べている。 漏えいした可能性があるのは、サービス管理者の氏名、企業名、メールアドレス、組織所在地、従業員数、業種、利用ユーザー数のほか、利用者のIDとパスワード。パスワードは、元の文字列を別の値に変換する「ハッシュ化」が施されていたという。 同サービスは、企業や団体の担当者が従業員などを受講者として登録し、情報セキュリティに関する問題を解いてもらうことで、知識…",
     "hatenaDate": "2026-11-07T23:01:33Z",
     "users": [],
     "firstSeenAt": "2026-11-09T02:15:13.784003+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "人生タイムライン",
     "url": "https://ltimeline.com/ja/",
     "domain": "ltimeline.com",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ltimeline.com/ja/",
     "screenshot": "https://ltimeline.com/ogp/ja.png",
     "description": "一緒に描く人：ソウタ（配偶者・パートナー） / メイ（子ども） / ユキコ（母） 自分がどんな時代を生きてきたのか、これからどんな節目を迎えるのかを一本の線で見渡して、残りの時間の使い方を考えるきっかけにしてください。 寿命の目安は、WHO の2023年の生命表をもとにした、いまの年齢の平均余命に、喫煙・飲酒・運動習慣・食生活・睡眠時間・ストレス・BMI などの暮らしぶりによる増減を加えて計算します。186の国と地域に対応しています。 統計の平均値と一般的な傾向から計算した、ごく大まかな目安です。個人の寿命を予測・診断するものではありません。 各年の行には、その年の年齢と、社会・経済・災害・…",
     "hatenaDate": "2026-11-08T15:27:37Z",
     "users": [],
     "firstSeenAt": "2026-11-09T01:15:15.936375+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body"
   },
   {
@@ -53,7 +53,7 @@
     "hatenaDate": "2026-11-08T05:14:50Z",
     "users": [],
     "firstSeenAt": "2026-11-09T01:00:14.101878+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -61,14 +61,14 @@
     "title": "Claude Codeの「今後確認しない」が秘密情報をGitHubに漏らす — 1,122件の公開ファイルに1,379件の秘密情報 - Dev & Gadget Note",
     "url": "https://dev.ponkotsu.dev/entry/claude-code-settings-local-secrets",
     "domain": "dev.ponkotsu.dev",
-    "count": 38,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/dev.ponkotsu.dev/entry/claude-code-settings-local-secrets",
     "screenshot": "https://ogimage.blog.st-hatena.com/14729835035332795482/14729835035335532884/1794113828",
     "description": "Claude Codeで「Yes, and don't ask again（今後確認しない）」を選ぶと、承認したコマンドがそのままプロジェクト内の.claude/settings.local.jsonに保存されます。コマンドにパスワードやAPIキーが含まれていると、平文のまま残ります。セキュリティ企業Apiiroの調査（11月7日公表）では、公開GitHubリポジトリにある同ファイル104,185件のうち1,122件に少なくとも1件の秘密情報があり、合計1,379件が見つかりました。古いバージョンやフォーク、共有設定ファイル、保存されたエージェントのチャットログまで含めると2,539件、1,…",
     "hatenaDate": "2026-11-08T10:31:52Z",
     "users": [],
     "firstSeenAt": "2026-11-09T00:15:11.419579+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body"
   },
   {
@@ -82,7 +82,7 @@
     "hatenaDate": "2026-11-06T23:05:44Z",
     "users": [],
     "firstSeenAt": "2026-11-08T23:45:13.149806+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body"
   },
   {
@@ -96,21 +96,21 @@
     "hatenaDate": "2026-11-07T23:01:56Z",
     "users": [],
     "firstSeenAt": "2026-11-08T23:30:17.246551+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Meta、「Muse」で自分専用アプリを作れる新機能「スペース」",
     "url": "https://www.watch.impress.co.jp/docs/news/2154571.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 42,
+    "count": 43,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2154571.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2154/571/meta6.jpg",
     "description": "Metaは6日(米国時間)、パーソナルAIエージェント「Muse」で、自分専用のアプリを作れる新機能「スペース(Space)」を開始した。 スペースでは、Museに依頼して、年末ギフトのトラッカーや、毎日のワードゲーム、DIYプロジェクトの計画ボードなどをMuse上で作成できる機能。自分のルーティン、目標、興味に合わせて制作でき、自由にカスタマイズできる。作成した「スペース」はMuseの一部となり、いつでも戻って利用できる。 Museにアイデアを伝えるだけで、Muse上で動作するアプリを作成。作成した機能はスペースを使いながら、足りないものを追加したり、新しいデザインを試したり、動作を変更し…",
     "hatenaDate": "2026-11-07T09:39:54Z",
     "users": [],
     "firstSeenAt": "2026-11-08T23:00:18.021403+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -126,7 +126,7 @@
     "hatenaDate": "2026-11-07T15:12:51Z",
     "users": [],
     "firstSeenAt": "2026-11-08T22:45:12.777309+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -142,7 +142,7 @@
     "hatenaDate": "2026-11-08T07:40:07Z",
     "users": [],
     "firstSeenAt": "2026-11-08T22:15:14.537116+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body"
   },
   {
@@ -156,7 +156,7 @@
     "hatenaDate": "2026-11-08T03:30:34Z",
     "users": [],
     "firstSeenAt": "2026-11-08T21:15:15.754577+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -172,21 +172,21 @@
     "hatenaDate": "2026-11-07T09:16:48Z",
     "users": [],
     "firstSeenAt": "2026-11-08T21:00:16.566412+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "MCPはなぜ復権したのか：CLIが支持された理由と、流れを変えた仕様変更 | Hiraoku.dev",
     "url": "https://hiraoku.dev/blog/mcp-cli-cloud/",
     "domain": "hiraoku.dev",
-    "count": 142,
+    "count": 143,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/hiraoku.dev/blog/mcp-cli-cloud/",
     "screenshot": "https://hiraoku.dev/_astro/mcp-cli-cloud-soft.CLyUwOGU_antCa.jpg",
     "description": "いま、MCPはAIエージェントと外部サービスをつなぐ共通の接続方式として使われています。その一方で、「MCPよりCLIで十分ではないか」と、MCPを使う意味が問い直された時期もありました。 CLIが支持されたのには理由があります。エージェントは必要なときにヘルプを読み、コマンドを組み合わせ、出力を加工できます。初期のMCP利用では、ツール定義や検索結果をまとめてモデルへ渡す実装が、コンテキストを圧迫する問題を生んでいました。初期化や、セッションを使う場合の状態管理にも負担がありました。すでに使えるCLIがある環境では、それをそのまま使わせるほうが手軽な場面もあったのです。 MCPの再評価は、…",
     "hatenaDate": "2026-11-08T02:33:33Z",
     "users": [],
     "firstSeenAt": "2026-11-08T20:45:15.511772+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -202,7 +202,7 @@
     "hatenaDate": "2026-11-08T10:45:23Z",
     "users": [],
     "firstSeenAt": "2026-11-08T20:30:18.714550+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -210,14 +210,14 @@
     "title": "Windowsに市販のセキュリティソフトは必要か｜npaka",
     "url": "https://note.com/npaka/n/nf119bada91e7",
     "domain": "note.com",
-    "count": 76,
+    "count": 77,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/npaka/n/nf119bada91e7",
     "screenshot": "https://assets.st-note.com/production/uploads/images/333597466/rectangle_large_type_2_9395de7f2972be4126484f0ec48ddbbe.png?fit=bounds&quality=85&width=1280",
     "description": "「Windows」に市販のセキュリティソフトはどんな時に必要なのかをまとめました。 「ウイルスバスター」「ノートン」などの市販のセキュリティソフトは、ウイルスやマルウェア、不正アクセス、情報漏洩などからPCを保護するためのソフトウェアです。 ただし、これらの機能の多くは、Windows 11標準の「Microsoft Defender」や「SmartScreen」などにも搭載されています また、市販のウイルス対策ソフトをインストールすると、通常はMicrosoft Defender Antivirusのリアルタイム保護が自動的に無効化されます。 そのため、市販ソフトを追加すれば、必ずセキュリ…",
     "hatenaDate": "2026-11-08T05:02:18Z",
     "users": [],
     "firstSeenAt": "2026-11-08T20:15:13.376600+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -226,14 +226,14 @@
     "title": "【重要】不正アクセスによる情報流出に関するお詫びとお知らせ（第一報）",
     "url": "https://corporate.teket.jp/news/privacy_261108",
     "domain": "corporate.teket.jp",
-    "count": 42,
+    "count": 43,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/corporate.teket.jp/news/privacy_261108",
     "screenshot": "https://storage.googleapis.com/production-os-assets/assets/f7969f88-0214-4729-b39a-9fa8f2798b6e",
     "description": "【重要】不正アクセスによる情報流出に関するお詫びとお知らせ（第一報）",
     "hatenaDate": "2026-11-08T06:56:13Z",
     "users": [],
     "firstSeenAt": "2026-11-08T20:00:15.000896+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -248,21 +248,21 @@
     "hatenaDate": "2026-11-08T06:29:39Z",
     "users": [],
     "firstSeenAt": "2026-11-08T19:45:13.525891+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "警告:ジャンプルーキーはそのうちAI漫画で埋まる",
     "url": "https://anond.hatelabo.jp/20261108174809",
     "domain": "anond.hatelabo.jp",
-    "count": 76,
+    "count": 77,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261108174809",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "ジャンプ＋ならともかく、ジャンプルーキーを読んでいるのはよほどの漫画好き、もしくは漫画家志望者だろう。 ジャンプルーキーは投稿に制限や審査がほぼなく、下手だろうが未完成だろうが好きに投稿できる。 はっきり言えば玉石石石石石…混淆なのだが、その中からルーキー賞などを経て、ジャンプ＋の読み切りなどに頭角を現す作家も出てくる。 そこからさらに連載権を取り、ヒットさせて…なんて考えると長い道のりだが、それでも漫画家志望にとっては夢の第一歩の場所だ。 放置すれば、どんどんAI漫画が増えて、ジャンプルーキー全部を埋め立てることになる。 ジャンプの考え方が、「AIでも面白い漫画なら構わない」という考えなら…",
     "hatenaDate": "2026-11-08T08:51:31Z",
     "users": [],
     "firstSeenAt": "2026-11-08T19:15:13.252093+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -278,7 +278,7 @@
     "hatenaDate": "2026-11-08T06:14:17Z",
     "users": [],
     "firstSeenAt": "2026-11-08T19:00:13.454909+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body"
   },
   {
@@ -292,7 +292,7 @@
     "hatenaDate": "2026-11-06T08:53:07Z",
     "users": [],
     "firstSeenAt": "2026-11-08T18:28:27.874797+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -308,7 +308,7 @@
     "hatenaDate": "2026-11-06T15:36:46Z",
     "users": [],
     "firstSeenAt": "2026-11-08T18:15:11.325814+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body"
   },
   {
@@ -322,7 +322,7 @@
     "hatenaDate": "2026-11-08T01:21:21Z",
     "users": [],
     "firstSeenAt": "2026-11-08T18:00:13.873441+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -337,7 +337,7 @@
     "hatenaDate": "2026-11-08T04:37:22Z",
     "users": [],
     "firstSeenAt": "2026-11-08T17:45:14.003566+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body"
   },
   {
@@ -358,14 +358,14 @@
     "title": "ホテル川久に宿泊し、バブルの夢を偲ぶ - 生存記録",
     "url": "https://hayasinonakanozou.hatenablog.com/entry/2026/11/03/111931",
     "domain": "hayasinonakanozou.hatenablog.com",
-    "count": 356,
+    "count": 357,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/hayasinonakanozou.hatenablog.com/entry/2026/11/03/111931",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/b11bb982e675ef2b332b37833217a4504e65d6d6/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhayasinonakanozou%2F20261103%2F20261103060702.jpg",
     "description": "以前から一度泊まってみたいと憧れつつ、距離が遠いためになかなか思いきれなかったホテル川久に泊まってきた。同行者あり。 和歌山へ行くのは2015年10月以来。そのときは紀伊半島を海沿いに走って那智の滝まで向かった。埼玉からだと和歌山へのアクセスはほぼ飛行機一択。 飛行機に乗るのは2023年4月、高松からの帰り以来。まず羽田空港まで行くのがだるいうえに、保安検査だの20分前までの搭乗ゲート通過だの荷物の持ち込みだのいろいろ制限があり、機内ではじっと座っているしかないので快適といいづらく、だから飛行機はあまり好まない。空港には広い土地が必要なため街の中心部から離れた場所にある移動の不便さもある。…",
     "hatenaDate": "2026-11-06T07:33:34Z",
     "users": [],
     "firstSeenAt": "2026-11-08T15:30:15.299302+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -381,7 +381,7 @@
     "hatenaDate": "2026-11-07T22:20:32Z",
     "users": [],
     "firstSeenAt": "2026-11-08T14:30:14.063113+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body"
   },
   {
@@ -395,7 +395,7 @@
     "hatenaDate": "2026-11-07T00:50:45Z",
     "users": [],
     "firstSeenAt": "2026-11-08T14:30:14.063113+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -411,21 +411,21 @@
     "hatenaDate": "2026-11-07T13:51:49Z",
     "users": [],
     "firstSeenAt": "2026-11-08T13:45:13.431612+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AI生成の証拠「透かし」がユーザー追跡の「スパイマーク」と化している",
     "url": "https://gigazine.net/news/20261108-spymarks-not-watermarks/",
     "domain": "gigazine.net",
-    "count": 66,
+    "count": 67,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261108-spymarks-not-watermarks/",
     "screenshot": "https://i.gzn.jp/img/2026/11/08/spymarks-not-watermarks/00.png",
     "description": "近年よく目にするようになった「ウォーターマーク」という言葉はメディアが本物であることを確認したりメディアの所有権を主張したりするために用いられる可視の「透かし」を指します。しかし、AIを用いて画像・動画制作ソフトを開発するArtCraftの創業者であるブランドン・トーマス氏は、よく似た別物として我々の知ら...",
     "hatenaDate": "2026-11-08T03:02:29Z",
     "users": [],
     "firstSeenAt": "2026-11-08T13:15:16.051677+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -440,7 +440,7 @@
     "hatenaDate": "2026-11-07T00:46:51Z",
     "users": [],
     "firstSeenAt": "2026-11-08T13:15:16.051677+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -456,7 +456,7 @@
     "hatenaDate": "2026-11-07T02:15:16Z",
     "users": [],
     "firstSeenAt": "2026-11-08T12:15:13.473544+09:00",
-    "lastSeenAt": "2026-11-09T03:45:12.498958+09:00",
+    "lastSeenAt": "2026-11-09T04:00:14.161339+09:00",
     "descriptionSource": "body"
   },
   {
