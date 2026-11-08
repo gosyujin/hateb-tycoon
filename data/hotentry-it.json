@@ -1,5 +1,19 @@
 [
   {
+    "title": "AWSを利用する上で知っておきたい名前解決の話 2026",
+    "url": "https://speakerdeck.com/nagisa53/aws-o-riyou-suru-ue-de-shi-te-okitai-namae-kaiketsu-no-hanashi-2026",
+    "domain": "speakerdeck.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/nagisa53/aws-o-riyou-suru-ue-de-shi-te-okitai-namae-kaiketsu-no-hanashi-2026",
+    "screenshot": "https://files.speakerdeck.com/presentations/bd3907c18ac84d36a1491db9c5f501d8/slide_0.jpg?41254410",
+    "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … CloudFrontのHost Header転送設定でパケットの中身はどう変わるのか？ レガシーコードに対する loop engineering的なAI開発プロセス導入について Autonomous AI Lakehouse - Live AI Hubから始めるセキュアなAIデータ活用 - デザインレビューは自動化できるのか？─ Flutter × Figma で UI 品質保証を考える reInvent2026stby LT00 \"C…",
+    "hatenaDate": "2026-11-07T13:51:49Z",
+    "users": [],
+    "firstSeenAt": "2026-11-08T13:45:13.431612+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "AI生成の証拠「透かし」がユーザー追跡の「スパイマーク」と化している",
     "url": "https://gigazine.net/news/20261108-spymarks-not-watermarks/",
     "domain": "gigazine.net",
@@ -10,22 +24,22 @@
     "hatenaDate": "2026-11-08T03:02:29Z",
     "users": [],
     "firstSeenAt": "2026-11-08T13:15:16.051677+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "bodyReason": "crawl-delay-too-long",
-    "bodyTries": 2
+    "bodyTries": 3
   },
   {
     "title": "数百ページのPDF文書を一括解析できるローカルAI「Unlimited OCR 2」、NVIDIA開発の文字起こし音声AI「Nemotron 3.5 Transcribe」など生成AI技術5つを解説（生成AIウィークリー） | テクノエッジ TechnoEdge",
     "url": "https://www.techno-edge.net/article/2026/11/06/5679.html",
     "domain": "www.techno-edge.net",
-    "count": 8,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/11/06/5679.html",
     "screenshot": "https://www.techno-edge.net/imgs/ogp_f/35337.png",
     "description": "2014年から幅広い分野の研究論文をピックアップして解説しているメディア「Seamless」（シームレス）を個人運営しています。 この1週間の気になる生成AI技術・研究をいくつかピックアップして解説する今回の「生成AIウィークリー」（第166回）は、スマホでも高速で動くオープンウェイトのAIモデル群「LFM3」や、数百ページの文書を一括解析できるローカルOCRモデル「Unlimited OCR 2」を取り上げます。 また、複数話者の文字起こしなどができるNVIDIA開発の音声AI「Nemotron 3.5 Transcribe」や、GPT-6.1 Terraと同等のコーディング性能を持つAI…",
     "hatenaDate": "2026-11-07T00:46:51Z",
     "users": [],
     "firstSeenAt": "2026-11-08T13:15:16.051677+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -41,7 +55,7 @@
     "hatenaDate": "2026-11-07T02:15:16Z",
     "users": [],
     "firstSeenAt": "2026-11-08T12:15:13.473544+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body"
   },
   {
@@ -55,7 +69,7 @@
     "hatenaDate": "2026-11-08T02:14:28Z",
     "users": [],
     "firstSeenAt": "2026-11-08T12:15:13.473544+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -64,14 +78,14 @@
     "title": "WordPress 7.2からランダムなページにリダイレクトする謎機能が実装されることに – Capital P – WordPressメディア",
     "url": "https://capitalp.jp/2026/11/06/wordpress-7-2-random-redirect/",
     "domain": "capitalp.jp",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/capitalp.jp/2026/11/06/wordpress-7-2-random-redirect/",
     "screenshot": "https://i0.wp.com/capitalp.jp/wp-content/uploads/2026/11/6060a836eb9cc18a072237b8b9a3f3ff.png?fit=630%2C630&quality=80&ssl=1",
     "description": "makeブログでの発表”Your Content Is Going To Get More Random!“によると、今年12月のリリース予定のWordPress 7.2には /random にアクセスすると、ランダムな投稿に飛ばされる機能が実装されるようだ。「なんのために？」という機能だが、どうもこれはマット・マレンウェグが繰り返し要望していた機能で、自身が開発したプラグインRandom Redirectをコアに入れたかった、というのが実装の理由らしい。ガバナンスの透明性が問われる意思決定プロセスだ。 WordPressのコアは、常に堅実な基本機能のセットを提供し続けます。コアは軽量かつ高…",
     "hatenaDate": "2026-11-07T05:03:35Z",
     "users": [],
     "firstSeenAt": "2026-11-08T12:00:12.959749+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body"
   },
   {
@@ -85,7 +99,7 @@
     "hatenaDate": "2026-11-08T01:06:33Z",
     "users": [],
     "firstSeenAt": "2026-11-08T11:27:43.438788+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body"
   },
   {
@@ -99,35 +113,35 @@
     "hatenaDate": "2026-09-21T06:40:25Z",
     "users": [],
     "firstSeenAt": "2026-11-08T11:27:43.438788+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「燃やす」ってなに？",
     "url": "https://anond.hatelabo.jp/20261107090533",
     "domain": "anond.hatelabo.jp",
-    "count": 36,
+    "count": 37,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261107090533",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "「相手が燃やしてきたからこっちも燃やそう」とか言いますけど、具体的にどんな被害を被ってどんな被害を与えるつもりなのか、よくわからない 最近の件で言うと、レジスタ！が燃やさてたと言うけど、具体的になんか実害が出てるの？カウンターで燃やされた（？）薬屋はなんか実害が出たの？ 各々ツイッターのクッサいクッサいちっちゃなちっちゃなオタククラスターの内輪でキモイキモイ言い合ってただけじゃないんですか？ それを燃やすって大げさに表現するのは、キモオタク同士でナワバリバトルをやってるだけじゃないんですか？ 燃やすに限らず、オタクってすべての物事を大げさに表現するからイマイチ信用ならないんだよな…… コメダ…",
     "hatenaDate": "2026-11-07T00:14:43Z",
     "users": [],
     "firstSeenAt": "2026-11-08T11:00:13.046148+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Sakutto - Local AI translation - Chrome Web Store",
     "url": "https://chromewebstore.google.com/detail/sakutto-local-ai-translat/mhlbjjijfkoghmcjndgdimhdlfkhadfl",
     "domain": "chromewebstore.google.com",
-    "count": 49,
+    "count": 50,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/chromewebstore.google.com/detail/sakutto-local-ai-translat/mhlbjjijfkoghmcjndgdimhdlfkhadfl",
     "screenshot": "https://lh3.googleusercontent.com/GbxaEYUueEYLtu1kKKCr2oaEn6j1jxjkwQM7JF10D5dL9T9iuWYIeBxOBt0AN2e_wwFXqeLsFacbUSDnNOASAPJuaA=s128-rj-sc0x00ffffff",
     "description": "A local LLM translates pages on your device. Free, no account. Translate a whole page, selected text, or text you type. You can replace the page with the translation, or read the original and the translation side by side. No ads or analytics. Your page text is not sent to an outside translation s...",
     "hatenaDate": "2026-11-07T15:32:29Z",
     "users": [],
     "firstSeenAt": "2026-11-08T10:15:14.394613+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -135,14 +149,14 @@
     "title": "NVIDIAがAI GPUの位置追跡を東南アジアのクラウド事業者に義務付け。GeForce RTX 5090も対象になる可能性も",
     "url": "https://gazlog.jp/entry/nvidia-southeast-asia-location-tracking-for-gpu/",
     "domain": "gazlog.jp",
-    "count": 32,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gazlog.jp/entry/nvidia-southeast-asia-location-tracking-for-gpu/",
     "screenshot": "https://gazlog.jp/wp-content/uploads/2026/11/image-49.png",
     "description": "AI GPUの中国への流出が問題になっているNVIDIAが、東南アジアでNVIDIA Cloud Partner（NCP）の認定を求める顧客に、GPUの位置を記録できるFleet Intelligenceへの登録を義務付けたとのことです。NCPになれば最新のAI GPUを優先して回してもらえるため、任意のはずの登録が事実上の条件になります。 NVIDIAのFleet Intelligenceは、約1年前の2025年12月に登場したデータセンター向けGPUの管理ソフトで、GPUの稼働状況とあわせて、GPUが物理的にどこにあるかも記録できます。ただ、利用は任意で、利用者が自らデータセンターに導入…",
     "hatenaDate": "2026-11-07T21:13:41Z",
     "users": [],
     "firstSeenAt": "2026-11-08T09:30:13.601355+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body"
   },
   {
@@ -156,21 +170,21 @@
     "hatenaDate": "2026-11-07T09:00:19Z",
     "users": [],
     "firstSeenAt": "2026-11-08T09:15:12.194571+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
     "url": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
     "domain": "zenn.dev",
-    "count": 127,
+    "count": 128,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tomipetit/articles/zero-wire-github-actions",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--codVjztu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Cloudflare%2520Zero%2520Wire%2520%25C3%2597%2520GitHub%2520Actions%2520%25C3%2597%2520Claude%2520%25E3%2581%25A7%25E5%2585%25AC%25E9%2596%258B%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2581%25AE%25E8%2584%2586%25E5%25BC%25B1...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:tomi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q2ZjRjNzJlMjAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "2026年11月、Cloudflare Radar に Zero Wire という脆弱性インテリジェンスのフィードが公開されました。全 CVE を網羅するのではなく、Web アプリやランタイム、インターネットに公開されたサービスなど「外向きのソフトウェアの重大な CVE」に絞って、ニュースのように読めるブリーフィングを出してくれるものです。 読み物としても便利ですが、せっかく RSS もあるので、自分の公開サーバーに影響するかを毎朝自動で判定する仕組みを GitHub Actions で作ってみました。この記事では、その構成と、実際に回してみてハマったところをまとめます。 最終的にはこんな…",
     "hatenaDate": "2026-11-07T13:18:14Z",
     "users": [],
     "firstSeenAt": "2026-11-08T07:43:22.475085+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body"
   },
   {
@@ -184,7 +198,7 @@
     "hatenaDate": "2026-11-07T09:05:57Z",
     "users": [],
     "firstSeenAt": "2026-11-08T07:43:22.475085+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -199,7 +213,7 @@
     "hatenaDate": "2026-11-07T11:09:17Z",
     "users": [],
     "firstSeenAt": "2026-11-08T01:15:08.060088+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -214,7 +228,7 @@
     "hatenaDate": "2026-11-07T06:10:01Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:45:15.412422+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body"
   },
   {
@@ -228,7 +242,7 @@
     "hatenaDate": "2026-11-07T11:25:01Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:45:15.412422+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -244,7 +258,7 @@
     "hatenaDate": "2026-11-06T09:41:05Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:45:15.412422+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -260,7 +274,7 @@
     "hatenaDate": "2026-11-07T07:15:20Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:15:15.188605+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body"
   },
   {
@@ -274,21 +288,21 @@
     "hatenaDate": "2026-11-07T07:36:08Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:00:14.277788+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ハーネスエンジニアリングを有名OSSはどう組んでいるのか？AIへの信頼で比べる5事例",
     "url": "https://gibberishlab.com/blog/oss-ai-agent-harness-philosophy",
     "domain": "gibberishlab.com",
-    "count": 163,
+    "count": 165,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gibberishlab.com/blog/oss-ai-agent-harness-philosophy",
     "screenshot": "https://gibberishlab.com/api/og?locale=ja&title=%E3%83%8F%E3%83%BC%E3%83%8D%E3%82%B9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%92%E6%9C%89%E5%90%8DOSS%E3%81%AF%E3%81%A9%E3%81%86%E7%B5%84%E3%82%93%E3%81%A7%E3%81%84%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%9FAI%E3%81%B8%E3%81%AE%E4%BF%A1%E9%A0%BC%E3%81%A7%E6%AF%94%E3%81%B9%E3%82%8B5%E4%BA%8B%E4%BE%8B&label=GIBBERISH+LAB+RESEARCH+NOTE&variant=article&author=%E6%9D%BE%E6%9C%AC+%E6%B7%B3%E5%A4%AA%E9%83%8E",
     "description": "2026.10.16松本 淳太郎AI駆動開発研修ハーネスエンジニアリングAGENTS.mdClaude CodeエージェントスキルAI駆動開発 ハーネスエンジニアリングを有名OSSはどう組んでいるのか？AIへの信頼で比べる5事例 Zed・Sentry・OpenClaw・Bun・PostHogのAGENTS.md、フック、スキルを読み比べ、ハーネスエンジニアリングの違いを分析しました。ポイントはAIへの信頼度で、信頼するほど書く量は減り、信頼しないほどフックやリンターなどの機械で縛るようになります。 AIコーディングエージェントに渡す指示ファイル、ルール、フック、スキル、つまりハーネスの形は、…",
     "hatenaDate": "2026-11-07T09:20:09Z",
     "users": [],
     "firstSeenAt": "2026-11-08T00:00:14.277788+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -304,7 +318,7 @@
     "hatenaDate": "2026-11-07T12:12:25Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:45:10.379127+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -313,14 +327,14 @@
     "title": "桜井政博氏、生成AIへの考えかたを示す。「いまのところは使っていない」し、「どこかへの搾取になってはいけない」。一方で現在の“大変すぎるゲーム開発”への懸念も【ファミ通40周年フェス】 | ゲーム・エンタメ最新情報のファミ通.com",
     "url": "https://www.famitsu.com/article/202611/93352",
     "domain": "www.famitsu.com",
-    "count": 114,
+    "count": 115,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.famitsu.com/article/202611/93352",
     "screenshot": "https://cimg.kgl-systems.io/camion/files/93352/thumbnail_LyGk.jpg?x=1280",
     "description": "ファミ通40周年フェスで行われた『桜井政博のゲームについて思うこと』新刊発売記念ステージにて、ゲームデザイナーの桜井政博氏が、自身の現状の“生成AI”に対する考えを示した。 ゲームデザイナーという“アイデアを出す立場”として、いまのところは使っていないし、アイデア出しの壁打ちで用いることもしていない。また、これまで開発してきた『カービィのエアライダー』などのタイトルにも生成AIは使っていないとのこと。 グラフィック方面での生成AIの活用については、「未だに信用を得られていない」し、「どこかへの搾取になってはいけない」。また、「自分たちで考えたほうがいまのところはよいものができる」と考えている…",
     "hatenaDate": "2026-11-07T09:49:08Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:45:10.379127+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -336,7 +350,7 @@
     "hatenaDate": "2026-11-07T00:15:27Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body"
   },
   {
@@ -365,7 +379,7 @@
     "hatenaDate": "2026-11-06T14:52:40Z",
     "users": [],
     "firstSeenAt": "2026-11-07T23:15:14.233014+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body"
   },
   {
@@ -407,7 +421,7 @@
     "hatenaDate": "2026-11-07T07:55:03Z",
     "users": [],
     "firstSeenAt": "2026-11-07T22:59:24.081838+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body"
   },
   {
@@ -492,7 +506,7 @@
     "hatenaDate": "2026-11-05T10:17:16Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:45:14.098619+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -515,14 +529,14 @@
     "title": "ISUCON2026をClaude Codeが優勝したらしい｜laiso",
     "url": "https://sizu.me/laiso/posts/k59is4cnd77f",
     "domain": "sizu.me",
-    "count": 146,
+    "count": 147,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/sizu.me/laiso/posts/k59is4cnd77f",
     "screenshot": "https://sizu.me/api/og-image/2445628bdfdc?avatarUrl=https%3A%2F%2Fr2.sizu.me%2Fusers%2F111%2Favatar.png%3Fv%3D1706609408235&theme=user&username=laiso",
     "description": "正確には、元Wantedly CTOのkawasyさんが、ISUCON参加に向けて3ヶ月以上の試行錯誤をしたハーネスを、本番では無停止で自律的に8時間動作させて1位のスコアを叩き出したらしい。 ISUCON2026 受賞チームと全チームのスコア : ISUCON公式Blog もちろん他のチームも競技にClaude CodeやCodexなどを大活用して挑んだようだけど、完全自律実行で優勝したので、すごい話題になっていた。以下の記事やポッドキャストで詳細が本人の一次情報として出ているので参照してほしい。 https://zenn.dev/luvtechno/articles/isucon2026…",
     "hatenaDate": "2026-11-07T10:00:45Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:30:16.327165+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -552,7 +566,7 @@
     "hatenaDate": "2026-11-07T10:23:56Z",
     "users": [],
     "firstSeenAt": "2026-11-07T20:15:14.807191+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -605,14 +619,14 @@
     "title": "ワイヤレス主流時代になぜ？「有線イヤホン」再流行のワケ【THE TIME,】  | TBS NEWS DIG",
     "url": "https://newsdig.tbs.co.jp/articles/-/3068819",
     "domain": "newsdig.tbs.co.jp",
-    "count": 227,
+    "count": 228,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/newsdig.tbs.co.jp/articles/-/3068819",
     "screenshot": "https://newsdig.ismcdn.jp/mwimgs/2/4/1200w/img_24cf75f22fc5c9aa3b77760c22a2b723234170.jpg",
     "description": "ワイヤレスが主流となるなか「有線イヤホン」が再び注目され、あのBOSEも11年ぶりに有線タイプを発売。その人気のワケとは？ 有線イヤホンを使っている人は街のあちこちで見かけますが、そのまま使うのではなく“… 「床を歩きたい」壊死したかかとの激痛に耐えた母…末期腎不全で突きつけられた「透析」と突然の別れ【連載：腎不全と緩和ケア①】 ビルの壁に突き刺さる「黄色いビートル」…時速286キロの事故!? オーナーが明かす45年前の真相 「優しさを利用されてしまいました」 17歳の娘が帰らなかった夜、母が語った2日間【2015年 江戸川女子高生殺害事件 前編】 スシロー店舗で販売目指す！全国初“幻の高級…",
     "hatenaDate": "2026-11-07T04:39:14Z",
     "users": [],
     "firstSeenAt": "2026-11-07T17:45:14.436483+09:00",
-    "lastSeenAt": "2026-11-08T13:30:13.605955+09:00",
+    "lastSeenAt": "2026-11-08T13:45:13.431612+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4347,20 +4361,5 @@
     "firstSeenAt": "2026-11-04T22:30:13.398991+09:00",
     "lastSeenAt": "2026-11-04T22:30:13.398991+09:00",
     "descriptionSource": "body"
-  },
-  {
-    "title": "「GPT-6 AstraがQwen3.5-0.8Bの重みを書き換えて数学性能を約6倍に改善した」との研究結果、ただし「誤解を招く」との批判も",
-    "url": "https://gigazine.net/news/20261104-gpt-6-astra-qwen-weight-space-programming/",
-    "domain": "gigazine.net",
-    "count": 9,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261104-gpt-6-astra-qwen-weight-space-programming/",
-    "screenshot": "https://i.gzn.jp/img/2026/11/04/gpt-6-astra-qwen-weight-space-programming/00_m.png",
-    "description": "マサチューセッツ工科大学(MIT)の研究チームが、AIモデル「GPT-6 Astra」を使って別のAIモデル「Qwen3.5-0.8B」の内部パラメーターを書き換え、数学問題の正答率を7.9％から48.1％に改善したと報告しました。追加学習を行わずに全体のわずか0.016％のパラメーターを変更したことによる成果ですが、研究の説明が誤解を招...",
-    "hatenaDate": "2026-11-04T03:46:44Z",
-    "users": [],
-    "firstSeenAt": "2026-11-04T22:15:13.116261+09:00",
-    "lastSeenAt": "2026-11-04T23:30:15.356662+09:00",
-    "bodyReason": "crawl-delay-too-long",
-    "bodyTries": 3
   }
 ]
