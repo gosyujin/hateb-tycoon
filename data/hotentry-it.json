@@ -10,7 +10,7 @@
     "hatenaDate": "2026-11-08T04:00:50Z",
     "users": [],
     "firstSeenAt": "2026-11-09T04:15:13.794707+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -25,7 +25,7 @@
     "hatenaDate": "2026-11-05T23:30:12Z",
     "users": [],
     "firstSeenAt": "2026-11-09T03:15:13.581126+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -40,7 +40,7 @@
     "hatenaDate": "2026-11-07T23:01:33Z",
     "users": [],
     "firstSeenAt": "2026-11-09T02:15:13.784003+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -56,7 +56,7 @@
     "hatenaDate": "2026-11-08T15:27:37Z",
     "users": [],
     "firstSeenAt": "2026-11-09T01:15:15.936375+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body"
   },
   {
@@ -70,7 +70,7 @@
     "hatenaDate": "2026-11-08T05:14:50Z",
     "users": [],
     "firstSeenAt": "2026-11-09T01:00:14.101878+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -78,14 +78,14 @@
     "title": "Claude Codeの「今後確認しない」が秘密情報をGitHubに漏らす — 1,122件の公開ファイルに1,379件の秘密情報 - Dev & Gadget Note",
     "url": "https://dev.ponkotsu.dev/entry/claude-code-settings-local-secrets",
     "domain": "dev.ponkotsu.dev",
-    "count": 39,
+    "count": 41,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/dev.ponkotsu.dev/entry/claude-code-settings-local-secrets",
     "screenshot": "https://ogimage.blog.st-hatena.com/14729835035332795482/14729835035335532884/1794113828",
     "description": "Claude Codeで「Yes, and don't ask again（今後確認しない）」を選ぶと、承認したコマンドがそのままプロジェクト内の.claude/settings.local.jsonに保存されます。コマンドにパスワードやAPIキーが含まれていると、平文のまま残ります。セキュリティ企業Apiiroの調査（11月7日公表）では、公開GitHubリポジトリにある同ファイル104,185件のうち1,122件に少なくとも1件の秘密情報があり、合計1,379件が見つかりました。古いバージョンやフォーク、共有設定ファイル、保存されたエージェントのチャットログまで含めると2,539件、1,…",
     "hatenaDate": "2026-11-08T10:31:52Z",
     "users": [],
     "firstSeenAt": "2026-11-09T00:15:11.419579+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body"
   },
   {
@@ -99,7 +99,7 @@
     "hatenaDate": "2026-11-06T23:05:44Z",
     "users": [],
     "firstSeenAt": "2026-11-08T23:45:13.149806+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body"
   },
   {
@@ -113,21 +113,21 @@
     "hatenaDate": "2026-11-07T23:01:56Z",
     "users": [],
     "firstSeenAt": "2026-11-08T23:30:17.246551+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Meta、「Muse」で自分専用アプリを作れる新機能「スペース」",
     "url": "https://www.watch.impress.co.jp/docs/news/2154571.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 43,
+    "count": 46,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2154571.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2154/571/meta6.jpg",
     "description": "Metaは6日(米国時間)、パーソナルAIエージェント「Muse」で、自分専用のアプリを作れる新機能「スペース(Space)」を開始した。 スペースでは、Museに依頼して、年末ギフトのトラッカーや、毎日のワードゲーム、DIYプロジェクトの計画ボードなどをMuse上で作成できる機能。自分のルーティン、目標、興味に合わせて制作でき、自由にカスタマイズできる。作成した「スペース」はMuseの一部となり、いつでも戻って利用できる。 Museにアイデアを伝えるだけで、Muse上で動作するアプリを作成。作成した機能はスペースを使いながら、足りないものを追加したり、新しいデザインを試したり、動作を変更し…",
     "hatenaDate": "2026-11-07T09:39:54Z",
     "users": [],
     "firstSeenAt": "2026-11-08T23:00:18.021403+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -143,7 +143,7 @@
     "hatenaDate": "2026-11-07T15:12:51Z",
     "users": [],
     "firstSeenAt": "2026-11-08T22:45:12.777309+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -159,7 +159,7 @@
     "hatenaDate": "2026-11-08T07:40:07Z",
     "users": [],
     "firstSeenAt": "2026-11-08T22:15:14.537116+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body"
   },
   {
@@ -173,7 +173,7 @@
     "hatenaDate": "2026-11-08T03:30:34Z",
     "users": [],
     "firstSeenAt": "2026-11-08T21:15:15.754577+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -189,21 +189,21 @@
     "hatenaDate": "2026-11-07T09:16:48Z",
     "users": [],
     "firstSeenAt": "2026-11-08T21:00:16.566412+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "MCPはなぜ復権したのか：CLIが支持された理由と、流れを変えた仕様変更 | Hiraoku.dev",
     "url": "https://hiraoku.dev/blog/mcp-cli-cloud/",
     "domain": "hiraoku.dev",
-    "count": 144,
+    "count": 146,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/hiraoku.dev/blog/mcp-cli-cloud/",
     "screenshot": "https://hiraoku.dev/_astro/mcp-cli-cloud-soft.CLyUwOGU_antCa.jpg",
     "description": "いま、MCPはAIエージェントと外部サービスをつなぐ共通の接続方式として使われています。その一方で、「MCPよりCLIで十分ではないか」と、MCPを使う意味が問い直された時期もありました。 CLIが支持されたのには理由があります。エージェントは必要なときにヘルプを読み、コマンドを組み合わせ、出力を加工できます。初期のMCP利用では、ツール定義や検索結果をまとめてモデルへ渡す実装が、コンテキストを圧迫する問題を生んでいました。初期化や、セッションを使う場合の状態管理にも負担がありました。すでに使えるCLIがある環境では、それをそのまま使わせるほうが手軽な場面もあったのです。 MCPの再評価は、…",
     "hatenaDate": "2026-11-08T02:33:33Z",
     "users": [],
     "firstSeenAt": "2026-11-08T20:45:15.511772+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -212,14 +212,14 @@
     "title": "日本で言う「活け締め」をAIロボで自動化したらしいんだが、ビジネスの組み方賢すぎる.",
     "url": "https://posfie.com/@su_damari/p/xvcxjNy",
     "domain": "posfie.com",
-    "count": 127,
+    "count": 128,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@su_damari/p/xvcxjNy",
     "screenshot": "https://s.tgstc.com/ogp3/67389300b1e4088b8216782a6c7c74a0-1200x630.jpeg",
     "description": "Ole Lehmann @itsolelehmann we have a winner for the most absurd AI startup ever this Peter Thiel backed company uses AI robots to stab fish in the brain so they taste better and last up to 3x longer it's called Shinkei and it modernizes a centuries-old Japanese technique dozens of Michelin-star r...",
     "hatenaDate": "2026-11-08T10:45:23Z",
     "users": [],
     "firstSeenAt": "2026-11-08T20:30:18.714550+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -234,7 +234,7 @@
     "hatenaDate": "2026-11-08T05:02:18Z",
     "users": [],
     "firstSeenAt": "2026-11-08T20:15:13.376600+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -250,7 +250,7 @@
     "hatenaDate": "2026-11-08T06:56:13Z",
     "users": [],
     "firstSeenAt": "2026-11-08T20:00:15.000896+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -265,21 +265,21 @@
     "hatenaDate": "2026-11-08T06:29:39Z",
     "users": [],
     "firstSeenAt": "2026-11-08T19:45:13.525891+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "警告:ジャンプルーキーはそのうちAI漫画で埋まる",
     "url": "https://anond.hatelabo.jp/20261108174809",
     "domain": "anond.hatelabo.jp",
-    "count": 77,
+    "count": 78,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261108174809",
     "screenshot": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
     "description": "ジャンプ＋ならともかく、ジャンプルーキーを読んでいるのはよほどの漫画好き、もしくは漫画家志望者だろう。 ジャンプルーキーは投稿に制限や審査がほぼなく、下手だろうが未完成だろうが好きに投稿できる。 はっきり言えば玉石石石石石…混淆なのだが、その中からルーキー賞などを経て、ジャンプ＋の読み切りなどに頭角を現す作家も出てくる。 そこからさらに連載権を取り、ヒットさせて…なんて考えると長い道のりだが、それでも漫画家志望にとっては夢の第一歩の場所だ。 放置すれば、どんどんAI漫画が増えて、ジャンプルーキー全部を埋め立てることになる。 ジャンプの考え方が、「AIでも面白い漫画なら構わない」という考えなら…",
     "hatenaDate": "2026-11-08T08:51:31Z",
     "users": [],
     "firstSeenAt": "2026-11-08T19:15:13.252093+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -288,14 +288,14 @@
     "title": "【図解あり】マルチエージェント設計「15のパターン」　GitHub、Google、Siemensの知見を一気に整理",
     "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html",
     "domain": "atmarkit.itmedia.co.jp",
-    "count": 131,
+    "count": 133,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html",
     "screenshot": "https://image.itmedia.co.jp/ait/articles/2611/08/cover_news001.jpg",
     "description": "AIエージェントの「暴走」を防ぐ6つの基本原則も AIエージェントの一般化に伴い、複数のAIエージェントを連携させるマルチエージェントシステムが注目されています。GitHub、Google、Siemensが紹介した15のデザインパターンを、設計上の課題や具体的な活用場面とともに解説します。 AIエージェントを活用する動きが一般化しています。開発現場でも、生成AIに実装を任せるAIコーディングにとどまらず、開発ライフサイクルの各工程を複数のAIエージェントに委ね、タスクを並行させるマルチエージェントのAI駆動開発へと開発手法が進化しつつあります。 そうした中で課題となるのが、マルチエージェント…",
     "hatenaDate": "2026-11-08T06:14:17Z",
     "users": [],
     "firstSeenAt": "2026-11-08T19:00:13.454909+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body"
   },
   {
@@ -309,7 +309,7 @@
     "hatenaDate": "2026-11-06T08:53:07Z",
     "users": [],
     "firstSeenAt": "2026-11-08T18:28:27.874797+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -318,14 +318,14 @@
     "title": "仕事、ドパ越えて利益 - オイオイオイ書くわアイツ",
     "url": "https://ttmmjm.hatenablog.com/entry/2026/11/06/135935",
     "domain": "ttmmjm.hatenablog.com",
-    "count": 99,
+    "count": 100,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ttmmjm.hatenablog.com/entry/2026/11/06/135935",
     "screenshot": "https://ogimage.blog.st-hatena.com/6653458415125358019/14729835035333526740/1793941175",
     "description": "依存更新やリファクタリングなら、コードとドキュメントを読ませて、先にテストを増やす。 利用上限に当たったら経費申請をして、疲れたらジムに行って、戻ってきたらまたやる。 ところで「仕事おもろすぎアウトプットデカすぎ」については、普通に舐めんなよという話がある。仕事なので。 調査結果や PR が次々に出てきて気持ち～。 ここで、AI 自体の利用料・それをレビューする人間の工数・他諸々を考慮して、会社は得しているのでしょうか。 最終的な利益に責任（てか確信）を持てない場合、会社の金で趣味をやっているも同然であり、そりゃ気持ち良いわなという感じだ。 AI にバカ働かせるのはマジでドーパミン出て気持ち…",
     "hatenaDate": "2026-11-06T15:36:46Z",
     "users": [],
     "firstSeenAt": "2026-11-08T18:15:11.325814+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body"
   },
   {
@@ -354,7 +354,7 @@
     "hatenaDate": "2026-11-08T04:37:22Z",
     "users": [],
     "firstSeenAt": "2026-11-08T17:45:14.003566+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body"
   },
   {
@@ -375,14 +375,14 @@
     "title": "ホテル川久に宿泊し、バブルの夢を偲ぶ - 生存記録",
     "url": "https://hayasinonakanozou.hatenablog.com/entry/2026/11/03/111931",
     "domain": "hayasinonakanozou.hatenablog.com",
-    "count": 359,
+    "count": 360,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/hayasinonakanozou.hatenablog.com/entry/2026/11/03/111931",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/b11bb982e675ef2b332b37833217a4504e65d6d6/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhayasinonakanozou%2F20261103%2F20261103060702.jpg",
     "description": "以前から一度泊まってみたいと憧れつつ、距離が遠いためになかなか思いきれなかったホテル川久に泊まってきた。同行者あり。 和歌山へ行くのは2015年10月以来。そのときは紀伊半島を海沿いに走って那智の滝まで向かった。埼玉からだと和歌山へのアクセスはほぼ飛行機一択。 飛行機に乗るのは2023年4月、高松からの帰り以来。まず羽田空港まで行くのがだるいうえに、保安検査だの20分前までの搭乗ゲート通過だの荷物の持ち込みだのいろいろ制限があり、機内ではじっと座っているしかないので快適といいづらく、だから飛行機はあまり好まない。空港には広い土地が必要なため街の中心部から離れた場所にある移動の不便さもある。…",
     "hatenaDate": "2026-11-06T07:33:34Z",
     "users": [],
     "firstSeenAt": "2026-11-08T15:30:15.299302+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -398,7 +398,7 @@
     "hatenaDate": "2026-11-07T22:20:32Z",
     "users": [],
     "firstSeenAt": "2026-11-08T14:30:14.063113+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body"
   },
   {
@@ -412,7 +412,7 @@
     "hatenaDate": "2026-11-07T00:50:45Z",
     "users": [],
     "firstSeenAt": "2026-11-08T14:30:14.063113+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -421,14 +421,14 @@
     "title": "AWSを利用する上で知っておきたい名前解決の話 2026",
     "url": "https://speakerdeck.com/nagisa53/aws-o-riyou-suru-ue-de-shi-te-okitai-namae-kaiketsu-no-hanashi-2026",
     "domain": "speakerdeck.com",
-    "count": 100,
+    "count": 101,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/nagisa53/aws-o-riyou-suru-ue-de-shi-te-okitai-namae-kaiketsu-no-hanashi-2026",
     "screenshot": "https://files.speakerdeck.com/presentations/bd3907c18ac84d36a1491db9c5f501d8/slide_0.jpg?41254410",
     "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … CloudFrontのHost Header転送設定でパケットの中身はどう変わるのか？ レガシーコードに対する loop engineering的なAI開発プロセス導入について Autonomous AI Lakehouse - Live AI Hubから始めるセキュアなAIデータ活用 - デザインレビューは自動化できるのか？─ Flutter × Figma で UI 品質保証を考える reInvent2026stby LT00 \"C…",
     "hatenaDate": "2026-11-07T13:51:49Z",
     "users": [],
     "firstSeenAt": "2026-11-08T13:45:13.431612+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body"
   },
   {
@@ -442,7 +442,7 @@
     "hatenaDate": "2026-11-08T03:02:29Z",
     "users": [],
     "firstSeenAt": "2026-11-08T13:15:16.051677+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -450,14 +450,14 @@
     "title": "数百ページのPDF文書を一括解析できるローカルAI「Unlimited OCR 2」、NVIDIA開発の文字起こし音声AI「Nemotron 3.5 Transcribe」など生成AI技術5つを解説（生成AIウィークリー） | テクノエッジ TechnoEdge",
     "url": "https://www.techno-edge.net/article/2026/11/06/5679.html",
     "domain": "www.techno-edge.net",
-    "count": 162,
+    "count": 163,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/11/06/5679.html",
     "screenshot": "https://www.techno-edge.net/imgs/ogp_f/35337.png",
     "description": "2014年から幅広い分野の研究論文をピックアップして解説しているメディア「Seamless」（シームレス）を個人運営しています。 この1週間の気になる生成AI技術・研究をいくつかピックアップして解説する今回の「生成AIウィークリー」（第166回）は、スマホでも高速で動くオープンウェイトのAIモデル群「LFM3」や、数百ページの文書を一括解析できるローカルOCRモデル「Unlimited OCR 2」を取り上げます。 また、複数話者の文字起こしなどができるNVIDIA開発の音声AI「Nemotron 3.5 Transcribe」や、GPT-6.1 Terraと同等のコーディング性能を持つAI…",
     "hatenaDate": "2026-11-07T00:46:51Z",
     "users": [],
     "firstSeenAt": "2026-11-08T13:15:16.051677+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -473,7 +473,7 @@
     "hatenaDate": "2026-11-07T02:15:16Z",
     "users": [],
     "firstSeenAt": "2026-11-08T12:15:13.473544+09:00",
-    "lastSeenAt": "2026-11-09T04:15:13.794707+09:00",
+    "lastSeenAt": "2026-11-09T04:30:14.621342+09:00",
     "descriptionSource": "body"
   },
   {
