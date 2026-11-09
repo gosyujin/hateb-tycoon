@@ -1,5 +1,20 @@
 [
   {
+    "title": "Anthropicの非公開AIモデルを使って18年間未解決だった量子コンピューターの難問が証明される",
+    "url": "https://gigazine.net/news/20261109-anthropic-psi-aaronson-ambainis/",
+    "domain": "gigazine.net",
+    "count": 14,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261109-anthropic-psi-aaronson-ambainis/",
+    "screenshot": "https://i.gzn.jp/img/2026/11/09/anthropic-psi-aaronson-ambainis/00.png",
+    "description": "AI物理学スタートアップのPhysical Superintelligence(PSI)が2026年11月6日、2008年から未解決だった量子コンピューティングの難問「アーロンソン＝アンバイニス予想」の証明に成功したと発表しました。証明にはAnthropicの非公開AIモデルを組み込んだ研究システムが使われており、数学的な証明をコンピューターで検証す...",
+    "hatenaDate": "2026-11-09T05:13:00Z",
+    "users": [],
+    "firstSeenAt": "2026-11-09T21:00:18.721546+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
+    "bodyTries": 1,
+    "bodyReason": "crawl-delay-too-long"
+  },
+  {
     "title": "https://www.nitorihd.co.jp/news/items/2b702dbe4d438f7fef74945d68e5bd27.pdf",
     "url": "https://www.nitorihd.co.jp/news/items/2b702dbe4d438f7fef74945d68e5bd27.pdf",
     "domain": "www.nitorihd.co.jp",
@@ -10,7 +25,7 @@
     "hatenaDate": "2026-11-09T08:47:49Z",
     "users": [],
     "firstSeenAt": "2026-11-09T20:45:08.490029+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -18,14 +33,14 @@
     "title": "記事は短くていい",
     "url": "https://zenn.dev/herp_inc/articles/90d6052024a30f",
     "domain": "zenn.dev",
-    "count": 4,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/herp_inc/articles/90d6052024a30f",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--qoY8M41e--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%25A8%2598%25E4%25BA%258B%25E3%2581%25AF%25E7%259F%25AD%25E3%2581%258F%25E3%2581%25A6%25E3%2581%2584%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%25B5%25E3%2581%25BF%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc4YzE2OWQxNzguanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:HERP%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzkwYzMxNmMzYmIuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "もっと言うと、ノルマをクリアするために生成AIを使って記事をかさ増ししていないだろうか。 LLMがある今、文章は低コストで大量に生み出せるが、生み出した分だけ価値の総量が増えるわけではない。まず、文章を書くコストが減ったとしても、文章を読むコストが減ったわけではない。むしろ、文章が長いほど、読者の限られたキャパシティの中で伝えたいことが伝わる可能性が減ってしてしまう。ただでさえ、世の中に出回る情報は爆発的に増えているのだから。 また、LLMは公開情報を学習して作られている以上、LLMで作った文章は、公開情報の加工品でしかない。この世界に織り込まれていない、あなた独自の感性や知見こそ、発信する…",
     "hatenaDate": "2026-11-09T07:23:43Z",
     "users": [],
     "firstSeenAt": "2026-11-09T20:45:08.490029+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body"
   },
   {
@@ -39,9 +54,9 @@
     "hatenaDate": "2026-11-09T04:02:17Z",
     "users": [],
     "firstSeenAt": "2026-11-09T20:45:08.490029+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
-    "bodyTries": 1,
-    "bodyReason": "crawl-delay-too-long"
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
+    "bodyReason": "crawl-delay-too-long",
+    "bodyTries": 2
   },
   {
     "title": "超低コストで効率的な学習に成功した画像生成AIモデル「P-JiT」、オープンウェイトで公開中",
@@ -54,22 +69,22 @@
     "hatenaDate": "2026-11-08T22:17:06Z",
     "users": [],
     "firstSeenAt": "2026-11-09T20:45:08.490029+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
-    "bodyTries": 1,
-    "bodyReason": "crawl-delay-too-long"
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
+    "bodyReason": "crawl-delay-too-long",
+    "bodyTries": 2
   },
   {
     "title": "米航空管制システム、数十年前から続くフロッピーディスク依存のシステムからついに脱却へ【やじうまWatch】",
     "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2154695.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 9,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/yajiuma/2154695.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2154/695/yajiuma-watch_1.png",
     "description": "米航空管制システム、数十年前から続くフロッピーディスク依存のシステムからついに脱却へ 米連邦航空局（FAA）が、現在の航空交通管制でフロッピーディスクに依存しているシステムを、2028年末までに置き換える計画を発表した。 これは、米連邦航空局（FAA）が、航空交通管制システムで使用している、重要な気象情報やその他の重要な情報が記録されている旧式のフロッピーディスクを用いたシステムを、合理化された21世紀のシステムに置き換えるというもの。1980年代から続くこれらのシステムは4つあり、400以上の同国の航空施設で用いられているが、これを2028年末までに置き換える計画だという。 米運輸長官は5…",
     "hatenaDate": "2026-11-09T03:04:42Z",
     "users": [],
     "firstSeenAt": "2026-11-09T19:45:14.788402+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body"
   },
   {
@@ -83,7 +98,7 @@
     "hatenaDate": "2026-11-09T09:28:48Z",
     "users": [],
     "firstSeenAt": "2026-11-09T19:30:14.331624+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body"
   },
   {
@@ -97,7 +112,7 @@
     "hatenaDate": "2026-11-09T08:25:36Z",
     "users": [],
     "firstSeenAt": "2026-11-09T19:00:13.817667+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body"
   },
   {
@@ -119,14 +134,14 @@
     "title": "【速報】ニトリ　最大3762万件の会員情報が流出の可能性　今月6日不正アクセスを確認　客の氏名、住所、電話番号など流出か　カード情報やパスワード含まれず（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/ec14e72be9639e846f42978f9e81da07fdd05687",
     "domain": "news.yahoo.co.jp",
-    "count": 42,
+    "count": 43,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/ec14e72be9639e846f42978f9e81da07fdd05687",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
     "description": "家具大手の「ニトリホールディングス」は、不正アクセスを受け、最大でおよそ3762万件の会員情報が流出した可能性があると発表しました。 ニトリホールディングスによりますと、今月6日に、自社で管理するシステムへの第三者による不正アクセスを確認したということです。 これまでの調査で、自社サーバー上に保有する個人情報が最大3762万件流出した可能性があるとしています。流出の可能性があるのは、店舗やネット通販を利用した客の氏名、住所、電話番号などで、クレジットカード情報やパスワードは含まれていないということです。 ▼10歳若返る？「ジャパニーズウォーキング」…“1日30分”で1万歩歩くよりも効果的 道…",
     "hatenaDate": "2026-11-09T08:57:55Z",
     "users": [],
     "firstSeenAt": "2026-11-09T18:45:13.623156+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -157,21 +172,21 @@
     "hatenaDate": "2026-11-09T00:25:27Z",
     "users": [],
     "firstSeenAt": "2026-11-09T18:45:13.623156+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "サカナAIが上場準備　スタートアップで国内最大級、生成AI専業初 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC067MH0W6A101C2000000/",
     "domain": "www.nikkei.com",
-    "count": 42,
+    "count": 47,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC067MH0W6A101C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3841518006112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=84af31be73a51ccbfdfeb4bfb1ec87bd",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 人工知能（AI）開発のSakana AI（サカナAI、東京・港）は新規株式公開（IPO）の準備に入った。日米市場を念頭に、早ければ2027年秋に上場させる。計画通り進めば、生成AI専業として国内初となる。初値の時価総額はメルカリの約6800億円を上回り、国内スタートアップで過去最大級の案件となる可能性がある。 IPOの助言役としてこのほど、米ゴールドマン・サックスを起用した。国内では大和証券グループ本社 企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。…",
     "hatenaDate": "2026-11-09T08:10:58Z",
     "users": [],
     "firstSeenAt": "2026-11-09T18:00:15.385339+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body"
   },
   {
@@ -192,14 +207,14 @@
     "title": "「ITエンジニアの仕事を探しています」実務経験25年の50歳のエンジニアが書類選考を全く通過できずにXで求職活動した投稿が話題に「年齢足切りとAIのダブルパンチか」",
     "url": "https://togetter.com/li/2768439",
     "domain": "togetter.com",
-    "count": 106,
+    "count": 112,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2768439",
     "screenshot": "https://s.tgstc.com/ogp3/8a01e00dce70ef0dd246990553c45f65-1200x630.jpeg",
     "description": "ITエンジニアの仕事を探しています。 現在50歳。ここ2年の職歴がとても良くなく、書類が全く通過できません。お話できれば、個々の事情をお伝えできます。言語はAIの力でなんでもできます。マネジメントの経験は浅いです。どうか、お話の機会をいただけませんでしょうか。よろしくお願いいたします。 Engineering More Interesting. 楽しい仕事と楽しい人生を実現したい。 My opinions are my own, and I will never allow others to control my opinions. エンジニアのキャリア地図 「技術」と「やりたいこと」から…",
     "hatenaDate": "2026-11-09T06:10:18Z",
     "users": [],
     "firstSeenAt": "2026-11-09T16:45:13.364417+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -208,14 +223,14 @@
     "title": "Macにはユーザーの人間関係をグラフ化する常駐プログラムが搭載されている",
     "url": "https://gigazine.net/news/20261109-macos-personal-knowledge-graph/",
     "domain": "gigazine.net",
-    "count": 68,
+    "count": 71,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261109-macos-personal-knowledge-graph/",
     "screenshot": "https://i.gzn.jp/img/2026/11/09/macos-personal-knowledge-graph/00_m.jpg",
     "description": "2022年10月にリリースされたmacOS Ventura(macOS 13)以降のmacOSには、「ユーザーが誰で、どういった知り合いを持っていて、どのような関係を築いているのか」といった情報をグラフ化するための2つのデーモン(常駐プログラム)が搭載されていることが明らかになりました。 Anatomy of Apple's Personal Knowledge Graph —...",
     "hatenaDate": "2026-11-09T07:02:52Z",
     "users": [],
     "firstSeenAt": "2026-11-09T16:30:12.037576+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -223,14 +238,14 @@
     "title": "Devinはソフトウェアファクトリーのフレームワークになった - Timee Product Team Blog",
     "url": "https://tech.timee.co.jp/entry/2026/11/09/120755",
     "domain": "tech.timee.co.jp",
-    "count": 37,
+    "count": 42,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.timee.co.jp/entry/2026/11/09/120755",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/ec87e4bca63a9c468406140260ffaa409683a369/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fe%2Feuglena1215%2F20261109%2F20261109120134.png",
     "description": "みなさん Devin を使っていますか？タイミーでは日々 Devin が仕事をしてくれています。 Devinは単にタスクを依頼するツールにとどまらず、ソフトウェアファクトリーのフレームワークになりました。最近の進化が著しいので紹介させてください。本当にすごい。 LayerX CTOの松本さんが、Xの投稿で次のように述べていました。ソフトウェア開発は、人間がCoding Agentをどう使うかを考える段階を過ぎた。これからは開発プロセスそのものを、ループが閉じたプロダクトとして作る段階で、そこまでやって初めてファクトリーと言える、という主張です。 Inner Loop: 計画→実行→検証→補正…",
     "hatenaDate": "2026-11-09T04:24:41Z",
     "users": [],
     "firstSeenAt": "2026-11-09T16:30:12.037576+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -288,7 +303,7 @@
     "hatenaDate": "2026-11-09T04:26:53Z",
     "users": [],
     "firstSeenAt": "2026-11-09T15:30:15.671741+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body"
   },
   {
@@ -324,14 +339,14 @@
     "title": "ソフトウェア産業が消滅する日──小さなローカルAIが暴く「プログラムを売る」という商売の終焉",
     "url": "https://wirelesswire.jp/2026/11/94903/",
     "domain": "wirelesswire.jp",
-    "count": 115,
+    "count": 119,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/wirelesswire.jp/2026/11/94903/",
     "screenshot": null,
     "description": "新潟県長岡市生まれ。1990年代よりプログラマーとしてゲーム業界、モバイル業界などで数社の立ち上げに関わる。現在も現役のプログラマーとして日夜AI開発に情熱を捧げている。 Apple Siliconを搭載したMacの上で、小さなローカルLLMを動かし、それをClaude Codeから利用できるようにする。ただそれだけのプログラムである。 使用するLLMは、DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-hereticという、名前だけはやたらと長いモデルだ。9B、つまり90億パラメータ程度のモデルである。これを4ビットに量子化し、AppleのMLXで動かす。Deep…",
     "hatenaDate": "2026-11-09T03:53:21Z",
     "users": [],
     "firstSeenAt": "2026-11-09T14:45:14.684385+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -340,14 +355,14 @@
     "title": "『ゼルダの伝説 時のオカリナ』リメイク版を「iPhone Duoに“勝手移植”」したGoogleのAI開発者、非難浴びて投稿削除。問われる技術者倫理 - AUTOMATON",
     "url": "https://automaton-media.com/articles/newsjp/20261109-478221/",
     "domain": "automaton-media.com",
-    "count": 69,
+    "count": 68,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/automaton-media.com/articles/newsjp/20261109-478221/",
     "screenshot": "https://automaton-media.com/wp-content/uploads/2026/11/20261109-478221-001.jpg",
     "description": "Google社員のAmmaar Reshi氏が11月7日、『ゼルダの伝説 時のオカリナ』フルリメイク版をGemini 4を利用してiPhone Duoで動作させたとXに投稿した。投稿は物議を醸し、現在は削除されている。 『ゼルダの伝説 時のオカリナ』は、1998年にNINTENDO 64向けに発売されたアクションRPGだ。シリーズで初めて3Dグラフィックを採用し、3Dで描かれる『ゼルダの伝説』シリーズの礎となった。過去にも移植やリメイクがおこなわれてきたが、このたびさらに進歩を遂げたフルリメイクとして登場。グラフィックが全面的に刷新されカットシーンがフルボイスになったほか、自由なカメラ操作、…",
     "hatenaDate": "2026-11-09T04:39:28Z",
     "users": [],
     "firstSeenAt": "2026-11-09T14:45:14.684385+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -434,7 +449,7 @@
     "hatenaDate": "2026-11-09T03:24:27Z",
     "users": [],
     "firstSeenAt": "2026-11-09T13:15:16.573312+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -479,7 +494,7 @@
     "hatenaDate": "2026-11-09T02:12:33Z",
     "users": [],
     "firstSeenAt": "2026-11-09T11:45:13.328208+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body"
   },
   {
@@ -507,7 +522,7 @@
     "hatenaDate": "2026-11-09T01:36:31Z",
     "users": [],
     "firstSeenAt": "2026-11-09T11:45:13.328208+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -617,14 +632,14 @@
     "title": "AIが「最安」を選び続ける世界は幸せなのか? Museが買い物を担う未来【西田宗千佳のイマトミライ】",
     "url": "https://www.watch.impress.co.jp/docs/series/nishida/2154614.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 145,
+    "count": 146,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/series/nishida/2154614.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2154/614/m07.jpg",
     "description": "AIが「最安」を選び続ける世界は幸せなのか? Museと節約・買い物自動化の光と影 常時動作型AIエージェントに頼るようになって2カ月ほどが経った。今はMetaのMuseをメインに使うようになっている。Museは無料で使い始められることもあってか、日本でも急速に利用者を伸ばしているようだ。 MetaのパーソナルAI「Muse」日本上陸 iPhone Duoと相性抜群な次の”競争軸” Museを含むこの種のサービスが一般化するなら、我々の生活にはいろいろな変化が現れる。特に「お金」が絡む部分では、驚くほどの変化を我々にもたらす可能性が高い。 正確な予測が難しい範囲も多いし、長期的な変化について…",
     "hatenaDate": "2026-11-08T23:24:01Z",
     "users": [],
     "firstSeenAt": "2026-11-09T10:15:11.705617+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -654,7 +669,7 @@
     "hatenaDate": "2026-11-08T23:00:13Z",
     "users": [],
     "firstSeenAt": "2026-11-09T10:00:15.913740+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -670,7 +685,7 @@
     "hatenaDate": "2026-11-09T00:46:26Z",
     "users": [],
     "firstSeenAt": "2026-11-09T10:00:15.913740+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -686,7 +701,7 @@
     "hatenaDate": "2026-11-08T23:05:32Z",
     "users": [],
     "firstSeenAt": "2026-11-09T09:51:56.854750+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -747,7 +762,7 @@
     "hatenaDate": "2026-11-08T23:17:44Z",
     "users": [],
     "firstSeenAt": "2026-11-09T09:30:14.317695+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -756,14 +771,14 @@
     "title": "超知能で人類はどういう手順で滅ぶと言われているのか，を並べてから，違和感を覚えなくなっていくだろう，と書いた自分の本を読み直す｜落合陽一",
     "url": "https://note.com/ochyai/n/n7a1dbd68c8fa",
     "domain": "note.com",
-    "count": 199,
+    "count": 201,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/ochyai/n/n7a1dbd68c8fa",
     "screenshot": "https://assets.st-note.com/production/uploads/images/333616461/rectangle_large_type_2_041d99c36f20f168ebf40d61e03257ae.jpeg?fit=bounds&quality=85&width=1280",
     "description": "この手の話は，結論から入るとだいたい空中戦になる．滅ぶ，滅ばない，煽りだ，楽観だ．なので今日は順番を変えて，まず手順を聞くところから始めたい．超知能で人類が絶滅する，と言う人たちは，具体的にどういう段取りで僕らが消えると考えているのか．誰が，何を，どの順番でやると，最後に人間がいなくなるのか． 調べてみると，手順は一本ではない．何本もの筋書きが，それぞれ違う論文や本の中で，違う時期に，違う人の手で組み立てられてきた．それを一本ずつ追ってみる．そのあとで，僕がここ数年考えてきた道具の自然化という枠組みと，『マタギドライヴ』という本で書いた態度から，この話を読み直してみたい． 人類の絶滅，と一口…",
     "hatenaDate": "2026-11-08T06:33:31Z",
     "users": [],
     "firstSeenAt": "2026-11-09T09:30:14.317695+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -800,14 +815,14 @@
     "title": "コード非公開のWebサイト・アプリ・ゲームを解析し、AIが類似版を生成する無料ツール「Craft Anything」（生成AIクローズアップ） | テクノエッジ TechnoEdge",
     "url": "https://www.techno-edge.net/article/2026/11/09/5686.html",
     "domain": "www.techno-edge.net",
-    "count": 228,
+    "count": 230,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/11/09/5686.html",
     "screenshot": "https://www.techno-edge.net/imgs/ogp_f/35384.jpg",
     "description": "2014年から幅広い分野の研究論文をピックアップして解説しているメディア「Seamless」（シームレス）を個人運営しています。 1週間の気になる生成AI技術・研究をいくつかピックアップして解説する連載「生成AIウィークリー」から、特に興味深いAI技術や研究にスポットライトを当てる生成AIクローズアップ。 今回は、既存のウェブサイトやアプリ、ゲームの仕組みを解析し、AIを使って自分だけの類似バージョンを生成してくれるオープンソースツール「Craft Anything」を取り上げます。 以前にも、本連載で類似ツール「REA」を取り上げました。既存のAIエージェントと連携して、アプリやソフトウェ…",
     "hatenaDate": "2026-11-08T22:49:48Z",
     "users": [],
     "firstSeenAt": "2026-11-09T09:00:10.809522+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body"
   },
   {
@@ -857,14 +872,14 @@
     "title": "日本の公開データ研究マップ（JapanStatsMAPs）を公開しました | 香田将英（shoei05）",
     "url": "https://shoei05.com/articles/3001/",
     "domain": "shoei05.com",
-    "count": 96,
+    "count": 97,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/shoei05.com/articles/3001/",
     "screenshot": "https://shoei05.com/covers/3001-3ffd46767ec4.jpg",
     "description": "日本の公的統計を使った研究論文を探せるサイト「日本の公開データ研究マップ（JapanStatsMAPs）」を公開しました。データとコードはGitHubにあります。 2026年11月7日時点で1,269本の論文を収載し、テーマ、データ源、解析データの年、研究の型から探せます。この記事ではサイトの中身と使い方、分類の方法と注意点を紹介します。 公的統計にはNDBオープンデータや人口動態統計のように誰でもダウンロードできる公表集計と、国民生活基礎調査のように申請して使う個票があります。このサイトはこれらを主解析に使った日本の研究を集めた知見マップです。 登録は要りません。データ源と研究テーマの組み…",
     "hatenaDate": "2026-11-08T12:05:24Z",
     "users": [],
     "firstSeenAt": "2026-11-09T08:00:18.273929+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body"
   },
   {
@@ -878,7 +893,7 @@
     "hatenaDate": "2026-11-08T08:17:47Z",
     "users": [],
     "firstSeenAt": "2026-11-09T07:30:13.741186+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body"
   },
   {
@@ -892,7 +907,7 @@
     "hatenaDate": "2026-11-08T04:57:27Z",
     "users": [],
     "firstSeenAt": "2026-11-09T07:00:14.308981+09:00",
-    "lastSeenAt": "2026-11-09T20:45:08.490029+09:00",
+    "lastSeenAt": "2026-11-09T21:00:18.721546+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4371,19 +4386,5 @@
     "lastSeenAt": "2026-11-06T08:45:13.453499+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
-  },
-  {
-    "title": "楽天証券、メールアドレス2109件が漏えいの可能性　委託先に不正アクセス",
-    "url": "https://japan.cnet.com/article/35254434/",
-    "domain": "japan.cnet.com",
-    "count": 9,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35254434/",
-    "screenshot": "https://japan.cnet.com/storage/2026/11/05/782df043b0385672d4088bb2b723e4b4/%E8%A6%8B%E5%87%BA%E3%81%97%E7%94%BB%E5%83%8F.jpg",
-    "description": "楽天証券は11月5日、「経済指標アラートメール」に登録した顧客のメールアドレス2109件が、配信委託先への不正アクセスにより漏えいした可能性があると発表した。 「経済指標アラートメール」はミンカブ・ジ・インフォノイドが提供するサービスで、同社がメール配信を委託するアララが不正アクセスを受けた。不正アクセスが発生したのは10月27日で、楽天証券は11月4日夕刻に事案を把握した。同サービスは10月28日から提供を停止している。 楽天証券はミンカブ・ジ・インフォノイド、アララと連携し、不正アクセスの原因や影響範囲を調べている。影響が確認された顧客には個別に連絡する方針だ。また、楽天証券や関係会社を…",
-    "hatenaDate": "2026-11-05T06:24:22Z",
-    "users": [],
-    "firstSeenAt": "2026-11-05T18:15:16.067841+09:00",
-    "lastSeenAt": "2026-11-05T19:50:23.126681+09:00",
-    "descriptionSource": "body"
   }
 ]
