@@ -1,30 +1,44 @@
 [
   {
+    "title": "Krpano 360° の脆弱性 CVE-2020-24901 を悪用：検索結果を操作する大規模な XSS キャンペーン",
+    "url": "https://iototsecnews.jp/2025/02/28/over-350-high-profile-websites-hit-by-360xss-attack/",
+    "domain": "iototsecnews.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/iototsecnews.jp/2025/02/28/over-350-high-profile-websites-hit-by-360xss-attack/",
+    "screenshot": "https://iototsecnews.jp/wp-content/uploads/2025/03/krpano.png",
+    "description": "Over 350 High-Profile Websites Hit by 360XSS Attack 仮想ツアー・フレームワーク Krpano 内の XSS 脆弱性を悪用する大規模なキャンペーンが、サイバーセキュリティ研究者である Oleg Zaytsev により発見された。この “360XSS” 攻撃で用いられる手口は、検索エンジンの操作と大量の広告配信である。 この Krpano とは、没入型の 360° エクスペリエンスを可能にするために、広く利用されているソフトウェア・ツールであり、仮想環境でのパノラマ画像や動画をユーザーに提供するものだ。 Oleg Zaytsev は、「この攻撃…",
+    "hatenaDate": "2026-11-09T18:48:54Z",
+    "users": [],
+    "firstSeenAt": "2026-11-10T06:00:15.524004+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "【重要なお知らせ・増進会ホールディングス】Ｚ会グループにおけるシステムへの不正アクセスに関するご報告とお詫び - Ｚ会",
     "url": "https://www.zkai.co.jp/post-121568/",
     "domain": "www.zkai.co.jp",
-    "count": 5,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.zkai.co.jp/post-121568/",
     "screenshot": "https://www.zkai.co.jp/wp-content/uploads/2019/11/20200103/ogp.png",
     "description": "この度、当社グループの株式会社栄光および株式会社Ｚ会が運用するシステムにおいて、第三者による不正アクセスが発生いたしました。ご利用のお客様ならびに関係者の皆様に、多大なるご心配とご迷惑をおかけしておりますことを、深くお詫び申し上げます。全体像、各社の状況および対応について、以下の通りご報告いたします。 2026年10月14日から15日にかけて、Z会グループ内の2つのシステムにおいて、関連する不正アクセス事案が発生いたしました。 同日18時頃、株式会社栄光が運用する「工数管理システム」が不正アクセスを受け、一部の従業員等のアカウント情報（95件）が漏洩いたしました。 その後、同システムから窃取…",
     "hatenaDate": "2026-11-09T05:04:55Z",
     "users": [],
     "firstSeenAt": "2026-11-10T05:45:15.282475+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ニトリに不正アクセス、最大3762万件の個人情報流出の可能性　法人会員も対象に",
     "url": "https://www.itmedia.co.jp/news/article/2611/09/2000003039/",
     "domain": "www.itmedia.co.jp",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/09/2000003039/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/09/2000003039/10011655/2048",
     "description": "ニトリホールディングスは11月9日、同社が管理するシステムへの不正アクセスにより、最大3762万件の個人情報が外部に流出した可能性があると発表した。6日に発覚した。10月中旬から下旬にかけて、不正アクセスを受けていた可能性があるという。 流出した可能性があるのは、ニトリグループの商品購入者および個人会員の会員番号、氏名、メールアドレス、住所、電話番号、生年月日、性別、法人会員の会員番号、会社名、部署名、代表者氏名、会社の住所・電話番号、担当者の氏名、メールアドレス、電話番号。この他、公式ECサイト「ニトリネット」やECモール内のニトリ公式ショップを通じた商品の注文データも流出した可能性がある…",
     "hatenaDate": "2026-11-09T12:36:30Z",
     "users": [],
     "firstSeenAt": "2026-11-10T05:15:15.633884+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +52,7 @@
     "hatenaDate": "2026-11-06T08:02:58Z",
     "users": [],
     "firstSeenAt": "2026-11-10T02:30:16.214010+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,21 +66,21 @@
     "hatenaDate": "2026-11-09T12:31:02Z",
     "users": [],
     "firstSeenAt": "2026-11-10T01:45:13.512428+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Xユーザーのはまちや２さん: 「今日発表されたばかりの「ドラゴンクエストRPG　魔界樹と導かれし島」でGoogle検索すると1ページ目に西武プリンスホテルのサイトが何故か表示されるんだけど、どうやら... / X",
     "url": "https://x.com/Hamachiya2/status/2119691158423040348",
     "domain": "x.com",
-    "count": 42,
+    "count": 46,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/x.com/Hamachiya2/status/2119691158423040348",
     "screenshot": null,
     "description": null,
     "hatenaDate": "2026-11-09T15:25:08Z",
     "users": [],
     "firstSeenAt": "2026-11-10T01:30:14.726046+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "bodyStatus": "skip",
     "bodyReason": "robots-disallow"
   },
@@ -81,7 +95,7 @@
     "hatenaDate": "2026-11-09T08:57:54Z",
     "users": [],
     "firstSeenAt": "2026-11-10T00:00:10.473311+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
@@ -95,7 +109,7 @@
     "hatenaDate": "2026-11-09T11:18:10Z",
     "users": [],
     "firstSeenAt": "2026-11-10T00:00:10.473311+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
@@ -109,7 +123,7 @@
     "hatenaDate": "2026-11-09T08:55:56Z",
     "users": [],
     "firstSeenAt": "2026-11-10T00:00:10.473311+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
@@ -123,7 +137,7 @@
     "hatenaDate": "2026-11-09T08:01:19Z",
     "users": [],
     "firstSeenAt": "2026-11-09T23:45:15.346881+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
@@ -137,21 +151,21 @@
     "hatenaDate": "2026-11-09T07:34:38Z",
     "users": [],
     "firstSeenAt": "2026-11-09T23:30:13.759051+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Release v1.65.0 · microsoft/playwright",
     "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.0",
     "domain": "github.com",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/microsoft/playwright/releases/tag/v1.65.0",
     "screenshot": "https://opengraph.githubassets.com/85ab305e1d07ea03f9b0ce65822872acd339850d1a126e872fec04d9a7de9034/microsoft/playwright/releases/tag/v1.65.0",
     "description": "· 2 commits to release-1.65 since this release This commit was created on GitHub.com and signed with GitHub’s verified signature. The test runner now runs under Bun. Bun transpiles your TypeScript test files itself, so Playwright does not use Babel or its compilation cache. Pass the --bun flag, bec…",
     "hatenaDate": "2026-11-09T00:19:29Z",
     "users": [],
     "firstSeenAt": "2026-11-09T23:30:13.759051+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
@@ -165,7 +179,7 @@
     "hatenaDate": "2026-11-09T06:20:26Z",
     "users": [],
     "firstSeenAt": "2026-11-09T23:00:13.400956+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -180,7 +194,7 @@
     "hatenaDate": "2026-11-09T11:13:51Z",
     "users": [],
     "firstSeenAt": "2026-11-09T22:45:13.025756+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -195,7 +209,7 @@
     "hatenaDate": "2026-11-09T10:50:43Z",
     "users": [],
     "firstSeenAt": "2026-11-09T22:30:13.040843+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
@@ -209,7 +223,7 @@
     "hatenaDate": "2026-11-09T04:12:09Z",
     "users": [],
     "firstSeenAt": "2026-11-09T22:30:13.040843+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
@@ -223,21 +237,21 @@
     "hatenaDate": "2026-11-09T02:08:59Z",
     "users": [],
     "firstSeenAt": "2026-11-09T22:30:13.040843+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "GMO熊谷社長は記者会見4日前にも「俺は小さな人間じゃない！」と全社員の前で号泣していた「熊谷さんの講話は社内で『脳内同期』と呼ばれていて…」社員が語る「宗教的な社内慣習」（デイリー新潮） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/a03f626662a910f876f839e945090826ec56c68c",
     "domain": "news.yahoo.co.jp",
-    "count": 77,
+    "count": 79,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/a03f626662a910f876f839e945090826ec56c68c",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261109-01519725-shincho-000-3-view.jpg?exp=10800",
     "description": "「あれは素の姿。あの人は本気で自分の演説で、日本人の目を覚ませられると信じていたと思う」。こう語るのはGMOグループで働く30代社員である。先週日本中の話題をさらったGMOインターネットグループの熊谷正寿代表（63）の記者会見を、社員たちはどんな思いで見ていたのか。（前後編の前編） 【写真を見る】「まるで映画の世界」 クルーザーを横付けできるGMOの迎賓館 100億円超えのプライベートジェットも 「事業として一度も『儲かる』『儲ける』という言葉を使ったことがない。お客様のために情報を守れと言い続けてまいりました！」 と社員を公開説教。まさに“熊谷ワールド”全開だったGMOの記者会見。中継を見…",
     "hatenaDate": "2026-11-09T09:38:51Z",
     "users": [],
     "firstSeenAt": "2026-11-09T22:15:15.068448+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -253,7 +267,7 @@
     "hatenaDate": "2026-11-09T06:41:44Z",
     "users": [],
     "firstSeenAt": "2026-11-09T22:00:16.024740+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
@@ -267,7 +281,7 @@
     "hatenaDate": "2026-11-09T09:26:15Z",
     "users": [],
     "firstSeenAt": "2026-11-09T21:15:14.517812+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -283,7 +297,7 @@
     "hatenaDate": "2026-11-09T09:04:27Z",
     "users": [],
     "firstSeenAt": "2026-11-09T21:15:14.517812+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
@@ -320,14 +334,14 @@
     "title": "記事は短くていい",
     "url": "https://zenn.dev/herp_inc/articles/90d6052024a30f",
     "domain": "zenn.dev",
-    "count": 40,
+    "count": 41,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/herp_inc/articles/90d6052024a30f",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--qoY8M41e--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%25A8%2598%25E4%25BA%258B%25E3%2581%25AF%25E7%259F%25AD%25E3%2581%258F%25E3%2581%25A6%25E3%2581%2584%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%25B5%25E3%2581%25BF%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc4YzE2OWQxNzguanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:HERP%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzkwYzMxNmMzYmIuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "もっと言うと、ノルマをクリアするために生成AIを使って記事をかさ増ししていないだろうか。 LLMがある今、文章は低コストで大量に生み出せるが、生み出した分だけ価値の総量が増えるわけではない。まず、文章を書くコストが減ったとしても、文章を読むコストが減ったわけではない。むしろ、文章が長いほど、読者の限られたキャパシティの中で伝えたいことが伝わる可能性が減ってしてしまう。ただでさえ、世の中に出回る情報は爆発的に増えているのだから。 また、LLMは公開情報を学習して作られている以上、LLMで作った文章は、公開情報の加工品でしかない。この世界に織り込まれていない、あなた独自の感性や知見こそ、発信する…",
     "hatenaDate": "2026-11-09T07:23:43Z",
     "users": [],
     "firstSeenAt": "2026-11-09T20:45:08.490029+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -401,7 +415,7 @@
     "hatenaDate": "2026-11-09T08:25:36Z",
     "users": [],
     "firstSeenAt": "2026-11-09T19:00:13.817667+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
@@ -410,12 +424,12 @@
     "domain": "github.com",
     "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/meta/astryx",
-    "screenshot": "https://opengraph.githubassets.com/e2e6b6ca88006b9c6fe7a96f54322ee61cbba823c8f16b974eb7f048dd83c036/meta/astryx",
+    "screenshot": "https://opengraph.githubassets.com/8676fb2173ca8a819aa75c0c3d1f4acdd45575f1e90c1850e13d0bb3057ad39f/meta/astryx",
     "description": "An open source design system that's fully customizable and built for how we build now: by people and the agents working alongside them. Currently in Beta · Built on React 19+ and StyleX Docs · Storybook · Sandbox · Contributing · Discord Astryx is an open source design system that grew inside Met...",
     "hatenaDate": "2026-11-08T17:02:23Z",
     "users": [],
     "firstSeenAt": "2026-11-09T19:00:13.817667+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -423,14 +437,14 @@
     "title": "【速報】ニトリ　最大3762万件の会員情報が流出の可能性　今月6日不正アクセスを確認　客の氏名、住所、電話番号など流出か　カード情報やパスワード含まれず（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/ec14e72be9639e846f42978f9e81da07fdd05687",
     "domain": "news.yahoo.co.jp",
-    "count": 96,
+    "count": 98,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/ec14e72be9639e846f42978f9e81da07fdd05687",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261109-07336315-jnn-000-6-thumb.jpg?exp=10800",
     "description": "家具大手の「ニトリホールディングス」は、不正アクセスを受け、最大でおよそ3762万件の会員情報が流出した可能性があると発表しました。 ニトリホールディングスによりますと、今月6日に、自社で管理するシステムへの第三者による不正アクセスを確認したということです。 これまでの調査で、自社サーバー上に保有する個人情報が最大3762万件流出した可能性があるとしています。流出の可能性があるのは、店舗やネット通販を利用した客の氏名、住所、電話番号などで、クレジットカード情報やパスワードは含まれていないということです。 ▼10歳若返る？「ジャパニーズウォーキング」…“1日30分”で1万歩歩くよりも効果的 道…",
     "hatenaDate": "2026-11-09T08:57:55Z",
     "users": [],
     "firstSeenAt": "2026-11-09T18:45:13.623156+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -468,14 +482,14 @@
     "title": "サカナAIが27年秋にも上場へ　スタートアップ国内最大級、生成AI初 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC067MH0W6A101C2000000/",
     "domain": "www.nikkei.com",
-    "count": 115,
+    "count": 116,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC067MH0W6A101C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3841518006112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=84af31be73a51ccbfdfeb4bfb1ec87bd",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 人工知能（AI）開発のSakana AI（サカナAI、東京・港）は新規株式公開（IPO）の準備に入った。日米市場を念頭に、早ければ2027年秋に上場させる。計画通り進めば、生成AI専業として国内初となる。初値の時価総額はメルカリの約6800億円を上回り、国内スタートアップで過去最大級の案件となる可能性がある。 IPOの助言役としてこのほど、米ゴールドマン・サックスを起用した。国内では大和証券グループ本社 企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。…",
     "hatenaDate": "2026-11-09T08:10:58Z",
     "users": [],
     "firstSeenAt": "2026-11-09T18:00:15.385339+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body"
   },
   {
@@ -496,14 +510,14 @@
     "title": "「ITエンジニアの仕事を探しています」実務経験25年の50歳のエンジニアが書類選考を全く通過できずにXで求職活動した投稿が話題に「年齢足切りとAIのダブルパンチか」",
     "url": "https://togetter.com/li/2768439",
     "domain": "togetter.com",
-    "count": 206,
+    "count": 210,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2768439",
     "screenshot": "https://s.tgstc.com/ogp3/8a01e00dce70ef0dd246990553c45f65-1200x630.jpeg",
     "description": "ITエンジニアの仕事を探しています。 現在50歳。ここ2年の職歴がとても良くなく、書類が全く通過できません。お話できれば、個々の事情をお伝えできます。言語はAIの力でなんでもできます。マネジメントの経験は浅いです。どうか、お話の機会をいただけませんでしょうか。よろしくお願いいたします。 Engineering More Interesting. 楽しい仕事と楽しい人生を実現したい。 My opinions are my own, and I will never allow others to control my opinions. エンジニアのキャリア地図 「技術」と「やりたいこと」から…",
     "hatenaDate": "2026-11-09T06:10:18Z",
     "users": [],
     "firstSeenAt": "2026-11-09T16:45:13.364417+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -512,14 +526,14 @@
     "title": "Macにはユーザーの人間関係をグラフ化する常駐プログラムが搭載されている",
     "url": "https://gigazine.net/news/20261109-macos-personal-knowledge-graph/",
     "domain": "gigazine.net",
-    "count": 134,
+    "count": 135,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261109-macos-personal-knowledge-graph/",
     "screenshot": "https://i.gzn.jp/img/2026/11/09/macos-personal-knowledge-graph/00_m.jpg",
     "description": "2022年10月にリリースされたmacOS Ventura(macOS 13)以降のmacOSには、「ユーザーが誰で、どういった知り合いを持っていて、どのような関係を築いているのか」といった情報をグラフ化するための2つのデーモン(常駐プログラム)が搭載されていることが明らかになりました。 Anatomy of Apple's Personal Knowledge Graph —...",
     "hatenaDate": "2026-11-09T07:02:52Z",
     "users": [],
     "firstSeenAt": "2026-11-09T16:30:12.037576+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -527,14 +541,14 @@
     "title": "Devinはソフトウェアファクトリーのフレームワークになった - Timee Product Team Blog",
     "url": "https://tech.timee.co.jp/entry/2026/11/09/120755",
     "domain": "tech.timee.co.jp",
-    "count": 110,
+    "count": 111,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.timee.co.jp/entry/2026/11/09/120755",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/ec87e4bca63a9c468406140260ffaa409683a369/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fe%2Feuglena1215%2F20261109%2F20261109120134.png",
     "description": "みなさん Devin を使っていますか？タイミーでは日々 Devin が仕事をしてくれています。 Devinは単にタスクを依頼するツールにとどまらず、ソフトウェアファクトリーのフレームワークになりました。最近の進化が著しいので紹介させてください。本当にすごい。 LayerX CTOの松本さんが、Xの投稿で次のように述べていました。ソフトウェア開発は、人間がCoding Agentをどう使うかを考える段階を過ぎた。これからは開発プロセスそのものを、ループが閉じたプロダクトとして作る段階で、そこまでやって初めてファクトリーと言える、という主張です。 Inner Loop: 計画→実行→検証→補正…",
     "hatenaDate": "2026-11-09T04:24:41Z",
     "users": [],
     "firstSeenAt": "2026-11-09T16:30:12.037576+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -628,14 +642,14 @@
     "title": "ソフトウェア産業が消滅する日──小さなローカルAIが暴く「プログラムを売る」という商売の終焉",
     "url": "https://wirelesswire.jp/2026/11/94903/",
     "domain": "wirelesswire.jp",
-    "count": 254,
+    "count": 255,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/wirelesswire.jp/2026/11/94903/",
     "screenshot": "https://wirelesswire.jp/wp-content/uploads/2026/11/p20261109_unsplash1.jpg",
     "description": "新潟県長岡市生まれ。1990年代よりプログラマーとしてゲーム業界、モバイル業界などで数社の立ち上げに関わる。現在も現役のプログラマーとして日夜AI開発に情熱を捧げている。 Apple Siliconを搭載したMacの上で、小さなローカルLLMを動かし、それをClaude Codeから利用できるようにする。ただそれだけのプログラムである。 使用するLLMは、DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-hereticという、名前だけはやたらと長いモデルだ。9B、つまり90億パラメータ程度のモデルである。これを4ビットに量子化し、AppleのMLXで動かす。Deep…",
     "hatenaDate": "2026-11-09T03:53:21Z",
     "users": [],
     "firstSeenAt": "2026-11-09T14:45:14.684385+09:00",
-    "lastSeenAt": "2026-11-10T05:45:15.282475+09:00",
+    "lastSeenAt": "2026-11-10T06:00:15.524004+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4370,19 +4384,5 @@
     "lastSeenAt": "2026-11-06T10:15:13.589888+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
-  },
-  {
-    "title": "新Kindle出揃う　「価格勝負」から「薄くて上質・カラフル」に",
-    "url": "https://www.watch.impress.co.jp/docs/news/2154084.html",
-    "domain": "www.watch.impress.co.jp",
-    "count": 23,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2154084.html",
-    "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2154/084/pic-011.jpg",
-    "description": "6月発売の「Kindle Scribe」シリーズ(中央)を含めラインナップがフルリニューアルされた。日本市場専売の高級レザースリーブケースも投入する Amazonは、10月1日に発表した電子書籍リーダーのKindleシリーズについて、国内で報道関係者向けに実機を公開した。容量やシグニチャーエディションなどの仕様の違いで合計6製品をラインナップしており、2製品はすでに発売済み。4製品は11月11日に発売される。 定番の電子書籍リーダーとして、6～7インチのディスプレイで展開する「Kindle」シリーズを刷新。薄型・軽量・高速化が図られたほか、額縁部分を画面と同じ高さにしたフラットデザインや、反…",
-    "hatenaDate": "2026-11-05T10:17:26Z",
-    "users": [],
-    "firstSeenAt": "2026-11-05T22:45:20.226075+09:00",
-    "lastSeenAt": "2026-11-06T09:00:15.179870+09:00",
-    "descriptionSource": "body"
   }
 ]
