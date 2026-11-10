@@ -3,14 +3,14 @@
     "title": "NVIDIAの「長文コンテキスト不要」論文",
     "url": "https://zenn.dev/knowledgesense/articles/bd917ed6829121",
     "domain": "zenn.dev",
-    "count": 8,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/knowledgesense/articles/bd917ed6829121",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--voR5pNZO--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:NVIDIA%25E3%2581%25AE%25E3%2580%258C%25E9%2595%25B7%25E6%2596%2587%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2586%25E3%2582%25AD%25E3%2582%25B9%25E3%2583%2588%25E4%25B8%258D%25E8%25A6%2581%25E3%2580%258D%25E8%25AB%2596%25E6%2596%2587%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Atsushi%2520Kadowaki%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLmRldi9pbWFnZXMvZGVmYXVsdC1wdWJsaWNhdGlvbi1hdmF0YXIucG5n%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2583%258A%25E3%2583%25AC%25E3%2583%2583%25E3%2582%25B8%25E3%2582%25BB%25E3%2583%25B3%25E3%2582%25B9%2520-%2520%25E7%2594%259F%25E6%2588%2590AI%25E3%2581%25A8RAG%25E3%2581%25AE%25E5%25AE%259F%25E8%25A3%2585...%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRlMjk5Y2IwN2IuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "ナレッジセンス - 生成AIとRAGの実装戦略・技術ブログPublicationへの投稿 本記事では、AIエージェントの推論コストを下げつつ、精度を保つ手法について、ざっくり理解します。 株式会社ナレッジセンスは、生成AIやRAGを使ったプロダクトを、エンタープライズ企業向けに開発しているスタートアップです。 この記事は、「AIに長い文章を読ませると、コストが高くなる」問題に関する記事です。NVIDIAの研究チームによって2026年11月に発表された新手法の論文[1]について、日本語で簡単にまとめています。 今回も「そもそもRAGとは？」については、知っている前提で進みます。確認する場合は、…",
     "hatenaDate": "2026-11-10T11:05:58Z",
     "users": [],
     "firstSeenAt": "2026-11-11T02:45:34.936752+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -26,7 +26,7 @@
     "hatenaDate": "2026-11-09T22:10:50Z",
     "users": [],
     "firstSeenAt": "2026-11-11T02:15:11.953325+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -41,7 +41,7 @@
     "hatenaDate": "2026-11-10T11:08:32Z",
     "users": [],
     "firstSeenAt": "2026-11-10T23:45:13.946777+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -56,7 +56,7 @@
     "hatenaDate": "2026-11-09T15:07:30Z",
     "users": [],
     "firstSeenAt": "2026-11-10T23:45:13.946777+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body"
   },
   {
@@ -70,7 +70,7 @@
     "hatenaDate": "2026-11-10T07:36:10Z",
     "users": [],
     "firstSeenAt": "2026-11-10T23:45:13.946777+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body"
   },
   {
@@ -84,7 +84,7 @@
     "hatenaDate": "2026-11-10T03:59:53Z",
     "users": [],
     "firstSeenAt": "2026-11-10T23:45:13.946777+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body"
   },
   {
@@ -98,7 +98,7 @@
     "hatenaDate": "2026-11-10T08:08:12Z",
     "users": [],
     "firstSeenAt": "2026-11-10T23:15:15.400364+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -106,14 +106,14 @@
     "title": "【国のデータをしゃぶり尽くせ！】無料で使える公共データ100選【永久保存版】 - Qiita",
     "url": "https://qiita.com/Retro-Maid/items/d99e436fe0b19e151709",
     "domain": "qiita.com",
-    "count": 72,
+    "count": 73,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/Retro-Maid/items/d99e436fe0b19e151709",
     "screenshot": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Ftech-festa-ogp-background-4b5015b2c518c7e6b9062a7c9f5f5e90.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRmF2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbnQuY29tJTJGdSUyRjI2NzM1MjQyMiUzRnYlM0Q0P2l4bGliPXJiLTQuMS4xJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz0yNGE1ZmE1Y2NkY2RlMzNjY2M2NWY4NjU0ZjVkODc3Mg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Db7dfa514bd50c3266bc394db4f522cf8?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUUzJTgwJTkwJUU1JTlCJUJEJUUzJTgxJUFFJUUzJTgzJTg3JUUzJTgzJUJDJUUzJTgyJUJGJUUzJTgyJTkyJUUzJTgxJTk3JUUzJTgyJTgzJUUzJTgxJUI2JUUzJTgyJThBJUU1JUIwJUJEJUUzJTgxJThGJUUzJTgxJTlCJUVGJUJDJTgxJUUzJTgwJTkxJUU3JTg0JUExJUU2JTk2JTk5JUUzJTgxJUE3JUU0JUJEJUJGJUUzJTgxJTg4JUUzJTgyJThCJUU1JTg1JUFDJUU1JTg1JUIxJUUzJTgzJTg3JUUzJTgzJUJDJUUzJTgyJUJGMTAwJUU5JTgxJUI4JUUzJTgwJTkwJUU2JUIwJUI4JUU0JUI5JTg1JUU0JUJGJTlEJUU1JUFEJTk4JUU3JTg5JTg4JUUzJTgwJTkxJnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjNGRkZGRkYmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9ODk2YjFmNTdhNTczNWMzNzcyOTcxZGVhZDQ5ZjAwYjI&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBSZXRyby1NYWlkJnR4dC1jb2xvcj0lMjNGRkZGRkYmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9M2Y3Njk0NTkzMDY4YzE3MzViNzI4NTYxNmU2OGE4MjI&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=c92dbd6bd5ba3d3fdc5a3e9f3dd3e5ad",
     "description": "日本のオープンデータ、正直かなり充実しています。分析屋・開発者目線で「これ使える」と思えるものだけでも、体感以上に多い印象です。 地図、統計、気象、防災、不動産、企業情報、医療、交通、文化財、研究データ、法令、調達情報、衛星データ、地盤、3D都市モデルまで、普段のWebサービス開発やAIアプリ、BIダッシュボード、GIS分析にそのまま使える素材がゴロゴロ転がっています。 この記事では、特に「開発者が触りやすい」「分析・可視化のネタにしやすい」「APIやCSV、GISとして取得できる」ものを軸に100個選んでいます。カテゴリ別に目次を用意したので、興味のある分野から読んでもらえればと思います。…",
     "hatenaDate": "2026-07-11T16:28:07Z",
     "users": [],
     "firstSeenAt": "2026-11-10T23:00:15.809447+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -129,21 +129,21 @@
     "hatenaDate": "2026-11-10T02:25:54Z",
     "users": [],
     "firstSeenAt": "2026-11-10T23:00:15.809447+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "【資料公開】「自分の仕事はここまで」はどこから来るのか",
     "url": "https://www.ryuzee.com/contents/blog/14628",
     "domain": "www.ryuzee.com",
-    "count": 75,
+    "count": 76,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.ryuzee.com/contents/blog/14628",
     "screenshot": null,
     "description": "2026/12/09 認定スクラムマスター研修（12/9-11、オンライン） 講師: 吉羽龍太郎 → 2027/01/28 認定スクラムマスター研修（1/28-29、オンサイト、東京） 講師: 永瀬美穂 → 2027/02/24 認定スクラムマスター研修（2/24-26、宿泊型） 講師: 原田騎郎・永瀬美穂 → 認定スクラムマスター（CSM）とは？内容・取得の流れ・他の資格との違いを完全ガイドで見る → 2026/11/10 2026組織チームアジャイルマネージャーチームトポロジーステークホルダー 2026年10月22日に、あるお客様の社内イベントで「『自分の仕事はここまで』はどこから来るの…",
     "hatenaDate": "2026-11-10T11:36:50Z",
     "users": [],
     "firstSeenAt": "2026-11-10T21:45:13.100085+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -159,21 +159,21 @@
     "hatenaDate": "2026-11-10T04:01:27Z",
     "users": [],
     "firstSeenAt": "2026-11-10T21:45:13.100085+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Anthropicが新AI「Claude Fable 5.2」をリリース。ぶっちぎりの高性能、実用例はもはや異次元 | ギズモード・ジャパン",
     "url": "https://www.gizmodo.jp/article/2611-claude-fable-5-2-release/",
     "domain": "www.gizmodo.jp",
-    "count": 68,
+    "count": 69,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/2611-claude-fable-5-2-release/",
     "screenshot": "https://media.loom-app.com/loom/2026/11/09/c0107c04-b643-4409-8c58-3de2ff641337/original.png?w=1200&h=630",
     "description": "2026年11月10日、Anthropicが新しいフラッグシップ/最先端AI「Claude Fable 5.2」をリリースしました。本日からすべての有料ユーザーが利用可能です。Mythos 5.2も同時に発表されています（一部の制限以外はFable 5.2と同一）。 IPOを控えたAnthropicは企業としての価値を示す必要がありますが、Fable 5.2はすさまじいベンチマーク結果を出しており、AIでできることの次元を改めて変えるAIモデルであるように見えます。 API料金は入力40ドル・出力が10〜50ドル（ともに100万トークンあたり）となっておりやはり高価です。 Anthropic…",
     "hatenaDate": "2026-11-10T02:43:46Z",
     "users": [],
     "firstSeenAt": "2026-11-10T21:15:13.501979+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -189,7 +189,7 @@
     "hatenaDate": "2026-11-10T08:05:52Z",
     "users": [],
     "firstSeenAt": "2026-11-10T21:00:18.532873+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -204,7 +204,7 @@
     "hatenaDate": "2026-11-10T08:35:43Z",
     "users": [],
     "firstSeenAt": "2026-11-10T20:45:12.729096+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body"
   },
   {
@@ -218,7 +218,7 @@
     "hatenaDate": "2026-11-10T00:17:51Z",
     "users": [],
     "firstSeenAt": "2026-11-10T20:45:12.729096+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body"
   },
   {
@@ -246,7 +246,7 @@
     "hatenaDate": "2026-11-10T05:57:13Z",
     "users": [],
     "firstSeenAt": "2026-11-10T20:30:15.323197+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -290,7 +290,7 @@
     "hatenaDate": "2026-11-10T07:37:22Z",
     "users": [],
     "firstSeenAt": "2026-11-10T19:00:17.005478+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body"
   },
   {
@@ -304,7 +304,7 @@
     "hatenaDate": "2026-11-10T07:55:00Z",
     "users": [],
     "firstSeenAt": "2026-11-10T19:00:17.005478+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body"
   },
   {
@@ -419,7 +419,7 @@
     "hatenaDate": "2026-11-10T07:20:40Z",
     "users": [],
     "firstSeenAt": "2026-11-10T17:45:13.273891+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body"
   },
   {
@@ -475,7 +475,7 @@
     "hatenaDate": "2026-11-10T05:40:32Z",
     "users": [],
     "firstSeenAt": "2026-11-10T17:15:13.137558+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body"
   },
   {
@@ -503,7 +503,7 @@
     "hatenaDate": "2026-11-10T03:52:18Z",
     "users": [],
     "firstSeenAt": "2026-11-10T17:00:15.105380+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body"
   },
   {
@@ -517,7 +517,7 @@
     "hatenaDate": "2026-11-10T06:57:01Z",
     "users": [],
     "firstSeenAt": "2026-11-10T16:45:13.427418+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body"
   },
   {
@@ -601,7 +601,7 @@
     "hatenaDate": "2026-11-10T02:33:06Z",
     "users": [],
     "firstSeenAt": "2026-11-10T15:15:13.400524+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -631,7 +631,7 @@
     "hatenaDate": "2026-11-10T04:41:25Z",
     "users": [],
     "firstSeenAt": "2026-11-10T15:00:12.801739+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -661,7 +661,7 @@
     "hatenaDate": "2026-11-10T04:12:04Z",
     "users": [],
     "firstSeenAt": "2026-11-10T15:00:12.801739+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -670,14 +670,14 @@
     "title": "Claude Codeで最近使っているTips【2026/11】",
     "url": "https://zenn.dev/oikon/articles/claude-code-recipe",
     "domain": "zenn.dev",
-    "count": 432,
+    "count": 433,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/oikon/articles/claude-code-recipe",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--Oceq9aco--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A7%25E6%259C%2580%25E8%25BF%2591%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258BTips%25E3%2580%25902026%252F11%25E3%2580%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Oikon%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzYyMTkzODY4NjUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "気がつけば2026年も終わりが見えてきました。今年はありがたいことにClaude Codeの書籍を2冊出版させていただきました。 新刊のClaude Code実践レシピ集は、個人的に好きなClaude CodeのTipsをベースに、割と好き勝手に書かせていただきました笑。 新しいClaude Code本の発売記念に、この記事では私が最近使っているClaude CodeのTipsを紹介します。 今回紹介するのは、最近Claude Codeを使っていて特に重宝している次の5つです。 /btwは会話履歴に残さずに、今のセッションについて質問できるコマンドです。多分一度は使ったことがあるのではないで…",
     "hatenaDate": "2026-11-10T03:58:52Z",
     "users": [],
     "firstSeenAt": "2026-11-10T14:45:14.166744+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -722,7 +722,7 @@
     "hatenaDate": "2026-11-10T04:44:53Z",
     "users": [],
     "firstSeenAt": "2026-11-10T14:15:13.288023+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -809,7 +809,7 @@
     "hatenaDate": "2026-11-10T01:12:53Z",
     "users": [],
     "firstSeenAt": "2026-11-10T13:00:14.778686+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -913,7 +913,7 @@
     "hatenaDate": "2026-11-09T22:53:05Z",
     "users": [],
     "firstSeenAt": "2026-11-10T11:15:13.210175+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1076,7 +1076,7 @@
     "hatenaDate": "2026-11-09T22:21:33Z",
     "users": [],
     "firstSeenAt": "2026-11-10T08:45:14.677607+09:00",
-    "lastSeenAt": "2026-11-11T05:15:14.013838+09:00",
+    "lastSeenAt": "2026-11-11T05:30:15.566476+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
