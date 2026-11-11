@@ -3,14 +3,14 @@
     "title": "インシデント調査報告書チェックリスト公開のお知らせ",
     "url": "https://www.jpcert.or.jp/ir_report_checklist_20261111.html",
     "domain": "www.jpcert.or.jp",
-    "count": 6,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.jpcert.or.jp/ir_report_checklist_20261111.html",
     "screenshot": "https://www.jpcert.or.jp/common/image/ogp_image.jpg",
     "description": "一般社団法人JPCERTコーディネーションセンター（東京都中央区、代表理事 菊池 浩明、以下「JPCERT/CC」）は、本日「インシデント調査報告書チェックリスト」を公開いたしました。 https://jpcertcc.github.io/ir_report_checklist/（GitHub上で公開しています） 昨今、ランサムウェア攻撃や情報漏えいに関するインシデントの増加に伴い、インシデント調査をインシデント調査会社などの外部組織に委託することが一般的になってきました。しかし、初めてインシデントに対応する被害組織も多く、そのような組織では、外部組織による調査の妥当性の評価やインシデント収…",
     "hatenaDate": "2026-11-11T10:22:32Z",
     "users": [],
     "firstSeenAt": "2026-11-12T06:00:20.048885+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +24,7 @@
     "hatenaDate": "2026-11-11T04:18:59Z",
     "users": [],
     "firstSeenAt": "2026-11-12T06:00:20.048885+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,21 +38,21 @@
     "hatenaDate": "2026-11-11T08:18:15Z",
     "users": [],
     "firstSeenAt": "2026-11-12T04:45:14.593911+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "アマゾンが予想外の打診、公取委が頼ったドイツ　攻防2年の舞台裏：朝日新聞",
     "url": "https://www.asahi.com/articles/ASVCC0SKNVCCUTIL024M.html",
     "domain": "www.asahi.com",
-    "count": 8,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVCC0SKNVCCUTIL024M.html",
     "screenshot": "https://imgopt.asahi.com/ogp/AS20261111001726_comm.jpg",
     "description": "2026年11月11日 15時30分（2026年11月11日 20時25分更新） ネット通販大手「アマゾンジャパン」を調査していた公正取引委員会は11日、同社が提出した改善計画を認め、調査を終了した。 当初は長期化も予想された競争当局による巨大ネット企業の調査。どういう経緯で決着したのか。 公取委の立ち入り検査は2024年11月。その翌日、当時の事務総長は定例記者会見で、検査に入ったことを発表した。 公正取引委員会が、ネット通販大手アマゾンを2年にわたって調査。アマゾンの予想外の動きに、公取委は難しい判断を迫られていました。当局vs.巨大ネット企業の舞台裏。 調査開始の段階で嫌疑内容にふれる…",
     "hatenaDate": "2026-11-11T08:36:05Z",
     "users": [],
     "firstSeenAt": "2026-11-12T03:41:15.147392+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body"
   },
   {
@@ -73,14 +73,14 @@
     "title": "【図解】Dockerの全体像を理解する -前編- - Qiita",
     "url": "https://qiita.com/etaroid/items/b1024c7d200a75b992fc",
     "domain": "qiita.com",
-    "count": 62,
+    "count": 64,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/etaroid/items/b1024c7d200a75b992fc",
     "screenshot": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-412672c5f0600ab9a64263b751f1bc81.png?ixlib=rb-4.0.0&w=1200&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTk3MiZoPTM3OCZ0eHQ9JUUzJTgwJTkwJUU1JTlCJUIzJUU4JUE3JUEzJUUzJTgwJTkxRG9ja2VyJUUzJTgxJUFFJUU1JTg1JUE4JUU0JUJEJTkzJUU1JTgzJThGJUUzJTgyJTkyJUU3JTkwJTg2JUU4JUE3JUEzJUUzJTgxJTk5JUUzJTgyJThCJTIwLSVFNSU4OSU4RCVFNyVCNyVBOC0mdHh0LWFsaWduPWxlZnQlMkN0b3AmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT01NiZzPTU2YjljOTY5NDFjYjhjNTBiYzczOWFjZGE3NDk5ZmY0&mark-x=142&mark-y=57&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZoPTc2Jnc9NzcwJnR4dD0lNDBldGFyb2lkJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz0zYzNhYTZkMzYwNmI1NzlhNzI5ZTkyODhiYjA1ZDNiMw&blend-x=142&blend-y=436&blend-mode=normal&txt64=aW4g5qCq5byP5Lya56S-S09TS0E&txt-width=770&txt-clip=end%2Cellipsis&txt-color=%231E2121&txt-font=Hiragino%20Sans%20W6&txt-size=36&txt-x=156&txt-y=536&s=4738998a44e3e1255c6479579d0eb580",
     "description": "イメージやコンテナなどの基本からdocker-compose、docker-machine, docker swarmなどのDocker周りの様々な概念の全体像を整理して、Dockerの仕組みを理解するための記事 前編では「コンテナ、イメージ、DockerHubでのイメージ共有」について書いて行きます。 ・Dockerちょっと勉強したけどDocker compose？ Docker machine？ Docker Swarm？ 色々ありすぎて意味不明 PCやサーバといったマシンにインストールされているOS(ホストOS)の上に、別のマシンを仮想的に立ち上げる事 従来の仮想化(ホスト型仮想化)は…",
     "hatenaDate": "2020-03-08T09:05:50Z",
     "users": [],
     "firstSeenAt": "2026-11-12T02:15:13.759739+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body"
   },
   {
@@ -94,7 +94,7 @@
     "hatenaDate": "2026-11-11T08:47:22Z",
     "users": [],
     "firstSeenAt": "2026-11-12T02:15:13.759739+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -124,21 +124,21 @@
     "hatenaDate": "2026-11-11T12:29:46Z",
     "users": [],
     "firstSeenAt": "2026-11-12T01:30:20.639828+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Z世代がAIブームから一斉に「ログアウト」し始めた深刻な理由　米国 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
     "url": "https://forbesjapan.com/articles/detail/107841",
     "domain": "forbesjapan.com",
-    "count": 23,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forbesjapan.com/articles/detail/107841",
     "screenshot": "https://images.forbesjapan.com/media/article/107841/images/main_image_8874d9e667a0dda14c2957c5b8cf1cb8753307d4.jpg",
     "description": "今なぜ「ロンジェビティ宣言」か――研究資産を最大化したロート製薬127 年の「回路」 「変えない。そして挑み続ける」。選ばれ続けるTULLY’S COFFEEブランドの本気 数字では測れない企業価値をどう見抜くか スピカコンサルティングが語る食品M&Aの現在地 才能は環境によって再定義される──人事のキーマンが語る若手人材の才能を引き出す組織 サステナグロースを実現する企業の条件 「サステナグロースカンパニーアワード 2026」審査員対談 ｢強さ｣と｢優しさ｣を兼ね備え社会と成長する 2026年のサステナグロースカンパニー 上智大学×タキヒヨーの共創が生んだサステナブルTシャツ――「TOKY…",
     "hatenaDate": "2026-11-11T11:13:29Z",
     "users": [],
     "firstSeenAt": "2026-11-12T01:30:20.639828+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -168,7 +168,7 @@
     "hatenaDate": "2026-11-11T09:33:37Z",
     "users": [],
     "firstSeenAt": "2026-11-12T01:15:14.346816+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body"
   },
   {
@@ -182,7 +182,7 @@
     "hatenaDate": "2026-11-11T07:17:37Z",
     "users": [],
     "firstSeenAt": "2026-11-12T01:00:16.091810+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body"
   },
   {
@@ -210,7 +210,7 @@
     "hatenaDate": "2026-11-11T07:21:47Z",
     "users": [],
     "firstSeenAt": "2026-11-12T00:00:12.170353+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body"
   },
   {
@@ -224,7 +224,7 @@
     "hatenaDate": "2026-11-11T09:04:14Z",
     "users": [],
     "firstSeenAt": "2026-11-12T00:00:12.170353+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body"
   },
   {
@@ -260,14 +260,14 @@
     "title": "(令和8年11月11日)アマゾンジャパン合同会社から申請があった確約計画の認定について | 公正取引委員会",
     "url": "https://www.jftc.go.jp/houdou/pressrelease/2026/nov/261111_daigo.amazon.html",
     "domain": "www.jftc.go.jp",
-    "count": 25,
+    "count": 28,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.jftc.go.jp/houdou/pressrelease/2026/nov/261111_daigo.amazon.html",
     "screenshot": null,
     "description": "２　アマゾンストアの商品詳細ページにおける出品情報の掲載の仕組み等⑴　アマゾンジャパンは、「Amazon.co.jp」と称するオンラインショッピングストア（注３）（以下「アマゾンストア」という。）を運営している。アマゾンジャパンは、アマゾンストアで商品又は役務（以下、単に「商品」という。）の出品を希望する者と...",
     "hatenaDate": "2026-11-11T09:56:57Z",
     "users": [],
     "firstSeenAt": "2026-11-11T23:15:08.481654+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "bodyStatus": "skip",
     "bodyReason": "robots-disallow"
   },
@@ -296,7 +296,7 @@
     "hatenaDate": "2026-11-11T08:58:04Z",
     "users": [],
     "firstSeenAt": "2026-11-11T23:00:15.833643+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -325,7 +325,7 @@
     "hatenaDate": "2026-11-11T08:42:25Z",
     "users": [],
     "firstSeenAt": "2026-11-11T22:45:14.553919+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body"
   },
   {
@@ -360,14 +360,14 @@
     "title": "SREのためのFinOps入門",
     "url": "https://speakerdeck.com/muziyoshiz/introduction-to-finops-for-sres",
     "domain": "speakerdeck.com",
-    "count": 38,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/muziyoshiz/introduction-to-finops-for-sres",
     "screenshot": "https://files.speakerdeck.com/presentations/5d23d7b853d24e798ca8248e0061b8ab/slide_0.jpg?41299877",
     "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … 2026年11月11日に開催された Tamachi.sre#7 の発表資料です。 https://tamachi-sre.connpass.com/event/408227/ SREとソフトウェア開発者を集めた専門チームによる、開発組織全体を巻き込んだコスト削減の取り組み https://tech.andpad.co.jp/entry/2025/07/09/100000 予期せぬコストの急増を障害のように扱う――「コスト版ポストモーテム…",
     "hatenaDate": "2026-11-11T10:50:37Z",
     "users": [],
     "firstSeenAt": "2026-11-11T22:15:14.111365+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -419,14 +419,14 @@
     "title": "靖国神社に不正アクセス　約1万4500件の個人情報漏えい、パスワードが特定されるおそれも",
     "url": "https://www.itmedia.co.jp/news/article/2611/11/2000003119/",
     "domain": "www.itmedia.co.jp",
-    "count": 77,
+    "count": 78,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/11/2000003119/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/11/2000003119/10011916/2048",
     "description": "靖国神社（東京都千代田区）は11月11日、同神社が運営する通販サイト「オンライン授与品・頒布品サイト」への不正アクセスにより、約1万4500件の個人情報が漏えいしたと発表した。同サイトは現在公開を停止しており、再開時期は未定という。 漏えいしたのは、同サイトの会員が登録した氏名、メールアドレス、ハッシュ化したパスワードとその生成に用いる補助情報、会員アカウントの登録日時や利用状況などの管理情報。パスワードはそのままでは読み取れないものの、第三者が元のパスワードを特定する恐れがあるという。漏えい件数は調査中で、今後変動する可能性がある。 クレジットカード情報や住所、電話番号、生年月日、購入履歴…",
     "hatenaDate": "2026-11-11T10:16:17Z",
     "users": [],
     "firstSeenAt": "2026-11-11T21:15:13.498952+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -442,7 +442,7 @@
     "hatenaDate": "2026-11-11T09:22:05Z",
     "users": [],
     "firstSeenAt": "2026-11-11T20:30:13.490130+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -458,7 +458,7 @@
     "hatenaDate": "2026-11-11T10:56:38Z",
     "users": [],
     "firstSeenAt": "2026-11-11T20:30:13.490130+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -467,14 +467,14 @@
     "title": "【速報】政府、AI開発事業者に罰則検討",
     "url": "https://www.47news.jp/15215659.html",
     "domain": "www.47news.jp",
-    "count": 78,
+    "count": 79,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15215659.html",
     "screenshot": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
     "description": "政府が、高性能人工知能（AI）が引き起こすリスクに対処するため、サービス開発事業者への罰則を新設する方向で検討していることが11日、分かった。 国内外約100の拠点を軸に、世界情勢から地域の話題まで、旬のニュースを的確に、いち早くお届けします。 幅広い知識と技術で、顧客の省エネを支え続ける 最前線で奮闘するKenesの社員たち 幅広い分野の革新的で優れたサービスを募集 第6回日本サービス大賞エントリー受付開始 人の営みがよみがえり、願いは「当たり前」に戻ること 復興支える中間貯蔵施設のいま、2045年への約束 創業5年で売り上げ50億円達成の背景に「自責」の精神 渡辺喜久男会長と塚本拓夢オー…",
     "hatenaDate": "2026-11-11T09:55:01Z",
     "users": [],
     "firstSeenAt": "2026-11-11T19:53:28.054262+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -490,7 +490,7 @@
     "hatenaDate": "2026-11-11T04:26:33Z",
     "users": [],
     "firstSeenAt": "2026-11-11T19:45:14.025572+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -535,7 +535,7 @@
     "hatenaDate": "2026-11-11T08:39:39Z",
     "users": [],
     "firstSeenAt": "2026-11-11T18:45:12.943674+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -594,7 +594,7 @@
     "hatenaDate": "2026-11-11T05:30:15Z",
     "users": [],
     "firstSeenAt": "2026-11-11T18:15:13.918556+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -651,7 +651,7 @@
     "hatenaDate": "2026-11-11T03:41:15Z",
     "users": [],
     "firstSeenAt": "2026-11-11T17:15:13.770766+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -667,7 +667,7 @@
     "hatenaDate": "2026-11-11T03:49:30Z",
     "users": [],
     "firstSeenAt": "2026-11-11T17:15:13.770766+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -826,7 +826,7 @@
     "hatenaDate": "2026-11-11T05:07:27Z",
     "users": [],
     "firstSeenAt": "2026-11-11T15:30:13.902326+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -849,14 +849,14 @@
     "title": "ISUCON2026 で優勝しました（準備編）",
     "url": "https://zenn.dev/luvtechno/articles/isucon2026-preparation",
     "domain": "zenn.dev",
-    "count": 431,
+    "count": 434,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/luvtechno/articles/isucon2026-preparation",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--FlBezkdp--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ISUCON2026%2520%25E3%2581%25A7%25E5%2584%25AA%25E5%258B%259D%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%25EF%25BC%2588%25E6%25BA%2596%25E5%2582%2599%25E7%25B7%25A8%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yoshinori%2520Kawasaki%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTEpMVlQ2WjlNQlhlcndlbDZoY1JYUDVLSjAxYWNITUdNcmUwVThZTG5EaDY4PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "こんにちは！ @kawasy です。当日編に続いて、この記事では3か月の準備期間に何をしていたかを、時系列で追いながら振り返ります。 私は土曜日はいつも、子どもを習い事に連れて行っています。Slack でレギュレーションの「AI 利用可」を見かけたとき、全部 AI に任せられれば、いつもどおりの土曜日を過ごしながら参加できるかもしれないと思いました。それが開発のきっかけでした。 もう1つは、人間が手を出さずに、エージェントだけでどこまでできるのか試してみたかったからです。AIエージェントを使ったソフトウェア開発では、人間が途中で判断する HITL（human-in-the-loop）から、人…",
     "hatenaDate": "2026-11-11T05:38:12Z",
     "users": [],
     "firstSeenAt": "2026-11-11T15:00:20.227674+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -917,7 +917,7 @@
     "hatenaDate": "2026-11-11T03:34:04Z",
     "users": [],
     "firstSeenAt": "2026-11-11T14:45:13.809235+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -947,7 +947,7 @@
     "hatenaDate": "2026-11-11T04:18:22Z",
     "users": [],
     "firstSeenAt": "2026-11-11T14:15:13.471374+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1033,7 +1033,7 @@
     "hatenaDate": "2026-11-11T03:28:52Z",
     "users": [],
     "firstSeenAt": "2026-11-11T13:00:13.417046+09:00",
-    "lastSeenAt": "2026-11-12T06:15:19.091508+09:00",
+    "lastSeenAt": "2026-11-12T06:30:15.519492+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
