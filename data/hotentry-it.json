@@ -1,5 +1,19 @@
 [
   {
+    "title": "AI「テスト通りました」← これ､本当？ Stryker でテストの穴を塞いだ話 - Qiita",
+    "url": "https://qiita.com/Dingu-suke/items/b5318ef2040a9f59224a",
+    "domain": "qiita.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/Dingu-suke/items/b5318ef2040a9f59224a",
+    "screenshot": null,
+    "description": "AI にテストを書いてもらって、「すべてのテストが通りました」と返ってくる。最近はこれが日常になりました。ただ、そのテストが 本当に何かを確かめているのか と聞かれると、正直、自信を持って答えられない。緑のチェックが並んでいるだけで、壊れても気づかないテストかもしれないからです。 そこで試したのが、テストの強さを測る mutation testing（ミューテーションテスト） と、そのツールの Stryker です。今回は、マルチテナントの SaaS で「会社ごとにデータを自動で絞り込む Prisma クライアント」を作る場面で使いました。間違えると他社のデータが見えてしまう、絶対に間違えら…",
+    "hatenaDate": "2026-11-10T15:08:15Z",
+    "users": [],
+    "firstSeenAt": "2026-11-11T14:00:13.118191+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "「Qwen4」早くも登場、最上位「Qwen4-Max」を無料でも試せる",
     "url": "https://pc.watch.impress.co.jp/docs/news/2155430.html",
     "domain": "pc.watch.impress.co.jp",
@@ -10,7 +24,7 @@
     "hatenaDate": "2026-11-11T03:18:12Z",
     "users": [],
     "firstSeenAt": "2026-11-11T13:45:13.546504+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,21 +38,21 @@
     "hatenaDate": "2026-11-10T23:29:43Z",
     "users": [],
     "firstSeenAt": "2026-11-11T13:15:14.343361+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「またAIの見え方変わった」ダウン症で知的障害のある弟とのやりとりに、AIを活用したら解決できることが増えたという話に注目が集まる",
     "url": "https://togetter.com/li/2769126",
     "domain": "togetter.com",
-    "count": 24,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2769126",
     "screenshot": "https://s.tgstc.com/ogp3/8838482d708ab06b0b5c9a1895208ce8-1200x630.jpeg",
     "description": "AIは異なる知能の間を翻訳する「眼鏡」だと前から呟いてきた 賢い側の成功談しか聞かなくて失望していたけど、いよいよ知的障害者と健常者の間の仲介に成功しつつある note.kishidanami.com/n/n2cf7aa5a0bf2 【人生を賭けた弟の立てこもりを、Geminiがどうにかしてくれた件】 ダウン症で知的障害のある弟には、悩んでることがたくさんあったのに、今まで解決してあげられなかったことに気づいた。 開催中のnoteコンテスト #AIとできたこと のお手本作品 #PR として書きました！ note.kishidanami.com/n/n2cf7aa5a0bf2 人生を賭けた弟の…",
     "hatenaDate": "2026-11-11T03:28:52Z",
     "users": [],
     "firstSeenAt": "2026-11-11T13:00:13.417046+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,35 +66,35 @@
     "hatenaDate": "2026-11-10T18:29:45Z",
     "users": [],
     "firstSeenAt": "2026-11-11T12:45:12.777420+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "gh actions-lockされているかどうかをPRでチェックする - くりにっき",
     "url": "https://sue445.hatenablog.com/entry/2026/11/10/223328",
     "domain": "sue445.hatenablog.com",
-    "count": 7,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/sue445.hatenablog.com/entry/2026/11/10/223328",
     "screenshot": "https://ogimage.blog.st-hatena.com/12704591929883832155/14729835035336547782/1794317946",
     "description": ".github/workflows/verify-actions-lockfile.yml 1回 gh actions-lock を実行してしまえば既存のactionに関してはdependabotとかでlockファイルが更新されます。 しかし新しいworkflowやactionを追加した時に gh actions-lock を実行してlockファイルを更新しないと意味がありません。 リポジトリ側の設定でlockファイルの更新を強制する（lockファイルが古いままだとエラーにする）みたいなことができるとよかったんですが、そういう設定が見つからなかったのでCIでチェックするようなworkflow…",
     "hatenaDate": "2026-11-10T13:34:25Z",
     "users": [],
     "firstSeenAt": "2026-11-11T12:45:12.777420+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "NTTドコモで通信障害 原因調査中 | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261111de73934",
     "domain": "news.web.nhk",
-    "count": 18,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261111de73934",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261111de73934/20261111de73934_E0000162531_1_l.jpg",
     "description": "【NHK】NTTドコモでは、11日午前10時半すぎから通信障害が発生し、一部の利用者の間で携帯電話のサービスが利用しづらくなっています。 影響を受けているのは、「5G SA」と呼ばれる通信の方式を契約してい",
     "hatenaDate": "2026-11-11T02:57:22Z",
     "users": [],
     "firstSeenAt": "2026-11-11T12:30:13.812812+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
@@ -94,21 +108,21 @@
     "hatenaDate": "2026-11-10T21:34:21Z",
     "users": [],
     "firstSeenAt": "2026-11-11T12:15:12.979699+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「AIで漏洩した？と思うくらいに同感同意」キャリア女性のロールモデルとして、メチャクチャ有能な働きマンを出されても困るという話に賛同が集まる",
     "url": "https://togetter.com/li/2769100",
     "domain": "togetter.com",
-    "count": 43,
+    "count": 44,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2769100",
     "screenshot": "https://s.tgstc.com/ogp3/158de900d3f4ff9444b5018f1fe0515c-1200x630.jpeg",
     "description": "キャリア女性のロールモデルと称してゴリラをお出ししないでほしい｜おたま @mjgpatmwjagj010 #仕事について話そう note.com/mjgpatmwjagj01… キャリア女性のロールモデルと称してゴリラをお出ししないでほしい｜おたま 戦略コンサルからのスカウトに「今後出産も控えているためワークライフバランスを懸念している」と聞く人が聞けばほぼお断りみたいなことを言ったら、 「お子さんを2人抱えながら戦略コンサルでフルタイム稼働し… 思ったよりも広がってしまっている兼ね合いで、みる人によってはゴリラというワードを蔑称と取られてしまうことがあると思います。補足すると見栄えの話では…",
     "hatenaDate": "2026-11-11T02:16:09Z",
     "users": [],
     "firstSeenAt": "2026-11-11T12:00:12.948455+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -124,7 +138,7 @@
     "hatenaDate": "2026-11-10T23:10:52Z",
     "users": [],
     "firstSeenAt": "2026-11-11T12:00:12.948455+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
@@ -138,21 +152,21 @@
     "hatenaDate": "2026-11-11T01:07:25Z",
     "users": [],
     "firstSeenAt": "2026-11-11T11:45:14.964017+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "“年内入試”での生成AI活用めぐり大学の対応分かれる　 | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261111de73858",
     "domain": "news.web.nhk",
-    "count": 10,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261111de73858",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261111de73858/20261111de73858_E0000162182_1_l.jpg",
     "description": "“年内入試”と呼ばれる「総合型選抜」などの大学入試で生成AIを使って志望理由書などを作成する受験生が増えています。大学側の対応も分かれていて、「生成AIで必要以上に虚飾される懸念がある」として制限する…",
     "hatenaDate": "2026-11-10T23:39:29Z",
     "users": [],
     "firstSeenAt": "2026-11-11T11:30:13.717842+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -181,7 +195,7 @@
     "hatenaDate": "2026-11-10T18:29:38Z",
     "users": [],
     "firstSeenAt": "2026-11-11T11:00:12.443736+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
@@ -195,7 +209,7 @@
     "hatenaDate": "2026-11-10T23:32:37Z",
     "users": [],
     "firstSeenAt": "2026-11-11T11:00:12.443736+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
@@ -209,7 +223,7 @@
     "hatenaDate": "2026-11-11T00:22:59Z",
     "users": [],
     "firstSeenAt": "2026-11-11T11:00:12.443736+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -218,14 +232,14 @@
     "title": "属人化したISMS運用をGitHubとAIで仕組み化した1年間の記録",
     "url": "https://speakerdeck.com/sioncojp/zokujinka-shita-isms-unyou-o-github-to-ai-de-shikumika-shita-1-nenkan-no-kiroku",
     "domain": "speakerdeck.com",
-    "count": 33,
+    "count": 34,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/sioncojp/zokujinka-shita-isms-unyou-o-github-to-ai-de-shikumika-shita-1-nenkan-no-kiroku",
     "screenshot": "https://files.speakerdeck.com/presentations/7f97b1549a4044ab9cbae83b0fae99ea/slide_0.jpg?41309070",
     "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … Sponsored · Ship Features Fearlessly Turn features on and off without deploys. Used by thousands of Ruby developers. → https://tsumugi.io/events/btconjp-insight4 FargateでService,RunTask,Cronを運用する/fargate-service-runtask…",
     "hatenaDate": "2026-11-10T11:24:01Z",
     "users": [],
     "firstSeenAt": "2026-11-11T10:30:15.989213+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -234,28 +248,28 @@
     "title": "Claude Code ハーネス�Deep Dive – 君はどこまで制御する？ -",
     "url": "https://speakerdeck.com/takateeen_knj/20261110-claude-deepdive",
     "domain": "speakerdeck.com",
-    "count": 57,
+    "count": 61,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/takateeen_knj/20261110-claude-deepdive",
     "screenshot": "https://files.speakerdeck.com/presentations/43c262ae4a5a4472996351e765e8fbb0/slide_0.jpg?41306896",
     "description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … Claude Code ハーネス Deep Dive – 君はどこまで制御する？ - Claude Code ハーネス Deep Dive – 君はどこまで制御する？ - Claude Codeで 仕様駆動開発可能な環境へ！ 〜1週間気合いのモブプロweek〜 MCPを活用したローカルAI知識応答サーバーを作ってみた ~ 守れ！サンタクロース秘密結社編 ~ Lambda durable functionsでHuman in the Lo…",
     "hatenaDate": "2026-11-10T12:56:40Z",
     "users": [],
     "firstSeenAt": "2026-11-11T10:15:15.755728+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "2026年度 新卒研修『AWS インフラハンズオン』の資料を公開します | CyberAgent Developers Blog",
     "url": "https://developers.cyberagent.co.jp/blog/archives/66422/",
     "domain": "developers.cyberagent.co.jp",
-    "count": 59,
+    "count": 60,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/developers.cyberagent.co.jp/blog/archives/66422/",
     "screenshot": "https://developers.cyberagent.co.jp/blog/wp-content/uploads/2026/11/aws-handson-2026-ogp.png",
     "description": "こんにちは、株式会社WinTicket でバックエンドとインフラを担当している茨木啓瑚（@oyasumi_pants）です。 本記事では、2026年度のサイバーエージェント新卒研修として実施した「AWS インフラハンズオン」について、その背景と内容の一部を紹介します。研修で使用したスライドとハンズオンのコードもあわせて公開します。どちらも、社外の方がご自身の AWS アカウントで試せる形に整えています。 私がこの研修を担当するのは今年で 2 回目です。昨年度は、新卒研修の後半にあるチーム開発でインフラ構築に困らないようにすることを目的に、3 時間で AWS の主要サービスの座学と、Terra…",
     "hatenaDate": "2026-11-10T17:38:49Z",
     "users": [],
     "firstSeenAt": "2026-11-11T10:15:15.755728+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -264,14 +278,14 @@
     "title": "博報堂DY、傘下の広告3社統合へ　AI時代のマーケティング確立めざす - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC1060C0Q6A111C2000000/",
     "domain": "www.nikkei.com",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC1060C0Q6A111C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3856440010112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=6f07fbbee11e894fb06b7e7fe76bd845",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 博報堂DYホールディングス（HD）は10日、広告やマーケティング支援を手掛ける傘下の3社を統合した新会社の立ち上げを検討すると発表した。人工知能（AI）時代に対応した広告マーケティング手法の確立に向け、組織を集約する。2027年4月の稼働を目指す。 いずれも27年4月1日をメドに事業を開始する新体制に向けた検討とした。これまでも体制強化のための再編を進めており、24年にはデジタル広告による販促支援を手掛ける2社を統合したほか、25年には広告事業の博報堂とメディア対応などを担う博報堂DYメディアパー…",
     "hatenaDate": "2026-11-10T14:45:55Z",
     "users": [],
     "firstSeenAt": "2026-11-11T10:15:15.755728+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
@@ -285,7 +299,7 @@
     "hatenaDate": "2026-11-10T12:43:37Z",
     "users": [],
     "firstSeenAt": "2026-11-11T10:15:15.755728+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
@@ -306,14 +320,14 @@
     "title": "「盗撮」→「法律で規制」が話題のAI眼鏡　海外では大ヒットなのに、日本での普及は限定的　ビジネスでの活用事例を探る",
     "url": "https://www.itmedia.co.jp/news/article/2611/11/2000002913/",
     "domain": "www.itmedia.co.jp",
-    "count": 77,
+    "count": 82,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/11/2000002913/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/11/2000002913/10011402/2048",
     "description": "（1/2 ページ） 海外では「AI眼鏡（AIグラス）」を規制する動きが広がっている。AIグラスとは、カメラやAIとの会話機能、ディスプレイを備えた眼鏡のこと。文字のリアルタイム翻訳機能や歩行中のナビゲーション機能などがある。2023年頃から世界ではプライベート用途を中心に急速に普及してきた。一方、日本ではそれほど普及していない。 通常の眼鏡に見えるためAIグラスを使った不法行為を周囲が認識しづらく、ノルウェー政府は法による規制を計画している。国内では過去に、眼鏡型カメラを使った盗撮で逮捕事例がある。韓国では試験会場でAIグラスを使った不正行為が相次いだ。世界的には不正使用が想定されがちなAI…",
     "hatenaDate": "2026-11-10T20:34:16Z",
     "users": [],
     "firstSeenAt": "2026-11-11T09:15:14.885920+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
@@ -334,14 +348,14 @@
     "title": "おやすみ、インターネットの時代",
     "url": "https://wirelesswire.jp/2026/11/94886/",
     "domain": "wirelesswire.jp",
-    "count": 226,
+    "count": 239,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/wirelesswire.jp/2026/11/94886/",
     "screenshot": "https://wirelesswire.jp/wp-content/uploads/2026/11/p20261109_unsplash2-2.jpg",
     "description": "雑文書き／翻訳者。1973年生まれ。著書に『情報共有の未来』（達人出版会）、訳書に『デジタル音楽の行方』（翔泳社）、『Wiki Way』（ソフトバンク クリエイティブ）、『ウェブログ・ハンドブック』（毎日コミュニケーションズ）がある。ネットを中心にコラムから翻訳まで横断的に執筆活動を続ける。 去年、電撃結婚された方々や、惜しまれきって解散した方々や、不倫を超暴かれた方々と同様。多分、同じ日数くらいの2016年があったはずなんです。 その年は、年明け早々にデヴィッド・ボウイが死に、春には伯父が死に、プリンスが死に、秋には父親が死に、その1か月後には母親が死に、年末には、人生でもっとも多く通った…",
     "hatenaDate": "2026-11-10T23:02:09Z",
     "users": [],
     "firstSeenAt": "2026-11-11T08:45:15.072930+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
@@ -355,7 +369,7 @@
     "hatenaDate": "2026-11-10T17:05:41Z",
     "users": [],
     "firstSeenAt": "2026-11-11T08:45:15.072930+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -371,21 +385,21 @@
     "hatenaDate": "2026-11-10T14:19:08Z",
     "users": [],
     "firstSeenAt": "2026-11-11T08:45:15.072930+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "無料のプロジェクト管理ツール「Leantime」、カンバン・一覧表・ガントビュー・iCal・タイムブロッキング・ホワイトボード・タイムシートを組み合わせて認知負荷を軽減することでADHD・失読症・自閉症を念頭に置いて設計",
     "url": "https://gigazine.net/news/20261110-leantime/",
     "domain": "gigazine.net",
-    "count": 108,
+    "count": 113,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261110-leantime/",
     "screenshot": "https://i.gzn.jp/img/2026/11/10/leantime/00.png",
     "description": "仕事や個人のプロジェクトを進める際はタスクの整理・スケジュールの確認・作業時間の記録などに複数のアプリを使い分けることがあります。そんな作業を1カ所にまとめて管理できるのが無料のオープンソースツール「Leantime」です。カンバン・一覧表・ガントビュー・カレンダー・タイムシートを備えるほか、ADHD・失読症...",
     "hatenaDate": "2026-11-10T14:08:25Z",
     "users": [],
     "firstSeenAt": "2026-11-11T08:15:13.163358+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -400,7 +414,7 @@
     "hatenaDate": "2026-11-10T12:45:02Z",
     "users": [],
     "firstSeenAt": "2026-11-11T08:00:14.632759+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
@@ -414,21 +428,21 @@
     "hatenaDate": "2026-11-10T11:45:08Z",
     "users": [],
     "firstSeenAt": "2026-11-11T07:15:16.196397+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "氏名や電話番号、聞きません　漏洩問題で企業側、個人情報手放す動き：朝日新聞",
     "url": "https://www.asahi.com/articles/ASVCB0H13VCBUTIL009M.html",
     "domain": "www.asahi.com",
-    "count": 145,
+    "count": 149,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVCB0H13VCBUTIL009M.html",
     "screenshot": "https://imgopt.asahi.com/ogp/AS20261110001358_comm.jpg",
     "description": "不正アクセスなどによる個人情報漏洩（ろうえい）が相次いでいる問題を受け、企業の間で、顧客の個人情報をむやみに集めない動きが出ている。顧客データ活用の歴史に詳しい専門家も「必要以上に持つべきではない」と指摘している。 10月に不正アクセスで公式アプリに登録している会員約1千万人の氏名や電話番号などが流出したと公表した焼き肉チェーン「焼肉きんぐ」。運営会社「物語コーポレーション」は来年以降、アプリ登録に氏名と電話番号は不要とすることにしたという。同社の広報は、AI（人工知能）の台頭でサイバー攻撃が高度化しているとされる現状では、「最大の安全策は、守るべき個人情報そのものを持たないことであるという…",
     "hatenaDate": "2026-11-10T09:02:35Z",
     "users": [],
     "firstSeenAt": "2026-11-11T06:30:18.558060+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body"
   },
   {
@@ -442,7 +456,7 @@
     "hatenaDate": "2026-11-10T11:05:58Z",
     "users": [],
     "firstSeenAt": "2026-11-11T02:45:34.936752+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -538,14 +552,14 @@
     "title": "【国のデータをしゃぶり尽くせ！】無料で使える公共データ100選【永久保存版】 - Qiita",
     "url": "https://qiita.com/Retro-Maid/items/d99e436fe0b19e151709",
     "domain": "qiita.com",
-    "count": 507,
+    "count": 511,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/Retro-Maid/items/d99e436fe0b19e151709",
     "screenshot": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Ftech-festa-ogp-background-4b5015b2c518c7e6b9062a7c9f5f5e90.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRmF2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbnQuY29tJTJGdSUyRjI2NzM1MjQyMiUzRnYlM0Q0P2l4bGliPXJiLTQuMS4xJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz0yNGE1ZmE1Y2NkY2RlMzNjY2M2NWY4NjU0ZjVkODc3Mg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Db7dfa514bd50c3266bc394db4f522cf8?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUUzJTgwJTkwJUU1JTlCJUJEJUUzJTgxJUFFJUUzJTgzJTg3JUUzJTgzJUJDJUUzJTgyJUJGJUUzJTgyJTkyJUUzJTgxJTk3JUUzJTgyJTgzJUUzJTgxJUI2JUUzJTgyJThBJUU1JUIwJUJEJUUzJTgxJThGJUUzJTgxJTlCJUVGJUJDJTgxJUUzJTgwJTkxJUU3JTg0JUExJUU2JTk2JTk5JUUzJTgxJUE3JUU0JUJEJUJGJUUzJTgxJTg4JUUzJTgyJThCJUU1JTg1JUFDJUU1JTg1JUIxJUUzJTgzJTg3JUUzJTgzJUJDJUUzJTgyJUJGMTAwJUU5JTgxJUI4JUUzJTgwJTkwJUU2JUIwJUI4JUU0JUI5JTg1JUU0JUJGJTlEJUU1JUFEJTk4JUU3JTg5JTg4JUUzJTgwJTkxJnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjNGRkZGRkYmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9ODk2YjFmNTdhNTczNWMzNzcyOTcxZGVhZDQ5ZjAwYjI&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBSZXRyby1NYWlkJnR4dC1jb2xvcj0lMjNGRkZGRkYmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9M2Y3Njk0NTkzMDY4YzE3MzViNzI4NTYxNmU2OGE4MjI&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=c92dbd6bd5ba3d3fdc5a3e9f3dd3e5ad",
     "description": "日本のオープンデータ、正直かなり充実しています。分析屋・開発者目線で「これ使える」と思えるものだけでも、体感以上に多い印象です。 地図、統計、気象、防災、不動産、企業情報、医療、交通、文化財、研究データ、法令、調達情報、衛星データ、地盤、3D都市モデルまで、普段のWebサービス開発やAIアプリ、BIダッシュボード、GIS分析にそのまま使える素材がゴロゴロ転がっています。 この記事では、特に「開発者が触りやすい」「分析・可視化のネタにしやすい」「APIやCSV、GISとして取得できる」ものを軸に100個選んでいます。カテゴリ別に目次を用意したので、興味のある分野から読んでもらえればと思います。…",
     "hatenaDate": "2026-07-11T16:28:07Z",
     "users": [],
     "firstSeenAt": "2026-11-10T23:00:15.809447+09:00",
-    "lastSeenAt": "2026-11-11T13:45:13.546504+09:00",
+    "lastSeenAt": "2026-11-11T14:00:13.118191+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4379,20 +4393,6 @@
     "users": [],
     "firstSeenAt": "2026-11-07T06:00:13.396619+09:00",
     "lastSeenAt": "2026-11-07T20:30:16.327165+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "【重要】セキュリティ強化に伴う新規会員登録の仕様変更について - メンテナンス・障害情報 - DMMヘルプセンター",
-    "url": "https://support.dmm.com/announcements/875",
-    "domain": "support.dmm.com",
-    "count": 15,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/support.dmm.com/announcements/875",
-    "screenshot": null,
-    "description": "今後は、当社が利用可能と確認したドメインのメールアドレスのみがご登録いただけます。 また、登録済みメールアドレスの変更・再設定および復旧用メールアドレスの登録・変更の際も同様の仕様となります。 一時的に利用されるメールアドレス（ワンタイムメール・使い捨てメールアドレスなど） ご希望のメールアドレスで登録できない場合は、GmailやYahoo!メール、ドコモ、au、ソフトバンク等のキャリアメールなどでのご登録をお願いいたします。 お客様にはご不便をおかけいたしますが、安心してサービスをご利用いただくための対応として、何卒ご理解とご協力を賜りますようお願い申し上げます。",
-    "hatenaDate": "2026-11-02T09:46:09Z",
-    "users": [],
-    "firstSeenAt": "2026-11-07T04:00:15.454505+09:00",
-    "lastSeenAt": "2026-11-07T17:15:13.463956+09:00",
     "descriptionSource": "body"
   }
 ]
