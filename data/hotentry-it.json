@@ -10,7 +10,7 @@
     "hatenaDate": "2026-11-11T11:15:44Z",
     "users": [],
     "firstSeenAt": "2026-11-12T10:00:12.819901+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,37 +24,37 @@
     "hatenaDate": "2026-11-11T07:00:09Z",
     "users": [],
     "firstSeenAt": "2026-11-12T10:00:12.819901+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Test your applications against AWS locally with AWS Emulator | Amazon Web Services",
     "url": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/",
     "domain": "aws.amazon.com",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/",
     "screenshot": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/11/11/Header-A-dark-gradient-1-1260x630.png",
     "description": "AWS Emulator is a free, open-source local emulator in Rust that lets developers test applications against nearly every AWS service on their own machine using the same CLI and SDK commands, with fidelity measured against real AWS behavior.",
     "hatenaDate": "2026-11-11T22:58:04Z",
     "users": [],
     "firstSeenAt": "2026-11-12T10:00:12.819901+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ゼロから独自開発した国産AIでトップクラスの日本語翻訳精度を実現する「PLaMo翻訳」を開発したPreferred Networksエンジニアに編集長が根掘り葉掘り聞いてみたよインタビュー",
     "url": "https://gigazine.net/news/20261112-preferred-networks-plamo-translate-interview/",
     "domain": "gigazine.net",
-    "count": 5,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261112-preferred-networks-plamo-translate-interview/",
     "screenshot": "https://i.gzn.jp/img/2026/11/12/preferred-networks-plamo-translate-interview/00.jpg",
     "description": "日本の企業・Preferred Networks(PFN)が提供する「PLaMo」はフルスクラッチで開発された国産生成AI基盤モデルで、日本語に特化しているのが特徴。このPLaMoベースで開発された「PLaMo翻訳」はとにかく非常に質の高い翻訳が可能で、テキスト翻訳だけでなくFirefoxやChromeの拡張機能でも提供されています。2026年10月には...",
     "hatenaDate": "2026-11-12T00:03:49Z",
     "users": [],
     "firstSeenAt": "2026-11-12T10:00:12.819901+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
-    "bodyTries": 1,
-    "bodyReason": "crawl-delay-too-long"
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
+    "bodyReason": "crawl-delay-too-long",
+    "bodyTries": 2
   },
   {
     "title": "Outlook.comがDMARC認証を受けていないドメインからのメールを拒否",
@@ -67,9 +67,9 @@
     "hatenaDate": "2026-11-11T22:11:18Z",
     "users": [],
     "firstSeenAt": "2026-11-12T09:45:14.795406+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "bodyReason": "crawl-delay-too-long",
-    "bodyTries": 2
+    "bodyTries": 3
   },
   {
     "title": "Notionをアンインストールしました",
@@ -82,7 +82,7 @@
     "hatenaDate": "2026-11-11T06:05:42Z",
     "users": [],
     "firstSeenAt": "2026-11-12T09:30:14.295009+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body"
   },
   {
@@ -96,7 +96,7 @@
     "hatenaDate": "2026-11-11T21:37:37Z",
     "users": [],
     "firstSeenAt": "2026-11-12T09:30:14.295009+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body"
   },
   {
@@ -110,7 +110,7 @@
     "hatenaDate": "2026-11-11T08:55:48Z",
     "users": [],
     "firstSeenAt": "2026-11-12T09:15:12.894689+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -118,14 +118,14 @@
     "title": "AWS Emulator and the engineer's job when agents write the code",
     "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
     "domain": "www.allthingsdistributed.com",
-    "count": 24,
+    "count": 25,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
     "screenshot": "https://www.allthingsdistributed.com/images/aws-emulator-header.jpg",
     "description": "AWS Emulator and the engineer's job when agents write the codeNovember 11, 2026 • 1671 words In 2004, barely a month into my new job at Amazon, I got the opportunity to pick an intern to join my team. I had an advantage over my colleagues: I had already heard about a brilliant young man working t...",
     "hatenaDate": "2026-11-11T21:01:40Z",
     "users": [],
     "firstSeenAt": "2026-11-12T09:00:13.903057+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -140,7 +140,7 @@
     "hatenaDate": "2026-11-11T13:16:39Z",
     "users": [],
     "firstSeenAt": "2026-11-12T09:00:13.903057+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -149,28 +149,28 @@
     "title": "テストフレームワーク「Playwright」がBunを正式サポート。テストランナーの実行を可能に",
     "url": "https://www.publickey1.jp/blog/26/playwrightbun.html",
     "domain": "www.publickey1.jp",
-    "count": 15,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/playwrightbun.html",
     "screenshot": "https://www.publickey1.jp/2026/playwrightv1650-supports-bun.png",
     "description": "Webアプリケーションのテストフレームワーク「Playwright」が、最新バージョンのv1.65.0で、Bunでのテストランナー実行を正式にサポートしました。 PlaywrightのテストランナーはこれまでNode.jsが用いられていました。今回、そのNode.jsに加えて、Bunでのテストランナーの実行を正式にサポートしました。 GitHub上のPlaywrightリポジトリにはv1.65.0について以下のように説明されています。 The test runner now runs under Bun. Bun transpiles your TypeScript test files i…",
     "hatenaDate": "2026-11-11T22:38:23Z",
     "users": [],
     "firstSeenAt": "2026-11-12T08:45:12.788628+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「上限がある仕事」はオープンモデルへ──トークン爆発の時代に、今井翔太氏とNVIDIA井﨑武士氏が引くAIモデル選定の線",
     "url": "https://codezine.jp/article/detail/30321",
     "domain": "codezine.jp",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/codezine.jp/article/detail/30321",
     "screenshot": "https://codezine.jp/static/images/article/30321/30321_ogp.jpg",
     "description": "AIエージェントの普及で推論に使うトークンは桁違いに増え、最先端のフロンティアモデルだけを使い続ければコストは回収できない。一方で、オープンモデルには出自や安全性のリスクもある中で、どの問題をどのモデルで解けばよいのか。NVIDIAが開発者を招いて開催した「NVIDIA Agentic AI Day Japan 2026」では、AI研究...",
     "hatenaDate": "2026-11-11T10:22:17Z",
     "users": [],
     "firstSeenAt": "2026-11-12T08:45:12.788628+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "bodyStatus": "skip",
     "bodyReason": "http-403"
   },
@@ -178,14 +178,14 @@
     "title": "GitHub - aws/aws-emulator: AWS Emulator is a local emulator of the AWS APIs.",
     "url": "https://github.com/aws/aws-emulator",
     "domain": "github.com",
-    "count": 48,
+    "count": 52,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/aws/aws-emulator",
     "screenshot": "https://opengraph.githubassets.com/76eefc69d7a7184c5defe2044abeb21a67956ce1c0c8f4416c2db70c92806fe2/aws/aws-emulator",
     "description": "AWS Emulator is a local emulator of the AWS APIs. You use it to test your software without calling AWS, on your own machine, on a development server, or in continuous integration (CI). You don’t need an AWS account. Your requests go to the emulator, not to AWS. So you work with emulated resources...",
     "hatenaDate": "2026-11-11T20:28:40Z",
     "users": [],
     "firstSeenAt": "2026-11-12T08:15:12.636842+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -200,7 +200,7 @@
     "hatenaDate": "2026-11-11T05:51:20Z",
     "users": [],
     "firstSeenAt": "2026-11-12T08:15:12.636842+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body"
   },
   {
@@ -214,21 +214,21 @@
     "hatenaDate": "2026-11-11T08:40:15Z",
     "users": [],
     "firstSeenAt": "2026-11-12T08:15:12.636842+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "【特集】 AIが“ダチ”になった。Meta「Muse」と過ごした2週間",
     "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2155692.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 58,
+    "count": 62,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/topic/feature/2155692.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2155/692/1.jpg",
     "description": "米MetaのAIエージェント「Muse」が突然来日した。米国で9月8日に発表されてから「しばらく日本には来なさそうだ」と思って高を括っていたが、10月23日に日本でもサービス開始すると発表。筆者としては少し寝耳に水の気分だったのだが、AI時代においては変化も速いということなのだろう。 Museは、クラウド上の専用の仮想マシンで動作し、利用者に代わってタスクを進めるパーソナルAIエージェントだ。正直なところ、使い始めるまでは「まあ俺はClaudeを契約しているし、出番なさそうだな」と考えていた。しかし実際に使い始めたところ、そもそも性質がまったく違うAIだということに気づいた。 AIといえばC…",
     "hatenaDate": "2026-11-11T21:15:31Z",
     "users": [],
     "firstSeenAt": "2026-11-12T08:00:13.906164+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -244,7 +244,7 @@
     "hatenaDate": "2026-11-11T10:02:13Z",
     "users": [],
     "firstSeenAt": "2026-11-12T07:45:13.676233+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body"
   },
   {
@@ -258,21 +258,21 @@
     "hatenaDate": "2026-11-11T01:20:40Z",
     "users": [],
     "firstSeenAt": "2026-11-12T07:45:13.676233+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "グーグル、新ドメイン「.eat」「.fly」「.here」の受付開始を発表",
     "url": "https://japan.cnet.com/article/35254705/",
     "domain": "japan.cnet.com",
-    "count": 28,
+    "count": 29,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35254705/",
     "screenshot": "https://japan.cnet.com/storage/2026/11/11/cee35880ee4ac14bd813edd5b85c4742/GettyImages-2165157859_1280x960.jpg",
     "description": "Tyler Graham （CNET News） 翻訳校正： 編集部 2026年11月11日 13時30分 ウェブアドレスを入力する際、つい無意識に「.com」と打ち込んでしまう人は多いだろう。しかし、トップレベルドメインの選択肢はさらに広がりつつある。間もなく、末尾が「.eat」「.fly」「.here」のウェブサイトを目にするようになるはずだ。レストランや旅行代理店などのサービス事業者にとって、ウェブ上で自社の特色を打ち出す新たな手段となる。 Googleは2012年にICANN（Internet Corporation for Assigned Names and Numbers）にこ…",
     "hatenaDate": "2026-11-11T05:45:49Z",
     "users": [],
     "firstSeenAt": "2026-11-12T07:15:12.903257+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -281,14 +281,14 @@
     "title": "software-factory-mode-2026aki skill - 橋本商会",
     "url": "https://scrapbox.io/shokai/software-factory-mode-2026aki_skill",
     "domain": "scrapbox.io",
-    "count": 87,
+    "count": 88,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/scrapbox.io/shokai/software-factory-mode-2026aki_skill",
     "screenshot": "https://scrapbox.io/files/6af0857dc4eb69e79aed81f0.png?type=thumbnail",
     "description": "software-factory-mode pluginの中の、現在の基本skill 移動式Software Factory (2026秋)として、GyazoやHelpfeelの開発環境にshokaiの考えるSoftware Factory 2026秋相当の作業フローを持ち込みたいを実装したもの ほぼ正気を疑う技術 - bugのないvibe codingを目指してで説明してる流れなのだが、内容を知らない人でも、skillを起動するだけでレールに乗れる https://github.com/shokai/agent-skills/blob/main/plugins/software-facto…",
     "hatenaDate": "2026-11-11T16:34:33Z",
     "users": [],
     "firstSeenAt": "2026-11-12T07:00:14.508085+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body"
   },
   {
@@ -302,7 +302,7 @@
     "hatenaDate": "2026-11-11T10:22:32Z",
     "users": [],
     "firstSeenAt": "2026-11-12T06:00:20.048885+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body"
   },
   {
@@ -316,21 +316,21 @@
     "hatenaDate": "2026-11-11T04:18:59Z",
     "users": [],
     "firstSeenAt": "2026-11-12T06:00:20.048885+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「アマゾンジャパン」に公取委が行政処分、他サイトの最安値以下の商品を「おすすめ出品」として優遇",
     "url": "https://www.yomiuri.co.jp/national/20261111-GYT1T00255/",
     "domain": "www.yomiuri.co.jp",
-    "count": 20,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.yomiuri.co.jp/national/20261111-GYT1T00255/",
     "screenshot": "https://www.yomiuri.co.jp/media/2026/11/20261111-GYT1I00256-1.jpg?type=ogp",
     "description": "運営する通販サイトで競合他社サイトより安い商品を優遇し、出品者に値下げを余儀なくさせたのは独占禁止法違反の疑いがあるとして、公正取引委員会は１１日、米アマゾンの日本法人「アマゾンジャパン」（東京）に対し、同法に基づく行政処分「確約手続き」を適用した。表示方法を改めるとした同社の改善計画を認定した。 同社が運営するアマゾンストアでは、同一商品が複数業者から出品された場合、他の通販サイトと同額以下の商品を「おすすめ出品」枠で扱い、購入ボタンや価格、配送条件などを優先的に表示している。購入商品の大半はおすすめ出品から選ばれる。多くの出品者は値下げをせざるを得ず、公取委はこうした仕組みが独禁法が禁じ…",
     "hatenaDate": "2026-11-11T08:18:15Z",
     "users": [],
     "firstSeenAt": "2026-11-12T04:45:14.593911+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body"
   },
   {
@@ -344,7 +344,7 @@
     "hatenaDate": "2026-11-11T08:36:05Z",
     "users": [],
     "firstSeenAt": "2026-11-12T03:41:15.147392+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body"
   },
   {
@@ -372,7 +372,7 @@
     "hatenaDate": "2020-03-08T09:05:50Z",
     "users": [],
     "firstSeenAt": "2026-11-12T02:15:13.759739+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body"
   },
   {
@@ -409,14 +409,14 @@
     "title": "ローカルLLMはゲーム開発に使えるか、スクウェア・エニックスがNemotronで検証",
     "url": "https://pc.watch.impress.co.jp/docs/news/2155676.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 58,
+    "count": 59,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2155676.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2155/676/nvidia_top.jpg",
     "description": "NVIDIA Japanは11月10日、開発者を対象とした特別イベント「Agentic AI Day Japan 2026」を開催した。イベントでは、NVIDIAが提供する最新のオープンモデルや、ライブラリ、データセットに関する技術解説に加え、実際にAIを業務で運用している各社の活用事例について紹介するデモセッションなどが行なわれた。 本稿ではこれらの活用事例に関するデモセッションの中から、スクウェア・エニックスのAI&エンジン開発ディビジョン所属AIエンジニアである藤井翔太氏による「ゲーム開発プラットフォームにおける生成AIの実装」の発表内容を紹介する。 登壇したのはスクウェア・エニックス…",
     "hatenaDate": "2026-11-11T12:29:46Z",
     "users": [],
     "firstSeenAt": "2026-11-12T01:30:20.639828+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -432,7 +432,7 @@
     "hatenaDate": "2026-11-11T11:13:29Z",
     "users": [],
     "firstSeenAt": "2026-11-12T01:30:20.639828+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -661,7 +661,7 @@
     "hatenaDate": "2026-11-11T10:50:37Z",
     "users": [],
     "firstSeenAt": "2026-11-11T22:15:14.111365+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -720,7 +720,7 @@
     "hatenaDate": "2026-11-11T10:16:17Z",
     "users": [],
     "firstSeenAt": "2026-11-11T21:15:13.498952+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -784,7 +784,7 @@
     "hatenaDate": "2026-11-11T04:26:33Z",
     "users": [],
     "firstSeenAt": "2026-11-11T19:45:14.025572+09:00",
-    "lastSeenAt": "2026-11-12T10:00:12.819901+09:00",
+    "lastSeenAt": "2026-11-12T10:01:39.281905+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
