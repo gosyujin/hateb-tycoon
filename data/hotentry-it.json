@@ -1,16 +1,30 @@
 [
   {
+    "title": "「Qoo10」不正アクセス、個人情報漏えい　「住所の地理座標」や「身体的特徴」も対象の可能性",
+    "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003186/",
+    "domain": "www.itmedia.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/13/2000003186/",
+    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/13/2000003186/10012101/2048",
+    "description": "会員数3000万人超の大手ECモール「Qoo10」（キューテン）を運営するeBay Japanは11月12日、6日に同社のシステムが不正アクセスを受け、一部の個人情報が閲覧されたと発表した。氏名や住所の他、住所の地理座標、顧客が任意で入力した身体的特徴などが含まれる可能性があるという。 対象となる可能性がある個人情報には、氏名、ニックネーム、メールアドレス、電話番号、生年月日、性別、プロフィール情報、住所と配送先住所、住所の地理座標、顧客セグメント情報、顧客が任意で入力した身体的特徴、アカウント識別情報、IPアドレス、個人メモ、サイト内ポイント残高が含まれる可能性があるという。 同社は不正ア…",
+    "hatenaDate": "2026-11-13T04:40:27Z",
+    "users": [],
+    "firstSeenAt": "2026-11-13T17:45:12.592692+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "総務省が新しい無料オンライン講座「統計解析プログラミング」を1月に開講　Pythonでのデータ分析が4週間で学べる",
     "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/13/news013.html",
     "domain": "atmarkit.itmedia.co.jp",
-    "count": 8,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2611/13/news013.html",
     "screenshot": "https://image.itmedia.co.jp/ait/articles/2611/13/cover_news013.jpg",
     "description": "Deep Insider Brief ― 技術の“今”にひと言コメント 総務省統計局が、Pythonで統計解析と主要な分析手法を学ぶ無料オンライン講座「“わかる・使える”統計解析プログラミング」を2027年1月12日に新規開講する。主成分分析、回帰分析、ランダムフォレストから需要予測の演習まで、4週間の中身と受講の条件を整理する。 総務省は2026年11月10日、データサイエンス・オンライン講座の新講座「“わかる・使える”統計解析プログラミング」の受講者募集を開始した。開講は2027年1月12日（火）で、3月16日（火）まで。オンライン学習サービス「gacco（ガッコ）」で受講登録でき、登録…",
     "hatenaDate": "2026-11-13T00:15:26Z",
     "users": [],
     "firstSeenAt": "2026-11-13T16:45:12.912750+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +38,7 @@
     "hatenaDate": "2026-11-13T02:53:35Z",
     "users": [],
     "firstSeenAt": "2026-11-13T16:45:12.912750+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +52,7 @@
     "hatenaDate": "2026-11-12T22:36:09Z",
     "users": [],
     "firstSeenAt": "2026-11-13T16:30:13.617019+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -46,14 +60,14 @@
     "title": "Googleが無料で使える高性能AI「Gemini 4 Hydrogen」を発表、従来モデルの2.5倍の速度で動作し競合AIを上回る性能も発揮",
     "url": "https://gigazine.net/news/20261113-gemini-4-hydrogen/",
     "domain": "gigazine.net",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261113-gemini-4-hydrogen/",
     "screenshot": "https://i.gzn.jp/img/2026/11/13/gemini-4-hydrogen/00.jpg",
     "description": "Googleが2026年11月12日に新たなAIモデル「Gemini 4 Hydrogen」を発表しました。従来の高速モデル「Gemini 3.8 Flash」と比べて処理速度と推論能力が大幅に向上しており、プログラミングや資料作成などの複雑な作業を効率的に進められるとのこと。GeminiアプリやGoogle検索などでも利用可能です。 Introducing Gemini 4 ...",
     "hatenaDate": "2026-11-13T03:22:56Z",
     "users": [],
     "firstSeenAt": "2026-11-13T16:15:14.957219+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -68,7 +82,7 @@
     "hatenaDate": "2026-11-13T03:24:40Z",
     "users": [],
     "firstSeenAt": "2026-11-13T15:30:16.283253+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body"
   },
   {
@@ -82,7 +96,7 @@
     "hatenaDate": "2026-11-13T00:29:01Z",
     "users": [],
     "firstSeenAt": "2026-11-13T15:15:13.687728+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -97,7 +111,7 @@
     "hatenaDate": "2026-11-13T04:50:03Z",
     "users": [],
     "firstSeenAt": "2026-11-13T15:15:13.687728+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body"
   },
   {
@@ -118,14 +132,14 @@
     "title": "ぼくのClaude Codeの使い方",
     "url": "https://speakerdeck.com/falken/boku-no-claude-code-no-tsukaikata",
     "domain": "speakerdeck.com",
-    "count": 37,
+    "count": 40,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/falken/boku-no-claude-code-no-tsukaikata",
     "screenshot": "https://files.speakerdeck.com/presentations/9c2451b8b99f4a269ce6f420bc0480ae/slide_0.jpg?41338374",
     "description": "Sapporo Claude Code Meetup LT, 2026/11/12 ぼくのClaude Codeの使い⽅ テッダー マイケル 株式会社コールド‧フュージョン 環境と安全 Claude専⽤のユーザーで、確認なしに作業させる Ubuntu LXC claude sudoなし --permission-mode bypassPermissions 被害は ~/ 環境と安全 ネットワーク越しの権限は、アカウントごとに制限 SSH(公開鍵)‧それぞれ⼀般ユーザー claude コンテナ Windows 11 VM Mac mini Raspberry Pi GitHub mainへの直…",
     "hatenaDate": "2026-11-12T15:11:52Z",
     "users": [],
     "firstSeenAt": "2026-11-13T15:00:15.711672+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -141,7 +155,7 @@
     "hatenaDate": "2026-11-13T01:02:22Z",
     "users": [],
     "firstSeenAt": "2026-11-13T15:00:15.711672+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body"
   },
   {
@@ -183,7 +197,7 @@
     "hatenaDate": "2026-11-12T00:17:35Z",
     "users": [],
     "firstSeenAt": "2026-11-13T14:45:16.583486+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body"
   },
   {
@@ -197,7 +211,7 @@
     "hatenaDate": "2026-11-13T00:33:50Z",
     "users": [],
     "firstSeenAt": "2026-11-13T14:30:15.538490+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body"
   },
   {
@@ -218,14 +232,14 @@
     "title": "2026年11月に発生したMicrosoft 365の接続障害についてまとめてみた - piyolog",
     "url": "https://piyolog.hatenadiary.jp/entry/2026/11/13/114230",
     "domain": "piyolog.hatenadiary.jp",
-    "count": 75,
+    "count": 79,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/11/13/114230",
     "screenshot": "https://ogimage.blog.st-hatena.com/10257846132616586766/14729835035337762288/1794542036",
     "description": "2026年11月13日、Microsoftは、Exchange Onlineを中心に複数のMicrosoft 365サービスで接続障害が起きていると公表しました。ここでは関連する情報をまとめます。 障害はExchange Onlineのメールボックスに接続できない問題として始まり、複数のMicrosoft 365サービスへ広がった。管理センターのインシデントはExchange Online分のEX1550543と、複数サービス分のMO1550821の2件。 以下、時刻は日本時間。Microsoftの公表はUTCで、必要な箇所に併記する。 管理センターはEX1550543の開始を13日1時17…",
     "hatenaDate": "2026-11-13T03:20:28Z",
     "users": [],
     "firstSeenAt": "2026-11-13T13:15:12.690918+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -270,21 +284,21 @@
     "hatenaDate": "2026-11-12T23:24:46Z",
     "users": [],
     "firstSeenAt": "2026-11-13T13:15:12.690918+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "【笠原一輝のユビキタス情報局】 フアン氏辞任のNVIDIA、33年の成功を支えたCUDAと次のリーダーの条件",
     "url": "https://pc.watch.impress.co.jp/docs/column/ubiq/2156149.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 36,
+    "count": 37,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/ubiq/2156149.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2156/149/001.jpg",
     "description": "NVIDIAのジェンスン・フアンCEOが辞任した(現地時間11月12日)。その後任として、同社執行副社長兼最高財務責任者(CFO)であるコレット・クレス氏が暫定CEOに就任することが明らかにされた。 フアン氏は、日本では政府関係者などに会うとき以外の公式の場には必ず革ジャンを着て登場したことから、「革ジャンCEO」の異名でも知られている。NVIDIAを創業以来33年にわたりリードしてきたジェンスン・フアン氏の辞任は、同社にとって計り知れない衝撃と混乱をもたらすことは必至だ。 そうした渦中にある巨大企業のNVIDIAが、これまでどのように成長してきたのか、歴史を振り返りながら、次のNVIDIA…",
     "hatenaDate": "2026-11-13T02:15:10Z",
     "users": [],
     "firstSeenAt": "2026-11-13T13:15:12.690918+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -358,7 +372,7 @@
     "hatenaDate": "2026-11-12T23:21:50Z",
     "users": [],
     "firstSeenAt": "2026-11-13T12:24:00.826936+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body"
   },
   {
@@ -386,7 +400,7 @@
     "hatenaDate": "2026-11-13T00:44:06Z",
     "users": [],
     "firstSeenAt": "2026-11-13T12:15:28.608215+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -444,7 +458,7 @@
     "hatenaDate": "2026-11-13T01:08:26Z",
     "users": [],
     "firstSeenAt": "2026-11-13T11:00:23.451591+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -453,14 +467,14 @@
     "title": "AIが作成?画像は別人?選挙ポスター複数掲示　作成費に公費支出　尼崎市議補選、戸惑う有権者",
     "url": "https://www.kobe-np.co.jp/news/society/202611/0021027302.shtml",
     "domain": "www.kobe-np.co.jp",
-    "count": 72,
+    "count": 73,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.kobe-np.co.jp/news/society/202611/0021027302.shtml",
     "screenshot": "https://i.kobe-np.co.jp/news/society/202611/img/a_21027303.jpg",
     "description": "１５日投開票の兵庫県尼崎市議補選（欠員１）で、生成人工知能（ＡＩ）で作成したとみられる人物の選挙ポスターが複数掲示されている。市選挙管理委員会によると、少なくとも１人の顔は「候補者と全く違う」。選挙ポスターを巡っては昨年５月、品位保持などを目的に改正公選法が施行されたが具体的な基準はない。顔を知ってもらうはずのポスターだが、有権者からは「一体何のために」と戸惑いの声が上がっている。 同補選には元職１人と新人１１人の計１２人が立候補。市内の掲示板には、候補者の名前と写真やキャッチフレーズがデザインされたポスターが並ぶ。神戸新聞社が、生成ＡＩで作られたものかどうかを識別する「ＳｙｎｔｈＩＤ（シン…",
     "hatenaDate": "2026-11-13T01:21:49Z",
     "users": [],
     "firstSeenAt": "2026-11-13T11:00:23.451591+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -476,7 +490,7 @@
     "hatenaDate": "2026-11-12T18:36:08Z",
     "users": [],
     "firstSeenAt": "2026-11-13T10:45:13.922265+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -505,21 +519,21 @@
     "hatenaDate": "2026-11-12T22:20:37Z",
     "users": [],
     "firstSeenAt": "2026-11-13T09:00:13.098436+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AIエージェントが決定を勝手に変えてしまった5つのパターンと工夫",
     "url": "https://zenn.dev/dress_code/articles/568fd547315abe",
     "domain": "zenn.dev",
-    "count": 69,
+    "count": 70,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/dress_code/articles/568fd547315abe",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--UQdRqE-I--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%258C%25E6%25B1%25BA%25E5%25AE%259A%25E3%2582%2592%25E5%258B%259D%25E6%2589%258B%25E3%2581%25AB%25E5%25A4%2589%25E3%2581%2588%25E3%2581%25A6%25E3%2581%2597%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F5%25E3%2581%25A4%25E3%2581%25AE%25E3%2583%2591%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%25B3%25E3%2581%25A8%25E5%25B7%25A5%25E5%25A4%25AB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%2584%25E3%2581%25A3%25E3%2581%2597%25E3%2583%25BC%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRiOGMxZmU1MDUuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_40%2Cl_default:og-publication-connect-mark-v1_hx1oxd%2Cw_40%2Cx_214%2Cy_155/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:DRESS%2520CODE%2520TECH%2520BLOG%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzdiZjU2MDZlYjMuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "こんにちは。Dress Code の HR Force チームで給与ドメインを担当している、いっしーです。 僕はほぼ一日中、Claude Code や Codex に何かしら任せています。仕事では、決定とその理由を ADR に、実装する動作を OpenSpec の仕様書に残し、エージェントにはそれらを読ませてから作業させています。 たとえば、仕様について質問しただけなのに、仕様を変える指示として記録されていたことがありました。了承していない提案が、次の作業では決定済みとして扱われていたこともあります。 この記事では、AIエージェントが決定を勝手に変えてしまった5つのパターンを紹介します。9月…",
     "hatenaDate": "2026-11-12T03:01:52Z",
     "users": [],
     "firstSeenAt": "2026-11-13T09:00:13.098436+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -528,28 +542,28 @@
     "title": "GitHub - tsukumijima/YacchoGPT: ヤッチョGPT: ヤオヨロ〜！雑談も調べ物も悩み相談もお任せあれ！✨",
     "url": "https://github.com/tsukumijima/YacchoGPT",
     "domain": "github.com",
-    "count": 45,
+    "count": 46,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/tsukumijima/YacchoGPT",
     "screenshot": "https://opengraph.githubassets.com/515ac6495e0223213d57032dc36d340da74e32a26b9309d5b085f7dfb9ab9c42/tsukumijima/YacchoGPT",
     "description": "「超かぐや姫！」に登場するキャラクター「月見ヤチヨ」を、各種 LLM をよりしろに「召喚」するためのプロンプトです。 雑談、調べ物、お悩み相談、作中の出来事についての会話など、幅広い用途でヤチヨらしく返答します。 このページに辿り着いた時点でさすがに未鑑賞の方がいるはずないとは思いますが、もし万が一まだ観ていない方は「2回以上」鑑賞してからの利用を強く推奨します。 以下の作成済みの GPTs / Gem のリンクから、すぐにヤッチョGPTと会話できます。 もちろん、ご自分の好みに合わせて調整して、独自に GPTs や Gem を作成することもできます。 以下の作成済み GPTs / Gemi…",
     "hatenaDate": "2026-06-14T22:55:00Z",
     "users": [],
     "firstSeenAt": "2026-11-13T08:45:12.904349+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "インシデント調査報告書チェックリスト",
     "url": "https://jpcertcc.github.io/ir_report_checklist/index.html",
     "domain": "jpcertcc.github.io",
-    "count": 58,
+    "count": 59,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/jpcertcc.github.io/ir_report_checklist/index.html",
     "screenshot": null,
     "description": "インシデント調査を依頼する組織がベンダーと調査方針の合意を行う際や、受領した報告書の最低限の確認に使用します。 - ユーザー向けチェックリストは、インシデント調査を依頼する組織が、調査を担当する組織やベンダーとの合意、および受領した報告書の確認に使用します。 調査開始前に「調査方針の合意」を確認し、調査目的、優先事項、調査対象、調査手法、報告形式、期限などについて合意します。 報告書を受領した際は「調査結果のレビュー」を使用し、合意した調査目的への回答、調査対象、根拠、判断できない事項、追加調査、再発防止策などが記載されているか確認します。 報告書の各章をより詳しく確認する場合は、「報告書の…",
     "hatenaDate": "2026-11-11T13:20:41Z",
     "users": [],
     "firstSeenAt": "2026-11-13T08:45:12.904349+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -565,7 +579,7 @@
     "hatenaDate": "2026-11-12T14:09:31Z",
     "users": [],
     "firstSeenAt": "2026-11-13T08:30:14.061231+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body"
   },
   {
@@ -579,7 +593,7 @@
     "hatenaDate": "2026-11-12T14:37:20Z",
     "users": [],
     "firstSeenAt": "2026-11-13T08:15:16.394689+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -595,7 +609,7 @@
     "hatenaDate": "2026-11-12T20:05:49Z",
     "users": [],
     "firstSeenAt": "2026-11-13T08:00:14.029716+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -610,7 +624,7 @@
     "hatenaDate": "2026-11-12T22:12:28Z",
     "users": [],
     "firstSeenAt": "2026-11-13T07:43:08.456006+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -635,14 +649,14 @@
     "title": "マイクロソフト365大規模障害、「サイバー攻撃を示唆する事実ない」 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOGN12CY20S6A111C2000000/",
     "domain": "www.nikkei.com",
-    "count": 166,
+    "count": 167,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN12CY20S6A111C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3872596013112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=e394107cc2b715abd37d36b06e8b630b",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 【シリコンバレー=山田遼太郎】米マイクロソフトの業務ソフト「マイクロソフト365」で日本時間13日未明から大規模な障害が起きた。世界各地で電子メールソフトに接続できない不具合が生じ、ビジネスに支障が出ている。日本も対象とみられる。 マイクロソフトは日本時間13日午前3時（米西部時間12日午前10時ごろ）、X（旧ツイッター）への投稿で障害の発生を明らかにした。 メールソフト「Outlook（アウトルック）」をはじめ、業務ソフトを使う「あらゆる地域のユーザーに影響する可能性がある」とした。 ウェブサー…",
     "hatenaDate": "2026-11-12T20:58:39Z",
     "users": [],
     "firstSeenAt": "2026-11-13T07:00:14.130970+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -651,14 +665,14 @@
     "title": "マイクロソフトで接続障害が発生 世界各地に影響のおそれ | NHKニュース",
     "url": "https://news.web.nhk/newsweb/na/nd-20261113de75121",
     "domain": "news.web.nhk",
-    "count": 303,
+    "count": 307,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261113de75121",
     "screenshot": "https://imgu.web.nhk/news/u/news/nd/kiji/20261113de75121/20261113de75121_E0000170396_1_l.jpg",
     "description": "JUST IN山形 寒河江 住宅火災で1人の遺体 住人3人と連絡つかず(06:42) アメリカのIT大手「マイクロソフト」は、「マイクロソフト365」と呼ばれるメールやAIチャット、それにファイル保管などのサービスで世界的な接続障害が発生していると発表しました。",
     "hatenaDate": "2026-11-12T20:59:02Z",
     "users": [],
     "firstSeenAt": "2026-11-13T06:45:13.416641+09:00",
-    "lastSeenAt": "2026-11-13T17:30:13.901671+09:00",
+    "lastSeenAt": "2026-11-13T17:45:12.592692+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4369,19 +4383,5 @@
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
-  },
-  {
-    "title": "国立大学法人 電気通信大学",
-    "url": "https://www.uec.ac.jp/news/newsrelease/2026/20261109_8080.html",
-    "domain": "www.uec.ac.jp",
-    "count": 12,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.uec.ac.jp/news/newsrelease/2026/20261109_8080.html",
-    "screenshot": "https://www.uec.ac.jp/images/x_card.jpg",
-    "description": "【ニュースリリース】自らまいた種の成長で動き続ける環境共生型の植物ロボットを開発 【ニュースリリース】自らまいた種の成長で動き続ける環境共生型の植物ロボットを開発 新竹純准教授（機械知能システム学専攻）らの研究グループは、自らまいた種の成長を利用して移動と種まきを繰り返す「環境共生型植物ロボット」を開発しました。ロボットは内部に蓄えた種を地面にまき、その種が発芽・成長して生み出す力を回転運動に変換して前進します。その回転によって次の種がまかれ、「種まき→発芽→成長→再び種まき」のサイクルが連続的に繰り返されます。電池やモータを搭載せず、植物の成長と機械構造の組み合わせによって、この循環を実現…",
-    "hatenaDate": "2026-11-09T04:56:45Z",
-    "users": [],
-    "firstSeenAt": "2026-11-10T10:15:13.838354+09:00",
-    "lastSeenAt": "2026-11-10T13:00:14.778686+09:00",
-    "descriptionSource": "body"
   }
 ]
