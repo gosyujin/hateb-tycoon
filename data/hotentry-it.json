@@ -1,5 +1,20 @@
 [
   {
+    "title": "Announcing the GraphQL over HTTP specification | GraphQL",
+    "url": "https://graphql.org/blog/2026-11-12-announcing-the-graphql-over-http-spec/",
+    "domain": "graphql.org",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/graphql.org/blog/2026-11-12-announcing-the-graphql-over-http-spec/",
+    "screenshot": "https://graphql.org/og/?v=3&path=%2Fblog%2F2026-11-12-announcing-the-graphql-over-http-spec%2F&title=Announcing+the+GraphQL+over+HTTP+specification&byline=GraphQL+TSC&date=2026-11-12",
+    "description": "Announcing the GraphQL over HTTP specificationGraphQL TSCNovember 12, 2026 Since the initial release of GraphQL in 2015, the GraphQL specification has always been transport agnostic. Most of the GraphQL specification is about “services”, taking “requests” in, executing them, and producing “respon...",
+    "hatenaDate": "2026-11-12T23:48:44Z",
+    "users": [],
+    "firstSeenAt": "2026-11-14T09:19:15.984252+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
+    "bodyStatus": "skip",
+    "bodyReason": "not-longer"
+  },
+  {
     "title": "The Home Repo Pattern",
     "url": "https://www.aihero.dev/the-home-repo-pattern",
     "domain": "www.aihero.dev",
@@ -10,7 +25,7 @@
     "hatenaDate": "2026-11-12T12:22:50Z",
     "users": [],
     "firstSeenAt": "2026-11-14T09:00:14.327690+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -25,7 +40,7 @@
     "hatenaDate": "2026-11-13T22:02:09Z",
     "users": [],
     "firstSeenAt": "2026-11-14T08:45:14.104813+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
@@ -39,7 +54,7 @@
     "hatenaDate": "2026-11-13T11:33:08Z",
     "users": [],
     "firstSeenAt": "2026-11-14T08:30:15.130418+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
@@ -53,7 +68,7 @@
     "hatenaDate": "2026-11-13T14:24:54Z",
     "users": [],
     "firstSeenAt": "2026-11-14T08:30:15.130418+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
@@ -67,7 +82,7 @@
     "hatenaDate": "2026-11-13T21:47:23Z",
     "users": [],
     "firstSeenAt": "2026-11-14T08:15:13.967517+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
@@ -81,35 +96,35 @@
     "hatenaDate": "2026-11-13T13:27:39Z",
     "users": [],
     "firstSeenAt": "2026-11-14T08:15:13.967517+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "『検索システム』『推薦システム』とLLM時代の検索推薦 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
     "url": "https://joisino.hatenablog.com/entry/searchrecbook",
     "domain": "joisino.hatenablog.com",
-    "count": 51,
+    "count": 52,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/joisino.hatenablog.com/entry/searchrecbook",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/d5c90eb051b7f12f50fe0e47e38459f3884c8866/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fj%2Fjoisino%2F20261111%2F20261111174347.png",
     "description": "これらはその名の通り検索システムと推薦システムの教科書です。LLM 時代の新基準になることを目指して執筆しました。すべてのログデータをプロンプトに入れて「これを前提に何を推薦すればいいか」と LLM に訊くという投げやりな推薦アルゴリズムすらあるような時代です。この教科書では、そのようなものからエージェントベースの手の込んだ手法まで、LLM 時代の手法を詳しく解説しました。もちろん、転置インデックスや行列分解などの古典的な手法も丁寧に解説し、またそれだけでなく、古典的な手法と LLM 時代の手法のシナジー効果を生む手法や、それぞれの使い分け場面についても解説し、骨太の解説になるように心がけま…",
     "hatenaDate": "2026-11-13T10:50:54Z",
     "users": [],
     "firstSeenAt": "2026-11-14T06:45:13.064825+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Firefoxの内蔵VPNを無料＆データ通信量無制限で全ユーザーに提供するとMozillaが発表、2027年1月31日まで",
     "url": "https://gigazine.net/news/20261113-firefox-vpn/",
     "domain": "gigazine.net",
-    "count": 38,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261113-firefox-vpn/",
     "screenshot": "https://i.gzn.jp/img/2026/11/13/firefox-vpn/00.png",
     "description": "Firefoxブラウザには無料のVPNが内蔵されており、ウェブサイトがIPアドレスを使ってユーザーの所在地を特定したり、ウェブ上のアクセス履歴を追跡したりすることを制限することができます。通常は内蔵VPNを利用するにはサインインした上で月間50GBのデータ制限がありますが、2026年11月10日から2027年1月31日までの期間...",
     "hatenaDate": "2026-11-13T09:17:59Z",
     "users": [],
     "firstSeenAt": "2026-11-14T06:45:13.064825+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -124,7 +139,7 @@
     "hatenaDate": "2026-11-13T14:22:52Z",
     "users": [],
     "firstSeenAt": "2026-11-14T06:15:17.824383+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
@@ -138,7 +153,7 @@
     "hatenaDate": "2026-11-13T00:53:55Z",
     "users": [],
     "firstSeenAt": "2026-11-14T04:30:12.941007+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -154,7 +169,7 @@
     "hatenaDate": "2026-11-13T13:27:08Z",
     "users": [],
     "firstSeenAt": "2026-11-14T00:45:19.313577+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -163,14 +178,14 @@
     "title": "オンラインゲームポータルサイト『ハンゲ（hange）』不正アクセスについて(第4報) | ENSAPIA Tokyo株式会社",
     "url": "https://ensapia-tokyo.com/news/topics/id=21412/",
     "domain": "ensapia-tokyo.com",
-    "count": 9,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ensapia-tokyo.com/news/topics/id=21412/",
     "screenshot": null,
     "description": "当社のオンラインゲームポータルサイト『ハンゲ（hange）』への第三者による不正アクセスを受け、調査を行ってまいりました。この度大変遺憾ながら、お客様の個人情報の一部が外部に漏えいしたことが判明いたしました。 お客様および関係者の皆様には、多大なるご迷惑とご心配をおかけすることになりましたことを、深くお詫び申し上げます。 現時点で判明している事実および当社の対応について、下記のとおりご報告いたします。 2026年11月3日、『ハンゲ（hange）』のサーバーに対する外部からの不正アクセスが行われた可能性を検知いたしました。同日、緊急メンテナンスにより、不正アクセスがあった通信経路の遮断および…",
     "hatenaDate": "2026-11-13T08:38:59Z",
     "users": [],
     "firstSeenAt": "2026-11-13T23:30:14.744625+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
@@ -184,7 +199,7 @@
     "hatenaDate": "2026-11-13T00:56:24Z",
     "users": [],
     "firstSeenAt": "2026-11-13T23:30:14.744625+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
@@ -198,7 +213,7 @@
     "hatenaDate": "2026-11-13T11:08:58Z",
     "users": [],
     "firstSeenAt": "2026-11-13T23:00:14.106539+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
@@ -212,7 +227,7 @@
     "hatenaDate": "2026-11-13T12:34:09Z",
     "users": [],
     "firstSeenAt": "2026-11-13T22:30:15.242252+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -228,7 +243,7 @@
     "hatenaDate": "2026-11-13T09:55:47Z",
     "users": [],
     "firstSeenAt": "2026-11-13T22:00:21.936639+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -251,14 +266,14 @@
     "title": "【pstack】AIに敵対的レビューをさせるな。トークンは検証に使え",
     "url": "https://zenn.dev/karamage/articles/5c3f8370b2b370",
     "domain": "zenn.dev",
-    "count": 62,
+    "count": 63,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/karamage/articles/5c3f8370b2b370",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--WCCj0x2z--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590pstack%25E3%2580%2591AI%25E3%2581%25AB%25E6%2595%25B5%25E5%25AF%25BE%25E7%259A%2584%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%2592%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%25E3%2581%25AA%25E3%2580%2582%25E3%2583%2588%25E3%2583%25BC%25E3%2582%25AF%25E3%2583%25B3%25E3%2581%25AF%25E6%25A4%259C%25E8%25A8%25BC%25E3%2581%25AB%25E4%25BD%25BF%25E3%2581%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:karamage%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc0NTAwMmJiMzQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "AIが書いたコードをマルチエージェントで多角的な視点で別のAIに容赦なく叩かせ、 ところが、かなりトークンを注ぎ込んだPRからあっさり本番バグが出てしまい、以下の疑問にはじめて気づきました。 理由: コードの差分だけを渡されたAIは、揚げ足取りといつか必要になるかもという未来を先取りした提案に迷い込むからです この記事では私の失敗談と、エージェントスキル集「pstack」の考え方をもとに、この結論にたどり着いた理由を書きます。 敵対的レビュー（adversarial review）は、あるAIが書いたコードを別のAIに「欠点を探せ」と指示してレビューさせる手法です。 Claude に書かせた…",
     "hatenaDate": "2026-11-13T06:02:40Z",
     "users": [],
     "firstSeenAt": "2026-11-13T22:00:21.936639+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -274,7 +289,7 @@
     "hatenaDate": "2026-11-13T07:26:33Z",
     "users": [],
     "firstSeenAt": "2026-11-13T21:30:13.475862+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -282,14 +297,14 @@
     "title": "400gを切るモバイルモニター（タッチ対応）と Samsung DeX との相性が良い - えいのうにっき",
     "url": "https://blog.a-know.me/entry/2026/11/12/225133",
     "domain": "blog.a-know.me",
-    "count": 21,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.a-know.me/entry/2026/11/12/225133",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/b7b3b39a547974236fba42cc4b455db955665329/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fa%2Fa-know%2F20261112%2F20261112220211.jpg",
     "description": "主にコンテンツを消費することを目的として、ずっと12.9インチの iPad Pro（2018, 第3世代）を愛用していたのですが、いつの間にやら子供に奪われてしまっておりまして。 「それなら仕方がない、もう一台買うか」.....とは、昨今の物価高のなかでは簡単に決断できず。さてどうしたものかと考えあぐねていると、Amazon で↓のような商品を見つけまして。 【2026 7月新登場】cocopar モバイルモニター 13.3インチ タッチ 超軽量395g 非光沢IPS sRGB100% 薄い 1200P | 16:10 1920*1200 WUXGA FreeSync/ブルーライトカット T…",
     "hatenaDate": "2026-11-13T00:32:45Z",
     "users": [],
     "firstSeenAt": "2026-11-13T21:15:11.726677+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
@@ -303,7 +318,7 @@
     "hatenaDate": "2026-11-13T06:55:30Z",
     "users": [],
     "firstSeenAt": "2026-11-13T21:00:15.515152+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
@@ -317,7 +332,7 @@
     "hatenaDate": "2026-11-13T06:21:05Z",
     "users": [],
     "firstSeenAt": "2026-11-13T21:00:15.515152+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
@@ -345,7 +360,7 @@
     "hatenaDate": "2026-11-13T07:47:29Z",
     "users": [],
     "firstSeenAt": "2026-11-13T21:00:15.515152+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
@@ -359,7 +374,7 @@
     "hatenaDate": "2026-11-13T04:20:24Z",
     "users": [],
     "firstSeenAt": "2026-11-13T20:45:14.070774+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
@@ -388,21 +403,21 @@
     "hatenaDate": "2026-11-13T08:29:46Z",
     "users": [],
     "firstSeenAt": "2026-11-13T20:30:12.039953+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "絶対に「お金の管理」だけはAIに任せてはならない理由",
     "url": "https://japan.cnet.com/article/35254833/",
     "domain": "japan.cnet.com",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35254833/",
     "screenshot": "https://japan.cnet.com/storage/2026/11/13/53b4d05146afdef7b19d751c05944ca2/GettyImages-2299572954_1280x960.jpg",
     "description": "Dashia Milden （CNET News） 翻訳校正： 編集部 2026年11月13日 15時25分 Metaの「Muse」や「OpenClaw」、OpenAIの「dots」といったエージェントが、AI分野で大きな話題になっている。これらは、情報を提供するチャットボット以上のことができるとうたっている。依頼に応じて実際に行動できるツールなのだ。 AIエージェントの利用を始める際には、アプリやブラウザー、データを使って作業できるよう、アクセスを許可するよう求められることがある。それによって、思いも寄らない形で自分のお金が危険にさらされるかもしれない。 「カレンダーの管理のような、簡単な…",
     "hatenaDate": "2026-11-13T06:34:21Z",
     "users": [],
     "firstSeenAt": "2026-11-13T20:30:12.039953+09:00",
-    "lastSeenAt": "2026-11-14T08:45:14.104813+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body"
   },
   {
@@ -445,7 +460,7 @@
     "hatenaDate": "2026-11-13T09:58:17Z",
     "users": [],
     "firstSeenAt": "2026-11-13T19:30:16.953141+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -531,7 +546,7 @@
     "hatenaDate": "2026-11-13T05:21:58Z",
     "users": [],
     "firstSeenAt": "2026-11-13T18:15:11.047083+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -603,7 +618,7 @@
     "hatenaDate": "2026-11-13T00:15:26Z",
     "users": [],
     "firstSeenAt": "2026-11-13T16:45:12.912750+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -720,7 +735,7 @@
     "hatenaDate": "2026-11-12T15:11:52Z",
     "users": [],
     "firstSeenAt": "2026-11-13T15:00:15.711672+09:00",
-    "lastSeenAt": "2026-11-14T09:15:14.227082+09:00",
+    "lastSeenAt": "2026-11-14T09:19:15.984252+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4366,19 +4381,5 @@
     "lastSeenAt": "2026-11-10T19:15:15.485574+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
-  },
-  {
-    "title": "GitHub - highants/PLaMo_Translate_EX: 「PLaMo 3 Translate」をブラウザ内蔵WebGPU（Wllama）またはLM Studio連携で実行できるローカル動作型翻訳Chrome拡張機能です。外部クラウド不要で安全・高速に翻訳します。",
-    "url": "https://github.com/highants/PlaMo_translate_ex",
-    "domain": "github.com",
-    "count": 13,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/highants/PlaMo_translate_ex",
-    "screenshot": "https://opengraph.githubassets.com/3fa9279c8bc2c0eaffa2d30315dbf8cf2e01f28127aeebdec61f5a0f5d2589f0/highants/PLaMo_Translate_EX",
-    "description": "PLaMo Translate (LM Studio & ブラウザ内蔵 Wllama) Preferred Networks (PFN) がオープンウェイトとして公開した、世界最高水準の翻訳特化型大規模言語モデル 「PLaMo 3 Translate」ファミリー（0.8B / 2B / 8B / 31B） を、ブラウザから直接利用できる Chrome 拡張機能 (Manifest V3 / Vanilla JS) です。 外部の有償クラウド翻訳 API（Google Cloud Translation, DeepL 等）へのデータ送信を一切行わず、完全ローカル環境で機密データや社内ドキュメン…",
-    "hatenaDate": "2026-11-09T21:14:29Z",
-    "users": [],
-    "firstSeenAt": "2026-11-10T18:15:15.145483+09:00",
-    "lastSeenAt": "2026-11-10T23:00:15.809447+09:00",
-    "descriptionSource": "body"
   }
 ]
