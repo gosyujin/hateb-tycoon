@@ -10,7 +10,7 @@
     "hatenaDate": "2026-11-14T02:05:25Z",
     "users": [],
     "firstSeenAt": "2026-11-14T18:00:14.579655+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -25,9 +25,9 @@
     "hatenaDate": "2026-11-13T02:41:14Z",
     "users": [],
     "firstSeenAt": "2026-11-14T18:00:14.579655+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "bodyReason": "crawl-delay-too-long",
-    "bodyTries": 2
+    "bodyTries": 3
   },
   {
     "title": "ゲーム開発者の40％が生成AIを使用しているもののそれ以上に多くの人が生成AIは有害だと考えている",
@@ -40,7 +40,7 @@
     "hatenaDate": "2026-11-14T04:02:46Z",
     "users": [],
     "firstSeenAt": "2026-11-14T17:45:13.322701+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -55,7 +55,7 @@
     "hatenaDate": "2026-11-13T23:05:57Z",
     "users": [],
     "firstSeenAt": "2026-11-14T17:45:13.322701+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -70,7 +70,7 @@
     "hatenaDate": "2026-11-13T15:32:13Z",
     "users": [],
     "firstSeenAt": "2026-11-14T17:30:12.552359+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -85,7 +85,7 @@
     "hatenaDate": "2026-11-13T08:27:37Z",
     "users": [],
     "firstSeenAt": "2026-11-14T16:45:13.882972+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body"
   },
   {
@@ -99,35 +99,35 @@
     "hatenaDate": "2026-11-13T14:42:54Z",
     "users": [],
     "firstSeenAt": "2026-11-14T16:15:13.648589+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ng: Neovim のためのシンプルな GUI",
     "url": "https://zenn.dev/shougo/articles/ng-nvim-simple-gui",
     "domain": "zenn.dev",
-    "count": 8,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/shougo/articles/ng-nvim-simple-gui",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--e2mw8YdH--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ng%253A%2520Neovim%2520%25E3%2581%25AE%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AE%25E3%2582%25B7%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AB%25E3%2581%25AA%2520GUI%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Shougo%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2llTXlqT3huMG12REN6SFFNMWZNeGlYd3Z4dmw5cVk1ZzVBN2lWPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "私は今回 Linux 向けの Neovim GUIとして「ng」を作りました。Go で書いた、最小限の GUI クライアントです。 ng は Neovim の上に新しいエディタを作るものではありません。Neovim のための、ただの UI です。GVim が Vim にとってそうであるように、ng は Neovim に GUI の窓を与えるだけです。 対応: Linux（X11 と Wayland）、Neovim の最新安定版と nightly この記事では使い方よりも、ng が「何を作らないと決めたか」と、それによって何が得られたかを中心に書きます。 私が以前から欲しかったのは、端末で使う…",
     "hatenaDate": "2026-11-13T11:38:14Z",
     "users": [],
     "firstSeenAt": "2026-11-14T16:15:13.648589+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Microsoft 365、接続障害からおおむね回復　後日詳細を報告へ",
     "url": "https://www.watch.impress.co.jp/docs/news/2156470.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 16,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2156470.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2156/470/ms1.jpg",
     "description": "Microsoftは14日、Microsoft 365の多くのサービスで接続障害が発生した問題について多くの地域で回復したと告知した。 この問題は、12日(日本時間11月13日午前)に南北アメリカ地域でのExchange Onlineのアクセスに問題が生じ、全地域のユーザーに影響したというもの。OutlookやCopilot Chat、Teamsなど多くのMicrosoftサービスが使えない、使いにくい状況が長時間にわたって発生した。 同社では、今回のインシデントについて謝罪するとともに、日本時間の14日未明にはサービス全般で復旧と安定化が進んでいると公表。インシデントの原因は、以前のネット…",
     "hatenaDate": "2026-11-14T03:04:03Z",
     "users": [],
     "firstSeenAt": "2026-11-14T16:00:13.847160+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -143,21 +143,21 @@
     "hatenaDate": "2026-11-13T00:18:33Z",
     "users": [],
     "firstSeenAt": "2026-11-14T15:45:13.540118+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「なんでお前は重要なデータを任されるほど信用されてんの？」と上司に聞かれたセキュリティ担当者の回答、信頼に値する妙な説得力がある「情報って武器だなぁ」",
     "url": "https://togetter.com/li/2770282",
     "domain": "togetter.com",
-    "count": 25,
+    "count": 26,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2770282",
     "screenshot": "https://s.tgstc.com/ogp3/15d91b104e515cce4156119d8023c8f4-1200x630.jpeg",
     "description": "俺、会社のかなり重要なデータを扱ってんのね そんで、他社から入社してきた上司から 「なんで沖田は重要なデータ任されてる程に信用されてんの？」 って聞かれて 「セキュリティ兼内部監査として、取締役の誰が休日に会社PCで熟女AV観てたか把握しているけどバラしてないから」 で納得してもらえた 知ってるけど その知ってる情報使って 10年以上誰も貶めなかったからね 俺は 誠実のデジメンタル持ってるからね俺は 訂正 ❌取締役 ⭕️執行役員 だった 書き間違え 最近仕事でも書き間違え多くて老化を感じるわ 40代だもんなぁ俺 食欲の秋！異世界至高の飯テロ作品フェア 人気の漫画が最大80％割引 KADOKA…",
     "hatenaDate": "2026-11-14T03:49:42Z",
     "users": [],
     "firstSeenAt": "2026-11-14T15:15:21.339899+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body"
   },
   {
@@ -171,7 +171,7 @@
     "hatenaDate": "2026-11-13T22:56:39Z",
     "users": [],
     "firstSeenAt": "2026-11-14T15:15:21.339899+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body"
   },
   {
@@ -185,7 +185,7 @@
     "hatenaDate": "2026-11-13T21:16:23Z",
     "users": [],
     "firstSeenAt": "2026-11-14T13:00:13.081453+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body"
   },
   {
@@ -199,7 +199,7 @@
     "hatenaDate": "2026-11-13T13:02:09Z",
     "users": [],
     "firstSeenAt": "2026-11-14T12:15:09.136999+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -207,14 +207,14 @@
     "title": "かつて、noteのようなブログもTwitterのような短文投稿もDiscordのようなコミュニティ運営もすべてまとめてできる、夢のようなサービスがあったのじゃ",
     "url": "https://togetter.com/li/2770247",
     "domain": "togetter.com",
-    "count": 118,
+    "count": 122,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2770247",
     "screenshot": "https://s.tgstc.com/ogp3/a5d01b29a38b44dd977315f5842d3c69-1200x630.jpeg",
     "description": "若い人には想像できんかもしれんが、その昔、 noteのようなブログも、 Twitterのような短文投稿も、 Discordのようなコミュニティ運営も、 ジョルテのようなカレンダー共有も、 TwiPlaのようなイベント参加者管理も、 すべてまとめてできる、夢のようなサービスがあったのじゃ。 そして当時は、国民のほとんどが、そのサービスを使っておったのじゃ。 むしろ、それ以外がいらんかったのじゃ。 補足すると、 ・それによる弊害もありました ・サービス自体はいまも続いています ・一番ホットだったのは、先に挙げた機能よりも「サンシャイン牧場」 食欲の秋！異世界至高の飯テロ作品フェア 人気の漫画が最…",
     "hatenaDate": "2026-11-14T01:06:19Z",
     "users": [],
     "firstSeenAt": "2026-11-14T10:30:14.795292+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -223,14 +223,14 @@
     "title": "【速報】マネックス証券、マイナカード画像漏えいか",
     "url": "https://www.47news.jp/15227159.html",
     "domain": "www.47news.jp",
-    "count": 214,
+    "count": 217,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15227159.html",
     "screenshot": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
     "description": "マネックス証券は13日、委託先が運営・管理する口座開設システムが不正アクセスを受け、運転免許証やマイナンバーカードといった本人確認書類の画像1592件と、最大113万件のメールアドレスが漏えいした恐れがあると発表した。 国内外約100の拠点を軸に、世界情勢から地域の話題まで、旬のニュースを的確に、いち早くお届けします。 奈良市がメールアドレス漏えい マイナ予約者1617件 委託先「アララ」不正アクセスで マイナ手続き、郵便局で 玉城町が関連事務委託 電子証明書発行・更新など利便性向上 三重 奈良市がメールアドレス漏えい マイナ予約者1617件 委託先「アララ」不正アクセスで 奈良市がメールア…",
     "hatenaDate": "2026-11-13T15:36:10Z",
     "users": [],
     "firstSeenAt": "2026-11-14T10:15:13.372542+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body"
   },
   {
@@ -244,7 +244,7 @@
     "hatenaDate": "2026-11-13T16:00:06Z",
     "users": [],
     "firstSeenAt": "2026-11-14T10:15:13.372542+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body"
   },
   {
@@ -258,7 +258,7 @@
     "hatenaDate": "2026-11-13T10:30:24Z",
     "users": [],
     "firstSeenAt": "2026-11-14T10:15:13.372542+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -266,14 +266,14 @@
     "title": "Let’s Write a PostScript Interpreter",
     "url": "https://beyondloom.com/blog/postscript.html",
     "domain": "beyondloom.com",
-    "count": 17,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/beyondloom.com/blog/postscript.html",
     "screenshot": null,
     "description": "Using primitive JavaScript values to represent most of these types will be particularly helpful for writing the definitions of all the operators. Here are a set of definitions for constructing, accessing, and identifying various PostScript values: MARK = {} proc = x=>({t:'proc',v:x}) procval = x=...",
     "hatenaDate": "2026-11-13T13:12:14Z",
     "users": [],
     "firstSeenAt": "2026-11-14T09:30:12.516114+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -288,7 +288,7 @@
     "hatenaDate": "2026-11-12T23:48:44Z",
     "users": [],
     "firstSeenAt": "2026-11-14T09:19:15.984252+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -296,14 +296,14 @@
     "title": "The Home Repo Pattern",
     "url": "https://www.aihero.dev/the-home-repo-pattern",
     "domain": "www.aihero.dev",
-    "count": 85,
+    "count": 86,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.aihero.dev/the-home-repo-pattern",
     "screenshot": "https://www.aihero.dev/api/og?resource=the-home-repo-pattern&updatedAt=2026-11-12T10:30:12.788Z",
     "description": "The Home Repo PatternOne repo for your skills, AGENTS.md and shared docs, with pointers to your other repos. A reference, with a setup prompt you can copy. A Home Repo is one repository that holds your skills, your AGENTS.md and your shared docs. You run your agent in the Home Repo. Its AGENTS.md...",
     "hatenaDate": "2026-11-12T12:22:50Z",
     "users": [],
     "firstSeenAt": "2026-11-14T09:00:14.327690+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -311,28 +311,28 @@
     "title": "楽園追放 心のレゾナンス：12年ぶり続編の挑戦　3DCGの現在地、AIと人間らしさ　水島精二監督インタビュー - MANTANWEB（まんたんウェブ）",
     "url": "https://mantan-web.jp/article/20261112dog00m200059000a.html",
     "domain": "mantan-web.jp",
-    "count": 46,
+    "count": 47,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/mantan-web.jp/article/20261112dog00m200059000a.html",
     "screenshot": null,
     "description": "劇場版アニメ「楽園追放 -Expelled from Paradise-」の続編「楽園追放 心のレゾナンス」。前作が公開された2014年11月から約12年、続編が11月13日に公開された。水島精二監督、脚本の虚淵玄さん、キャラクターデザインの齋藤将嗣さん、音楽のNARASAKIさんら豪華スタッフが再集結した。人類が肉体や地球を捨て、電脳世界ディーヴァで暮らすようになった西暦2400年を舞台とした作品で、骨太なSF、フル3DCGのハイクオリティーな映像が話題になり、ヒットを記録した。約12年ぶりの続編ということもあり、大きな期待が高まるが、水島監督はいかに作品に向き合ったのだろうか。制作の裏側…",
     "hatenaDate": "2026-11-13T22:02:09Z",
     "users": [],
     "firstSeenAt": "2026-11-14T08:45:14.104813+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "データセンターの排熱でエビ養殖、NTT系が実験　育ったら食べられる？　担当者に聞いてみた",
     "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003200/",
     "domain": "www.itmedia.co.jp",
-    "count": 128,
+    "count": 129,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/13/2000003200/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/13/2000003200/10012155/2048",
     "description": "NTTドコモビジネスなど4社は11月13日、データセンターの排熱を活用してエビを養殖する実証実験を発表した。2026年度中に養殖に適した排熱の回収方法を模索し、2027年度には回収した熱を使ってクルマエビ科の一種「バナメイエビ」を育てる計画だ。なぜエビの養殖を選んだのか、育てたエビはどうするのか。担当者に話を聞いた。 実証では、データセンターの冷却設備から排熱を回収し、エビの飼育水を温める。26年度は排熱の温度や熱量などを調べ、養殖に適した回収方法を検証。27年度には実際にエビを飼育し、排熱による水温維持や加温エネルギーの削減効果、データセンターの運用への影響などを調べる。 同実験は東京都の…",
     "hatenaDate": "2026-11-13T11:33:08Z",
     "users": [],
     "firstSeenAt": "2026-11-14T08:30:15.130418+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body"
   },
   {
@@ -346,7 +346,7 @@
     "hatenaDate": "2026-11-13T14:24:54Z",
     "users": [],
     "firstSeenAt": "2026-11-14T08:30:15.130418+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body"
   },
   {
@@ -360,7 +360,7 @@
     "hatenaDate": "2026-11-13T21:47:23Z",
     "users": [],
     "firstSeenAt": "2026-11-14T08:15:13.967517+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body"
   },
   {
@@ -388,7 +388,7 @@
     "hatenaDate": "2026-11-13T10:50:54Z",
     "users": [],
     "firstSeenAt": "2026-11-14T06:45:13.064825+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body"
   },
   {
@@ -402,7 +402,7 @@
     "hatenaDate": "2026-11-13T09:17:59Z",
     "users": [],
     "firstSeenAt": "2026-11-14T06:45:13.064825+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -410,14 +410,14 @@
     "title": "Fable 5.2は物理モデリング音源の実装も作曲もすごい - きしだのHatena",
     "url": "https://nowokay.hatenablog.com/entry/2026/11/13/101644",
     "domain": "nowokay.hatenablog.com",
-    "count": 172,
+    "count": 174,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/nowokay.hatenablog.com/entry/2026/11/13/101644",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/124dd98915ea1ae722f6a171ed5ad3c4f387690a/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fn%2Fnowokay%2F20261113%2F20261113100710.png",
     "description": "Fable 5.2が出て今週いっぱいくらいPlusでも使えるのだけど、Fableじゃないとダメなことってなんだろなと思いつつ、楽器の物理シミュレーションがOpusはまだあまりうまくなかったなと、Fableさんに物理モデリング音源を作ってもらって曲もつくってもらったら、物理モデリングも結構できていたのだけど、曲がちゃんとしててすごかった。 弦楽器、ピアノ、金管、木管、クラシックギター、エレキギター、ボーカルのシミュレーションができた。 バイオリンなど弦楽器の物理シミュレーション音源をつくって、モーツアルト風の弦楽四重奏をつくって、ビジュアルにこった画面で演奏して こんな感じです。指示してないの…",
     "hatenaDate": "2026-11-13T14:22:52Z",
     "users": [],
     "firstSeenAt": "2026-11-14T06:15:17.824383+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body"
   },
   {
@@ -431,7 +431,7 @@
     "hatenaDate": "2026-11-13T00:53:55Z",
     "users": [],
     "firstSeenAt": "2026-11-14T04:30:12.941007+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -447,7 +447,7 @@
     "hatenaDate": "2026-11-13T13:27:08Z",
     "users": [],
     "firstSeenAt": "2026-11-14T00:45:19.313577+09:00",
-    "lastSeenAt": "2026-11-14T18:15:14.443525+09:00",
+    "lastSeenAt": "2026-11-14T18:30:13.278062+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
