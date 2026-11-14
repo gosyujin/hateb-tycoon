@@ -1,5 +1,20 @@
 [
   {
+    "title": "現代のソフトウェアは劣化しているかもしれないが昔のソフトウェアはもっとひどかったという指摘",
+    "url": "https://gigazine.net/news/20261114-software-used-to-be-horrible/",
+    "domain": "gigazine.net",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261114-software-used-to-be-horrible/",
+    "screenshot": "https://i.gzn.jp/img/2026/11/14/software-used-to-be-horrible/00_m.jpg",
+    "description": "ソフトウェアの肥大化や動作の遅さ、バグの増加などを理由に「昔のソフトウェアの方が品質が高かった」と主張する人もいます。しかし、1990年からコンピューターを使い続けてきたソフトウェアエンジニアのジェイク・ヴォイトコ氏は過去のソフトウェアが抱えていた問題を振り返り、現代のソフトウェアがいかに改善されて...",
+    "hatenaDate": "2026-11-14T03:09:31Z",
+    "users": [],
+    "firstSeenAt": "2026-11-15T01:00:16.864325+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
+    "bodyTries": 1,
+    "bodyReason": "crawl-delay-too-long"
+  },
+  {
     "title": "マイクロソフトの障害が全面復旧　メールやAI、ほぼ1日半経て - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC141CH0U6A111C2000000/",
     "domain": "www.nikkei.com",
@@ -10,7 +25,7 @@
     "hatenaDate": "2026-11-14T06:07:53Z",
     "users": [],
     "firstSeenAt": "2026-11-15T00:15:13.580938+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,21 +39,21 @@
     "hatenaDate": "2026-11-13T22:02:24Z",
     "users": [],
     "firstSeenAt": "2026-11-15T00:15:13.580938+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "[アップデート] Amazon Route 53 で、レコードセットの変更/削除を保護できるようになりました | DevelopersIO",
     "url": "https://dev.classmethod.jp/articles/route53-recordset-protections/",
     "domain": "dev.classmethod.jp",
-    "count": 12,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/route53-recordset-protections/",
     "screenshot": "https://images.ctfassets.net/ct0aopd36mqt/wp-thumbnail-abb8f6015ca9ca8ce4d38fd37d2ab700/ee9c71478937f038e1364aa400fecf15/amazon-route-53",
     "description": "Amazon Route 53 でレコードを予期せぬ変更や削除から保護したい場合、これまでは IAM のポリシー条件でレコードセットの操作を制限する必要がありました。 公式ドキュメントでは、Resource record set permissions として説明されています。 https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-permissions.html これが、先日のアップデートで API に「Record Set Protection」という機能が追加されていました。 htt…",
     "hatenaDate": "2026-11-13T22:48:33Z",
     "users": [],
     "firstSeenAt": "2026-11-14T23:45:13.640996+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -54,7 +69,7 @@
     "hatenaDate": "2026-11-14T10:07:16Z",
     "users": [],
     "firstSeenAt": "2026-11-14T23:45:13.640996+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -70,7 +85,7 @@
     "hatenaDate": "2026-11-13T11:27:34Z",
     "users": [],
     "firstSeenAt": "2026-11-14T23:45:13.640996+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body"
   },
   {
@@ -84,21 +99,21 @@
     "hatenaDate": "2026-11-14T12:48:25Z",
     "users": [],
     "firstSeenAt": "2026-11-14T23:15:14.085650+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AIについての追記",
     "url": "https://www.ms.u-tokyo.ac.jp/~konno/grad_ai.html",
     "domain": "www.ms.u-tokyo.ac.jp",
-    "count": 18,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.ms.u-tokyo.ac.jp/~konno/grad_ai.html",
     "screenshot": null,
     "description": "この文章は2026年11月に書いています．この年は，AIが数学にもたらした影響がある閾値を超えた年として記憶されるでしょう．大学院教育にも当然多大な影響があります．学生さんから，AIについてどう思うか聞かれることも増えました．個々の教員のAIについての意見が，向こう数年間は指導教員選びにおいて大きなファクターとなる可能性も高いと思われるので，いまの時点での私の考えを書いておくことにします．もっとも，AIの進展が急速過ぎるので，私自身の考えも数ヶ月単位で変わっています．必要と感じることがあったらまた書き直すこともあるかもしれません． まず大前提として，恐らく多くの数学者と同様だと思いますが，私…",
     "hatenaDate": "2026-11-14T10:13:39Z",
     "users": [],
     "firstSeenAt": "2026-11-14T23:15:14.085650+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -114,7 +129,7 @@
     "hatenaDate": "2026-11-13T11:28:01Z",
     "users": [],
     "firstSeenAt": "2026-11-14T23:00:14.537807+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -129,7 +144,7 @@
     "hatenaDate": "2026-11-14T00:47:56Z",
     "users": [],
     "firstSeenAt": "2026-11-14T23:00:14.537807+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body"
   },
   {
@@ -143,49 +158,49 @@
     "hatenaDate": "2026-11-14T00:01:14Z",
     "users": [],
     "firstSeenAt": "2026-11-14T22:30:14.412959+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "マネジメントされる側の仕事は「文句」を言うこと",
     "url": "https://speakerdeck.com/riyaamemiya/slides-export-013b776f-8661-4e92-bac0-1ac4285999f9",
     "domain": "speakerdeck.com",
-    "count": 49,
+    "count": 51,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/riyaamemiya/slides-export-013b776f-8661-4e92-bac0-1ac4285999f9",
     "screenshot": "https://files.speakerdeck.com/presentations/77ebd1aff03e4bd0a221a311ea2e231d/slide_0.jpg?41354216",
     "description": "https://github.com/riya-amemiya/amemiya_riya_slide_data/tree/main/complaining_is_your_job https://riya-amemiya.github.io/amemiya_riya_slide_data/complaining_is_your_job マネジメントされる側の 仕事は「文句」を言うこと 会社をハックしてキャリアを作る方法 西 悠太 / 株式会社ダイニー 自己紹介 西 悠太 (Nishi Yuta) 21歳(重要、important) V8 Contributor Platform Engine…",
     "hatenaDate": "2026-11-13T13:23:56Z",
     "users": [],
     "firstSeenAt": "2026-11-14T21:15:12.391596+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 | The Update",
     "url": "https://theupdate.coffee/episodes/0J7UP7922ZXV6NBTt7w9Jl/",
     "domain": "theupdate.coffee",
-    "count": 72,
+    "count": 79,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/theupdate.coffee/episodes/0J7UP7922ZXV6NBTt7w9Jl/",
     "screenshot": "https://i.scdn.co/image/ab6765630000ba8aa73d8865f4e71fabfa514528",
     "description": "コードを書くAI、デザインするAI、それらを束ねるAI。スマートニュースでiOS・Android・Webの3チームを率いたamachang（天野仁史）は、いま、そんなチームを動かしている。外からは気軽そうに見える一人会社の実態は、多くの働き手をマネジメントする会社だった。 しかも、AIに伝えるのは、会社の資金、顧客の事情、仕事の優先順位だ。設計に問題が見つかれば、それが事業にどう響くのか、いま直すべきなのかを説明してもらう。コードを任せるために、会社の事情まで共有する。話していることは、開発責任者との打ち合わせに近づいている。 話が夕食の献立に移っても、同じ構図が見えてくる。食事を楽しみたい…",
     "hatenaDate": "2026-11-14T07:45:30Z",
     "users": [],
     "firstSeenAt": "2026-11-14T21:15:12.391596+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Google、高速・高効率な「Gemini 4 Hydrogen」を発表 ～「Claude Sonnet 5.5」「GPT-6.1 Terra」のライバル／前世代「3.8 Flash」の2.5倍の速さでタスクを完了",
     "url": "https://forest.watch.impress.co.jp/docs/news/2156117.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 37,
+    "count": 38,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2156117.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2156/117/image1.png",
     "description": "Google、高速・高効率な「Gemini 4 Hydrogen」を発表 ～「Claude Sonnet 5.5」「GPT-6.1 Terra」のライバル 米Googleは11月12日（現地時間）、「Gemini 4 Hydrogen」を発表した。日常的なコーディングやエージェント型のワークフローを、高速かつ効率的にこなすことを目指したモデルで、同日より開発者、企業、一般ユーザーに提供される。 「Gemini 4 Hydrogen」は、性能と速度、コストのバランスに優れたモデル。「Gemini 4 Carbon」や「Gemini 4 Argon」を用いるまでもないケースで有用で、「Claud…",
     "hatenaDate": "2026-11-13T02:57:17Z",
     "users": [],
     "firstSeenAt": "2026-11-14T20:30:13.129340+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -194,14 +209,14 @@
     "title": "相次ぐ情報漏えいでアナログ回帰？　ダイソー「パスワード管理ノート」が品薄に　一方でリスクも──IPAに聞いた",
     "url": "https://www.itmedia.co.jp/news/article/2611/14/2000003193/",
     "domain": "www.itmedia.co.jp",
-    "count": 52,
+    "count": 54,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/14/2000003193/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/14/2000003193/10012123/2048",
     "description": "不正アクセスによる情報漏えいが相次ぐなか、パスワードを紙に書いて管理するアナログな方法を見直す動きがある。100円ショップ「ダイソー」では、紙の「パスワード管理ノート」が品薄になっている。運営する大創産業（広島県東広島市、以下ダイソー）はITmedia NEWSの取材に対し、ネットワークにつながっていない紙で管理する安心感が「改めて注目されている」との考えを示した。 パスワード管理ノートは、サービスごとのIDやパスワードを書き込んで管理するための紙のノート。ダイソーによると、発売自体は2020年秋ごろから順次始めており、当初は高齢者を中心に、デジタル機器でのパスワード管理に抵抗がある人や操作…",
     "hatenaDate": "2026-11-13T23:23:29Z",
     "users": [],
     "firstSeenAt": "2026-11-14T19:45:13.292966+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -217,7 +232,7 @@
     "hatenaDate": "2026-11-13T23:26:15Z",
     "users": [],
     "firstSeenAt": "2026-11-14T19:30:12.952934+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -233,7 +248,7 @@
     "hatenaDate": "2026-11-14T02:05:25Z",
     "users": [],
     "firstSeenAt": "2026-11-14T18:00:14.579655+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -263,7 +278,7 @@
     "hatenaDate": "2026-11-14T04:02:46Z",
     "users": [],
     "firstSeenAt": "2026-11-14T17:45:13.322701+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -278,7 +293,7 @@
     "hatenaDate": "2026-11-13T23:05:57Z",
     "users": [],
     "firstSeenAt": "2026-11-14T17:45:13.322701+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -293,7 +308,7 @@
     "hatenaDate": "2026-11-13T15:32:13Z",
     "users": [],
     "firstSeenAt": "2026-11-14T17:30:12.552359+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -322,7 +337,7 @@
     "hatenaDate": "2026-11-13T14:42:54Z",
     "users": [],
     "firstSeenAt": "2026-11-14T16:15:13.648589+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body"
   },
   {
@@ -336,7 +351,7 @@
     "hatenaDate": "2026-11-13T11:38:14Z",
     "users": [],
     "firstSeenAt": "2026-11-14T16:15:13.648589+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body"
   },
   {
@@ -350,7 +365,7 @@
     "hatenaDate": "2026-11-14T03:04:03Z",
     "users": [],
     "firstSeenAt": "2026-11-14T16:00:13.847160+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -366,7 +381,7 @@
     "hatenaDate": "2026-11-13T00:18:33Z",
     "users": [],
     "firstSeenAt": "2026-11-14T15:45:13.540118+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -382,7 +397,7 @@
     "hatenaDate": "2026-11-14T03:49:42Z",
     "users": [],
     "firstSeenAt": "2026-11-14T15:15:21.339899+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body"
   },
   {
@@ -396,7 +411,7 @@
     "hatenaDate": "2026-11-13T22:56:39Z",
     "users": [],
     "firstSeenAt": "2026-11-14T15:15:21.339899+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -441,7 +456,7 @@
     "hatenaDate": "2026-11-14T01:06:19Z",
     "users": [],
     "firstSeenAt": "2026-11-14T10:30:14.795292+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -457,7 +472,7 @@
     "hatenaDate": "2026-11-13T15:36:10Z",
     "users": [],
     "firstSeenAt": "2026-11-14T10:15:13.372542+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body"
   },
   {
@@ -559,21 +574,21 @@
     "hatenaDate": "2026-11-13T11:33:08Z",
     "users": [],
     "firstSeenAt": "2026-11-14T08:30:15.130418+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "人間＋AIを「チーム」としてプロセスを再設計する",
     "url": "https://speakerdeck.com/littlehands/ai-kudou-keiei-suraido-20261112-0eeda77b-3c60-4af9-b059-2eb1ff3ef2c1",
     "domain": "speakerdeck.com",
-    "count": 166,
+    "count": 167,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/littlehands/ai-kudou-keiei-suraido-20261112-0eeda77b-3c60-4af9-b059-2eb1ff3ef2c1",
     "screenshot": "https://files.speakerdeck.com/presentations/8308bf272fb54c05ab73e2a607c5e037/slide_0.jpg?41350552",
     "description": "Sponsored · Your Podcast. Everywhere. Effortlessly. Share. Educate. Inspire. Entertain. You do you. We'll handle the rest. → AIで何もかもが変わっていくように見えますが、仕事は「一人とAI」では閉じません。 組織開発のフレームワーク GRPI（Goals / Roles / Processes / Interpersonal Relationships）で、AIを含めたチームを見直しました。 - P: 評価できる大きさまで絞って試し、わかってから大きく任せる（不確実性…",
     "hatenaDate": "2026-11-13T14:24:54Z",
     "users": [],
     "firstSeenAt": "2026-11-14T08:30:15.130418+09:00",
-    "lastSeenAt": "2026-11-15T00:45:12.220679+09:00",
+    "lastSeenAt": "2026-11-15T01:00:16.864325+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4375,20 +4390,6 @@
     "users": [],
     "firstSeenAt": "2026-11-11T10:15:15.755728+09:00",
     "lastSeenAt": "2026-11-11T15:45:11.789479+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "AIを組み込んだアプリの信頼性をどう制御するか",
-    "url": "https://sre-magazine.net/articles/15/katzchang/",
-    "domain": "sre-magazine.net",
-    "count": 10,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/sre-magazine.net/articles/15/katzchang/",
-    "screenshot": "https://sre-magazine.net/images/articles/15/katzchang/ogp.png",
-    "description": "ECサイトの問い合わせ対応にAIエージェントを入れて3か月、という状況を想像してみてください。返品条件を改訂した翌週から、「エージェントに言われた条件で返品できなかった」という問い合わせが増え始めます。調べてみると、エージェントは検索インデックスに残っていた改訂前のFAQを根拠にして、古い条件を自信満々に答えています。APIはすべて200、レイテンシもエラー率も平常。ダッシュボードは緑のままです。 SRE Magazine 008号の「非決定的なワークロードの信頼性を考える」では、生成AIの出力をLLM as a Judgeで評価して、その結果をSLIにするアイデアが示されていました。あれか…",
-    "hatenaDate": "2026-11-10T01:20:09Z",
-    "users": [],
-    "firstSeenAt": "2026-11-11T09:45:13.744500+09:00",
-    "lastSeenAt": "2026-11-11T13:30:13.544023+09:00",
     "descriptionSource": "body"
   }
 ]
