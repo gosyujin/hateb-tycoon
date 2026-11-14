@@ -1,19 +1,14 @@
 # CLAUDE.md
 
-このリポジトリで作業を始める前に、`README.md` の概要を読むこと。詳細は下記「ドキュメント運用ルール」「触る前に読む」に従い、該当作業のときだけ `docs/` を読む。過去の設計判断・既知の制約が書かれており、それを知らずに変更すると過去に直した不具合を再発させることがある。
+作業を始める前に `README.md` の概要を読むこと。ファイル別の「触ると壊れる箇所」は `.claude/rules/` にあり、該当ファイルを開くと自動で読み込まれる。詳細は該当作業のときだけ `docs/` を読む。過去の設計判断・既知の制約を知らずに変えると、直した不具合を再発させることがある。
 
 ## 開発フロー
 
 - ビルド工程は無い静的サイト。ローカル確認は `python3 -m http.server` 等で行う。
 - ローカルの`http.server`は静的ファイルを積極的にキャッシュすることがあり、サーバー再起動・新規タブでも古い内容が返ることがある。検証時は`?bust=<値>`のようなクエリでキャッシュを回避する(本番は`deploy-pages.yml`が`?v=<sha>`を自動付与するため影響なし)。
 - UI変更は必ずブラウザで実際に操作して確認してから完了報告する。
-
-## 変更前に必ず確認すること
-
-- `js/hatena-api.js`の`jsonp()`のコールバック名は**呼び出しごとにランダムでなければならない**。固定名にすると実際のはてなAPI(`b.hatena.ne.jp/entry/jsonlite/`)がハング/タイムアウトすることを実験で確認済み([docs/technical-notes.md](docs/technical-notes.md)参照)。
-- `service-worker.js`の`handleNavigate()`は実URLではなく固定キー`'index.html'`でキャッシュを読み書きする実装になっている。実URLでのマッチングに戻すと、プロセスを完全終了してから機内モードで新規起動した場合にアプリ全体がクラッシュする(サスペンド復帰では再現しないため見落としやすい)。
-- Service Workerはサンドボックス化されたブラウザ検証環境では`register()`自体が失敗し動作確認できない。SW関連の変更は本番オリジン(https://gosyujin.com/hateb-tycoon/)に対して`caches`APIを直接叩いて検証する。
-- はてなの一覧データはRSS由来でページング不可なため「蓄積」方式(`firstSeenAt`/`lastSeenAt`)になっている。JSON API復活やページング機能を前提にした変更は提案しない。
+- push前に構文チェックする(`node --check js/*.js`、Python は `python3 -m py_compile scripts/*.py`)。ビルド工程が無いので、構文エラーがそのまま本番に出る。
+- 新規 JS ファイルを足すときは `service-worker.js` の `SHELL_FILES` にも追加する(忘れるとオフライン起動で読み込めない)。
 
 ## Git運用
 
@@ -24,42 +19,20 @@
 
 ## 提案の範囲について
 
-- ユーザーが明示的に保留・不要と言った事項(例: カテゴリータブのヘッダー移動、オフライン監視の自動化)は、次に本人から話題が出るまで再提案・実装しない。
+- ユーザーが明示的に保留・不要と言った事項(例: カテゴリータブのヘッダー移動、オフライン監視の自動化、記事ページの localStorage キャッシュ先出し、一覧から最初に開く記事を速くする3案=タップ時先読み・先頭数件の先読み・「読み込み中」表示の改善、一覧データから description を外す案)は、次に本人から話題が出るまで再提案・実装しない。
 - 定期実行・監視の類を新たに自動化する提案は、明示的に依頼されない限り行わない。
+- はてなの一覧データは RSS 由来でページングできないため「蓄積」方式になっている。JSON API の復活やページングを前提にした変更は提案しない。
 
-## ローカル自動実行インフラ(gosyujin個人のMac環境)
+## ローカル自動実行(gosyujin の Mac 固有)
 
-`hotentry-sync.yml`のcron scheduleが不定期にしか発火しない問題への緩和策として、gosyujin個人のMacから15分おきに`workflow_dispatch`を叩く仕組みがある。詳細は[docs/decisions/cron-local-dispatch.md](docs/decisions/cron-local-dispatch.md)を参照。要点:
-
-- 正本: `scripts/hateb-tycoon-dispatch.sh`(リポジトリ内、トークンは含まない)
-- 実行: launchdはリポジトリ内の`scripts/hateb-tycoon-dispatch.sh`を直接実行する(リポジトリは`~/github/hateb-tycoon`。DropboxなどTCC保護のフォルダに置くと`Operation not permitted`になる)。作業ツリーが別ブランチだとスクリプトが無くて失敗することがある。
-- 起動設定: `~/Library/LaunchAgents/com.gosyujin.hateb-tycoon-dispatch.plist`(再登録は`launchctl bootout gui/$(id -u)/com.gosyujin.hateb-tycoon-dispatch` → `launchctl bootstrap gui/$(id -u) <plist>`)
-- 認証: macOS Keychainのサービス名`hateb-tycoon-dispatch-for-local-token`に保存されたFine-grained PAT(権限は対象リポジトリの**Actions: Read and write**のみで良い。Contents権限は不要かつ403の原因になった実績あり)。有効期限2026-12-25、更新が必要。
-- ログ: `~/Library/Logs/hateb-tycoon-dispatch.log`
-- この仕組みはgosyujinのローカル環境固有の話であり、リポジトリの一般的な動作には影響しない。
+- cron の不定期発火の緩和策として、Mac の launchd が15分おきに `hotentry-sync.yml` を `workflow_dispatch` している。手順と場所は [scripts/LAUNCHD.md](scripts/LAUNCHD.md)、経緯は [docs/decisions/cron-local-dispatch.md](docs/decisions/cron-local-dispatch.md)。
+- 使っている PAT の有効期限は 2026-12-25。更新が必要。
 
 ## ドキュメント運用ルール
 
-- 作業開始時は CLAUDE.md と README の概要だけ読む。docs/ は「触る前に読む」に従い、該当作業のときだけ読む。CHANGELOG は全文を読まず直近のエントリだけ見る。
+- 作業開始時は CLAUDE.md と README の概要だけ読む。docs/ は `.claude/rules/` の指示に従い、該当作業のときだけ読む。CHANGELOG は全文を読まず直近のエントリだけ見る。
 - README に経緯・実装ログ・機能の詳細を書かない。機能を追加したら README には一行、詳細は docs/features.md に書く。
 - 実装完了時は CHANGELOG に1〜3行で追記する。調査や判断に経緯がある場合は docs/decisions/ に書き、CHANGELOG からリンクする。
-- 触ると壊れる箇所・変更禁止の理由は docs/technical-notes.md に書き、CLAUDE.md の「触る前に読む」に1行で要約する。
+- 触ると壊れる箇所・変更禁止の理由は docs/technical-notes.md に書き、`.claude/rules/` の該当ファイル(`paths` に対象ファイルを書く)に1行で要約する。特定のファイルに結びつかない注意だけ CLAUDE.md に書く。
 - 実機確認が必要で未確認の項目は technical-notes.md の「未検証」に書く。確認できたら削除し、CHANGELOG に「確認済み」と1行残す。
 - README が150行、CLAUDE.md が200行を超えたら、追記せず分割を提案する。
-
-## 触る前に読む
-
-- ミュート判定・フィルタ・Gist同期(`js/filters.js` `js/filter-sync.js` `js/gist.js` `js/sync.js`): [docs/features.md](docs/features.md)。判定は forceMute → mute(unmuteで例外)の順。Gist同期は積み上げ方式で削除は同期されず、不正CSVの種類は取り込まず上書きもしない。
-- コメント取得(`js/hatena-api.js`): [docs/technical-notes.md](docs/technical-notes.md)。JSONPのコールバック名は呼び出しごとにランダム固定禁止(固定名にするとはてなAPIがハングする)。
-- 一覧の無限スクロール(`js/app.js`): [docs/technical-notes.md](docs/technical-notes.md)。`renderNextPage()`後のsentinelの`unobserve`→`observe`再監視を外さない。
-- 一覧の自動リフレッシュ(`refreshListIfStale()`): [docs/features.md](docs/features.md)。取得成功かつ内容変化時のみ差し替え、失敗時は表示中の一覧を消さない。
-- 長い文字列を表示する要素: [docs/technical-notes.md](docs/technical-notes.md)。`overflow-wrap: anywhere`の折り返し指定を付ける。
-- Service Worker(`service-worker.js`)のナビゲーション: [docs/decisions/sw-navigate-fixed-key.md](docs/decisions/sw-navigate-fixed-key.md)。`handleNavigate()`は固定キー`'index.html'`で読み書きし、実URLマッチングに戻さない。
-- Service Workerの一覧取得フォールバック: [docs/decisions/sw-unstable-network-list-fetch.md](docs/decisions/sw-unstable-network-list-fetch.md)。`copyFromOldDataCaches` / 8秒フォールバック / 15秒タイムアウト+`caches.match` / `retryListIfNotLoaded`は外さない。
-- SW関連の動作確認: [docs/technical-notes.md](docs/technical-notes.md)。サンドボックス環境では`register()`が失敗するため、本番オリジンで`caches`APIを直接叩く。
-- 一覧データの取得(`scripts/fetch_hotentry.py` `hotentry-sync.yml`): [docs/decisions/hotentry-rss-via-actions.md](docs/decisions/hotentry-rss-via-actions.md)。RSSはページング不可のため蓄積方式(300件・14日)、JSON API復活前提にしない。
-- 記事本文でのdescription差し替え(`scripts/article_body.py` `fetch_hotentry.py`): [docs/decisions/article-body-description.md](docs/decisions/article-body-description.md)。robots.txt遵守・直列・ホスト間隔・1回40件/240秒の上限など「迷惑をかけない」決まりを外さない。抜粋(300字)以外は保存しない。
-- ローカルdispatch(`scripts/hateb-tycoon-dispatch.sh`): [docs/decisions/cron-local-dispatch.md](docs/decisions/cron-local-dispatch.md)。PATはActions権限のみ。
-- 自分のブックマークページ(`js/my-bookmarks.js` `worker/` `#/me`): [docs/decisions/my-bookmarks-worker-proxy.md](docs/decisions/my-bookmarks-worker-proxy.md)。はてなidはWorker secretにだけ置き、コード・localStorage・URL・Workerのレスポンスに出さない。
-- ブックマーク投稿(記事ページのフォーム・`worker/hateb-proxy.js` `worker/oauth1.js`): [docs/decisions/bookmark-post-via-worker.md](docs/decisions/bookmark-post-via-worker.md)。OAuthの鍵はWorker secretにだけ置く。POSTは既存を上書きするため、既存の取得に成功するまで送信させない作りを外さない。
-- 新規JSを足す時: [docs/features.md](docs/features.md)。`service-worker.js`の`SHELL_FILES`に追加しないとオフライン起動で読み込めない。
