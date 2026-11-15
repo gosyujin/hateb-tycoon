@@ -10,21 +10,21 @@
     "hatenaDate": "2026-11-03T00:41:03Z",
     "users": [],
     "firstSeenAt": "2026-11-15T10:45:14.138787+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "NVIDIAフアン前CEOの復帰求める署名が11万人超　マスク氏らも賛同、米議会は追及継続",
     "url": "https://www.itmedia.co.jp/news/article/2611/15/2000003207/",
     "domain": "www.itmedia.co.jp",
-    "count": 21,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/15/2000003207/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/15/2000003207/10012162/2048",
     "description": "米NVIDIAのジェンスン・フアン前CEOの復帰を求めるオンライン署名運動が広がっている。署名サイト「Stand with Jensen」によると、11月15日午前（日本時間）の時点で署名者は11万6256人に達した。 署名者には、イーロン・マスク氏やEpic Gamesのティム・スウィーニーCEOなど、著名なIT業界関係者の名前も並んでいる。 フアン氏は、中国の情報機関との関係が疑われる女性との交際が報じられたことを受け、11月12日にCEO、社長、取締役を退任した。NVIDIAは最高財務責任者（CFO）のコレット・クレス氏を暫定CEOに任命し、社内外から後任を探している。 署名運動の主催…",
     "hatenaDate": "2026-11-14T23:39:10Z",
     "users": [],
     "firstSeenAt": "2026-11-15T10:45:14.138787+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -40,49 +40,49 @@
     "hatenaDate": "2026-11-13T08:26:20Z",
     "users": [],
     "firstSeenAt": "2026-11-15T10:30:12.968062+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「PowerShell 7.7」が一般公開 ～.NET 11ベース、セキュリティ強化や新コマンドを追加／2年サポートの「標準期間サポート」（STS）リリース",
     "url": "https://forest.watch.impress.co.jp/docs/news/2156192.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2156192.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2156/192/powershell.jpg",
     "description": "「PowerShell 7.7」が一般公開 ～.NET 11ベース、セキュリティ強化や新コマンドを追加 米Microsoftは11月10日（現地時間）、「PowerShell 7.7」を一般公開した。「.NET 11」をベースとした『標準期間サポート』（STS）リリースで、セキュリティの強化や新しいコマンドの追加、エンジンやリモート処理、対話型シェルの信頼性向上に重点が置かれている。 一時フォルダーに一意な名前のディレクトリを作成する［New-TemporaryDirectory］コマンドレットを追加 ［Join-Path］コマンドレットに［-Extension］パラメーターを追加 ［For…",
     "hatenaDate": "2026-11-14T04:56:46Z",
     "users": [],
     "firstSeenAt": "2026-11-15T10:15:13.939446+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AWS セキュリティサービスでアクセスキーの漏えいリスクを最小限に抑える実践的な手順 | Amazon Web Services",
     "url": "https://aws.amazon.com/jp/blogs/news/practical-steps-to-minimize-key-exposure-using-aws-security-services/",
     "domain": "aws.amazon.com",
-    "count": 13,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/aws.amazon.com/jp/blogs/news/practical-steps-to-minimize-key-exposure-using-aws-security-services/",
     "screenshot": "https://d2908q01vomqb2.cloudfront.net/b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f/2026/10/17/flyd-C5pXRFEjq3w-unsplash.jpg",
     "description": "漏えいした長期的な認証情報 (アクセスキー) は、AWS Customer Incident Response Team (CIRT) が観測したセキュリティインシデントで、現在も脅威アクターに最も多く使われる侵入経路です。この記事では、Amazon Q Developer や AWS IAM Access Analyzer を使用して、漏えいしたキーや未使用のアクセスを検出する方法を紹介します。さらに、SCP と RCP によるデータ境界の確立、Amazon Inspector や AWS WAF によるランタイム環境の保護、Secrets Manager によるキーの自動ローテーション、…",
     "hatenaDate": "2026-11-14T15:38:44Z",
     "users": [],
     "firstSeenAt": "2026-11-15T10:00:16.377508+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "デスクトップアプリを自動操作できるAUVが良さげかも | kawarimidoll.com",
     "url": "https://kawarimidoll.com/posts/202610182/",
     "domain": "kawarimidoll.com",
-    "count": 27,
+    "count": 29,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kawarimidoll.com/posts/202610182/",
     "screenshot": "https://kawarimidoll.com/posts/202610182/og.png",
     "description": "Programmable Computer Use, without agents. AUV turns app UI workflows into typed operations you can script, record, inspect, and replay. GitHub - moeru-ai/auv: 📱🐭 Are we computer use, I guess not, it's Application Use Via... a unified orchestration layer of OS automation, 0 token cost. Supports Lin…",
     "hatenaDate": "2026-10-19T08:36:48Z",
     "users": [],
     "firstSeenAt": "2026-11-15T09:45:15.797049+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
@@ -96,21 +96,21 @@
     "hatenaDate": "2026-11-14T18:54:45Z",
     "users": [],
     "firstSeenAt": "2026-11-15T09:30:16.520780+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "米国はトランピズムを「なかったこと」にはできない » p2ptk[.]org",
     "url": "https://p2ptk.org/notes/5679",
     "domain": "p2ptk.org",
-    "count": 24,
+    "count": 25,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/p2ptk.org/notes/5679",
     "screenshot": "https://p2ptk.org/wp-content/uploads/2026/11/undying-trumpism.jpg",
     "description": "以下の文章は、コリイ・ドクトロウの「America cannot undo Trumpism」という記事を翻訳したものである。 真のカーニー主義は、いまだかつて一度も試されたことがない。カナダのマーク・カーニー首相はダボスに乗り込み、旧来の秩序に「断絶」が生じたと宣言した（そして、その旧秩序がそもそも大したものではなかったことも認めた）。彼は、トランプ主義以前に後戻りする道はないと語ったのだ。トランプ主義から抜け出す唯一の道は、それをくぐり抜けることしかない。 https://www.weforum.org/stories/forum-institutional/davos-2026-spe…",
     "hatenaDate": "2026-11-13T13:32:42Z",
     "users": [],
     "firstSeenAt": "2026-11-15T09:15:18.714552+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -126,7 +126,7 @@
     "hatenaDate": "2026-11-14T00:44:47Z",
     "users": [],
     "firstSeenAt": "2026-11-15T09:00:16.245621+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
@@ -140,21 +140,21 @@
     "hatenaDate": "2026-11-13T04:25:07Z",
     "users": [],
     "firstSeenAt": "2026-11-15T08:30:15.475627+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Building always-on agents",
     "url": "https://claude.com/resources/articles/building-always-on-agents",
     "domain": "claude.com",
-    "count": 142,
+    "count": 146,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/claude.com/resources/articles/building-always-on-agents",
     "screenshot": "https://claude.com/resources/articles/building-always-on-agents/opengraph-image/og",
     "description": "Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together. Over the past few months, we’ve seen a resurgence of always-on agents. Always-on agents are stateful and proactive, meaning they manage c...",
     "hatenaDate": "2026-11-14T00:52:42Z",
     "users": [],
     "firstSeenAt": "2026-11-15T07:00:13.864550+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -169,7 +169,7 @@
     "hatenaDate": "2026-11-08T13:13:52Z",
     "users": [],
     "firstSeenAt": "2026-11-15T07:00:13.864550+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -177,14 +177,14 @@
     "title": "常時稼働エージェントの作り方（Claude公式ブログを資料化）",
     "url": "https://speakerdeck.com/minorun365/jouji-kadou-ejento-no-tsukurikata",
     "domain": "speakerdeck.com",
-    "count": 205,
+    "count": 208,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/minorun365/jouji-kadou-ejento-no-tsukurikata",
     "screenshot": "https://files.speakerdeck.com/presentations/35d0e47593c74ea99eb61eb523e3f757/slide_0.jpg?41374920",
     "description": "以下のURLを私のClaude Codeに渡して、スライドをポン出しする実験です。 https://claude.com/ja/resources/articles/building-always-on-agents Claude公式記事を読む 常時稼働エージェントは どう作るのか みのるん @minorun365 御田 稔 みのるん KDDIアジャイル開発センター株式会社 テックエバンジェリスト KDDI株式会社 Distinguished Engineer AWS AI このスライドはポン出しです！ みのるん式で育てたClaude Codeのハーネスに、 ブログのURLをそのまま渡しまし…",
     "hatenaDate": "2026-11-14T16:06:17Z",
     "users": [],
     "firstSeenAt": "2026-11-15T06:45:13.411357+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
@@ -198,7 +198,7 @@
     "hatenaDate": "2026-11-14T14:55:47Z",
     "users": [],
     "firstSeenAt": "2026-11-15T06:30:14.238676+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
@@ -212,7 +212,7 @@
     "hatenaDate": "2026-11-14T12:54:13Z",
     "users": [],
     "firstSeenAt": "2026-11-15T01:45:13.720534+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -228,7 +228,7 @@
     "hatenaDate": "2026-11-14T03:09:31Z",
     "users": [],
     "firstSeenAt": "2026-11-15T01:00:16.864325+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -243,7 +243,7 @@
     "hatenaDate": "2026-11-14T06:07:53Z",
     "users": [],
     "firstSeenAt": "2026-11-15T00:15:13.580938+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
@@ -257,7 +257,7 @@
     "hatenaDate": "2026-11-13T22:02:24Z",
     "users": [],
     "firstSeenAt": "2026-11-15T00:15:13.580938+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
@@ -271,7 +271,7 @@
     "hatenaDate": "2026-11-13T22:48:33Z",
     "users": [],
     "firstSeenAt": "2026-11-14T23:45:13.640996+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -287,7 +287,7 @@
     "hatenaDate": "2026-11-14T10:07:16Z",
     "users": [],
     "firstSeenAt": "2026-11-14T23:45:13.640996+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -303,7 +303,7 @@
     "hatenaDate": "2026-11-13T11:27:34Z",
     "users": [],
     "firstSeenAt": "2026-11-14T23:45:13.640996+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
@@ -317,21 +317,21 @@
     "hatenaDate": "2026-11-14T12:48:25Z",
     "users": [],
     "firstSeenAt": "2026-11-14T23:15:14.085650+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AIについての追記",
     "url": "https://www.ms.u-tokyo.ac.jp/~konno/grad_ai.html",
     "domain": "www.ms.u-tokyo.ac.jp",
-    "count": 102,
+    "count": 104,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.ms.u-tokyo.ac.jp/~konno/grad_ai.html",
     "screenshot": null,
     "description": "この文章は2026年11月に書いています．この年は，AIが数学にもたらした影響がある閾値を超えた年として記憶されるでしょう．大学院教育にも当然多大な影響があります．学生さんから，AIについてどう思うか聞かれることも増えました．個々の教員のAIについての意見が，向こう数年間は指導教員選びにおいて大きなファクターとなる可能性も高いと思われるので，いまの時点での私の考えを書いておくことにします．もっとも，AIの進展が急速過ぎるので，私自身の考えも数ヶ月単位で変わっています．必要と感じることがあったらまた書き直すこともあるかもしれません． まず大前提として，恐らく多くの数学者と同様だと思いますが，私…",
     "hatenaDate": "2026-11-14T10:13:39Z",
     "users": [],
     "firstSeenAt": "2026-11-14T23:15:14.085650+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -362,7 +362,7 @@
     "hatenaDate": "2026-11-14T00:47:56Z",
     "users": [],
     "firstSeenAt": "2026-11-14T23:00:14.537807+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
@@ -376,7 +376,7 @@
     "hatenaDate": "2026-11-14T00:01:14Z",
     "users": [],
     "firstSeenAt": "2026-11-14T22:30:14.412959+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
@@ -390,7 +390,7 @@
     "hatenaDate": "2026-11-13T13:23:56Z",
     "users": [],
     "firstSeenAt": "2026-11-14T21:15:12.391596+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
@@ -404,7 +404,7 @@
     "hatenaDate": "2026-11-14T07:45:30Z",
     "users": [],
     "firstSeenAt": "2026-11-14T21:15:12.391596+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body"
   },
   {
@@ -418,7 +418,7 @@
     "hatenaDate": "2026-11-13T02:57:17Z",
     "users": [],
     "firstSeenAt": "2026-11-14T20:30:13.129340+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -434,7 +434,7 @@
     "hatenaDate": "2026-11-13T23:23:29Z",
     "users": [],
     "firstSeenAt": "2026-11-14T19:45:13.292966+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -511,7 +511,7 @@
     "hatenaDate": "2026-11-13T23:05:57Z",
     "users": [],
     "firstSeenAt": "2026-11-14T17:45:13.322701+09:00",
-    "lastSeenAt": "2026-11-15T11:30:14.141659+09:00",
+    "lastSeenAt": "2026-11-15T11:38:06.700642+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
