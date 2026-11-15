@@ -3,30 +3,30 @@
     "title": "一目で「こいつヤバいな」ってなるキャラの初登場シーンがマジで大好き、チェンソーマンの闇の悪魔とか",
     "url": "https://togetter.com/li/2769556",
     "domain": "togetter.com",
-    "count": 18,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2769556",
     "screenshot": "https://s.tgstc.com/ogp3/760f2926a6e28e8c47578d75d690ef03-1200x630.jpeg",
     "description": "強キャラ うしおととら 絶望 マンガ 東京喰種 チェンソーマン HUNTER×HUNTER ジャンプ こういう一目で「あ、こいつヤバいな」ってなる見た目のキャラの初登場シーンがマジで大好き pic.x.com/bg2X51HrF1 @tanabotako_chan @114514Maaa チェンソーマンですね！ 【あと6時間】Amazonマンガ毎週末セール 「百姓貴族」や「ギャグマンガ日和」がお得 コメディマンガがお得 @114514Maaa うしおととらに出てくるヤベェ妖怪はガチでヤバいのばっかだから… @114514Maaa @Requiem0requiem 「ふすま」はマジでトラウマ…",
     "hatenaDate": "2026-11-15T04:00:44Z",
     "users": [],
     "firstSeenAt": "2026-11-15T18:55:43.213395+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AIが便利になればなるほど深刻になる「自動化の皮肉」に人間はどう対処すべきか",
     "url": "https://gigazine.net/news/20261115-ai-isnt-replacing-sres-its-deskilling/",
     "domain": "gigazine.net",
-    "count": 15,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261115-ai-isnt-replacing-sres-its-deskilling/",
     "screenshot": "https://i.gzn.jp/img/2026/11/15/ai-isnt-replacing-sres-its-deskilling/00.png",
     "description": "近年のAIの進化はSRE(サイト信頼性エンジニアリング)に大きな影響を与えています。AIがインシデント対応の大部分を自動化するにつれて、人間が担うべき「稀・複雑・曖昧」な問題への対応能力が低下するという「自動化の皮肉」が指摘されています。オープンソースのシステム監視・分析ツール「SigNoz」の開発者エリザベス...",
     "hatenaDate": "2026-11-15T00:01:08Z",
     "users": [],
     "firstSeenAt": "2026-11-15T18:55:43.213395+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
-    "bodyTries": 1,
-    "bodyReason": "crawl-delay-too-long"
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
+    "bodyReason": "crawl-delay-too-long",
+    "bodyTries": 2
   },
   {
     "title": "自作フィードリーダーを作った - A Day in the Life",
@@ -39,21 +39,21 @@
     "hatenaDate": "2026-11-14T15:23:09Z",
     "users": [],
     "firstSeenAt": "2026-11-15T18:55:43.213395+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "脱WordPress：10年超の個人ブログをAstro + Cloudflare Workersへ移行しPageSpeed 100点を実現",
     "url": "https://zenn.dev/unsoluble_sugar/articles/8cdf1efc01e6cb",
     "domain": "zenn.dev",
-    "count": 15,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/unsoluble_sugar/articles/8cdf1efc01e6cb",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--uwiZuHtX--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%2584%25B1WordPress%25EF%25BC%259A10%25E5%25B9%25B4%25E8%25B6%2585%25E3%2581%25AE%25E5%2580%258B%25E4%25BA%25BA%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%2592Astro%2520%252B%2520Cloudflare%2520Workers%25E3%2581%25B8%25E7%25A7%25BB%25E8%25A1%258C%25E3%2581%2597PageS...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E6%2598%259F%25E5%25BD%25B1%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzEwZDE4YjgwZTkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "10 年以上 WordPress で運用してきた個人ブログを Astro + Cloudflare Workers の静的サイト に移行しました。 https://unsolublesugar.com/20261112/120000/ この記事では技術的な中身をまとめます。記事データの変換から Cloudflare での公開、公開後の調整までを扱います。作業の大半を Claude に任せた進め方 も紹介します。 2026 年 10 月に公表された PHP の脆弱性（CVE-2026-109618 / CVE-2026-109619）が直接のきっかけです。遠隔の第三者に任意のコードを実行される…",
     "hatenaDate": "2026-11-15T04:23:12Z",
     "users": [],
     "firstSeenAt": "2026-11-15T18:30:18.808670+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -67,7 +67,7 @@
     "hatenaDate": "2026-11-14T12:46:48Z",
     "users": [],
     "firstSeenAt": "2026-11-15T18:15:13.476785+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -81,7 +81,7 @@
     "hatenaDate": "2026-11-14T23:11:28Z",
     "users": [],
     "firstSeenAt": "2026-11-15T17:45:13.970194+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -95,7 +95,7 @@
     "hatenaDate": "2026-11-15T01:40:21Z",
     "users": [],
     "firstSeenAt": "2026-11-15T17:45:13.970194+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -116,42 +116,42 @@
     "title": "部門長まで上り詰めたグーグル米本社を55歳でクビに…掛け持ちバイトで月収80万円、「以前より少ない」とぼやくが、老後の不安は消えたワケ（THE GOLD ONLINE（ゴールドオンライン）） - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/articles/09d74208ad2103cdb06398a86188d12793299a60",
     "domain": "news.yahoo.co.jp",
-    "count": 43,
+    "count": 44,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/09d74208ad2103cdb06398a86188d12793299a60",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261028-00082683-gonline-000-1-view.jpg?exp=10800",
     "description": "モトローラやイーライリリーを経てグーグルで16年間勤め、米国本社で部門長まで上り詰めたロイス・キム氏。30年におよぶキャリアの絶頂期にあった55歳のある朝、彼女は突然の解雇を宣告されます。グーグルから放り出された彼女は、この期間を「ギャップイヤー」と位置づけることで前向きに捉え、スーパーのレジ係やスタバのバリスタ、ライドシェアの運転手を掛け持ちする生活をスタートさせました。本記事では、ロイス・キム氏の著書『ロイス、グーグルをクビになる。』（すばる舎）より、掛け持ちバイト生活から見えてきた、「引退後のお金・時間・孤独」に対する不安を解消する“リタイアの予行演習”に迫ります。 【早見表】毎月1万…",
     "hatenaDate": "2026-11-15T04:28:18Z",
     "users": [],
     "firstSeenAt": "2026-11-15T17:00:13.342069+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ディズニーシーは入場直後にスマホで予約するのが攻略最適解になっているため、入口付近で本来演出したかった非日常への没入感が失われて体験設計に失敗しているのでは？",
     "url": "https://togetter.com/li/2770570",
     "domain": "togetter.com",
-    "count": 70,
+    "count": 72,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2770570",
     "screenshot": "https://s.tgstc.com/ogp3/150df1ce1c24369c96dc97ee6d0bd98b-1200x630.jpeg",
     "description": "体験設計 オリエンタルランド テーマパーク ディズニー ディズニーシー ディズニーランド ディズニーシー、入場直後にスマホポチポチして昼食のモバイルオーダーやアトラクション優先入場の予約をするのが攻略最適解になってるせいで、入口付近で本来演出したかった非日常への没入感が失われており、体験設計に失敗している 故に最初から頭がディズニーに染まってる人達はともかく、俺のようなせっかくディズニーに来た冷笑勢やライト層のリピートをかなり取りこぼしてそうな気配がある 【公式】東京ディズニーシー | 東京ディズニーシー 東京ディズニーシーにて、楽しくかけがえのない思い出を残していただけるよう、東京ディズニ…",
     "hatenaDate": "2026-11-15T00:50:22Z",
     "users": [],
     "firstSeenAt": "2026-11-15T16:45:12.976203+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "バキのわ！～バキを語る女子高校生たち～・バキのわ！　『刃牙』シリーズ35周年特別編 | チャンピオンクロス",
     "url": "https://championcross.jp/episodes/055bfa217a654",
     "domain": "championcross.jp",
-    "count": 35,
+    "count": 36,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/championcross.jp/episodes/055bfa217a654",
     "screenshot": "https://cdn-public.comici.jp/episode/1790217388/11546d525ae9f4d4.webp",
     "description": "ABJマークは、この電子書店・電子書籍配信サービスが、著作権者からコンテンツ使用許諾を得た正規版配信サービスであることを示す登録商標(登録番号第6091713号)です。ABJマークの詳細、ABJマークを掲示しているサービスの一覧はこちら。 https://aebs.or.jp/",
     "hatenaDate": "2026-11-14T23:27:13Z",
     "users": [],
     "firstSeenAt": "2026-11-15T16:30:14.368206+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "bodyStatus": "skip",
     "bodyReason": "http-403"
   },
@@ -166,21 +166,21 @@
     "hatenaDate": "2026-11-15T02:28:32Z",
     "users": [],
     "firstSeenAt": "2026-11-15T16:15:16.599037+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "マザーボードは、ほぼ壊れない ―組み立て2,400台とサポート43,000件で見えた、PCの故障の順序",
     "url": "https://clivelab.jp/blogs/news/motherboard-rarely-fails",
     "domain": "clivelab.jp",
-    "count": 70,
+    "count": 75,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/clivelab.jp/blogs/news/motherboard-rarely-fails",
     "screenshot": "http://clivelab.jp/cdn/shop/articles/c3172441f9d82329a.jpg?v=1794564496",
     "description": "―組み立て2,400台とサポート43,000件で見えた、PCの故障の順序 はじめに：結論から PCのパーツが壊れる順序は、ほぼ決まっています。 稼働部品（ファン・ポンプ） → SSD → 電源 → グラフィックボード → その他。 そして意外に思われるかもしれませんが、マザーボードが単独で壊れるケースは稀です。長年サポートの現場に...",
     "hatenaDate": "2026-11-14T07:57:47Z",
     "users": [],
     "firstSeenAt": "2026-11-15T16:15:16.599037+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -195,21 +195,21 @@
     "hatenaDate": "2023-12-10T14:47:19Z",
     "users": [],
     "firstSeenAt": "2026-11-15T16:15:16.599037+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "45都道府県で土木職員の定員割れ、22年の土木職経験者が悲惨な目に遭うことが想定できるとして、なってはいけない職業と語る「夜中の呼び出しがキツい」「仕事が多すぎる」",
     "url": "https://togetter.com/li/2770658",
     "domain": "togetter.com",
-    "count": 132,
+    "count": 135,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2770658",
     "screenshot": "https://s.tgstc.com/ogp3/1afaaa23e94e89f3329d6e8fdc1255dc-1200x630.jpeg",
     "description": "ワイの思った通りの展開になってきている。都道府県でこれだから、市町村なんて0人とか当たり前😂😂 ますます水道、下水道、道路等のインフラの終焉は早まる。。まじで水道なんて20年後には蛇口から出ないんじゃないかな。 土木職員 今春45都道府県定員割れ #Yahooニュース news.yahoo.co.jp/pickup/6602395 都道府県の土木職のほとんどが定員割れとの報道が出ていましたね。。今後土木職は、悲惨な目にあうことは分かりきっているので、なってはいけない職業。市役所土木職を、22年間経験したワイが言うのだから間違いない😂。 ワイのチビ達にも、どうにもならないから土木だけはやめてお…",
     "hatenaDate": "2026-11-15T06:01:03Z",
     "users": [],
     "firstSeenAt": "2026-11-15T15:45:16.975722+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -223,21 +223,21 @@
     "hatenaDate": "2026-11-15T02:19:22Z",
     "users": [],
     "firstSeenAt": "2026-11-15T15:45:16.975722+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「人工知能学会」で「おじさん構文」の研究発表、問われる「若者に絵文字を使っていいのか」問題…ＡＩとの関係は",
     "url": "https://www.yomiuri.co.jp/science/20261112-GYT1T00160/",
     "domain": "www.yomiuri.co.jp",
-    "count": 70,
+    "count": 72,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.yomiuri.co.jp/science/20261112-GYT1T00160/",
     "screenshot": "https://www.yomiuri.co.jp/media/2026/11/20261112-GYT1I00165-1.jpg?type=ogpw",
     "description": "「若者は上司から絵文字がついた文章を受け取るとどう思うか――」。人工知能学会の研究会で、大学生が「おじさん構文」と呼ばれる文章についての研究結果を報告した。大学や企業のＡＩ研究者らが参加する学会で、場違いとも思える研究の発表。なぜ彼はこんな報告を行ったのか。話を聞くと「ＡＩとの距離感」の重要性が見えてきた。（デジタル編集部 古和康行） 「おじさん構文」とは、２０２２年頃にSNSなどで流行した言葉だ。絵文字を多用し、親しげな言い回しでつづられる長文が特徴とされ、主に若者から「嫌われる文章」として各メディアで取り上げられた。ちなみに、国語辞典などを手がける出版社・三省堂はこの年、「今年の新語」と…",
     "hatenaDate": "2026-11-15T02:53:25Z",
     "users": [],
     "firstSeenAt": "2026-11-15T15:15:12.961988+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -251,7 +251,7 @@
     "hatenaDate": "2026-11-14T13:05:18Z",
     "users": [],
     "firstSeenAt": "2026-11-15T15:00:15.037458+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -279,7 +279,7 @@
     "hatenaDate": "2026-11-15T01:02:26Z",
     "users": [],
     "firstSeenAt": "2026-11-15T14:30:13.964994+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -293,21 +293,21 @@
     "hatenaDate": "2026-11-14T08:01:46Z",
     "users": [],
     "firstSeenAt": "2026-11-15T14:15:14.234879+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "独プールで15人体調不良　マイクロソフト障害影響 | NEWSjp",
     "url": "https://news.jp/i/1494496378441958289",
     "domain": "news.jp",
-    "count": 190,
+    "count": 197,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.jp/i/1494496378441958289",
     "screenshot": "https://img.jp.ekkowassets.com/c_limit,w_200,h_200,f_auto,q_auto:eco/ch/units/39166665832988672/profile_7.png",
     "description": "【ベルリン共同】ドイツ公共放送WDRは14日、米IT大手マイクロソフトの主力業務ソフトの大規模障害による影響で、西部ブリュールのテーマパーク内にあるプールの利用者15人が体調不良を訴えたと報じた。障害により安全管理システムの警報メールが担当者に届かず、塩素を注入する装置の不具合に気付かず水中塩素濃度が著しく上昇した。 地元消防によると、15人のうち4人が病院に搬送された。警報メールはマイクロソフトの電子メール「アウトルック」で届くことになっていた。",
     "hatenaDate": "2026-11-15T02:57:16Z",
     "users": [],
     "firstSeenAt": "2026-11-15T13:15:18.765093+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -321,7 +321,7 @@
     "hatenaDate": "2026-11-15T00:59:00Z",
     "users": [],
     "firstSeenAt": "2026-11-15T13:15:18.765093+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "bodyStatus": "skip",
     "bodyReason": "no-text"
   },
@@ -329,14 +329,14 @@
     "title": "pingしながら問題の切り分けまでしてくれるspingが良さげかも | kawarimidoll.com",
     "url": "https://kawarimidoll.com/posts/202610201/",
     "domain": "kawarimidoll.com",
-    "count": 63,
+    "count": 64,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kawarimidoll.com/posts/202610201/",
     "screenshot": "https://kawarimidoll.com/posts/202610201/og.png",
     "description": "応答時間だけでなくルーターやインターネットの接続状況も調べてどこに問題がありそうかを教えてくれるspingの紹介です。 GitHub - LambdaBytes/sping: A modern, cross-platform ping with real-time diagnostics, network context, quality scoring, and multi-target monitoring. A modern, cross-platform ping with real-time diagnostics, network context, quality scoring…",
     "hatenaDate": "2026-11-15T02:09:07Z",
     "users": [],
     "firstSeenAt": "2026-11-15T12:45:15.522687+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -350,7 +350,7 @@
     "hatenaDate": "2026-11-14T23:42:12Z",
     "users": [],
     "firstSeenAt": "2026-11-15T12:30:14.576863+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -358,14 +358,14 @@
     "title": "福井市の『フェニックス通り』や『フェニックスプラザ』を東京の人に「フェニックスってｗ」と笑われたことがあるが、なぜフェニックスなのか説明したら神妙な顔で謝られた",
     "url": "https://togetter.com/li/2770584",
     "domain": "togetter.com",
-    "count": 99,
+    "count": 101,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2770584",
     "screenshot": "https://s.tgstc.com/ogp3/1b3a1fb6be59e21a09a2c59eb4c02e59-1200x630.jpeg",
     "description": "福井市の『フェニックス通り』とか『フェニックスプラザ』とかを、東京の人に「フェニックスってwww」って笑われたことがあるんだけど なぜフェニックスなのか説明したら神妙な顔で謝られたな…… 福井県民はそこそこ控えめな田舎者ではありますが、自認フェニックスなので 本気出したらなかなかやると思いますし あと歴史上、越前・若狭はなかなかやってます 大河で幕末ものが始まると特に盛り上がる（絶対に俺達の春嶽公が出てくるので） 丁嵐 景樂-Akira Atarashi-🔩💿☯️Vtuber @Directoric_AAA @ask_laph 気になって調べてみたらガチで何度と蘇ってるヤツじゃねーか。。 鳳…",
     "hatenaDate": "2026-11-15T01:06:21Z",
     "users": [],
     "firstSeenAt": "2026-11-15T12:15:12.973800+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -379,7 +379,7 @@
     "hatenaDate": "2026-11-15T00:58:50Z",
     "users": [],
     "firstSeenAt": "2026-11-15T12:00:13.285233+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -393,21 +393,21 @@
     "hatenaDate": "2026-11-14T22:55:19Z",
     "users": [],
     "firstSeenAt": "2026-11-15T12:00:13.285233+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "個人開発で5週間150万DL、AIと爆速で作るCAD「SolidCraft」 - FabScene（ファブシーン）",
     "url": "https://fabscene.com/new/interview/solidcraft-open-source-cad-ai-1-5m-downloads-brennen-herbruck/",
     "domain": "fabscene.com",
-    "count": 155,
+    "count": 156,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/fabscene.com/new/interview/solidcraft-open-source-cad-ai-1-5m-downloads-brennen-herbruck/",
     "screenshot": "https://fabscene.com/wp-content/uploads/2026/11/image-113.webp",
     "description": "Claude CodeやCodexのようなAIコーディングツールが広がり、個人が手がけられるソフトウェアの規模が変わりつつある。米国の開発者Brennen Herbruck氏が2026年10月に書き始めたオープンソースの3D CAD「SolidCraft」は、その一例だ。公開から約5週間で正式版を58回リリースし、GitHubからのダウンロードは約150万回、スターは1万6000に達した。Autodeskの「Fusion」に近い操作の流れを掲げて始まり、Fusionが対応していないLinuxでも動き、ブラウザーでも使える。AIエージェントがCADを直接操作できるのも特徴だ。AIがなければ大き…",
     "hatenaDate": "2026-11-14T23:49:57Z",
     "users": [],
     "firstSeenAt": "2026-11-15T12:00:13.285233+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -450,21 +450,21 @@
     "hatenaDate": "2026-11-14T23:07:05Z",
     "users": [],
     "firstSeenAt": "2026-11-15T11:30:14.141659+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "NVIDIAフアン前CEOの復帰求める署名が11万人超　マスク氏らも賛同、米議会は追及継続",
     "url": "https://www.itmedia.co.jp/news/article/2611/15/2000003207/",
     "domain": "www.itmedia.co.jp",
-    "count": 154,
+    "count": 156,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/15/2000003207/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/15/2000003207/10012162/2048",
     "description": "米NVIDIAのジェンスン・フアン前CEOの復帰を求めるオンライン署名運動が広がっている。署名サイト「Stand with Jensen」によると、11月15日午前（日本時間）の時点で署名者は11万6256人に達した。 署名者には、イーロン・マスク氏やEpic Gamesのティム・スウィーニーCEOなど、著名なIT業界関係者の名前も並んでいる。 フアン氏は、中国の情報機関との関係が疑われる女性との交際が報じられたことを受け、11月12日にCEO、社長、取締役を退任した。NVIDIAは最高財務責任者（CFO）のコレット・クレス氏を暫定CEOに任命し、社内外から後任を探している。 署名運動の主催…",
     "hatenaDate": "2026-11-14T23:39:10Z",
     "users": [],
     "firstSeenAt": "2026-11-15T11:15:13.084375+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -478,7 +478,7 @@
     "hatenaDate": "2026-11-14T23:21:45Z",
     "users": [],
     "firstSeenAt": "2026-11-15T11:15:13.084375+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -492,7 +492,7 @@
     "hatenaDate": "2026-11-14T15:14:09Z",
     "users": [],
     "firstSeenAt": "2026-11-15T11:00:13.057965+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -520,7 +520,7 @@
     "hatenaDate": "2026-11-13T13:32:42Z",
     "users": [],
     "firstSeenAt": "2026-11-15T10:15:13.939446+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -541,14 +541,14 @@
     "title": "デスクトップアプリを自動操作できるAUVが良さげかも | kawarimidoll.com",
     "url": "https://kawarimidoll.com/posts/202610182/",
     "domain": "kawarimidoll.com",
-    "count": 117,
+    "count": 118,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kawarimidoll.com/posts/202610182/",
     "screenshot": "https://kawarimidoll.com/posts/202610182/og.png",
     "description": "Programmable Computer Use, without agents. AUV turns app UI workflows into typed operations you can script, record, inspect, and replay. GitHub - moeru-ai/auv: 📱🐭 Are we computer use, I guess not, it's Application Use Via... a unified orchestration layer of OS automation, 0 token cost. Supports Lin…",
     "hatenaDate": "2026-10-19T08:36:48Z",
     "users": [],
     "firstSeenAt": "2026-11-15T09:45:15.797049+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -576,7 +576,7 @@
     "hatenaDate": "2026-11-14T18:54:45Z",
     "users": [],
     "firstSeenAt": "2026-11-15T09:30:16.520780+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -590,7 +590,7 @@
     "hatenaDate": "2026-11-14T14:59:39Z",
     "users": [],
     "firstSeenAt": "2026-11-15T09:30:16.520780+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -618,7 +618,7 @@
     "hatenaDate": "2026-11-14T22:44:14Z",
     "users": [],
     "firstSeenAt": "2026-11-15T09:30:16.520780+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -647,7 +647,7 @@
     "hatenaDate": "2026-11-14T23:22:23Z",
     "users": [],
     "firstSeenAt": "2026-11-15T09:15:18.714552+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -704,7 +704,7 @@
     "hatenaDate": "2026-11-13T04:36:15Z",
     "users": [],
     "firstSeenAt": "2026-11-15T08:45:14.220230+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -870,14 +870,14 @@
     "title": "Building always-on agents",
     "url": "https://claude.com/resources/articles/building-always-on-agents",
     "domain": "claude.com",
-    "count": 260,
+    "count": 262,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/claude.com/resources/articles/building-always-on-agents",
     "screenshot": "https://claude.com/resources/articles/building-always-on-agents/opengraph-image/og",
     "description": "Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together. Over the past few months, we’ve seen a resurgence of always-on agents. Always-on agents are stateful and proactive, meaning they manage c...",
     "hatenaDate": "2026-11-14T00:52:42Z",
     "users": [],
     "firstSeenAt": "2026-11-15T06:45:13.411357+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -899,14 +899,14 @@
     "title": "常時稼働エージェントの作り方（Claude公式ブログを資料化）",
     "url": "https://speakerdeck.com/minorun365/jouji-kadou-ejento-no-tsukurikata",
     "domain": "speakerdeck.com",
-    "count": 422,
+    "count": 424,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/minorun365/jouji-kadou-ejento-no-tsukurikata",
     "screenshot": "https://files.speakerdeck.com/presentations/35d0e47593c74ea99eb61eb523e3f757/slide_0.jpg?41374920",
     "description": "以下のURLを私のClaude Codeに渡して、スライドをポン出しする実験です。 https://claude.com/ja/resources/articles/building-always-on-agents Claude公式記事を読む 常時稼働エージェントは どう作るのか みのるん @minorun365 御田 稔 みのるん KDDIアジャイル開発センター株式会社 テックエバンジェリスト KDDI株式会社 Distinguished Engineer AWS AI このスライドはポン出しです！ みのるん式で育てたClaude Codeのハーネスに、 ブログのURLをそのまま渡しまし…",
     "hatenaDate": "2026-11-14T16:06:17Z",
     "users": [],
     "firstSeenAt": "2026-11-15T06:45:13.411357+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4262,21 +4262,21 @@
     "hatenaDate": "2026-11-15T04:40:45Z",
     "users": [],
     "firstSeenAt": "2026-11-15T18:45:15.341669+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "工場で勤務するようになって知ったのだが、利益のために効率を追求しようとするとあらゆる機械や人間が稼働率100%近くで動くことを要求されてヤバい",
     "url": "https://togetter.com/li/2770697",
     "domain": "togetter.com",
-    "count": 12,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2770697",
     "screenshot": "https://s.tgstc.com/ogp3/5cee02d8815512dedc737329939f5d46-1200x630.jpeg",
     "description": "工場で勤務するようになって知ったのだが、利益のために効率を追求しようとすると基本的にあらゆる機械や人間が稼働率100%近くで動くことを要求されるからマジでイレギュラーが起きた時の吸収箇所がほぼなくてヤバい この社会もそんな感じで必然的にギリギリで回るようになってしまっている気がする x.com/sh1p1ele_/stat… 自分の特性もトラウマも理解したうえで、なお、子を持つのであれば 自分が万が一トチ狂ったときに、すぐに子供の逃げ場が確保されるような社会であってほしいのだけど 児相も養護施設も大概いっぱいいっぱいで期待できんのよな そういうわけで、何かの商品で需給バランスが崩れて品薄にな…",
     "hatenaDate": "2026-11-15T08:14:44Z",
     "users": [],
     "firstSeenAt": "2026-11-15T18:45:15.341669+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4290,7 +4290,7 @@
     "hatenaDate": "2026-11-15T03:11:02Z",
     "users": [],
     "firstSeenAt": "2026-11-15T18:00:18.416609+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -4305,7 +4305,7 @@
     "hatenaDate": "2026-11-15T07:14:35Z",
     "users": [],
     "firstSeenAt": "2026-11-15T17:45:13.970194+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4319,7 +4319,7 @@
     "hatenaDate": "2026-11-14T10:38:16Z",
     "users": [],
     "firstSeenAt": "2026-11-15T17:30:13.652558+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4335,7 +4335,7 @@
     "hatenaDate": "2026-11-15T07:40:28Z",
     "users": [],
     "firstSeenAt": "2026-11-15T17:30:13.652558+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4349,7 +4349,7 @@
     "hatenaDate": "2026-11-14T09:41:57Z",
     "users": [],
     "firstSeenAt": "2026-11-15T17:30:13.652558+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4363,7 +4363,7 @@
     "hatenaDate": "2026-11-15T02:21:12Z",
     "users": [],
     "firstSeenAt": "2026-11-15T17:15:13.804828+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4377,7 +4377,7 @@
     "hatenaDate": "2026-11-15T05:57:01Z",
     "users": [],
     "firstSeenAt": "2026-11-15T17:00:13.342069+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4391,7 +4391,7 @@
     "hatenaDate": "2026-11-15T06:59:15Z",
     "users": [],
     "firstSeenAt": "2026-11-15T16:45:12.976203+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4412,14 +4412,14 @@
     "title": "厳格化する外国人政策に疑問…直木賞作家・中島京子さんが説く「反うわさ戦略」とは：東京新聞デジタル",
     "url": "https://www.tokyo-np.co.jp/article/526208",
     "domain": "www.tokyo-np.co.jp",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.tokyo-np.co.jp/article/526208",
     "screenshot": "https://static.tokyo-np.co.jp/image/article/size1/f/d/1/c/fd1c840e5afe79a654fe41c654324efe_1.jpg",
     "description": "小説『やさしい猫』（中央公論新社）で入管政策の現実を描いた直木賞作家の中島京子さんが、このほど日本ペンクラブで講演し、厳格化する政府の姿勢に疑問を投げかけた。 執筆のため在日外国人に取材を重ねた中島さんが肌で感じる危機感とは──。（池尾伸一） 『やさしい猫』では、スリランカ人男性のクマラと、日本人でシングルマザーのミユキが出会い、結婚する。だが、クマラはひょんなことで在留資格を失い、強制送還の危機に。ミユキとクマラは、国を相手に裁判を起こし、在留資格を勝ち取る。しかし、現実の日本では、外国人を取り巻く環境は厳しさを増している。 中島さんはこの小説を書くため、在日外国人たちに取材した。中でも、…",
     "hatenaDate": "2026-11-15T00:24:40Z",
     "users": [],
     "firstSeenAt": "2026-11-15T15:15:12.961988+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4463,7 +4463,7 @@
     "hatenaDate": "2026-11-15T04:06:23Z",
     "users": [],
     "firstSeenAt": "2026-11-15T14:45:20.401219+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -6325,7 +6325,7 @@
     "hatenaDate": "2026-11-15T00:08:02Z",
     "users": [],
     "firstSeenAt": "2026-11-15T17:30:13.652558+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -6339,7 +6339,7 @@
     "hatenaDate": "2026-11-15T05:04:26Z",
     "users": [],
     "firstSeenAt": "2026-11-15T16:45:12.976203+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -6353,7 +6353,7 @@
     "hatenaDate": "2026-11-14T06:17:06Z",
     "users": [],
     "firstSeenAt": "2026-11-15T15:00:15.037458+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -15300,7 +15300,7 @@
     "hatenaDate": "2026-11-12T03:20:17Z",
     "users": [],
     "firstSeenAt": "2026-11-12T17:00:17.694443+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -15316,7 +15316,7 @@
     "hatenaDate": "2026-11-12T00:53:45Z",
     "users": [],
     "firstSeenAt": "2026-11-12T15:45:13.087010+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -15332,7 +15332,7 @@
     "hatenaDate": "2026-01-23T05:14:20Z",
     "users": [],
     "firstSeenAt": "2026-11-12T15:15:13.270148+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -15348,7 +15348,7 @@
     "hatenaDate": "2026-11-11T11:47:38Z",
     "users": [],
     "firstSeenAt": "2026-11-12T08:45:12.788628+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -15362,7 +15362,7 @@
     "hatenaDate": "2026-11-11T12:08:18Z",
     "users": [],
     "firstSeenAt": "2026-11-12T08:15:12.636842+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -15376,7 +15376,7 @@
     "hatenaDate": "2026-11-11T09:47:23Z",
     "users": [],
     "firstSeenAt": "2026-11-12T07:30:12.750820+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -15390,7 +15390,7 @@
     "hatenaDate": "2026-11-10T09:43:46Z",
     "users": [],
     "firstSeenAt": "2026-11-11T23:45:13.054859+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -15404,7 +15404,7 @@
     "hatenaDate": "2026-11-11T04:24:54Z",
     "users": [],
     "firstSeenAt": "2026-11-11T22:45:14.553919+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -15419,7 +15419,7 @@
     "hatenaDate": "2026-11-11T06:19:05Z",
     "users": [],
     "firstSeenAt": "2026-11-11T19:45:14.025572+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -15433,7 +15433,7 @@
     "hatenaDate": "2026-11-11T07:38:58Z",
     "users": [],
     "firstSeenAt": "2026-11-11T19:30:13.024064+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -15449,7 +15449,7 @@
     "hatenaDate": "2026-11-10T20:13:48Z",
     "users": [],
     "firstSeenAt": "2026-11-11T16:30:14.218283+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -15464,7 +15464,7 @@
     "hatenaDate": "2026-11-11T02:39:54Z",
     "users": [],
     "firstSeenAt": "2026-11-11T13:45:13.546504+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -15478,7 +15478,7 @@
     "hatenaDate": "2026-11-11T00:47:56Z",
     "users": [],
     "firstSeenAt": "2026-11-11T13:30:13.544023+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -15493,7 +15493,7 @@
     "hatenaDate": "2026-11-11T02:22:38Z",
     "users": [],
     "firstSeenAt": "2026-11-11T12:30:13.812812+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -15509,7 +15509,7 @@
     "hatenaDate": "2026-11-10T20:23:17Z",
     "users": [],
     "firstSeenAt": "2026-11-11T09:30:16.138891+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -15525,7 +15525,7 @@
     "hatenaDate": "2026-11-10T06:50:31Z",
     "users": [],
     "firstSeenAt": "2026-11-11T09:15:14.885920+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -17161,7 +17161,7 @@
     "hatenaDate": "2026-11-13T12:20:36Z",
     "users": [],
     "firstSeenAt": "2026-11-15T18:00:18.416609+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17175,7 +17175,7 @@
     "hatenaDate": "2026-11-14T00:29:59Z",
     "users": [],
     "firstSeenAt": "2026-11-15T17:15:13.804828+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17189,7 +17189,7 @@
     "hatenaDate": "2026-11-14T14:43:49Z",
     "users": [],
     "firstSeenAt": "2026-11-15T17:15:13.804828+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17203,7 +17203,7 @@
     "hatenaDate": "2026-11-14T21:49:18Z",
     "users": [],
     "firstSeenAt": "2026-11-15T16:45:12.976203+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17217,7 +17217,7 @@
     "hatenaDate": "2026-11-14T12:29:07Z",
     "users": [],
     "firstSeenAt": "2026-11-15T15:30:16.224334+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17231,7 +17231,7 @@
     "hatenaDate": "2026-11-06T12:02:26Z",
     "users": [],
     "firstSeenAt": "2026-11-15T12:45:15.522687+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17245,7 +17245,7 @@
     "hatenaDate": "2026-11-13T08:26:20Z",
     "users": [],
     "firstSeenAt": "2026-11-15T10:30:12.968062+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -17259,7 +17259,7 @@
     "hatenaDate": "2026-11-14T04:56:46Z",
     "users": [],
     "firstSeenAt": "2026-11-15T10:15:13.939446+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20412,7 +20412,7 @@
     "hatenaDate": "2026-11-12T04:46:22Z",
     "users": [],
     "firstSeenAt": "2026-11-13T20:15:14.876378+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20426,7 +20426,7 @@
     "hatenaDate": "2026-11-13T03:30:46Z",
     "users": [],
     "firstSeenAt": "2026-11-13T19:30:16.953141+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20440,7 +20440,7 @@
     "hatenaDate": "2026-11-12T10:38:42Z",
     "users": [],
     "firstSeenAt": "2026-11-12T23:30:18.896909+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20454,7 +20454,7 @@
     "hatenaDate": "2026-11-11T09:17:04Z",
     "users": [],
     "firstSeenAt": "2026-11-12T22:30:14.423093+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20468,7 +20468,7 @@
     "hatenaDate": "2026-11-12T03:58:00Z",
     "users": [],
     "firstSeenAt": "2026-11-12T22:15:14.034253+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20482,7 +20482,7 @@
     "hatenaDate": "2026-11-12T05:26:38Z",
     "users": [],
     "firstSeenAt": "2026-11-12T14:45:14.529104+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -20498,7 +20498,7 @@
     "hatenaDate": "2026-11-12T03:10:24Z",
     "users": [],
     "firstSeenAt": "2026-11-12T13:15:13.094849+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20512,7 +20512,7 @@
     "hatenaDate": "2026-11-11T02:33:26Z",
     "users": [],
     "firstSeenAt": "2026-11-12T13:15:13.094849+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20526,7 +20526,7 @@
     "hatenaDate": "2026-11-11T16:28:20Z",
     "users": [],
     "firstSeenAt": "2026-11-12T08:00:13.906164+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20540,7 +20540,7 @@
     "hatenaDate": "2026-11-11T08:47:55Z",
     "users": [],
     "firstSeenAt": "2026-11-12T07:15:12.903257+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20554,7 +20554,7 @@
     "hatenaDate": "2026-11-11T07:14:12Z",
     "users": [],
     "firstSeenAt": "2026-11-11T22:45:14.553919+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20568,7 +20568,7 @@
     "hatenaDate": "2026-11-11T11:54:54Z",
     "users": [],
     "firstSeenAt": "2026-11-11T21:30:13.360143+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -20584,7 +20584,7 @@
     "hatenaDate": "2026-11-11T03:39:37Z",
     "users": [],
     "firstSeenAt": "2026-11-11T15:00:20.227674+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20598,7 +20598,7 @@
     "hatenaDate": "2026-11-11T03:25:14Z",
     "users": [],
     "firstSeenAt": "2026-11-11T13:15:14.343361+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -20614,7 +20614,7 @@
     "hatenaDate": "2026-11-11T02:55:41Z",
     "users": [],
     "firstSeenAt": "2026-11-11T13:15:14.343361+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -20630,7 +20630,7 @@
     "hatenaDate": "2026-11-10T08:32:40Z",
     "users": [],
     "firstSeenAt": "2026-11-11T10:30:15.989213+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -20646,7 +20646,7 @@
     "hatenaDate": "2026-11-10T11:16:17Z",
     "users": [],
     "firstSeenAt": "2026-11-10T23:00:15.809447+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20660,7 +20660,7 @@
     "hatenaDate": "2026-11-10T11:19:31Z",
     "users": [],
     "firstSeenAt": "2026-11-10T22:00:12.690299+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -20669,14 +20669,14 @@
     "title": "島根の旅館の部屋、怖かった「味わい深い構造だ」「寝ぼけたままトイレ行くとき死ぬやろこれ」",
     "url": "https://togetter.com/li/2768856",
     "domain": "togetter.com",
-    "count": 69,
+    "count": 70,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2768856",
     "screenshot": "https://s.tgstc.com/ogp3/d9c009d23d54ea87f1d12df3ef6b083a-1200x630.jpeg",
     "description": "安来といえばどじょう!いただきます!!－さぎの湯温泉 | TOPPY NET TOPPY安来といったらやっぱりどじょう。どじょうを食べるならやっぱり老舗。AIKATA結構歩いたり、あちこち移動したりしてるのに、あまり疲れを感じなかったのはやっぱり温泉のおかげかも。さぎの湯温泉… @l_lTwTl_l 横っちょにある花瓶から突き出た枝に足が当たって「おっと...」って避けてズルッ！と落下するパターンありそう しゅーま Syuma Sakaki Hybrid Account @syuma_sakaki_ @l_lTwTl_l これに似てるような… pic.x.com/RglgtnsCgi X（旧…",
     "hatenaDate": "2026-11-10T09:59:18Z",
     "users": [],
     "firstSeenAt": "2026-11-10T20:45:12.729096+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -20690,7 +20690,7 @@
     "hatenaDate": "2026-11-09T11:52:52Z",
     "users": [],
     "firstSeenAt": "2026-11-10T16:45:13.427418+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24600,7 +24600,7 @@
     "hatenaDate": "2026-11-13T11:39:20Z",
     "users": [],
     "firstSeenAt": "2026-11-15T18:45:15.341669+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24614,7 +24614,7 @@
     "hatenaDate": "2026-11-15T05:43:30Z",
     "users": [],
     "firstSeenAt": "2026-11-15T16:00:14.877957+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24628,7 +24628,7 @@
     "hatenaDate": "2026-11-14T10:33:10Z",
     "users": [],
     "firstSeenAt": "2026-11-15T13:00:12.708068+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -24643,7 +24643,7 @@
     "hatenaDate": "2026-11-14T15:06:41Z",
     "users": [],
     "firstSeenAt": "2026-11-15T07:00:13.864550+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24657,7 +24657,7 @@
     "hatenaDate": "2026-11-14T15:01:00Z",
     "users": [],
     "firstSeenAt": "2026-11-15T01:45:13.720534+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24671,7 +24671,7 @@
     "hatenaDate": "2026-11-14T15:00:58Z",
     "users": [],
     "firstSeenAt": "2026-11-15T01:00:16.864325+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24685,7 +24685,7 @@
     "hatenaDate": "2026-11-13T15:20:59Z",
     "users": [],
     "firstSeenAt": "2026-11-14T17:30:12.552359+09:00",
-    "lastSeenAt": "2026-11-15T18:55:43.213395+09:00",
+    "lastSeenAt": "2026-11-15T19:00:14.076908+09:00",
     "descriptionSource": "body"
   },
   {
