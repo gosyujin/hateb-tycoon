@@ -3,14 +3,14 @@
     "title": "SRE ブックの 10 年間:『Site Reliability Engineering』第 2 版のご紹介 | Google Cloud 公式ブログ",
     "url": "https://cloud.google.com/blog/ja/products/devops-sre/sre-book-second-edition/",
     "domain": "cloud.google.com",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/cloud.google.com/blog/ja/products/devops-sre/sre-book-second-edition/",
     "screenshot": "https://storage.googleapis.com/gweb-cloudblog-publish/images/DevOps__SRE.max-2500x2500.jpg",
     "description": "Software Engineer, Site Reliability Engineer Google が本番環境システムを運用する方法を、現代のクラウドと AI の時代に合わせてアップデートしました ※この投稿は米国時間 2026 年 10 月 13 日に、Google Cloud blog に投稿されたものの抄訳です。 10 年前、Google は O'Reilly Media から『Site Reliability Engineering: How Google Runs Production Systems』を出版しました。大規模なインフラストラクチャを管理する Google の手法…",
     "hatenaDate": "2026-11-15T01:43:12Z",
     "users": [],
     "firstSeenAt": "2026-11-16T01:30:08.818254+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +24,7 @@
     "hatenaDate": "2026-11-15T09:10:36Z",
     "users": [],
     "firstSeenAt": "2026-11-16T01:30:08.818254+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -39,21 +39,21 @@
     "hatenaDate": "2026-10-19T01:09:02Z",
     "users": [],
     "firstSeenAt": "2026-11-16T01:15:12.749670+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "こんなに変わった！ AWSネットワークの常識",
     "url": "https://speakerdeck.com/shotashiratori/nw-jaws-10th-keynote",
     "domain": "speakerdeck.com",
-    "count": 14,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/shotashiratori/nw-jaws-10th-keynote",
     "screenshot": "https://files.speakerdeck.com/presentations/029ca92433274b57850e0fdd5789f106/slide_0.jpg?41383011",
     "description": "Sponsored · SiteGround - Reliable hosting with speed, security, and support you can count on. → NW-JAWS DAY Keynote こんなに変わった！ AWSネットワークの常識 2016年のベストプラクティスは、2026年のアンチパターン？ Shota SHIRATORI(NW-JAWS) @whitebird_sp #NW_JAWS ※本資料に記載の内容は2026年11月14日時点のものとなります ※本資料の見解・知見については所属する組織を代表するものではありません @whitebird_…",
     "hatenaDate": "2026-11-15T12:30:54Z",
     "users": [],
     "firstSeenAt": "2026-11-16T01:00:17.911900+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -62,14 +62,14 @@
     "title": "さようならSSH鍵、こんにちはゼロトラスト ― AIフレンドリーで快適な自宅鯖SSH",
     "url": "https://speakerdeck.com/atalie2m/goodbye-ssh-key-jisabakan-2026",
     "domain": "speakerdeck.com",
-    "count": 11,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/atalie2m/goodbye-ssh-key-jisabakan-2026",
     "screenshot": "https://files.speakerdeck.com/presentations/4e116e1eb42b4574aeec9453187ebec3/slide_0.jpg?41380135",
     "description": "Sponsored · Ship Features Fearlessly Turn features on and off without deploys. Used by thousands of Ruby developers. → さようならSSH鍵、こんにちはゼロトラスト ― AIフレンドリーで快適な自宅鯖SSH 自宅鯖でありがちな、「SSH鍵をサーバごとに分けると管理が面倒。でも、同じ鍵をあちこちで使い回すのも怖いよね」という悩み。コーディングエージェントの登場によって、この問題はさらに大きくなりました。人間が使っているSSH鍵をそのままエージェントに渡すわけにもいかないし、かとい…",
     "hatenaDate": "2026-11-15T11:08:12Z",
     "users": [],
     "firstSeenAt": "2026-11-16T01:00:17.911900+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body"
   },
   {
@@ -83,7 +83,7 @@
     "hatenaDate": "2026-11-15T10:12:52Z",
     "users": [],
     "firstSeenAt": "2026-11-16T00:45:15.891155+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body"
   },
   {
@@ -97,7 +97,7 @@
     "hatenaDate": "2026-10-20T03:52:06Z",
     "users": [],
     "firstSeenAt": "2026-11-16T00:45:15.891155+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body"
   },
   {
@@ -111,7 +111,7 @@
     "hatenaDate": "2026-09-02T00:51:36Z",
     "users": [],
     "firstSeenAt": "2026-11-16T00:30:13.340642+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body"
   },
   {
@@ -125,7 +125,7 @@
     "hatenaDate": "2026-11-15T03:26:42Z",
     "users": [],
     "firstSeenAt": "2026-11-15T23:00:14.450358+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -134,14 +134,14 @@
     "title": "Museに雑に投げて頭を空けておく - taxin.dev",
     "url": "https://taxin.dev/articles/2026-11-15",
     "domain": "taxin.dev",
-    "count": 31,
+    "count": 37,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/taxin.dev/articles/2026-11-15",
     "screenshot": "https://taxin.dev/og/2026-11-15.png",
     "description": "2026年10月末にMeta社からパーソナルAIエージェント「Muse」の日本提供が開始されましたね。 Meta、パーソナルAIエージェント「Muse」を日本で提供開始 | Metaについて Metaは、パーソナルAIエージェント「Muse」の日本での提供を開始。北米以外では初の提供地域となる日本で、利用者の目標達成や日常のタスクを能動的にサポートします。 私はリリースして数日経ったくらいから使い始めました。 仕事やエンジニアリングに関する内容ではなく、主にプライベートな調べ物やタスクをMuseに任せるようにしています。 「あれどうしてたっけ」「あれやらないと」と思った瞬間に、Museに雑に…",
     "hatenaDate": "2026-11-15T12:11:59Z",
     "users": [],
     "firstSeenAt": "2026-11-15T23:00:14.450358+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -185,7 +185,7 @@
     "hatenaDate": "2026-11-13T15:31:03Z",
     "users": [],
     "firstSeenAt": "2026-11-15T22:45:13.409016+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body"
   },
   {
@@ -199,7 +199,7 @@
     "hatenaDate": "2026-11-14T08:56:30Z",
     "users": [],
     "firstSeenAt": "2026-11-15T22:30:11.445041+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -215,7 +215,7 @@
     "hatenaDate": "2026-11-15T03:23:23Z",
     "users": [],
     "firstSeenAt": "2026-11-15T22:15:12.609463+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body"
   },
   {
@@ -229,7 +229,7 @@
     "hatenaDate": "2026-11-15T05:42:37Z",
     "users": [],
     "firstSeenAt": "2026-11-15T22:00:12.411987+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "bodyStatus": "skip",
     "bodyReason": "robots-disallow"
   },
@@ -244,7 +244,7 @@
     "hatenaDate": "2026-11-14T09:13:27Z",
     "users": [],
     "firstSeenAt": "2026-11-15T22:00:12.411987+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body"
   },
   {
@@ -272,7 +272,7 @@
     "hatenaDate": "2026-11-15T05:01:38Z",
     "users": [],
     "firstSeenAt": "2026-11-15T21:15:14.469339+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body"
   },
   {
@@ -300,7 +300,7 @@
     "hatenaDate": "2026-11-12T21:49:52Z",
     "users": [],
     "firstSeenAt": "2026-11-15T21:15:14.469339+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body"
   },
   {
@@ -321,14 +321,14 @@
     "title": "今、ソフトウェアエンジニアとして何を思うか｜Mori Atsushi",
     "url": "https://note.com/at_sushi_at/n/n2e6ea3453e37",
     "domain": "note.com",
-    "count": 212,
+    "count": 216,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/at_sushi_at/n/n2e6ea3453e37",
     "screenshot": null,
     "description": "もちろんAIは当時からある程度のコード、というかほとんどのコードを書いてくれた。 保守性を考えない安直で重複したコード、勘違いによるミス、一部しか考慮していないことによる不完全な対応。 それでもまだ、ソフトウェアエンジニアが不要だと言い切るには早い、というのが当時の私の考えだった。 私が絶対に発見できないであろう問題を素早く発見し、私よりも優れた設計を提案してくれる。 1つ目の『AI様が快適に動ける環境を作る』ために、実際にやるべきことは多岐にわたる。 こういった対応は間違いなく価値があるが、同時にそのほとんどは将来不要になると予想できる。 また、プロジェクトによらないフローについてはそのう…",
     "hatenaDate": "2026-11-15T09:51:50Z",
     "users": [],
     "firstSeenAt": "2026-11-15T20:30:13.616371+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -337,28 +337,28 @@
     "title": "脱WordPress：10年超の個人ブログをAstro + Cloudflare Workersへ移行しPageSpeed 100点を実現",
     "url": "https://zenn.dev/unsoluble_sugar/articles/8cdf1efc01e6cb",
     "domain": "zenn.dev",
-    "count": 118,
+    "count": 119,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/unsoluble_sugar/articles/8cdf1efc01e6cb",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--uwiZuHtX--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%2584%25B1WordPress%25EF%25BC%259A10%25E5%25B9%25B4%25E8%25B6%2585%25E3%2581%25AE%25E5%2580%258B%25E4%25BA%25BA%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%2592Astro%2520%252B%2520Cloudflare%2520Workers%25E3%2581%25B8%25E7%25A7%25BB%25E8%25A1%258C%25E3%2581%2597PageS...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E6%2598%259F%25E5%25BD%25B1%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzEwZDE4YjgwZTkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "10 年以上 WordPress で運用してきた個人ブログを Astro + Cloudflare Workers の静的サイト に移行しました。 https://unsolublesugar.com/20261112/120000/ この記事では技術的な中身をまとめます。記事データの変換から Cloudflare での公開、公開後の調整までを扱います。作業の大半を Claude に任せた進め方 も紹介します。 2026 年 10 月に公表された PHP の脆弱性（CVE-2026-109618 / CVE-2026-109619）が直接のきっかけです。遠隔の第三者に任意のコードを実行される…",
     "hatenaDate": "2026-11-15T04:23:12Z",
     "users": [],
     "firstSeenAt": "2026-11-15T18:30:18.808670+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "自作フィードリーダーを作った - A Day in the Life",
     "url": "https://secon.dev/entry/2026/11/12/220000-my-own-feed-reader/",
     "domain": "secon.dev",
-    "count": 168,
+    "count": 171,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/secon.dev/entry/2026/11/12/220000-my-own-feed-reader/",
     "screenshot": "https://storage.googleapis.com/secons-site-images/other/blog_images/20261114-feed-reader-main.webp",
     "description": "みんな自作 FeedReader 作っているなぁ、でも今使っている Inoreader (今は亡き、安価な年額19.99USDの starter planを使い続けている) でいいや、と思っていたのだが、結局細かいあれこれをブラウザ拡張の Tampermonkey などでちまちま修正していて、ちょっと魔がさしたので作ってみた。 30行ぐらい雑な仕様を書いて Opus 5.5 氏に実装していただいたら、ほぼ満足のものが一発で出来上がり、あとは挙動の微調整を行ったら普通に満足なものができてしまった。Claude Opus 5.5 の実装・実現能力の高さはびっくりするね。 特にソースコードは公開し…",
     "hatenaDate": "2026-11-14T15:23:09Z",
     "users": [],
     "firstSeenAt": "2026-11-15T18:30:18.808670+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -416,7 +416,7 @@
     "hatenaDate": "2026-11-15T00:01:08Z",
     "users": [],
     "firstSeenAt": "2026-11-15T17:00:13.342069+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -438,14 +438,14 @@
     "title": "マザーボードは、ほぼ壊れない ―組み立て2,400台とサポート43,000件で見えた、PCの故障の順序",
     "url": "https://clivelab.jp/blogs/news/motherboard-rarely-fails",
     "domain": "clivelab.jp",
-    "count": 404,
+    "count": 406,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/clivelab.jp/blogs/news/motherboard-rarely-fails",
     "screenshot": "http://clivelab.jp/cdn/shop/articles/c3172441f9d82329a.jpg?v=1794564496",
     "description": "―組み立て2,400台とサポート43,000件で見えた、PCの故障の順序 はじめに：結論から PCのパーツが壊れる順序は、ほぼ決まっています。 稼働部品（ファン・ポンプ） → SSD → 電源 → グラフィックボード → その他。 そして意外に思われるかもしれませんが、マザーボードが単独で壊れるケースは稀です。長年サポートの現場に...",
     "hatenaDate": "2026-11-14T07:57:47Z",
     "users": [],
     "firstSeenAt": "2026-11-15T16:30:14.368206+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -474,7 +474,7 @@
     "hatenaDate": "2023-12-10T14:47:19Z",
     "users": [],
     "firstSeenAt": "2026-11-15T14:30:13.964994+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -490,7 +490,7 @@
     "hatenaDate": "2026-11-15T02:53:25Z",
     "users": [],
     "firstSeenAt": "2026-11-15T14:15:14.234879+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -499,14 +499,14 @@
     "title": "独プールで15人体調不良　マイクロソフト障害影響 | NEWSjp",
     "url": "https://news.jp/i/1494496378441958289",
     "domain": "news.jp",
-    "count": 294,
+    "count": 295,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.jp/i/1494496378441958289",
     "screenshot": "https://img.jp.ekkowassets.com/c_limit,w_200,h_200,f_auto,q_auto:eco/ch/units/39166665832988672/profile_7.png",
     "description": "【ベルリン共同】ドイツ公共放送WDRは14日、米IT大手マイクロソフトの主力業務ソフトの大規模障害による影響で、西部ブリュールのテーマパーク内にあるプールの利用者15人が体調不良を訴えたと報じた。障害により安全管理システムの警報メールが担当者に届かず、塩素を注入する装置の不具合に気付かず水中塩素濃度が著しく上昇した。 地元消防によると、15人のうち4人が病院に搬送された。警報メールはマイクロソフトの電子メール「アウトルック」で届くことになっていた。",
     "hatenaDate": "2026-11-15T02:57:16Z",
     "users": [],
     "firstSeenAt": "2026-11-15T13:00:12.708068+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -551,7 +551,7 @@
     "hatenaDate": "2026-11-14T08:01:46Z",
     "users": [],
     "firstSeenAt": "2026-11-15T12:30:14.576863+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -567,7 +567,7 @@
     "hatenaDate": "2026-11-15T02:09:07Z",
     "users": [],
     "firstSeenAt": "2026-11-15T12:30:14.576863+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -576,14 +576,14 @@
     "title": "個人開発で5週間150万DL、AIと爆速で作るCAD「SolidCraft」 - FabScene（ファブシーン）",
     "url": "https://fabscene.com/new/interview/solidcraft-open-source-cad-ai-1-5m-downloads-brennen-herbruck/",
     "domain": "fabscene.com",
-    "count": 248,
+    "count": 251,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/fabscene.com/new/interview/solidcraft-open-source-cad-ai-1-5m-downloads-brennen-herbruck/",
     "screenshot": "https://fabscene.com/wp-content/uploads/2026/11/image-113.webp",
     "description": "Claude CodeやCodexのようなAIコーディングツールが広がり、個人が手がけられるソフトウェアの規模が変わりつつある。米国の開発者Brennen Herbruck氏が2026年10月に書き始めたオープンソースの3D CAD「SolidCraft」は、その一例だ。公開から約5週間で正式版を58回リリースし、GitHubからのダウンロードは約150万回、スターは1万6000に達した。Autodeskの「Fusion」に近い操作の流れを掲げて始まり、Fusionが対応していないLinuxでも動き、ブラウザーでも使える。AIエージェントがCADを直接操作できるのも特徴だ。AIがなければ大き…",
     "hatenaDate": "2026-11-14T23:49:57Z",
     "users": [],
     "firstSeenAt": "2026-11-15T12:00:13.285233+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body"
   },
   {
@@ -611,7 +611,7 @@
     "hatenaDate": "2026-11-14T23:39:10Z",
     "users": [],
     "firstSeenAt": "2026-11-15T10:45:14.138787+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -771,7 +771,7 @@
     "hatenaDate": "2026-11-14T16:06:17Z",
     "users": [],
     "firstSeenAt": "2026-11-15T06:45:13.411357+09:00",
-    "lastSeenAt": "2026-11-16T01:45:12.782395+09:00",
+    "lastSeenAt": "2026-11-16T02:00:13.267383+09:00",
     "descriptionSource": "body"
   },
   {
