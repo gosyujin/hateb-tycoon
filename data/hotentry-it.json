@@ -10,7 +10,7 @@
     "hatenaDate": "2026-11-15T01:43:12Z",
     "users": [],
     "firstSeenAt": "2026-11-16T01:30:08.818254+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +24,7 @@
     "hatenaDate": "2026-11-15T09:10:36Z",
     "users": [],
     "firstSeenAt": "2026-11-16T01:30:08.818254+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -32,28 +32,28 @@
     "title": "リトルの法則で考える障害時のキャパシティプランニング",
     "url": "https://zenn.dev/rea9r/articles/littles-law-capacity-planning",
     "domain": "zenn.dev",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/rea9r/articles/littles-law-capacity-planning",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--gBloALr5--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%25AA%25E3%2583%2588%25E3%2583%25AB%25E3%2581%25AE%25E6%25B3%2595%25E5%2589%2587%25E3%2581%25A7%25E8%2580%2583%25E3%2581%2588%25E3%2582%258B%25E9%259A%259C%25E5%25AE%25B3%25E6%2599%2582%25E3%2581%25AE%25E3%2582%25AD%25E3%2583%25A3%25E3%2583%2591%25E3%2582%25B7%25E3%2583%2586%25E3%2582%25A3%25E3%2583%2597%25E3%2583%25A9%25E3%2583%25B3%25E3%2583%258B%25E3%2583%25B3%25E3%2582%25B0%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Takuya%2520Akamatsu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzM2YzdjNTI2OTkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "呼び出し元のメトリクスで、このサービスへのリクエストのタイムアウトが、ほとんどのエンドポイントで増えている サーバーの負荷状況を確認しても、CPU もメモリも余っていて、サーバー側のエラー率もほとんど上がっていない コンテナが再起動を繰り返していて、Kubernetes のイベントでは liveness probe がタイムアウトしている デプロイも設定の変更もしておらず、トラフィックも普段どおりです。そこで、サーバーが呼び出している外部の API のレイテンシを見てみると、1つだけ応答が遅くなっていました。ただ、タイムアウトしているのは、その API を呼んでいないエンドポイントも同じです…",
     "hatenaDate": "2026-10-19T01:09:02Z",
     "users": [],
     "firstSeenAt": "2026-11-16T01:15:12.749670+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "こんなに変わった！ AWSネットワークの常識",
     "url": "https://speakerdeck.com/shotashiratori/nw-jaws-10th-keynote",
     "domain": "speakerdeck.com",
-    "count": 19,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/shotashiratori/nw-jaws-10th-keynote",
     "screenshot": "https://files.speakerdeck.com/presentations/029ca92433274b57850e0fdd5789f106/slide_0.jpg?41383011",
     "description": "Sponsored · SiteGround - Reliable hosting with speed, security, and support you can count on. → NW-JAWS DAY Keynote こんなに変わった！ AWSネットワークの常識 2016年のベストプラクティスは、2026年のアンチパターン？ Shota SHIRATORI(NW-JAWS) @whitebird_sp #NW_JAWS ※本資料に記載の内容は2026年11月14日時点のものとなります ※本資料の見解・知見については所属する組織を代表するものではありません @whitebird_…",
     "hatenaDate": "2026-11-15T12:30:54Z",
     "users": [],
     "firstSeenAt": "2026-11-16T01:00:17.911900+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -69,7 +69,7 @@
     "hatenaDate": "2026-11-15T11:08:12Z",
     "users": [],
     "firstSeenAt": "2026-11-16T01:00:17.911900+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -85,7 +85,7 @@
     "hatenaDate": "2026-11-15T10:12:52Z",
     "users": [],
     "firstSeenAt": "2026-11-16T00:45:15.891155+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body"
   },
   {
@@ -99,7 +99,7 @@
     "hatenaDate": "2026-10-20T03:52:06Z",
     "users": [],
     "firstSeenAt": "2026-11-16T00:45:15.891155+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body"
   },
   {
@@ -113,7 +113,7 @@
     "hatenaDate": "2026-09-02T00:51:36Z",
     "users": [],
     "firstSeenAt": "2026-11-16T00:30:13.340642+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body"
   },
   {
@@ -127,7 +127,7 @@
     "hatenaDate": "2026-11-15T03:26:42Z",
     "users": [],
     "firstSeenAt": "2026-11-15T23:00:14.450358+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -136,14 +136,14 @@
     "title": "Museに雑に投げて頭を空けておく - taxin.dev",
     "url": "https://taxin.dev/articles/2026-11-15",
     "domain": "taxin.dev",
-    "count": 38,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/taxin.dev/articles/2026-11-15",
     "screenshot": "https://taxin.dev/og/2026-11-15.png",
     "description": "2026年10月末にMeta社からパーソナルAIエージェント「Muse」の日本提供が開始されましたね。 Meta、パーソナルAIエージェント「Muse」を日本で提供開始 | Metaについて Metaは、パーソナルAIエージェント「Muse」の日本での提供を開始。北米以外では初の提供地域となる日本で、利用者の目標達成や日常のタスクを能動的にサポートします。 私はリリースして数日経ったくらいから使い始めました。 仕事やエンジニアリングに関する内容ではなく、主にプライベートな調べ物やタスクをMuseに任せるようにしています。 「あれどうしてたっけ」「あれやらないと」と思った瞬間に、Museに雑に…",
     "hatenaDate": "2026-11-15T12:11:59Z",
     "users": [],
     "firstSeenAt": "2026-11-15T23:00:14.450358+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -187,7 +187,7 @@
     "hatenaDate": "2026-11-13T15:31:03Z",
     "users": [],
     "firstSeenAt": "2026-11-15T22:45:13.409016+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body"
   },
   {
@@ -201,7 +201,7 @@
     "hatenaDate": "2026-11-14T08:56:30Z",
     "users": [],
     "firstSeenAt": "2026-11-15T22:30:11.445041+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -217,7 +217,7 @@
     "hatenaDate": "2026-11-15T03:23:23Z",
     "users": [],
     "firstSeenAt": "2026-11-15T22:15:12.609463+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body"
   },
   {
@@ -231,7 +231,7 @@
     "hatenaDate": "2026-11-15T05:42:37Z",
     "users": [],
     "firstSeenAt": "2026-11-15T22:00:12.411987+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "bodyStatus": "skip",
     "bodyReason": "robots-disallow"
   },
@@ -246,7 +246,7 @@
     "hatenaDate": "2026-11-14T09:13:27Z",
     "users": [],
     "firstSeenAt": "2026-11-15T22:00:12.411987+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body"
   },
   {
@@ -274,7 +274,7 @@
     "hatenaDate": "2026-11-15T05:01:38Z",
     "users": [],
     "firstSeenAt": "2026-11-15T21:15:14.469339+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body"
   },
   {
@@ -302,7 +302,7 @@
     "hatenaDate": "2026-11-12T21:49:52Z",
     "users": [],
     "firstSeenAt": "2026-11-15T21:15:14.469339+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body"
   },
   {
@@ -330,7 +330,7 @@
     "hatenaDate": "2026-11-15T09:51:50Z",
     "users": [],
     "firstSeenAt": "2026-11-15T20:30:13.616371+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -346,21 +346,21 @@
     "hatenaDate": "2026-11-15T04:23:12Z",
     "users": [],
     "firstSeenAt": "2026-11-15T18:30:18.808670+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "自作フィードリーダーを作った - A Day in the Life",
     "url": "https://secon.dev/entry/2026/11/12/220000-my-own-feed-reader/",
     "domain": "secon.dev",
-    "count": 171,
+    "count": 173,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/secon.dev/entry/2026/11/12/220000-my-own-feed-reader/",
     "screenshot": "https://storage.googleapis.com/secons-site-images/other/blog_images/20261114-feed-reader-main.webp",
     "description": "みんな自作 FeedReader 作っているなぁ、でも今使っている Inoreader (今は亡き、安価な年額19.99USDの starter planを使い続けている) でいいや、と思っていたのだが、結局細かいあれこれをブラウザ拡張の Tampermonkey などでちまちま修正していて、ちょっと魔がさしたので作ってみた。 30行ぐらい雑な仕様を書いて Opus 5.5 氏に実装していただいたら、ほぼ満足のものが一発で出来上がり、あとは挙動の微調整を行ったら普通に満足なものができてしまった。Claude Opus 5.5 の実装・実現能力の高さはびっくりするね。 特にソースコードは公開し…",
     "hatenaDate": "2026-11-14T15:23:09Z",
     "users": [],
     "firstSeenAt": "2026-11-15T18:30:18.808670+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -418,7 +418,7 @@
     "hatenaDate": "2026-11-15T00:01:08Z",
     "users": [],
     "firstSeenAt": "2026-11-15T17:00:13.342069+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -447,7 +447,7 @@
     "hatenaDate": "2026-11-14T07:57:47Z",
     "users": [],
     "firstSeenAt": "2026-11-15T16:30:14.368206+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -476,7 +476,7 @@
     "hatenaDate": "2023-12-10T14:47:19Z",
     "users": [],
     "firstSeenAt": "2026-11-15T14:30:13.964994+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -492,7 +492,7 @@
     "hatenaDate": "2026-11-15T02:53:25Z",
     "users": [],
     "firstSeenAt": "2026-11-15T14:15:14.234879+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -508,7 +508,7 @@
     "hatenaDate": "2026-11-15T02:57:16Z",
     "users": [],
     "firstSeenAt": "2026-11-15T13:00:12.708068+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -553,7 +553,7 @@
     "hatenaDate": "2026-11-14T08:01:46Z",
     "users": [],
     "firstSeenAt": "2026-11-15T12:30:14.576863+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -569,7 +569,7 @@
     "hatenaDate": "2026-11-15T02:09:07Z",
     "users": [],
     "firstSeenAt": "2026-11-15T12:30:14.576863+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -585,7 +585,7 @@
     "hatenaDate": "2026-11-14T23:49:57Z",
     "users": [],
     "firstSeenAt": "2026-11-15T12:00:13.285233+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body"
   },
   {
@@ -613,7 +613,7 @@
     "hatenaDate": "2026-11-14T23:39:10Z",
     "users": [],
     "firstSeenAt": "2026-11-15T10:45:14.138787+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -773,7 +773,7 @@
     "hatenaDate": "2026-11-14T16:06:17Z",
     "users": [],
     "firstSeenAt": "2026-11-15T06:45:13.411357+09:00",
-    "lastSeenAt": "2026-11-16T02:06:34.192497+09:00",
+    "lastSeenAt": "2026-11-16T02:15:11.823288+09:00",
     "descriptionSource": "body"
   },
   {
