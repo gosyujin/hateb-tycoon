@@ -3,14 +3,14 @@
     "title": "Sprite stacking for fake 3D pixel art cars and props",
     "url": "https://www.spritecook.ai/blog/sprite-stacking-pixel-art",
     "domain": "www.spritecook.ai",
-    "count": 8,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.spritecook.ai/blog/sprite-stacking-pixel-art",
     "screenshot": "https://www.spritecook.ai/blog/sprite-stacking-pixel-art/og.png",
     "description": "Sprite stacking for fake 3D pixel art cars and propsTurn a top-down car to any angle from one small sheet of flat slices. How sprite stacking works, how to cut the slices from four flat views, and tested Python and Godot code. # Add sprite stacking to my game My top-down game needs objects (cars,...",
     "hatenaDate": "2026-11-15T08:22:40Z",
     "users": [],
     "firstSeenAt": "2026-11-16T05:45:13.479040+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -25,7 +25,7 @@
     "hatenaDate": "2026-11-15T12:27:41Z",
     "users": [],
     "firstSeenAt": "2026-11-16T05:45:13.479040+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -41,7 +41,7 @@
     "hatenaDate": "2026-11-15T14:21:22Z",
     "users": [],
     "firstSeenAt": "2026-11-16T05:30:12.124939+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -55,7 +55,7 @@
     "hatenaDate": "2026-11-14T00:42:56Z",
     "users": [],
     "firstSeenAt": "2026-11-16T04:15:11.253176+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -70,7 +70,7 @@
     "hatenaDate": "2026-11-15T01:43:12Z",
     "users": [],
     "firstSeenAt": "2026-11-16T01:30:08.818254+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -84,7 +84,7 @@
     "hatenaDate": "2026-11-15T09:10:36Z",
     "users": [],
     "firstSeenAt": "2026-11-16T01:30:08.818254+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -92,14 +92,14 @@
     "title": "リトルの法則で考える障害時のキャパシティプランニング",
     "url": "https://zenn.dev/rea9r/articles/littles-law-capacity-planning",
     "domain": "zenn.dev",
-    "count": 10,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/rea9r/articles/littles-law-capacity-planning",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--gBloALr5--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%25AA%25E3%2583%2588%25E3%2583%25AB%25E3%2581%25AE%25E6%25B3%2595%25E5%2589%2587%25E3%2581%25A7%25E8%2580%2583%25E3%2581%2588%25E3%2582%258B%25E9%259A%259C%25E5%25AE%25B3%25E6%2599%2582%25E3%2581%25AE%25E3%2582%25AD%25E3%2583%25A3%25E3%2583%2591%25E3%2582%25B7%25E3%2583%2586%25E3%2582%25A3%25E3%2583%2597%25E3%2583%25A9%25E3%2583%25B3%25E3%2583%258B%25E3%2583%25B3%25E3%2582%25B0%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Takuya%2520Akamatsu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzM2YzdjNTI2OTkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "呼び出し元のメトリクスで、このサービスへのリクエストのタイムアウトが、ほとんどのエンドポイントで増えている サーバーの負荷状況を確認しても、CPU もメモリも余っていて、サーバー側のエラー率もほとんど上がっていない コンテナが再起動を繰り返していて、Kubernetes のイベントでは liveness probe がタイムアウトしている デプロイも設定の変更もしておらず、トラフィックも普段どおりです。そこで、サーバーが呼び出している外部の API のレイテンシを見てみると、1つだけ応答が遅くなっていました。ただ、タイムアウトしているのは、その API を呼んでいないエンドポイントも同じです…",
     "hatenaDate": "2026-10-19T01:09:02Z",
     "users": [],
     "firstSeenAt": "2026-11-16T01:15:12.749670+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -113,7 +113,7 @@
     "hatenaDate": "2026-11-15T12:30:54Z",
     "users": [],
     "firstSeenAt": "2026-11-16T01:00:17.911900+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -129,7 +129,7 @@
     "hatenaDate": "2026-11-15T11:08:12Z",
     "users": [],
     "firstSeenAt": "2026-11-16T01:00:17.911900+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -145,21 +145,21 @@
     "hatenaDate": "2026-11-15T10:12:52Z",
     "users": [],
     "firstSeenAt": "2026-11-16T00:45:15.891155+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AIペネトレーションテストツール「Strix」を試してみた",
     "url": "https://zenn.dev/turquoise123/articles/df481032f6b405",
     "domain": "zenn.dev",
-    "count": 20,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/turquoise123/articles/df481032f6b405",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--NiOL4C5Q--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2583%259A%25E3%2583%258D%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2580%258CStrix%25E3%2580%258D%25E3%2582%2592%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:yokoyan%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzBmMzJlZDRjNmIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "最近、AIを使ったサイバー攻撃により日本のWebサービスでは情報漏洩事件が頻発するようになってしまいました。いちエンジニアとして大変悔しい思いですが、だからといって手をこまねいているわけにはいきません。まず、攻撃者の手口を知ることで、自分たちのアプリケーションがどこまで耐えられるのかを把握しておく必要があります。 そんな中、AIエージェントが自律的にWebアプリを攻撃し、脆弱性を発見・検証してくれるペネトレーションテストツールが増えてきました。最近の攻撃者の手法として、こうしたペネトレーションテストツールであるStrixやCairnをHermes agentのような自律エージェント基盤上で運…",
     "hatenaDate": "2026-10-20T03:52:06Z",
     "users": [],
     "firstSeenAt": "2026-11-16T00:45:15.891155+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -173,7 +173,7 @@
     "hatenaDate": "2026-09-02T00:51:36Z",
     "users": [],
     "firstSeenAt": "2026-11-16T00:30:13.340642+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -187,7 +187,7 @@
     "hatenaDate": "2026-11-15T03:26:42Z",
     "users": [],
     "firstSeenAt": "2026-11-15T23:00:14.450358+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -196,14 +196,14 @@
     "title": "Museに雑に投げて頭を空けておく - taxin.dev",
     "url": "https://taxin.dev/articles/2026-11-15",
     "domain": "taxin.dev",
-    "count": 74,
+    "count": 75,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/taxin.dev/articles/2026-11-15",
     "screenshot": "https://taxin.dev/og/2026-11-15.png",
     "description": "2026年10月末にMeta社からパーソナルAIエージェント「Muse」の日本提供が開始されましたね。 Meta、パーソナルAIエージェント「Muse」を日本で提供開始 | Metaについて Metaは、パーソナルAIエージェント「Muse」の日本での提供を開始。北米以外では初の提供地域となる日本で、利用者の目標達成や日常のタスクを能動的にサポートします。 私はリリースして数日経ったくらいから使い始めました。 仕事やエンジニアリングに関する内容ではなく、主にプライベートな調べ物やタスクをMuseに任せるようにしています。 「あれどうしてたっけ」「あれやらないと」と思った瞬間に、Museに雑に…",
     "hatenaDate": "2026-11-15T12:11:59Z",
     "users": [],
     "firstSeenAt": "2026-11-15T23:00:14.450358+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -219,7 +219,7 @@
     "hatenaDate": "2026-11-14T02:40:37Z",
     "users": [],
     "firstSeenAt": "2026-11-15T23:00:14.450358+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -240,14 +240,14 @@
     "title": "Amazon ECS Managed Instances が json-file ログドライバーに対応したので、S3、Logsへの転送を試してみた | DevelopersIO",
     "url": "https://dev.classmethod.jp/articles/ecs-daemon-json-file-logs/",
     "domain": "dev.classmethod.jp",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/ecs-daemon-json-file-logs/",
     "screenshot": "https://devio2024-media.developers.io/image/upload/f_auto,q_auto/v1790870258/eyecatch/mrgljvvkbamnggnblpbe.png",
     "description": "2026年11月4日に、Amazon ECS Managed Instances が json-file ログドライバーに対応しました。json-file を指定したコンテナは、ログを JSON のローカルファイルに書きます。Managed Daemons に加わったログドライバーボリュームを daemon にマウントすると、daemon がそのファイルを読めます。 https://aws.amazon.com/jp/about-aws/whats-new/2026/11/amazon-ecs-managed-instances-json-file-log-driver/ この記事では、ng…",
     "hatenaDate": "2026-11-13T15:31:03Z",
     "users": [],
     "firstSeenAt": "2026-11-15T22:45:13.409016+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -261,7 +261,7 @@
     "hatenaDate": "2026-11-14T08:56:30Z",
     "users": [],
     "firstSeenAt": "2026-11-15T22:30:11.445041+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -277,7 +277,7 @@
     "hatenaDate": "2026-11-15T03:23:23Z",
     "users": [],
     "firstSeenAt": "2026-11-15T22:15:12.609463+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -291,7 +291,7 @@
     "hatenaDate": "2026-11-15T05:42:37Z",
     "users": [],
     "firstSeenAt": "2026-11-15T22:00:12.411987+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "bodyStatus": "skip",
     "bodyReason": "robots-disallow"
   },
@@ -306,7 +306,7 @@
     "hatenaDate": "2026-11-14T09:13:27Z",
     "users": [],
     "firstSeenAt": "2026-11-15T22:00:12.411987+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -327,14 +327,14 @@
     "title": "プラレールの上を走るペンプロッタを、人間と一緒に作った話【前編】――作る話｜Kohya S.",
     "url": "https://note.com/kohya_ss/n/nb028d0974cdd",
     "domain": "note.com",
-    "count": 62,
+    "count": 63,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/kohya_ss/n/nb028d0974cdd",
     "screenshot": "https://assets.st-note.com/production/uploads/images/336291168/rectangle_large_type_2_f8c7664d7f4f81394a68c3d7da6e4b92.jpeg?fit=bounds&quality=85&width=1280",
     "description": "この記事はClaudeに書いてもらいました。随所で人間が補足、ツッコミをしています。人間による補足は冒頭に「kohya:」とある、以下の形の引用です。 通常の引用はそのままの意味です。以下、Claudeの書いた記事です。文責は人間である私にあります。 この記事は、AIのClaudeが書いています。リング状のレールの上を2台の小さな台車が走り、その間に渡した1本の棒でペンを動かすペンプロッタを、人間のkohyaさんと一緒に作りました。動画はこちらです。 リング式XYプロッタの長い版の動画です。こちらはFable 5.2に仕上げてもらいました。 BGMはMiniMax-Music3によるAI生成…",
     "hatenaDate": "2026-11-15T05:01:38Z",
     "users": [],
     "firstSeenAt": "2026-11-15T21:15:14.469339+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -383,14 +383,14 @@
     "title": "今、ソフトウェアエンジニアとして何を思うか｜Mori Atsushi",
     "url": "https://note.com/at_sushi_at/n/n2e6ea3453e37",
     "domain": "note.com",
-    "count": 294,
+    "count": 295,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/at_sushi_at/n/n2e6ea3453e37",
     "screenshot": null,
     "description": "もちろんAIは当時からある程度のコード、というかほとんどのコードを書いてくれた。 保守性を考えない安直で重複したコード、勘違いによるミス、一部しか考慮していないことによる不完全な対応。 それでもまだ、ソフトウェアエンジニアが不要だと言い切るには早い、というのが当時の私の考えだった。 私が絶対に発見できないであろう問題を素早く発見し、私よりも優れた設計を提案してくれる。 1つ目の『AI様が快適に動ける環境を作る』ために、実際にやるべきことは多岐にわたる。 こういった対応は間違いなく価値があるが、同時にそのほとんどは将来不要になると予想できる。 また、プロジェクトによらないフローについてはそのう…",
     "hatenaDate": "2026-11-15T09:51:50Z",
     "users": [],
     "firstSeenAt": "2026-11-15T20:30:13.616371+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -406,7 +406,7 @@
     "hatenaDate": "2026-11-15T04:23:12Z",
     "users": [],
     "firstSeenAt": "2026-11-15T18:30:18.808670+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -420,7 +420,7 @@
     "hatenaDate": "2026-11-14T15:23:09Z",
     "users": [],
     "firstSeenAt": "2026-11-15T18:30:18.808670+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -478,7 +478,7 @@
     "hatenaDate": "2026-11-15T00:01:08Z",
     "users": [],
     "firstSeenAt": "2026-11-15T17:00:13.342069+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -507,7 +507,7 @@
     "hatenaDate": "2026-11-14T07:57:47Z",
     "users": [],
     "firstSeenAt": "2026-11-15T16:30:14.368206+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -552,7 +552,7 @@
     "hatenaDate": "2026-11-15T02:53:25Z",
     "users": [],
     "firstSeenAt": "2026-11-15T14:15:14.234879+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -568,7 +568,7 @@
     "hatenaDate": "2026-11-15T02:57:16Z",
     "users": [],
     "firstSeenAt": "2026-11-15T13:00:12.708068+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -629,7 +629,7 @@
     "hatenaDate": "2026-11-15T02:09:07Z",
     "users": [],
     "firstSeenAt": "2026-11-15T12:30:14.576863+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -645,7 +645,7 @@
     "hatenaDate": "2026-11-14T23:49:57Z",
     "users": [],
     "firstSeenAt": "2026-11-15T12:00:13.285233+09:00",
-    "lastSeenAt": "2026-11-16T06:45:12.599395+09:00",
+    "lastSeenAt": "2026-11-16T06:46:48.304536+09:00",
     "descriptionSource": "body"
   },
   {
