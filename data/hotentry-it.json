@@ -1,5 +1,19 @@
 [
   {
+    "title": "GitHub IssueにArtifactとしてHTMLとMarkdownを添付できるようになった",
+    "url": "https://zenn.dev/kesin11/articles/20261114_github_issue_artifact",
+    "domain": "zenn.dev",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/kesin11/articles/20261114_github_issue_artifact",
+    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--dp9H3Mmo--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:GitHub%2520Issue%25E3%2581%25ABArtifact%25E3%2581%25A8%25E3%2581%2597%25E3%2581%25A6HTML%25E3%2581%25A8Markdown%25E3%2582%2592%25E6%25B7%25BB%25E4%25BB%2598%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Kesin11%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2l5YnpxY196Y2VPbEhIWlJGajNaSDdYWlM0OXVCNzdFZVZjV2xrbXc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+    "description": "一方、派手な発表の影に隠れてあまり目立っていませんが、普段使いしているIssueにも「Issue Artifact」という機能がPublic Previewとして追加されています。Issueに対してHTMLやMarkdownをArtifactとして添付し、Issue画面上の専用パネルでそのまま表示できる機能です。 https://github.blog/changelog/2026-10-28-issue-artifacts-are-now-in-public-preview/ 最近はコーディング前の設計やコードレビューをコーディングエージェントと壁打ちする際、すべてMarkdownのテキス…",
+    "hatenaDate": "2026-11-16T03:56:27Z",
+    "users": [],
+    "firstSeenAt": "2026-11-17T04:52:11.441592+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "マイクロソフト、ゲーミングPCなどの“空きGPU”をAI学習に活用する特許出願―提供した計算量に応じたクレジット付与の例も | Game*Spark - 国内・海外ゲーム情報サイト",
     "url": "https://www.gamespark.jp/article/2026/11/16/174930.html",
     "domain": "www.gamespark.jp",
@@ -10,7 +24,7 @@
     "hatenaDate": "2026-11-16T11:08:50Z",
     "users": [],
     "firstSeenAt": "2026-11-17T04:45:13.657879+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +38,7 @@
     "hatenaDate": "2026-11-16T05:15:34Z",
     "users": [],
     "firstSeenAt": "2026-11-17T02:00:14.137051+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +52,7 @@
     "hatenaDate": "2026-11-16T10:24:06Z",
     "users": [],
     "firstSeenAt": "2026-11-17T01:45:13.072481+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +66,7 @@
     "hatenaDate": "2026-11-15T01:56:49Z",
     "users": [],
     "firstSeenAt": "2026-11-17T01:45:13.072481+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +80,7 @@
     "hatenaDate": "2026-11-15T07:20:15Z",
     "users": [],
     "firstSeenAt": "2026-11-17T01:45:13.072481+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -80,7 +94,7 @@
     "hatenaDate": "2026-11-16T07:30:51Z",
     "users": [],
     "firstSeenAt": "2026-11-17T01:30:13.877260+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -94,7 +108,7 @@
     "hatenaDate": "2026-11-16T05:45:42Z",
     "users": [],
     "firstSeenAt": "2026-11-17T01:15:14.734238+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -108,7 +122,7 @@
     "hatenaDate": "2026-11-15T14:12:38Z",
     "users": [],
     "firstSeenAt": "2026-11-17T01:15:14.734238+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -122,7 +136,7 @@
     "hatenaDate": "2026-11-16T07:11:29Z",
     "users": [],
     "firstSeenAt": "2026-11-17T01:00:17.007678+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -150,7 +164,7 @@
     "hatenaDate": "2026-11-16T05:00:48Z",
     "users": [],
     "firstSeenAt": "2026-11-16T23:45:16.123290+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -165,7 +179,7 @@
     "hatenaDate": "2026-11-16T07:25:40Z",
     "users": [],
     "firstSeenAt": "2026-11-16T23:45:16.123290+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -207,7 +221,7 @@
     "hatenaDate": "2026-11-16T11:43:33Z",
     "users": [],
     "firstSeenAt": "2026-11-16T23:15:15.405564+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -221,7 +235,7 @@
     "hatenaDate": "2026-11-16T06:09:59Z",
     "users": [],
     "firstSeenAt": "2026-11-16T23:00:16.159958+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -235,7 +249,7 @@
     "hatenaDate": "2026-11-16T07:17:37Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:30:14.081884+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -250,7 +264,7 @@
     "hatenaDate": "2026-11-16T09:36:18Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:30:14.081884+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -265,7 +279,7 @@
     "hatenaDate": "2026-11-15T22:16:38Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:30:14.081884+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -279,7 +293,7 @@
     "hatenaDate": "2026-11-16T10:59:31Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:15:14.727807+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -293,7 +307,7 @@
     "hatenaDate": "2026-11-16T11:18:56Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:15:14.727807+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -307,7 +321,7 @@
     "hatenaDate": "2026-11-16T04:50:13Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:15:14.727807+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -349,7 +363,7 @@
     "hatenaDate": "2026-11-16T11:51:33Z",
     "users": [],
     "firstSeenAt": "2026-11-16T21:30:16.853608+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -423,7 +437,7 @@
     "hatenaDate": "2026-11-16T08:21:28Z",
     "users": [],
     "firstSeenAt": "2026-11-16T20:45:14.107732+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -451,7 +465,7 @@
     "hatenaDate": "2026-11-16T09:31:58Z",
     "users": [],
     "firstSeenAt": "2026-11-16T20:30:14.911929+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -521,7 +535,7 @@
     "hatenaDate": "2026-11-16T08:16:47Z",
     "users": [],
     "firstSeenAt": "2026-11-16T19:00:05.162214+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -679,7 +693,7 @@
     "hatenaDate": "2026-11-16T07:53:04Z",
     "users": [],
     "firstSeenAt": "2026-11-16T17:30:11.803137+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -737,7 +751,7 @@
     "hatenaDate": "2026-11-16T05:22:52Z",
     "users": [],
     "firstSeenAt": "2026-11-16T17:03:37.421368+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -753,7 +767,7 @@
     "hatenaDate": "2026-11-16T05:51:34Z",
     "users": [],
     "firstSeenAt": "2026-11-16T16:45:12.256965+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -941,7 +955,7 @@
     "hatenaDate": "2026-11-16T03:03:29Z",
     "users": [],
     "firstSeenAt": "2026-11-16T13:15:18.347548+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1114,7 +1128,7 @@
     "hatenaDate": "2026-11-16T02:12:18Z",
     "users": [],
     "firstSeenAt": "2026-11-16T11:45:12.652799+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1172,7 +1186,7 @@
     "hatenaDate": "2026-11-16T01:34:47Z",
     "users": [],
     "firstSeenAt": "2026-11-16T11:00:15.084071+09:00",
-    "lastSeenAt": "2026-11-17T04:45:13.657879+09:00",
+    "lastSeenAt": "2026-11-17T04:52:11.441592+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4356,20 +4370,6 @@
     "users": [],
     "firstSeenAt": "2026-11-12T22:15:14.034253+09:00",
     "lastSeenAt": "2026-11-13T13:00:13.776306+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "[新サービス] AWS Emulator 発表！実 AWS と比べ、Claude Code にローカルでテストと修正を繰り返させてみた | DevelopersIO",
-    "url": "https://dev.classmethod.jp/articles/20261112-aws-emulator/",
-    "domain": "dev.classmethod.jp",
-    "count": 42,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/20261112-aws-emulator/",
-    "screenshot": "https://devio2024-media.developers.io/image/upload/f_auto,q_auto/v1790875157/eyecatch/zettwdjcftbeaqfmbezn.png",
-    "description": "クラウド事業統括本部の石川です。2026 年 11 月 11 日に、AWS API のローカルエミュレーターである AWS Emulator が一般提供されました。同じ日に All Things Distributed に掲載された Swami Sivasubramanian 氏の寄稿が AWS Emulator について述べている主張を、macOS 上で AWS Emulator を動かし、実 AWS と比べながら確かめてみました。 https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job…",
-    "hatenaDate": "2026-11-12T07:58:16Z",
-    "users": [],
-    "firstSeenAt": "2026-11-12T21:45:13.634784+09:00",
-    "lastSeenAt": "2026-11-13T10:45:13.922265+09:00",
     "descriptionSource": "body"
   }
 ]
