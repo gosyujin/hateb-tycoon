@@ -1,30 +1,46 @@
 [
   {
+    "title": "香港、監視カメラにAI活用 市民からは悪用懸念の声も",
+    "url": "https://www.afpbb.com/articles/-/3662623",
+    "domain": "www.afpbb.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3662623",
+    "screenshot": "https://afpbb.ismcdn.jp/mwimgs/b/8/1000x/img_b89cdf8d3bc5f862adcb7088327b808b919111.jpg",
+    "description": "【11月16日 AFP】香港は16日、監視カメラ網に人工知能（AI）を活用した顔認証機能を導入した。国家安全保障や犯罪防止を名目に、公共空間の監視を拡大する。 中国は、香港で大規模な民主派デモが起きた2019年以降、統制を強めてきた。金融拠点である香港に国家安全維持法を導入し、批判派は同法が反対意見を封じ込めたと指摘している。 「スマートビュー」計画の一環となる新たなAI機能について、香港警務処（警察）の周一鳴（ジョー・チョウ）処長は先週末、「法を守る市民を保護するもの」だとし、既存の監視システムの能力を高めると説明した。 警務処は2024年のスマートビュー開始以降、香港全域に約5000台の…",
+    "hatenaDate": "2026-11-16T07:58:27Z",
+    "users": [],
+    "firstSeenAt": "2026-11-17T05:30:19.523623+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "GitHub IssueにArtifactとしてHTMLとMarkdownを添付できるようになった",
     "url": "https://zenn.dev/kesin11/articles/20261114_github_issue_artifact",
     "domain": "zenn.dev",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/kesin11/articles/20261114_github_issue_artifact",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--dp9H3Mmo--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:GitHub%2520Issue%25E3%2581%25ABArtifact%25E3%2581%25A8%25E3%2581%2597%25E3%2581%25A6HTML%25E3%2581%25A8Markdown%25E3%2582%2592%25E6%25B7%25BB%25E4%25BB%2598%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Kesin11%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2l5YnpxY196Y2VPbEhIWlJGajNaSDdYWlM0OXVCNzdFZVZjV2xrbXc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "一方、派手な発表の影に隠れてあまり目立っていませんが、普段使いしているIssueにも「Issue Artifact」という機能がPublic Previewとして追加されています。Issueに対してHTMLやMarkdownをArtifactとして添付し、Issue画面上の専用パネルでそのまま表示できる機能です。 https://github.blog/changelog/2026-10-28-issue-artifacts-are-now-in-public-preview/ 最近はコーディング前の設計やコードレビューをコーディングエージェントと壁打ちする際、すべてMarkdownのテキス…",
     "hatenaDate": "2026-11-16T03:56:27Z",
     "users": [],
     "firstSeenAt": "2026-11-17T04:52:11.441592+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
-    "descriptionSource": "body"
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
+    "descriptionSource": "body",
+    "bodyStatus": "skip",
+    "bodyReason": "not-longer"
   },
   {
     "title": "マイクロソフト、ゲーミングPCなどの“空きGPU”をAI学習に活用する特許出願―提供した計算量に応じたクレジット付与の例も | Game*Spark - 国内・海外ゲーム情報サイト",
     "url": "https://www.gamespark.jp/article/2026/11/16/174930.html",
     "domain": "www.gamespark.jp",
-    "count": 8,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.gamespark.jp/article/2026/11/16/174930.html",
     "screenshot": "https://www.gamespark.jp/imgs/ogp_f/1219961.jpg",
     "description": "マイクロソフトが2025年4月30日に提出した「GPUの余力を活用したエッジデバイスでの小規模学習（Opportunistic Micro-training on Edge Devices Using Spare GPU Utilization）」と題する米国特許出願が、2026年11月5日に公開されました。 公開された資料では、ゲーミングPCやノートPC、スマートフォンなどを対象に、GPUの処理能力の余力分をAIモデルの学習に活用する仕組みが説明されています。 具体的には、学習にかかる処理をいくつかの小さなタスクに分け、それらを各端末の性能やGPUが空く見込みの時間帯に応じて配布し、端末か…",
     "hatenaDate": "2026-11-16T11:08:50Z",
     "users": [],
     "firstSeenAt": "2026-11-17T04:45:13.657879+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +54,7 @@
     "hatenaDate": "2026-11-16T05:15:34Z",
     "users": [],
     "firstSeenAt": "2026-11-17T02:00:14.137051+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +68,7 @@
     "hatenaDate": "2026-11-16T10:24:06Z",
     "users": [],
     "firstSeenAt": "2026-11-17T01:45:13.072481+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +82,7 @@
     "hatenaDate": "2026-11-15T01:56:49Z",
     "users": [],
     "firstSeenAt": "2026-11-17T01:45:13.072481+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -80,7 +96,7 @@
     "hatenaDate": "2026-11-15T07:20:15Z",
     "users": [],
     "firstSeenAt": "2026-11-17T01:45:13.072481+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -94,7 +110,7 @@
     "hatenaDate": "2026-11-16T07:30:51Z",
     "users": [],
     "firstSeenAt": "2026-11-17T01:30:13.877260+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -108,7 +124,7 @@
     "hatenaDate": "2026-11-16T05:45:42Z",
     "users": [],
     "firstSeenAt": "2026-11-17T01:15:14.734238+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -122,7 +138,7 @@
     "hatenaDate": "2026-11-15T14:12:38Z",
     "users": [],
     "firstSeenAt": "2026-11-17T01:15:14.734238+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -136,7 +152,7 @@
     "hatenaDate": "2026-11-16T07:11:29Z",
     "users": [],
     "firstSeenAt": "2026-11-17T01:00:17.007678+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -164,7 +180,7 @@
     "hatenaDate": "2026-11-16T05:00:48Z",
     "users": [],
     "firstSeenAt": "2026-11-16T23:45:16.123290+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -221,7 +237,7 @@
     "hatenaDate": "2026-11-16T11:43:33Z",
     "users": [],
     "firstSeenAt": "2026-11-16T23:15:15.405564+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -235,7 +251,7 @@
     "hatenaDate": "2026-11-16T06:09:59Z",
     "users": [],
     "firstSeenAt": "2026-11-16T23:00:16.159958+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -249,7 +265,7 @@
     "hatenaDate": "2026-11-16T07:17:37Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:30:14.081884+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -264,7 +280,7 @@
     "hatenaDate": "2026-11-16T09:36:18Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:30:14.081884+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -279,7 +295,7 @@
     "hatenaDate": "2026-11-15T22:16:38Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:30:14.081884+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -293,7 +309,7 @@
     "hatenaDate": "2026-11-16T10:59:31Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:15:14.727807+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -307,7 +323,7 @@
     "hatenaDate": "2026-11-16T11:18:56Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:15:14.727807+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -321,7 +337,7 @@
     "hatenaDate": "2026-11-16T04:50:13Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:15:14.727807+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -356,14 +372,14 @@
     "title": "もういい加減\"技術勉強会\"やめませんか？ - Qiita",
     "url": "https://qiita.com/kotowazaman/items/9ee7c475a475e7527b0e",
     "domain": "qiita.com",
-    "count": 153,
+    "count": 156,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/kotowazaman/items/9ee7c475a475e7527b0e",
     "screenshot": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnMzLWFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkZxaWl0YS1pbWFnZS1zdG9yZSUyRjAlMkYyNjUzMzYxJTJGN2NmMjRkN2FkYjg0YWRmZDAyNDg4M2NkZGUzOTE0NDJkNWM1MTdkMCUyRmxhcmdlLnBuZyUzRjE3OTEyNTAyNjE_aXhsaWI9cmItNC4xLjEmYXI9MSUzQTEmZml0PWNyb3AmbWFzaz1lbGxpcHNlJmJnPUZGRkZGRiZmbT1wbmczMiZzPWYyN2Y4YjkwYmIyNWMwNGI4MzYzNmI4ODZhN2Y4ZWRm%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D40d751e4787c8b79ec9331efeceb1406?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUUzJTgyJTgyJUUzJTgxJTg2JUUzJTgxJTg0JUUzJTgxJTg0JUU1JThBJUEwJUU2JUI4JTlCJTIyJUU2JThBJTgwJUU4JUExJTkzJUU1JThCJTg5JUU1JUJDJUI3JUU0JUJDJTlBJTIyJUUzJTgyJTg0JUUzJTgyJTgxJUUzJTgxJUJFJUUzJTgxJTlCJUUzJTgyJTkzJUUzJTgxJThCJUVGJUJDJTlGJnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9MDZmMTM1YzI2MmRkY2NlZWQ4YmQ1OTdjODc1OWYzYzI&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBrb3Rvd2F6YW1hbiZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTIyZmU5M2ExMTBiZjZjM2Q4NTIyZjI4YjNjMTkyZmUy&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=01fb13cb4ddc12cbd72c7419f6128a93",
     "description": "毎週水曜の15時、普段残業続きで目が真っ赤なメンバーが会議室に10人が集められる。 説明が終わるなり、「何か質問ありますか？」という問いに対して、5秒ほど沈黙があってから、その中で最もおしゃべりな盛り上げ隊長が、当たり障りない質問をする。 AIに聞けば1分で返ってくる内容を、10人の1時間を使って熱心に勉強するのですから、今時これほど贅沢な情報伝達はなかなかないといえます。 この記事は、もうAI時代にそんな贅沢な時間の使い方はやめませんか？という主張をします。 この記事で言うところの勉強会は「調べれば分かる汎用的な知識を、誰かがまとめて発表する型」のものに限ります。 例えば、「ドキュメント化…",
     "hatenaDate": "2026-11-16T11:51:33Z",
     "users": [],
     "firstSeenAt": "2026-11-16T21:30:16.853608+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -437,7 +453,7 @@
     "hatenaDate": "2026-11-16T08:21:28Z",
     "users": [],
     "firstSeenAt": "2026-11-16T20:45:14.107732+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -465,7 +481,7 @@
     "hatenaDate": "2026-11-16T09:31:58Z",
     "users": [],
     "firstSeenAt": "2026-11-16T20:30:14.911929+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -535,7 +551,7 @@
     "hatenaDate": "2026-11-16T08:16:47Z",
     "users": [],
     "firstSeenAt": "2026-11-16T19:00:05.162214+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -693,7 +709,7 @@
     "hatenaDate": "2026-11-16T07:53:04Z",
     "users": [],
     "firstSeenAt": "2026-11-16T17:30:11.803137+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -744,14 +760,14 @@
     "title": "グーグルのAI認定講座、1万人に無料提供　「Google AI Pro」3カ月利用権も",
     "url": "https://www.watch.impress.co.jp/docs/news/2156720.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 152,
+    "count": 153,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2156720.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2156/720/ai1.jpg",
     "description": "日本リスキリングコンソーシアムは16日、オンラインのトレーニングプログラム「Google AI プロフェッショナル認定証」(日本語版)の無料受講アカウントを提供すると発表した。通常約7,700円相当の講座を無料で受けられるもので、先着1万人が対象となる。 Google AI プロフェッショナル認定証は、あらゆるビジネスパーソンが自信を持ってAIを使いこなせるようGoogleのエキスパートが設計した特別プログラム。リサーチや定型業務の効率化のほか、戦略を具体化し、創造性を高めるアプローチなど、業務に応じたAI活用法を学べる。修了者に授与するGoogle発行の認定証は、履歴書やビジネスSNSのプ…",
     "hatenaDate": "2026-11-16T05:22:52Z",
     "users": [],
     "firstSeenAt": "2026-11-16T17:03:37.421368+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -767,7 +783,7 @@
     "hatenaDate": "2026-11-16T05:51:34Z",
     "users": [],
     "firstSeenAt": "2026-11-16T16:45:12.256965+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -948,14 +964,14 @@
     "title": "パスワードより安全なはずが……パスキー対応103サイトを検証→全てに脆弱性　独大学の調査結果",
     "url": "https://www.itmedia.co.jp/news/article/2611/16/2000003199/",
     "domain": "www.itmedia.co.jp",
-    "count": 393,
+    "count": 394,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/16/2000003199/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/16/2000003199/10012153/2048",
     "description": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shiropen2 ドイツのルール大学ボーフムなどに所属する研究者らが発表した論文「The State of Passkeys: Studying the Adoption and Security of Passkeys on the Web」は、公開されているサイトのパス…",
     "hatenaDate": "2026-11-16T03:03:29Z",
     "users": [],
     "firstSeenAt": "2026-11-16T13:15:18.347548+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -985,7 +1001,7 @@
     "hatenaDate": "2026-11-16T01:58:19Z",
     "users": [],
     "firstSeenAt": "2026-11-16T13:00:13.570614+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1186,7 +1202,7 @@
     "hatenaDate": "2026-11-16T01:34:47Z",
     "users": [],
     "firstSeenAt": "2026-11-16T11:00:15.084071+09:00",
-    "lastSeenAt": "2026-11-17T05:15:14.776652+09:00",
+    "lastSeenAt": "2026-11-17T05:30:19.523623+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4356,20 +4372,6 @@
     "users": [],
     "firstSeenAt": "2026-11-12T22:15:14.034253+09:00",
     "lastSeenAt": "2026-11-12T23:15:17.492730+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "Notionの「AIチャット流出懸念」影響広がる　国内企業が相次ぎ報告　「打ち合わせ内容」も漏えいか",
-    "url": "https://www.itmedia.co.jp/aiplus/article/2611/12/2000003140/",
-    "domain": "www.itmedia.co.jp",
-    "count": 39,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2611/12/2000003140/",
-    "screenshot": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/12/2000003140/10011860/2048",
-    "description": "（1/2 ページ） クラウド型ワークスペース「Notion」のAI機能「Notion AI」のチャット記録が漏えいした恐れがある事案の影響が広がっている。同事案に起因し、情報流出した可能性があるとする日本企業の報告が相次いでいる。 同事案はNotionを運営する米Notion Labsが11月9日（現地時間）に発表したもの。委託先である米Fireworks.aiへの不正アクセスが原因で、Notion AIの利用状況を分析する機能「Insights」のチャット記録が漏えいした恐れがある。 セキュリティ事業を手掛けるSecureNavi（東京都港区）は11月11日（日本時間、以下同）、同事案を巡…",
-    "hatenaDate": "2026-11-12T08:30:41Z",
-    "users": [],
-    "firstSeenAt": "2026-11-12T22:15:14.034253+09:00",
-    "lastSeenAt": "2026-11-13T13:00:13.776306+09:00",
     "descriptionSource": "body"
   }
 ]
