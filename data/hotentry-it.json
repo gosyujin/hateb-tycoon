@@ -1,5 +1,33 @@
 [
   {
+    "title": "当社サービス「Cacoo」における不正アクセスの発生について（第一報） | お知らせ | 株式会社ヌーラボ(Nulab inc.)",
+    "url": "https://nulab.com/ja/info/20261116_cacoo_01/",
+    "domain": "nulab.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/nulab.com/ja/info/20261116_cacoo_01/",
+    "screenshot": null,
+    "description": "株式会社ヌーラボ（以下、当社）は、2026年11月14日、当社が提供するオンラインホワイトボードツール「Cacoo」の運用環境および当社が管理するお問い合わせ記録の一部に対し、第三者による不正アクセスが行われたことを確認いたしました。 お客様、株主・投資家の皆様をはじめ、関係者の皆様に多大なるご迷惑とご心配をおかけしておりますことを、深くお詫び申し上げます。 2026年11月14日午前、Cacooの運用環境において、外部の第三者が当社の認証情報を不正に使用していることを検知しました。当社は当該認証情報の無効化および攻撃元からのアクセスの遮断を順次実施しました。 被害の拡大を防止し、安全性を確…",
+    "hatenaDate": "2026-11-16T05:45:42Z",
+    "users": [],
+    "firstSeenAt": "2026-11-17T01:15:14.734238+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
+    "descriptionSource": "body"
+  },
+  {
+    "title": "起動不能トラブル修復 KB5127936 KB5132061｜Nackie",
+    "url": "https://note.com/nackie_o/n/n7120b0327e52",
+    "domain": "note.com",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/nackie_o/n/n7120b0327e52",
+    "screenshot": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/9e6f8f86ba0a6f553b13deaaa53219e26c63c04b.png",
+    "description": "原因：2026年11月のwindows update自動更新によりメモリ整合性機能が強制的に有効になり、古いドライバーが邪魔して起動不能になります。 主にCD/DVD関係で ROXIO 、SONIC easy なんちゃら 、 powerDVD セキュリティーソフトではカスペルスキーの古いバージョン（こっちの場合は少々厄介。セーフモードで起動してから公式のクリーンアンインストールツールアンインストール） 4-2 レジストリ エディタが起動します。HKEY_LOCAL_MACHINE をクリックしてハイライトします。 6-2 OSが入っているドライブを指定します。通常は末尾に（C:)があるものを…",
+    "hatenaDate": "2026-11-15T14:12:38Z",
+    "users": [],
+    "firstSeenAt": "2026-11-17T01:15:14.734238+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "AIが「宿題の時代」を終わらせた--元教授が語る学びの危機　ChatGPTを手放せない学生も",
     "url": "https://japan.cnet.com/article/35254950/",
     "domain": "japan.cnet.com",
@@ -10,7 +38,7 @@
     "hatenaDate": "2026-11-16T07:11:29Z",
     "users": [],
     "firstSeenAt": "2026-11-17T01:00:17.007678+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,21 +52,21 @@
     "hatenaDate": "2026-11-16T02:22:54Z",
     "users": [],
     "firstSeenAt": "2026-11-17T00:15:24.155189+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Data-Oriented Design in Yuku's Parser",
     "url": "https://arshad.fyi/posts/yuku-parser.html",
     "domain": "arshad.fyi",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/arshad.fyi/posts/yuku-parser.html",
     "screenshot": null,
     "description": "June 28, 2026 Yuku is a JavaScript and TypeScript parser I write in Zig, and its npm packages are downloaded tens of millions of times a week. It parses typescript.js, an 8 MB file, in about 15 ms on my M3. The grammar has little to do with that. It is plain recursive descent, written from the sp...",
     "hatenaDate": "2026-11-16T05:00:48Z",
     "users": [],
     "firstSeenAt": "2026-11-16T23:45:16.123290+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -53,7 +81,7 @@
     "hatenaDate": "2026-11-16T07:25:40Z",
     "users": [],
     "firstSeenAt": "2026-11-16T23:45:16.123290+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body"
   },
   {
@@ -95,7 +123,7 @@
     "hatenaDate": "2026-11-16T11:43:33Z",
     "users": [],
     "firstSeenAt": "2026-11-16T23:15:15.405564+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body"
   },
   {
@@ -109,7 +137,7 @@
     "hatenaDate": "2026-11-16T06:09:59Z",
     "users": [],
     "firstSeenAt": "2026-11-16T23:00:16.159958+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body"
   },
   {
@@ -123,7 +151,7 @@
     "hatenaDate": "2026-11-16T07:17:37Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:30:14.081884+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -131,14 +159,14 @@
     "title": "Appleの共同設立者であるスティーブ・ウォズニアックはApple Iを組み立てる前にどうやってBASIC言語を開発したのか？",
     "url": "https://gigazine.net/news/20261116-apple-basic-wozniak/",
     "domain": "gigazine.net",
-    "count": 10,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261116-apple-basic-wozniak/",
     "screenshot": "https://i.gzn.jp/img/2026/11/16/apple-basic-wozniak/00_m.jpg",
     "description": "by Gage Skidmore Apple初のマイクロコンピュータ「Apple I」向けに、Apple共同設立者のスティーブ・ウォズニアック氏は「Integer BASIC」を開発しました。Apple Iが開発される前にどうやってInteger BASICを開発したのか、Q＆Aサービス「Stack Exchange」でまとめられています。 How did Woz write the Apple 1 BASIC b...",
     "hatenaDate": "2026-11-16T09:36:18Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:30:14.081884+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -146,14 +174,14 @@
     "title": "メルカリ、アプリ開発「2日→数十分」へ　直面したAI時代の“意外な課題”とは？",
     "url": "https://www.itmedia.co.jp/business/articles/2611/16/news031.html",
     "domain": "www.itmedia.co.jp",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/business/articles/2611/16/news031.html",
     "screenshot": "https://image.itmedia.co.jp/business/articles/2611/16/cover_news031.jpg",
     "description": "（1/3 ページ） これまで1日、2日と時間を要していたUIやプロトタイプの作成が、いまでは数十分で完了する──。 生成AIの急速な浸透は、メルカリのアプリ開発現場に革新をもたらした。これまではフロントエンド（画面デザイン担当）からバックエンド（裏側のシステム担当）と専門ごとに役割を分けていたが、いまは1〜3人の少人数チームで、利用者が触れる画面の見た目から裏側の仕組みまでを一気に組み上げる「フルスタック開発」へと体制を切り替えている。 デザイナーやエンジニアといった従来の職能別の分業は解体。誰もがアイデアをそのまま形にできる「プロダクトビルダー」へと変わる「AIネイティブな組織改編」を進め…",
     "hatenaDate": "2026-11-15T22:16:38Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:30:14.081884+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body"
   },
   {
@@ -167,35 +195,35 @@
     "hatenaDate": "2026-11-16T10:59:31Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:15:14.727807+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "RTX Sparkは本当にローカルAIに強いのか？RTX 5090や5070 Ti、5060 Ti 16GB、4090 Laptop GPUと性能を比較 (1/3)",
     "url": "https://ascii.jp/elem/000/004/450/4450424/",
     "domain": "ascii.jp",
-    "count": 9,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/450/4450424/",
     "screenshot": "https://ascii.jp/img/2026/11/15/4552274/xl/f0718fb936fe3a77.png?20200122",
     "description": "RTX Sparkは本当にローカルAIに強いのか？RTX 5090や5070 Ti、5060 Ti 16GB、4090 Laptop GPUと性能を比較 NVIDIAが開発したSoC「RTX Spark N1X」を搭載したPCの販売がはじまった。RTX SparkはArmベースのCPU（最大20コア）に、GeForce RTX 50シリーズ相当のGPUを組み合わせた同社肝いりの製品だ。最近流行の「ローカルAI」、つまり「ChatGPT」や「Claude」「Gemini」といったクラウドサービス上のAIに頼らず、オフラインの環境でもAIエージェントを動かすためのSoCである。 RTX Spar…",
     "hatenaDate": "2026-11-16T11:18:56Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:15:14.727807+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "札幌と二拠点生活してた｜kon_yu",
     "url": "https://note.com/kon_yu/n/n5bf7289d3e9f",
     "domain": "note.com",
-    "count": 8,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/kon_yu/n/n5bf7289d3e9f",
     "screenshot": "https://assets.st-note.com/production/uploads/images/336434949/rectangle_large_type_2_238376aa3580f70619026f7b6024fc83.jpg?fit=bounds&quality=85&width=1280",
     "description": "2年間続けてきた首都圏の自宅と札幌と二拠点生活に区切りをつけ、このたび札幌の部屋を解約してきた。 フリーランスのソフトウェアエンジニアとしてリモートワークをしながら、生まれ故郷である札幌に自分専用の拠点を持つ暮らしは想像以上に快適だった。2年間運用してみてそろそろ飽きたので先日解約して部屋を出た。 これから2拠点生活を検討している人や、地方での部屋探し・スマートホーム化に興味がある人に向けて、部屋を借りた動機からインフラ構築の手法、リアルな収支、そして撤退を決めた理由までを構造的に振り返ってみる。 Web業界を中心に20年ほどソフトウェアエンジニアを続けています。直近では取締役CTOを務めて…",
     "hatenaDate": "2026-11-16T04:50:13Z",
     "users": [],
     "firstSeenAt": "2026-11-16T22:15:14.727807+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body"
   },
   {
@@ -230,14 +258,14 @@
     "title": "もういい加減\"技術勉強会\"やめませんか？ - Qiita",
     "url": "https://qiita.com/kotowazaman/items/9ee7c475a475e7527b0e",
     "domain": "qiita.com",
-    "count": 112,
+    "count": 116,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/kotowazaman/items/9ee7c475a475e7527b0e",
     "screenshot": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnMzLWFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkZxaWl0YS1pbWFnZS1zdG9yZSUyRjAlMkYyNjUzMzYxJTJGN2NmMjRkN2FkYjg0YWRmZDAyNDg4M2NkZGUzOTE0NDJkNWM1MTdkMCUyRmxhcmdlLnBuZyUzRjE3OTEyNTAyNjE_aXhsaWI9cmItNC4xLjEmYXI9MSUzQTEmZml0PWNyb3AmbWFzaz1lbGxpcHNlJmJnPUZGRkZGRiZmbT1wbmczMiZzPWYyN2Y4YjkwYmIyNWMwNGI4MzYzNmI4ODZhN2Y4ZWRm%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D40d751e4787c8b79ec9331efeceb1406?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUUzJTgyJTgyJUUzJTgxJTg2JUUzJTgxJTg0JUUzJTgxJTg0JUU1JThBJUEwJUU2JUI4JTlCJTIyJUU2JThBJTgwJUU4JUExJTkzJUU1JThCJTg5JUU1JUJDJUI3JUU0JUJDJTlBJTIyJUUzJTgyJTg0JUUzJTgyJTgxJUUzJTgxJUJFJUUzJTgxJTlCJUUzJTgyJTkzJUUzJTgxJThCJUVGJUJDJTlGJnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9MDZmMTM1YzI2MmRkY2NlZWQ4YmQ1OTdjODc1OWYzYzI&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBrb3Rvd2F6YW1hbiZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTIyZmU5M2ExMTBiZjZjM2Q4NTIyZjI4YjNjMTkyZmUy&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=01fb13cb4ddc12cbd72c7419f6128a93",
     "description": "毎週水曜の15時、普段残業続きで目が真っ赤なメンバーが会議室に10人が集められる。 説明が終わるなり、「何か質問ありますか？」という問いに対して、5秒ほど沈黙があってから、その中で最もおしゃべりな盛り上げ隊長が、当たり障りない質問をする。 AIに聞けば1分で返ってくる内容を、10人の1時間を使って熱心に勉強するのですから、今時これほど贅沢な情報伝達はなかなかないといえます。 この記事は、もうAI時代にそんな贅沢な時間の使い方はやめませんか？という主張をします。 この記事で言うところの勉強会は「調べれば分かる汎用的な知識を、誰かがまとめて発表する型」のものに限ります。 例えば、「ドキュメント化…",
     "hatenaDate": "2026-11-16T11:51:33Z",
     "users": [],
     "firstSeenAt": "2026-11-16T21:30:16.853608+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -253,7 +281,7 @@
     "hatenaDate": "2026-11-16T08:20:22Z",
     "users": [],
     "firstSeenAt": "2026-11-16T21:30:16.853608+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body"
   },
   {
@@ -311,7 +339,7 @@
     "hatenaDate": "2026-11-16T08:21:28Z",
     "users": [],
     "firstSeenAt": "2026-11-16T20:45:14.107732+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body"
   },
   {
@@ -339,7 +367,7 @@
     "hatenaDate": "2026-11-16T09:31:58Z",
     "users": [],
     "firstSeenAt": "2026-11-16T20:30:14.911929+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body"
   },
   {
@@ -353,7 +381,7 @@
     "hatenaDate": "2026-11-16T08:15:02Z",
     "users": [],
     "firstSeenAt": "2026-11-16T20:30:14.911929+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body"
   },
   {
@@ -409,7 +437,7 @@
     "hatenaDate": "2026-11-16T08:16:47Z",
     "users": [],
     "firstSeenAt": "2026-11-16T19:00:05.162214+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -483,7 +511,7 @@
     "hatenaDate": "2026-11-16T07:20:06Z",
     "users": [],
     "firstSeenAt": "2026-11-16T19:00:05.162214+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body"
   },
   {
@@ -560,14 +588,14 @@
     "title": "「年齢で断らない」賃貸アパート　全戸に見守りWi-Fi　電波の変化で安否を検知",
     "url": "https://japan.cnet.com/article/35254951/",
     "domain": "japan.cnet.com",
-    "count": 147,
+    "count": 149,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35254951/",
     "screenshot": "https://japan.cnet.com/storage/2026/11/16/4525717f964da450e06aa6a14edbb6aa/large.jpg",
     "description": "フレキシブルは11月13日、年齢や単身であることだけを理由に入居を断らない賃貸アパート「まほろばⅠ」が、10月に埼玉県越谷市で完成したと発表した。全8戸にカメラやマイクを使わない見守りWi-Fiを備え、12月1日から入居を開始する。 同社は、年齢や一人暮らしを理由に賃貸住宅への入居を断られる人に、住まいの選択肢を増やすことを目指すという。建物は木造2階建てで、専有面積は20.58～22.63平方メートル。東武スカイツリーラインの大袋駅から徒歩10分に位置する。 物件の公式案内によると、見守りにはWi-Fiの電波の変化を利用し、人が動いているかどうかを検知する。同社の発表では、室内で24時間動…",
     "hatenaDate": "2026-11-16T07:53:04Z",
     "users": [],
     "firstSeenAt": "2026-11-16T17:30:11.803137+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -618,14 +646,14 @@
     "title": "グーグルのAI認定講座、1万人に無料提供　「Google AI Pro」3カ月利用権も",
     "url": "https://www.watch.impress.co.jp/docs/news/2156720.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 137,
+    "count": 138,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2156720.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2156/720/ai1.jpg",
     "description": "日本リスキリングコンソーシアムは16日、オンラインのトレーニングプログラム「Google AI プロフェッショナル認定証」(日本語版)の無料受講アカウントを提供すると発表した。通常約7,700円相当の講座を無料で受けられるもので、先着1万人が対象となる。 Google AI プロフェッショナル認定証は、あらゆるビジネスパーソンが自信を持ってAIを使いこなせるようGoogleのエキスパートが設計した特別プログラム。リサーチや定型業務の効率化のほか、戦略を具体化し、創造性を高めるアプローチなど、業務に応じたAI活用法を学べる。修了者に授与するGoogle発行の認定証は、履歴書やビジネスSNSのプ…",
     "hatenaDate": "2026-11-16T05:22:52Z",
     "users": [],
     "firstSeenAt": "2026-11-16T17:03:37.421368+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -634,14 +662,14 @@
     "title": "レビューは AI が書いて、人が選ぶ",
     "url": "https://blog.recruit.co.jp/data/articles/ai-review-skills/",
     "domain": "blog.recruit.co.jp",
-    "count": 72,
+    "count": 73,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.recruit.co.jp/data/articles/ai-review-skills/",
     "screenshot": "https://blog.recruit.co.jp/data/articles/ai-review-skills/img/ogp.png",
     "description": "データ推進室で SaaS プロダクトのデータ基盤の開発・運用を担当している電電です。 この記事では、開発現場で活用している AI エージェントの PR レビュー用の skill（Claude Code 向けに自作したもの）を紹介します。この skill は、レビューコメントを AI に下書きさせ、どれを投稿するかを人が選んでから GitHub に投稿します。AI レビューを試したものの、指摘が多すぎる、文面が固い、勝手に投稿されるのが怖い、と感じた人に読んでもらえると嬉しいです。 LLM を使うようになって、コードを書くスピードは大きく上がりました。その一方で、PR は次々に作られるのに、レ…",
     "hatenaDate": "2026-11-16T05:51:34Z",
     "users": [],
     "firstSeenAt": "2026-11-16T16:45:12.256965+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -813,7 +841,7 @@
     "hatenaDate": "2026-11-16T04:49:20Z",
     "users": [],
     "firstSeenAt": "2026-11-16T14:15:15.281948+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -822,14 +850,14 @@
     "title": "パスワードより安全なはずが……パスキー対応103サイトを検証→全てに脆弱性　独大学の調査結果",
     "url": "https://www.itmedia.co.jp/news/article/2611/16/2000003199/",
     "domain": "www.itmedia.co.jp",
-    "count": 369,
+    "count": 372,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/16/2000003199/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/16/2000003199/10012153/2048",
     "description": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shiropen2 ドイツのルール大学ボーフムなどに所属する研究者らが発表した論文「The State of Passkeys: Studying the Adoption and Security of Passkeys on the Web」は、公開されているサイトのパス…",
     "hatenaDate": "2026-11-16T03:03:29Z",
     "users": [],
     "firstSeenAt": "2026-11-16T13:15:18.347548+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -859,7 +887,7 @@
     "hatenaDate": "2026-11-16T01:58:19Z",
     "users": [],
     "firstSeenAt": "2026-11-16T13:00:13.570614+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1002,7 +1030,7 @@
     "hatenaDate": "2026-11-16T02:12:18Z",
     "users": [],
     "firstSeenAt": "2026-11-16T11:45:12.652799+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1053,14 +1081,14 @@
     "title": "OpenAIもAnthropicも勧めるのになぜ流行らない？「AIへの指示は99%音声入力」のPdMに聞く活用術 - レバテックLAB",
     "url": "https://levtech.jp/media/detail_972/",
     "domain": "levtech.jp",
-    "count": 438,
+    "count": 441,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/levtech.jp/media/detail_972/",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/445a7f2edfb3e07f37d2d67e11d84c9596aade9f/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fm%2Fmskkwsm%2F20261105%2F20261105155143.jpg",
     "description": "トップ > インタビュー > OpenAIもAnthropicも勧めるのになぜ流行らない？「AIへの指示は99%音声入力」のPdMに聞く活用術 OpenAIもAnthropicも勧めるのになぜ流行らない？「AIへの指示は99%音声入力」のPdMに聞く活用術 プロダクトマネージャー。1991年生まれ。同志社大学在学中に起業を志し、卒業後は株式会社じげんに入社。その後ベルリンでスタートアップを共同創業し、プログラミング学習アプリを100カ国以上に展開。帰国後は株式会社ブレンドを共同創業し、ミールキット定期宅配サービス「TastyTable」を立ち上げ、2021年に事業譲渡。エンジニア／デザイナー…",
     "hatenaDate": "2026-11-16T01:34:47Z",
     "users": [],
     "firstSeenAt": "2026-11-16T11:00:15.084071+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body"
   },
   {
@@ -1174,7 +1202,7 @@
     "hatenaDate": "2026-11-15T21:09:29Z",
     "users": [],
     "firstSeenAt": "2026-11-16T09:45:13.159069+09:00",
-    "lastSeenAt": "2026-11-17T01:00:17.007678+09:00",
+    "lastSeenAt": "2026-11-17T01:15:14.734238+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4346,35 +4374,5 @@
     "firstSeenAt": "2026-11-12T20:45:12.813218+09:00",
     "lastSeenAt": "2026-11-13T08:45:12.904349+09:00",
     "descriptionSource": "body"
-  },
-  {
-    "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-    "domain": "blog.google",
-    "count": 12,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-    "screenshot": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
-    "description": "Introducing the Gemini Decisions API, powered by our new Gemini Decision 1 model. Evaluate up to 1,000 yes/no, choice, and rubric-scoring questions in a fast, single pass across text, images, audio, video, and PDFs. Your browser does not support the audio element. This content is generated by Googl…",
-    "hatenaDate": "2026-11-12T02:37:13Z",
-    "users": [],
-    "firstSeenAt": "2026-11-12T20:45:12.813218+09:00",
-    "lastSeenAt": "2026-11-13T06:45:13.416641+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "WebサイトをAgent Readyにしよう",
-    "url": "https://unvalley.me/ja/blog/1793627906",
-    "domain": "unvalley.me",
-    "count": 131,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/unvalley.me/ja/blog/1793627906",
-    "screenshot": null,
-    "description": "僕は過去にあるWebサイトを公開していたのですが、その時Vibe Codingによる実装ミスをしていて完全にやらかしたことがあります。そんなことに懲りずに、この記事ではWebサイトをAgent Readyにしていきます。ここでいうAgent Readyは、「エージェントがWebサイトを発見・理解するために、サイト側の準備が完了していること」とします。 Cloudflareのisitagentready.com や Vercelのis-agentic.com を使うと、任意のサイトがAgent Readyかどうかを簡単にチェックすることができます。この2つがどういう指摘をするのか、実際にこのサ…",
-    "hatenaDate": "2026-11-12T09:11:18Z",
-    "users": [],
-    "firstSeenAt": "2026-11-12T20:30:14.535385+09:00",
-    "lastSeenAt": "2026-11-13T13:00:13.776306+09:00",
-    "descriptionSource": "body",
-    "bodyStatus": "skip",
-    "bodyReason": "not-longer"
   }
 ]
