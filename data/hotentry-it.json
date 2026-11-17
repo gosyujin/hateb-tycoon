@@ -1,5 +1,33 @@
 [
   {
+    "title": "[AWS] S3Vectorsは全文検索エンジンとしてOpenSearchの代わりになるのか？ - Qiita",
+    "url": "https://qiita.com/kikuziro/items/cd1389f6a1601494895f?utm_campaign=post_article&utm_medium=twitter&utm_source=twitter_share",
+    "domain": "qiita.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/kikuziro/items/cd1389f6a1601494895f?utm_campaign=post_article&utm_medium=twitter&utm_source=twitter_share",
+    "screenshot": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGMjkzMzQ4OSUyRnByb2ZpbGUtaW1hZ2VzJTJGMTc5Mjk5MzU2Nz9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9ODk4NWM0OTA2NDA3NmU1MjY5YjFkZDc0Mzc0YzE4N2I%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Dda5369d529aa115708e519ff3312efd0?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JTVCQVdTJTVEJTIwUzNWZWN0b3JzJUUzJTgxJUFGJUU1JTg1JUE4JUU2JTk2JTg3JUU2JUE0JTlDJUU3JUI0JUEyJUUzJTgyJUE4JUUzJTgzJUIzJUUzJTgyJUI4JUUzJTgzJUIzJUUzJTgxJUE4JUUzJTgxJTk3JUUzJTgxJUE2T3BlblNlYXJjaCVFMyU4MSVBRSVFNCVCQiVBMyVFMyU4MiU4RiVFMyU4MiU4QSVFMyU4MSVBQiVFMyU4MSVBQSVFMyU4MiU4QiVFMyU4MSVBRSVFMyU4MSU4QiVFRiVCQyU5RiZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPWMyYjVjNGUyMGFjNDMwY2U3ZjgxMGZlYzNkMjNjNjY0&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBraWt1emlybyZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPWM3OGI3M2Q5YTRjOWFhNTIyZjZmYzE4YWMzN2YwOThh&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=8596a506cc94fded242f559d0fe66270",
+    "description": "この記事では全文検索の定番であるOpenSearchとS3Vectorsを比べてみました。 アップデートに関する詳細はこちらの記事が神速でまとめられていたのでご参照ください。 LambdaからサクッとS3Vectorsを呼んでみましょう。インデックスを作るときにtextSearchConfigurationsで本文のキーを指定してアナライザーは日本語(ja)にしています。 import boto3 BUCKET = \"s3v-fts-test-20261117\" INDEX = \"idx-ja-lambda\" # 全文検索だけ使いたいがベクトルは必須なので1次元のダミーを入れる DUMMY…",
+    "hatenaDate": "2026-11-17T14:00:55Z",
+    "users": [],
+    "firstSeenAt": "2026-11-18T07:45:12.790996+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
+    "descriptionSource": "body"
+  },
+  {
+    "title": "アマゾンジャパン、25年に日本で1.5兆円以上投資　新オフィスも公開 - 日本経済新聞",
+    "url": "https://www.nikkei.com/article/DGXZQOUC1735O0X11C26A1000000/",
+    "domain": "www.nikkei.com",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC1735O0X11C26A1000000/",
+    "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3892869017112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.55&fp-y=0.36&h=630&w=1200&s=c87d6805e4c37f95a99a907fbdf5df0a",
+    "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 アマゾンジャパン（東京・港）は17日、2025年の日本での総投資額が1.5兆円以上だったと発表した。物流施設やオフィスの新設などのインフラ整備のほか、従業員への報酬やテクノロジー開発が含まれる。 同日、11月上旬に新設した「Amazon 麻布台オフィス」を報道陣に公開した。目黒から本社を移転し、3つ目の拠点となる。麻布台ヒルズ（東京・港）の34〜44階に位置する。延べ床面積は約4万6000平方メートル。1万5000人を超える従業員のうち、アマゾン・ウェブ・サービス（AWS）やアマゾンジャパンの一部…",
+    "hatenaDate": "2026-11-17T08:04:29Z",
+    "users": [],
+    "firstSeenAt": "2026-11-18T07:45:12.790996+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "Faster type-aware linting with tsrs",
     "url": "https://oxc.rs/blog/2026-11-17-faster-type-aware-linting-with-tsrs",
     "domain": "oxc.rs",
@@ -10,7 +38,7 @@
     "hatenaDate": "2026-11-17T16:08:06Z",
     "users": [],
     "firstSeenAt": "2026-11-18T07:15:18.995110+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -18,14 +46,14 @@
     "title": "GitHub - krisgfx9/Wireless-Device-Battery-Monitor: Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair,",
     "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
     "domain": "github.com",
-    "count": 9,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/krisgfx9/Wireless-Device-Battery-Monitor",
     "screenshot": "https://opengraph.githubassets.com/17689657f217fe9d13090335fa72de0dd695cc5c184a1f69e9f51ff3f10b7c74/krisgfx9/Wireless-Device-Battery-Monitor",
     "description": "Battery levels of your wireless mouse, headset, keyboard and controller, right on the Windows taskbar. Just want it working? Download WirelessBattery-Setup from the latest release, run it and click through. That's it. Experienced users can grab the portable zip, use the command-line options, or b...",
     "hatenaDate": "2026-11-17T12:00:24Z",
     "users": [],
     "firstSeenAt": "2026-11-18T04:00:17.833841+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -33,14 +61,14 @@
     "title": "楽天証券から漏洩した情報とは？　テスト環境に一時的に置いた顧客データを狙われたか（山口健太） - エキスパート - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/expert/articles/a46f1f27a0870d14588ebdbaa074fb457c0d95b3",
     "domain": "news.yahoo.co.jp",
-    "count": 42,
+    "count": 43,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/expert/articles/a46f1f27a0870d14588ebdbaa074fb457c0d95b3",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/yamaguchikenta/02768468/title-1794926284383.jpeg?exp=10800",
     "description": "11月17日、楽天証券が不正アクセスによる情報漏洩の可能性について発表しました。 不正アクセスを受けたのはテスト環境とのことですが、具体的にどのような情報が流出したのか、またなぜテスト環境に顧客データを置いていたのか、広報部に聞いてみました。 楽天証券の広報によれば、両者は重複しておらず、合計「約1572万口座」の会員情報が外部に持ち出された可能性があるとしています。 直近で口座開設したばかりの人は含まれていないとのことですが、楽天証券の口座数は11月に1500万口座を突破したばかりであることを考えると、楽天証券を利用しているほとんどの人がどちらかに該当すると考えられます。 なお「1500万…",
     "hatenaDate": "2026-11-17T15:13:38Z",
     "users": [],
     "firstSeenAt": "2026-11-18T01:00:17.776666+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -56,7 +84,7 @@
     "hatenaDate": "2026-11-17T09:23:20Z",
     "users": [],
     "firstSeenAt": "2026-11-18T01:00:17.776666+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body"
   },
   {
@@ -70,7 +98,7 @@
     "hatenaDate": "2026-11-15T22:17:14Z",
     "users": [],
     "firstSeenAt": "2026-11-18T01:00:17.776666+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body"
   },
   {
@@ -84,7 +112,7 @@
     "hatenaDate": "2026-11-17T10:53:18Z",
     "users": [],
     "firstSeenAt": "2026-11-18T00:45:14.021491+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -99,7 +127,7 @@
     "hatenaDate": "2026-11-17T09:07:34Z",
     "users": [],
     "firstSeenAt": "2026-11-18T00:00:16.764686+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -114,7 +142,7 @@
     "hatenaDate": "2026-11-16T22:02:59Z",
     "users": [],
     "firstSeenAt": "2026-11-18T00:00:16.764686+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body"
   },
   {
@@ -128,7 +156,7 @@
     "hatenaDate": "2026-11-17T12:15:20Z",
     "users": [],
     "firstSeenAt": "2026-11-17T23:45:15.353341+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body"
   },
   {
@@ -157,7 +185,7 @@
     "hatenaDate": "2026-11-17T13:35:16Z",
     "users": [],
     "firstSeenAt": "2026-11-17T23:30:15.328475+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -165,14 +193,14 @@
     "title": "楽天証券、年収など顧客情報漏洩　不正アクセスで最大447万口座分 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUB179TR0X11C26A1000000/",
     "domain": "www.nikkei.com",
-    "count": 4,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUB179TR0X11C26A1000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3894573017112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=62be6468c6b563a4f6f04e4f23dd5903",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 楽天証券は17日、第三者による不正アクセスを受け、顧客の年収や金融資産などの個人情報が最大約447万口座分漏洩したと発表した。氏名や住所、生年月日、勤務先、電話番号、メールアドレス、出金先の銀行口座番号なども含まれる。 企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。",
     "hatenaDate": "2026-11-17T10:25:55Z",
     "users": [],
     "firstSeenAt": "2026-11-17T23:30:15.328475+09:00",
-    "lastSeenAt": "2026-11-17T23:45:15.353341+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body"
   },
   {
@@ -186,7 +214,7 @@
     "hatenaDate": "2026-11-17T10:59:06Z",
     "users": [],
     "firstSeenAt": "2026-11-17T23:15:18.196484+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body"
   },
   {
@@ -200,7 +228,7 @@
     "hatenaDate": "2026-11-17T05:06:32Z",
     "users": [],
     "firstSeenAt": "2026-11-17T23:15:18.196484+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -215,7 +243,7 @@
     "hatenaDate": "2026-11-17T04:20:36Z",
     "users": [],
     "firstSeenAt": "2026-11-17T22:45:12.496849+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body"
   },
   {
@@ -236,14 +264,14 @@
     "title": "Apple、自立型AIエージェントによる情報漏洩やプライバシー侵害のリスクに対し、macOS 27.3 Golden Gate Beta 2で、フルディスクアクセスの細分化やアプリのアクセス許可の明示化などを開始。",
     "url": "https://applech2.com/archives/20261117-apple-strengthens-macos-security-against-risks-from-ai-agents.html",
     "domain": "applech2.com",
-    "count": 10,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/applech2.com/archives/20261117-apple-strengthens-macos-security-against-risks-from-ai-agents.html",
     "screenshot": null,
     "description": "Appleが自立型AIエージェントによる情報漏洩やプライバシー侵害対策として、macOS 27.3 Golden Gate Beta 2で、Macのフルディスクアクセスを細分化＆アクセス許可の明示化を開始すると発表しています。詳細は以下から。 Appleは現地時間2026年11月16日、今年09月にリリースした「macOS 27 Golden Gate」の2度目のマイナーアップデートとなる「macOS 27.3 Golden Gate」のBeta 2を開発者向けに公開しましたが、このmacOS 27.3ではMacに保存されているユーザーデータとデバイス制御へのアクセス強化がセキュリティ対策と…",
     "hatenaDate": "2026-11-17T07:32:46Z",
     "users": [],
     "firstSeenAt": "2026-11-17T22:15:12.918092+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body"
   },
   {
@@ -271,7 +299,7 @@
     "hatenaDate": "2026-11-14T03:41:27Z",
     "users": [],
     "firstSeenAt": "2026-11-17T21:45:14.274024+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body"
   },
   {
@@ -307,14 +335,14 @@
     "title": "メルカリ、Google Play ストアでアプリが検索・ダウンロードできない状態に",
     "url": "https://www.itmedia.co.jp/news/article/2611/17/2000003274/",
     "domain": "www.itmedia.co.jp",
-    "count": 72,
+    "count": 75,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/17/2000003274/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/17/2000003274/10012346/2048",
     "description": "11月17日午後6時40分ごろから、Google Play ストアでフリマアプリ「メルカリ」が検索・ダウンロードできない状況だ。Webブラウザからアプリのページを検索すると「リクエストされたURLは、このサーバー上に見つかりませんでした」と表示される。メルカリ社によれば原因や詳細は調査中。ユーザーに対しては、すでにインストールしたアプリを削除しないように呼び掛けている。 ITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。 国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。 無印良品「21年…",
     "hatenaDate": "2026-11-17T10:58:03Z",
     "users": [],
     "firstSeenAt": "2026-11-17T21:00:09.205726+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -337,14 +365,14 @@
     "title": "楽天証券に不正アクセス、最大1125万口座のIDなど漏えいか　最大447万口座は金融資産情報も",
     "url": "https://www.itmedia.co.jp/news/article/2611/17/2000003275/",
     "domain": "www.itmedia.co.jp",
-    "count": 22,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/17/2000003275/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/17/2000003275/10012348/2048",
     "description": "楽天証券に不正アクセス、最大1125万口座のIDなど漏えいか 「テスト環境」の一部情報が流出のおそれ 楽天証券は11月17日、第三者による不正アクセスを受け、最大約1125万口座分の顧客情報が外部に漏えいした可能性があると発表した。対象にはログインIDなどが含まれる。うち最大約447万口座分については、氏名や住所、年収、金融資産情報なども漏えいした恐れがある。 漏えいした可能性がある情報は、最大約1125万口座分の部店コード（支店などを識別する番号）、顧客コード、ログインID。最大約447万口座分については、これらの情報に加え、氏名、生年月日、住所、電話番号、メールアドレス、勤務先や出金先口…",
     "hatenaDate": "2026-11-17T10:45:53Z",
     "users": [],
     "firstSeenAt": "2026-11-17T20:47:37.521212+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body"
   },
   {
@@ -415,7 +443,7 @@
     "hatenaDate": "2026-11-17T10:31:40Z",
     "users": [],
     "firstSeenAt": "2026-11-17T20:15:14.726884+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body"
   },
   {
@@ -443,7 +471,7 @@
     "hatenaDate": "2026-11-17T09:17:31Z",
     "users": [],
     "firstSeenAt": "2026-11-17T20:15:14.726884+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -479,14 +507,14 @@
     "title": "おい、 Mutation Test をやれ。テスト品質を、測るために",
     "url": "https://zenn.dev/mizchi/articles/mutation-test-quality",
     "domain": "zenn.dev",
-    "count": 253,
+    "count": 263,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mizchi/articles/mutation-test-quality",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--gIzUz2IG--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2581%258A%25E3%2581%2584%25E3%2580%2581%2520Mutation%2520Test%2520%25E3%2582%2592%25E3%2582%2584%25E3%2582%258C%25E3%2580%2582%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E5%2593%2581%25E8%25B3%25AA%25E3%2582%2592%25E3%2580%2581%25E6%25B8%25AC%25E3%2582%258B%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mizchi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2liclRHT052Z3d3ay1fNGxlcVk4TGNGSlNuX0FoWnpEWVlKaXJNcWc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "AIがコードを書き散らして認知的負荷が限界に達する今日この頃、皆様いかがお過ごしでしょうか。 AIによってテストカバレッジを上げることは容易になりました。僕も「分岐カバレッジを80%以上にしろ」みたいな雑なプロンプトを書いて昼飯に行ったりします。帰ってきたらヨシっ！ってマージするわけですね。 https://zenn.dev/polyco/articles/e05cb28c569801 Claude が最初「mutator 良いと思うけど出してるの個人だしスターも少ないしバージョンもまだ 0 系だから StrykerJS でいいのでは？」と提案してきた。気持ちはわかる。流行ってくれ。 作りっ…",
     "hatenaDate": "2026-11-17T09:59:42Z",
     "users": [],
     "firstSeenAt": "2026-11-17T19:30:12.908782+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -516,7 +544,7 @@
     "hatenaDate": "2026-11-17T06:39:54Z",
     "users": [],
     "firstSeenAt": "2026-11-17T19:15:13.588908+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -546,7 +574,7 @@
     "hatenaDate": "2026-11-17T09:33:35Z",
     "users": [],
     "firstSeenAt": "2026-11-17T18:45:13.117040+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -555,14 +583,14 @@
     "title": "楽天証券に不正アクセス 最大1125万口座の情報漏えい可能性",
     "url": "https://www.watch.impress.co.jp/docs/news/2157207.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 166,
+    "count": 168,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2157207.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2157/207/rakuten3.jpg",
     "description": "同社では16日に、一部システムに対して、第三者による不正アクセスの可能性を検知し、アクセスの遮断と修正などを行なった。調査の結果、11月11日に、同社のテスト環境のシステム内で管理していた一部の情報が外部に漏えいしたおそれがあると確認された。不正アクセスの原因や詳細な経緯については、今後調査を進める。 外部に持ち出された可能性がある情報は、楽天証券の部店・お客様コード、ログインID、氏名、カナ氏名、生年月日、住所、電話番号、メールアドレス、勤務先、出金先口座(金融機関・口座番号・名義人)、年収・金融資産(申告情報)、商品別資産情報、最終ログイン日などが最大約447万口座。 楽天証券では、本件…",
     "hatenaDate": "2026-11-17T09:23:14Z",
     "users": [],
     "firstSeenAt": "2026-11-17T18:45:13.117040+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -571,14 +599,14 @@
     "title": "当社お客様の情報漏えいの可能性に関するお詫びとお知らせ:楽天証券",
     "url": "https://www.rakuten-sec.co.jp/web/info/info20261117-02.html",
     "domain": "www.rakuten-sec.co.jp",
-    "count": 717,
+    "count": 727,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.rakuten-sec.co.jp/web/info/info20261117-02.html",
     "screenshot": "https://www.rakuten-sec.co.jp/web/shared/images/og-image.gif",
     "description": "このたび、楽天証券への第三者による不正アクセスを受けたことにともない、楽天証券が保有するお客様の情報の一部が漏えいした可能性があることを確認いたしましたので、お知らせいたします。 楽天証券は、本件を重く受け止めております。お客様をはじめ関係者の皆さまには、ご心配をおかけしますことを、深くお詫び申し上げます。 本件の影響が確認されたお客様の特定は完了しております。該当のお客様には個別にご報告をいたします。また、あらたにお知らせすべき事項等が判明した場合には、あらためてご連絡差し上げます。 2026年11月16日（月）に、当社の一部システムに対して、第三者による不正アクセスの可能性を検知し、当該…",
     "hatenaDate": "2026-11-17T08:41:53Z",
     "users": [],
     "firstSeenAt": "2026-11-17T18:30:21.624968+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -741,7 +769,7 @@
     "hatenaDate": "2026-11-17T06:39:50Z",
     "users": [],
     "firstSeenAt": "2026-11-17T16:30:14.418023+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -842,7 +870,7 @@
     "hatenaDate": "2026-11-17T00:51:29Z",
     "users": [],
     "firstSeenAt": "2026-11-17T15:15:13.430889+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1023,14 +1051,14 @@
     "title": "AIが時代遅れのWebサイトを書くのを防ぐスキル「Modern Web Guidance」が安定版に／「Edge」「Firefox」も参加、Webサイトのモダナイズにも",
     "url": "https://forest.watch.impress.co.jp/docs/news/2156904.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 198,
+    "count": 200,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2156904.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2156/904/image_top.png",
     "description": "AIが時代遅れのWebサイトを書くのを防ぐスキル「Modern Web Guidance」が安定版に 米Googleは11月10日（現地時間）、「Modern Web Guidance」v1.0を安定版としてリリースした。「Modern Web Guidance」は、AIコーディングエージェントに、最新のWeb開発手法やブラウザー互換性の知識を与えるスキル集。今年5月の「Google I/O」で早期プレビュー版が発表されていた。 「Modern Web Guidance」は、対応させたいブラウザーの条件に合わせ、適切な機能や実装方法をエージェントに提案する。 専門家が検証したガイドを拡充し、…",
     "hatenaDate": "2026-11-17T01:04:18Z",
     "users": [],
     "firstSeenAt": "2026-11-17T12:45:12.328225+09:00",
-    "lastSeenAt": "2026-11-18T07:30:13.087559+09:00",
+    "lastSeenAt": "2026-11-18T07:45:12.790996+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4345,35 +4373,5 @@
     "lastSeenAt": "2026-11-14T21:00:12.976037+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
-  },
-  {
-    "title": "かつて、noteのようなブログもTwitterのような短文投稿もDiscordのようなコミュニティ運営もすべてまとめてできる、夢のようなサービスがあったのじゃ",
-    "url": "https://togetter.com/li/2770247",
-    "domain": "togetter.com",
-    "count": 162,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2770247",
-    "screenshot": "https://s.tgstc.com/ogp3/a5d01b29a38b44dd977315f5842d3c69-1200x630.jpeg",
-    "description": "若い人には想像できんかもしれんが、その昔、 noteのようなブログも、 Twitterのような短文投稿も、 Discordのようなコミュニティ運営も、 ジョルテのようなカレンダー共有も、 TwiPlaのようなイベント参加者管理も、 すべてまとめてできる、夢のようなサービスがあったのじゃ。 そして当時は、国民のほとんどが、そのサービスを使っておったのじゃ。 むしろ、それ以外がいらんかったのじゃ。 補足すると、 ・それによる弊害もありました ・サービス自体はいまも続いています ・一番ホットだったのは、先に挙げた機能よりも「サンシャイン牧場」 食欲の秋！異世界至高の飯テロ作品フェア 人気の漫画が最…",
-    "hatenaDate": "2026-11-14T01:06:19Z",
-    "users": [],
-    "firstSeenAt": "2026-11-14T10:30:14.795292+09:00",
-    "lastSeenAt": "2026-11-15T09:45:15.797049+09:00",
-    "descriptionSource": "body",
-    "bodyStatus": "skip",
-    "bodyReason": "not-longer"
-  },
-  {
-    "title": "【速報】マネックス証券、マイナカード画像漏えいか",
-    "url": "https://www.47news.jp/15227159.html",
-    "domain": "www.47news.jp",
-    "count": 287,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15227159.html",
-    "screenshot": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
-    "description": "マネックス証券は13日、委託先が運営・管理する口座開設システムが不正アクセスを受け、運転免許証やマイナンバーカードといった本人確認書類の画像1592件と、最大113万件のメールアドレスが漏えいした恐れがあると発表した。 国内外約100の拠点を軸に、世界情勢から地域の話題まで、旬のニュースを的確に、いち早くお届けします。 奈良市がメールアドレス漏えい マイナ予約者1617件 委託先「アララ」不正アクセスで マイナ手続き、郵便局で 玉城町が関連事務委託 電子証明書発行・更新など利便性向上 三重 奈良市がメールアドレス漏えい マイナ予約者1617件 委託先「アララ」不正アクセスで 奈良市がメールア…",
-    "hatenaDate": "2026-11-13T15:36:10Z",
-    "users": [],
-    "firstSeenAt": "2026-11-14T10:15:13.372542+09:00",
-    "lastSeenAt": "2026-11-15T08:45:14.220230+09:00",
-    "descriptionSource": "body"
   }
 ]
