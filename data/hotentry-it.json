@@ -3,14 +3,14 @@
     "title": "楽天証券から漏洩した情報とは？　テスト環境に一時的に置いた顧客データを狙われたか（山口健太） - エキスパート - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/expert/articles/a46f1f27a0870d14588ebdbaa074fb457c0d95b3",
     "domain": "news.yahoo.co.jp",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/expert/articles/a46f1f27a0870d14588ebdbaa074fb457c0d95b3",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/yamaguchikenta/02768468/title-1794926284383.jpeg?exp=10800",
     "description": "11月17日、楽天証券が不正アクセスによる情報漏洩の可能性について発表しました。 不正アクセスを受けたのはテスト環境とのことですが、具体的にどのような情報が流出したのか、またなぜテスト環境に顧客データを置いていたのか、広報部に聞いてみました。 楽天証券の広報によれば、両者は重複しておらず、合計「約1572万口座」の会員情報が外部に持ち出された可能性があるとしています。 直近で口座開設したばかりの人は含まれていないとのことですが、楽天証券の口座数は11月に1500万口座を突破したばかりであることを考えると、楽天証券を利用しているほとんどの人がどちらかに該当すると考えられます。 なお「1500万…",
     "hatenaDate": "2026-11-17T15:13:38Z",
     "users": [],
     "firstSeenAt": "2026-11-18T01:00:17.776666+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +24,7 @@
     "hatenaDate": "2026-11-17T09:23:20Z",
     "users": [],
     "firstSeenAt": "2026-11-18T01:00:17.776666+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +38,7 @@
     "hatenaDate": "2026-11-15T22:17:14Z",
     "users": [],
     "firstSeenAt": "2026-11-18T01:00:17.776666+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +52,7 @@
     "hatenaDate": "2026-11-17T10:53:18Z",
     "users": [],
     "firstSeenAt": "2026-11-18T00:45:14.021491+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -67,7 +67,7 @@
     "hatenaDate": "2026-11-17T09:07:34Z",
     "users": [],
     "firstSeenAt": "2026-11-18T00:00:16.764686+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -75,14 +75,14 @@
     "title": "AWSインシデント対応の段階的隔離戦略を考えてみた | DevelopersIO",
     "url": "https://dev.classmethod.jp/articles/aws-incident-response-phased-isolation/",
     "domain": "dev.classmethod.jp",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/aws-incident-response-phased-isolation/",
     "screenshot": "https://images.ctfassets.net/ct0aopd36mqt/wp-thumbnail-e4932835437cbdb6df4ca5d0f8c1e3f8/b5a71e825cac3d2206696f441ce21c29/aws-systems-manager",
     "description": "インシデント対応として、「とりあえず全部止めるパニックボタン」を用意することがあります。が、1システムの異常で関係のない事業まで止めてしまうのも怖い。一方で NAT やインターネット経路だけ遮断しても、漏洩した API キーによる AWS API 操作は止まりません。 そこで今回は、公式の SSM Automation Contain 系 Runbook を軸に、隔離を段階（L0〜L3）で考える、という運用モデルを整理しつつ、検証用アカウントで L3（リソース単位の可逆隔離）だけ実機確認しました。 Organizations 全体の委任管理者・隔離 OU（L1）・クロスアカウント実行・Gua…",
     "hatenaDate": "2026-11-16T22:02:59Z",
     "users": [],
     "firstSeenAt": "2026-11-18T00:00:16.764686+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -96,7 +96,7 @@
     "hatenaDate": "2026-11-17T12:15:20Z",
     "users": [],
     "firstSeenAt": "2026-11-17T23:45:15.353341+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -125,7 +125,7 @@
     "hatenaDate": "2026-11-17T13:35:16Z",
     "users": [],
     "firstSeenAt": "2026-11-17T23:30:15.328475+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -147,14 +147,14 @@
     "title": "SWITCHBOT、オールシーズン温度を自動調整する「moera スマートマットレストッパー」を発表",
     "url": "https://k-tai.watch.impress.co.jp/docs/news/2157234.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 12,
+    "count": 13,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2157234.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2157/234/cont400.jpg",
     "description": "SWITCHBOTは17日、ベッドの温度を調整する「moera スマートマットレストッパー」を発表した。価格や発売日は、あらためて案内される。 マットレスの上に敷くかたちで利用するデバイスで、内部で加温または冷却した水を循環させることで、床暖房のようにベッドの温度を調整できる。加温時は最大49度まで、冷却時は最低10度まで調整でき、オールシーズンで利用できる。 デバイスは、ダブルベッドサイズ（140×195cm）で、左右でブロックを分けても利用できる。たとえば、2人で同じベッドで眠る際も、それぞれで最適な温度に設定して就寝できる。 また、睡眠解析技術「Sleep Cycle」を搭載しており、…",
     "hatenaDate": "2026-11-17T10:59:06Z",
     "users": [],
     "firstSeenAt": "2026-11-17T23:15:18.196484+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -168,7 +168,7 @@
     "hatenaDate": "2026-11-17T05:06:32Z",
     "users": [],
     "firstSeenAt": "2026-11-17T23:15:18.196484+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -183,7 +183,7 @@
     "hatenaDate": "2026-11-17T04:20:36Z",
     "users": [],
     "firstSeenAt": "2026-11-17T22:45:12.496849+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -239,7 +239,7 @@
     "hatenaDate": "2026-11-14T03:41:27Z",
     "users": [],
     "firstSeenAt": "2026-11-17T21:45:14.274024+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -253,7 +253,7 @@
     "hatenaDate": "2026-11-17T05:08:15Z",
     "users": [],
     "firstSeenAt": "2026-11-17T21:30:13.906971+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -275,14 +275,14 @@
     "title": "メルカリ、Google Play ストアでアプリが検索・ダウンロードできない状態に",
     "url": "https://www.itmedia.co.jp/news/article/2611/17/2000003274/",
     "domain": "www.itmedia.co.jp",
-    "count": 56,
+    "count": 57,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/17/2000003274/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/17/2000003274/10012346/2048",
     "description": "11月17日午後6時40分ごろから、Google Play ストアでフリマアプリ「メルカリ」が検索・ダウンロードできない状況だ。Webブラウザからアプリのページを検索すると「リクエストされたURLは、このサーバー上に見つかりませんでした」と表示される。メルカリ社によれば原因や詳細は調査中。ユーザーに対しては、すでにインストールしたアプリを削除しないように呼び掛けている。 ITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。 国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。 無印良品「21年…",
     "hatenaDate": "2026-11-17T10:58:03Z",
     "users": [],
     "firstSeenAt": "2026-11-17T21:00:09.205726+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -312,7 +312,7 @@
     "hatenaDate": "2026-11-17T10:45:53Z",
     "users": [],
     "firstSeenAt": "2026-11-17T20:47:37.521212+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -383,7 +383,7 @@
     "hatenaDate": "2026-11-17T10:31:40Z",
     "users": [],
     "firstSeenAt": "2026-11-17T20:15:14.726884+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -411,7 +411,7 @@
     "hatenaDate": "2026-11-17T09:17:31Z",
     "users": [],
     "firstSeenAt": "2026-11-17T20:15:14.726884+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -426,7 +426,7 @@
     "hatenaDate": "2026-11-17T06:33:06Z",
     "users": [],
     "firstSeenAt": "2026-11-17T20:00:14.539484+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body"
   },
   {
@@ -447,14 +447,14 @@
     "title": "おい、 Mutation Test をやれ。テスト品質を、測るために",
     "url": "https://zenn.dev/mizchi/articles/mutation-test-quality",
     "domain": "zenn.dev",
-    "count": 207,
+    "count": 211,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mizchi/articles/mutation-test-quality",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--gIzUz2IG--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2581%258A%25E3%2581%2584%25E3%2580%2581%2520Mutation%2520Test%2520%25E3%2582%2592%25E3%2582%2584%25E3%2582%258C%25E3%2580%2582%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E5%2593%2581%25E8%25B3%25AA%25E3%2582%2592%25E3%2580%2581%25E6%25B8%25AC%25E3%2582%258B%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mizchi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2liclRHT052Z3d3ay1fNGxlcVk4TGNGSlNuX0FoWnpEWVlKaXJNcWc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "AIがコードを書き散らして認知的負荷が限界に達する今日この頃、皆様いかがお過ごしでしょうか。 AIによってテストカバレッジを上げることは容易になりました。僕も「分岐カバレッジを80%以上にしろ」みたいな雑なプロンプトを書いて昼飯に行ったりします。帰ってきたらヨシっ！ってマージするわけですね。 https://zenn.dev/polyco/articles/e05cb28c569801 Claude が最初「mutator 良いと思うけど出してるの個人だしスターも少ないしバージョンもまだ 0 系だから StrykerJS でいいのでは？」と提案してきた。気持ちはわかる。流行ってくれ。 作りっ…",
     "hatenaDate": "2026-11-17T09:59:42Z",
     "users": [],
     "firstSeenAt": "2026-11-17T19:30:12.908782+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -484,7 +484,7 @@
     "hatenaDate": "2026-11-17T06:39:54Z",
     "users": [],
     "firstSeenAt": "2026-11-17T19:15:13.588908+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -514,7 +514,7 @@
     "hatenaDate": "2026-11-17T09:33:35Z",
     "users": [],
     "firstSeenAt": "2026-11-17T18:45:13.117040+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -530,7 +530,7 @@
     "hatenaDate": "2026-11-17T09:23:14Z",
     "users": [],
     "firstSeenAt": "2026-11-17T18:45:13.117040+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -539,14 +539,14 @@
     "title": "当社お客様の情報漏えいの可能性に関するお詫びとお知らせ:楽天証券",
     "url": "https://www.rakuten-sec.co.jp/web/info/info20261117-02.html",
     "domain": "www.rakuten-sec.co.jp",
-    "count": 634,
+    "count": 639,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.rakuten-sec.co.jp/web/info/info20261117-02.html",
     "screenshot": "https://www.rakuten-sec.co.jp/web/shared/images/og-image.gif",
     "description": "このたび、楽天証券への第三者による不正アクセスを受けたことにともない、楽天証券が保有するお客様の情報の一部が漏えいした可能性があることを確認いたしましたので、お知らせいたします。 楽天証券は、本件を重く受け止めております。お客様をはじめ関係者の皆さまには、ご心配をおかけしますことを、深くお詫び申し上げます。 本件の影響が確認されたお客様の特定は完了しております。該当のお客様には個別にご報告をいたします。また、あらたにお知らせすべき事項等が判明した場合には、あらためてご連絡差し上げます。 2026年11月16日（月）に、当社の一部システムに対して、第三者による不正アクセスの可能性を検知し、当該…",
     "hatenaDate": "2026-11-17T08:41:53Z",
     "users": [],
     "firstSeenAt": "2026-11-17T18:30:21.624968+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -648,7 +648,7 @@
     "hatenaDate": "2026-11-17T00:59:20Z",
     "users": [],
     "firstSeenAt": "2026-11-17T17:00:10.288831+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -656,14 +656,14 @@
     "title": "ChatGPTやClaudeがMacを操作する時代に--Appleが「macOS 27.3」で対応強化",
     "url": "https://japan.cnet.com/article/35254992/",
     "domain": "japan.cnet.com",
-    "count": 46,
+    "count": 47,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35254992/",
     "screenshot": "https://japan.cnet.com/storage/2026/08/05/93a0b5a4594429de40754c585e5f4b46/apple-logo-GettyImages-2285371071_1280x960.jpg",
     "description": "Appleは11月16日、ChatGPTやClaudeなどのAIエージェントがMacを操作したり、データにアクセスしたりする際の権限を、より細かく管理できる仕組みを発表した。「macOS 27.3」のベータ2で導入し、アクセスのたびに利用者の許可を求める設定や、アプリによる操作状況を示す機能などを追加する。 背景には、利用者に代わってアプリを操作するAIエージェントの高度化がある。Appleは10月2日の発表で、Mac内のファイルやメール、メッセージ、閲覧履歴などが、利用者の十分な理解がないままアプリにさらされる恐れを指摘。AIエージェントの能力や自律性が高まるほど、こうしたリスクも大きくな…",
     "hatenaDate": "2026-11-17T05:32:03Z",
     "users": [],
     "firstSeenAt": "2026-11-17T17:00:10.288831+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -709,7 +709,7 @@
     "hatenaDate": "2026-11-17T06:39:50Z",
     "users": [],
     "firstSeenAt": "2026-11-17T16:30:14.418023+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -810,7 +810,7 @@
     "hatenaDate": "2026-11-17T00:51:29Z",
     "users": [],
     "firstSeenAt": "2026-11-17T15:15:13.430889+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -991,14 +991,14 @@
     "title": "AIが時代遅れのWebサイトを書くのを防ぐスキル「Modern Web Guidance」が安定版に／「Edge」「Firefox」も参加、Webサイトのモダナイズにも",
     "url": "https://forest.watch.impress.co.jp/docs/news/2156904.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 188,
+    "count": 190,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2156904.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2156/904/image_top.png",
     "description": "AIが時代遅れのWebサイトを書くのを防ぐスキル「Modern Web Guidance」が安定版に 米Googleは11月10日（現地時間）、「Modern Web Guidance」v1.0を安定版としてリリースした。「Modern Web Guidance」は、AIコーディングエージェントに、最新のWeb開発手法やブラウザー互換性の知識を与えるスキル集。今年5月の「Google I/O」で早期プレビュー版が発表されていた。 「Modern Web Guidance」は、対応させたいブラウザーの条件に合わせ、適切な機能や実装方法をエージェントに提案する。 専門家が検証したガイドを拡充し、…",
     "hatenaDate": "2026-11-17T01:04:18Z",
     "users": [],
     "firstSeenAt": "2026-11-17T12:45:12.328225+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1043,7 +1043,7 @@
     "hatenaDate": "2026-11-16T18:59:13Z",
     "users": [],
     "firstSeenAt": "2026-11-17T11:54:42.036541+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1294,14 +1294,14 @@
     "title": "AIバブル崩壊間近な現状、AIが人類を滅ぼせるわけねーだろ - サッとぶ",
     "url": "https://kei-1010.hatenablog.com/entry/2026/11/16/120828",
     "domain": "kei-1010.hatenablog.com",
-    "count": 230,
+    "count": 231,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kei-1010.hatenablog.com/entry/2026/11/16/120828",
     "screenshot": "https://ogimage.blog.st-hatena.com/12921228815715694774/14729835035339126828/1794886329",
     "description": "世間ではいまだに「2030年までには人間抜きでAIが次世代AIを作り始め、2040年には半導体工場から発電所までAIが勝手に回してシンギュラリティが起き人類滅亡」みたいな脅威論を本気で信じている連中がいる。 結論から言うと、人間を一切介さない「完全自律の自己進化ループ」いわゆるRSIなんて、2030年代はおろか2050年になっても不可能だ。 （藁人形乙とか言いたくなる奴は、最後に「よくある脅威論全部」について反論しているので確認してくれ） できるのはせいぜい「人間が作った枠組みの中で、数学の証明とかプログラムの最適化みたいな『ルールと正解が100%決まっている閉じた領域』を自動で回す便利なツ…",
     "hatenaDate": "2026-11-16T12:26:07Z",
     "users": [],
     "firstSeenAt": "2026-11-17T09:30:14.188628+09:00",
-    "lastSeenAt": "2026-11-18T02:45:17.701134+09:00",
+    "lastSeenAt": "2026-11-18T03:00:22.647346+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
