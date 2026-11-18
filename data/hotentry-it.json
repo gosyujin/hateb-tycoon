@@ -1,5 +1,20 @@
 [
   {
+    "title": "CloudflareがなぜパブリックDNSはブロックされるべきではないのかを説明",
+    "url": "https://gigazine.net/news/20261118-cloudflare-explain-dns-blocking/",
+    "domain": "gigazine.net",
+    "count": 5,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261118-cloudflare-explain-dns-blocking/",
+    "screenshot": "https://i.gzn.jp/img/2026/11/18/cloudflare-explain-dns-blocking/00.jpg",
+    "description": "パブリックDNSリゾルバーを運営するCloudflareは、違法なサイトへのアクセスをブロックせよという裁判所命令に従わなかったために多額の制裁金を科され、控訴しています。なぜ従わなかったのか、そもそもパブリックDNSリゾルバーとは何なのかについて、Cloudflareが説明しました。 Quad9’s withdrawal from France: A ca...",
+    "hatenaDate": "2026-11-18T11:03:34Z",
+    "users": [],
+    "firstSeenAt": "2026-11-19T05:45:13.407885+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
+    "bodyTries": 1,
+    "bodyReason": "crawl-delay-too-long"
+  },
+  {
     "title": "同じ仕事を少ないトークンで。GPT-6.2 AstraとSolが登場",
     "url": "https://pc.watch.impress.co.jp/docs/news/2157394.html",
     "domain": "pc.watch.impress.co.jp",
@@ -10,7 +25,7 @@
     "hatenaDate": "2026-11-18T07:27:28Z",
     "users": [],
     "firstSeenAt": "2026-11-19T04:00:15.790433+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +39,7 @@
     "hatenaDate": "2026-11-18T15:28:20Z",
     "users": [],
     "firstSeenAt": "2026-11-19T03:30:16.348982+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "bodyStatus": "skip",
     "bodyReason": "robots-disallow"
   },
@@ -32,14 +47,14 @@
     "title": "左：よく見るAI臭すごいやつ 右：工夫したやつ 同じAIで作ってます→『AI臭の方は「美しい」。工夫の方は「可愛い」。』",
     "url": "https://posfie.com/@_Mammal_/p/SHE9Pud",
     "domain": "posfie.com",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@_Mammal_/p/SHE9Pud",
     "screenshot": "https://s.tgstc.com/ogp3/06ae06b66c903eaa21ef517533d136c7-1200x630.jpeg",
     "description": "左：よく見るAI臭すごいやつ 右：工夫したやつ 同じAIで作ってます #AI漫画 pic.x.com/DelvicRf1X もっと魅せる･面白くする 魂に響く 漫画コマワリ教室 深谷 陽,東京ネームタンク 【残り1日】KADOKAWA 秋カド2026 90％以上の割引で人気作がお得に買える！ 99円多数＆3000冊以上 【残り1日】Kindle本マンガ&ラノベフェア第2弾 11/19(木)まで期間限定セール 最大80%OFF！ @akirao3wq これ個人の好みの話ですが、 私的にはAI臭すごいやつの方がトータルで良いかな？と感じましたねー。 (工夫が悪いとは言ってません) AI臭の方は「…",
     "hatenaDate": "2026-11-17T18:06:06Z",
     "users": [],
     "firstSeenAt": "2026-11-19T02:30:16.112058+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body"
   },
   {
@@ -53,7 +68,7 @@
     "hatenaDate": "2026-11-18T15:27:17Z",
     "users": [],
     "firstSeenAt": "2026-11-19T01:00:18.128316+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -61,14 +76,14 @@
     "title": "NGINX2Root by Xint — From nginx visitor to root of the server host",
     "url": "https://nginx2root.com/",
     "domain": "nginx2root.com",
-    "count": 32,
+    "count": 34,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/nginx2root.com/",
     "screenshot": "https://nginx2root.com/assets/og.03b1de4f.jpg",
     "description": "Found by NGINX2Root From nginx visitor to root of the server hostnginx 방문자에서 서버 호스트의 root까지 CVE-2026-123007CVE-2026-123634CVE-2026-123633CVE-2026-121810CVE-2026-113425",
     "hatenaDate": "2026-11-18T15:34:40Z",
     "users": [],
     "firstSeenAt": "2026-11-19T01:00:18.128316+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -76,14 +91,14 @@
     "title": "「ガチャを回すみたいに強盗する」裁判傍聴の民が実際に見てきたトクリュウの実態がしんどすぎる「普通に仕事しろ」",
     "url": "https://togetter.com/li/2772114",
     "domain": "togetter.com",
-    "count": 57,
+    "count": 60,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2772114",
     "screenshot": "https://s.tgstc.com/ogp3/d969712d9f5daed135f98a11e73cc9f4-1200x630.jpeg",
     "description": "防犯対策 強盗 犯罪心理 闇バイト 裁判傍聴 社会問題 防犯 トクリュウ 犯罪 匿名・流動型犯罪グループ 裁判傍聴の民なんですが、本物のトクリュウをたくさん眺めてきたのでつぶやきますね まず、ガチャまわすみたいに強盗するから、リスト先てきとうに襲撃してる。だから１億あるとか１千万とかあんまり関係ない 襲撃には、まるで冒険者が洞窟にこもるがごとくパーティを結成していて、実行役、移動にドライバー、見張り役、お手伝いさん？とか、ともかく何人か集める 飯をおごったり、(闇)バイトを募集して日当を払ったり、襲撃するだけでもコスト(？)がかかる コストがかかる以上成果が０円でしたは許されない。１日あたり…",
     "hatenaDate": "2026-11-18T15:01:11Z",
     "users": [],
     "firstSeenAt": "2026-11-19T00:30:15.333384+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -92,14 +107,14 @@
     "title": "「Google Apps Script」のコードをGeminiで開発する機能が一般提供開始／専門知識なしで業務自動化が可能に",
     "url": "https://forest.watch.impress.co.jp/docs/news/2157510.html",
     "domain": "forest.watch.impress.co.jp",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2157510.html",
     "screenshot": "https://forest.watch.impress.co.jp/img/wf/list/2157/510/googleappscript.png",
     "description": "「Google Apps Script」のコードをGeminiで開発する機能が一般提供開始 米Googleは11月16日（現地時間）、「Google Workspace」向けの機能拡張プラットフォーム「Google Apps Script」のコードをGeminiで開発できる機能の一般提供を開始した。プログラミングの専門知識がないユーザーでも、日常の言葉で指示を出すだけで業務自動化のプログラムを作成することが可能となった。 従来「Google Apps Script」でシステムの自動化や連携を行うには、専用の画面でゼロからプログラムのコードを記述する必要があった。今回のアップデートにより、『重…",
     "hatenaDate": "2026-11-18T10:29:18Z",
     "users": [],
     "firstSeenAt": "2026-11-19T00:30:15.333384+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body"
   },
   {
@@ -113,7 +128,7 @@
     "hatenaDate": "2026-11-18T13:16:59Z",
     "users": [],
     "firstSeenAt": "2026-11-19T00:15:15.365196+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -121,42 +136,42 @@
     "title": "コスプレイヤー伊織もえ、Anthropic社の新規公開株購入を申し込み「Claudeをたくさん使ってるので」",
     "url": "https://kai-you.net/article/97192",
     "domain": "kai-you.net",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kai-you.net/article/97192",
     "screenshot": "https://img.kai-you.net/storage/2026/11/6a0e80d1-5f68-4351-9b15-1d82c74b53cf/jpg/iorimoe.jpg",
     "description": "Anthropicの新規株式公開（IPO）に申し込んだことを明かした伊織もえさん コスプレイヤーの伊織もえさんが11月18日（水）、生成AI・Claudeを開発する米企業・Anthropic（アンソロピック）の新規株式公開（IPO）に申し込んだことをXで明かした。 公開された証券口座の申込画面には、申込株数として2250株と表示されている。伊織もえさんは以前から、ClaudeやOpenAIのChatGPTを日常的に利用していることをXで明らかにしている。 伊織もえ、Anthropic社のIPOに2250株を申し込み──約2500～2800万円相当 Anthropicは、米国時間11月19日（…",
     "hatenaDate": "2026-11-18T09:05:58Z",
     "users": [],
     "firstSeenAt": "2026-11-19T00:00:16.149737+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "認知負荷の減らし方 ～開発にも日常業務にも活かせるノウハウ～",
     "url": "https://speakerdeck.com/minorun365/2026-11-lab-datsubotorunekku-ningen",
     "domain": "speakerdeck.com",
-    "count": 21,
+    "count": 23,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/minorun365/2026-11-lab-datsubotorunekku-ningen",
     "screenshot": "https://files.speakerdeck.com/presentations/111fe00b671a412b9aae770232d4dea4/slide_0.jpg?41424407",
     "description": "レバテックLAB「［みのるん流］認知負荷の減らし方 ～開発にも日常業務にも活かせるノウハウ～」 https://levtechlab.connpass.com/event/408730/ [みのるん流] 認知負荷の減らし方 開発にも日常業務にも活かせるノウハウ みのるん @minorun365 御田 稔 みのるん KDDIアジャイル開発センター株式会社 テックエバンジェリスト KDDI株式会社 Distinguished Engineer AWS AI 確認待ちの速度と規模が変わった これまで みのるん式の今 ⾃分 少数・緩やか 多数・⾼速・⼤規模 5 ボトルネックは僕ら人間の判断 AIが何…",
     "hatenaDate": "2026-11-18T13:07:43Z",
     "users": [],
     "firstSeenAt": "2026-11-19T00:00:16.149737+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "MUJI Card発行のクレディセゾン、カード番号削除を2度依頼　無印は実行せず",
     "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12190/",
     "domain": "xtech.nikkei.com",
-    "count": 129,
+    "count": 136,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/xtech.nikkei.com/atcl/nxt/column/18/00001/12190/",
     "screenshot": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12190/topm.jpg?20220512",
     "description": "「無印良品」を展開する良品計画から、同社ブランドで発行する「MUJI Card」のクレジットカード番号全桁が約109万件漏洩した恐れがある事案について、新たな事実が分かった。MUJI Cardを発行するクレディセゾンが良品計画に対し、2020年と2021年の2度にわたりカード番号の削除を依頼していた。2026年11月18日、クレディセゾンが日経クロステックの取材に対し、明らかにした。良品計画は、発行会社から複数回の削除依頼があったにもかかわらず、カード番号を保持し続けていたことになる。",
     "hatenaDate": "2026-11-18T14:15:39Z",
     "users": [],
     "firstSeenAt": "2026-11-18T23:45:14.788755+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -172,7 +187,7 @@
     "hatenaDate": "2026-11-18T08:25:27Z",
     "users": [],
     "firstSeenAt": "2026-11-18T23:45:14.788755+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body"
   },
   {
@@ -186,7 +201,7 @@
     "hatenaDate": "2026-11-18T11:16:36Z",
     "users": [],
     "firstSeenAt": "2026-11-18T22:45:15.286104+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body"
   },
   {
@@ -200,7 +215,7 @@
     "hatenaDate": "2026-11-18T11:57:45Z",
     "users": [],
     "firstSeenAt": "2026-11-18T22:30:11.787122+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -258,7 +273,7 @@
     "hatenaDate": "2026-11-17T14:09:10Z",
     "users": [],
     "firstSeenAt": "2026-11-18T21:15:15.472687+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body"
   },
   {
@@ -272,7 +287,7 @@
     "hatenaDate": "2026-11-18T08:46:35Z",
     "users": [],
     "firstSeenAt": "2026-11-18T21:00:17.019629+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body"
   },
   {
@@ -286,7 +301,7 @@
     "hatenaDate": "2026-11-18T08:46:19Z",
     "users": [],
     "firstSeenAt": "2026-11-18T20:37:02.787799+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body"
   },
   {
@@ -356,7 +371,7 @@
     "hatenaDate": "2026-11-18T02:28:53Z",
     "users": [],
     "firstSeenAt": "2026-11-18T20:00:16.603527+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -386,7 +401,7 @@
     "hatenaDate": "2026-11-17T14:46:53Z",
     "users": [],
     "firstSeenAt": "2026-11-18T19:15:13.016154+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body"
   },
   {
@@ -400,7 +415,7 @@
     "hatenaDate": "2026-11-18T06:49:31Z",
     "users": [],
     "firstSeenAt": "2026-11-18T19:15:13.016154+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body"
   },
   {
@@ -414,7 +429,7 @@
     "hatenaDate": "2026-11-18T07:04:31Z",
     "users": [],
     "firstSeenAt": "2026-11-18T19:00:14.921616+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body"
   },
   {
@@ -428,7 +443,7 @@
     "hatenaDate": "2026-11-18T07:58:06Z",
     "users": [],
     "firstSeenAt": "2026-11-18T18:45:12.881117+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body"
   },
   {
@@ -442,7 +457,7 @@
     "hatenaDate": "2026-11-18T06:54:40Z",
     "users": [],
     "firstSeenAt": "2026-11-18T18:45:12.881117+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body"
   },
   {
@@ -500,7 +515,7 @@
     "hatenaDate": "2026-11-18T08:06:20Z",
     "users": [],
     "firstSeenAt": "2026-11-18T17:45:12.846462+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body"
   },
   {
@@ -571,7 +586,7 @@
     "hatenaDate": "2026-11-18T00:39:38Z",
     "users": [],
     "firstSeenAt": "2026-11-18T15:45:13.288070+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -623,14 +638,14 @@
     "title": "Suicaペンギンの後継キャラはB案「紫のうさぎ」に　愛称募集を開始",
     "url": "https://www.watch.impress.co.jp/docs/news/2157432.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 431,
+    "count": 432,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2157432.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2157/432/jre08.jpg",
     "description": "JR東日本は、2027年3月31日の「Suicaのペンギン」の「卒業」にともなう、新たなイメージキャラクターを「B案」の紫のキャラクターに決定した。応募総数166万4,399票から、86万152票を獲得し、今後愛称を募集を開始する。 9月に、リス風の「A」、うさぎ風の「B」、モグラをモチーフとした「C」の3案を提示し、投票を募っていた。今回、その中で最も投票が多かった「B」案に決定。次世代のSuicaキャラクターとして展開していく。原案者はイラストレーターの世戸ヒロアキ氏。 移動手段を超え、人と街、未来をつなぐ存在として、周囲の声に耳を傾け、 未来へ跳び進む「うさぎ」を選びました。 キャラク…",
     "hatenaDate": "2026-11-18T05:20:59Z",
     "users": [],
     "firstSeenAt": "2026-11-18T14:30:16.000735+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -953,14 +968,14 @@
     "title": "楽天証券への不正アクセスについてまとめてみた - piyolog",
     "url": "https://piyolog.hatenadiary.jp/entry/2026/11/18/100525",
     "domain": "piyolog.hatenadiary.jp",
-    "count": 341,
+    "count": 342,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/11/18/100525",
     "screenshot": "https://ogimage.blog.st-hatena.com/10257846132616586766/14729835035340223800/1794963925",
     "description": "2026年11月17日、楽天証券は第三者による不正アクセスに伴い、保有する顧客情報の一部が漏えいした可能性があると公表しました。ここでは関連する情報をまとめます。 楽天証券は11月16日に一部システムへの第三者による不正アクセスの可能性を検知し、該当箇所へのアクセスを遮断して修正などを実施。その後の調査で、テスト環境のシステム内で管理していた情報の一部が11月11日に外部へ漏えいしたおそれがあると判明した(出典: 1)。*1 ログインに必要なパスワードや暗証番号など、取引に必要な情報の漏えいは確認していない。公表時点で、本件に起因すると考えられる不正アクセスや不正取引も確認されていない(出典…",
     "hatenaDate": "2026-11-18T01:53:39Z",
     "users": [],
     "firstSeenAt": "2026-11-18T12:15:14.300852+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1058,14 +1073,14 @@
     "title": "部下がClaudeっぽいスライドしか出してこなくてウンザリしてる上司はこれを使わせなさい - Qiita",
     "url": "https://qiita.com/nuco_d/items/b279477cbcdbe5921abd",
     "domain": "qiita.com",
-    "count": 689,
+    "count": 691,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/nuco_d/items/b279477cbcdbe5921abd",
     "screenshot": null,
     "description": "部下に資料を頼むと、AIで作ったスライドが返ってくることも増えたのではないだろうか。 と。本記事では、AIのスライドがなぜ「Claudeっぽく」なるのか、そしてそう見せないために、部下にどのスキルを使わせるべきかを伝授する。 弊社Nucoでは、他にも様々なお役立ち記事を公開しています。よかったら、Organizationのページも覗いてみてください。 また、Nucoでは一緒に働く仲間も募集しています！興味をお持ちいただける方は、こちらまで。 逆に、おまけにすぎない「スペック」「公式ベンチマーク」「料金」が、アイコン付きの大きなカードで目立っている。日付の一文は太字だ。 1スライド1メッセージ…",
     "hatenaDate": "2026-11-17T05:33:02Z",
     "users": [],
     "firstSeenAt": "2026-11-18T11:15:14.317187+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1214,7 +1229,7 @@
     "hatenaDate": "2026-11-17T13:10:43Z",
     "users": [],
     "firstSeenAt": "2026-11-18T09:00:15.417595+09:00",
-    "lastSeenAt": "2026-11-19T05:30:14.844827+09:00",
+    "lastSeenAt": "2026-11-19T05:45:13.407885+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4336,19 +4351,5 @@
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
-  },
-  {
-    "title": "俺、8210円で買える「透明レトロカメラ」に夢中なんだ。これ面白いんだぜ！ (1/5)",
-    "url": "https://ascii.jp/elem/000/004/451/4451322/",
-    "domain": "ascii.jp",
-    "count": 171,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/451/4451322/",
-    "screenshot": "https://ascii.jp/img/2026/11/13/4551720/xl/5cbcd42ef0a38f87.jpg?20200122",
-    "description": "万人向けじゃなくていい、俺には神なんだ！ 「私的My推しガジェット」2026 第186回 どうですか、このビジュアルインパクト！ 自分は戦闘機のHUD（ヘッドアップディスプレイ）のようなファインダーにテンションが爆上がりしました 『私的My推しガジェット』 はアスキーの各編集者が個人的に推しなガジェットを紹介していくレビュー企画です。 スマホがあれば、誰でも簡単に綺麗な写真が撮れて、すぐに画像を確認できます。ですが、この作業が当たり前すぎて、ちょっと退屈さを感じていませんか？ そんな現代の写真撮影に、強い未体験感と新鮮な驚きを与えてくれるユニークなデバイスが登場しました。ライティング機材で知…",
-    "hatenaDate": "2026-11-15T12:22:19Z",
-    "users": [],
-    "firstSeenAt": "2026-11-16T07:45:17.883632+09:00",
-    "lastSeenAt": "2026-11-16T22:15:14.727807+09:00",
-    "descriptionSource": "body"
   }
 ]
