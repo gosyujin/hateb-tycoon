@@ -10,8 +10,10 @@
     "hatenaDate": "2026-11-19T12:07:58Z",
     "users": [],
     "firstSeenAt": "2026-11-20T04:45:21.143955+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
-    "descriptionSource": "body"
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "descriptionSource": "body",
+    "bodyStatus": "skip",
+    "bodyReason": "not-longer"
   },
   {
     "title": "サーバーソフト「nginx」に脆弱性、日本人ハッカーら発見 - 日本経済新聞",
@@ -24,7 +26,7 @@
     "hatenaDate": "2026-11-19T06:16:47Z",
     "users": [],
     "firstSeenAt": "2026-11-20T04:45:21.143955+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +40,7 @@
     "hatenaDate": "2026-11-19T07:30:37Z",
     "users": [],
     "firstSeenAt": "2026-11-20T02:30:15.324969+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +54,7 @@
     "hatenaDate": "2026-11-19T09:59:00Z",
     "users": [],
     "firstSeenAt": "2026-11-20T02:15:16.386466+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +68,7 @@
     "hatenaDate": "2026-11-19T05:21:10Z",
     "users": [],
     "firstSeenAt": "2026-11-20T01:30:13.183440+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body"
   },
   {
@@ -80,7 +82,7 @@
     "hatenaDate": "2026-11-19T15:05:27Z",
     "users": [],
     "firstSeenAt": "2026-11-20T01:15:15.612832+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -89,14 +91,14 @@
     "title": "「湘南美容クリニック」などの個人情報流出　氏名など162万人分　不正アクセスで",
     "url": "https://japan.cnet.com/article/35255171/",
     "domain": "japan.cnet.com",
-    "count": 26,
+    "count": 28,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35255171/",
     "screenshot": "https://japan.cnet.com/storage/2026/11/19/359cc316734d66789b7bbf2a58aa6b96/large.jpg",
     "description": "SBCメディカルグループは11月19日、湘南美容クリニックなどの利用者の個人情報が不正アクセスによって流出したと発表した。氏名や連絡先などを含む個人情報162万4000人分のほか、予約の申し込み情報や相談内容なども流出した。流出した情報には、当時暗号化せずに保存していたパスワードも含まれる。 SBCが公表した流出情報の内訳（画像：SBC Medical Group Holdings） 162万4000人分は2010～2023年の情報で、予約や施術の記録を含まない区分だ。氏名、メールアドレス、電話番号、住所、生年月日、パスワードなどが含まれるが、流出した項目は利用者によって異なる。この区分では…",
     "hatenaDate": "2026-11-19T13:48:03Z",
     "users": [],
     "firstSeenAt": "2026-11-20T00:45:13.967421+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -112,7 +114,7 @@
     "hatenaDate": "2026-11-07T13:16:44Z",
     "users": [],
     "firstSeenAt": "2026-11-20T00:45:13.967421+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -134,14 +136,14 @@
     "title": "「ほぼ全人類が永久に失業する」Anthropic研究者がAIの未来を予測",
     "url": "https://ascii.jp/elem/000/004/452/4452982/",
     "domain": "ascii.jp",
-    "count": 68,
+    "count": 69,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/452/4452982/",
     "screenshot": "https://ascii.jp/img/2026/11/19/4554121/xl/7d1f92347929bf4e.jpg?20200122",
     "description": "Anthropicの研究者Tao Lin氏が、人間の雇用の将来について厳しい見通しを示した。非営利団体Palisade Researchが11月16日に公開したインタビューで「地球上のほぼすべての人間が、永久に雇用されなくなる可能性が非常に高い」と発言し、注目を集めている。 Tao Lin氏はインタビューのなかで、人間の最も優れた専門家にほぼすべての分野で匹敵するか、それを上回るAIが2027年末ごろに登場すると予測する。プログラミングだけでなく、映画制作や政治なども例に挙げ、人間の知的能力を幅広く超えるAIが間もなく実現するとの見方を示した。 ただし、AIが人間の仕事をこなせるようになって…",
     "hatenaDate": "2026-11-19T09:44:51Z",
     "users": [],
     "firstSeenAt": "2026-11-20T00:15:13.480732+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -157,21 +159,21 @@
     "hatenaDate": "2026-11-19T06:54:35Z",
     "users": [],
     "firstSeenAt": "2026-11-20T00:15:13.480732+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "アプリケーションエンジニアの考えるセキュリティ対策（考え方と共通の前提） | フューチャー技術ブログ",
     "url": "https://future-architect.github.io/articles/20261119a/",
     "domain": "future-architect.github.io",
-    "count": 11,
+    "count": 12,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/future-architect.github.io/articles/20261119a/",
     "screenshot": "https://future-architect.github.io/images/2026/20261119a/top.png",
     "description": "前回の「セキュリティ要求は、待ってくれない」では、セキュリティをサービスレベル設計の観点から捉え直し、事業者がどこまで投資し、どういう状況になったらサービスを止めるのかを決めることの大切さを書きました。 この秋も、国内では不正アクセスによる情報漏えいの報道が相次ぎました。また、広く使われている開発言語の重大な脆弱性が公表される前後に、多くの事業者が被害を防ぐため予防的にサービスを止める動きも見られました。 では、システムを設計し、作り、維持する側の私たちエンジニアやアーキテクトは、何を考え、どこに手を打つべきなのでしょうか。相次ぐ報道に危機感を覚えたこともあり、実務の目線からセキュリティの全…",
     "hatenaDate": "2026-11-19T05:20:55Z",
     "users": [],
     "firstSeenAt": "2026-11-20T00:00:10.362159+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body"
   },
   {
@@ -185,7 +187,7 @@
     "hatenaDate": "2026-11-19T10:30:08Z",
     "users": [],
     "firstSeenAt": "2026-11-19T23:45:18.808194+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body"
   },
   {
@@ -199,7 +201,7 @@
     "hatenaDate": "2026-11-19T02:12:48Z",
     "users": [],
     "firstSeenAt": "2026-11-19T23:45:18.808194+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body"
   },
   {
@@ -213,7 +215,7 @@
     "hatenaDate": "2026-11-19T06:00:32Z",
     "users": [],
     "firstSeenAt": "2026-11-19T23:15:13.476504+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -228,7 +230,7 @@
     "hatenaDate": "2026-11-19T11:53:12Z",
     "users": [],
     "firstSeenAt": "2026-11-19T23:15:13.476504+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body"
   },
   {
@@ -242,7 +244,7 @@
     "hatenaDate": "2026-11-19T11:56:11Z",
     "users": [],
     "firstSeenAt": "2026-11-19T23:00:14.796217+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -273,7 +275,7 @@
     "hatenaDate": "2026-11-19T08:01:57Z",
     "users": [],
     "firstSeenAt": "2026-11-19T22:30:18.628927+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -288,7 +290,7 @@
     "hatenaDate": "2026-11-19T03:19:26Z",
     "users": [],
     "firstSeenAt": "2026-11-19T21:45:13.536969+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -303,7 +305,7 @@
     "hatenaDate": "2026-11-19T11:08:54Z",
     "users": [],
     "firstSeenAt": "2026-11-19T21:30:14.227289+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body"
   },
   {
@@ -317,7 +319,7 @@
     "hatenaDate": "2026-11-19T02:22:17Z",
     "users": [],
     "firstSeenAt": "2026-11-19T21:30:14.227289+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -326,14 +328,14 @@
     "title": "美少女ゲーム「NIKKE」経由でマルウェア感染　北海道2自治体、委託先が認める",
     "url": "https://www.itmedia.co.jp/news/article/2611/19/2000003351/",
     "domain": "www.itmedia.co.jp",
-    "count": 138,
+    "count": 139,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/19/2000003351/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/19/2000003351/10012624/2048",
     "description": "11月18日、業務の再委託先が使用する情報機器でマルウェア「K2F」への感染が確認され、個人情報が漏えいした可能性があると発表した北海道岩見沢市と新得町。両自治体が業務を委託していたGIS北海道（札幌市）は19日、ITmedia NEWSの取材に応じ、人気ゲーム「勝利の女神：NIKKE」のPC版ランチャー（起動用アプリ）が関係していると認めた。 両自治体によると、GIS北海道が業務の一部を再委託していたリムゲート（札幌市）の情報機器で、K2Fへの感染を確認したという。ただしGIS北海道は、リムゲートの担当者が業務用PCでゲームを起動していたのかについて「回答を差し控えたい」とした。 K2Fは…",
     "hatenaDate": "2026-11-19T11:25:45Z",
     "users": [],
     "firstSeenAt": "2026-11-19T21:15:14.282029+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -349,7 +351,7 @@
     "hatenaDate": "2026-11-19T09:23:51Z",
     "users": [],
     "firstSeenAt": "2026-11-19T21:15:14.282029+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body"
   },
   {
@@ -405,7 +407,7 @@
     "hatenaDate": "2026-11-19T06:53:38Z",
     "users": [],
     "firstSeenAt": "2026-11-19T20:45:13.420146+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body"
   },
   {
@@ -419,7 +421,7 @@
     "hatenaDate": "2026-11-19T02:57:31Z",
     "users": [],
     "firstSeenAt": "2026-11-19T20:30:13.564727+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body"
   },
   {
@@ -433,7 +435,7 @@
     "hatenaDate": "2026-11-19T07:06:05Z",
     "users": [],
     "firstSeenAt": "2026-11-19T20:00:15.351077+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -464,7 +466,7 @@
     "hatenaDate": "2026-11-19T06:49:06Z",
     "users": [],
     "firstSeenAt": "2026-11-19T19:45:13.146232+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -566,7 +568,7 @@
     "hatenaDate": "2026-11-19T07:38:47Z",
     "users": [],
     "firstSeenAt": "2026-11-19T18:15:14.143787+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body"
   },
   {
@@ -679,7 +681,7 @@
     "hatenaDate": "2026-11-19T05:30:10Z",
     "users": [],
     "firstSeenAt": "2026-11-19T16:45:13.591695+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -766,7 +768,7 @@
     "hatenaDate": "2026-11-18T22:05:26Z",
     "users": [],
     "firstSeenAt": "2026-11-19T15:30:15.551558+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -819,14 +821,14 @@
     "title": "教師のためのAI入門",
     "url": "https://yamazato.nuee.nagoya-u.ac.jp/PDF/AI-for-Teachers-an-Open-Textbook-v1.0.0.pdf",
     "domain": "yamazato.nuee.nagoya-u.ac.jp",
-    "count": 240,
+    "count": 242,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/yamazato.nuee.nagoya-u.ac.jp/PDF/AI-for-Teachers-an-Open-Textbook-v1.0.0.pdf",
     "screenshot": null,
     "description": null,
     "hatenaDate": "2026-11-19T01:32:33Z",
     "users": [],
     "firstSeenAt": "2026-11-19T14:30:14.354639+09:00",
-    "lastSeenAt": "2026-11-20T05:30:13.569148+09:00",
+    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
