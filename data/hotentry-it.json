@@ -1,16 +1,30 @@
 [
   {
+    "title": "【事前準備のお願い】PHPのセキュリティリリース公開予定について（11月） | 情報セキュリティ | IPA 独立行政法人 情報処理推進機構",
+    "url": "https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261119.html",
+    "domain": "www.ipa.go.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.ipa.go.jp/security/security-alert/2026/pre-alert20261119.html",
+    "screenshot": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.jpg",
+    "description": "2026年10月に公表した PHPの脆弱性（CVE-2026-109618、CVE-2026-109619：PHP2shell)の予告時とは異なり、「デフォルトではない設定、または、一般的ではないセットアップ」で影響するものとの記載がなされております。 本情報の対象となる脆弱性について、本ページ公開時点でIPAが悪用した攻撃を確認しているわけではありません。 セキュリティリリースの公開後、速やかに適用できるよう、事前準備をお願いするものです。 The PHP Groupが提供するPHPについて、2026年11月19日 23:00～23:30ころ（日本時間）に、セキュリティリリースを公開する予…",
+    "hatenaDate": "2026-11-19T10:40:49Z",
+    "users": [],
+    "firstSeenAt": "2026-11-20T06:00:23.649024+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "Agenship — Software FactoryであなたのチームにAIの開発ラインを",
     "url": "https://agenship.ai/",
     "domain": "agenship.ai",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/agenship.ai/",
     "screenshot": "https://agenship.ai/og.png",
     "description": "あなたの組織のAI活用は、今どの段階ですか？あなたの組織のAI活用は、 今どの段階ですか？ コーディングエージェントによって、個人のソフトウェア開発は速くなりました。 組織の生産性を上げるための次の一手は、 開発を実行・管理し、継続的に改善できるSoftware Factoryです。コーディングエージェントによって、 個人のソフトウェア開発は速くなりました。 組織の生産性を上げるための次の一手は、 開発を実行・管理し、継続的に改善できる Software Factoryです。 よく使う指示や社内の型をスキルとして再利用するよく使う指示や社内の型を スキルとして再利用する Software F…",
     "hatenaDate": "2026-11-19T12:07:58Z",
     "users": [],
     "firstSeenAt": "2026-11-20T04:45:21.143955+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -26,7 +40,7 @@
     "hatenaDate": "2026-11-19T06:16:47Z",
     "users": [],
     "firstSeenAt": "2026-11-20T04:45:21.143955+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body"
   },
   {
@@ -40,7 +54,7 @@
     "hatenaDate": "2026-11-19T07:30:37Z",
     "users": [],
     "firstSeenAt": "2026-11-20T02:30:15.324969+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body"
   },
   {
@@ -54,7 +68,7 @@
     "hatenaDate": "2026-11-19T09:59:00Z",
     "users": [],
     "firstSeenAt": "2026-11-20T02:15:16.386466+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body"
   },
   {
@@ -68,7 +82,7 @@
     "hatenaDate": "2026-11-19T05:21:10Z",
     "users": [],
     "firstSeenAt": "2026-11-20T01:30:13.183440+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body"
   },
   {
@@ -82,7 +96,7 @@
     "hatenaDate": "2026-11-19T15:05:27Z",
     "users": [],
     "firstSeenAt": "2026-11-20T01:15:15.612832+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -98,7 +112,7 @@
     "hatenaDate": "2026-11-19T13:48:03Z",
     "users": [],
     "firstSeenAt": "2026-11-20T00:45:13.967421+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -114,7 +128,7 @@
     "hatenaDate": "2026-11-07T13:16:44Z",
     "users": [],
     "firstSeenAt": "2026-11-20T00:45:13.967421+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -136,14 +150,14 @@
     "title": "「ほぼ全人類が永久に失業する」Anthropic研究者がAIの未来を予測",
     "url": "https://ascii.jp/elem/000/004/452/4452982/",
     "domain": "ascii.jp",
-    "count": 69,
+    "count": 71,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/452/4452982/",
     "screenshot": "https://ascii.jp/img/2026/11/19/4554121/xl/7d1f92347929bf4e.jpg?20200122",
     "description": "Anthropicの研究者Tao Lin氏が、人間の雇用の将来について厳しい見通しを示した。非営利団体Palisade Researchが11月16日に公開したインタビューで「地球上のほぼすべての人間が、永久に雇用されなくなる可能性が非常に高い」と発言し、注目を集めている。 Tao Lin氏はインタビューのなかで、人間の最も優れた専門家にほぼすべての分野で匹敵するか、それを上回るAIが2027年末ごろに登場すると予測する。プログラミングだけでなく、映画制作や政治なども例に挙げ、人間の知的能力を幅広く超えるAIが間もなく実現するとの見方を示した。 ただし、AIが人間の仕事をこなせるようになって…",
     "hatenaDate": "2026-11-19T09:44:51Z",
     "users": [],
     "firstSeenAt": "2026-11-20T00:15:13.480732+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -159,7 +173,7 @@
     "hatenaDate": "2026-11-19T06:54:35Z",
     "users": [],
     "firstSeenAt": "2026-11-20T00:15:13.480732+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body"
   },
   {
@@ -173,7 +187,7 @@
     "hatenaDate": "2026-11-19T05:20:55Z",
     "users": [],
     "firstSeenAt": "2026-11-20T00:00:10.362159+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body"
   },
   {
@@ -187,7 +201,7 @@
     "hatenaDate": "2026-11-19T10:30:08Z",
     "users": [],
     "firstSeenAt": "2026-11-19T23:45:18.808194+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body"
   },
   {
@@ -201,7 +215,7 @@
     "hatenaDate": "2026-11-19T02:12:48Z",
     "users": [],
     "firstSeenAt": "2026-11-19T23:45:18.808194+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body"
   },
   {
@@ -215,7 +229,7 @@
     "hatenaDate": "2026-11-19T06:00:32Z",
     "users": [],
     "firstSeenAt": "2026-11-19T23:15:13.476504+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -230,21 +244,21 @@
     "hatenaDate": "2026-11-19T11:53:12Z",
     "users": [],
     "firstSeenAt": "2026-11-19T23:15:13.476504+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ソフトウェアダークファクトリー | 技術評論社",
     "url": "https://gihyo.jp/book/2026/978-4-297-16073-9",
     "domain": "gihyo.jp",
-    "count": 57,
+    "count": 58,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/book/2026/978-4-297-16073-9",
     "screenshot": "https://gihyo.jp/assets/images/ogp/2026/9784297160739.jpg",
     "description": "─⁠─AIエージェント時代の設計・実装・運用ハーネス 「ダークファクトリー」とは、人間を排除した無人工場ではありません。AIコーディングの普及に伴い増幅する「あいまいな仕様」「弱い権限設計」「薄いテスト」「壊れやすい運用」といったリスクに対し、人間の判断・業務知識・失敗の教訓をシステム構造に埋め込むことで、AIや複数チームが動いても安全に変更を生み出し続けられる開発環境を指します。 本書は、DDD、型システム、形式手法、SREなどの古典的・現代的工学手法を「AIを制御するしくみ」として再構築した、AIエージェント時代のための新しいソフトウェアアーキテクチャ・設計思想書です。プロンプトの工夫や…",
     "hatenaDate": "2026-11-19T11:56:11Z",
     "users": [],
     "firstSeenAt": "2026-11-19T23:00:14.796217+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -275,7 +289,7 @@
     "hatenaDate": "2026-11-19T08:01:57Z",
     "users": [],
     "firstSeenAt": "2026-11-19T22:30:18.628927+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -283,14 +297,14 @@
     "title": "pstack 完全ガイド ─AIエージェントに雑なコード を書かせない技術─",
     "url": "https://zenn.dev/karamage/books/50c18e52e7d19e",
     "domain": "zenn.dev",
-    "count": 20,
+    "count": 21,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/karamage/books/50c18e52e7d19e",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--GWwE0-pv--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci85NDdmODUyMDIwLmpwZWc=%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
     "description": "AIエージェントに仕事を頼むと、自信満々の報告と一緒に検証されていない大量のコードが届いて困ったことはありませんか？ AIエージェントを使い始めた人はもちろん、日常的に使いこなしているエンジニアでも、「どうすれば品質を担保できるのか」「どこまで自律的に仕事を任せられるのか」という疑問は共通の課題ではな...",
     "hatenaDate": "2026-11-19T03:19:26Z",
     "users": [],
     "firstSeenAt": "2026-11-19T21:45:13.536969+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -305,21 +319,21 @@
     "hatenaDate": "2026-11-19T11:08:54Z",
     "users": [],
     "firstSeenAt": "2026-11-19T21:30:14.227289+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "相次ぐOSSの脆弱性に、とりあえずクラウドWAF入れるだけでだいぶ違う話+Rootlessコンテナもいいぞ",
     "url": "https://zenn.dev/kusuke/articles/98e178e6824cac",
     "domain": "zenn.dev",
-    "count": 90,
+    "count": 91,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/kusuke/articles/98e178e6824cac",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--kDaMIsIl--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%259B%25B8%25E6%25AC%25A1%25E3%2581%2590OSS%25E3%2581%25AE%25E8%2584%2586%25E5%25BC%25B1%25E6%2580%25A7%25E3%2581%25AB%25E3%2580%2581%25E3%2581%25A8%25E3%2582%258A%25E3%2581%2582%25E3%2581%2588%25E3%2581%259A%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25A6%25E3%2583%2589WAF%25E5%2585%25A5%25E3%2582%258C%25E3%2582%258B%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25A7%25E3%2581%25A0%25E3%2581%2584%25E3%2581%25B6%25E9%2581%2595%25E3%2581%2586%25E8%25A9%25B1%252BRootless%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2586%25E3%2583%258A%25E3%2582%2582%25E3%2581%2584%25E3%2581%2584%25E3%2581%259E%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yusuke%2520Kawabata%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFiNjBjMzBiZjEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "先日「PHP2Shell（CVE-2026-109618 / CVE-2026-109619）」というコアそのもののRCE（リモートコード実行）が出て大騒ぎになったと思ったら、JavaでもJavaのBase64デコーダ周りで「Java2Shell（CVE-2026-114938）」が出てきました。さらに今日（11月18日・米国時間）はnginxで10年前から潜んでいたHTTP/2のメモリ破壊バグ（CVE-2026-123007、通称nginx2rootなど）が発表され、今晩23時からはPHPのCriticalな脆弱性リリースまで予告されています。 これだけ立て続けに来ると、真面目にパッチを当…",
     "hatenaDate": "2026-11-19T02:22:17Z",
     "users": [],
     "firstSeenAt": "2026-11-19T21:30:14.227289+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -328,14 +342,14 @@
     "title": "美少女ゲーム「NIKKE」経由でマルウェア感染　北海道2自治体、委託先が認める",
     "url": "https://www.itmedia.co.jp/news/article/2611/19/2000003351/",
     "domain": "www.itmedia.co.jp",
-    "count": 139,
+    "count": 143,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/19/2000003351/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/19/2000003351/10012624/2048",
     "description": "11月18日、業務の再委託先が使用する情報機器でマルウェア「K2F」への感染が確認され、個人情報が漏えいした可能性があると発表した北海道岩見沢市と新得町。両自治体が業務を委託していたGIS北海道（札幌市）は19日、ITmedia NEWSの取材に応じ、人気ゲーム「勝利の女神：NIKKE」のPC版ランチャー（起動用アプリ）が関係していると認めた。 両自治体によると、GIS北海道が業務の一部を再委託していたリムゲート（札幌市）の情報機器で、K2Fへの感染を確認したという。ただしGIS北海道は、リムゲートの担当者が業務用PCでゲームを起動していたのかについて「回答を差し控えたい」とした。 K2Fは…",
     "hatenaDate": "2026-11-19T11:25:45Z",
     "users": [],
     "firstSeenAt": "2026-11-19T21:15:14.282029+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -351,7 +365,7 @@
     "hatenaDate": "2026-11-19T09:23:51Z",
     "users": [],
     "firstSeenAt": "2026-11-19T21:15:14.282029+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body"
   },
   {
@@ -407,7 +421,7 @@
     "hatenaDate": "2026-11-19T06:53:38Z",
     "users": [],
     "firstSeenAt": "2026-11-19T20:45:13.420146+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body"
   },
   {
@@ -421,21 +435,21 @@
     "hatenaDate": "2026-11-19T02:57:31Z",
     "users": [],
     "firstSeenAt": "2026-11-19T20:30:13.564727+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "複雑な立体形状や皮膚上に直接形成可能なナノメッシュ皮膚センサの開発に成功 ―次世代ヘルスケアやヒューマン・マシン・インターフェース応用に期待―",
     "url": "https://www.t.u-tokyo.ac.jp/press/pr2026-11-19-001",
     "domain": "www.t.u-tokyo.ac.jp",
-    "count": 75,
+    "count": 76,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.t.u-tokyo.ac.jp/press/pr2026-11-19-001",
     "screenshot": "https://www.t.u-tokyo.ac.jp/hubfs/press-release/2026/1119/001/key.jpg",
     "description": "◆ 導電性のナノファイバーを皮膚上に直接紡糸することで、指先などの複雑な立体曲面にも密着するナノメッシュ皮膚センサの開発に成功しました。 ◆ 開発した皮膚センサは、高い通気性と放熱性、生体適合性を備えており、装着感や皮膚への負担を最小限に抑えながら、心電図や皮膚電気活動・圧力などの多様な生体信号を安定して計測できます。 ◆ 従来のフィルム型センサでは困難だった複雑な部位への高精度な装着ができるため、今後、個人の健康管理や、高精度なジェスチャー認識などのヒューマン・マシン・インターフェースへの応用が期待されます。 東京大学大学院工学系研究科の梁 暁平（Xiaoping Liang）特任研究員、…",
     "hatenaDate": "2026-11-19T07:06:05Z",
     "users": [],
     "firstSeenAt": "2026-11-19T20:00:15.351077+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -466,7 +480,7 @@
     "hatenaDate": "2026-11-19T06:49:06Z",
     "users": [],
     "firstSeenAt": "2026-11-19T19:45:13.146232+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -568,7 +582,7 @@
     "hatenaDate": "2026-11-19T07:38:47Z",
     "users": [],
     "firstSeenAt": "2026-11-19T18:15:14.143787+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body"
   },
   {
@@ -681,7 +695,7 @@
     "hatenaDate": "2026-11-19T05:30:10Z",
     "users": [],
     "firstSeenAt": "2026-11-19T16:45:13.591695+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -828,7 +842,7 @@
     "hatenaDate": "2026-11-19T01:32:33Z",
     "users": [],
     "firstSeenAt": "2026-11-19T14:30:14.354639+09:00",
-    "lastSeenAt": "2026-11-20T05:45:10.564165+09:00",
+    "lastSeenAt": "2026-11-20T06:00:23.649024+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-html"
   },
@@ -4363,19 +4377,5 @@
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
-  },
-  {
-    "title": "軽量なマイクロVMでネイティブよりアプリを高速起動できる「Hyperlight-Unikraft」登場",
-    "url": "https://www.publickey1.jp/blog/26/vmhyperlight-unikraft.html",
-    "domain": "www.publickey1.jp",
-    "count": 73,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/vmhyperlight-unikraft.html",
-    "screenshot": "https://www.publickey1.jp/2026/hyperlightunikraft-ann01.png",
-    "description": "Cloud Native Computing Foundationは、Linuxアプリケーションを再コンパイルや再ビルドすることなくそのまま、Unikernelのような軽量かつセキュアな実行環境で仮想マシンによる堅牢な隔離環境で実行できるMicroVMを実現する「Hyperlight-Unikraft」を発表しました。 Hyperlight-Unikraftはその名称が示す通り、軽量な仮想マシンマネージャライブラリ「Hyperlight」と、アプリケーションの実行に必要な最小限のOSの機能のみを備えた「Unikernel」のためのツールキット「Unikraft」を組み合わせたものです。 Hy…",
-    "hatenaDate": "2026-11-16T19:05:37Z",
-    "users": [],
-    "firstSeenAt": "2026-11-17T08:30:13.911260+09:00",
-    "lastSeenAt": "2026-11-17T19:45:12.653884+09:00",
-    "descriptionSource": "body"
   }
 ]
