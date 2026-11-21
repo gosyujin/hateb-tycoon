@@ -1,16 +1,30 @@
 [
   {
+    "title": "\"リーマン予想の証明\"の検証は現在どこまで進んでいるか｜加藤文元",
+    "url": "https://note.com/katobungen/n/n9c2bb939b9c7",
+    "domain": "note.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/katobungen/n/n9c2bb939b9c7",
+    "screenshot": "https://assets.st-note.com/production/uploads/images/338963061/rectangle_large_type_2_0bd944c73197444eb53b87bfcab7137d.png?fit=bounds&quality=85&width=1280",
+    "description": "（2026年11月21日夜現在。時刻は特に断らない限り日本時間。Andrew Sutherland氏の公開検証記録の最終更新、11月21日21時55分＝同日12時55分 UTCに基づく。） 2026年11月20日、Anthropicの数学者Levent Alpöge氏が、Claudeとともにリーマン予想を証明したと発表した。公表されたのは、わずか4ページの声明と、Leanという証明支援系で書かれた膨大なコードである。そのコードは175,187個のモジュールからなり、ソース全体で約1,737万行に達する。Alpöge氏の主張は通常のリーマン予想（RH）にとどまらず、DirichletのL関数に…",
+    "hatenaDate": "2026-11-21T13:55:02Z",
+    "users": [],
+    "firstSeenAt": "2026-11-22T02:45:13.891016+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "「AIが私を追い越した」　リーマン予想「証明」の数学者自身も驚き：朝日新聞",
     "url": "https://www.asahi.com/articles/ASVCP2WB0VCPDIFI008M.html",
     "domain": "www.asahi.com",
-    "count": 8,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVCP2WB0VCPDIFI008M.html",
     "screenshot": "https://imgopt.asahi.com/ogp/AS20261121002843_comm.jpg",
     "description": "人工知能（AI）の力を借りて、167年来の難問「リーマン予想」を証明した――。米国の数学者が20日明らかにした発表で、数学界に衝撃が走っている。リーマン予想とはそもそもどんな難問なのか。証明を発表した数学者は何者で、本当に証明は正しいものなのか。 リーマン予想は、ドイツの数学者ベルンハルト・リーマンが1859年に提唱した。2、3、5、7、11……と続く素数の分布に深くかかわる予想だ。 素数は、1と自分自身でしか割り切れない正の整数で、無限に存在する。ただ、素数は不規則に現れ、数が大きくなるほど現れ方は複雑になる。 一方、全体を見渡すと一定の規則性が潜んでいる。例えば、100万以下に素数が何個…",
     "hatenaDate": "2026-11-21T10:01:36Z",
     "users": [],
     "firstSeenAt": "2026-11-22T00:45:07.941703+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +38,7 @@
     "hatenaDate": "2026-11-20T23:39:26Z",
     "users": [],
     "firstSeenAt": "2026-11-21T23:45:13.473477+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +52,7 @@
     "hatenaDate": "2026-11-20T21:20:07Z",
     "users": [],
     "firstSeenAt": "2026-11-21T23:30:13.704641+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +66,7 @@
     "hatenaDate": "2026-11-21T12:31:59Z",
     "users": [],
     "firstSeenAt": "2026-11-21T23:15:12.907180+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -68,7 +82,7 @@
     "hatenaDate": "2026-11-21T09:00:34Z",
     "users": [],
     "firstSeenAt": "2026-11-21T23:00:15.946976+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -77,14 +91,14 @@
     "title": "GitHub - mitaku/andon: A one-person software factory: AI coding agents take tasks from a ledger through review to merge, and call the human only for decisions only they can make.",
     "url": "https://github.com/mitaku/andon",
     "domain": "github.com",
-    "count": 67,
+    "count": 68,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/mitaku/andon",
     "screenshot": "https://repository-images.githubusercontent.com/1446439331/d343a024-954b-4077-898a-5e8c17772ac9",
     "description": "Andon — a one-person software factory. AI coding agents take issues from a ledger through implementation, review and merge, and the human is called only for the decisions that only they can make. 一人で使うソフトウェア工場。エージェントが kanban の課題を実装・レビュー・マージまで流し、オーナーは自分にしかできない決断のときだけ呼ばれる。kanban は、プロジェクトごとの課題・問い・ルーチン…",
     "hatenaDate": "2026-11-21T10:52:10Z",
     "users": [],
     "firstSeenAt": "2026-11-21T21:30:18.797071+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -100,7 +114,7 @@
     "hatenaDate": "2026-11-21T07:28:49Z",
     "users": [],
     "firstSeenAt": "2026-11-21T21:00:09.510021+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -114,7 +128,7 @@
     "hatenaDate": "2026-11-20T13:10:11Z",
     "users": [],
     "firstSeenAt": "2026-11-21T21:00:09.510021+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -128,7 +142,7 @@
     "hatenaDate": "2026-11-21T06:49:45Z",
     "users": [],
     "firstSeenAt": "2026-11-21T20:45:12.316651+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -142,7 +156,7 @@
     "hatenaDate": "2026-11-21T02:31:00Z",
     "users": [],
     "firstSeenAt": "2026-11-21T20:30:13.420952+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -156,7 +170,7 @@
     "hatenaDate": "2026-11-21T04:12:48Z",
     "users": [],
     "firstSeenAt": "2026-11-21T20:15:13.613184+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -170,7 +184,7 @@
     "hatenaDate": "2026-11-20T11:54:43Z",
     "users": [],
     "firstSeenAt": "2026-11-21T20:00:16.290430+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -184,7 +198,7 @@
     "hatenaDate": "2026-11-20T23:08:37Z",
     "users": [],
     "firstSeenAt": "2026-11-21T18:45:12.616722+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -199,7 +213,7 @@
     "hatenaDate": "2026-11-21T00:21:00Z",
     "users": [],
     "firstSeenAt": "2026-11-21T18:15:14.574705+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -213,7 +227,7 @@
     "hatenaDate": "2026-11-20T23:11:48Z",
     "users": [],
     "firstSeenAt": "2026-11-21T17:45:15.362056+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -241,7 +255,7 @@
     "hatenaDate": "2026-11-21T04:22:35Z",
     "users": [],
     "firstSeenAt": "2026-11-21T17:30:15.658340+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -262,14 +276,14 @@
     "title": "スシロー、アメリカ・ニューヨーク1号店が大行列の人気「チップ不要なシステムも好評の理由」→アメリカ人も面倒くさいと思ってるのかよ…",
     "url": "https://togetter.com/li/2773198",
     "domain": "togetter.com",
-    "count": 34,
+    "count": 35,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2773198",
     "screenshot": "https://s.tgstc.com/ogp3/96b865c6a2139e7374782a910465f928-1200x630.jpeg",
     "description": "【開店】スシロー、アメリカ・ニューヨーク1号店に行列「チップ不要」に称賛の声 news.livedoor.com/article/detail… チップ不要のシステムも好評で、来店客から「スタッフが受け取るべき報酬を最初から料金に含めるという考え方が気に入っています。いい仕組みだと思います」という声が上がった。 pic.x.com/Vv0yZSaGEU スシロー 米NY1号店に行列 「チップ不要」に称賛の声｜FNNプライムオンライン 「スシロー」がアメリカ1号店をオープン。世界中の観光客が集まるニューヨークのタイムズスクエアの回転寿司店に行列ができました。開店を待つ人の中に、スマホの画面を見…",
     "hatenaDate": "2026-11-21T06:18:40Z",
     "users": [],
     "firstSeenAt": "2026-11-21T16:30:13.804153+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -283,7 +297,7 @@
     "hatenaDate": "2026-11-19T02:00:08Z",
     "users": [],
     "firstSeenAt": "2026-11-21T16:00:13.762097+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "bodyStatus": "skip",
     "bodyReason": "x-robots-tag"
   },
@@ -298,7 +312,7 @@
     "hatenaDate": "2026-11-19T16:01:13Z",
     "users": [],
     "firstSeenAt": "2026-11-21T15:30:14.940724+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -314,7 +328,7 @@
     "hatenaDate": "2026-11-18T03:02:46Z",
     "users": [],
     "firstSeenAt": "2026-11-21T15:30:14.940724+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -330,7 +344,7 @@
     "hatenaDate": "2026-11-21T01:24:02Z",
     "users": [],
     "firstSeenAt": "2026-11-21T15:00:13.729196+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -360,7 +374,7 @@
     "hatenaDate": "2026-11-21T04:00:58Z",
     "users": [],
     "firstSeenAt": "2026-11-21T14:30:13.311493+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -433,7 +447,7 @@
     "hatenaDate": "2026-11-21T03:06:24Z",
     "users": [],
     "firstSeenAt": "2026-11-21T13:00:10.606129+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -449,7 +463,7 @@
     "hatenaDate": "2026-11-21T00:35:47Z",
     "users": [],
     "firstSeenAt": "2026-11-21T12:45:12.662519+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -521,7 +535,7 @@
     "hatenaDate": "2026-11-21T00:45:41Z",
     "users": [],
     "firstSeenAt": "2026-11-21T11:45:13.050959+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -552,7 +566,7 @@
     "hatenaDate": "2026-11-21T00:39:32Z",
     "users": [],
     "firstSeenAt": "2026-11-21T11:30:16.826423+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -583,7 +597,7 @@
     "hatenaDate": "2026-11-20T14:35:51Z",
     "users": [],
     "firstSeenAt": "2026-11-21T10:45:13.657620+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -627,7 +641,7 @@
     "hatenaDate": "2026-11-20T14:31:09Z",
     "users": [],
     "firstSeenAt": "2026-11-21T09:45:14.229225+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -669,7 +683,7 @@
     "hatenaDate": "2026-11-20T15:27:05Z",
     "users": [],
     "firstSeenAt": "2026-11-21T09:00:16.118777+09:00",
-    "lastSeenAt": "2026-11-22T02:30:14.184015+09:00",
+    "lastSeenAt": "2026-11-22T02:45:13.891016+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4372,19 +4386,5 @@
     "lastSeenAt": "2026-11-19T00:45:15.562082+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
-  },
-  {
-    "title": "PC 2台対応、Bluetooth接続の指紋リーダー",
-    "url": "https://pc.watch.impress.co.jp/docs/news/2157001.html",
-    "domain": "pc.watch.impress.co.jp",
-    "count": 24,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2157001.html",
-    "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2157/001/1.jpg",
-    "description": "エレコムは11月18日、Bluetooth LE接続で2台のPCに対応できる指紋リーダー「CR-FI50BBK」を発売した。直販価格は9,980円。 CR-FI50BBKは、6月に発売した指紋リーダー「CR-FI50UBK」および「CR-FI01UBK」のBluetooth LE対応版として位置付けられるモデル。Windows Helloに対応し、Windowsのログインや、Webサイトにおけるパスキーのログインなどをサポート。指紋の照合をデバイス内で完結させるMoC(Match-on-Chip)認証方式を採用しているため、指紋データがPCに送られることがなく不正読み取りを防げ、セキュリティ…",
-    "hatenaDate": "2026-11-18T03:26:37Z",
-    "users": [],
-    "firstSeenAt": "2026-11-18T14:15:12.634806+09:00",
-    "lastSeenAt": "2026-11-18T20:45:13.144306+09:00",
-    "descriptionSource": "body"
   }
 ]
