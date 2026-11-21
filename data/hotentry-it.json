@@ -10,7 +10,7 @@
     "hatenaDate": "2026-11-20T23:39:26Z",
     "users": [],
     "firstSeenAt": "2026-11-21T23:45:13.473477+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,49 +24,49 @@
     "hatenaDate": "2026-11-20T21:20:07Z",
     "users": [],
     "firstSeenAt": "2026-11-21T23:30:13.704641+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "新宿駅で財布を忘れて家に帰れない女の子から「PayPay1000円分を現金で交換して貰えませんか？」とお願いされ、「返さなくていいよ」と1000円あげたら喜ばれず戸惑っていた",
     "url": "https://togetter.com/li/2773268",
     "domain": "togetter.com",
-    "count": 17,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2773268",
     "screenshot": "https://s.tgstc.com/ogp3/632b82e862446f9c248e1896c0ab723c-1200x630.jpeg",
     "description": "前に新宿駅で20代前半の女の子に「財布を忘れて家に帰れて無くて困ってて…。PayPay1000円分を現金で交換して貰えませんか？」って話しかけられて、あらぁ…可哀想に…😭って田舎モンだからめちゃくちゃ信じたのね。 それが、PayPayから情報を抜き取る犯罪って知らなくて。 でも、私、その時→ PayPayをやってない田舎モンだったから、女の子に千円あげたの。返さなくていいよって言って。 でも、家に帰れず窮地に立たされてる筈なのにその割には千円喜ばれず戸惑った感じで去って行ったんだけど、あれは情報を抜く事が出来ずに去っていった犯罪者って事？😭 PayPay残高と現金交換を要求「困ってるふうに」…",
     "hatenaDate": "2026-11-21T12:31:59Z",
     "users": [],
     "firstSeenAt": "2026-11-21T23:15:12.907180+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "GitHub - fkubota/understand-mode: Claude Code の出力・PR・コードを、付箋のホワイトボードで寄り道しながら理解する /understand スキル",
     "url": "https://github.com/fkubota/understand-mode",
     "domain": "github.com",
-    "count": 7,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/fkubota/understand-mode",
     "screenshot": "https://opengraph.githubassets.com/60858531d746569014954fcb7f06ffbc73f8482bf22ec64a052125cbd21d6028/fkubota/understand-mode",
     "description": "Claude Code の出力を、付箋のホワイトボードで寄り道しながら理解するためのスキルです。 わからない文を選ぶと、その場に付箋が生えます。付箋の中では、メインの文脈を引き継いだ分身が答えます。メインの会話は汚れません。 本筋（Claudeの出力・コード・未コミットの差分）の文や行を選ぶと、質問・詳しく・用語・図・データ・レビューの付箋が生えます 図は Mermaid、グラフは Vega-Lite で描きます。本筋にも付箋にも入ります データの付箋では、SQLを「承認して実行」したときだけ実行し、結果の表・グラフ・SQLを並べて見られます。どうやってデータを取るかは、あなたの Claud…",
     "hatenaDate": "2026-11-21T09:00:34Z",
     "users": [],
     "firstSeenAt": "2026-11-21T23:00:15.946976+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "GitHub - mitaku/andon: A one-person software factory: AI coding agents take tasks from a ledger through review to merge, and call the human only for decisions only they can make.",
     "url": "https://github.com/mitaku/andon",
     "domain": "github.com",
-    "count": 37,
+    "count": 39,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/mitaku/andon",
     "screenshot": "https://repository-images.githubusercontent.com/1446439331/d343a024-954b-4077-898a-5e8c17772ac9",
     "description": "Andon — a one-person software factory. AI coding agents take issues from a ledger through implementation, review and merge, and the human is called only for the decisions that only they can make. 一人で使うソフトウェア工場。エージェントが kanban の課題を実装・レビュー・マージまで流し、オーナーは自分にしかできない決断のときだけ呼ばれる。kanban は、プロジェクトごとの課題・問い・ルーチン…",
     "hatenaDate": "2026-11-21T10:52:10Z",
     "users": [],
     "firstSeenAt": "2026-11-21T21:30:18.797071+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -75,14 +75,14 @@
     "title": "形式検証を活用した脆弱性診断LLMのプロトタイプをEthereum Foundationに納品｜Nyx Foundation",
     "url": "https://note.com/nyxfoundation/n/n782d4fb32344",
     "domain": "note.com",
-    "count": 5,
+    "count": 6,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/nyxfoundation/n/n782d4fb32344",
     "screenshot": "https://assets.st-note.com/production/uploads/images/335620741/rectangle_large_type_2_9de971bfd98d3840ed0cffe9259b297f.png?fit=bounds&quality=85&width=1280",
     "description": "Nyx Foundationは、Ethereum FoundationのSecurity Grantのもとで、LLMを使った脆弱性診断ツールSPECAを開発し、プロトタイプを納品しました。仕様書から診断の確認項目を作り、その条件を実装が満たすかを調べる仕組みです。形式検証で記述・証明した性質を、診断の確認項目へつなぐ機能も整備しています。 ソフトウェアの診断では、ある関数に認証チェックが見当たらなくても、呼び出し元で確認している場合があります。一方、通常の経路では認証を通っていても、別の入口から同じデータへアクセスできるかもしれません。LLMに調査を任せるには、守るべき条件を明確にし、その条…",
     "hatenaDate": "2026-11-21T07:28:49Z",
     "users": [],
     "firstSeenAt": "2026-11-21T21:00:09.510021+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
@@ -96,7 +96,7 @@
     "hatenaDate": "2026-11-20T13:10:11Z",
     "users": [],
     "firstSeenAt": "2026-11-21T21:00:09.510021+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
@@ -110,21 +110,21 @@
     "hatenaDate": "2026-11-21T06:49:45Z",
     "users": [],
     "firstSeenAt": "2026-11-21T20:45:12.316651+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "一番無難じゃないキャラが優勝　Suica「B案」とAI時代の愛されかた",
     "url": "https://www.watch.impress.co.jp/docs/topic/watchplus/2157644.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/topic/watchplus/2157644.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2157/644/jre11.jpg",
     "description": "Impress Watchニュースレターに掲載した記事です。ニュースレターは無料で、毎週編集部員が会員向けのコラムなどをお送りしています。登録はこちらから。 27年4月以降のSuicaのキャラクターが「B案(仮称)」に決まりました。紫のうさぎ風の新キャラクターですが、奇抜で微妙に違和感を覚える形状と、目を引く色味など「インパクト」では、公募された3案の中でも最も高かったようで、ソーシャルメディア上でも「ファンアート」が多数作成されていました。 その人気のまま、投票でも5割以上の得票率を獲得し、「ペンギン後継」のキャラクターに決定しました。 個人的にも「最も気になる」という意味では「B案」だっ…",
     "hatenaDate": "2026-11-21T02:31:00Z",
     "users": [],
     "firstSeenAt": "2026-11-21T20:30:13.420952+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
@@ -138,7 +138,7 @@
     "hatenaDate": "2026-11-21T04:12:48Z",
     "users": [],
     "firstSeenAt": "2026-11-21T20:15:13.613184+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
@@ -152,7 +152,7 @@
     "hatenaDate": "2026-11-20T11:54:43Z",
     "users": [],
     "firstSeenAt": "2026-11-21T20:00:16.290430+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
@@ -166,7 +166,7 @@
     "hatenaDate": "2026-11-20T23:08:37Z",
     "users": [],
     "firstSeenAt": "2026-11-21T18:45:12.616722+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -174,14 +174,14 @@
     "title": "「パッチ地獄」が米IT障害誘発、AIがせかす脆弱性修正　銀行や空港停止 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOGN18CYM0Y6A111C2000000/",
     "domain": "www.nikkei.com",
-    "count": 44,
+    "count": 46,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN18CYM0Y6A111C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3909647019112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.61&fp-y=0.61&h=630&w=1200&s=d6e9cdd26f655fd90756a1641d73bc86",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 【ニューヨーク=西邨紘子、シリコンバレー=伴正春】米国の銀行や空港でシステム障害が相次ぐ。原因は個別に異なるものの、大きな背景には人工知能（AI）が膨大な脆弱性を見つけ、パッチ（修正）適用や更新を急がざるを得ない事情がある。日本のインフラも同様のリスクを抱える。 企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 手口が巧妙化し被害が増えているサイバー攻撃や不正アクセス、それに対する防衛策などに関する最新記事をまとめたページです。 【企業一覧】個人情報の…",
     "hatenaDate": "2026-11-21T00:21:00Z",
     "users": [],
     "firstSeenAt": "2026-11-21T18:15:14.574705+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
@@ -195,7 +195,7 @@
     "hatenaDate": "2026-11-20T23:11:48Z",
     "users": [],
     "firstSeenAt": "2026-11-21T17:45:15.362056+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
@@ -223,7 +223,7 @@
     "hatenaDate": "2026-11-21T04:22:35Z",
     "users": [],
     "firstSeenAt": "2026-11-21T17:30:15.658340+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
@@ -251,7 +251,7 @@
     "hatenaDate": "2026-11-21T06:18:40Z",
     "users": [],
     "firstSeenAt": "2026-11-21T16:30:13.804153+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
@@ -265,7 +265,7 @@
     "hatenaDate": "2026-11-19T02:00:08Z",
     "users": [],
     "firstSeenAt": "2026-11-21T16:00:13.762097+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "bodyStatus": "skip",
     "bodyReason": "x-robots-tag"
   },
@@ -273,14 +273,14 @@
     "title": "columnsプロパティで縦積みのナビゲーションを作る – TAKLOG",
     "url": "https://www.tak-dcxi.com/article/vertical-navigation-with-columns-property/",
     "domain": "www.tak-dcxi.com",
-    "count": 19,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.tak-dcxi.com/article/vertical-navigation-with-columns-property/",
     "screenshot": "https://www.tak-dcxi.com/og/vertical-navigation-with-columns-property.png",
     "description": "フッターに置くリンク集のような、縦に並べたナビゲーションをcolumnsプロパティで段組みにしました。項目は上から下へ読む順番のまま段に分かれ、段の数は幅に応じてブラウザが決めるので、段の数を切り替えるメディアクエリは書いていません。 このリンク集はサイトの導線なので、メニューではなくナビゲーションと呼びます。メニューは、操作を実行したり選んだりする選択肢の一覧に使う語です（AIにも渡せる命名の用語表を作る）。項目の下の線に加えて、段ごとの上の線と、ホバーしたときに項目から項目へ動く背景も付けています。 <nav class=\"scoped column-navigation\" aria-l…",
     "hatenaDate": "2026-11-19T16:01:13Z",
     "users": [],
     "firstSeenAt": "2026-11-21T15:30:14.940724+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -289,14 +289,14 @@
     "title": "なぜヘンリーのE2Eリポジトリは整理されないまま膨らみ続けたのか。 AIで加速した開発とガードレール - 株式会社ヘンリー エンジニアブログ",
     "url": "https://dev.henry.jp/entry/e2e-repository",
     "domain": "dev.henry.jp",
-    "count": 39,
+    "count": 40,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/dev.henry.jp/entry/e2e-repository",
     "screenshot": "https://ogimage.blog.st-hatena.com/4207112889953777012/14729835035340099917/1794969632",
     "description": "ヘンリーではAIを使った開発体制の改善についてさまざまな取り組みを行ってきましたが、それらの積み重ねもあり今ではエンジニアだけでなくデザイナーやQAメンバーなどからもPull Requestが作れる状況となっています。 AIによってさまざまな職種のメンバーが多くのPRを出せるようになった一方で、リポジトリ全体を継続的に整理する仕組みは十分に整っていませんでした。今回はそこで生じた課題と対応について紹介します。 先に問題となったリポジトリについて少し紹介をします。henry-e2eと呼ばれる、Playwrightを使ったHenryのE2Eテストをまとめたリポジトリです。 QAからもテスト修正の…",
     "hatenaDate": "2026-11-18T03:02:46Z",
     "users": [],
     "firstSeenAt": "2026-11-21T15:30:14.940724+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -305,14 +305,14 @@
     "title": "ボールの慣性で素早いカーソル移動！奥深きトラックボールの世界 3つのスタイルに分けて計14モデルをピックアップ text by 石川 ひさよし",
     "url": "https://akiba-pc.watch.impress.co.jp/docs/sale/online_shopping/2158378.html",
     "domain": "akiba-pc.watch.impress.co.jp",
-    "count": 77,
+    "count": 81,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/akiba-pc.watch.impress.co.jp/docs/sale/online_shopping/2158378.html",
     "screenshot": "https://akiba-pc.watch.impress.co.jp/img/ah/list/2158/378/top.jpg",
     "description": "3つのスタイルに分けて計14モデルをピックアップ text by 石川 ひさよし 本稿では、Amazon.co.jpや楽天で購入できるオススメ製品をテーマ別にまとめてお届けします。PCパーツからガジェット、生活に役立つ便利グッズまで、季節や世間の話題などを見ながら幅広く紹介するので、製品探しや買い物の参考にしてみてください。 PCでカーソル操作を行うデバイスはさまざまありますが、今回はトラックボールに注目してみましょう。ここでは通常のPC操作向けのモデルに絞って紹介します。 トラックボールは古のボールマウスをひっくり返したような仕組みです。狭いスペースでも操作できるほか、ボールの慣性を使って…",
     "hatenaDate": "2026-11-21T01:24:02Z",
     "users": [],
     "firstSeenAt": "2026-11-21T15:00:13.729196+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -342,7 +342,7 @@
     "hatenaDate": "2026-11-21T04:00:58Z",
     "users": [],
     "firstSeenAt": "2026-11-21T14:30:13.311493+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
@@ -356,7 +356,7 @@
     "hatenaDate": "2026-11-20T19:18:28Z",
     "users": [],
     "firstSeenAt": "2026-11-21T13:45:17.201640+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -408,14 +408,14 @@
     "title": "イーロン・マスクが金持ちでもそんなネットで嫌われてないのって「男の子がワクワクするもの」に迷わず巨額の金を突っ込むからだと思うんだよな",
     "url": "https://togetter.com/li/2773122",
     "domain": "togetter.com",
-    "count": 187,
+    "count": 190,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2773122",
     "screenshot": "https://s.tgstc.com/ogp3/e1fb47e473d26cfeee77bc5b9b9d114e-1200x630.jpeg",
     "description": "イーロン・マスクが金持ちでもそんなネットで嫌われてないのって、 「男の子がワクワクするもの」 に迷わず巨額の金突っ込むからだと思うんだよな。 マンガでわかる イーロン・マスクの起業と経営 桑原 晃弥,ループスプロダクション株式会社 Amazonマンガ毎週末セール 11/20-23 ファンタジーマンガが50%ポイント還元中！ 50%ポイント還元 イーロン・マスク イーロン・リーヴ・マスク（英語: Elon Reeve Musk、1971年6月28日 - ）は、南アフリカ共和国出身のアメリカ合衆国の起業家。2025年以降、第2次トランプ政権下で、公式には特別政… イーロン・マスク氏がネット民にあ…",
     "hatenaDate": "2026-11-21T03:06:24Z",
     "users": [],
     "firstSeenAt": "2026-11-21T13:00:10.606129+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -424,14 +424,14 @@
     "title": "ソフトウェアファクトリーとコード設計と顧客価値",
     "url": "https://kosui.me/posts/2026/11/15/code-design-after-agents",
     "domain": "kosui.me",
-    "count": 123,
+    "count": 125,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kosui.me/posts/2026/11/15/code-design-after-agents",
     "screenshot": "https://kosui.me/og/posts-2026-11-15-code-design-after-agents.png",
     "description": "私は、認証基盤、ID基盤、端末・証明書基盤など、5つ以上の医療系プロダクトから使われるプラットフォームシステムをテックリードとして牽引しています。しかし、最近の私はエンジニアというよりもPdMに近い振る舞いを取っており、想像以上に複雑な医療機関の様々な制約、要求される高度なセキュリティ、そして医療機関に存在する多様なステークホルダーの顧客体験を成立させるために悪戦苦闘しています。 厳しく制限されたネットワーク環境、一つの端末を複数ユーザーが共用する環境、頻繁に操作者が交代する業務フローなど、認証基盤屋を悩ませる要素がたくさんあります。 そんな状況にあって、最近はソフトウェアファクトリーに設計…",
     "hatenaDate": "2026-11-21T00:35:47Z",
     "users": [],
     "firstSeenAt": "2026-11-21T12:45:12.662519+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -503,7 +503,7 @@
     "hatenaDate": "2026-11-21T00:45:41Z",
     "users": [],
     "firstSeenAt": "2026-11-21T11:45:13.050959+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -534,7 +534,7 @@
     "hatenaDate": "2026-11-21T00:39:32Z",
     "users": [],
     "firstSeenAt": "2026-11-21T11:30:16.826423+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -558,14 +558,14 @@
     "title": "どれだけGeminiが賢くなってもAIオタクが避ける理由。ついに解消の可能性 - すまほん!!",
     "url": "https://smhn.info/202611-gemini-subscription-third-party-harness-december-2",
     "domain": "smhn.info",
-    "count": 242,
+    "count": 243,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/smhn.info/202611-gemini-subscription-third-party-harness-december-2",
     "screenshot": "https://smhn.info/wp-content/uploads/2026/11/google-antigravity-key-visual.webp",
     "description": "評判の悪かったGeminiですが、ようやく最近はClaudeのOpusやFable、ChatGPT CodexのAstraなどに匹敵、または超えてくるようなモデルも出てきています。 ところが、実際にGeminiに本格的に乗り換えている人はまだまだ少ない印象です。その大きな原因がついに解消されるかもしれません。 GoogleのLogan Kilpatrick氏は日本時間11月20日、Xで開発者のKun Chen氏の投稿に「12月2日、我々は最初の一歩を踏み出す」と返信しました。Kilpatrick氏はGoogleで「Gemini」やGoogle AI Studio、Gemini APIを担当す…",
     "hatenaDate": "2026-11-20T14:35:51Z",
     "users": [],
     "firstSeenAt": "2026-11-21T10:45:13.657620+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
@@ -579,7 +579,7 @@
     "hatenaDate": "2026-11-20T23:02:01Z",
     "users": [],
     "firstSeenAt": "2026-11-21T10:15:12.345910+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
@@ -609,7 +609,7 @@
     "hatenaDate": "2026-11-20T14:31:09Z",
     "users": [],
     "firstSeenAt": "2026-11-21T09:45:14.229225+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
@@ -644,14 +644,14 @@
     "title": "モダンな情シスは、AIエージェントを育て、任せ、圧倒的な生産性を生む｜kajinari | モダンな情シス",
     "url": "https://note.com/kajinari/n/n19c73d819b14",
     "domain": "note.com",
-    "count": 112,
+    "count": 113,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/kajinari/n/n19c73d819b14",
     "screenshot": "https://assets.st-note.com/production/uploads/images/338447690/rectangle_large_type_2_ab3f0ac9ae2bd946de352b3d7e97654c.jpeg?fit=bounds&quality=85&width=1280",
     "description": "この記事は、NOTAのテクノロジー連載「Tech Behind the Scenes」です。 おはようございます！こんにちは！おやすみなさい！NOTA で Corp IT（情シス）を担当している kajinari です。 この 1 年で、Corp IT の日々の運用作業のほとんどを Claude の Skill として定義しました。アカウントの発行、クラウドサービス権限の付与、クラウドサービスの設定変更、PC や iPhone の手配、Zoom Phone の払い出し、各種台帳の更新まで、AI が作業して依頼者への報告まで行います。 この記事では、AI に任せるようになった理由と任せている仕…",
     "hatenaDate": "2026-11-20T15:27:05Z",
     "users": [],
     "firstSeenAt": "2026-11-21T09:00:16.118777+09:00",
-    "lastSeenAt": "2026-11-22T00:00:09.918647+09:00",
+    "lastSeenAt": "2026-11-22T00:15:13.857892+09:00",
     "descriptionSource": "body"
   },
   {
