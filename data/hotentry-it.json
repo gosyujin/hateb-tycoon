@@ -1,16 +1,30 @@
 [
   {
+    "title": "NDLOCR-Lite ver.2の公開について | NDLラボ",
+    "url": "https://lab.ndl.go.jp/news/2026/2026-11-24/",
+    "domain": "lab.ndl.go.jp",
+    "count": 7,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/lab.ndl.go.jp/news/2026/2026-11-24/",
+    "screenshot": null,
+    "description": "NDLラボ公式GitHub（外部サイト）から、NDLOCR-Lite ver.2を公開しました。 NDLOCR-Liteは、NDLOCRの軽量版を目指して開発したOCRであり、ノートパソコン等の一般的な家庭用コンピュータやOS環境で、図書や雑誌といった資料のデジタル化画像からテキストデータが作成できるOCRです。 GPU（Graphics Processing Unit。画像描画等の高度な並列計算を処理する装置。）を必要とせず、軽量なOCR処理が可能です。 今回公開するver.2では、認識性能を改善し、視覚障害者等向けテキストデータを作成するための機能を新たに追加したほか、一般ユーザ向けの機…",
+    "hatenaDate": "2026-11-24T07:53:32Z",
+    "users": [],
+    "firstSeenAt": "2026-11-25T06:30:15.323654+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "Rails: 37signalsのコード品質を支える独自のエンジニアリング戦略（翻訳）｜TechRacho by BPS株式会社",
     "url": "https://techracho.bpsinc.jp/hachi8833/2026_11_24/161424",
     "domain": "techracho.bpsinc.jp",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/techracho.bpsinc.jp/hachi8833/2026_11_24/161424",
     "screenshot": "https://techracho.bpsinc.jp/wp-content/uploads/2026/11/rails_37signals_are_different_eyecatch-min.png",
     "description": "英語記事: 37signals Isn't Smarter Than You, But They Are Different Rails: 37signalsのコード品質を支える独自のエンジニアリング戦略（翻訳） 37signalsのコードが素晴らしいのは、同社のエンジニアリング戦略が他社と異なっているからです。「企業規模を無意味に拡大しない」「機能を容赦なく絞り込む」「優秀な人材の確保に注力する」という戦略です。 多くの企業は、「機能を増やす = 利益も増える」という先入観を捨てられないため、この戦略を採用できずにいます。 Rails Business Podcastの最近のエピソードは「…",
     "hatenaDate": "2026-11-24T08:35:39Z",
     "users": [],
     "firstSeenAt": "2026-11-25T05:15:20.420808+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,21 +38,21 @@
     "hatenaDate": "2026-11-24T02:13:50Z",
     "users": [],
     "firstSeenAt": "2026-11-25T04:15:13.256850+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「コードを書くAI」ではなく「承認するAI」登場、Anthropicが新機能「Claude Ship」提供",
     "url": "https://japan.cnet.com/article/35255329/",
     "domain": "japan.cnet.com",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35255329/",
     "screenshot": "https://japan.cnet.com/storage/2026/07/01/b95d57450e1a0a14633bad7058b56d76/anthropic-claude-logo-gettyimages-2269811684__1_.jpg",
     "description": "米Anthropicは11月23日、ソフトウェアの共同開発サービス「GitHub」上で、コードの変更内容のレビューから問題の修正、承認までをAIに任せられる「Claude Ship」を発表した。チームがあらかじめ定めた条件を満たせば、人の手を介さずにコードの変更を反映することも可能になる。ClaudeのTeamとEnterpriseプラン向けにベータ提供を始めた。 Claude Shipは、すでに一般提供しているコードレビュー機能「Code Review」と、新たに追加した修正機能「PR Steward」、承認機能「Claude Approvals」の3つで構成する。 Claude Ship…",
     "hatenaDate": "2026-11-24T06:29:05Z",
     "users": [],
     "firstSeenAt": "2026-11-25T03:00:19.185823+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +66,7 @@
     "hatenaDate": "2026-11-24T11:03:20Z",
     "users": [],
     "firstSeenAt": "2026-11-25T02:45:18.017604+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -67,7 +81,7 @@
     "hatenaDate": "2026-11-24T02:34:14Z",
     "users": [],
     "firstSeenAt": "2026-11-25T02:00:17.133048+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
@@ -81,7 +95,7 @@
     "hatenaDate": "2026-11-23T14:26:46Z",
     "users": [],
     "firstSeenAt": "2026-11-25T01:45:15.182949+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
@@ -95,7 +109,7 @@
     "hatenaDate": "2026-11-24T12:43:30Z",
     "users": [],
     "firstSeenAt": "2026-11-25T01:30:13.960093+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
@@ -109,21 +123,21 @@
     "hatenaDate": "2026-11-24T00:42:32Z",
     "users": [],
     "firstSeenAt": "2026-11-25T00:30:14.655795+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "Chrome版「LINE」、2027年1月26日に終了",
     "url": "https://k-tai.watch.impress.co.jp/docs/news/2158838.html",
     "domain": "k-tai.watch.impress.co.jp",
-    "count": 15,
+    "count": 16,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2158838.html",
     "screenshot": "https://k-tai.watch.impress.co.jp/img/ktw/list/2158/838/01-1.jpg",
     "description": "LINEヤフーは24日、Chrome版およびWhale版LINEの提供を2027年1月26日に終了すると発表した。LINEサービスの運営方針の見直しの一環としている。 引き続きサブ端末として利用する場合、スマートフォン版LINE（Android）、PC版LINE（Windows／Mac）、またはタブレット版LINE（iPad／Androidタブレット）をダウンロードして利用する必要がある。 Chrome版LINEは当初2025年9月22日にサポート終了予定だったが、2026年上半期に延期されていた。",
     "hatenaDate": "2026-11-24T12:13:49Z",
     "users": [],
     "firstSeenAt": "2026-11-24T23:45:14.703090+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
@@ -137,7 +151,7 @@
     "hatenaDate": "2026-11-24T05:38:00Z",
     "users": [],
     "firstSeenAt": "2026-11-24T23:45:14.703090+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
@@ -151,7 +165,7 @@
     "hatenaDate": "2026-11-24T11:45:42Z",
     "users": [],
     "firstSeenAt": "2026-11-24T23:15:18.273021+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
@@ -165,21 +179,21 @@
     "hatenaDate": "2026-11-24T09:12:32Z",
     "users": [],
     "firstSeenAt": "2026-11-24T23:15:18.273021+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "当社お客様の情報漏えいに関するお詫びとお知らせ（第2報）:楽天証券",
     "url": "https://www.rakuten-sec.co.jp/web/info/info20261124-04.html",
     "domain": "www.rakuten-sec.co.jp",
-    "count": 167,
+    "count": 172,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.rakuten-sec.co.jp/web/info/info20261124-04.html",
     "screenshot": "https://www.rakuten-sec.co.jp/web/shared/images/og-image.gif",
     "description": "2026年11月17日（火）にお知らせした、「楽天証券のお客様の情報漏えいの可能性に関するお詫びとお知らせ」（以下「第1報」）について、これまでの調査で判明した事実について、お知らせいたします。 部店・お客様コード、ログインID※1に加え，氏名、カナ氏名、生年月日、住所、電話番号などのお客様の個人情報の漏えいは約441万件※2であることがわかりました。そのうち、約322万口座は口座をお持ちのお客様の情報、約119万件※2は口座未開設の方の情報※3となります。 なお、商品別資産情報※4は約168万件、お客様ご申告の年収情報は約1.4万件、お客様ご申告の資産情報は約271万件でした。年収と資産情…",
     "hatenaDate": "2026-11-24T13:06:22Z",
     "users": [],
     "firstSeenAt": "2026-11-24T22:45:14.692859+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -216,14 +230,14 @@
     "title": "ソフトバンク、アイティメディアの売却検討か　2社「コメント控える」「決定した事実ない」",
     "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003427/",
     "domain": "www.itmedia.co.jp",
-    "count": 98,
+    "count": 99,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/24/2000003427/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/24/2000003427/10012865/2048",
     "description": "ソフトバンクは11月24日、傘下のアイティメディア（東京都千代田区）の売却を検討しているとする日本経済新聞の報道について、ITmedia NEWSの取材に対し「当社が発表したものではないため、コメントを控える」と回答した。アイティメディア広報も「当社が発表したものではない」とした上で、「現時点で決定した事実はない」としている。 報道によると、ソフトバンクは株式の売却に向け、みずほ証券をアドバイザーに起用し、準備を進めているという。非中核事業を切り離し、AI関連事業に経営資源を集中させる狙いがあるとしている。ソフトバンクは9月末時点で、完全子会社のSBメディアホールディングスを通じ、アイティメ…",
     "hatenaDate": "2026-11-24T12:28:49Z",
     "users": [],
     "firstSeenAt": "2026-11-24T22:00:16.389843+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -267,7 +281,7 @@
     "hatenaDate": "2026-11-24T12:12:03Z",
     "users": [],
     "firstSeenAt": "2026-11-24T21:45:17.381204+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
@@ -281,7 +295,7 @@
     "hatenaDate": "2026-11-24T03:31:59Z",
     "users": [],
     "firstSeenAt": "2026-11-24T21:45:17.381204+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
@@ -366,7 +380,7 @@
     "hatenaDate": "2026-09-25T21:45:22Z",
     "users": [],
     "firstSeenAt": "2026-11-24T20:00:16.166780+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
@@ -403,14 +417,14 @@
     "title": "パッチ適用前にLinuxシステムを一時保護する「Shirudo」 OpenAIとCiscoが開発",
     "url": "https://www.watch.impress.co.jp/docs/news/2158698.html",
     "domain": "www.watch.impress.co.jp",
-    "count": 28,
+    "count": 29,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2158698.html",
     "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2158/698/o01.jpg",
     "description": "OpenAIとCiscoは23日(米国時間)、セキュリティパッチを展開する間もLinuxシステムを保護できるオープンソースのランタイム「Shirudo」を発表した。GitHubでソースコードを公開している。 セキュリティの脆弱性に対し、パッチを適用するまでの数日から数週間の期間において、システムを停止せずに保護するための仕組み。セキュリティパッチの適用は、不正アクセス対策にとって必須となるが、検証やテストを行なわずに適用するとサービスを止めたり、システムに障害をもたらす可能性もある。 Shirudoでは、修正プログラムを構築・展開する間も、稼働を維持するため、不審な活動を監視し、稼働中のシス…",
     "hatenaDate": "2026-11-24T05:43:19Z",
     "users": [],
     "firstSeenAt": "2026-11-24T19:30:15.154376+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
@@ -438,7 +452,7 @@
     "hatenaDate": "2026-11-24T09:16:43Z",
     "users": [],
     "firstSeenAt": "2026-11-24T19:00:14.227671+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
@@ -452,21 +466,21 @@
     "hatenaDate": "2026-11-24T06:16:08Z",
     "users": [],
     "firstSeenAt": "2026-11-24T18:45:14.368173+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ソフトバンク、「ITmedia」運営会社の売却検討　AI関連事業に集中 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC1688U0W6A111C2000000/",
     "domain": "www.nikkei.com",
-    "count": 167,
+    "count": 169,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC1688U0W6A111C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3926954024112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=e00dc39573c709d3f69170f346ca3f16",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 ソフトバンクがニュースサイト「ITmedia」などを運営するアイティメディアの売却を検討していることがわかった。ソフトバンクは通信から人工知能（AI）の会社へと転換を目指している。非中核事業を切り離しAI関連に経営資源を集中させる。 ソフトバンクは完全子会社のSBメディアホールディングスを通じ、9月末時点でアイティメディア株式の52.98%を保有する。同社株の売却に向け、みずほ証券をアドバイザー... 企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。…",
     "hatenaDate": "2026-11-24T08:42:06Z",
     "users": [],
     "firstSeenAt": "2026-11-24T18:45:14.368173+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -517,14 +531,14 @@
     "title": "品質を積み上げられるようにする",
     "url": "https://speakerdeck.com/goyoki/building-up-of-quality",
     "domain": "speakerdeck.com",
-    "count": 90,
+    "count": 91,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/goyoki/building-up-of-quality",
     "screenshot": "https://files.speakerdeck.com/presentations/ff16de38d9b64a4689d3df7303441a3a/slide_0.jpg?41483266",
     "description": "Sponsored · SiteGround - Reliable hosting with speed, security, and support you can count on. → 品質を積み上げられるようにする QA Test Talk Vol.9 2026/11/24 井芹 洋輝 自己紹介 ⚫@goyoki ⚫車メーカーのQA/テストテックリード、QMアーキテクト ⚫最近執筆した書籍 → 本テーマの詳細を書いています 買っていただけると嬉しいです 2 品質の積み上げ ⚫品質エンジニアリングの工夫で、積み上げるように品質を確保・改善でき るようになる ⚫この「品質の積み上げ」はさ…",
     "hatenaDate": "2026-11-23T23:53:24Z",
     "users": [],
     "firstSeenAt": "2026-11-24T18:15:18.756473+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -610,7 +624,7 @@
     "hatenaDate": "2026-11-24T07:39:41Z",
     "users": [],
     "firstSeenAt": "2026-11-24T17:15:21.277343+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -618,14 +632,14 @@
     "title": "ずんだもん、公式の画像生成AI用「LoRA」を公開　権利元が語る“絵師に迷惑をかけない”試み",
     "url": "https://kai-you.net/article/97231",
     "domain": "kai-you.net",
-    "count": 74,
+    "count": 75,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/kai-you.net/article/97231",
     "screenshot": "https://img.kai-you.net/storage/2026/11/828cb490-5e8a-47c6-8d56-057e1036be52/jpg/zundamon.jpg",
     "description": "AI創作プラットフォーム「PixAI」が、ずんだもんなど4キャラクターに対応した公式コラボLoRA「ずん子・ずんだもん達」を公開した。 東北ずん子・ずんだもんプロジェクトから公式素材の提供を受けて制作し、権利元による公式監修を経たAIプロジェクトとなる。 ずんだもん、東北ずん子、東北きりたん、東北イタコの4キャラクターに対応し、PixAI上で誰でもLoRAデータを利用できる。 東北ずん子・ずんだもんプロジェクトの小田恭央さんは、公式LoRAを提供する狙いについて、AI生成を楽しみたいユーザーと、自身の絵柄を模倣されたくないイラストレーターの双方を意識した取り組みだと説明している。 LoRAは…",
     "hatenaDate": "2026-11-24T02:35:37Z",
     "users": [],
     "firstSeenAt": "2026-11-24T17:00:15.201140+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -641,7 +655,7 @@
     "hatenaDate": "2026-11-24T03:38:59Z",
     "users": [],
     "firstSeenAt": "2026-11-24T16:00:15.761697+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -699,7 +713,7 @@
     "hatenaDate": "2026-11-24T05:30:32Z",
     "users": [],
     "firstSeenAt": "2026-11-24T15:15:20.710337+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -729,7 +743,7 @@
     "hatenaDate": "2026-11-21T09:09:54Z",
     "users": [],
     "firstSeenAt": "2026-11-24T14:30:08.759582+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -759,7 +773,7 @@
     "hatenaDate": "2026-11-24T04:24:03Z",
     "users": [],
     "firstSeenAt": "2026-11-24T14:00:14.020816+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -818,7 +832,7 @@
     "hatenaDate": "2026-11-23T13:46:51Z",
     "users": [],
     "firstSeenAt": "2026-11-24T13:00:14.047085+09:00",
-    "lastSeenAt": "2026-11-25T06:15:20.324672+09:00",
+    "lastSeenAt": "2026-11-25T06:30:15.323654+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4378,19 +4392,5 @@
     "lastSeenAt": "2026-11-20T16:45:11.528514+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
-  },
-  {
-    "title": "Claude CodeにProfile機能を導入する",
-    "url": "https://zenn.dev/explaza/articles/8ce3ed2bbec7c7",
-    "domain": "zenn.dev",
-    "count": 13,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/explaza/articles/8ce3ed2bbec7c7",
-    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--Jtn0i617--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25ABProfile%25E6%25A9%259F%25E8%2583%25BD%25E3%2582%2592%25E5%25B0%258E%25E5%2585%25A5%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:_mkazutaka%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQzOWQzZGM0MGMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%25A8%25E3%2582%25AF%25E3%2582%25B9%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B6%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2ZhN2E3MjYzNDkuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-    "description": "「役割ごとに Claude Code の設定をまるごと入れ替えたい」と思ったことはないでしょうか？ 例えば、開発で使うスキルと、相談用の資料を作るスキル、面談のときに使うスキルは、それぞれまったくの別物です。もっというと本業で使うスキルとプライベートで使うスキルも別かもしれませんね。 ところが今のコーディングエージェント、ここでは Claude Code ですが、プロファイルが実質ひとつしかありません。結果として、用途の異なるスキルや設定をすべて共通のものとして抱えてしまい、不要なコンテキストを消費したり、意図しない状態でスキルを使うことになります。私の場合バグを減らすための考え方を書いてい…",
-    "hatenaDate": "2026-09-03T13:17:10Z",
-    "users": [],
-    "firstSeenAt": "2026-11-20T14:30:09.399990+09:00",
-    "lastSeenAt": "2026-11-20T17:45:14.827181+09:00",
-    "descriptionSource": "body"
   }
 ]
