@@ -1,5 +1,19 @@
 [
   {
+    "title": "ゲームボーイアドバンスエミュレータをRustで書いた",
+    "url": "https://bokuweb.github.io/undefined/articles/20261103.html",
+    "domain": "bokuweb.github.io",
+    "count": 7,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/bokuweb.github.io/undefined/articles/20261103.html",
+    "screenshot": "https://bokuweb.github.io/undefined/20261103.png",
+    "description": "ファミコン、ゲームボーイと書いてきたので次はゲームボーイアドバンス（以下GBA）だろうということで（コミットログを見るに）2018年頃書き始めた。途中何度も放置しつつ、気づけば8年くらい経ってしまったが、最後はAIの力も借りつつそこそこ動くようになったので公開することにした。 ファミコンとゲームボーイはCPUが8bitだったが、GBAは32bitのARM7TDMIになる。今回は主にこのARM7TDMIの話を書きたいと思う。というのもGBAのエミュレータを書いていて一番時間を溶かしたのは間違いなくCPUで、描画やサウンドはそれに比べるとかなりすんなりいった。 A Game Boy Advanc…",
+    "hatenaDate": "2026-11-24T02:34:14Z",
+    "users": [],
+    "firstSeenAt": "2026-11-25T02:00:17.133048+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "TiDB から PostgreSQL へ、本番 DB を書き込みを止めて切り替えた記録",
     "url": "https://zenn.dev/hirahara/articles/tidb-to-postgresql-cutover",
     "domain": "zenn.dev",
@@ -10,7 +24,7 @@
     "hatenaDate": "2026-11-23T14:26:46Z",
     "users": [],
     "firstSeenAt": "2026-11-25T01:45:15.182949+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +38,7 @@
     "hatenaDate": "2026-11-24T12:43:30Z",
     "users": [],
     "firstSeenAt": "2026-11-25T01:30:13.960093+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +52,7 @@
     "hatenaDate": "2026-11-24T00:42:32Z",
     "users": [],
     "firstSeenAt": "2026-11-25T00:30:14.655795+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +66,7 @@
     "hatenaDate": "2026-11-24T12:13:49Z",
     "users": [],
     "firstSeenAt": "2026-11-24T23:45:14.703090+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,7 +80,7 @@
     "hatenaDate": "2026-11-24T05:38:00Z",
     "users": [],
     "firstSeenAt": "2026-11-24T23:45:14.703090+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body"
   },
   {
@@ -80,35 +94,35 @@
     "hatenaDate": "2026-11-24T11:45:42Z",
     "users": [],
     "firstSeenAt": "2026-11-24T23:15:18.273021+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "パスワード、全く自己管理する気がなくほぼ毎回リセットする運用の人が居てびびった→実はむしろこれが正しい運用であることをまだ人類は知らない",
     "url": "https://togetter.com/li/2774455",
     "domain": "togetter.com",
-    "count": 23,
+    "count": 24,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2774455",
     "screenshot": "https://s.tgstc.com/ogp3/4ee82b5b4bc109bd1ef2ae60793de963-1200x630.jpeg",
     "description": "パスワード、全く自己管理する気がなくほぼ毎回パスワード忘れたからメール経由でリセットする運用の人が居てびびった まとめ 中学生の時強力なパスワードを設定って聞いて全部のパスワードを「MAXPOWER」にしてたけどそういうことじゃなかった、恥ずかしい「もっと強くしなきゃ」 9381 pv 19 9 2 users これってなんかダメなの？統一すると危険だし、かと言ってバラバラのパスワード覚え切れないしメモに残すのも危ないから利用頻度の高くないパスワードは全部この運用にしてるんだけど、もしかしてまずい？ x.com/Lokuyow/status… 「パスワードを忘れた方はこちら」に頼りきっていく…",
     "hatenaDate": "2026-11-24T09:12:32Z",
     "users": [],
     "firstSeenAt": "2026-11-24T23:15:18.273021+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "当社お客様の情報漏えいに関するお詫びとお知らせ（第2報）:楽天証券",
     "url": "https://www.rakuten-sec.co.jp/web/info/info20261124-04.html",
     "domain": "www.rakuten-sec.co.jp",
-    "count": 106,
+    "count": 111,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.rakuten-sec.co.jp/web/info/info20261124-04.html",
     "screenshot": "https://www.rakuten-sec.co.jp/web/shared/images/og-image.gif",
     "description": "2026年11月17日（火）にお知らせした、「楽天証券のお客様の情報漏えいの可能性に関するお詫びとお知らせ」（以下「第1報」）について、これまでの調査で判明した事実について、お知らせいたします。 部店・お客様コード、ログインID※1に加え，氏名、カナ氏名、生年月日、住所、電話番号などのお客様の個人情報の漏えいは約441万件※2であることがわかりました。そのうち、約322万口座は口座をお持ちのお客様の情報、約119万件※2は口座未開設の方の情報※3となります。 なお、商品別資産情報※4は約168万件、お客様ご申告の年収情報は約1.4万件、お客様ご申告の資産情報は約271万件でした。年収と資産情…",
     "hatenaDate": "2026-11-24T13:06:22Z",
     "users": [],
     "firstSeenAt": "2026-11-24T22:45:14.692859+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -138,21 +152,21 @@
     "hatenaDate": "2026-11-24T04:30:26Z",
     "users": [],
     "firstSeenAt": "2026-11-24T22:15:13.646909+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ソフトバンク、アイティメディアの売却検討か　2社「コメント控える」「決定した事実ない」",
     "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003427/",
     "domain": "www.itmedia.co.jp",
-    "count": 69,
+    "count": 70,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/24/2000003427/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/24/2000003427/10012865/2048",
     "description": "ソフトバンクは11月24日、傘下のアイティメディア（東京都千代田区）の売却を検討しているとする日本経済新聞の報道について、ITmedia NEWSの取材に対し「当社が発表したものではないため、コメントを控える」と回答した。アイティメディア広報も「当社が発表したものではない」とした上で、「現時点で決定した事実はない」としている。 報道によると、ソフトバンクは株式の売却に向け、みずほ証券をアドバイザーに起用し、準備を進めているという。非中核事業を切り離し、AI関連事業に経営資源を集中させる狙いがあるとしている。ソフトバンクは9月末時点で、完全子会社のSBメディアホールディングスを通じ、アイティメ…",
     "hatenaDate": "2026-11-24T12:28:49Z",
     "users": [],
     "firstSeenAt": "2026-11-24T22:00:16.389843+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -196,7 +210,7 @@
     "hatenaDate": "2026-11-24T12:12:03Z",
     "users": [],
     "firstSeenAt": "2026-11-24T21:45:17.381204+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body"
   },
   {
@@ -281,21 +295,21 @@
     "hatenaDate": "2026-11-24T09:02:47Z",
     "users": [],
     "firstSeenAt": "2026-11-24T20:15:18.239005+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "GitHub - minorun365/claude-code-japanese-guard: Claude Code の応答が英語に切り替わったら、日本語で書き直させる Stop hook",
     "url": "https://github.com/minorun365/claude-code-japanese-guard",
     "domain": "github.com",
-    "count": 21,
+    "count": 22,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/github.com/minorun365/claude-code-japanese-guard",
     "screenshot": "https://opengraph.githubassets.com/dab5e93a877b3473637b60b3dbf58347482e04ec0204b900ff3dec277c4ce19a/minorun365/claude-code-japanese-guard",
     "description": "Claude Code の応答が英語に切り替わったとき、日本語で書き直させる Stop hook です。 Claude Opus 5.5 を使っていると、日本語で指示していても、長い作業のあとや英語のツール出力を読んだ直後に、報告が英語で返ってくることがあります。CLAUDE.md に「日本語で応答する」と書いても防げなかったので、ターンの終わりに本文を機械で検査する hook を作りました。 ターンの終わりに、そのターンで Claude が書いた本文の英字と日本語の文字数を数えます。英字が日本語の3倍を超えていたら終了を止めて、日本語で書き直すよう差し戻します。差し戻しは1ターンに1回まで…",
     "hatenaDate": "2026-09-25T21:45:22Z",
     "users": [],
     "firstSeenAt": "2026-11-24T20:00:16.166780+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body"
   },
   {
@@ -339,7 +353,7 @@
     "hatenaDate": "2026-11-24T05:43:19Z",
     "users": [],
     "firstSeenAt": "2026-11-24T19:30:15.154376+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body"
   },
   {
@@ -367,7 +381,7 @@
     "hatenaDate": "2026-11-24T09:16:43Z",
     "users": [],
     "firstSeenAt": "2026-11-24T19:00:14.227671+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body"
   },
   {
@@ -381,21 +395,21 @@
     "hatenaDate": "2026-11-24T06:16:08Z",
     "users": [],
     "firstSeenAt": "2026-11-24T18:45:14.368173+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ソフトバンク、「ITmedia」運営会社の売却検討　AI関連事業に集中 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC1688U0W6A111C2000000/",
     "domain": "www.nikkei.com",
-    "count": 150,
+    "count": 152,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC1688U0W6A111C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3926954024112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=e00dc39573c709d3f69170f346ca3f16",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 ソフトバンクがニュースサイト「ITmedia」などを運営するアイティメディアの売却を検討していることがわかった。ソフトバンクは通信から人工知能（AI）の会社へと転換を目指している。非中核事業を切り離しAI関連に経営資源を集中させる。 ソフトバンクは完全子会社のSBメディアホールディングスを通じ、9月末時点でアイティメディア株式の52.98%を保有する。同社株の売却に向け、みずほ証券をアドバイザー... 企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。…",
     "hatenaDate": "2026-11-24T08:42:06Z",
     "users": [],
     "firstSeenAt": "2026-11-24T18:45:14.368173+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -453,7 +467,7 @@
     "hatenaDate": "2026-11-23T23:53:24Z",
     "users": [],
     "firstSeenAt": "2026-11-24T18:15:18.756473+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -525,7 +539,7 @@
     "hatenaDate": "2026-11-24T06:48:05Z",
     "users": [],
     "firstSeenAt": "2026-11-24T17:30:12.480686+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body"
   },
   {
@@ -539,7 +553,7 @@
     "hatenaDate": "2026-11-24T07:39:41Z",
     "users": [],
     "firstSeenAt": "2026-11-24T17:15:21.277343+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -554,7 +568,7 @@
     "hatenaDate": "2026-11-24T02:35:37Z",
     "users": [],
     "firstSeenAt": "2026-11-24T17:00:15.201140+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -563,14 +577,14 @@
     "title": "「松屋」の一人負けなのか？「吉野家」「すき家」と明暗を分けた既存店売上、その差はどこにあるのか #エキスパートトピ（三輪大輔） - エキスパート - Yahoo!ニュース",
     "url": "https://news.yahoo.co.jp/expert/articles/c6b02eabde817393055dacbd810b748a6637ae39",
     "domain": "news.yahoo.co.jp",
-    "count": 134,
+    "count": 135,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/expert/articles/c6b02eabde817393055dacbd810b748a6637ae39",
     "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/miwadaisuke/02772917/title-1795452910778.jpeg?exp=10800",
     "description": "最初に断っておきたい。牛丼チェーンのなかで、私が最もよく利用するのは「松屋」である。その松屋の業績が気になっている。 松屋フーズホールディングスが11月13日に発表した中間決算は、売上高が前年同期比16.7％増加した一方、営業利益は34.3％減少した。六厘舎などを展開する松富士の買収も売上を押し上げたが、利益は減った。 さらに10月の既存店売上高は1.9％増、客単価は1.2％減。吉野家とすき家が客単価を伸ばす中、松屋は前年割れが続く。なぜ増収でも利益を確保できないのか。 松屋フーズHD 決算／4～9月は販管費増で営業利益34.3％減、通期予想を下方修正 出典：THE GOLD ONLINE（…",
     "hatenaDate": "2026-11-24T03:38:59Z",
     "users": [],
     "firstSeenAt": "2026-11-24T16:00:15.761697+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -628,7 +642,7 @@
     "hatenaDate": "2026-11-24T05:30:32Z",
     "users": [],
     "firstSeenAt": "2026-11-24T15:15:20.710337+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -658,7 +672,7 @@
     "hatenaDate": "2026-11-21T09:09:54Z",
     "users": [],
     "firstSeenAt": "2026-11-24T14:30:08.759582+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -681,14 +695,14 @@
     "title": "女子中学生が発明した「海底のゴミ箱」、マイクロプラの96%を生まれる前に食い止める | ギズモード・ジャパン",
     "url": "https://www.gizmodo.jp/article/2611-underwater-trash-can-microplastics/",
     "domain": "www.gizmodo.jp",
-    "count": 114,
+    "count": 115,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/2611-underwater-trash-can-microplastics/",
     "screenshot": "https://media.loom-app.com/loom/2026/11/23/edacd14e-76f4-43b4-b7ea-5bebe70c789c/original.jpg?w=1200&h=630",
     "description": "ハンガリーの女子中学生、ラウラ・イヴァーンカさんが考えた「DIVE&CLEAN」が「ストックホルム青少年水大賞2026」で、審査員特別賞を受けました。 本人のモデルによる試算では、マイクロプラスチックの96%を、生まれる前に食い止められるといいます。 ラウラさんは8歳からのダイバー。家族旅行で何度も潜ったマルタの海で、ゴミが海底にたまっていくのを見てきたそうです。 これ、街なかでも覚えがありません？ 空のペットボトルの捨て場所がなくて、カバンに入れたまま持ち帰るアレです。かといってポイ捨てするのはだめですけどね。 そこでラウラさんが考えたのが、ダイビングのルート沿いの海底に、固定式の回収ボッ…",
     "hatenaDate": "2026-11-24T04:24:03Z",
     "users": [],
     "firstSeenAt": "2026-11-24T14:00:14.020816+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -747,7 +761,7 @@
     "hatenaDate": "2026-11-23T13:46:51Z",
     "users": [],
     "firstSeenAt": "2026-11-24T13:00:14.047085+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -763,7 +777,7 @@
     "hatenaDate": "2026-11-24T02:51:04Z",
     "users": [],
     "firstSeenAt": "2026-11-24T13:00:14.047085+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -952,7 +966,7 @@
     "hatenaDate": "2026-11-24T00:27:02Z",
     "users": [],
     "firstSeenAt": "2026-11-24T11:00:14.942748+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -968,7 +982,7 @@
     "hatenaDate": "2026-11-24T00:16:14Z",
     "users": [],
     "firstSeenAt": "2026-11-24T10:45:13.548587+09:00",
-    "lastSeenAt": "2026-11-25T01:45:15.182949+09:00",
+    "lastSeenAt": "2026-11-25T02:00:17.133048+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -4378,20 +4392,6 @@
     "users": [],
     "firstSeenAt": "2026-11-20T14:00:13.984372+09:00",
     "lastSeenAt": "2026-11-20T19:00:14.276826+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "生成AIの普及によるWebサイトのトラフィック激減と当社での対策 | 社長ブログ | 才流",
-    "url": "https://sairu.co.jp/blog/110567/",
-    "domain": "sairu.co.jp",
-    "count": 21,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/sairu.co.jp/blog/110567/",
-    "screenshot": "https://sairu.co.jp/wp-content/uploads/2026/11/OGP.png",
-    "description": "ChatGPTやGoogleのAI Overviews（AIによる概要）が普及し、BtoBの買い手の情報収集行動が変わっている。たとえば、サービスサイトや営業資料に掲載された情報から比較表を作る作業を、AIに聞いて済ませる人が増えている。 本記事では、才流のGA4とGoogle Search Console（以下、サーチコンソール） のデータから、何が変わったのかを見ていく。最後に、才流が現在取り組んでいることも紹介したい。 ※本記事で扱うデータは、 主に才流のWebサイト（sairu.co.jp）のものである。期間は、直近1年（2025年10月〜2026年9月）と、その前の1年。才流だけの…",
-    "hatenaDate": "2026-11-20T02:51:03Z",
-    "users": [],
-    "firstSeenAt": "2026-11-20T13:45:13.466284+09:00",
-    "lastSeenAt": "2026-11-20T18:30:19.643462+09:00",
     "descriptionSource": "body"
   }
 ]
