@@ -3,14 +3,14 @@
     "title": "Rails: 37signalsのコード品質を支える独自のエンジニアリング戦略（翻訳）｜TechRacho by BPS株式会社",
     "url": "https://techracho.bpsinc.jp/hachi8833/2026_11_24/161424",
     "domain": "techracho.bpsinc.jp",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/techracho.bpsinc.jp/hachi8833/2026_11_24/161424",
     "screenshot": "https://techracho.bpsinc.jp/wp-content/uploads/2026/11/rails_37signals_are_different_eyecatch-min.png",
     "description": "英語記事: 37signals Isn't Smarter Than You, But They Are Different Rails: 37signalsのコード品質を支える独自のエンジニアリング戦略（翻訳） 37signalsのコードが素晴らしいのは、同社のエンジニアリング戦略が他社と異なっているからです。「企業規模を無意味に拡大しない」「機能を容赦なく絞り込む」「優秀な人材の確保に注力する」という戦略です。 多くの企業は、「機能を増やす = 利益も増える」という先入観を捨てられないため、この戦略を採用できずにいます。 Rails Business Podcastの最近のエピソードは「…",
     "hatenaDate": "2026-11-24T08:35:39Z",
     "users": [],
     "firstSeenAt": "2026-11-25T05:15:20.420808+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +24,7 @@
     "hatenaDate": "2026-11-24T02:13:50Z",
     "users": [],
     "firstSeenAt": "2026-11-25T04:15:13.256850+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,21 +38,21 @@
     "hatenaDate": "2026-11-24T06:29:05Z",
     "users": [],
     "firstSeenAt": "2026-11-25T03:00:19.185823+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「AIがリーマン予想を証明したらどう感じるか？」と約1年半にわたって数学者たちに聞いてきたインタビューを振り返る",
     "url": "https://gigazine.net/news/20261124-riemann-hypothesis-mathematician/",
     "domain": "gigazine.net",
-    "count": 8,
+    "count": 9,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261124-riemann-hypothesis-mathematician/",
     "screenshot": "https://i.gzn.jp/img/2026/11/24/riemann-hypothesis-mathematician/00_m.jpg",
     "description": "2026年11月20日にAnthropicの研究者であるレベント・アルポゲ氏が、AIモデルのClaudeとともに一般化リーマン予想を証明したと発表しました。数学を解説するYouTubeチャンネルの3Blue1Brownが、この発表以前から約1年半にわたって数学者たちに「AIが人間には理解できないリーマン予想の証明を生み出したらどう感じるか？...",
     "hatenaDate": "2026-11-24T11:03:20Z",
     "users": [],
     "firstSeenAt": "2026-11-25T02:45:18.017604+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -60,28 +60,28 @@
     "title": "ゲームボーイアドバンスエミュレータをRustで書いた",
     "url": "https://bokuweb.github.io/undefined/articles/20261103.html",
     "domain": "bokuweb.github.io",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/bokuweb.github.io/undefined/articles/20261103.html",
     "screenshot": "https://bokuweb.github.io/undefined/20261103.png",
     "description": "ファミコン、ゲームボーイと書いてきたので次はゲームボーイアドバンス（以下GBA）だろうということで（コミットログを見るに）2018年頃書き始めた。途中何度も放置しつつ、気づけば8年くらい経ってしまったが、最後はAIの力も借りつつそこそこ動くようになったので公開することにした。 ファミコンとゲームボーイはCPUが8bitだったが、GBAは32bitのARM7TDMIになる。今回は主にこのARM7TDMIの話を書きたいと思う。というのもGBAのエミュレータを書いていて一番時間を溶かしたのは間違いなくCPUで、描画やサウンドはそれに比べるとかなりすんなりいった。 A Game Boy Advanc…",
     "hatenaDate": "2026-11-24T02:34:14Z",
     "users": [],
     "firstSeenAt": "2026-11-25T02:00:17.133048+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "TiDB から PostgreSQL へ、本番 DB を書き込みを止めて切り替えた記録",
     "url": "https://zenn.dev/hirahara/articles/tidb-to-postgresql-cutover",
     "domain": "zenn.dev",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/hirahara/articles/tidb-to-postgresql-cutover",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--RHbQpIGo--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:TiDB%2520%25E3%2581%258B%25E3%2582%2589%2520PostgreSQL%2520%25E3%2581%25B8%25E3%2580%2581%25E6%259C%25AC%25E7%2595%25AA%2520DB%2520%25E3%2582%2592%25E6%259B%25B8%25E3%2581%258D%25E8%25BE%25BC%25E3%2581%25BF%25E3%2582%2592%25E6%25AD%25A2%25E3%2582%2581%25E3%2581%25A6%25E5%2588%2587%25E3%2582%258A%25E6%259B%25BF%25E3%2581%2588%25E3%2581%259F%25E8%25A8%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:parapara%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc2OWM3MWY5Y2YuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "2026 年 9 月に、運用している Web サービスの本番の DB を TiDB (サーバーレス版) から PostgreSQL 18 へ移しました。 API は Go で書いていて、Cloud Run の上で動いています。移したのは API が読み書きする正本の DB のすべてです。 移す前の月には、TiDB の課金の単位である RU をクエリごとに測り、重いクエリを潰す作業をしていました。移した先は、自分で運用する仮想サーバーの上の PostgreSQL 18 です。拡張の pgvector と ICU の照合順序を使います。 切り替えは「書き込みを止め、最後の整合したスナップショット…",
     "hatenaDate": "2026-11-23T14:26:46Z",
     "users": [],
     "firstSeenAt": "2026-11-25T01:45:15.182949+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -95,7 +95,7 @@
     "hatenaDate": "2026-11-24T12:43:30Z",
     "users": [],
     "firstSeenAt": "2026-11-25T01:30:13.960093+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -109,7 +109,7 @@
     "hatenaDate": "2026-11-24T00:42:32Z",
     "users": [],
     "firstSeenAt": "2026-11-25T00:30:14.655795+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -123,7 +123,7 @@
     "hatenaDate": "2026-11-24T12:13:49Z",
     "users": [],
     "firstSeenAt": "2026-11-24T23:45:14.703090+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -137,7 +137,7 @@
     "hatenaDate": "2026-11-24T05:38:00Z",
     "users": [],
     "firstSeenAt": "2026-11-24T23:45:14.703090+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -151,7 +151,7 @@
     "hatenaDate": "2026-11-24T11:45:42Z",
     "users": [],
     "firstSeenAt": "2026-11-24T23:15:18.273021+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -165,21 +165,21 @@
     "hatenaDate": "2026-11-24T09:12:32Z",
     "users": [],
     "firstSeenAt": "2026-11-24T23:15:18.273021+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "当社お客様の情報漏えいに関するお詫びとお知らせ（第2報）:楽天証券",
     "url": "https://www.rakuten-sec.co.jp/web/info/info20261124-04.html",
     "domain": "www.rakuten-sec.co.jp",
-    "count": 153,
+    "count": 157,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.rakuten-sec.co.jp/web/info/info20261124-04.html",
     "screenshot": "https://www.rakuten-sec.co.jp/web/shared/images/og-image.gif",
     "description": "2026年11月17日（火）にお知らせした、「楽天証券のお客様の情報漏えいの可能性に関するお詫びとお知らせ」（以下「第1報」）について、これまでの調査で判明した事実について、お知らせいたします。 部店・お客様コード、ログインID※1に加え，氏名、カナ氏名、生年月日、住所、電話番号などのお客様の個人情報の漏えいは約441万件※2であることがわかりました。そのうち、約322万口座は口座をお持ちのお客様の情報、約119万件※2は口座未開設の方の情報※3となります。 なお、商品別資産情報※4は約168万件、お客様ご申告の年収情報は約1.4万件、お客様ご申告の資産情報は約271万件でした。年収と資産情…",
     "hatenaDate": "2026-11-24T13:06:22Z",
     "users": [],
     "firstSeenAt": "2026-11-24T22:45:14.692859+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -202,28 +202,28 @@
     "title": "ソフトウェアファクトリーを前提に、サービス開発はどう変わるか｜すてぃお",
     "url": "https://note.com/suthio/n/n91e27ebb133d",
     "domain": "note.com",
-    "count": 19,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/suthio/n/n91e27ebb133d",
     "screenshot": "https://assets.st-note.com/production/uploads/images/340045530/rectangle_large_type_2_cd8b8911ac99bc894615549fe11eb059.png?fit=bounds&quality=85&width=1280",
     "description": "Claude CodeやCodexを使うと、個人開発や小さな案件では、以前よりずっと速く実装できます。一方、規模が大きくなると、僕が見てきた限りでは、書く量だけ増えてレビューが渋滞するか、見たふりをして品質を犠牲にしながら流すか、のどちらかに寄りやすくなります。 製造業などの機械化とLauren Tanさんの講演を手がかりに、検証からリリースまでをどう組み立てるか考えてみます。 DORAの2025年レポートは、AIはチームにもともとある強みと弱みを増幅すると報告しています。Faros AIの調査でも、AIの利用が進むチームでは、マージされるPRが増える一方、レビュー時間も長くなっていました。…",
     "hatenaDate": "2026-11-24T04:30:26Z",
     "users": [],
     "firstSeenAt": "2026-11-24T22:15:13.646909+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ソフトバンク、アイティメディアの売却検討か　2社「コメント控える」「決定した事実ない」",
     "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003427/",
     "domain": "www.itmedia.co.jp",
-    "count": 93,
+    "count": 94,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/24/2000003427/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/24/2000003427/10012865/2048",
     "description": "ソフトバンクは11月24日、傘下のアイティメディア（東京都千代田区）の売却を検討しているとする日本経済新聞の報道について、ITmedia NEWSの取材に対し「当社が発表したものではないため、コメントを控える」と回答した。アイティメディア広報も「当社が発表したものではない」とした上で、「現時点で決定した事実はない」としている。 報道によると、ソフトバンクは株式の売却に向け、みずほ証券をアドバイザーに起用し、準備を進めているという。非中核事業を切り離し、AI関連事業に経営資源を集中させる狙いがあるとしている。ソフトバンクは9月末時点で、完全子会社のSBメディアホールディングスを通じ、アイティメ…",
     "hatenaDate": "2026-11-24T12:28:49Z",
     "users": [],
     "firstSeenAt": "2026-11-24T22:00:16.389843+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -267,7 +267,7 @@
     "hatenaDate": "2026-11-24T12:12:03Z",
     "users": [],
     "firstSeenAt": "2026-11-24T21:45:17.381204+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -352,7 +352,7 @@
     "hatenaDate": "2026-11-24T09:02:47Z",
     "users": [],
     "firstSeenAt": "2026-11-24T20:15:18.239005+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -366,7 +366,7 @@
     "hatenaDate": "2026-09-25T21:45:22Z",
     "users": [],
     "firstSeenAt": "2026-11-24T20:00:16.166780+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -410,7 +410,7 @@
     "hatenaDate": "2026-11-24T05:43:19Z",
     "users": [],
     "firstSeenAt": "2026-11-24T19:30:15.154376+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -438,7 +438,7 @@
     "hatenaDate": "2026-11-24T09:16:43Z",
     "users": [],
     "firstSeenAt": "2026-11-24T19:00:14.227671+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
@@ -452,21 +452,21 @@
     "hatenaDate": "2026-11-24T06:16:08Z",
     "users": [],
     "firstSeenAt": "2026-11-24T18:45:14.368173+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "ソフトバンク、「ITmedia」運営会社の売却検討　AI関連事業に集中 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC1688U0W6A111C2000000/",
     "domain": "www.nikkei.com",
-    "count": 163,
+    "count": 164,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC1688U0W6A111C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3926954024112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=e00dc39573c709d3f69170f346ca3f16",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 ソフトバンクがニュースサイト「ITmedia」などを運営するアイティメディアの売却を検討していることがわかった。ソフトバンクは通信から人工知能（AI）の会社へと転換を目指している。非中核事業を切り離しAI関連に経営資源を集中させる。 ソフトバンクは完全子会社のSBメディアホールディングスを通じ、9月末時点でアイティメディア株式の52.98%を保有する。同社株の売却に向け、みずほ証券をアドバイザー... 企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。…",
     "hatenaDate": "2026-11-24T08:42:06Z",
     "users": [],
     "firstSeenAt": "2026-11-24T18:45:14.368173+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -524,7 +524,7 @@
     "hatenaDate": "2026-11-23T23:53:24Z",
     "users": [],
     "firstSeenAt": "2026-11-24T18:15:18.756473+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -610,7 +610,7 @@
     "hatenaDate": "2026-11-24T07:39:41Z",
     "users": [],
     "firstSeenAt": "2026-11-24T17:15:21.277343+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -625,7 +625,7 @@
     "hatenaDate": "2026-11-24T02:35:37Z",
     "users": [],
     "firstSeenAt": "2026-11-24T17:00:15.201140+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -641,7 +641,7 @@
     "hatenaDate": "2026-11-24T03:38:59Z",
     "users": [],
     "firstSeenAt": "2026-11-24T16:00:15.761697+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -699,7 +699,7 @@
     "hatenaDate": "2026-11-24T05:30:32Z",
     "users": [],
     "firstSeenAt": "2026-11-24T15:15:20.710337+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -729,7 +729,7 @@
     "hatenaDate": "2026-11-21T09:09:54Z",
     "users": [],
     "firstSeenAt": "2026-11-24T14:30:08.759582+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -759,7 +759,7 @@
     "hatenaDate": "2026-11-24T04:24:03Z",
     "users": [],
     "firstSeenAt": "2026-11-24T14:00:14.020816+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -818,7 +818,7 @@
     "hatenaDate": "2026-11-23T13:46:51Z",
     "users": [],
     "firstSeenAt": "2026-11-24T13:00:14.047085+09:00",
-    "lastSeenAt": "2026-11-25T05:15:20.420808+09:00",
+    "lastSeenAt": "2026-11-25T05:30:14.962536+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
