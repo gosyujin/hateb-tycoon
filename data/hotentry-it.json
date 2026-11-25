@@ -1,5 +1,33 @@
 [
   {
+    "title": "組織レベルごとの品質定義（リライト）｜snsk",
+    "url": "https://note.com/_snsk/n/n9473a6e95b1c",
+    "domain": "note.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/_snsk/n/n9473a6e95b1c",
+    "screenshot": "https://assets.st-note.com/production/uploads/images/186387359/rectangle_large_type_2_111e59d5885d651137072e5910ebe6de.png?fit=bounds&quality=85&width=1280",
+    "description": "大昔に書いたものですが、またさまざまな組織に向けて紹介したい、引用したい機会が増えてきましたので、改めてリライトします。 製品を社会に提供する組織（多くの企業が当てはまります）において、組織レベルごとにさまざまな抽象度での品質定義が明示的、暗黙的に存在し、持続的イノベーションの過程においてはその一貫性も高品質な製品をリリースし続けるための大きな要素になるのでは、と考えそれを図にしたものです。 品質に関わるエンジニア、あるいは組織設計を担当する人にとって、自分がどのレベルの品質に対してリーダーシップを持つべきなのか、または、どの組織がそれを担当すべきなのか（必ずしも品質部門とは限りません。経営…",
+    "hatenaDate": "2026-11-25T16:01:22Z",
+    "users": [],
+    "firstSeenAt": "2026-11-26T04:00:13.769423+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
+    "descriptionSource": "body"
+  },
+  {
+    "title": "【自動化】Muse のサイドチャットへ Webhook を届ける MuseKnock の仕組み",
+    "url": "https://zenn.dev/codehex/articles/33bc6ee330b880",
+    "domain": "zenn.dev",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/codehex/articles/33bc6ee330b880",
+    "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--2zGwRczT--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590%25E8%2587%25AA%25E5%258B%2595%25E5%258C%2596%25E3%2580%2591Muse%2520%25E3%2581%25AE%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2589%25E3%2583%2581%25E3%2583%25A3%25E3%2583%2583%25E3%2583%2588%25E3%2581%25B8%2520Webhook%2520%25E3%2582%2592%25E5%25B1%258A%25E3%2581%2591%25E3%2582%258B%2520MuseKnock%2520%25E3%2581%25AE%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:codehex%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQ1ZWY0NmIwNWMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+    "description": "Meta の個人向け AI エージェント「Muse」を使い込んでいくうちに、どうしても欲しくなった仕組みがあります。Slack でメンションされた瞬間や、GitHub でリリースが出た瞬間に、そのまま Muse を動かすことです。 執筆時点（2026 年 11 月）で僕が調べた範囲では、Muse を外部イベントで即座に動かす仕組みを公開している例は見当たりませんでした。（でもいつかはリリースされそう...?） https://x.com/codehex/status/2125375389241675856?a=SmFmSPV7nT_lsgSAYbs&s=20 これまでは、みんな定期実行のタス…",
+    "hatenaDate": "2026-11-25T06:40:35Z",
+    "users": [],
+    "firstSeenAt": "2026-11-26T04:00:13.769423+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "小型で低発熱なUSB充電器。エレコムが日本電源技術メーカーと協業",
     "url": "https://pc.watch.impress.co.jp/docs/news/2158950.html",
     "domain": "pc.watch.impress.co.jp",
@@ -10,7 +38,7 @@
     "hatenaDate": "2026-11-25T02:10:37Z",
     "users": [],
     "firstSeenAt": "2026-11-26T02:30:12.964962+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,7 +52,7 @@
     "hatenaDate": "2026-11-25T12:01:00Z",
     "users": [],
     "firstSeenAt": "2026-11-26T02:30:12.964962+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,7 +66,7 @@
     "hatenaDate": "2026-11-25T07:56:34Z",
     "users": [],
     "firstSeenAt": "2026-11-26T02:00:15.013162+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body"
   },
   {
@@ -52,7 +80,7 @@
     "hatenaDate": "2026-11-25T12:41:19Z",
     "users": [],
     "firstSeenAt": "2026-11-26T02:00:15.013162+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body"
   },
   {
@@ -66,21 +94,21 @@
     "hatenaDate": "2026-11-25T11:22:09Z",
     "users": [],
     "firstSeenAt": "2026-11-26T01:45:11.873325+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "AnthropicとOpenAIの従業員らが「未公開モデルが強力になりすぎて一般公開するのは危険」と懸念",
     "url": "https://gigazine.net/news/20261125-anthropic-openai-employees-fear-unreleased-ai-models/",
     "domain": "gigazine.net",
-    "count": 19,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261125-anthropic-openai-employees-fear-unreleased-ai-models/",
     "screenshot": "https://i.gzn.jp/img/2026/11/25/anthropic-openai-employees-fear-unreleased-ai-models/00.jpg",
     "description": "大手AI企業のAnthropicやOpenAIで、複数の従業員が未公開の最先端AIモデルの能力が高くなりすぎたことを懸念していることがわかりました。この情報を伝えたニュースサイト・Axiosによると、すでにAIモデルを制御するための技術的解決策を凌駕し始めているそうです。 Anthropic, OpenAI employees fear models are too un...",
     "hatenaDate": "2026-11-25T11:43:19Z",
     "users": [],
     "firstSeenAt": "2026-11-26T01:00:14.042106+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 6
   },
@@ -95,21 +123,21 @@
     "hatenaDate": "2026-11-25T14:26:59Z",
     "users": [],
     "firstSeenAt": "2026-11-26T01:00:14.042106+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "防衛省、自衛官の定数削減へ　「AI指揮統制」で人手補強 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUA20BWZ0Q6A121C2000000/",
     "domain": "www.nikkei.com",
-    "count": 19,
+    "count": 20,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUA20BWZ0Q6A121C2000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3917838021112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.74&fp-y=0.19&h=630&w=1200&s=529b32f94e533bc9fc3e5d3e163ce096",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 防衛省は年内に予定する安全保障関連3文書の改定に合わせ、自衛官の定数を削減する検討に入った。部隊編成の基本となる定数を実際の自衛官の数に近づけることで運用の効率を高める。司令機能は人工知能（AI）を導入し必要な人手を減らす。 自衛官の定数は防衛省設置法で24万7154人と定める。実際は21万8000人弱にとどまる。1割が欠員状態だ。防衛省は3文書の中で定数を減らす方針を明記し充足率を高める。陸上... 企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。",
     "hatenaDate": "2026-11-25T14:15:12Z",
     "users": [],
     "firstSeenAt": "2026-11-26T01:00:14.042106+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body"
   },
   {
@@ -123,7 +151,7 @@
     "hatenaDate": "2026-11-25T09:10:54Z",
     "users": [],
     "firstSeenAt": "2026-11-26T01:00:14.042106+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -167,7 +195,7 @@
     "hatenaDate": "2026-11-24T23:23:30Z",
     "users": [],
     "firstSeenAt": "2026-11-26T00:00:21.832365+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "bodyStatus": "skip",
     "bodyReason": "x-robots-tag"
   },
@@ -182,7 +210,7 @@
     "hatenaDate": "2026-11-25T11:02:17Z",
     "users": [],
     "firstSeenAt": "2026-11-26T00:00:21.832365+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -190,14 +218,14 @@
     "title": "「小学生くらいの頃に見たロボットに乗って戦うアニメを探してるのですが見つかりません」情報を元に推理して2択に絞られるが、解決したと思ったら謎が残った",
     "url": "https://togetter.com/li/2774878",
     "domain": "togetter.com",
-    "count": 9,
+    "count": 10,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2774878",
     "screenshot": "https://s.tgstc.com/ogp3/642e981dec783ce3482114d79e7c6deb-1200x630.jpeg",
     "description": "推理 交響詩篇エウレカセブン Get Ride!アムドライバー らき☆すた 謎 アニメ 僕が小学生ぐらいの頃なんで2003年前後だと思うんですけど、木曜か金曜(たぶん金曜日)の夜にやってた、ロボット(コードギアスみたいな細身で長身のロボット)がスノボみたいなのに乗って戦うアニメの名前ってわかる人いますか？ 習い事の関係で飛び飛びで見てたので内容も全くわかんないんですけど @mk2_comm エウレカセブンも最高ですよね、エウレカセブンこそまさにスケボみたいなの乗るし ぜつえい NEXT:12/13 DEZERT LIVE ROXY SHIZUOKA @RuriRuri_xyz @RuriRu…",
     "hatenaDate": "2026-11-25T11:47:41Z",
     "users": [],
     "firstSeenAt": "2026-11-26T00:00:21.832365+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body"
   },
   {
@@ -226,21 +254,21 @@
     "hatenaDate": "2026-11-25T08:04:30Z",
     "users": [],
     "firstSeenAt": "2026-11-25T23:45:13.659439+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "え！理想のターミナル作れますよ！早く気づいて！",
     "url": "https://eiji.page/blog/niwaterm-fun-to-make",
     "domain": "eiji.page",
-    "count": 17,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/eiji.page/blog/niwaterm-fun-to-make",
     "screenshot": "https://eiji.page/og/niwaterm-fun-to-make.png",
     "description": "最近、新興のターミナルをよく見かけます。libghostty（ターミナル関係のライブラリ）が出てしばらく経ち、AIを使ってすぐ作れるからだと思います。 というわけで、「最近ターミナル増えているけどどれ使おうかなぁ」と悩んでる人に、「自分で作ってみるのも楽しいかも？」と新たな 悩みのタネ 選択肢を増やせたらなぁと思いこの記事は書いてます。 人によって重視するものや日々のワークフローは違うので 人によって最適なターミナル は異なると思います。あとこの記事は「自作するなんて面倒！」という意見を否定するものではありません（というかそれはそう）。 Ghosttyのエンジン的な存在であるlibghost…",
     "hatenaDate": "2026-11-25T11:04:20Z",
     "users": [],
     "firstSeenAt": "2026-11-25T23:45:13.659439+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body"
   },
   {
@@ -283,7 +311,7 @@
     "hatenaDate": "2026-11-25T06:10:09Z",
     "users": [],
     "firstSeenAt": "2026-11-25T23:15:15.062139+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body"
   },
   {
@@ -333,14 +361,14 @@
     "title": "高木浩光＠自宅の日記 - 「氏名は含まれておりません」では済まない——KARTE事件で漏れた行動の記録は誰の個人データか",
     "url": "http://takagi-hiromitsu.jp/diary/20261124.html",
     "domain": "takagi-hiromitsu.jp",
-    "count": 71,
+    "count": 74,
     "entryUrl": "https://b.hatena.ne.jp/entry/takagi-hiromitsu.jp/diary/20261124.html",
     "screenshot": "https://takagi-hiromitsu.jp/diary/fig/20261124/card.png",
     "description": "■ 「氏名は含まれておりません」では済まない——KARTE事件で漏れた行動の記録は誰の個人データか 11月13日、プレイドの「KARTE」が不正アクセスを受けた。KARTEを導入していた企業からの公表が相次ぎ、piyologの整理では11月21日時点で108組織にのぼる。 公表文の多くが挙げるのは、メールアドレス、生年月日、性別、会員番号といった項目である。そして、「氏名や連絡先は含まれない」「個人を特定できる情報は含まれない」という断り書きが目立つ。読んだ人は、名簿の一部が漏れた事件だと受け取るだろう。 しかしKARTEは名簿を預かるサービスではない。サイトやアプリの利用者が何を見て何を押…",
     "hatenaDate": "2026-11-25T00:26:29Z",
     "users": [],
     "firstSeenAt": "2026-11-25T22:00:12.056511+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -400,7 +428,7 @@
     "hatenaDate": "2026-11-25T09:49:34Z",
     "users": [],
     "firstSeenAt": "2026-11-25T21:00:17.811092+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -408,14 +436,14 @@
     "title": "窓の内側に貼って屋外を撮影する防犯カメラ　Ankerが9990円で発売",
     "url": "https://japan.cnet.com/article/35255394/",
     "domain": "japan.cnet.com",
-    "count": 80,
+    "count": 82,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35255394/",
     "screenshot": "https://japan.cnet.com/storage/2026/11/25/740e0475a88ccc1da3d720e61d4cca53/large.jpg",
     "description": "アンカー・ジャパンは11月24日、窓ガラスの内側に貼り付けてベランダや庭先を撮影できる防犯カメラ「Anker Eufy Window Camera E10」を発売した。同社の発表によると、付属のステッカーで窓ガラスに固定でき、壁に穴を開けたり、屋外に配線したりする工事は不要だ。価格は税込9990円。 窓の内側に貼り付けた「Anker Eufy Window Camera E10」（画像：アンカー・ジャパン） 電源は室内のコンセントから取る。USB充電器と長さ3mのUSB-Cケーブルが付属する。視野角は125度で、最大解像度は2688×1520ピクセル。撮影方向は手動で最大25度下向きに調整で…",
     "hatenaDate": "2026-11-25T08:33:34Z",
     "users": [],
     "firstSeenAt": "2026-11-25T20:45:13.970401+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -467,14 +495,14 @@
     "title": "マーダーミステリーのシナリオを形式手法で検証しようとしたら、バグと曖昧さが見つかった",
     "url": "https://zenn.dev/henteko/articles/ed8d1458246d7a",
     "domain": "zenn.dev",
-    "count": 92,
+    "count": 93,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/henteko/articles/ed8d1458246d7a",
     "screenshot": "https://res.cloudinary.com/zenn/image/upload/s--MWtX2TQ5--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%259E%25E3%2583%25BC%25E3%2583%2580%25E3%2583%25BC%25E3%2583%259F%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25AA%25E3%2583%25BC%25E3%2581%25AE%25E3%2582%25B7%25E3%2583%258A%25E3%2583%25AA%25E3%2582%25AA%25E3%2582%2592%25E5%25BD%25A2%25E5%25BC%258F%25E6%2589%258B%25E6%25B3%2595%25E3%2581%25A7%25E6%25A4%259C%25E8%25A8%25BC%25E3%2581%2597%25E3%2582%2588%25E3%2581%2586%25E3%2581%25A8%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E3%2583%2590%25E3%2582%25B0%25E3%2581%25A8%25E6%259B%2596%25E6%2598%25A7%25E3%2581%2595%25E3%2581%258C%25E8%25A6%258B%25E3%2581%25A4%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:henteko%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzcxNTJkOWE4YjUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
     "description": "形式手法の勉強のために、マーダーミステリーのシナリオの矛盾を検出するCLIを開発しました。 https://github.com/henteko/murder-mystery-checker 決まった仕様(JSON)でシナリオを記述すると、到達しないエンディングがあるなど、矛盾を指摘してくれます。 $ mmcheck check --strict examples/hexagon-house/scenario.json warning H003 持っている物がハンドアウトに書かれていない shimeji / sleeping_pill warning H003 持っている物がハンドアウトに書…",
     "hatenaDate": "2026-11-25T08:07:04Z",
     "users": [],
     "firstSeenAt": "2026-11-25T20:00:16.351941+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -498,14 +526,14 @@
     "title": "AIで学習アプリを作って2週間で宅建に合格した話【テキスト不要】｜Shikimi",
     "url": "https://note.com/shikimi_crypto/n/n35d0bb54e6fb",
     "domain": "note.com",
-    "count": 358,
+    "count": 361,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/note.com/shikimi_crypto/n/n35d0bb54e6fb",
     "screenshot": "https://assets.st-note.com/production/uploads/images/340455961/rectangle_large_type_2_d580c2f707caf23da84f0883715aca43.jpeg?fit=bounds&quality=85&width=1280",
     "description": "— 樒 / Shikimi (@shikimi_crypto) November 25, 2026 今回の受験にあたっては、試験の約2週間前から学習を始め、市販のテキスト・問題集を一切買わず、AIで自作した自分専用の学習アプリとYouTube教材だけで挑みました。総学習時間はスキマ時間込みで約60時間でした。 本稿では、何故AIでアプリを自作しようと思ったのか、2週間どのような戦略で学習を進めたのかを書いていきたいと思います。 なお、本稿はこの勉強方法を真似すれば誰でも2週間で合格することを謳うものではありません。 本業はコンサルで、普段はマーケティング領域を中心にAIエージェントを活用した…",
     "hatenaDate": "2026-11-25T09:23:07Z",
     "users": [],
     "firstSeenAt": "2026-11-25T19:15:14.413046+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -647,7 +675,7 @@
     "hatenaDate": "2026-11-25T08:21:06Z",
     "users": [],
     "firstSeenAt": "2026-11-25T18:00:15.683588+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body"
   },
   {
@@ -675,7 +703,7 @@
     "hatenaDate": "2026-11-25T00:43:52Z",
     "users": [],
     "firstSeenAt": "2026-11-25T17:30:14.581131+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -790,7 +818,7 @@
     "hatenaDate": "2026-11-25T00:40:46Z",
     "users": [],
     "firstSeenAt": "2026-11-25T15:45:13.530980+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -949,7 +977,7 @@
     "hatenaDate": "2026-11-25T03:07:53Z",
     "users": [],
     "firstSeenAt": "2026-11-25T13:30:13.483862+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -965,7 +993,7 @@
     "hatenaDate": "2026-11-24T04:24:09Z",
     "users": [],
     "firstSeenAt": "2026-11-25T13:30:13.483862+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -981,7 +1009,7 @@
     "hatenaDate": "2026-11-25T01:35:22Z",
     "users": [],
     "firstSeenAt": "2026-11-25T13:15:13.144227+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1220,7 +1248,7 @@
     "hatenaDate": "2026-11-25T00:58:54Z",
     "users": [],
     "firstSeenAt": "2026-11-25T10:45:17.210179+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -1370,7 +1398,7 @@
     "hatenaDate": "2026-11-24T22:02:28Z",
     "users": [],
     "firstSeenAt": "2026-11-25T08:30:14.118644+09:00",
-    "lastSeenAt": "2026-11-26T03:45:16.166942+09:00",
+    "lastSeenAt": "2026-11-26T04:00:13.769423+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4364,34 +4392,6 @@
     "users": [],
     "firstSeenAt": "2026-11-21T21:00:09.510021+09:00",
     "lastSeenAt": "2026-11-22T21:30:14.073840+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "令和8年に「INFOBAR」が復活するも、通話とSMSしかできない「ダムフォン」に",
-    "url": "https://www.itmedia.co.jp/mobile/articles/2611/21/news011.html",
-    "domain": "www.itmedia.co.jp",
-    "count": 21,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2611/21/news011.html",
-    "screenshot": "https://image.itmedia.co.jp/mobile/articles/2611/21/cover_news011.jpg",
-    "description": "Mobile Weekly Top10 KDDIが約8年ぶりに新「INFOBAR ZERO」発表 通話とSMSに特化 3万2780円で12月25日に発売 「au Design projectから、新しい発表をお届けします」 INFOBARの新機種登場か、11月18日10時から “折りたたみGalaxy”のヘビーユーザーが「iPhone Duo」を使って感じたこと 新料金「ドコモ mini2」のお得度を検証 値上げされるirumoや現行ドコモ miniからプラン変更すべき？ 【ダイソー】1100円の「寝ながら 完全ワイヤレスステレオイヤホン」 タッチセンサー搭載、最大5時間再生 楽天モバイル「…",
-    "hatenaDate": "2026-11-21T06:49:45Z",
-    "users": [],
-    "firstSeenAt": "2026-11-21T20:45:12.316651+09:00",
-    "lastSeenAt": "2026-11-22T22:00:14.783781+09:00",
-    "descriptionSource": "body"
-  },
-  {
-    "title": "一番無難じゃないキャラが優勝　Suica「B案」とAI時代の愛されかた",
-    "url": "https://www.watch.impress.co.jp/docs/topic/watchplus/2157644.html",
-    "domain": "www.watch.impress.co.jp",
-    "count": 17,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/topic/watchplus/2157644.html",
-    "screenshot": "https://www.watch.impress.co.jp/img/ipw/list/2157/644/jre11.jpg",
-    "description": "Impress Watchニュースレターに掲載した記事です。ニュースレターは無料で、毎週編集部員が会員向けのコラムなどをお送りしています。登録はこちらから。 27年4月以降のSuicaのキャラクターが「B案(仮称)」に決まりました。紫のうさぎ風の新キャラクターですが、奇抜で微妙に違和感を覚える形状と、目を引く色味など「インパクト」では、公募された3案の中でも最も高かったようで、ソーシャルメディア上でも「ファンアート」が多数作成されていました。 その人気のまま、投票でも5割以上の得票率を獲得し、「ペンギン後継」のキャラクターに決定しました。 個人的にも「最も気になる」という意味では「B案」だっ…",
-    "hatenaDate": "2026-11-21T02:31:00Z",
-    "users": [],
-    "firstSeenAt": "2026-11-21T20:30:13.420952+09:00",
-    "lastSeenAt": "2026-11-22T20:30:13.703651+09:00",
     "descriptionSource": "body"
   }
 ]
