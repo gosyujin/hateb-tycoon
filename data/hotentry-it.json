@@ -10,7 +10,7 @@
     "hatenaDate": "2026-11-27T11:19:18Z",
     "users": [],
     "firstSeenAt": "2026-11-27T21:45:17.835403+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body"
   },
   {
@@ -24,9 +24,9 @@
     "hatenaDate": "2026-11-27T03:48:16Z",
     "users": [],
     "firstSeenAt": "2026-11-27T21:45:17.835403+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
-    "bodyTries": 1,
-    "bodyReason": "crawl-delay-too-long"
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
+    "bodyReason": "crawl-delay-too-long",
+    "bodyTries": 2
   },
   {
     "title": "Claudeによるリーマン予想の形式証明、コード約7万6000行に短縮。独立検証も通過",
@@ -39,7 +39,7 @@
     "hatenaDate": "2026-11-26T14:07:54Z",
     "users": [],
     "firstSeenAt": "2026-11-27T21:45:17.835403+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body"
   },
   {
@@ -53,7 +53,7 @@
     "hatenaDate": "2026-11-27T05:00:35Z",
     "users": [],
     "firstSeenAt": "2026-11-27T21:30:13.144014+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body"
   },
   {
@@ -67,7 +67,7 @@
     "hatenaDate": "2026-11-26T08:38:07Z",
     "users": [],
     "firstSeenAt": "2026-11-27T21:30:13.144014+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body"
   },
   {
@@ -81,9 +81,9 @@
     "hatenaDate": "2026-11-27T06:05:33Z",
     "users": [],
     "firstSeenAt": "2026-11-27T21:30:13.144014+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "bodyReason": "crawl-delay-too-long",
-    "bodyTries": 2
+    "bodyTries": 3
   },
   {
     "title": "Windows「ベースライン保護」発表。8つの保護を1つの検証可能な状態に",
@@ -103,28 +103,28 @@
     "title": "Linuxカーネルのバグ「TCPanic」を発見、TCP通信のみでホストが停止する脆弱性 | Ikotas Labs",
     "url": "https://ikotaslabs.com/news/2026-11-27",
     "domain": "ikotaslabs.com",
-    "count": 15,
+    "count": 17,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ikotaslabs.com/news/2026-11-27",
     "screenshot": "https://ikotaslabs.com/news/2026-11-27/img01.png",
     "description": "株式会社Ikotas Labsは、LinuxカーネルのTCP処理にあるバグを独自に発見し、「TCPanic」と名付けました。影響を受けるシステムでは、外部からのTCP通信のみでホスト全体が停止する可能性があります。これはLAN内などの限定的な環境に限ったものではなく、実際のインターネットを介した通信でも影響を受ける、現実的な攻撃です。 この脆弱性はCVE-2026-99288として登録されています。修正はすでに公開されており、安定版のLinux 7.3.4に含まれています。 Linuxカーネルは、受信したパケットを処理するために、対応するTCP接続を検索します。問題は、あるCPUが接続情報を…",
     "hatenaDate": "2026-11-27T09:14:53Z",
     "users": [],
     "firstSeenAt": "2026-11-27T20:30:14.812537+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "DeNA、相づちを聞き逃さない日本語音声認識モデル3種を無償公開",
     "url": "https://pc.watch.impress.co.jp/docs/news/2159894.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 10,
+    "count": 11,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2159894.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2159/894/1.jpg",
     "description": "音声AIに「うん」と返したのに無視された、という経験がある人は多いかもしれない。株式会社ディー・エヌ・エー(DeNA)は11月26日、音声対話向けに追加学習した日本語音声認識(ASR)モデル3種のオープンウェイト(モデルの重み)を、Hugging Faceで無償公開した。 ライセンスは、Nemotron版が「OpenMDW License 1.1」、Haas版が「Apache License 2.0」、Parakeet版が「CC BY 4.0」。いずれも商用利用を含めて無償で利用できる。 今回公開したのは、3つのモデルをそれぞれ元にした追加学習版だ。元のモデルは、米NVIDIAのストリーミン…",
     "hatenaDate": "2026-11-27T05:41:30Z",
     "users": [],
     "firstSeenAt": "2026-11-27T20:15:16.267577+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body"
   },
   {
@@ -138,7 +138,7 @@
     "hatenaDate": "2026-11-27T08:16:56Z",
     "users": [],
     "firstSeenAt": "2026-11-27T20:15:16.267577+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body"
   },
   {
@@ -167,7 +167,7 @@
     "hatenaDate": "2026-11-25T22:45:49Z",
     "users": [],
     "firstSeenAt": "2026-11-27T20:00:19.316753+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body"
   },
   {
@@ -181,7 +181,7 @@
     "hatenaDate": "2026-11-27T06:05:03Z",
     "users": [],
     "firstSeenAt": "2026-11-27T19:45:13.316971+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -196,7 +196,7 @@
     "hatenaDate": "2026-11-27T06:42:21Z",
     "users": [],
     "firstSeenAt": "2026-11-27T19:45:13.316971+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body"
   },
   {
@@ -238,7 +238,7 @@
     "hatenaDate": "2026-11-27T04:35:43Z",
     "users": [],
     "firstSeenAt": "2026-11-27T19:00:15.290482+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body"
   },
   {
@@ -266,7 +266,7 @@
     "hatenaDate": "2026-11-27T01:45:26Z",
     "users": [],
     "firstSeenAt": "2026-11-27T18:45:15.354699+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -281,7 +281,7 @@
     "hatenaDate": "2026-11-27T08:09:28Z",
     "users": [],
     "firstSeenAt": "2026-11-27T18:30:13.549504+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body"
   },
   {
@@ -295,7 +295,7 @@
     "hatenaDate": "2026-11-27T05:37:18Z",
     "users": [],
     "firstSeenAt": "2026-11-27T18:30:13.549504+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body"
   },
   {
@@ -373,14 +373,14 @@
     "title": "Devin Bot に毎朝のパフォーマンス改善を任せてみた - kickflow Tech Blog",
     "url": "https://tech.kickflow.co.jp/entry/2026/11/27/154920",
     "domain": "tech.kickflow.co.jp",
-    "count": 39,
+    "count": 40,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.kickflow.co.jp/entry/2026/11/27/154920",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/f07da0ee73279f153fd6584960aa363db73d6921/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fk%2Fkickflow%2F20261126%2F20261126145913.png",
     "description": "さて、2026年11月17日、Cognition が Devin の新機能「Devin Bots」を発表しました。 ひと言でいうと、タスク単位ではなく成果単位で Devin に仕事を任せる機能です。 ということで、発表を見て早速 Bot を1体作り、kickflow のリポジトリのパフォーマンス改善を任せてみました。 やったのは、チャットで Bot の質問に答えることだけです。 コードも設定ファイルも書いていません。 作り始めてから約25分で、最初の PR が届きました。 いまは毎朝6時に、Bot が Datadog と Sentry の本番データとコードを調べ、改善の issue と PR…",
     "hatenaDate": "2026-11-27T07:33:50Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:45:12.617377+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -410,21 +410,21 @@
     "hatenaDate": "2026-11-27T05:14:25Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:15:12.448929+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "止まらないKARTE漏えい　契約終了後「削除されたはず」のデータ流出相次ぐ　「人的オペレーションと管理の不備」",
     "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003517/",
     "domain": "www.itmedia.co.jp",
-    "count": 70,
+    "count": 72,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/27/2000003517/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/27/2000003517/10013144/2048",
     "description": "プレイドのCXプラットフォーム「KARTE」が11月13日に不正アクセスを受け、大手から中小まで多数の企業の顧客情報が流出した問題で、すでにKARTEの契約を終了していた企業の顧客情報も漏えいしたとの発表が相次いでいる。 11月26日、LCCのPeach Aviationと、ファンケル傘下の化粧品メーカー・アテニアがそれぞれ、契約終了後にもかかわらず、KARTEから情報が漏えいしたと発表。Peachはプレイドに対して、データの速やかな完全消去と、消去証明書の提出を求めていることも公表した。 KARTEは、企業が自社のWebサイトやアプリでの利用者の行動を分析し、その結果に応じてサイト上の案内…",
     "hatenaDate": "2026-11-27T06:13:26Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:15:12.448929+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -433,14 +433,14 @@
     "title": "「ロリポップ！レンタルサーバー」および関連サービスに対する不正アクセスによるお客様情報の漏えいについて - ロリポップ！レンタルサーバー",
     "url": "https://lolipop.jp/info/news/8279/",
     "domain": "lolipop.jp",
-    "count": 104,
+    "count": 106,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/lolipop.jp/info/news/8279/",
     "screenshot": "https://lolipop.jp/img/common/ogimage.png",
     "description": "平素より「ロリポップ！レンタルサーバー」をご利用いただき、誠にありがとうございます。 このたび、「ロリポップ！レンタルサーバー」および一部の関連サービスにおいて、第三者による不正アクセスが確認され、お客様情報が漏えいしたことが判明いたしました。 お客様および関係者の皆様にご迷惑をおかけしておりますことを心よりお詫び申し上げます。 なお、対象となるお客様へは、ご登録のメールアドレス宛てに個別にメールにてご連絡を差し上げております。 ※メールアドレスの変更等により個別のご連絡をお届けできなかったお客様におかれましては、誠に恐れ入りますが、本お知らせをもってご連絡に代えさせていただきます。 202…",
     "hatenaDate": "2026-11-27T06:15:17Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:00:16.216137+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -477,14 +477,14 @@
     "title": "サブスクの「お試し→自動更新」は客を逃していた？　新規購読者数は「お試し→自動解約」比23％減　140万人で実験",
     "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003503/",
     "domain": "www.itmedia.co.jp",
-    "count": 84,
+    "count": 85,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/27/2000003503/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/27/2000003503/10013091/2048",
     "description": "2019年の開始以来、多様な最新論文を取り上げている連載「Innovative Tech」。ここではその番外編として“ちょっと昔”に発表された世界中の個性的な研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shiropen2 米スタンフォード大学や米シカゴ大学などに所属する研究者らが5月に発表した論文「Sophisticated Consumers with Inertia: Long-Term Implication…",
     "hatenaDate": "2026-11-27T03:22:23Z",
     "users": [],
     "firstSeenAt": "2026-11-27T15:15:13.312514+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -522,14 +522,14 @@
     "title": "2026年に刊行されてよかったなと思うコンピューター技術書 - golden-luckyの日記",
     "url": "https://golden-lucky.hatenablog.com/entry/2026/11/27/111643",
     "domain": "golden-lucky.hatenablog.com",
-    "count": 148,
+    "count": 153,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/golden-lucky.hatenablog.com/entry/2026/11/27/111643",
     "screenshot": "https://ogimage.blog.st-hatena.com/8599973812290635215/14729835035344350684/1795751231",
     "description": "コンピューター技術書の市況は2026年に入ったころから冷え込みに拍車がかかっているように感じてます。AIチャットで答えらしきものが得られるのでリファレンスの需要は激減したし、ノウハウ集っぽい本も不要になりました。自分でコードを読み書きしなくてもエージェントでとりあえずアプリが生成されるので、プログラミングの入門書もめっきり売れなくなってる気がします。エージェントで開発が異常に加速している状況で、そもそも本を読む余裕がなくなっている人も多そう。 一方で、AIがらみの本はものすごくたくさん出版されています。こちらはノウハウ本にも需要があるっぽい。AIのサービスやエージェントのチュートリアル、チャ…",
     "hatenaDate": "2026-11-27T02:26:32Z",
     "users": [],
     "firstSeenAt": "2026-11-27T13:45:14.144931+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -615,7 +615,7 @@
     "hatenaDate": "2026-11-27T02:28:39Z",
     "users": [],
     "firstSeenAt": "2026-11-27T12:00:11.295517+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -686,7 +686,7 @@
     "hatenaDate": "2026-11-26T23:54:33Z",
     "users": [],
     "firstSeenAt": "2026-11-27T11:15:13.271585+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -746,7 +746,7 @@
     "hatenaDate": "2026-11-27T01:03:08Z",
     "users": [],
     "firstSeenAt": "2026-11-27T11:00:17.994696+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -762,7 +762,7 @@
     "hatenaDate": "2026-11-26T22:15:24Z",
     "users": [],
     "firstSeenAt": "2026-11-27T10:15:12.806639+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -836,7 +836,7 @@
     "hatenaDate": "2026-11-26T23:09:25Z",
     "users": [],
     "firstSeenAt": "2026-11-27T09:15:13.893485+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body"
   },
   {
@@ -865,7 +865,7 @@
     "hatenaDate": "2026-11-26T02:50:48Z",
     "users": [],
     "firstSeenAt": "2026-11-27T09:15:13.893485+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -937,7 +937,7 @@
     "hatenaDate": "2026-11-26T11:26:19Z",
     "users": [],
     "firstSeenAt": "2026-11-27T08:30:14.527480+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body"
   },
   {
@@ -1023,7 +1023,7 @@
     "hatenaDate": "2026-11-25T20:01:53Z",
     "users": [],
     "firstSeenAt": "2026-11-27T07:15:11.545736+09:00",
-    "lastSeenAt": "2026-11-27T21:45:17.835403+09:00",
+    "lastSeenAt": "2026-11-27T22:00:16.632094+09:00",
     "descriptionSource": "body"
   },
   {
