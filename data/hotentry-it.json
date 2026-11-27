@@ -1,16 +1,44 @@
 [
   {
+    "title": "顧客情報を守るため、売上15％の自社ECを閉店　ドールメーカーが明かした「決断」の背景",
+    "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003518/",
+    "domain": "www.itmedia.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/27/2000003518/",
+    "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/27/2000003518/10013164/2048",
+    "description": "（1/2 ページ） ドールの製造・販売を手掛けるアゾンインターナショナル（神奈川県藤沢市）は11月6日、個人情報保護を理由に公式オンラインショップ「AZONET」の閉店を発表した。同サイトの会員は約8万人、全社売上高の約15％を占めるという。18年続けてきた自社ECを、なぜ手放すのか。同社の早園正社長と戦略企画室室長の難波いつみ氏に話を聞いた。 アゾンインターナショナルは、観賞用・コレクション用のドールやその衣装を製造・販売している。オリジナルのドールに加え、アニメのキャラクターを再現したドールも手掛ける。顔の彩色や植毛、衣装の縫製など、多くの工程を職人が手作業で担っている。全国の直営店舗や…",
+    "hatenaDate": "2026-11-27T08:09:28Z",
+    "users": [],
+    "firstSeenAt": "2026-11-27T18:30:13.549504+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
+    "descriptionSource": "body"
+  },
+  {
+    "title": "通話とSMSだけの「INFOBAR ZERO」は若者に刺さるか？　米国のダムフォンブームが日本で起きない理由",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2611/27/news076.html",
+    "domain": "www.itmedia.co.jp",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2611/27/news076.html",
+    "screenshot": "https://image.itmedia.co.jp/mobile/articles/2611/27/cover_news076.jpg",
+    "description": "（1/3 ページ） KDDIは11月18日、au Design projectの新機種として「INFOBAR ZERO」を発表しました。Webサイトの閲覧やSNSには対応しておらず、使えるのは通話、SMS、カメラ、端末内の音楽再生など、限られた機能だけです。価格は3万2780円で、12月25日に発売します。 初代INFOBARのデザインを受け継いだ、懐かしいストレート型のボディー。本機は、またたく間にネットで話題になりました。筆者も当時あこがれた「NISHIKIGOI」カラーに心がときめき、この「ダムフォン」の使い道を探りながら、どうにか買う理由を見つけようとしているところです。 そんなさな…",
+    "hatenaDate": "2026-11-27T05:37:18Z",
+    "users": [],
+    "firstSeenAt": "2026-11-27T18:30:13.549504+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "CVE-2026-99288 | Ubuntu",
     "url": "https://ubuntu.com/security/CVE-2026-99288",
     "domain": "ubuntu.com",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ubuntu.com/security/CVE-2026-99288",
     "screenshot": "https://assets.ubuntu.com/v1/47f12466-og_%20ubuntu.png",
     "description": "Description In the Linux kernel, the following vulnerability has been resolved: inet: reject unhashed sockets during established lookups TCP established ehash lookups are lockless. The socket caches involved use SLAB_TYPESAFE_BY_RCU, so memory can be reused before an RCU reader that retained its ...",
     "hatenaDate": "2026-11-27T04:20:59Z",
     "users": [],
     "firstSeenAt": "2026-11-27T18:15:13.260323+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -25,7 +53,7 @@
     "hatenaDate": "2026-11-27T03:22:52Z",
     "users": [],
     "firstSeenAt": "2026-11-27T18:00:15.692352+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body"
   },
   {
@@ -39,7 +67,7 @@
     "hatenaDate": "2026-11-26T21:24:21Z",
     "users": [],
     "firstSeenAt": "2026-11-27T17:45:13.112548+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body"
   },
   {
@@ -74,14 +102,14 @@
     "title": "Devin Bot に毎朝のパフォーマンス改善を任せてみた - kickflow Tech Blog",
     "url": "https://tech.kickflow.co.jp/entry/2026/11/27/154920",
     "domain": "tech.kickflow.co.jp",
-    "count": 17,
+    "count": 18,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.kickflow.co.jp/entry/2026/11/27/154920",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/f07da0ee73279f153fd6584960aa363db73d6921/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fk%2Fkickflow%2F20261126%2F20261126145913.png",
     "description": "さて、2026年11月17日、Cognition が Devin の新機能「Devin Bots」を発表しました。 ひと言でいうと、タスク単位ではなく成果単位で Devin に仕事を任せる機能です。 ということで、発表を見て早速 Bot を1体作り、kickflow のリポジトリのパフォーマンス改善を任せてみました。 やったのは、チャットで Bot の質問に答えることだけです。 コードも設定ファイルも書いていません。 作り始めてから約25分で、最初の PR が届きました。 いまは毎朝6時に、Bot が Datadog と Sentry の本番データとコードを調べ、改善の issue と PR…",
     "hatenaDate": "2026-11-27T07:33:50Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:45:12.617377+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body"
   },
   {
@@ -109,21 +137,21 @@
     "hatenaDate": "2026-11-27T05:14:25Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:15:12.448929+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "止まらないKARTE漏えい　契約終了後「削除されたはず」のデータ流出相次ぐ　「人的オペレーションと管理の不備」",
     "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003517/",
     "domain": "www.itmedia.co.jp",
-    "count": 35,
+    "count": 38,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/27/2000003517/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/27/2000003517/10013144/2048",
     "description": "プレイドのCXプラットフォーム「KARTE」が11月13日に不正アクセスを受け、大手から中小まで多数の企業の顧客情報が流出した問題で、すでにKARTEの契約を終了していた企業の顧客情報も漏えいしたとの発表が相次いでいる。 11月26日、LCCのPeach Aviationと、ファンケル傘下の化粧品メーカー・アテニアがそれぞれ、契約終了後にもかかわらず、KARTEから情報が漏えいしたと発表。Peachはプレイドに対して、データの速やかな完全消去と、消去証明書の提出を求めていることも公表した。 KARTEは、企業が自社のWebサイトやアプリでの利用者の行動を分析し、その結果に応じてサイト上の案内…",
     "hatenaDate": "2026-11-27T06:13:26Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:15:12.448929+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -132,14 +160,14 @@
     "title": "「ロリポップ！レンタルサーバー」および関連サービスに対する不正アクセスによるお客様情報の漏えいについて - ロリポップ！レンタルサーバー",
     "url": "https://lolipop.jp/info/news/8279/",
     "domain": "lolipop.jp",
-    "count": 47,
+    "count": 48,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/lolipop.jp/info/news/8279/",
     "screenshot": "https://lolipop.jp/img/common/ogimage.png",
     "description": "平素より「ロリポップ！レンタルサーバー」をご利用いただき、誠にありがとうございます。 このたび、「ロリポップ！レンタルサーバー」および一部の関連サービスにおいて、第三者による不正アクセスが確認され、お客様情報が漏えいしたことが判明いたしました。 お客様および関係者の皆様にご迷惑をおかけしておりますことを心よりお詫び申し上げます。 なお、対象となるお客様へは、ご登録のメールアドレス宛てに個別にメールにてご連絡を差し上げております。 ※メールアドレスの変更等により個別のご連絡をお届けできなかったお客様におかれましては、誠に恐れ入りますが、本お知らせをもってご連絡に代えさせていただきます。 202…",
     "hatenaDate": "2026-11-27T06:15:17Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:00:16.216137+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -155,7 +183,7 @@
     "hatenaDate": "2017-03-01T06:01:53Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:00:16.216137+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body"
   },
   {
@@ -176,14 +204,14 @@
     "title": "サブスクの「お試し→自動更新」は客を逃していた？　新規購読者数は「お試し→自動解約」比23％減　140万人で実験",
     "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003503/",
     "domain": "www.itmedia.co.jp",
-    "count": 51,
+    "count": 53,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/27/2000003503/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/27/2000003503/10013091/2048",
     "description": "2019年の開始以来、多様な最新論文を取り上げている連載「Innovative Tech」。ここではその番外編として“ちょっと昔”に発表された世界中の個性的な研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shiropen2 米スタンフォード大学や米シカゴ大学などに所属する研究者らが5月に発表した論文「Sophisticated Consumers with Inertia: Long-Term Implication…",
     "hatenaDate": "2026-11-27T03:22:23Z",
     "users": [],
     "firstSeenAt": "2026-11-27T15:15:13.312514+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -199,7 +227,7 @@
     "hatenaDate": "2026-11-27T00:27:52Z",
     "users": [],
     "firstSeenAt": "2026-11-27T14:30:17.512923+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body"
   },
   {
@@ -221,14 +249,14 @@
     "title": "2026年に刊行されてよかったなと思うコンピューター技術書 - golden-luckyの日記",
     "url": "https://golden-lucky.hatenablog.com/entry/2026/11/27/111643",
     "domain": "golden-lucky.hatenablog.com",
-    "count": 72,
+    "count": 75,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/golden-lucky.hatenablog.com/entry/2026/11/27/111643",
     "screenshot": "https://ogimage.blog.st-hatena.com/8599973812290635215/14729835035344350684/1795751231",
     "description": "コンピューター技術書の市況は2026年に入ったころから冷え込みに拍車がかかっているように感じてます。AIチャットで答えらしきものが得られるのでリファレンスの需要は激減したし、ノウハウ集っぽい本も不要になりました。自分でコードを読み書きしなくてもエージェントでとりあえずアプリが生成されるので、プログラミングの入門書もめっきり売れなくなってる気がします。エージェントで開発が異常に加速している状況で、そもそも本を読む余裕がなくなっている人も多そう。 一方で、AIがらみの本はものすごくたくさん出版されています。こちらはノウハウ本にも需要があるっぽい。AIのサービスやエージェントのチュートリアル、チャ…",
     "hatenaDate": "2026-11-27T02:26:32Z",
     "users": [],
     "firstSeenAt": "2026-11-27T13:45:14.144931+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -286,7 +314,7 @@
     "hatenaDate": "2026-11-27T01:21:19Z",
     "users": [],
     "firstSeenAt": "2026-11-27T13:00:15.483347+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body"
   },
   {
@@ -314,7 +342,7 @@
     "hatenaDate": "2026-11-27T02:28:39Z",
     "users": [],
     "firstSeenAt": "2026-11-27T12:00:11.295517+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -378,14 +406,14 @@
     "title": "AI使って開発するなら、モデリングするんだよ - 4つの図で始めるモデリングと、AIにモデルを実装させるアーキテクチャ",
     "url": "https://speakerdeck.com/littlehands/umtp-suraido-20261125",
     "domain": "speakerdeck.com",
-    "count": 109,
+    "count": 112,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/littlehands/umtp-suraido-20261125",
     "screenshot": "https://files.speakerdeck.com/presentations/cc2d10c25b46460d81edae537df1bcc9/slide_0.jpg?41512814",
     "description": "4つの図で始めるモデリングと、AIにモデルを... AI使って開発するなら、モデリングするんだよ - 4つの図で始めるモデリングと、AIにモデルを実装させるアーキテクチャ UMTP モデリングフォーラム 2026（2026/11/25）での登壇資料です。 https://umtp-japan.org/event-seminar/mf2026/78668 AIで実装が速くなった今、人に残る仕事は何か。それは、問題を理解し、解決策を立てて確かめる「問題解決力」だと考えています。 この問題解決力をモデリングでどう高めるか、そしてモデルをAIにどう実装させるかをお話ししました。 - 前提: 問題にも…",
     "hatenaDate": "2026-11-26T23:54:33Z",
     "users": [],
     "firstSeenAt": "2026-11-27T11:15:13.271585+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -430,7 +458,7 @@
     "hatenaDate": "2026-11-26T21:56:35Z",
     "users": [],
     "firstSeenAt": "2026-11-27T11:00:17.994696+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -438,14 +466,14 @@
     "title": "米、スペースXに衛星100万基の配備承認　宇宙にAIデータセンター構築へ",
     "url": "https://www.cnn.co.jp/usa/35255487.html",
     "domain": "www.cnn.co.jp",
-    "count": 112,
+    "count": 113,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.cnn.co.jp/usa/35255487.html",
     "screenshot": "https://www.cnn.co.jp/storage/2026/11/27/fb305d2fd48c401b962cdc228b013f98/gettyimages-2158701295-20261126101911165.jpg",
     "description": "フロリダ州にあるNASAケネディ宇宙センターから、衛星機器を搭載したスペースXのロケット「ファルコンヘビー」が打ち上げられる様子＝2024年6月25日/Miguel J. Rodriguez Carrillo/AFP/Getty Images （CNN） 米連邦通信委員会（FCC）は、イーロン・マスク氏率いる米宇宙企業スペースXに対し、人工知能（AI）を支えるデータセンターを構築するため、宇宙空間に100万基の衛星を配備することを承認した。 今回の決定は、イノベーション（技術革新）と経済成長を加速させると期待されるAI分野で、米国が世界の主導権を握ろうと競争する中で下された。AIの活用はスペ…",
     "hatenaDate": "2026-11-27T01:03:08Z",
     "users": [],
     "firstSeenAt": "2026-11-27T11:00:17.994696+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -454,14 +482,14 @@
     "title": "Skills over MCP、めっちゃよさそう | ashunar0",
     "url": "https://ashunar0.dev/posts/skills-over-mcp/",
     "domain": "ashunar0.dev",
-    "count": 106,
+    "count": 107,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ashunar0.dev/posts/skills-over-mcp/",
     "screenshot": "https://ashunar0.dev/og/skills-over-mcp.png",
     "description": "11 月 24 日に、Anthropic から MCP まわりのアップデートが発表されました。 MCP servers can now ship skills, run tasks, and more with Claude Skills over MCP is in public beta in Claude, so MCP servers can ship skills alongside their tools. Tasks and Elicitation are now generally available, and File Uploads is rolling out soon…",
     "hatenaDate": "2026-11-26T22:15:24Z",
     "users": [],
     "firstSeenAt": "2026-11-27T10:15:12.806639+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -498,14 +526,14 @@
     "title": "【やじうまミニレビュー】 工具のマキタバッテリがPCの電源に!? 最大100Wの純正アダプタを使ってみた",
     "url": "https://pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2159706.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 79,
+    "count": 80,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2159706.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2159/706/01.jpg",
     "description": "やじうまミニレビューは、1つ持っておくと便利なPC周りのグッズや、ちょっとしたガジェットなど幅広いジャンルの製品を試して紹介するコーナーです。 マキタ「ADP15」に同社電動工具用のバッテリを装着し、PCを充電しているところ。実売価格は7,000円前後のケースが多い マキタ「ADP15」は、同社の 電動工具で用いられている専用バッテリに取り付け、スマホやノートPCの充電を可能にするアダプタだ 。USB Type-CとUSB Type-Aをそれぞれ1ポートずつ搭載しており、災害などの緊急時に、バッテリを有効活用できる一品だ。 USB PDによる最大100Wの充電に対応することから、ノートPCの…",
     "hatenaDate": "2026-11-26T22:47:09Z",
     "users": [],
     "firstSeenAt": "2026-11-27T09:30:14.269862+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -535,7 +563,7 @@
     "hatenaDate": "2026-11-26T23:09:25Z",
     "users": [],
     "firstSeenAt": "2026-11-27T09:15:13.893485+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body"
   },
   {
@@ -549,7 +577,7 @@
     "hatenaDate": "2026-11-26T03:00:14Z",
     "users": [],
     "firstSeenAt": "2026-11-27T09:15:13.893485+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -564,7 +592,7 @@
     "hatenaDate": "2026-11-26T02:50:48Z",
     "users": [],
     "firstSeenAt": "2026-11-27T09:15:13.893485+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -580,7 +608,7 @@
     "hatenaDate": "2026-11-26T01:15:13Z",
     "users": [],
     "firstSeenAt": "2026-11-27T09:00:13.103760+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body"
   },
   {
@@ -636,7 +664,7 @@
     "hatenaDate": "2026-11-26T11:26:19Z",
     "users": [],
     "firstSeenAt": "2026-11-27T08:30:14.527480+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body"
   },
   {
@@ -650,7 +678,7 @@
     "hatenaDate": "2026-11-26T09:44:20Z",
     "users": [],
     "firstSeenAt": "2026-11-27T08:18:10.452522+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body"
   },
   {
@@ -664,7 +692,7 @@
     "hatenaDate": "2026-11-26T08:03:47Z",
     "users": [],
     "firstSeenAt": "2026-11-27T08:00:14.943296+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -687,14 +715,14 @@
     "title": "2026-11-26 LayerXにおけるAI Agentを支えるデータ基盤のアーキテクチャと設計思想 / The Architecture and Design Philosophy of the Data Platform For AI Agents at LayerX",
     "url": "https://speakerdeck.com/civitaspo/the-architecture-and-design-philosophy-of-the-data-platform-for-ai-agents-at-layerx",
     "domain": "speakerdeck.com",
-    "count": 99,
+    "count": 100,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/civitaspo/the-architecture-and-design-philosophy-of-the-data-platform-for-ai-agents-at-layerx",
     "screenshot": "https://files.speakerdeck.com/presentations/72b3e5bd7a574c0da040e0c67ebf7f86/slide_0.jpg?41532266",
     "description": "2026-11-26 LayerXにおけるAI Agentを支えるデータ基盤のアーキテクチャと... Sponsored · Your Podcast. Everywhere. Effortlessly. Share. Educate. Inspire. Entertain. You do you. We'll handle the rest. → 2026-11-26 LayerXにおけるAI Agentを支えるデータ基盤のアーキテクチャと設計思想 / The Architecture and Design Philosophy of the Data Platform For AI Ag…",
     "hatenaDate": "2026-11-26T19:56:13Z",
     "users": [],
     "firstSeenAt": "2026-11-27T07:45:13.002212+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body"
   },
   {
@@ -722,7 +750,7 @@
     "hatenaDate": "2026-11-25T20:01:53Z",
     "users": [],
     "firstSeenAt": "2026-11-27T07:15:11.545736+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body"
   },
   {
@@ -736,7 +764,7 @@
     "hatenaDate": "2026-11-26T10:02:29Z",
     "users": [],
     "firstSeenAt": "2026-11-27T06:15:12.895598+09:00",
-    "lastSeenAt": "2026-11-27T18:15:13.260323+09:00",
+    "lastSeenAt": "2026-11-27T18:30:13.549504+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4345,37 +4373,5 @@
     "firstSeenAt": "2026-11-24T13:15:11.778836+09:00",
     "lastSeenAt": "2026-11-24T18:00:15.171579+09:00",
     "descriptionSource": "body"
-  },
-  {
-    "title": "NTT 研究所の正体 - IOWNとNTTの研究所",
-    "url": "https://endecl.hatenablog.com/entry/2026/05/04/223141",
-    "domain": "endecl.hatenablog.com",
-    "count": 288,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/endecl.hatenablog.com/entry/2026/05/04/223141",
-    "screenshot": "https://ogimage.blog.st-hatena.com/17179246901384076997/17179246901384082686/1780062281",
-    "description": "NTTの株価が低迷している。新NISA開始直後は配当利回りの良さから買われて190円を超える水準まで上昇したが、わずか3か月で2割下がって、この2年間は155円近辺を行ったり来たりである。この間、同業のKDDIやソフトバンクの株価が約2割高（KDDIは不正会計事件があったにもかかわらず）、内製AIも開発してAI銘柄のはずが、同じ通信系のAI銘柄であるフジクラ株価がこの間に約30倍になったことと対照的である。 NTTの凋落は今に始まったわけではなく、3つの事業会社と持株会社に分割再編されて以来、四半世紀にわたり低落が続いてきたことだが、2019年からNTTの持株会社研究所（以降、持株研究所と呼…",
-    "hatenaDate": "2026-11-23T13:46:51Z",
-    "users": [],
-    "firstSeenAt": "2026-11-24T13:00:14.047085+09:00",
-    "lastSeenAt": "2026-11-25T08:15:11.852290+09:00",
-    "descriptionSource": "body",
-    "bodyStatus": "skip",
-    "bodyReason": "not-longer"
-  },
-  {
-    "title": "カップヌードルミュージアムに行った報告をXにアップしたら12時間ロック、「合意のない裸の描写を禁止するルールに違反しています」とのこと…「ヌード」ルがダメらしい",
-    "url": "https://togetter.com/li/2774298",
-    "domain": "togetter.com",
-    "count": 136,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2774298",
-    "screenshot": "https://s.tgstc.com/ogp3/d4b0698682a5d5f2b555206545fe5f42-1200x630.jpeg",
-    "description": "Twitter カップ麺 インスタント食品 X カップヌードルミュージアム 日清 カップヌードル 昨日、カップ◯ードルミュージアムに行った報告をアップしたら、Xの運営から12時間ロックされました😢 『合意のない裸の描写を禁止するルールに違反しています』との事でした💦 日清のカップ麺の名称が該当するようです💦 情報共有させていただきます pic.x.com/TMuch98jop カップヌードルミュージアム 横浜 「カップヌードルミュージアム 横浜」は、インスタントラーメンにまつわるさまざまな展示や体験工房など通じて、発明・発見の大切さやベンチャーマインドについて楽しみながら学べる体験型ミュージ…",
-    "hatenaDate": "2026-11-24T02:51:04Z",
-    "users": [],
-    "firstSeenAt": "2026-11-24T13:00:14.047085+09:00",
-    "lastSeenAt": "2026-11-25T04:15:13.256850+09:00",
-    "descriptionSource": "body",
-    "bodyStatus": "skip",
-    "bodyReason": "not-longer"
   }
 ]
