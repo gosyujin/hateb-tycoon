@@ -1,30 +1,44 @@
 [
   {
+    "title": "Linuxカーネルのバグ「TCPanic」を発見、TCP通信のみでホストが停止する脆弱性 | Ikotas Labs",
+    "url": "https://ikotaslabs.com/news/2026-11-27",
+    "domain": "ikotaslabs.com",
+    "count": 4,
+    "entryUrl": "https://b.hatena.ne.jp/entry/s/ikotaslabs.com/news/2026-11-27",
+    "screenshot": "https://ikotaslabs.com/news/2026-11-27/img01.png",
+    "description": "株式会社Ikotas Labsは、LinuxカーネルのTCP処理にあるバグを独自に発見し、「TCPanic」と名付けました。影響を受けるシステムでは、外部からのTCP通信のみでホスト全体が停止する可能性があります。これはLAN内などの限定的な環境に限ったものではなく、実際のインターネットを介した通信でも影響を受ける、現実的な攻撃です。 この脆弱性はCVE-2026-99288として登録されています。修正はすでに公開されており、安定版のLinux 7.3.4に含まれています。 Linuxカーネルは、受信したパケットを処理するために、対応するTCP接続を検索します。問題は、あるCPUが接続情報を…",
+    "hatenaDate": "2026-11-27T09:14:53Z",
+    "users": [],
+    "firstSeenAt": "2026-11-27T20:30:14.812537+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
+    "descriptionSource": "body"
+  },
+  {
     "title": "DeNA、相づちを聞き逃さない日本語音声認識モデル3種を無償公開",
     "url": "https://pc.watch.impress.co.jp/docs/news/2159894.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 4,
+    "count": 5,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2159894.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2159/894/1.jpg",
     "description": "音声AIに「うん」と返したのに無視された、という経験がある人は多いかもしれない。株式会社ディー・エヌ・エー(DeNA)は11月26日、音声対話向けに追加学習した日本語音声認識(ASR)モデル3種のオープンウェイト(モデルの重み)を、Hugging Faceで無償公開した。 ライセンスは、Nemotron版が「OpenMDW License 1.1」、Haas版が「Apache License 2.0」、Parakeet版が「CC BY 4.0」。いずれも商用利用を含めて無償で利用できる。 今回公開したのは、3つのモデルをそれぞれ元にした追加学習版だ。元のモデルは、米NVIDIAのストリーミン…",
     "hatenaDate": "2026-11-27T05:41:30Z",
     "users": [],
     "firstSeenAt": "2026-11-27T20:15:16.267577+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "GMO熊谷氏「ハッカーを丸裸に」　サイバー攻撃の可視化サイト開設 - 日本経済新聞",
     "url": "https://www.nikkei.com/article/DGXZQOUC271FH0X21C26A1000000/",
     "domain": "www.nikkei.com",
-    "count": 4,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC271FH0X21C26A1000000/",
     "screenshot": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3942921027112026000000-1.png?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.49&fp-y=0.43&h=630&w=1200&s=fcdec38d3bae797154d9c236f7cb3dbc",
     "description": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。 GMOインターネットグループの熊谷正寿会長兼社長は27日までに日本経済新聞のオンライン取材に応じ、サイバー攻撃を可視化するサイトを同日開設した狙いについて「ハッカーを丸裸にする」と語った。独自の防御サービスを展開する考えも示した。 GMOが開設したサイトでは攻撃者が侵入後に行った行動や、人工知能（AI）を使った可能性の高い攻撃数を確認できる。熊谷氏は「なぜサイバー攻撃が多発しているのかを一般の国... 企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。",
     "hatenaDate": "2026-11-27T08:16:56Z",
     "users": [],
     "firstSeenAt": "2026-11-27T20:15:16.267577+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body"
   },
   {
@@ -38,9 +52,9 @@
     "hatenaDate": "2026-11-27T02:45:19Z",
     "users": [],
     "firstSeenAt": "2026-11-27T20:00:19.316753+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "bodyReason": "crawl-delay-too-long",
-    "bodyTries": 2
+    "bodyTries": 3
   },
   {
     "title": "ブラックフライデーでGoogle AIサブスク半額、Pro月額より年2万円お得。YouTubeプレミアムLiteやGoogle Health特典も | テクノエッジ TechnoEdge",
@@ -60,14 +74,14 @@
     "title": "AIキャラと会話できるアプリ「Talkie」が性的コンテンツを理由にApp Storeから削除される、Google Playでは配信が続く",
     "url": "https://gigazine.net/news/20261127-talkie-ai-chat-app/",
     "domain": "gigazine.net",
-    "count": 6,
+    "count": 7,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261127-talkie-ai-chat-app/",
     "screenshot": "https://i.gzn.jp/img/2026/11/27/talkie-ai-chat-app/00.png",
     "description": "中国のAI企業であるMiniMaxが展開するAIアプリ「Talkie」がApp Storeから削除されました。Appleは削除の理由を「性的コンテンツが原因」と説明しています。 Inside the Chinese AI app Talkie engineered to hook kids and mine their data - ABC News https://www.abc.net.au/news/2026-11-25/chinese-ai-companion-app...",
     "hatenaDate": "2026-11-27T06:05:03Z",
     "users": [],
     "firstSeenAt": "2026-11-27T19:45:13.316971+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -82,7 +96,7 @@
     "hatenaDate": "2026-11-27T06:42:21Z",
     "users": [],
     "firstSeenAt": "2026-11-27T19:45:13.316971+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body"
   },
   {
@@ -110,7 +124,7 @@
     "hatenaDate": "2026-11-27T07:09:52Z",
     "users": [],
     "firstSeenAt": "2026-11-27T19:45:13.316971+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body"
   },
   {
@@ -124,7 +138,7 @@
     "hatenaDate": "2026-11-27T04:35:43Z",
     "users": [],
     "firstSeenAt": "2026-11-27T19:00:15.290482+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body"
   },
   {
@@ -138,7 +152,7 @@
     "hatenaDate": "2026-11-27T01:17:00Z",
     "users": [],
     "firstSeenAt": "2026-11-27T19:00:15.290482+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body"
   },
   {
@@ -152,7 +166,7 @@
     "hatenaDate": "2026-11-27T01:45:26Z",
     "users": [],
     "firstSeenAt": "2026-11-27T18:45:15.354699+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -167,7 +181,7 @@
     "hatenaDate": "2026-11-27T08:09:28Z",
     "users": [],
     "firstSeenAt": "2026-11-27T18:30:13.549504+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body"
   },
   {
@@ -181,7 +195,7 @@
     "hatenaDate": "2026-11-27T05:37:18Z",
     "users": [],
     "firstSeenAt": "2026-11-27T18:30:13.549504+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body"
   },
   {
@@ -224,7 +238,7 @@
     "hatenaDate": "2026-11-26T21:24:21Z",
     "users": [],
     "firstSeenAt": "2026-11-27T17:45:13.112548+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body"
   },
   {
@@ -259,14 +273,14 @@
     "title": "Devin Bot に毎朝のパフォーマンス改善を任せてみた - kickflow Tech Blog",
     "url": "https://tech.kickflow.co.jp/entry/2026/11/27/154920",
     "domain": "tech.kickflow.co.jp",
-    "count": 30,
+    "count": 31,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/tech.kickflow.co.jp/entry/2026/11/27/154920",
     "screenshot": "https://cdn.image.st-hatena.com/image/scale/f07da0ee73279f153fd6584960aa363db73d6921/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fk%2Fkickflow%2F20261126%2F20261126145913.png",
     "description": "さて、2026年11月17日、Cognition が Devin の新機能「Devin Bots」を発表しました。 ひと言でいうと、タスク単位ではなく成果単位で Devin に仕事を任せる機能です。 ということで、発表を見て早速 Bot を1体作り、kickflow のリポジトリのパフォーマンス改善を任せてみました。 やったのは、チャットで Bot の質問に答えることだけです。 コードも設定ファイルも書いていません。 作り始めてから約25分で、最初の PR が届きました。 いまは毎朝6時に、Bot が Datadog と Sentry の本番データとコードを調べ、改善の issue と PR…",
     "hatenaDate": "2026-11-27T07:33:50Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:45:12.617377+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -289,28 +303,28 @@
     "title": "マイナアプリに複数の脆弱性、マイナンバーカードの情報窃取の恐れ　最新版に更新を",
     "url": "https://ascii.jp/elem/000/004/455/4455531/",
     "domain": "ascii.jp",
-    "count": 35,
+    "count": 36,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/455/4455531/",
     "screenshot": "https://ascii.jp/img/2026/11/27/4557658/xl/0830a3c5585df6c1.png?20200122",
     "description": "Japan Vulnerability Notes（JVN）は11月27日、デジタル庁が提供するスマートフォンアプリ「マイナアプリ（旧マイナポータルアプリ）」の脆弱性情報を公開した。 ・ユーザーが不正なリンクをクリックすることで、任意のサイトへアクセスさせられ、フィッシング攻撃にあったり、マイナンバーカードの情報を窃取される JVNは当該アプリのユーザーに対して、アプリを最新版にアップデートするよう勧めている。 スマートフォンアプリ「マイナアプリ（旧マイナポータルアプリ）」における入力リストによる制限が不十分なことに起因する複数の脆弱性 丸井・エポスカード、顧客情報延べ約1733万件漏えい…",
     "hatenaDate": "2026-11-27T05:14:25Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:15:12.448929+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "止まらないKARTE漏えい　契約終了後「削除されたはず」のデータ流出相次ぐ　「人的オペレーションと管理の不備」",
     "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003517/",
     "domain": "www.itmedia.co.jp",
-    "count": 57,
+    "count": 60,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/27/2000003517/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/27/2000003517/10013144/2048",
     "description": "プレイドのCXプラットフォーム「KARTE」が11月13日に不正アクセスを受け、大手から中小まで多数の企業の顧客情報が流出した問題で、すでにKARTEの契約を終了していた企業の顧客情報も漏えいしたとの発表が相次いでいる。 11月26日、LCCのPeach Aviationと、ファンケル傘下の化粧品メーカー・アテニアがそれぞれ、契約終了後にもかかわらず、KARTEから情報が漏えいしたと発表。Peachはプレイドに対して、データの速やかな完全消去と、消去証明書の提出を求めていることも公表した。 KARTEは、企業が自社のWebサイトやアプリでの利用者の行動を分析し、その結果に応じてサイト上の案内…",
     "hatenaDate": "2026-11-27T06:13:26Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:15:12.448929+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -319,14 +333,14 @@
     "title": "「ロリポップ！レンタルサーバー」および関連サービスに対する不正アクセスによるお客様情報の漏えいについて - ロリポップ！レンタルサーバー",
     "url": "https://lolipop.jp/info/news/8279/",
     "domain": "lolipop.jp",
-    "count": 88,
+    "count": 94,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/lolipop.jp/info/news/8279/",
     "screenshot": "https://lolipop.jp/img/common/ogimage.png",
     "description": "平素より「ロリポップ！レンタルサーバー」をご利用いただき、誠にありがとうございます。 このたび、「ロリポップ！レンタルサーバー」および一部の関連サービスにおいて、第三者による不正アクセスが確認され、お客様情報が漏えいしたことが判明いたしました。 お客様および関係者の皆様にご迷惑をおかけしておりますことを心よりお詫び申し上げます。 なお、対象となるお客様へは、ご登録のメールアドレス宛てに個別にメールにてご連絡を差し上げております。 ※メールアドレスの変更等により個別のご連絡をお届けできなかったお客様におかれましては、誠に恐れ入りますが、本お知らせをもってご連絡に代えさせていただきます。 202…",
     "hatenaDate": "2026-11-27T06:15:17Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:00:16.216137+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -363,14 +377,14 @@
     "title": "サブスクの「お試し→自動更新」は客を逃していた？　新規購読者数は「お試し→自動解約」比23％減　140万人で実験",
     "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003503/",
     "domain": "www.itmedia.co.jp",
-    "count": 71,
+    "count": 74,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/27/2000003503/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/27/2000003503/10013091/2048",
     "description": "2019年の開始以来、多様な最新論文を取り上げている連載「Innovative Tech」。ここではその番外編として“ちょっと昔”に発表された世界中の個性的な研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shiropen2 米スタンフォード大学や米シカゴ大学などに所属する研究者らが5月に発表した論文「Sophisticated Consumers with Inertia: Long-Term Implication…",
     "hatenaDate": "2026-11-27T03:22:23Z",
     "users": [],
     "firstSeenAt": "2026-11-27T15:15:13.312514+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -408,14 +422,14 @@
     "title": "2026年に刊行されてよかったなと思うコンピューター技術書 - golden-luckyの日記",
     "url": "https://golden-lucky.hatenablog.com/entry/2026/11/27/111643",
     "domain": "golden-lucky.hatenablog.com",
-    "count": 109,
+    "count": 116,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/golden-lucky.hatenablog.com/entry/2026/11/27/111643",
     "screenshot": "https://ogimage.blog.st-hatena.com/8599973812290635215/14729835035344350684/1795751231",
     "description": "コンピューター技術書の市況は2026年に入ったころから冷え込みに拍車がかかっているように感じてます。AIチャットで答えらしきものが得られるのでリファレンスの需要は激減したし、ノウハウ集っぽい本も不要になりました。自分でコードを読み書きしなくてもエージェントでとりあえずアプリが生成されるので、プログラミングの入門書もめっきり売れなくなってる気がします。エージェントで開発が異常に加速している状況で、そもそも本を読む余裕がなくなっている人も多そう。 一方で、AIがらみの本はものすごくたくさん出版されています。こちらはノウハウ本にも需要があるっぽい。AIのサービスやエージェントのチュートリアル、チャ…",
     "hatenaDate": "2026-11-27T02:26:32Z",
     "users": [],
     "firstSeenAt": "2026-11-27T13:45:14.144931+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -501,7 +515,7 @@
     "hatenaDate": "2026-11-27T02:28:39Z",
     "users": [],
     "firstSeenAt": "2026-11-27T12:00:11.295517+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -565,14 +579,14 @@
     "title": "AI使って開発するなら、モデリングするんだよ - 4つの図で始めるモデリングと、AIにモデルを実装させるアーキテクチャ",
     "url": "https://speakerdeck.com/littlehands/umtp-suraido-20261125",
     "domain": "speakerdeck.com",
-    "count": 133,
+    "count": 136,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/littlehands/umtp-suraido-20261125",
     "screenshot": "https://files.speakerdeck.com/presentations/cc2d10c25b46460d81edae537df1bcc9/slide_0.jpg?41512814",
     "description": "4つの図で始めるモデリングと、AIにモデルを... AI使って開発するなら、モデリングするんだよ - 4つの図で始めるモデリングと、AIにモデルを実装させるアーキテクチャ UMTP モデリングフォーラム 2026（2026/11/25）での登壇資料です。 https://umtp-japan.org/event-seminar/mf2026/78668 AIで実装が速くなった今、人に残る仕事は何か。それは、問題を理解し、解決策を立てて確かめる「問題解決力」だと考えています。 この問題解決力をモデリングでどう高めるか、そしてモデルをAIにどう実装させるかをお話ししました。 - 前提: 問題にも…",
     "hatenaDate": "2026-11-26T23:54:33Z",
     "users": [],
     "firstSeenAt": "2026-11-27T11:15:13.271585+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -632,7 +646,7 @@
     "hatenaDate": "2026-11-27T01:03:08Z",
     "users": [],
     "firstSeenAt": "2026-11-27T11:00:17.994696+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -648,7 +662,7 @@
     "hatenaDate": "2026-11-26T22:15:24Z",
     "users": [],
     "firstSeenAt": "2026-11-27T10:15:12.806639+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -685,14 +699,14 @@
     "title": "【やじうまミニレビュー】 工具のマキタバッテリがPCの電源に!? 最大100Wの純正アダプタを使ってみた",
     "url": "https://pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2159706.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 86,
+    "count": 87,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2159706.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2159/706/01.jpg",
     "description": "やじうまミニレビューは、1つ持っておくと便利なPC周りのグッズや、ちょっとしたガジェットなど幅広いジャンルの製品を試して紹介するコーナーです。 マキタ「ADP15」に同社電動工具用のバッテリを装着し、PCを充電しているところ。実売価格は7,000円前後のケースが多い マキタ「ADP15」は、同社の 電動工具で用いられている専用バッテリに取り付け、スマホやノートPCの充電を可能にするアダプタだ 。USB Type-CとUSB Type-Aをそれぞれ1ポートずつ搭載しており、災害などの緊急時に、バッテリを有効活用できる一品だ。 USB PDによる最大100Wの充電に対応することから、ノートPCの…",
     "hatenaDate": "2026-11-26T22:47:09Z",
     "users": [],
     "firstSeenAt": "2026-11-27T09:30:14.269862+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -722,7 +736,7 @@
     "hatenaDate": "2026-11-26T23:09:25Z",
     "users": [],
     "firstSeenAt": "2026-11-27T09:15:13.893485+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body"
   },
   {
@@ -751,7 +765,7 @@
     "hatenaDate": "2026-11-26T02:50:48Z",
     "users": [],
     "firstSeenAt": "2026-11-27T09:15:13.893485+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -767,7 +781,7 @@
     "hatenaDate": "2026-11-26T01:15:13Z",
     "users": [],
     "firstSeenAt": "2026-11-27T09:00:13.103760+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body"
   },
   {
@@ -823,7 +837,7 @@
     "hatenaDate": "2026-11-26T11:26:19Z",
     "users": [],
     "firstSeenAt": "2026-11-27T08:30:14.527480+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body"
   },
   {
@@ -881,7 +895,7 @@
     "hatenaDate": "2026-11-26T19:56:13Z",
     "users": [],
     "firstSeenAt": "2026-11-27T07:45:13.002212+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body"
   },
   {
@@ -902,14 +916,14 @@
     "title": "情報量が4倍のQRコードを作ろう - Qiita",
     "url": "https://qiita.com/reipandada/items/17496db6ac5f64a5e61a",
     "domain": "qiita.com",
-    "count": 173,
+    "count": 175,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/reipandada/items/17496db6ac5f64a5e61a",
     "screenshot": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRmF2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbnQuY29tJTJGdSUyRjEyMTc5OTU1MiUzRnYlM0Q0P2l4bGliPXJiLTQuMS4xJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz02MWI1YzdlZDU3Nzc4ODBiZDE5MDJjMmY1MWU2OGJkMg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3De205d9df38903d1dcd4e63873ac5ccd6?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUU2JTgzJTg1JUU1JUEwJUIxJUU5JTg3JThGJUUzJTgxJThDNCVFNSU4MCU4RCVFMyU4MSVBRVFSJUUzJTgyJUIzJUUzJTgzJUJDJUUzJTgzJTg5JUUzJTgyJTkyJUU0JUJEJTlDJUUzJTgyJThEJUUzJTgxJTg2JnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9NTFhODJlNGM0MWYyN2IyYTIyZmY1NzllZDAwOWQ4MDc&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDByZWlwYW5kYWRhJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9ZTJiNjYxZmZjMWYxN2M5YmFiMjYzNWU1ODgzM2I4NDM&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=191d9ef4371126c9921387bf850e25e4",
     "description": "QRコードの向きは3つの角にある「回」のようなマークを見て、マークのない角の位置で判断しているそうです。 隠す角によって正しい向きが変わるため、読み取る値も変わります。1枚に4通りの値を持たせられるので情報量が4倍になるのではないでしょうか。賢いですね。 隠す角を順に変えてみます。GIF内の「読み取り結果」は読み取りライブラリで実際に読んだものです。 QiitaやZennのURLが読み取れていますね。成功です。これは偉大な発明かもしれません。 では4倍の実力を。Wikipedia「QRコード」の容量の節のURL（78文字）を用意しました。 同じ大きさで入るだけ詰めると、4つとも「https:…",
     "hatenaDate": "2026-11-25T20:01:53Z",
     "users": [],
     "firstSeenAt": "2026-11-27T07:15:11.545736+09:00",
-    "lastSeenAt": "2026-11-27T20:15:16.267577+09:00",
+    "lastSeenAt": "2026-11-27T20:30:14.812537+09:00",
     "descriptionSource": "body"
   },
   {
@@ -4352,22 +4366,6 @@
     "users": [],
     "firstSeenAt": "2026-11-24T17:00:15.201140+09:00",
     "lastSeenAt": "2026-11-25T07:00:18.757347+09:00",
-    "descriptionSource": "body",
-    "bodyStatus": "skip",
-    "bodyReason": "not-longer"
-  },
-  {
-    "title": "「松屋」の一人負けなのか？「吉野家」「すき家」と明暗を分けた既存店売上、その差はどこにあるのか #エキスパートトピ（三輪大輔） - エキスパート - Yahoo!ニュース",
-    "url": "https://news.yahoo.co.jp/expert/articles/c6b02eabde817393055dacbd810b748a6637ae39",
-    "domain": "news.yahoo.co.jp",
-    "count": 144,
-    "entryUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/expert/articles/c6b02eabde817393055dacbd810b748a6637ae39",
-    "screenshot": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/miwadaisuke/02772917/title-1795452910778.jpeg?exp=10800",
-    "description": "最初に断っておきたい。牛丼チェーンのなかで、私が最もよく利用するのは「松屋」である。その松屋の業績が気になっている。 松屋フーズホールディングスが11月13日に発表した中間決算は、売上高が前年同期比16.7％増加した一方、営業利益は34.3％減少した。六厘舎などを展開する松富士の買収も売上を押し上げたが、利益は減った。 さらに10月の既存店売上高は1.9％増、客単価は1.2％減。吉野家とすき家が客単価を伸ばす中、松屋は前年割れが続く。なぜ増収でも利益を確保できないのか。 松屋フーズHD 決算／4～9月は販管費増で営業利益34.3％減、通期予想を下方修正 出典：THE GOLD ONLINE（…",
-    "hatenaDate": "2026-11-24T03:38:59Z",
-    "users": [],
-    "firstSeenAt": "2026-11-24T16:00:15.761697+09:00",
-    "lastSeenAt": "2026-11-25T08:45:12.794250+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
