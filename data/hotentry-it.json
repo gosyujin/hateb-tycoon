@@ -10,9 +10,9 @@
     "hatenaDate": "2026-11-27T03:48:31Z",
     "users": [],
     "firstSeenAt": "2026-11-28T00:30:13.906804+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
-    "bodyTries": 1,
-    "bodyReason": "crawl-delay-too-long"
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
+    "bodyReason": "crawl-delay-too-long",
+    "bodyTries": 2
   },
   {
     "title": "iPhoneという奇跡:江島健太郎 / Kenn's Clairvoyance - CNET Japan",
@@ -25,7 +25,7 @@
     "hatenaDate": "2023-10-09T23:51:29Z",
     "users": [],
     "firstSeenAt": "2026-11-28T00:30:13.906804+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body"
   },
   {
@@ -39,7 +39,7 @@
     "hatenaDate": "2026-11-27T12:29:54Z",
     "users": [],
     "firstSeenAt": "2026-11-27T23:30:14.971487+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -48,14 +48,14 @@
     "title": "ISUCON2026 マルチリージョン構成におけるデータのインメモリ化 #isucon_namalog",
     "url": "https://speakerdeck.com/kawasy/isucon2026-statemachine-replication-for-multi-region-in-memory-data-store-maruchi-rijon-kousei-niokeru-deta-no-in-memorika-e46becf2-a792-4df7-b614-7d36bae5e42e",
     "domain": "speakerdeck.com",
-    "count": 7,
+    "count": 8,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/kawasy/isucon2026-statemachine-replication-for-multi-region-in-memory-data-store-maruchi-rijon-kousei-niokeru-deta-no-in-memorika-e46becf2-a792-4df7-b614-7d36bae5e42e",
     "screenshot": "https://files.speakerdeck.com/presentations/552d22e6f58046f48c5fe6c6cf6dfc9b/slide_0.jpg?41535790",
     "description": "ISUCON2026 マルチリージョン構成におけるデータのインメモリ化 #isucon_n... ISUCON2026 マルチリージョン構成におけるデータのインメモリ化 #isucon_namalog 2027-11-26 に開催したイベント、「ISUCON2026 優勝AIエージェント、8時間分の生ログを眺める会 sponsored by HERP」で投影した資料です。 ステートマシン・レプリケーションという手法を紹介し、AIエージェントがin-memory化のために書いたコードの設計を解説しています。 https://herp-inc.connpass.com/event/412…",
     "hatenaDate": "2026-11-27T01:52:22Z",
     "users": [],
     "firstSeenAt": "2026-11-27T23:30:14.971487+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body"
   },
   {
@@ -69,7 +69,7 @@
     "hatenaDate": "2026-11-27T11:42:54Z",
     "users": [],
     "firstSeenAt": "2026-11-27T23:15:13.948675+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body"
   },
   {
@@ -83,21 +83,21 @@
     "hatenaDate": "2026-11-27T07:25:50Z",
     "users": [],
     "firstSeenAt": "2026-11-27T23:15:13.948675+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "後回しできる設計、 前倒しすべき設計。",
     "url": "https://speakerdeck.com/anizozina/akitekucha-kanfarensu-2026-atomawashi-dekiru-sekkei-maedaoshi-subeki-sekkei",
     "domain": "speakerdeck.com",
-    "count": 13,
+    "count": 14,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/anizozina/akitekucha-kanfarensu-2026-atomawashi-dekiru-sekkei-maedaoshi-subeki-sekkei",
     "screenshot": "https://files.speakerdeck.com/presentations/2e6fb329f2944e6697ad1b3bdf9b2585/slide_0.jpg?41534942",
     "description": "Share with private links, password protection, and more control over your work. 後回しできる設計、 前倒しすべき設計。 コンパウンドを支える CoreDB と Event Sourcing Dress Code株式会社 / ◦ ◦ 2013/04 株式会社ワークスアプリケーションズ 2019/04 株式会社ビットキー 2023/04 株式会社Works Human Intelligence 2025/01 現職 • 業務 ◦ 共通基盤 / プロダクト横断の非機能要件系 • 技術 ◦ 最近はEvent Sourci…",
     "hatenaDate": "2026-11-27T07:20:50Z",
     "users": [],
     "firstSeenAt": "2026-11-27T23:15:13.948675+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body"
   },
   {
@@ -111,7 +111,7 @@
     "hatenaDate": "2026-11-26T00:33:26Z",
     "users": [],
     "firstSeenAt": "2026-11-27T23:15:13.948675+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -126,7 +126,7 @@
     "hatenaDate": "2026-11-26T08:35:02Z",
     "users": [],
     "firstSeenAt": "2026-11-27T23:00:15.388281+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -141,7 +141,7 @@
     "hatenaDate": "2026-11-26T08:09:12Z",
     "users": [],
     "firstSeenAt": "2026-11-27T23:00:15.388281+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body"
   },
   {
@@ -169,7 +169,7 @@
     "hatenaDate": "2026-11-27T11:42:55Z",
     "users": [],
     "firstSeenAt": "2026-11-27T22:30:13.262394+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -184,21 +184,21 @@
     "hatenaDate": "2026-11-27T07:28:30Z",
     "users": [],
     "firstSeenAt": "2026-11-27T22:15:13.778300+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "はじめての Lean",
     "url": "https://unaoya.github.io/lean-intro/",
     "domain": "unaoya.github.io",
-    "count": 54,
+    "count": 55,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/unaoya.github.io/lean-intro/",
     "screenshot": null,
     "description": "この教材の目的は、Lean のコードを書けるようになることではなく、証明が検査される仕組みを納得することである。 目標1 — Lean を読めるようになる。Lean のコードを読むとは、書かれた項の型を推測することである。そしてこの推測は機械的な手順で実行できる——だからコンピュータにも実行できる。実際に自分の手で型を推測できるようになること、少なくとも「これなら機械にもできそうだ」という感覚を持つことを目指す。 目標2 — 検証の仕組みを納得する。項の型を推測するこの仕組みが、定理の証明の検証にそのまま使えることを納得する。「なぜそれで証明の正しさを検証したと思えるのか」への答えがここにあ…",
     "hatenaDate": "2026-11-27T11:19:18Z",
     "users": [],
     "firstSeenAt": "2026-11-27T21:45:17.835403+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -243,7 +243,7 @@
     "hatenaDate": "2026-11-27T05:00:35Z",
     "users": [],
     "firstSeenAt": "2026-11-27T21:30:13.144014+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body"
   },
   {
@@ -293,14 +293,14 @@
     "title": "Linuxカーネルのバグ「TCPanic」を発見、TCP通信のみでホストが停止する脆弱性 | Ikotas Labs",
     "url": "https://ikotaslabs.com/news/2026-11-27",
     "domain": "ikotaslabs.com",
-    "count": 48,
+    "count": 49,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ikotaslabs.com/news/2026-11-27",
     "screenshot": "https://ikotaslabs.com/news/2026-11-27/img01.png",
     "description": "株式会社Ikotas Labsは、LinuxカーネルのTCP処理にあるバグを独自に発見し、「TCPanic」と名付けました。影響を受けるシステムでは、外部からのTCP通信のみでホスト全体が停止する可能性があります。これはLAN内などの限定的な環境に限ったものではなく、実際のインターネットを介した通信でも影響を受ける、現実的な攻撃です。 この脆弱性はCVE-2026-99288として登録されています。修正はすでに公開されており、安定版のLinux 7.3.4に含まれています。 Linuxカーネルは、受信したパケットを処理するために、対応するTCP接続を検索します。問題は、あるCPUが接続情報を…",
     "hatenaDate": "2026-11-27T09:14:53Z",
     "users": [],
     "firstSeenAt": "2026-11-27T20:30:14.812537+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -309,14 +309,14 @@
     "title": "DeNA、相づちを聞き逃さない日本語音声認識モデル3種を無償公開",
     "url": "https://pc.watch.impress.co.jp/docs/news/2159894.html",
     "domain": "pc.watch.impress.co.jp",
-    "count": 18,
+    "count": 19,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2159894.html",
     "screenshot": "https://pc.watch.impress.co.jp/img/pcw/list/2159/894/1.jpg",
     "description": "音声AIに「うん」と返したのに無視された、という経験がある人は多いかもしれない。株式会社ディー・エヌ・エー(DeNA)は11月26日、音声対話向けに追加学習した日本語音声認識(ASR)モデル3種のオープンウェイト(モデルの重み)を、Hugging Faceで無償公開した。 ライセンスは、Nemotron版が「OpenMDW License 1.1」、Haas版が「Apache License 2.0」、Parakeet版が「CC BY 4.0」。いずれも商用利用を含めて無償で利用できる。 今回公開したのは、3つのモデルをそれぞれ元にした追加学習版だ。元のモデルは、米NVIDIAのストリーミン…",
     "hatenaDate": "2026-11-27T05:41:30Z",
     "users": [],
     "firstSeenAt": "2026-11-27T20:15:16.267577+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body"
   },
   {
@@ -330,7 +330,7 @@
     "hatenaDate": "2026-11-27T08:16:56Z",
     "users": [],
     "firstSeenAt": "2026-11-27T20:15:16.267577+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body"
   },
   {
@@ -388,7 +388,7 @@
     "hatenaDate": "2026-11-27T06:42:21Z",
     "users": [],
     "firstSeenAt": "2026-11-27T19:45:13.316971+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body"
   },
   {
@@ -416,7 +416,7 @@
     "hatenaDate": "2026-11-27T07:09:52Z",
     "users": [],
     "firstSeenAt": "2026-11-27T19:45:13.316971+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body"
   },
   {
@@ -430,7 +430,7 @@
     "hatenaDate": "2026-11-27T04:35:43Z",
     "users": [],
     "firstSeenAt": "2026-11-27T19:00:15.290482+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body"
   },
   {
@@ -473,7 +473,7 @@
     "hatenaDate": "2026-11-27T08:09:28Z",
     "users": [],
     "firstSeenAt": "2026-11-27T18:30:13.549504+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body"
   },
   {
@@ -501,7 +501,7 @@
     "hatenaDate": "2026-11-27T04:20:59Z",
     "users": [],
     "firstSeenAt": "2026-11-27T18:15:13.260323+09:00",
-    "lastSeenAt": "2026-11-28T00:15:13.644093+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -572,7 +572,7 @@
     "hatenaDate": "2026-11-27T07:33:50Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:45:12.617377+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -602,7 +602,7 @@
     "hatenaDate": "2026-11-27T05:14:25Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:15:12.448929+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body"
   },
   {
@@ -616,7 +616,7 @@
     "hatenaDate": "2026-11-27T06:13:26Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:15:12.448929+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -632,7 +632,7 @@
     "hatenaDate": "2026-11-27T06:15:17Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:00:16.216137+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -676,7 +676,7 @@
     "hatenaDate": "2026-11-27T03:22:23Z",
     "users": [],
     "firstSeenAt": "2026-11-27T15:15:13.312514+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -714,14 +714,14 @@
     "title": "2026年に刊行されてよかったなと思うコンピューター技術書 - golden-luckyの日記",
     "url": "https://golden-lucky.hatenablog.com/entry/2026/11/27/111643",
     "domain": "golden-lucky.hatenablog.com",
-    "count": 208,
+    "count": 209,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/golden-lucky.hatenablog.com/entry/2026/11/27/111643",
     "screenshot": "https://ogimage.blog.st-hatena.com/8599973812290635215/14729835035344350684/1795751231",
     "description": "コンピューター技術書の市況は2026年に入ったころから冷え込みに拍車がかかっているように感じてます。AIチャットで答えらしきものが得られるのでリファレンスの需要は激減したし、ノウハウ集っぽい本も不要になりました。自分でコードを読み書きしなくてもエージェントでとりあえずアプリが生成されるので、プログラミングの入門書もめっきり売れなくなってる気がします。エージェントで開発が異常に加速している状況で、そもそも本を読む余裕がなくなっている人も多そう。 一方で、AIがらみの本はものすごくたくさん出版されています。こちらはノウハウ本にも需要があるっぽい。AIのサービスやエージェントのチュートリアル、チャ…",
     "hatenaDate": "2026-11-27T02:26:32Z",
     "users": [],
     "firstSeenAt": "2026-11-27T13:45:14.144931+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -878,7 +878,7 @@
     "hatenaDate": "2026-11-26T23:54:33Z",
     "users": [],
     "firstSeenAt": "2026-11-27T11:15:13.271585+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -947,14 +947,14 @@
     "title": "Skills over MCP、めっちゃよさそう | ashunar0",
     "url": "https://ashunar0.dev/posts/skills-over-mcp/",
     "domain": "ashunar0.dev",
-    "count": 143,
+    "count": 144,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/ashunar0.dev/posts/skills-over-mcp/",
     "screenshot": "https://ashunar0.dev/og/skills-over-mcp.png",
     "description": "11 月 24 日に、Anthropic から MCP まわりのアップデートが発表されました。 MCP servers can now ship skills, run tasks, and more with Claude Skills over MCP is in public beta in Claude, so MCP servers can ship skills alongside their tools. Tasks and Elicitation are now generally available, and File Uploads is rolling out soon…",
     "hatenaDate": "2026-11-26T22:15:24Z",
     "users": [],
     "firstSeenAt": "2026-11-27T10:15:12.806639+09:00",
-    "lastSeenAt": "2026-11-28T00:30:13.906804+09:00",
+    "lastSeenAt": "2026-11-28T00:35:26.273877+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
