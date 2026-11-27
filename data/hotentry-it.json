@@ -10,7 +10,7 @@
     "hatenaDate": "2026-11-27T11:42:28Z",
     "users": [],
     "firstSeenAt": "2026-11-28T03:15:12.728168+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -26,7 +26,7 @@
     "hatenaDate": "2026-11-27T03:48:31Z",
     "users": [],
     "firstSeenAt": "2026-11-28T00:30:13.906804+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -41,21 +41,21 @@
     "hatenaDate": "2023-10-09T23:51:29Z",
     "users": [],
     "firstSeenAt": "2026-11-28T00:30:13.906804+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "「ロリポップ！レンタルサーバー」の平文パスワード情報などが漏えい。GMOペパボの内部システムに不正アクセス　顧客情報51万6564件が漏えいの可能性、対象者に個別メール連絡",
     "url": "https://internet.watch.impress.co.jp/docs/news/2160136.html",
     "domain": "internet.watch.impress.co.jp",
-    "count": 31,
+    "count": 33,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2160136.html",
     "screenshot": "https://internet.watch.impress.co.jp/img/iw/list/2160/136/lolipop.png",
     "description": "「ロリポップ！レンタルサーバー」の平文パスワード情報などが漏えい。GMOペパボの内部システムに不正アクセス GMOペパボ株式会社の内部システムへの不正アクセスを通じて、「ロリポップ！レンタルサーバー」などの顧客情報が外部に持ち出されたことが判明した。同社が11月27日、公表した。一部顧客については、平文で保存していたパスワードも漏えいしたことが確認されているという。 「ロリポップ！レンタルサーバー」「ロリポップ！デプロイナウ」「ロリポップ！AIホームページ」「ロリポップ！AIエージェントクラウド」の顧客情報51万6564件が漏えいした可能性があるという。漏えいが確認されている情報は、以下のと…",
     "hatenaDate": "2026-11-27T12:29:54Z",
     "users": [],
     "firstSeenAt": "2026-11-27T23:30:14.971487+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -71,7 +71,7 @@
     "hatenaDate": "2026-11-27T01:52:22Z",
     "users": [],
     "firstSeenAt": "2026-11-27T23:30:14.971487+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body"
   },
   {
@@ -85,35 +85,35 @@
     "hatenaDate": "2026-11-27T11:42:54Z",
     "users": [],
     "firstSeenAt": "2026-11-27T23:15:13.948675+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "価格.comのAI駆動による全面刷新の現在地と振り返り",
     "url": "https://speakerdeck.com/tkyowa/kakaku-com-ai-driven-system-renewal-202611",
     "domain": "speakerdeck.com",
-    "count": 14,
+    "count": 15,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/tkyowa/kakaku-com-ai-driven-system-renewal-202611",
     "screenshot": "https://files.speakerdeck.com/presentations/9cf9a0552d5d4680bdec0fe2332f7a77/slide_0.jpg?41537110",
     "description": "価格.comでは、約960万行のC#／Classic ASPで構築されたシステムを、AIを活用して全面刷新する「DODAIプロジェクト」を進めています。本発表では、2026年6月の発表から約半年が経過したプロジェクトの現在地と、実践を通じて見えてきた課題・学びを紹介します。 前半では、「ハーネスは薄くてよい」という考え方が大規模なリプレイスでも成立するのかを検証します。詳細な工程を定めたワークフロー型と、自律エージェント型を一つの管理システムで比較し、品質・時間・費用の結果を共有。モデルの進化に合わせてハーネスを見直す必要性と、進行中の現場で既存の仕組みを手放す難しさを振り返ります。 後半で…",
     "hatenaDate": "2026-11-27T07:25:50Z",
     "users": [],
     "firstSeenAt": "2026-11-27T23:15:13.948675+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "後回しできる設計、 前倒しすべき設計。",
     "url": "https://speakerdeck.com/anizozina/akitekucha-kanfarensu-2026-atomawashi-dekiru-sekkei-maedaoshi-subeki-sekkei",
     "domain": "speakerdeck.com",
-    "count": 28,
+    "count": 29,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/anizozina/akitekucha-kanfarensu-2026-atomawashi-dekiru-sekkei-maedaoshi-subeki-sekkei",
     "screenshot": "https://files.speakerdeck.com/presentations/2e6fb329f2944e6697ad1b3bdf9b2585/slide_0.jpg?41534942",
     "description": "Share with private links, password protection, and more control over your work. 後回しできる設計、 前倒しすべき設計。 コンパウンドを支える CoreDB と Event Sourcing Dress Code株式会社 / ◦ ◦ 2013/04 株式会社ワークスアプリケーションズ 2019/04 株式会社ビットキー 2023/04 株式会社Works Human Intelligence 2025/01 現職 • 業務 ◦ 共通基盤 / プロダクト横断の非機能要件系 • 技術 ◦ 最近はEvent Sourci…",
     "hatenaDate": "2026-11-27T07:20:50Z",
     "users": [],
     "firstSeenAt": "2026-11-27T23:15:13.948675+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -144,7 +144,7 @@
     "hatenaDate": "2026-11-26T08:35:02Z",
     "users": [],
     "firstSeenAt": "2026-11-27T23:00:15.388281+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "bodyReason": "crawl-delay-too-long",
     "bodyTries": 3
   },
@@ -159,7 +159,7 @@
     "hatenaDate": "2026-11-26T08:09:12Z",
     "users": [],
     "firstSeenAt": "2026-11-27T23:00:15.388281+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body"
   },
   {
@@ -187,7 +187,7 @@
     "hatenaDate": "2026-11-27T11:42:55Z",
     "users": [],
     "firstSeenAt": "2026-11-27T22:30:13.262394+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
   },
@@ -202,21 +202,21 @@
     "hatenaDate": "2026-11-27T07:28:30Z",
     "users": [],
     "firstSeenAt": "2026-11-27T22:15:13.778300+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body"
   },
   {
     "title": "はじめての Lean",
     "url": "https://unaoya.github.io/lean-intro/",
     "domain": "unaoya.github.io",
-    "count": 101,
+    "count": 103,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/unaoya.github.io/lean-intro/",
     "screenshot": null,
     "description": "この教材の目的は、Lean のコードを書けるようになることではなく、証明が検査される仕組みを納得することである。 目標1 — Lean を読めるようになる。Lean のコードを読むとは、書かれた項の型を推測することである。そしてこの推測は機械的な手順で実行できる——だからコンピュータにも実行できる。実際に自分の手で型を推測できるようになること、少なくとも「これなら機械にもできそうだ」という感覚を持つことを目指す。 目標2 — 検証の仕組みを納得する。項の型を推測するこの仕組みが、定理の証明の検証にそのまま使えることを納得する。「なぜそれで証明の正しさを検証したと思えるのか」への答えがここにあ…",
     "hatenaDate": "2026-11-27T11:19:18Z",
     "users": [],
     "firstSeenAt": "2026-11-27T21:45:17.835403+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -261,7 +261,7 @@
     "hatenaDate": "2026-11-27T05:00:35Z",
     "users": [],
     "firstSeenAt": "2026-11-27T21:30:13.144014+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body"
   },
   {
@@ -318,7 +318,7 @@
     "hatenaDate": "2026-11-27T09:14:53Z",
     "users": [],
     "firstSeenAt": "2026-11-27T20:30:14.812537+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -334,7 +334,7 @@
     "hatenaDate": "2026-11-27T05:41:30Z",
     "users": [],
     "firstSeenAt": "2026-11-27T20:15:16.267577+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body"
   },
   {
@@ -348,7 +348,7 @@
     "hatenaDate": "2026-11-27T08:16:56Z",
     "users": [],
     "firstSeenAt": "2026-11-27T20:15:16.267577+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body"
   },
   {
@@ -406,7 +406,7 @@
     "hatenaDate": "2026-11-27T06:42:21Z",
     "users": [],
     "firstSeenAt": "2026-11-27T19:45:13.316971+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body"
   },
   {
@@ -434,7 +434,7 @@
     "hatenaDate": "2026-11-27T07:09:52Z",
     "users": [],
     "firstSeenAt": "2026-11-27T19:45:13.316971+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body"
   },
   {
@@ -448,7 +448,7 @@
     "hatenaDate": "2026-11-27T04:35:43Z",
     "users": [],
     "firstSeenAt": "2026-11-27T19:00:15.290482+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body"
   },
   {
@@ -484,14 +484,14 @@
     "title": "顧客情報を守るため、売上15％の自社ECを閉店　ドールメーカーが明かした「決断」の背景",
     "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003518/",
     "domain": "www.itmedia.co.jp",
-    "count": 43,
+    "count": 44,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/27/2000003518/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/27/2000003518/10013164/2048",
     "description": "（1/2 ページ） ドールの製造・販売を手掛けるアゾンインターナショナル（神奈川県藤沢市）は11月6日、個人情報保護を理由に公式オンラインショップ「AZONET」の閉店を発表した。同サイトの会員は約8万人、全社売上高の約15％を占めるという。18年続けてきた自社ECを、なぜ手放すのか。同社の早園正社長と戦略企画室室長の難波いつみ氏に話を聞いた。 アゾンインターナショナルは、観賞用・コレクション用のドールやその衣装を製造・販売している。オリジナルのドールに加え、アニメのキャラクターを再現したドールも手掛ける。顔の彩色や植毛、衣装の縫製など、多くの工程を職人が手作業で担っている。全国の直営店舗や…",
     "hatenaDate": "2026-11-27T08:09:28Z",
     "users": [],
     "firstSeenAt": "2026-11-27T18:30:13.549504+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body"
   },
   {
@@ -505,7 +505,7 @@
     "hatenaDate": "2026-11-27T05:37:18Z",
     "users": [],
     "firstSeenAt": "2026-11-27T18:30:13.549504+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body"
   },
   {
@@ -590,7 +590,7 @@
     "hatenaDate": "2026-11-27T07:33:50Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:45:12.617377+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -620,7 +620,7 @@
     "hatenaDate": "2026-11-27T05:14:25Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:15:12.448929+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body"
   },
   {
@@ -634,7 +634,7 @@
     "hatenaDate": "2026-11-27T06:13:26Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:15:12.448929+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -643,14 +643,14 @@
     "title": "「ロリポップ！レンタルサーバー」および関連サービスに対する不正アクセスによるお客様情報の漏えいについて - ロリポップ！レンタルサーバー",
     "url": "https://lolipop.jp/info/news/8279/",
     "domain": "lolipop.jp",
-    "count": 155,
+    "count": 156,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/lolipop.jp/info/news/8279/",
     "screenshot": "https://lolipop.jp/img/common/ogimage.png",
     "description": "平素より「ロリポップ！レンタルサーバー」をご利用いただき、誠にありがとうございます。 このたび、「ロリポップ！レンタルサーバー」および一部の関連サービスにおいて、第三者による不正アクセスが確認され、お客様情報が漏えいしたことが判明いたしました。 お客様および関係者の皆様にご迷惑をおかけしておりますことを心よりお詫び申し上げます。 なお、対象となるお客様へは、ご登録のメールアドレス宛てに個別にメールにてご連絡を差し上げております。 ※メールアドレスの変更等により個別のご連絡をお届けできなかったお客様におかれましては、誠に恐れ入りますが、本お知らせをもってご連絡に代えさせていただきます。 202…",
     "hatenaDate": "2026-11-27T06:15:17Z",
     "users": [],
     "firstSeenAt": "2026-11-27T16:00:16.216137+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -687,14 +687,14 @@
     "title": "サブスクの「お試し→自動更新」は客を逃していた？　新規購読者数は「お試し→自動解約」比23％減　140万人で実験",
     "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003503/",
     "domain": "www.itmedia.co.jp",
-    "count": 116,
+    "count": 117,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/27/2000003503/",
     "screenshot": "https://www.itmedia.co.jp/news/article/ogp/2611/27/2000003503/10013091/2048",
     "description": "2019年の開始以来、多様な最新論文を取り上げている連載「Innovative Tech」。ここではその番外編として“ちょっと昔”に発表された世界中の個性的な研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shiropen2 米スタンフォード大学や米シカゴ大学などに所属する研究者らが5月に発表した論文「Sophisticated Consumers with Inertia: Long-Term Implication…",
     "hatenaDate": "2026-11-27T03:22:23Z",
     "users": [],
     "firstSeenAt": "2026-11-27T15:15:13.312514+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -732,14 +732,14 @@
     "title": "2026年に刊行されてよかったなと思うコンピューター技術書 - golden-luckyの日記",
     "url": "https://golden-lucky.hatenablog.com/entry/2026/11/27/111643",
     "domain": "golden-lucky.hatenablog.com",
-    "count": 226,
+    "count": 227,
     "entryUrl": "https://b.hatena.ne.jp/entry/s/golden-lucky.hatenablog.com/entry/2026/11/27/111643",
     "screenshot": "https://ogimage.blog.st-hatena.com/8599973812290635215/14729835035344350684/1795751231",
     "description": "コンピューター技術書の市況は2026年に入ったころから冷え込みに拍車がかかっているように感じてます。AIチャットで答えらしきものが得られるのでリファレンスの需要は激減したし、ノウハウ集っぽい本も不要になりました。自分でコードを読み書きしなくてもエージェントでとりあえずアプリが生成されるので、プログラミングの入門書もめっきり売れなくなってる気がします。エージェントで開発が異常に加速している状況で、そもそも本を読む余裕がなくなっている人も多そう。 一方で、AIがらみの本はものすごくたくさん出版されています。こちらはノウハウ本にも需要があるっぽい。AIのサービスやエージェントのチュートリアル、チャ…",
     "hatenaDate": "2026-11-27T02:26:32Z",
     "users": [],
     "firstSeenAt": "2026-11-27T13:45:14.144931+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -896,7 +896,7 @@
     "hatenaDate": "2026-11-26T23:54:33Z",
     "users": [],
     "firstSeenAt": "2026-11-27T11:15:13.271585+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
@@ -972,7 +972,7 @@
     "hatenaDate": "2026-11-26T22:15:24Z",
     "users": [],
     "firstSeenAt": "2026-11-27T10:15:12.806639+09:00",
-    "lastSeenAt": "2026-11-28T04:30:12.501864+09:00",
+    "lastSeenAt": "2026-11-28T04:45:12.507669+09:00",
     "descriptionSource": "body",
     "bodyStatus": "skip",
     "bodyReason": "not-longer"
